@@ -15961,13 +15961,21 @@
           "flags":0,
           "keywordFlags":0,
           "name":"MaxDamage",
-          "type":"MORE"
+          "type":"MORE",
+          "1":{
+            "skillType":1,
+            "type":"SkillType"
+          }
         }],
       "minimum_attack_damage_+%_final_from_volatility_support":[{
           "flags":0,
           "keywordFlags":0,
           "name":"MinDamage",
-          "type":"MORE"
+          "type":"MORE",
+          "1":{
+            "skillType":1,
+            "type":"SkillType"
+          }
         }]
     },
     "stats":["minimum_attack_damage_+%_final_from_volatility_support","maximum_attack_damage_+%_final_from_volatility_support"],
