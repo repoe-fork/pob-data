@@ -56632,8 +56632,12 @@
         "keywordFlags":0,
         "name":"EnemyAilmentDuration",
         "type":"INC",
-        "value":80
-      }],"  by Retaliation Skills "],
+        "value":80,
+        "1":{
+          "skillType":132,
+          "type":"SkillType"
+        }
+      }]],
   "80% increased Effect of Arcane Surge on you while affected by Clarity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -102627,37 +102631,9 @@
   "Shepherd of Souls":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"SoulCost",
-        "type":"MORE",
-        "value":-80,
-        "1":{
-          "skillType":42,
-          "type":"SkillType"
-        },
-        "2":{
-          "neg":true,
-          "skillType":43,
-          "type":"SkillType"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SoulCost",
-        "type":"INC",
-        "value":100,
-        "1":{
-          "skillType":42,
-          "type":"SkillType"
-        },
-        "2":{
-          "neg":true,
-          "skillType":43,
-          "type":"SkillType"
-        },
-        "3":{
-          "type":"Multiplier",
-          "var":"VaalSkillsUsedInPast8Seconds"
-        }
+        "name":"ShepherdOfSouls",
+        "type":"FLAG",
+        "value":true
       }]],
   "Shield with no Shaper Memory Summoned":[null,"Shield with no Shaper Memory Summoned "],
   "Shield with no Shaper Memory Summoned Maximum 10 Remembrance":[null,"Shield with no Shaper Memory Summoned Maximum 10 Remembrance "],
