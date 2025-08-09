@@ -54394,6 +54394,27 @@
       "area":true,
       "spell":true
     },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DPS",
+        "type":"MORE",
+        "value":-66.666666666667,
+        "1":{
+          "skillPart":2,
+          "type":"SkillPart"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DPS",
+        "type":"MORE",
+        "value":-33.333333333333,
+        "1":{
+          "skillPart":3,
+          "type":"SkillPart"
+        }
+      }],
     "baseTypeName":"Lightning Tendrils",
     "castTime":0.23,
     "color":3,
@@ -54841,6 +54862,8 @@
     "name":"Lightning Tendrils",
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
+        "name":"Average DPS"
+      },{
         "name":"Normal pulse"
       },{
         "name":"Stronger pulse"
@@ -54867,7 +54890,7 @@
           "name":"CritChance",
           "type":"OVERRIDE",
           "1":{
-            "skillPart":2,
+            "skillPart":3,
             "type":"SkillPart"
           }
         }
@@ -54878,7 +54901,18 @@
           "name":"Damage",
           "type":"MORE",
           "1":{
-            "skillPart":2,
+            "skillPart":3,
+            "type":"SkillPart"
+          }
+        }],
+      "lightning_tendrils_channelled_larger_pulse_interval":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Every3UseCrit",
+          "type":"FLAG",
+          "value":true,
+          "1":{
+            "skillPart":1,
             "type":"SkillPart"
           }
         }]
@@ -55342,6 +55376,8 @@
     "name":"Lightning Tendrils of Eccentricity",
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "parts":[{
+        "name":"Average DPS"
+      },{
         "name":"Normal pulse"
       },{
         "name":"Stronger pulse"
@@ -55368,7 +55404,7 @@
           "name":"CritChance",
           "type":"OVERRIDE",
           "1":{
-            "skillPart":2,
+            "skillPart":3,
             "type":"SkillPart"
           }
         }
@@ -55379,7 +55415,7 @@
           "name":"AreaOfEffect",
           "type":"MORE",
           "1":{
-            "skillPart":2,
+            "skillPart":3,
             "type":"SkillPart"
           }
         }],
@@ -55389,8 +55425,35 @@
           "name":"Damage",
           "type":"MORE",
           "1":{
-            "skillPart":2,
+            "skillPart":3,
             "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"pulseDamage"
+          }
+        }],
+      "lightning_tendrils_channelled_larger_pulse_interval":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Every5UseCrit",
+          "type":"FLAG",
+          "value":true,
+          "1":{
+            "skillPart":1,
+            "type":"SkillPart"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"pulseInterval"
           }
         }]
     },
