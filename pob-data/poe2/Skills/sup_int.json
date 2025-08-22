@@ -2801,6 +2801,27 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_varied_troops_damage_+%_final_per_different_persistent_ominion":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"MinionModifier",
+              "type":"LIST",
+              "value":{
+                "mod":{
+                  "flags":0,
+                  "keywordFlags":0,
+                  "name":"Damage",
+                  "type":"MORE",
+                  "1":{
+                    "actor":"parent",
+                    "type":"Multiplier",
+                    "var":"PersistentMinionTypes"
+                  }
+                }
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
