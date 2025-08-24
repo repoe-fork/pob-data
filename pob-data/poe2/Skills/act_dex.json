@@ -21619,6 +21619,7 @@
       },{
         "levelRequirement":90
       }],
+    "minionList":[],
     "minionSkillTypes":{
       "1":true,
       "2":true,
@@ -21657,7 +21658,13 @@
     },
     "statSets":[{
         "baseEffectiveness":0,
-        "baseFlags":[],
+        "baseFlags":{
+          "duration":true,
+          "minion":true,
+          "permanentMinion":true,
+          "spell":true,
+          "summonBeast":true
+        },
         "constantStats":[["minion_base_resummon_time_ms",12000]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Minion Info",

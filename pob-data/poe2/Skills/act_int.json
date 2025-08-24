@@ -48927,6 +48927,7 @@
         "levelRequirement":90,
         "spiritReservationFlat":50
       }],
+    "minionList":[],
     "minionSkillTypes":{
       "1":true,
       "2":true,
@@ -49056,33 +49057,7 @@
           },{
             "actorLevel":288.29998779297
           }],
-        "minionList":[],
         "statDescriptionScope":"skill_stat_descriptions",
-        "statMap":{
-          "accuracy_rating":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"MinionModifier",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"Accuracy",
-                  "type":"BASE"
-                }
-              }
-            }],
-          "raised_spectre_level":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"minionLevel"
-              }
-            }]
-        },
         "stats":["is_resummoning_minion","display_statset_no_hit_damage"]
       }]
   },

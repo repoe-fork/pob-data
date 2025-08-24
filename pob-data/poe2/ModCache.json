@@ -37750,45 +37750,23 @@
   "Skills gain 20% increased Critical Hit Chance per socketed blue Support Gem":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
-        "value":20,
-        "1":{
-          "type":"Multiplier",
-          "var":"BlueSupportGems"
-        }
+        "name":"SkillCritChanceIncreasedPerBlueSupport",
+        "type":"FLAG",
+        "value":20
       }]],
   "Skills gain 20% increased Damage per socketed red Support Gem":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":20,
-        "1":{
-          "type":"Multiplier",
-          "var":"RedSupportGems"
-        }
+        "name":"SkillDamageIncreasedPerRedSupport",
+        "type":"FLAG",
+        "value":20
       }]],
   "Skills gain 6% increased Skill Speed per socketed green Support Gem":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":6,
-        "1":{
-          "type":"Multiplier",
-          "var":"GreenSupportGems"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WarcrySpeed",
-        "type":"INC",
-        "value":6,
-        "1":{
-          "type":"Multiplier",
-          "var":"GreenSupportGems"
-        }
+        "name":"SkillSpeedIncreasedPerGreenSupport",
+        "type":"FLAG",
+        "value":6
       }]],
   "Skills gain a Base Life Cost equal to 10% of Base Mana Cost":[[{
         "flags":0,

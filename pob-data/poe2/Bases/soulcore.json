@@ -1,7 +1,7 @@
 {
   "Adept Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +8 to Dexterity\nArmour: +8 to Dexterity",
+    "implicit":"Martial Weapons: +8 to Dexterity\nArmour: +8 to Dexterity\nCaster: +8 to Dexterity\nSceptre: +8 to Dexterity",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -12,9 +12,43 @@
     },
     "type":"Rune"
   },
+  "Atmohua's Soul Core of Retreat":{
+    "hidden":true,
+    "implicit":"Body Armour: 30% faster start of Energy Shield Recharge",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Bear Talisman":{
+    "implicit":"Helmet: 8% increased Area of Effect",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "wild_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Boar Talisman":{
+    "implicit":"Gloves: Gain 1 Rage on Melee Hit",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "wild_talisman":true
+    },
+    "type":"Talisman"
+  },
   "Body Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Leeches 2.5% of Physical Damage as Life\nArmour: +30 to maximum Life",
+    "implicit":"Martial Weapons: Leeches 2.5% of Physical Damage as Life\nArmour: +30 to maximum Life\nCaster: +30 to maximum Energy Shield",
     "implicitModTypes":[],
     "req":{
       "level":37
@@ -25,9 +59,91 @@
     },
     "type":"Rune"
   },
+  "Cat Talisman":{
+    "implicit":"Boots: Hits against you have 15% reduced Critical Damage Bonus",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "vivid_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Cholotl's Soul Core of War":{
+    "hidden":true,
+    "implicit":"Bow: 20% increased Projectile Speed",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Citaqualotl's Soul Core of Foulness":{
+    "hidden":true,
+    "implicit":"Martial Weapons: Adds 13 to 19 Chaos damage",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Countess Seske's Rune of Archery":{
+    "implicit":"Bow: Bow Attacks fire an additional Arrow",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Courtesan Mannan's Rune of Cruelty":{
+    "implicit":"Gloves: 15% increased Magnitude of Damaging Ailments you inflict",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Craiceann's Rune of Recovery":{
+    "implicit":"Body Armour: 50% increased Energy Shield Recharge Rate",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Craiceann's Rune of Warding":{
+    "implicit":"Body Armour: 40% reduced effect of Curses on you",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
   "Desert Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 7 to 11 Fire Damage\nArmour: +12% to Fire Resistance",
+    "implicit":"Martial Weapons: Adds 7 to 11 Fire Damage\nArmour: +12% to Fire Resistance\nCaster: Gain 10% of Damage as Extra Fire Damage",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -38,9 +154,99 @@
     },
     "type":"Rune"
   },
+  "Estazunti's Soul Core of Convalescence":{
+    "hidden":true,
+    "implicit":"Boots: 10% increased speed of Recoup Effects",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Farrul's Rune of Grace":{
+    "implicit":"Boots: 6% reduced Movement Speed Penalty from using Skills while moving",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Farrul's Rune of the Chase":{
+    "implicit":"Boots: 5% increased Movement Speed",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Farrul's Rune of the Hunt":{
+    "implicit":"Martial Weapons: 50% increased Attack Damage against Rare or Unique Enemies",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Fenumus' Rune of Agony":{
+    "implicit":"Martial Weapons: Gain 13% of Damage as Extra Chaos Damage\nCaster: Gain 13% of Damage as Extra Chaos Damage",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Fenumus' Rune of Draining":{
+    "implicit":"Gloves: 20% increased Effect of Withered",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Fenumus' Rune of Spinning":{
+    "implicit":"Gloves: 8% increased Cast Speed",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Fox Talisman":{
+    "implicit":"Body Armour: +2% to Quality of all Skills",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "sacred_talisman":true
+    },
+    "type":"Talisman"
+  },
   "Glacial Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 6 to 10 Cold Damage\nArmour: +12% to Cold Resistance",
+    "implicit":"Martial Weapons: Adds 6 to 10 Cold Damage\nArmour: +12% to Cold Resistance\nCaster: Gain 10% of Damage as Extra Cold Damage",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -53,7 +259,7 @@
   },
   "Greater Adept Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +10 to Dexterity\nArmour: +10 to Dexterity",
+    "implicit":"Martial Weapons: +10 to Dexterity\nArmour: +10 to Dexterity\nCaster: +10 to Dexterity\nSceptre: +10 to Dexterity",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -66,7 +272,7 @@
   },
   "Greater Body Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Leeches 3% of Physical Damage as Life\nArmour: +40 to maximum Life",
+    "implicit":"Martial Weapons: Leeches 3% of Physical Damage as Life\nArmour: +40 to maximum Life\nCaster: +35 to maximum Energy Shield",
     "implicitModTypes":[],
     "req":{
       "level":57
@@ -79,7 +285,7 @@
   },
   "Greater Desert Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 13 to 16 Fire Damage\nArmour: +14% to Fire Resistance",
+    "implicit":"Martial Weapons: Adds 13 to 16 Fire Damage\nArmour: +14% to Fire Resistance\nCaster: Gain 12% of Damage as Extra Fire Damage",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -92,7 +298,7 @@
   },
   "Greater Glacial Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 9 to 15 Cold Damage\nArmour: +14% to Cold Resistance",
+    "implicit":"Martial Weapons: Adds 9 to 15 Cold Damage\nArmour: +14% to Cold Resistance\nCaster: Gain 12% of Damage as Extra Cold Damage",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -105,7 +311,7 @@
   },
   "Greater Inspiration Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Gain 24 Mana per Enemy Killed\nArmour: 18% increased Mana Regeneration Rate",
+    "implicit":"Martial Weapons: Gain 24 Mana per Enemy Killed\nArmour: 18% increased Mana Regeneration Rate\nCaster: 24% increased Mana Regeneration Rate",
     "implicitModTypes":[],
     "req":{
       "level":62
@@ -118,7 +324,7 @@
   },
   "Greater Iron Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: 25% increased Physical Damage\nArmour: 25% increased Armour, Evasion and Energy Shield",
+    "implicit":"Martial Weapons: 25% increased Physical Damage\nArmour: 25% increased Armour, Evasion and Energy Shield\nCaster: 30% increased Spell Damage",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -131,7 +337,7 @@
   },
   "Greater Mind Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Leeches 2.5% of Physical Damage as Mana\nArmour: +35 to maximum Mana",
+    "implicit":"Martial Weapons: Leeches 2.5% of Physical Damage as Mana\nArmour: +35 to maximum Mana\nCaster: +35 to maximum Mana",
     "implicitModTypes":[],
     "req":{
       "level":57
@@ -144,7 +350,7 @@
   },
   "Greater Rebirth Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Gain 30 Life per Enemy Killed\nArmour: Regenerate 0.35% of maximum Life per second",
+    "implicit":"Martial Weapons: Gain 30 Life per Enemy Killed\nArmour: Regenerate 0.35% of maximum Life per second\nCaster: 18% increased Energy Shield Recharge Rate",
     "implicitModTypes":[],
     "req":{
       "level":62
@@ -157,7 +363,7 @@
   },
   "Greater Resolve Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +10 to Intelligence\nArmour: +10 to Intelligence",
+    "implicit":"Martial Weapons: +10 to Intelligence\nArmour: +10 to Intelligence\nCaster: +10 to Intelligence\nSceptre: +10 to Intelligence",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -170,7 +376,7 @@
   },
   "Greater Robust Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +10 to Strength\nArmour: +10 to Strength",
+    "implicit":"Martial Weapons: +10 to Strength\nArmour: +10 to Strength\nCaster: +10 to Strength\nSceptre: +10 to Strength",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -182,7 +388,6 @@
     "type":"Rune"
   },
   "Greater Rune of Alacrity":{
-    "hidden":true,
     "implicit":"Martial Weapons: 8% increased Skill Speed\nArmour: Debuffs on you expire 8% faster",
     "implicitModTypes":[],
     "req":{
@@ -194,7 +399,6 @@
     "type":"Rune"
   },
   "Greater Rune of Leadership":{
-    "hidden":true,
     "implicit":"Martial Weapons: Minions gain 10% of their Physical Damage as Extra Lightning Damage\nArmour: Minions take 10% of Physical Damage as Lightning Damage",
     "implicitModTypes":[],
     "req":{
@@ -206,7 +410,6 @@
     "type":"Rune"
   },
   "Greater Rune of Nobility":{
-    "hidden":true,
     "implicit":"Martial Weapons: Attacks with this Weapon have 10% chance to inflict Lightning Exposure\nArmour: 10% reduced effect of Shock on you",
     "implicitModTypes":[],
     "req":{
@@ -218,7 +421,6 @@
     "type":"Rune"
   },
   "Greater Rune of Tithing":{
-    "hidden":true,
     "implicit":"Martial Weapons: Meta Skills gain 10% increased Energy\nArmour: 1 to 100 Lightning Thorns damage",
     "implicitModTypes":[],
     "req":{
@@ -231,7 +433,7 @@
   },
   "Greater Stone Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Causes 30% increased Stun Buildup\nArmour: +50 to Stun Threshold",
+    "implicit":"Martial Weapons: Causes 30% increased Stun Buildup\nArmour: +50 to Stun Threshold\nCaster: Gain additional Stun Threshold equal to 14% of maximum Energy Shield",
     "implicitModTypes":[],
     "req":{
       "level":59
@@ -244,7 +446,7 @@
   },
   "Greater Storm Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 1 to 30 Lightning Damage\nArmour: +14% to Lightning Resistance",
+    "implicit":"Martial Weapons: Adds 1 to 30 Lightning Damage\nArmour: +14% to Lightning Resistance\nCaster: Gain 12% of Damage as Extra Lightning Damage",
     "implicitModTypes":[],
     "req":{
       "level":52
@@ -270,7 +472,7 @@
   },
   "Greater Vision Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +110 to Accuracy Rating\nArmour: 12% increased Life and Mana Recovery from Flasks",
+    "implicit":"Martial Weapons: +110 to Accuracy Rating\nArmour: 12% increased Life and Mana Recovery from Flasks\nCaster: 24% increased Critical Hit Chance for Spells",
     "implicitModTypes":[],
     "req":{
       "level":59
@@ -281,9 +483,48 @@
     },
     "type":"Rune"
   },
+  "Guatelitzi's Soul Core of Endurance":{
+    "hidden":true,
+    "implicit":"Martial Weapons: 50% chance when you gain an Endurance Charge to gain an additional Endurance Charge\nCaster: 50% chance when you gain an Endurance Charge to gain an additional Endurance Charge",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Hayoxi's Soul Core of Heatproofing":{
+    "hidden":true,
+    "implicit":"Body Armour: 20% of Armour also applies to Cold Damage taken from Hits",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Hedgewitch Assandra's Rune of Wisdom":{
+    "implicit":"Caster: +1 to Level of all Spell Skills",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
   "Inspiration Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Gain 16 Mana per Enemy Killed\nArmour: 15% increased Mana Regeneration Rate",
+    "implicit":"Martial Weapons: Gain 16 Mana per Enemy Killed\nArmour: 15% increased Mana Regeneration Rate\nCaster: 20% increased Mana Regeneration Rate",
     "implicitModTypes":[],
     "req":{
       "level":45
@@ -296,7 +537,7 @@
   },
   "Iron Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: 20% increased Physical Damage\nArmour: 20% increased Armour, Evasion and Energy Shield",
+    "implicit":"Martial Weapons: 20% increased Physical Damage\nArmour: 20% increased Armour, Evasion and Energy Shield\nCaster: 25% increased Spell Damage",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -307,9 +548,20 @@
     },
     "type":"Rune"
   },
+  "Lady Hestra's Rune of Winter":{
+    "implicit":"Martial Weapons: Adds 19 to 28 Cold Damage",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
   "Lesser Adept Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +5 to Dexterity\nArmour: +6 to Dexterity",
+    "implicit":"Martial Weapons: +6 to Dexterity\nArmour: +6 to Dexterity\nCaster: +6 to Dexterity\nSceptre: +6 to Dexterity",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -322,7 +574,7 @@
   },
   "Lesser Body Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Leeches 2% of Physical Damage as Life\nArmour: +20 to maximum Life",
+    "implicit":"Martial Weapons: Leeches 2% of Physical Damage as Life\nArmour: +20 to maximum Life\nCaster: +25 to maximum Energy Shield",
     "implicitModTypes":[],
     "req":{
       "level":11
@@ -335,7 +587,7 @@
   },
   "Lesser Desert Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 4 to 6 Fire Damage\nArmour: +10% to Fire Resistance",
+    "implicit":"Martial Weapons: Adds 4 to 6 Fire Damage\nArmour: +10% to Fire Resistance\nCaster: Gain 8% of Damage as Extra Fire Damage",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -348,7 +600,7 @@
   },
   "Lesser Glacial Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 3 to 5 Cold Damage\nArmour: +10% to Cold Resistance",
+    "implicit":"Martial Weapons: Adds 3 to 5 Cold Damage\nArmour: +10% to Cold Resistance\nCaster: Gain 8% of Damage as Extra Cold Damage",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -361,7 +613,7 @@
   },
   "Lesser Inspiration Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Gain 8 Mana per Enemy Killed\nArmour: 12% increased Mana Regeneration Rate",
+    "implicit":"Martial Weapons: Gain 8 Mana per Enemy Killed\nArmour: 12% increased Mana Regeneration Rate\nCaster: 16% increased Mana Regeneration Rate",
     "implicitModTypes":[],
     "req":{
       "level":21
@@ -374,7 +626,7 @@
   },
   "Lesser Iron Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: 15% increased Physical Damage\nArmour: 15% increased Armour, Evasion and Energy Shield",
+    "implicit":"Martial Weapons: 15% increased Physical Damage\nArmour: 15% increased Armour, Evasion and Energy Shield\nCaster: 20% increased Spell Damage",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -387,7 +639,7 @@
   },
   "Lesser Mind Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Leeches 1.5% of Physical Damage as Mana\nArmour: +15 to maximum Mana",
+    "implicit":"Martial Weapons: Leeches 1.5% of Physical Damage as Mana\nArmour: +15 to maximum Mana\nCaster: +25 to maximum Mana",
     "implicitModTypes":[],
     "req":{
       "level":11
@@ -400,7 +652,7 @@
   },
   "Lesser Rebirth Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Gain 10 Life per Enemy Killed\nArmour: Regenerate 0.25% of maximum Life per second",
+    "implicit":"Martial Weapons: Gain 10 Life per Enemy Killed\nArmour: Regenerate 0.25% of maximum Life per second\nCaster: 12% increased Energy Shield Recharge Rate",
     "implicitModTypes":[],
     "req":{
       "level":21
@@ -413,7 +665,7 @@
   },
   "Lesser Resolve Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +6 to Intelligence\nArmour: +6 to Intelligence",
+    "implicit":"Martial Weapons: +6 to Intelligence\nArmour: +6 to Intelligence\nCaster: +6 to Intelligence\nSceptre: +6 to Intelligence",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -426,7 +678,7 @@
   },
   "Lesser Robust Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +6 to Strength\nArmour: +6 to Strength",
+    "implicit":"Martial Weapons: +6 to Strength\nArmour: +6 to Strength\nCaster: +6 to Strength\nSceptre: +6 to Strength",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -439,7 +691,7 @@
   },
   "Lesser Stone Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Causes 20% increased Stun Buildup\nArmour: +30 to Stun Threshold",
+    "implicit":"Martial Weapons: Causes 20% increased Stun Buildup\nArmour: +30 to Stun Threshold\nCaster: Gain additional Stun Threshold equal to 10% of maximum Energy Shield",
     "implicitModTypes":[],
     "req":{
       "level":16
@@ -452,7 +704,7 @@
   },
   "Lesser Storm Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 1 to 10 Lightning Damage\nArmour: +10% to Lightning Resistance",
+    "implicit":"Martial Weapons: Adds 1 to 10 Lightning Damage\nArmour: +10% to Lightning Resistance\nCaster: Gain 8% of Damage as Extra Lightning Damage",
     "implicitModTypes":[],
     "req":{
       "level":5
@@ -478,7 +730,7 @@
   },
   "Lesser Vision Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +50 to Accuracy Rating\nArmour: 8% increased Life and Mana Recovery from Flasks",
+    "implicit":"Martial Weapons: +50 to Accuracy Rating\nArmour: 8% increased Life and Mana Recovery from Flasks\nCaster: 16% increased Critical Hit Chance for Spells",
     "implicitModTypes":[],
     "req":{
       "level":16
@@ -491,7 +743,7 @@
   },
   "Mind Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Leeches 2% of Physical Damage as Mana\nArmour: +25 to maximum Mana",
+    "implicit":"Martial Weapons: Leeches 2% of Physical Damage as Mana\nArmour: +25 to maximum Mana\nCaster: +30 to maximum Mana",
     "implicitModTypes":[],
     "req":{
       "level":37
@@ -502,9 +754,77 @@
     },
     "type":"Rune"
   },
+  "Opiloti's Soul Core of Assault":{
+    "hidden":true,
+    "implicit":"Martial Weapons: 50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge\nCaster: 50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Owl Talisman":{
+    "implicit":"Boots: 5% increased Cooldown Recovery Rate",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "primal_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Ox Talisman":{
+    "implicit":"Boots: 20% increased Presence Area of Effect",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "wild_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Primate Talisman":{
+    "implicit":"Helmet: Minions have 12% increased maximum Life",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "primal_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Quipolatl's Soul Core of Flow":{
+    "hidden":true,
+    "implicit":"Helmet: 8% increased Skill Effect Duration\n8% increased Cooldown Recovery Rate",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Rabbit Talisman":{
+    "implicit":"Body Armour: 8% increased Rarity of Items found",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "sacred_talisman":true
+    },
+    "type":"Talisman"
+  },
   "Rebirth Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Gain 20 Life per Enemy Killed\nArmour: Regenerate 0.3% of maximum Life per second",
+    "implicit":"Martial Weapons: Gain 20 Life per Enemy Killed\nArmour: Regenerate 0.3% of maximum Life per second\nCaster: 15% increased Energy Shield Recharge Rate",
     "implicitModTypes":[],
     "req":{
       "level":45
@@ -517,7 +837,7 @@
   },
   "Resolve Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +8 to Intelligence\nArmour: +8 to Intelligence",
+    "implicit":"Martial Weapons: +8 to Intelligence\nArmour: +8 to Intelligence\nCaster: +8 to Intelligence\nSceptre: +8 to Intelligence",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -530,7 +850,7 @@
   },
   "Robust Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +8 to Strength\nArmour: +8 to Strength",
+    "implicit":"Martial Weapons: +8 to Strength\nArmour: +8 to Strength\nCaster: +8 to Strength\nSceptre: +8 to Strength",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -540,6 +860,49 @@
       "rune_normal":true
     },
     "type":"Rune"
+  },
+  "Saqawal's Rune of Erosion":{
+    "implicit":"Helmet: 20% increased Exposure Effect",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Saqawal's Rune of Memory":{
+    "implicit":"Helmet: 2% increased Experience gain",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Saqawal's Rune of the Sky":{
+    "implicit":"Martial Weapons: Gain 6% of Damage as Extra Damage of all Elements\nCaster: Gain 6% of Damage as Extra Damage of all Elements",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Serpent Talisman":{
+    "implicit":"Gloves: 5% increased Curse Magnitudes",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "primal_talisman":true
+    },
+    "type":"Talisman"
   },
   "Soul Core of Atmohua":{
     "hidden":true,
@@ -565,7 +928,7 @@
     "tags":{
       "default":true,
       "soul_core":true,
-      "soul_core_tier3":true
+      "soul_core_tier2":true
     },
     "type":"SoulCore"
   },
@@ -635,7 +998,7 @@
     "tags":{
       "default":true,
       "soul_core":true,
-      "soul_core_tier3":true
+      "soul_core_tier2":true
     },
     "type":"SoulCore"
   },
@@ -655,7 +1018,7 @@
   },
   "Soul Core of Tacati":{
     "hidden":true,
-    "implicit":"Martial Weapons: 15% chance to Poison on Hit with this weapon\nArmour: +7% to Chaos Resistance",
+    "implicit":"Martial Weapons: 15% chance to Poison on Hit with this weapon\nArmour: +11% to Chaos Resistance",
     "implicitModTypes":[],
     "req":{
       "level":35
@@ -705,7 +1068,7 @@
     "tags":{
       "default":true,
       "soul_core":true,
-      "soul_core_tier3":true
+      "soul_core_tier2":true
     },
     "type":"SoulCore"
   },
@@ -719,7 +1082,7 @@
     "tags":{
       "default":true,
       "soul_core":true,
-      "soul_core_tier3":true
+      "soul_core_tier2":true
     },
     "type":"SoulCore"
   },
@@ -751,9 +1114,19 @@
     },
     "type":"SoulCore"
   },
+  "Stag Talisman":{
+    "implicit":"Helmet: 8% increased Exposure Effect",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "vivid_talisman":true
+    },
+    "type":"Talisman"
+  },
   "Stone Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Causes 25% increased Stun Buildup\nArmour: +40 to Stun Threshold",
+    "implicit":"Martial Weapons: Causes 25% increased Stun Buildup\nArmour: +40 to Stun Threshold\nCaster: Gain additional Stun Threshold equal to 12% of maximum Energy Shield",
     "implicitModTypes":[],
     "req":{
       "level":41
@@ -766,7 +1139,7 @@
   },
   "Storm Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: Adds 1 to 20 Lightning Damage\nArmour: +12% to Lightning Resistance",
+    "implicit":"Martial Weapons: Adds 1 to 20 Lightning Damage\nArmour: +12% to Lightning Resistance\nCaster: Gain 10% of Damage as Extra Lightning Damage",
     "implicitModTypes":[],
     "req":{
       "level":31
@@ -776,6 +1149,90 @@
       "rune_normal":true
     },
     "type":"Rune"
+  },
+  "Tacati's Soul Core of Affliction":{
+    "hidden":true,
+    "implicit":"Helmet: Enemies you Curse have -4% to Chaos Resistance",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Talisman of Eeshta":{
+    "implicit":"Helmet: 6% reduced Cost of Skills",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "primal_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Talisman of Egrin":{
+    "implicit":"Helmet: Enemies you Curse take 5% increased Damage",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "vivid_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Talisman of Grold":{
+    "implicit":"Gloves: Skills which Empower an Attack have 15% chance to not count that Attack",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "wild_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Talisman of Maxarius":{
+    "implicit":"Body Armour: +1 Charm Slot",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "vivid_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Talisman of Ralakesh":{
+    "implicit":"Helmet: Minions have 5% reduced Reservation",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "primal_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Talisman of Sirrius":{
+    "implicit":"Gloves: 8% increased Attack Speed",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "vivid_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Talisman of Thruldana":{
+    "implicit":"Martial Weapons: 25% reduced Poison Duration\nTargets can be affected by +1 of your Poisons at the same time",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "primal_talisman":true
+    },
+    "type":"Talisman"
   },
   "Tempered Rune":{
     "hidden":true,
@@ -790,9 +1247,117 @@
     },
     "type":"Rune"
   },
+  "Thane Girt's Rune of Wildness":{
+    "implicit":"Caster: 25% chance for Spell Skills to fire 2 additional Projectiles",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Thane Grannell's Rune of Mastery":{
+    "implicit":"Gloves: 20% increased Magnitude of Non-Damaging Ailments you inflict",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Thane Leld's Rune of Spring":{
+    "implicit":"Martial Weapons: Adds 1 to 60 Lightning Damage",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Thane Myrk's Rune of Summer":{
+    "implicit":"Martial Weapons: Adds 23 to 34 Fire Damage",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "The Greatwolf's Rune of Claws":{
+    "implicit":"Gloves: Adds 5 to 12 Physical Damage to Attacks",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "The Greatwolf's Rune of Willpower":{
+    "implicit":"Body Armour: 10% of Damage is taken from Mana before Life",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true
+    },
+    "type":"Rune"
+  },
+  "Topotante's Soul Core of Dampening":{
+    "hidden":true,
+    "implicit":"Body Armour: 20% of Armour also applies to Fire Damage taken from Hits",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Tzamoto's Soul Core of Ferocity":{
+    "hidden":true,
+    "implicit":"Helmet: +4 to Maximum Rage",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Uromoti's Soul Core of Attenuation":{
+    "hidden":true,
+    "implicit":"Boots: 15% increased Curse Duration\n15% increased Poison Duration",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
   "Vision Rune":{
     "hidden":true,
-    "implicit":"Martial Weapons: +80 to Accuracy Rating\nArmour: 10% increased Life and Mana Recovery from Flasks",
+    "implicit":"Martial Weapons: +80 to Accuracy Rating\nArmour: 10% increased Life and Mana Recovery from Flasks\nCaster: 20% increased Critical Hit Chance for Spells",
     "implicitModTypes":[],
     "req":{
       "level":41
@@ -802,5 +1367,57 @@
       "rune_normal":true
     },
     "type":"Rune"
+  },
+  "Wolf Talisman":{
+    "implicit":"Gloves: 10% increased Magnitude of Bleeding you inflict",
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "vivid_talisman":true
+    },
+    "type":"Talisman"
+  },
+  "Xipocado's Soul Core of Dominion":{
+    "hidden":true,
+    "implicit":"Caster: Minions deal 40% increased Damage with Command Skills\nSceptre: Minions deal 40% increased Damage with Command Skills",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Xopec's Soul Core of Power":{
+    "hidden":true,
+    "implicit":"Martial Weapons: 50% chance when you gain a Power Charge to gain an additional Power Charge\nCaster: 50% chance when you gain a Power Charge to gain an additional Power Charge",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
+  },
+  "Zalatl's Soul Core of Insulation":{
+    "hidden":true,
+    "implicit":"Body Armour: 20% of Armour also applies to Lightning Damage taken from Hits",
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "tags":{
+      "default":true,
+      "soul_core":true,
+      "soul_core_tier3":true
+    },
+    "type":"SoulCore"
   }
 }
