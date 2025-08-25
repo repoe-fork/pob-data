@@ -245,7 +245,23 @@
       "formats":["divide_by_ten_1dp_if_required"],
       "isScalable":true
     }],
+  "# metre to Dodge Roll distance if you haven't Dodge Rolled Recently":[{
+      "formats":["divide_by_ten_1dp_if_required"],
+      "isScalable":true
+    }],
+  "# metre to Dodge Roll distance if you've Dodge Rolled Recently":[{
+      "formats":["divide_by_ten_1dp_if_required"],
+      "isScalable":true
+    }],
   "# metres to Dodge Roll distance":[{
+      "formats":["divide_by_ten_1dp_if_required"],
+      "isScalable":true
+    }],
+  "# metres to Dodge Roll distance if you haven't Dodge Rolled Recently":[{
+      "formats":["divide_by_ten_1dp_if_required"],
+      "isScalable":true
+    }],
+  "# metres to Dodge Roll distance if you've Dodge Rolled Recently":[{
       "formats":["divide_by_ten_1dp_if_required"],
       "isScalable":true
     }],
@@ -739,7 +755,7 @@
   "# to Armour if you've Hit an Enemy Recently":[{
       "isScalable":true
     }],
-  "# to Armour per 1 Maximum Energy Shield on Equipped Helmet":[{
+  "# to Armour per 1 Energy Shield on Equipped Helmet":[{
       "isScalable":true
     }],
   "# to Armour per 5 Evasion Rating on Equipped Shield":[{
@@ -805,10 +821,10 @@
   "# to Evasion Rating per 1 Armour on Equipped Gloves":[{
       "isScalable":true
     }],
-  "# to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet":[{
+  "# to Evasion Rating per 1 Energy Shield on Equipped Helmet":[{
       "isScalable":true
     }],
-  "# to Evasion Rating per 5 Maximum Energy Shield on Equipped Shield":[{
+  "# to Evasion Rating per 5 Energy Shield on Equipped Shield":[{
       "isScalable":true
     }],
   "# to Evasion Rating while in Sand Stance":[{
@@ -1616,9 +1632,6 @@
   "#% Chance to Deflect":[{
       "isScalable":true
     }],
-  "#% Chance to Inflict Cold Exposure on Hit with Cold Damage":[{
-      "isScalable":true
-    }],
   "#% Chance to Inflict Fire Exposure on Hit with Fire Damage":[{
       "isScalable":true
     }],
@@ -1647,6 +1660,9 @@
       "isScalable":true
     }],
   "#% Chance to gain up to maximum Endurance Charges when you take a Critical Hit":[{
+      "isScalable":true
+    }],
+  "#% Chance to inflict Cold Exposure on Hit with Cold Damage":[{
       "isScalable":true
     }],
   "#% Chaos Resistance against Damage Over Time":[{
@@ -4055,6 +4071,9 @@
   "#% chance to knockback on Counterattack":[{
       "isScalable":true
     }],
+  "#% chance to load a bolt into all Crossbow skills on Kill":[{
+      "isScalable":true
+    }],
   "#% chance to lose 10% of maximum Mana when you use a Skill":[{
       "isScalable":true
     }],
@@ -4186,6 +4205,15 @@
       "isScalable":true
     }],
   "#% chance when you gain a Charge to gain an additional Charge":[{
+      "isScalable":true
+    }],
+  "#% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge":[{
+      "isScalable":true
+    }],
+  "#% chance when you gain a Power Charge to gain an additional Power Charge":[{
+      "isScalable":true
+    }],
+  "#% chance when you gain an Endurance Charge to gain an additional Endurance Charge":[{
       "isScalable":true
     }],
   "#% chance when you inflict Withered to inflict up to 15 Withered Debuffs instead":[{
@@ -5287,9 +5315,6 @@
       "isScalable":true
     }],
   "#% increased Chance to be afflicted by Ailments when Hit":[{
-      "isScalable":true
-    }],
-  "#% increased Chance to inflict Ailments with One-Handed Attacks":[{
       "isScalable":true
     }],
   "#% increased Chaos Damage":[{
@@ -6618,7 +6643,7 @@
   "#% increased Duration of Buffs and Debuffs you create from skills":[{
       "isScalable":true
     }],
-  "#% increased Duration of Buffs granted by Shrine in your Maps":[{
+  "#% increased Duration of Buffs granted by Shrines in your Maps":[{
       "isScalable":true
     }],
   "#% increased Duration of Cold Ailments":[{
@@ -6681,7 +6706,7 @@
   "#% increased Effect of Auras from Mines":[{
       "isScalable":true
     }],
-  "#% increased Effect of Buffs granted by Shrine in your Maps":[{
+  "#% increased Effect of Buffs granted by Shrines in your Maps":[{
       "isScalable":true
     }],
   "#% increased Effect of Buffs granted by Socketed Golem Skills":[{
@@ -11166,7 +11191,13 @@
   "#% of Armour also applies to Chaos Damage taken from Hits":[{
       "isScalable":true
     }],
+  "#% of Armour also applies to Cold Damage taken from Hits":[{
+      "isScalable":true
+    }],
   "#% of Armour also applies to Fire Damage taken from Hits":[{
+      "isScalable":true
+    }],
+  "#% of Armour also applies to Lightning Damage taken from Hits":[{
       "isScalable":true
     }],
   "#% of Armour applies to Elemental Damage":[{
@@ -11608,10 +11639,10 @@
       "formats":["per_minute_to_per_second_1dp"],
       "isScalable":true
     }],
-  "#% of your Life Regeneration applies to your Totems aswell":[{
+  "#% of your Base Life Regeneration is granted to Allies in your Presence":[{
       "isScalable":true
     }],
-  "#% of your Life Regeneration is granted to Allies in your Presence":[{
+  "#% of your Life Regeneration applies to your Totems aswell":[{
       "isScalable":true
     }],
   "#% redcued Spell Damage per 500 Maximum Mana":[{
@@ -12941,10 +12972,6 @@
       "isScalable":true
     }],
   "#% reduced Chance to be afflicted by Ailments when Hit":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "#% reduced Chance to inflict Ailments with One-Handed Attacks":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -14520,7 +14547,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Duration of Buffs granted by Shrine in your Maps":[{
+  "#% reduced Duration of Buffs granted by Shrines in your Maps":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -14596,7 +14623,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Effect of Buffs granted by Shrine in your Maps":[{
+  "#% reduced Effect of Buffs granted by Shrines in your Maps":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -16578,7 +16605,7 @@
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Banner Skills":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Curse Aura Skills":[{
@@ -19443,6 +19470,9 @@
   "#% to all Elemental Resistances per Minion, up to 30%":[{
       "isScalable":true
     }],
+  "#% to all Elemental Resistances per Power Charge":[{
+      "isScalable":true
+    }],
   "#% to all Elemental Resistances per Socket filled":[{
       "isScalable":true
     }],
@@ -20249,22 +20279,27 @@
       "formats":["per_minute_to_per_second"],
       "isScalable":true
     }],
-  "Allies in your Presence deal # to # additional Attack Cold Damage":[{
+  "Allies in your Presence deal # to # added Attack Chaos Damage":[{
       "isScalable":true
     },{
       "isScalable":true
     }],
-  "Allies in your Presence deal # to # additional Attack Fire Damage":[{
+  "Allies in your Presence deal # to # added Attack Cold Damage":[{
       "isScalable":true
     },{
       "isScalable":true
     }],
-  "Allies in your Presence deal # to # additional Attack Lightning Damage":[{
+  "Allies in your Presence deal # to # added Attack Fire Damage":[{
       "isScalable":true
     },{
       "isScalable":true
     }],
-  "Allies in your Presence deal # to # additional Attack Physical Damage":[{
+  "Allies in your Presence deal # to # added Attack Lightning Damage":[{
+      "isScalable":true
+    },{
+      "isScalable":true
+    }],
+  "Allies in your Presence deal # to # added Attack Physical Damage":[{
       "isScalable":true
     },{
       "isScalable":true
@@ -21095,6 +21130,9 @@
     }],
   "Area is Alluring":[],
   "Area is Breached":[],
+  "Area is Cursed with Elemental Weakness":[],
+  "Area is Cursed with Enfeeble":[],
+  "Area is Cursed with Temporal Chains":[],
   "Area is Overgrown with Caustic Plants":[],
   "Area is Overgrown with Large Caustic Plants":[],
   "Area is Overgrown with Parasitic Caustic Plants":[],
@@ -21419,6 +21457,9 @@
   "Attacks cause Bleeding":[],
   "Attacks cause Bleeding if the last Movement Skill you Used was Engage":[],
   "Attacks consume an Endurance Charge to Critically Hit":[],
+  "Attacks cost an additional #% of your maximum Mana":[{
+      "isScalable":true
+    }],
   "Attacks deal no Physical Damage":[],
   "Attacks fire # additional Projectiles":[{
       "isScalable":true
@@ -21455,6 +21496,12 @@
       "isScalable":true
     }],
   "Attacks have 25% chance to inflict Bleeding when Hitting Cursed Enemies":[],
+  "Attacks have Added maximum Lightning Damage equal to #% of maximum Mana":[{
+      "isScalable":true
+    }],
+  "Attacks have Added minimum Lightning Damage equal to #% of maximum Mana":[{
+      "isScalable":true
+    }],
   "Attacks have added Chaos damage equal to #% of maximum Life":[{
       "isScalable":true
     }],
@@ -21470,6 +21517,13 @@
   "Attacks used by Totems have #% increased Attack Speed":[{
       "isScalable":true
     }],
+  "Attacks used by Totems have #% increased Attack Speed per Summoned Totem":[{
+      "isScalable":true
+    }],
+  "Attacks used by Totems have #% reduced Attack Speed per Summoned Totem":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Attacks using your Weapons have Added Physical Damage equal\nto #% of the Accuracy Rating on the Weapon":[{
       "isScalable":true
     }],
@@ -21477,6 +21531,13 @@
       "isScalable":true
     }],
   "Attacks with Energy Blades Penetrate #% Lightning Resistance":[{
+      "isScalable":true
+    }],
+  "Attacks with One-Handed Weapons have #% increased Chance to inflict Ailments":[{
+      "isScalable":true
+    }],
+  "Attacks with One-Handed Weapons have #% reduced Chance to inflict Ailments":[{
+      "formats":["negate"],
       "isScalable":true
     }],
   "Attacks with this Weapon Maim on hit":[],
@@ -21667,6 +21728,12 @@
     }],
   "Barrage fires an additional Projectile":[],
   "Barrage fires an additional Projectile simultaneously on the first and final attacks":[],
+  "Barrageable Attacks with this Bow Repeat # time if no enemies are in your Presence":[{
+      "isScalable":true
+    }],
+  "Barrageable Attacks with this Bow Repeat # times if no enemies are in your Presence":[{
+      "isScalable":true
+    }],
   "Base Chill Effect is 50%\nChance to Chill is now based on the Damage of the Hit inflicting it":[],
   "Base Critical Hit Chance for Attacks with Weapons is #%":[{
       "formats":["divide_by_one_hundred"],
@@ -23334,6 +23401,8 @@
   "Curses you inflict are reflected back to you":[],
   "Curses you with Punishment on Kill":[],
   "Curses you with Silence when Hit":[],
+  "DNT All Elemental Damage from Hits contributes to Freeze Buildup":[],
+  "DNT All Elemental Damage from Hits contributes to Ignite Chance and Magnitude":[],
   "Damage Blocked is Recouped as Mana":[],
   "Damage Cone has +1 Radius per # Rage":[{
       "isScalable":true
@@ -23997,6 +24066,7 @@
   "During Effect, Damage Penetrates #% Resistance of each Element for which your Uncapped Elemental Resistance is highest":[{
       "isScalable":true
     }],
+  "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow":[],
   "Each Legion contains a War Hoard":[],
   "Each Legion is accompanied by a General":[],
   "Each Mine applies #% increased Damage dealt to Enemies near it, up to 10%":[{
@@ -24815,6 +24885,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Every 10 seconds, gain a random non-damaging Shrine buff for 20 seconds":[],
   "Every 10 seconds, take no Damage over Time for # second":[{
       "formats":["milliseconds_to_seconds"],
       "isScalable":true
@@ -25770,6 +25841,9 @@
   "Gain #% of Damage as Extra Cold Damage with Spells":[{
       "isScalable":true
     }],
+  "Gain #% of Damage as Extra Damage of all Elements":[{
+      "isScalable":true
+    }],
   "Gain #% of Damage as Extra Fire Damage":[{
       "isScalable":true
     }],
@@ -26184,7 +26258,6 @@
       "isScalable":false
     }],
   "Gain a Void Charge every second":[],
-  "Gain a random Shrine buff every 10 seconds":[],
   "Gain a stack of Jade every # seconds":[{
       "formats":["milliseconds_to_seconds"],
       "isScalable":true
@@ -26227,6 +26300,9 @@
   "Gain an Endurance, Frenzy or Power Charge every 6 seconds":[],
   "Gain an Endurance, Frenzy or Power charge when you Block":[],
   "Gain an additional Charge when you gain a Charge":[],
+  "Gain an additional Endurance Charge when you gain an Endurance Charge":[],
+  "Gain an additional Frenzy Charge when you gain a Frenzy Charge":[],
+  "Gain an additional Power Charge when you gain a Power Charge":[],
   "Gain no inherent bonus from Dexterity":[],
   "Gain no inherent bonus from Intelligence":[],
   "Gain no inherent bonus from Strength":[],
@@ -26734,6 +26810,10 @@
   "Grants a Frenzy Charge on use":[],
   "Grants a Power Charge on use":[],
   "Grants all bonuses of Unallocated Small Passive Skills in Radius":[],
+  "Grants effect of Dreaming Gloom Shrine":[],
+  "Grants effect of Guided Freezing Shrine":[],
+  "Grants effect of Guided Meteoric Shrine":[],
+  "Grants effect of Guided Tempest Shrine":[],
   "Grants maximum Energy Shield equal to #% of your Reserved Mana to\nyou and nearby Allies":[{
       "isScalable":true
     }],
@@ -29196,6 +29276,9 @@
   "Minions deal #% increased Damage while you are affected by a Herald":[{
       "isScalable":true
     }],
+  "Minions deal #% increased Damage with Command Skills":[{
+      "isScalable":true
+    }],
   "Minions deal #% increased Damage with Hits against Abyssal Monsters":[{
       "isScalable":true
     }],
@@ -29981,7 +30064,7 @@
   "Monsters have #% chance to Avoid being Shocked":[{
       "isScalable":true
     }],
-  "Monsters have #% chance to Bleed on Hit":[{
+  "Monsters have #% chance to Bleeding on Hit":[{
       "isScalable":true
     }],
   "Monsters have #% chance to Blind on Hit":[{
@@ -33276,6 +33359,9 @@
   "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds":[],
   "Runebinder":[],
   "Runic Monsters in your Maps are Duplicated":[],
+  "Sacrifice # Life to not consume the last bolt when firing":[{
+      "isScalable":true
+    }],
   "Sacrifice #% of Life to gain that much Energy Shield when you Cast a Spell":[{
       "isScalable":true
     }],
@@ -33756,6 +33842,13 @@
     }],
   "Skills used by Mines have #% reduced Area of Effect if you Detonated a Mine Recently":[{
       "formats":["negate"],
+      "isScalable":true
+    }],
+  "Skills used by Totems have #% less Skill Speed":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Skills used by Totems have #% more Skill Speed":[{
       "isScalable":true
     }],
   "Skills used by Totems have a #% chance to Taunt on Hit":[{
@@ -34853,6 +34946,13 @@
       "isScalable":true
     }],
   "Spells Cast by Totems have #% increased Cast Speed":[{
+      "isScalable":true
+    }],
+  "Spells Cast by Totems have #% increased Cast Speed per Summoned Totem":[{
+      "isScalable":true
+    }],
+  "Spells Cast by Totems have #% reduced Cast Speed per Summoned Totem":[{
+      "formats":["negate"],
       "isScalable":true
     }],
   "Spells Deal Double Damage":[],
@@ -36035,27 +36135,6 @@
   "Totems have #% additional Physical Damage Reduction":[{
       "isScalable":true
     }],
-  "Totems have #% increased Attack Speed per Summoned Totem":[{
-      "isScalable":true
-    }],
-  "Totems have #% increased Cast Speed per Summoned Totem":[{
-      "isScalable":true
-    }],
-  "Totems have #% less Skill Speed":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "Totems have #% more Skill Speed":[{
-      "isScalable":true
-    }],
-  "Totems have #% reduced Attack Speed per Summoned Totem":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "Totems have #% reduced Cast Speed per Summoned Totem":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "Totems lose #% to Chaos Resistance":[{
       "formats":["negate"],
       "isScalable":true
@@ -37000,7 +37079,7 @@
   "When you Kill a Rare monster, you gain # of its Modifiers for 20 seconds":[{
       "isScalable":true
     }],
-  "When you Kill a Rare monster, you gain its Modifiers for 20 seconds":[],
+  "When you Kill a Rare monster, you gain its Modifiers for 60 seconds":[],
   "When you Kill an Enemy Cursed with a Non-Aura Hex, become Immune to\nCurses for remaining Hex Duration":[],
   "When you Kill an Enemy, for each Curse on that Enemy, gain #%\nof Non-Chaos Damage as extra Chaos Damage for 4 seconds":[{
       "isScalable":true
@@ -37027,6 +37106,11 @@
   "When you or your Totems Kill a Burning Enemy, you and your Totems each gain an Endurance Charge":[],
   "When you place a Banner, you and nearby Allies Recover #% of maximum Life for\neach Stage the Banner has":[{
       "formats":["divide_by_one_hundred"],
+      "isScalable":true
+    }],
+  "When you reload, triggers Gemini Infusion to alternately\ngain # Cold Infusion or # Fire Infusion":[{
+      "isScalable":true
+    },{
       "isScalable":true
     }],
   "When your Traps Trigger, your nearby Traps also Trigger":[],
