@@ -4,11 +4,11 @@
     "implicitModTypes":[["block"]],
     "quality":20,
     "req":{
-      "dex":165,
-      "int":64,
+      "dex":127,
+      "int":50,
       "level":79
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -30,11 +30,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":93,
-      "int":37,
+      "dex":72,
+      "int":29,
       "level":52
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -56,11 +56,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":91,
-      "int":36,
+      "dex":71,
+      "int":29,
       "level":51
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -73,8 +73,8 @@
     "weapon":{
       "AttackRateBase":1.4,
       "CritChanceBase":10,
-      "LightningMax":57,
-      "LightningMin":30,
+      "PhysicalMax":55,
+      "PhysicalMin":14,
       "Range":13
     }
   },
@@ -83,7 +83,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -99,11 +99,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":86,
-      "int":35,
+      "dex":67,
+      "int":27,
       "level":48
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -126,11 +126,11 @@
     "implicitModTypes":[["block"]],
     "quality":20,
     "req":{
-      "dex":67,
-      "int":27,
+      "dex":52,
+      "int":22,
       "level":37
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -153,11 +153,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":105,
-      "int":42,
+      "dex":81,
+      "int":33,
       "level":59
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -179,11 +179,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":165,
-      "int":64,
+      "dex":127,
+      "int":50,
       "level":78
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -196,8 +196,8 @@
     "weapon":{
       "AttackRateBase":1.4,
       "CritChanceBase":10,
-      "LightningMax":172,
-      "LightningMin":43,
+      "PhysicalMax":97,
+      "PhysicalMin":24,
       "Range":13
     }
   },
@@ -206,20 +206,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
-    "tags":{
-      "default":true,
-      "staff":true,
-      "twohand":true
-    },
-    "type":"Staff"
-  },
-  "Cleric Staff":{
-    "implicit":"Grants Skill: Level (1-20) Consecrate",
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "staff":true,
@@ -231,11 +218,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":30,
-      "int":14,
+      "dex":25,
+      "int":12,
       "level":16
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -249,8 +236,8 @@
     "weapon":{
       "AttackRateBase":1.4,
       "CritChanceBase":10,
-      "LightningMax":54,
-      "LightningMin":13,
+      "PhysicalMax":22,
+      "PhysicalMin":5,
       "Range":13
     }
   },
@@ -258,11 +245,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":37,
-      "int":16,
+      "dex":30,
+      "int":14,
       "level":20
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -286,7 +273,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "staff":true,
@@ -294,12 +281,39 @@
     },
     "type":"Staff"
   },
+  "Dreaming Quarterstaff":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":127,
+      "int":50,
+      "level":78
+    },
+    "socketLimit":4,
+    "subType":"Warstaff",
+    "tags":{
+      "default":true,
+      "karui_basetype":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "warstaff":true,
+      "weapon":true
+    },
+    "type":"Staff",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":0,
+      "PhysicalMax":133,
+      "PhysicalMin":99,
+      "Range":13
+    }
+  },
   "Gelid Staff":{
     "implicit":"Grants Skill: Level (1-20) Freezing Shards",
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -315,11 +329,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":22,
-      "int":11,
+      "dex":18,
+      "int":9,
       "level":11
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -342,11 +356,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":100,
-      "int":40,
+      "dex":77,
+      "int":31,
       "level":56
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -369,11 +383,11 @@
     "implicitModTypes":[["block"]],
     "quality":20,
     "req":{
-      "dex":110,
-      "int":44,
+      "dex":85,
+      "int":34,
       "level":62
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -395,14 +409,15 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":81,
-      "int":33,
-      "level":45
+      "dex":64,
+      "int":26,
+      "level":46
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
+      "karui_basetype":true,
       "two_hand_weapon":true,
       "twohand":true,
       "warstaff":true,
@@ -412,7 +427,7 @@
     "weapon":{
       "AttackRateBase":1.35,
       "CritChanceBase":10,
-      "PhysicalMax":80,
+      "PhysicalMax":82,
       "PhysicalMin":39,
       "Range":13
     }
@@ -422,7 +437,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -439,9 +454,9 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":10
+      "dex":9
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -464,11 +479,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":150,
-      "int":59,
+      "dex":115,
+      "int":46,
       "level":72
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -487,11 +502,11 @@
     }
   },
   "Paralysing Staff":{
-    "implicit":"Grants Skill: Level (1-20) Shock Nova",
+    "implicit":"Grants Skill: Level (1-20) Enervating Nova",
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -508,7 +523,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "staff":true,
@@ -517,11 +532,11 @@
     "type":"Staff"
   },
   "Pyrophyte Staff":{
-    "implicit":"Grants Skill: Level (1-20) Living Bomb",
+    "implicit":"Grants Skill: Level (1-20) Solar Orb",
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -533,15 +548,28 @@
     },
     "type":"Staff"
   },
+  "Ravenous Staff":{
+    "implicit":"Grants Skill: Level (1-20) Feast of Flesh",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":[],
+    "socketLimit":4,
+    "tags":{
+      "default":true,
+      "staff":true,
+      "twohand":true
+    },
+    "type":"Staff"
+  },
   "Razor Quarterstaff":{
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":165,
-      "int":64,
+      "dex":127,
+      "int":50,
       "level":77
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -564,11 +592,11 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":81,
-      "int":33,
+      "dex":63,
+      "int":26,
       "level":45
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -591,7 +619,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -608,7 +636,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_cold_spell_mods":true,
@@ -625,7 +653,20 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
+    "tags":{
+      "default":true,
+      "staff":true,
+      "twohand":true
+    },
+    "type":"Staff"
+  },
+  "Sanctified Staff":{
+    "implicit":"Grants Skill: Level (1-20) Consecrate",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":[],
+    "socketLimit":4,
     "tags":{
       "default":true,
       "staff":true,
@@ -637,11 +678,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":135,
-      "int":53,
+      "dex":104,
+      "int":41,
       "level":67
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -663,11 +704,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":60,
-      "int":25,
+      "dex":47,
+      "int":20,
       "level":33
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -690,14 +731,15 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":84,
-      "int":34,
-      "level":47
+      "dex":68,
+      "int":28,
+      "level":49
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
+      "karui_basetype":true,
       "two_hand_weapon":true,
       "twohand":true,
       "warstaff":true,
@@ -707,8 +749,8 @@
     "weapon":{
       "AttackRateBase":1.5,
       "CritChanceBase":0,
-      "PhysicalMax":84,
-      "PhysicalMin":62,
+      "PhysicalMax":87,
+      "PhysicalMin":64,
       "Range":13
     }
   },
@@ -717,7 +759,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "staff":true,
@@ -729,11 +771,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":51,
-      "int":22,
+      "dex":41,
+      "int":18,
       "level":28
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -757,11 +799,11 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":165,
-      "int":64,
+      "dex":127,
+      "int":50,
       "level":77
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -784,7 +826,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "no_chaos_spell_mods":true,
@@ -800,11 +842,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":98,
-      "int":39,
-      "level":55
+      "dex":75,
+      "int":30,
+      "level":54
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -817,8 +859,8 @@
     "weapon":{
       "AttackRateBase":1.5,
       "CritChanceBase":10,
-      "PhysicalMax":83,
-      "PhysicalMin":40,
+      "PhysicalMax":82,
+      "PhysicalMin":39,
       "Range":13
     }
   },
@@ -826,7 +868,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,
@@ -849,11 +891,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":116,
-      "int":45,
+      "dex":89,
+      "int":36,
       "level":65
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Warstaff",
     "tags":{
       "default":true,

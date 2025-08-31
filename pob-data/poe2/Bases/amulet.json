@@ -43,6 +43,16 @@
     },
     "type":"Amulet"
   },
+  "Distorted Amulet":{
+    "implicit":"-1 Prefix Modifier allowed\n-1 Suffix Modifier allowed",
+    "implicitModTypes":[[],[]],
+    "req":[],
+    "tags":{
+      "amulet":true,
+      "default":true
+    },
+    "type":"Amulet"
+  },
   "Dusk Amulet":{
     "implicit":"+1 Prefix Modifier allowed\n-1 Suffix Modifier allowed",
     "implicitModTypes":[[],[]],
@@ -104,6 +114,18 @@
     "implicitModTypes":[["energy_shield","defences"]],
     "req":{
       "level":14
+    },
+    "tags":{
+      "amulet":true,
+      "default":true
+    },
+    "type":"Amulet"
+  },
+  "Pearlescent Amulet":{
+    "implicit":"+(7-10)% to all Elemental Resistances",
+    "implicitModTypes":[["elemental","fire","cold","lightning","resistance"]],
+    "req":{
+      "level":30
     },
     "tags":{
       "amulet":true,

@@ -3,11 +3,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":34,
+      "dex":28,
       "level":26,
-      "str":34
+      "str":28
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -31,14 +31,15 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":57,
-      "level":45,
-      "str":57
+      "dex":46,
+      "level":46,
+      "str":46
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
+      "karui_basetype":true,
       "ranged":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -48,7 +49,7 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":7,
-      "PhysicalMax":80,
+      "PhysicalMax":82,
       "PhysicalMin":20,
       "Range":120,
       "ReloadTimeBase":0.85
@@ -58,11 +59,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":78,
+      "dex":60,
       "level":62,
-      "str":78
+      "str":60
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -86,11 +87,11 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":43,
+      "dex":34,
       "level":33,
-      "str":43
+      "str":34
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -115,11 +116,11 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":74,
+      "dex":58,
       "level":59,
-      "str":74
+      "str":58
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -142,11 +143,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":49,
+      "dex":39,
       "level":38,
-      "str":49
+      "str":39
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -171,11 +172,11 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":66,
+      "dex":51,
       "level":52,
-      "str":66
+      "str":51
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -198,11 +199,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":71,
+      "dex":55,
       "level":56,
-      "str":71
+      "str":55
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -225,11 +226,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":116,
+      "dex":89,
       "level":77,
-      "str":116
+      "str":89
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -253,11 +254,11 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":27,
+      "dex":22,
       "level":20,
-      "str":27
+      "str":22
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -277,15 +278,44 @@
       "ReloadTimeBase":1.1
     }
   },
+  "Elegant Crossbow":{
+    "implicit":"(20-30)% chance to Pierce an Enemy",
+    "implicitModTypes":[[]],
+    "quality":20,
+    "req":{
+      "dex":89,
+      "level":78,
+      "str":89
+    },
+    "socketLimit":4,
+    "tags":{
+      "crossbow":true,
+      "default":true,
+      "karui_basetype":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Crossbow",
+    "weapon":{
+      "AttackRateBase":1.65,
+      "CritChanceBase":5,
+      "PhysicalMax":123,
+      "PhysicalMin":31,
+      "Range":120,
+      "ReloadTimeBase":0.85
+    }
+  },
   "Engraved Crossbow":{
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":106,
+      "dex":82,
       "level":72,
-      "str":106
+      "str":82
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -308,11 +338,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":81,
+      "dex":63,
       "level":65,
-      "str":81
+      "str":63
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -336,11 +366,11 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":116,
+      "dex":89,
       "level":77,
-      "str":116
+      "str":89
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -364,11 +394,11 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":116,
+      "dex":89,
       "level":78,
-      "str":116
+      "str":89
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -391,7 +421,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -415,11 +445,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":65,
+      "dex":50,
       "level":51,
-      "str":65
+      "str":50
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -443,14 +473,15 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":61,
-      "level":48,
-      "str":61
+      "dex":49,
+      "level":50,
+      "str":49
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
+      "karui_basetype":true,
       "ranged":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -460,8 +491,8 @@
     "weapon":{
       "AttackRateBase":1.65,
       "CritChanceBase":5,
-      "PhysicalMax":82,
-      "PhysicalMin":20,
+      "PhysicalMax":84,
+      "PhysicalMin":21,
       "Range":120,
       "ReloadTimeBase":0.85
     }
@@ -470,11 +501,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":61,
+      "dex":48,
       "level":48,
-      "str":61
+      "str":48
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -498,11 +529,11 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":116,
+      "dex":89,
       "level":79,
-      "str":116
+      "str":89
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -525,11 +556,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":95,
+      "dex":74,
       "level":67,
-      "str":95
+      "str":74
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -552,11 +583,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":15,
+      "dex":13,
       "level":10,
-      "str":15
+      "str":13
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -581,11 +612,11 @@
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
-      "dex":57,
+      "dex":45,
       "level":45,
-      "str":57
+      "str":45
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -612,7 +643,7 @@
       "dex":8,
       "str":8
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -637,11 +668,11 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":69,
-      "level":55,
-      "str":69
+      "dex":53,
+      "level":54,
+      "str":53
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,
@@ -654,8 +685,8 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":83,
-      "PhysicalMin":21,
+      "PhysicalMax":82,
+      "PhysicalMin":20,
       "Range":120,
       "ReloadTimeBase":1.1
     }
@@ -664,11 +695,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":22,
+      "dex":19,
       "level":16,
-      "str":22
+      "str":19
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "crossbow":true,
       "default":true,

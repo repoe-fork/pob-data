@@ -1,12 +1,38 @@
 {
+  "Akoyan Club":{
+    "implicit":"Always Hits",
+    "implicitModTypes":[["attack"]],
+    "quality":20,
+    "req":{
+      "level":78,
+      "str":163
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "karui_basetype":true,
+      "mace":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"One Handed Mace",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":5,
+      "PhysicalMax":76,
+      "PhysicalMin":46,
+      "Range":11
+    }
+  },
   "Anvil Maul":{
     "implicitModTypes":[],
     "quality":20,
     "req":{
       "level":67,
-      "str":174
+      "str":134
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -28,9 +54,9 @@
     "quality":20,
     "req":{
       "level":59,
-      "str":135
+      "str":104
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -48,14 +74,14 @@
     }
   },
   "Battle Pick":{
-    "implicit":"+(10-15)% to Critical Damage Bonus",
+    "implicit":"+(5-10)% to Critical Damage Bonus",
     "implicitModTypes":[["damage","attack","critical"]],
     "quality":20,
     "req":{
       "level":51,
-      "str":117
+      "str":91
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -77,9 +103,9 @@
     "quality":20,
     "req":{
       "level":48,
-      "str":110
+      "str":86
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -101,9 +127,9 @@
     "quality":20,
     "req":{
       "level":33,
-      "str":76
+      "str":60
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -126,9 +152,9 @@
     "quality":20,
     "req":{
       "level":45,
-      "str":104
+      "str":80
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -140,22 +166,22 @@
     "weapon":{
       "AttackRateBase":1.45,
       "CritChanceBase":5,
-      "FireMax":32,
-      "FireMin":19,
-      "PhysicalMax":32,
-      "PhysicalMin":19,
+      "FireMax":37,
+      "FireMin":22,
+      "PhysicalMax":37,
+      "PhysicalMin":22,
       "Range":11
     }
   },
   "Construct Hammer":{
-    "implicit":"Causes Daze buildup equal to 100% of Damage dealt",
+    "implicit":"40% chance to Daze on Hit",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
       "level":36,
-      "str":83
+      "str":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -178,9 +204,9 @@
     "quality":20,
     "req":{
       "level":72,
-      "str":193
+      "str":149
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -203,9 +229,9 @@
     "quality":20,
     "req":{
       "level":38,
-      "str":88
+      "str":68
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -229,9 +255,9 @@
     "quality":20,
     "req":{
       "level":22,
-      "str":52
+      "str":41
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -255,9 +281,9 @@
     "quality":20,
     "req":{
       "level":62,
-      "str":142
+      "str":109
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -279,9 +305,9 @@
     "quality":20,
     "req":{
       "level":55,
-      "str":126
+      "str":97
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -304,9 +330,9 @@
     "quality":20,
     "req":{
       "level":78,
-      "str":212
+      "str":163
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -327,7 +353,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "ezomyte_basetype":true,
@@ -350,9 +376,9 @@
     "quality":20,
     "req":{
       "level":67,
-      "str":174
+      "str":134
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -374,9 +400,9 @@
     "quality":20,
     "req":{
       "level":48,
-      "str":110
+      "str":86
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -398,9 +424,9 @@
     "quality":20,
     "req":{
       "level":11,
-      "str":27
+      "str":23
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "ezomyte_basetype":true,
@@ -419,14 +445,14 @@
     }
   },
   "Fortified Hammer":{
-    "implicit":"Causes Daze buildup equal to 100% of Damage dealt",
+    "implicit":"40% chance to Daze on Hit",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
       "level":79,
-      "str":212
+      "str":163
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -448,9 +474,9 @@
     "quality":20,
     "req":{
       "level":65,
-      "str":148
+      "str":114
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -472,9 +498,9 @@
     "quality":20,
     "req":{
       "level":52,
-      "str":119
+      "str":92
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -496,9 +522,9 @@
     "quality":20,
     "req":{
       "level":59,
-      "str":135
+      "str":104
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -521,9 +547,9 @@
     "quality":20,
     "req":{
       "level":77,
-      "str":212
+      "str":163
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -545,10 +571,35 @@
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "level":48,
-      "str":110
+      "level":49,
+      "str":87
     },
-    "socketLimit":2,
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "karui_basetype":true,
+      "mace":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"One Handed Mace",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":5,
+      "PhysicalMax":51,
+      "PhysicalMin":31,
+      "Range":11
+    }
+  },
+  "Kalguuran Forgehammer":{
+    "implicit":"Has 3 Sockets",
+    "implicitModTypes":[[]],
+    "quality":20,
+    "req":{
+      "level":47
+    },
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -560,7 +611,7 @@
     "weapon":{
       "AttackRateBase":1.45,
       "CritChanceBase":5,
-      "PhysicalMax":50,
+      "PhysicalMax":49,
       "PhysicalMin":30,
       "Range":11
     }
@@ -570,9 +621,9 @@
     "quality":20,
     "req":{
       "level":33,
-      "str":76
+      "str":60
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -595,9 +646,9 @@
     "quality":20,
     "req":{
       "level":52,
-      "str":119
+      "str":92
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -619,9 +670,9 @@
     "quality":20,
     "req":{
       "level":77,
-      "str":212
+      "str":163
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -642,10 +693,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":55,
-      "str":126
+      "level":54,
+      "str":96
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -657,8 +708,8 @@
     "weapon":{
       "AttackRateBase":1.4,
       "CritChanceBase":5,
-      "PhysicalMax":70,
-      "PhysicalMin":34,
+      "PhysicalMax":69,
+      "PhysicalMin":33,
       "Range":11
     }
   },
@@ -667,9 +718,9 @@
     "quality":20,
     "req":{
       "level":77,
-      "str":212
+      "str":163
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -691,9 +742,9 @@
     "quality":20,
     "req":{
       "level":77,
-      "str":212
+      "str":163
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -705,10 +756,10 @@
     "weapon":{
       "AttackRateBase":1.45,
       "CritChanceBase":5,
-      "FireMax":50,
-      "FireMin":30,
-      "PhysicalMax":50,
-      "PhysicalMin":30,
+      "FireMax":59,
+      "FireMin":35,
+      "PhysicalMax":59,
+      "PhysicalMin":35,
       "Range":11
     }
   },
@@ -716,12 +767,13 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":45,
-      "str":104
+      "level":46,
+      "str":82
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
+      "karui_basetype":true,
       "mace":true,
       "one_hand_weapon":true,
       "onehand":true,
@@ -731,7 +783,7 @@
     "weapon":{
       "AttackRateBase":1.45,
       "CritChanceBase":6.5,
-      "PhysicalMax":49,
+      "PhysicalMax":50,
       "PhysicalMin":33,
       "Range":11
     }
@@ -743,7 +795,7 @@
     "req":{
       "str":11
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "ezomyte_basetype":true,
@@ -766,9 +818,9 @@
     "quality":20,
     "req":{
       "level":26,
-      "str":61
+      "str":48
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -790,12 +842,13 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":45,
-      "str":104
+      "level":46,
+      "str":82
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
+      "karui_basetype":true,
       "mace":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -805,8 +858,8 @@
     "weapon":{
       "AttackRateBase":1.1,
       "CritChanceBase":6.5,
-      "PhysicalMax":102,
-      "PhysicalMin":68,
+      "PhysicalMax":104,
+      "PhysicalMin":69,
       "Range":13
     }
   },
@@ -815,9 +868,9 @@
     "quality":20,
     "req":{
       "level":54,
-      "str":124
+      "str":96
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -840,9 +893,9 @@
     "quality":20,
     "req":{
       "level":79,
-      "str":212
+      "str":163
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -864,9 +917,9 @@
     "quality":20,
     "req":{
       "level":72,
-      "str":193
+      "str":149
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -888,9 +941,9 @@
     "quality":20,
     "req":{
       "level":10,
-      "str":25
+      "str":21
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "ezomyte_basetype":true,
@@ -914,7 +967,7 @@
     "req":{
       "str":11
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "ezomyte_basetype":true,
@@ -927,10 +980,10 @@
     "weapon":{
       "AttackRateBase":1.45,
       "CritChanceBase":5,
-      "FireMax":7,
-      "FireMin":4,
-      "PhysicalMax":7,
-      "PhysicalMin":4,
+      "FireMax":9,
+      "FireMin":5,
+      "PhysicalMax":9,
+      "PhysicalMin":5,
       "Range":11
     }
   },
@@ -940,9 +993,9 @@
     "quality":20,
     "req":{
       "level":45,
-      "str":104
+      "str":80
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -963,10 +1016,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":55,
-      "str":126
+      "level":54,
+      "str":96
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -978,8 +1031,8 @@
     "weapon":{
       "AttackRateBase":1.2,
       "CritChanceBase":5,
-      "PhysicalMax":125,
-      "PhysicalMin":60,
+      "PhysicalMax":123,
+      "PhysicalMin":59,
       "Range":13
     }
   },
@@ -988,9 +1041,9 @@
     "quality":20,
     "req":{
       "level":16,
-      "str":38
+      "str":31
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -1009,14 +1062,14 @@
     }
   },
   "Strife Pick":{
-    "implicit":"+(10-15)% to Critical Damage Bonus",
+    "implicit":"+(5-10)% to Critical Damage Bonus",
     "implicitModTypes":[["damage","attack","critical"]],
     "quality":20,
     "req":{
       "level":78,
-      "str":212
+      "str":163
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -1034,14 +1087,14 @@
     }
   },
   "Structured Hammer":{
-    "implicit":"Causes Daze buildup equal to 100% of Damage dealt",
+    "implicit":"40% chance to Daze on Hit",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
       "level":62,
-      "str":142
+      "str":109
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -1063,9 +1116,9 @@
     "quality":20,
     "req":{
       "level":16,
-      "str":38
+      "str":31
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -1083,14 +1136,40 @@
       "Range":13
     }
   },
+  "Tawhoan Greatclub":{
+    "implicit":"Crushes Enemies on Hit",
+    "implicitModTypes":[["physical"]],
+    "quality":20,
+    "req":{
+      "level":78,
+      "str":163
+    },
+    "socketLimit":4,
+    "tags":{
+      "default":true,
+      "karui_basetype":true,
+      "mace":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Two Handed Mace",
+    "weapon":{
+      "AttackRateBase":1.1,
+      "CritChanceBase":5,
+      "PhysicalMax":145,
+      "PhysicalMin":107,
+      "Range":13
+    }
+  },
   "Temple Maul":{
     "implicitModTypes":[],
     "quality":20,
     "req":{
       "level":28,
-      "str":65
+      "str":52
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,
@@ -1113,9 +1192,9 @@
     "quality":20,
     "req":{
       "level":65,
-      "str":148
+      "str":114
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -1138,11 +1217,12 @@
     "quality":20,
     "req":{
       "level":50,
-      "str":115
+      "str":89
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
+      "karui_basetype":true,
       "mace":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -1158,14 +1238,14 @@
     }
   },
   "Warpick":{
-    "implicit":"+(10-15)% to Critical Damage Bonus",
+    "implicit":"+(5-10)% to Critical Damage Bonus",
     "implicitModTypes":[["damage","attack","critical"]],
     "quality":20,
     "req":{
       "level":22,
-      "str":52
+      "str":41
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "mace":true,
@@ -1187,7 +1267,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":2,
+    "socketLimit":3,
     "tags":{
       "default":true,
       "ezomyte_basetype":true,
@@ -1211,9 +1291,9 @@
     "quality":20,
     "req":{
       "level":51,
-      "str":117
+      "str":91
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "default":true,
       "mace":true,

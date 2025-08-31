@@ -1857,6 +1857,7 @@
             "1":569,
             "2":853
           }],
+        "notMinionStat":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage"],
         "statDescriptionScope":"hunters_mark_explosion",
         "stats":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage","display_statset_hide_usage_stats","replace_main_hand_unarmed_attack_stats_with_nothing_type","base_skill_show_average_damage_instead_of_dps","cannot_cause_bleeding"]
       }]
@@ -14235,6 +14236,7 @@
             "1":34,
             "2":6400
           }],
+        "notMinionStat":["base_skill_effect_duration"],
         "statDescriptionScope":"poison_burst_arrow",
         "stats":["active_skill_base_area_of_effect_radius","base_skill_effect_duration","base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","should_use_additive_aiming_animation","disable_visual_hit_effect","is_area_damage","display_statset_no_hit_damage","display_statset_hide_usage_stats","display_fake_attack_hit_poison","display_skill_poisons_without_hit","poison_duration_is_skill_duration"]
       }],
@@ -18048,9 +18050,7 @@
     "statSets":[{
         "baseEffectiveness":0,
         "baseFlags":{
-          "duration":true,
-          "mark":true,
-          "spell":true
+          "duration":true
         },
         "baseMods":[{
             "flags":0,
@@ -22132,6 +22132,7 @@
             "statInterpolation":[1],
             "1":14800
           }],
+        "notMinionStat":["base_skill_effect_duration"],
         "statDescriptionScope":"tame_beast",
         "stats":["base_skill_effect_duration","base_deal_no_damage","skill_can_see_monster_categories","can_perform_skill_while_moving","quality_display_base_skill_effect_duration_is_gem","display_tame_beast_mod_limit"]
       }]
@@ -23277,6 +23278,7 @@
             "3":-21,
             "4":15000
           }],
+        "notMinionStat":["base_skill_effect_duration"],
         "statDescriptionScope":"tornado_shot_statset_1",
         "stats":["base_physical_damage_to_deal_per_minute","tornado_shot_number_of_hits_allowed","tornado_shot_projectile_damage_+%_final","base_skill_effect_duration","base_is_projectile","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","is_area_damage","quality_display_tornado_shot_is_gem","no_additional_projectiles","projectile_damage_modifiers_apply_to_skill_dot","display_statset_no_hit_damage","display_statset_hide_usage_stats"]
       }],
@@ -24421,6 +24423,7 @@
             "1":460,
             "2":690
           }],
+        "notMinionStat":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage"],
         "statDescriptionScope":"triggered_caltrops_on_dodge",
         "stats":["main_hand_weapon_minimum_physical_damage","main_hand_weapon_maximum_physical_damage","triggered_by_generic_ongoing_trigger","skill_cannot_generate_energy","global_maim_on_hit","additive_thorns_damage_modifiers_apply_to_attack_damage","replace_main_hand_unarmed_attack_stats_with_nothing_type","base_is_projectile","is_hazard","caltrops_only_spawn_laterally","projectiles_not_offset","base_skill_show_average_damage_instead_of_dps"]
       }]

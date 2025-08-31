@@ -1,4 +1,27 @@
 {
+  "Adherent Cuffs":{
+    "armour":{
+      "Armour":87,
+      "EnergyShield":30
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":55,
+      "level":80,
+      "str":55
+    },
+    "socketLimit":3,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "gloves":true,
+      "karui_basetype":true,
+      "str_int_armour":true
+    },
+    "type":"Gloves"
+  },
   "Adorned Gloves":{
     "armour":{
       "EnergyShield":42
@@ -6,10 +29,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":104,
+      "int":80,
       "level":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -27,11 +50,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":52,
-      "int":52,
+      "dex":41,
+      "int":41,
       "level":59
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -49,11 +72,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":15,
+      "int":13,
       "level":16,
-      "str":15
+      "str":13
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -72,11 +95,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":62,
+      "int":48,
       "level":70,
-      "str":62
+      "str":48
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -88,15 +111,15 @@
   },
   "Ancient Mitts":{
     "armour":{
-      "Armour":105
+      "Armour":103
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":55,
-      "str":88
+      "level":54,
+      "str":67
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -114,11 +137,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":40,
-      "int":40,
+      "dex":32,
+      "int":32,
       "level":45
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -135,10 +158,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":122,
+      "dex":94,
       "level":75
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -150,21 +173,44 @@
   },
   "Baroque Gloves":{
     "armour":{
-      "EnergyShield":37
+      "EnergyShield":36
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":88,
-      "level":55
+      "int":67,
+      "level":54
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "gloves":true,
       "int_armour":true
+    },
+    "type":"Gloves"
+  },
+  "Blacksteel Gauntlets":{
+    "armour":{
+      "Armour":87,
+      "Evasion":79
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":55,
+      "level":80,
+      "str":55
+    },
+    "socketLimit":3,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "gloves":true,
+      "karui_basetype":true,
+      "str_dex_armour":true
     },
     "type":"Gloves"
   },
@@ -176,9 +222,9 @@
     "quality":20,
     "req":{
       "level":27,
-      "str":44
+      "str":35
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -196,10 +242,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":27,
+      "dex":22,
       "level":16
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -218,11 +264,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":57,
+      "int":44,
       "level":65,
-      "str":57
+      "str":44
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -240,11 +286,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":40,
+      "int":32,
       "level":45,
-      "str":40
+      "str":32
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -256,23 +302,24 @@
   },
   "Buckled Wraps":{
     "armour":{
-      "EnergyShield":17,
+      "EnergyShield":18,
       "Evasion":44
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":40,
-      "int":40,
-      "level":45
+      "dex":32,
+      "int":32,
+      "level":46
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "dex_int_armour":true,
-      "gloves":true
+      "gloves":true,
+      "karui_basetype":true
     },
     "type":"Gloves"
   },
@@ -284,11 +331,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":46,
+      "dex":36,
       "level":52,
-      "str":46
+      "str":36
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -306,11 +353,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":46,
-      "int":46,
+      "dex":35,
+      "int":35,
       "level":51
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -328,11 +375,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":46,
+      "dex":35,
       "level":51,
-      "str":46
+      "str":35
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -350,11 +397,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":62,
+      "dex":48,
       "level":70,
-      "str":62
+      "str":48
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -372,11 +419,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":67,
+      "dex":52,
       "level":75,
-      "str":67
+      "str":52
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -388,43 +435,22 @@
   },
   "Detailed Mitts":{
     "armour":{
-      "Armour":88
+      "Armour":90
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "level":45,
-      "str":73
+      "level":46,
+      "str":57
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
       "default":true,
       "gloves":true,
+      "karui_basetype":true,
       "str_armour":true
-    },
-    "type":"Gloves"
-  },
-  "Diviner Cuffs":{
-    "armour":{
-      "Armour":48,
-      "EnergyShield":17
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":40,
-      "level":45,
-      "str":40
-    },
-    "socketLimit":2,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "gloves":true,
-      "str_int_armour":true
     },
     "type":"Gloves"
   },
@@ -436,11 +462,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":30,
+      "dex":24,
       "level":33,
-      "str":30
+      "str":24
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -459,9 +485,9 @@
     "quality":20,
     "req":{
       "level":51,
-      "str":82
+      "str":64
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -479,17 +505,37 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":62,
-      "int":62,
+      "dex":48,
+      "int":48,
       "level":70
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "dex_int_armour":true,
       "gloves":true
+    },
+    "type":"Gloves"
+  },
+  "Embellished Gloves":{
+    "armour":{
+      "EnergyShield":35
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":64,
+      "level":51
+    },
+    "socketLimit":3,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "gloves":true,
+      "int_armour":true
     },
     "type":"Gloves"
   },
@@ -500,10 +546,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":82,
-      "level":51
+      "int":64,
+      "level":52
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -520,10 +566,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":104,
+      "dex":80,
       "level":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -541,9 +587,9 @@
     "quality":20,
     "req":{
       "level":59,
-      "str":95
+      "str":73
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -555,21 +601,22 @@
   },
   "Fine Bracers":{
     "armour":{
-      "Evasion":79
+      "Evasion":81
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":73,
-      "level":45
+      "dex":57,
+      "level":46
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "dex_armour":true,
-      "gloves":true
+      "gloves":true,
+      "karui_basetype":true
     },
     "type":"Gloves"
   },
@@ -580,10 +627,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":19,
+      "dex":16,
       "level":11
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -602,11 +649,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":46,
-      "int":46,
+      "dex":36,
+      "int":36,
       "level":52
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -627,7 +674,7 @@
       "dex":6,
       "int":6
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -646,11 +693,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":67,
+      "int":52,
       "level":75,
-      "str":67
+      "str":52
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -667,10 +714,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":95,
+      "int":73,
       "level":59
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -688,11 +735,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":30,
+      "int":24,
       "level":33,
-      "str":30
+      "str":24
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -710,10 +757,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":113,
+      "dex":87,
       "level":70
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -732,12 +779,12 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":40,
-      "int":40,
+      "dex":32,
+      "int":32,
       "level":65,
-      "str":40
+      "str":32
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -755,9 +802,9 @@
     "quality":20,
     "req":{
       "level":65,
-      "str":104
+      "str":80
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -774,10 +821,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":104,
+      "int":80,
       "level":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -794,10 +841,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":83,
+      "dex":64,
       "level":52
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -815,11 +862,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":46,
+      "int":35,
       "level":51,
-      "str":46
+      "str":35
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -836,10 +883,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":73,
+      "dex":56,
       "level":45
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -856,10 +903,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":53,
+      "int":42,
       "level":33
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -878,11 +925,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":40,
+      "dex":32,
       "level":45,
-      "str":40
+      "str":32
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -899,10 +946,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":43,
+      "int":34,
       "level":26
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -921,9 +968,9 @@
     "quality":20,
     "req":{
       "level":65,
-      "str":104
+      "str":80
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -941,11 +988,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":15,
+      "dex":13,
       "level":16,
-      "str":15
+      "str":13
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -964,11 +1011,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":15,
-      "int":15,
+      "dex":13,
+      "int":13,
       "level":16
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -976,6 +1023,27 @@
       "dex_int_armour":true,
       "gloves":true,
       "maraketh_basetype":true
+    },
+    "type":"Gloves"
+  },
+  "Massive Mitts":{
+    "armour":{
+      "Armour":158
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "level":80,
+      "str":101
+    },
+    "socketLimit":3,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "gloves":true,
+      "karui_basetype":true,
+      "str_armour":true
     },
     "type":"Gloves"
   },
@@ -987,9 +1055,9 @@
     "quality":20,
     "req":{
       "level":33,
-      "str":53
+      "str":42
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1007,10 +1075,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":73,
+      "int":56,
       "level":45
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1027,10 +1095,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":113,
+      "int":87,
       "level":70
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1048,11 +1116,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":52,
+      "int":41,
       "level":59,
-      "str":52
+      "str":41
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -1070,11 +1138,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":57,
+      "dex":44,
       "level":65,
-      "str":57
+      "str":44
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -1092,9 +1160,9 @@
     "quality":20,
     "req":{
       "level":70,
-      "str":113
+      "str":87
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1111,37 +1179,39 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":73,
-      "level":45
+      "int":57,
+      "level":46
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "gloves":true,
-      "int_armour":true
+      "int_armour":true,
+      "karui_basetype":true
     },
     "type":"Gloves"
   },
   "Plate Gauntlets":{
     "armour":{
-      "Armour":48,
+      "Armour":49,
       "Evasion":44
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":40,
-      "level":45,
-      "str":40
+      "dex":32,
+      "level":46,
+      "str":32
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "gloves":true,
+      "karui_basetype":true,
       "str_dex_armour":true
     },
     "type":"Gloves"
@@ -1154,9 +1224,9 @@
     "quality":20,
     "req":{
       "level":45,
-      "str":73
+      "str":56
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1166,17 +1236,38 @@
     },
     "type":"Gloves"
   },
-  "Refined Bracers":{
+  "Polished Bracers":{
     "armour":{
-      "Evasion":95
+      "Evasion":144
     },
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":88,
-      "level":55
+      "dex":101,
+      "level":80
     },
-    "socketLimit":2,
+    "socketLimit":3,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "gloves":true,
+      "karui_basetype":true
+    },
+    "type":"Gloves"
+  },
+  "Refined Bracers":{
+    "armour":{
+      "Evasion":93
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":67,
+      "level":54
+    },
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1194,11 +1285,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":46,
+      "int":36,
       "level":52,
-      "str":46
+      "str":36
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -1216,11 +1307,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":7,
+      "dex":6,
       "level":6,
-      "str":7
+      "str":6
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -1239,9 +1330,9 @@
     "quality":20,
     "req":{
       "level":11,
-      "str":19
+      "str":16
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1264,7 +1355,7 @@
       "level":5,
       "str":6
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -1282,10 +1373,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":46,
+      "dex":36,
       "level":28
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1293,6 +1384,29 @@
       "dex_armour":true,
       "gloves":true,
       "maraketh_basetype":true
+    },
+    "type":"Gloves"
+  },
+  "Secured Wraps":{
+    "armour":{
+      "EnergyShield":30,
+      "Evasion":79
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":55,
+      "int":55,
+      "level":80
+    },
+    "socketLimit":3,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "gloves":true,
+      "karui_basetype":true
     },
     "type":"Gloves"
   },
@@ -1304,17 +1418,38 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":57,
+      "int":44,
       "level":65,
-      "str":57
+      "str":44
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "gloves":true,
       "str_int_armour":true
+    },
+    "type":"Gloves"
+  },
+  "Sirenscale Gloves":{
+    "armour":{
+      "EnergyShield":54
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":101,
+      "level":80
+    },
+    "socketLimit":3,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "gloves":true,
+      "int_armour":true,
+      "karui_basetype":true
     },
     "type":"Gloves"
   },
@@ -1325,10 +1460,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":20,
+      "int":17,
       "level":12
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1346,10 +1481,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":95,
+      "dex":73,
       "level":59
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1366,10 +1501,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":53,
+      "dex":42,
       "level":33
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1388,11 +1523,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":30,
-      "int":30,
+      "dex":24,
+      "int":24,
       "level":33
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -1410,10 +1545,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":104,
+      "dex":80,
       "level":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1431,11 +1566,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":57,
+      "dex":44,
       "level":65,
-      "str":57
+      "str":44
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -1452,10 +1587,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":27,
+      "int":22,
       "level":16
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1473,7 +1608,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1491,7 +1626,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1509,10 +1644,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":82,
+      "dex":64,
       "level":51
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1530,9 +1665,9 @@
     "quality":20,
     "req":{
       "level":16,
-      "str":27
+      "str":22
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1551,9 +1686,9 @@
     "quality":20,
     "req":{
       "level":52,
-      "str":83
+      "str":64
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1570,7 +1705,7 @@
     "implicitModTypes":[],
     "quality":20,
     "req":[],
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1589,11 +1724,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":57,
-      "int":57,
+      "dex":44,
+      "int":44,
       "level":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -1610,10 +1745,10 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "int":122,
+      "int":94,
       "level":75
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1631,9 +1766,9 @@
     "quality":20,
     "req":{
       "level":75,
-      "str":122
+      "str":94
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1651,17 +1786,40 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":67,
-      "int":67,
+      "dex":52,
+      "int":52,
       "level":75
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "dex_int_armour":true,
       "gloves":true
+    },
+    "type":"Gloves"
+  },
+  "Verisium Cuffs":{
+    "armour":{
+      "Armour":49,
+      "EnergyShield":18
+    },
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":32,
+      "level":46,
+      "str":32
+    },
+    "socketLimit":3,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "gloves":true,
+      "karui_basetype":true,
+      "str_int_armour":true
     },
     "type":"Gloves"
   },
@@ -1673,11 +1831,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":57,
-      "int":57,
+      "dex":44,
+      "int":44,
       "level":65
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -1695,11 +1853,11 @@
     "implicitModTypes":[],
     "quality":20,
     "req":{
-      "dex":52,
+      "dex":41,
       "level":59,
-      "str":52
+      "str":41
     },
-    "socketLimit":2,
+    "socketLimit":3,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
