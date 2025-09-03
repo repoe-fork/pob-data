@@ -144,6 +144,13 @@
         "type":"BASE",
         "value":0
       }]],
+  "+0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":0.1
+      }],"  per 10 Item Energy Shield on Equipped Armour Items "],
   "+0.15% to Thorns Critical Hit Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -703,24 +710,24 @@
   "+10% of Armour also applies to Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToColdDamageTaken",
         "type":"BASE",
         "value":10
-      }],"  also applies to Cold Damage "],
+      }]],
   "+10% of Armour also applies to Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToFireDamageTaken",
         "type":"BASE",
         "value":10
-      }],"  also applies to Fire Damage "],
+      }]],
   "+10% of Armour also applies to Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToLightningDamageTaken",
         "type":"BASE",
         "value":10
-      }],"  also applies to Lightning Damage "],
+      }]],
   "+10% to Block chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -750,6 +757,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ColdResist",
+        "type":"BASE",
+        "value":10
+      }]],
+  "+10% to Critical Damage Bonus":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritMultiplier",
         "type":"BASE",
         "value":10
       }]],
@@ -1253,31 +1267,43 @@
   "+15% of Armour also applies to Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToColdDamageTaken",
         "type":"BASE",
         "value":15
-      }],"  also applies to Cold Damage "],
+      }]],
   "+15% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToFireDamageTaken",
         "type":"BASE",
         "value":15
-      }],"  also applies to Elemental Damage "],
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToColdDamageTaken",
+        "type":"BASE",
+        "value":15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToLightningDamageTaken",
+        "type":"BASE",
+        "value":15
+      }]],
   "+15% of Armour also applies to Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToFireDamageTaken",
         "type":"BASE",
         "value":15
-      }],"  also applies to Fire Damage "],
+      }]],
   "+15% of Armour also applies to Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToLightningDamageTaken",
         "type":"BASE",
         "value":15
-      }],"  also applies to Lightning Damage "],
+      }]],
   "+15% to Block chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1417,13 +1443,6 @@
         "name":"ChaosResist",
         "type":"BASE",
         "value":17
-      }]],
-  "+175 to Accuracy Rating":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Accuracy",
-        "type":"BASE",
-        "value":175
       }]],
   "+175 to Armour":[[{
         "flags":0,
@@ -5751,45 +5770,43 @@
   "+30% of Armour also applies to Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToColdDamageTaken",
         "type":"BASE",
         "value":30
-      }],"  also applies to Cold Damage "],
+      }]],
   "+30% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToFireDamageTaken",
         "type":"BASE",
         "value":30
-      }],"  also applies to Elemental Damage "],
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToColdDamageTaken",
+        "type":"BASE",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToLightningDamageTaken",
+        "type":"BASE",
+        "value":30
+      }]],
   "+30% of Armour also applies to Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToFireDamageTaken",
         "type":"BASE",
         "value":30
-      }],"  also applies to Fire Damage "],
-  "+30% of Armour also applies to Fire Damage 30% reduced Magnitude of Ignite on you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":30
-      }],"  also applies to Fire Damage 30% reduced Magnitude of Ignite on you "],
+      }]],
   "+30% of Armour also applies to Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToLightningDamageTaken",
         "type":"BASE",
         "value":30
-      }],"  also applies to Lightning Damage "],
-  "+30% of Armour also applies to Lightning Damage 30% reduced effect of Shock on you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":30
-      }],"  also applies to Lightning Damage 30% reduced effect of Shock on you "],
+      }]],
   "+30% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -6591,10 +6608,22 @@
   "+5% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToFireDamageTaken",
         "type":"BASE",
         "value":5
-      }],"  also applies to Elemental Damage "],
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToColdDamageTaken",
+        "type":"BASE",
+        "value":5
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAppliesToLightningDamageTaken",
+        "type":"BASE",
+        "value":5
+      }]],
   "+5% to Block chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7330,6 +7359,13 @@
         "type":"BASE",
         "value":8
       }]],
+  "+8% to Critical Damage Bonus":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritMultiplier",
+        "type":"BASE",
+        "value":8
+      }]],
   "+8% to Critical Hit Chance of Herald Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7971,6 +8007,20 @@
           "type":"PerStat"
         }
       }]],
+  "1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"MORE",
+        "value":1
+      }],"  per 25 Item Evasion Rating on Equipped Armour Items "],
+  "1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"MORE",
+        "value":1
+      }],"  per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
   "10 Life Regeneration per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12155,6 +12205,17 @@
         "1":{
           "type":"Condition",
           "var":"AtCloseRange"
+        }
+      }]],
+  "15% increased Minion Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "skillType":77,
+          "type":"SkillType"
         }
       }]],
   "15% increased Movement Speed":[[{
@@ -17015,13 +17076,6 @@
         "type":"INC",
         "value":-25
       }]],
-  "250% increased Armour and Energy Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAndEnergyShield",
-        "type":"INC",
-        "value":250
-      }]],
   "250% increased Armour and Evasion":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19674,6 +19728,21 @@
         "type":"BASE",
         "value":40
       }]],
+  "40% chance to Daze on Hit":[[]," to Daze  "],
+  "40% chance to Daze on Hit 172% increased Physical Damage":[[{
+        "flags":4,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"BASE",
+        "value":40
+      }]," to Daze  172% increased  "],
+  "40% chance to Daze on Hit Adds 44 to 66 Fire Damage":[[{
+        "flags":4,
+        "keywordFlags":0,
+        "name":"FireDamage",
+        "type":"BASE",
+        "value":40
+      }]," to Daze  Adds 44 to 66  "],
   "40% faster Curse Activation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22908,6 +22977,17 @@
         "value":6,
         "1":{
           "skillType":52,
+          "type":"SkillType"
+        }
+      }]],
+  "6% increased Reservation Efficiency of Minion Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ReservationEfficiency",
+        "type":"INC",
+        "value":6,
+        "1":{
+          "skillType":6,
           "type":"SkillType"
         }
       }]],
@@ -33035,6 +33115,8 @@
   "Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage "],
   "Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 100 Base Chaos Damage Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage "],
   "Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage":[null,"Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage "],
+  "Blue: Skills have 30% less cost":[null,"Blue: Skills have 30% less cost "],
+  "Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
   "Body Armour grants +100% of Armour also applies to Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33336,9 +33418,9 @@
       }]],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty "],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain:":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: "],
-  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level "],
-  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
-  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
+  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level "],
+  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
+  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
   "Can Block damage from all Hits":[null,"Can Block damage from all Hits "],
   "Can Block damage from all Hits Cannot use Shield Skills":[null,"Can Block damage from all Hits Cannot use Shield Skills "],
   "Can Evade all Hits if you have not been Hit Recently":[null,"Can Evade all Hits if you have not been Hit Recently "],
@@ -33563,20 +33645,6 @@
         }
       }]],
   "Causes Daze buildup equal to 100% of Damage dealt":[null,"Causes Daze buildup equal to 100% of Damage dealt "],
-  "Causes Daze buildup equal to 100% of Damage dealt 172% increased Physical Damage":[null,"Causes Daze buildup equal to 100% of Damage dealt 172% increased Physical Damage "],
-  "Causes Daze buildup equal to 100% of Damage dealt Adds 44 to 66 Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireMin",
-        "type":"BASE",
-        "value":44
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireMax",
-        "type":"BASE",
-        "value":66
-      }],"Causes Daze buildup equal to 100% of  dealt  "],
   "Causes Double Stun Buildup":[[]," Stun Buildup "],
   "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage":[null,"Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage "],
   "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage 120% increased Physical Damage":[null,"Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage 120% increased Physical Damage "],
@@ -33919,6 +33987,8 @@
         "type":"BASE",
         "value":100
       }]],
+  "Coral Circlet":[null,"Coral Circlet "],
+  "Coral Circlet League: Dawn of the Hunt":[null,"Coral Circlet League: Dawn of the Hunt "],
   "Corrupted Blood cannot be inflicted on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34076,6 +34146,29 @@
           "chance":0.33,
           "keyOfScaledMod":"chance",
           "type":"Chaos"
+        },
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Cursed"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanExplode",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Cursed Enemies Killed by you, or by Allies in your Presence, have a 33% chance to Explode, dealing a quarter of their maximum Life as Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExplodeMod",
+        "type":"LIST",
+        "value":{
+          "amount":25,
+          "chance":0.33,
+          "keyOfScaledMod":"chance",
+          "type":"Physical"
         },
         "1":{
           "actor":"enemy",
@@ -34314,6 +34407,7 @@
         "type":"INC",
         "value":5
       }]],
+  "Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition":[null,"Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition "],
   "Darkness Reservation lasts for 5 seconds":[null,"Darkness Reservation lasts for 5 seconds "],
   "Darkness Reservation lasts for 5 seconds +8 to Maximum Darkness per Level":[null,"Darkness Reservation lasts for 5 seconds +8 to Maximum Darkness per Level "],
   "Deal 30% of Overkill damage to enemies within 2 metres of the enemy killed":[[{
@@ -34462,6 +34556,8 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Diviner Cuffs":[null,"Diviner Cuffs "],
+  "Diviner Cuffs League: Dawn of the Hunt":[null,"Diviner Cuffs League: Dawn of the Hunt "],
   "Dodge Roll avoids all Hits":[null,"Dodge Roll avoids all Hits "],
   "Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds":[null,"Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds "],
   "Dodge Roll cannot Avoid Damage":[null,"Dodge Roll cannot Avoid Damage "],
@@ -35469,9 +35565,9 @@
         "value":0.17
       }]],
   "For each colour of Socketed Support Gem that is most numerous, gain:":[null,"For each colour of Socketed Support Gem that is most numerous, gain: "],
-  "For each colour of Socketed Support Gem that is most numerous, gain: •Red: Hits against you have no Critical Damage Bonus":[null,"For each colour of Socketed Support Gem that is most numerous, gain: •Red: Hits  have no Critical Damage Bonus "],
-  "For each colour of Socketed Support Gem that is most numerous, gain: •Red: Hits against you have no Critical Damage Bonus •Blue: Skills have 30% less cost":[null,"For each colour of Socketed Support Gem that is most numerous, gain: •Red: Hits  have no Critical Damage Bonus •Blue: Skills have 30% less cost "],
-  "For each colour of Socketed Support Gem that is most numerous, gain: •Red: Hits against you have no Critical Damage Bonus •Blue: Skills have 30% less cost •Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"For each colour of Socketed Support Gem that is most numerous, gain: •Red: Hits  have no Critical Damage Bonus •Blue: Skills have 30% less cost •Green: 40% less Movement Speed Penalty from using Skills while Moving "],
+  "For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits against you have no Critical Damage Bonus":[null,"For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits  have no Critical Damage Bonus "],
+  "For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost":[null,"For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost "],
+  "For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"For each colour of Socketed Support Gem that is most numerous, gain: Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
   "Forks Critical Hits":[[{
         "flags":0,
         "keywordFlags":0,
@@ -36520,12 +36616,12 @@
           "type":"PercentStat"
         }
       }]],
-  "Gain additional Critical Hit Chance equal to 15% of excess chance to Hit with Attacks":[[{
+  "Gain additional Critical Hit Chance equal to 25% of excess chance to Hit with Attacks":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"CritChance",
         "type":"BASE",
-        "value":0.15,
+        "value":0.25,
         "1":{
           "type":"Multiplier",
           "var":"ExcessHitChance"
@@ -36993,16 +37089,6 @@
           "skillId":"ManaDrainPlayer"
         }
       }]],
-  "Grants Skill: Level 11 Parry":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":11,
-          "skillId":"ParryPlayer"
-        }
-      }]],
   "Grants Skill: Level 11 Power Siphon":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37043,16 +37129,6 @@
           "skillId":"PurityOfLightningPlayer"
         }
       }]],
-  "Grants Skill: Level 11 Raise Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":11,
-          "skillId":"ShieldBlockPlayer"
-        }
-      }]],
   "Grants Skill: Level 11 Sigil of Power":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37071,6 +37147,16 @@
         "value":{
           "level":11,
           "skillId":"SummonSkeletalWarriorsPlayer"
+        }
+      }]],
+  "Grants Skill: Level 11 Solar Orb":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":11,
+          "skillId":"SolarOrbPlayer"
         }
       }]],
   "Grants Skill: Level 11 Spark":[[{
@@ -37303,16 +37389,6 @@
           "skillId":"ManaDrainPlayer"
         }
       }]],
-  "Grants Skill: Level 20 Parry":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"ParryPlayer"
-        }
-      }]],
   "Grants Skill: Level 20 Pinnacle of Power":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37363,16 +37439,6 @@
           "skillId":"PurityOfLightningPlayer"
         }
       }]],
-  "Grants Skill: Level 20 Raise Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"ShieldBlockPlayer"
-        }
-      }]],
   "Grants Skill: Level 20 Sigil of Power":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37391,6 +37457,16 @@
         "value":{
           "level":20,
           "skillId":"SummonSkeletalWarriorsPlayer"
+        }
+      }]],
+  "Grants Skill: Level 20 Solar Orb":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"SolarOrbPlayer"
         }
       }]],
   "Grants Skill: Level 20 Spark":[[{
@@ -37593,6 +37669,7 @@
   "Grants effect of Guided Meteoric Shrine":[null,"Grants effect of Guided Meteoric Shrine "],
   "Grants effect of Guided Tempest Shrine":[null,"Grants effect of Guided Tempest Shrine "],
   "Grants up to your maximum Rage on use":[null,"Grants up to your maximum Rage on use "],
+  "Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"Green: 40% less Movement Speed Penalty from using Skills while Moving "],
   "Grenade Skills Fire an additional Projectile":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -40163,6 +40240,7 @@
         }
       }]],
   "Offerings cannot be damaged if they have been created Recently":[null,"Offerings cannot be damaged if they have been created Recently "],
+  "Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy":[null,"Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy "],
   "Offerings have 15% increased Maximum Life":[null,"Offerings have 15% increased Maximum Life "],
   "Offerings have 30% increased Maximum Life":[null,"Offerings have 30% increased Maximum Life "],
   "Offerings have 30% increased Maximum Life Recover 3% of maximum Life when you create an Offering":[null,"Offerings have 30% increased Maximum Life Recover 3% of maximum Life when you create an Offering "],
@@ -40855,6 +40933,9 @@
       }]],
   "Physical Damage is Pinning":[null,"Physical Damage is Pinning "],
   "Physical Spell Critical Hits build Pin":[null,"Physical Spell Critical Hits build Pin "],
+  "Physical damage based on their Skill Level":[null,"Physical damage based on their Skill Level "],
+  "Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
+  "Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
   "Pin Enemies which are Primed for Pinning":[null,"Pin Enemies which are Primed for Pinning "],
   "Pinned Enemies cannot deal Critical Hits":[null,"Pinned Enemies cannot deal Critical Hits "],
   "Pinned enemies cannot perform actions":[null,"Pinned enemies cannot perform actions "],
@@ -41230,6 +41311,9 @@
   "Recover Mana equal to 20% of Life Flask's Recovery Amount when used":[null,"Recover Mana equal to 20% of Life Flask's Recovery Amount when used "],
   "Recover all Mana when Used":[null,"Recover all Mana when Used "],
   "Recover all Mana when Used Deals 25% of current Mana as Chaos Damage to you when Effect ends":[null,"Recover all Mana when Used Deals 25% of current Mana as Chaos Damage to you when Effect ends "],
+  "Red: Hits against you have no Critical Damage Bonus":[null,"Red: Hits  have no Critical Damage Bonus "],
+  "Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost":[null,"Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost "],
+  "Red: Hits against you have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"Red: Hits  have no Critical Damage Bonus Blue: Skills have 30% less cost Green: 40% less Movement Speed Penalty from using Skills while Moving "],
   "Reflects opposite Ring":[[]],
   "Regenerate (0.7-1.2)% of Life per second":[null,"Regenerate (0.7-1.2)% of Life per second "],
   "Regenerate 0.05 Life per second per Maximum Energy Shield":[[{
@@ -41577,6 +41661,7 @@
   "Share Charges with Allies in your Presence":[null,"Share Charges with "],
   "Shocking Hits have a 50% chance to also Shock enemies in a 1.5 metre radius":[null,"Shocking Hits have a 50% chance to also Shock enemies in a 1.5 metre radius "],
   "Shocks you when you reach maximum Power Charges":[null,"Shocks you when you reach maximum Power Charges "],
+  "Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created":[null,"Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created "],
   "Skill Mana Costs Converted to Life Costs":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42150,9 +42235,9 @@
         }
       }]],
   "Unarmed Attacks that would use your Quarterstaff's damage gain:":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: "],
-  "Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level "],
-  "Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
-  "Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: • Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
+  "Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level "],
+  "Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
+  "Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Unarmed Attacks that would use your Quarterstaff's damage gain: Physical damage based on their Skill Level 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
   "Undead Minions have 20% reduced Reservation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42682,6 +42767,11 @@
         "value":true
       }]],
   "Your Minions are Gigantic":[null,"Your Minions are Gigantic "],
+  "Your Offerings affect you instead of your Minions":[null,"Your Offerings affect you instead of your Minions "],
+  "Your Offerings affect you instead of your Minions Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy":[null,"Your Offerings affect you instead of your Minions Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy "],
+  "Your Offerings can target Enemies in Culling range":[null,"Your Offerings can target Enemies in Culling range "],
+  "Your Offerings can target Enemies in Culling range Your Offerings affect you instead of your Minions":[null,"Your Offerings can target Enemies in Culling range Your Offerings affect you instead of your Minions "],
+  "Your Offerings can target Enemies in Culling range Your Offerings affect you instead of your Minions Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy":[null,"Your Offerings can target Enemies in Culling range Your Offerings affect you instead of your Minions Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy "],
   "Your base Energy Shield Recharge Delay is 10 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42709,17 +42799,5 @@
   "your Ailments on them":[null,"your Ailments on them "],
   "your Ailments on them 30% reduced Duration of Ignite, Shock and Chill on Enemies":[null,"your Ailments on them 30% reduced Duration of Ignite, Shock and Chill on Enemies "],
   "your Ailments on them your Ailments on them":[null,"your Ailments on them your Ailments on them "],
-  "your maximum Life as Physical damage per second":[null,"your maximum Life as Physical damage per second "],
-  "• +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"• +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
-  "• 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"• 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
-  "• 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"• 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
-  "• Physical damage based on their Skill Level":[null,"• Physical damage based on their Skill Level "],
-  "• Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items":[null,"• Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items "],
-  "• Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"• Physical damage based on their Skill Level • 1% more Attack Speed per 25 Item Evasion Rating on Equipped Armour Items • +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
-  "•Blue: Skills have 30% less cost":[null,"•Blue: Skills have 30% less cost "],
-  "•Blue: Skills have 30% less cost •Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"•Blue: Skills have 30% less cost •Green: 40% less Movement Speed Penalty from using Skills while Moving "],
-  "•Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"•Green: 40% less Movement Speed Penalty from using Skills while Moving "],
-  "•Red: Hits against you have no Critical Damage Bonus":[null,"•Red: Hits  have no Critical Damage Bonus "],
-  "•Red: Hits against you have no Critical Damage Bonus •Blue: Skills have 30% less cost":[null,"•Red: Hits  have no Critical Damage Bonus •Blue: Skills have 30% less cost "],
-  "•Red: Hits against you have no Critical Damage Bonus •Blue: Skills have 30% less cost •Green: 40% less Movement Speed Penalty from using Skills while Moving":[null,"•Red: Hits  have no Critical Damage Bonus •Blue: Skills have 30% less cost •Green: 40% less Movement Speed Penalty from using Skills while Moving "]
+  "your maximum Life as Physical damage per second":[null,"your maximum Life as Physical damage per second "]
 }
