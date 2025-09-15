@@ -1123,6 +1123,23 @@
     "stats":["Axiom Perpetuum","Bronze Sceptre","Variant: Pre 2.3.0","Variant: Current","Requires Level 10, 22 Str, 22 Int","Implicits: 2","{variant:1}10% increased Elemental Damage","{variant:2}12% increased Elemental Damage","(4-6)% increased Cast Speed","(100-140)% increased Critical Strike Chance for Spells","Adds (2-3) to (5-6) Fire Damage to Spells","Adds (2-3) to (5-6) Cold Damage to Spells","Adds 1 to (10-12) Lightning Damage to Spells"],
     "variants":["Pre 2.3.0","Current"]
   },
+  "Azadi Crest":{
+    "baseType":"Lacquered Buckler",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"shield.min",
+    "league":" Mercenaries of Trarthus",
+    "modifiers":["6% increased Movement Speed","+(1-100) to maximum Life","+(1-10)% Chance to Block","(1-10)% chance to avoid Projectiles"],
+    "name":"Azadi Crest",
+    "originalString":"Azadi Crest\nLacquered Buckler\nSource: Drops from unique{Mercenary} after winning a duel\nLeague: Mercenaries of Trarthus\nRequires Level 60, 154 Dex\nImplicits: 1\n6% increased Movement Speed\n+(1-100) to maximum Life\n+(1-10)% Chance to Block\n(1-10)% chance to avoid Projectiles\nYour Lucky or Unlucky effects use the best or\nworst from three rolls instead of two\n",
+    "requirements":{
+      "level":60
+    },
+    "source":"Drops from unique{Mercenary} after winning a duel",
+    "stats":["Azadi Crest","Lacquered Buckler","Source: Drops from unique{Mercenary} after winning a duel","League: Mercenaries of Trarthus","Requires Level 60, 154 Dex","Implicits: 1","6% increased Movement Speed","+(1-100) to maximum Life","+(1-10)% Chance to Block","(1-10)% chance to avoid Projectiles","Your Lucky or Unlucky effects use the best or","worst from three rolls instead of two"],
+    "variants":[]
+  },
   "Badge of the Brotherhood":{
     "baseType":"Turquoise Amulet",
     "flags":[],
@@ -1286,6 +1303,39 @@
     },
     "stats":["Berek's Respite","Two-Stone Ring","League: Domination, Nemesis","Variant: Pre 2.6.0","Variant: Current","Requires Level 20","Implicits: 1","{tags:jewellery_resistance}+(12-16)% to Fire and Lightning Resistances","{variant:1}{tags:jewellery_elemental,attack}Adds 1 to (10-30) Fire Damage to Attacks","{variant:2}{tags:jewellery_elemental,attack,caster}Adds (20-25) to (30-50) Fire Damage to Spells and Attacks","{variant:1}{tags:jewellery_elemental}(10-15)% increased Lightning Damage","{variant:2}{tags:jewellery_elemental}(25-30)% increased Lightning Damage","{tags:mana}+(30-40) to maximum Mana","{variant:1}Shock a nearby Enemy for 2 seconds on Killing a Shocked Enemy","{variant:2}Shocks all nearby Enemies on Killing a Shocked Enemy","{variant:1}Ignite a nearby Enemy on Killing an Ignited Enemy","{variant:2}Ignites all nearby Enemies on Killing an Ignited Enemy"],
     "variants":["Pre 2.6.0","Current"]
+  },
+  "Betrayal's Sting":{
+    "baseType":"Steel Ring",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"ring.min",
+    "modifiers":["{tags:attack}Adds (3-4) to (10-14) Physical Damage to Attacks","{tags:jewellery_attribute}+(20-35) to Dexterity","{tags:jewellery_resistance}(-30--20)% to all Elemental Resistances","{tags:jewellery_resistance}+(20-30)% to Chaos Resistance","{tags:speed}5% increased Movement Speed","{tags:chaos_damage}(25-40)% chance to inflict an additional Poison on the same Target when you inflict Poison"],
+    "name":"Betrayal's Sting",
+    "originalString":"Betrayal's Sting\nSteel Ring\nSource: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}\nRequires Level 80\nImplicits: 1\n{tags:attack}Adds (3-4) to (10-14) Physical Damage to Attacks\n{tags:jewellery_attribute}+(20-35) to Dexterity\n{tags:jewellery_resistance}(-30--20)% to all Elemental Resistances\n{tags:jewellery_resistance}+(20-30)% to Chaos Resistance\n{tags:speed}5% increased Movement Speed\n{tags:chaos_damage}(25-40)% chance to inflict an additional Poison on the same Target when you inflict Poison\n",
+    "requirements":{
+      "level":80
+    },
+    "source":"Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}",
+    "stats":["Betrayal's Sting","Steel Ring","Source: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}","Requires Level 80","Implicits: 1","{tags:attack}Adds (3-4) to (10-14) Physical Damage to Attacks","{tags:jewellery_attribute}+(20-35) to Dexterity","{tags:jewellery_resistance}(-30--20)% to all Elemental Resistances","{tags:jewellery_resistance}+(20-30)% to Chaos Resistance","{tags:speed}5% increased Movement Speed","{tags:chaos_damage}(25-40)% chance to inflict an additional Poison on the same Target when you inflict Poison"],
+    "variants":[]
+  },
+  "Binds of Bloody Vengeance":{
+    "baseType":"Vanguard Belt",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"belt.min",
+    "league":" Mercenaries of Trarthus",
+    "modifiers":["{tags:jewellery_defense}+(260-320) to Armour and Evasion Rating","{tags:jewellery_defense}+(200-400) to Armour","{tags:life}+(60-90) to maximum Life","(20-40)% increased Attack Damage if you've been Hit Recently"],
+    "name":"Binds of Bloody Vengeance",
+    "originalString":"Binds of Bloody Vengeance\nVanguard Belt\nSource: Drops from unique{Mercenary} after winning a duel\nLeague: Mercenaries of Trarthus\nRequires Level 78\nImplicits: 1\n{tags:jewellery_defense}+(260-320) to Armour and Evasion Rating\n{tags:jewellery_defense}+(200-400) to Armour\n{tags:life}+(60-90) to maximum Life\n(20-40)% increased Attack Damage if you've been Hit Recently\nAll Hits with your next Non-Channelling Attack within 4 seconds of taking a Critical Strike will be Critical Strikes\n",
+    "requirements":{
+      "level":78
+    },
+    "source":"Drops from unique{Mercenary} after winning a duel",
+    "stats":["Binds of Bloody Vengeance","Vanguard Belt","Source: Drops from unique{Mercenary} after winning a duel","League: Mercenaries of Trarthus","Requires Level 78","Implicits: 1","{tags:jewellery_defense}+(260-320) to Armour and Evasion Rating","{tags:jewellery_defense}+(200-400) to Armour","{tags:life}+(60-90) to maximum Life","(20-40)% increased Attack Damage if you've been Hit Recently","All Hits with your next Non-Channelling Attack within 4 seconds of taking a Critical Strike will be Critical Strikes"],
+    "variants":[]
   },
   "Bino's Kitchen Knife":{
     "baseType":"Slaughter Knife",
@@ -1947,6 +1997,22 @@
     "stats":["Bubonic Trail","Murder Boots","League: Abyss","Source: Drops from unique{Amanamu, Liege of the Lightless} or unique{Ulaman, Sovereign of the Well}","Variant: One Abyssal Socket (Pre 3.21.0)","Variant: Two Abyssal Sockets (Pre 3.21.0)","Variant: One Abyssal Socket (Current)","Variant: Two Abyssal Sockets (Current)","Requires Level 69, 82 Dex, 42 Int","{variant:1,3}Has 1 Abyssal Socket","{variant:2,4}Has 2 Abyssal Sockets","Triggers Level 20 Death Walk when Equipped","{variant:1,2}(4-6)% increased maximum Life","{variant:3,4}(40-60)% reduced Duration of Elemental Ailments on You while affected by a Rare Abyss Jewel","{variant:1,2}30% increased Movement Speed","{variant:3,4}(24-32)% increased Movement Speed while affected by a Magic Abyss Jewel","{variant:1,2}10% increased Damage for each type of Abyssal Jewel affecting you","{variant:3,4}(16-24)% increased Reservation Efficiency while affected by a Unique Abyss Jewel"],
     "variants":["One Abyssal Socket (Pre 3.21.0)","Two Abyssal Sockets (Pre 3.21.0)","One Abyssal Socket (Current)","Two Abyssal Sockets (Current)"]
   },
+  "Cadigan's Authority":{
+    "baseType":"Platinum Sceptre",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"mace.min",
+    "modifiers":["30% increased Elemental Damage","+(3-5) to maximum number of Summoned Totems","(40-70)% increased Totem Placement speed"],
+    "name":"Cadigan's Authority",
+    "originalString":"Cadigan's Authority\nPlatinum Sceptre\nSource: Obtained from unique{Shipping} in normal{Kingsmarch}\nRequires Level 62, 113 Str, 113 Int\nImplicits: 1\n30% increased Elemental Damage\nAdds (60-85) to (100-133) Physical Damage\n+(3-5) to maximum number of Summoned Totems\nYou cannot have more than 2 Summoned Totems of the same type\n(40-70)% increased Totem Placement speed\nBattlemage\n",
+    "requirements":{
+      "level":62
+    },
+    "source":"Obtained from unique{Shipping} in normal{Kingsmarch}",
+    "stats":["Cadigan's Authority","Platinum Sceptre","Source: Obtained from unique{Shipping} in normal{Kingsmarch}","Requires Level 62, 113 Str, 113 Int","Implicits: 1","30% increased Elemental Damage","Adds (60-85) to (100-133) Physical Damage","+(3-5) to maximum number of Summoned Totems","You cannot have more than 2 Summoned Totems of the same type","(40-70)% increased Totem Placement speed","Battlemage"],
+    "variants":[]
+  },
   "Cadigan's Crown":{
     "baseType":"Runic Crown",
     "flags":[],
@@ -2582,6 +2648,22 @@
     "source":"No longer obtainable",
     "stats":["Coated Shrapnel","Crimson Jewel","Source: No longer obtainable","Radius: Small","Variant: Pre 3.8.0","Variant: Current","{variant:1}Traps and Mines deal (3-5) to (10-15) additional Physical Damage","Traps and Mines have a 25% chance to Poison on Hit","{variant:2}Passive Skills in Radius also grant: Traps and Mines deal (2-3) to (4-6) added Physical Damage"],
     "variants":["Pre 3.8.0","Current"]
+  },
+  "Coiling Whisper":{
+    "baseType":"Amethyst Ring",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"ring.min",
+    "modifiers":["{tags:jewellery_resistance}+(17-23)% to Chaos Resistance","{tags:caster}(25-50)% reduced Area of Effect of Hex Skills","When 90% of your Hex's Duration Expires on an Enemy, Eat 1 Soul per Enemy Power"],
+    "name":"Coiling Whisper",
+    "originalString":"Coiling Whisper\nAmethyst Ring\nSource: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}\nRequires Level 32\nImplicits: 1\n{tags:jewellery_resistance}+(17-23)% to Chaos Resistance\n{tags:caster}(25-50)% reduced Area of Effect of Hex Skills\nTargets are Unaffected by your Hexes\nWhen 90% of your Hex's Duration Expires on an Enemy, Eat 1 Soul per Enemy Power\n",
+    "requirements":{
+      "level":32
+    },
+    "source":"Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}",
+    "stats":["Coiling Whisper","Amethyst Ring","Source: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}","Requires Level 32","Implicits: 1","{tags:jewellery_resistance}+(17-23)% to Chaos Resistance","{tags:caster}(25-50)% reduced Area of Effect of Hex Skills","Targets are Unaffected by your Hexes","When 90% of your Hex's Duration Expires on an Enemy, Eat 1 Soul per Enemy Power"],
+    "variants":[]
   },
   "Cold Iron Point":{
     "baseType":"Ezomyte Dagger",
@@ -4398,6 +4480,22 @@
     "stats":["Energy From Within","Cobalt Jewel","Source: Use currency{Vaal Orb} on normal{Cobalt Jewel}","Variant: Pre 2.5.0","Variant: Pre 3.20.0","Variant: Current","Radius: Large","{variant:1}(8-12)% increased maximum Energy Shield","{variant:2,3}(3-6)% increased maximum Energy Shield","Increases and Reductions to Life in Radius are Transformed to apply to Energy Shield","{variant:3}Corrupted"],
     "variants":["Pre 2.5.0","Pre 3.20.0","Current"]
   },
+  "Enmity's Embrace":{
+    "baseType":"Vermillion Ring",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"ring.min",
+    "modifiers":["{tags:life}(5-7)% increased Maximum Life","{tags:jewellery_attribute}+(30-50) to Strength","{tags:jewellery_elemental}(10-20)% increased Fire Damage","{tags:jewellery_resistance}(65-75)% reduced Fire Resistance","{tags:jewellery_elemental}Take (300-500) Fire Damage when you use a Skill","Damage Penetrates Fire Resistance equal to your Overcapped Fire Resistance, up to a maximum of 200%"],
+    "name":"Enmity's Embrace",
+    "originalString":"Enmity's Embrace\nVermillion Ring\nSource: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}\nRequires Level 80\nImplicits: 1\n{tags:life}(5-7)% increased Maximum Life\n{tags:jewellery_attribute}+(30-50) to Strength\n{tags:jewellery_elemental}(10-20)% increased Fire Damage\n{tags:jewellery_resistance}(65-75)% reduced Fire Resistance\n{tags:jewellery_elemental}Take (300-500) Fire Damage when you use a Skill\nDamage Penetrates Fire Resistance equal to your Overcapped Fire Resistance, up to a maximum of 200%\n",
+    "requirements":{
+      "level":80
+    },
+    "source":"Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}",
+    "stats":["Enmity's Embrace","Vermillion Ring","Source: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}","Requires Level 80","Implicits: 1","{tags:life}(5-7)% increased Maximum Life","{tags:jewellery_attribute}+(30-50) to Strength","{tags:jewellery_elemental}(10-20)% increased Fire Damage","{tags:jewellery_resistance}(65-75)% reduced Fire Resistance","{tags:jewellery_elemental}Take (300-500) Fire Damage when you use a Skill","Damage Penetrates Fire Resistance equal to your Overcapped Fire Resistance, up to a maximum of 200%"],
+    "variants":[]
+  },
   "Entropic Devastation":{
     "baseType":"Assassin's Mitts",
     "flags":{
@@ -5884,6 +5982,23 @@
     "stats":["Hale Negator","Mind Cage","League: Delve","Source: Drops from unique{Kurgal, the Blackblooded}","Variant: One Abyssal Socket","Variant: Two Abyssal Sockets","Requires Level 65, 138 Int","{variant:1}Has 1 Abyssal Socket","{variant:2}Has 2 Abyssal Sockets","(6-8)% increased maximum Life","+1 to Maximum Spirit Charges per Abyss Jewel affecting you","Gain a Spirit Charge every second","You lose all Spirit Charges when taking a Savage Hit","Recover (2-3)% of Life when you lose a Spirit Charge","Recover (2-3)% of Energy Shield when you lose a Spirit Charge"],
     "variants":["One Abyssal Socket","Two Abyssal Sockets"]
   },
+  "Hand of Heresy":{
+    "baseType":"Martyr Gloves",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"gloves.min",
+    "league":" Mercenaries of Trarthus",
+    "modifiers":["(40-80)% increased Armour and Energy Shield","(15-25)% increased Life Regeneration rate","15% increased Area of Effect of Aura Skills"],
+    "name":"Hand of Heresy",
+    "originalString":"Hand of Heresy\nMartyr Gloves\nSource: Drops from unique{Mercenary} after winning a duel\nLeague: Mercenaries of Trarthus\nRequires Level 77, 70 Str, 70 Int\n(40-80)% increased Armour and Energy Shield\n(15-25)% increased Life Regeneration rate\n15% increased Area of Effect of Aura Skills\nExcommunicate Enemies on Melee Hit for 3 seconds\n",
+    "requirements":{
+      "level":77
+    },
+    "source":"Drops from unique{Mercenary} after winning a duel",
+    "stats":["Hand of Heresy","Martyr Gloves","Source: Drops from unique{Mercenary} after winning a duel","League: Mercenaries of Trarthus","Requires Level 77, 70 Str, 70 Int","(40-80)% increased Armour and Energy Shield","(15-25)% increased Life Regeneration rate","15% increased Area of Effect of Aura Skills","Excommunicate Enemies on Melee Hit for 3 seconds"],
+    "variants":[]
+  },
   "Hand of Thought and Motion":{
     "baseType":"{variant:1,2,3}Blinder",
     "flags":[],
@@ -6203,6 +6318,23 @@
     "source":"No longer obtainable",
     "stats":["Hotheaded","Viridian Jewel","Source: No longer obtainable","Limited to: 1","Variant: Pre 3.11.0","Variant: Current","{variant:1}(10-15)% increased Movement Speed while Ignited","{variant:2}(10-20)% increased Movement Speed while Ignited","{variant:2}(10-20)% increased Attack Speed while Ignited","{variant:2}(10-20)% increased Cast Speed while Ignited"],
     "variants":["Pre 3.11.0","Current"]
+  },
+  "Howlcrack":{
+    "baseType":"Ezomyte Burgonet",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"helmet.min",
+    "league":" Mercenaries of Trarthus",
+    "modifiers":["+(30-40) to Strength","(100-160)% increased Armour","Warcries cost +15% of Life","Warcry Skills have (15-25)% increased Area of Effect"],
+    "name":"Howlcrack",
+    "originalString":"Howlcrack\nEzomyte Burgonet\nSource: Drops from unique{Mercenary} after winning a duel\nLeague: Mercenaries of Trarthus\nRequires Level 60, 138 Str\n+(30-40) to Strength\n(100-160)% increased Armour\nNon-instant Warcries ignore their Cooldown when used\nWarcries cost +15% of Life\nWarcry Skills have (15-25)% increased Area of Effect\n",
+    "requirements":{
+      "level":60
+    },
+    "source":"Drops from unique{Mercenary} after winning a duel",
+    "stats":["Howlcrack","Ezomyte Burgonet","Source: Drops from unique{Mercenary} after winning a duel","League: Mercenaries of Trarthus","Requires Level 60, 138 Str","+(30-40) to Strength","(100-160)% increased Armour","Non-instant Warcries ignore their Cooldown when used","Warcries cost +15% of Life","Warcry Skills have (15-25)% increased Area of Effect"],
+    "variants":[]
   },
   "Hrimburn":{
     "baseType":"Goathide Gloves",
@@ -7340,6 +7472,22 @@
     "source":"Drops from unique{The Maven}",
     "stats":["Legacy of Fury","Wyrmscale Boots","Source: Drops from unique{The Maven}","Variant: Pre 3.17.0","Variant: Current","League: Ritual","Requires Level 69, 48 Str, 48 Dex","(200-300)% increased Armour and Evasion","{variant:1}-(15-10)% to all Elemental Resistances","30% increased Movement Speed","{variant:1}Drops Scorched Ground while moving, lasting 4 seconds","{variant:2}Nearby Enemies are Scorched","(30-50)% increased Effect of Scorch","(30-40)% chance when you Kill a Scorched Enemy to Burn Each surrounding Enemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second"],
     "variants":["Pre 3.17.0","Current"]
+  },
+  "Legacy of the Rose":{
+    "baseType":"Judgement Staff",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"staff.min",
+    "modifiers":["+25% Chance to Block Attack Damage while wielding a Staff","{variant:1}Grants Level 20 Shaper's Despair, which will be used by Shaper Memory","{variant:2}Grants Level 20 Shaper's Ire, which will be used by Shaper Memory","{variant:3}Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory","(200-300)% increased Physical Damage","(25-40)% increased Cast Speed","+(3-5) to Level of all Spell Skill Gems"],
+    "name":"Legacy of the Rose",
+    "originalString":"Legacy of the Rose\nJudgement Staff\nVariant: Shaper's Despair\nVariant: Shaper's Ire\nVariant: Shaper's Devastation\nSource: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}\nRequires Level 68, 113 Str, 113 Int\nImplicits: 1\n+25% Chance to Block Attack Damage while wielding a Staff\nGrants Level 20 Summon Shaper Memory\n{variant:1}Grants Level 20 Shaper's Despair, which will be used by Shaper Memory\n{variant:2}Grants Level 20 Shaper's Ire, which will be used by Shaper Memory\n{variant:3}Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory\n(200-300)% increased Physical Damage\n(25-40)% increased Cast Speed\n+(3-5) to Level of all Spell Skill Gems\nGain 1 Remembrance when you spend a total of 200 Energy\nShield with no Shaper Memory Summoned\nMaximum 10 Remembrance\nEldritch Battery\n",
+    "requirements":{
+      "level":68
+    },
+    "source":"Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}",
+    "stats":["Legacy of the Rose","Judgement Staff","Variant: Shaper's Despair","Variant: Shaper's Ire","Variant: Shaper's Devastation","Source: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}","Requires Level 68, 113 Str, 113 Int","Implicits: 1","+25% Chance to Block Attack Damage while wielding a Staff","Grants Level 20 Summon Shaper Memory","{variant:1}Grants Level 20 Shaper's Despair, which will be used by Shaper Memory","{variant:2}Grants Level 20 Shaper's Ire, which will be used by Shaper Memory","{variant:3}Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory","(200-300)% increased Physical Damage","(25-40)% increased Cast Speed","+(3-5) to Level of all Spell Skill Gems","Gain 1 Remembrance when you spend a total of 200 Energy","Shield with no Shaper Memory Summoned","Maximum 10 Remembrance","Eldritch Battery"],
+    "variants":["Shaper's Despair","Shaper's Ire","Shaper's Devastation"]
   },
   "Leper's Alms":{
     "baseType":"Mirrored Spiked Shield",
@@ -8593,6 +8741,21 @@
     "stats":["Mutewind Whispersteps","Serpentscale Boots","League: Warbands","Variant: Pre 2.6.0","Variant: Current","Requires Level 42, 40 Str, 40 Dex","{variant:1}Adds (15-19) to (28-35) Cold Damage to Spells","{variant:2}Adds (25-30) to (40-50) Cold Damage to Spells","{variant:1}(20-40)% increased Critical Strike Chance for Spells","{variant:2}(50-70)% increased Critical Strike Chance for Spells","(100-150)% increased Evasion Rating","+(20-30)% to Cold Resistance","{variant:1}20% increased Movement Speed","{variant:2}25% increased Movement Speed","Unaffected by Chilled Ground"],
     "variants":["Pre 2.6.0","Current"]
   },
+  "Mystic Refractor":{
+    "baseType":"Pagan Wand",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"wand.min",
+    "modifiers":["10% increased Cast Speed","(10-20)% increased Projectile Speed","(30-50)% increased Projectile Damage"],
+    "name":"Mystic Refractor",
+    "originalString":"Mystic Refractor\nPagan Wand\nRequires Level 34, 118 Int\nImplicits: 1\n10% increased Cast Speed\nSkills fire (2-3) additional Projectiles\n(10-20)% increased Projectile Speed\n(30-50)% increased Projectile Damage\nProjectiles cannot continue after colliding with targets\n",
+    "requirements":{
+      "level":34
+    },
+    "stats":["Mystic Refractor","Pagan Wand","Requires Level 34, 118 Int","Implicits: 1","10% increased Cast Speed","Skills fire (2-3) additional Projectiles","(10-20)% increased Projectile Speed","(30-50)% increased Projectile Damage","Projectiles cannot continue after colliding with targets"],
+    "variants":[]
+  },
   "Nadir Mode":{
     "baseType":"Cobalt Jewel",
     "flags":[],
@@ -9205,11 +9368,11 @@
     "gameVersion":"poe1",
     "implicitCount":1,
     "itemType":"belt.min",
-    "modifiers":["(15-25)% increased Stun and Block Recovery","{tags:jewellery_attribute}+(20-30) to all Attributes","{variant:1}(8-12)% increased Quantity of Items found","{variant:2}(6-8)% increased Quantity of Items found","{variant:3}(10-12)% increased Rarity of Items found","{tags:jewellery_resistance}+20% to Fire Resistance","20% increased Flask Effect Duration","{tags:physical_damage}-2 Physical Damage taken from Attack Hits"],
+    "modifiers":["(15-25)% increased Stun and Block Recovery","{tags:jewellery_attribute}+(20-30) to all Attributes","{variant:1}(8-12)% increased Quantity of Items found","{variant:2}(6-8)% increased Quantity of Items found","{variant:3}(10-20)% increased Rarity of Items found","{tags:jewellery_resistance}+20% to Fire Resistance","20% increased Flask Effect Duration","{tags:physical_damage}-2 Physical Damage taken from Attack Hits"],
     "name":"Perandus Blazon",
-    "originalString":"Perandus Blazon\nCloth Belt\nVariant: Pre 1.1.0\nVariant: Pre 3.25.0\nVariant: Current\nImplicits: 1\n(15-25)% increased Stun and Block Recovery\n{tags:jewellery_attribute}+(20-30) to all Attributes\n{variant:1}(8-12)% increased Quantity of Items found\n{variant:2}(6-8)% increased Quantity of Items found\n{variant:3}(10-12)% increased Rarity of Items found\n{tags:jewellery_resistance}+20% to Fire Resistance\n20% increased Flask Effect Duration\n{tags:physical_damage}-2 Physical Damage taken from Attack Hits\n",
+    "originalString":"Perandus Blazon\nCloth Belt\nVariant: Pre 1.1.0\nVariant: Pre 3.25.0\nVariant: Current\nImplicits: 1\n(15-25)% increased Stun and Block Recovery\n{tags:jewellery_attribute}+(20-30) to all Attributes\n{variant:1}(8-12)% increased Quantity of Items found\n{variant:2}(6-8)% increased Quantity of Items found\n{variant:3}(10-20)% increased Rarity of Items found\n{tags:jewellery_resistance}+20% to Fire Resistance\n20% increased Flask Effect Duration\n{tags:physical_damage}-2 Physical Damage taken from Attack Hits\n",
     "requirements":[],
-    "stats":["Perandus Blazon","Cloth Belt","Variant: Pre 1.1.0","Variant: Pre 3.25.0","Variant: Current","Implicits: 1","(15-25)% increased Stun and Block Recovery","{tags:jewellery_attribute}+(20-30) to all Attributes","{variant:1}(8-12)% increased Quantity of Items found","{variant:2}(6-8)% increased Quantity of Items found","{variant:3}(10-12)% increased Rarity of Items found","{tags:jewellery_resistance}+20% to Fire Resistance","20% increased Flask Effect Duration","{tags:physical_damage}-2 Physical Damage taken from Attack Hits"],
+    "stats":["Perandus Blazon","Cloth Belt","Variant: Pre 1.1.0","Variant: Pre 3.25.0","Variant: Current","Implicits: 1","(15-25)% increased Stun and Block Recovery","{tags:jewellery_attribute}+(20-30) to all Attributes","{variant:1}(8-12)% increased Quantity of Items found","{variant:2}(6-8)% increased Quantity of Items found","{variant:3}(10-20)% increased Rarity of Items found","{tags:jewellery_resistance}+20% to Fire Resistance","20% increased Flask Effect Duration","{tags:physical_damage}-2 Physical Damage taken from Attack Hits"],
     "variants":["Pre 1.1.0","Pre 3.25.0","Current"]
   },
   "Perandus Signet":{
@@ -9563,6 +9726,21 @@
     },
     "source":"Drops from unique{The Maven} (Uber)",
     "stats":["Progenesis","Amethyst Flask","LevelReq: 60","Source: Drops from unique{The Maven} (Uber)","(10-20)% reduced Charges per use","(-35-35)% increased Duration","When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead"],
+    "variants":[]
+  },
+  "Prospero's Protection":{
+    "baseType":"Iron Ring",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"ring.min",
+    "modifiers":["{tags:attack}Adds 1 to 4 Physical Damage to Attacks","(4-6)% chance to Block Attack Damage","{tags:jewellery_attribute}+(15-35) to Strength","{tags:life}+(45-60) to Maximum Life","{tags:jewellery_defense}Armour from equipped shield is doubled","{tags:jewellery_defense}Gain no armour from equipped body armour"],
+    "name":"Prospero's Protection",
+    "originalString":"Prospero's Protection\nIron Ring\nRequires Level 32\nImplicits: 1\n{tags:attack}Adds 1 to 4 Physical Damage to Attacks\n(4-6)% chance to Block Attack Damage\n{tags:jewellery_attribute}+(15-35) to Strength\n{tags:life}+(45-60) to Maximum Life\n{tags:jewellery_defense}Armour from equipped shield is doubled\n{tags:jewellery_defense}Gain no armour from equipped body armour\n",
+    "requirements":{
+      "level":32
+    },
+    "stats":["Prospero's Protection","Iron Ring","Requires Level 32","Implicits: 1","{tags:attack}Adds 1 to 4 Physical Damage to Attacks","(4-6)% chance to Block Attack Damage","{tags:jewellery_attribute}+(15-35) to Strength","{tags:life}+(45-60) to Maximum Life","{tags:jewellery_defense}Armour from equipped shield is doubled","{tags:jewellery_defense}Gain no armour from equipped body armour"],
     "variants":[]
   },
   "Pugilist":{
@@ -12196,6 +12374,23 @@
     "stats":["Scold's Bridle","Mind Cage","League: Torment","Requires Level 65, 138 Int","(80-100)% increased Spell Damage","15% reduced Cast Speed","+(30-60) to maximum Mana","Your Skills deal you 400% of Mana Spent on Upfront Skill Mana Costs as Physical Damage"],
     "variants":[]
   },
+  "Scornflux":{
+    "baseType":"Satin Slippers",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"boots.min",
+    "league":" Mercenaries of Trarthus",
+    "modifiers":["+(5-15) to Intelligence","+(40-70) to Maximum Mana","+(5-15)% to all Elemental Resistances"],
+    "name":"Scornflux",
+    "originalString":"Scornflux\nSatin Slippers\nSource: Drops from unique{Mercenary} after winning a duel\nLeague: Mercenaries of Trarthus\nRequires Level 54, 69 Int\n+(5-15) to Intelligence\n+(40-70) to Maximum Mana\n+(5-15)% to all Elemental Resistances\nGain Arcane Surge when you use a Movement Skill\nIncrease to Cast Speed from Arcane Surge also applies to Movement Speed\n",
+    "requirements":{
+      "level":54
+    },
+    "source":"Drops from unique{Mercenary} after winning a duel",
+    "stats":["Scornflux","Satin Slippers","Source: Drops from unique{Mercenary} after winning a duel","League: Mercenaries of Trarthus","Requires Level 54, 69 Int","+(5-15) to Intelligence","+(40-70) to Maximum Mana","+(5-15)% to all Elemental Resistances","Gain Arcane Surge when you use a Movement Skill","Increase to Cast Speed from Arcane Surge also applies to Movement Speed"],
+    "variants":[]
+  },
   "Scorpion's Call":{
     "baseType":"{variant:1}Broadhead Arrow Quiver",
     "flags":[],
@@ -12270,6 +12465,38 @@
       "level":53
     },
     "stats":["Serle's Masterwork","Phantom Mace","League: Settlers of Kalguur","Requires Level 53, 170 Str","Implicits: 1","10% reduced Enemy Stun Threshold","+(30-40) to Strength","+(30-40) to Dexterity","(150-250)% increased Physical Damage","+(400-500) to Accuracy Rating","Can have 2 additional Runesmithing Enchantments","Can be Enchanted by a Kalguuran Runesmith"],
+    "variants":[]
+  },
+  "Servant of Decay":{
+    "baseType":"Torturer Garb",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"body.min",
+    "modifiers":["(150-200)% increased Energy Shield","+(23-37)% to Chaos Resistance","(4-6)% of Damage from Hits is taken from Void Spawns' Life before you per Void Spawn","Gain (4-6)% of Non-Chaos Damage as Extra Chaos Damage per Summoned Void Spawn"],
+    "name":"Servant of Decay",
+    "originalString":"Servant of Decay\nTorturer Garb\nSource: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}\nRequires Level 78, 151 Dex, 151 Int\nTrigger Level 20 Summon Void Spawn every 4 seconds\n(150-200)% increased Energy Shield\n+(23-37)% to Chaos Resistance\n(4-6)% of Damage from Hits is taken from Void Spawns' Life before you per Void Spawn\nGain (4-6)% of Non-Chaos Damage as Extra Chaos Damage per Summoned Void Spawn\n",
+    "requirements":{
+      "level":78
+    },
+    "source":"Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}",
+    "stats":["Servant of Decay","Torturer Garb","Source: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}","Requires Level 78, 151 Dex, 151 Int","Trigger Level 20 Summon Void Spawn every 4 seconds","(150-200)% increased Energy Shield","+(23-37)% to Chaos Resistance","(4-6)% of Damage from Hits is taken from Void Spawns' Life before you per Void Spawn","Gain (4-6)% of Non-Chaos Damage as Extra Chaos Damage per Summoned Void Spawn"],
+    "variants":[]
+  },
+  "Seven Teachings":{
+    "baseType":"Waxed Garb",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"body.min",
+    "modifiers":["(1-7)% more Attack Speed with Unarmed Melee Attacks","(100-777)% increased Evasion and Energy Shield","(1-7)% increased Movement Speed","+(0.1-0.7) metres to Melee Strike Range with Unarmed Attacks","+(1-7)% to Unarmed Melee Attack Critical Strike Chance","+(10-77)% to Critical Strike Multiplier with Unarmed Melee Attack"],
+    "name":"Seven Teachings",
+    "originalString":"Seven Teachings\nWaxed Garb\nSource: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}\nRequires Level 77, 48 Dex, 48 Int\nTrigger a Socketed Spell on Unarmed Melee Critical Strike, with a 0.25 second Cooldown\n(1-7)% more Attack Speed with Unarmed Melee Attacks\n(100-777)% increased Evasion and Energy Shield\n(1-7)% increased Movement Speed\n+(0.1-0.7) metres to Melee Strike Range with Unarmed Attacks\n+(1-7)% to Unarmed Melee Attack Critical Strike Chance\n+(10-77)% to Critical Strike Multiplier with Unarmed Melee Attack\n",
+    "requirements":{
+      "level":77
+    },
+    "source":"Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}",
+    "stats":["Seven Teachings","Waxed Garb","Source: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}","Requires Level 77, 48 Dex, 48 Int","Trigger a Socketed Spell on Unarmed Melee Critical Strike, with a 0.25 second Cooldown","(1-7)% more Attack Speed with Unarmed Melee Attacks","(100-777)% increased Evasion and Energy Shield","(1-7)% increased Movement Speed","+(0.1-0.7) metres to Melee Strike Range with Unarmed Attacks","+(1-7)% to Unarmed Melee Attack Critical Strike Chance","+(10-77)% to Critical Strike Multiplier with Unarmed Melee Attack"],
     "variants":[]
   },
   "Seven-League Step":{
@@ -13083,6 +13310,22 @@
     "stats":["Spine of the First Claimant","Iron Sceptre","Source: No longer obtainable","Variant: Pre 2.3.0","Variant: Pre 3.5.0","Variant: Current","Requires Level 20, 38 Str, 38 Int","Implicits: 2","{variant:1}10% increased Elemental Damage","{variant:2,3}14% increased Elemental Damage","(100-140)% increased Physical Damage","40% increased Damage with Hits against Frozen Enemies","(30-50)% increased Cold Damage","{variant:3}+(25-35)% to Cold Damage over Time Multiplier","(5-10)% increased Attack Speed","(4-8)% increased Cast Speed","5% chance to Freeze"],
     "variants":["Pre 2.3.0","Pre 3.5.0","Current"]
   },
+  "Spinehail":{
+    "baseType":"Vile Arrow Quiver",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"quiver.min",
+    "modifiers":["Gain (10-15)% of Physical Damage as Extra Chaos Damage","+(10-20) to Dexterity and Intelligence","(7-14)% increased Attack Speed","Minions deal (30-50)% increased Damage","{variant:1}Increases and Reductions to Minion Damage also affect you","{variant:2}Increases and Reductions to Minion Attack Speed also affect you","{variant:3}Increases and Reductions to Minion Cast Speed also affect you","{variant:4}(20-40)% increased Cast Speed with Minion Skills","{variant:5}Minions are Aggressive","{variant:6}+(365-400) to Armour and Evasion Rating","{variant:7}+(365-400) to Evasion Rating","{variant:7}+(31-35) to maximum Energy Shield","{variant:8}+(55-60) to maximum Life","{variant:8}Regenerate 5.3 Mana per second","{variant:9}+(55-60) to maximum Mana","{variant:9}Regenerate 33.3 Life per second","{variant:10}Adds (14-16) to (20-22) Fire Damage","{variant:10}Adds (14-16) to (20-22) Cold Damage","{variant:11}Adds (14-16) to (20-22) Fire Damage","{variant:11}Adds (14-16) to (20-22) Lightning Damage","{variant:12}Adds (14-16) to (20-22) Cold Damage","{variant:12}Adds (14-16) to (20-22) Lightning Damage"],
+    "name":"Spinehail",
+    "originalString":"Spinehail\nVile Arrow Quiver\nSource: Drops from unique{Catarina} in normal{Mastermind's Lair}\nVariant: Minion Damage affects you\nVariant: Minion Attack Speed affects you\nVariant: Minion Cast Speed affects you\nVariant: Cast Speed with Minion Skills\nVariant: Minions are Aggressive\nVariant: Armour and Evasion Rating\nVariant: Evasion Rating and Energy Shield\nVariant: Life and Mana Regen\nVariant: Mana and Life Regen\nVariant: Fire and Cold Damage\nVariant: Fire and Lightning Damage\nVariant: Cold and Lightning Damage\nRequires Level 55\nImplicits: 1\nGain (10-15)% of Physical Damage as Extra Chaos Damage\n+(10-20) to Dexterity and Intelligence\n(7-14)% increased Attack Speed\nMinions deal (30-50)% increased Damage\n(5-10) to (12-24) Added Physical Damage with Bow Attacks\nBow Attacks Sacrifice a random Damageable Minion to fire (1-3) additional Arrow\n{variant:1}Increases and Reductions to Minion Damage also affect you\n{variant:2}Increases and Reductions to Minion Attack Speed also affect you\n{variant:3}Increases and Reductions to Minion Cast Speed also affect you\n{variant:4}(20-40)% increased Cast Speed with Minion Skills\n{variant:5}Minions are Aggressive\n{variant:6}+(365-400) to Armour and Evasion Rating\n{variant:7}+(365-400) to Evasion Rating\n{variant:7}+(31-35) to maximum Energy Shield\n{variant:8}+(55-60) to maximum Life\n{variant:8}Regenerate 5.3 Mana per second\n{variant:9}+(55-60) to maximum Mana\n{variant:9}Regenerate 33.3 Life per second\n{variant:10}Adds (14-16) to (20-22) Fire Damage\n{variant:10}Adds (14-16) to (20-22) Cold Damage\n{variant:11}Adds (14-16) to (20-22) Fire Damage\n{variant:11}Adds (14-16) to (20-22) Lightning Damage\n{variant:12}Adds (14-16) to (20-22) Cold Damage\n{variant:12}Adds (14-16) to (20-22) Lightning Damage\n",
+    "requirements":{
+      "level":55
+    },
+    "source":"Drops from unique{Catarina} in normal{Mastermind's Lair}",
+    "stats":["Spinehail","Vile Arrow Quiver","Source: Drops from unique{Catarina} in normal{Mastermind's Lair}","Variant: Minion Damage affects you","Variant: Minion Attack Speed affects you","Variant: Minion Cast Speed affects you","Variant: Cast Speed with Minion Skills","Variant: Minions are Aggressive","Variant: Armour and Evasion Rating","Variant: Evasion Rating and Energy Shield","Variant: Life and Mana Regen","Variant: Mana and Life Regen","Variant: Fire and Cold Damage","Variant: Fire and Lightning Damage","Variant: Cold and Lightning Damage","Requires Level 55","Implicits: 1","Gain (10-15)% of Physical Damage as Extra Chaos Damage","+(10-20) to Dexterity and Intelligence","(7-14)% increased Attack Speed","Minions deal (30-50)% increased Damage","(5-10) to (12-24) Added Physical Damage with Bow Attacks","Bow Attacks Sacrifice a random Damageable Minion to fire (1-3) additional Arrow","{variant:1}Increases and Reductions to Minion Damage also affect you","{variant:2}Increases and Reductions to Minion Attack Speed also affect you","{variant:3}Increases and Reductions to Minion Cast Speed also affect you","{variant:4}(20-40)% increased Cast Speed with Minion Skills","{variant:5}Minions are Aggressive","{variant:6}+(365-400) to Armour and Evasion Rating","{variant:7}+(365-400) to Evasion Rating","{variant:7}+(31-35) to maximum Energy Shield","{variant:8}+(55-60) to maximum Life","{variant:8}Regenerate 5.3 Mana per second","{variant:9}+(55-60) to maximum Mana","{variant:9}Regenerate 33.3 Life per second","{variant:10}Adds (14-16) to (20-22) Fire Damage","{variant:10}Adds (14-16) to (20-22) Cold Damage","{variant:11}Adds (14-16) to (20-22) Fire Damage","{variant:11}Adds (14-16) to (20-22) Lightning Damage","{variant:12}Adds (14-16) to (20-22) Cold Damage","{variant:12}Adds (14-16) to (20-22) Lightning Damage"],
+    "variants":["Minion Damage affects you","Minion Attack Speed affects you","Minion Cast Speed affects you","Cast Speed with Minion Skills","Minions are Aggressive","Armour and Evasion Rating","Evasion Rating and Energy Shield","Life and Mana Regen","Mana and Life Regen","Fire and Cold Damage","Fire and Lightning Damage","Cold and Lightning Damage"]
+  },
   "Spire of Stone":{
     "baseType":"Crimson Jewel",
     "flags":[],
@@ -13185,6 +13428,21 @@
     "stats":["Springleaf","Plank Kite Shield","Variant: Pre 1.1.0","Variant: Pre 2.0.0","Variant: Pre 2.6.0","Variant: Pre 3.19.0","Variant: Current","Implicits: 2","{variant:1}+8% to all Elemental Resistances","{variant:2,3,4,5}+4% to all Elemental Resistances","(80-120)% increased Armour and Energy Shield","{variant:5}Regenerate (30-50) Life per Second","{variant:1,2,3,4}50% reduced Freeze Duration on you","{variant:5}80% reduced Freeze Duration on you","{variant:3}Regenerate 1% of Life per Second","{variant:4}Regenerate 3% of Life per Second","{variant:1,2}Regenerate 6% of Life per Second while on Low Life","{variant:3}Regenerate 5% of Life per Second while on Low Life","{variant:4}Regenerate 3% of Life per Second while on Low Life","{variant:5}Regenerate 100 Life per Second while on Low Life"],
     "variants":["Pre 1.1.0","Pre 2.0.0","Pre 2.6.0","Pre 3.19.0","Current"]
   },
+  "Squirming Terror":{
+    "baseType":"Unset Ring",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"ring.min",
+    "modifiers":["{tags:caster}20% chance to Trigger Socketed Spell on Kill, with a 0.5 second Cooldown","{tags:life}Lose (10-20) Life per Enemy Killed","{tags:mana}Gain (5-10) Mana per Enemy Killed"],
+    "name":"Squirming Terror",
+    "originalString":"Squirming Terror\nUnset Ring\nRequires Level 32\nImplicits: 1\nHas 1 Socket\nAn Enemy Writhing Worm spawns every 2 seconds\n{tags:caster}20% chance to Trigger Socketed Spell on Kill, with a 0.5 second Cooldown\n{tags:life}Lose (10-20) Life per Enemy Killed\n{tags:mana}Gain (5-10) Mana per Enemy Killed\n",
+    "requirements":{
+      "level":32
+    },
+    "stats":["Squirming Terror","Unset Ring","Requires Level 32","Implicits: 1","Has 1 Socket","An Enemy Writhing Worm spawns every 2 seconds","{tags:caster}20% chance to Trigger Socketed Spell on Kill, with a 0.5 second Cooldown","{tags:life}Lose (10-20) Life per Enemy Killed","{tags:mana}Gain (5-10) Mana per Enemy Killed"],
+    "variants":[]
+  },
   "Star of Wraeclast":{
     "baseType":"Ruby Amulet",
     "flags":{
@@ -13202,6 +13460,22 @@
     "source":"Vendor Recipe",
     "stats":["Star of Wraeclast","Ruby Amulet","Source: Vendor Recipe","Variant: Pre 2.6.0","Variant: Pre 3.8.0","Variant: Current","Requires Level 28","Implicits: 1","{tags:jewellery_resistance}+(20-30)% to Fire Resistance","{variant:3}Grants Level 10 Frostblink Skill","{tags:jewellery_elemental}(30-50)% increased Cold Damage","{tags:jewellery_resistance}+(10-15)% to all Elemental Resistances","{variant:1}{tags:caster}30% increased Area of Effect of Hex Skills","{variant:2,3}{tags:caster}60% increased Area of Effect of Hex Skills","{tags:caster}You cannot be Cursed with Silence","{variant:1,2}Grants Level 20 Illusory Warp Skill","{variant:3}{tags:caster}Frostblink has 50% increased Duration","Corrupted"],
     "variants":["Pre 2.6.0","Pre 3.8.0","Current"]
+  },
+  "Starcaller":{
+    "baseType":"Abyssal Axe",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"axe.min",
+    "modifiers":["+(10-20) to all Attributes","(120-180)% increased Physical Damage","(20-30)% increased Critical Strike Chance","(10-20)% increased Area of Effect","Gain (40-60)% of Weapon Physical Damage as Extra Damage of a Random Element"],
+    "name":"Starcaller",
+    "originalString":"Starcaller\nAbyssal Axe\nSource: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}\nRequires Level 55, 128 Str, 60 Dex\nTrigger Level 20 Starfall on Melee Critical Strike\n+(10-20) to all Attributes\n(120-180)% increased Physical Damage\n(20-30)% increased Critical Strike Chance\n(10-20)% increased Area of Effect\nGain (40-60)% of Weapon Physical Damage as Extra Damage of a Random Element\n",
+    "requirements":{
+      "level":55
+    },
+    "source":"Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}",
+    "stats":["Starcaller","Abyssal Axe","Source: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}","Requires Level 55, 128 Str, 60 Dex","Trigger Level 20 Starfall on Melee Critical Strike","+(10-20) to all Attributes","(120-180)% increased Physical Damage","(20-30)% increased Critical Strike Chance","(10-20)% increased Area of Effect","Gain (40-60)% of Weapon Physical Damage as Extra Damage of a Random Element"],
+    "variants":[]
   },
   "Starforge":{
     "baseType":"Infernal Sword",
@@ -14024,6 +14298,22 @@
     "stats":["The Apostate","Cabalist Regalia","Requires Level 35","Source: Drops from unique{Synthete Nightmare} in normal{The Cortex} (Uber)","+(30-50) to Strength","+(20-30)% to all Elemental Resistances","Gain Maximum Life instead of Maximum Energy Shield from Equipped Armour Items"],
     "variants":[]
   },
+  "The Arkhon's Tools":{
+    "baseType":"Cloth Belt",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"belt.min",
+    "modifiers":["(15-25)% increased Stun and Block Recovery","{tags:jewellery_attribute}+(20-30) to Dexterity and Intelligence","{tags:mana}(10-20)% increased Mana Reservation Efficiency of Skills","{tags:speed}(15-25)% increased Trap and Mine Throwing Speed","(50-75)% increased Effect of Non-Damaging Ailments inflicted by Summoned Skitterbots"],
+    "name":"The Arkhon's Tools",
+    "originalString":"The Arkhon's Tools\nCloth Belt\nSource: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}\nRequires Level 16\nImplicits: 1\n(15-25)% increased Stun and Block Recovery\n{tags:jewellery_attribute}+(20-30) to Dexterity and Intelligence\n{tags:mana}(10-20)% increased Mana Reservation Efficiency of Skills\n{tags:speed}(15-25)% increased Trap and Mine Throwing Speed\nSummon Skitterbots also summons a Scorching Skitterbot\nSummoned Skitterbots' Auras affect you as well as Enemies\n(50-75)% increased Effect of Non-Damaging Ailments inflicted by Summoned Skitterbots\n",
+    "requirements":{
+      "level":16
+    },
+    "source":"Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}",
+    "stats":["The Arkhon's Tools","Cloth Belt","Source: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}","Requires Level 16","Implicits: 1","(15-25)% increased Stun and Block Recovery","{tags:jewellery_attribute}+(20-30) to Dexterity and Intelligence","{tags:mana}(10-20)% increased Mana Reservation Efficiency of Skills","{tags:speed}(15-25)% increased Trap and Mine Throwing Speed","Summon Skitterbots also summons a Scorching Skitterbot","Summoned Skitterbots' Auras affect you as well as Enemies","(50-75)% increased Effect of Non-Damaging Ailments inflicted by Summoned Skitterbots"],
+    "variants":[]
+  },
   "The Ascetic":{
     "baseType":"Gold Amulet",
     "flags":[],
@@ -14390,6 +14680,22 @@
     "source":"No longer obtainable",
     "stats":["The Dancing Duo","Reaver Sword","Source: No longer obtainable","Variant: Pre 3.11.0","Variant: Current","Implicits: 2","{variant:1}40% increased Global Accuracy Rating","{variant:2}60% increased Global Accuracy Rating","{variant:1}(160-190)% increased Physical Damage","{variant:2}(130-160)% increased Physical Damage","(25-30)% increased Attack Speed","5% increased Movement Speed","Triggers Level 15 Manifest Dancing Dervishes on Rampage","Manifested Dancing Dervish disables both weapon slots","Manifested Dancing Dervish dies when Rampage ends","Rampage"],
     "variants":["Pre 3.11.0","Current"]
+  },
+  "The Dark Monarch":{
+    "baseType":"Lich's Circlet",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"helmet.min",
+    "modifiers":["+(50-100) to maximum Energy Shield","+1 to Level of all Minion Skill Gems","+(27-37)% to Chaos Resistance","50% reduced Light Radius","{variant:1}Maximum number of Animated Weapons is Doubled","{variant:1}Cannot have Minions other than Animated Weapons","{variant:2}Maximum number of Summoned Golems is Doubled","{variant:2}Cannot have Minions other than Summoned Golems","{variant:3}Maximum number of Summoned Raging Spirits is Doubled","{variant:3}Cannot have Minions other than Summoned Raging Spirits","{variant:4}Maximum number of Raised Spectres is Doubled","{variant:4}Cannot have Minions other than Raised Spectres","{variant:5}Maximum number of Raised Spiders is Doubled","{variant:5}Cannot have Minions other than Raised Spiders","{variant:6}Maximum number of Raised Zombies is Doubled","{variant:6}Cannot have Minions other than Raised Zombies","{variant:7}Maximum number of Summoned Reapers is Doubled","{variant:7}Cannot have Minions other than Summoned Reapers","{variant:8}Maximum number of Sentinels of Absolution is Doubled","{variant:8}Cannot have Minions other than Sentinels of Absolution","{variant:9}Maximum number of Sentinels of Dominance is Doubled","{variant:9}Cannot have Minions other than Sentinels of Dominance","{variant:10}Maximum number of Sentinels of Purity is Doubled","{variant:10}Cannot have Minions other than Sentinels of Purity","{variant:11}Maximum number of Summoned Holy Relics is Doubled","{variant:11}Cannot have Minions other than Summoned Holy Relics","{variant:12}Maximum number of Summoned Phantasms is Doubled","{variant:12}Cannot have Minions other than Summoned Phantasms","{variant:13}Maximum number of Summoned Skeletons is Doubled","{variant:13}Cannot have Minions other than Summoned Skeletons","{variant:14}Maximum number of Summoned Spectral Wolves is Doubled","{variant:14}Cannot have Minions other than Summoned Spectral Wolves"],
+    "name":"The Dark Monarch",
+    "originalString":"The Dark Monarch\nLich's Circlet\nVariant: Animated Weapons\nVariant: Summoned Golems\nVariant: Summoned Raging Spirits\nVariant: Raised Spectres\nVariant: Raised Spiders\nVariant: Raised Zombies\nVariant: Summoned Reapers\nVariant: Sentinels of Absolution\nVariant: Sentinels of Dominance\nVariant: Sentinels of Purity\nVariant: Summoned Holy Relics\nVariant: Summoned Phantasms\nVariant: Summoned Skeletons\nVariant: Summoned Spectral Wolves\nSource: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}\nRequires Level 80, 224 Int\n+(50-100) to maximum Energy Shield\n+1 to Level of all Minion Skill Gems\n+(27-37)% to Chaos Resistance\n50% reduced Light Radius\n{variant:1}Maximum number of Animated Weapons is Doubled\n{variant:1}Cannot have Minions other than Animated Weapons\n{variant:2}Maximum number of Summoned Golems is Doubled\n{variant:2}Cannot have Minions other than Summoned Golems\n{variant:3}Maximum number of Summoned Raging Spirits is Doubled\n{variant:3}Cannot have Minions other than Summoned Raging Spirits\n{variant:4}Maximum number of Raised Spectres is Doubled\n{variant:4}Cannot have Minions other than Raised Spectres\n{variant:5}Maximum number of Raised Spiders is Doubled\n{variant:5}Cannot have Minions other than Raised Spiders\n{variant:6}Maximum number of Raised Zombies is Doubled\n{variant:6}Cannot have Minions other than Raised Zombies\n{variant:7}Maximum number of Summoned Reapers is Doubled\n{variant:7}Cannot have Minions other than Summoned Reapers\n{variant:8}Maximum number of Sentinels of Absolution is Doubled\n{variant:8}Cannot have Minions other than Sentinels of Absolution\n{variant:9}Maximum number of Sentinels of Dominance is Doubled\n{variant:9}Cannot have Minions other than Sentinels of Dominance\n{variant:10}Maximum number of Sentinels of Purity is Doubled\n{variant:10}Cannot have Minions other than Sentinels of Purity\n{variant:11}Maximum number of Summoned Holy Relics is Doubled\n{variant:11}Cannot have Minions other than Summoned Holy Relics\n{variant:12}Maximum number of Summoned Phantasms is Doubled\n{variant:12}Cannot have Minions other than Summoned Phantasms\n{variant:13}Maximum number of Summoned Skeletons is Doubled\n{variant:13}Cannot have Minions other than Summoned Skeletons\n{variant:14}Maximum number of Summoned Spectral Wolves is Doubled\n{variant:14}Cannot have Minions other than Summoned Spectral Wolves\n",
+    "requirements":{
+      "level":80
+    },
+    "source":"Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}",
+    "stats":["The Dark Monarch","Lich's Circlet","Variant: Animated Weapons","Variant: Summoned Golems","Variant: Summoned Raging Spirits","Variant: Raised Spectres","Variant: Raised Spiders","Variant: Raised Zombies","Variant: Summoned Reapers","Variant: Sentinels of Absolution","Variant: Sentinels of Dominance","Variant: Sentinels of Purity","Variant: Summoned Holy Relics","Variant: Summoned Phantasms","Variant: Summoned Skeletons","Variant: Summoned Spectral Wolves","Source: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}","Requires Level 80, 224 Int","+(50-100) to maximum Energy Shield","+1 to Level of all Minion Skill Gems","+(27-37)% to Chaos Resistance","50% reduced Light Radius","{variant:1}Maximum number of Animated Weapons is Doubled","{variant:1}Cannot have Minions other than Animated Weapons","{variant:2}Maximum number of Summoned Golems is Doubled","{variant:2}Cannot have Minions other than Summoned Golems","{variant:3}Maximum number of Summoned Raging Spirits is Doubled","{variant:3}Cannot have Minions other than Summoned Raging Spirits","{variant:4}Maximum number of Raised Spectres is Doubled","{variant:4}Cannot have Minions other than Raised Spectres","{variant:5}Maximum number of Raised Spiders is Doubled","{variant:5}Cannot have Minions other than Raised Spiders","{variant:6}Maximum number of Raised Zombies is Doubled","{variant:6}Cannot have Minions other than Raised Zombies","{variant:7}Maximum number of Summoned Reapers is Doubled","{variant:7}Cannot have Minions other than Summoned Reapers","{variant:8}Maximum number of Sentinels of Absolution is Doubled","{variant:8}Cannot have Minions other than Sentinels of Absolution","{variant:9}Maximum number of Sentinels of Dominance is Doubled","{variant:9}Cannot have Minions other than Sentinels of Dominance","{variant:10}Maximum number of Sentinels of Purity is Doubled","{variant:10}Cannot have Minions other than Sentinels of Purity","{variant:11}Maximum number of Summoned Holy Relics is Doubled","{variant:11}Cannot have Minions other than Summoned Holy Relics","{variant:12}Maximum number of Summoned Phantasms is Doubled","{variant:12}Cannot have Minions other than Summoned Phantasms","{variant:13}Maximum number of Summoned Skeletons is Doubled","{variant:13}Cannot have Minions other than Summoned Skeletons","{variant:14}Maximum number of Summoned Spectral Wolves is Doubled","{variant:14}Cannot have Minions other than Summoned Spectral Wolves"],
+    "variants":["Animated Weapons","Summoned Golems","Summoned Raging Spirits","Raised Spectres","Raised Spiders","Raised Zombies","Summoned Reapers","Sentinels of Absolution","Sentinels of Dominance","Sentinels of Purity","Summoned Holy Relics","Summoned Phantasms","Summoned Skeletons","Summoned Spectral Wolves"]
   },
   "The Dark Seer":{
     "baseType":"Shadow Sceptre",
@@ -16964,6 +17270,22 @@
     "stats":["Veil of the Night","Great Helmet","Requires Level 22, 27 Str, 27 Int","(20-22)% increased Stun and Block Recovery","40% reduced Light Radius","Reflects 1 to (180-220) Lightning Damage to Attackers on Block","(18-22)% increased Global Defences","Elemental Resistances are Zero"],
     "variants":[]
   },
+  "Venarius' Astrolabe":{
+    "baseType":"Astrolabe Amulet",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":2,
+    "itemType":"amulet.min",
+    "modifiers":["+(1-3) to Level of all Elemental Skill Gems if the stars are aligned","+(1-3) to Level of all Elemental Support Gems if the stars are aligned"],
+    "name":"Venarius' Astrolabe",
+    "originalString":"Venarius' Astrolabe\nAstrolabe Amulet\nSource: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}\nRequires Level 69\nImplicits: 2\nImplicit Modifiers Cannot Be Changed\nHas Elder, Shaper and all Conqueror Influences\nThe stars are aligned if you have 6 Influence types among other Equipped Items\nYou have Elemental Conflux if the stars are aligned\n+(1-3) to Level of all Elemental Skill Gems if the stars are aligned\n+(1-3) to Level of all Elemental Support Gems if the stars are aligned\n",
+    "requirements":{
+      "level":69
+    },
+    "source":"Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}",
+    "stats":["Venarius' Astrolabe","Astrolabe Amulet","Source: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness}","Requires Level 69","Implicits: 2","Implicit Modifiers Cannot Be Changed","Has Elder, Shaper and all Conqueror Influences","The stars are aligned if you have 6 Influence types among other Equipped Items","You have Elemental Conflux if the stars are aligned","+(1-3) to Level of all Elemental Skill Gems if the stars are aligned","+(1-3) to Level of all Elemental Support Gems if the stars are aligned"],
+    "variants":[]
+  },
   "Venopuncture":{
     "baseType":"Iron Ring",
     "flags":[],
@@ -17635,6 +17957,22 @@
     "stats":["Wheel of the Stormsail","Rotted Round Shield","Variant: Pre 3.16.0","Variant: Pre 3.19.0","Variant: Current","Implicits: 1","60% increased Block Recovery","{variant:1,2}+(5-10) to Armour","{variant:3}+(20-40) to Armour","{variant:3}+(20-40) to Evasion Rating","(30-40)% increased Rarity of Items found","{variant:3}+(50-75)% to Lightning Resistance","100% increased Duration of Curses on you","{variant:1,2}+5% Chance to Block","{variant:1}Curse Skills have 25% increased Skill Effect Duration","{variant:2}Curse Skills have 100% increased Skill Effect Duration"],
     "variants":["Pre 3.16.0","Pre 3.19.0","Current"]
   },
+  "Whispers of Infinity":{
+    "baseType":"Seaglass Amulet",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":1,
+    "itemType":"amulet.min",
+    "modifiers":["{tags:jewellery_defense}(10-15)% faster start of Energy Shield Recharge","{tags:attack,chaos_damage}(5-10) to (20-25) Added Attack Chaos Damage per 100 Maximum Mana","{tags:jewellery_defense}+(200-400) to maximum Energy Shield","{tags:mana}(40-60)% reduced maximum Mana"],
+    "name":"Whispers of Infinity",
+    "originalString":"Whispers of Infinity\nSeaglass Amulet\nSource: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}\nRequires Level 74\nImplicits: 1\n{tags:jewellery_defense}(10-15)% faster start of Energy Shield Recharge\n{tags:attack,chaos_damage}(5-10) to (20-25) Added Attack Chaos Damage per 100 Maximum Mana\n{tags:jewellery_defense}+(200-400) to maximum Energy Shield\n{tags:mana}(40-60)% reduced maximum Mana\nSkills Cost Energy Shield instead of Mana or Life\n",
+    "requirements":{
+      "level":74
+    },
+    "source":"Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}",
+    "stats":["Whispers of Infinity","Seaglass Amulet","Source: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}","Requires Level 74","Implicits: 1","{tags:jewellery_defense}(10-15)% faster start of Energy Shield Recharge","{tags:attack,chaos_damage}(5-10) to (20-25) Added Attack Chaos Damage per 100 Maximum Mana","{tags:jewellery_defense}+(200-400) to maximum Energy Shield","{tags:mana}(40-60)% reduced maximum Mana","Skills Cost Energy Shield instead of Mana or Life"],
+    "variants":[]
+  },
   "White Wind":{
     "baseType":"Imperial Skean",
     "flags":[],
@@ -17854,6 +18192,22 @@
     },
     "source":"No longer obtainable",
     "stats":["Windshriek","Reinforced Greaves","Source: No longer obtainable","LevelReq: 60","(200-250)% increased Armour","+(10-15)% to all Elemental Resistances","25% increased Movement Speed","(10-20)% increased Elemental Damage","You can apply an additional Curse","60% increased Area of Effect of Hex Skills"],
+    "variants":[]
+  },
+  "Wine of the Prophet":{
+    "baseType":"Gold Flask",
+    "flags":[],
+    "gameVersion":"poe1",
+    "implicitCount":0,
+    "itemType":"flask.min",
+    "modifiers":["+60 to Maximum Charges","(20-100)% increased Charges per Use"],
+    "name":"Wine of the Prophet",
+    "originalString":"Wine of the Prophet\nGold Flask\nSource: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}\nRequires Level 27\n+60 to Maximum Charges\n(20-100)% increased Charges per Use\nGrants a random Divination buff for 20 seconds when used\n",
+    "requirements":{
+      "level":27
+    },
+    "source":"Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}",
+    "stats":["Wine of the Prophet","Gold Flask","Source: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}","Requires Level 27","+60 to Maximum Charges","(20-100)% increased Charges per Use","Grants a random Divination buff for 20 seconds when used"],
     "variants":[]
   },
   "Wings of Entropy":{
@@ -18186,13 +18540,13 @@
     "implicitCount":1,
     "itemType":"belt.min",
     "league":" Settlers of Kalguur",
-    "modifiers":["(20-30)% increased Stun Duration on Enemies","{tags:life}Regenerate 44 Life per second","{tags:jewellery_resistance}+21% to Fire Resistance","{tags:jewellery_resistance}+21% to Cold Resistance","{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour"],
+    "modifiers":["(20-30)% increased Stun Duration on Enemies","{tags:life}Regenerate (30-50) Life per second","{tags:jewellery_resistance}+(20-30)% to Fire Resistance","{tags:jewellery_resistance}+(20-30)% to Cold Resistance","{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour"],
     "name":"Ynda's Stand",
-    "originalString":"Ynda's Stand\nStudded Belt\nLeague: Settlers of Kalguur\nRequires Level 52\nImplicits: 1\n(20-30)% increased Stun Duration on Enemies\n{tags:life}Regenerate 44 Life per second\n{tags:jewellery_resistance}+21% to Fire Resistance\n{tags:jewellery_resistance}+21% to Cold Resistance\n{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour\n",
+    "originalString":"Ynda's Stand\nStudded Belt\nLeague: Settlers of Kalguur\nRequires Level 52\nImplicits: 1\n(20-30)% increased Stun Duration on Enemies\n{tags:life}Regenerate (30-50) Life per second\n{tags:jewellery_resistance}+(20-30)% to Fire Resistance\n{tags:jewellery_resistance}+(20-30)% to Cold Resistance\n{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour\n",
     "requirements":{
       "level":52
     },
-    "stats":["Ynda's Stand","Studded Belt","League: Settlers of Kalguur","Requires Level 52","Implicits: 1","(20-30)% increased Stun Duration on Enemies","{tags:life}Regenerate 44 Life per second","{tags:jewellery_resistance}+21% to Fire Resistance","{tags:jewellery_resistance}+21% to Cold Resistance","{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour"],
+    "stats":["Ynda's Stand","Studded Belt","League: Settlers of Kalguur","Requires Level 52","Implicits: 1","(20-30)% increased Stun Duration on Enemies","{tags:life}Regenerate (30-50) Life per second","{tags:jewellery_resistance}+(20-30)% to Fire Resistance","{tags:jewellery_resistance}+(20-30)% to Cold Resistance","{tags:jewellery_defense}Gain Ward Instead of 50% of Armour and Evasion Rating From Equipped Body Armour"],
     "variants":[]
   },
   "Yoke of Suffering":{

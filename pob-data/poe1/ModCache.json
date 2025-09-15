@@ -6669,20 +6669,6 @@
         "type":"BASE",
         "value":21
       }]],
-  "+21% to Cold Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdResist",
-        "type":"BASE",
-        "value":21
-      }]],
-  "+21% to Fire Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireResist",
-        "type":"BASE",
-        "value":21
-      }]],
   "+210 to maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27351,13 +27337,6 @@
           "type":"Condition",
           "var":"UsingFlask"
         }
-      }]],
-  "12% increased Rarity of Items found":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LootRarity",
-        "type":"INC",
-        "value":12
       }]],
   "12% increased Recovery rate of Life and Energy Shield while affected by Malevolence":[[{
         "flags":0,
@@ -101417,6 +101396,13 @@
         "type":"BASE",
         "value":40
       }]],
+  "Regenerate 40 Life per second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegen",
+        "type":"BASE",
+        "value":40
+      }]],
   "Regenerate 400 Energy Shield per second if all Equipped items are Corrupted":[[{
         "flags":0,
         "keywordFlags":0,
@@ -101442,13 +101428,6 @@
           "upper":true,
           "var":"CorruptedItem"
         }
-      }]],
-  "Regenerate 44 Life per second":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegen",
-        "type":"BASE",
-        "value":44
       }]],
   "Regenerate 5 Mana per second":[[{
         "flags":0,
