@@ -43,7 +43,7 @@ jobs:
         run: find PathOfBuilding2/src/Data/ -name '*.lua' -exec luajit RePoE/lua/Generate.lua '{}' RePoE/pob-data/poe2/ \;
       - name: commit changes
         id: autocommit
-        uses: stefanzweifel/git-auto-commit-action@v5.2.0
+        uses: stefanzweifel/git-auto-commit-action@v7.0.0
         with:
           repository: RePoE
       - name: generate index.html
