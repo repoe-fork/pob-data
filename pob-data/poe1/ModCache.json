@@ -26355,7 +26355,11 @@
         "keywordFlags":0,
         "name":"PhysicalDamageConvertToRandom",
         "type":"BASE",
-        "value":100
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        }
       }]],
   "100% reduced Global Accuracy Rating":[[{
         "flags":0,
@@ -52290,7 +52294,11 @@
         "keywordFlags":0,
         "name":"PhysicalDamageConvertToRandom",
         "type":"BASE",
-        "value":50
+        "value":50,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        }
       }]],
   "50% of Physical, Cold and Lightning Damage Converted to Fire Damage":[[{
         "flags":0,
@@ -81634,13 +81642,13 @@
         "type":"BASE",
         "value":25
       }]],
-  "Fire at most 1 Projectile":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"NoAdditionalProjectiles",
-      "type":"FLAG",
-      "value":true
-    }],
+  "Fire at most 1 Projectile":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SingleProjectile",
+        "type":"FLAG",
+        "value":true
+      }]],
   "First and Final shots of Barrage sequences fire Projectiles that Return to you":[null,"First and Final shots of Barrage sequences fire Projectiles that Return to you "],
   "Flammability can affect Hexproof Enemies":[[{
         "flags":0,
@@ -88454,38 +88462,13 @@
         "keywordFlags":0,
         "name":"PhysicalDamageGainAsColdOrLightning",
         "type":"BASE",
-        "value":50,
-        "1":{
-          "type":"Condition",
-          "var":"DualWielding"
-        },
-        "2":{
-          "skillType":1,
-          "type":"SkillType"
-        },
-        "3":{
-          "neg":true,
-          "skillType":13,
-          "type":"SkillType"
-        }
-      },{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"PhysicalDamageGainAsColdOrLightning",
-        "type":"BASE",
         "value":100,
         "1":{
-          "neg":true,
           "type":"Condition",
-          "var":"DualWielding"
+          "var":"{Hand}Attack"
         },
         "2":{
           "skillType":1,
-          "type":"SkillType"
-        },
-        "3":{
-          "neg":true,
-          "skillType":13,
           "type":"SkillType"
         }
       }]],
@@ -88494,38 +88477,13 @@
         "keywordFlags":0,
         "name":"PhysicalDamageGainAsColdOrLightning",
         "type":"BASE",
-        "value":44,
-        "1":{
-          "type":"Condition",
-          "var":"DualWielding"
-        },
-        "2":{
-          "skillType":1,
-          "type":"SkillType"
-        },
-        "3":{
-          "neg":true,
-          "skillType":13,
-          "type":"SkillType"
-        }
-      },{
-        "flags":4,
-        "keywordFlags":0,
-        "name":"PhysicalDamageGainAsColdOrLightning",
-        "type":"BASE",
         "value":88,
         "1":{
-          "neg":true,
           "type":"Condition",
-          "var":"DualWielding"
+          "var":"{Hand}Attack"
         },
         "2":{
           "skillType":1,
-          "type":"SkillType"
-        },
-        "3":{
-          "neg":true,
-          "skillType":13,
           "type":"SkillType"
         }
       }]],
