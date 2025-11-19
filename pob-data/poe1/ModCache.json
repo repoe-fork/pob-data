@@ -5495,14 +5495,23 @@
           "value":2
         }
       }]],
-  "+2 to Level of all Cold Skill Gems if at least 4 Foulborn Unique Items are Equipped":[[]," Level of all Cold Skill Gems if at least 4 Foulborn Unique Items are Equipped "],
-  "+2 to Level of all Cold Skill Gems if at least 4 Foulborn Unique Items are Equipped Your Hits ignore Enemy Monster Cold Resistances if all Equipped Rings are Cryonic Rings":[[{
+  "+2 to Level of all Cold Skill Gems if at least 4 Foulborn Unique Items are Equipped":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ColdResist",
-        "type":"BASE",
-        "value":2
-      }]," Level of all Cold Skill Gems if at least 4 Foulborn Unique Items are Equipped Your Hits ignore Enemy Monster s if all Equipped Rings are Cryonic Rings "],
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"cold",
+          "value":2
+        },
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"FoulbornUniqueItem"
+        }
+      }]],
   "+2 to Level of all Cold Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5571,14 +5580,23 @@
           "value":2
         }
       }]],
-  "+2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped":[[]," Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped "],
-  "+2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped +30 to Intelligence":[[{
+  "+2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Int",
-        "type":"BASE",
-        "value":2
-      }]," Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped +30 to  "],
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"lightning",
+          "value":2
+        },
+        "1":{
+          "threshold":4,
+          "type":"MultiplierThreshold",
+          "var":"FoulbornUniqueItem"
+        }
+      }]],
   "+2 to Level of all Lightning Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22659,7 +22677,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "limit":50,
+          "globalLimit":50,
+          "globalLimitKey":"ExpansiveMight",
           "limitTotal":true,
           "type":"Multiplier",
           "var":"StationarySeconds"
@@ -35968,7 +35987,7 @@
         "value":20,
         "1":{
           "bothSlots":true,
-          "itemSlot":"left and right ring",
+          "itemSlot":"ring",
           "searchCond":"explicit evasion",
           "type":"ItemCondition"
         }
@@ -88525,7 +88544,7 @@
         },
         "3":{
           "type":"Condition",
-          "var":"UsingAmethystFlask"
+          "var":"HaveAmethystFlask"
         }
       }]],
   "If Bismuth Flask Charges are consumed, Penetrate 25% Elemental Resistances":[[{
@@ -88546,7 +88565,7 @@
         },
         "3":{
           "type":"Condition",
-          "var":"UsingBismuthFlask"
+          "var":"HaveBismuthFlask"
         }
       }]],
   "If Diamond Flask Charges are consumed, 250% increased Critical Strike Chance":[[{
@@ -88567,7 +88586,7 @@
         },
         "3":{
           "type":"Condition",
-          "var":"UsingDiamondFlask"
+          "var":"HaveDiamondFlask"
         }
       }]],
   "If you Consumed a Corpse Recently, you and nearby Allies regenerate 5% of Life per second":[[{
@@ -103743,8 +103762,13 @@
       }]],
   "Skills which Exert an Attack have 40% chance to not count that Attack":[null,"Skills which Exert an Attack have 40% chance to not count that Attack "],
   "Skills which Throw Traps have +1 Cooldown Use":[null,"Skills which Throw Traps have +1 Cooldown Use "],
-  "Skills which Throw Traps throw up to 2 additional Traps":[null,"Skills which Throw Traps throw up to 2 additional Traps "],
-  "Skills which Throw Traps throw up to 2 additional Traps Traps cannot be triggered by Enemies":[null,"Skills which Throw Traps throw up to 2 additional Traps Traps cannot be triggered by Enemies "],
+  "Skills which Throw Traps throw up to 2 additional Traps":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TrapThrowCount",
+        "type":"BASE",
+        "value":2
+      }]],
   "Skills which create Brands have 35% chance to create an additional Brand":[null,"Skills which create Brands have 35% chance to create an additional Brand "],
   "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity":[null,"Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity "],
   "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence":[null,"Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence "],
@@ -115695,7 +115719,35 @@
           }
         }
       }]],
-  "While affected by Glorious Madness, inflict Mania on nearby Enemies every second":[null,"While affected by Glorious Madness, inflict Mania on nearby Enemies every second "],
+  "While affected by Glorious Madness, inflict Mania on nearby Enemies every second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanInflictMania",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByGloriousMadness"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:AfflictedByMania",
+            "type":"FLAG",
+            "value":true
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByGloriousMadness"
+        }
+      }]],
   "While at Maximum Frenzy Charges, Attacks Poison Enemies":[[{
         "flags":1,
         "keywordFlags":0,
@@ -118846,10 +118898,30 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Your Hits ignore Enemy Monster Cold Resistances if all Equipped Rings are Cryonic Rings":[null,"Your Hits ignore Enemy Monster Cold Resistances if all Equipped Rings are Cryonic Rings "],
-  "Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings":[null,"Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings "],
-  "Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings +2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped":[null,"Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings +2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped "],
-  "Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings +2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped +30 to Intelligence":[null,"Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings +2 to Level of all Lightning Skill Gems if at least 4 Foulborn Unique Items are Equipped +30 to Intelligence "],
+  "Your Hits ignore Enemy Monster Cold Resistances if all Equipped Rings are Cryonic Rings":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IgnoreColdResistance",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"CryonicRingEquipped"
+        }
+      }]],
+  "Your Hits ignore Enemy Monster Lightning Resistances if all Equipped Rings are Synaptic Rings":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IgnoreLightningResistance",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "threshold":2,
+          "type":"MultiplierThreshold",
+          "var":"SynapticRingEquipped"
+        }
+      }]],
   "Your Hits permanently Intimidate Enemies that are on Full Life":[[{
         "flags":0,
         "keywordFlags":0,

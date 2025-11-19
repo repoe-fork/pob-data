@@ -1077,6 +1077,13 @@
       "name":"Condition:CannotBeDamaged",
       "type":"FLAG"
     }],
+  "base_cannot_be_stunned":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"StunImmune",
+      "type":"FLAG",
+      "value":true
+    }],
   "base_cast_speed_+%":[{
       "flags":16,
       "keywordFlags":0,
@@ -1913,6 +1920,16 @@
         "type":"GlobalEffect"
       }
     }],
+  "block_while_dual_wielding_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BlockChance",
+      "type":"BASE",
+      "1":{
+        "type":"Condition",
+        "var":"DualWielding"
+      }
+    }],
   "brand_atttached_duration_is_infinite":[{
       "flags":0,
       "keywordFlags":0,
@@ -1962,6 +1979,13 @@
       "keywordFlags":134217728,
       "name":"FireDamage",
       "type":"INC"
+    }],
+  "cannot_be_knocked_back":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"KnockbackImmune",
+      "type":"FLAG",
+      "value":true
     }],
   "cannot_be_stunned_while_leeching":[{
       "flags":{
@@ -2919,6 +2943,16 @@
       "name":"DotMultiplier",
       "type":"BASE"
     }],
+  "dual_wield_inherent_attack_speed_+%_final":[{
+      "flags":1,
+      "keywordFlags":0,
+      "name":"Speed",
+      "type":"MORE",
+      "1":{
+        "type":"Condition",
+        "var":"DualWielding"
+      }
+    }],
   "elemental_damage_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3373,6 +3407,18 @@
       "keywordFlags":0,
       "name":"LinkEffectOnSelf",
       "type":"INC"
+    }],
+  "main_hand_local_maximum_added_physical_damage":[{
+      "flags":8192,
+      "keywordFlags":65536,
+      "name":"PhysicalMax",
+      "type":"BASE"
+    }],
+  "main_hand_local_minimum_added_physical_damage":[{
+      "flags":8192,
+      "keywordFlags":65536,
+      "name":"PhysicalMin",
+      "type":"BASE"
     }],
   "mana_gain_per_target":[{
       "flags":0,
@@ -4045,6 +4091,12 @@
       "keywordFlags":0,
       "name":"BlockChance",
       "type":"BASE"
+    }],
+  "monster_inherent_damage_taken_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageTaken",
+      "type":"MORE"
     }],
   "never_chill":[{
       "flags":0,
@@ -4775,6 +4827,61 @@
       "keywordFlags":0,
       "name":"SecondaryDuration",
       "type":"INC"
+    }],
+  "set_base_avoid_projectiles_%_chance":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"AvoidProjectilesChance",
+      "type":"BASE"
+    }],
+  "set_base_cannot_be_damaged":{
+    "value":-100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageTaken",
+      "type":"MORE"
+    }
+  },
+  "set_energy_shield_recharge_rate_per_minute_%":{
+    "div":6000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnergyShieldRecharge",
+      "type":"OVERRIDE"
+    }
+  },
+  "set_immune_to_curses":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CurseImmune",
+      "type":"FLAG",
+      "value":true
+    }],
+  "set_max_endurance_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnduranceChargesMax",
+      "type":"OVERRIDE"
+    }],
+  "set_max_frenzy_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"FrenzyChargesMax",
+      "type":"OVERRIDE"
+    }],
+  "set_max_power_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PowerChargesMax",
+      "type":"OVERRIDE"
+    }],
+  "set_maximum_life_is_one":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Life",
+      "type":"OVERRIDE"
     }],
   "shield_charge_damage_+%_maximum":[{
       "flags":4,
