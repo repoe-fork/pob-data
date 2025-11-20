@@ -3234,6 +3234,28 @@
         }
       }
     }],
+  "hex_applied_when_trap_triggers":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"triggeredByTrapTrigger",
+        "value":true
+      },
+      "1":{
+        "skillType":35,
+        "type":"SkillType"
+      },
+      "2":{
+        "skillType":108,
+        "type":"SkillType"
+      },
+      "3":{
+        "skillType":79,
+        "type":"SkillType"
+      }
+    }],
   "hit_damage_+%":[{
       "flags":4,
       "keywordFlags":0,
@@ -4097,6 +4119,61 @@
       "keywordFlags":0,
       "name":"DamageTaken",
       "type":"MORE"
+    }],
+  "never_any_ailment":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotShock",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotChill",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotFreeze",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotIgnite",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotScorch",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotBrittle",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotSap",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotBleed",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotPoison",
+      "type":"FLAG",
+      "value":true
     }],
   "never_chill":[{
       "flags":0,
