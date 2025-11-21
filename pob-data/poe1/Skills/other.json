@@ -4733,7 +4733,7 @@
     "color":3,
     "constantStats":[["base_skill_effect_duration",3000],["penance_mark_summon_phantasms_when_hit",3]],
     "description":"Curses a single enemy, causing them to spawn multiple phantasms when hit. The phantasms will be allies of the marked enemy with the same monster level. They cast a projectile spell which deals physical damage, and are immune to curses and knockback. You can only have one Mark at a time.",
-    "fromTree":true,
+    "fromItem":true,
     "hidden":true,
     "levels":{
       "20":{
@@ -4743,6 +4743,7 @@
         "levelRequirement":70
       }
     },
+    "minionList":["PenanceMarkPhantasm"],
     "name":"Penance Mark",
     "skillTypes":{
       "2":true,
@@ -4759,6 +4760,18 @@
       "109":true
     },
     "statDescriptionScope":"brand_skill_stat_descriptions",
+    "statMap":{
+      "penance_mark_summon_phantasms_when_hit":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SummonPhantasmWhenHit",
+          "type":"BASE",
+          "1":{
+            "effectType":"Curse",
+            "type":"GlobalEffect"
+          }
+        }]
+    },
     "stats":["base_deal_no_damage"]
   },
   "PhysicalAegis":{

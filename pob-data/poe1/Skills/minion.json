@@ -1739,6 +1739,34 @@
     },
     "stats":["attack_minimum_added_lightning_damage","attack_maximum_added_lightning_damage","spell_minimum_added_lightning_damage","spell_maximum_added_lightning_damage","base_deal_no_damage"]
   },
+  "MPSPhantasmBasicBlood":{
+    "baseEffectiveness":1.1059999465942,
+    "baseFlags":{
+      "projectile":true,
+      "spell":true
+    },
+    "castTime":1.17,
+    "color":4,
+    "constantStats":[["monster_projectile_variation",248],["spell_maximum_action_distance_+%",-40]],
+    "hidden":true,
+    "incrementalEffectiveness":0.035999998450279,
+    "levels":[{
+        "levelRequirement":0,
+        "statInterpolation":[3,3],
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Projectile Spell",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "35":true,
+      "67":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","projectile_uses_contact_position","use_scaled_contact_offset","maintain_projectile_direction_when_using_contact_position","base_is_projectile"]
+  },
   "MPWExpeditionSummonedArbalestProjectile":{
     "baseFlags":{
       "attack":true,
