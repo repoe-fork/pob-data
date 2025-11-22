@@ -69247,6 +69247,26 @@
           "side":"flesh"
         }
       }]],
+  "Allocates For the Jugular if you have the matching modifier on Forbidden Flame":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedAscendancyNode",
+        "type":"LIST",
+        "value":{
+          "name":"for the jugular",
+          "side":"flame"
+        }
+      }]],
+  "Allocates For the Jugular if you have the matching modifier on Forbidden Flesh":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedAscendancyNode",
+        "type":"LIST",
+        "value":{
+          "name":"for the jugular",
+          "side":"flesh"
+        }
+      }]],
   "Allocates Forbidden Power if you have the matching modifier on Forbidden Flame":[[{
         "flags":0,
         "keywordFlags":0,
@@ -69784,6 +69804,26 @@
         "type":"LIST",
         "value":{
           "name":"juggernaut",
+          "side":"flesh"
+        }
+      }]],
+  "Allocates Knife in the Back if you have the matching modifier on Forbidden Flame":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedAscendancyNode",
+        "type":"LIST",
+        "value":{
+          "name":"knife in the back",
+          "side":"flame"
+        }
+      }]],
+  "Allocates Knife in the Back if you have the matching modifier on Forbidden Flesh":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedAscendancyNode",
+        "type":"LIST",
+        "value":{
+          "name":"knife in the back",
           "side":"flesh"
         }
       }]],
@@ -91978,7 +92018,13 @@
   "Lose all Power Charges on reaching Maximum Power Charges Shocks you when you reach Maximum Power Charges":[null,"Lose all Power Charges on reaching Maximum Power Charges Shocks you when you reach Maximum Power Charges "],
   "Lose all Power Charges when you Block":[null,"Lose all Power Charges when you Block "],
   "Lose all Rage on reaching Maximum Rage and gain Wild Savagery":[null,"Lose all Rage on reaching Maximum Rage and gain Wild Savagery "],
-  "Lose all Rage on reaching Maximum Rage and gain Wild Savagery for 1 second per 10 Rage lost this way":[null,"Lose all Rage on reaching Maximum Rage and gain Wild Savagery for 1 second per 10 Rage lost this way "],
+  "Lose all Rage on reaching Maximum Rage and gain Wild Savagery for 1 second per 10 Rage lost this way":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WildSavagery",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Lose an Endurance Charge each second":[null,"Lose an Endurance Charge each second "],
   "Lose an Endurance Charge each second Corrupted":[null,"Lose an Endurance Charge each second Corrupted "],
   "Lose no Experience when you die because a Linked target died":[null,"Lose no Experience when you die because a Linked target died "],
@@ -103921,12 +103967,16 @@
   "Requires Class Shadow Allocates Demolitions Specialist if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Demolitions Specialist if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Shadow Allocates Escape Artist if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Escape Artist if you have the matching modifier on Forbidden Flame "],
   "Requires Class Shadow Allocates Escape Artist if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Escape Artist if you have the matching modifier on Forbidden Flesh "],
+  "Requires Class Shadow Allocates For the Jugular if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates For the Jugular if you have the matching modifier on Forbidden Flame "],
+  "Requires Class Shadow Allocates For the Jugular if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates For the Jugular if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Shadow Allocates Harness the Void if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Harness the Void if you have the matching modifier on Forbidden Flame "],
   "Requires Class Shadow Allocates Harness the Void if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Harness the Void if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Shadow Allocates Heartstopper if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Heartstopper if you have the matching modifier on Forbidden Flame "],
   "Requires Class Shadow Allocates Heartstopper if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Heartstopper if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Shadow Allocates Infused Toxins if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Infused Toxins if you have the matching modifier on Forbidden Flame "],
   "Requires Class Shadow Allocates Infused Toxins if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Infused Toxins if you have the matching modifier on Forbidden Flesh "],
+  "Requires Class Shadow Allocates Knife in the Back if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Knife in the Back if you have the matching modifier on Forbidden Flame "],
+  "Requires Class Shadow Allocates Knife in the Back if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Knife in the Back if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Shadow Allocates Like Clockwork if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Like Clockwork if you have the matching modifier on Forbidden Flame "],
   "Requires Class Shadow Allocates Like Clockwork if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Shadow Allocates Like Clockwork if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Shadow Allocates Mistwalker if you have the matching modifier on Forbidden Flame":[null,"Requires Class Shadow Allocates Mistwalker if you have the matching modifier on Forbidden Flame "],
@@ -121030,7 +121080,6 @@
       }]],
   "be inflicted on a nearby Minion instead":[null,"be inflicted on a nearby Minion instead "],
   "be inflicted on a nearby Minion instead Limited to 1 Runegraft of Loyalty":[null,"be inflicted on a nearby Minion instead Limited to 1 Runegraft of Loyalty "],
-  "for 1 second per 10 Rage lost this way":[null,"for 1 second per 10 Rage lost this way "],
   "grant 100% increased Flask Charges":[null,"grant 100% increased Flask Charges "],
   "grant 40% increased Flask Charges":[null,"grant 40% increased Flask Charges "],
   "grant 40% increased Flask Charges Melee Hits have 20% chance to Fortify":[null,"grant 40% increased Flask Charges Melee Hits have 20% chance to Fortify "],
