@@ -30941,8 +30941,12 @@
         "keywordFlags":0,
         "name":"Ward",
         "type":"INC",
-        "value":15
-      }],"  from Equipped Armour Items "],
+        "value":15,
+        "1":{
+          "slotNameList":["Helmet","Body Armour","Gloves","Boots","Weapon 2"],
+          "type":"SlotName"
+        }
+      }]],
   "15% increased effect of Non-Curse Auras from your Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33775,19 +33779,12 @@
         "keywordFlags":0,
         "name":"MovementSpeed",
         "type":"INC",
-        "value":2
-      }],"  per Summoned Phantasm "],
-  "2% increased Movement Speed per Summoned Phantasm 6% increased Spell Damage per Summoned Skeleton":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"MovementSpeed",
-        "type":"INC",
         "value":2,
         "1":{
-          "stat":"ActiveSkeletonLimit",
+          "stat":"ActivePhantasmLimit",
           "type":"PerStat"
         }
-      }],"  per Summoned Phantasm 6% increased  Damage  "],
+      }]],
   "2% increased Physical Damage over time per 10 Dexterity":[[{
         "flags":0,
         "keywordFlags":16777216,
@@ -43888,7 +43885,7 @@
   "30% increased Fortification Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FortificationDuration",
+        "name":"FortifyDuration",
         "type":"INC",
         "value":30
       }]],
@@ -45817,7 +45814,7 @@
   "35% increased Fortification Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FortificationDuration",
+        "name":"FortifyDuration",
         "type":"INC",
         "value":35
       }]],
@@ -48076,7 +48073,7 @@
   "40% increased Fortification Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FortificationDuration",
+        "name":"FortifyDuration",
         "type":"INC",
         "value":40
       }]],
@@ -48463,8 +48460,12 @@
         "keywordFlags":0,
         "name":"Ward",
         "type":"INC",
-        "value":40
-      }],"  from Equipped Armour Items "],
+        "value":40,
+        "1":{
+          "slotNameList":["Helmet","Body Armour","Gloves","Boots","Weapon 2"],
+          "type":"SlotName"
+        }
+      }]],
   "40% increased maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48889,7 +48890,7 @@
   "40% reduced Effect of Non-Damaging Ailments on you during Effect of any Life Flask":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyShockEffect",
+        "name":"SelfShockEffect",
         "type":"INC",
         "value":-40,
         "1":{
@@ -48899,7 +48900,7 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyChillEffect",
+        "name":"SelfChillEffect",
         "type":"INC",
         "value":-40,
         "1":{
@@ -48909,7 +48910,7 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyFreezeEffect",
+        "name":"SelfFreezeEffect",
         "type":"INC",
         "value":-40,
         "1":{
@@ -48919,7 +48920,7 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyScorchEffect",
+        "name":"SelfScorchEffect",
         "type":"INC",
         "value":-40,
         "1":{
@@ -48929,7 +48930,7 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyBrittleEffect",
+        "name":"SelfBrittleEffect",
         "type":"INC",
         "value":-40,
         "1":{
@@ -48939,14 +48940,14 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemySapEffect",
+        "name":"SelfSapEffect",
         "type":"INC",
         "value":-40,
         "1":{
           "type":"Condition",
           "var":"UsingLifeFlask"
         }
-      }],"  on you  "],
+      }]],
   "40% reduced Enemy Stun Threshold with Melee Weapons":[[{
         "flags":67108864,
         "keywordFlags":0,
@@ -87558,7 +87559,16 @@
           "skillId":"IllusoryWarp"
         }
       }]],
-  "Grants Level 20 Misty Reflection Skill":[],
+  "Grants Level 20 Misty Reflection Skill":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"MistyReflection"
+        }
+      }]],
   "Grants Level 20 Pacify":[[{
         "flags":0,
         "keywordFlags":0,
@@ -91380,14 +91390,14 @@
   "Leftmost 3 Magic Utility Flasks constantly apply their Flask Effects to you":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ActiveMagicUtilityFlasks",
+        "name":"LeftActiveMagicUtilityFlasks",
         "type":"BASE",
         "value":3
       }]],
   "Leftmost 4 Magic Utility Flasks constantly apply their Flask Effects to you":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ActiveMagicUtilityFlasks",
+        "name":"LeftActiveMagicUtilityFlasks",
         "type":"BASE",
         "value":4
       }]],
@@ -93855,25 +93865,14 @@
             "keywordFlags":0,
             "name":"Damage",
             "type":"MORE",
-            "value":15
+            "value":15,
+            "1":{
+              "type":"Condition",
+              "var":"LowLife"
+            }
           }
         }
-      }],"  while they are on Low Life "],
-  "Minions deal 15% more Damage while they are on Low Life Minions cannot be Killed, but die 6 seconds after being reduced to 1 Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"MORE",
-            "value":15
-          }
-        }
-      }],"  while they are on Low Life s cannot be Killed, but die 6 seconds after being reduced to 1 Life "],
+      }]],
   "Minions deal 16% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -100031,9 +100030,44 @@
         "type":"BASE",
         "value":1
       }]],
-  "Profane Ground you create also affects you and your Allies, granting Chaotic Might":[null,"Profane Ground you create also affects you and your Allies, granting Chaotic Might "],
-  "Profane Ground you create inflicts Malediction on Enemies":[null,"Profane Ground you create inflicts Malediction on Enemies "],
-  "Profane Ground you create inflicts Malediction on Enemies Profane Ground you create also affects you and your Allies, granting Chaotic Might":[null,"Profane Ground you create inflicts Malediction on Enemies Profane Ground you create also affects you and your Allies, granting Chaotic Might "],
+  "Profane Ground you create also affects you and your Allies, granting Chaotic Might":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:ChaoticMight",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "type":"Condition",
+              "var":"OnProfaneGround"
+            }
+          }
+        }
+      }]],
+  "Profane Ground you create inflicts Malediction on Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"HasMalediction",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "type":"Condition",
+              "var":"OnProfaneGround"
+            }
+          }
+        }
+      }]],
   "Projectile Attack Hits deal up to 30% more Damage to targets at the start of their movement, dealing less Damage to targets as the projectile travels farther":[[{
         "flags":0,
         "keywordFlags":0,
@@ -100984,12 +101018,171 @@
   "Raise Zombie does not require a Corpse":[null,"does not require a Corpse "],
   "Raise Zombie does not require a Corpse Your Raised Zombies count as Corpses":[null,"does not require a Corpse Your Raised Zombies count as Corpses "],
   "Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area":[null,"Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area "],
-  "Raised Beast Spectres have Farrul's Farric Presence":[null,"Raised Beast Spectres have Farrul's Farric Presence "],
-  "Raised Beast Spectres have Farrul's Farric Presence Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area":[null,"Raised Beast Spectres have Farrul's Farric Presence Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area "],
-  "Raised Beast Spectres have Farrul's Fertile Presence":[null,"Raised Beast Spectres have Farrul's Fertile Presence "],
-  "Raised Beast Spectres have Farrul's Fertile Presence Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area":[null,"Raised Beast Spectres have Farrul's Fertile Presence Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area "],
-  "Raised Beast Spectres have Farrul's Wild Presence":[null,"Raised Beast Spectres have Farrul's Wild Presence "],
-  "Raised Beast Spectres have Farrul's Wild Presence Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area":[null,"Raised Beast Spectres have Farrul's Wild Presence Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area "],
+  "Raised Beast Spectres have Farrul's Farric Presence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Accuracy",
+            "type":"INC",
+            "value":80
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"CritChance",
+            "type":"INC",
+            "value":120
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ReduceCritExtraDamage",
+            "type":"BASE",
+            "value":100
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      }]],
+  "Raised Beast Spectres have Farrul's Fertile Presence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"INC",
+            "value":100
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LifeRegenPercent",
+            "type":"BASE",
+            "value":3
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"StunImmune",
+            "type":"FLAG",
+            "value":true
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      }]],
+  "Raised Beast Spectres have Farrul's Wild Presence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Speed",
+            "type":"INC",
+            "value":20
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"MovementSpeed",
+            "type":"INC",
+            "value":20
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"MinimumActionSpeed",
+            "type":"MAX",
+            "value":100
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveBeastSpectre"
+        }
+      }]],
   "Raised Zombies Cover Enemies in Ash on Hit":[null,"Raised Zombies Cover Enemies in Ash on Hit "],
   "Raised Zombies Cover Enemies in Ash on Hit Raised Zombies take 30% of their Maximum Life per second as Fire Damage":[null,"Raised Zombies Cover Enemies in Ash on Hit Raised Zombies take 30% of their Maximum Life per second as Fire Damage "],
   "Raised Zombies deal 100% increased Physical Damage":[[{
@@ -105256,7 +105449,13 @@
         "value":50
       }]],
   "Skills which Exert an Attack have 40% chance to not count that Attack":[null,"Skills which Exert an Attack have 40% chance to not count that Attack "],
-  "Skills which Throw Traps have +1 Cooldown Use":[null,"Skills which Throw Traps have +1 Cooldown Use "],
+  "Skills which Throw Traps have +1 Cooldown Use":[[{
+        "flags":0,
+        "keywordFlags":4096,
+        "name":"AdditionalCooldownUses",
+        "type":"BASE",
+        "value":1
+      }]],
   "Skills which Throw Traps throw up to 2 additional Traps":[[{
         "flags":0,
         "keywordFlags":0,
@@ -115561,6 +115760,16 @@
   "Trigger Level 20 Summon Spectral Tiger on Critical Strike":[[{
         "flags":0,
         "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"SummonSpectralTiger",
+          "triggered":true
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
         "name":"ExtraSkillMod",
         "type":"LIST",
         "value":{
@@ -115576,6 +115785,7 @@
           }
         },
         "1":{
+          "skillId":"SummonSpectralTiger",
           "type":"SkillId"
         }
       }]],
@@ -115623,7 +115833,17 @@
           "triggered":true
         }
       }]],
-  "Trigger Level 20 Ward Shatter when your Ward Breaks":[null,"Trigger Level 20 Ward Shatter when your Ward Breaks "],
+  "Trigger Level 20 Ward Shatter when your Ward Breaks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"WardShatter",
+          "triggered":true
+        }
+      }]],
   "Trigger Level 25 Summon Phantasm Skill when you Consume a Corpse":[[{
         "flags":0,
         "keywordFlags":0,
@@ -117492,8 +117712,29 @@
           "var":"HaveGhastlyEyeJewelIn{SlotName}"
         }
       }]],
-  "With a Ghastly Eye Jewel Socketed, Minions have 25% chance to gain Unholy Might on Hit with Spells":[null,"With a Ghastly Eye Jewel Socketed, Minions have 25% chance to gain Unholy Might on Hit with Spells "],
-  "With a Ghastly Eye Jewel Socketed, Minions have 25% chance to gain Unholy Might on Hit with Spells With a Hypnotic Eye Jewel Socketed, gain Arcane Surge on Hit with Spells":[null,"With a Ghastly Eye Jewel Socketed, Minions have 25% chance to gain Unholy Might on Hit with Spells With a Hypnotic Eye Jewel Socketed, gain Arcane Surge on Hit with Spells "],
+  "With a Ghastly Eye Jewel Socketed, Minions have 25% chance to gain Unholy Might on Hit with Spells":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:UnholyMight",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "type":"Condition",
+              "var":"HitSpellRecently"
+            }
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"HaveGhastlyEyeJewelIn{SlotName}"
+        }
+      }]],
   "With a Hypnotic Eye Jewel Socketed, gain Arcane Surge on Hit with Spells":[[{
         "flags":0,
         "keywordFlags":0,

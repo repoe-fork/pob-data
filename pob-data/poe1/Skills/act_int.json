@@ -51852,6 +51852,11 @@
         "1":12
       }],
     "name":"Kinetic Fusillade",
+    "parts":[{
+        "name":"All Projectiles"
+      },{
+        "name":"1 Projectile"
+      }],
     "qualityStats":{
       "Default":[["kinetic_fusillade_damage_+%_final_per_projectile_fired",0.2]]
     },
@@ -51867,6 +51872,30 @@
       "138":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "kinetic_fusillade_base_delay_between_projectiles_ms":{
+        "div":1000,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"delayPerProjectile"
+          }
+        }
+      },
+      "kinetic_fusillade_damage_+%_final_per_projectile_fired":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"damagePerProjectile"
+          }
+        }],
+      "quality_display_kinetic_fusillade_is_gem":[]
+    },
     "stats":["kinetic_fusillade_damage_+%_final_per_projectile_fired","skill_can_fire_wand_projectiles","is_area_damage","projectile_uses_contact_position","quality_display_spell_damage_to_attack_damage_is_gem","quality_display_kinetic_fusillade_is_gem"],
     "weaponTypes":{
       "Wand":true

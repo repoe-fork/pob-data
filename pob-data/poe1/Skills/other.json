@@ -4659,6 +4659,90 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","use_scaled_contact_offset","projectile_uses_contact_position"]
   },
+  "MistyReflection":{
+    "baseFlags":{
+      "duration":true,
+      "spell":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"MistyReflection"
+        },
+        "2":{
+          "effectType":"Debuff",
+          "type":"GlobalEffect"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"MORE",
+        "value":-30,
+        "1":{
+          "type":"Condition",
+          "var":"MistyReflection"
+        },
+        "2":{
+          "effectType":"Debuff",
+          "type":"GlobalEffect"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"debuff",
+          "value":true
+        }
+      }],
+    "castTime":0.15,
+    "color":4,
+    "constantStats":[["base_skill_effect_duration",2000],["active_skill_base_area_of_effect_radius",30],["misty_reflection_clone_base_maximum_life_%_of_owner_maximum_life",10]],
+    "description":"Dash backwards, leaving a short-lived mist copy of yourself that Taunts nearby Enemies for a short duration. The copy can be damaged by Enemies, and copies that are killed by an Enemy will apply a debuff in an area that makes affected targets take 30% increased Damage and deal 30% less Damage for 4 seconds.",
+    "fromTree":true,
+    "hidden":true,
+    "levels":{
+      "1":{
+        "cooldown":6,
+        "levelRequirement":4,
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":0,
+        "2":0
+      },
+      "20":{
+        "cooldown":6,
+        "levelRequirement":70,
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":0,
+        "2":0
+      }
+    },
+    "name":"Misty Reflection",
+    "notMinionStat":["base_cooldown_speed_+%"],
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "9":true,
+      "11":true,
+      "12":true,
+      "37":true,
+      "90":true,
+      "91":true,
+      "101":true,
+      "116":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["base_cooldown_speed_+%","skill_travel_distance_+%","base_deal_no_damage","skill_cannot_be_interrupted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","spell_cast_time_cannot_be_modified"]
+  },
   "Pacify":{
     "baseFlags":{
       "area":true,
@@ -6979,6 +7063,101 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
   },
+  "SummonSpectralTiger":{
+    "baseFlags":{
+      "duration":true,
+      "minion":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":4,
+    "constantStats":[["base_skill_effect_duration",30000],["number_of_tigers_allowed",5],["display_minion_monster_type",8],["base_display_minion_actor_level",65],["cast_on_crit_%",100]],
+    "description":"Summons a Spectral Tiger Companion that attacks nearby enemies and dies after a duration. Each Spectral Tiger grants you a buff that increases Critical Strike Chance, and increases Attack and Cast Speed. If you have the maximum number of them, refreshes the duration and life of an existing one instead.",
+    "fromTree":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "cooldown":0.5,
+        "levelRequirement":70,
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":25,
+        "2":7
+      }
+    },
+    "minionList":["SummonedSpectralTiger"],
+    "minionSkillTypes":{
+      "1":true,
+      "24":true,
+      "25":true,
+      "28":true
+    },
+    "name":"Summon Spectral Tiger",
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "9":true,
+      "12":true,
+      "17":true,
+      "18":true,
+      "19":true,
+      "21":true,
+      "26":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "88":true,
+      "101":true
+    },
+    "statDescriptionScope":"minion_spell_skill_stat_descriptions",
+    "statMap":{
+      "modifiers_to_claw_critical_strike_chance_apply_minion_critical_strike_chance":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"ClawCritChanceAppliesToMinions",
+          "type":"FLAG",
+          "value":true
+        }],
+      "modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"ClawCritMultiplierAppliesToMinions",
+          "type":"FLAG",
+          "value":true
+        }],
+      "spectral_tiger_grants_attack_and_cast_speed_+%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Speed",
+          "type":"INC",
+          "1":{
+            "type":"Multiplier",
+            "var":"SpectralTigerCount"
+          },
+          "2":{
+            "effectName":"Spectral Tiger",
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }],
+      "spectral_tiger_grants_critical_strike_chance_+%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"CritChance",
+          "type":"INC",
+          "1":{
+            "type":"Multiplier",
+            "var":"SpectralTigerCount"
+          },
+          "2":{
+            "effectName":"Spectral Tiger",
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }]
+    },
+    "stats":["spectral_tiger_grants_critical_strike_chance_+%","spectral_tiger_grants_attack_and_cast_speed_+%","spell_uncastable_if_triggerable","modifiers_to_claw_critical_strike_chance_apply_minion_critical_strike_chance","modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier"]
+  },
   "SummonSpectralWolf":{
     "baseFlags":{
       "duration":true,
@@ -7172,6 +7351,25 @@
     "requireSkillTypes":[],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_skill_reserve_life_instead_of_mana","base_skill_cost_life_instead_of_mana"],
+    "support":true
+  },
+  "SupportCastOnLifeSpent":{
+    "addSkillTypes":[41,101],
+    "color":3,
+    "excludeSkillTypes":[36,40,30,43,60],
+    "fromItem":true,
+    "hidden":true,
+    "isTrigger":true,
+    "levels":[{
+        "PvPDamageMultiplier":-80,
+        "cooldown":0.1,
+        "levelRequirement":1,
+        "storedUses":1
+      }],
+    "name":"Foulborn Kitava's Thirst",
+    "requireSkillTypes":[2,35,84],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["support_cast_on_life_spent"],
     "support":true
   },
   "SupportCastOnManaSpent":{
@@ -10156,5 +10354,81 @@
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_cold_damage_to_deal_per_minute","is_area_damage","base_skill_show_average_damage_instead_of_dps","spell_damage_modifiers_apply_to_skill_dot","spell_uncastable_if_triggerable"]
+  },
+  "WardShatter":{
+    "baseEffectiveness":0.68000000715256,
+    "baseFlags":{
+      "spell":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"showAverage",
+          "value":true
+        }
+      }],
+    "castTime":1,
+    "color":1,
+    "constantStats":[["trigger_on_ward_break_%_chance",100],["from_code_active_skill_ailment_damage_+%_final",-40],["active_skill_damage_+%_final_if_ward_has_not_broken_in_the_past_2_seconds",80]],
+    "description":"Your ward shatters, dealing physical spell damage to enemies in an area, based on the amount of ward you have. Enemies hit are inflicted with Enervation, a Debuff that lowers Movement Speed by 20% and prevents Life and Energy Shield Recovery for 4 seconds.",
+    "fromTree":true,
+    "hidden":true,
+    "incrementalEffectiveness":0.045000001788139,
+    "levels":{
+      "1":{
+        "cooldown":0.5,
+        "critChance":6,
+        "levelRequirement":4,
+        "statInterpolation":[3,3],
+        "storedUses":1,
+        "1":0.20000000298023,
+        "2":0.30000001192093
+      },
+      "20":{
+        "cooldown":0.5,
+        "critChance":6,
+        "levelRequirement":70,
+        "statInterpolation":[3,3],
+        "storedUses":1,
+        "1":0.61250001192093,
+        "2":0.73750001192093
+      }
+    },
+    "name":"Ward Shatter",
+    "skillTypes":{
+      "2":true,
+      "10":true,
+      "11":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "82":true,
+      "86":true,
+      "95":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "active_skill_damage_+%_final_if_ward_has_not_broken_in_the_past_2_seconds":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "neg":true,
+            "type":"Condition",
+            "var":"WardBrokenPast2Seconds"
+          }
+        }],
+      "from_code_active_skill_ailment_damage_+%_final":[{
+          "flags":2048,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE"
+        }]
+    },
+    "stats":["spell_minimum_base_physical_damage_%_of_ward","spell_maximum_base_physical_damage_%_of_ward"]
   }
 }

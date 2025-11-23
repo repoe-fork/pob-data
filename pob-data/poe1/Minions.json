@@ -1588,6 +1588,30 @@
     "weaponType1":"One Handed Sword",
     "weaponType2":"One Handed Sword"
   },
+  "SummonedSpectralTiger":{
+    "accuracy":3.4,
+    "attackRange":11,
+    "attackTime":1.5,
+    "chaosResist":20,
+    "coldResist":40,
+    "damage":24.5,
+    "damageSpread":0.2,
+    "fireResist":40,
+    "life":24.5,
+    "lightningResist":40,
+    "limit":"ActiveTigerLimit",
+    "modList":[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"PhysicalDamageLifeLeech",
+        "type":"BASE",
+        "value":100
+      }],
+    "monsterTags":["animal_claw_weapon","beast","fast_movement","feline_beast","ghost","has_dagger","has_one_handed_melee","light_armour","mammal_beast","melee","physical_affinity","red_blood","undead"],
+    "name":"Spectral Tiger Companion",
+    "skillList":["MeleeAtAnimationSpeed"],
+    "weaponType1":"Dagger"
+  },
   "SummonedSpectralWolf":{
     "accuracy":3.4,
     "attackRange":11,

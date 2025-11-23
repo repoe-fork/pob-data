@@ -3085,6 +3085,15 @@
       "name":"EnemyFreezeDuration",
       "type":"INC"
     }],
+  "gain_fortify_on_melee_hit_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"FortifyDuration",
+      "type":"OVERRIDE"
+    }
+  },
   "gain_x_rage_on_attack_hit":[{
       "flags":0,
       "keywordFlags":0,
@@ -4366,6 +4375,12 @@
       "name":"ActiveSpiderLimit",
       "type":"BASE"
     }],
+  "number_of_tigers_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ActiveTigerLimit",
+      "type":"BASE"
+    }],
   "number_of_wolves_allowed":[{
       "flags":0,
       "keywordFlags":0,
@@ -5461,6 +5476,20 @@
         "key":"PhysicalMax"
       }
     }],
+  "spell_maximum_base_physical_damage_%_of_ward":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"PhysicalMax"
+      },
+      "1":{
+        "percent":1,
+        "stat":"Ward",
+        "type":"PercentStat"
+      }
+    }],
   "spell_minimum_added_chaos_damage":[{
       "flags":0,
       "keywordFlags":131072,
@@ -5587,6 +5616,20 @@
       "type":"LIST",
       "value":{
         "key":"PhysicalMin"
+      }
+    }],
+  "spell_minimum_base_physical_damage_%_of_ward":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"PhysicalMin"
+      },
+      "1":{
+        "percent":1,
+        "stat":"Ward",
+        "type":"PercentStat"
       }
     }],
   "spell_uncastable_if_triggerable":[{
@@ -5808,6 +5851,24 @@
       "1":{
         "stat":"ProjectileCount",
         "type":"PerStat"
+      }
+    }],
+  "support_cast_on_life_spent":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"triggeredByFoulbornKitavaThirst",
+        "value":true
+      },
+      "1":{
+        "skillType":35,
+        "type":"SkillType"
+      },
+      "2":{
+        "skillType":2,
+        "type":"SkillType"
       }
     }],
   "support_cast_on_mana_spent":[{
