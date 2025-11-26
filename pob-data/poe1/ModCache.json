@@ -101183,6 +101183,125 @@
           "var":"HaveBeastSpectre"
         }
       }]],
+  "Raised Spectres fire 2 additional Projectiles":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ProjectileCount",
+            "type":"BASE",
+            "value":2
+          }
+        },
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Raise Spectre",
+          "type":"SkillName"
+        }
+      }]],
+  "Raised Spectres have +10% to all maximum Resistances":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ElementalResistMax",
+            "type":"BASE",
+            "value":10
+          }
+        },
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Raise Spectre",
+          "type":"SkillName"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ChaosResistMax",
+            "type":"BASE",
+            "value":10
+          }
+        },
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Raise Spectre",
+          "type":"SkillName"
+        }
+      }]],
+  "Raised Spectres have +5% to Critical Strike Chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"CritChance",
+            "type":"BASE",
+            "value":5
+          }
+        },
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Raise Spectre",
+          "type":"SkillName"
+        }
+      }]],
+  "Raised Spectres have 40% increased Area of Effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"AreaOfEffect",
+            "type":"INC",
+            "value":40
+          }
+        },
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Raise Spectre",
+          "type":"SkillName"
+        }
+      }]],
+  "Raised Spectres have 50% increased Area of Effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"AreaOfEffect",
+            "type":"INC",
+            "value":50
+          }
+        },
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Raise Spectre",
+          "type":"SkillName"
+        }
+      }]],
   "Raised Zombies Cover Enemies in Ash on Hit":[null,"Raised Zombies Cover Enemies in Ash on Hit "],
   "Raised Zombies Cover Enemies in Ash on Hit Raised Zombies take 30% of their Maximum Life per second as Fire Damage":[null,"Raised Zombies Cover Enemies in Ash on Hit Raised Zombies take 30% of their Maximum Life per second as Fire Damage "],
   "Raised Zombies deal 100% increased Physical Damage":[[{
