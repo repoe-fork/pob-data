@@ -1,0 +1,80 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "active_skill_base_secondary_area_of_effect_radius":3,
+  "cannot_poison":4,
+  "parent":"skill_stat_descriptions",
+  "poison_concoction_poison_burst_physical_damage_equal_to_%_of_strongest_active_poison":5,
+  "poisonous_concoction_area_of_effect_+%_final_per_active_poison_consumed":6,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Burst radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Burst radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["cannot_poison"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Cannot Poison"
+      }]
+  },
+  "5":{
+    "stats":["poison_concoction_poison_burst_physical_damage_equal_to_%_of_strongest_active_poison"],
+    "1":[{
+        "limit":[[100,100]],
+        "text":"Enemies lose Life equal to the expected remaining Damage of the Consumed Poison"
+      },{
+        "limit":[["#","#"]],
+        "text":"Enemies lose Life equal to {0}% of the expected remaining Damage of the Consumed Poison"
+      }]
+  },
+  "6":{
+    "stats":["poisonous_concoction_area_of_effect_+%_final_per_active_poison_consumed"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more Area of Effect per Poison affecting the Enemy"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% less Area of Effect per Poison affecting the Enemy",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  }
+}

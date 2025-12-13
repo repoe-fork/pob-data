@@ -1,11 +1,10 @@
 {
   "base_secondary_skill_effect_duration":1,
   "base_skill_effect_duration":2,
+  "bell_hit_limit":3,
   "parent":"skill_stat_descriptions",
-  "quality_display_tempest_bell_is_gem":4,
-  "skill_effect_duration":3,
-  "tempest_bell_hit_limit":4,
-  "virtual_tempest_bell_hit_limit":5,
+  "skill_effect_duration":4,
+  "virtual_bell_hit_limit":5,
   "1":{
     "stats":["base_secondary_skill_effect_duration"]
   },
@@ -28,21 +27,22 @@
       }]
   },
   "3":{
-    "stats":["skill_effect_duration"],
-    "1":[]
-  },
-  "4":{
-    "stats":["tempest_bell_hit_limit","quality_display_tempest_bell_is_gem"],
+    "stats":["bell_hit_limit"],
     "1":[{
-        "limit":[[1,"#"],[0,0]],
+        "gem_quality":true,
+        "limit":[[1,"#"]],
         "text":"Bell is destroyed after {0:+d} Hits"
       },{
-        "limit":[[1,"#"],["#","#"]],
+        "limit":[[1,"#"]],
         "text":"Bell is destroyed after {0} Hits"
       }]
   },
+  "4":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  },
   "5":{
-    "stats":["virtual_tempest_bell_hit_limit"],
+    "stats":["virtual_bell_hit_limit"],
     "1":[]
   }
 }

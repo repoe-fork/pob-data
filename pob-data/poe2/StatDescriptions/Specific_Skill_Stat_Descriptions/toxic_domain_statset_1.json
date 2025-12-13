@@ -4,9 +4,11 @@
   "base_skill_detonation_time":4,
   "local_poison_on_hit":5,
   "parent":"skill_stat_descriptions",
-  "toxic_domain_+1%_final_more_damage_per_x_stored_poison":6,
-  "toxic_domain_max_damage_+%_final_from_stored_poison":6,
-  "toxic_domain_pustule_poison_explode_threshold":7,
+  "skill_specific_stat_description_mode":6,
+  "toxic_pustule_burst_1%_more_damage_per_x_stored_poison":7,
+  "toxic_pustule_burst_base_radius_+1_per_x_stored_poison":8,
+  "toxic_pustule_max_additional_burst_base_radius_+":8,
+  "toxic_pustule_max_burst_damage_+%_final_from_stored_poison":7,
   "1":{
     "stats":["active_skill_base_area_of_effect_radius"]
   },
@@ -78,17 +80,35 @@
       }]
   },
   "6":{
-    "stats":["toxic_domain_+1%_final_more_damage_per_x_stored_poison","toxic_domain_max_damage_+%_final_from_stored_poison"],
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Pustules store expected damage of Poisons inflicted on them"
+      }]
+  },
+  "7":{
+    "stats":["toxic_pustule_burst_1%_more_damage_per_x_stored_poison","toxic_pustule_max_burst_damage_+%_final_from_stored_poison"],
     "1":[{
         "limit":[[1,"#"],[1,"#"]],
         "text":"Stored Poison grants up to {1}% more explosion Damage"
       }]
   },
-  "7":{
-    "stats":["toxic_domain_pustule_poison_explode_threshold"],
+  "8":{
+    "stats":["toxic_pustule_burst_base_radius_+1_per_x_stored_poison","toxic_pustule_max_additional_burst_base_radius_+"],
     "1":[{
-        "limit":[["#","#"]],
-        "text":"Pustules store expected damage of Poisons inflicted on them and will Detonate early after storing {0} Poison damage"
+        "limit":[[1,"#"],[10,10]],
+        "text":"Stored Poison adds up to {1} metre to base explosion radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":2
+        }
+      },{
+        "limit":[[1,"#"],[1,"#"]],
+        "text":"Stored Poison adds up to {1} metres to base explosion radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":2
+        }
       }]
   }
 }

@@ -23,7 +23,6 @@
       "72":true,
       "125":true,
       "140":true,
-      "228":true,
       "234":true
     },
     "statSets":[{
@@ -84,7 +83,8 @@
       "8":true,
       "20":true,
       "21":true,
-      "90":true
+      "83":true,
+      "91":true
     },
     "statSets":[{
         "baseFlags":{
@@ -129,7 +129,8 @@
       "8":true,
       "20":true,
       "21":true,
-      "31":true
+      "31":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -151,8 +152,8 @@
     "description":"Fires a flare at a target location, attaching to an enemy if it lands on one. Then fires a series of arrow volleys centred around the flare.",
     "hidden":true,
     "levels":[{
-        "baseMultiplier":11.4,
-        "cooldown":40,
+        "baseMultiplier":7.63,
+        "cooldown":10,
         "levelRequirement":0,
         "storedUses":1
       }],
@@ -163,7 +164,8 @@
       "3":true,
       "8":true,
       "41":true,
-      "89":true,
+      "83":true,
+      "90":true,
       "113":true
     },
     "statSets":[{
@@ -172,7 +174,7 @@
           "attack":true,
           "projectile":true
         },
-        "constantStats":[["death_from_above_volley_delay_ms",2000],["death_from_above_number_of_volleys",4],["explosion_delay_ms",250],["active_skill_base_area_of_effect_radius",140],["active_skill_base_secondary_area_of_effect_radius",75],["command_minion_marker_additional_time_ms",300]],
+        "constantStats":[["death_from_above_volley_delay_ms",750],["death_from_above_number_of_volleys",6],["explosion_delay_ms",250],["active_skill_base_area_of_effect_radius",140],["active_skill_base_secondary_area_of_effect_radius",140]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Death From Above",
         "levels":[{
@@ -209,9 +211,8 @@
       "2":true,
       "8":true,
       "30":true,
-      "90":true,
-      "168":true,
-      "228":true
+      "91":true,
+      "168":true
     },
     "statSets":[{
         "baseEffectiveness":9,
@@ -448,8 +449,7 @@
       "7":true,
       "8":true,
       "28":true,
-      "90":true,
-      "228":true
+      "91":true
     },
     "statSets":[{
         "baseFlags":{
@@ -626,7 +626,7 @@
   },
   "EnrageSkeletonReaverMinion":{
     "castTime":1,
-    "description":"Enrage all Skeletal Reavers, causing them to lose life over time and gain Rage on hit. Skeletal Reavers do more Attack Damage and gain increased Attack speed based on their Rage.",
+    "description":"Enrage all Skeletal Reavers, causing them to lose life over time and gain Rage on hit.",
     "hidden":true,
     "levels":[{
         "cooldown":4,
@@ -637,8 +637,7 @@
     "qualityStats":[],
     "skillTypes":{
       "5":true,
-      "90":true,
-      "228":true
+      "91":true
     },
     "statSets":[{
         "baseFlags":[],
@@ -669,6 +668,7 @@
       "11":true,
       "41":true,
       "62":true,
+      "83":true,
       "158":true,
       "168":true,
       "217":true
@@ -721,6 +721,7 @@
       "22":true,
       "29":true,
       "57":true,
+      "83":true,
       "234":true
     },
     "statSets":[{
@@ -775,7 +776,8 @@
     "qualityStats":[],
     "skillTypes":{
       "1":true,
-      "31":true
+      "31":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -797,7 +799,7 @@
     "levels":[{
         "attackSpeedMultiplier":-50,
         "baseMultiplier":1.8,
-        "cooldown":10,
+        "cooldown":6,
         "levelRequirement":0,
         "storedUses":1
       }],
@@ -808,7 +810,8 @@
       "8":true,
       "20":true,
       "21":true,
-      "31":true
+      "31":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -830,7 +833,7 @@
     "hidden":true,
     "levels":[{
         "baseMultiplier":0.9,
-        "cooldown":10,
+        "cooldown":6,
         "levelRequirement":0,
         "storedUses":1
       }],
@@ -844,7 +847,8 @@
       "21":true,
       "41":true,
       "57":true,
-      "58":true
+      "58":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -881,11 +885,10 @@
       "35":true,
       "41":true,
       "62":true,
-      "89":true,
       "90":true,
+      "91":true,
       "168":true,
-      "192":true,
-      "228":true
+      "192":true
     },
     "statSets":[{
         "baseFlags":{
@@ -893,7 +896,7 @@
           "attack":true,
           "projectile":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["command_minion_marker_additional_time_ms",300]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Impact",
         "levels":[{
@@ -907,7 +910,7 @@
           "attack":true,
           "duration":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["command_minion_marker_additional_time_ms",300],["base_skill_effect_duration",8000],["active_skill_ground_effect_area_of_effect_+%_final_per_second",20],["active_skill_ground_effect_area_of_effect_+%_final_per_second_max",80]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["base_skill_effect_duration",8000],["active_skill_ground_effect_area_of_effect_+%_final_per_second",20],["active_skill_ground_effect_area_of_effect_+%_final_per_second_max",80]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Poison Cloud",
         "levels":[{
@@ -921,7 +924,7 @@
           "area":true,
           "attack":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["command_minion_marker_additional_time_ms",300],["active_skill_base_physical_damage_%_to_convert_to_fire",100]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["active_skill_base_physical_damage_%_to_convert_to_fire",100]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{
@@ -940,7 +943,12 @@
       }],
     "name":"Heal Buff",
     "qualityStats":[],
-    "skillTypes":[null,true,null,null,true,null,null,null,true],
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "9":true,
+      "83":true
+    },
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_skill_effect_duration",4000]],
@@ -1123,11 +1131,13 @@
     "name":"Ice Armour",
     "qualityStats":[],
     "skillTypes":{
+      "2":true,
       "5":true,
       "6":true,
       "8":true,
       "9":true,
-      "72":true
+      "72":true,
+      "83":true
     },
     "statSets":[{
         "baseEffectiveness":0.85000002384186,
@@ -1361,6 +1371,7 @@
       "19":true,
       "20":true,
       "30":true,
+      "83":true,
       "220":true
     },
     "statSets":[{
@@ -1383,7 +1394,6 @@
               "var":"LivingLightningAttackTime"
             }
           }],
-        "constantStats":[["number_of_chains",3],["living_lightning_damage_+%_final_per_additional_hit",-30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Zap",
         "levels":[{
@@ -1418,7 +1428,8 @@
       "3":true,
       "7":true,
       "31":true,
-      "57":true
+      "57":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -1454,7 +1465,8 @@
       "21":true,
       "41":true,
       "57":true,
-      "58":true
+      "58":true,
+      "83":true
     },
     "statSets":[{
         "baseEffectiveness":0,
@@ -1527,7 +1539,8 @@
       "21":true,
       "41":true,
       "57":true,
-      "58":true
+      "58":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -1558,7 +1571,8 @@
       "21":true,
       "41":true,
       "57":true,
-      "58":true
+      "58":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -1590,7 +1604,8 @@
       "21":true,
       "41":true,
       "57":true,
-      "58":true
+      "58":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -1697,7 +1712,8 @@
       "1":true,
       "8":true,
       "20":true,
-      "42":true
+      "42":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{
@@ -1811,8 +1827,10 @@
       "9":true,
       "29":true,
       "63":true,
-      "84":true,
-      "90":true,
+      "83":true,
+      "85":true,
+      "91":true,
+      "135":true,
       "140":true
     },
     "statSets":[{
@@ -2048,7 +2066,8 @@
       "20":true,
       "21":true,
       "34":true,
-      "79":true
+      "79":true,
+      "83":true
     },
     "statSets":[{
         "baseFlags":{

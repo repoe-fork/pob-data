@@ -1,9 +1,9 @@
 {
   "active_skill_area_of_effect_radius":1,
   "active_skill_base_area_of_effect_radius":2,
-  "ascendancy_vivid_stag_cascade_number_of_damaging_areas":3,
-  "ascendancy_vivid_stag_maximum_stag_wisps_allowed":4,
   "parent":"skill_stat_descriptions",
+  "vivid_stag_cascade_number_of_damaging_areas":3,
+  "vivid_stag_maximum_stag_wisps_allowed":4,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -12,14 +12,14 @@
     "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
         "limit":[[10,10]],
-        "text":"DNT Stag Hoofbeat radius is {0} Metre",
+        "text":"DNT-UNUSED Stag Hoofbeat radius is {0} Metre",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"DNT Stag Hoofbeat radius is {0} Metres",
+        "text":"DNT-UNUSED Stag Hoofbeat radius is {0} Metres",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
@@ -27,23 +27,23 @@
       }]
   },
   "3":{
-    "stats":["ascendancy_vivid_stag_cascade_number_of_damaging_areas"],
+    "stats":["vivid_stag_cascade_number_of_damaging_areas"],
     "1":[{
         "limit":[[1,1]],
-        "text":"DNT Stags charge for {0} Hoofbeat"
+        "text":"DNT-UNUSED Stags charge for {0} Hoofbeat"
       },{
         "limit":[[2,"#"]],
-        "text":"DNT Stags charge for {0} Hoofbeats"
+        "text":"DNT-UNUSED Stags charge for {0} Hoofbeats"
       }]
   },
   "4":{
-    "stats":["ascendancy_vivid_stag_maximum_stag_wisps_allowed"],
+    "stats":["vivid_stag_maximum_stag_wisps_allowed"],
     "1":[{
         "limit":[[1,1]],
-        "text":"DNT Maximum {0} Vivid Stag wisp"
+        "text":"DNT-UNUSED Maximum {0} Vivid Stag wisp"
       },{
         "limit":[[2,"#"]],
-        "text":"DNT Maximum {0} Vivid Stag wisps"
+        "text":"DNT-UNUSED Maximum {0} Vivid Stag wisps"
       }]
   }
 }

@@ -1,26 +1,35 @@
 {
-  "active_skill_base_area_of_effect_radius":7,
-  "base_curse_duration_+%":8,
-  "base_skill_area_of_effect_+%":9,
-  "curse_effect_+%":10,
-  "damage_+%":11,
-  "disable_skill_if_melee_attack":6,
-  "generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time":12,
-  "generic_ongoing_trigger_triggers_at_maximum_energy":12,
-  "mark_effect_+%":13,
+  "active_skill_base_area_of_effect_radius":8,
+  "base_curse_duration_+%":9,
+  "base_skill_area_of_effect_+%":10,
+  "curse_effect_+%":11,
+  "damage_+%":12,
+  "disable_skill_if_melee_attack":7,
+  "display_bear_warcry":1,
+  "feral_invocation_energy_cost_per_X_ms_of_base_attack_time":13,
+  "generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time":14,
+  "generic_ongoing_trigger_triggers_at_maximum_energy":14,
+  "mark_effect_+%":15,
   "parent":"gem_stat_descriptions",
-  "quality_display_active_skill_base_area_of_effect_radius_is_gem":7,
-  "skill_empower_limitation_specifier_for_stat_description":16,
-  "skill_empowers_next_x_melee_attacks":16,
-  "support_additional_totem_damage_+%_final":2,
-  "support_attack_totem_attack_speed_+%_final":5,
-  "support_blasphemy_curse_effect_+%_final":3,
-  "support_spell_totem_cast_speed_+%_final":4,
-  "support_totem_damage_+%_final":1,
-  "trigger_meta_gem_damage_+%_final":14,
-  "warcry_buff_effect_+%":15,
-  "warcry_grant_damage_+%_to_exerted_attacks":17,
+  "quality_display_active_skill_base_area_of_effect_radius_is_gem":8,
+  "skill_empower_limitation_specifier_for_stat_description":18,
+  "skill_empowers_next_x_melee_attacks":18,
+  "support_additional_totem_damage_+%_final":3,
+  "support_attack_totem_attack_speed_+%_final":6,
+  "support_blasphemy_curse_effect_+%_final":4,
+  "support_spell_totem_cast_speed_+%_final":5,
+  "support_totem_damage_+%_final":2,
+  "trigger_meta_gem_damage_+%_final":16,
+  "warcry_buff_effect_+%":17,
+  "warcry_grant_damage_+%_to_exerted_attacks":19,
   "1":{
+    "stats":["display_bear_warcry"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Triggers Socketed Warcry instead of Ferocious Roar's effects"
+      }]
+  },
+  "2":{
     "stats":["support_totem_damage_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
@@ -34,7 +43,7 @@
         }
       }]
   },
-  "2":{
+  "3":{
     "stats":["support_additional_totem_damage_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
@@ -48,7 +57,7 @@
         }
       }]
   },
-  "3":{
+  "4":{
     "stats":["support_blasphemy_curse_effect_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
@@ -62,21 +71,21 @@
         }
       }]
   },
-  "4":{
+  "5":{
     "stats":["support_spell_totem_cast_speed_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Sockted Spells have {0}% more Cast Speed"
+        "text":"Sockted Skills have {0}% more Cast Speed"
       },{
         "limit":[["#",-1]],
-        "text":"Socketed Spells have {0}% less Cast Speed",
+        "text":"Socketed Skills have {0}% less Cast Speed",
         "1":{
           "k":"negate",
           "v":1
         }
       }]
   },
-  "5":{
+  "6":{
     "stats":["support_attack_totem_attack_speed_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
@@ -90,14 +99,14 @@
         }
       }]
   },
-  "6":{
+  "7":{
     "stats":["disable_skill_if_melee_attack"],
     "1":[{
         "limit":[["#","#"]],
         "text":"Socketed Attack Skills cannot be used with Melee Weapons"
       }]
   },
-  "7":{
+  "8":{
     "stats":["active_skill_base_area_of_effect_radius","quality_display_active_skill_base_area_of_effect_radius_is_gem"],
     "1":[{
         "limit":[[1,"#"],["#","#"]],
@@ -108,7 +117,7 @@
         }
       }]
   },
-  "8":{
+  "9":{
     "stats":["base_curse_duration_+%"],
     "1":[{
         "gem_quality":true,
@@ -126,7 +135,7 @@
         }
       }]
   },
-  "9":{
+  "10":{
     "stats":["base_skill_area_of_effect_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -140,7 +149,7 @@
         }
       }]
   },
-  "10":{
+  "11":{
     "stats":["curse_effect_+%"],
     "1":[{
         "gem_quality":true,
@@ -158,21 +167,32 @@
         }
       }]
   },
-  "11":{
+  "12":{
     "stats":["damage_+%"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Socketed Skills deal {0}% increased Damage"
+        "text":"Socketed Skills deal {0}% increased damage"
       },{
         "limit":[["#",-1]],
-        "text":"Socketed Skills deal {0}% reduced Damage",
+        "text":"Socketed Skills deal {0}% reduced damage",
         "1":{
           "k":"negate",
           "v":1
         }
       }]
   },
-  "12":{
+  "13":{
+    "stats":["feral_invocation_energy_cost_per_X_ms_of_base_attack_time"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Socketed Attacks consume 10 Energy per {0} seconds of Base Skill Attack Time when Triggered",
+        "1":{
+          "k":"divide_by_one_hundred_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "14":{
     "stats":["generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time","generic_ongoing_trigger_triggers_at_maximum_energy"],
     "1":[{
         "limit":[["!",0],["!",0]],
@@ -190,7 +210,7 @@
         }
       }]
   },
-  "13":{
+  "15":{
     "stats":["mark_effect_+%"],
     "1":[{
         "gem_quality":true,
@@ -208,7 +228,7 @@
         }
       }]
   },
-  "14":{
+  "16":{
     "stats":["trigger_meta_gem_damage_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
@@ -222,7 +242,7 @@
         }
       }]
   },
-  "15":{
+  "17":{
     "stats":["warcry_buff_effect_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -236,7 +256,7 @@
         }
       }]
   },
-  "16":{
+  "18":{
     "stats":["skill_empowers_next_x_melee_attacks","skill_empower_limitation_specifier_for_stat_description"],
     "1":[{
         "limit":[[1,1],[0,0]],
@@ -246,11 +266,11 @@
         "text":"Socketed Warcries Exert {0} additional Attacks"
       }]
   },
-  "17":{
+  "19":{
     "stats":["warcry_grant_damage_+%_to_exerted_attacks"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Attacks Exerted by Socketed Skills deal {0}% increased Damage"
+        "text":"Attacks Empowered by Socketed\nSkills deal {0}% increased damage"
       }]
   }
 }

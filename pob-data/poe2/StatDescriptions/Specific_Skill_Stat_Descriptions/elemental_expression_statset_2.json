@@ -1,0 +1,18 @@
+{
+  "base_number_of_projectiles":2,
+  "parent":"skill_stat_descriptions",
+  "quality_display_base_number_of_projectiles_is_gem":1,
+  "1":{
+    "stats":["quality_display_base_number_of_projectiles_is_gem"]
+  },
+  "2":{
+    "stats":["base_number_of_projectiles"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Fires {0} Projectile"
+      },{
+        "limit":[["#","#"]],
+        "text":"Fires {0} Projectiles"
+      }]
+  }
+}

@@ -1,11 +1,11 @@
 {
   "active_skill_area_of_effect_radius":2,
   "active_skill_base_area_of_effect_radius":3,
+  "bell_hit_limit":1,
+  "bell_shockwave_cooldown_ms":4,
   "parent":"specific_skill_stat_descriptions/tempest_bell_statset_0",
-  "tempest_bell_hit_limit":1,
-  "tempest_bell_shockwave_cooldown_ms":4,
   "1":{
-    "stats":["tempest_bell_hit_limit"]
+    "stats":["bell_hit_limit"]
   },
   "2":{
     "stats":["active_skill_area_of_effect_radius"],
@@ -30,7 +30,7 @@
       }]
   },
   "4":{
-    "stats":["tempest_bell_shockwave_cooldown_ms"],
+    "stats":["bell_shockwave_cooldown_ms"],
     "1":[{
         "limit":[[1000,1000]],
         "text":"Shockwave can be triggered once every second"

@@ -1,0 +1,35 @@
+{
+  "never_shock":1,
+  "parent":"skill_stat_descriptions",
+  "skill_specific_stat_description_mode":2,
+  "skill_wrath_aura_shared_damage_+%_to_other_shocked_enemies_in_presence":3,
+  "1":{
+    "stats":["never_shock"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Cannot inflict Shock"
+      }]
+  },
+  "2":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Hits up to 8 enemies"
+      }]
+  },
+  "3":{
+    "stats":["skill_wrath_aura_shared_damage_+%_to_other_shocked_enemies_in_presence"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Additional Hits deal {0}% more damage"
+      },{
+        "limit":[["#","#"]],
+        "text":"Additional Hits deal {0}% less damage\nAdditional Hits convert 100% of Physical and\nElemental damage to Lightning",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  }
+}

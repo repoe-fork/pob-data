@@ -1,0 +1,43 @@
+{
+  "parent":"skill_stat_descriptions",
+  "skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%":1,
+  "skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%_to_apply":2,
+  "skill_overwhelming_pressure_aura_enemy_stun_threshold_+%":3,
+  "skill_overwhelming_pressure_aura_enemy_stun_threshold_+%_to_apply":4,
+  "1":{
+    "stats":["skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Enemies in your Presence have {0}% increased\nElemental Ailment Threshold"
+      },{
+        "limit":[["#",-1]],
+        "text":"Enemies in your Presence have {0}% reduced\nElemental Ailment Threshold",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%_to_apply"],
+    "1":[]
+  },
+  "3":{
+    "stats":["skill_overwhelming_pressure_aura_enemy_stun_threshold_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Enemies in your Presence have {0}% increased Stun Threshold"
+      },{
+        "limit":[["#",-1]],
+        "text":"Enemies in your Presence have {0}% reduced Stun Threshold",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["skill_overwhelming_pressure_aura_enemy_stun_threshold_+%_to_apply"],
+    "1":[]
+  }
+}

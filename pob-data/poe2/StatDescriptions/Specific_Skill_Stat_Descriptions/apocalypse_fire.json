@@ -1,0 +1,58 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "do_not_apply_area_modifiers":3,
+  "parent":"skill_stat_descriptions",
+  "specific_active_skill_area_modifiers_also_apply_to_spell_damage":3,
+  "unleash_meteor_time_till_impact_ms":4,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["specific_active_skill_area_modifiers_also_apply_to_spell_damage","do_not_apply_area_modifiers"],
+    "1":[{
+        "limit":[["#","#"],[0,0]],
+        "text":"Modifiers to Area of Effect also apply to Spell Damage"
+      },{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Modifiers to Area of Effect apply to Spell Damage instead"
+      }]
+  },
+  "4":{
+    "stats":["unleash_meteor_time_till_impact_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Meteor lands after {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Meteor lands after {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "active_skill_area_of_effect_radius":4,
+  "active_skill_base_area_of_effect_radius":5,
+  "base_knockback_distance":3,
+  "base_number_of_projectiles":6,
+  "ignite_duration_+%_per_shotgun_pellet_hit":7,
+  "parent":"skill_stat_descriptions",
+  "projectiles_can_shotgun":2,
+  "quality_display_base_number_of_projectiles_is_gem":1,
+  "skill_can_fire_arrows":6,
+  "1":{
+    "stats":["quality_display_base_number_of_projectiles_is_gem"]
+  },
+  "2":{
+    "stats":["projectiles_can_shotgun"]
+  },
+  "3":{
+    "stats":["base_knockback_distance"]
+  },
+  "4":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "5":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Bolts shatter on impact, dealing Damage in a {0} metre cone",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["base_number_of_projectiles","skill_can_fire_arrows"],
+    "1":[{
+        "limit":[[2,"#"],["#","#"]],
+        "text":"Fires {0} fragments per shot"
+      }]
+  },
+  "7":{
+    "stats":["ignite_duration_+%_per_shotgun_pellet_hit"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:+d}% increased Ignite duration for each Fragment in a single hit"
+      },{
+        "limit":[["#","#"]],
+        "text":"{0}% increased Ignite duration for each Fragment in a single hit"
+      }]
+  }
+}

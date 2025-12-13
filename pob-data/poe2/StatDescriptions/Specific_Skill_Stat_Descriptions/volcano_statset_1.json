@@ -1,0 +1,81 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "parent":"skill_stat_descriptions",
+  "volcano_fires_projectiles_every_x_ms":3,
+  "volcano_initial_explosion_number_of_additional_projectiles_per_additional_stage":4,
+  "volcano_slam_unscalable_limit":5,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[10,10]],
+        "text":"{0:+d} metre to impact radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:+d} metres to impact radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["volcano_fires_projectiles_every_x_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Fires Projectiles every second, or when Slammed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Fires Projectiles every {0} seconds, or when Slammed",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["volcano_initial_explosion_number_of_additional_projectiles_per_additional_stage"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Initial eruption fires {0} additional\nProjectiles per additional Stage"
+      }]
+  },
+  "5":{
+    "stats":["volcano_slam_unscalable_limit"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Volcano is destroyed after {0} Slam"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Volcano is destroyed after {0} Slams"
+      }]
+  }
+}

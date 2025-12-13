@@ -1,7 +1,10 @@
 {
-  "chance_to_gain_1_more_charge_%":3,
+  "base_skill_effect_duration":3,
+  "chance_%_to_create_additional_remnant":4,
+  "chance_to_gain_1_more_charge_%":5,
   "parent":"skill_stat_descriptions",
-  "quality_display_lingering_illusion_is_gem":3,
+  "quality_display_lingering_illusion_is_gem":5,
+  "skill_effect_duration":6,
   "spells_have_culling_strike":1,
   "1":{
     "stats":["spells_have_culling_strike"]
@@ -10,6 +13,35 @@
     "stats":["chance_to_gain_1_more_charge_%"]
   },
   "3":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Illusion duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Illusion duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["chance_%_to_create_additional_remnant"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"{0:+d}% chance to create an additional Remnant"
+      },{
+        "limit":[[1,"#"]],
+        "text":"{0}% chance to create an additional Remnant"
+      }]
+  },
+  "5":{
     "stats":["chance_to_gain_1_more_charge_%","quality_display_lingering_illusion_is_gem"],
     "1":[{
         "limit":[[1,99],["#","#"]],
@@ -21,5 +53,9 @@
         "limit":[["#","#"],[0,0]],
         "text":"{0:+d}% chance to grant an additional Power Charge when killed"
       }]
+  },
+  "6":{
+    "stats":["skill_effect_duration"],
+    "1":[]
   }
 }

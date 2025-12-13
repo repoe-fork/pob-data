@@ -18,11 +18,11 @@
     "type":"Bow",
     "weapon":{
       "AttackRateBase":1.2,
-      "ChaosMax":59,
-      "ChaosMin":31,
+      "ChaosMax":32,
+      "ChaosMin":14,
       "CritChanceBase":5,
-      "PhysicalMax":34,
-      "PhysicalMin":21,
+      "PhysicalMax":59,
+      "PhysicalMin":35,
       "Range":120
     }
   },
@@ -147,11 +147,11 @@
     "type":"Bow",
     "weapon":{
       "AttackRateBase":1.2,
-      "ChaosMax":37,
-      "ChaosMin":19,
+      "ChaosMax":19,
+      "ChaosMin":7,
       "CritChanceBase":5,
-      "PhysicalMax":17,
-      "PhysicalMin":10,
+      "PhysicalMax":36,
+      "PhysicalMin":22,
       "Range":120
     }
   },
@@ -181,7 +181,7 @@
     }
   },
   "Dualstring Bow":{
-    "implicit":"Bow Attacks fire an additional Arrow",
+    "implicit":"+50% Surpassing chance to fire an additional Arrow",
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
@@ -200,10 +200,10 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.1,
+      "AttackRateBase":1.15,
       "CritChanceBase":5,
-      "PhysicalMax":31,
-      "PhysicalMin":16,
+      "PhysicalMax":35,
+      "PhysicalMin":19,
       "Range":120
     }
   },
@@ -226,16 +226,16 @@
     "type":"Bow",
     "weapon":{
       "AttackRateBase":1.2,
-      "ChaosMax":71,
-      "ChaosMin":43,
+      "ChaosMax":64,
+      "ChaosMin":28,
       "CritChanceBase":5,
-      "PhysicalMax":70,
-      "PhysicalMin":42,
+      "PhysicalMax":79,
+      "PhysicalMin":47,
       "Range":120
     }
   },
   "Gemini Bow":{
-    "implicit":"Bow Attacks fire an additional Arrow",
+    "implicit":"+50% Surpassing chance to fire an additional Arrow",
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
@@ -253,7 +253,7 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.1,
+      "AttackRateBase":1.15,
       "CritChanceBase":5,
       "PhysicalMax":72,
       "PhysicalMin":39,
@@ -307,7 +307,7 @@
     "weapon":{
       "AttackRateBase":1.15,
       "CritChanceBase":5,
-      "PhysicalMax":80,
+      "PhysicalMax":88,
       "PhysicalMin":53,
       "Range":120
     }
@@ -569,7 +569,7 @@
     }
   },
   "Twin Bow":{
-    "implicit":"Bow Attacks fire an additional Arrow",
+    "implicit":"+50% Surpassing chance to fire an additional Arrow",
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
@@ -587,7 +587,7 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.1,
+      "AttackRateBase":1.15,
       "CritChanceBase":5,
       "PhysicalMax":60,
       "PhysicalMin":32,
@@ -616,7 +616,7 @@
     "weapon":{
       "AttackRateBase":1.15,
       "CritChanceBase":5,
-      "PhysicalMax":18,
+      "PhysicalMax":20,
       "PhysicalMin":12,
       "Range":120
     }

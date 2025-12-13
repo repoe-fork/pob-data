@@ -1,0 +1,27 @@
+{
+  "parent":"skill_stat_descriptions",
+  "spell_totem_damage_+%_final_per_power_charge_consumed":1,
+  "spell_totem_maximum_life_+%_final_per_endurance_charge_consumed":2,
+  "spell_totem_totem_duration_+%_final_per_endurance_charge_consumed":3,
+  "1":{
+    "stats":["spell_totem_damage_+%_final_per_power_charge_consumed"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Socketed Skills deal {0}% more\ndamage per Power Charge Consumed"
+      }]
+  },
+  "2":{
+    "stats":["spell_totem_maximum_life_+%_final_per_endurance_charge_consumed"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% more Totem life per Endurance Charge Consumed"
+      }]
+  },
+  "3":{
+    "stats":["spell_totem_totem_duration_+%_final_per_endurance_charge_consumed"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% more Totem duration per Endurance Charge Consumed"
+      }]
+  }
+}

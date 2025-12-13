@@ -1,0 +1,41 @@
+{
+  "active_skill_base_area_of_effect_radius":3,
+  "chance_to_be_trigger_elemental_expression_%":4,
+  "parent":"skill_stat_descriptions",
+  "quality_display_base_number_of_projectiles_is_gem":1,
+  "skill_can_fire_arrows":2,
+  "1":{
+    "stats":["quality_display_base_number_of_projectiles_is_gem"]
+  },
+  "2":{
+    "stats":["skill_can_fire_arrows"]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["chance_to_be_trigger_elemental_expression_%"],
+    "1":[{
+        "limit":[[1,99]],
+        "text":"{0}% chance to Trigger Fiery Explosion, Arcing Bolt, or Icy Wave on Melee Critical Hit"
+      },{
+        "limit":[[100,"#"]],
+        "text":"Triggers Fiery Explosion, Arcing Bolt, or Icy Wave on Melee Critical Hit"
+      }]
+  }
+}

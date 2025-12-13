@@ -1,0 +1,35 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "parent":"skill_stat_descriptions",
+  "support_creeping_chill_cold_damage_equal_to_%_ice_crystal_maximum_life":3,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Chilled Ground radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Chilled Ground radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["support_creeping_chill_cold_damage_equal_to_%_ice_crystal_maximum_life"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Created Chilled Ground Chills as though dealing damage equal to {0}% of the Ice Crystal's maximum Life"
+      }]
+  }
+}

@@ -56,24 +56,21 @@
   "5":{
     "stats":["base_number_of_earthquakes_allowed","quality_display_earthquake_is_gem"],
     "1":[{
-        "limit":[[1,1],[0,0]],
-        "text":"{0:+d} maximum Jagged Ground patch"
-      },{
-        "limit":[[2,"#"],[0,0]],
-        "text":"{0:+d} maximum Jagged Ground patches"
+        "limit":[["#","#"],[0,0]],
+        "text":"{0:+d} to Jagged Ground patch Limit"
       },{
         "limit":[[1,1],["#","#"]],
-        "text":"Maximum {0} Jagged Ground patch"
+        "text":"Limit {0} Jagged Ground patch"
       },{
         "limit":[[2,"#"],["#","#"]],
-        "text":"Maximum {0} Jagged Ground patches"
+        "text":"Limit {0} Jagged Ground patches"
       }]
   },
   "6":{
     "stats":["number_of_earthquakes_allowed"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Maximum Jagged Ground patches@{0}"
+        "text":"Jagged Ground patch Limit@{0}"
       }]
   },
   "7":{

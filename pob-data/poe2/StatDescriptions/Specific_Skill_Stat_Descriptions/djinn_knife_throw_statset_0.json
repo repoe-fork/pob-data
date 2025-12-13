@@ -1,0 +1,42 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "djinn_knife_throw_number_of_knives_created":3,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Erupting blade creation radius@{0}m",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Creates erupting blades within {0} metre radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["djinn_knife_throw_number_of_knives_created"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Creates {0:+d} erupting blades"
+      },{
+        "limit":[[1,1]],
+        "text":"Creates {0} erupting blade"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Creates {0} erupting blades"
+      }]
+  }
+}

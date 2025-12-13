@@ -1,0 +1,39 @@
+{
+  "base_knockback_distance":4,
+  "base_number_of_projectiles":5,
+  "base_projectiles_cannot_chain":1,
+  "number_of_chains":6,
+  "parent":"skill_stat_descriptions",
+  "projectiles_can_shotgun":3,
+  "quality_display_base_number_of_projectiles_is_gem":2,
+  "skill_can_fire_arrows":5,
+  "1":{
+    "stats":["base_projectiles_cannot_chain"]
+  },
+  "2":{
+    "stats":["quality_display_base_number_of_projectiles_is_gem"]
+  },
+  "3":{
+    "stats":["projectiles_can_shotgun"]
+  },
+  "4":{
+    "stats":["base_knockback_distance"]
+  },
+  "5":{
+    "stats":["base_number_of_projectiles","skill_can_fire_arrows"],
+    "1":[{
+        "limit":[[2,"#"],["#","#"]],
+        "text":"Fires {0} fragments per shot"
+      }]
+  },
+  "6":{
+    "stats":["number_of_chains"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Beam Chains to {0} enemy"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Beam Chains to {0} enemies"
+      }]
+  }
+}

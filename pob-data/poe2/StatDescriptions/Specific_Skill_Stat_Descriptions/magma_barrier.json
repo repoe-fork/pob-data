@@ -1,0 +1,73 @@
+{
+  "igneous_shield_charge_up_time_+%":2,
+  "igneous_shield_charge_up_time_ms":1,
+  "parent":"skill_stat_descriptions",
+  "skill_igneous_shield_grants_block_chance_+%":3,
+  "virtual_igneous_shield_charge_up_time_ms":4,
+  "1":{
+    "stats":["igneous_shield_charge_up_time_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Fully imbues Shield in {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Fully imbues Shield in {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["igneous_shield_charge_up_time_+%"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0}% reduced Imbuement time",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% reduced Imbuement time",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      },{
+        "limit":[[1,"#"]],
+        "text":"{0}% increased Imbuement time",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["skill_igneous_shield_grants_block_chance_+%"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"{0:+d}% increased Block chance"
+      },{
+        "limit":[[1,"#"]],
+        "text":"Grants {0}% increased Block chance"
+      },{
+        "limit":[["#",-1]],
+        "text":"Grants {0}% reduced Block chance",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["virtual_igneous_shield_charge_up_time_ms"],
+    "1":[]
+  }
+}

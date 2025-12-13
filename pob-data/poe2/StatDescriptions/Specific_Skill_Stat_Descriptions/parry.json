@@ -1,15 +1,17 @@
 {
   "base_maximum_active_block_distance_for_non_projectiles":1,
-  "base_parry_buff_damage_taken_+%_final_to_apply":2,
-  "base_skill_effect_duration":3,
-  "maximum_active_block_distance_for_non_projectiles":4,
-  "off_hand_maximum_added_physical_damage_per_5_shield_evasion_rating":5,
-  "off_hand_minimum_added_physical_damage_per_5_shield_evasion_rating":5,
+  "base_maximum_active_block_distance_for_projectiles":2,
+  "base_parry_buff_damage_taken_+%_final_to_apply":3,
+  "base_skill_effect_duration":4,
+  "maximum_active_block_distance_for_non_projectiles":5,
+  "maximum_active_block_distance_for_projectiles":6,
+  "off_hand_maximum_added_physical_damage_per_5_shield_evasion_rating":7,
+  "off_hand_minimum_added_physical_damage_per_5_shield_evasion_rating":7,
   "parent":"skill_stat_descriptions",
-  "parry_buff_attack_damage_taken_+%_final_magnitude_to_apply":6,
-  "parry_buff_spell_damage_taken_+%_final_magnitude_to_apply":7,
-  "quality_display_base_skill_effect_duration_is_gem":3,
-  "skill_effect_duration":8,
+  "parry_buff_attack_damage_taken_+%_final_magnitude_to_apply":8,
+  "parry_buff_spell_damage_taken_+%_final_magnitude_to_apply":9,
+  "quality_display_base_skill_effect_duration_is_gem":4,
+  "skill_effect_duration":10,
   "1":{
     "stats":["base_maximum_active_block_distance_for_non_projectiles"],
     "1":[{
@@ -29,6 +31,24 @@
       }]
   },
   "2":{
+    "stats":["base_maximum_active_block_distance_for_projectiles"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Can Block Projectile Damage from enemies within {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Can Block Projectile Damage from enemies within {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
     "stats":["base_parry_buff_damage_taken_+%_final_to_apply"],
     "1":[{
         "limit":[[1,"#"]],
@@ -42,7 +62,7 @@
         }
       }]
   },
-  "3":{
+  "4":{
     "stats":["base_skill_effect_duration","quality_display_base_skill_effect_duration_is_gem"],
     "1":[{
         "limit":[["#","#"],[0,0]],
@@ -67,26 +87,30 @@
         }
       }]
   },
-  "4":{
+  "5":{
     "stats":["maximum_active_block_distance_for_non_projectiles"],
     "1":[]
   },
-  "5":{
+  "6":{
+    "stats":["maximum_active_block_distance_for_projectiles"],
+    "1":[]
+  },
+  "7":{
     "stats":["off_hand_minimum_added_physical_damage_per_5_shield_evasion_rating","off_hand_maximum_added_physical_damage_per_5_shield_evasion_rating"],
     "1":[{
         "limit":[["#","#"],["#","#"]],
         "text":"{0} to {1} Added Physical Damage per 5 Evasion Rating on Buckler"
       }]
   },
-  "6":{
+  "8":{
     "stats":["parry_buff_attack_damage_taken_+%_final_magnitude_to_apply"],
     "1":[]
   },
-  "7":{
+  "9":{
     "stats":["parry_buff_spell_damage_taken_+%_final_magnitude_to_apply"],
     "1":[]
   },
-  "8":{
+  "10":{
     "stats":["skill_effect_duration"],
     "1":[]
   }

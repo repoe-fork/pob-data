@@ -1,0 +1,47 @@
+{
+  "active_skill_base_secondary_area_of_effect_radius":1,
+  "active_skill_secondary_area_of_effect_radius":2,
+  "parent":"skill_stat_descriptions",
+  "wyvern_devour_empowered_flame_breath_base_all_damage_%_to_gain_as_lightning":3,
+  "wyvern_devour_empowered_flame_breath_rage_consumption_+%":4,
+  "1":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Immolation radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Immolation radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["active_skill_secondary_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["wyvern_devour_empowered_flame_breath_base_all_damage_%_to_gain_as_lightning"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Empowered Flame Breath Gains {0}% of\ndamage as Lightning damage"
+      }]
+  },
+  "4":{
+    "stats":["wyvern_devour_empowered_flame_breath_rage_consumption_+%"],
+    "1":[{
+        "limit":[["#",-1]],
+        "text":"Empowered Flame Breath costs {0}% less Rage per second",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  }
+}

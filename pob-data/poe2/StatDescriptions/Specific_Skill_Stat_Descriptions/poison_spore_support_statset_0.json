@@ -1,0 +1,24 @@
+{
+  "active_skill_base_area_of_effect_radius":1,
+  "parent":"skill_stat_descriptions",
+  "skill_specific_stat_description_mode":2,
+  "toxic_pustule_burst_1%_more_damage_per_x_stored_poison":3,
+  "toxic_pustule_max_burst_damage_+%_final_from_stored_poison":3,
+  "1":{
+    "stats":["active_skill_base_area_of_effect_radius"]
+  },
+  "2":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Each enemy can have up to 1 Pustule attached"
+      }]
+  },
+  "3":{
+    "stats":["toxic_pustule_burst_1%_more_damage_per_x_stored_poison","toxic_pustule_max_burst_damage_+%_final_from_stored_poison"],
+    "1":[{
+        "limit":[[1,"#"],[1,"#"]],
+        "text":"Stored Poison grants up to {1}% more explosion Damage"
+      }]
+  }
+}

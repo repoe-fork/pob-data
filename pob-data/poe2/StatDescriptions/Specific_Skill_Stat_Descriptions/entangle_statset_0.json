@@ -6,9 +6,10 @@
   "base_number_of_entangle_roots_allowed":5,
   "base_skill_effect_duration":6,
   "entangle_apply_vines_every_X_ms":7,
-  "number_of_entangle_roots_allowed":8,
+  "entangle_duration_speed_+%_when_wet":8,
+  "number_of_entangle_roots_allowed":9,
   "parent":"skill_stat_descriptions",
-  "skill_effect_duration":9,
+  "skill_effect_duration":10,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -17,14 +18,14 @@
     "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
         "limit":[[10,10]],
-        "text":"Root length is {0} metre",
+        "text":"Fissure length is {0} metre",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"Root length is {0} metres",
+        "text":"Fissure length is {0} metres",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
@@ -56,25 +57,29 @@
   "5":{
     "stats":["base_number_of_entangle_roots_allowed"],
     "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:+d} to Fissure Limit"
+      },{
         "limit":[[1,1]],
-        "text":"Limit {0} Root"
+        "text":"Limit {0} Fissure"
       },{
         "limit":[[2,"#"]],
-        "text":"Limit {0} Roots"
+        "text":"Limit {0} Fissures"
       }]
   },
   "6":{
     "stats":["base_skill_effect_duration"],
     "1":[{
         "limit":[[1000,1000]],
-        "text":"Root duration is {0} second",
+        "text":"Fissure duration is {0} second",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"Root duration is {0} seconds",
+        "text":"Fissure duration is {0} seconds",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
@@ -100,10 +105,24 @@
       }]
   },
   "8":{
-    "stats":["number_of_entangle_roots_allowed"],
-    "1":[]
+    "stats":["entangle_duration_speed_+%_when_wet"],
+    "1":[{
+        "limit":[["#",-1]],
+        "text":"Overgrown fissures expire {0}% slower",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
   },
   "9":{
+    "stats":["number_of_entangle_roots_allowed"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Fissure Limit@{0}"
+      }]
+  },
+  "10":{
     "stats":["skill_effect_duration"],
     "1":[]
   }

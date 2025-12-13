@@ -1,0 +1,39 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "parent":"skill_stat_descriptions",
+  "plant_skill_damage_+%_final_when_wet":1,
+  "virtual_vine_arrow_pod_limit":4,
+  "1":{
+    "stats":["plant_skill_damage_+%_final_when_wet"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["virtual_vine_arrow_pod_limit"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Plant Limit@{0}"
+      }]
+  }
+}

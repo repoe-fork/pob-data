@@ -1,0 +1,89 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":1,
+  "base_skill_effect_duration":3,
+  "parent":"skill_stat_descriptions",
+  "skill_effect_duration":4,
+  "unleash_the_elements_base_trigger_frequency_ms":5,
+  "unleash_the_elements_trigger_frequency_+%":6,
+  "1":{
+    "stats":["active_skill_base_area_of_effect_radius"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"]
+  },
+  "3":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Duration of the Apocalypse is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Duration of the Apocalypse is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  },
+  "5":{
+    "stats":["unleash_the_elements_base_trigger_frequency_ms"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[-1000,-1000]],
+        "text":"{0:-d} second between Triggers",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:-d} seconds between Triggers",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[1000,1000]],
+        "text":"Triggers one of three disasters every {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Triggers one of three disasters every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["unleash_the_elements_trigger_frequency_+%"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#",-1]],
+        "text":"{0}% reduced frequency of Triggers"
+      },{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"{0}% increased frequency of Triggers"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% reduced frequency of Triggers"
+      },{
+        "limit":[[1,"#"]],
+        "text":"{0}% increased frequency of Triggers"
+      }]
+  }
+}

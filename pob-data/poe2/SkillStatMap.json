@@ -927,6 +927,39 @@
       "type":"FLAG",
       "value":true
     }],
+  "all_exposure_on_hit_magnitude":{
+    "mult":-1,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"FireExposure",
+      "type":"BASE",
+      "1":{
+        "effectType":"Debuff",
+        "type":"GlobalEffect"
+      }
+    },
+    "2":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ColdExposure",
+      "type":"BASE",
+      "1":{
+        "effectType":"Debuff",
+        "type":"GlobalEffect"
+      }
+    },
+    "3":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"LightningExposure",
+      "type":"BASE",
+      "1":{
+        "effectType":"Debuff",
+        "type":"GlobalEffect"
+      }
+    }
+  },
   "always_crit":{
     "value":100,
     "1":{
@@ -1717,6 +1750,12 @@
       "type":"INC"
     }
   },
+  "base_mana_cost_efficiency_":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ManaCostEfficiency",
+      "type":"INC"
+    }],
   "base_mana_leech_from_elemental_damage_permyriad":{
     "div":100,
     "1":{
@@ -2721,7 +2760,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":97,
+        "skillType":98,
         "type":"SkillType"
       }
     }],
@@ -4195,7 +4234,7 @@
       "name":"CurseEffect",
       "type":"INC",
       "1":{
-        "skillType":98,
+        "skillType":99,
         "type":"SkillType"
       }
     }],
@@ -7406,7 +7445,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":98,
+        "skillType":99,
         "type":"SkillType"
       }
     }],

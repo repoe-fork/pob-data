@@ -1,0 +1,77 @@
+{
+  "active_skill_area_of_effect_radius":3,
+  "active_skill_base_area_of_effect_radius":4,
+  "active_skill_base_secondary_area_of_effect_radius":5,
+  "do_not_apply_area_modifiers":6,
+  "parent":"skill_stat_descriptions",
+  "specific_active_skill_area_modifiers_also_apply_to_spell_damage":6,
+  "unleash_blizzard_maximum_bolt_frequency_ms":2,
+  "unleash_blizzard_minimum_bolt_frequency_ms":1,
+  "unleash_blizzard_number_of_bolts":7,
+  "1":{
+    "stats":["unleash_blizzard_minimum_bolt_frequency_ms"]
+  },
+  "2":{
+    "stats":["unleash_blizzard_maximum_bolt_frequency_ms"]
+  },
+  "3":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "4":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Hailstorm radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Hailstorm radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Hail impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Hail impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["specific_active_skill_area_modifiers_also_apply_to_spell_damage","do_not_apply_area_modifiers"],
+    "1":[{
+        "limit":[["#","#"],[0,0]],
+        "text":"Modifiers to Area of Effect also apply to Spell Damage"
+      },{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Modifiers to Area of Effect apply to Spell Damage instead"
+      }]
+  },
+  "7":{
+    "stats":["unleash_blizzard_number_of_bolts"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Hailstorm creates {0} chunk of ice"
+      },{
+        "limit":[["#","#"]],
+        "text":"Hailstorm creates {0} chunks of ice"
+      }]
+  }
+}

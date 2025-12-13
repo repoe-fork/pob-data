@@ -1,0 +1,51 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "base_skill_effect_duration":1,
+  "bear_warcry_gain_X_centirage_per_enemy_power":4,
+  "parent":"skill_stat_descriptions",
+  "warcry_grant_break_X_armour_on_hit":5,
+  "1":{
+    "stats":["base_skill_effect_duration"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Warcry radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Warcry radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["bear_warcry_gain_X_centirage_per_enemy_power"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Gain {0} Rage per enemy Power in range",
+        "1":{
+          "k":"divide_by_one_hundred_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["warcry_grant_break_X_armour_on_hit"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Empowered Attacks Break {0} Armour on Hit"
+      }]
+  }
+}

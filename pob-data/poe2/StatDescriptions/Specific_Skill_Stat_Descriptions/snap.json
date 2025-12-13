@@ -1,0 +1,105 @@
+{
+  "active_skill_area_of_effect_radius":7,
+  "active_skill_base_area_of_effect_radius":8,
+  "active_skill_base_secondary_area_of_effect_radius":9,
+  "active_skill_secondary_area_of_effect_radius":10,
+  "base_consume_enemy_freeze_on_hit":2,
+  "base_consume_enemy_shock_on_hit":4,
+  "consume_ignite_on_hit":6,
+  "never_freeze":1,
+  "never_ignite":5,
+  "never_shock":3,
+  "parent":"skill_stat_descriptions",
+  "shatter_damage_+%_final_when_exploding_orbs":11,
+  "snap_damage_+%_final_if_created_from_unique":12,
+  "1":{
+    "stats":["never_freeze"]
+  },
+  "2":{
+    "stats":["base_consume_enemy_freeze_on_hit"]
+  },
+  "3":{
+    "stats":["never_shock"]
+  },
+  "4":{
+    "stats":["base_consume_enemy_shock_on_hit"]
+  },
+  "5":{
+    "stats":["never_ignite"]
+  },
+  "6":{
+    "stats":["consume_ignite_on_hit"]
+  },
+  "7":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "8":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Enemy explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Enemy explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "9":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Frostbolt explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Frostbolt explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "10":{
+    "stats":["active_skill_secondary_area_of_effect_radius"],
+    "1":[]
+  },
+  "11":{
+    "stats":["shatter_damage_+%_final_when_exploding_orbs"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more damage with Orb explosions"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% less damage with Orb explosions",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "12":{
+    "stats":["snap_damage_+%_final_if_created_from_unique"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more damage with Hits for blasts originating\nfrom a Unique enemy"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% less damage with Hits for blasts originating\nfrom a Unique enemy",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  }
+}

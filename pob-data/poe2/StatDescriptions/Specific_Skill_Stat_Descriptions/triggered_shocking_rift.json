@@ -13,14 +13,14 @@
     "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
         "limit":[[10,10]],
-        "text":"DNT Shocking Rift radius is {0} metre",
+        "text":"Shocking Rift radius is {0} metre",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"DNT Shocking Rift radius is {0} metres",
+        "text":"Shocking Rift radius is {0} metres",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
@@ -31,14 +31,14 @@
     "stats":["active_skill_base_secondary_area_of_effect_radius"],
     "1":[{
         "limit":[[10,10]],
-        "text":"DNT Shocking Rift pull radius is {0} metre",
+        "text":"Shocking Rift pull radius is {0} metre",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"DNT Shocking Rift pull radius is {0} metres",
+        "text":"Shocking Rift pull radius is {0} metres",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
@@ -49,34 +49,34 @@
     "stats":["number_of_shocking_rifts_allowed"],
     "1":[{
         "limit":[[1,1]],
-        "text":"DNT Limit {0} Shocking Rift"
+        "text":"Limit {0} Shocking Rift"
       },{
         "limit":[[2,"#"]],
-        "text":"DNT Limit {0} Shocking Rifts"
+        "text":"Limit {0} Shocking Rifts"
       }]
   },
   "4":{
     "stats":["shocking_rift_damage_+%_final_per_pulse_performed"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"DNT {0}% more Damage per pulse performed"
+        "text":"{0}% more Damage per pulse performed"
       },{
         "limit":[["#",-1]],
-        "text":"DNT {0}% less Damage per pulse performed"
+        "text":"{0}% less Damage per pulse performed"
       }]
   },
   "5":{
     "stats":["shocking_rift_hinder_ms"],
     "1":[{
         "limit":[[1000,1000]],
-        "text":"DNT Pulses apply Hinder for {0} second",
+        "text":"Pulses apply Hinder for {0} second",
         "1":{
           "k":"milliseconds_to_seconds",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"DNT Pulses apply Hinder {0} seconds",
+        "text":"Pulses apply Hinder for {0} seconds",
         "1":{
           "k":"milliseconds_to_seconds",
           "v":1
@@ -87,10 +87,10 @@
     "stats":["shocking_rift_pulse_interval_ms","shocking_rift_number_of_pulses"],
     "1":[{
         "limit":[[1000,1000],["#","#"]],
-        "text":"DNT Shocking Rift pulses every second, up to {1} times"
+        "text":"Shocking Rift pulses every second, up to {1} times"
       },{
         "limit":[["#","#"],["#","#"]],
-        "text":"DNT Shocking Rift pulses every {0} seconds, up to {1} times",
+        "text":"Shocking Rift pulses every {0} seconds, up to {1} times",
         "1":{
           "k":"milliseconds_to_seconds",
           "v":1
@@ -101,10 +101,10 @@
     "stats":["shocking_rift_speed_+%_per_shock_consumed"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"DNT {0}% increased Pulse Speed for each Shock Consumed during the Shocking Rift"
+        "text":"{0}% increased pulse speed for each Shock Consumed by the rift"
       },{
         "limit":[["#",-1]],
-        "text":"DNT {0}% reduced Pulse Speed for each Shock Consumed during the Shocking Rift"
+        "text":"{0}% reduced pulse speed for each Shock Consumed by the rift"
       }]
   },
   "8":{

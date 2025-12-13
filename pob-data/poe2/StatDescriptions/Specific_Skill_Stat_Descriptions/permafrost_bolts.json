@@ -1,0 +1,41 @@
+{
+  "active_skill_area_of_effect_radius":3,
+  "active_skill_base_area_of_effect_radius":4,
+  "base_knockback_distance":1,
+  "base_number_of_projectiles":5,
+  "parent":"skill_stat_descriptions",
+  "projectiles_can_shotgun":2,
+  "quality_display_base_number_of_projectiles_is_gem":5,
+  "skill_can_fire_arrows":5,
+  "1":{
+    "stats":["base_knockback_distance"]
+  },
+  "2":{
+    "stats":["projectiles_can_shotgun"]
+  },
+  "3":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "4":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Bolts shatter on impact, dealing Damage in a {0} metre cone",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["base_number_of_projectiles","skill_can_fire_arrows","quality_display_base_number_of_projectiles_is_gem"],
+    "1":[{
+        "limit":[[2,"#"],["#","#"],["#","#"]],
+        "text":"Fires {0} fragments per shot"
+      },{
+        "limit":[["#","#"],["#","#"],[0,0]],
+        "text":"Fires {0:+d} fragments per shot"
+      }]
+  }
+}

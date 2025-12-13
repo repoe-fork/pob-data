@@ -378,7 +378,7 @@
     "variantId":"AmanamusTitheSupport"
   },
   "Metadata/Items/Gems/SkillGemAmbrosiaSupport":{
-    "Tier":3,
+    "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemAmbrosia",
     "gemFamily":"Ambrosia",
     "gemType":"Support",
@@ -862,9 +862,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Spell",
+    "tagString":"",
     "tags":{
-      "spell":true,
       "support":true
     },
     "variantId":"ArmourDemolisherSupport"
@@ -880,9 +879,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Spell",
+    "tagString":"",
     "tags":{
-      "spell":true,
       "support":true
     },
     "variantId":"ArmourDemolisherSupportTwo"
@@ -899,7 +897,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Trigger, Fire, Payoff",
+    "tagString":"Attack, Warcry, AoE, Trigger, Fire, Payoff",
     "tags":{
       "area":true,
       "attack":true,
@@ -907,7 +905,8 @@
       "grants_active_skill":true,
       "payoff":true,
       "support":true,
-      "trigger":true
+      "trigger":true,
+      "warcry":true
     },
     "variantId":"ArmourExplosionSupport"
   },
@@ -1243,14 +1242,15 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Lightning, Cold, Fire",
+    "tagString":"AoE, Trigger, Lightning, Cold, Fire",
     "tags":{
       "area":true,
       "attack":true,
       "cold":true,
       "fire":true,
       "grants_active_skill":true,
-      "lightning":true
+      "lightning":true,
+      "trigger":true
     },
     "variantId":"AscendancyTriggerElementalSurge"
   },
@@ -1314,7 +1314,7 @@
     "variantId":"AtaluiBloodlettingSupport"
   },
   "Metadata/Items/Gems/SkillGemAttrition":{
-    "Tier":14,
+    "Tier":4,
     "baseTypeName":"Attrition",
     "gameId":"Metadata/Items/Gem/SkillGemAttrition",
     "gemType":"Buff",
@@ -1601,7 +1601,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Command, Minion",
+    "tagString":"Minion, Command",
     "tags":{
       "command":true,
       "minion":true,
@@ -1620,7 +1620,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Command, Minion",
+    "tagString":"Minion, Command",
     "tags":{
       "command":true,
       "minion":true,
@@ -1639,7 +1639,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Command, Minion",
+    "tagString":"Minion, Command",
     "tags":{
       "command":true,
       "minion":true,
@@ -1653,7 +1653,7 @@
     "gemFamily":"Biting Frost",
     "gemType":"Support",
     "grantedEffectId":"SupportBitingFrostPlayer",
-    "name":"Biting Frost",
+    "name":"Biting Frost I",
     "naturalMaxLevel":1,
     "reqDex":0,
     "reqInt":100,
@@ -1959,7 +1959,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Attack, AoE, Physical, Duration, Payoff",
+    "tagString":"Attack, AoE, Trigger, Physical, Duration, Payoff",
     "tags":{
       "area":true,
       "attack":true,
@@ -1968,7 +1968,8 @@
       "grants_active_skill":true,
       "mark":true,
       "payoff":true,
-      "physical":true
+      "physical":true,
+      "trigger":true
     },
     "variantId":"BloodhoundsMark"
   },
@@ -2209,10 +2210,10 @@
     "grantedEffectId":"SupportBrambleslamPlayer",
     "name":"Brambleslam",
     "naturalMaxLevel":1,
-    "reqDex":100,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":0,
-    "tagString":"Attack, AoE, Melee, Slam, Physical, Hazard",
+    "reqStr":100,
+    "tagString":"Attack, AoE, Melee, Slam, Trigger, Physical, Hazard, Plant",
     "tags":{
       "area":true,
       "attack":true,
@@ -2220,8 +2221,10 @@
       "hazard":true,
       "melee":true,
       "physical":true,
+      "plant":true,
       "slam":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"BrambleslamSupport"
   },
@@ -2236,10 +2239,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, Melee",
+    "tagString":"",
     "tags":{
-      "attack":true,
-      "melee":true,
       "support":true
     },
     "variantId":"BranchingFissuresSupport"
@@ -2255,10 +2256,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, Melee",
+    "tagString":"",
     "tags":{
-      "attack":true,
-      "melee":true,
       "support":true
     },
     "variantId":"BranchingFissuresSupportTwo"
@@ -3034,7 +3033,7 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"Attack, Buff, AoE, Duration, Conditional",
+    "tagString":"Attack, Buff, AoE, Lightning, Duration, Conditional",
     "tags":{
       "area":true,
       "attack":true,
@@ -3044,6 +3043,7 @@
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "lightning":true,
       "spell":true
     },
     "variantId":"ChargedStaff",
@@ -3084,6 +3084,25 @@
       "support":true
     },
     "variantId":"ChillingIceSupport"
+  },
+  "Metadata/Items/Gems/SkillGemCirelsCultivationSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemGreatwood",
+    "gemFamily":"Totemic Control",
+    "gemType":"Support",
+    "grantedEffectId":"SupportCirelsCultivationPlayer",
+    "name":"Cirel's Cultivation",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Lineage, Totem",
+    "tags":{
+      "lineage":true,
+      "support":true,
+      "totem":true
+    },
+    "variantId":"CirelsCultivationSupport"
   },
   "Metadata/Items/Gems/SkillGemClaritySupport":{
     "Tier":1,
@@ -3282,7 +3301,7 @@
   "Metadata/Items/Gems/SkillGemCombatReloadSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemCombatReload",
-    "gemFamily":"Double Barrel",
+    "gemFamily":"Double Barrel, Rapid Attacks",
     "gemType":"Support",
     "grantedEffectId":"SupportCombatReloadPlayer",
     "name":"Ratha's Assault",
@@ -3374,7 +3393,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Command, Minion",
+    "tagString":"Minion, Command",
     "tags":{
       "command":true,
       "minion":true,
@@ -3822,7 +3841,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Melee, Fire, Duration",
+    "tagString":"Attack, AoE, Melee, Trigger, Fire, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -3830,7 +3849,8 @@
       "fire":true,
       "grants_active_skill":true,
       "melee":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"CraterSupport"
   },
@@ -3861,8 +3881,8 @@
     "grantedEffectId":"SupportCrescendoPlayer",
     "name":"Crescendo I",
     "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
+    "reqDex":0,
+    "reqInt":100,
     "reqStr":0,
     "tagString":"Attack, Melee, Strike",
     "tags":{
@@ -3881,8 +3901,8 @@
     "grantedEffectId":"SupportCrescendoPlayerThree",
     "name":"Crescendo III",
     "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
+    "reqDex":0,
+    "reqInt":100,
     "reqStr":0,
     "tagString":"Attack, Melee, Strike",
     "tags":{
@@ -3901,8 +3921,8 @@
     "grantedEffectId":"SupportCrescendoPlayerTwo",
     "name":"Crescendo II",
     "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
+    "reqDex":0,
+    "reqInt":100,
     "reqStr":0,
     "tagString":"Attack, Melee, Strike",
     "tags":{
@@ -4807,7 +4827,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Lineage, Spell, AoE, Chaos, Curse, Hazard",
+    "tagString":"Lineage, Spell, AoE, Trigger, Chaos, Curse, Hazard",
     "tags":{
       "area":true,
       "chaos":true,
@@ -4816,7 +4836,8 @@
       "hazard":true,
       "lineage":true,
       "spell":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"DoedresUndoingSupport"
   },
@@ -5602,14 +5623,15 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold",
+    "tagString":"AoE, Projectile, Trigger, Cold",
     "tags":{
       "area":true,
       "attack":true,
       "cold":true,
       "dexterity":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "trigger":true
     },
     "variantId":"EscapeShot",
     "weaponRequirements":"Bow"
@@ -5625,8 +5647,10 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Lineage",
+    "tagString":"Lineage, Lightning, Chaos",
     "tags":{
+      "chaos":true,
+      "lightning":true,
       "lineage":true,
       "support":true
     },
@@ -5807,13 +5831,14 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Physical, Chaos",
+    "tagString":"AoE, Trigger, Physical, Chaos",
     "tags":{
       "area":true,
       "attack":true,
       "chaos":true,
       "grants_active_skill":true,
-      "physical":true
+      "physical":true,
+      "trigger":true
     },
     "variantId":"ExplodingPoisonToad"
   },
@@ -5919,7 +5944,6 @@
   },
   "Metadata/Items/Gems/SkillGemExsanguinate":{
     "Tier":0,
-    "additionalStatSet1":"ExsanguinateDotPlayer",
     "baseTypeName":"Exsanguinate",
     "gameId":"Metadata/Items/Gems/SkillGemExsanguinate",
     "gemType":"Spell",
@@ -5951,8 +5975,9 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Spell",
+    "tagString":"Spell, Chaos",
     "tags":{
+      "chaos":true,
       "spell":true,
       "support":true
     },
@@ -6154,13 +6179,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Spell, AoE, Fire",
+    "tagString":"Spell, AoE, Trigger, Fire",
     "tags":{
       "area":true,
       "fire":true,
       "grants_active_skill":true,
       "spell":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"FieryDeathSupport"
   },
@@ -6297,7 +6323,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Fire, Duration",
+    "tagString":"AoE, Sustained, Fire, Duration, Storm",
     "tags":{
       "area":true,
       "duration":true,
@@ -6305,6 +6331,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "spell":true,
+      "storm":true,
       "sustained":true
     },
     "variantId":"Firestorm"
@@ -6400,12 +6427,13 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"AoE, Fire",
+    "tagString":"AoE, Trigger, Fire",
     "tags":{
       "area":true,
       "fire":true,
       "grants_active_skill":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"FlamePillarSupport"
   },
@@ -6640,7 +6668,7 @@
   "Metadata/Items/Gems/SkillGemFocusedCurseSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemFocusedCurse",
-    "gemFamily":"Focussed Curse",
+    "gemFamily":"Focused Curse",
     "gemType":"Support",
     "grantedEffectId":"SupportFocusedCursePlayer",
     "name":"Focused Curse",
@@ -6796,7 +6824,6 @@
   },
   "Metadata/Items/Gems/SkillGemFreezingMark":{
     "Tier":7,
-    "additionalGrantedEffectId1":"TriggeredFreezingMarkNovaPlayer",
     "baseTypeName":"Freezing Mark",
     "gameId":"Metadata/Items/Gem/SkillGemFreezingMark",
     "gemType":"Mark",
@@ -6806,10 +6833,9 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"Attack, AoE, Cold, Duration",
+    "tagString":"Buff, Cold, Duration",
     "tags":{
-      "area":true,
-      "attack":true,
+      "buff":true,
       "cold":true,
       "dexterity":true,
       "duration":true,
@@ -6820,7 +6846,7 @@
     "variantId":"FreezingMark"
   },
   "Metadata/Items/Gems/SkillGemFreezingSalvo":{
-    "Tier":5,
+    "Tier":3,
     "baseTypeName":"Freezing Salvo",
     "gameId":"Metadata/Items/Gem/SkillGemFreezingSalvo",
     "gemType":"Attack",
@@ -7032,8 +7058,7 @@
   },
   "Metadata/Items/Gems/SkillGemFrozenLocus":{
     "Tier":1,
-    "additionalStatSet1":"FrozenLocusGroundPlayer",
-    "additionalStatSet2":"FrozenLocusExplodePlayer",
+    "additionalStatSet1":"FrozenLocusExplodePlayer",
     "baseTypeName":"Frozen Locus",
     "gameId":"Metadata/Items/Gem/SkillGemFrozenLocus",
     "gemType":"Attack",
@@ -7069,13 +7094,14 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold",
+    "tagString":"AoE, Projectile, Trigger, Cold",
     "tags":{
       "area":true,
       "cold":true,
       "grants_active_skill":true,
       "projectile":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"FrozenSpiteSupport"
   },
@@ -7126,14 +7152,14 @@
     "additionalStatSet1":"GalvanicFieldOrbPlayer",
     "baseTypeName":"Galvanic Field",
     "gameId":"Metadata/Items/Gems/SkillGemGalvanicField",
-    "gemType":"Spell",
+    "gemType":"Buff",
     "grantedEffectId":"GalvanicFieldBuffPlayer",
     "name":"Galvanic Field",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Buff, AoE, Sustained, Lightning, Duration, Chaining, Orb",
+    "tagString":"Spell, AoE, Sustained, Lightning, Duration, Chaining, Orb",
     "tags":{
       "area":true,
       "buff":true,
@@ -7184,8 +7210,8 @@
     "grantedEffectId":"SupportGambleshotPlayer",
     "name":"Gambleshot",
     "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
+    "reqDex":0,
+    "reqInt":100,
     "reqStr":0,
     "tagString":"Projectile",
     "tags":{
@@ -7197,7 +7223,7 @@
   "Metadata/Items/Gems/SkillGemGarukhansResolveSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemGarukhansResolve",
-    "gemFamily":"Hit and Run",
+    "gemFamily":"Garukhan's Resolve",
     "gemType":"Support",
     "grantedEffectId":"SupportGarukhansResolvePlayer",
     "name":"Garukhan's Resolve",
@@ -7205,10 +7231,9 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Lineage, Attack, Conditional",
+    "tagString":"Lineage, Attack",
     "tags":{
       "attack":true,
-      "conditional":true,
       "lineage":true,
       "support":true
     },
@@ -7283,7 +7308,7 @@
     "reqDex":50,
     "reqInt":0,
     "reqStr":50,
-    "tagString":"AoE, Cold, Fire",
+    "tagString":"AoE, Trigger, Cold, Fire",
     "tags":{
       "area":true,
       "attack":true,
@@ -7291,7 +7316,8 @@
       "dexterity":true,
       "fire":true,
       "grants_active_skill":true,
-      "strength":true
+      "strength":true,
+      "trigger":true
     },
     "variantId":"GeminiSurge"
   },
@@ -7414,42 +7440,6 @@
     },
     "variantId":"GlacierSupport"
   },
-  "Metadata/Items/Gems/SkillGemGreatwoodSupport":{
-    "Tier":3,
-    "gameId":"Metadata/Items/Gem/SupportGemGreatwood",
-    "gemFamily":"Greatwood",
-    "gemType":"Support",
-    "grantedEffectId":"SupportGreatwoodPlayer",
-    "name":"Greatwood I",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Totem",
-    "tags":{
-      "support":true,
-      "totem":true
-    },
-    "variantId":"GreatwoodSupport"
-  },
-  "Metadata/Items/Gems/SkillGemGreatwoodSupportTwo":{
-    "Tier":4,
-    "gameId":"Metadata/Items/Gem/SupportGemGreatwoodTwo",
-    "gemFamily":"Greatwood",
-    "gemType":"Support",
-    "grantedEffectId":"SupportGreatwoodPlayerTwo",
-    "name":"Greatwood II",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Totem",
-    "tags":{
-      "support":true,
-      "totem":true
-    },
-    "variantId":"GreatwoodSupportTwo"
-  },
   "Metadata/Items/Gems/SkillGemGrimFeast":{
     "Tier":4,
     "additionalGrantedEffectId1":"GrimFeastResummonPlayer",
@@ -7486,13 +7476,14 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Physical",
+    "tagString":"Attack, AoE, Trigger, Physical",
     "tags":{
       "area":true,
       "attack":true,
       "grants_active_skill":true,
       "physical":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"HaemocrystalsSupport"
   },
@@ -7606,14 +7597,15 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Lineage, Totem, AoE, Physical",
+    "tagString":"Lineage, Totem, AoE, Trigger, Physical",
     "tags":{
       "area":true,
       "grants_active_skill":true,
       "lineage":true,
       "physical":true,
       "support":true,
-      "totem":true
+      "totem":true,
+      "trigger":true
     },
     "variantId":"HardyTotemsSupportThree"
   },
@@ -8056,14 +8048,15 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Fire, Payoff",
+    "tagString":"AoE, Trigger, Fire, Payoff",
     "tags":{
       "area":true,
       "fire":true,
       "grants_active_skill":true,
       "intelligence":true,
       "payoff":true,
-      "spell":true
+      "spell":true,
+      "trigger":true
     },
     "variantId":"HisWinnowingFlame"
   },
@@ -8188,17 +8181,18 @@
     "gemFamily":"Ice Bite",
     "gemType":"Support",
     "grantedEffectId":"SupportIceBitePlayer",
-    "name":"Ice Bite",
+    "name":"Ice Bite I",
     "naturalMaxLevel":1,
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Attack, Cold, Duration",
+    "tagString":"Attack, Warcry, Cold, Duration",
     "tags":{
       "attack":true,
       "cold":true,
       "duration":true,
-      "support":true
+      "support":true,
+      "warcry":true
     },
     "variantId":"IceBiteSupport"
   },
@@ -8307,7 +8301,7 @@
     "weaponRequirements":"Quarterstaff"
   },
   "Metadata/Items/Gems/SkillGemIceTippedArrows":{
-    "Tier":3,
+    "Tier":5,
     "additionalGrantedEffectId1":"IceTippedArrowsIceFragmentPlayer",
     "baseTypeName":"Ice-Tipped Arrows",
     "gameId":"Metadata/Items/Gem/SkillGemIceTippedArrows",
@@ -8318,7 +8312,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Attack, Buff, AoE, Projectile, Cold, Duration",
+    "tagString":"Attack, Buff, AoE, Projectile, Trigger, Cold, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -8328,7 +8322,8 @@
       "duration":true,
       "grants_active_skill":true,
       "projectile":true,
-      "spell":true
+      "spell":true,
+      "trigger":true
     },
     "variantId":"IceTippedArrows",
     "weaponRequirements":"Spear, Bow"
@@ -8345,7 +8340,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Cold, Duration, Payoff",
+    "tagString":"AoE, Sustained, Cold, Duration, Payoff, Storm",
     "tags":{
       "area":true,
       "cold":true,
@@ -8354,6 +8349,7 @@
       "intelligence":true,
       "payoff":true,
       "spell":true,
+      "storm":true,
       "sustained":true
     },
     "variantId":"Icestorm"
@@ -8628,7 +8624,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Fire, Duration, Channelling, Staged",
+    "tagString":"AoE, Sustained, Fire, Duration, Channelling",
     "tags":{
       "area":true,
       "channelling":true,
@@ -8637,7 +8633,6 @@
       "grants_active_skill":true,
       "intelligence":true,
       "spell":true,
-      "stages":true,
       "sustained":true
     },
     "variantId":"Incinerate"
@@ -8754,10 +8749,10 @@
   "Metadata/Items/Gems/SkillGemInevitableCriticalsSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gems/SupportGemInevitableCritical",
-    "gemFamily":"Inevitable Critical",
+    "gemFamily":"Inexorable Critical",
     "gemType":"Support",
     "grantedEffectId":"SupportInevitableCriticalsPlayer",
-    "name":"Inevitable Critical",
+    "name":"Inexorable Critical I",
     "naturalMaxLevel":1,
     "reqDex":0,
     "reqInt":100,
@@ -9110,9 +9105,11 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Lineage",
+    "tagString":"Lineage, Minion, Chaos",
     "tags":{
+      "chaos":true,
       "lineage":true,
+      "minion":true,
       "support":true
     },
     "variantId":"KurgalsLeashSupport"
@@ -9532,14 +9529,15 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"Persistent, Duration",
+    "tagString":"Persistent, Duration, Remnant",
     "tags":{
       "buff":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
-      "persistent":true
+      "persistent":true,
+      "remnant":true
     },
     "variantId":"LingeringIllusion"
   },
@@ -9578,13 +9576,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Minion, Lightning, Duration",
+    "tagString":"Minion, Trigger, Lightning, Duration",
     "tags":{
       "duration":true,
       "grants_active_skill":true,
       "lightning":true,
       "minion":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"LivingLightningSupport"
   },
@@ -9600,13 +9599,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Minion, Lightning, Duration",
+    "tagString":"Minion, Trigger, Lightning, Duration",
     "tags":{
       "duration":true,
       "grants_active_skill":true,
       "lightning":true,
       "minion":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"LivingLightningSupportTwo"
   },
@@ -9985,13 +9985,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Buff, Lightning",
+    "tagString":"Buff, Lightning, Storm",
     "tags":{
       "buff":true,
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
-      "spell":true
+      "spell":true,
+      "storm":true
     },
     "variantId":"ManaTempest"
   },
@@ -10043,14 +10044,14 @@
   "Metadata/Items/Gems/SkillGemMarkForDeathSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemSingleOut",
-    "gemFamily":"Single Out",
+    "gemFamily":"Mark for Death",
     "gemType":"Support",
     "grantedEffectId":"SupportMarkForDeathPlayer",
     "name":"Mark for Death",
     "naturalMaxLevel":1,
-    "reqDex":100,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":0,
+    "reqStr":100,
     "tagString":"Mark, Physical",
     "tags":{
       "mark":true,
@@ -10468,12 +10469,12 @@
     "variantId":"NimbleReloadSupport"
   },
   "Metadata/Items/Gems/SkillGemNovaProjectilesSupport":{
-    "Tier":4,
+    "Tier":2,
     "gameId":"Metadata/Items/Gems/SupportGemNovaProjectiles",
-    "gemFamily":"Additional Projectiles",
+    "gemFamily":"Nova Projectiles",
     "gemType":"Support",
     "grantedEffectId":"SupportNovaProjectilesPlayer",
-    "name":"Nova Projectiles",
+    "name":"Nova Projectiles I",
     "naturalMaxLevel":1,
     "reqDex":100,
     "reqInt":0,
@@ -10487,6 +10488,7 @@
   },
   "Metadata/Items/Gems/SkillGemOilGrenade":{
     "Tier":9,
+    "additionalStatSet1":"OilGrenadeOilGroundPlayer",
     "baseTypeName":"Oil Grenade",
     "gameId":"Metadata/Items/Gem/SkillGemOilGrenade",
     "gemType":"Attack",
@@ -10791,8 +10793,8 @@
     "grantedEffectId":"SupportPerpetualChargePlayer",
     "name":"Perpetual Charge",
     "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
+    "reqDex":0,
+    "reqInt":100,
     "reqStr":0,
     "tagString":"",
     "tags":{
@@ -10955,14 +10957,16 @@
     "gemFamily":"Piety's Mercy",
     "gemType":"Support",
     "grantedEffectId":"SupportPietysMercyPlayer",
-    "name":"Piety's Mercy",
+    "name":"Dominus' Grasp",
     "naturalMaxLevel":1,
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Lineage",
+    "tagString":"Lineage, Projectile, Chaining",
     "tags":{
+      "chaining":true,
       "lineage":true,
+      "projectile":true,
       "support":true
     },
     "variantId":"PietysMercySupport"
@@ -11906,24 +11910,6 @@
     },
     "variantId":"QuillburstSupport"
   },
-  "Metadata/Items/Gems/SkillGemRageFountainSupport":{
-    "Tier":3,
-    "gameId":"Metadata/Items/Gems/SupportGemFontofRage",
-    "gemFamily":"Font",
-    "gemType":"Support",
-    "grantedEffectId":"SupportRageFountainPlayer",
-    "name":"Font of Rage",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Totem",
-    "tags":{
-      "support":true,
-      "totem":true
-    },
-    "variantId":"RageFountainSupport"
-  },
   "Metadata/Items/Gems/SkillGemRageSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gems/SupportGemRage",
@@ -12525,7 +12511,7 @@
   "Metadata/Items/Gems/SkillGemRelentlessRageSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemGrudge",
-    "gemFamily":"Grudge",
+    "gemFamily":"Relentless Rage",
     "gemType":"Support",
     "grantedEffectId":"SupportRelentlessRagePlayer",
     "name":"Relentless Rage",
@@ -12841,8 +12827,9 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Curse",
+    "tagString":"AoE, Curse",
     "tags":{
+      "area":true,
       "curse":true,
       "support":true
     },
@@ -12929,14 +12916,14 @@
     "Tier":14,
     "baseTypeName":"Sacrifice",
     "gameId":"Metadata/Items/Gem/SkillGemSacrifice",
-    "gemType":"Minion",
+    "gemType":"Buff",
     "grantedEffectId":"SacrificePlayer",
     "name":"Sacrifice",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Buff, Persistent",
+    "tagString":"Minion, Persistent",
     "tags":{
       "buff":true,
       "grants_active_skill":true,
@@ -13213,7 +13200,7 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"AoE, Melee, Strike, Cold",
+    "tagString":"AoE, Melee, Strike, Trigger, Cold",
     "tags":{
       "area":true,
       "attack":true,
@@ -13222,7 +13209,8 @@
       "grants_active_skill":true,
       "intelligence":true,
       "melee":true,
-      "strike":true
+      "strike":true,
+      "trigger":true
     },
     "variantId":"ShatteringPalm",
     "weaponRequirements":"Quarterstaff"
@@ -13306,7 +13294,7 @@
     "gemFamily":"Shock Conduction",
     "gemType":"Support",
     "grantedEffectId":"SupportShockConductionPlayer",
-    "name":"Shock Conduction",
+    "name":"Shock Conduction I",
     "naturalMaxLevel":1,
     "reqDex":0,
     "reqInt":100,
@@ -13393,8 +13381,7 @@
   },
   "Metadata/Items/Gems/SkillGemShockchainArrow":{
     "Tier":11,
-    "additionalStatSet1":"ShockchainArrowBeamPlayer",
-    "additionalStatSet2":"ShockchainArrowExplosionPlayer",
+    "additionalStatSet1":"ShockchainArrowExplosionPlayer",
     "baseTypeName":"Shockchain Arrow",
     "gameId":"Metadata/Items/Gem/SkillGemShockchainArrow",
     "gemType":"Attack",
@@ -13662,14 +13649,15 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Persistent, Physical, Payoff",
+    "tagString":"Warcry, Persistent, Physical, Payoff",
     "tags":{
       "grants_active_skill":true,
       "intelligence":true,
       "minion":true,
       "payoff":true,
       "persistent":true,
-      "physical":true
+      "physical":true,
+      "warcry":true
     },
     "variantId":"SkeletalBrute"
   },
@@ -13816,13 +13804,14 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Minion, Physical, Duration",
+    "tagString":"Minion, Trigger, Physical, Duration",
     "tags":{
       "duration":true,
       "grants_active_skill":true,
       "minion":true,
       "physical":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"SkitteringStoneSupport"
   },
@@ -13838,13 +13827,14 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Minion, Physical, Duration",
+    "tagString":"Minion, Trigger, Physical, Duration",
     "tags":{
       "duration":true,
       "grants_active_skill":true,
       "minion":true,
       "physical":true,
-      "support":true
+      "support":true,
+      "trigger":true
     },
     "variantId":"SkitteringStoneSupportTwo"
   },
@@ -13896,8 +13886,7 @@
   "Metadata/Items/Gems/SkillGemSnipe":{
     "Tier":3,
     "additionalStatSet1":"SnipeExplosionPlayer",
-    "additionalStatSet2":"SnipeHeavyExplosionPlayer",
-    "additionalStatSet3":"SnipeFrozenExplosionPlayer",
+    "additionalStatSet2":"SnipeFrozenExplosionPlayer",
     "baseTypeName":"Snipe",
     "gameId":"Metadata/Items/Gem/SkillGemSnipe",
     "gemType":"Attack",
@@ -14159,8 +14148,9 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"",
+    "tagString":"AoE",
     "tags":{
+      "area":true,
       "support":true
     },
     "variantId":"SpellCascadeSupport"
@@ -14265,7 +14255,7 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"Buff, AoE, Melee, Strike, Projectile, Physical, Duration",
+    "tagString":"Buff, AoE, Melee, Strike, Projectile, Physical, Duration, Wind",
     "tags":{
       "area":true,
       "attack":true,
@@ -14277,7 +14267,8 @@
       "melee":true,
       "physical":true,
       "projectile":true,
-      "strike":true
+      "strike":true,
+      "wind":true
     },
     "variantId":"StaggeringPalm",
     "weaponRequirements":"Quarterstaff"
@@ -15087,24 +15078,6 @@
     },
     "variantId":"TerrainChainSupport"
   },
-  "Metadata/Items/Gems/SkillGemTerrainChainSupportThree":{
-    "Tier":5,
-    "gameId":"Metadata/Items/Gem/SupportGemRicochetThree",
-    "gemFamily":"Ricochet",
-    "gemType":"Support",
-    "grantedEffectId":"SupportRicochetPlayerThree",
-    "name":"Ricochet III",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Projectile",
-    "tags":{
-      "projectile":true,
-      "support":true
-    },
-    "variantId":"TerrainChainSupportThree"
-  },
   "Metadata/Items/Gems/SkillGemTerrainChainSupportTwo":{
     "Tier":4,
     "gameId":"Metadata/Items/Gem/SupportGemRicochetTwo",
@@ -15277,7 +15250,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Physical, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Physical, Duration, Barrageable, Wind",
     "tags":{
       "area":true,
       "attack":true,
@@ -15286,7 +15259,8 @@
       "duration":true,
       "grants_active_skill":true,
       "physical":true,
-      "projectile":true
+      "projectile":true,
+      "wind":true
     },
     "variantId":"TornadoShot",
     "weaponRequirements":"Bow"
@@ -15303,7 +15277,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Attack, AoE, Physical, Chaos, Duration",
+    "tagString":"Attack, AoE, Physical, Chaos, Duration, Plant",
     "tags":{
       "area":true,
       "attack":true,
@@ -15312,7 +15286,8 @@
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
-      "physical":true
+      "physical":true,
+      "plant":true
     },
     "variantId":"ToxicDomain",
     "weaponRequirements":"Spear, Bow, Crossbow"
@@ -15358,7 +15333,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Chaos, Barrageable",
+    "tagString":"AoE, Projectile, Chaos, Barrageable, Plant",
     "tags":{
       "area":true,
       "attack":true,
@@ -15366,6 +15341,7 @@
       "chaos":true,
       "dexterity":true,
       "grants_active_skill":true,
+      "plant":true,
       "projectile":true
     },
     "variantId":"ToxicGrowth",
@@ -15383,7 +15359,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Buff, Persistent, AoE, Projectile, Physical, Duration, Hazard",
+    "tagString":"Buff, Persistent, AoE, Projectile, Trigger, Physical, Duration, Hazard",
     "tags":{
       "area":true,
       "attack":true,
@@ -15394,7 +15370,8 @@
       "hazard":true,
       "persistent":true,
       "physical":true,
-      "projectile":true
+      "projectile":true,
+      "trigger":true
     },
     "variantId":"TrailOfCaltrops"
   },
@@ -15453,8 +15430,10 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Lineage",
+    "tagString":"Lineage, Cold, Chaos",
     "tags":{
+      "chaos":true,
+      "cold":true,
       "lineage":true,
       "support":true
     },
@@ -15489,7 +15468,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Duration, Barrageable, Wind",
     "tags":{
       "area":true,
       "attack":true,
@@ -15497,7 +15476,8 @@
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "wind":true
     },
     "variantId":"Twister",
     "weaponRequirements":"Spear"
@@ -15679,13 +15659,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Lightning",
+    "tagString":"AoE, Trigger, Lightning",
     "tags":{
       "area":true,
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
-      "spell":true
+      "spell":true,
+      "trigger":true
     },
     "variantId":"UniqueBreachLightningBolt"
   },
@@ -15713,7 +15694,7 @@
   "Metadata/Items/Gems/SkillGemUnleashSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gems/SupportGemUnleash",
-    "gemFamily":"Unleash",
+    "gemFamily":"Seal",
     "gemType":"Support",
     "grantedEffectId":"SupportUnleashPlayer",
     "name":"Unleash",
@@ -15795,10 +15776,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, Melee",
+    "tagString":"",
     "tags":{
-      "attack":true,
-      "melee":true,
       "support":true
     },
     "variantId":"UpheavalSupport"
@@ -15814,10 +15793,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, Melee",
+    "tagString":"",
     "tags":{
-      "attack":true,
-      "melee":true,
       "support":true
     },
     "variantId":"UpheavalSupportTwo"
@@ -15925,10 +15902,10 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Lineage, Spell",
+    "tagString":"Lineage, Physical",
     "tags":{
       "lineage":true,
-      "spell":true,
+      "physical":true,
       "support":true
     },
     "variantId":"UruksSmeltingSupport"
@@ -15944,9 +15921,11 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Lineage",
+    "tagString":"Lineage, Physical, Chaos",
     "tags":{
+      "chaos":true,
       "lineage":true,
+      "physical":true,
       "support":true
     },
     "variantId":"UulNetolsEmbraceSupport"
@@ -16029,7 +16008,7 @@
     "variantId":"VarashtasBlessingSupport"
   },
   "Metadata/Items/Gems/SkillGemVaultingImpact":{
-    "Tier":3,
+    "Tier":5,
     "additionalStatSet1":"VaultingImpactDazedPlayer",
     "baseTypeName":"Vaulting Impact",
     "gameId":"Metadata/Items/Gem/SkillGemVaultingImpact",
@@ -16129,7 +16108,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Chaos, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Chaos, Duration, Barrageable, Plant",
     "tags":{
       "area":true,
       "attack":true,
@@ -16138,6 +16117,7 @@
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
+      "plant":true,
       "projectile":true
     },
     "variantId":"VineArrow",
@@ -16193,14 +16173,15 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Buff, Persistent, AoE, Duration",
+    "tagString":"Buff, Persistent, AoE, Trigger, Duration",
     "tags":{
       "area":true,
       "attack":true,
       "buff":true,
       "duration":true,
       "grants_active_skill":true,
-      "persistent":true
+      "persistent":true,
+      "trigger":true
     },
     "variantId":"VoidIllusion",
     "weaponRequirements":"Any Martial Weapon, Unarmed"
@@ -16340,7 +16321,6 @@
   },
   "Metadata/Items/Gems/SkillGemVoltaicMark":{
     "Tier":7,
-    "additionalGrantedEffectId1":"TriggeredVoltaicMarkNovaPlayer",
     "baseTypeName":"Voltaic Mark",
     "gameId":"Metadata/Items/Gem/SkillGemVoltaicMark",
     "gemType":"Mark",
@@ -16350,10 +16330,9 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Attack, AoE, Lightning, Duration",
+    "tagString":"Buff, Lightning, Duration",
     "tags":{
-      "area":true,
-      "attack":true,
+      "buff":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
@@ -16526,7 +16505,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Melee, Strike, Staged",
+    "tagString":"AoE, Melee, Strike, Staged, Wind",
     "tags":{
       "area":true,
       "attack":true,
@@ -16534,7 +16513,8 @@
       "grants_active_skill":true,
       "melee":true,
       "stages":true,
-      "strike":true
+      "strike":true,
+      "wind":true
     },
     "variantId":"WhirlingSlash",
     "weaponRequirements":"Spear"
@@ -16551,7 +16531,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Duration, Barrageable, Wind",
     "tags":{
       "area":true,
       "attack":true,
@@ -16559,7 +16539,8 @@
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "wind":true
     },
     "variantId":"WhirlwindLance",
     "weaponRequirements":"Spear"
@@ -16642,7 +16623,7 @@
     "variantId":"WildshardsSupportTwo"
   },
   "Metadata/Items/Gems/SkillGemWindBlast":{
-    "Tier":5,
+    "Tier":3,
     "baseTypeName":"Wind Blast",
     "gameId":"Metadata/Items/Gems/SkillGemWindBlast",
     "gemType":"Attack",
@@ -16652,14 +16633,15 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"AoE, Melee",
+    "tagString":"AoE, Melee, Wind",
     "tags":{
       "area":true,
       "attack":true,
       "dexterity":true,
       "grants_active_skill":true,
       "intelligence":true,
-      "melee":true
+      "melee":true,
+      "wind":true
     },
     "variantId":"WindBlast",
     "weaponRequirements":"Quarterstaff"
@@ -16676,7 +16658,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Attack, Persistent, AoE, Melee, Staged",
+    "tagString":"Attack, Persistent, AoE, Melee, Trigger, Staged",
     "tags":{
       "area":true,
       "attack":true,
@@ -16685,7 +16667,8 @@
       "grants_active_skill":true,
       "melee":true,
       "persistent":true,
-      "stages":true
+      "stages":true,
+      "trigger":true
     },
     "variantId":"WindDancer",
     "weaponRequirements":"Any Martial Weapon"
@@ -16702,7 +16685,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Melee, Sustained, Conditional",
+    "tagString":"AoE, Melee, Sustained, Conditional, Wind",
     "tags":{
       "area":true,
       "attack":true,
@@ -16710,7 +16693,8 @@
       "dexterity":true,
       "grants_active_skill":true,
       "melee":true,
-      "sustained":true
+      "sustained":true,
+      "wind":true
     },
     "variantId":"WindSerpentsFury",
     "weaponRequirements":"Spear"
@@ -16827,8 +16811,10 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Lineage",
+    "tagString":"Lineage, Fire, Chaos",
     "tags":{
+      "chaos":true,
+      "fire":true,
       "lineage":true,
       "support":true
     },

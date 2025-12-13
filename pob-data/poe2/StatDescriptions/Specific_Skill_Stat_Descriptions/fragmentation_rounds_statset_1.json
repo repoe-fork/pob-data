@@ -1,0 +1,62 @@
+{
+  "active_skill_area_of_effect_radius":4,
+  "active_skill_base_area_of_effect_radius":5,
+  "base_knockback_distance":3,
+  "frag_rounds_damage_+%_final_if_created_from_unique":6,
+  "never_freeze":1,
+  "parent":"skill_stat_descriptions",
+  "quality_display_base_number_of_projectiles_is_gem":2,
+  "skill_specific_stat_description_mode":7,
+  "1":{
+    "stats":["never_freeze"]
+  },
+  "2":{
+    "stats":["quality_display_base_number_of_projectiles_is_gem"]
+  },
+  "3":{
+    "stats":["base_knockback_distance"]
+  },
+  "4":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "5":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["frag_rounds_damage_+%_final_if_created_from_unique"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more damage with Hits for explosions originating\nfrom a Unique enemy"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% less damage with Hits for explosions originating\nfrom a Unique enemy",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "7":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Consumes Freeze on enemies Hit to\ntrigger a secondary explosion at their location\nSecondary explosions cannot Consume Freeze"
+      }]
+  }
+}

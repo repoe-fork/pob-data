@@ -26,7 +26,8 @@
     }
   },
   "Anvil Maul":{
-    "implicitModTypes":[],
+    "implicit":"Crushes Enemies on Hit",
+    "implicitModTypes":[["physical"]],
     "quality":20,
     "req":{
       "level":67,
@@ -44,8 +45,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":151,
-      "PhysicalMin":112,
+      "PhysicalMax":136,
+      "PhysicalMin":101,
       "Range":13
     }
   },
@@ -99,7 +100,8 @@
     }
   },
   "Blacksmith Maul":{
-    "implicitModTypes":[],
+    "implicit":"Crushes Enemies on Hit",
+    "implicitModTypes":[["physical"]],
     "quality":20,
     "req":{
       "level":48,
@@ -117,8 +119,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":113,
-      "PhysicalMin":84,
+      "PhysicalMax":102,
+      "PhysicalMin":75,
       "Range":13
     }
   },
@@ -243,14 +245,14 @@
     "type":"Two Handed Mace",
     "weapon":{
       "AttackRateBase":1.1,
-      "CritChanceBase":5,
+      "CritChanceBase":8,
       "PhysicalMax":75,
       "PhysicalMin":62,
       "Range":13
     }
   },
   "Cultist Greathammer":{
-    "implicit":"Strikes deal Splash damage to targets within 1.5 metres",
+    "implicit":"Strikes deal Splash Damage",
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
@@ -270,8 +272,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":43,
-      "PhysicalMin":32,
+      "PhysicalMax":49,
+      "PhysicalMin":36,
       "Range":13
     }
   },
@@ -294,9 +296,9 @@
     "type":"Two Handed Mace",
     "weapon":{
       "AttackRateBase":1.1,
-      "CritChanceBase":5,
-      "PhysicalMax":114,
-      "PhysicalMin":93,
+      "CritChanceBase":8,
+      "PhysicalMax":112,
+      "PhysicalMin":92,
       "Range":13
     }
   },
@@ -325,7 +327,7 @@
     }
   },
   "Fanatic Greathammer":{
-    "implicit":"Strikes deal Splash damage to targets within 1.5 metres",
+    "implicit":"Strikes deal Splash Damage",
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
@@ -344,8 +346,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":120,
-      "PhysicalMin":89,
+      "PhysicalMax":137,
+      "PhysicalMin":101,
       "Range":13
     }
   },
@@ -420,7 +422,8 @@
     }
   },
   "Forge Maul":{
-    "implicitModTypes":[],
+    "implicit":"Crushes Enemies on Hit",
+    "implicitModTypes":[["physical"]],
     "quality":20,
     "req":{
       "level":11,
@@ -439,8 +442,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":39,
-      "PhysicalMin":29,
+      "PhysicalMax":35,
+      "PhysicalMin":26,
       "Range":13
     }
   },
@@ -559,10 +562,10 @@
     },
     "type":"Two Handed Mace",
     "weapon":{
-      "AttackRateBase":1.05,
+      "AttackRateBase":1,
       "CritChanceBase":5,
-      "PhysicalMax":174,
-      "PhysicalMin":94,
+      "PhysicalMax":196,
+      "PhysicalMin":105,
       "Range":13
     }
   },
@@ -789,7 +792,7 @@
     }
   },
   "Oak Greathammer":{
-    "implicit":"Causes (30-50)% increased Stun Buildup",
+    "implicit":"Causes (20-40)% increased Stun Buildup",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -806,10 +809,10 @@
     },
     "type":"Two Handed Mace",
     "weapon":{
-      "AttackRateBase":1.05,
+      "AttackRateBase":1,
       "CritChanceBase":5,
-      "PhysicalMax":26,
-      "PhysicalMin":14,
+      "PhysicalMax":30,
+      "PhysicalMin":16,
       "Range":13
     }
   },
@@ -906,9 +909,9 @@
     "type":"Two Handed Mace",
     "weapon":{
       "AttackRateBase":1.1,
-      "CritChanceBase":5,
-      "PhysicalMax":138,
-      "PhysicalMin":113,
+      "CritChanceBase":8,
+      "PhysicalMax":127,
+      "PhysicalMin":104,
       "Range":13
     }
   },
@@ -988,7 +991,7 @@
     }
   },
   "Snakewood Greathammer":{
-    "implicit":"Causes (30-50)% increased Stun Buildup",
+    "implicit":"Causes (20-40)% increased Stun Buildup",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -1007,8 +1010,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":109,
-      "PhysicalMin":59,
+      "PhysicalMax":115,
+      "PhysicalMin":62,
       "Range":13
     }
   },
@@ -1137,8 +1140,8 @@
     }
   },
   "Tawhoan Greatclub":{
-    "implicit":"Crushes Enemies on Hit",
-    "implicitModTypes":[["physical"]],
+    "implicit":"Warcries Empower an additional Attack",
+    "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
       "level":78,
@@ -1157,8 +1160,8 @@
     "weapon":{
       "AttackRateBase":1.1,
       "CritChanceBase":5,
-      "PhysicalMax":145,
-      "PhysicalMin":107,
+      "PhysicalMax":153,
+      "PhysicalMin":113,
       "Range":13
     }
   },
@@ -1212,8 +1215,8 @@
     }
   },
   "Totemic Greatclub":{
-    "implicit":"Crushes Enemies on Hit",
-    "implicitModTypes":[["physical"]],
+    "implicit":"Warcries Empower an additional Attack",
+    "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
       "level":50,
@@ -1232,8 +1235,8 @@
     "weapon":{
       "AttackRateBase":1.1,
       "CritChanceBase":5,
-      "PhysicalMax":99,
-      "PhysicalMin":73,
+      "PhysicalMax":105,
+      "PhysicalMin":77,
       "Range":13
     }
   },
@@ -1286,7 +1289,7 @@
     }
   },
   "Zealot Greathammer":{
-    "implicit":"Strikes deal Splash damage to targets within 1.5 metres",
+    "implicit":"Strikes deal Splash Damage",
     "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
@@ -1305,8 +1308,8 @@
     "weapon":{
       "AttackRateBase":1.05,
       "CritChanceBase":5,
-      "PhysicalMax":83,
-      "PhysicalMin":62,
+      "PhysicalMax":95,
+      "PhysicalMin":70,
       "Range":13
     }
   }

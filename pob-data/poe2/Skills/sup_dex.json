@@ -12,6 +12,7 @@
       "31":true,
       "37":true,
       "50":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
@@ -45,6 +46,8 @@
       "37":true,
       "42":true,
       "50":true,
+      "83":true,
+      "91":true,
       "115":true
     },
     "statSets":[{
@@ -259,7 +262,7 @@
     "requireSkillTypes":[152],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["chance_%_to_gain_power_charges_per_combo_spent",10]],
+        "constantStats":[["chance_%_to_gain_power_charges_per_combo_spent",25]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Ailith's Chimes",
         "levels":[{
@@ -380,7 +383,7 @@
   "SupportAmmoConservationPlayerFour":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Crossbow Skills, granting a chance to load a bolt into all Crossbow Ammunition on kill with Supported Skill.",
+    "description":"Supports Crossbow Skills, causing them to load a bolt into all Crossbow Ammunition on kill.",
     "excludeSkillTypes":[],
     "flavourText":["Confident their enemy was defenseless, the Keitans brazenly","charged the walls - but Arjun's ammunition supply reports","had been... 'inaccurate'... just like everything else Bardiyan."],
     "gemFamily":["AmmoConservation"],
@@ -392,7 +395,7 @@
     "requireSkillTypes":[117,116],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["chance_to_load_a_bolt_on_killing_an_enemy_%",35]],
+        "constantStats":[["chance_to_load_a_bolt_on_killing_an_enemy_%",100]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Arjun's Medal",
         "levels":[{
@@ -488,7 +491,7 @@
     "requireSkillTypes":[7,1,116,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_debilitate_hit_damage_+%_final_per_poison_stack",6],["support_debilitate_hit_damage_max_poison_stacks",30]],
+        "constantStats":[["support_debilitate_hit_damage_+%_final_per_poison_stack",8],["support_debilitate_hit_damage_max_poison_stacks",40]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Arakaali's Lust",
         "levels":[{
@@ -646,31 +649,6 @@
       }],
     "support":true
   },
-  "SupportBrambleslamPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Slam Skills. Supported Skills create Hazardous Brambles on the ground that activate after a duration. Enemies which come in contact with these thorns take damage and are Maimed. A maximum of 20 Brambles are allowed at one time. Does not modify Skills used by Minions or Totems.",
-    "excludeSkillTypes":[95],
-    "gemFamily":["Brambleslam"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Brambleslam",
-    "requireSkillTypes":[92],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["create_X_briar_thorns_on_slam",3]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Brambleslam",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportBurstingPlaguePlayer":{
     "addSkillTypes":[],
     "color":2,
@@ -700,8 +678,8 @@
   "SupportCadencePlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Attacks you use yourself. Supported Skills gain more Attack speed each time you use them, but will become unusable if used too frequently in a short time frame.",
-    "excludeSkillTypes":[139,95,25,218,37],
+    "description":"Supports Attacks you use yourself. Supported Skills gain more Attack speed each time you use them, but will become unusable if used too frequently in a short time frame. Sustained Skills will instead gain Attack speed periodically while being used.",
+    "excludeSkillTypes":[139,96,25,218,37],
     "gemFamily":["Cadence"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -761,7 +739,7 @@
     "requireSkillTypes":[19,3],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["number_of_chains",1],["chains_hit_X_more_times",1],["support_chain_hit_damage_+%_final",-50]],
+        "constantStats":[["number_of_chains",1],["support_chain_hit_damage_+%_final",-30]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Chain I",
         "levels":[{
@@ -793,7 +771,7 @@
     "requireSkillTypes":[19,3],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["chains_hit_X_more_times",2],["support_chain_hit_damage_+%_final",-40]],
+        "constantStats":[["number_of_chains",2],["support_chain_hit_damage_+%_final",-40]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Chain III",
         "levels":[{
@@ -825,7 +803,7 @@
     "requireSkillTypes":[19,3],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["number_of_chains",1],["chains_hit_X_more_times",1],["support_chain_hit_damage_+%_final",-40]],
+        "constantStats":[["number_of_chains",2],["support_chain_hit_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Chain II",
         "levels":[{
@@ -847,8 +825,8 @@
   "SupportChargeInhibitionPlayer":{
     "addSkillTypes":[223],
     "color":2,
-    "description":"Supports any Skill you use yourself or that you Trigger. Supported Skills cannot consume Charges  or Infusion by any means. Cannot Support Skills which require Charges or Infusion to be used.",
-    "excludeSkillTypes":[139,95,33,36,222,37],
+    "description":"Supports any Skill you use yourself or that you Trigger. Supported Skills cannot consume Charges or Infusion by any means. Cannot Support Skills which require Charges or Infusion to be used.",
+    "excludeSkillTypes":[139,96,33,36,222,37],
     "gemFamily":["Inhibitor"],
     "levels":[{
         "levelRequirement":0
@@ -857,7 +835,7 @@
     "requireSkillTypes":[7,1,116,117,2,49],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_inhibitor_damage_+%_final_per_charge_type",4],["support_inhibitor_damage_+%_final_per_infusion_type",4]],
+        "constantStats":[["support_inhibitor_damage_+%_final_per_charge_type_or_infusion_type",4]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Inhibitor",
         "levels":[{
@@ -865,7 +843,7 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_inhibitor_damage_+%_final_per_charge_type":[{
+          "support_inhibitor_damage_+%_final_per_charge_type_or_infusion_type":[{
               "flags":0,
               "keywordFlags":0,
               "name":"Damage",
@@ -954,7 +932,7 @@
   "SupportChargedShotsPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Bow Attacks. Every third shot with Supported Skills restores a portion of it's Mana cost and Gains Damage as extra Lightning Damage.",
+    "description":"Supports Bow Attacks. Every third shot with Supported Skills restores a portion of its Mana cost and Gains Damage as extra Lightning Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["ChargedShots"],
     "ignoreMinionTypes":true,
@@ -1128,10 +1106,10 @@
   "SupportCombatReloadPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Crossbow Ammunition Skills, causing them to load multiple extra bolts. Supported Skills cannot reload normally, instead loading bolts when you Dodge.",
+    "description":"Supports Crossbow Ammunition Skills, causing them to load multiple extra bolts and attack faster. Supported Skills cannot reload normally, instead loading bolts when you Dodge.",
     "excludeSkillTypes":[],
     "flavourText":["\"No plan. No stealth. I want shock. Awe. I want them to","know who did it, and I want them telling tales. That's the","only way for us to earn their respect... and their fear.\""],
-    "gemFamily":["DoubleBarrel"],
+    "gemFamily":["DoubleBarrel","RapidAttacks"],
     "isLineage":true,
     "levels":[{
         "levelRequirement":0,
@@ -1141,7 +1119,7 @@
     "requireSkillTypes":[117,116],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["crossbow_load_x_bolts_on_dodge",3],["support_double_barrel_number_of_crossbow_bolts_+",3]],
+        "constantStats":[["crossbow_load_x_bolts_on_dodge",5],["support_double_barrel_number_of_crossbow_bolts_+",4],["attack_speed_+%",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Ratha's Assault",
         "levels":[{
@@ -1156,7 +1134,7 @@
     "addSkillTypes":[152,153,194],
     "color":2,
     "description":"Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal more damage. Cannot support skills which already Combo, or Triggered Skills.",
-    "excludeSkillTypes":[139,90,52,37,50,25,95,33,36,2,63,194,153,75,74],
+    "excludeSkillTypes":[139,91,52,37,50,25,96,33,36,2,63,194,153,75,74],
     "gemFamily":["ComboFinisher"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -1181,7 +1159,7 @@
     "addSkillTypes":[152,153,194],
     "color":2,
     "description":"Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal massively more damage. Cannot support skills which already Combo, or Triggered Skills.",
-    "excludeSkillTypes":[139,90,52,37,50,25,95,33,36,2,63,194,153,75,74],
+    "excludeSkillTypes":[139,91,52,37,50,25,96,33,36,2,63,194,153,75,74],
     "gemFamily":["ComboFinisher"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -1206,7 +1184,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills you use yourself or Trigger, which can cause Damaging Hits. Supported Skills inflict more powerful Ailments if you are afflicted with those Ailments when you inflict them, while also removing from you any Ailment that they inflict.",
-    "excludeSkillTypes":[139,6,95,25,49],
+    "excludeSkillTypes":[139,6,96,25,49],
     "gemFamily":["Commiserate"],
     "levels":[{
         "levelRequirement":0
@@ -1304,7 +1282,7 @@
         "manaMultiplier":30
       }],
     "name":"Cooldown Recovery I",
-    "requireSkillTypes":[90],
+    "requireSkillTypes":[91],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_cooldown_reduction_cooldown_recovery_+%",25]],
@@ -1338,7 +1316,7 @@
         "manaMultiplier":30
       }],
     "name":"Cooldown Recovery II",
-    "requireSkillTypes":[90],
+    "requireSkillTypes":[91],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_cooldown_reduction_cooldown_recovery_+%",30]],
@@ -1382,79 +1360,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
-      }],
-    "support":true
-  },
-  "SupportCrescendoPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Strikes that perform a Final Strike at the end of a combination of attacks, allowing you to use the Final Strike twice in succession.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Crescendo"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Crescendo I",
-    "requireSkillTypes":[148],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Crescendo I",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["repeat_last_step_of_combo_attack"]
-      }],
-    "support":true
-  },
-  "SupportCrescendoPlayerThree":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Strikes that perform a Final Strike at the end of a combination of attacks, causing the Final Strike to be Ancestrally Boosted.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Crescendo"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Crescendo III",
-    "requireSkillTypes":[148],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Crescendo III",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["final_strike_is_ancestrally_boosted"]
-      }],
-    "support":true
-  },
-  "SupportCrescendoPlayerTwo":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Strikes that perform a Final Strike at the end of a combination of attacks, allowing you to use the Final Strike twice in succession, and causing Non-Final Strike Attacks to be faster.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Crescendo"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Crescendo II",
-    "requireSkillTypes":[148],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_crescendo_non_final_strike_attack_speed_+%_final",15]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Crescendo II",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["repeat_last_step_of_combo_attack"]
       }],
     "support":true
   },
@@ -1550,14 +1455,14 @@
     "requireSkillTypes":[1,20,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_damage_+%_final_per_combo_stack",3],["base_combo_stacks_decay_delay_ms",4000]],
+        "constantStats":[["support_damage_+%_final_per_combo_stack",3],["base_combo_stacks_decay_delay_ms",4000],["skill_maximum_number_of_combo_stacks",10]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Culmination I",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["skill_uncapped_combo_counter"]
+        "stats":[]
       }],
     "support":true
   },
@@ -1574,14 +1479,14 @@
     "requireSkillTypes":[1,20,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_damage_+%_final_per_combo_stack",3],["base_combo_stacks_decay_delay_ms",4000],["combo_falloff_speed_+%",-50]],
+        "constantStats":[["support_damage_+%_final_per_combo_stack",2],["base_combo_stacks_decay_delay_ms",4000],["combo_falloff_speed_+%",-50],["skill_maximum_number_of_combo_stacks",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Culmination II",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["skill_uncapped_combo_counter"]
+        "stats":[]
       }],
     "support":true
   },
@@ -2153,7 +2058,7 @@
     "addSkillTypes":[174],
     "color":2,
     "description":"Supports Skills that you use yourself. Supported Skills will consume a Frenzy Charge on use if possible, and will gain significant Skill Speed if they do. Supported Skills cannot generate Frenzy Charges.",
-    "excludeSkillTypes":[37,6,25,221,95,139,172,174,75,74],
+    "excludeSkillTypes":[37,6,25,221,96,139,172,174,75,74],
     "gemFamily":["Ferocity"],
     "levels":[{
         "levelRequirement":0
@@ -2272,7 +2177,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attacks you use yourself or that you Trigger, causing them to Consume the Parried Debuff on Hit to grant you a Frenzy Charge. Cannot support Skills which already Consume the Parried Debuff.",
-    "excludeSkillTypes":[139,6,95,216],
+    "excludeSkillTypes":[139,6,96,216],
     "gemFamily":["Retort"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2297,7 +2202,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills, causing them to create Ice Fragments on killing Frozen Enemies. Cannot Support Totem Skills and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[239,95,36,33,25],
+    "excludeSkillTypes":[239,96,36,33,25],
     "gemFamily":["FrozenSpite"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2317,45 +2222,13 @@
       }],
     "support":true
   },
-  "SupportGambleshotPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Skills which fire Projectiles that are not ground targeted. Projectiles from Supported Skills randomly Fork, Chain or Pierce.",
-    "excludeSkillTypes":[192],
-    "gemFamily":["Gambleshot"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Gambleshot",
-    "requireSkillTypes":[3],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_gambleshot_projectile_damage_+%_final",-15]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Gambleshot",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_gambleshot_projectile_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE"
-            }]
-        },
-        "stats":["projectile_randomly_fork_chain_or_pierce"]
-      }],
-    "support":true
-  },
   "SupportGarukhansResolvePlayer":{
-    "addSkillTypes":[194,238],
+    "addSkillTypes":[238],
     "color":2,
-    "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but will Bifurcate Critical Hit Chance. Cannot support Skills which have a Cooldown or that are Triggered, and does not modify skills used by Minions.",
-    "excludeSkillTypes":[139,194,238,75,74,64,90,37,95],
+    "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills have a maximum Critical Hit chance, but will Bifurcate Critical Hit Chance. Cannot support Skills which have a Cooldown or that are Triggered, and does not modify skills used by Minions.",
+    "excludeSkillTypes":[139,194,238,75,74,64,91,37,96],
     "flavourText":["At the last, her hope gone - but not her resolve - she threw her","beloved Tangletongue. That was the day a god bled. For this, the","Great Roc graced a Maraketh warrior with a feather for the first time."],
-    "gemFamily":["HitAndRun"],
+    "gemFamily":["GarukhansResolve"],
     "ignoreMinionTypes":true,
     "isLineage":true,
     "levels":[{
@@ -2365,7 +2238,7 @@
     "requireSkillTypes":[1],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["skill_unusable_until_moved_X_distance",200]],
+        "constantStats":[["maximum_critical_strike_chance_is_%_from_support_garukhans_resolve",50]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Garukhan's Resolve",
         "levels":[{
@@ -2474,7 +2347,7 @@
     "addSkillTypes":[194,195],
     "color":2,
     "description":"Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but have massively increased Skill Speed. Cannot support Skills which have a Cooldown or that are Triggered, and does not modify skills used by Minions.",
-    "excludeSkillTypes":[139,194,195,75,74,64,90,37,95],
+    "excludeSkillTypes":[139,194,195,75,74,64,91,37,96],
     "gemFamily":["HitAndRun"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2508,7 +2381,6 @@
     "requireSkillTypes":[7,1,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["physical_damage_%_dealt_as_evasion_break_vs_bleeding",15]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Hobble",
         "levels":[{
@@ -2643,7 +2515,7 @@
     "addSkillTypes":[9],
     "color":2,
     "description":"Supports Attacks you use yourself. Killing a Shocked enemy with supported skills imbues all of your Attacks with Lightning damage for a short time.",
-    "excludeSkillTypes":[139,33,36,25,37,95],
+    "excludeSkillTypes":[139,33,36,25,37,96],
     "gemFamily":["Innervate"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2998,31 +2870,6 @@
       }],
     "support":true
   },
-  "SupportMarkForDeathPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Mark Skills. Enemies affected by Supported Marks will have their Armour Broken by Physical Damage they take.",
-    "excludeSkillTypes":[],
-    "gemFamily":["SingleOut"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Mark for Death",
-    "requireSkillTypes":[98],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["marked_target_%_physical_damage_taken_as_armour_break",10]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Mark for Death",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportMobilityPlayer":{
     "addSkillTypes":[],
     "color":2,
@@ -3051,7 +2898,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any damaging skill that you use yourself, causing it to deal more damage if you move a sufficient distance while using the skill. Teleportation does not count towards the distance travelled.",
-    "excludeSkillTypes":[139,37,33,36,25,37,95],
+    "excludeSkillTypes":[139,37,33,36,25,37,96],
     "gemFamily":["Momentum"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -3230,21 +3077,20 @@
     "support":true
   },
   "SupportNovaProjectilesPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[258],
     "color":2,
-    "description":"Supports Projectile Skills, making them fire extra Projectiles in a circle, at the cost of Damage. Does not support Skills which rain down  Projectiles from above.",
-    "excludeSkillTypes":[113,89],
-    "gemFamily":["AdditionalProjectiles"],
+    "description":"Supports Projectile Skills, making them fire Projectiles in a circle. Does not Support Skills which rain down Projectiles from above.",
+    "excludeSkillTypes":[90,113],
+    "gemFamily":["NovaProjectiles"],
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Nova Projectiles",
+    "name":"Nova Projectiles I",
     "requireSkillTypes":[3,62,116,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["number_of_additional_projectiles",4],["support_nova_projectiles_damage_+%_final",-40]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Nova Projectiles",
+        "label":"Nova Projectiles I",
         "levels":[{
             "actorLevel":1
           }],
@@ -3265,7 +3111,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills Break Armour against Parried Enemies.",
-    "excludeSkillTypes":[139,95,25,6,33,36,37],
+    "excludeSkillTypes":[139,96,25,6,33,36,37],
     "gemFamily":["Outmaneuver"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -3315,7 +3161,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills you use yourself. Supported Skills deal more Damage with Critical Hits, but Critically Hitting an Enemy with them will Daze you for a short time.",
-    "excludeSkillTypes":[139,6,25,95,37],
+    "excludeSkillTypes":[139,6,25,96,37],
     "gemFamily":["Overextend"],
     "levels":[{
         "levelRequirement":0,
@@ -3454,35 +3300,6 @@
       }],
     "support":true
   },
-  "SupportPerpetualChargePlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports skills that consume Power, Frenzy or Endurance Charges on use, giving them a chance not to remove each Charge while still gaining the benefits of consuming them.",
-    "excludeSkillTypes":[],
-    "gemFamily":["PerpetualCharge"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":30
-      },{
-        "levelRequirement":0
-      },{
-        "levelRequirement":0
-      }],
-    "name":"Perpetual Charge",
-    "requireSkillTypes":[131],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["charge_skip_consume_chance_%",25]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Perpetual Charge",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportPiercePlayer":{
     "addSkillTypes":[],
     "color":2,
@@ -3573,25 +3390,26 @@
   "SupportPietysMercyPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Skills that cause Damaging Hits. Hits from Supported Skills cannot kill Enemies.",
-    "excludeSkillTypes":[],
-    "flavourText":["The prisoners cowered in their cages when Piety stalked by.","She gave them bread and said flatly, \"You needn't be so","frightened. I don't want to kill you... I'm going to use you.\""],
+    "description":"Supports Projectile skills and any other skills that Chain, causing them to Chain more times.",
+    "excludeSkillTypes":[163,176],
+    "flavourText":["The High Templar needed thousands of prisoners if his and","Piety's experiments were to succeed. Conspiring on the","matter, they decided to revive an age old tradition... exile."],
     "gemFamily":["Mercy"],
     "isLineage":true,
     "levels":[{
         "levelRequirement":0
       }],
-    "name":"Piety's Mercy",
-    "requireSkillTypes":[1,7],
+    "name":"Dominus' Grasp",
+    "requireSkillTypes":[19,3],
     "statSets":[{
         "baseFlags":[],
+        "constantStats":[["chains_hit_X_more_times",1]],
         "incrementalEffectiveness":0.054999999701977,
-        "label":"Piety's Mercy",
+        "label":"Dominus' Grasp",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["cannot_kill_enemies_with_hits"]
+        "stats":[]
       }],
     "support":true
   },
@@ -4488,29 +4306,6 @@
       }],
     "support":true
   },
-  "SupportRicochetPlayerThree":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports any Skill which creates Projectiles, causing those Projectiles to Chain when impacting terrain, at the cost of any additional Projectiles, as well as causing them to always Pierce.",
-    "excludeSkillTypes":[163,220],
-    "gemFamily":["Ricochet"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Ricochet III",
-    "requireSkillTypes":[3],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Ricochet III",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["additional_projectiles_instead_applies_to_number_of_terrain_chains","always_pierce"]
-      }],
-    "support":true
-  },
   "SupportRicochetPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
@@ -4551,7 +4346,7 @@
     "requireSkillTypes":[1],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_rigwald_attack_speed_+%_final_in_weapon_set_one",20],["support_rigwald_damage_+%_final_in_weapon_set_one",-15],["support_rigwald_attack_speed_+%_final_in_weapon_set_two",-10],["support_rigwald_damage_+%_final_in_weapon_set_two",30]],
+        "constantStats":[["support_rigwald_attack_speed_+%_in_weapon_set_one",30],["support_rigwald_damage_+%_final_in_weapon_set_one",-15],["support_rigwald_attack_speed_+%_in_weapon_set_two",-10],["support_rigwald_damage_+%_final_in_weapon_set_two",30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Rigwald's Ferocity",
         "levels":[{
@@ -4559,21 +4354,21 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_rigwald_attack_speed_+%_final_in_weapon_set_one":[{
+          "support_rigwald_attack_speed_+%_in_weapon_set_one":[{
               "flags":1,
               "keywordFlags":0,
               "name":"Speed",
-              "type":"MORE",
+              "type":"INC",
               "1":{
                 "type":"Condition",
                 "var":"WeaponSet1"
               }
             }],
-          "support_rigwald_attack_speed_+%_final_in_weapon_set_two":[{
+          "support_rigwald_attack_speed_+%_in_weapon_set_two":[{
               "flags":1,
               "keywordFlags":0,
               "name":"Speed",
-              "type":"MORE",
+              "type":"INC",
               "1":{
                 "type":"Condition",
                 "var":"WeaponSet2"
@@ -4608,7 +4403,7 @@
     "addSkillTypes":[188,190],
     "color":2,
     "description":"Supports Attack Skills you use yourself which fire Projectiles. Supported Skills accumulate Seals over time, and consume them when used. For each Seal consumed, the Attack will fire additional Projectiles. Projectiles from Supported Skills are fired in random directions. Cannot Support Skills which require Combo, have a Cooldown or already gain Seals.",
-    "excludeSkillTypes":[139,37,6,95,38,90,152,188,190,75,74],
+    "excludeSkillTypes":[139,37,6,96,38,91,152,188,190,75,74],
     "gemFamily":["AdditionalProjectiles"],
     "levels":[{
         "levelRequirement":0
@@ -4631,8 +4426,8 @@
   "SupportSecondWindPlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown.\nCannot support instant or triggered skills, or modify the skills of minions.",
-    "excludeSkillTypes":[37,64],
+    "description":"Supports Skills which have a cooldown, giving them extra uses of that cooldown. Cannot support Meta, instant, or Triggered Skills, and cannot modify the Skills of Minions.",
+    "excludeSkillTypes":[37,64,122],
     "gemFamily":["SecondWind"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4640,7 +4435,7 @@
         "manaMultiplier":50
       }],
     "name":"Second Wind I",
-    "requireSkillTypes":[90],
+    "requireSkillTypes":[91],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_cooldown_speed_+%_final",-50]],
@@ -4657,8 +4452,8 @@
   "SupportSecondWindPlayerThree":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown and causing them to recover your Life when a cooldown is consumed.\nCannot support instant or triggered skills, or modify the skills of minions.",
-    "excludeSkillTypes":[37,64],
+    "description":"Supports Skills which have a cooldown, giving them extra uses of that cooldown and causing them to recover your Life when a Skill is used and goes on cooldown. Cannot support Meta, instant, or Triggered Skills, and cannot modify the Skills of Minions.",
+    "excludeSkillTypes":[37,64,122],
     "gemFamily":["SecondWind"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4666,10 +4461,10 @@
         "manaMultiplier":50
       }],
     "name":"Second Wind III",
-    "requireSkillTypes":[90],
+    "requireSkillTypes":[91],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["base_cooldown_speed_+%_final",-40],["restore_%_life_on_skill_use_per_1000_ms_cooldown",2]],
+        "constantStats":[["base_cooldown_speed_+%_final",-40],["restore_%_life_on_skill_use_per_1000_ms_cooldown",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Second Wind III",
         "levels":[{
@@ -4683,8 +4478,8 @@
   "SupportSecondWindPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports skills with cooldowns, giving them extra uses of that cooldown.\nCannot support instant or triggered skills, or modify the skills of minions.",
-    "excludeSkillTypes":[37,64],
+    "description":"Supports Skills which have a cooldown, giving them extra uses of that cooldown. Cannot support Meta, instant, or Triggered Skills, and cannot modify the Skills of Minions.",
+    "excludeSkillTypes":[37,64,122],
     "gemFamily":["SecondWind"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4692,7 +4487,7 @@
         "manaMultiplier":50
       }],
     "name":"Second Wind II",
-    "requireSkillTypes":[90],
+    "requireSkillTypes":[91],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_cooldown_speed_+%_final",-40]],
@@ -4791,7 +4586,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Bow or Spear Projectile Attacks you use yourself. Supported Skills deal lower damage initially, but generate Spectral Projectiles, which deal more damage when they fire. Spectral Projectiles linger and will fire a short duration after no new Spectral Projectiles have been created. Cannot support Channelling Skills, Leaping skills, or skills which rain Projectiles from above.",
-    "excludeSkillTypes":[139,89,48,162,37],
+    "excludeSkillTypes":[139,90,48,162,37],
     "gemFamily":["SpectralVolley"],
     "levels":[{
         "levelRequirement":0,
@@ -5004,7 +4799,7 @@
     "requireSkillTypes":[1,7],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["faster_poison_%_per_current_rage",1]],
+        "constantStats":[["faster_poison_%_per_current_rage",2]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Tacati's Ire",
         "levels":[{
@@ -5043,7 +4838,7 @@
     "requireSkillTypes":[7,1],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["non_skill_base_cold_damage_%_to_gain_as_chaos",20]],
+        "constantStats":[["non_skill_base_cold_damage_%_to_gain_as_chaos",40]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Tul's Stillness",
         "levels":[{
@@ -5058,7 +4853,7 @@
     "addSkillTypes":[221],
     "color":2,
     "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills consume a Frenzy Charge on use to powerfully Break Armour.",
-    "excludeSkillTypes":[139,37,95,25,6,33,36,172,221,75,74],
+    "excludeSkillTypes":[139,37,96,25,6,33,36,172,221,75,74],
     "gemFamily":["Tumult"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5083,7 +4878,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills you use yourself. When Supported Attacks are Empowered, they have significantly lowered cost and raised Accuracy.",
-    "excludeSkillTypes":[139,95,25,37],
+    "excludeSkillTypes":[139,96,25,37],
     "gemFamily":["UnerringPower"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5130,7 +4925,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Attack Skills you use yourself. While using Supported Skills, you gain increased Evasion Rating, with the increase scaling higher the longer the Attack time of the supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,6,95,25,48,37],
+    "excludeSkillTypes":[139,6,96,25,48,37],
     "gemFamily":["Untouchable"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5156,7 +4951,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Projectile Attack Skills you use yourself. Supported Skills gain Voltaic Charge as you move, up to a maximum. When used, Supported Skills expend that Charge to gain extra Lightning Damage.",
-    "excludeSkillTypes":[139,6,95,37],
+    "excludeSkillTypes":[139,6,96,37],
     "gemFamily":["Volt"],
     "levels":[{
         "levelRequirement":0,
@@ -5299,42 +5094,6 @@
       }],
     "support":true
   },
-  "TriggeredBrambleslamPlayer":{
-    "castTime":1,
-    "description":"Hazardous thorns damage and Maim enemies with which they come in contact.",
-    "hidden":true,
-    "levels":[{
-        "cooldown":0.15,
-        "levelRequirement":0,
-        "storedUses":1
-      }],
-    "name":"Brambles",
-    "qualityStats":[],
-    "skillTypes":{
-      "1":true,
-      "7":true,
-      "8":true,
-      "27":true,
-      "31":true,
-      "37":true,
-      "115":true,
-      "203":true,
-      "218":true
-    },
-    "statSets":[{
-        "baseFlags":{
-          "attack":true
-        },
-        "constantStats":[["active_skill_base_area_of_effect_radius",10],["triggered_by_briarpatch_support_on_slam_%",100],["base_skill_effect_duration",8000],["briarpatches_arming_time_ms",400],["active_skill_has_%_standard_scaling_attack_damage",35],["ice_crystals_hazard_damage_+%_final_for_first_500_ms_when_not_killed_by_self",-80]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Brambles",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"triggered_briar_patch",
-        "stats":["is_hazard","global_maim_on_hit","additive_thorns_damage_modifiers_apply_to_attack_damage"]
-      }]
-  },
   "TriggeredCaltropsPlayer":{
     "castTime":1,
     "description":"Maims and deals Attack area damage when triggered by an Enemy. Caltrops are destroyed when triggered, and a maximum of 20 Caltrops can be active at once.",
@@ -5353,6 +5112,8 @@
       "9":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true,
       "163":true,
       "176":true,
@@ -5393,6 +5154,8 @@
       "29":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true,
       "217":true,
       "239":true
@@ -5403,7 +5166,7 @@
           "hit":true,
           "projectile":true
         },
-        "constantStats":[["triggered_by_frozen_spite_support_%",100],["active_skill_base_area_of_effect_radius",15],["support_frozen_spite_%_enemy_maximum_life_dealt_as_cold_damage",10],["ballistic_ice_chunk_cone_angle",360],["base_skill_detonation_time",1500],["base_number_of_projectiles",3]],
+        "constantStats":[["triggered_by_frozen_spite_support_%",100],["active_skill_base_area_of_effect_radius",15],["support_frozen_spite_%_enemy_maximum_life_dealt_as_cold_damage",10],["ballistic_ice_chunk_cone_angle",360],["base_skill_detonation_time",1500],["base_number_of_projectiles",3],["ice_fragment_min_chunk_distance",1],["ice_fragment_max_chunk_distance",35],["ice_fragment_auto_aim_roll_fudge",2]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Ice Fragments",
         "levels":[{

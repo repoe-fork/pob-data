@@ -1,0 +1,50 @@
+{
+  "base_knockback_distance":2,
+  "number_of_crossbow_bolts":1,
+  "parent":"skill_stat_descriptions",
+  "rapidshot_requiem_active_duration_ms":3,
+  "rapidshot_requiem_base_buff_count_requirement":4,
+  "rapidshot_requiem_number_of_stacks_per_minute":5,
+  "1":{
+    "stats":["number_of_crossbow_bolts"]
+  },
+  "2":{
+    "stats":["base_knockback_distance"]
+  },
+  "3":{
+    "stats":["rapidshot_requiem_active_duration_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Requiem lasts for {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Requiem lasts for {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["rapidshot_requiem_base_buff_count_requirement"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Requires {0} anguish to use"
+      }]
+  },
+  "5":{
+    "stats":["rapidshot_requiem_number_of_stacks_per_minute"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Accumulates {0} anguish per second",
+        "1":{
+          "k":"per_minute_to_per_second_2dp_if_required",
+          "v":1
+        }
+      }]
+  }
+}

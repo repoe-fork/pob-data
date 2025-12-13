@@ -1,0 +1,46 @@
+{
+  "active_skill_area_of_effect_radius":5,
+  "active_skill_base_area_of_effect_radius":6,
+  "cast_on_damage_taken_%":2,
+  "cast_on_damage_taken_threshold":4,
+  "parent":"skill_stat_descriptions",
+  "virtual_cast_when_damage_taken_threshold":3,
+  "1":{
+    "stats":["cast_on_damage_taken_threshold"]
+  },
+  "2":{
+    "stats":["cast_on_damage_taken_%"]
+  },
+  "3":{
+    "stats":["virtual_cast_when_damage_taken_threshold"]
+  },
+  "4":{
+    "stats":["cast_on_damage_taken_threshold"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Triggers after you take a total of {0} Lightning Hit Damage"
+      }]
+  },
+  "5":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "6":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Can target Enemies within {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Can target Enemies within {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  }
+}

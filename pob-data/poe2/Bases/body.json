@@ -565,7 +565,7 @@
       "Evasion":406,
       "MovementPenalty":0.03
     },
-    "implicit":"(10-20)% reduced Movement Speed Penalty from using Skills while moving",
+    "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
     "req":{
@@ -2315,6 +2315,32 @@
       "default":true,
       "str_int_armour":true,
       "vaal_basetype":true
+    },
+    "type":"Body Armour"
+  },
+  "Sacrificial Regalia":{
+    "armour":{
+      "Armour":269,
+      "EnergyShield":93,
+      "Evasion":245,
+      "MovementPenalty":0.03
+    },
+    "implicit":"+1 to Level of all Corrupted Skill Gems",
+    "implicitModTypes":[["gem"]],
+    "quality":20,
+    "req":{
+      "dex":72,
+      "int":72,
+      "level":65,
+      "str":72
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "str_dex_int_armour":true
     },
     "type":"Body Armour"
   },

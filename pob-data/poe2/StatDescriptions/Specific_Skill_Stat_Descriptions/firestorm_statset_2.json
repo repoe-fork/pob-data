@@ -1,0 +1,58 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "fire_storm_fireball_delay_ms":3,
+  "parent":"skill_stat_descriptions",
+  "quality_display_active_skill_base_area_of_effect_radius_is_gem":2,
+  "vaal_firestorm_number_of_meteors":3,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius","quality_display_active_skill_base_area_of_effect_radius_is_gem"],
+    "1":[{
+        "limit":[[10,10],[0,0]],
+        "text":"{0:+d} metre to impact radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"],[0,0]],
+        "text":"{0:+d} metres to impact radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[10,10],["#","#"]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["fire_storm_fireball_delay_ms","vaal_firestorm_number_of_meteors"],
+    "1":[{
+        "limit":[[1,"#"],[0,0]],
+        "text":"One impact every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"],[1,"#"]],
+        "text":"{1} Bolts"
+      }]
+  }
+}

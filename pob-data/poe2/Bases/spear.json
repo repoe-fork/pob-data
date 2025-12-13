@@ -20,16 +20,16 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.5,
+      "AttackRateBase":1.6,
       "CritChanceBase":7,
-      "PhysicalMax":80,
-      "PhysicalMin":43,
+      "PhysicalMax":72,
+      "PhysicalMin":39,
       "Range":15
     }
   },
   "Barbed Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes":[["physical_damage","bleed","damage","physical","attack","ailment"]],
     "quality":20,
     "req":{
       "dex":47,
@@ -47,8 +47,8 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.6,
-      "CritChanceBase":6.5,
+      "AttackRateBase":1.5,
+      "CritChanceBase":6,
       "PhysicalMax":38,
       "PhysicalMin":20,
       "Range":15
@@ -73,21 +73,21 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.6,
+      "AttackRateBase":1.55,
       "CritChanceBase":5,
-      "PhysicalMax":58,
-      "PhysicalMin":31,
+      "PhysicalMax":69,
+      "PhysicalMin":23,
       "Range":15
     }
   },
   "Broad Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\n25% increased Melee Strike Range with this weapon",
+    "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":56,
+      "dex":55,
       "level":40,
-      "str":23
+      "str":26
     },
     "socketLimit":3,
     "tags":{
@@ -100,10 +100,10 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.5,
+      "AttackRateBase":1.4,
       "CritChanceBase":5,
       "PhysicalMax":48,
-      "PhysicalMin":26,
+      "PhysicalMin":32,
       "Range":15
     }
   },
@@ -128,14 +128,14 @@
     "weapon":{
       "AttackRateBase":1.55,
       "CritChanceBase":5,
-      "PhysicalMax":54,
-      "PhysicalMin":29,
+      "PhysicalMax":52,
+      "PhysicalMin":31,
       "Range":15
     }
   },
   "Crossblade Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\nPrevent +(3-7)% of Damage from Deflected Hits",
+    "implicitModTypes":[[]],
     "quality":20,
     "req":{
       "dex":63,
@@ -153,10 +153,10 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.55,
+      "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":51,
-      "PhysicalMin":28,
+      "PhysicalMax":52,
+      "PhysicalMin":25,
       "Range":15
     }
   },
@@ -181,8 +181,8 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":76,
-      "PhysicalMin":41,
+      "PhysicalMax":77,
+      "PhysicalMin":46,
       "Range":15
     }
   },
@@ -206,21 +206,21 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.6,
+      "AttackRateBase":1.55,
       "CritChanceBase":5,
-      "PhysicalMax":32,
-      "PhysicalMin":17,
+      "PhysicalMax":38,
+      "PhysicalMin":13,
       "Range":15
     }
   },
   "Grand Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\n25% increased Melee Strike Range with this weapon",
+    "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":127,
+      "dex":109,
       "level":79,
-      "str":50
+      "str":68
     },
     "socketLimit":3,
     "tags":{
@@ -232,10 +232,37 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.5,
+      "AttackRateBase":1.4,
       "CritChanceBase":5,
-      "PhysicalMax":85,
-      "PhysicalMin":46,
+      "PhysicalMax":84,
+      "PhysicalMin":56,
+      "Range":15
+    }
+  },
+  "Guardian Spear":{
+    "implicit":"Grants Skill: Spear Throw\nPrevent +(3-7)% of Damage from Deflected Hits",
+    "implicitModTypes":[[]],
+    "quality":20,
+    "req":{
+      "dex":127,
+      "level":75,
+      "str":50
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "karui_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.55,
+      "CritChanceBase":5,
+      "PhysicalMax":79,
+      "PhysicalMin":38,
       "Range":15
     }
   },
@@ -310,7 +337,7 @@
     "weapon":{
       "AttackRateBase":1.55,
       "CritChanceBase":5,
-      "PhysicalMax":18,
+      "PhysicalMax":17,
       "PhysicalMin":10,
       "Range":15
     }
@@ -336,14 +363,14 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":13,
-      "PhysicalMin":7,
+      "PhysicalMax":12,
+      "PhysicalMin":9,
       "Range":15
     }
   },
   "Jagged Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes":[["physical_damage","bleed","damage","physical","attack","ailment"]],
     "quality":20,
     "req":{
       "dex":81,
@@ -360,21 +387,21 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.6,
-      "CritChanceBase":6.5,
+      "AttackRateBase":1.5,
+      "CritChanceBase":6,
       "PhysicalMax":61,
       "PhysicalMin":33,
       "Range":15
     }
   },
   "Massive Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\n25% increased Melee Strike Range with this weapon",
+    "implicitModTypes":[["attack"]],
     "quality":20,
     "req":{
-      "dex":85,
+      "dex":80,
       "level":62,
-      "str":34
+      "str":40
     },
     "socketLimit":3,
     "tags":{
@@ -386,10 +413,10 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.5,
+      "AttackRateBase":1.4,
       "CritChanceBase":5,
-      "PhysicalMax":70,
-      "PhysicalMin":38,
+      "PhysicalMax":69,
+      "PhysicalMin":46,
       "Range":15
     }
   },
@@ -414,8 +441,8 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":70,
-      "PhysicalMin":38,
+      "PhysicalMax":62,
+      "PhysicalMin":46,
       "Range":15
     }
   },
@@ -438,10 +465,10 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.6,
+      "AttackRateBase":1.55,
       "CritChanceBase":5,
-      "PhysicalMax":75,
-      "PhysicalMin":40,
+      "PhysicalMax":89,
+      "PhysicalMin":30,
       "Range":15
     }
   },
@@ -466,16 +493,43 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.5,
+      "AttackRateBase":1.6,
       "CritChanceBase":7,
-      "PhysicalMax":57,
-      "PhysicalMin":31,
+      "PhysicalMax":53,
+      "PhysicalMin":29,
+      "Range":15
+    }
+  },
+  "Soaring Spear":{
+    "implicit":"Grants Skill: Spear Throw",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":115,
+      "level":70,
+      "str":41
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "maraketh_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.7,
+      "CritChanceBase":5,
+      "PhysicalMax":65,
+      "PhysicalMin":35,
       "Range":15
     }
   },
   "Spiked Spear":{
-    "implicit":"Grants Skill: Spear Throw",
-    "implicitModTypes":[],
+    "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes":[["physical_damage","bleed","damage","physical","attack","ailment"]],
     "quality":20,
     "req":{
       "dex":127,
@@ -492,8 +546,8 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.6,
-      "CritChanceBase":6.5,
+      "AttackRateBase":1.5,
+      "CritChanceBase":6,
       "PhysicalMax":76,
       "PhysicalMin":41,
       "Range":15
@@ -520,8 +574,8 @@
     "weapon":{
       "AttackRateBase":1.55,
       "CritChanceBase":5,
-      "PhysicalMax":82,
-      "PhysicalMin":44,
+      "PhysicalMax":79,
+      "PhysicalMin":47,
       "Range":15
     }
   },
@@ -546,8 +600,8 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":50,
-      "PhysicalMin":27,
+      "PhysicalMax":44,
+      "PhysicalMin":33,
       "Range":15
     }
   },
@@ -601,7 +655,7 @@
       "AttackRateBase":1.6,
       "CritChanceBase":5,
       "PhysicalMax":53,
-      "PhysicalMin":28,
+      "PhysicalMin":32,
       "Range":15
     }
   },
@@ -653,8 +707,8 @@
     "weapon":{
       "AttackRateBase":1.6,
       "CritChanceBase":5,
-      "PhysicalMax":26,
-      "PhysicalMin":14,
+      "PhysicalMax":27,
+      "PhysicalMin":16,
       "Range":15
     }
   },
@@ -678,7 +732,7 @@
     },
     "type":"Spear",
     "weapon":{
-      "AttackRateBase":1.65,
+      "AttackRateBase":1.7,
       "CritChanceBase":5,
       "PhysicalMax":22,
       "PhysicalMin":12,

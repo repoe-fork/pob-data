@@ -1,0 +1,54 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "parent":"skill_stat_descriptions",
+  "wyvern_devour_flask_charm_charge_gain_chance_%":3,
+  "wyvern_devour_life_restoration":4,
+  "wyvern_devour_max_extra_corpses_to_consume":5,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["wyvern_devour_flask_charm_charge_gain_chance_%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% chance to gain Flask and Charm charges as though killing the enemy on Corpse consumption"
+      }]
+  },
+  "4":{
+    "stats":["wyvern_devour_life_restoration"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Regenerates {0} life per enemy or\nCorpse consumed over 1 second"
+      }]
+  },
+  "5":{
+    "stats":["wyvern_devour_max_extra_corpses_to_consume"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Consumes up to {0} additional Corpse near the target"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Consumes up to {0} additional Corpses near the target"
+      }]
+  }
+}

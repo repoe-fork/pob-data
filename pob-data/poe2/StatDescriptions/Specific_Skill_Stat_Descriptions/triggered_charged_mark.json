@@ -1,0 +1,61 @@
+{
+  "active_skill_base_area_of_effect_radius":1,
+  "base_skill_effect_duration":2,
+  "chance_to_trigger_shocked_ground_on_mark_activated_%":2,
+  "parent":"skill_stat_descriptions",
+  "skill_effect_duration":3,
+  "1":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Shocked Ground radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Shocked Ground radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["chance_to_trigger_shocked_ground_on_mark_activated_%","base_skill_effect_duration"],
+    "1":[{
+        "limit":[[100,100],[1000,1000]],
+        "text":"Creates Shocked Ground with a {1} second duration",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      },{
+        "limit":[[1,"#"],[1000,1000]],
+        "text":"Has a {0}% chance to create Shocked Ground with a {1} second duration",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      },{
+        "limit":[[100,100],["#","#"]],
+        "text":"Creates Shocked Ground with a {1} second duration",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      },{
+        "limit":[[1,"#"],["#","#"]],
+        "text":"Has a {0}% chance to create Shocked Ground with a {1} second duration",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      }]
+  },
+  "3":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  }
+}

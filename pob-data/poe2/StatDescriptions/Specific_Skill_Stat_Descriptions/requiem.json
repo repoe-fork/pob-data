@@ -1,0 +1,67 @@
+{
+  "active_skill_area_of_effect_radius":3,
+  "active_skill_base_area_of_effect_radius":4,
+  "active_skill_base_secondary_area_of_effect_radius":5,
+  "active_skill_secondary_area_of_effect_radius":6,
+  "base_knockback_distance":2,
+  "number_of_crossbow_bolts":1,
+  "parent":"skill_stat_descriptions",
+  "quality_display_active_skill_base_area_of_effect_radius_is_gem":4,
+  "1":{
+    "stats":["number_of_crossbow_bolts"]
+  },
+  "2":{
+    "stats":["base_knockback_distance"]
+  },
+  "3":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "4":{
+    "stats":["active_skill_base_area_of_effect_radius","quality_display_active_skill_base_area_of_effect_radius_is_gem"],
+    "1":[{
+        "limit":[[10,10],[0,0]],
+        "text":"{0:+d} metre to impact radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"],[0,0]],
+        "text":"{0:+d} metres to impact radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[10,10],["#","#"]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["active_skill_base_secondary_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Anguish impacts within a {0} metre radius of the target",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["active_skill_secondary_area_of_effect_radius"],
+    "1":[]
+  }
+}

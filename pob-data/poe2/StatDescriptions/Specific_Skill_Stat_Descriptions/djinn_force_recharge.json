@@ -1,19 +1,20 @@
 {
   "base_skill_effect_duration":1,
-  "curse_effect_duration":2,
+  "djinn_granted_energy_shield_recharge_rate_+%":2,
   "parent":"skill_stat_descriptions",
+  "skill_effect_duration":3,
   "1":{
     "stats":["base_skill_effect_duration"],
     "1":[{
         "limit":[[1000,1000]],
-        "text":"DNT Buff duration is {0} second",
+        "text":"Buff duration is {0} second",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"DNT Buff duration is {0} seconds",
+        "text":"Buff duration is {0} seconds",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
@@ -21,7 +22,14 @@
       }]
   },
   "2":{
-    "stats":["curse_effect_duration"],
+    "stats":["djinn_granted_energy_shield_recharge_rate_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Buff grants {0}% Increased Energy Shield Recharge Rate"
+      }]
+  },
+  "3":{
+    "stats":["skill_effect_duration"],
     "1":[]
   }
 }

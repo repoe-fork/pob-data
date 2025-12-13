@@ -1,0 +1,65 @@
+{
+  "base_skill_effect_duration":2,
+  "lightning_rod_number_of_chains_allowed":3,
+  "number_of_lightning_rods_allowed":4,
+  "parent":"skill_stat_descriptions",
+  "shockchain_arrow_X_additional_chains_on_first_hitting_shocked_or_electrocuted_enemy":1,
+  "skill_effect_duration":5,
+  "virtual_lightning_rod_number_of_chains_allowed":6,
+  "1":{
+    "stats":["shockchain_arrow_X_additional_chains_on_first_hitting_shocked_or_electrocuted_enemy"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Projectile Chains an additional time on first hitting a Shocked or Electrocuted enemy, releasing a Shockwave on each Hit"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Projectile Chains {0} additional times on first hitting a Shocked or Electrocuted enemy, releasing a Shockwave on each Hit"
+      }]
+  },
+  "2":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Arrow duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Arrow duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["lightning_rod_number_of_chains_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Arrow disappears after being Chained to once"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Arrow disappears after being Chained to {0} times"
+      }]
+  },
+  "4":{
+    "stats":["number_of_lightning_rods_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Maximum {0} active Arrow"
+      },{
+        "limit":[["#","#"]],
+        "text":"Maximum {0} active Arrows"
+      }]
+  },
+  "5":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  },
+  "6":{
+    "stats":["virtual_lightning_rod_number_of_chains_allowed"],
+    "1":[]
+  }
+}

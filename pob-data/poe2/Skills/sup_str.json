@@ -13,6 +13,8 @@
       "8":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true,
       "218":true
     },
@@ -99,14 +101,14 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, providing a powerful Ancestral Boost every few seconds.",
-    "excludeSkillTypes":[139,25,95,33,36,38,37],
+    "excludeSkillTypes":[139,25,96,33,36,38,37],
     "gemFamily":["FistOfWar"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":50
       }],
     "name":"Fist of War I",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "baseMods":[{
@@ -148,14 +150,14 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, providing a very powerful Ancestral Boost infrequently.",
-    "excludeSkillTypes":[139,25,95,33,36,38,37],
+    "excludeSkillTypes":[139,25,96,33,36,38,37],
     "gemFamily":["FistOfWar"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":100
       }],
     "name":"Fist of War III",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "baseMods":[{
@@ -198,14 +200,14 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, providing a powerful Ancestral Boost every few seconds.",
-    "excludeSkillTypes":[139,25,95,33,36,38,37],
+    "excludeSkillTypes":[139,25,96,33,36,38,37],
     "gemFamily":["FistOfWar"],
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":50
       }],
     "name":"Fist of War II",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "baseMods":[{
@@ -246,8 +248,8 @@
   "ImpactShockwaveSupportPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Strike skills, causing them to create an Aftershock that damages enemies around the target when they Heavy Stun an enemy.",
-    "excludeSkillTypes":[],
+    "description":"Supports Melee Strike Skills and Wind Attack Skills, causing them to create an Aftershock that damages enemies around the target when they Heavy Stun an enemy.",
+    "excludeSkillTypes":[93],
     "gemFamily":["ImpactShockwave"],
     "levels":[{
         "levelRequirement":0
@@ -259,10 +261,10 @@
         "levelRequirement":10
       }],
     "name":"Impact Shockwave",
-    "requireSkillTypes":[21],
+    "requireSkillTypes":[21,253,1,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_impact_shockwave_base_splash_radius",15]],
+        "constantStats":[["support_impact_shockwave_base_non_slam_aftershock_on_heavy_stun_radius",15]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Impact Shockwave",
         "levels":[{
@@ -313,10 +315,10 @@
     "support":true
   },
   "ProlongedDurationSupportPlayerThree":{
-    "addSkillTypes":[90,230],
+    "addSkillTypes":[91,230],
     "color":1,
     "description":"Supports any skill that has a duration, making that duration significantly longer while applying a cooldown. Cannot support Skills which already have a cooldown.",
-    "excludeSkillTypes":[90,230,75,74,25,95,33,36,139,38,37],
+    "excludeSkillTypes":[91,230,75,74,25,96,33,36,139,38,37],
     "gemFamily":["ProlongedDuration"],
     "levels":[{
         "cooldown":16,
@@ -417,6 +419,8 @@
       "8":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true,
       "218":true
     },
@@ -518,14 +522,14 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, giving them a chance to create an Aftershock.",
-    "excludeSkillTypes":[139,25,95,33,36,38,37],
+    "excludeSkillTypes":[139,25,96,33,36,38,37],
     "gemFamily":["Aftershock"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Aftershock I",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["slam_aftershock_chance_%",25]],
@@ -543,14 +547,14 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slam Skills. Supported Skills a chance to create an Aftershock as well as increased chance to cause Aftershocks the longer their Attack time",
-    "excludeSkillTypes":[139,25,95,33,36,38,37],
+    "excludeSkillTypes":[139,25,96,33,36,38,37],
     "gemFamily":["Aftershock"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Aftershock III",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["chance_to_aftershock_+%_per_250_ms_attack_time",15],["slam_aftershock_chance_%",15]],
@@ -568,14 +572,14 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, giving them a chance to create an Aftershock.",
-    "excludeSkillTypes":[139,25,95,33,36,38,37],
+    "excludeSkillTypes":[139,25,96,33,36,38,37],
     "gemFamily":["Aftershock"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Aftershock II",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["slam_aftershock_chance_%",35]],
@@ -619,7 +623,7 @@
     "addSkillTypes":[194,213],
     "color":1,
     "description":"Supports Strikes you use yourself. Supported Skills cannot be used until you have Blocked a certain number of Hits, but will be Ancestrally Boosted when used. After use, this Blocked Hit counter will reset. Cannot Support Channelled Skills or Skills which already have a Condition for use.",
-    "excludeSkillTypes":[139,194,213,75,74,209,48,95,25,37],
+    "excludeSkillTypes":[139,194,213,75,74,209,48,96,25,37],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -644,7 +648,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Strikes you use yourself, providing a powerful Ancestral Boost every few seconds. Cannot Support Channelled Skills and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[139,209,48,95,25,37],
+    "excludeSkillTypes":[139,209,48,96,25,37],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -670,7 +674,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Strikes you use yourself, providing a powerful Ancestral Boost every second, at the cost of a damage penalty. Cannot Support Channelled Skills and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[139,209,48,95,25,37],
+    "excludeSkillTypes":[139,209,48,96,25,37],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -696,7 +700,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Strikes you use yourself, providing a powerful Ancestral Boost every few seconds. Cannot Support Channelled Skills and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[139,209,48,95,25,37],
+    "excludeSkillTypes":[139,209,48,96,25,37],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -745,7 +749,7 @@
   "SupportArmourBreakPlayerThree":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Skills that Hit Enemies, causing those Hits to Break Armour based on a portion of Physical Damage dealt. On Fully Breaking Armour with Supported Skills, you gain an Endurance Charge.",
+    "description":"Supports Skills that Hit Enemies, causing those Hits to Break Armour based on a portion of Physical Damage dealt. On Fully Breaking Armour with Supported Skills, you have a chance to gain an Endurance Charge.",
     "excludeSkillTypes":[],
     "gemFamily":["ArmourBreak"],
     "levels":[{
@@ -800,7 +804,7 @@
         "levelRequirement":0
       }],
     "name":"Armour Demolisher I",
-    "requireSkillTypes":[2,1,7,117,49,225],
+    "requireSkillTypes":[],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_increased_armour_break_armour_break_amount_+%_final",50]],
@@ -832,7 +836,7 @@
         "levelRequirement":0
       }],
     "name":"Armour Demolisher II",
-    "requireSkillTypes":[2,1,7,117,49,225],
+    "requireSkillTypes":[],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_increased_armour_break_armour_break_amount_+%_final",70]],
@@ -857,14 +861,14 @@
   "SupportArmourExplosionPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Attacks, causing them to trigger a Fiery explosion when they Fully Break an enemy's Armour.",
+    "description":"Supports Attacks and Warcries, causing them to trigger a Fiery explosion when they Fully Break an enemy's Armour.",
     "excludeSkillTypes":[],
     "gemFamily":["ArmourExplosion"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Armour Explosion",
-    "requireSkillTypes":[1,117],
+    "requireSkillTypes":[1,117,63],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
@@ -914,19 +918,18 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any Skill, turning a portion of its Mana cost into a Life cost. Does not support Skills which reserve Spirit. Supported Skills Gain a portion of their Life cost as extra Physical Damage.",
-    "excludeSkillTypes":[108,139],
+    "excludeSkillTypes":[109,139],
     "flavourText":["Atazek and Atalui rose, battered and dark, bleeding from a hundred","different wounds. She gave her brother a sinister grin. \"Shall we","show them what happens to those who challenge the Vaal?\""],
     "gemFamily":["Lifetap"],
     "isLineage":true,
     "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":50
+        "levelRequirement":0
       }],
     "name":"Atalui's Bloodletting",
     "requireSkillTypes":[],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["blood_magic_skill_life_cost_+%_final",0],["base_skill_cost_life_instead_of_mana_%",100],["gain_%_of_damage_as_physical_per_10_life_cost",2]],
+        "constantStats":[["blood_magic_skill_life_cost_+%_final",0],["base_skill_cost_life_instead_of_mana_%",100],["gain_%_of_damage_as_physical_per_20_life_cost_up_to_40_%",2]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Atalui's Bloodletting",
         "levels":[{
@@ -934,13 +937,15 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "gain_%_of_damage_as_physical_per_10_life_cost":[{
+          "gain_%_of_damage_as_physical_per_20_life_cost_up_to_40_%":[{
               "flags":0,
               "keywordFlags":0,
               "name":"DamageGainAsPhysical",
               "type":"BASE",
               "1":{
-                "div":10,
+                "div":20,
+                "limit":40,
+                "limitTotal":true,
                 "stat":"LifeCost",
                 "type":"PerStat"
               }
@@ -1277,7 +1282,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any Skill, turning its Mana cost into a Life cost. Does not support Skills which reserve Spirit.",
-    "excludeSkillTypes":[108,139],
+    "excludeSkillTypes":[109,139],
     "gemFamily":["Lifetap"],
     "levels":[{
         "levelRequirement":0
@@ -1334,10 +1339,35 @@
       }],
     "support":true
   },
+  "SupportBrambleslamPlayer":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Slam Skills. Supported Skills create Hazardous Brambles on the ground that activate after a duration. Enemies which come in contact with these thorns take damage and are Maimed. A maximum of 20 Brambles are allowed at one time. Does not modify Skills used by Minions or Totems.",
+    "excludeSkillTypes":[96],
+    "gemFamily":["Brambleslam"],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Brambleslam",
+    "requireSkillTypes":[93],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["create_X_briar_thorns_on_slam",3]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Brambleslam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportBranchingFissuresPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks which create Fissures in the ground, causing them to create additional secondary Fissures which branch off from the primary fissure, with lowered area of effect and Damage.",
+    "description":"Supports Skills which create Fissures in the ground, causing them to create additional secondary Fissures which branch off from the primary fissure, with lowered area of effect and Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["Fissures"],
     "levels":[{
@@ -1362,7 +1392,7 @@
   "SupportBranchingFissuresPlayerTwo":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks which create Fissures in the ground, causing them to create additional secondary Fissures which branch off from the primary fissure, with lowered area of effect and Damage.",
+    "description":"Supports Skills which create Fissures in the ground, causing them to create additional secondary Fissures which branch off from the primary fissure, with lowered area of effect and Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["Fissures"],
     "levels":[{
@@ -1644,11 +1674,39 @@
       }],
     "support":true
   },
+  "SupportCirelsCultivationPlayer":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Skills which create Totems, preventing you from having more than one of that Totem but granting significant benefits for Supported Totems based how many allied Totems are near them. Does not Support Skills used by Minions.",
+    "excludeSkillTypes":[243],
+    "flavourText":["The oldest and greatest fortress on Wraeclast was grown, not built.","She Who Waited planted their seeds in a time of ash and snow.","Now, the gate of the Taisce is unassailable, yet open to all."],
+    "gemFamily":["TotemicControl"],
+    "ignoreMinionTypes":true,
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":15
+      }],
+    "name":"Cirel's Cultivation",
+    "requireSkillTypes":[25,96],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_greatwood_number_of_active_totems_in_base_radius_to_track",40],["support_greatwood_maximum_number_of_active_totems_in_radius_for_effects",5],["support_greatwood_life_regeneration_rate_per_minute_%_per_totem_in_radius",60],["damage_+%_final_per_totem_in_radius_from_support_greatwood",10],["area_of_effect_+%_per_totem_in_radius_from_support_greatwood",5]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Cirel's Cultivation",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["number_of_totems_allowed_is_1","supported_by_greatwood"]
+      }],
+    "support":true
+  },
   "SupportClashPlayer":{
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills. Supported Skills deal more Damage while you have a lower percentage of your Life remaining than the target struck, but less Damage when the reverse is true.",
-    "excludeSkillTypes":[6,95,25],
+    "excludeSkillTypes":[6,96,25],
     "gemFamily":["Clash"],
     "levels":[{
         "levelRequirement":0,
@@ -1696,7 +1754,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills you use yourself which Damage enemies with Hits. Supported Skills consume a percentage of your maximum Life Flask charges, inflicting more powerful Bleeding based on Life Flask charges consumed.",
-    "excludeSkillTypes":[139,6,95,25,37,122],
+    "excludeSkillTypes":[139,6,96,25,37,122],
     "gemFamily":["Concoct"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -1764,7 +1822,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills you use yourself which Damage enemies with Hits. Supported Skills consume a percentage of your maximum Life Flask charges, inflicting more powerful Bleeding based on Life Flask charges consumed.",
-    "excludeSkillTypes":[139,6,95,25,37,122],
+    "excludeSkillTypes":[139,6,96,25,37,122],
     "gemFamily":["Concoct"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2164,7 +2222,7 @@
     "addSkillTypes":[165],
     "color":1,
     "description":"Supports Melee Skills that leap into the air, causing them to create Fissures when you land. Cannot Support Totem Skills, and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[95,25],
+    "excludeSkillTypes":[96,25],
     "gemFamily":["Crater"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2197,7 +2255,7 @@
         "levelRequirement":0
       }],
     "name":"Daresso's Passion",
-    "requireSkillTypes":[88],
+    "requireSkillTypes":[89],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_glory_required_+%_final",-50]],
@@ -2215,7 +2273,7 @@
     "addSkillTypes":[194,201],
     "color":1,
     "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills cannot be used unless you have been stationary for a certain duration, but deal increasingly more damage the longer you are stationary. Cannot support Skills which have a reservation, are Triggered, have a cooldown or have another usage Condition.",
-    "excludeSkillTypes":[139,194,201,75,74,49,12,95,25,37,90,37],
+    "excludeSkillTypes":[139,194,201,75,74,49,12,96,25,37,91,37],
     "gemFamily":["Dauntless"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2443,7 +2501,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Hit Damage from Supported Skills is Lucky if you are Surrounded.",
-    "excludeSkillTypes":[139,6,95,25,37],
+    "excludeSkillTypes":[139,6,96,25,37],
     "gemFamily":["Defy"],
     "levels":[{
         "levelRequirement":0
@@ -2466,7 +2524,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Hit Damage from Supported Skills is Lucky and Insufficient Mana doesn't prevent Supported Skills from being used if you are Surrounded.",
-    "excludeSkillTypes":[139,6,95,25,37],
+    "excludeSkillTypes":[139,6,96,25,37],
     "gemFamily":["Defy"],
     "levels":[{
         "levelRequirement":0
@@ -2489,7 +2547,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. Insufficient Mana doesn't prevent Supported Skills from being used while Surrounded.",
-    "excludeSkillTypes":[139,25,95,6,37],
+    "excludeSkillTypes":[139,25,96,6,37],
     "gemFamily":["Desperation"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2833,7 +2891,7 @@
     "requireSkillTypes":[21],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_executioner_gain_two_rare_monster_mod_on_kill_ms",40000]],
+        "constantStats":[["support_executioner_gain_two_rare_monster_mod_on_kill_ms",300000]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Einhar's Beastrite",
         "levels":[{
@@ -3003,7 +3061,7 @@
   "SupportEnragedWarcryPlayer":{
     "addSkillTypes":[224],
     "color":1,
-    "description":"Supports Warcries, causing them to expend Rage to bypass their usual Cooldown.",
+    "description":"Supports Warcries, causing them to spend Rage to bypass their usual Cooldown.",
     "excludeSkillTypes":[],
     "gemFamily":["EnragedWarcry"],
     "levels":[{
@@ -3027,7 +3085,7 @@
   "SupportEnragedWarcryPlayerTwo":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Warcries, causing them to expend Rage to bypass their usual Cooldown.",
+    "description":"Supports Warcries, causing them to spend Rage to bypass their usual Cooldown.",
     "excludeSkillTypes":[],
     "gemFamily":["EnragedWarcry"],
     "levels":[{
@@ -3326,7 +3384,7 @@
     "addSkillTypes":[136,245],
     "color":1,
     "description":"Supports any Skill you use yourself which can cause Damaging Hits. Supported Skills Consume Ignite on Hit to create pillars of flame, but cannot themselves inflict Ignite. Cannot Support Skills which already Consume Ignite, and does not modify the Skills of Minions.",
-    "excludeSkillTypes":[136,245,75,74,139,95,25,37,33,36],
+    "excludeSkillTypes":[136,245,75,74,139,96,25,37,33,36],
     "gemFamily":["FlamePillar"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -3444,63 +3502,11 @@
       }],
     "support":true
   },
-  "SupportGreatwoodPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Skills which create Totems, limiting their active Totem count to one but granting significant benefits for supported Totems based on what their Totem Limit would have been without this restriction. Does not Support Skills used by Minions.",
-    "excludeSkillTypes":[243],
-    "gemFamily":["Greatwood"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":15
-      }],
-    "name":"Greatwood I",
-    "requireSkillTypes":[25,95],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_greatwood_totem_damage_+%_final_per_totem_allowed",10],["support_greatwood_totem_damage_+%_final_cap",40],["support_greatwood_totem_area_of_effect_+%_per_totem_allowed",5],["support_greatwood_totem_area_of_effect_+%_cap",20],["support_greatwood_totem_life_+%_final_per_totem_allowed",10],["support_greatwood_totem_life_+%_final_cap",40],["support_greatwood_totem_actor_scale_+%_per_totem_allowed",10],["support_greatwood_totem_actor_scale_+%_cap",40]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Greatwood I",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["number_of_totems_allowed_is_1"]
-      }],
-    "support":true
-  },
-  "SupportGreatwoodPlayerTwo":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Skills which create Totems, limiting their active Totem count to one but granting significant benefits for supported Totems based on what their Totem Limit would have been without this restriction. Does not Support Skills used by Minions.",
-    "excludeSkillTypes":[243],
-    "gemFamily":["Greatwood"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":15
-      }],
-    "name":"Greatwood II",
-    "requireSkillTypes":[25,95],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_greatwood_totem_damage_+%_final_per_totem_allowed",15],["support_greatwood_totem_damage_+%_final_cap",60],["support_greatwood_totem_life_+%_final_per_totem_allowed",15],["support_greatwood_totem_life_+%_final_cap",60],["support_greatwood_totem_actor_scale_+%_per_totem_allowed",10],["support_greatwood_totem_actor_scale_+%_cap",40],["support_greatwood_totem_area_of_effect_+%_per_totem_allowed",5],["support_greatwood_totem_area_of_effect_+%_cap",20]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Greatwood II",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["number_of_totems_allowed_is_1"]
-      }],
-    "support":true
-  },
   "SupportHaemocrystalsPlayer":{
     "addSkillTypes":[210,244],
     "color":1,
     "description":"Supports Attack Skills you use yourself which can cause Damaging Hits. Supported Skills Consume Bleeding on Hit to create explosive blood-filled crystals, but cannot themselves inflict Bleeding. Cannot Support Skills which already Consume Bleeding.",
-    "excludeSkillTypes":[210,244,75,74,139,95,25,37,33,36],
+    "excludeSkillTypes":[210,244,75,74,139,96,25,37,33,36],
     "gemFamily":["Haemocrystals"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -3570,7 +3576,7 @@
     "requireSkillTypes":[25],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_totem_life_+%_final",50],["support_hardy_totems_trigger_splinter_explosion_on_death_chance_%",100]],
+        "constantStats":[["support_totem_life_+%_final",25],["support_hardy_totems_trigger_splinter_explosion_on_death_chance_%",100]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Tawhoa's Tending",
         "levels":[{
@@ -3784,7 +3790,7 @@
   "SupportHolyDescentPlayer":{
     "addSkillTypes":[168,8,9],
     "color":1,
-    "description":"Supports Skills that leap into the air, causing them to create Consecrated Ground when you land",
+    "description":"Supports Skills that leap into the air, causing them to create Consecrated Ground when you land.",
     "excludeSkillTypes":[],
     "gemFamily":["HolyDescent"],
     "levels":[{
@@ -4391,17 +4397,17 @@
         "manaMultiplier":20
       }],
     "name":"Jagged Ground I",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_jagged_ground_base_duration_ms",4000],["support_create_jagged_ground_if_consumed_endurance_charge",1]],
+        "constantStats":[["support_consume_X_endurance_charges_on_use",1],["support_jagged_ground_base_duration_ms",4000],["support_create_jagged_ground_if_consumed_endurance_charge",1]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Jagged Ground I",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["can_create_jagged_ground","support_consume_X_endurance_charges_on_use"]
+        "stats":["can_create_jagged_ground"]
       }],
     "support":true
   },
@@ -4416,9 +4422,10 @@
         "manaMultiplier":20
       }],
     "name":"Jagged Ground II",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
+        "constantStats":[["support_jagged_ground_base_duration_ms",4000]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Jagged Ground II",
         "levels":[{
@@ -4432,7 +4439,7 @@
   "SupportKaomsMadnessPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks which create fissures in the ground, causing them to create many additional fissures at the cost of damage, attack speed, and area of effect.",
+    "description":"Supports Skills which create fissures in the ground, causing them to create many additional fissures at the cost of damage, speed, and area of effect.",
     "excludeSkillTypes":[],
     "flavourText":["As King Kaom delved further into Wraeclast, so, too, did he","draw closer to the Beast. One night, in a nightmarish fit, he","swung his axe at his own men, slaughtering hundreds."],
     "gemFamily":["Fissures"],
@@ -4444,13 +4451,33 @@
     "requireSkillTypes":[165],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["base_number_of_additional_fissures",3],["support_additional_fissures_damage_+%_final",-40],["support_additional_fissures_attack_speed_+%_final",-20],["support_upheaval_area_of_effect_+%_final",-30]],
+        "constantStats":[["base_number_of_additional_fissures",3],["support_additional_fissures_damage_+%_final",-20],["support_additional_fissures_skill_speed_+%_final",-20],["support_upheaval_area_of_effect_+%_final",-30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Kaom's Madness",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_additional_fissures_damage_+%_final":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_additional_fissures_skill_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"MORE"
+            }],
+          "support_upheaval_area_of_effect_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"AreaOfEffect",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -4632,6 +4659,31 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":["skill_grenade_detonate_only_at_end_of_duration"]
+      }],
+    "support":true
+  },
+  "SupportMarkForDeathPlayer":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Mark Skills. Enemies affected by Supported Marks will have their Armour Broken by Physical Damage they take.",
+    "excludeSkillTypes":[],
+    "gemFamily":["MarkForDeath"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Mark for Death",
+    "requireSkillTypes":[99],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["marked_target_%_physical_damage_taken_as_armour_break",10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Mark for Death",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
       }],
     "support":true
   },
@@ -4879,45 +4931,6 @@
       }],
     "support":true
   },
-  "SupportRageFountainPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Skills which create Totems. Totems created by supported Skills generate a Font of Rage which will Leech Rage to Allies within it.",
-    "excludeSkillTypes":[6,139,74],
-    "gemFamily":["Font"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Font of Rage",
-    "requireSkillTypes":[25],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["allies_in_font_of_rage_radius_leech_permyriad_of_my_physical_damage_as_rage",80],["font_of_rage_radius",40]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Font of Rage",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_rage_fountain_rage_regeneration_per_minute":{
-            "div":60,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"RageRegen",
-              "type":"BASE",
-              "1":{
-                "effectType":"Aura",
-                "type":"GlobalEffect"
-              }
-            }
-          }
-        },
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportRagePlayer":{
     "addSkillTypes":[],
     "color":1,
@@ -4963,13 +4976,26 @@
     "statSets":[{
         "baseEffectiveness":0.18000000715256,
         "baseFlags":[],
-        "constantStats":[["gain_x_rage_on_melee_hit",5],["support_rage_attack_damage_+%_final",0],["support_rage_attack_speed_+%_final_while_not_at_maximum_rage",15]],
+        "constantStats":[["gain_x_rage_on_melee_hit",5],["support_rage_attack_damage_+%_final",0],["support_rage_attack_speed_+%_while_not_at_maximum_rage",15]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Rage III",
         "levels":[{
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_rage_attack_speed_+%_while_not_at_maximum_rage":[{
+              "flags":1,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"INC",
+              "1":{
+                "neg":true,
+                "type":"Condition",
+                "var":"HaveMaximumRage"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -5003,15 +5029,15 @@
   "SupportRageforgedPlayer":{
     "addSkillTypes":[224],
     "color":1,
-    "description":"Supports any damaging skill that you use or trigger yourself, causing it to consume Rage to deal more damage. If you don't have enough Rage to consume, the damage bonus will not apply.",
-    "excludeSkillTypes":[139,33,36,25,95],
+    "description":"Supports any damaging skill that you use or trigger yourself, causing it to spend Rage to deal more damage. If you don't have enough Rage to spend, the damage bonus will not apply.",
+    "excludeSkillTypes":[139,33,36,25,96],
     "gemFamily":["RageForged"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Rageforged I",
-    "requireSkillTypes":[7,1,117],
+    "requireSkillTypes":[7,1,117,49],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_rageforged_consumes_X_rage_to_enrage_skill_use",10],["support_rageforged_enraged_damage_+%_final",35]],
@@ -5028,15 +5054,15 @@
   "SupportRageforgedPlayerTwo":{
     "addSkillTypes":[224],
     "color":1,
-    "description":"Supports any damaging skill that you use or trigger yourself, causing it to consume Rage to deal more damage, with a chance to skip consuming Rage while still benefitting as though it had. If you don't have enough Rage to consume, the damage bonus will not apply.",
-    "excludeSkillTypes":[139,33,36,25,95],
+    "description":"Supports any damaging skill that you use or trigger yourself, causing it to spend Rage to deal more damage, with a chance to skip spending Rage while still benefitting as though it had. If you don't have enough Rage to spend, the damage bonus will not apply.",
+    "excludeSkillTypes":[139,33,36,25,96],
     "gemFamily":["RageForged"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Rageforged II",
-    "requireSkillTypes":[7,1,117],
+    "requireSkillTypes":[7,1,117,49],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_rageforged_consumes_X_rage_to_enrage_skill_use",10],["support_rageforged_enraged_damage_+%_final",35],["rage_skip_consume_chance_%",30]],
@@ -5078,7 +5104,7 @@
     "addSkillTypes":[131,204],
     "color":1,
     "description":"Supports Melee Attacks you use yourself. Supported Skills Consume all Endurance Charge on use, causing you to restore a percentage of your maximum Life for each Charge Consumed.",
-    "excludeSkillTypes":[37,6,25,95,139,173,204,75,74],
+    "excludeSkillTypes":[37,6,25,96,139,173,204,75,74],
     "gemFamily":["Rally"],
     "levels":[{
         "levelRequirement":0
@@ -5109,7 +5135,7 @@
         "spiritReservationFlat":10
       }],
     "name":"Refraction I",
-    "requireSkillTypes":[88,139,5,74,74],
+    "requireSkillTypes":[89,139,5,74,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_tempered_valour_%_armour_to_apply_to_elemental_damage",20]],
@@ -5182,7 +5208,7 @@
         "spiritReservationFlat":10
       }],
     "name":"Refraction III",
-    "requireSkillTypes":[88,139,5,74,74],
+    "requireSkillTypes":[89,139,5,74,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_tempered_valour_banner_applies_%_elemental_exposure_per_1000_armour",2]],
@@ -5207,7 +5233,7 @@
         "spiritReservationFlat":10
       }],
     "name":"Refraction II",
-    "requireSkillTypes":[88,139,5,74,74],
+    "requireSkillTypes":[89,139,5,74,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_tempered_valour_%_armour_to_apply_to_elemental_damage",30]],
@@ -5320,18 +5346,19 @@
   "SupportRelentlessRagePlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Skills which can consume Rage, giving them a chance to not remove that Rage while still gaining benefits as though they had.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Grudge"],
+    "description":"Supports Skills you use yourself. On spending Rage with any skill you will gain a Buff. Using Supported Skills consumes this Buff to grant you Rage.",
+    "excludeSkillTypes":[139,37,33,36,25,37,96],
+    "gemFamily":["RelentlessRage"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":15
       }],
     "name":"Relentless Rage",
-    "requireSkillTypes":[224],
+    "requireSkillTypes":[7,1,117],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["rage_skip_consume_chance_%",35]],
+        "constantStats":[["support_relentless_rage_spending_X_rage_grants_rage_on_next_skill_use",30],["support_relentless_rage_gain_X_rage_on_skill_use_if_enough_was_spent",10]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Relentless Rage",
         "levels":[{
@@ -5346,7 +5373,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. Supported Skills gain much more damage the closer you are to being Heavily Stunned.",
-    "excludeSkillTypes":[139,6,95,25,122,37],
+    "excludeSkillTypes":[139,6,96,25,122,37],
     "gemFamily":["Retaliate"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5372,7 +5399,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. Supported Skills gain much more damage and are more capable of Stunning Enemies the closer you are to being Heavily Stunned.",
-    "excludeSkillTypes":[139,6,95,25,122,37],
+    "excludeSkillTypes":[139,6,96,25,122,37],
     "gemFamily":["Retaliate"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5405,7 +5432,7 @@
         "manaMultiplier":20
       }],
     "name":"Reverberate",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["chance_to_aftershock_+%_per_250_ms_attack_time",15]],
@@ -5423,7 +5450,7 @@
     "addSkillTypes":[183,9],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself or that you Trigger. Killing Blows with Supported Skills on Bleeding enemies create a Blood Remnant. Blood Remnants increase your Life regeneration rate for a short while after being collected.",
-    "excludeSkillTypes":[139,6,95,25],
+    "excludeSkillTypes":[139,6,96,25],
     "gemFamily":["Rip"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5690,7 +5717,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Channelling Skills you use yourself, granting you higher Stun Threshold while Channelling them.",
-    "excludeSkillTypes":[139,6,95,37],
+    "excludeSkillTypes":[139,6,96,37],
     "gemFamily":["Steadfast"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5716,7 +5743,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Channelling Skills you use yourself, granting you higher Stun Threshold and Ailment Threshold  while Channelling them.",
-    "excludeSkillTypes":[139,6,95,37],
+    "excludeSkillTypes":[139,6,96,37],
     "gemFamily":["Steadfast"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5742,7 +5769,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Supported Skills steadily gain more Damage, up to a cap. This Damage bonus is reset if you Dodge Roll or use a Travel Skill.",
-    "excludeSkillTypes":[139,95,33,36,37],
+    "excludeSkillTypes":[139,96,33,36,37],
     "gemFamily":["Stoicism"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5767,7 +5794,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Supported Skills steadily gain more Damage, up to a cap. This Damage bonus is reset if you Dodge Roll or use a Travel Skill.",
-    "excludeSkillTypes":[139,95,33,36,37],
+    "excludeSkillTypes":[139,96,33,36,37],
     "gemFamily":["Stoicism"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5923,13 +5950,13 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slam Skills you use yourself. Hits from Supported Skills are considered Crushing Blows against Enemies which are both Ignited and Fully Armour Broken. Hits with Supported Skills that Heavily Stun Ignited and Fully Armour Broken Enemies will Intimidate them.",
-    "excludeSkillTypes":[139,6,95,25,37],
+    "excludeSkillTypes":[139,6,96,25,37],
     "gemFamily":["Syzygy"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Syzygy",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
@@ -5946,7 +5973,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attacks you use yourself or that you Trigger. On-Kill effects caused by Killing Blows with Supported Skills on Bleeding enemies have a chance to occur twice.",
-    "excludeSkillTypes":[139,6,95,25],
+    "excludeSkillTypes":[139,6,96,25],
     "gemFamily":["Tear"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5974,6 +6001,7 @@
     "description":"Supports Persistent Buff Skills, causing you to deal increased Thorns Damage while the Supported Skill is active.",
     "excludeSkillTypes":[],
     "gemFamily":["Thornskin"],
+    "isLineage":true,
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":20
@@ -6012,6 +6040,7 @@
     "description":"Supports Persistent Buff Skills, causing you to deal increased Thorns Damage while the Supported Skill is active.",
     "excludeSkillTypes":[],
     "gemFamily":["Thornskin"],
+    "isLineage":true,
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":40
@@ -6074,13 +6103,13 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slam Skills you use yourself. Supported Skills gain multiple independent chances to cause Aftershocks, but deal less Damage.",
-    "excludeSkillTypes":[139,6,95,37],
+    "excludeSkillTypes":[139,6,96,37],
     "gemFamily":["Tremors"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Tremors",
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[93],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_slam_chance_for_one_additional_aftershock_%",30],["support_slam_chance_for_two_additional_aftershocks_%",15],["support_slam_chance_for_three_additional_aftershocks_%",10],["support_unstable_earth_damage_+%_final",-35]],
@@ -6238,7 +6267,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. While using Supported Skills, you gain increased Armour, with the increase scaling higher the longer the Attack time of the supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,6,95,25,48,37],
+    "excludeSkillTypes":[139,6,96,25,48,37],
     "gemFamily":["Unabating"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -6288,7 +6317,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. Attacking with Supported Skills will cycle through various effects, with the first Attack in sequence inflicting Hobble on you. The second and third Attacks in sequence will powerfully scale chance to Critically Hit and overall damage, respectively, at which point the cycle will reset. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,95,25,37,48],
+    "excludeSkillTypes":[139,96,25,37,48],
     "gemFamily":["UnsteadyTempo"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -6299,7 +6328,6 @@
     "requireSkillTypes":[20,1,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["unsteady_tempo_evasion_broken_as_%_of_life_on_first_hit",40],["unsteady_tempo_critical_strike_chance_+%_final_on_second_hit",30],["unsteady_tempo_damage_+%_final_on_third_hit",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Unsteady Tempo",
         "levels":[{
@@ -6314,7 +6342,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. While using Supported Skills, a percentage of Damage taken is Recouped as Life, with the percentage scaling higher the longer the Attack time of the Supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,6,95,25,48,37],
+    "excludeSkillTypes":[139,6,96,25,48,37],
     "gemFamily":["Unyielding"],
     "levels":[{
         "levelRequirement":0,
@@ -6338,7 +6366,7 @@
   "SupportUpheavalPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks which create fissures in the ground, causing them to create an additional fissure at the cost of damage and attack speed.",
+    "description":"Supports Skills which create fissures in the ground, causing them to create an additional fissure at the cost of damage and speed.",
     "excludeSkillTypes":[],
     "gemFamily":["Fissures"],
     "levels":[{
@@ -6348,7 +6376,7 @@
     "requireSkillTypes":[165],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["base_number_of_additional_fissures",1],["support_additional_fissures_damage_+%_final",-20],["support_additional_fissures_attack_speed_+%_final",-20]],
+        "constantStats":[["base_number_of_additional_fissures",1],["support_additional_fissures_damage_+%_final",-20],["support_additional_fissures_skill_speed_+%_final",-20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Upheaval I",
         "levels":[{
@@ -6356,16 +6384,16 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_additional_fissures_attack_speed_+%_final":[{
-              "flags":1,
-              "keywordFlags":0,
-              "name":"Speed",
-              "type":"MORE"
-            }],
           "support_additional_fissures_damage_+%_final":[{
               "flags":4,
               "keywordFlags":0,
               "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_additional_fissures_skill_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Speed",
               "type":"MORE"
             }]
         },
@@ -6376,7 +6404,7 @@
   "SupportUpheavalPlayerTwo":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks which create fissures in the ground, causing them to create additional fissures at the cost of damage and attack speed.",
+    "description":"Supports Skills which create fissures in the ground, causing them to create additional fissures at the cost of damage and speed.",
     "excludeSkillTypes":[],
     "gemFamily":["Fissures"],
     "levels":[{
@@ -6386,7 +6414,7 @@
     "requireSkillTypes":[165],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["base_number_of_additional_fissures",2],["support_additional_fissures_damage_+%_final",-40],["support_additional_fissures_attack_speed_+%_final",-20]],
+        "constantStats":[["base_number_of_additional_fissures",2],["support_additional_fissures_damage_+%_final",-40],["support_additional_fissures_skill_speed_+%_final",-20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Upheaval II",
         "levels":[{
@@ -6394,16 +6422,16 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_additional_fissures_attack_speed_+%_final":[{
-              "flags":1,
-              "keywordFlags":0,
-              "name":"Speed",
-              "type":"MORE"
-            }],
           "support_additional_fissures_damage_+%_final":[{
               "flags":4,
               "keywordFlags":0,
               "name":"Damage",
+              "type":"MORE"
+            }],
+          "support_additional_fissures_skill_speed_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Speed",
               "type":"MORE"
             }]
         },
@@ -6421,7 +6449,7 @@
         "levelRequirement":0
       }],
     "name":"Urgent Totems I",
-    "requireSkillTypes":[25,95],
+    "requireSkillTypes":[25,96],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["summon_totem_cast_speed_+%",80]],
@@ -6445,7 +6473,7 @@
         "levelRequirement":0
       }],
     "name":"Urgent Totems III",
-    "requireSkillTypes":[25,95],
+    "requireSkillTypes":[25,96],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["summon_totem_cast_speed_+%",100],["totem_skill_cast_speed_+%",20],["totem_skill_attack_speed_+%",20]],
@@ -6469,7 +6497,7 @@
         "levelRequirement":0
       }],
     "name":"Urgent Totems II",
-    "requireSkillTypes":[25,95],
+    "requireSkillTypes":[25,96],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["summon_totem_cast_speed_+%",100]],
@@ -6495,10 +6523,10 @@
         "levelRequirement":0
       }],
     "name":"Uruk's Smelting",
-    "requireSkillTypes":[2,1,7,117,49,225],
+    "requireSkillTypes":[],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_demolisher_physical_damage_taken_+%_on_fully_armour_breaking_up_to_20%",2],["support_increased_armour_break_armour_break_amount_+%_final",70]],
+        "constantStats":[["support_demolisher_physical_damage_taken_+%_on_fully_armour_breaking_up_to_20%",5],["support_increased_armour_break_armour_break_amount_+%_final",70]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Uruk's Smelting",
         "levels":[{
@@ -6525,7 +6553,7 @@
     "requireSkillTypes":[7,1],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["non_skill_base_physical_damage_%_to_gain_as_chaos",20],["chaos_damage_%_dealt_as_armour_break",20]],
+        "constantStats":[["non_skill_base_physical_damage_%_to_gain_as_chaos",40],["chaos_damage_%_dealt_as_armour_break",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Uul-Netol's Embrace",
         "levels":[{
@@ -6674,7 +6702,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Strike Skills you use yourself. Supported Skills trigger Volcanic Eruption on Hit against Ignited Enemies.",
-    "excludeSkillTypes":[139,6,25,95,37],
+    "excludeSkillTypes":[139,6,25,96,37],
     "gemFamily":["VolcanicEruption"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -6712,7 +6740,7 @@
     "requireSkillTypes":[7,1],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["non_skill_base_fire_damage_%_to_gain_as_chaos",20]],
+        "constantStats":[["non_skill_base_fire_damage_%_to_gain_as_chaos",40]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Xoph's Pyre",
         "levels":[{
@@ -6738,6 +6766,8 @@
       "27":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
@@ -6750,6 +6780,46 @@
           }],
         "statDescriptionScope":"triggered_battershout_explosion",
         "stats":["is_area_damage","cannot_break_armour","is_warcry"]
+      }]
+  },
+  "TriggeredBrambleslamPlayer":{
+    "castTime":1,
+    "description":"Hazardous thorns damage and Maim enemies with which they come in contact.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":0.15,
+        "levelRequirement":0,
+        "storedUses":6
+      }],
+    "name":"Brambles",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "7":true,
+      "8":true,
+      "27":true,
+      "31":true,
+      "37":true,
+      "50":true,
+      "83":true,
+      "91":true,
+      "115":true,
+      "203":true,
+      "218":true,
+      "252":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",10],["triggered_by_briarpatch_support_on_slam_%",100],["base_skill_effect_duration",8000],["briarpatches_arming_time_ms",400],["active_skill_has_%_standard_scaling_attack_damage",35],["ice_crystals_hazard_damage_+%_final_for_first_500_ms_when_not_killed_by_self",-80],["plant_skill_damage_+%_final_when_wet",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Brambles",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"triggered_briar_patch",
+        "stats":["is_hazard","global_maim_on_hit","additive_thorns_damage_modifiers_apply_to_attack_damage"]
       }]
   },
   "TriggeredCraterPlayer":{
@@ -6769,6 +6839,8 @@
       "28":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true,
       "144":true,
       "165":true
@@ -6787,7 +6859,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"triggered_fissure_on_landing",
-        "stats":["is_area_damage"]
+        "stats":["is_area_damage","shapeshift_ignore_form_check","ignore_talisman_inherent_form_restriction","usable_with_talisman","usable_while_shapeshifted"]
       }]
   },
   "TriggeredFlamePillarPlayer":{
@@ -6804,6 +6876,8 @@
       "28":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
@@ -6833,6 +6907,8 @@
       "27":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
@@ -6867,6 +6943,9 @@
       "27":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
+      "91":true,
       "115":true
     },
     "statSets":[{
@@ -6900,7 +6979,9 @@
       "9":true,
       "31":true,
       "37":true,
+      "50":true,
       "77":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
@@ -6955,7 +7036,9 @@
       "9":true,
       "31":true,
       "37":true,
+      "50":true,
       "77":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
@@ -7007,13 +7090,15 @@
       "27":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
       "115":true
     },
     "statSets":[{
         "baseFlags":{
           "area":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",30],["triggered_on_death_%",100],["base_physical_damage_equal_to_%_of_totem_life",10],["skill_disabled_unless_cloned",1]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",30],["triggered_on_death_%",100],["base_physical_damage_equal_to_%_of_totem_life",20],["skill_disabled_unless_cloned",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Tawhoa's Vengeance",
         "levels":[{
@@ -7042,6 +7127,9 @@
       "28":true,
       "31":true,
       "37":true,
+      "50":true,
+      "83":true,
+      "91":true,
       "115":true,
       "176":true,
       "218":true

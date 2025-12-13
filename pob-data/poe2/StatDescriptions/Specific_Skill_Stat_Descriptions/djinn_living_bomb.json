@@ -1,0 +1,43 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "living_bomb_base_number_of_bombs_allowed":3,
+  "living_bomb_number_of_bombs_allowed":4,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["living_bomb_base_number_of_bombs_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Limit {0} active Brands"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Limit {0} active Brands"
+      }]
+  },
+  "4":{
+    "stats":["living_bomb_number_of_bombs_allowed"],
+    "1":[]
+  }
+}

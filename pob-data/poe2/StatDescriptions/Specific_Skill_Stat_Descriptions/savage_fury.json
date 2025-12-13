@@ -1,0 +1,82 @@
+{
+  "base_skill_effect_duration":3,
+  "skill_effect_duration":8,
+  "wild_beast_attack_speed_+%":5,
+  "wild_beast_damage_+%_final":4,
+  "wild_beast_energy_per_hit":1,
+  "wild_beast_life_lost_%_per_minute_nonlethal":7,
+  "wild_beast_maximum_energy":2,
+  "wild_beast_movement_speed_+%":6,
+  "1":{
+    "stats":["wild_beast_energy_per_hit"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Gain 1 Fury on Attack Hit, no\nmore than once per Skill use"
+      }]
+  },
+  "2":{
+    "stats":["wild_beast_maximum_energy"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0} maximum Fury"
+      }]
+  },
+  "3":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Buff duration is {0} second per Fury",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Buff duration is {0} seconds per Fury",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["wild_beast_damage_+%_final"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Buff grants {0}% more damage"
+      },{
+        "limit":[[1,"#"]],
+        "text":"Buff grants Onslaught and {0}% more damage"
+      }]
+  },
+  "5":{
+    "stats":["wild_beast_attack_speed_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Buff grants {0}% increased Attack speed"
+      }]
+  },
+  "6":{
+    "stats":["wild_beast_movement_speed_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Buff grants {0}% increased movement speed"
+      }]
+  },
+  "7":{
+    "stats":["wild_beast_life_lost_%_per_minute_nonlethal"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Buff causes you to lose {0}% of maximum Life per second",
+        "1":{
+          "k":"per_minute_to_per_second_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "8":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  }
+}

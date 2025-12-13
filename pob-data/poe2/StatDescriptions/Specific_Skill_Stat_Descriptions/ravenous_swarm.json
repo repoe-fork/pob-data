@@ -5,7 +5,7 @@
   "minion_duration":4,
   "parent":"skill_stat_descriptions",
   "ravenous_swarm_create_new_swarm_every_X_ms":5,
-  "ravenous_swarm_maximum_swarm_count":6,
+  "virtual_ravenous_swarm_maximum_swarm_count":6,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -70,7 +70,7 @@
       }]
   },
   "6":{
-    "stats":["ravenous_swarm_maximum_swarm_count"],
+    "stats":["virtual_ravenous_swarm_maximum_swarm_count"],
     "1":[{
         "limit":[[1,1]],
         "text":"Limit {0} active Swarm"

@@ -1,0 +1,80 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "apply_X_stacks_of_critical_weakness_on_hit":3,
+  "djinn_hand_slam_area_of_effect_+%_final_per_additional_stage":4,
+  "djinn_hand_slam_damage_+%_final_per_additional_stage":5,
+  "parent":"skill_stat_descriptions",
+  "sand_djinn_hand_slam_maximum_number_of_stages":6,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Shockwave length@{0}m",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Shockwave length is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Shockwave length is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["apply_X_stacks_of_critical_weakness_on_hit"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Inflicts {0} additional Critical Weakness on Hit"
+      }]
+  },
+  "4":{
+    "stats":["djinn_hand_slam_area_of_effect_+%_final_per_additional_stage"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more area of effect per stage"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% less area of effect per stage",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["djinn_hand_slam_damage_+%_final_per_additional_stage"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more Damage with Hits for each stage"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% less Damage with Hits for each stage",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "6":{
+    "stats":["sand_djinn_hand_slam_maximum_number_of_stages"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0} maximum stages"
+      }]
+  }
+}

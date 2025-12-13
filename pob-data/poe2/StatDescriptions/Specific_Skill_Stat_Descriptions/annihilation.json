@@ -1,0 +1,55 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "annihilation_blast_duration_ms":4,
+  "annihilation_hit_intervals":4,
+  "display_annihilation_tag_conversion":5,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_base_area_of_effect_radius"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["annihilation_hit_intervals","annihilation_blast_duration_ms"],
+    "1":[{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Hits a total of {0} times over {1} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      }]
+  },
+  "5":{
+    "stats":["display_annihilation_tag_conversion"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"100% of Physical Damage Converted to other Damage Types matching the Supported Curse Gem's Tags",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  }
+}

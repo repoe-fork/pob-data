@@ -1,0 +1,74 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "damage_per_bloodstone_lance_+%_final":3,
+  "parent":"skill_stat_descriptions",
+  "shattering_spite_%_of_presence_radius":7,
+  "shattering_spite_area_+%_per_lance_with_at_least_5_lances":4,
+  "shattering_spite_life_leech_%_with_10_lances":5,
+  "skill_specific_stat_description_mode":6,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Explosion radius@{0}m",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["damage_per_bloodstone_lance_+%_final"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Explosions deal {0}% more Damage per Bloodstone Lance"
+      }]
+  },
+  "4":{
+    "stats":["shattering_spite_area_+%_per_lance_with_at_least_5_lances"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Explosions with at least 5 Bloodstone Lances have {0}% increased Area of Effect per Bloodstone Lance"
+      }]
+  },
+  "5":{
+    "stats":["shattering_spite_life_leech_%_with_10_lances"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Leech {0}% of Physical Attack Damage as Life from Explosions with at least 10 Bloodstone Lances"
+      }]
+  },
+  "6":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Life Leech from Explosions with at least 15 Bloodstone Lances is instant"
+      }]
+  },
+  "7":{
+    "stats":["shattering_spite_%_of_presence_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Bloodstone Lances are shattered based on {0}% of your Presence area"
+      }]
+  }
+}

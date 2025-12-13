@@ -1,0 +1,67 @@
+{
+  "active_skill_area_of_effect_radius":3,
+  "active_skill_base_area_of_effect_radius":4,
+  "active_skill_base_physical_damage_%_to_convert_to_lightning":5,
+  "herald_of_thunder_storm_max_hits":1,
+  "parent":"specific_skill_stat_descriptions/herald_of_thunder_statset_0",
+  "thunderfist_bolt_delay_ms":2,
+  "thunderfist_number_of_bolts_delays":2,
+  "1":{
+    "stats":["herald_of_thunder_storm_max_hits"]
+  },
+  "2":{
+    "stats":["thunderfist_number_of_bolts_delays","thunderfist_bolt_delay_ms"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[0,0],["#",-1]],
+        "text":"-{1} seconds to bolt cooldown",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      },{
+        "limit":[[1,1],[1,"#"]],
+        "text":"Creates a bolt of lightning when you Hit with Unarmed Melee damage, no more than {0} time every {1} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      },{
+        "limit":[[2,"#"],[1,"#"]],
+        "text":"Creates a bolt of lightning when you Hit with Unarmed Melee damage, no more than {0} times every {1} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":2
+        }
+      }]
+  },
+  "3":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "4":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Bolt impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Bolt impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["active_skill_base_physical_damage_%_to_convert_to_lightning"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% of Bolt Physical Damage\nConverted to Lightning Damage"
+      }]
+  }
+}
