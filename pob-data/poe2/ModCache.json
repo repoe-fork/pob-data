@@ -142,13 +142,6 @@
         "type":"BASE",
         "value":0
       }]],
-  "+0.15% to Thorns Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":0.15
-      }]," Thorns  "],
   "+0.15% to Thorns Critical Hit Chance +25% to Thorns Critical Hit Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -156,6 +149,13 @@
         "type":"BASE",
         "value":0.15
       }]," Thorns  +25% to Thorns Critical Hit Chance "],
+  "+0.2% to Thorns Critical Hit Chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":0.2
+      }]," Thorns  "],
   "+0.5 metres to Dodge Roll distance while Surrounded":[[]," metres to Dodge Roll distance  "],
   "+0.5 metres to Dodge Roll distance while Surrounded 10% increased Movement Speed while Surrounded":[[{
         "flags":0,
@@ -1228,13 +1228,6 @@
         "type":"BASE",
         "value":13
       }]],
-  "+13% to Block chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BlockChance",
-        "type":"BASE",
-        "value":13
-      }]],
   "+13% to Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1613,6 +1606,13 @@
         "type":"BASE",
         "value":175
       }]],
+  "+18% to Block chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChance",
+        "type":"BASE",
+        "value":18
+      }]],
   "+18% to Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1805,7 +1805,7 @@
           "value":2
         }
       }]],
-  "+2 to Level of all Withering Presence Skills":[[{
+  "+2 to Level of all Wolf Pack Skills":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"GemProperty",
@@ -1813,7 +1813,7 @@
         "value":{
           "key":"level",
           "keyOfScaledMod":"value",
-          "keyword":"withering presence",
+          "keyword":"wolf pack",
           "value":2
         }
       }]],
@@ -2000,42 +2000,6 @@
         "type":"BASE",
         "value":20
       }]],
-  "+20 to Spirit while you have at least 200 Dexterity":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Spirit",
-        "type":"BASE",
-        "value":20,
-        "1":{
-          "stat":"Dex",
-          "threshold":200,
-          "type":"StatThreshold"
-        }
-      }]],
-  "+20 to Spirit while you have at least 200 Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Spirit",
-        "type":"BASE",
-        "value":20,
-        "1":{
-          "stat":"Int",
-          "threshold":200,
-          "type":"StatThreshold"
-        }
-      }]],
-  "+20 to Spirit while you have at least 200 Strength":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Spirit",
-        "type":"BASE",
-        "value":20,
-        "1":{
-          "stat":"Str",
-          "threshold":200,
-          "type":"StatThreshold"
-        }
-      }]],
   "+20 to Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2191,13 +2155,6 @@
         "type":"BASE",
         "value":202
       }]],
-  "+218 to maximum Mana":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Mana",
-        "type":"BASE",
-        "value":218
-      }]],
   "+23 to Dexterity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2295,6 +2252,42 @@
         "name":"Spirit",
         "type":"BASE",
         "value":25
+      }]],
+  "+25 to Spirit while you have at least 200 Dexterity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Spirit",
+        "type":"BASE",
+        "value":25,
+        "1":{
+          "stat":"Dex",
+          "threshold":200,
+          "type":"StatThreshold"
+        }
+      }]],
+  "+25 to Spirit while you have at least 200 Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Spirit",
+        "type":"BASE",
+        "value":25,
+        "1":{
+          "stat":"Int",
+          "threshold":200,
+          "type":"StatThreshold"
+        }
+      }]],
+  "+25 to Spirit while you have at least 200 Strength":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Spirit",
+        "type":"BASE",
+        "value":25,
+        "1":{
+          "stat":"Str",
+          "threshold":200,
+          "type":"StatThreshold"
+        }
       }]],
   "+25 to Strength":[[{
         "flags":0,
@@ -2599,6 +2592,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Arctic Howl Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"arctic howl",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Armour Breaker Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2656,6 +2661,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"ball lightning",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Barkskin Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"barkskin",
           "value":3
         }
       }]],
@@ -2788,6 +2805,30 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"bonestorm",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Briarpatch Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"briarpatch",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Cackling Companions Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"cackling companions",
           "value":3
         }
       }]],
@@ -2959,6 +3000,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Cross Slash Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"cross slash",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Cull The Weak Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -3028,6 +3081,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"detonating arrow",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Devour Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"devour",
           "value":3
         }
       }]],
@@ -3187,6 +3252,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Entangle Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"entangle",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Escape Shot Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -3208,6 +3285,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"essence drain",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Eternal Rage Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"eternal rage",
           "value":3
         }
       }]],
@@ -3283,6 +3372,30 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Feral Invocation Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"feral invocation",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Ferocious Roar Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"ferocious roar",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Fire Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -3316,6 +3429,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"firestorm",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Flame Breath Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"flame breath",
           "value":3
         }
       }]],
@@ -3496,6 +3621,30 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"frozen locus",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Furious Slam Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"furious slam",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Fury of the Mountain Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"fury of the mountain",
           "value":3
         }
       }]],
@@ -3955,6 +4104,30 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Lunar Assault Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"lunar assault",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Lunar Blessing Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"lunar blessing",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Magma Barrier Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4063,6 +4236,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Molten Crash Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"molten crash",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Mortar Cannon Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4072,6 +4257,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"mortar cannon",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Oil Barrage Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"oil barrage",
           "value":3
         }
       }]],
@@ -4183,6 +4380,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Pounce Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"pounce",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Primal Strikes Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4255,6 +4464,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Rampage Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"rampage",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Rapid Assault Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4303,6 +4524,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Rend Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"rend",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Resonating Shield Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4312,6 +4545,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"resonating shield",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Rolling Magma Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"rolling magma",
           "value":3
         }
       }]],
@@ -4687,6 +4932,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Spell Totem Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"spell totem",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Spiral Volley Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4867,6 +5124,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Thrashing Vines Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"thrashing vines",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Thunderous Leap Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4876,6 +5145,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"thunderous leap",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Thunderstorm Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"thunderstorm",
           "value":3
         }
       }]],
@@ -4900,6 +5181,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"tornado shot",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Tornado Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"tornado",
           "value":3
         }
       }]],
@@ -5008,6 +5301,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"volcanic fissure",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Volcano Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"volcano",
           "value":3
         }
       }]],
@@ -5143,6 +5448,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Wing Blast Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"wing blast",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Withering Presence Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5152,6 +5469,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"withering presence",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Wolf Pack Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"wolf pack",
           "value":3
         }
       }]],
@@ -5409,6 +5738,13 @@
         "name":"Life",
         "type":"BASE",
         "value":300
+      }]],
+  "+308 to maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"BASE",
+        "value":308
       }]],
   "+33 to maximum Life per Socket filled":[[{
         "flags":0,
@@ -6363,6 +6699,21 @@
         "type":"BASE",
         "value":50
       }]],
+  "+50% Surpassing chance to fire an additional Arrow":[[]," Surpassing chance to fire an additional Arrow "],
+  "+50% Surpassing chance to fire an additional Arrow 172% increased Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"BASE",
+        "value":50
+      }]," Surpassing chance to fire an additional Arrow 172% increased  "],
+  "+50% Surpassing chance to fire an additional Arrow Adds 53 to 86 Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireDamage",
+        "type":"BASE",
+        "value":50
+      }]," Surpassing chance to fire an additional Arrow Adds 53 to 86  "],
   "+50% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7517,18 +7868,6 @@
           "type":"PerStat"
         }
       }]],
-  "1% increased Cast Speed per 20 Spirit":[[{
-        "flags":16,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":1,
-        "1":{
-          "div":20,
-          "stat":"Spirit",
-          "type":"PerStat"
-        }
-      }]],
   "1% increased Cooldown Recovery Rate per 10 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8601,7 +8940,7 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -9170,6 +9509,13 @@
           "stat":"Spirit",
           "type":"PerStat"
         }
+      }]],
+  "10% increased Spirit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Spirit",
+        "type":"INC",
+        "value":10
       }]],
   "10% increased Spirit Reservation Efficiency of Skills":[[{
         "flags":0,
@@ -10076,6 +10422,14 @@
         "type":"INC",
         "value":100
       }]],
+  "100% increased Magnitude of Abyssal Wasting you inflict":[[]," Magnitude of Abyssal Wasting you inflict "],
+  "100% increased Magnitude of Abyssal Wasting you inflict Abyssal Wasting you inflict has Infinite Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":100
+      }]," Magnitude of Abyssal Wasting you inflict Abyssal Wasting you inflict has Infinite  "],
   "100% increased Mana Regeneration Rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10579,7 +10933,7 @@
         "type":"INC",
         "value":12,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -10864,13 +11218,6 @@
         "1":{
           "type":"Global"
         }
-      }]],
-  "12% of Damage is taken from Mana before Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTakenFromManaBeforeLife",
-        "type":"BASE",
-        "value":12
       }]],
   "12% reduced Movement Speed Penalty from using Skills while moving":[[{
         "flags":0,
@@ -11227,13 +11574,6 @@
         "type":"INC",
         "value":14
       }]],
-  "14% increased Skill Effect Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":14
-      }]],
   "14% increased speed of Recoup Effects":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11252,6 +11592,13 @@
           "var":"KilledRecently"
         }
       }]," speed of Recoup s Recover 4% of maximum Life ing a Poisoned Enemy "],
+  "14% of Damage is taken from Mana before Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTakenFromManaBeforeLife",
+        "type":"BASE",
+        "value":14
+      }]],
   "140% increased Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13096,6 +13443,34 @@
         "type":"INC",
         "value":160
       }]],
+  "169% increased Cold Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdDamage",
+        "type":"INC",
+        "value":169
+      }]],
+  "169% increased Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireDamage",
+        "type":"INC",
+        "value":169
+      }]],
+  "169% increased Lightning Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningDamage",
+        "type":"INC",
+        "value":169
+      }]],
+  "169% increased Spell Damage":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":169
+      }]],
   "172% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13130,6 +13505,13 @@
         "name":"PhysicalDamage",
         "type":"INC",
         "value":175
+      }]],
+  "18% increased Area of Effect for Attacks":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":18
       }]],
   "18% increased Armour":[[{
         "flags":0,
@@ -13240,13 +13622,6 @@
         "name":"HybridManaAndLifeCost_Life",
         "type":"BASE",
         "value":18
-      }]],
-  "180% increased Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":180
       }]],
   "19% increased Cast Speed":[[{
         "flags":16,
@@ -13372,6 +13747,18 @@
         "name":"Speed",
         "type":"INC",
         "value":2
+      }]],
+  "2% increased Cast Speed per 20 Spirit":[[{
+        "flags":16,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":2,
+        "1":{
+          "div":20,
+          "stat":"Spirit",
+          "type":"PerStat"
+        }
       }]],
   "2% increased Curse Magnitudes":[[{
         "flags":0,
@@ -14346,7 +14733,7 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -15411,20 +15798,6 @@
         "type":"BASE",
         "value":20
       }]],
-  "20% of Life Leeched from targets affected by Abyssal Wasting is Instant":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"BASE",
-        "value":20
-      }],"  Leeched from targets affected by Abyssal Wasting is Instant "],
-  "20% of Life Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Lightning Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"BASE",
-        "value":20
-      }],"  Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Lightning Resistance "],
   "20% of Lightning Damage taken as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15432,20 +15805,6 @@
         "type":"BASE",
         "value":20
       }]],
-  "20% of Mana Leeched from targets affected by Abyssal Wasting is Instant":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Mana",
-        "type":"BASE",
-        "value":20
-      }],"  Leeched from targets affected by Abyssal Wasting is Instant "],
-  "20% of Mana Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Cold Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Mana",
-        "type":"BASE",
-        "value":20
-      }],"  Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Cold Resistance "],
   "20% of Physical Damage taken Recouped as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17502,6 +17861,13 @@
           "var":"Surrounded"
         }
       }],"  taken reflected to Attacker Regenerate 5% of maximum Life per second  "],
+  "253% increased Spell Damage":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":253
+      }]],
   "26% reduced Charges per use":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18127,20 +18493,6 @@
         "type":"INC",
         "value":30
       }]],
-  "30% increased Accuracy Rating against Enemies affected by Abyssal Wasting":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Accuracy",
-        "type":"INC",
-        "value":30
-      }],"  against Enemies affected by Abyssal Wasting "],
-  "30% increased Accuracy Rating against Enemies affected by Abyssal Wasting 20% of Mana Leeched from targets affected by Abyssal Wasting is Instant":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Accuracy",
-        "type":"INC",
-        "value":30
-      }],"  against Enemies affected by Abyssal Wasting 20% of Mana Leeched from targets affected by Abyssal Wasting is Instant "],
   "30% increased Accuracy Rating against Rare or Unique Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18750,6 +19102,13 @@
         "value":30
       }]],
   "30% increased Hazard Immobilisation buildup":[[],"  Immobilisation buildup "],
+  "30% increased Ignite Magnitude":[[{
+        "flags":0,
+        "keywordFlags":8388608,
+        "name":"AilmentMagnitude",
+        "type":"INC",
+        "value":30
+      }]],
   "30% increased Life Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18766,17 +19125,6 @@
         "1":{
           "type":"Condition",
           "var":"UsingLifeFlask"
-        }
-      }]],
-  "30% increased Life Regeneration rate while Surrounded":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegen",
-        "type":"INC",
-        "value":30,
-        "1":{
-          "type":"Condition",
-          "var":"Surrounded"
         }
       }]],
   "30% increased Light Radius":[[{
@@ -19329,20 +19677,6 @@
         "type":"INC",
         "value":30
       }]],
-  "30% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AilmentChance",
-        "type":"INC",
-        "value":30
-      }],"  against Enemies affected by Abyssal Wasting "],
-  "30% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting 20% of Life Leeched from targets affected by Abyssal Wasting is Instant":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AilmentChance",
-        "type":"INC",
-        "value":30
-      }],"  against Enemies affected by Abyssal Wasting 20% of Life Leeched from targets affected by Abyssal Wasting is Instant "],
   "30% increased chance to inflict Ailments against Rare or Unique Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19475,6 +19809,34 @@
           "var":"UsingFlask"
         }
       }],"   Recouped as Life Gain 5 Rage when Hit by an Enemy  "],
+  "30% of Life Leeched from targets affected by Abyssal Wasting is Instant":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":30
+      }],"  Leeched from targets affected by Abyssal Wasting is Instant "],
+  "30% of Life Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Lightning Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":30
+      }],"  Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Lightning Resistance "],
+  "30% of Mana Leeched from targets affected by Abyssal Wasting is Instant":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"BASE",
+        "value":30
+      }],"  Leeched from targets affected by Abyssal Wasting is Instant "],
+  "30% of Mana Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Cold Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"BASE",
+        "value":30
+      }],"  Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Cold Resistance "],
   "30% of Physical damage from Hits taken as Lightning damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20410,6 +20772,20 @@
         "type":"INC",
         "value":40
       }]],
+  "40% increased Accuracy Rating against Enemies affected by Abyssal Wasting":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Accuracy",
+        "type":"INC",
+        "value":40
+      }],"  against Enemies affected by Abyssal Wasting "],
+  "40% increased Accuracy Rating against Enemies affected by Abyssal Wasting 30% of Mana Leeched from targets affected by Abyssal Wasting is Instant":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Accuracy",
+        "type":"INC",
+        "value":40
+      }],"  against Enemies affected by Abyssal Wasting 30% of Mana Leeched from targets affected by Abyssal Wasting is Instant "],
   "40% increased Ailment and Stun Threshold while Surrounded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20981,6 +21357,17 @@
           "var":"LowLife"
         }
       }]],
+  "40% increased Life Regeneration rate while Surrounded":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegen",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"Surrounded"
+        }
+      }]],
   "40% increased Life and Mana Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21291,6 +21678,20 @@
         "type":"INC",
         "value":40
       }]],
+  "40% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":40
+      }],"  against Enemies affected by Abyssal Wasting "],
+  "40% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":40
+      }],"  against Enemies affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant "],
   "40% increased effect of Arcane Surge on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23832,20 +24233,6 @@
           "type":"StatThreshold"
         }
       }]],
-  "6% increased Spirit":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Spirit",
-        "type":"INC",
-        "value":6
-      }]],
-  "6% increased Spirit Reservation Efficiency of Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpiritReservationEfficiency",
-        "type":"INC",
-        "value":6
-      }]],
   "6% increased Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24146,14 +24533,6 @@
         "type":"INC",
         "value":60
       }]],
-  "60% increased Magnitude of Abyssal Wasting you inflict":[[]," Magnitude of Abyssal Wasting you inflict "],
-  "60% increased Magnitude of Abyssal Wasting you inflict Abyssal Wasting you inflict has Infinite Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":60
-      }]," Magnitude of Abyssal Wasting you inflict Abyssal Wasting you inflict has Infinite  "],
   "60% increased Mana Cost Efficiency of Marks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24161,7 +24540,7 @@
         "type":"INC",
         "value":60,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -24952,7 +25331,7 @@
         "type":"INC",
         "value":8,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -25689,7 +26068,7 @@
   "A maximum of one Modifer can be granted this way":[null,"A maximum of one Modifer can be granted this way "],
   "A maximum of one Modifer can be granted this way Grants Skill: Ritual Sacrifice":[null,"A maximum of one Modifer can be granted this way Grants Skill: Ritual Sacrifice "],
   "Abyssal Wasting also applies % to Cold Resistance":[null,"Abyssal Wasting also applies % to Cold Resistance "],
-  "Abyssal Wasting also applies % to Cold Resistance 25% increased Magnitude of Chill you inflict":[null,"Abyssal Wasting also applies % to Cold Resistance 25% increased Magnitude of Chill you inflict "],
+  "Abyssal Wasting also applies % to Cold Resistance 30% increased Magnitude of Chill you inflict":[null,"Abyssal Wasting also applies % to Cold Resistance 30% increased Magnitude of Chill you inflict "],
   "Abyssal Wasting also applies % to Fire Resistance":[null,"Abyssal Wasting also applies % to Fire Resistance "],
   "Abyssal Wasting also applies % to Fire Resistance +30% of Armour also applies to Elemental Damage":[null,"Abyssal Wasting also applies % to Fire Resistance +30% of Armour also applies to Elemental Damage "],
   "Abyssal Wasting also applies % to Lightning Resistance":[null,"Abyssal Wasting also applies % to Lightning Resistance "],
@@ -34052,7 +34431,7 @@
         "type":"INC",
         "value":12,
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34063,7 +34442,7 @@
         "type":"INC",
         "value":15,
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34074,7 +34453,7 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34085,7 +34464,7 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34096,7 +34475,7 @@
         "type":"INC",
         "value":30,
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34107,7 +34486,7 @@
         "type":"INC",
         "value":30,
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34126,7 +34505,7 @@
           }
         },
         "1":{
-          "skillType":88,
+          "skillType":89,
           "type":"SkillType"
         }
       }]],
@@ -34213,6 +34592,20 @@
         "name":"BleedFaster",
         "type":"INC",
         "value":10
+      }]],
+  "Bleeding you inflict deals Damage 15% faster":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BleedFaster",
+        "type":"INC",
+        "value":15
+      }]],
+  "Bleeding you inflict deals Damage 20% faster":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BleedFaster",
+        "type":"INC",
+        "value":20
       }]],
   "Bleeding you inflict is Aggravated":[[{
         "flags":0,
@@ -35832,7 +36225,7 @@
   "Debuffs you inflict have 10% increased Slow Magnitude":[null,"Debuffs you inflict have 10% increased Slow Magnitude "],
   "Debuffs you inflict have 10% increased Slow Magnitude Debuffs on you expire 20% faster":[null,"Debuffs you inflict have 10% increased Slow Magnitude Debuffs on you expire 20% faster "],
   "Debuffs you inflict have 20% increased Slow Magnitude":[null,"Debuffs you inflict have 20% increased Slow Magnitude "],
-  "Debuffs you inflict have 20% increased Slow Magnitude 6% increased Spirit":[null,"Debuffs you inflict have 20% increased Slow Magnitude 6% increased Spirit "],
+  "Debuffs you inflict have 20% increased Slow Magnitude 10% increased Spirit":[null,"Debuffs you inflict have 20% increased Slow Magnitude 10% increased Spirit "],
   "Debuffs you inflict have 30% increased Slow Magnitude":[null,"Debuffs you inflict have 30% increased Slow Magnitude "],
   "Debuffs you inflict have 30% increased Slow Magnitude Cannot Immobilise enemies":[null,"Debuffs you inflict have 30% increased Slow Magnitude Cannot Immobilise enemies "],
   "Debuffs you inflict have 4% increased Slow Magnitude":[null,"Debuffs you inflict have 4% increased Slow Magnitude "],
@@ -37525,13 +37918,6 @@
         "type":"BASE",
         "value":10
       }]],
-  "Gain 10% of Damage as Extra Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageGainAsFire",
-        "type":"BASE",
-        "value":10
-      }]],
   "Gain 10% of Damage as Extra Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37578,6 +37964,27 @@
         "name":"DamageGainAsChaos",
         "type":"BASE",
         "value":11
+      }]],
+  "Gain 12% of Damage as Extra Cold Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageGainAsCold",
+        "type":"BASE",
+        "value":12
+      }]],
+  "Gain 12% of Damage as Extra Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageGainAsFire",
+        "type":"BASE",
+        "value":12
+      }]],
+  "Gain 12% of Damage as Extra Lightning Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageGainAsLightning",
+        "type":"BASE",
+        "value":12
       }]],
   "Gain 12% of Physical Damage as Extra Cold Damage against Dazed Enemies":[[{
         "flags":0,
@@ -38378,7 +38785,7 @@
           }
         }
       }]," when a  Dies "],
-  "Gain Arcane Surge when a Minion Dies 30% increased maximum Energy Shield":[[{
+  "Gain Arcane Surge when a Minion Dies 40% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"MinionModifier",
@@ -38392,7 +38799,7 @@
             "value":true
           }
         }
-      }]," when a  Dies 30% increased  "],
+      }]," when a  Dies 40% increased  "],
   "Gain Cold Thorns Damage equal to 18% of your maximum Mana":[null,"Cold Thorns Damage equal to 18% of your maximum Mana "],
   "Gain Deflection Rating equal to 10% of Evasion Rating":[[{
         "flags":0,
@@ -38401,19 +38808,19 @@
         "type":"BASE",
         "value":10
       }]],
-  "Gain Deflection Rating equal to 16% of Evasion Rating":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EvasionGainAsDeflection",
-        "type":"BASE",
-        "value":16
-      }]],
   "Gain Deflection Rating equal to 2% of Evasion Rating per 25 Tribute":[null,"Deflection Rating equal to 2% of Evasion Rating  "],
   "Gain Deflection Rating equal to 2% of Evasion Rating per 25 Tribute 2% increased Evasion Rating per 10 Tribute":[null,"Deflection Rating equal to 2% of Evasion Rating  2% increased Evasion Rating  "],
   "Gain Deflection Rating equal to 20% of Armour":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ArmourGainAsDeflection",
+        "type":"BASE",
+        "value":20
+      }]],
+  "Gain Deflection Rating equal to 20% of Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionGainAsDeflection",
         "type":"BASE",
         "value":20
       }]],
@@ -38490,7 +38897,7 @@
           }
         }
       }],"  when a  Dies "],
-  "Gain Onslaught for 4 seconds when a Minion Dies 15% increased Area of Effect for Attacks":[[{
+  "Gain Onslaught for 4 seconds when a Minion Dies 18% increased Area of Effect for Attacks":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"MinionModifier",
@@ -38504,7 +38911,7 @@
             "value":true
           }
         }
-      }],"  when a  Dies 15% increased  for Attacks "],
+      }],"  when a  Dies 18% increased  for Attacks "],
   "Gain Physical Thorns damage equal to 10% of Item Armour on Equipped Body Armour":[null,"Physical Thorns damage equal to 10% of Item Armour on Equipped Body Armour "],
   "Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour":[null,"Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour "],
   "Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour 12% chance for Trigger skills to refund half of Energy Spent":[null,"Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour 12% chance for Trigger skills to refund half of Energy Spent "],
@@ -40664,7 +41071,7 @@
   "Infinite Parry Range":[null,"Infinite Parry Range "],
   "Infinite Parry Range 50% increased Parried Debuff Duration":[null,"Infinite Parry Range 50% increased Parried Debuff Duration "],
   "Inflict Abyssal Wasting on Hit":[null,"Inflict Abyssal Wasting on Hit "],
-  "Inflict Abyssal Wasting on Hit 60% increased Magnitude of Abyssal Wasting you inflict":[null,"Inflict Abyssal Wasting on Hit 60% increased Magnitude of Abyssal Wasting you inflict "],
+  "Inflict Abyssal Wasting on Hit 100% increased Magnitude of Abyssal Wasting you inflict":[null,"Inflict Abyssal Wasting on Hit 100% increased Magnitude of Abyssal Wasting you inflict "],
   "Inflict Cold Exposure on Igniting an Enemy":[null,"Inflict Cold Exposure on Igniting an Enemy "],
   "Inflict Cold Exposure on Igniting an Enemy Inflict Fire Exposure on Shocking an Enemy":[null,"Inflict Cold Exposure on Igniting an Enemy Inflict Fire Exposure on Shocking an Enemy "],
   "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of":[null,"Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of "],
@@ -41190,7 +41597,7 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":107,
+          "skillType":108,
           "type":"SkillType"
         }
       }]],
@@ -41201,7 +41608,7 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":107,
+          "skillType":108,
           "type":"SkillType"
         }
       }]],
@@ -41212,7 +41619,7 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":107,
+          "skillType":108,
           "type":"SkillType"
         }
       }]],
@@ -41223,7 +41630,7 @@
         "type":"INC",
         "value":8,
         "1":{
-          "skillType":107,
+          "skillType":108,
           "type":"SkillType"
         }
       }]],
@@ -41394,7 +41801,7 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -41405,7 +41812,7 @@
         "type":"INC",
         "value":25,
         "1":{
-          "skillType":98,
+          "skillType":99,
           "type":"SkillType"
         }
       }]],
@@ -41462,7 +41869,7 @@
       }]],
   "Meta Skills gain 15% increased Energy":[null,"Meta Skills gain 15% increased Energy "],
   "Meta Skills gain 16% increased Energy":[null,"Meta Skills gain 16% increased Energy "],
-  "Meta Skills gain 16% increased Energy 1% increased Cast Speed per 20 Spirit":[null,"Meta Skills gain 16% increased Energy 1% increased Cast Speed per 20 Spirit "],
+  "Meta Skills gain 16% increased Energy 2% increased Cast Speed per 20 Spirit":[null,"Meta Skills gain 16% increased Energy 2% increased Cast Speed per 20 Spirit "],
   "Meta Skills gain 25% increased Energy if you've dealt a Critical Hit Recently":[null,"Meta Skills gain 25% increased Energy if you've dealt a Critical Hit Recently "],
   "Meta Skills gain 35% more Energy":[null,"Meta Skills gain 35% more Energy "],
   "Meta Skills gain 4% increased Energy":[null,"Meta Skills gain 4% increased Energy "],
@@ -44223,9 +44630,7 @@
       }]],
   "Recover 3% of maximum Life when you create an Offering":[null,"Recover 3% of maximum Life when you create an Offering "],
   "Recover 3% of your maximum Life when an Enemy dies in your Presence":[null,"Recover 3% of your maximum Life when an Enemy dies in your Presence "],
-  "Recover 3% of your maximum Life when an Enemy dies in your Presence Gain Deflection Rating equal to 16% of Evasion Rating":[null,"Recover 3% of your maximum Life when an Enemy dies in your Presence Gain Deflection Rating equal to 16% of Evasion Rating "],
-  "Recover 3% of your maximum Mana when an Enemy dies in your Presence":[null,"Recover 3% of your maximum Mana when an Enemy dies in your Presence "],
-  "Recover 3% of your maximum Mana when an Enemy dies in your Presence 25% faster start of Energy Shield Recharge":[null,"Recover 3% of your maximum Mana when an Enemy dies in your Presence 25% faster start of Energy Shield Recharge "],
+  "Recover 3% of your maximum Life when an Enemy dies in your Presence Gain Deflection Rating equal to 20% of Evasion Rating":[null,"Recover 3% of your maximum Life when an Enemy dies in your Presence Gain Deflection Rating equal to 20% of Evasion Rating "],
   "Recover 4% of maximum Life on Killing a Poisoned Enemy":[null,"Recover 4% of maximum Life on Killing a Poisoned Enemy "],
   "Recover 4% of maximum Life on Killing a Poisoned Enemy 15% increased Skill Effect Duration":[null,"Recover 4% of maximum Life on Killing a Poisoned Enemy 15% increased Skill Effect Duration "],
   "Recover 4% of maximum Life when you Block":[[{
@@ -44251,6 +44656,8 @@
   "Recover 5% of Missing Life before being Hit by an Enemy Recover 10% of Missing Life before being Hit by an Enemy":[null,"Recover 5% of Missing Life before being Hit by an Enemy Recover 10% of Missing Life before being Hit by an Enemy "],
   "Recover 5% of maximum Life for each Endurance Charge consumed":[null,"Recover 5% of maximum Life for each Endurance Charge consumed "],
   "Recover 5% of maximum Mana when a Charm is used":[null,"Recover 5% of maximum Mana when a Charm is used "],
+  "Recover 5% of your maximum Mana when an Enemy dies in your Presence":[null,"Recover 5% of your maximum Mana when an Enemy dies in your Presence "],
+  "Recover 5% of your maximum Mana when an Enemy dies in your Presence 25% faster start of Energy Shield Recharge":[null,"Recover 5% of your maximum Mana when an Enemy dies in your Presence 25% faster start of Energy Shield Recharge "],
   "Recover 50% of maximum Life when you Heavy Stun a Rare or Unique Enemy":[null,"Recover 50% of maximum Life when you Heavy Stun a Rare or Unique Enemy "],
   "Recover Life equal to 20% of Mana Flask's Recovery Amount when used":[null,"Recover Life equal to 20% of Mana Flask's Recovery Amount when used "],
   "Recover Life equal to 20% of Mana Flask's Recovery Amount when used Recover Mana equal to 20% of Life Flask's Recovery Amount when used":[null,"Recover Life equal to 20% of Mana Flask's Recovery Amount when used Recover Mana equal to 20% of Life Flask's Recovery Amount when used "],
@@ -44762,7 +45169,7 @@
         "type":"BASE",
         "value":0.33,
         "1":{
-          "skillType":90,
+          "skillType":91,
           "type":"SkillType"
         }
       }]],
@@ -44823,7 +45230,7 @@
         "type":"INC",
         "value":8,
         "1":{
-          "skillType":92,
+          "skillType":93,
           "type":"SkillType"
         }
       }]],
@@ -44849,6 +45256,13 @@
         "name":"AreaOfEffect",
         "type":"INC",
         "value":15
+      }]],
+  "Spell Skills have 18% increased Area of Effect":[[{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":18
       }]],
   "Spell Skills have 25% increased Area of Effect":[[{
         "flags":0,
@@ -44919,8 +45333,22 @@
   "Spells fire Projectiles in a circle":[null,"Projectiles in a circle "],
   "Spells have a 25% chance to inflict Withered for 4 seconds on Hit":[[]," to inflict Withered   "],
   "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills":[null,"Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills "],
+  "Strikes deal Splash Damage":[null,"Strikes deal Splash Damage "],
+  "Strikes deal Splash Damage 172% increased Physical Damage":[null,"Strikes deal Splash Damage 172% increased Physical Damage "],
+  "Strikes deal Splash Damage Adds 85 to 131 Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireMin",
+        "type":"BASE",
+        "value":85
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireMax",
+        "type":"BASE",
+        "value":131
+      }],"Strikes deal Splash   "],
   "Strikes deal Splash damage to targets within 1.5 metres":[null,"Strikes deal Splash damage to targets within 1.5 metres "],
-  "Strikes deal Splash damage to targets within 1.5 metres 172% increased Physical Damage":[null,"Strikes deal Splash damage to targets within 1.5 metres 172% increased Physical Damage "],
   "Strikes deal Splash damage to targets within 1.5 metres Adds 35 to 50 Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44933,19 +45361,6 @@
         "name":"PhysicalMax",
         "type":"BASE",
         "value":50
-      }],"Strikes deal Splash  to targets within 1.5 metres  "],
-  "Strikes deal Splash damage to targets within 1.5 metres Adds 85 to 131 Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireMin",
-        "type":"BASE",
-        "value":85
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireMax",
-        "type":"BASE",
-        "value":131
       }],"Strikes deal Splash  to targets within 1.5 metres  "],
   "Strikes deal Splash damage to targets within 1.5 metres Knocks Back Enemies on Hit":[null,"Strikes deal Splash damage to targets within 1.5 metres Knocks Back Enemies on Hit "],
   "Stun Threshold is based on 30% of your Energy Shield instead of Life":[[{
@@ -45477,21 +45892,6 @@
           }
         }
       }]],
-  "You and Allies in your Presence have 10% increased Cooldown Recovery Rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraAura",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"CooldownRecovery",
-            "type":"INC",
-            "value":10
-          }
-        }
-      }]],
   "You and Allies in your Presence have 12% increased Attack Speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45507,7 +45907,22 @@
           }
         }
       }]],
-  "You and Allies in your Presence have 12% increased Cast Speed":[[{
+  "You and Allies in your Presence have 14% increased Cooldown Recovery Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"CooldownRecovery",
+            "type":"INC",
+            "value":14
+          }
+        }
+      }]],
+  "You and Allies in your Presence have 16% increased Cast Speed":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraAura",
@@ -45518,7 +45933,7 @@
             "keywordFlags":0,
             "name":"Speed",
             "type":"INC",
-            "value":12
+            "value":16
           }
         }
       }]],

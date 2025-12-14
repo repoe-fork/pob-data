@@ -13860,12 +13860,14 @@
         "statDescriptionScope":"ember_fusillade_statset_0",
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","blazing_cluster_maximum_number_of_projectiles_allowed","base_is_projectile","can_perform_skill_while_moving","projectile_uses_contact_position","quality_display_ember_fusilade_is_gem","precise_cursor_targeting_uses_contact_point_height_offset","active_skill_consumes_a_lightning_infusion"]
       },{
+        "baseEffectiveness":2.0999999046326,
         "baseFlags":{
           "area":true,
           "projectile":true,
           "spell":true
         },
         "constantStats":[["blazing_cluster_delay_between_projectiles_ms",100],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["blazing_cluster_subsequent_targeting_radius",30],["ember_fusillade_damage_+%_final_per_ember_fired",5],["active_skill_base_area_of_effect_radius",9]],
+        "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{
@@ -18325,12 +18327,14 @@
         "statDescriptionScope":"fireball",
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","can_perform_skill_while_moving","should_use_additive_aiming_animation","active_skill_consumes_a_fire_infusion","precise_cursor_targeting_uses_contact_point_height_offset"]
       },{
+        "baseEffectiveness":2.5999999046326,
         "baseFlags":{
           "area":true,
           "projectile":true,
           "spell":true
         },
         "constantStats":[["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["projectile_maximum_range_override",120],["active_skill_base_area_of_effect_radius",17]],
+        "damageIncrementalEffectiveness":0.0074000000022352,
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{
@@ -19314,12 +19318,14 @@
         "statDescriptionScope":"firebolt",
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","check_for_targets_between_initiator_and_projectile_source","can_perform_skill_while_moving","projectile_uses_contact_direction","should_use_additive_aiming_animation","precise_cursor_targeting_uses_contact_point_height_offset"]
       },{
+        "baseEffectiveness":3.1199998855591,
         "baseFlags":{
           "area":true,
           "projectile":true,
           "spell":true
         },
         "constantStats":[["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["projectile_maximum_range_override",100],["projectile_maximum_downwards_angle_degrees",25],["active_skill_base_area_of_effect_radius",7]],
+        "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{
@@ -46576,6 +46582,275 @@
         "stats":["energy_generated_+%","base_deal_no_damage"]
       }]
   },
+  "MirrorOfRefractionPlayer":{
+    "baseTypeName":"Mirror of Refraction",
+    "castTime":1,
+    "color":3,
+    "description":"Mirrors of Refraction appear in your Presence periodically. Hitting a mirror with a Spell Projectile causes it to shatter, copying the projectiles in a nova around the destroyed mirror. Copied Projectiles may be copied again when colliding with other mirrors.",
+    "fromItem":true,
+    "levels":[{
+        "levelRequirement":0
+      },{
+        "levelRequirement":3
+      },{
+        "levelRequirement":6
+      },{
+        "levelRequirement":10
+      },{
+        "levelRequirement":14
+      },{
+        "levelRequirement":18
+      },{
+        "levelRequirement":22
+      },{
+        "levelRequirement":26
+      },{
+        "levelRequirement":31
+      },{
+        "levelRequirement":36
+      },{
+        "levelRequirement":41
+      },{
+        "levelRequirement":46
+      },{
+        "levelRequirement":52
+      },{
+        "levelRequirement":58
+      },{
+        "levelRequirement":64
+      },{
+        "levelRequirement":66
+      },{
+        "levelRequirement":72
+      },{
+        "levelRequirement":78
+      },{
+        "levelRequirement":84
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      },{
+        "levelRequirement":90
+      }],
+    "name":"Mirror of Refraction",
+    "qualityStats":[["base_number_of_projectiles",0.1]],
+    "skillTypes":{
+      "5":true,
+      "9":true,
+      "12":true,
+      "120":true,
+      "139":true,
+      "144":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "duration":true
+        },
+        "constantStats":[["base_mirror_of_refraction_limit",4],["base_skill_effect_duration",8000],["base_number_of_projectiles",7],["skill_desired_amount_override",1]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Mirror of Refraction",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1],
+            "1":3900
+          },{
+            "actorLevel":3.4519999027252,
+            "statInterpolation":[1],
+            "1":3800
+          },{
+            "actorLevel":6.7670001983643,
+            "statInterpolation":[1],
+            "1":3700
+          },{
+            "actorLevel":10.307999610901,
+            "statInterpolation":[1],
+            "1":3600
+          },{
+            "actorLevel":14.074999809265,
+            "statInterpolation":[1],
+            "1":3500
+          },{
+            "actorLevel":18.068000793457,
+            "statInterpolation":[1],
+            "1":3400
+          },{
+            "actorLevel":22.287000656128,
+            "statInterpolation":[1],
+            "1":3300
+          },{
+            "actorLevel":26.732000350952,
+            "statInterpolation":[1],
+            "1":3200
+          },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1],
+            "1":3100
+          },{
+            "actorLevel":36.299999237061,
+            "statInterpolation":[1],
+            "1":3000
+          },{
+            "actorLevel":41.423000335693,
+            "statInterpolation":[1],
+            "1":2900
+          },{
+            "actorLevel":46.771999359131,
+            "statInterpolation":[1],
+            "1":2800
+          },{
+            "actorLevel":52.34700012207,
+            "statInterpolation":[1],
+            "1":2700
+          },{
+            "actorLevel":58.147998809814,
+            "statInterpolation":[1],
+            "1":2600
+          },{
+            "actorLevel":64.175003051758,
+            "statInterpolation":[1],
+            "1":2500
+          },{
+            "actorLevel":70.428001403809,
+            "statInterpolation":[1],
+            "1":2400
+          },{
+            "actorLevel":76.906997680664,
+            "statInterpolation":[1],
+            "1":2300
+          },{
+            "actorLevel":83.611999511719,
+            "statInterpolation":[1],
+            "1":2200
+          },{
+            "actorLevel":90.542999267578,
+            "statInterpolation":[1],
+            "1":2100
+          },{
+            "actorLevel":97.699996948242,
+            "statInterpolation":[1],
+            "1":2000
+          },{
+            "actorLevel":105.08300018311,
+            "statInterpolation":[1],
+            "1":1900
+          },{
+            "actorLevel":112.69200134277,
+            "statInterpolation":[1],
+            "1":1800
+          },{
+            "actorLevel":120.52700042725,
+            "statInterpolation":[1],
+            "1":1700
+          },{
+            "actorLevel":128.58799743652,
+            "statInterpolation":[1],
+            "1":1600
+          },{
+            "actorLevel":136.875,
+            "statInterpolation":[1],
+            "1":1500
+          },{
+            "actorLevel":145.38800048828,
+            "statInterpolation":[1],
+            "1":1400
+          },{
+            "actorLevel":154.12699890137,
+            "statInterpolation":[1],
+            "1":1300
+          },{
+            "actorLevel":163.09199523926,
+            "statInterpolation":[1],
+            "1":1200
+          },{
+            "actorLevel":172.28300476074,
+            "statInterpolation":[1],
+            "1":1100
+          },{
+            "actorLevel":181.69999694824,
+            "statInterpolation":[1],
+            "1":1000
+          },{
+            "actorLevel":191.34300231934,
+            "statInterpolation":[1],
+            "1":950
+          },{
+            "actorLevel":201.21200561523,
+            "statInterpolation":[1],
+            "1":900
+          },{
+            "actorLevel":211.30700683594,
+            "statInterpolation":[1],
+            "1":850
+          },{
+            "actorLevel":221.62800598145,
+            "statInterpolation":[1],
+            "1":800
+          },{
+            "actorLevel":232.17500305176,
+            "statInterpolation":[1],
+            "1":750
+          },{
+            "actorLevel":242.94799804688,
+            "statInterpolation":[1],
+            "1":700
+          },{
+            "actorLevel":253.94700622559,
+            "statInterpolation":[1],
+            "1":650
+          },{
+            "actorLevel":265.17199707031,
+            "statInterpolation":[1],
+            "1":600
+          },{
+            "actorLevel":276.62298583984,
+            "statInterpolation":[1],
+            "1":550
+          },{
+            "actorLevel":288.29998779297,
+            "statInterpolation":[1],
+            "1":500
+          }],
+        "statDescriptionScope":"mirror_of_refraction",
+        "stats":["mirror_of_refraction_placement_interval_ms","base_is_projectile"]
+      }]
+  },
   "OrbOfStormsPlayer":{
     "baseTypeName":"Orb of Storms",
     "castTime":0.8,
@@ -51943,12 +52218,14 @@
         "statDescriptionScope":"scattering_calamity_statset_0",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","blazing_cluster_maximum_number_of_projectiles_allowed","number_of_chains","base_is_projectile","can_perform_skill_while_moving","projectile_uses_contact_position","quality_display_ember_fusilade_is_gem"]
       },{
+        "baseEffectiveness":3.5,
         "baseFlags":{
           "area":true,
           "projectile":true,
           "spell":true
         },
         "constantStats":[["base_secondary_skill_effect_duration",1200],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["blazing_cluster_subsequent_targeting_radius",90],["ember_fusillade_damage_+%_final_per_ember_fired",10],["active_skill_base_area_of_effect_radius",14]],
+        "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{

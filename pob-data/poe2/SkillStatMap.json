@@ -4270,6 +4270,12 @@
         "var":"Ignited"
       }
     }],
+  "maximum_corpse_beetles_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BeetleLimit",
+      "type":"BASE"
+    }],
   "maximum_energy_shield_leech_amount_per_leech_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5791,6 +5797,13 @@
       "type":"FLAG",
       "value":true
     }],
+  "projectiles_barrage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SequentialProjectiles",
+      "type":"FLAG",
+      "value":true
+    }],
   "projectiles_cannot_fork":[{
       "flags":0,
       "keywordFlags":0,
@@ -6217,6 +6230,12 @@
         "skillType":31,
         "type":"SkillType"
       }
+    }],
+  "skill_hyena_cackle_size":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"HyenaLimit",
+      "type":"BASE"
     }],
   "skill_lightning_damage_%_to_convert_to_chaos":[{
       "flags":0,

@@ -115,6 +115,129 @@
         "stats":["crushing_blow","is_area_damage"]
       }]
   },
+  "ChilledGroundBurstWaterDjinn":{
+    "castTime":1.2,
+    "description":"Command Navira to fracture all nearby areas of Chilled Ground that have enemies standing on them, doing high Spell damage with extreme Freeze potential.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":5,
+        "critChance":12,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Navira's Fracturing",
+    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",2],["active_skill_chill_as_though_damage_+%_final",2]],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "29":true,
+      "83":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseEffectiveness":14.25,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",60],["active_skill_hit_damage_freeze_multiplier_+%_final",200],["active_skill_chill_as_though_damage_+%_final",200]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Navira's Fracturing",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
+        "statDescriptionScope":"djinn_ground_burst",
+        "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      }]
+  },
+  "ChilledGroundOasisConvertWaterDjinn":{
+    "castTime":1.8,
+    "description":"Command Navira to turn nearby Chilled Ground into Navira's Oasis, a mirage which grants you and Allies standing in it Flask charges and damage Recouped as Life and Mana. Plants in the area become Overgrown.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":8,
+        "levelRequirement":0,
+        "storedUses":1
+      },{
+        "cooldown":8,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Navira's Oasis",
+    "qualityStats":[["oasis_x_charges_for_life_and_mana_flasks_per_minute",0.6]],
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "8":true,
+      "9":true,
+      "83":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "duration":true
+        },
+        "constantStats":[["base_skill_effect_duration",15000],["active_skill_base_area_of_effect_radius",80],["oasis_x_charges_for_life_and_mana_flasks_per_minute",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Navira's Oasis",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1,1],
+            "1":30,
+            "2":20
+          },{
+            "actorLevel":100,
+            "statInterpolation":[1,1],
+            "1":80,
+            "2":50
+          }],
+        "statDescriptionScope":"djinn_oasis",
+        "stats":["oasis_damage_recouped_as_life_%","oasis_damage_recouped_as_mana_%","base_deal_no_damage","is_commandable_skill","skill_does_not_pathfind"]
+      }]
+  },
+  "CorpseBeetleExplode":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "critChance":15,
+        "levelRequirement":0
+      }],
+    "name":"Sandblast",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "27":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":3,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",15],["base_critical_strike_multiplier_+",50],["apply_X_stacks_of_critical_weakness_on_hit",1],["active_skill_damage_+%_final_vs_unique_enemies",40],["global_chance_to_blind_on_hit_%",20]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Sandblast",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"corpse_beetle_explode",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","is_commandable_skill","display_statset_hide_usage_stats","skill_cannot_be_interrupted"]
+      }]
+  },
   "DTTAnimateWeaponSpearDashStabImpact":{
     "castTime":1,
     "hidden":true,
@@ -624,6 +747,46 @@
         "stats":["command_minion_target_ally_below_x_life","is_commandable_skill","is_area_damage","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","quality_display_arsonist_is_gem"]
       }]
   },
+  "ESRechargeForceRestartWaterDjinn":{
+    "castTime":2.1,
+    "description":"Command Navira to bolster your Energy Shield, causing it to begin Recharging immediately and granting you increased Energy Shield Recharge Rate for a duration.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":12,
+        "levelRequirement":0,
+        "storedUses":1
+      },{
+        "cooldown":12,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Navira's Well",
+    "qualityStats":[["djinn_granted_energy_shield_recharge_rate_+%",1]],
+    "skillTypes":{
+      "2":true,
+      "83":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "duration":true
+        },
+        "constantStats":[["base_skill_effect_duration",6000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Navira's Well",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1],
+            "1":10
+          },{
+            "actorLevel":100,
+            "statInterpolation":[1],
+            "1":109
+          }],
+        "statDescriptionScope":"djinn_force_recharge",
+        "stats":["djinn_granted_energy_shield_recharge_rate_+%","base_deal_no_damage","is_commandable_skill"]
+      }]
+  },
   "EnrageSkeletonReaverMinion":{
     "castTime":1,
     "description":"Enrage all Skeletal Reavers, causing them to lose life over time and gain Rage on hit.",
@@ -649,6 +812,67 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["is_commandable_skill","infinite_skill_effect_duration","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","base_deal_no_damage"]
+      }]
+  },
+  "ExplosiveTeleportSandDjinn":{
+    "castTime":0.8,
+    "description":"Command Kelari to create a blast at the target location that deals Spell damage, and leave behind a clone that persists for a short duration. This skill can store multiple charges, and using it again while a clone from a previous use is still alive causes that clone to explode, dealing even more damage.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":5,
+        "critChance":15,
+        "levelRequirement":0,
+        "storedUses":3
+      }],
+    "name":"Kelari's Deception",
+    "qualityStats":[["djinn_damage_+%_final_per_teleport_in_sequence",0.5]],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "27":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseEffectiveness":5.0100002288818,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",25],["djinn_damage_+%_final_per_teleport_in_sequence",50],["base_skill_effect_duration",4000]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Kelari's Deception",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"djinn_explosive_teleport",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      },{
+        "baseEffectiveness":5.0100002288818,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",25],["djinn_damage_+%_final_per_teleport_in_sequence",50],["base_skill_effect_duration",4000],["explosive_teleport_clone_cast_speed_+%_final",-50],["apply_X_stacks_of_critical_weakness_on_hit",2]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Hidden",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3,3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837,
+            "3":0.80000001192093,
+            "4":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"djinn_explosive_teleport",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats"]
       }]
   },
   "FireBombSkeletonMinion":{
@@ -702,6 +926,143 @@
         "notMinionStat":["base_fire_damage_to_deal_per_minute"],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["base_fire_damage_to_deal_per_minute","base_is_projectile","projectile_ballistic_angle_from_reference_event","is_area_damage","grenades_target_at_half_monster_height"]
+      }]
+  },
+  "FireRuneFireDjinn":{
+    "castTime":1,
+    "description":"Command Ruzhan to hurl his greatsword, spreading hazardous runes on the ground where it lands. If an enemy steps on a rune, it erupts in a fiery tornado that deals Spell damage.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":8,
+        "critChance":7,
+        "levelRequirement":0,
+        "storedUses":1
+      },{
+        "cooldown":8,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Ruzhan's Trap",
+    "qualityStats":[["base_skill_effect_duration",100]],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "28":true,
+      "60":true,
+      "91":true,
+      "144":true,
+      "163":true,
+      "203":true,
+      "220":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.2200000286102,
+        "baseFlags":{
+          "projectile":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",50],["fire_djinn_number_of_flame_runes_placed",8],["fire_djinn_maximum_flame_runes_allowed",21],["djinn_fire_rune_minimum_target_distance",20]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_fire_rune_statset_0",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_commandable_skill","base_is_projectile","projectiles_fire_at_ground","always_pierce","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      },{
+        "baseEffectiveness":3.5999999046326,
+        "baseFlags":{
+          "duration":true,
+          "spell":true
+        },
+        "constantStats":[["fire_djinn_number_of_flame_runes_placed",8],["fire_djinn_maximum_flame_runes_allowed",21],["djinn_fire_rune_minimum_target_distance",20],["active_skill_base_area_of_effect_radius",8],["base_skill_effect_duration",6000]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Rune",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_fire_rune_statset_1",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","is_hazard","base_deal_no_damage","display_statset_hide_usage_stats"]
+      },{
+        "baseEffectiveness":1.5199999809265,
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true
+        },
+        "constantStats":[["fire_djinn_maximum_flame_runes_allowed",21],["djinn_fire_rune_minimum_target_distance",20],["active_skill_base_area_of_effect_radius",12],["base_skill_effect_duration",4000],["active_skill_ignite_chance_+%_final",400]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Tornado",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3,3,3,1],
+            "1":0.80000001192093,
+            "2":1.2000000476837,
+            "3":0.80000001192093,
+            "4":1.2000000476837,
+            "5":700
+          },{
+            "actorLevel":100,
+            "statInterpolation":[3,3,0,0,1],
+            "1":0.80000001192093,
+            "2":1.2000000476837,
+            "3":0,
+            "4":0,
+            "5":510
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_fire_rune_statset_2",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","fire_djinn_flame_rune_tick_rate_ms","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","is_area_damage","display_statset_hide_usage_stats"]
+      }]
+  },
+  "FlameSliceFireDjinn":{
+    "castTime":1,
+    "description":"When you use a damaging Skill, Ruzhan emerges to Strike enemies near your target with zealous fervour, inflicting Exposure.",
+    "hidden":true,
+    "levels":[{
+        "baseMultiplier":4.5,
+        "cooldown":4,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Ruzhan's Zealotry",
+    "qualityStats":[["melee_range_+",0.2]],
+    "skillTypes":{
+      "1":true,
+      "8":true,
+      "20":true,
+      "21":true,
+      "28":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_fire",60],["inflict_exposure_on_hit_%_chance",100],["attack_maximum_action_distance_+",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ruzhan's Zealotry",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
       }]
   },
   "FrostBoltSkeletonMageMinion":{
@@ -935,6 +1296,48 @@
         "stats":["is_commandable_skill","base_is_projectile","is_area_damage","visual_hit_effect_chaos_is_green","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","quality_display_active_skill_ground_effect_area_of_effect_+%_final_per_second_max_is_gem"]
       }]
   },
+  "HandSlamSandDjinn":{
+    "castTime":0.5,
+    "description":"Channel and Command Kelari to Channel alongside you, creating blades that hang over the target location. The longer you Channel, the more blades Kelari will create. Upon release, his blades plunge into the ground and create shockwaves that deal Spell damage.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":12,
+        "critChance":15,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Kelari's Judgment",
+    "qualityStats":[["apply_X_stacks_of_critical_weakness_on_hit",0.1]],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "27":true,
+      "48":true,
+      "91":true,
+      "187":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4.9000000953674,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",35],["sand_djinn_hand_slam_maximum_number_of_stages",4],["channel_start_lock_cancelling_of_cast_time_%",100],["djinn_hand_slam_minimum_area_of_effect_+%_final",-20],["djinn_hand_slam_maximum_area_of_effect_+%_final",20],["djinn_hand_slam_area_of_effect_+%_final_per_additional_stage",25],["djinn_hand_slam_damage_+%_final_per_additional_stage",125],["apply_X_stacks_of_critical_weakness_on_hit",4],["active_skill_hit_damage_stun_multiplier_+%_final",100]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Kelari's Judgment",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"djinn_hand_slam",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      }]
+  },
   "HealSkeletonClericMinion":{
     "castTime":1,
     "hidden":true,
@@ -1117,6 +1520,39 @@
           }],
         "statDescriptionScope":"add_buff_to_target",
         "stats":["skeletal_cleric_grants_base_life_regeneration_rate_per_minute","display_minion_heal"]
+      }]
+  },
+  "HyenaCompanionMelee":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["maim_on_hit_%",25]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Melee",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
   "IceArmourSkeletonMageMinion":{
@@ -1354,6 +1790,110 @@
         "stats":["spell_minimum_added_cold_damage","spell_maximum_added_cold_damage","is_commandable_skill"]
       }]
   },
+  "KnifeThrowSandDjinn":{
+    "castTime":0.8,
+    "description":"Command Kelari to throw a volley of knives at the target location. The knives burrow into the ground, then erupt into the air after a short delay, dealing Spell damage.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":5,
+        "critChance":15,
+        "levelRequirement":0,
+        "storedUses":2
+      }],
+    "name":"Kelari's Brutality",
+    "qualityStats":[["djinn_knife_throw_number_of_knives_created",0.1]],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "27":true,
+      "91":true,
+      "163":true,
+      "192":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.789999961853,
+        "baseFlags":{
+          "projectile":true,
+          "spell":true
+        },
+        "constantStats":[["djinn_knife_throw_number_of_knives_created",12],["active_skill_base_area_of_effect_radius",30]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"djinn_knife_throw_statset_0",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","is_commandable_skill","projectiles_fire_at_ground","always_pierce","projectiles_cannot_split","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      },{
+        "baseEffectiveness":1.789999961853,
+        "baseFlags":{
+          "area":true,
+          "projectile":true,
+          "spell":true
+        },
+        "constantStats":[["djinn_knife_throw_number_of_knives_created",12],["active_skill_base_area_of_effect_radius",30],["active_skill_base_secondary_area_of_effect_radius",10],["maim_on_hit_%",100]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Eruption",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3,3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837,
+            "3":0.80000001192093,
+            "4":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"djinn_knife_throw_statset_1",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","is_area_damage","display_statset_hide_usage_stats"]
+      }]
+  },
+  "LivingBombFireDjinn":{
+    "castTime":0.6,
+    "description":"Command Ruzhan to place a fiery brand on an enemy. After a delay or when Detonated, the brand explodes, dealing Spell damage to enemies caught in the blast.",
+    "hidden":true,
+    "levels":[{
+        "critChance":7,
+        "levelRequirement":0
+      }],
+    "name":"Ruzhan's Brand",
+    "qualityStats":[["active_skill_damage_+%_final_vs_burning_enemies",1]],
+    "skillTypes":{
+      "2":true,
+      "8":true,
+      "28":true,
+      "144":true,
+      "217":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.6300001144409,
+        "baseFlags":{
+          "area":true,
+          "hit":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",20],["base_skill_detonation_time",3000],["living_bomb_base_number_of_bombs_allowed",3],["active_skill_damage_+%_final_vs_burning_enemies",50]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Ruzhan's Brand",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_living_bomb",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","is_commandable_skill","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      }]
+  },
   "LivingLightningZap":{
     "castTime":1,
     "description":"Teleport to a target, dealing Lightning Attack Damage.",
@@ -1450,6 +1990,68 @@
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
+  "MassFusilladeFireDjinn":{
+    "castTime":2.3,
+    "description":"Command Ruzhan to conjure two volleys of flaming embers and fire them forward. The embers explode on impact, dealing Spell damage.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":7,
+        "critChance":7,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Ruzhan's Fury",
+    "qualityStats":[["base_number_of_projectiles",0.2]],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "28":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0.9200000166893,
+        "baseFlags":{
+          "area":true,
+          "projectile":true,
+          "spell":true
+        },
+        "constantStats":[["base_number_of_projectiles",20],["active_skill_damage_+%_final_vs_immobilised_enemies",60]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_mass_fusillade",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_commandable_skill","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","quality_display_active_skill_damage_+%_final_vs_immobilised_enemies_is_gem"]
+      },{
+        "baseEffectiveness":0.9200000166893,
+        "baseFlags":{
+          "area":true,
+          "projectile":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_damage_+%_final_vs_immobilised_enemies",60],["active_skill_base_area_of_effect_radius",9]],
+        "damageIncrementalEffectiveness":0.037999998778105,
+        "incrementalEffectiveness":0.25,
+        "label":"Explosion",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_mass_fusillade",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_commandable_skill","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","quality_display_active_skill_damage_+%_final_vs_immobilised_enemies_is_gem","is_area_damage","display_statset_hide_usage_stats"]
+      }]
+  },
   "MeleeAtAnimationSpeed":{
     "castTime":1,
     "hidden":true,
@@ -1481,6 +2083,102 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "MeleeAtAnimationSpeedWolfCompanion":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "MeteorFireDjinn":{
+    "castTime":2.3,
+    "description":"Command Ruzhan to teleport to the target location. Upon arrival, the Djinn deals Spell damage to enemies around him then slams his blazing sword into the ground, creating a wave of lava that also deals Spell damage.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":12,
+        "critChance":7,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Ruzhan's Reckoning",
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "28":true,
+      "56":true,
+      "91":true,
+      "241":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2.7200000286102,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",15]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Emergence",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_meteor_statset_0",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_commandable_skill","is_area_damage","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps"]
+      },{
+        "baseEffectiveness":9.3599996566772,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",40],["active_skill_base_secondary_area_of_effect_radius",30],["active_skill_ignite_effect_+%_final",100]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Fire Wave",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3,3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837,
+            "3":0.80000001192093,
+            "4":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"djinn_meteor_statset_1",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_commandable_skill","is_area_damage","skill_does_not_pathfind","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats"]
       }]
   },
   "MinionInstability":{
@@ -1620,6 +2318,44 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "PassiveTriggeredManaWaveWaterDjinn":{
+    "castTime":0,
+    "description":"When you Command Navira to use a Skill, she also emits a restorative wave that grants you and any other Allies it touches increased Mana Regeneration for a short duration.",
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      }],
+    "name":"Navira's Calming",
+    "qualityStats":[["water_djinn_mana_wave_mana_regeneration_rate_+%",1]],
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "37":true,
+      "50":true,
+      "83":true,
+      "218":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "duration":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",25],["base_skill_effect_duration",4000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Navira's Calming",
+        "levels":[{
+            "actorLevel":1
+          },{
+            "actorLevel":100
+          }],
+        "statDescriptionScope":"djinn_triggered_wave",
+        "stats":["base_deal_no_damage","display_statset_hide_usage_stats"]
       }]
   },
   "RavenousSwarmAttack":{
@@ -2092,6 +2828,98 @@
       "One Handed Mace":true,
       "One Handed Sword":true,
       "Spear":true
+    }
+  },
+  "WaterBubbleWaterDjinn":{
+    "castTime":2,
+    "description":"Command Navira to create a bubble shield which absorbs a portion of the damage dealt by enemies standing outside the shield. The maximum amount of damage that can be absorbed is based on your maximum Mana. If the shield is destroyed by damage, it collapses into a patch of Chilled Ground.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":15,
+        "levelRequirement":0,
+        "storedUses":1
+      },{
+        "cooldown":15,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Navira's Embrace",
+    "qualityStats":[["water_djinn_water_bubble_absorb_damage_%_enemy_outside_bubble",0.5]],
+    "skillTypes":{
+      "2":true,
+      "8":true,
+      "9":true,
+      "83":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "duration":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",25],["base_skill_effect_duration",5000],["base_secondary_skill_effect_duration",6000],["water_djinn_water_bubble_absorb_damage_%_enemy_outside_bubble",70],["active_skill_base_secondary_area_of_effect_radius",20],["water_djinn_water_bubble_health_per_100_mana_on_target",60]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Navira's Embrace",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1],
+            "1":0
+          },{
+            "actorLevel":100,
+            "statInterpolation":[1],
+            "1":10000
+          }],
+        "notMinionStat":["base_skill_effect_duration"],
+        "statDescriptionScope":"djinn_bubble",
+        "stats":["base_skill_effect_duration","base_deal_no_damage","is_commandable_skill","skill_does_not_pathfind"]
+      }]
+  },
+  "WolfLeapAttackMinion":{
+    "castTime":1,
+    "description":"Jump into the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way.",
+    "hidden":true,
+    "levels":[{
+        "attackSpeedMultiplier":25,
+        "cooldown":7,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Leap Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "83":true,
+      "91":true,
+      "93":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["skill_added_attack_time_by_distance_ms",250],["active_skill_base_area_of_effect_radius",10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Leap Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","suppress_weapon_surges"]
+      }],
+    "weaponTypes":{
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Staff":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
     }
   }
 }
