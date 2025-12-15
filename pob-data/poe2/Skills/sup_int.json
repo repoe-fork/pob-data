@@ -1556,6 +1556,20 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_chaotic_freeze_dots_allow_enemies_to_be_frozen_by_chaos_damage":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ChaosCanFreeze",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectName":"Chaotic Freeze",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["support_chaotic_freeze_dots_allow_enemies_to_be_frozen_by_chaos_damage"]
       }],
     "support":true
@@ -5004,6 +5018,30 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "chilled_ground_applies_%_freeze_multiplier_taken":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyFreezeBuildup",
+              "type":"MORE",
+              "1":{
+                "effectName":"Rime",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"OnChilledGround"
+              }
+            }],
+          "support_winterblast_chill_effect_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyChillMagnitude",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true

@@ -386,6 +386,12 @@
         "value":true
       }
     }],
+  "active_skill_electrocutes_as_though_dealt_damage_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyElectrocuteBuildup",
+      "type":"MORE"
+    }],
   "active_skill_fire_damage_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -413,7 +419,13 @@
   "active_skill_hit_damage_freeze_multiplier_+%_final":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyFreezeEffect",
+      "name":"EnemyFreezeBuildup",
+      "type":"MORE"
+    }],
+  "active_skill_hit_damage_stun_multiplier_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyHeavyStunBuildup",
       "type":"MORE"
     }],
   "active_skill_ignite_chance_+%_final":[{
@@ -521,6 +533,20 @@
         }
       }
     }],
+  "active_skill_minion_hit_damage_stun_multiplier_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"EnemyHeavyStunBuildup",
+          "type":"MORE"
+        }
+      }
+    }],
   "active_skill_minion_life_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -586,6 +612,12 @@
       "flags":0,
       "keywordFlags":0,
       "name":"PhysicalDamage",
+      "type":"MORE"
+    }],
+  "active_skill_pins_as_though_dealt_damage_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyPinBuildup",
       "type":"MORE"
     }],
   "active_skill_poison_duration_+%_final":[{
@@ -1355,6 +1387,13 @@
       "keywordFlags":0,
       "name":"EnemyAilmentDuration",
       "type":"INC"
+    }],
+  "base_all_damage_can_pin":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CanPin",
+      "type":"FLAG",
+      "value":true
     }],
   "base_arrow_speed_+%":[{
       "flags":0,
@@ -2558,6 +2597,13 @@
       "type":"FLAG",
       "value":true
     }],
+  "cannot_pin":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotPin",
+      "type":"FLAG",
+      "value":true
+    }],
   "cannot_poison":[{
       "flags":0,
       "keywordFlags":0,
@@ -2576,6 +2622,19 @@
       "flags":0,
       "keywordFlags":0,
       "name":"NoEnergyShieldRecharge",
+      "type":"FLAG",
+      "value":true
+    }],
+  "cannot_stun":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotHeavyStun",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotStun",
       "type":"FLAG",
       "value":true
     }],
@@ -2921,6 +2980,13 @@
       "name":"ChaosDamage",
       "type":"INC"
     }],
+  "chaos_damage_can_freeze":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ChaosCanFreeze",
+      "type":"FLAG",
+      "value":true
+    }],
   "chaos_damage_can_shock":[{
       "flags":0,
       "keywordFlags":0,
@@ -2982,7 +3048,7 @@
     },{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyFreezeEffect",
+      "name":"EnemyFreezeBuildup",
       "type":"INC"
     }],
   "cold_damage_%_to_add_as_fire":[{
@@ -3909,6 +3975,12 @@
       "flags":4,
       "keywordFlags":0,
       "name":"Damage",
+      "type":"INC"
+    }],
+  "hit_damage_freeze_multiplier_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyFreezeBuildup",
       "type":"INC"
     }],
   "hits_ignore_enemy_monster_physical_damage_reduction":{
@@ -5106,7 +5178,7 @@
     },{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyFreezeEffect",
+      "name":"EnemyFreezeBuildup",
       "type":"INC"
     }],
   "non_modifiable_totem_limit":[{
@@ -5842,6 +5914,7 @@
   "quality_display_active_skill_base_secondary_area_of_effect_radius_is_gem":[],
   "quality_display_active_skill_bleed_damage_final_is_gem":[],
   "quality_display_active_skill_damage_+%_final_vs_immobilised_enemies_is_gem":[],
+  "quality_display_active_skill_pins_as_though_dealt_damage_+%_final_is_gem":[],
   "quality_display_animate_weapon_is_gem":[],
   "quality_display_banner_buff_effect_+%_final_per_resource_is_gem":[],
   "quality_display_base_additional_arrows_is_gem":[],
@@ -5850,6 +5923,7 @@
   "quality_display_base_number_of_projectiles_is_gem":[],
   "quality_display_base_skill_effect_duration_is_gem":[],
   "quality_display_base_totem_duration_is_gem":[],
+  "quality_display_freezing_mark_is_gem":[],
   "quality_display_lightning_arrow_is_gem":[],
   "quality_display_mana_tempest_is_gem":[],
   "quality_display_sandstorm_swipe_is_gem":[],
@@ -6270,11 +6344,22 @@
   "skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"AilmentThreshold",
+      "name":"EnemyAilmentThreshold",
       "type":"INC",
       "1":{
         "effectName":"Overwhelming Presence",
-        "effectType":"Debuff",
+        "effectType":"AuraDebuff",
+        "type":"GlobalEffect"
+      }
+    }],
+  "skill_overwhelming_pressure_aura_enemy_stun_threshold_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyStunThreshold",
+      "type":"INC",
+      "1":{
+        "effectName":"Overwhelming Presence",
+        "effectType":"AuraDebuff",
         "type":"GlobalEffect"
       }
     }],
@@ -6996,6 +7081,12 @@
         "type":"PerStat"
       }
     }],
+  "support_brink_hit_damage_stun_multiplier_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyHeavyStunBuildup",
+      "type":"MORE"
+    }],
   "support_cast_on_mana_spent":[{
       "flags":0,
       "keywordFlags":0,
@@ -7053,6 +7144,12 @@
       "type":"BASE"
     }
   },
+  "support_hypothermia_hit_damage_freeze_multiplier_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyFreezeBuildup",
+      "type":"MORE"
+    }],
   "support_makes_skill_mine_pvp_damage_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -7115,6 +7212,38 @@
         "threshold":1,
         "type":"StatThreshold"
       }
+    }],
+  "support_pin_buildup_pin_instead_of_stun":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PinBuildupInsteadOfHeavyStunBuildup",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotStun",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotHeavyStun",
+      "type":"FLAG",
+      "value":true
+    }],
+  "support_pin_physical_damage_can_pin":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PhysicalCanPin",
+      "type":"FLAG",
+      "value":true
+    }],
+  "support_pin_pin_buildup_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyPinBuildup",
+      "type":"MORE"
     }],
   "support_pure_shock_shock_duration_+%_final":[{
       "flags":0,
