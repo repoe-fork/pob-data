@@ -345,8 +345,13 @@
         "keywordFlags":0,
         "name":"EnergyShield",
         "type":"BASE",
-        "value":1
-      }],"  per 8 Item Armour on Equipped Helmet "],
+        "value":1,
+        "1":{
+          "div":8,
+          "stat":"ArmourOnHelmet",
+          "type":"PerStat"
+        }
+      }]],
   "+1 to Maximum Energy Shield per 8 Maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2698,15 +2703,13 @@
         "keywordFlags":0,
         "name":"Armour",
         "type":"BASE",
-        "value":3
-      }],"  per 1 Item Energy Shield on Equipped Boots "],
-  "+3 to Armour per 1 Item Energy Shield on Equipped Boots 10% reduced Slowing Potency of Debuffs on You":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":3
-      }],"  per 1 Item Energy Shield on Equipped Boots 10% reduced Slowing Potency of Debuffs on You "],
+        "value":3,
+        "1":{
+          "div":1,
+          "stat":"EnergyShieldOnBoots",
+          "type":"PerStat"
+        }
+      }]],
   "+3 to Level of all Alchemist's Boon Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5512,6 +5515,18 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"vulnerability",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Walking Calamity Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"walking calamity",
           "value":3
         }
       }]],
@@ -11586,8 +11601,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":12
-      }],"  with Plant Skills "],
+        "value":12,
+        "1":{
+          "skillType":252,
+          "type":"SkillType"
+        }
+      }]],
   "12% increased Effect of your Mark Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11837,15 +11856,23 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":12
-      }],"   if you have Shapeshifted to Human form Recently "],
+        "value":12,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToHuman"
+        }
+      }]],
   "12% increased Spell Damage if you have consumed an Elemental Infusion Recently":[[{
         "flags":2,
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":12
-      }],"   if you have consumed an Elemental Infusion Recently "],
+        "value":12,
+        "1":{
+          "type":"Condition",
+          "var":"InfusionConsumedRecently"
+        }
+      }]],
   "12% increased Spell Damage per 10 Spirit":[[{
         "flags":2,
         "keywordFlags":0,
@@ -12619,8 +12646,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":15
-      }],"  if you have Shapeshifted to an Animal form Recently "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "15% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -12803,8 +12834,12 @@
         "keywordFlags":0,
         "name":"CritChance",
         "type":"INC",
-        "value":15
-      }],"  if you have Shapeshifted to an Animal form Recently "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "15% increased Critical Hit Chance with Daggers":[[{
         "flags":524292,
         "keywordFlags":0,
@@ -16881,8 +16916,12 @@
         "keywordFlags":0,
         "name":"EnemyHeavyStunBuildup",
         "type":"INC",
-        "value":20
-      }],"  if you have Shapeshifted to an Animal form Recently "],
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "20% increased Thorns damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16998,7 +17037,7 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[]," chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently "],
+  "20% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[]," chance to inflict Elemental Ailments  "],
   "20% increased duration of Ailments you inflict against Cursed Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17102,6 +17141,13 @@
           "type":"ActorCondition",
           "var":"HeavyStunned"
         }
+      }]],
+  "20% more Life Cost of Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeCost",
+        "type":"MORE",
+        "value":20
       }]],
   "20% more Stun Buildup with Critical Hits":[[{
         "flags":0,
@@ -20345,8 +20391,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":30
-      }],"  if you have Shapeshifted to an Animal form Recently "],
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "30% increased Attack Damage if you've Cast a Spell Recently":[[{
         "flags":1,
         "keywordFlags":0,
@@ -20484,8 +20534,12 @@
         "keywordFlags":0,
         "name":"CritChance",
         "type":"INC",
-        "value":30
-      }],"  if you have Shapeshifted to an Animal form Recently "],
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "30% increased Critical Hit Chance with Flails":[[{
         "flags":134217732,
         "keywordFlags":0,
@@ -21280,8 +21334,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":30
-      }],"   if you have consumed an Elemental Infusion Recently "],
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"InfusionConsumedRecently"
+        }
+      }]],
   "30% increased Spell Damage while you have Arcane Surge":[[{
         "flags":2,
         "keywordFlags":0,
@@ -23685,8 +23743,12 @@
         "keywordFlags":0,
         "name":"EnemyHeavyStunBuildup",
         "type":"INC",
-        "value":40
-      }],"  if you have Shapeshifted to an Animal form Recently "],
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "40% increased Totem Damage":[[{
         "flags":0,
         "keywordFlags":16384,
@@ -23722,7 +23784,7 @@
         "type":"INC",
         "value":40
       }],"  against Enemies affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant "],
-  "40% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[]," chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently "],
+  "40% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[]," chance to inflict Elemental Ailments  "],
   "40% increased effect of Arcane Surge on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25702,13 +25764,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"CritMultiplier",
-        "type":"MORE",
-        "value":50
-      }]],
-  "50% more Life Cost of Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeCost",
         "type":"MORE",
         "value":50
       }]],
@@ -48858,16 +48913,16 @@
         "type":"BASE",
         "value":0.75
       }]],
-  "Regenerate 1 Life per second per 8 Life spent in the past 8 seconds":[[{
+  "Regenerate 1 Life per second per 16 Life spent in the past 4 seconds":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LifeRegen",
         "type":"BASE",
         "value":1,
         "1":{
-          "div":8,
+          "div":16,
           "type":"Multiplier",
-          "var":"LifeSpentPast8s"
+          "var":"LifeSpentRecently"
         }
       }]],
   "Regenerate 1 Rage per second per 4 Rage spent Recently":[[{

@@ -324,6 +324,7 @@
       "One Handed Sword":true,
       "Spear":true,
       "Staff":true,
+      "Talisman":true,
       "Two Handed Axe":true,
       "Two Handed Mace":true,
       "Two Handed Sword":true
@@ -4361,7 +4362,10 @@
           }],
         "statDescriptionScope":"bear_fury_of_the_mountain",
         "stats":["is_area_damage","action_do_not_face_target","disable_quadruped_head_movement_when_turning","attack_speed_modifiers_apply_to_over_time_cost"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "BearRampagePlayer":{
     "baseTypeName":"Rampage",
@@ -4796,7 +4800,10 @@
           }],
         "statDescriptionScope":"bear_rampage",
         "stats":["is_area_damage","skill_cannot_gain_rage_during_use","disable_quadruped_head_movement_when_turning","display_charge_speed_is_move_speed"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "BerserkPlayer":{
     "baseTypeName":"Berserk",
@@ -13834,7 +13841,10 @@
           }],
         "statDescriptionScope":"ferocious_roar",
         "stats":["warcry_grant_break_X_armour_on_hit","warcry_minimum_benefit_if_monster_power_present","disable_quadruped_head_movement_when_turning"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "FlashGrenadePlayer":{
     "baseTypeName":"Flash Grenade",
@@ -17327,7 +17337,10 @@
           }],
         "statDescriptionScope":"furious_slam",
         "stats":["is_area_damage","disable_quadruped_head_movement_when_turning","can_create_jagged_ground"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "GalvanicShardsAmmoPlayer":{
     "baseTypeName":"Load Galvanic Shards",
@@ -20852,6 +20865,7 @@
       "One Handed Sword":true,
       "Spear":true,
       "Staff":true,
+      "Talisman":true,
       "Two Handed Axe":true,
       "Two Handed Mace":true,
       "Two Handed Sword":true
@@ -21442,6 +21456,7 @@
       "One Handed Sword":true,
       "Spear":true,
       "Staff":true,
+      "Talisman":true,
       "Two Handed Axe":true,
       "Two Handed Mace":true,
       "Two Handed Sword":true
@@ -26067,7 +26082,10 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["active_skill_hit_damage_freeze_multiplier_+%_final","active_skill_chill_effect_+%_final","is_area_damage"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "MagmaBarrierPlayer":{
     "baseTypeName":"Magma Barrier",
@@ -27859,7 +27877,10 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["energy_generated_+%","base_deal_no_damage_over_time","hide_minion_frame"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "MetaMortarCannonPlayer":{
     "baseTypeName":"Mortar Cannon",
@@ -29317,7 +29338,10 @@
           }],
         "statDescriptionScope":"molten_crash_statset_1",
         "stats":["quality_display_base_skill_effect_duration_is_gem","is_area_damage"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "OilBarragePlayer":{
     "baseTypeName":"Oil Barrage",
@@ -29939,7 +29963,10 @@
           }],
         "statDescriptionScope":"oil_barrage_statset_2",
         "stats":["base_is_projectile","projectile_ballistic_angle_from_target_distance","is_area_damage","projectile_uses_contact_position","check_for_targets_between_initiator_and_projectile_source","maintain_projectile_direction_when_using_contact_position","projectiles_barrage","projectiles_fire_at_ground","skill_do_not_elapse_channel_time_while_barraging","never_ignite"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "OilGrenadePlayer":{
     "baseTypeName":"Oil Grenade",
@@ -34817,7 +34844,10 @@
           }],
         "statDescriptionScope":"rolling_magma",
         "stats":["number_of_chains","active_skill_base_area_of_effect_radius","is_area_damage","base_is_projectile","display_projectiles_chain_when_impacting_ground","projectile_uses_contact_position","projectile_uses_contact_direction","can_perform_skill_while_moving","disable_quadruped_head_control"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "RollingSlamPlayer":{
     "baseTypeName":"Rolling Slam",
@@ -40353,6 +40383,7 @@
       "One Handed Sword":true,
       "Spear":true,
       "Staff":true,
+      "Talisman":true,
       "Two Handed Axe":true,
       "Two Handed Mace":true,
       "Two Handed Sword":true
@@ -40772,6 +40803,7 @@
       "One Handed Sword":true,
       "Spear":true,
       "Staff":true,
+      "Talisman":true,
       "Two Handed Axe":true,
       "Two Handed Mace":true,
       "Two Handed Sword":true
@@ -52243,6 +52275,762 @@
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_number_of_projectiles","is_area_damage","show_number_of_projectiles","base_skill_show_average_damage_instead_of_dps","projectiles_not_offset","channel_start_lock_cancelling_scales_with_cast_speed","can_perform_skill_while_moving","base_is_projectile","display_statset_hide_usage_stats"]
       }]
   },
+  "WalkingCalamityMeteorPlayer":{
+    "castTime":1,
+    "hidden":true,
+    "levels":[{
+        "baseMultiplier":1.5,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":1.65,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":1.83,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":2,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":2.18,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":2.36,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":2.55,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":2.73,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":2.9,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":3.08,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":3.28,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":3.5,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":3.74,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":3.99,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":4.27,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":4.58,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":4.92,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":5.28,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":5.68,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":6.12,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":6.6,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":7.11,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":7.66,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":8.25,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":8.89,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":9.57,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":10.31,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":11.11,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":11.97,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":12.89,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":13.89,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":14.96,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":16.12,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":17.37,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":18.71,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":20.16,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":21.71,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":23.39,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":25.2,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":27.15,
+        "levelRequirement":0
+      }],
+    "name":"Meteors",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "8":true,
+      "28":true,
+      "31":true,
+      "37":true,
+      "50":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",8],["active_skill_base_physical_damage_%_to_convert_to_fire",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Small Meteor",
+        "levels":[{
+            "actorLevel":1
+          },{
+            "actorLevel":3.4519999027252
+          },{
+            "actorLevel":6.7670001983643
+          },{
+            "actorLevel":10.307999610901
+          },{
+            "actorLevel":14.074999809265
+          },{
+            "actorLevel":18.068000793457
+          },{
+            "actorLevel":22.287000656128
+          },{
+            "actorLevel":26.732000350952
+          },{
+            "actorLevel":31.40299987793
+          },{
+            "actorLevel":36.299999237061
+          },{
+            "actorLevel":41.423000335693
+          },{
+            "actorLevel":46.771999359131
+          },{
+            "actorLevel":52.34700012207
+          },{
+            "actorLevel":58.147998809814
+          },{
+            "actorLevel":64.175003051758
+          },{
+            "actorLevel":70.428001403809
+          },{
+            "actorLevel":76.906997680664
+          },{
+            "actorLevel":83.611999511719
+          },{
+            "actorLevel":90.542999267578
+          },{
+            "actorLevel":97.699996948242
+          },{
+            "actorLevel":105.08300018311
+          },{
+            "actorLevel":112.69200134277
+          },{
+            "actorLevel":120.52700042725
+          },{
+            "actorLevel":128.58799743652
+          },{
+            "actorLevel":136.875
+          },{
+            "actorLevel":145.38800048828
+          },{
+            "actorLevel":154.12699890137
+          },{
+            "actorLevel":163.09199523926
+          },{
+            "actorLevel":172.28300476074
+          },{
+            "actorLevel":181.69999694824
+          },{
+            "actorLevel":191.34300231934
+          },{
+            "actorLevel":201.21200561523
+          },{
+            "actorLevel":211.30700683594
+          },{
+            "actorLevel":221.62800598145
+          },{
+            "actorLevel":232.17500305176
+          },{
+            "actorLevel":242.94799804688
+          },{
+            "actorLevel":253.94700622559
+          },{
+            "actorLevel":265.17199707031
+          },{
+            "actorLevel":276.62298583984
+          },{
+            "actorLevel":288.29998779297
+          }],
+        "statDescriptionScope":"walking_calamity_meteor",
+        "stats":["is_area_damage","attack_is_not_melee_override"]
+      },{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "duration":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_fire",100],["active_skill_base_area_of_effect_radius",14],["base_skill_effect_duration",5000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Large Meteor",
+        "levels":[{
+            "actorLevel":1,
+            "baseMultiplier":1.5
+          },{
+            "actorLevel":3.4519999027252,
+            "baseMultiplier":1.65
+          },{
+            "actorLevel":6.7670001983643,
+            "baseMultiplier":1.83
+          },{
+            "actorLevel":10.307999610901,
+            "baseMultiplier":2
+          },{
+            "actorLevel":14.074999809265,
+            "baseMultiplier":2.18
+          },{
+            "actorLevel":18.068000793457,
+            "baseMultiplier":2.36
+          },{
+            "actorLevel":22.287000656128,
+            "baseMultiplier":2.55
+          },{
+            "actorLevel":26.732000350952,
+            "baseMultiplier":2.73
+          },{
+            "actorLevel":31.40299987793,
+            "baseMultiplier":2.9
+          },{
+            "actorLevel":36.299999237061,
+            "baseMultiplier":3.08
+          },{
+            "actorLevel":41.423000335693,
+            "baseMultiplier":3.28
+          },{
+            "actorLevel":46.771999359131,
+            "baseMultiplier":3.5
+          },{
+            "actorLevel":52.34700012207,
+            "baseMultiplier":3.74
+          },{
+            "actorLevel":58.147998809814,
+            "baseMultiplier":3.99
+          },{
+            "actorLevel":64.175003051758,
+            "baseMultiplier":4.27
+          },{
+            "actorLevel":70.428001403809,
+            "baseMultiplier":4.58
+          },{
+            "actorLevel":76.906997680664,
+            "baseMultiplier":4.92
+          },{
+            "actorLevel":83.611999511719,
+            "baseMultiplier":5.28
+          },{
+            "actorLevel":90.542999267578,
+            "baseMultiplier":5.68
+          },{
+            "actorLevel":97.699996948242,
+            "baseMultiplier":6.12
+          },{
+            "actorLevel":105.08300018311,
+            "baseMultiplier":6.6
+          },{
+            "actorLevel":112.69200134277,
+            "baseMultiplier":7.11
+          },{
+            "actorLevel":120.52700042725,
+            "baseMultiplier":7.66
+          },{
+            "actorLevel":128.58799743652,
+            "baseMultiplier":8.25
+          },{
+            "actorLevel":136.875,
+            "baseMultiplier":8.89
+          },{
+            "actorLevel":145.38800048828,
+            "baseMultiplier":9.57
+          },{
+            "actorLevel":154.12699890137,
+            "baseMultiplier":10.31
+          },{
+            "actorLevel":163.09199523926,
+            "baseMultiplier":11.11
+          },{
+            "actorLevel":172.28300476074,
+            "baseMultiplier":11.97
+          },{
+            "actorLevel":181.69999694824,
+            "baseMultiplier":12.89
+          },{
+            "actorLevel":191.34300231934,
+            "baseMultiplier":13.89
+          },{
+            "actorLevel":201.21200561523,
+            "baseMultiplier":14.96
+          },{
+            "actorLevel":211.30700683594,
+            "baseMultiplier":16.12
+          },{
+            "actorLevel":221.62800598145,
+            "baseMultiplier":17.37
+          },{
+            "actorLevel":232.17500305176,
+            "baseMultiplier":18.71
+          },{
+            "actorLevel":242.94799804688,
+            "baseMultiplier":20.16
+          },{
+            "actorLevel":253.94700622559,
+            "baseMultiplier":21.71
+          },{
+            "actorLevel":265.17199707031,
+            "baseMultiplier":23.39
+          },{
+            "actorLevel":276.62298583984,
+            "baseMultiplier":25.2
+          },{
+            "actorLevel":288.29998779297,
+            "baseMultiplier":27.15
+          }],
+        "statDescriptionScope":"walking_calamity_meteor",
+        "stats":["is_area_damage","attack_is_not_melee_override"]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
+  },
+  "WalkingCalamityPlayer":{
+    "baseTypeName":"Walking Calamity",
+    "castTime":1,
+    "color":1,
+    "description":"Build Glory by gaining Rage while already at maximum Rage. When you have maximum Glory, roar to the heavens to bring them down upon your enemies. For the duration of the Skill, meteors rain down around you and you Gain Fire damage and Rage regeneration. This Skill's effects are suppressed if you leave Bear form, but will resume if you return to Bear form before the duration expires.",
+    "levels":[{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":24
+        },
+        "levelRequirement":0
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":28
+        },
+        "levelRequirement":3
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":32
+        },
+        "levelRequirement":6
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":37
+        },
+        "levelRequirement":10
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":41
+        },
+        "levelRequirement":14
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":46
+        },
+        "levelRequirement":18
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":52
+        },
+        "levelRequirement":22
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":58
+        },
+        "levelRequirement":26
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":64
+        },
+        "levelRequirement":31
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":70
+        },
+        "levelRequirement":36
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":78
+        },
+        "levelRequirement":41
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":85
+        },
+        "levelRequirement":46
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":93
+        },
+        "levelRequirement":52
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":102
+        },
+        "levelRequirement":58
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":111
+        },
+        "levelRequirement":64
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":120
+        },
+        "levelRequirement":66
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":131
+        },
+        "levelRequirement":72
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":142
+        },
+        "levelRequirement":78
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":153
+        },
+        "levelRequirement":84
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":166
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":179
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":193
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":208
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":223
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":240
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":258
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":276
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":296
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":317
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":340
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":363
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":388
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":415
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":443
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":472
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":503
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":537
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":572
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":608
+        },
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":-30,
+        "baseMultiplier":0,
+        "cost":{
+          "Mana":648
+        },
+        "levelRequirement":90
+      }],
+    "name":"Walking Calamity",
+    "qualityStats":[["walking_calamity_large_meteor_every",-0.1]],
+    "skillTypes":{
+      "1":true,
+      "5":true,
+      "8":true,
+      "9":true,
+      "28":true,
+      "123":true,
+      "140":true,
+      "156":true,
+      "194":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "duration":true
+        },
+        "constantStats":[["active_skill_requires_X_glory",50],["base_skill_effect_duration",10000],["active_skill_base_area_of_effect_radius",80],["walking_calamity_spawn_meteor_every_ms",50],["walking_calamity_base_rage_regeneration_per_minute",300],["walking_calamity_non_skill_base_all_damage_%_to_gain_as_fire",30],["walking_calamity_large_meteor_every",15],["bear_skills_additional_base_attack_time_when_performing_from_default_stance",300],["walking_calamity_large_meteor_same_target_prevention_duration_ms",2000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Walking Calamity",
+        "levels":[{
+            "actorLevel":1
+          },{
+            "actorLevel":3.4519999027252
+          },{
+            "actorLevel":6.7670001983643
+          },{
+            "actorLevel":10.307999610901
+          },{
+            "actorLevel":14.074999809265
+          },{
+            "actorLevel":18.068000793457
+          },{
+            "actorLevel":22.287000656128
+          },{
+            "actorLevel":26.732000350952
+          },{
+            "actorLevel":31.40299987793
+          },{
+            "actorLevel":36.299999237061
+          },{
+            "actorLevel":41.423000335693
+          },{
+            "actorLevel":46.771999359131
+          },{
+            "actorLevel":52.34700012207
+          },{
+            "actorLevel":58.147998809814
+          },{
+            "actorLevel":64.175003051758
+          },{
+            "actorLevel":70.428001403809
+          },{
+            "actorLevel":76.906997680664
+          },{
+            "actorLevel":83.611999511719
+          },{
+            "actorLevel":90.542999267578
+          },{
+            "actorLevel":97.699996948242
+          },{
+            "actorLevel":105.08300018311
+          },{
+            "actorLevel":112.69200134277
+          },{
+            "actorLevel":120.52700042725
+          },{
+            "actorLevel":128.58799743652
+          },{
+            "actorLevel":136.875
+          },{
+            "actorLevel":145.38800048828
+          },{
+            "actorLevel":154.12699890137
+          },{
+            "actorLevel":163.09199523926
+          },{
+            "actorLevel":172.28300476074
+          },{
+            "actorLevel":181.69999694824
+          },{
+            "actorLevel":191.34300231934
+          },{
+            "actorLevel":201.21200561523
+          },{
+            "actorLevel":211.30700683594
+          },{
+            "actorLevel":221.62800598145
+          },{
+            "actorLevel":232.17500305176
+          },{
+            "actorLevel":242.94799804688
+          },{
+            "actorLevel":253.94700622559
+          },{
+            "actorLevel":265.17199707031
+          },{
+            "actorLevel":276.62298583984
+          },{
+            "actorLevel":288.29998779297
+          }],
+        "statDescriptionScope":"walking_calamity",
+        "stats":["base_deal_no_damage","disable_quadruped_head_movement_when_turning"]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
+  },
   "WarBannerPlayer":{
     "castTime":0.5,
     "hidden":true,
@@ -53372,7 +54160,10 @@
           }],
         "statDescriptionScope":"wing_blast_statset_1",
         "stats":["visual_hit_effect_physical_is_wind","is_area_damage","active_skill_show_crush_range","disable_quadruped_head_control","precise_cursor_targeting_uses_contact_point_height_offset","skill_can_add_multiple_charges_per_action","display_statset_hide_usage_stats"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WolfArcticHowlPlayer":{
     "baseTypeName":"Arctic Howl",
@@ -54093,7 +54884,10 @@
         "notMinionStat":["secondary_minimum_base_cold_damage","secondary_maximum_base_cold_damage"],
         "statDescriptionScope":"arctic_howl",
         "stats":["secondary_minimum_base_cold_damage","secondary_maximum_base_cold_damage","wolf_warcry_buff_cold_damage_min_per_5_power_up_to_cap","wolf_warcry_buff_cold_damage_max_per_5_power_up_to_cap","wolf_warcry_empowered_attack_cold_damage_min_per_5_power_up_to_cap","wolf_warcry_empowered_attack_cold_damage_max_per_5_power_up_to_cap","global_knockback","cannot_cancel_skill_before_contact_point","is_area_damage","display_skill_deals_secondary_damage","can_perform_skill_while_moving","warcry_minimum_benefit_if_monster_power_present","has_freeze_cull","wolf_warcry_apply_effect_on_freeze","active_skill_show_freeze_range"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WolfCrossSlashPlayer":{
     "baseTypeName":"Cross Slash",
@@ -54695,7 +55489,10 @@
           }],
         "statDescriptionScope":"wolf_cross_slash",
         "stats":["is_area_damage"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WolfCrossSlashWolfPlayer":{
     "castTime":1,
@@ -55360,7 +56157,10 @@
           }],
         "statDescriptionScope":"wolf_lunar_blessing_beam_attack",
         "stats":["wolf_lunar_blessing_beam_attack_extra_beams_to_trigger","is_area_damage"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WolfLunarBlessingPlayer":{
     "baseTypeName":"Lunar Blessing",
@@ -55831,7 +56631,10 @@
           }],
         "statDescriptionScope":"wolf_lunar_blessing",
         "stats":["wolf_lunar_blessing_all_damage_%_to_gain_as_cold_damage","global_knockback","display_this_skill_cooldown_does_not_recover_during_buff"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WolfPackPlayer":{
     "baseTypeName":"Wolf Pack",
@@ -56770,7 +57573,10 @@
           }],
         "statDescriptionScope":"wolf_pounce_statset_0",
         "stats":["is_area_damage","leap_slam_always_knockback_within_range","base_skill_show_average_damage_instead_of_dps"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WyvernDevourPlayer":{
     "baseTypeName":"Devour",
@@ -57245,7 +58051,10 @@
           }],
         "statDescriptionScope":"wyvern_devour",
         "stats":["wyvern_devour_life_restoration","active_skill_show_cull_range","disable_quadruped_head_control","global_knockback","is_area_damage"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   },
   "WyvernFlameBreathPlayer":{
     "baseTypeName":"Flame Breath",
@@ -57766,6 +58575,9 @@
           }],
         "statDescriptionScope":"wyvern_flame_breath",
         "stats":["is_area_damage","disable_quadruped_head_movement_when_turning","skill_cannot_gain_rage_during_use","active_skill_compounding_ignites"]
-      }]
+      }],
+    "weaponTypes":{
+      "Talisman":true
+    }
   }
 }

@@ -1789,7 +1789,8 @@
       "strength":true,
       "sustained":true
     },
-    "variantId":"BearFuryOfTheMountain"
+    "variantId":"BearFuryOfTheMountain",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemBearMaul":{
     "Tier":0,
@@ -1812,7 +1813,8 @@
       "shapeshift":true,
       "strike":true
     },
-    "variantId":"BearMaul"
+    "variantId":"BearMaul",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemBearRampage":{
     "Tier":11,
@@ -1840,7 +1842,8 @@
       "sustained":true,
       "travel":true
     },
-    "variantId":"BearRampage"
+    "variantId":"BearRampage",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemBeheadSupport":{
     "Tier":2,
@@ -6897,7 +6900,8 @@
       "strength":true,
       "trigger":true
     },
-    "variantId":"FeralInvocation"
+    "variantId":"FeralInvocation",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemFerociousRoar":{
     "Tier":7,
@@ -6923,7 +6927,8 @@
       "strength":true,
       "warcry":true
     },
-    "variantId":"FerociousRoar"
+    "variantId":"FerociousRoar",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemFerocitySupport":{
     "Tier":0,
@@ -7926,7 +7931,8 @@
       "slam":true,
       "strength":true
     },
-    "variantId":"FuriousSlam"
+    "variantId":"FuriousSlam",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemFuturePast":{
     "Tier":0,
@@ -10635,7 +10641,8 @@
       "strike":true,
       "wolf":true
     },
-    "variantId":"LunarAssault"
+    "variantId":"LunarAssault",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemMagmaBarrier":{
     "Tier":4,
@@ -11363,7 +11370,8 @@
       "strength":true,
       "travel":true
     },
-    "variantId":"MoltenCrash"
+    "variantId":"MoltenCrash",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemMomentumSupport":{
     "Tier":2,
@@ -11635,7 +11643,8 @@
       "strength":true,
       "wyvern":true
     },
-    "variantId":"OilBarrage"
+    "variantId":"OilBarrage",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemOilGrenade":{
     "Tier":9,
@@ -14131,7 +14140,8 @@
       "strength":true,
       "wyvern":true
     },
-    "variantId":"RollingMagma"
+    "variantId":"RollingMagma",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemRollingSlam":{
     "Tier":1,
@@ -17973,6 +17983,36 @@
     },
     "variantId":"Vulnerability"
   },
+  "Metadata/Items/Gems/SkillGemWalkingCalamity":{
+    "Tier":13,
+    "additionalGrantedEffectId1":"WalkingCalamityMeteorPlayer",
+    "baseTypeName":"Walking Calamity",
+    "gameId":"Metadata/Items/Gems/SkillGemWalkingCalamity",
+    "gemType":"Attack",
+    "grantedEffectId":"WalkingCalamityPlayer",
+    "name":"Walking Calamity",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":50,
+    "reqStr":50,
+    "tagString":"Shapeshift, Buff, Bear, AoE, Trigger, Fire, Duration, Conditional",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "bear":true,
+      "buff":true,
+      "conditional":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "shapeshift":true,
+      "strength":true,
+      "trigger":true
+    },
+    "variantId":"WalkingCalamity",
+    "weaponRequirements":"Talisman"
+  },
   "Metadata/Items/Gems/SkillGemWallFortress":{
     "Tier":1,
     "gameId":"Metadata/Items/Gems/SupportGemFortress",
@@ -18368,7 +18408,8 @@
       "wind":true,
       "wyvern":true
     },
-    "variantId":"WingBlast"
+    "variantId":"WingBlast",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWither":{
     "Tier":0,
@@ -18460,7 +18501,8 @@
       "warcry":true,
       "wolf":true
     },
-    "variantId":"WolfArcticHowl"
+    "variantId":"WolfArcticHowl",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWolfCrossSlash":{
     "Tier":7,
@@ -18485,7 +18527,8 @@
       "strength":true,
       "wolf":true
     },
-    "variantId":"WolfCrossSlash"
+    "variantId":"WolfCrossSlash",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWolfLunarBlessing":{
     "Tier":13,
@@ -18514,7 +18557,8 @@
       "trigger":true,
       "wolf":true
     },
-    "variantId":"WolfLunarBlessing"
+    "variantId":"WolfLunarBlessing",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWolfPack":{
     "Tier":8,
@@ -18572,7 +18616,8 @@
       "trigger":true,
       "wolf":true
     },
-    "variantId":"WolfPounce"
+    "variantId":"WolfPounce",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWolfShred":{
     "Tier":0,
@@ -18602,7 +18647,8 @@
       "trigger":true,
       "wolf":true
     },
-    "variantId":"WolfShred"
+    "variantId":"WolfShred",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWyvernDevour":{
     "Tier":5,
@@ -18627,7 +18673,8 @@
       "strength":true,
       "wyvern":true
     },
-    "variantId":"WyvernDevour"
+    "variantId":"WyvernDevour",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWyvernFlameBreath":{
     "Tier":13,
@@ -18655,7 +18702,8 @@
       "sustained":true,
       "wyvern":true
     },
-    "variantId":"WyvernFlameBreath"
+    "variantId":"WyvernFlameBreath",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemWyvernRend":{
     "Tier":0,
@@ -18680,7 +18728,8 @@
       "strike":true,
       "wyvern":true
     },
-    "variantId":"WyvernRend"
+    "variantId":"WyvernRend",
+    "weaponRequirements":"Talisman"
   },
   "Metadata/Items/Gems/SkillGemXibaquasRendingSupport":{
     "Tier":0,
