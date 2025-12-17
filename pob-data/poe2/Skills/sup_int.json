@@ -5207,7 +5207,7 @@
   "SupportShockingRiftPlayer":{
     "addSkillTypes":[],
     "color":3,
-    "description":"Supports Skills that which Hit enemies. When Supported Skills Shock an enemy that is nearby other Shocked enemies, trigger Electromagnetism, sucking in nearby enemies, Hindering them, and dealing Lightning damage at an interval.",
+    "description":"Supports Skills that Hit enemies. When Supported Skills Shock an enemy that is nearby other Shocked enemies, trigger Electromagnetism, sucking in nearby enemies, Hindering them, and dealing Lightning damage at an interval.",
     "excludeSkillTypes":[],
     "gemFamily":["ShockingRift"],
     "levels":[{
@@ -5232,7 +5232,7 @@
     "addSkillTypes":[],
     "color":3,
     "description":"Supports Spells that affect an area around you or a target location, causing those Spells to also target additional areas on either side of the target area, along a randomly chosen axis. Cannot support Channelling skills or Remote skills.",
-    "excludeSkillTypes":[25,96,33,36,38,48,1],
+    "excludeSkillTypes":[25,96,33,36],
     "gemFamily":["SpellCascade"],
     "levels":[{
         "levelRequirement":0
@@ -5270,7 +5270,7 @@
     "addSkillTypes":[],
     "color":3,
     "description":"Supports Spells that affect an area around you or a target location. Supported Spells echo, causing their effects to happen again after a short delay. Cannot support Channelling skills Remote skills or skills which are Triggered.",
-    "excludeSkillTypes":[25,96,33,36,38,48,1,37],
+    "excludeSkillTypes":[25,96,33,36,37],
     "gemFamily":["SpellEcho"],
     "levels":[{
         "levelRequirement":0,
@@ -6556,8 +6556,7 @@
     "gemFamily":["Zenith"],
     "ignoreMinionTypes":true,
     "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
+        "levelRequirement":0
       }],
     "name":"Zenith II",
     "requireSkillTypes":[2,7,74,49],

@@ -6322,132 +6322,173 @@
     "color":1,
     "description":"While active, a portion of the Physical Attack damage you deal is stored. Casting a Spell uses the stored damage to create a patch of Thorny Ground that deals Spell damage to moving enemies.",
     "levels":[{
+        "critChance":10,
         "levelRequirement":0,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":3,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":6,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":10,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":14,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":18,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":22,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":26,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":31,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":36,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":41,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":46,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":52,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":58,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":64,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":66,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":72,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":78,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":84,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       },{
+        "critChance":10,
         "levelRequirement":90,
         "spiritReservationFlat":30
       }],
     "name":"Briarpatch",
-    "qualityStats":[["maim_on_hit_%",0.25]],
+    "qualityStats":[["spells_chance_to_hinder_on_hit_%",0.25]],
     "skillTypes":{
       "2":true,
       "5":true,
       "8":true,
+      "9":true,
       "12":true,
       "27":true,
       "72":true,
@@ -6455,11 +6496,13 @@
       "120":true,
       "139":true,
       "144":true,
+      "168":true,
       "252":true
     },
     "statSets":[{
         "baseEffectiveness":2.2000000476837,
         "baseFlags":{
+          "area":true,
           "duration":true,
           "spell":true
         },
@@ -6629,7 +6672,7 @@
             "1":3424
           }],
         "statDescriptionScope":"briarpatch",
-        "stats":["briarpatch_maximum_stored_physical_damage","display_statset_no_hit_damage","thorns_damage_modifiers_apply_to_spell_damage"]
+        "stats":["briarpatch_maximum_stored_physical_damage","thorns_damage_modifiers_apply_to_spell_damage","is_area_damage"]
       }]
   },
   "ClusterGrenadePlayer":{
@@ -27492,7 +27535,7 @@
     "baseTypeName":"Feral Invocation",
     "castTime":0,
     "color":1,
-    "description":"While active, gains Energy when you spend Mana. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Shapeshifting Attacks, and can trigger them multiple times if it has enough Energy.",
+    "description":"While active, gains Energy when you spend Mana. Using the Invocation once sufficient Energy is gathered will consume the Energy to create visages which attack once with a socketed Shapeshifting Attack, creating multiple visages if it has enough Energy.",
     "levels":[{
         "cooldown":0.2,
         "levelRequirement":0,
@@ -29640,6 +29683,7 @@
       "48":true,
       "57":true,
       "131":true,
+      "151":true,
       "156":true,
       "168":true,
       "171":true,
@@ -47817,216 +47861,216 @@
       "252":true
     },
     "statSets":[{
-        "baseEffectiveness":1.75,
+        "baseEffectiveness":2.0699999332428,
         "baseFlags":{
           "area":true,
           "duration":true,
           "spell":true
         },
-        "constantStats":[["awakened_forest_spawn_X_vines_per_cast_time",2],["active_skill_base_area_of_effect_radius",25],["active_skill_base_secondary_area_of_effect_radius",10],["active_skill_base_tertiary_area_of_effect_radius",40],["base_minimum_channel_time_ms",500],["base_number_of_awakened_forests_allowed",1],["base_skill_effect_duration",8000],["base_secondary_skill_effect_duration",5000],["awakened_forest_area_of_effect_+%_final_when_wet",50],["plant_skill_damage_+%_final_when_wet",50],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["thrashing_vines_retarget_cooldown_ms",2000]],
+        "constantStats":[["awakened_forest_spawn_X_vines_per_cast_time",2],["active_skill_base_area_of_effect_radius",25],["active_skill_base_secondary_area_of_effect_radius",10],["active_skill_base_tertiary_area_of_effect_radius",40],["base_minimum_channel_time_ms",500],["base_number_of_awakened_forests_allowed",1],["base_skill_effect_duration",8000],["base_secondary_skill_effect_duration",5000],["awakened_forest_area_of_effect_+%_final_when_wet",50],["plant_skill_damage_+%_final_when_wet",50],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["thrashing_vines_retarget_cooldown_ms",500]],
         "damageIncrementalEffectiveness":0.0074000000022352,
         "incrementalEffectiveness":0.12999999523163,
         "label":"Thrashing Vines",
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[1,1],
-            "1":5,
-            "2":8
+            "1":6,
+            "2":10
           },{
             "actorLevel":3.4519999027252,
             "statInterpolation":[1,1],
-            "1":7,
-            "2":11
+            "1":9,
+            "2":13
           },{
             "actorLevel":6.7670001983643,
             "statInterpolation":[1,1],
-            "1":10,
-            "2":15
+            "1":12,
+            "2":18
           },{
             "actorLevel":10.307999610901,
             "statInterpolation":[1,1],
-            "1":13,
-            "2":19
+            "1":15,
+            "2":23
           },{
             "actorLevel":14.074999809265,
             "statInterpolation":[1,1],
-            "1":16,
-            "2":24
+            "1":19,
+            "2":29
           },{
             "actorLevel":18.068000793457,
             "statInterpolation":[1,1],
-            "1":20,
-            "2":30
+            "1":23,
+            "2":35
           },{
             "actorLevel":22.287000656128,
             "statInterpolation":[1,1],
-            "1":24,
-            "2":36
-          },{
-            "actorLevel":26.732000350952,
-            "statInterpolation":[1,1],
-            "1":29,
+            "1":28,
             "2":43
           },{
-            "actorLevel":31.40299987793,
+            "actorLevel":26.732000350952,
             "statInterpolation":[1,1],
             "1":34,
             "2":51
           },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1,1],
+            "1":40,
+            "2":60
+          },{
             "actorLevel":36.299999237061,
             "statInterpolation":[1,1],
-            "1":39,
-            "2":59
+            "1":47,
+            "2":70
           },{
             "actorLevel":41.423000335693,
             "statInterpolation":[1,1],
-            "1":46,
-            "2":69
+            "1":54,
+            "2":81
           },{
             "actorLevel":46.771999359131,
             "statInterpolation":[1,1],
-            "1":53,
-            "2":79
+            "1":63,
+            "2":94
           },{
             "actorLevel":52.34700012207,
             "statInterpolation":[1,1],
-            "1":61,
-            "2":91
+            "1":72,
+            "2":108
           },{
             "actorLevel":58.147998809814,
             "statInterpolation":[1,1],
-            "1":70,
-            "2":105
+            "1":83,
+            "2":124
           },{
             "actorLevel":64.175003051758,
             "statInterpolation":[1,1],
-            "1":80,
-            "2":120
+            "1":94,
+            "2":142
           },{
             "actorLevel":70.428001403809,
             "statInterpolation":[1,1],
-            "1":91,
-            "2":136
+            "1":108,
+            "2":161
           },{
             "actorLevel":76.906997680664,
             "statInterpolation":[1,1],
-            "1":103,
-            "2":155
+            "1":122,
+            "2":184
           },{
             "actorLevel":83.611999511719,
             "statInterpolation":[1,1],
-            "1":117,
-            "2":176
+            "1":139,
+            "2":208
           },{
             "actorLevel":90.542999267578,
             "statInterpolation":[1,1],
-            "1":133,
-            "2":200
+            "1":157,
+            "2":236
           },{
             "actorLevel":97.699996948242,
             "statInterpolation":[1,1],
-            "1":151,
-            "2":226
+            "1":178,
+            "2":267
           },{
             "actorLevel":105.08300018311,
             "statInterpolation":[1,1],
-            "1":170,
-            "2":255
+            "1":201,
+            "2":302
           },{
             "actorLevel":112.69200134277,
             "statInterpolation":[1,1],
-            "1":192,
-            "2":289
+            "1":228,
+            "2":341
           },{
             "actorLevel":120.52700042725,
             "statInterpolation":[1,1],
-            "1":217,
-            "2":326
+            "1":257,
+            "2":385
           },{
             "actorLevel":128.58799743652,
             "statInterpolation":[1,1],
-            "1":245,
-            "2":368
+            "1":290,
+            "2":435
           },{
             "actorLevel":136.875,
             "statInterpolation":[1,1],
-            "1":276,
-            "2":415
+            "1":327,
+            "2":490
           },{
             "actorLevel":145.38800048828,
             "statInterpolation":[1,1],
-            "1":312,
-            "2":468
+            "1":369,
+            "2":553
           },{
             "actorLevel":154.12699890137,
             "statInterpolation":[1,1],
-            "1":352,
-            "2":527
+            "1":416,
+            "2":624
           },{
             "actorLevel":163.09199523926,
             "statInterpolation":[1,1],
-            "1":397,
-            "2":595
+            "1":469,
+            "2":704
           },{
             "actorLevel":172.28300476074,
             "statInterpolation":[1,1],
-            "1":447,
-            "2":671
+            "1":529,
+            "2":794
           },{
             "actorLevel":181.69999694824,
             "statInterpolation":[1,1],
-            "1":505,
-            "2":757
+            "1":597,
+            "2":896
           },{
             "actorLevel":191.34300231934,
             "statInterpolation":[1,1],
-            "1":570,
-            "2":855
+            "1":674,
+            "2":1011
           },{
             "actorLevel":201.21200561523,
             "statInterpolation":[1,1],
-            "1":643,
-            "2":965
+            "1":761,
+            "2":1141
           },{
             "actorLevel":211.30700683594,
             "statInterpolation":[1,1],
-            "1":727,
-            "2":1090
+            "1":860,
+            "2":1289
           },{
             "actorLevel":221.62800598145,
             "statInterpolation":[1,1],
-            "1":821,
-            "2":1232
+            "1":971,
+            "2":1457
           },{
             "actorLevel":232.17500305176,
             "statInterpolation":[1,1],
-            "1":929,
-            "2":1393
+            "1":1098,
+            "2":1648
           },{
             "actorLevel":242.94799804688,
             "statInterpolation":[1,1],
-            "1":1051,
-            "2":1576
+            "1":1243,
+            "2":1864
           },{
             "actorLevel":253.94700622559,
             "statInterpolation":[1,1],
-            "1":1190,
-            "2":1785
+            "1":1407,
+            "2":2111
           },{
             "actorLevel":265.17199707031,
             "statInterpolation":[1,1],
-            "1":1348,
-            "2":2022
+            "1":1595,
+            "2":2392
           },{
             "actorLevel":276.62298583984,
             "statInterpolation":[1,1],
-            "1":1529,
-            "2":2293
+            "1":1808,
+            "2":2712
           },{
             "actorLevel":288.29998779297,
             "statInterpolation":[1,1],
-            "1":1735,
-            "2":2602
+            "1":2052,
+            "2":3078
           }],
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
         "statDescriptionScope":"thrashing_vines",
@@ -52499,7 +52543,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"walking_calamity_meteor",
-        "stats":["is_area_damage","attack_is_not_melee_override"]
+        "stats":["is_area_damage","attack_is_not_melee_override","triggerable_in_any_set"]
       },{
         "baseFlags":{
           "area":true,
@@ -52631,7 +52675,7 @@
             "baseMultiplier":27.15
           }],
         "statDescriptionScope":"walking_calamity_meteor",
-        "stats":["is_area_damage","attack_is_not_melee_override"]
+        "stats":["is_area_damage","attack_is_not_melee_override","triggerable_in_any_set"]
       }],
     "weaponTypes":{
       "Talisman":true
@@ -56630,7 +56674,7 @@
             "1":79
           }],
         "statDescriptionScope":"wolf_lunar_blessing",
-        "stats":["wolf_lunar_blessing_all_damage_%_to_gain_as_cold_damage","global_knockback","display_this_skill_cooldown_does_not_recover_during_buff"]
+        "stats":["wolf_lunar_blessing_all_damage_%_to_gain_as_cold_damage","global_knockback","display_this_skill_cooldown_does_not_recover_during_buff","base_deal_no_damage"]
       }],
     "weaponTypes":{
       "Talisman":true

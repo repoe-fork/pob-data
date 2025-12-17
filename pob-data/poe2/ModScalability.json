@@ -17668,7 +17668,7 @@
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Skills":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Skills Supported by Spellslinger":[{
@@ -17680,7 +17680,7 @@
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Skills that throw Mines":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "#% reduced Mana Reservation Efficiency of Stance Skills":[{
@@ -18846,7 +18846,7 @@
       "isScalable":true
     }],
   "#% reduced Reservation Efficiency of Skills":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "#% reduced Reservation Efficiency of Skills which create Undead Minions":[{
@@ -21975,7 +21975,7 @@
       "isScalable":true
     }],
   "Arctic Armour has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Arctic Armour has #% reduced Reservation":[{
@@ -23179,16 +23179,16 @@
   "Base Spell Critical Hit Chance of Spells is equal to that of Main Hand Weapon":[],
   "Basic Currency drops in Heists are Duplicated":[],
   "Bathed in the blood of # sacrificed in the name of Ahuana\nPassives in radius are Conquered by the Vaal":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Bathed in the blood of # sacrificed in the name of Doryani\nPassives in radius are Conquered by the Vaal":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Bathed in the blood of # sacrificed in the name of Xibaqua\nPassives in radius are Conquered by the Vaal":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Bathed in the blood of # sacrificed in the name of Zerphi\nPassives in radius are Conquered by the Vaal":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Battlemage":[],
   "Battlemage's Cry Exerts # additional Attack":[{
@@ -24040,16 +24040,16 @@
   "Cannot use Warcries":[],
   "Carry a Chest which adds 20 Inventory Slots":[],
   "Carved to glorify # new faithful converted by High Templar Avarius\nPassives in radius are Conquered by the Templars":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Carved to glorify # new faithful converted by High Templar Dominus\nPassives in radius are Conquered by the Templars":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Carved to glorify # new faithful converted by High Templar Maxarius\nPassives in radius are Conquered by the Templars":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Carved to glorify # new faithful converted by High Templar Venarius\nPassives in radius are Conquered by the Templars":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Cast Level 20 Fire Burst on Hit":[],
   "Catalysts dropped by Metamorphs are duplicated":[],
@@ -24328,7 +24328,7 @@
       "isScalable":true
     }],
   "Clarity has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Clarity has #% reduced Reservation":[{
@@ -24402,32 +24402,32 @@
     }],
   "Combust is Disabled":[],
   "Commanded leadership over # warriors under Akoya\nPassives in radius are Conquered by the Karui":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Commanded leadership over # warriors under Kaom\nPassives in radius are Conquered by the Karui":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Commanded leadership over # warriors under Kiloava\nPassives in radius are Conquered by the Karui":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Commanded leadership over # warriors under Rakiata\nPassives in radius are Conquered by the Karui":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Commissioned # coins to commemorate Cadiro\nPassives in radius are Conquered by the Eternal Empire":[{
       "formats":["times_twenty"],
-      "isScalable":true
+      "isScalable":false
     }],
   "Commissioned # coins to commemorate Caspiro\nPassives in radius are Conquered by the Eternal Empire":[{
       "formats":["times_twenty"],
-      "isScalable":true
+      "isScalable":false
     }],
   "Commissioned # coins to commemorate Chitus\nPassives in radius are Conquered by the Eternal Empire":[{
       "formats":["times_twenty"],
-      "isScalable":true
+      "isScalable":false
     }],
   "Commissioned # coins to commemorate Victario\nPassives in radius are Conquered by the Eternal Empire":[{
       "formats":["times_twenty"],
-      "isScalable":true
+      "isScalable":false
     }],
   "Companions deal #% increased Damage":[{
       "isScalable":true
@@ -24679,6 +24679,10 @@
   "Construct Monsters have #% increased Effectiveness":[{
       "isScalable":true
     }],
+  "Construct Monsters have #% reduced Effectiveness":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Consume Enemy Freeze to Guarantee a Critical Hit":[],
   "Consume all Rage when Shapeshifting to Human form to recover #% of maximum life per Rage Consumed":[{
       "isScalable":true
@@ -24771,8 +24775,8 @@
       "isScalable":true
     }],
   "Copy a random Modifier from each enemy in your Presence when\nyou Shapeshift to an Animal form\nModifiers gained this way are lost after # seconds or when you next Shapeshift":[{
-      "formats":["milliseconds_to_seconds_2dp_if_required"],
-      "isScalable":true
+      "formats":["divide_by_one_hundred_2dp_if_required"],
+      "isScalable":false
     }],
   "Corpses you Spawn have #% increased Maximum Life":[{
       "isScalable":true
@@ -25481,16 +25485,16 @@
       "isScalable":true
     }],
   "Denoted service of # dekhara in the akhara of Asenath\nPassives in radius are Conquered by the Maraketh":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Denoted service of # dekhara in the akhara of Balbala\nPassives in radius are Conquered by the Maraketh":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Denoted service of # dekhara in the akhara of Deshret\nPassives in radius are Conquered by the Maraketh":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Denoted service of # dekhara in the akhara of Nasima\nPassives in radius are Conquered by the Maraketh":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Desecrate Spawns # additional corpses":[{
       "isScalable":true
@@ -25606,7 +25610,7 @@
       "isScalable":true
     }],
   "Discipline has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Discipline has #% reduced Reservation":[{
@@ -27094,7 +27098,7 @@
       "isScalable":true
     }],
   "Flesh and Stone has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Flesh and Stone has #% reduced Reservation":[{
@@ -28266,19 +28270,19 @@
     }],
   "Glancing Blows":[],
   "Glorifying the defilement of # souls in tribute to Amanamu\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Glorifying the defilement of # souls in tribute to Kulemak\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Glorifying the defilement of # souls in tribute to Kurgal\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Glorifying the defilement of # souls in tribute to Tecrod\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Glorifying the defilement of # souls in tribute to Ulaman\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Glows while in an Area containing a Unique Fish":[],
   "Golden Radiance":[],
@@ -28361,7 +28365,7 @@
       "isScalable":true
     }],
   "Grace has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Grace has #% reduced Reservation":[{
@@ -28862,7 +28866,7 @@
       "isScalable":true
     }],
   "Haste has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Haste has #% reduced Reservation":[{
@@ -28891,7 +28895,7 @@
       "isScalable":true
     }],
   "Hatred has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Hatred has #% reduced Reservation":[{
@@ -32970,7 +32974,7 @@
   "Passives in Radius can be Allocated without being connected to your tree":[],
   "Passives in Radius of # can be Allocated\nwithout being connected to your tree":[{
       "formats":["passive_hash"],
-      "isScalable":true
+      "isScalable":false
     }],
   "Patrol Pack Members have #% chance to be Magic":[{
       "isScalable":false
@@ -33096,7 +33100,7 @@
       "isScalable":true
     }],
   "Petrified Blood has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Petrified Blood has #% reduced Reservation":[{
@@ -33707,7 +33711,7 @@
       "isScalable":true
     }],
   "Pride has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Pride has #% reduced Reservation":[{
@@ -33965,7 +33969,7 @@
       "isScalable":true
     }],
   "Purity of Elements has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Purity of Elements has #% reduced Reservation":[{
@@ -34031,7 +34035,7 @@
       "isScalable":true
     }],
   "Purity of Lightning has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Purity of Lightning has #% reduced Reservation":[{
@@ -35202,13 +35206,13 @@
       "isScalable":true
     }],
   "Remembrancing # songworthy deeds by the line of Medved\nPassives in radius are Conquered by the Kalguur":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Remembrancing # songworthy deeds by the line of Olroth\nPassives in radius are Conquered by the Kalguur":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Remembrancing # songworthy deeds by the line of Vorana\nPassives in radius are Conquered by the Kalguur":[{
-      "isScalable":true
+      "isScalable":false
     }],
   "Remnants can be collected from #% further away":[{
       "isScalable":true
@@ -35546,7 +35550,7 @@
     }],
   "Sacrifice up to # to receive double on Trial completion":[{
       "formats":["ultimatum_wager_type_hash"],
-      "isScalable":true
+      "isScalable":false
     }],
   "Sand Bladestorms move with #% increased speed":[{
       "isScalable":true
@@ -37539,7 +37543,7 @@
       "isScalable":true
     }],
   "Summon Skitterbots has #% reduced Mana Reservation Efficiency":[{
-      "formats":["double"],
+      "formats":["negate"],
       "isScalable":true
     }],
   "Summon Skitterbots has #% reduced Reservation":[{
@@ -39107,7 +39111,7 @@
       "isScalable":true
     }],
   "Vitality has #% reduced Mana Reservation Efficiency":[{
-      "formats":["negate"],
+      "formats":["double"],
       "isScalable":true
     }],
   "Vitality has #% reduced Reservation":[{

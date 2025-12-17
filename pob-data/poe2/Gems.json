@@ -2648,10 +2648,11 @@
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Spell, Persistent, AoE, Physical, Plant",
+    "tagString":"Spell, Persistent, AoE, Physical, Duration, Plant",
     "tags":{
       "area":true,
       "buff":true,
+      "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "persistent":true,
@@ -6889,7 +6890,7 @@
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Persistent, Trigger, Invocation, Meta",
+    "tagString":"Persistent, Invocation, Meta",
     "tags":{
       "buff":true,
       "grants_active_skill":true,
@@ -6897,8 +6898,7 @@
       "invocation":true,
       "meta":true,
       "persistent":true,
-      "strength":true,
-      "trigger":true
+      "strength":true
     },
     "variantId":"FeralInvocation",
     "weaponRequirements":"Talisman"
@@ -11631,7 +11631,7 @@
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Shapeshift, Wyvern, AoE, Projectile, Channelling",
+    "tagString":"Shapeshift, Wyvern, AoE, Projectile, Sustained, Channelling",
     "tags":{
       "area":true,
       "attack":true,
@@ -11641,6 +11641,7 @@
       "projectile":true,
       "shapeshift":true,
       "strength":true,
+      "sustained":true,
       "wyvern":true
     },
     "variantId":"OilBarrage",
@@ -12150,7 +12151,7 @@
   "Metadata/Items/Gems/SkillGemPietysMercySupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemPietysMercy",
-    "gemFamily":"Piety's Mercy",
+    "gemFamily":"Dominus' Grasp",
     "gemType":"Support",
     "grantedEffectId":"SupportPietysMercyPlayer",
     "name":"Dominus' Grasp",

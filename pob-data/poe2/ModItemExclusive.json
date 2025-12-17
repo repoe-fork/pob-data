@@ -45654,7 +45654,7 @@
     "tradeHash":3481736410,
     "weightKey":[],
     "weightVal":[],
-    "1":"(5-15)% increased Area of Effect if you've Killed Recently"
+    "1":"(10-25)% increased Area of Effect if you've Killed Recently"
   },
   "UniqueMutatedVaalArmourAppliesToElementalDamage":{
     "affix":"",
@@ -45966,6 +45966,17 @@
     "weightVal":[],
     "1":"(-60-60)% reduced Critical Damage Bonus if you've consumed a Power Charge Recently"
   },
+  "UniqueMutatedVaalCullingStrikeLocalVsBleeding":{
+    "affix":"",
+    "group":"CullingStrikeLocalVsBleeding",
+    "level":1,
+    "modTags":["mutatedunique_vaal"],
+    "statOrder":[7186],
+    "tradeHash":2558253923,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"Hits with this Weapon have Culling Strike against Bleeding Enemies"
+  },
   "UniqueMutatedVaalCurseEffectiveness":{
     "affix":"",
     "group":"CurseEffectiveness",
@@ -45977,16 +45988,16 @@
     "weightVal":[],
     "1":"(10-20)% increased Curse Magnitudes"
   },
-  "UniqueMutatedVaalDamageAsExtraRandomElement":{
+  "UniqueMutatedVaalDamageAsExtraFire":{
     "affix":"",
-    "group":"DamageAsExtraRandomElement",
+    "group":"DamageasExtraFire",
     "level":1,
-    "modTags":["mutatedunique_vaal"],
-    "statOrder":[2573],
-    "tradeHash":915546383,
+    "modTags":["elemental_damage","mutatedunique_vaal","damage","elemental","fire"],
+    "statOrder":[847],
+    "tradeHash":3015669065,
     "weightKey":[],
     "weightVal":[],
-    "1":"Gain (25-40)% of Physical Damage as Extra Damage of a random Element"
+    "1":"Gain (25-40)% of Damage as Extra Fire Damage"
   },
   "UniqueMutatedVaalDamageRemovedFromManaBeforeLife":{
     "affix":"",
@@ -46175,6 +46186,17 @@
     "weightVal":[],
     "1":"(-30-30)% reduced Fire Damage"
   },
+  "UniqueMutatedVaalFireExposureOnHit":{
+    "affix":"",
+    "group":"FireExposureOnHit",
+    "level":1,
+    "modTags":["mutatedunique_vaal"],
+    "statOrder":[4567],
+    "tradeHash":3602667353,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"(30-50)% chance to inflict Exposure on Hit"
+  },
   "UniqueMutatedVaalFreezeDuration":{
     "affix":"",
     "group":"FreezeDuration",
@@ -46316,7 +46338,7 @@
     "tradeHash":4283407333,
     "weightKey":[],
     "weightVal":[],
-    "1":"+1 to Level of all Skills"
+    "1":"+(2-4) to Level of all Skills"
   },
   "UniqueMutatedVaalGlobalSkillGemQuality":{
     "affix":"",
@@ -46758,17 +46780,6 @@
     "weightVal":[],
     "1":"+(2-4)% to Critical Hit Chance"
   },
-  "UniqueMutatedVaalLocalChaosDamage":{
-    "affix":"",
-    "group":"LocalChaosDamage",
-    "level":1,
-    "modTags":["chaos_damage","mutatedunique_vaal","damage","chaos","attack"],
-    "statOrder":[1227],
-    "tradeHash":2223678961,
-    "weightKey":[],
-    "weightVal":[],
-    "1":"Adds (90-120) to (160-200) Chaos damage"
-  },
   "UniqueMutatedVaalLocalCriticalStrikeChance":{
     "affix":"",
     "group":"LocalBaseCriticalStrikeChance",
@@ -46778,7 +46789,7 @@
     "tradeHash":518292764,
     "weightKey":[],
     "weightVal":[],
-    "1":"+(2-4)% to Critical Hit Chance"
+    "1":"+(3-5)% to Critical Hit Chance"
   },
   "UniqueMutatedVaalLocalEnegyShield":{
     "affix":"",
@@ -46800,7 +46811,7 @@
     "tradeHash":4052037485,
     "weightKey":[],
     "weightVal":[],
-    "1":"+(60-90) to maximum Energy Shield"
+    "1":"+(90-120) to maximum Energy Shield"
   },
   "UniqueMutatedVaalLocalEnergyShield1":{
     "affix":"",
@@ -46823,6 +46834,17 @@
     "weightKey":[],
     "weightVal":[],
     "1":"+(70-100) to maximum Energy Shield"
+  },
+  "UniqueMutatedVaalLocalEnergyShield3":{
+    "affix":"",
+    "group":"LocalEnergyShield",
+    "level":1,
+    "modTags":["energy_shield","mutatedunique_vaal","defences"],
+    "statOrder":[833],
+    "tradeHash":4052037485,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"+(50-80) to maximum Energy Shield"
   },
   "UniqueMutatedVaalLocalEvasionRating":{
     "affix":"",
@@ -46857,16 +46879,49 @@
     "weightVal":[],
     "1":"+(70-100) to Evasion Rating"
   },
-  "UniqueMutatedVaalLocalFireDamage":{
+  "UniqueMutatedVaalLocalIncreasedEvasionAndEnergyShield":{
     "affix":"",
-    "group":"LocalFireDamage",
+    "group":"LocalEvasionAndEnergyShield",
     "level":1,
-    "modTags":["elemental_damage","mutatedunique_vaal","damage","elemental","fire","attack"],
-    "statOrder":[823],
-    "tradeHash":709508406,
+    "modTags":["energy_shield","evasion","mutatedunique_vaal","defences"],
+    "statOrder":[839],
+    "tradeHash":1999113824,
     "weightKey":[],
     "weightVal":[],
-    "1":"Adds (80-100) to (120-140) Fire Damage"
+    "1":"(150-300)% increased Evasion and Energy Shield"
+  },
+  "UniqueMutatedVaalLocalPhysicalDamage":{
+    "affix":"",
+    "group":"LocalPhysicalDamage",
+    "level":1,
+    "modTags":["physical_damage","mutatedunique_vaal","damage","physical","attack"],
+    "statOrder":[822],
+    "tradeHash":1940865751,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"Adds (65-73) to (83-91) Physical Damage"
+  },
+  "UniqueMutatedVaalLocalPhysicalDamage1":{
+    "affix":"",
+    "group":"LocalPhysicalDamage",
+    "level":1,
+    "modTags":["physical_damage","mutatedunique_vaal","damage","physical","attack"],
+    "statOrder":[822],
+    "tradeHash":1940865751,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"Adds (40-60) to (70-90) Physical Damage"
+  },
+  "UniqueMutatedVaalLocalPhysicalDamagePercent":{
+    "affix":"",
+    "group":"LocalPhysicalDamagePercent",
+    "level":1,
+    "modTags":["physical_damage","mutatedunique_vaal","damage","physical","attack"],
+    "statOrder":[821],
+    "tradeHash":1805374733,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"(300-400)% increased Physical Damage"
   },
   "UniqueMutatedVaalLocalPhysicalDamageReductionRating":{
     "affix":"",
@@ -46899,7 +46954,7 @@
     "tradeHash":3484657501,
     "weightKey":[],
     "weightVal":[],
-    "1":"+(150-200) to Armour"
+    "1":"+(220-320) to Armour"
   },
   "UniqueMutatedVaalLocalPhysicalDamageReductionRating3":{
     "affix":"",
@@ -46910,7 +46965,7 @@
     "tradeHash":3484657501,
     "weightKey":[],
     "weightVal":[],
-    "1":"+(160-220) to Armour"
+    "1":"+(260-400) to Armour"
   },
   "UniqueMutatedVaalLocalSoulCoreAlsoGainBenefitsFromBoots":{
     "affix":"",
@@ -47186,6 +47241,17 @@
     "weightKey":[],
     "weightVal":[],
     "1":"(5-10)% increased Strength"
+  },
+  "UniqueMutatedVaalPhysicalDamagePercent":{
+    "affix":"",
+    "group":"PhysicalDamagePercent",
+    "level":1,
+    "modTags":["physical_damage","mutatedunique_vaal","damage","physical"],
+    "statOrder":[1122],
+    "tradeHash":1310194496,
+    "weightKey":[],
+    "weightVal":[],
+    "1":"(-30-30)% reduced Global Physical Damage"
   },
   "UniqueMutatedVaalPoisonDurationIfConsumedFrenzyChargeRecently":{
     "affix":"",

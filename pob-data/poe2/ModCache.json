@@ -8581,7 +8581,7 @@
         "type":"LIST",
         "value":{
           "amount":100,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Physical",
           "value":10
         }
@@ -38295,7 +38295,7 @@
         "type":"LIST",
         "value":{
           "amount":10,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Fire",
           "value":5
         },
@@ -38649,7 +38649,7 @@
         "type":"LIST",
         "value":{
           "amount":10,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Physical",
           "value":100
         }
@@ -39236,7 +39236,7 @@
         "type":"LIST",
         "value":{
           "amount":25,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Physical",
           "value":33
         },
@@ -39259,7 +39259,7 @@
         "type":"LIST",
         "value":{
           "amount":25,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Chaos",
           "value":33
         },
@@ -41124,7 +41124,7 @@
         "type":"LIST",
         "value":{
           "amount":25,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Chaos",
           "value":10
         }
@@ -41142,7 +41142,7 @@
         "type":"LIST",
         "value":{
           "amount":10,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Fire",
           "value":10
         }
@@ -41438,8 +41438,18 @@
   "Frenzy or Power Charge":[null,"Frenzy or Power Charge "],
   "Fully Armour Broken enemies you kill with Hits Shatter":[null,"Fully Armour Broken enemies you kill with Hits Shatter "],
   "Fully Broken Armour you inflict also increases Fire Damage Taken from Hits":[null,"Fully Broken Armour you inflict also increases Fire Damage Taken from Hits "],
-  "Fully Broken Armour you inflict increases all Damage Taken from Hits instead":[null,"Fully Broken Armour you inflict increases all Damage Taken from Hits instead "],
-  "Fully Broken Armour you inflict increases all Damage Taken from Hits instead You can Break Enemy Armour to below 0":[null,"Fully Broken Armour you inflict increases all Damage Taken from Hits instead You can Break Enemy Armour to below 0 "],
+  "Fully Broken Armour you inflict increases all Damage Taken from Hits instead":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FullyBrokenArmourIncreasesAllDamageFromHits",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "effectName":"ImplodingImpacts",
+          "effectType":"Buff",
+          "type":"GlobalEffect"
+        }
+      }]],
   "Gain 0% to 40% increased Movement Speed at random when Hit, until Hit again":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50027,7 +50037,7 @@
         "type":"LIST",
         "value":{
           "amount":10,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Physical",
           "value":100
         }
@@ -50045,7 +50055,7 @@
         "type":"LIST",
         "value":{
           "amount":25,
-          "keyOfScaledMod":"chance",
+          "keyOfScaledMod":"value",
           "type":"Physical",
           "value":100
         }

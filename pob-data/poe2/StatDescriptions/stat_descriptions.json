@@ -74339,14 +74339,14 @@
         "limit":[[1000,1000]],
         "text":"Copy a random Modifier from each enemy in your Presence when\nyou Shapeshift to an Animal form\nModifiers gained this way are lost after {0} seconds or when you next Shapeshift",
         "1":{
-          "k":"milliseconds_to_seconds_2dp_if_required",
+          "k":"divide_by_one_hundred_2dp_if_required",
           "v":1
         }
       },{
         "limit":[[1,"#"]],
         "text":"Copy a random Modifier from each enemy in your Presence when\nyou Shapeshift to an Animal form\nModifiers gained this way are lost after {0} seconds or when you next Shapeshift",
         "1":{
-          "k":"milliseconds_to_seconds_2dp_if_required",
+          "k":"divide_by_one_hundred_2dp_if_required",
           "v":1
         }
       }]
@@ -88074,7 +88074,7 @@
         "text":"Construct Monsters have {0}% increased Effectiveness"
       },{
         "limit":[["#",-1]],
-        "text":"Construct Monsters have {0}% increased Effectiveness",
+        "text":"Construct Monsters have {0}% reduced Effectiveness",
         "1":{
           "k":"negate",
           "v":1
