@@ -550,8 +550,8 @@
         "type":"BASE",
         "value":1,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+1% to Maximum Fire Resistance":[[{
@@ -580,8 +580,8 @@
         "type":"BASE",
         "value":1,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+1% to Maximum Lightning Resistance":[[{
@@ -610,8 +610,8 @@
         "type":"BASE",
         "value":1,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+1% to Maximum Resistances of each Elemental Damage Type you have been Hit with Recently":[[{
@@ -827,7 +827,13 @@
         "type":"BASE",
         "value":10
       }]],
-  "+10% Surpassing chance to fire an additional Arrow":[[]," Surpassing chance to fire an additional Arrow "],
+  "+10% Surpassing chance to fire an additional Arrow":[[{
+        "flags":131072,
+        "keywordFlags":0,
+        "name":"SurpassingProjectileChance",
+        "type":"BASE",
+        "value":10
+      }]],
   "+10% of Armour also applies to Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1167,8 +1173,8 @@
         "type":"BASE",
         "value":12,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+12% to Chaos Resistance":[[{
@@ -2203,8 +2209,8 @@
         "type":"BASE",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -2213,8 +2219,8 @@
         "type":"BASE",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -2223,8 +2229,8 @@
         "type":"BASE",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+20% to Block Chance while holding a Focus":[[{
@@ -2313,8 +2319,12 @@
         "keywordFlags":0,
         "name":"Armour",
         "type":"BASE",
-        "value":200
-      }],"  for each Connected Notable Passive Skill Allocated "],
+        "value":200,
+        "1":{
+          "type":"Multiplier",
+          "var":"AllocatedConnectedNotable"
+        }
+      }]],
   "+200 to Stun Threshold":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2399,14 +2409,20 @@
         "type":"BASE",
         "value":23
       }]],
-  "+24% Surpassing chance to fire an additional Arrow":[[]," Surpassing chance to fire an additional Arrow "],
+  "+24% Surpassing chance to fire an additional Arrow":[[{
+        "flags":131072,
+        "keywordFlags":0,
+        "name":"SurpassingProjectileChance",
+        "type":"BASE",
+        "value":24
+      }]],
   "+24% Surpassing chance to fire an additional Projectile":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ProjectileCount",
+        "name":"SurpassingProjectileChance",
         "type":"BASE",
         "value":24
-      }]," Surpassing chance to fire an additional  "],
+      }]],
   "+25 to Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5712,8 +5728,8 @@
         "type":"BASE",
         "value":3,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+3% to Chaos Resistance":[[{
@@ -6414,8 +6430,12 @@
         "keywordFlags":0,
         "name":"Spirit",
         "type":"BASE",
-        "value":40
-      }],"  for each of your empty Charm slots "],
+        "value":40,
+        "1":{
+          "stat":"EmptyCharms",
+          "type":"PerStat"
+        }
+      }]],
   "+40 to Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -6704,8 +6724,8 @@
         "type":"BASE",
         "value":5,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -6714,8 +6734,8 @@
         "type":"BASE",
         "value":5,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -6724,8 +6744,8 @@
         "type":"BASE",
         "value":5,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+5% to Block chance":[[{
@@ -6922,28 +6942,13 @@
         "type":"BASE",
         "value":50
       }]],
-  "+50% Surpassing chance to fire an additional Arrow":[[]," Surpassing chance to fire an additional Arrow "],
-  "+50% Surpassing chance to fire an additional Arrow +70% to Critical Damage Bonus":[[{
-        "flags":0,
+  "+50% Surpassing chance to fire an additional Arrow":[[{
+        "flags":131072,
         "keywordFlags":0,
-        "name":"CritMultiplier",
+        "name":"SurpassingProjectileChance",
         "type":"BASE",
         "value":50
-      }]," Surpassing chance to fire an additional Arrow +70% to  "],
-  "+50% Surpassing chance to fire an additional Arrow 172% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"BASE",
-        "value":50
-      }]," Surpassing chance to fire an additional Arrow 172% increased  "],
-  "+50% Surpassing chance to fire an additional Arrow Adds 53 to 86 Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamage",
-        "type":"BASE",
-        "value":50
-      }]," Surpassing chance to fire an additional Arrow Adds 53 to 86  "],
+      }]],
   "+50% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7610,14 +7615,20 @@
         "type":"BASE",
         "value":8
       }]],
-  "+8% Surpassing chance to fire an additional Arrow":[[]," Surpassing chance to fire an additional Arrow "],
+  "+8% Surpassing chance to fire an additional Arrow":[[{
+        "flags":131072,
+        "keywordFlags":0,
+        "name":"SurpassingProjectileChance",
+        "type":"BASE",
+        "value":8
+      }]],
   "+8% Surpassing chance to fire an additional Projectile":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ProjectileCount",
+        "name":"SurpassingProjectileChance",
         "type":"BASE",
         "value":8
-      }]," Surpassing chance to fire an additional  "],
+      }]],
   "+8% of Armour also applies to Elemental Damage while Shapeshifted":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7625,8 +7636,8 @@
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -7635,8 +7646,8 @@
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -7645,8 +7656,8 @@
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "+8% to Block chance":[[{
@@ -8276,10 +8287,12 @@
         "value":1,
         "1":{
           "div":400,
+          "limit":20,
+          "limitTotal":true,
           "stat":"Accuracy",
           "type":"PerStat"
         }
-      }],"  , up to 20% "],
+      }]],
   "1% increased Cooldown Recovery Rate per 10 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8831,8 +8844,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "10% increased Accuracy Rating with Bows":[[{
@@ -8928,8 +8941,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "10% increased Attack Area Damage":[[{
@@ -9172,8 +9185,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "10% increased Critical Hit Chance with Crossbows":[[{
@@ -9318,8 +9331,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "10% increased Damage while your Companion is in your Presence":[[{
@@ -10039,8 +10052,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -10049,8 +10062,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -10059,8 +10072,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "10% increased Spell Area Damage":[[{
@@ -10191,8 +10204,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "10% increased amount of Mana Leeched":[[{
@@ -10287,6 +10300,13 @@
         "type":"INC",
         "value":10
       }]],
+  "10% less Damage taken of each Elemental Damage Type per matching Adaptation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"MORE",
+        "value":-10
+      }],"  of each Elemental Damage Type per matching Adaptation "],
   "10% less Elemental Damage taken":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11537,8 +11557,8 @@
         "type":"INC",
         "value":12,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "12% increased Damage while affected by a Herald":[[{
@@ -11639,8 +11659,8 @@
         "type":"INC",
         "value":12,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "12% increased Elemental Damage with Attacks":[[{
@@ -11815,8 +11835,8 @@
         "type":"INC",
         "value":12,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "12% increased Projectile Damage":[[{
@@ -12523,8 +12543,8 @@
         "type":"INC",
         "value":15,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "15% increased Accuracy Rating":[[{
@@ -13057,8 +13077,8 @@
         "type":"INC",
         "value":15,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "15% increased Evasion Rating":[[{
@@ -13224,8 +13244,8 @@
         "type":"INC",
         "value":15,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "15% increased Life and Mana Recovery from Flasks":[[{
@@ -13647,8 +13667,8 @@
         "type":"INC",
         "value":15,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "15% increased chance to Shock":[[{
@@ -15440,8 +15460,8 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "20% faster start of Energy Shield Recharge while affected by an Archon Buff":[[{
@@ -15495,8 +15515,8 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "20% increased Area of Effect":[[{
@@ -15879,8 +15899,8 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "20% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
@@ -15930,8 +15950,8 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         },
         "2":{
           "actor":"enemy",
@@ -16179,8 +16199,8 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "20% increased Energy Shield Recovery Rate if you haven't been Hit Recently":[[{
@@ -16567,8 +16587,8 @@
         "type":"INC",
         "value":20,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "20% increased Melee Damage":[[{
@@ -17037,7 +17057,27 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[]," chance to inflict Elemental Ailments  "],
+  "20% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyShockChance",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "20% increased duration of Ailments you inflict against Cursed Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -18492,8 +18532,8 @@
         "type":"INC",
         "value":25,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "25% increased Energy Shield Recharge Rate":[[{
@@ -18918,8 +18958,8 @@
         "type":"INC",
         "value":25,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "25% increased Stun Threshold while on Full Life":[[{
@@ -18940,8 +18980,8 @@
         "type":"INC",
         "value":25,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "25% increased Totem Placement speed":[[{
@@ -19898,8 +19938,8 @@
         "type":"INC",
         "value":3,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -19908,8 +19948,8 @@
         "type":"INC",
         "value":3,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -19918,8 +19958,8 @@
         "type":"INC",
         "value":3,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "3% increased Skill Speed with Channelling Skills":[[{
@@ -21203,8 +21243,8 @@
         "type":"INC",
         "value":30,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "30% increased Pin Buildup":[[{
@@ -22879,8 +22919,8 @@
         "type":"INC",
         "value":40,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "40% increased Attack Damage against Maimed Enemies":[[{
@@ -23495,8 +23535,8 @@
         "type":"INC",
         "value":40,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "40% increased Mana Regeneration Rate while on Full Life":[[{
@@ -23784,7 +23824,27 @@
         "type":"INC",
         "value":40
       }],"  against Enemies affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant "],
-  "40% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[]," chance to inflict Elemental Ailments  "],
+  "40% increased chance to inflict Elemental Ailments if you have Shapeshifted to an Animal form Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyShockChance",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"ShapeshiftToAnimal"
+        }
+      }]],
   "40% increased effect of Arcane Surge on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25201,8 +25261,8 @@
         "type":"INC",
         "value":50,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         },
         "2":{
           "actor":"enemy",
@@ -26119,7 +26179,13 @@
         "type":"INC",
         "value":-50
       }]," Slowing Potency of Debuffs on You 20 to 30 Physical  "],
-  "50% reduced bonuses gained from Equipped Focus":[[]," bonuses gained  "],
+  "50% reduced bonuses gained from Equipped Focus":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EffectOfBonusesFromFocus",
+        "type":"INC",
+        "value":-50
+      }]],
   "50% reduced effect of Shock on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -28061,8 +28127,8 @@
         "type":"INC",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -28071,8 +28137,8 @@
         "type":"INC",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       },{
         "flags":0,
@@ -28081,8 +28147,8 @@
         "type":"INC",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "8% increased Spell Damage":[[{
@@ -28648,7 +28714,7 @@
         "value":1
       }]],
   "Adapt to the highest Elemental Damage Type of each Hit you take":[null,"Adapt to the highest Elemental Damage Type of each Hit you take "],
-  "Adapt to the highest Elemental Damage Type of each Hit you take Each Adaptation grants 10% less Damage taken of that Adaptation's type":[null,"Adapt to the highest Elemental Damage Type of each Hit you take Each Adaptation grants 10% less Damage taken of that Adaptation's type "],
+  "Adapt to the highest Elemental Damage Type of each Hit you take 10% less Damage taken of each Elemental Damage Type per matching Adaptation":[null,"Adapt to the highest Elemental Damage Type of each Hit you take 10% less Damage taken of each Elemental Damage Type per matching Adaptation "],
   "Adaptations have a duration of 5 seconds":[null,"Adaptations have a duration of 5 seconds "],
   "Adaptations have a duration of 5 seconds Double Adaptation Effect":[[{
         "flags":0,
@@ -37125,7 +37191,13 @@
           "type":"SkillType"
         }
       }]],
-  "Apply 10 Critical Weakness to Enemies when Consuming a Mark on them":[null,"Apply 10 Critical Weakness to Enemies when Consuming a Mark on them "],
+  "Apply 10 Critical Weakness to Enemies when Consuming a Mark on them":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ApplyCriticalWeakness",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Apply Debilitate to Enemies 3 Metres in front of you while your Shield is raised":[null,"Apply Debilitate to Enemies 3 Metres in front of you while your Shield is raised "],
   "Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate":[[{
         "flags":0,
@@ -37981,7 +38053,7 @@
   "Body Armour grants +100% of Armour also applies to Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Armour",
+        "name":"ArmourAppliesToChaosDamageTaken",
         "type":"BASE",
         "value":100,
         "1":{
@@ -37989,33 +38061,11 @@
           "rarityCond":"NORMAL",
           "type":"ItemCondition"
         }
-      }],"  also applies to Chaos Damage "],
+      }]],
   "Body Armour grants +50% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ArmourAppliesToFireDamageTaken",
-        "type":"BASE",
-        "value":50,
-        "1":{
-          "itemSlot":"Body Armour",
-          "rarityCond":"NORMAL",
-          "type":"ItemCondition"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToColdDamageTaken",
-        "type":"BASE",
-        "value":50,
-        "1":{
-          "itemSlot":"Body Armour",
-          "rarityCond":"NORMAL",
-          "type":"ItemCondition"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToLightningDamageTaken",
+        "name":"ArmourAppliesToElementalDamageTaken",
         "type":"BASE",
         "value":50,
         "1":{
@@ -38109,7 +38159,40 @@
           "type":"ItemCondition"
         }
       }]],
-  "Body Armour grants Unaffected by Damaging Ailments":[null,"Unaffected by Damaging Ailments "],
+  "Body Armour grants Unaffected by Damaging Ailments":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfBleedEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "itemSlot":"Body Armour",
+          "rarityCond":"NORMAL",
+          "type":"ItemCondition"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfIgniteEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "itemSlot":"Body Armour",
+          "rarityCond":"NORMAL",
+          "type":"ItemCondition"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfPoisonEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "itemSlot":"Body Armour",
+          "rarityCond":"NORMAL",
+          "type":"ItemCondition"
+        }
+      }]],
   "Body Armour grants regenerate 3% of maximum Life per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38476,8 +38559,17 @@
         }
       }]],
   "Cannot be Critically Hit while Parrying":[null,"Cannot be Critically Hit while Parrying "],
-  "Cannot be Heavy Stunned while Sprinting":[null,"Cannot be Heavy Stunned while Sprinting "],
-  "Cannot be Heavy Stunned while Sprinting 50% less Movement Speed Penalty from using Skills while moving":[null,"Cannot be Heavy Stunned while Sprinting 50% less Movement Speed Penalty from using Skills while moving "],
+  "Cannot be Heavy Stunned while Sprinting":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"Sprinting"
+        }
+      }]],
   "Cannot be Ignited":[[{
         "flags":0,
         "keywordFlags":0,
@@ -39078,12 +39170,12 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Create Cold Infusion Remnants instead of Fire Infusion Remnants":[null,"Create Cold Infusion Remnants instead of Fire Infusion Remnants "],
-  "Create Cold Infusion Remnants instead of Fire Infusion Remnants Create Fire Infusion Remnants instead of Lightning Infusion Remnants":[null,"Create Cold Infusion Remnants instead of Fire Infusion Remnants Create Fire Infusion Remnants instead of Lightning Infusion Remnants "],
-  "Create Cold Infusion Remnants instead of Fire Infusion Remnants Create Fire Infusion Remnants instead of Lightning Infusion Remnants Create Lightning Infusion Remnants instead of Cold Infusion Remnants":[null,"Create Cold Infusion Remnants instead of Fire Infusion Remnants Create Fire Infusion Remnants instead of Lightning Infusion Remnants Create Lightning Infusion Remnants instead of Cold Infusion Remnants "],
-  "Create Fire Infusion Remnants instead of Lightning Infusion Remnants":[null,"Create Fire Infusion Remnants instead of Lightning Infusion Remnants "],
-  "Create Fire Infusion Remnants instead of Lightning Infusion Remnants Create Lightning Infusion Remnants instead of Cold Infusion Remnants":[null,"Create Fire Infusion Remnants instead of Lightning Infusion Remnants Create Lightning Infusion Remnants instead of Cold Infusion Remnants "],
-  "Create Lightning Infusion Remnants instead of Cold Infusion Remnants":[null,"Create Lightning Infusion Remnants instead of Cold Infusion Remnants "],
+  "Create Cold Infusion Remnants instead of Lightning":[null,"Create Cold Infusion Remnants instead of Lightning "],
+  "Create Cold Infusion Remnants instead of Lightning Create Fire Infusion Remnants instead of Cold":[null,"Create Cold Infusion Remnants instead of Lightning Create Fire Infusion Remnants instead of Cold "],
+  "Create Fire Infusion Remnants instead of Cold":[null,"Create Fire Infusion Remnants instead of Cold "],
+  "Create Lightning Infusion Remnants instead of Fire":[null,"Create Lightning Infusion Remnants instead of Fire "],
+  "Create Lightning Infusion Remnants instead of Fire Create Cold Infusion Remnants instead of Lightning":[null,"Create Lightning Infusion Remnants instead of Fire Create Cold Infusion Remnants instead of Lightning "],
+  "Create Lightning Infusion Remnants instead of Fire Create Cold Infusion Remnants instead of Lightning Create Fire Infusion Remnants instead of Cold":[null,"Create Lightning Infusion Remnants instead of Fire Create Cold Infusion Remnants instead of Lightning Create Fire Infusion Remnants instead of Cold "],
   "Creates Consecrated Ground on use":[[]],
   "Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life":[null,"Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life "],
   "Critical Hits Ignore Enemy Monster Lightning Resistance":[[{
@@ -39155,8 +39247,21 @@
   "Critical Hits with Spells apply 3 Stack of Critical Weakness":[null,"Critical Hits with Spells apply 3 Stack of Critical Weakness "],
   "Critical Hits with Spells apply 5 Stacks of Critical Weakness":[null,"Critical Hits with Spells apply 5 Stacks of Critical Weakness "],
   "Critical Hits with Spells apply 5 Stacks of Critical Weakness Critical Hits with Spells apply 3 Stack of Critical Weakness":[null,"Critical Hits with Spells apply 5 Stacks of Critical Weakness Critical Hits with Spells apply 3 Stack of Critical Weakness "],
-  "Crushes Enemies on Hit":[null,"Crushes Enemies on Hit "],
-  "Crushes Enemies on Hit +150 Strength Requirement":[null,"Crushes Enemies on Hit +150 Strength Requirement "],
+  "Crushes Enemies on Hit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Crushed",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      }]],
   "Culling Strike":[[{
         "flags":0,
         "keywordFlags":0,
@@ -39362,8 +39467,8 @@
         "type":"BASE",
         "value":15,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "Damage Penetrates 18% Cold Resistance":[[{
@@ -39443,8 +39548,8 @@
         "type":"BASE",
         "value":6,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "Damage Penetrates 75% Cold Resistance":[[{
@@ -39855,7 +39960,6 @@
       }]],
   "Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life":[null,"Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life "],
   "Drop Shocked Ground while moving, lasting 8 seconds":[null,"Drop Shocked Ground while moving, lasting 8 seconds "],
-  "Each Adaptation grants 10% less Damage taken of that Adaptation's type":[null,"Each Adaptation grants 10% less Damage taken of that Adaptation's type "],
   "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow":[null,"Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow "],
   "Each Totem applies 2% increased Damage taken to Enemies in their Presence":[[{
         "flags":0,
@@ -40498,8 +40602,64 @@
           }
         }
       }]],
-  "Enemies in your Presence have Exposure":[null,"Exposure "],
-  "Enemies in your Presence have Exposure Gain 10% of Damage as Extra Damage of a random Element":[null,"Exposure Gain 10% of Damage as Extra Damage of a random Element "],
+  "Enemies in your Presence have Exposure":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"FireExposure",
+            "type":"BASE",
+            "value":-20
+          }
+        },
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"EnemyInPresence"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ColdExposure",
+            "type":"BASE",
+            "value":-20
+          }
+        },
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"EnemyInPresence"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LightningExposure",
+            "type":"BASE",
+            "value":-20
+          }
+        },
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"EnemyInPresence"
+        }
+      }]],
   "Enemies in your Presence have Lightning Resistance equal to yours":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41154,8 +41314,13 @@
         "value":true
       }]],
   "Enemies' Damage with Critical Hits against you is Lucky":[null,"Enemies' Damage with Critical Hits  is Lucky "],
-  "Enemy Critical Hit Chance against you is Unlucky":[null,"Enemy Critical Hit Chance  is Unlucky "],
-  "Enemy Critical Hit Chance against you is Unlucky Damage of Enemies Hitting you is Unlucky":[null,"Enemy Critical Hit Chance  is Unlucky Damage of Enemies Hitting you is Unlucky "],
+  "Enemy Critical Hit Chance against you is Unlucky":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyUnluckyCrit",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Energy Generation is doubled":[[],"Energy Generation  "],
   "Energy Shield Recharge is not interrupted by Damage if Recharge began Recently":[null,"Energy Shield Recharge is not interrupted by Damage if Recharge began Recently "],
   "Energy Shield Recharge starts on use":[null,"Energy Shield Recharge starts on use "],
@@ -41561,10 +41726,10 @@
   "Gain 10% of Damage as Extra Damage of a random Element":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"DamageGainAsRandom",
         "type":"BASE",
         "value":10
-      }],"  as Extra Damage of a random Element "],
+      }]],
   "Gain 10% of Damage as Extra Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42215,17 +42380,10 @@
   "Gain 5% of Damage as Extra Damage of a random Element":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"DamageGainAsRandom",
         "type":"BASE",
         "value":5
-      }],"  as Extra Damage of a random Element "],
-  "Gain 5% of Damage as Extra Damage of a random Element +5 to Strength and Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"BASE",
-        "value":5
-      }],"  as Extra Damage of a random Element +5 to Strength and Intelligence "],
+      }]],
   "Gain 5% of Damage as Extra Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42369,21 +42527,21 @@
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "Gain 8% of Damage as Extra Damage of a random Element while Shapeshifted":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"DamageGainAsRandom",
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
-      }],"  as Extra Damage of a random Element  "],
+      }]],
   "Gain 8% of Damage as Extra Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42398,8 +42556,8 @@
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "Gain 8% of Damage as Extra Lightning Damage while Shapeshifted":[[{
@@ -42409,8 +42567,8 @@
         "type":"BASE",
         "value":8,
         "1":{
-          "skillType":156,
-          "type":"SkillType"
+          "type":"Condition",
+          "var":"Shapeshifted"
         }
       }]],
   "Gain 8% of Damage as Extra Physical Damage":[[{
@@ -43238,7 +43396,6 @@
           "skillId":"MetaCastOnBlockPlayer"
         }
       }]],
-  "Grants Skill: Command: {0} ":[null,"Grants Skill: Command: {0}  "],
   "Grants Skill: Demon Form":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43299,7 +43456,7 @@
           "skillId":"ExplosiveConcoctionPlayer"
         }
       }]],
-  "Grants Skill: Fire Spell on Melee Hit":[[{
+  "Grants Skill: Fire Spell on Hit":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraSkill",
@@ -43339,6 +43496,8 @@
           "skillId":"IntoTheBreachPlayer"
         }
       }]],
+  "Grants Skill: Kelari's Deception":[],
+  "Grants Skill: Kelari's Judgment":[],
   "Grants Skill: Kelari's Malediction":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44266,6 +44425,9 @@
           "skillId":"MomentOfVulnerabilityPlayer"
         }
       }]],
+  "Grants Skill: Navira's Fracturing":[],
+  "Grants Skill: Navira's Oasis":[],
+  "Grants Skill: Navira's Well":[],
   "Grants Skill: Navira, the Last Mirage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44306,6 +44468,9 @@
           "skillId":"RitualSacrificePlayer"
         }
       }]],
+  "Grants Skill: Ruzhan's Fury":[],
+  "Grants Skill: Ruzhan's Reckoning":[],
+  "Grants Skill: Ruzhan's Trap":[],
   "Grants Skill: Ruzhan, the Blazing Sword":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44810,6 +44975,13 @@
       }]],
   "Ignites you cause are reflected back to you":[null,"Ignites you cause are reflected back to you "],
   "Ignites you cause are reflected back to you 40% reduced Magnitude of Ignite on you":[null,"Ignites you cause are reflected back to you 40% reduced Magnitude of Ignite on you "],
+  "Ignites you inflict deal Damage 10% faster":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IgniteFaster",
+        "type":"INC",
+        "value":10
+      }]],
   "Ignites you inflict deal Damage 15% faster":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45832,8 +46004,28 @@
   "Meta Skills gain 4% increased Energy":[null,"Meta Skills gain 4% increased Energy "],
   "Meta Skills gain 4% increased Energy 5% increased Critical Hit Chance":[null,"Meta Skills gain 4% increased Energy 5% increased Critical Hit Chance "],
   "Meta Skills gain 8% increased Energy":[null,"Meta Skills gain 8% increased Energy "],
-  "Meta Skills have 20% increased Reservation Efficiency":[null,"Meta Skills have 20% increased Reservation Efficiency "],
-  "Meta Skills have 50% increased Reservation Efficiency":[null,"Meta Skills have 50% increased Reservation Efficiency "],
+  "Meta Skills have 20% increased Reservation Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ReservationEfficiency",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "skillType":122,
+          "type":"SkillType"
+        }
+      }]],
+  "Meta Skills have 50% increased Reservation Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ReservationEfficiency",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "skillType":122,
+          "type":"SkillType"
+        }
+      }]],
   "Minions Break Armour equal to 3% of Physical damage dealt":[null,"Break Armour equal to 3% of Physical damage dealt "],
   "Minions Gain 20% of Elemental Damage as Extra Chaos Damage":[[{
         "flags":0,
@@ -48062,6 +48254,25 @@
           "value":true
         }
       }]],
+  "Passives in radius of Lord of the Wilds can be Allocated without being connected to your tree":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"fromNothingKeystone",
+          "value":"lord of the wilds"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FromNothingKeystones",
+        "type":"LIST",
+        "value":{
+          "key":"lord of the wilds",
+          "value":true
+        }
+      }]],
   "Passives in radius of Mind Over Matter can be Allocated without being connected to your tree":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48138,6 +48349,25 @@
           "value":true
         }
       }]],
+  "Passives in radius of Primal Hunger can be Allocated without being connected to your tree":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"fromNothingKeystone",
+          "value":"primal hunger"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FromNothingKeystones",
+        "type":"LIST",
+        "value":{
+          "key":"primal hunger",
+          "value":true
+        }
+      }]],
   "Passives in radius of Resolute Technique can be Allocated without being connected to your tree":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48192,6 +48422,25 @@
         "type":"LIST",
         "value":{
           "key":"ritual cadence",
+          "value":true
+        }
+      }]],
+  "Passives in radius of Scarred Faith can be Allocated without being connected to your tree":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"fromNothingKeystone",
+          "value":"scarred faith"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FromNothingKeystones",
+        "type":"LIST",
+        "value":{
+          "key":"scarred faith",
           "value":true
         }
       }]],
@@ -48287,6 +48536,25 @@
         "type":"LIST",
         "value":{
           "key":"whispers of doom",
+          "value":true
+        }
+      }]],
+  "Passives in radius of Wildsurge Incantation can be Allocated without being connected to your tree":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"fromNothingKeystone",
+          "value":"wildsurge incantation"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FromNothingKeystones",
+        "type":"LIST",
+        "value":{
+          "key":"wildsurge incantation",
           "value":true
         }
       }]],
@@ -49288,7 +49556,7 @@
           "type":"SkillName"
         }
       }],"  when you Cast a  "],
-  "Sacrifice 5% of maximum Energy Shield when you Cast a Spell Spells for which this Sacrifice was fully made deal 5% more Damage":[[{
+  "Sacrifice 5% of maximum Energy Shield when you Cast a Spell Spells for which this Sacrifice was fully made deal 30% more Damage":[[{
         "flags":2,
         "keywordFlags":0,
         "name":"EnergyShield",
@@ -49299,10 +49567,10 @@
           "skillName":"Sacrifice",
           "type":"SkillName"
         }
-      }],"  when you Cast a  Spells for which this Sacrifice was fully made deal 5% more Damage "],
+      }],"  when you Cast a  Spells for which this Sacrifice was fully made deal 30% more Damage "],
   "Sacrificing Energy Shield does not interrupt Recharge":[null,"Sacrificing Energy Shield does not interrupt Recharge "],
   "Sacrificing Energy Shield does not interrupt Recharge Sacrifice 5% of maximum Energy Shield when you Cast a Spell":[null,"Sacrificing Energy Shield does not interrupt Recharge Sacrifice 5% of maximum Energy Shield when you Cast a Spell "],
-  "Sacrificing Energy Shield does not interrupt Recharge Sacrifice 5% of maximum Energy Shield when you Cast a Spell Spells for which this Sacrifice was fully made deal 5% more Damage":[null,"Sacrificing Energy Shield does not interrupt Recharge Sacrifice 5% of maximum Energy Shield when you Cast a Spell Spells for which this Sacrifice was fully made deal 5% more Damage "],
+  "Sacrificing Energy Shield does not interrupt Recharge Sacrifice 5% of maximum Energy Shield when you Cast a Spell Spells for which this Sacrifice was fully made deal 30% more Damage":[null,"Sacrificing Energy Shield does not interrupt Recharge Sacrifice 5% of maximum Energy Shield when you Cast a Spell Spells for which this Sacrifice was fully made deal 30% more Damage "],
   "Shapeshift Skills have 15% increased Skill Effect Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49620,12 +49888,42 @@
         "value":4
       }]],
   "Spells fire Projectiles in a circle":[null,"Projectiles in a circle "],
-  "Spells for which this Sacrifice was fully made deal 5% more Damage":[null,"Spells for which this Sacrifice was fully made deal 5% more Damage "],
+  "Spells for which this Sacrifice was fully made deal 30% more Damage":[null,"Spells for which this Sacrifice was fully made deal 30% more Damage "],
   "Spells have a 25% chance to inflict Withered for 4 seconds on Hit":[[]," to inflict Withered   "],
   "Storm and Plant Spells:":[null,"Storm and Plant Spells: "],
   "Storm and Plant Spells: deal 50% more damage":[null,"Storm and Plant Spells: deal 50% more damage "],
   "Storm and Plant Spells: deal 50% more damage cost 50% less":[[],"Storm and Plant Spells: deal 50% more damage % less "],
-  "Storm and Plant Spells: deal 50% more damage cost 50% less have 75% less duration":[[],"Storm and Plant Spells: deal 50% more damage % less have 75% less duration "],
+  "Storm and Plant Spells: deal 50% more damage cost 50% less have 75% less duration":[[{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"Damage",
+        "type":"MORE",
+        "value":50,
+        "1":{
+          "skillTypeList":[255,252],
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"Cost",
+        "type":"MORE",
+        "value":-50,
+        "1":{
+          "skillTypeList":[255,252],
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"Duration",
+        "type":"MORE",
+        "value":-75,
+        "1":{
+          "skillTypeList":[255,252],
+          "type":"SkillType"
+        }
+      }]],
   "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills":[null,"Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills "],
   "Strike Skills you use yourself with Maces have 10% chance to deal Splash Damage":[null,"Strike Skills you use yourself with Maces have 10% chance to deal Splash Damage "],
   "Strikes deal Splash Damage":[null,"Strikes deal Splash Damage "],
@@ -49787,11 +50085,63 @@
           "unscalable":true
         }
       }]],
-  "Targets Cursed by you have 100% reduced Life Regeneration Rate":[null,"Targets Cursed by you have 100% reduced Life Regeneration Rate "],
-  "Targets Cursed by you have 100% reduced Life Regeneration Rate Targets Cursed by you have at least 15% of Life Reserved":[null,"Targets Cursed by you have 100% reduced Life Regeneration Rate Targets Cursed by you have at least 15% of Life Reserved "],
-  "Targets Cursed by you have 50% reduced Life Regeneration Rate":[null,"Targets Cursed by you have 50% reduced Life Regeneration Rate "],
-  "Targets Cursed by you have 50% reduced Life Regeneration Rate Enemies you Curse cannot Recharge Energy Shield":[null,"Targets Cursed by you have 50% reduced Life Regeneration Rate Enemies you Curse cannot Recharge Energy Shield "],
-  "Targets Cursed by you have at least 15% of Life Reserved":[null,"Targets Cursed by you have at least 15% of Life Reserved "],
+  "Targets Cursed by you have 100% reduced Life Regeneration Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LifeRegen",
+            "type":"INC",
+            "value":-100,
+            "1":{
+              "type":"Condition",
+              "var":"Cursed"
+            }
+          }
+        }
+      }]],
+  "Targets Cursed by you have 50% reduced Life Regeneration Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LifeRegen",
+            "type":"INC",
+            "value":-50,
+            "1":{
+              "type":"Condition",
+              "var":"Cursed"
+            }
+          }
+        }
+      }]],
+  "Targets Cursed by you have at least 15% of Life Reserved":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LifeReservationPercent",
+            "type":"BASE",
+            "value":15,
+            "1":{
+              "type":"Condition",
+              "var":"Cursed"
+            }
+          }
+        }
+      }]],
   "Targets can be affected by +1 of your Poisons at the same time":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50327,11 +50677,20 @@
         "type":"BASE",
         "value":1
       }]],
-  "You can equip a Focus while wielding a Staff":[null,"You can equip a Focus while wielding a Staff "],
-  "You can equip a Focus while wielding a Staff 50% reduced bonuses gained from Equipped Focus":[null,"You can equip a Focus while wielding a Staff 50% reduced bonuses gained from Equipped Focus "],
-  "You can equip a non-Unique Sceptre while wielding a Talisman":[null,"You can equip a non-Unique Sceptre while wielding a Talisman "],
-  "You can equip a non-Unique Sceptre while wielding a Talisman 50% less Spirit":[null,"You can equip a non-Unique Sceptre while wielding a Talisman 50% less Spirit "],
-  "You can equip a non-Unique Sceptre while wielding a Talisman 50% less Spirit Non-Minion Skills have 50% less Reservation Efficiency":[null,"You can equip a non-Unique Sceptre while wielding a Talisman 50% less Spirit Non-Minion Skills have 50% less Reservation Efficiency "],
+  "You can equip a Focus while wielding a Staff":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"InstrumentsOfPower",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "You can equip a non-Unique Sceptre while wielding a Talisman":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LordOfTheWilds",
+        "type":"FLAG",
+        "value":true
+      }]],
   "You can have two Companions of different types":[null,"You can have two Companions of different types "],
   "You can have two Companions of different types 60% reduced Duration of Bleeding on You":[null,"You can have two Companions of different types 60% reduced Duration of Bleeding on You "],
   "You can have two Companions of different types You have 30% less Defences":[null,"You can have two Companions of different types You have 30% less Defences "],
@@ -50687,18 +51046,8 @@
   "additional Elemental Infusion of the same type":[null,"additional Elemental Infusion of the same type "],
   "being Shapeshifted for at least 8 seconds":[null,"being Shapeshifted for at least 8 seconds "],
   "containing Corrupted Magic Jewels":[null,"containing Corrupted Magic Jewels "],
-  "cost 50% less":[[],"% less "],
-  "cost 50% less have 75% less duration":[[],"% less have 75% less duration "],
-  "deal 50% more damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"MORE",
-        "value":50
-      }]],
   "for 4 seconds, every 0.25 seconds while raised":[null,"for 4 seconds, every 0.25 seconds while raised "],
   "gain 6 Cold Surges or 6 Fire Surges":[[]," Cold Surges or 6 Fire Surges "],
-  "have 75% less duration":[null,"75% less duration "],
   "the enemy's Power for 20 seconds, up to a total of 500":[null,"the enemy's Power for 20 seconds, up to a total of 500 "],
   "until you take no Damage to Life for 3 seconds":[null,"until you take no Damage to Life for 3 seconds "],
   "until you take no Damage to Life for 5 seconds":[null,"until you take no Damage to Life for 5 seconds "],

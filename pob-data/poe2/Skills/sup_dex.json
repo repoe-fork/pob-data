@@ -222,7 +222,7 @@
           "mixed_maladies_bleed_effect_+%_final_vs_poisoned":[{
               "flags":0,
               "keywordFlags":4194304,
-              "name":"Damage",
+              "name":"AilmentMagnitude",
               "type":"MORE",
               "1":{
                 "actor":"enemy",
@@ -233,7 +233,7 @@
           "mixed_maladies_poison_effect_+%_final_vs_bleeding":[{
               "flags":0,
               "keywordFlags":2097152,
-              "name":"Damage",
+              "name":"AilmentMagnitude",
               "type":"MORE",
               "1":{
                 "actor":"enemy",
@@ -2319,6 +2319,14 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "maximum_critical_strike_chance_is_%_from_support_garukhans_resolve":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CritChanceCap",
+              "type":"OVERRIDE"
+            }]
+        },
         "stats":["attacks_roll_crits_twice"]
       }],
     "support":true
@@ -3635,7 +3643,7 @@
           "mixed_maladies_poison_effect_+%_final_vs_bleeding":[{
               "flags":0,
               "keywordFlags":2097152,
-              "name":"Damage",
+              "name":"AilmentMagnitude",
               "type":"MORE",
               "1":{
                 "actor":"enemy",

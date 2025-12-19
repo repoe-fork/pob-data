@@ -3774,7 +3774,7 @@
           "support_inevitable_criticals_critical_strike_chance_+%_cap":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"Multiplier:InevitableCritMultCap",
+              "name":"Multiplier:InevitableCritCap",
               "type":"BASE"
             }],
           "support_inevitable_criticals_critical_strike_chance_+%_per_second":[{
@@ -3782,6 +3782,24 @@
               "keywordFlags":0,
               "name":"CritChance",
               "type":"INC",
+              "1":{
+                "limitTotal":true,
+                "limitVar":"InevitableCritCap",
+                "type":"Multiplier",
+                "var":"SecondsSinceInevitableCrit"
+              }
+            }],
+          "support_inevitable_criticals_critical_strike_multiplier_+%_final_cap":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Multiplier:InevitableCritMultCap",
+              "type":"BASE"
+            }],
+          "support_inevitable_criticals_critical_strike_multiplier_+%_final_per_second":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CritChance",
+              "type":"MORE",
               "1":{
                 "limitTotal":true,
                 "limitVar":"InevitableCritMultCap",
@@ -4665,6 +4683,21 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "mana_leech_from_elemental_instead":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ManaLeechBasedOnElementalDamage",
+              "type":"FLAG",
+              "value":true
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:NoManaLeechFromPhysicalDamage",
+              "type":"FLAG",
+              "value":true
+            }]
+        },
         "stats":["mana_leech_from_elemental_instead"]
       }],
     "support":true
@@ -5293,12 +5326,6 @@
               "keywordFlags":0,
               "name":"Speed",
               "type":"MORE"
-            }],
-          "support_spell_echo_area_of_effect_+%":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"AreaOfEffect",
-              "type":"INC"
             }]
         },
         "stats":[]

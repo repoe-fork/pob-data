@@ -626,6 +626,12 @@
       "name":"EnemyPoisonDuration",
       "type":"MORE"
     }],
+  "active_skill_poison_effect_+%_final":[{
+      "flags":0,
+      "keywordFlags":2097152,
+      "name":"AilmentMagnitude",
+      "type":"MORE"
+    }],
   "active_skill_projectile_damage_+%_final":[{
       "flags":1024,
       "keywordFlags":0,
@@ -1335,6 +1341,17 @@
       "type":"BASE"
     }
   },
+  "attacks_roll_crits_twice":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BifurcateCrit",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "skillType":1,
+        "type":"SkillType"
+      }
+    }],
   "aura_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5138,6 +5155,15 @@
         "varList":["UsingSword","UsingAxe","UsingMace"]
       }
     }],
+  "no_cost":{
+    "value":-100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Cost",
+      "type":"MORE"
+    }
+  },
   "no_critical_strike_multiplier":[{
       "flags":0,
       "keywordFlags":0,
@@ -7256,6 +7282,12 @@
       "keywordFlags":0,
       "name":"Damage",
       "type":"MORE"
+    }],
+  "support_spell_echo_area_of_effect_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"RepeatAreaOfEffect",
+      "type":"INC"
     }],
   "support_spell_echo_number_of_echo_cascades":[{
       "flags":0,
