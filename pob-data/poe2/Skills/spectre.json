@@ -1847,13 +1847,13 @@
       "83":true
     },
     "statSets":[{
-        "baseEffectiveness":6,
+        "baseEffectiveness":3.5,
         "baseFlags":{
           "hit":true,
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-65],["active_skill_ignite_chance_+%_final",200],["active_skill_ignite_effect_+%_final",200]],
+        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-65],["active_skill_ignite_chance_+%_final",100],["active_skill_ignite_effect_+%_final",10]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Large Ball Impact",
@@ -1884,7 +1884,7 @@
       "83":true
     },
     "statSets":[{
-        "baseEffectiveness":4,
+        "baseEffectiveness":3.1500000953674,
         "baseFlags":{
           "hit":true,
           "spell":true,
@@ -3674,7 +3674,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_reference_event","projectile_uses_contact_position","projectile_uses_contact_direction","use_scaled_contact_offset"]
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_reference_event","projectile_uses_contact_position","projectile_uses_contact_direction","use_scaled_contact_offset","base_deal_no_damage"]
       }]
   },
   "MPSAbyssCocoon3BallSpit":{

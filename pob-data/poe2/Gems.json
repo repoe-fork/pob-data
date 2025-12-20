@@ -2648,7 +2648,7 @@
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Spell, Persistent, AoE, Physical, Duration, Plant",
+    "tagString":"Spell, Persistent, AoE, Sustained, Physical, Duration, Plant",
     "tags":{
       "area":true,
       "buff":true,
@@ -2659,7 +2659,8 @@
       "physical":true,
       "plant":true,
       "spell":true,
-      "strength":true
+      "strength":true,
+      "sustained":true
     },
     "variantId":"Briarpatch"
   },
@@ -18536,14 +18537,14 @@
     "additionalGrantedEffectId1":"WolfLunarBlessingBeamAttackPlayer",
     "baseTypeName":"Lunar Blessing",
     "gameId":"Metadata/Items/Gem/SkillGemWolfLunarBlessing",
-    "gemType":"Buff",
+    "gemType":"Warcry",
     "grantedEffectId":"WolfLunarBlessingPlayer",
     "name":"Lunar Blessing",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Attack, Shapeshift, Werewolf, AoE, Melee, Trigger, Cold, Duration",
+    "tagString":"Attack, Shapeshift, Buff, Werewolf, AoE, Melee, Trigger, Cold, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -18556,6 +18557,7 @@
       "shapeshift":true,
       "strength":true,
       "trigger":true,
+      "warcry":true,
       "wolf":true
     },
     "variantId":"WolfLunarBlessing",

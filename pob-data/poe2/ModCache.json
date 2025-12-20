@@ -7548,13 +7548,13 @@
         "type":"BASE",
         "value":77
       }]],
-  "+8 maximum Rage for each time you've used a Skill that Requires Glory in the past 6 seconds":[[{
+  "+8 maximum Rage for each time you've used a Skill that Requires Glory in the past 6 seconds, up to 5 times":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"MaximumRage",
         "type":"BASE",
         "value":8
-      }],"  for each time you've used a Skill that Requires Glory in the past 6 seconds "],
+      }],"  for each time you've used a Skill that Requires Glory in the past 6 seconds, up to 5 times "],
   "+8 to Dexterity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -47692,7 +47692,17 @@
           "type":"PerStat"
         }
       }]],
-  "Non-Keystone Passive Skills in Medium Radius of allocated Keystone Passive Skills can be allocated without being connected to your tree":[null,"Non-Keystone Passive Skills in Medium Radius of allocated Keystone Passive Skills can be allocated without being connected to your tree "],
+  "Non-Keystone Passive Skills in Medium Radius of allocated Keystone Passive Skills can be allocated without being connected to your tree":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AllocateFromNodeRadius",
+        "type":"LIST",
+        "value":{
+          "from":"Keystone",
+          "radiusIndex":2,
+          "to":["Notable","Normal"]
+        }
+      }]],
   "Non-Minion Skills have 50% less Reservation Efficiency":[null,"Non-Minion Skills have 50% less Reservation Efficiency "],
   "Non-Unique Time-Lost Jewels have 40% increased radius":[null,"Non-Unique Time-Lost Jewels have 40% increased radius "],
   "Offering Skills have 15% increased Buff effect":[[{

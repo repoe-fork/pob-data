@@ -4714,7 +4714,7 @@
           "attack":true,
           "melee":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",22],["base_minimum_channel_time_ms",3000],["aftershock_delay_ms",300],["shapeshift_minimum_channel_time_ms_+",650],["bear_rampage_base_movement_speed",55],["bear_skills_additional_base_attack_time_when_performing_from_default_stance",500],["channelled_skill_suppress_ongoing_rage_cost_for_first_X_ms",2500]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",22],["base_minimum_channel_time_ms",3000],["aftershock_delay_ms",300],["shapeshift_minimum_channel_time_ms_+",650],["bear_rampage_base_movement_speed",55],["bear_skills_additional_base_attack_time_when_performing_from_default_stance",500],["channelled_skill_suppress_ongoing_rage_cost_for_first_X_ms",2500],["active_skill_on_start_gain_pushiness_+",15]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Rampage",
         "levels":[{
@@ -5381,7 +5381,7 @@
           "area":true,
           "hit":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",24],["active_skill_base_physical_damage_%_to_convert_to_fire",60],["action_allowed_queue_time_override_ms",100],["black_powder_blitz_travel_distance",75],["black_powder_blitz_additional_pushiness_modifier",5],["active_skill_stun_threshold_+%_while_performing_action",100],["global_chance_to_blind_on_hit_%",100]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",24],["active_skill_base_physical_damage_%_to_convert_to_fire",60],["action_allowed_queue_time_override_ms",100],["black_powder_blitz_travel_distance",75],["dodge_roll_additional_pathfinder_pushiness_modifier",5],["active_skill_stun_threshold_+%_while_performing_action",100],["global_chance_to_blind_on_hit_%",100]],
         "damageIncrementalEffectiveness":0.0096000004559755,
         "incrementalEffectiveness":0.12999999523163,
         "label":"Explosion",
@@ -6496,6 +6496,7 @@
       "120":true,
       "139":true,
       "144":true,
+      "151":true,
       "168":true,
       "252":true
     },
@@ -34382,280 +34383,279 @@
     "description":"Shapeshift into a Wyvern and lob a ball of magma that deals area damage as it hits the ground. The skill Chains, bouncing forward to deal damage multiple times. Impacts on Molten Fissures or Volcanos will activate them as though they were Slammed.",
     "levels":[{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":0.65,
+        "baseMultiplier":0.7,
         "cost":{
           "Mana":8
         },
         "levelRequirement":0
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":0.71,
+        "baseMultiplier":0.77,
         "cost":{
           "Mana":9
         },
         "levelRequirement":3
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":0.79,
+        "baseMultiplier":0.85,
         "cost":{
           "Mana":11
         },
         "levelRequirement":6
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":0.86,
+        "baseMultiplier":0.92,
         "cost":{
           "Mana":13
         },
         "levelRequirement":10
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":0.92,
         "cost":{
           "Mana":15
         },
         "levelRequirement":14
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":0.99,
+        "baseMultiplier":1.07,
         "cost":{
           "Mana":17
         },
         "levelRequirement":18
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.06,
+        "baseMultiplier":1.15,
         "cost":{
           "Mana":19
         },
         "levelRequirement":22
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.12,
+        "baseMultiplier":1.22,
         "cost":{
           "Mana":22
         },
         "levelRequirement":26
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.17,
+        "baseMultiplier":1.28,
         "cost":{
           "Mana":25
         },
         "levelRequirement":31
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.23,
+        "baseMultiplier":1.34,
         "cost":{
           "Mana":28
         },
         "levelRequirement":36
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.28,
+        "baseMultiplier":1.41,
         "cost":{
           "Mana":32
         },
         "levelRequirement":41
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.34,
+        "baseMultiplier":1.48,
         "cost":{
           "Mana":36
         },
         "levelRequirement":46
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.4,
+        "baseMultiplier":1.55,
         "cost":{
           "Mana":40
         },
         "levelRequirement":52
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.46,
+        "baseMultiplier":1.63,
         "cost":{
           "Mana":45
         },
         "levelRequirement":58
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.53,
+        "baseMultiplier":1.71,
         "cost":{
           "Mana":50
         },
         "levelRequirement":64
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.6,
+        "baseMultiplier":1.8,
         "cost":{
           "Mana":55
         },
         "levelRequirement":66
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.66,
+        "baseMultiplier":1.89,
         "cost":{
           "Mana":61
         },
         "levelRequirement":72
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.74,
+        "baseMultiplier":1.98,
         "cost":{
           "Mana":68
         },
         "levelRequirement":78
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.81,
+        "baseMultiplier":2.08,
         "cost":{
           "Mana":75
         },
         "levelRequirement":84
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.89,
+        "baseMultiplier":2.18,
         "cost":{
           "Mana":83
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":1.96,
+        "baseMultiplier":2.29,
         "cost":{
           "Mana":92
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.05,
+        "baseMultiplier":2.41,
         "cost":{
           "Mana":101
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.13,
+        "baseMultiplier":2.53,
         "cost":{
           "Mana":112
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.22,
+        "baseMultiplier":2.65,
         "cost":{
           "Mana":123
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.32,
+        "baseMultiplier":2.79,
         "cost":{
           "Mana":135
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.41,
+        "baseMultiplier":2.93,
         "cost":{
           "Mana":148
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.52,
+        "baseMultiplier":3.07,
         "cost":{
           "Mana":162
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.62,
+        "baseMultiplier":3.23,
         "cost":{
           "Mana":178
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.73,
+        "baseMultiplier":3.39,
         "cost":{
           "Mana":195
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.85,
+        "baseMultiplier":3.56,
         "cost":{
           "Mana":213
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":2.97,
+        "baseMultiplier":3.73,
         "cost":{
           "Mana":233
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.09,
+        "baseMultiplier":3.92,
         "cost":{
           "Mana":254
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.22,
+        "baseMultiplier":4.12,
         "cost":{
           "Mana":278
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.36,
+        "baseMultiplier":4.32,
         "cost":{
           "Mana":303
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.5,
+        "baseMultiplier":4.54,
         "cost":{
           "Mana":330
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.64,
+        "baseMultiplier":4.77,
         "cost":{
           "Mana":360
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.8,
+        "baseMultiplier":5,
         "cost":{
           "Mana":392
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":3.96,
+        "baseMultiplier":5.25,
         "cost":{
           "Mana":427
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":4.12,
+        "baseMultiplier":5.52,
         "cost":{
           "Mana":464
         },
         "levelRequirement":90
       },{
         "attackSpeedMultiplier":-15,
-        "baseMultiplier":4.3,
+        "baseMultiplier":5.79,
         "cost":{
           "Mana":505
         },
@@ -34723,12 +34723,12 @@
           },{
             "actorLevel":26.732000350952,
             "statInterpolation":[1,1],
-            "1":2,
+            "1":3,
             "2":15
           },{
             "actorLevel":31.40299987793,
             "statInterpolation":[1,1],
-            "1":2,
+            "1":3,
             "2":15
           },{
             "actorLevel":36.299999237061,
@@ -34763,27 +34763,27 @@
           },{
             "actorLevel":70.428001403809,
             "statInterpolation":[1,1],
-            "1":3,
+            "1":4,
             "2":17
           },{
             "actorLevel":76.906997680664,
             "statInterpolation":[1,1],
-            "1":3,
+            "1":4,
             "2":17
           },{
             "actorLevel":83.611999511719,
             "statInterpolation":[1,1],
-            "1":3,
+            "1":4,
             "2":17
           },{
             "actorLevel":90.542999267578,
             "statInterpolation":[1,1],
-            "1":3,
+            "1":4,
             "2":17
           },{
             "actorLevel":97.699996948242,
             "statInterpolation":[1,1],
-            "1":3,
+            "1":4,
             "2":18
           },{
             "actorLevel":105.08300018311,
@@ -34803,32 +34803,32 @@
           },{
             "actorLevel":128.58799743652,
             "statInterpolation":[1,1],
-            "1":4,
+            "1":5,
             "2":18
           },{
             "actorLevel":136.875,
             "statInterpolation":[1,1],
-            "1":4,
+            "1":5,
             "2":19
           },{
             "actorLevel":145.38800048828,
             "statInterpolation":[1,1],
-            "1":4,
+            "1":5,
             "2":19
           },{
             "actorLevel":154.12699890137,
             "statInterpolation":[1,1],
-            "1":4,
+            "1":5,
             "2":19
           },{
             "actorLevel":163.09199523926,
             "statInterpolation":[1,1],
-            "1":4,
+            "1":5,
             "2":19
           },{
             "actorLevel":172.28300476074,
             "statInterpolation":[1,1],
-            "1":4,
+            "1":5,
             "2":19
           },{
             "actorLevel":181.69999694824,
@@ -34843,42 +34843,42 @@
           },{
             "actorLevel":201.21200561523,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":20
           },{
             "actorLevel":211.30700683594,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":20
           },{
             "actorLevel":221.62800598145,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":20
           },{
             "actorLevel":232.17500305176,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":21
           },{
             "actorLevel":242.94799804688,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":21
           },{
             "actorLevel":253.94700622559,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":21
           },{
             "actorLevel":265.17199707031,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":21
           },{
             "actorLevel":276.62298583984,
             "statInterpolation":[1,1],
-            "1":5,
+            "1":6,
             "2":21
           },{
             "actorLevel":288.29998779297,
@@ -37064,7 +37064,7 @@
           "melee":true,
           "shieldAttack":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",24],["base_minimum_channel_time_ms",1300],["base_skill_effect_duration",5000],["shield_charge_base_movement_speed",90],["shield_charge_extra_distance",80],["shield_charge_acceleration_duration_ms",0],["shield_charge_hit_damage_stun_multiplier_when_fully_charged_+%_final",400],["shield_charge_pushiness_+",10],["shield_charge_pushiness_+_while_fully_charged",-20],["shield_charge_pushiness_+_while_decelerating",0],["base_additional_damage_from_distance_+%_final",100]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",24],["base_minimum_channel_time_ms",1300],["base_skill_effect_duration",5000],["shield_charge_base_movement_speed",90],["shield_charge_extra_distance",80],["shield_charge_acceleration_duration_ms",0],["shield_charge_hit_damage_stun_multiplier_when_fully_charged_+%_final",400],["active_skill_on_start_gain_pushiness_+",10],["shield_charge_pushiness_+_while_fully_charged",-30],["shield_charge_pushiness_+_while_decelerating",-10],["base_additional_damage_from_distance_+%_final",100]],
         "incrementalEffectiveness":0.27349999547005,
         "label":"Area of Effect",
         "levels":[{
@@ -37418,7 +37418,7 @@
               "value":1.3
             }
           }],
-        "constantStats":[["active_skill_base_area_of_effect_radius",24],["shield_charge_base_movement_speed",90],["shield_charge_extra_distance",80],["shield_charge_acceleration_duration_ms",0],["shield_charge_hit_damage_stun_multiplier_when_fully_charged_+%_final",400],["shield_charge_pushiness_+",10],["shield_charge_pushiness_+_while_fully_charged",-20],["shield_charge_pushiness_+_while_decelerating",0],["base_additional_damage_from_distance_+%_final",100],["base_knockback_distance",900],["active_skill_hit_damage_stun_multiplier_+%_final",50]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",24],["shield_charge_base_movement_speed",90],["shield_charge_extra_distance",80],["shield_charge_acceleration_duration_ms",0],["shield_charge_hit_damage_stun_multiplier_when_fully_charged_+%_final",400],["active_skill_on_start_gain_pushiness_+",10],["shield_charge_pushiness_+_while_fully_charged",-30],["shield_charge_pushiness_+_while_decelerating",-10],["base_additional_damage_from_distance_+%_final",100],["base_knockback_distance",900],["active_skill_hit_damage_stun_multiplier_+%_final",50]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Collision",
         "levels":[{
@@ -43093,7 +43093,7 @@
           "attack":true,
           "melee":true
         },
-        "constantStats":[["shield_charge_base_movement_speed",70],["shield_charge_extra_distance",53],["shield_charge_acceleration_duration_ms",0],["stampede_pushiness_+",20],["active_skill_base_area_of_effect_radius",12],["active_skill_damage_+%_final_while_dual_wielding",-30],["active_skill_base_secondary_area_of_effect_radius",32],["skill_jagged_ground_base_duration_ms",6000],["attack_maximum_action_distance_+",45]],
+        "constantStats":[["shield_charge_base_movement_speed",70],["shield_charge_extra_distance",53],["shield_charge_acceleration_duration_ms",0],["active_skill_on_start_gain_pushiness_+",20],["active_skill_base_area_of_effect_radius",12],["active_skill_damage_+%_final_while_dual_wielding",-30],["active_skill_base_secondary_area_of_effect_radius",32],["skill_jagged_ground_base_duration_ms",6000],["attack_maximum_action_distance_+",45]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Footsteps",
         "levels":[{
@@ -43185,7 +43185,7 @@
           "attack":true,
           "melee":true
         },
-        "constantStats":[["shield_charge_base_movement_speed",70],["shield_charge_extra_distance",53],["shield_charge_acceleration_duration_ms",0],["stampede_pushiness_+",20],["active_skill_damage_+%_final_while_dual_wielding",-30],["active_skill_base_secondary_area_of_effect_radius",32],["attack_maximum_action_distance_+",45],["active_skill_base_area_of_effect_radius",32],["cascade_aftershock_spacing_area_%_override",105],["cascade_aftershock_angle_offset_override",30]],
+        "constantStats":[["shield_charge_base_movement_speed",70],["shield_charge_extra_distance",53],["shield_charge_acceleration_duration_ms",0],["active_skill_on_start_gain_pushiness_+",20],["active_skill_damage_+%_final_while_dual_wielding",-30],["active_skill_base_secondary_area_of_effect_radius",32],["attack_maximum_action_distance_+",45],["active_skill_base_area_of_effect_radius",32],["cascade_aftershock_spacing_area_%_override",105],["cascade_aftershock_angle_offset_override",30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Slam",
         "levels":[{
@@ -43317,7 +43317,7 @@
           "attack":true,
           "melee":true
         },
-        "constantStats":[["shield_charge_base_movement_speed",70],["shield_charge_extra_distance",53],["shield_charge_acceleration_duration_ms",0],["stampede_pushiness_+",20],["active_skill_base_area_of_effect_radius",12],["active_skill_damage_+%_final_while_dual_wielding",-30],["active_skill_base_secondary_area_of_effect_radius",32],["attack_maximum_action_distance_+",45]],
+        "constantStats":[["shield_charge_base_movement_speed",70],["shield_charge_extra_distance",53],["shield_charge_acceleration_duration_ms",0],["active_skill_on_start_gain_pushiness_+",20],["active_skill_base_area_of_effect_radius",12],["active_skill_damage_+%_final_while_dual_wielding",-30],["active_skill_base_secondary_area_of_effect_radius",32],["attack_maximum_action_distance_+",45]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{
@@ -44135,242 +44135,202 @@
         "cost":{
           "Mana":18
         },
-        "levelRequirement":0,
-        "manaMultiplier":100
+        "levelRequirement":0
       },{
         "cost":{
           "Mana":20
         },
-        "levelRequirement":3,
-        "manaMultiplier":100
+        "levelRequirement":3
       },{
         "cost":{
           "Mana":23
         },
-        "levelRequirement":6,
-        "manaMultiplier":100
+        "levelRequirement":6
       },{
         "cost":{
           "Mana":27
         },
-        "levelRequirement":10,
-        "manaMultiplier":100
+        "levelRequirement":10
       },{
         "cost":{
           "Mana":30
         },
-        "levelRequirement":14,
-        "manaMultiplier":100
+        "levelRequirement":14
       },{
         "cost":{
           "Mana":34
         },
-        "levelRequirement":18,
-        "manaMultiplier":100
+        "levelRequirement":18
       },{
         "cost":{
           "Mana":38
         },
-        "levelRequirement":22,
-        "manaMultiplier":100
+        "levelRequirement":22
       },{
         "cost":{
           "Mana":42
         },
-        "levelRequirement":26,
-        "manaMultiplier":100
+        "levelRequirement":26
       },{
         "cost":{
           "Mana":47
         },
-        "levelRequirement":31,
-        "manaMultiplier":100
+        "levelRequirement":31
       },{
         "cost":{
           "Mana":51
         },
-        "levelRequirement":36,
-        "manaMultiplier":100
+        "levelRequirement":36
       },{
         "cost":{
           "Mana":57
         },
-        "levelRequirement":41,
-        "manaMultiplier":100
+        "levelRequirement":41
       },{
         "cost":{
           "Mana":62
         },
-        "levelRequirement":46,
-        "manaMultiplier":100
+        "levelRequirement":46
       },{
         "cost":{
           "Mana":68
         },
-        "levelRequirement":52,
-        "manaMultiplier":100
+        "levelRequirement":52
       },{
         "cost":{
           "Mana":74
         },
-        "levelRequirement":58,
-        "manaMultiplier":100
+        "levelRequirement":58
       },{
         "cost":{
           "Mana":81
         },
-        "levelRequirement":64,
-        "manaMultiplier":100
+        "levelRequirement":64
       },{
         "cost":{
           "Mana":88
         },
-        "levelRequirement":66,
-        "manaMultiplier":100
+        "levelRequirement":66
       },{
         "cost":{
           "Mana":95
         },
-        "levelRequirement":72,
-        "manaMultiplier":100
+        "levelRequirement":72
       },{
         "cost":{
           "Mana":103
         },
-        "levelRequirement":78,
-        "manaMultiplier":100
+        "levelRequirement":78
       },{
         "cost":{
           "Mana":112
         },
-        "levelRequirement":84,
-        "manaMultiplier":100
+        "levelRequirement":84
       },{
         "cost":{
           "Mana":121
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":131
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":141
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":152
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":163
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":175
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":188
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":202
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":217
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":232
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":248
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":265
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":284
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":303
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":323
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":345
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":368
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":392
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":418
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":445
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       },{
         "cost":{
           "Mana":473
         },
-        "levelRequirement":90,
-        "manaMultiplier":100
+        "levelRequirement":90
       }],
     "name":"Spell Totem",
     "qualityStats":[["base_totem_duration",200]],
@@ -47861,7 +47821,7 @@
       "252":true
     },
     "statSets":[{
-        "baseEffectiveness":2.0699999332428,
+        "baseEffectiveness":1.75,
         "baseFlags":{
           "area":true,
           "duration":true,
@@ -47874,203 +47834,203 @@
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[1,1],
-            "1":6,
-            "2":10
+            "1":5,
+            "2":8
           },{
             "actorLevel":3.4519999027252,
             "statInterpolation":[1,1],
-            "1":9,
-            "2":13
+            "1":7,
+            "2":11
           },{
             "actorLevel":6.7670001983643,
             "statInterpolation":[1,1],
-            "1":12,
-            "2":18
+            "1":10,
+            "2":15
           },{
             "actorLevel":10.307999610901,
             "statInterpolation":[1,1],
-            "1":15,
-            "2":23
+            "1":13,
+            "2":19
           },{
             "actorLevel":14.074999809265,
             "statInterpolation":[1,1],
-            "1":19,
-            "2":29
+            "1":16,
+            "2":24
           },{
             "actorLevel":18.068000793457,
             "statInterpolation":[1,1],
-            "1":23,
-            "2":35
+            "1":20,
+            "2":30
           },{
             "actorLevel":22.287000656128,
             "statInterpolation":[1,1],
-            "1":28,
-            "2":43
+            "1":24,
+            "2":36
           },{
             "actorLevel":26.732000350952,
+            "statInterpolation":[1,1],
+            "1":29,
+            "2":43
+          },{
+            "actorLevel":31.40299987793,
             "statInterpolation":[1,1],
             "1":34,
             "2":51
           },{
-            "actorLevel":31.40299987793,
-            "statInterpolation":[1,1],
-            "1":40,
-            "2":60
-          },{
             "actorLevel":36.299999237061,
             "statInterpolation":[1,1],
-            "1":47,
-            "2":70
+            "1":39,
+            "2":59
           },{
             "actorLevel":41.423000335693,
             "statInterpolation":[1,1],
-            "1":54,
-            "2":81
+            "1":46,
+            "2":69
           },{
             "actorLevel":46.771999359131,
             "statInterpolation":[1,1],
-            "1":63,
-            "2":94
+            "1":53,
+            "2":79
           },{
             "actorLevel":52.34700012207,
             "statInterpolation":[1,1],
-            "1":72,
-            "2":108
+            "1":61,
+            "2":91
           },{
             "actorLevel":58.147998809814,
             "statInterpolation":[1,1],
-            "1":83,
-            "2":124
+            "1":70,
+            "2":105
           },{
             "actorLevel":64.175003051758,
             "statInterpolation":[1,1],
-            "1":94,
-            "2":142
+            "1":80,
+            "2":120
           },{
             "actorLevel":70.428001403809,
             "statInterpolation":[1,1],
-            "1":108,
-            "2":161
+            "1":91,
+            "2":136
           },{
             "actorLevel":76.906997680664,
             "statInterpolation":[1,1],
-            "1":122,
-            "2":184
+            "1":103,
+            "2":155
           },{
             "actorLevel":83.611999511719,
             "statInterpolation":[1,1],
-            "1":139,
-            "2":208
+            "1":117,
+            "2":176
           },{
             "actorLevel":90.542999267578,
             "statInterpolation":[1,1],
-            "1":157,
-            "2":236
+            "1":133,
+            "2":200
           },{
             "actorLevel":97.699996948242,
             "statInterpolation":[1,1],
-            "1":178,
-            "2":267
+            "1":151,
+            "2":226
           },{
             "actorLevel":105.08300018311,
             "statInterpolation":[1,1],
-            "1":201,
-            "2":302
+            "1":170,
+            "2":255
           },{
             "actorLevel":112.69200134277,
             "statInterpolation":[1,1],
-            "1":228,
-            "2":341
+            "1":192,
+            "2":289
           },{
             "actorLevel":120.52700042725,
             "statInterpolation":[1,1],
-            "1":257,
-            "2":385
+            "1":217,
+            "2":326
           },{
             "actorLevel":128.58799743652,
             "statInterpolation":[1,1],
-            "1":290,
-            "2":435
+            "1":245,
+            "2":368
           },{
             "actorLevel":136.875,
             "statInterpolation":[1,1],
-            "1":327,
-            "2":490
+            "1":276,
+            "2":415
           },{
             "actorLevel":145.38800048828,
             "statInterpolation":[1,1],
-            "1":369,
-            "2":553
+            "1":312,
+            "2":468
           },{
             "actorLevel":154.12699890137,
             "statInterpolation":[1,1],
-            "1":416,
-            "2":624
+            "1":352,
+            "2":527
           },{
             "actorLevel":163.09199523926,
             "statInterpolation":[1,1],
-            "1":469,
-            "2":704
+            "1":397,
+            "2":595
           },{
             "actorLevel":172.28300476074,
             "statInterpolation":[1,1],
-            "1":529,
-            "2":794
+            "1":447,
+            "2":671
           },{
             "actorLevel":181.69999694824,
             "statInterpolation":[1,1],
-            "1":597,
-            "2":896
+            "1":505,
+            "2":757
           },{
             "actorLevel":191.34300231934,
             "statInterpolation":[1,1],
-            "1":674,
-            "2":1011
+            "1":570,
+            "2":855
           },{
             "actorLevel":201.21200561523,
             "statInterpolation":[1,1],
-            "1":761,
-            "2":1141
+            "1":643,
+            "2":965
           },{
             "actorLevel":211.30700683594,
             "statInterpolation":[1,1],
-            "1":860,
-            "2":1289
+            "1":727,
+            "2":1090
           },{
             "actorLevel":221.62800598145,
             "statInterpolation":[1,1],
-            "1":971,
-            "2":1457
+            "1":821,
+            "2":1232
           },{
             "actorLevel":232.17500305176,
             "statInterpolation":[1,1],
-            "1":1098,
-            "2":1648
+            "1":929,
+            "2":1393
           },{
             "actorLevel":242.94799804688,
             "statInterpolation":[1,1],
-            "1":1243,
-            "2":1864
+            "1":1051,
+            "2":1576
           },{
             "actorLevel":253.94700622559,
             "statInterpolation":[1,1],
-            "1":1407,
-            "2":2111
+            "1":1190,
+            "2":1785
           },{
             "actorLevel":265.17199707031,
             "statInterpolation":[1,1],
-            "1":1595,
-            "2":2392
+            "1":1348,
+            "2":2022
           },{
             "actorLevel":276.62298583984,
             "statInterpolation":[1,1],
-            "1":1808,
-            "2":2712
+            "1":1529,
+            "2":2293
           },{
             "actorLevel":288.29998779297,
             "statInterpolation":[1,1],
-            "1":2052,
-            "2":3078
+            "1":1735,
+            "2":2602
           }],
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
         "statDescriptionScope":"thrashing_vines",
@@ -52968,7 +52928,7 @@
         "levelRequirement":90
       }],
     "name":"Walking Calamity",
-    "qualityStats":[["walking_calamity_large_meteor_every",-0.1]],
+    "qualityStats":[["walking_calamity_non_skill_base_all_damage_%_to_gain_as_fire",0.5]],
     "skillTypes":{
       "1":true,
       "5":true,
@@ -52984,7 +52944,7 @@
         "baseFlags":{
           "duration":true
         },
-        "constantStats":[["active_skill_requires_X_glory",50],["base_skill_effect_duration",10000],["active_skill_base_area_of_effect_radius",80],["walking_calamity_spawn_meteor_every_ms",50],["walking_calamity_base_rage_regeneration_per_minute",300],["walking_calamity_non_skill_base_all_damage_%_to_gain_as_fire",30],["walking_calamity_large_meteor_every",15],["bear_skills_additional_base_attack_time_when_performing_from_default_stance",300],["walking_calamity_large_meteor_same_target_prevention_duration_ms",2000]],
+        "constantStats":[["active_skill_requires_X_glory",50],["base_skill_effect_duration",10000],["active_skill_base_area_of_effect_radius",80],["walking_calamity_spawn_meteor_every_ms",150],["walking_calamity_base_rage_regeneration_per_minute",300],["walking_calamity_non_skill_base_all_damage_%_to_gain_as_fire",30],["walking_calamity_large_meteor_every",15],["bear_skills_additional_base_attack_time_when_performing_from_default_stance",300],["walking_calamity_large_meteor_same_target_prevention_duration_ms",2000],["walking_calamity_meteor_frequency_+%_per_enemy_in_walking_calamity_radius",50],["walking_calamity_meteor_frequency_+%_cap",200],["walking_calamity_ignore_first_x_enemies_for_frequency_increase",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Walking Calamity",
         "levels":[{
@@ -53069,7 +53029,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"walking_calamity",
-        "stats":["base_deal_no_damage","disable_quadruped_head_movement_when_turning"]
+        "stats":["base_deal_no_damage","disable_quadruped_head_movement_when_turning","base_skill_show_average_damage_instead_of_dps"]
       }],
     "weaponTypes":{
       "Talisman":true
@@ -54560,7 +54520,7 @@
           "duration":true,
           "warcry":true
         },
-        "constantStats":[["warcry_empowers_per_X_monster_power_mp_cap",50],["base_skill_effect_duration",8000],["active_skill_base_area_of_effect_radius",55],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["active_skill_hit_damage_freeze_multiplier_+%_final",-100],["warcry_empowers_per_X_monster_power",10],["base_secondary_skill_effect_duration",4000]],
+        "constantStats":[["warcry_empowers_per_X_monster_power_mp_cap",50],["base_skill_effect_duration",8000],["active_skill_base_area_of_effect_radius",55],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["active_skill_hit_damage_freeze_multiplier_+%_final",-100],["warcry_empowers_per_X_monster_power",5],["base_secondary_skill_effect_duration",4000]],
         "damageIncrementalEffectiveness":0.0096000004559755,
         "incrementalEffectiveness":0.12999999523163,
         "label":"Arctic Howl",
@@ -54571,8 +54531,8 @@
             "2":8,
             "3":1,
             "4":2,
-            "5":2,
-            "6":4
+            "5":4,
+            "6":5
           },{
             "actorLevel":3.4519999027252,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54580,8 +54540,8 @@
             "2":11,
             "3":1,
             "4":2,
-            "5":3,
-            "6":5
+            "5":5,
+            "6":7
           },{
             "actorLevel":6.7670001983643,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54589,8 +54549,8 @@
             "2":15,
             "3":2,
             "4":3,
-            "5":5,
-            "6":7
+            "5":7,
+            "6":10
           },{
             "actorLevel":10.307999610901,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54598,8 +54558,8 @@
             "2":20,
             "3":3,
             "4":4,
-            "5":6,
-            "6":9
+            "5":9,
+            "6":13
           },{
             "actorLevel":14.074999809265,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54607,8 +54567,8 @@
             "2":25,
             "3":3,
             "4":5,
-            "5":7,
-            "6":11
+            "5":11,
+            "6":17
           },{
             "actorLevel":18.068000793457,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54616,8 +54576,8 @@
             "2":31,
             "3":4,
             "4":6,
-            "5":9,
-            "6":14
+            "5":13,
+            "6":21
           },{
             "actorLevel":22.287000656128,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54625,8 +54585,8 @@
             "2":38,
             "3":5,
             "4":8,
-            "5":11,
-            "6":17
+            "5":16,
+            "6":25
           },{
             "actorLevel":26.732000350952,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54634,8 +54594,8 @@
             "2":45,
             "3":6,
             "4":9,
-            "5":14,
-            "6":20
+            "5":20,
+            "6":30
           },{
             "actorLevel":31.40299987793,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54643,8 +54603,8 @@
             "2":54,
             "3":7,
             "4":11,
-            "5":16,
-            "6":24
+            "5":23,
+            "6":36
           },{
             "actorLevel":36.299999237061,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54652,8 +54612,8 @@
             "2":64,
             "3":9,
             "4":13,
-            "5":19,
-            "6":29
+            "5":28,
+            "6":43
           },{
             "actorLevel":41.423000335693,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54661,8 +54621,8 @@
             "2":75,
             "3":10,
             "4":15,
-            "5":23,
-            "6":34
+            "5":33,
+            "6":50
           },{
             "actorLevel":46.771999359131,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54670,8 +54630,8 @@
             "2":88,
             "3":12,
             "4":18,
-            "5":26,
-            "6":40
+            "5":38,
+            "6":59
           },{
             "actorLevel":52.34700012207,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54679,8 +54639,8 @@
             "2":102,
             "3":14,
             "4":20,
-            "5":31,
-            "6":46
+            "5":44,
+            "6":68
           },{
             "actorLevel":58.147998809814,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54688,8 +54648,8 @@
             "2":119,
             "3":16,
             "4":24,
-            "5":36,
-            "6":53
+            "5":51,
+            "6":79
           },{
             "actorLevel":64.175003051758,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54697,8 +54657,8 @@
             "2":137,
             "3":18,
             "4":27,
-            "5":41,
-            "6":62
+            "5":60,
+            "6":92
           },{
             "actorLevel":70.428001403809,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54706,8 +54666,8 @@
             "2":159,
             "3":21,
             "4":32,
-            "5":48,
-            "6":71
+            "5":69,
+            "6":106
           },{
             "actorLevel":76.906997680664,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54715,8 +54675,8 @@
             "2":183,
             "3":24,
             "4":37,
-            "5":55,
-            "6":82
+            "5":79,
+            "6":122
           },{
             "actorLevel":83.611999511719,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54724,8 +54684,8 @@
             "2":211,
             "3":28,
             "4":42,
-            "5":63,
-            "6":95
+            "5":91,
+            "6":141
           },{
             "actorLevel":90.542999267578,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54733,8 +54693,8 @@
             "2":243,
             "3":32,
             "4":49,
-            "5":73,
-            "6":109
+            "5":105,
+            "6":162
           },{
             "actorLevel":97.699996948242,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54742,8 +54702,8 @@
             "2":279,
             "3":37,
             "4":56,
-            "5":84,
-            "6":126
+            "5":121,
+            "6":186
           },{
             "actorLevel":105.08300018311,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54751,8 +54711,8 @@
             "2":320,
             "3":43,
             "4":64,
-            "5":96,
-            "6":144
+            "5":139,
+            "6":214
           },{
             "actorLevel":112.69200134277,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54760,8 +54720,8 @@
             "2":368,
             "3":49,
             "4":74,
-            "5":110,
-            "6":166
+            "5":160,
+            "6":245
           },{
             "actorLevel":120.52700042725,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54769,8 +54729,8 @@
             "2":423,
             "3":56,
             "4":85,
-            "5":127,
-            "6":190
+            "5":183,
+            "6":282
           },{
             "actorLevel":128.58799743652,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54778,8 +54738,8 @@
             "2":486,
             "3":65,
             "4":97,
-            "5":146,
-            "6":218
+            "5":210,
+            "6":324
           },{
             "actorLevel":136.875,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54787,8 +54747,8 @@
             "2":558,
             "3":74,
             "4":112,
-            "5":167,
-            "6":251
+            "5":242,
+            "6":372
           },{
             "actorLevel":145.38800048828,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54796,8 +54756,8 @@
             "2":641,
             "3":85,
             "4":128,
-            "5":192,
-            "6":288
+            "5":278,
+            "6":427
           },{
             "actorLevel":154.12699890137,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54805,8 +54765,8 @@
             "2":737,
             "3":98,
             "4":147,
-            "5":221,
-            "6":332
+            "5":319,
+            "6":491
           },{
             "actorLevel":163.09199523926,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54814,8 +54774,8 @@
             "2":847,
             "3":113,
             "4":169,
-            "5":254,
-            "6":381
+            "5":367,
+            "6":565
           },{
             "actorLevel":172.28300476074,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54823,8 +54783,8 @@
             "2":975,
             "3":130,
             "4":195,
-            "5":293,
-            "6":439
+            "5":423,
+            "6":650
           },{
             "actorLevel":181.69999694824,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54832,8 +54792,8 @@
             "2":1123,
             "3":150,
             "4":225,
-            "5":337,
-            "6":505
+            "5":487,
+            "6":749
           },{
             "actorLevel":191.34300231934,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54841,8 +54801,8 @@
             "2":1295,
             "3":173,
             "4":259,
-            "5":388,
-            "6":583
+            "5":561,
+            "6":863
           },{
             "actorLevel":201.21200561523,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54850,8 +54810,8 @@
             "2":1493,
             "3":199,
             "4":299,
-            "5":448,
-            "6":672
+            "5":647,
+            "6":996
           },{
             "actorLevel":211.30700683594,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54859,8 +54819,8 @@
             "2":1725,
             "3":230,
             "4":345,
-            "5":517,
-            "6":776
+            "5":747,
+            "6":1150
           },{
             "actorLevel":221.62800598145,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54868,8 +54828,8 @@
             "2":1993,
             "3":266,
             "4":399,
-            "5":598,
-            "6":897
+            "5":864,
+            "6":1329
           },{
             "actorLevel":232.17500305176,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54877,8 +54837,8 @@
             "2":2307,
             "3":308,
             "4":461,
-            "5":692,
-            "6":1038
+            "5":999,
+            "6":1538
           },{
             "actorLevel":242.94799804688,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54886,8 +54846,8 @@
             "2":2672,
             "3":356,
             "4":534,
-            "5":802,
-            "6":1202
+            "5":1158,
+            "6":1781
           },{
             "actorLevel":253.94700622559,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54895,8 +54855,8 @@
             "2":3099,
             "3":413,
             "4":620,
-            "5":930,
-            "6":1394
+            "5":1343,
+            "6":2066
           },{
             "actorLevel":265.17199707031,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54904,8 +54864,8 @@
             "2":3598,
             "3":480,
             "4":720,
-            "5":1079,
-            "6":1619
+            "5":1559,
+            "6":2399
           },{
             "actorLevel":276.62298583984,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54913,8 +54873,8 @@
             "2":4183,
             "3":558,
             "4":837,
-            "5":1255,
-            "6":1882
+            "5":1813,
+            "6":2789
           },{
             "actorLevel":288.29998779297,
             "statInterpolation":[1,1,1,1,1,1],
@@ -54922,8 +54882,8 @@
             "2":4870,
             "3":649,
             "4":974,
-            "5":1461,
-            "6":2191
+            "5":2110,
+            "6":3246
           }],
         "notMinionStat":["secondary_minimum_base_cold_damage","secondary_maximum_base_cold_damage"],
         "statDescriptionScope":"arctic_howl",
@@ -54937,10 +54897,10 @@
     "baseTypeName":"Cross Slash",
     "castTime":1,
     "color":1,
-    "description":"Shapeshift into a Werewolf and leap backwards as you gouge the ground with both claws. Hitting a Marked enemy with both gouges will Activate the Mark and cause an additional shockwave. Ice Fragments will be pulled into the location where the gouges cross and explode immediately. This skill can be used while using other skills to interrupt them.",
+    "description":"Shapeshift into a Werewolf and leap backwards as you gouge the ground with both claws. Enemies can be Hit separately by both gouges. Hitting a Marked enemy with both gouges will Activate the Mark and cause an additional shockwave. Ice Fragments will be pulled into the location where the gouges cross and explode immediately. This skill can be used while using other skills to interrupt them.",
     "levels":[{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":0.65,
+        "baseMultiplier":1.3,
         "cooldown":2,
         "cost":{
           "Mana":10
@@ -54949,7 +54909,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":0.71,
+        "baseMultiplier":1.43,
         "cooldown":2,
         "cost":{
           "Mana":11
@@ -54958,7 +54918,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":0.79,
+        "baseMultiplier":1.57,
         "cooldown":2,
         "cost":{
           "Mana":13
@@ -54967,7 +54927,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":0.86,
+        "baseMultiplier":1.72,
         "cooldown":2,
         "cost":{
           "Mana":15
@@ -54976,7 +54936,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":0.93,
+        "baseMultiplier":1.86,
         "cooldown":2,
         "cost":{
           "Mana":17
@@ -54985,6 +54945,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
+        "baseMultiplier":2.01,
         "cooldown":2,
         "cost":{
           "Mana":19
@@ -54993,7 +54954,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.08,
+        "baseMultiplier":2.16,
         "cooldown":2,
         "cost":{
           "Mana":21
@@ -55002,7 +54963,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.15,
+        "baseMultiplier":2.3,
         "cooldown":2,
         "cost":{
           "Mana":23
@@ -55011,7 +54972,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.21,
+        "baseMultiplier":2.43,
         "cooldown":2,
         "cost":{
           "Mana":26
@@ -55020,7 +54981,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.28,
+        "baseMultiplier":2.57,
         "cooldown":2,
         "cost":{
           "Mana":28
@@ -55029,7 +54990,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.36,
+        "baseMultiplier":2.72,
         "cooldown":2,
         "cost":{
           "Mana":31
@@ -55038,7 +54999,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.44,
+        "baseMultiplier":2.88,
         "cooldown":2,
         "cost":{
           "Mana":34
@@ -55047,7 +55008,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.53,
+        "baseMultiplier":3.05,
         "cooldown":2,
         "cost":{
           "Mana":38
@@ -55056,7 +55017,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.62,
+        "baseMultiplier":3.24,
         "cooldown":2,
         "cost":{
           "Mana":41
@@ -55065,7 +55026,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.72,
+        "baseMultiplier":3.44,
         "cooldown":2,
         "cost":{
           "Mana":45
@@ -55074,7 +55035,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.83,
+        "baseMultiplier":3.66,
         "cooldown":2,
         "cost":{
           "Mana":49
@@ -55083,7 +55044,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":1.95,
+        "baseMultiplier":3.89,
         "cooldown":2,
         "cost":{
           "Mana":53
@@ -55092,7 +55053,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":2.07,
+        "baseMultiplier":4.14,
         "cooldown":2,
         "cost":{
           "Mana":57
@@ -55101,7 +55062,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":2.21,
+        "baseMultiplier":4.41,
         "cooldown":2,
         "cost":{
           "Mana":62
@@ -55110,7 +55071,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":2.35,
+        "baseMultiplier":4.71,
         "cooldown":2,
         "cost":{
           "Mana":67
@@ -55119,7 +55080,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":2.51,
+        "baseMultiplier":5.02,
         "cooldown":2,
         "cost":{
           "Mana":73
@@ -55128,7 +55089,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":2.68,
+        "baseMultiplier":5.36,
         "cooldown":2,
         "cost":{
           "Mana":78
@@ -55137,7 +55098,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":2.86,
+        "baseMultiplier":5.71,
         "cooldown":2,
         "cost":{
           "Mana":84
@@ -55146,7 +55107,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":3.05,
+        "baseMultiplier":6.09,
         "cooldown":2,
         "cost":{
           "Mana":91
@@ -55155,7 +55116,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":3.25,
+        "baseMultiplier":6.5,
         "cooldown":2,
         "cost":{
           "Mana":98
@@ -55164,7 +55125,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":3.47,
+        "baseMultiplier":6.93,
         "cooldown":2,
         "cost":{
           "Mana":105
@@ -55173,7 +55134,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":3.7,
+        "baseMultiplier":7.4,
         "cooldown":2,
         "cost":{
           "Mana":112
@@ -55182,7 +55143,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":3.94,
+        "baseMultiplier":7.89,
         "cooldown":2,
         "cost":{
           "Mana":120
@@ -55191,7 +55152,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":4.21,
+        "baseMultiplier":8.41,
         "cooldown":2,
         "cost":{
           "Mana":129
@@ -55200,7 +55161,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":4.49,
+        "baseMultiplier":8.97,
         "cooldown":2,
         "cost":{
           "Mana":138
@@ -55209,7 +55170,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":4.79,
+        "baseMultiplier":9.57,
         "cooldown":2,
         "cost":{
           "Mana":148
@@ -55218,7 +55179,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":5.1,
+        "baseMultiplier":10.21,
         "cooldown":2,
         "cost":{
           "Mana":158
@@ -55227,7 +55188,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":5.44,
+        "baseMultiplier":10.89,
         "cooldown":2,
         "cost":{
           "Mana":169
@@ -55236,7 +55197,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":5.81,
+        "baseMultiplier":11.62,
         "cooldown":2,
         "cost":{
           "Mana":180
@@ -55245,7 +55206,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":6.19,
+        "baseMultiplier":12.39,
         "cooldown":2,
         "cost":{
           "Mana":192
@@ -55254,7 +55215,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":6.61,
+        "baseMultiplier":13.21,
         "cooldown":2,
         "cost":{
           "Mana":205
@@ -55263,7 +55224,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":7.05,
+        "baseMultiplier":14.09,
         "cooldown":2,
         "cost":{
           "Mana":218
@@ -55272,7 +55233,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":7.52,
+        "baseMultiplier":15.03,
         "cooldown":2,
         "cost":{
           "Mana":233
@@ -55281,7 +55242,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":8.02,
+        "baseMultiplier":16.03,
         "cooldown":2,
         "cost":{
           "Mana":248
@@ -55290,7 +55251,7 @@
         "storedUses":1
       },{
         "attackSpeedMultiplier":10,
-        "baseMultiplier":8.55,
+        "baseMultiplier":17.1,
         "cooldown":2,
         "cost":{
           "Mana":263
@@ -55413,123 +55374,124 @@
         "label":"Shockwave",
         "levels":[{
             "actorLevel":1,
-            "baseMultiplier":0.65
+            "baseMultiplier":1.3
           },{
             "actorLevel":3.4519999027252,
-            "baseMultiplier":0.71
+            "baseMultiplier":1.43
           },{
             "actorLevel":6.7670001983643,
-            "baseMultiplier":0.79
+            "baseMultiplier":1.57
           },{
             "actorLevel":10.307999610901,
-            "baseMultiplier":0.86
-          },{
-            "actorLevel":14.074999809265,
-            "baseMultiplier":0.93
-          },{
-            "actorLevel":18.068000793457
-          },{
-            "actorLevel":22.287000656128,
-            "baseMultiplier":1.08
-          },{
-            "actorLevel":26.732000350952,
-            "baseMultiplier":1.15
-          },{
-            "actorLevel":31.40299987793,
-            "baseMultiplier":1.21
-          },{
-            "actorLevel":36.299999237061,
-            "baseMultiplier":1.28
-          },{
-            "actorLevel":41.423000335693,
-            "baseMultiplier":1.36
-          },{
-            "actorLevel":46.771999359131,
-            "baseMultiplier":1.44
-          },{
-            "actorLevel":52.34700012207,
-            "baseMultiplier":1.53
-          },{
-            "actorLevel":58.147998809814,
-            "baseMultiplier":1.62
-          },{
-            "actorLevel":64.175003051758,
             "baseMultiplier":1.72
           },{
-            "actorLevel":70.428001403809,
-            "baseMultiplier":1.83
+            "actorLevel":14.074999809265,
+            "baseMultiplier":1.86
           },{
-            "actorLevel":76.906997680664,
-            "baseMultiplier":1.95
+            "actorLevel":18.068000793457,
+            "baseMultiplier":2.01
           },{
-            "actorLevel":83.611999511719,
-            "baseMultiplier":2.07
+            "actorLevel":22.287000656128,
+            "baseMultiplier":2.16
           },{
-            "actorLevel":90.542999267578,
-            "baseMultiplier":2.21
+            "actorLevel":26.732000350952,
+            "baseMultiplier":2.3
           },{
-            "actorLevel":97.699996948242,
-            "baseMultiplier":2.35
+            "actorLevel":31.40299987793,
+            "baseMultiplier":2.43
           },{
-            "actorLevel":105.08300018311,
-            "baseMultiplier":2.51
+            "actorLevel":36.299999237061,
+            "baseMultiplier":2.57
           },{
-            "actorLevel":112.69200134277,
-            "baseMultiplier":2.68
+            "actorLevel":41.423000335693,
+            "baseMultiplier":2.72
           },{
-            "actorLevel":120.52700042725,
-            "baseMultiplier":2.86
+            "actorLevel":46.771999359131,
+            "baseMultiplier":2.88
           },{
-            "actorLevel":128.58799743652,
+            "actorLevel":52.34700012207,
             "baseMultiplier":3.05
           },{
+            "actorLevel":58.147998809814,
+            "baseMultiplier":3.24
+          },{
+            "actorLevel":64.175003051758,
+            "baseMultiplier":3.44
+          },{
+            "actorLevel":70.428001403809,
+            "baseMultiplier":3.66
+          },{
+            "actorLevel":76.906997680664,
+            "baseMultiplier":3.89
+          },{
+            "actorLevel":83.611999511719,
+            "baseMultiplier":4.14
+          },{
+            "actorLevel":90.542999267578,
+            "baseMultiplier":4.41
+          },{
+            "actorLevel":97.699996948242,
+            "baseMultiplier":4.71
+          },{
+            "actorLevel":105.08300018311,
+            "baseMultiplier":5.02
+          },{
+            "actorLevel":112.69200134277,
+            "baseMultiplier":5.36
+          },{
+            "actorLevel":120.52700042725,
+            "baseMultiplier":5.71
+          },{
+            "actorLevel":128.58799743652,
+            "baseMultiplier":6.09
+          },{
             "actorLevel":136.875,
-            "baseMultiplier":3.25
+            "baseMultiplier":6.5
           },{
             "actorLevel":145.38800048828,
-            "baseMultiplier":3.47
+            "baseMultiplier":6.93
           },{
             "actorLevel":154.12699890137,
-            "baseMultiplier":3.7
+            "baseMultiplier":7.4
           },{
             "actorLevel":163.09199523926,
-            "baseMultiplier":3.94
+            "baseMultiplier":7.89
           },{
             "actorLevel":172.28300476074,
-            "baseMultiplier":4.21
+            "baseMultiplier":8.41
           },{
             "actorLevel":181.69999694824,
-            "baseMultiplier":4.49
+            "baseMultiplier":8.97
           },{
             "actorLevel":191.34300231934,
-            "baseMultiplier":4.79
+            "baseMultiplier":9.57
           },{
             "actorLevel":201.21200561523,
-            "baseMultiplier":5.1
+            "baseMultiplier":10.21
           },{
             "actorLevel":211.30700683594,
-            "baseMultiplier":5.44
+            "baseMultiplier":10.89
           },{
             "actorLevel":221.62800598145,
-            "baseMultiplier":5.81
+            "baseMultiplier":11.62
           },{
             "actorLevel":232.17500305176,
-            "baseMultiplier":6.19
+            "baseMultiplier":12.39
           },{
             "actorLevel":242.94799804688,
-            "baseMultiplier":6.61
+            "baseMultiplier":13.21
           },{
             "actorLevel":253.94700622559,
-            "baseMultiplier":7.05
+            "baseMultiplier":14.09
           },{
             "actorLevel":265.17199707031,
-            "baseMultiplier":7.52
+            "baseMultiplier":15.03
           },{
             "actorLevel":276.62298583984,
-            "baseMultiplier":8.02
+            "baseMultiplier":16.03
           },{
             "actorLevel":288.29998779297,
-            "baseMultiplier":8.55
+            "baseMultiplier":17.1
           }],
         "statDescriptionScope":"wolf_cross_slash",
         "stats":["is_area_damage"]
@@ -56041,166 +56003,166 @@
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":3.4519999027252,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":6.7670001983643,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":10.307999610901,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":14.074999809265,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":18.068000793457,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":22.287000656128,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":26.732000350952,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":31.40299987793,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":36.299999237061,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":41.423000335693,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":46.771999359131,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":52.34700012207,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":58.147998809814,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":64.175003051758,
             "statInterpolation":[1],
-            "1":3
+            "1":4
           },{
             "actorLevel":70.428001403809,
             "statInterpolation":[1],
-            "1":4
+            "1":5
           },{
             "actorLevel":76.906997680664,
             "statInterpolation":[1],
-            "1":4
+            "1":5
           },{
             "actorLevel":83.611999511719,
             "statInterpolation":[1],
-            "1":4
+            "1":5
           },{
             "actorLevel":90.542999267578,
             "statInterpolation":[1],
-            "1":4
+            "1":5
           },{
             "actorLevel":97.699996948242,
             "statInterpolation":[1],
-            "1":4
+            "1":5
           },{
             "actorLevel":105.08300018311,
             "statInterpolation":[1],
-            "1":5
+            "1":6
           },{
             "actorLevel":112.69200134277,
             "statInterpolation":[1],
-            "1":5
+            "1":6
           },{
             "actorLevel":120.52700042725,
             "statInterpolation":[1],
-            "1":5
+            "1":6
           },{
             "actorLevel":128.58799743652,
             "statInterpolation":[1],
-            "1":5
+            "1":6
           },{
             "actorLevel":136.875,
             "statInterpolation":[1],
-            "1":5
+            "1":6
           },{
             "actorLevel":145.38800048828,
             "statInterpolation":[1],
-            "1":6
+            "1":7
           },{
             "actorLevel":154.12699890137,
             "statInterpolation":[1],
-            "1":6
+            "1":7
           },{
             "actorLevel":163.09199523926,
             "statInterpolation":[1],
-            "1":6
+            "1":7
           },{
             "actorLevel":172.28300476074,
             "statInterpolation":[1],
-            "1":6
+            "1":7
           },{
             "actorLevel":181.69999694824,
             "statInterpolation":[1],
-            "1":6
+            "1":7
           },{
             "actorLevel":191.34300231934,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":201.21200561523,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":211.30700683594,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":221.62800598145,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":232.17500305176,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":242.94799804688,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":253.94700622559,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":265.17199707031,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":276.62298583984,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           },{
             "actorLevel":288.29998779297,
             "statInterpolation":[1],
-            "1":7
+            "1":8
           }],
         "statDescriptionScope":"wolf_lunar_blessing_beam_attack",
-        "stats":["wolf_lunar_blessing_beam_attack_extra_beams_to_trigger","is_area_damage"]
+        "stats":["wolf_lunar_blessing_beam_attack_extra_beams_to_trigger","is_area_damage","triggerable_in_any_set"]
       }],
     "weaponTypes":{
       "Talisman":true
@@ -56210,282 +56172,282 @@
     "baseTypeName":"Lunar Blessing",
     "castTime":1,
     "color":1,
-    "description":"Shapeshift into a Werewolf and offer your Rage to the moon to receive a blessing, gaining bonus Cold damage for yourself and any Wolf Minions you have from Wolf Pack or Predator's Mark. Spends all Rage to extend the Buff's duration. While the Buff is active, your Werewolf Attacks call down Moonbeams on Hit.",
+    "description":"Shapeshift into a Werewolf and offer your Rage to the moon to receive a blessing, gaining bonus Cold damage for yourself and any Wolf Minions you have from Wolf Pack or Predator's Mark. Spends all Rage to extend the Buff's duration. While the Buff is active, your Werewolf Melee Attacks call down Moonbeams on Hit.",
     "levels":[{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":24
         },
         "levelRequirement":0,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":28
         },
         "levelRequirement":3,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":32
         },
         "levelRequirement":6,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":37
         },
         "levelRequirement":10,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":41
         },
         "levelRequirement":14,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":46
         },
         "levelRequirement":18,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":52
         },
         "levelRequirement":22,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":58
         },
         "levelRequirement":26,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":64
         },
         "levelRequirement":31,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":70
         },
         "levelRequirement":36,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":78
         },
         "levelRequirement":41,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":85
         },
         "levelRequirement":46,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":93
         },
         "levelRequirement":52,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":102
         },
         "levelRequirement":58,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":111
         },
         "levelRequirement":64,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":120
         },
         "levelRequirement":66,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":131
         },
         "levelRequirement":72,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":142
         },
         "levelRequirement":78,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":153
         },
         "levelRequirement":84,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":166
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":179
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":193
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":208
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":223
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":240
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":258
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":276
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":296
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":317
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":340
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":363
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":388
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":415
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":443
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":472
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":503
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":537
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":572
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":608
         },
         "levelRequirement":90,
         "storedUses":1
       },{
-        "cooldown":10,
+        "cooldown":22,
         "cost":{
           "Mana":648
         },
@@ -56498,10 +56460,10 @@
       "5":true,
       "9":true,
       "29":true,
+      "63":true,
       "91":true,
       "120":true,
       "124":true,
-      "132":true,
       "156":true
     },
     "statSets":[{
@@ -56674,7 +56636,7 @@
             "1":79
           }],
         "statDescriptionScope":"wolf_lunar_blessing",
-        "stats":["wolf_lunar_blessing_all_damage_%_to_gain_as_cold_damage","global_knockback","display_this_skill_cooldown_does_not_recover_during_buff","base_deal_no_damage"]
+        "stats":["wolf_lunar_blessing_all_damage_%_to_gain_as_cold_damage","global_knockback","display_statset_no_hit_damage"]
       }],
     "weaponTypes":{
       "Talisman":true
@@ -58618,7 +58580,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"wyvern_flame_breath",
-        "stats":["is_area_damage","disable_quadruped_head_movement_when_turning","skill_cannot_gain_rage_during_use","active_skill_compounding_ignites"]
+        "stats":["is_area_damage","disable_quadruped_head_movement_when_turning","skill_cannot_gain_rage_during_use","active_skill_compounding_ignites","channelled_skill_do_not_go_on_cooldown_on_finishing_channel"]
       }],
     "weaponTypes":{
       "Talisman":true
