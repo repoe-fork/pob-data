@@ -498,6 +498,27 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_debilitate_hit_damage_+%_final_per_poison_stack":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "limitTotal":true,
+                "limitVar":"ArakaaliMaxHitDamage",
+                "type":"Multiplier",
+                "var":"PoisonStacks"
+              }
+            }],
+          "support_debilitate_hit_damage_max_poison_stacks":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Multiplier:ArakaaliMaxHitDamage",
+              "type":"BASE"
+            }]
+        },
         "stats":[]
       }],
     "support":true

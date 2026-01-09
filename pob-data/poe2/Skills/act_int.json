@@ -17414,6 +17414,40 @@
           }],
         "notMinionStat":["is_area_damage"],
         "statDescriptionScope":"falling_thunder",
+        "statMap":{
+          "lightning_strike_base_number_of_projectiles_per_power_charge":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ProjectileCount",
+              "type":"BASE",
+              "1":{
+                "base":-1,
+                "type":"Multiplier",
+                "var":"RemovablePowerCharge"
+              }
+            }],
+          "lightning_strike_damage_+%_final_per_power_charge":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Multiplier",
+                "var":"RemovablePowerCharge"
+              }
+            }],
+          "lightning_strike_damage_+%_final_when_charged":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "var":"RemovablePowerCharge"
+              }
+            }]
+        },
         "stats":["is_area_damage","base_is_projectile","always_pierce","projectiles_should_collide_with_flying_monsters","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","zero_projectiles_if_no_power_charges","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
