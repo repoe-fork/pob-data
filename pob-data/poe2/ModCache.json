@@ -24328,20 +24328,18 @@
         "value":5
       }]],
   "5% increased Attack Damage for each Minion in your Presence, up to a maximum of 80%":[[{
-        "flags":0,
+        "flags":1,
         "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":1,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"INC",
-            "value":5
-          }
+        "name":"Damage",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "limit":80,
+          "limitTotal":true,
+          "type":"Multiplier",
+          "var":"MinionPresenceCount"
         }
-      }],"  for each  in your Presence, up to a maximum of 80% "],
+      }]],
   "5% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
@@ -24537,18 +24535,28 @@
   "5% increased Life and Mana Regeneration Rate for each Minion in your Presence, up to a maximum of 40%":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Life",
-            "type":"INC",
-            "value":5
-          }
+        "name":"LifeRegen",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "limit":40,
+          "limitTotal":true,
+          "type":"Multiplier",
+          "var":"MinionPresenceCount"
         }
-      }],"  and Mana Regeneration Rate for each  in your Presence, up to a maximum of 40% "],
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "limit":40,
+          "limitTotal":true,
+          "type":"Multiplier",
+          "var":"MinionPresenceCount"
+        }
+      }]],
   "5% increased Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
