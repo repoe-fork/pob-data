@@ -134,38 +134,6 @@
       }],
     "support":true
   },
-  "SupportAdhesiveGrenadesPlayerThree":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Grenade Skills. Grenades from Supported Skills do not bounce, instead halting movement where they intially land. Grenades from Supported Skills have longer cooldowns, and a chance to detonate an additional time.",
-    "excludeSkillTypes":[],
-    "gemFamily":["AdhesiveGrenades"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Adhesive Grenades III",
-    "requireSkillTypes":[158],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["grenade_skill_%_chance_to_explode_twice",35],["grenade_skill_cooldown_speed_+%",-50]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Adhesive Grenades III",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_sticky_grenade_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE"
-            }]
-        },
-        "stats":["grenade_skill_does_not_bounce_off_ground"]
-      }],
-    "support":true
-  },
   "SupportAdhesiveGrenadesPlayerTwo":{
     "addSkillTypes":[],
     "color":2,
@@ -2548,37 +2516,6 @@
             }]
         },
         "stats":[]
-      }],
-    "support":true
-  },
-  "SupportIncreaseLimitPlayerThree":{
-    "addSkillTypes":[12,242],
-    "color":2,
-    "description":"Supports skills which can have a Limited number of effects active at once, doubling that Limit at the cost of Cursing yourself on Skill use. Only applies to restrictions that use the word \"Limit\".",
-    "excludeSkillTypes":[12,242,75,74],
-    "gemFamily":["Overabundance"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Overabundance III",
-    "requireSkillTypes":[144],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Overabundance III",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_limit_skill_effect_duration_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Duration",
-              "type":"MORE"
-            }]
-        },
-        "stats":["skill_has_double_limit","randomly_curse_self_on_skill_use"]
       }],
     "support":true
   },

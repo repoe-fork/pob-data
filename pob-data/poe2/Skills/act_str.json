@@ -3135,7 +3135,7 @@
         "baseMultiplier":0.76,
         "levelRequirement":0
       }],
-    "name":"",
+    "name":"Ballista Bolt",
     "qualityStats":[["active_skill_pins_as_though_dealt_damage_+%_final",10]],
     "skillTypes":{
       "1":true,
@@ -5125,7 +5125,24 @@
               }
             }
           },
-          "rage_effect_+%":[{
+          "skill_base_life_loss_%_per_minute_per_rage_while_not_losing_rage_to_apply":{
+            "div":60,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LifeDegenPercent",
+              "type":"BASE",
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "type":"Multiplier",
+                "var":"Rage"
+              }
+            }
+          },
+          "skill_base_rage_effect_+%_to_apply":[{
               "flags":0,
               "keywordFlags":0,
               "name":"RageEffect",
@@ -5134,24 +5151,7 @@
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
-            }],
-          "skill_base_life_loss_%_per_minute_per_rage_while_not_losing_rage_to_apply":{
-            "div":60,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"LifeDegen",
-              "type":"BASE",
-              "1":{
-                "effectType":"Buff",
-                "type":"GlobalEffect"
-              },
-              "2":{
-                "type":"Multiplier",
-                "var":"RageEffect"
-              }
-            }
-          }
+            }]
         },
         "stats":["skill_base_rage_effect_+%_to_apply"]
       }]

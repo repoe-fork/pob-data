@@ -128,24 +128,6 @@
     },
     "variantId":"AdhesiveGrenadesSupport"
   },
-  "Metadata/Items/Gems/SkillGemAdhesiveGrenadesSupportThree":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemAdhereThree",
-    "gemFamily":"Adhesive Grenades",
-    "gemType":"Support",
-    "grantedEffectId":"SupportAdhesiveGrenadesPlayerThree",
-    "name":"Adhesive Grenades III",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Grenade",
-    "tags":{
-      "grenade":true,
-      "support":true
-    },
-    "variantId":"AdhesiveGrenadesSupportThree"
-  },
   "Metadata/Items/Gems/SkillGemAdhesiveGrenadesSupportTwo":{
     "Tier":3,
     "gameId":"Metadata/Items/Gem/SupportGemAdhereTwo",
@@ -221,26 +203,6 @@
       "support":true
     },
     "variantId":"AftershockChanceSupport"
-  },
-  "Metadata/Items/Gems/SkillGemAftershockChanceSupportThree":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemAftershockThree",
-    "gemFamily":"Aftershock",
-    "gemType":"Support",
-    "grantedEffectId":"SupportAftershockChancePlayerThree",
-    "name":"Aftershock III",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee, Slam",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "slam":true,
-      "support":true
-    },
-    "variantId":"AftershockChanceSupportThree"
   },
   "Metadata/Items/Gems/SkillGemAftershockChanceSupportTwo":{
     "Tier":4,
@@ -564,26 +526,6 @@
       "support":true
     },
     "variantId":"AncestralCallSupport"
-  },
-  "Metadata/Items/Gems/SkillGemAncestralCallSupportThree":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemAncestralCallThree",
-    "gemFamily":"Ancestral Call",
-    "gemType":"Support",
-    "grantedEffectId":"SupportAncestralCallPlayerThree",
-    "name":"Ancestral Call III",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee, Strike",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "strike":true,
-      "support":true
-    },
-    "variantId":"AncestralCallSupportThree"
   },
   "Metadata/Items/Gems/SkillGemAncestralCallSupportTwo":{
     "Tier":5,
@@ -6420,6 +6362,25 @@
     },
     "variantId":"ExecuteSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemExpandSupport":{
+    "Tier":5,
+    "gameId":"Metadata/Items/Gems/SupportGemExpand",
+    "gemFamily":"Seal, Increased Area of Effect",
+    "gemType":"Support",
+    "grantedEffectId":"SupportExpandPlayer",
+    "name":"Expand",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Spell, AoE",
+    "tags":{
+      "area":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"ExpandSupport"
+  },
   "Metadata/Items/Gems/SkillGemExpanseSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gem/SupportGemExpanse",
@@ -8272,6 +8233,24 @@
     },
     "variantId":"GrimFeast"
   },
+  "Metadata/Items/Gems/SkillGemGuatelitzisAblationSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemGuatelitzi",
+    "gemFamily":"Sacrificial Offering",
+    "gemType":"Support",
+    "grantedEffectId":"SupportGuatelitzisAblationPlayer",
+    "name":"Guatelitzi's Ablation",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Lineage",
+    "tags":{
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"GuatelitzisAblationSupport"
+  },
   "Metadata/Items/Gems/SkillGemHaemocrystalsSupport":{
     "Tier":3,
     "additionalGrantedEffectId1":"TriggeredHaemocrystalsPlayer",
@@ -9575,24 +9554,6 @@
       "support":true
     },
     "variantId":"IncreaseLimitSupport"
-  },
-  "Metadata/Items/Gems/SkillGemIncreaseLimitSupportThree":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemOverabundanceThree",
-    "gemFamily":"Overabundance",
-    "gemType":"Support",
-    "grantedEffectId":"SupportIncreaseLimitPlayerThree",
-    "name":"Overabundance III",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Curse",
-    "tags":{
-      "curse":true,
-      "support":true
-    },
-    "variantId":"IncreaseLimitSupportThree"
   },
   "Metadata/Items/Gems/SkillGemIncreaseLimitSupportTwo":{
     "Tier":4,
@@ -12967,24 +12928,6 @@
       "support":true
     },
     "variantId":"ProlongedDurationSupport"
-  },
-  "Metadata/Items/Gems/SkillGemProlongedDurationSupportThree":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemPersistenceThree",
-    "gemFamily":"Prolonged Duration",
-    "gemType":"Support",
-    "grantedEffectId":"ProlongedDurationSupportPlayerThree",
-    "name":"Prolonged Duration III",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Duration",
-    "tags":{
-      "duration":true,
-      "support":true
-    },
-    "variantId":"ProlongedDurationSupportThree"
   },
   "Metadata/Items/Gems/SkillGemProlongedDurationSupportTwo":{
     "Tier":3,

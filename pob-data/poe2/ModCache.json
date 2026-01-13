@@ -142,6 +142,13 @@
         "type":"BASE",
         "value":0
       }]],
+  "+0.15% to Thorns Critical Hit Chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":0.15
+      }]," Thorns  "],
   "+0.15% to Thorns Critical Hit Chance +25% to Thorns Critical Hit Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -149,13 +156,6 @@
         "type":"BASE",
         "value":0.15
       }]," Thorns  +25% to Thorns Critical Hit Chance "],
-  "+0.2% to Thorns Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":0.2
-      }]," Thorns  "],
   "+0.5 metres to Dodge Roll distance while Surrounded":[[]," metres to Dodge Roll distance  "],
   "+0.5 metres to Dodge Roll distance while Surrounded 10% increased Movement Speed while Surrounded":[[{
         "flags":0,
@@ -38585,8 +38585,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Cannot be Light Stunned":[null,"Cannot be Light Stunned "],
-  "Cannot be Light Stunned Cannot Dodge Roll or Sprint":[null,"Cannot be Light Stunned Cannot Dodge Roll or Sprint "],
+  "Cannot be Light Stunned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunImmune",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Cannot be Light Stunned if you haven't been Hit Recently":[null,"Cannot be Light Stunned if you haven't been Hit Recently "],
   "Cannot be Poisoned":[[{
         "flags":0,
@@ -39898,8 +39903,7 @@
       }]],
   "Dodge Roll avoids all Hits":[null,"Dodge Roll avoids all Hits "],
   "Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds":[null,"Dodge Roll avoids all Hits 10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds "],
-  "Dodge Roll cannot Avoid Damage":[null,"Dodge Roll cannot Avoid Damage "],
-  "Dodge Roll cannot Avoid Damage Take 30% less Damage from Hits while Dodge Rolling":[null,"Dodge Roll cannot Avoid Damage Take 30% less Damage from Hits while Dodge Rolling "],
+  "Dodge Roll cannot Avoid Damage":[[]],
   "Dodge Roll passes through Enemies":[null,"Dodge Roll passes through Enemies "],
   "Double Activation Delay of Curses":[[{
         "flags":0,
@@ -41429,7 +41433,18 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Every 10 Rage also grants 12% increased Physical Damage":[null,"Every 10 Rage also grants 12% increased Physical Damage "],
+  "Every 10 Rage also grants 12% increased Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"INC",
+        "value":12,
+        "1":{
+          "div":10,
+          "type":"Multiplier",
+          "var":"RageEffect"
+        }
+      }]],
   "Every 10 seconds, gain a random non-damaging Shrine buff for 20 seconds":[null,"Every 10 seconds, gain a random non-damaging Shrine buff for 20 seconds "],
   "Every 2 Rage also grants 1% more Spell damage":[[{
         "flags":2,
@@ -47606,7 +47621,13 @@
           "key":"PhysicalDPS"
         }
       }]],
-  "No Rage effect":[null,"No Rage effect "],
+  "No Rage effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"RageEffect",
+        "type":"OVERRIDE",
+        "value":0
+      }]],
   "No inherent Mana Regeneration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49895,8 +49916,20 @@
         "type":"INC",
         "value":6
       }]],
-  "Spells Gain 12% of Damage as extra Chaos Damage":[null,"Spells Gain 12% of Damage as extra Chaos Damage "],
-  "Spells Gain 5% of Damage as extra Chaos Damage":[null,"Spells Gain 5% of Damage as extra Chaos Damage "],
+  "Spells Gain 12% of Damage as extra Chaos Damage":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"DamageGainAsChaos",
+        "type":"BASE",
+        "value":12
+      }]],
+  "Spells Gain 5% of Damage as extra Chaos Damage":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"DamageGainAsChaos",
+        "type":"BASE",
+        "value":5
+      }]],
   "Spells consume a Power Charge if able to deal 40% more Damage":[null,"Spells consume a Power Charge if able to deal 40% more Damage "],
   "Spells fire 4 additional Projectiles":[[{
         "flags":2,
@@ -50020,10 +50053,14 @@
   "Take 30% less Damage from Hits while Dodge Rolling":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"DamageTaken",
+        "name":"DamageTakenWhenHit",
         "type":"MORE",
-        "value":-30
-      }],"  from Hits while Dodge Rolling "],
+        "value":-30,
+        "1":{
+          "type":"Condition",
+          "var":"InDodgeRoll"
+        }
+      }]],
   "Take 30% more Damage from Hits":[[{
         "flags":0,
         "keywordFlags":0,

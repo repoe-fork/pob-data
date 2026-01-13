@@ -2841,6 +2841,31 @@
       }],
     "support":true
   },
+  "SupportExpandPlayer":{
+    "addSkillTypes":[188],
+    "color":3,
+    "description":"Supports Spells you cast yourself, increasing their area of effect when cast. Cannot support Channelling Skills or Skills with a Cooldown.",
+    "excludeSkillTypes":[139,25,96,33,36,37,12,38,64,48,91,152,188,null,75,74],
+    "gemFamily":["Seal","IncreasedAreaOfEffect"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":20
+      }],
+    "name":"Expand",
+    "requireSkillTypes":[2,8,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_expand_max_seals",3],["support_expand_charge_gain_interval_ms",0],["expand_support_seal_gain_frequency_as_%_of_total_cast_time",200],["skill_area_of_effect_+%_per_expand_seal",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Expand",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportExpansePlayer":{
     "addSkillTypes":[178,91],
     "color":3,
@@ -3380,6 +3405,32 @@
               "type":"MORE"
             }]
         },
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportGuatelitzisAblationPlayer":{
+    "addSkillTypes":[146],
+    "color":3,
+    "description":"Supports Offering Skills. Supported Skills Sacrifice a portion of your life on use. While Offering spikes from Supported Skills persist, you are periodically granted a Power Charge. When spikes from Supported Skills die, Regenerate a percentage of your maximum Life and Mana per second based on the duration the Offering persisted.",
+    "excludeSkillTypes":[],
+    "flavourText":["Young Guatelitzi was found moving among the prisoners,","preparing their living bodies for sacrifice. The High Priests","recognised his inclinations, and gave him a higher calling."],
+    "gemFamily":["SacrificalOffering"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Guatelitzi's Ablation",
+    "requireSkillTypes":[154],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["sacrifice_%_life_on_skill_use",25],["recover_%_life_and_mana_per_minute_for_supported_offering_lifetime",300],["supported_offerings_grant_you_a_powercharge_every_x_ms",4000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Guatelitzi's Ablation",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
       }],
     "support":true
