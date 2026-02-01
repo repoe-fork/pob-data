@@ -18,16 +18,16 @@ jobs:
     steps:
       - run: yum install -y git tree
       - name: checkout
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v6.0.2
         with:
           path: RePoE
       - name: checkout pob
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v6.0.2
         with:
           repository: PathOfBuildingCommunity/PathOfBuilding
           path: PathOfBuilding
       - name: checkout pob2
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v6.0.2
         with:
           repository: PathOfBuildingCommunity/PathOfBuilding-PoE2
           path: PathOfBuilding2
