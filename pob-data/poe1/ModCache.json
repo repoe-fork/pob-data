@@ -5117,13 +5117,6 @@
         "type":"BASE",
         "value":19
       }]],
-  "+19 to maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"BASE",
-        "value":19
-      }]],
   "+19% to Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12843,25 +12836,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"StrDex",
-        "type":"BASE",
-        "value":33
-      }]],
-  "+33 to Strength and Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
-        "type":"BASE",
-        "value":33
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Int",
-        "type":"BASE",
-        "value":33
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"StrInt",
         "type":"BASE",
         "value":33
       }]],
@@ -28381,7 +28355,7 @@
           "div":1,
           "globalLimit":450,
           "globalLimitKey":"ReplicaNebulisCold",
-          "statList":["MissingFireResist","MissingColdResist","MissingFireResist"],
+          "statList":["MissingFireResist","MissingColdResist","MissingLightningResist"],
           "type":"PerStat"
         }
       }]],
@@ -30271,7 +30245,7 @@
           "div":1,
           "globalLimit":450,
           "globalLimitKey":"ReplicaNebulisCold",
-          "statList":["MissingFireResist","MissingColdResist","MissingFireResist"],
+          "statList":["MissingFireResist","MissingColdResist","MissingLightningResist"],
           "type":"PerStat"
         }
       }]],
@@ -45249,20 +45223,6 @@
         "name":"EnergyShield",
         "type":"INC",
         "value":325
-      }]],
-  "33% chance to Avoid Elemental Ailments":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AvoidElementalAilments",
-        "type":"BASE",
-        "value":33
-      }]],
-  "33% chance to Avoid being Stunned":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AvoidStun",
-        "type":"BASE",
-        "value":33
       }]],
   "33% chance to Blind nearby Enemies when gaining Her Blessing":[[]," to Blind nearby Enemies when gaining Her Blessing "],
   "33% chance to Blind nearby Enemies when gaining Her Blessing 100% chance to Avoid being Ignited, Chilled or Frozen with Her Blessing":[[{
@@ -103146,6 +103106,17 @@
         "type":"BASE",
         "value":2
       }]],
+  "Regenerate 2% of Energy Shield per second if you've Consumed a Corpse Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldRegenPercent",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "type":"Condition",
+          "var":"ConsumedCorpseRecently"
+        }
+      }]],
   "Regenerate 2% of Energy Shield per second if you've Killed an Enemy Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -103401,6 +103372,17 @@
           "stat":"Str",
           "threshold":400,
           "type":"StatThreshold"
+        }
+      }]],
+  "Regenerate 2% of Mana per second if you've Consumed a corpse Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegenPercent",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "type":"Condition",
+          "var":"ConsumedCorpseRecently"
         }
       }]],
   "Regenerate 2.5% of Energy Shield per Second while affected by Discipline":[[{
@@ -118950,6 +118932,8 @@
         "type":"BASE",
         "value":1
       }]],
+  "You can have two Offerings of different types":[null,"You can have two Offerings of different types "],
+  "You can have two Offerings of different types 35% chance to Avoid Elemental Ailments":[null,"You can have two Offerings of different types 35% chance to Avoid Elemental Ailments "],
   "You can have two different Banners at the same time":[[]],
   "You can inflict Bleeding on an Enemy up to 8 times":[[{
         "flags":0,
