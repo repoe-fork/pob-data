@@ -20051,6 +20051,32 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
         "statDescriptionScope":"firestorm_statset_0",
+        "statMap":{
+          "fire_storm_fireball_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"hitTimeOverride"
+              }
+            }
+          },
+          "rain_hit_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
+          }
+        },
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_skill_show_average_damage_instead_of_dps","is_area_damage","can_perform_skill_while_moving","quality_display_active_skill_base_area_of_effect_radius_is_gem","active_skill_consumes_a_cold_infusion","active_skill_consumes_a_fire_infusion","active_skill_consumes_a_lightning_infusion"]
       },{
         "baseEffectiveness":0.95999997854233,
@@ -20386,6 +20412,32 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
         "statDescriptionScope":"firestorm_statset_1",
+        "statMap":{
+          "fire_storm_fireball_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"hitTimeOverride"
+              }
+            }
+          },
+          "rain_hit_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
+          }
+        },
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_skill_show_average_damage_instead_of_dps","is_area_damage","can_perform_skill_while_moving","quality_display_active_skill_base_area_of_effect_radius_is_gem","active_skill_consumes_a_cold_infusion","active_skill_consumes_a_fire_infusion","active_skill_consumes_a_lightning_infusion","display_statset_hide_usage_stats"]
       },{
         "baseEffectiveness":1.2799999713898,
@@ -20721,6 +20773,32 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"firestorm_statset_2",
+        "statMap":{
+          "fire_storm_fireball_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"hitTimeOverride"
+              }
+            }
+          },
+          "rain_hit_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
+          }
+        },
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_skill_show_average_damage_instead_of_dps","is_area_damage","can_perform_skill_while_moving","quality_display_active_skill_base_area_of_effect_radius_is_gem","active_skill_consumes_a_cold_infusion","active_skill_consumes_a_fire_infusion","active_skill_consumes_a_lightning_infusion","display_statset_hide_usage_stats"]
       }]
   },
@@ -33184,15 +33262,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "HexblastPlayer":{
@@ -37247,6 +37325,18 @@
                 "key":"hitTimeOverride"
               }
             }
+          },
+          "rain_hit_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
           }
         },
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_skill_show_average_damage_instead_of_dps","is_area_damage","can_perform_skill_while_moving","cold_damage_cannot_chill","never_freeze","quality_display_active_skill_base_area_of_effect_radius_is_gem"]
@@ -37544,6 +37634,20 @@
           }],
         "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
         "statDescriptionScope":"icestorm",
+        "statMap":{
+          "rain_hit_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
+          }
+        },
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_skill_show_average_damage_instead_of_dps","is_area_damage","can_perform_skill_while_moving","cold_damage_cannot_chill","never_freeze","quality_display_active_skill_base_area_of_effect_radius_is_gem","display_statset_hide_usage_stats"]
       }]
   },

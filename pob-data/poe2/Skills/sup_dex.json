@@ -495,7 +495,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills with Cooldowns, dramatically increasing the rate at which those Cooldowns Recover, but causing you to lose Life, Mana, and Energy Shield when they are used. Cannot Support Meta Skills or modify the Skills of Minions.",
-    "excludeSkillTypes":[37],
+    "excludeSkillTypes":[37,122,259],
     "flavourText":["\"Those who bored the Queen suffered an excessive punishment:","everyone they had ever known would be killed, effectively","erasing their life. So, no matter the cost... none kept her waiting.\""],
     "gemFamily":["CooldownRecovery"],
     "ignoreMinionTypes":true,
@@ -2819,10 +2819,6 @@
     "gemFamily":["Maim"],
     "levels":[{
         "levelRequirement":0
-      },{
-        "levelRequirement":3
-      },{
-        "levelRequirement":6
       }],
     "name":"Maim",
     "requireSkillTypes":[1,117],

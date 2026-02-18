@@ -47732,7 +47732,18 @@
           "to":["Notable","Normal"]
         }
       }]],
-  "Non-Minion Skills have 50% less Reservation Efficiency":[null,"Non-Minion Skills have 50% less Reservation Efficiency "],
+  "Non-Minion Skills have 50% less Reservation Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ReservationEfficiency",
+        "type":"MORE",
+        "value":-50,
+        "1":{
+          "neg":true,
+          "skillType":6,
+          "type":"SkillType"
+        }
+      }]],
   "Non-Unique Time-Lost Jewels have 40% increased radius":[null,"Non-Unique Time-Lost Jewels have 40% increased radius "],
   "Offering Skills have 15% increased Buff effect":[[{
         "flags":0,
@@ -49383,6 +49394,12 @@
         "name":"RageRegen",
         "type":"BASE",
         "value":5
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanGainRage",
+        "type":"FLAG",
+        "value":true
       }]],
   "Regenerate 5% of maximum Life over 1 second when Stunned":[null,"Regenerate 5% of maximum Life over 1 second when Stunned "],
   "Regenerate 5% of maximum Life per second while Surrounded":[[{
@@ -49636,8 +49653,13 @@
   "Shocking Hits have a 50% chance to also Shock enemies in a 1.5 metre radius":[null,"Shocking Hits have a 50% chance to also Shock enemies in a 1.5 metre radius "],
   "Shocks you when you reach maximum Power Charges":[null,"Shocks you when you reach maximum Power Charges "],
   "Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created":[null,"Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created "],
-  "Skill Gems have no Attribute Requirements":[null,"Skill Gems have no Attribute Requirements "],
-  "Skill Gems have no Attribute Requirements Equipment and Skill Gems have 50% reduced Attribute Requirements":[null,"Skill Gems have no Attribute Requirements Equipment and Skill Gems have 50% reduced Attribute Requirements "],
+  "Skill Gems have no Attribute Requirements":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GlobalGemAttributeRequirements",
+        "type":"MORE",
+        "value":-100
+      }]],
   "Skill Mana Costs Converted to Life Costs":[[{
         "flags":0,
         "keywordFlags":0,

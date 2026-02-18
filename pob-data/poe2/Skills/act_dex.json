@@ -10183,15 +10183,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "HeraldOfThunderPlayer":{
@@ -10731,15 +10731,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "IceShotPlayer":{
@@ -15135,7 +15135,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"phantasmal_arrow",
-        "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","should_use_additive_aiming_animation","projectiles_fire_at_ground"]
+        "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","should_use_additive_aiming_animation","precise_cursor_targeting_uses_contact_point_height_offset"]
       },{
         "baseFlags":{
           "area":true,
@@ -15348,7 +15348,7 @@
             "1":34
           }],
         "statDescriptionScope":"phantasmal_arrow",
-        "stats":["active_skill_base_area_of_effect_radius","base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","should_use_additive_aiming_animation","projectiles_fire_at_ground","is_area_damage","display_statset_hide_usage_stats"]
+        "stats":["active_skill_base_area_of_effect_radius","base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","should_use_additive_aiming_animation","precise_cursor_targeting_uses_contact_point_height_offset","is_area_damage","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
       "Bow":true
@@ -17644,6 +17644,30 @@
           }],
         "statDescriptionScope":"rain_of_arrows_new",
         "statMap":{
+          "rain_hit_delay_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
+          },
+          "rain_of_arrows_delay_per_arrow":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"hitTimeOverride"
+              }
+            }
+          },
           "rain_of_arrows_projectile_count_multiplier_per_frenzy_charge":[{
               "flags":0,
               "keywordFlags":0,
@@ -28949,15 +28973,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "TwisterPlayer":{
@@ -32058,15 +32082,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "WindSerpentsFuryPlayer":{

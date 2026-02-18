@@ -319,15 +319,15 @@
       "Dagger":true,
       "Flail":true,
       "None":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "AncestralCryProjectilePlayer":{
@@ -1316,8 +1316,8 @@
         "stats":["totem_elemental_resistance_%","totem_chaos_resistance_%","base_skill_summons_totems","is_totem","skill_is_deploy_skill","totem_has_ancestral_warrior_spirit","display_statset_no_hit_damage","quality_display_base_totem_duration_is_gem"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "ArmourBreakerPlayer":{
@@ -1790,8 +1790,8 @@
         "stats":["apply_X_armour_break_on_hit","global_knockback","is_area_damage","melee_defer_damage_prediction","precise_cursor_targeting_uses_contact_point_height_offset"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "ArmourPiercingBoltsAmmoPlayer":{
@@ -4276,7 +4276,7 @@
           "duration":true,
           "melee":true
         },
-        "constantStats":[["base_skill_effect_duration",12000],["active_skill_base_physical_damage_%_to_convert_to_fire",80],["melee_conditional_step_distance",8],["fury_of_the_mountain_base_maximum_number_of_fissures",12],["channel_start_duration_as_%_of_attack_time",36],["channel_end_duration_as_%_of_attack_time",36],["bear_fury_of_the_mountain_front_facing_cone_angle",120],["active_skill_base_area_of_effect_radius",10],["gain_x_rage_on_attack_hit",3]],
+        "constantStats":[["base_skill_effect_duration",12000],["active_skill_base_physical_damage_%_to_convert_to_fire",80],["melee_conditional_step_distance",8],["fury_of_the_mountain_base_maximum_number_of_fissures",12],["channel_start_duration_as_%_of_attack_time",36],["channel_end_duration_as_%_of_attack_time",36],["bear_fury_of_the_mountain_front_facing_cone_angle",120],["active_skill_base_area_of_effect_radius",10],["gain_x_rage_on_attack_hit",3],["base_minimum_channel_time_ms",200]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Fury of the Mountain",
         "levels":[{
@@ -4799,7 +4799,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"bear_rampage",
-        "stats":["is_area_damage","skill_cannot_gain_rage_during_use","disable_quadruped_head_movement_when_turning","display_charge_speed_is_move_speed"]
+        "stats":["is_area_damage","skill_cannot_gain_rage_during_use","disable_quadruped_head_movement_when_turning","display_charge_speed_is_move_speed","base_skill_show_average_damage_instead_of_dps"]
       }],
     "weaponTypes":{
       "Talisman":true
@@ -6312,8 +6312,8 @@
         "stats":["active_skill_show_crush_range","precise_cursor_targeting_uses_contact_point_height_offset","is_area_damage","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "BriarpatchPlayer":{
@@ -9935,8 +9935,8 @@
         "stats":["base_number_of_earthquakes_allowed","active_skill_base_area_of_effect_radius","is_area_damage","is_player_earthquake","can_create_jagged_ground","quality_display_earthquake_is_gem","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "EarthshatterPlayer":{
@@ -10464,8 +10464,8 @@
         "stats":["is_area_damage","quality_display_earthshatter_is_gem"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "EmergencyReloadPlayer":{
@@ -12096,6 +12096,34 @@
             "1":600
           }],
         "statDescriptionScope":"eternal_rage",
+        "statMap":{
+          "ceaseless_rage_base_rage_regeneration_per_minute":{
+            "div":60,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"RageRegen",
+              "type":"BASE",
+              "1":{
+                "effectName":"EternalRage",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },
+            "2":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:CanGainRage",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectName":"Rage",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }
+          }
+        },
         "stats":["ceaseless_rage_base_rage_regeneration_per_minute","base_deal_no_damage"]
       }]
   },
@@ -15057,8 +15085,8 @@
         "stats":["is_area_damage","can_perform_skill_while_moving","display_this_skill_cooldown_does_not_recover_during_buff","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "FortifyingCryPlayer":{
@@ -20483,8 +20511,8 @@
         "stats":["is_area_damage","can_perform_skill_while_moving","global_always_hit","quality_display_active_skill_base_area_of_effect_radius_is_gem"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "HeraldOfAshPlayer":{
@@ -20904,15 +20932,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "HeraldOfBloodPlayer":{
@@ -21495,15 +21523,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "HighVelocityRoundsAmmoPlayer":{
@@ -25611,8 +25639,8 @@
         "stats":["active_skill_hit_damage_stun_multiplier_+%_final","is_area_damage","leap_slam_always_knockback_within_range","base_skill_show_average_damage_instead_of_dps","cannot_break_armour"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "LunarAssaultPlayer":{
@@ -28887,8 +28915,8 @@
         "stats":["base_is_projectile","projectile_uses_contact_position","check_for_targets_between_initiator_and_projectile_source","precise_cursor_targeting_uses_contact_point_height_offset","projectiles_fire_at_ground","modifiers_to_projectile_count_do_not_apply"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "MoltenCrashPlayer":{
@@ -31656,8 +31684,8 @@
         "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","precise_cursor_targeting_uses_contact_point_height_offset","display_statset_hide_usage_stats","perfectly_timed"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "PermafrostBoltsAmmoPlayer":{
@@ -35465,8 +35493,8 @@
         "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","console_do_not_cancel_from_turn_angle","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "ScavengedPlatingPlayer":{
@@ -40422,15 +40450,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "ShockwaveTotemQuakePlayer":{
@@ -40842,15 +40870,15 @@
       "Crossbow":true,
       "Dagger":true,
       "Flail":true,
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
       "Spear":true,
       "Staff":true,
       "Talisman":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "SiegeBallistaPlayer":{
@@ -43445,8 +43473,8 @@
         "stats":["is_area_damage","attack_is_melee_override","base_skill_show_average_damage_instead_of_dps","can_create_jagged_ground","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "StormblastBoltsAmmoPlayer":{
@@ -45120,8 +45148,8 @@
         "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","cannot_break_armour","skill_effect_duration_is_sundered_armour_duration","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "SuperchargedSlamPlayer":{
@@ -45683,7 +45711,7 @@
         "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","channel_start_lock_cancelling_scales_with_attack_speed","quality_display_supercharged_slam_is_gem","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
-      "Two Handed Mace":true
+      "Two Hand Mace":true
     }
   },
   "SupportAncestralWarriorTotemPlayer":{
@@ -45876,12 +45904,12 @@
       }],
     "support":true,
     "weaponTypes":{
-      "One Handed Axe":true,
-      "One Handed Mace":true,
-      "One Handed Sword":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
+      "Two Hand Axe":true,
+      "Two Hand Mace":true,
+      "Two Hand Sword":true
     }
   },
   "SupportCrossSlashPlayer":{
@@ -48555,6 +48583,32 @@
           }],
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"thunderstorm",
+        "statMap":{
+          "lightning_storm_hit_frequency_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"hitTimeOverride"
+              }
+            }
+          },
+          "lightning_storm_hit_prevention_duration_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"maxHitRatePerEnemy"
+              }
+            }
+          }
+        },
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","thunderstorm_wet_debuff_cannot_apply_to_targets_above_level","disable_visual_hit_effect","can_perform_skill_while_moving","base_skill_show_average_damage_instead_of_dps","is_area_damage"]
       }]
   },
@@ -51419,8 +51473,8 @@
         "stats":["is_area_damage","quality_display_base_skill_effect_duration_is_gem"]
       }],
     "weaponTypes":{
-      "One Handed Mace":true,
-      "Two Handed Mace":true
+      "One Hand Mace":true,
+      "Two Hand Mace":true
     }
   },
   "VolcanoPlayer":{
@@ -52276,6 +52330,20 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
         "statDescriptionScope":"volcano_statset_1",
+        "statMap":{
+          "volcano_fires_projectiles_every_x_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"hitTimeOverride"
+              }
+            }
+          }
+        },
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_number_of_projectiles","is_area_damage","show_number_of_projectiles","base_skill_show_average_damage_instead_of_dps","projectiles_not_offset","channel_start_lock_cancelling_scales_with_cast_speed","can_perform_skill_while_moving","base_is_projectile","display_statset_hide_usage_stats"]
       }]
   },
@@ -52503,7 +52571,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"walking_calamity_meteor",
-        "stats":["is_area_damage","attack_is_not_melee_override","triggerable_in_any_set"]
+        "stats":["is_area_damage","attack_is_not_melee_override","triggerable_in_any_set","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats"]
       },{
         "baseFlags":{
           "area":true,
@@ -52635,7 +52703,7 @@
             "baseMultiplier":27.15
           }],
         "statDescriptionScope":"walking_calamity_meteor",
-        "stats":["is_area_damage","attack_is_not_melee_override","triggerable_in_any_set"]
+        "stats":["is_area_damage","attack_is_not_melee_override","triggerable_in_any_set","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
       "Talisman":true
@@ -56462,7 +56530,6 @@
       "29":true,
       "63":true,
       "91":true,
-      "120":true,
       "124":true,
       "156":true
     },
@@ -58056,7 +58123,7 @@
             "1":1024
           }],
         "statDescriptionScope":"wyvern_devour",
-        "stats":["wyvern_devour_life_restoration","active_skill_show_cull_range","disable_quadruped_head_control","global_knockback","is_area_damage"]
+        "stats":["wyvern_devour_life_restoration","active_skill_show_cull_range","disable_quadruped_head_control","is_area_damage"]
       }],
     "weaponTypes":{
       "Talisman":true

@@ -762,8 +762,8 @@
       }
     }],
   "arrow_base_number_of_targets_to_pierce":[{
-      "flags":1,
-      "keywordFlags":0,
+      "flags":0,
+      "keywordFlags":2048,
       "name":"PierceCount",
       "type":"BASE"
     }],
@@ -1021,7 +1021,7 @@
     }],
   "base_arrow_speed_+%":[{
       "flags":0,
-      "keywordFlags":0,
+      "keywordFlags":2048,
       "name":"ProjectileSpeed",
       "type":"INC"
     }],
@@ -1476,7 +1476,7 @@
     "base":-1,
     "1":{
       "flags":0,
-      "keywordFlags":0,
+      "keywordFlags":2048,
       "name":"ProjectileCount",
       "type":"BASE"
     }
@@ -4287,7 +4287,7 @@
     }],
   "number_of_additional_arrows":[{
       "flags":0,
-      "keywordFlags":0,
+      "keywordFlags":2048,
       "name":"ProjectileCount",
       "type":"BASE"
     }],
@@ -5052,6 +5052,9 @@
       "name":"BuffEffect",
       "type":"INC"
     }],
+  "skill_can_fire_arrows":{
+    "skillFlag":"arrow"
+  },
   "skill_can_own_mirage_archers":[{
       "flags":0,
       "keywordFlags":0,
