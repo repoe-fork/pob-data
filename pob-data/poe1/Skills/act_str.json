@@ -1570,7 +1570,11 @@
           "flags":0,
           "keywordFlags":0,
           "name":"AncestralExertedAttacks",
-          "type":"BASE"
+          "type":"BASE",
+          "1":{
+            "skillType":25,
+            "type":"SkillType"
+          }
         }]
     },
     "stats":["warcry_speed_+%","base_skill_effect_duration","base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","cannot_cancel_skill_before_contact_point","warcry_count_power_from_enemies"]
@@ -37973,7 +37977,11 @@
           "flags":0,
           "keywordFlags":0,
           "name":"SeismicExertedAttacks",
-          "type":"BASE"
+          "type":"BASE",
+          "1":{
+            "skillType":103,
+            "type":"SkillType"
+          }
         }]
     },
     "stats":["warcry_speed_+%","base_skill_effect_duration","base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","warcries_knock_back_enemies","cannot_cancel_skill_before_contact_point","warcry_count_power_from_enemies","active_skill_200%_increased_knockback_distance"]

@@ -9534,9 +9534,33 @@
         "baseEffectiveness":3.539999961853,
         "baseFlags":{
           "area":true,
-          "duration":true,
-          "spell":true
+          "duration":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PoisonChance",
+            "type":"BASE",
+            "value":100
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"explodeCorpse",
+              "value":true
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"corpseExplosionDamageType",
+              "value":"Chaos"
+            }
+          }],
         "constantStats":[["active_skill_base_area_of_effect_radius",16],["base_skill_effect_duration",4000],["active_skill_ground_effect_area_of_effect_+%_final_per_second",20],["active_skill_ground_effect_area_of_effect_+%_final_per_second_max",80],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["spread_contagion_base_radius_when_using_corpse",28],["explosion_delay_ms",400],["number_of_poison_cloud_allowed",6],["corpse_explosion_monster_life_permillage_chaos",100]],
         "damageIncrementalEffectiveness":0.0096000004559755,
         "incrementalEffectiveness":0.12999999523163,
@@ -9623,6 +9647,20 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"corpse_cloud_statset_0",
+        "statMap":{
+          "corpse_explosion_monster_life_permillage_chaos":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillData",
+              "type":"LIST",
+              "value":{
+                "key":"corpseExplosionLifeMultiplier"
+              }
+            }
+          }
+        },
         "stats":["is_area_damage","can_perform_skill_while_moving","quality_display_base_skill_effect_duration_is_gem"]
       },{
         "baseEffectiveness":3.75,
