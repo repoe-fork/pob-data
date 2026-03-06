@@ -78163,6 +78163,8 @@
         "name":"1 Orb Tick"
       },{
         "name":"Max Channelled Orbs"
+      },{
+        "name":"Max Duration Explode"
       }],
     "qualityStats":{
       "Default":[["base_skill_effect_duration",20]]
@@ -78192,7 +78194,15 @@
           }
         }
       },
-      "storm_burst_new_damage_+%_final_per_remaining_teleport_zap":[]
+      "storm_burst_new_damage_+%_final_per_remaining_teleport_zap":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"remainingDurationDamage"
+          }
+        }]
     },
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_base_radius_+","visual_hit_effect_elemental_is_holy","is_area_damage","skill_can_add_multiple_charges_per_action"]
   },

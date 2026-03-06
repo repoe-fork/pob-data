@@ -1769,6 +1769,18 @@
           "type":"PerStat"
         }
       }]],
+  "+1% to Critical Strike Chance against Excommunicated Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Excommunicated"
+        }
+      }]],
   "+1% to Critical Strike Chance of Herald Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2008,6 +2020,18 @@
           "var":"AffectedByHeraldofThunder"
         }
       }]],
+  "+1.2% to Critical Strike Chance against Excommunicated Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":1.2,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Excommunicated"
+        }
+      }]],
   "+1.5% to Spell Critical Strike Chance if 4 Shaper Items are Equipped":[[{
         "flags":2,
         "keywordFlags":0,
@@ -2018,6 +2042,18 @@
           "threshold":4,
           "type":"MultiplierThreshold",
           "var":"ShaperItem"
+        }
+      }]],
+  "+1.6% to Critical Strike Chance against Excommunicated Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":1.6,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Excommunicated"
         }
       }]],
   "+1.8% to Critical Strike Chance while affected by Hatred":[[{
@@ -2222,6 +2258,13 @@
         "value":10
       }]],
   "+10% Chance to Block":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChance",
+        "type":"BASE",
+        "value":10
+      }]],
+  "+10% Chance to Block Attack Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"BlockChance",
@@ -5507,6 +5550,18 @@
           "type":"SocketedIn"
         }
       }]],
+  "+2 to Level of all Aura Skill Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keywordList":["aura","skill"],
+          "value":2
+        }
+      }]],
   "+2 to Level of all Chaos Spell Skill Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5792,6 +5847,13 @@
         "type":"BASE",
         "value":2
       }]],
+  "+2 to maximum number of Sacred Wisps":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SacredWispsMaxCount",
+        "type":"BASE",
+        "value":2
+      }]],
   "+2 to maximum number of Skeletons":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5820,6 +5882,7 @@
         "type":"BASE",
         "value":2
       }]],
+  "+2 to number of Sacred Wisps Summoned":[[]," number of Sacred Wisps Summoned "],
   "+2% Chance to Block Attack Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5915,6 +5978,18 @@
         "2":{
           "type":"Condition",
           "var":"UsingFlask"
+        }
+      }]],
+  "+2% to Critical Strike Chance against Excommunicated Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Excommunicated"
         }
       }]],
   "+2% to Critical Strike Chance while affected by Hatred":[[{
@@ -6796,6 +6871,13 @@
           "type":"Condition",
           "var":"UsingStaff"
         }
+      }]],
+  "+22% to Chaos Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosResist",
+        "type":"BASE",
+        "value":22
       }]],
   "+22% to Cold Damage over Time Multiplier":[[{
         "flags":0,
@@ -8013,6 +8095,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ChaosDotMultiplier",
+        "type":"BASE",
+        "value":28
+      }]],
+  "+28% to Chaos Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosResist",
         "type":"BASE",
         "value":28
       }]],
@@ -11801,6 +11890,13 @@
         "type":"BASE",
         "value":3
       }]],
+  "+3 to maximum number of Summoned Totems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveTotemLimit",
+        "type":"BASE",
+        "value":3
+      }]],
   "+3% Chance to Block":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14652,6 +14748,13 @@
         "type":"BASE",
         "value":5
       }]],
+  "+5% Chance to Block Attack Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChance",
+        "type":"BASE",
+        "value":5
+      }]],
   "+5% Chance to Block Attack Damage if you've dealt a Critical Strike Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15894,6 +15997,31 @@
         "type":"BASE",
         "value":60
       }]],
+  "+60 to all Attributes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Str",
+        "type":"BASE",
+        "value":60
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Dex",
+        "type":"BASE",
+        "value":60
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":60
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"All",
+        "type":"BASE",
+        "value":60
+      }]],
   "+60 to maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16800,6 +16928,13 @@
         "type":"BASE",
         "value":8
       }]],
+  "+8% to Damage over Time Multiplier":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DotMultiplier",
+        "type":"BASE",
+        "value":8
+      }]],
   "+8% to Fire Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17109,6 +17244,13 @@
           "sockets":[1],
           "type":"SocketedIn"
         }
+      }]],
+  "+89 to maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":89
       }]],
   "+9 to maximum Energy Shield":[[{
         "flags":0,
@@ -17490,37 +17632,6 @@
         "type":"BASE",
         "value":-13
       }]],
-  "-15 Fire, Cold and Lightning Damage taken from Spell Hits per Bark":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamageTakenFromSpells",
-        "type":"BASE",
-        "value":-15,
-        "1":{
-          "type":"Multiplier",
-          "var":"BarkskinStacks"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdDamageTakenFromSpells",
-        "type":"BASE",
-        "value":-15,
-        "1":{
-          "type":"Multiplier",
-          "var":"BarkskinStacks"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningDamageTakenFromSpells",
-        "type":"BASE",
-        "value":-15,
-        "1":{
-          "type":"Multiplier",
-          "var":"BarkskinStacks"
-        }
-      }]],
   "-15 Physical Damage taken from Attacks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17745,6 +17856,47 @@
         "type":"BASE",
         "value":-200
       }]],
+  "-25 Damage taken of each Damage Type from Spell Hits per Bark":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"BASE",
+        "value":-25,
+        "1":{
+          "type":"Multiplier",
+          "var":"BarkskinStacks"
+        }
+      }],"  of each Damage Type from  Hits  "],
+  "-25 Damage taken of each Damage Type from Spell Hits per Bark Prevent +3% of Suppressed Spell Damage per Bark below maximum":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"BASE",
+        "value":-25,
+        "1":{
+          "type":"Multiplier",
+          "var":"BarkskinStacks"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"MissingBarkskinStacks"
+        }
+      }],"  of each Damage Type from  Hits  Prevent +3% of Suppressed Spell Damage  "],
+  "-25 Damage taken of each Damage Type from Spell Hits per Bark Prevent +3% of Suppressed Spell Damage per Bark below maximum Lose 1 Bark when Hit by Enemy Spell Damage":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"BASE",
+        "value":-25,
+        "1":{
+          "type":"Multiplier",
+          "var":"BarkskinStacks"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"MissingBarkskinStacks"
+        }
+      }],"  of each Damage Type from  Hits  Prevent +3% of Suppressed Spell Damage  Lose 1 Bark when Hit by Enemy Spell Damage "],
   "-25 Physical Damage taken from Projectile Attacks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21163,18 +21315,6 @@
           "type":"PerStat"
         }
       }]],
-  "1% increased Evasion Rating per 5 Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Evasion",
-        "type":"INC",
-        "value":1,
-        "1":{
-          "div":5,
-          "stat":"Int",
-          "type":"PerStat"
-        }
-      }]],
   "1% increased Fire Damage per 20 Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22617,7 +22757,7 @@
   "10% chance to gain a Power Charge if you Knock an Enemy Back with Melee Damage":[null,"a Power Charge if you Knock an Enemy Back with Melee Damage "],
   "10% chance to gain a Power Charge on Critical Strike":[null,"a Power Charge "],
   "10% chance to gain a Power Charge on Critical Strike 10% chance to gain Elusive on Critical Strike":[null,"a Power Charge 10% chance to  on Critical Strike "],
-  "10% chance to gain a Power Charge on Critical Strike 10% chance to gain Elusive on Critical Strike Damage from your Critical Strikes cannot be Reflected":[null,"a Power Charge 10% chance to  on Critical Strike Damage from your Critical Strikes cannot be Reflected "],
+  "10% chance to gain a Power Charge on Critical Strike 10% chance to gain Elusive on Critical Strike Damage cannot be Reflected":[null,"a Power Charge 10% chance to  on Critical Strike Damage cannot be Reflected "],
   "10% chance to gain a Power Charge on Critical Strike with Wands":[null,"a Power Charge with Wands "],
   "10% chance to gain a Power Charge on Kill":[null,"a Power Charge  "],
   "10% chance to gain a Power Charge on Kill 5% increased Projectile Speed per Frenzy Charge":[null,"a Power Charge  5% increased Projectile Speed  "],
@@ -23076,6 +23216,17 @@
           "var":"UsingFlask"
         }
       }]],
+  "10% increased Cast Speed for each different Non-Instant Spell you've Cast Recently":[[{
+        "flags":16,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Multiplier",
+          "var":"NonInstantSpellCastRecently"
+        }
+      }]],
   "10% increased Cast Speed if you've dealt a Critical Strike Recently":[[{
         "flags":16,
         "keywordFlags":0,
@@ -23116,6 +23267,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ColdDamageTaken",
+        "type":"INC",
+        "value":10
+      }]],
+  "10% increased Cooldown Recovery Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecovery",
         "type":"INC",
         "value":10
       }]],
@@ -24535,6 +24693,18 @@
         "type":"INC",
         "value":10
       }]],
+  "10% increased maximum Recovery per Life Leech for each 5% of Life Reserved":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaxLifeLeechInstance",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "div":5,
+          "stat":"LifeReservedPercent",
+          "type":"PerStat"
+        }
+      }]],
   "10% less Damage Taken from Damage over Time":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24747,27 +24917,7 @@
         "type":"BASE",
         "value":10
       }]],
-  "10% of Leech is Instant per Equipped Claw":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"InstantEnergyShieldLeech",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "type":"Multiplier",
-          "var":"ClawItem"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"InstantManaLeech",
-        "type":"BASE",
-        "value":10,
-        "1":{
-          "type":"Multiplier",
-          "var":"ClawItem"
-        }
-      },{
+  "10% of Life Leech is Instant per Equipped Claw":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"InstantLifeLeech",
@@ -26408,6 +26558,17 @@
         "name":"SelfAilmentDuration",
         "type":"MORE",
         "value":100
+      }]],
+  "100% more Elemental Damage while Unbound":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalDamage",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"Unbound"
+        }
       }]],
   "100% more Main Hand attack speed":[[{
         "flags":1,
@@ -28831,6 +28992,13 @@
         "type":"INC",
         "value":14
       }]],
+  "14% increased Light Radius":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightRadius",
+        "type":"INC",
+        "value":14
+      }]],
   "14% increased Mine Damage":[[{
         "flags":0,
         "keywordFlags":8192,
@@ -29442,6 +29610,18 @@
         "1":{
           "type":"Condition",
           "var":"UsingFlask"
+        }
+      }]],
+  "15% increased Area of Effect for Attacks while you have at least 1 nearby Ally":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "threshold":1,
+          "type":"MultiplierThreshold",
+          "var":"NearbyAlly"
         }
       }]],
   "15% increased Area of Effect for Skills used by Totems":[[{
@@ -33465,19 +33645,6 @@
           "var":"FrenzyCharge"
         }
       }]],
-  "2% increased Attack Speed per Minion, up to a maximum of 80%":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":2,
-        "1":{
-          "limit":80,
-          "limitTotal":true,
-          "type":"Multiplier",
-          "var":"SummonedMinion"
-        }
-      }]],
   "2% increased Attack and Cast Speed per Endurance Charge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34724,13 +34891,6 @@
   "20% chance to gain an Endurance Charge when you Block Can't use Chest armour":[null,"an Endurance Charge when you Block Can't use Chest armour "],
   "20% chance to gain an Endurance Charge when you Stun an Enemy with a Melee Hit":[null,"an Endurance Charge when you Stun an Enemy with a Melee Hit "],
   "20% chance when you Kill a Magic Monster to gain its Modifiers for 60 seconds":[[]," when you Kill a Magic Monster to gain its Modifiers  "],
-  "20% faster Restoration of Ward per Enemy Hit taken Recently":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WardRechargeFaster",
-        "type":"INC",
-        "value":20
-      }],"  per Enemy Hit taken Recently "],
   "20% faster start of Energy Shield Recharge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35556,6 +35716,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"EnemyBrittleEffect",
+        "type":"INC",
+        "value":20
+      }]],
+  "20% increased Effect of Consecrated Ground you create":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ConsecratedGroundEffect",
         "type":"INC",
         "value":20
       }]],
@@ -36753,6 +36920,7 @@
           "type":"SkillName"
         }
       }]],
+  "20% increased magnitude of Hallowing Flame you inflict":[[]," magnitude of Hallowing Flame you inflict "],
   "20% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38071,6 +38239,16 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Defences",
+        "type":"INC",
+        "value":22,
+        "1":{
+          "type":"Global"
+        }
+      }]],
+  "22% increased Global Physical Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
         "type":"INC",
         "value":22,
         "1":{
@@ -40119,6 +40297,13 @@
         "type":"INC",
         "value":25
       }]],
+  "25% increased Life Reservation Efficiency of Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeReservationEfficiency",
+        "type":"INC",
+        "value":25
+      }]],
   "25% increased Light Radius":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41862,13 +42047,13 @@
       }]],
   "3% increased Experience gain":[[]," Experience gain "],
   "3% increased Experience gain 2% increased Experience gain":[[]," Experience gain 2% increased Experience gain "],
-  "3% increased Experience gain 20% increased Elemental Damage":[[{
+  "3% increased Experience gain 60% increased Intelligence Requirement":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ElementalDamage",
+        "name":"IntRequirement",
         "type":"INC",
         "value":3
-      }]," Experience gain 20% increased  "],
+      }]," Experience gain 60% increased  "],
   "3% increased Global Critical Strike Chance per Level":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42306,6 +42491,7 @@
         "type":"FLAG",
         "value":true
       }]," on Block  Gain  on Block  "],
+  "30% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit":[[],"  for the Strongest Impale on target to last for 1 additional Hit "],
   "30% chance to Avoid Bleeding":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42686,6 +42872,13 @@
         "type":"INC",
         "value":30
       }]],
+  "30% faster Restoration of Ward per Enemy Hit taken Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardRechargeFaster",
+        "type":"INC",
+        "value":30
+      }],"  per Enemy Hit taken Recently "],
   "30% increased Accuracy Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44500,13 +44693,17 @@
         "type":"MORE",
         "value":-30
       }]],
-  "30% less Damage Taken from Damage over Time while you have Unbroken Ward":[[{
+  "30% less Damage with Triggered Spells":[[{
         "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTakenOverTime",
+        "keywordFlags":131072,
+        "name":"Damage",
         "type":"MORE",
-        "value":-30
-      }],"  while you have Unbroken Ward "],
+        "value":-30,
+        "1":{
+          "skillType":41,
+          "type":"SkillType"
+        }
+      }]],
   "30% less Life Recovery from Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44602,6 +44799,13 @@
           "var":"AffectedByPurityofFire"
         }
       }]],
+  "30% of Damage Taken from Stunning Hits is Recovered as Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"BASE",
+        "value":30
+      }],"  from Stunning Hits is Recovered as Life "],
   "30% of Damage you Reflect to Enemies when Hit is gained as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45095,6 +45299,16 @@
         "type":"INC",
         "value":31
       }]],
+  "31% increased Global Critical Strike Chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"INC",
+        "value":31,
+        "1":{
+          "type":"Global"
+        }
+      }]],
   "31% increased Light Radius":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45386,13 +45600,6 @@
         "name":"FireEnergyShieldBypass",
         "type":"BASE",
         "value":33
-      }]],
-  "33% reduced Impale Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ImpaleDuration",
-        "type":"INC",
-        "value":-33
       }]],
   "330% increased Physical Damage":[[{
         "flags":0,
@@ -45988,17 +46195,6 @@
           "var":"NearbyRareOrUniqueEnemies"
         }
       }]],
-  "35% less Damage with Triggered Spells":[[{
-        "flags":0,
-        "keywordFlags":131072,
-        "name":"Damage",
-        "type":"MORE",
-        "value":-35,
-        "1":{
-          "skillType":41,
-          "type":"SkillType"
-        }
-      }]],
   "35% less Energy Shield Recharge Rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -46479,6 +46675,19 @@
         "name":"Speed",
         "type":"INC",
         "value":4
+      }]],
+  "4% increased Attack Speed per Minion, up to a maximum of 80%":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "limit":80,
+          "limitTotal":true,
+          "type":"Multiplier",
+          "var":"SummonedMinion"
+        }
       }]],
   "4% increased Attack Speed while Dual Wielding":[[{
         "flags":1,
@@ -48047,6 +48256,21 @@
           "type":"Global"
         }
       }]],
+  "40% increased Global Accuracy Rating while you have at least 1 nearby Ally":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Accuracy",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "threshold":1,
+          "type":"MultiplierThreshold",
+          "var":"NearbyAlly"
+        }
+      }]],
   "40% increased Global Critical Strike Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48415,17 +48639,6 @@
         "type":"INC",
         "value":40
       }]],
-  "40% increased Ward from Equipped Armour Items":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"INC",
-        "value":40,
-        "1":{
-          "slotNameList":["Helmet","Body Armour","Gloves","Boots","Weapon 2"],
-          "type":"SlotName"
-        }
-      }]],
   "40% increased maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48505,6 +48718,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"EnergyShieldRecharge",
+        "type":"MORE",
+        "value":-40
+      }]],
+  "40% less Impale Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ImpaleDuration",
         "type":"MORE",
         "value":-40
       }]],
@@ -48654,6 +48874,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"DamageTakenFromManaBeforeLife",
+        "type":"BASE",
+        "value":40
+      }]],
+  "40% of Damage taken Recouped as Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRecoup",
         "type":"BASE",
         "value":40
       }]],
@@ -49389,6 +49616,21 @@
           "type":"StatThreshold"
         }
       }]],
+  "45% increased Rarity of Items Dropped by Enemies killed with a Critical Strike":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LootRarity",
+        "type":"INC",
+        "value":45,
+        "1":{
+          "type":"Condition",
+          "var":"CritRecently"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"KilledRecently"
+        }
+      }]],
   "45% increased Rarity of Items found":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49426,6 +49668,13 @@
         "1":{
           "type":"Global"
         }
+      }]],
+  "45% less Impale Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ImpaleDuration",
+        "type":"MORE",
+        "value":-45
       }]],
   "45% of Chaos Damage taken as Fire Damage":[[{
         "flags":0,
@@ -49516,6 +49765,21 @@
         "name":"BleedChance",
         "type":"BASE",
         "value":47
+      }]],
+  "47% increased Rarity of Items Dropped by Enemies killed with a Critical Strike":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LootRarity",
+        "type":"INC",
+        "value":47,
+        "1":{
+          "type":"Condition",
+          "var":"CritRecently"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"KilledRecently"
+        }
       }]],
   "475% increased Evasion Rating":[[{
         "flags":0,
@@ -51240,17 +51504,6 @@
         "type":"FLAG",
         "value":true
       }]],
-  "50% chance to refresh Ignite Duration on Critical Strike":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyIgniteDuration",
-        "type":"BASE",
-        "value":50,
-        "1":{
-          "type":"Condition",
-          "var":"CriticalStrike"
-        }
-      }]," to refresh  "],
   "50% faster Restoration of Ward":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51414,6 +51667,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ColdDamage",
+        "type":"INC",
+        "value":50
+      }]],
+  "50% increased Cooldown Recovery Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecovery",
         "type":"INC",
         "value":50
       }]],
@@ -51686,17 +51946,6 @@
         "type":"INC",
         "value":50
       }]],
-  "50% increased Effect of Buffs granted by your Golems":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BuffEffect",
-        "type":"INC",
-        "value":50,
-        "1":{
-          "skillType":61,
-          "type":"SkillType"
-        }
-      }]],
   "50% increased Effect of Chilled Ground":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51835,6 +52084,21 @@
         "1":{
           "type":"Condition",
           "var":"CriticalStrike"
+        }
+      }]],
+  "50% increased Effect of your Marks while Elusive":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffect",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "skillType":109,
+          "type":"SkillType"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"Elusive"
         }
       }]],
   "50% increased Elemental Ailment Duration on You":[[{
@@ -52045,6 +52309,13 @@
         "type":"INC",
         "value":50
       }]],
+  "50% increased Ignite Duration on you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfIgniteDuration",
+        "type":"INC",
+        "value":50
+      }]],
   "50% increased Impale Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52249,19 +52520,16 @@
         "keywordFlags":0,
         "name":"LootRarity",
         "type":"INC",
-        "value":50
-      }],"  by Enemies killed with a Critical Strike "],
-  "50% increased Rarity of Items Dropped by Enemies killed with a Critical Strike 50% increased Damage while on Consecrated Ground":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LootRarity",
-        "type":"INC",
         "value":50,
         "1":{
           "type":"Condition",
-          "var":"OnConsecratedGround"
+          "var":"CritRecently"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"KilledRecently"
         }
-      }],"  by Enemies killed with a Critical Strike 50% increased Damage  "],
+      }]],
   "50% increased Rarity of Items Dropped by Slain Shocked enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52334,7 +52602,6 @@
         }
       }]],
   "50% increased Stealth if you've Hit With a Claw Recently":[[]," Stealth if you've Hit With a Claw Recently "],
-  "50% increased Stealth while Elusive":[[]," Stealth  "],
   "50% increased Stun Duration on Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52476,6 +52743,13 @@
         "type":"MORE",
         "value":-50
       }]],
+  "50% less Damage Taken from Damage over Time while you have Unbroken Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTakenOverTime",
+        "type":"MORE",
+        "value":-50
+      }],"  while you have Unbroken Ward "],
   "50% less Damage with Bleeding":[[{
         "flags":0,
         "keywordFlags":4194304,
@@ -52602,13 +52876,6 @@
           "type":"SkillType"
         }
       }]],
-  "50% of Cold Damage Converted to Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdDamageConvertToChaos",
-        "type":"BASE",
-        "value":50
-      }]],
   "50% of Cold and Lightning Damage taken as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52622,24 +52889,17 @@
         "type":"BASE",
         "value":50
       }]],
+  "50% of Damage from your Hits cannot be Reflected":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"BASE",
+        "value":50
+      }],"  from your Hits cannot be Reflected "],
   "50% of Elemental Damage taken as Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ElementalDamageTakenAsChaos",
-        "type":"BASE",
-        "value":50
-      }]],
-  "50% of Fire Damage Converted to Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamageConvertToChaos",
-        "type":"BASE",
-        "value":50
-      }]],
-  "50% of Lightning Damage Converted to Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningDamageConvertToChaos",
         "type":"BASE",
         "value":50
       }]],
@@ -53986,6 +54246,14 @@
         "value":-6
       }]],
   "60% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit":[[],"  for the Strongest Impale on target to last for 1 additional Hit "],
+  "60% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit 30% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit":[[],"  for the Strongest Impale on target to last for 1 additional Hit 30% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit "],
+  "60% chance to Impale on Spell Hit":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"ImpaleChance",
+        "type":"BASE",
+        "value":60
+      }]],
   "60% chance to Poison on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -54847,6 +55115,20 @@
         "type":"BASE",
         "value":60
       }],"  from Stunning Hits is Recovered as Life "],
+  "60% of Damage Taken from Stunning Hits is Recovered as Life 30% of Damage Taken from Stunning Hits is Recovered as Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTaken",
+        "type":"BASE",
+        "value":60
+      }],"  from Stunning Hits is Recovered as Life 30% of Damage Taken from Stunning Hits is Recovered as Life "],
+  "60% of Elemental Damage from your Hits cannot be Reflected":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalDamage",
+        "type":"BASE",
+        "value":60
+      }],"  from your Hits cannot be Reflected "],
   "60% of Lightning Damage Converted to Chaos Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -54861,6 +55143,13 @@
         "type":"BASE",
         "value":60
       }]],
+  "60% of Physical Damage from your Hits cannot be Reflected":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"BASE",
+        "value":60
+      }],"  from your Hits cannot be Reflected "],
   "60% reduced Cost of Aura Skills that summon Totems":[[{
         "flags":0,
         "keywordFlags":16384,
@@ -54902,20 +55191,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ManaRegen",
-        "type":"INC",
-        "value":-60
-      }]],
-  "60% reduced Reflected Elemental Damage taken":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ElementalReflectedDamageTaken",
-        "type":"INC",
-        "value":-60
-      }]],
-  "60% reduced Reflected Physical Damage taken":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalReflectedDamageTaken",
         "type":"INC",
         "value":-60
       }]],
@@ -55090,13 +55365,6 @@
         "type":"INC",
         "value":-65
       }]],
-  "65% reduced Effect of Withered on you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WitherEffectOnSelf",
-        "type":"INC",
-        "value":-65
-      }]],
   "65% reduced Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -55152,6 +55420,27 @@
         "keywordFlags":0,
         "name":"BlockChance",
         "type":"INC",
+        "value":67
+      }]],
+  "67% of Cold Damage Converted to Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdDamageConvertToChaos",
+        "type":"BASE",
+        "value":67
+      }]],
+  "67% of Fire Damage Converted to Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireDamageConvertToChaos",
+        "type":"BASE",
+        "value":67
+      }]],
+  "67% of Lightning Damage Converted to Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningDamageConvertToChaos",
+        "type":"BASE",
         "value":67
       }]],
   "68% increased Global Critical Strike Chance":[[{
@@ -55677,6 +55966,17 @@
         "type":"INC",
         "value":70
       }]],
+  "70% increased Ward from Equipped Armour Items":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"INC",
+        "value":70,
+        "1":{
+          "slotNameList":["Helmet","Body Armour","Gloves","Boots","Weapon 2"],
+          "type":"SlotName"
+        }
+      }]],
   "70% increased effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -55906,6 +56206,20 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ProjectileSpeed",
+        "type":"INC",
+        "value":75
+      }]],
+  "75% increased bonuses gained from Equipped Quiver":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EffectOfBonusesFromQuiver",
+        "type":"INC",
+        "value":75
+      }]],
+  "75% increased maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
         "type":"INC",
         "value":75
       }]],
@@ -56343,6 +56657,13 @@
       }]],
   "8% increased Area of Effect":[[{
         "flags":0,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":8
+      }]],
+  "8% increased Area of Effect for Attacks":[[{
+        "flags":1,
         "keywordFlags":0,
         "name":"AreaOfEffect",
         "type":"INC",
@@ -56916,6 +57237,18 @@
         "type":"INC",
         "value":8
       }]],
+  "8% increased maximum Recovery per Life Leech for each 5% of Life Reserved":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaxLifeLeechInstance",
+        "type":"INC",
+        "value":8,
+        "1":{
+          "div":5,
+          "stat":"LifeReservedPercent",
+          "type":"PerStat"
+        }
+      }]],
   "8% more Damage with Hits and Ailments against Enemies affected by at least 5 Poisons":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -57487,17 +57820,6 @@
         "source":"from Kills",
         "type":"MORE",
         "value":-80
-      }]],
-  "80% more Elemental Damage while Unbound":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ElementalDamage",
-        "type":"MORE",
-        "value":80,
-        "1":{
-          "type":"Condition",
-          "var":"Unbound"
-        }
       }]],
   "80% of Maximum Mana is Converted to twice that much Armour":[[{
         "flags":0,
@@ -59466,6 +59788,19 @@
         "name":"LightningMax",
         "type":"BASE",
         "value":85
+      }]],
+  "Adds 1 to 850 Lightning Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningMin",
+        "type":"BASE",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningMax",
+        "type":"BASE",
+        "value":850
       }]],
   "Adds 1 to 9 Lightning Damage":[[{
         "flags":0,
@@ -69891,6 +70226,26 @@
           "side":"flesh"
         }
       }]],
+  "Allocates Marshal of Divinity if you have the matching modifier on Forbidden Flame":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedAscendancyNode",
+        "type":"LIST",
+        "value":{
+          "name":"marshal of divinity",
+          "side":"flame"
+        }
+      }]],
+  "Allocates Marshal of Divinity if you have the matching modifier on Forbidden Flesh":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedAscendancyNode",
+        "type":"LIST",
+        "value":{
+          "name":"marshal of divinity",
+          "side":"flesh"
+        }
+      }]],
   "Allocates Master Alchemist if you have the matching modifier on Forbidden Flame":[[{
         "flags":0,
         "keywordFlags":0,
@@ -71889,20 +72244,10 @@
   "Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have Non-Animated, Non-Manifested Minions":[null,"Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have Non-Animated, Non-Manifested Minions "],
   "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets "],
   "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets "],
-  "Arcane Surge grants 10% more Spell Damage to you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArcaneSurgeDamage",
-        "type":"MAX",
-        "value":10
-      }]],
-  "Arcane Surge grants 20% more Spell Damage to you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArcaneSurgeDamage",
-        "type":"MAX",
-        "value":20
-      }]],
+  "Arcane Surge also grants 10% more Spell Damage to you":[null,"Arcane Surge also grants 10% more Spell Damage to you "],
+  "Arcane Surge also grants 10% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell":[null,"Arcane Surge also grants 10% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell "],
+  "Arcane Surge also grants 20% more Spell Damage to you":[null,"Arcane Surge also grants 20% more Spell Damage to you "],
+  "Arcane Surge also grants 20% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell":[null,"Arcane Surge also grants 20% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell "],
   "Arctic Armour has no Reservation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -72050,6 +72395,33 @@
         "value":1,
         "1":{
           "slotName":"Body Armour",
+          "type":"SlotName"
+        }
+      }]],
+  "Armour from Equipped Shield is doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "globalLimit":100,
+          "globalLimitKey":"ArmourDoubledLimit",
+          "type":"Multiplier",
+          "var":"ArmourDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ArmourDoubled",
+        "type":"OVERRIDE",
+        "value":1,
+        "1":{
+          "slotName":"Weapon 2",
           "type":"SlotName"
         }
       }]],
@@ -73362,6 +73734,7 @@
         "type":"BASE",
         "value":1,
         "1":{
+          "actor":"parent",
           "percent":10,
           "stat":"Life",
           "type":"PercentStat"
@@ -73381,6 +73754,7 @@
         "type":"BASE",
         "value":1,
         "1":{
+          "actor":"parent",
           "percent":10,
           "stat":"Life",
           "type":"PercentStat"
@@ -73401,6 +73775,7 @@
         "type":"BASE",
         "value":1,
         "1":{
+          "actor":"parent",
           "percent":12,
           "stat":"Life",
           "type":"PercentStat"
@@ -73420,6 +73795,7 @@
         "type":"BASE",
         "value":1,
         "1":{
+          "actor":"parent",
           "percent":12,
           "stat":"Life",
           "type":"PercentStat"
@@ -73514,6 +73890,45 @@
         "3":{
           "skillType":1,
           "type":"SkillType"
+        }
+      }]],
+  "Attacks with this Weapon inflict Hallowing Flame on Hit":[null,"inflict Hallowing Flame on Hit "],
+  "Attacks you use yourself Repeat an additional time":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"RepeatCount",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "neg":true,
+          "skillTypeList":[30,40,36,41],
+          "type":"SkillType"
+        },
+        "2":{
+          "neg":true,
+          "type":"Condition",
+          "var":"usedByMirage"
+        },
+        "3":{
+          "type":"Condition",
+          "varList":["averageRepeat","alwaysFinalRepeat"]
+        }
+      }]],
+  "Attacks you use yourself have 50% more Attack Speed":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"MORE",
+        "value":50,
+        "1":{
+          "neg":true,
+          "skillTypeList":[30,40,36,41],
+          "type":"SkillType"
+        },
+        "2":{
+          "neg":true,
+          "type":"Condition",
+          "var":"usedByMirage"
         }
       }]],
   "Attribute Requirements can be satisfied by 20% of Omniscience":[[{
@@ -74061,19 +74476,7 @@
         "value":40
       }]],
   "Auras from your Skills have 8% increased Effect on you for":[null,"Auras from your Skills have 8% increased Effect on you for "],
-  "Auras from your Skills have 8% increased Effect on you for each Herald affecting you, up to 40%":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SkillAuraEffectOnSelf",
-        "type":"INC",
-        "value":8,
-        "1":{
-          "globalLimit":40,
-          "globalLimitKey":"PurposefulHarbinger",
-          "type":"Multiplier",
-          "var":"Herald"
-        }
-      }]],
+  "Auras from your Skills have 8% increased Effect on you for each Herald affecting you, up to a maximum of 40%":[null,"Auras from your Skills have 8% increased Effect on you for each Herald affecting you, up to a maximum of 40% "],
   "Auras from your Skills which affect Allies also affect Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -75132,6 +75535,10 @@
           "type":"DisablesItem"
         }
       }]],
+  "Can't use Life Flasks":[null,"Can't use Life Flasks "],
+  "Can't use Life Flasks +65 to maximum Mana":[null,"Can't use Life Flasks +65 to maximum Mana "],
+  "Can't use Mana Flasks":[null,"Can't use Mana Flasks "],
+  "Can't use Mana Flasks On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50%":[null,"Can't use Mana Flasks On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50% "],
   "Can't use other Rings":[[{
         "flags":0,
         "keywordFlags":0,
@@ -75814,7 +76221,7 @@
   "Cannot gain Power Charges":[null,"Cannot gain Power Charges "],
   "Cannot gain Unbound Fury while Unbound":[null,"Cannot gain Unbound Fury while Unbound "],
   "Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound":[null,"Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound "],
-  "Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 80% more Elemental Damage while Unbound":[null,"Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 80% more Elemental Damage while Unbound "],
+  "Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 100% more Elemental Damage while Unbound":[null,"Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 100% more Elemental Damage while Unbound "],
   "Cannot have Minions other than Animated Weapons":[null,"Cannot have Minions other than Animated Weapons "],
   "Cannot have Minions other than Animated Weapons Maximum number of Summoned Golems is Doubled":[[{
         "flags":0,
@@ -77416,6 +77823,25 @@
           }
         }
       }]],
+  "Consecrated Ground you create grants 30% increased Accuracy Rating to you and Allies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Accuracy",
+            "type":"INC",
+            "value":30
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"OnConsecratedGround"
+        }
+      }]],
   "Consecrated Ground you create while affected by Zealotry causes enemies to take 10% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -77997,6 +78423,13 @@
         "type":"INC",
         "value":12
       }]],
+  "Curse Skills have 15% increased Cast Speed":[[{
+        "flags":16,
+        "keywordFlags":2,
+        "name":"Speed",
+        "type":"INC",
+        "value":15
+      }]],
   "Curse Skills have 20% increased Skill Effect Duration":[[{
         "flags":0,
         "keywordFlags":2,
@@ -78400,8 +78833,8 @@
   "Damage from Enemies Hitting you is Unlucky while you are Cursed with Vulnerability You count as on Full Life while you are Cursed with Vulnerability":[null,"Damage from Enemies Hitting you is Unlucky while you are Cursed with Vulnerability You count as on Full Life while you are Cursed with Vulnerability "],
   "Damage from your Critical Strikes cannot be Reflected":[null,"Damage from your Critical Strikes cannot be Reflected "],
   "Damage from your Critical Strikes cannot be Reflected +5% to Critical Strike Multiplier per Power Charge":[null,"Damage from your Critical Strikes cannot be Reflected +5% to Critical Strike Multiplier per Power Charge "],
-  "Damage from your Critical Strikes cannot be Reflected 25% more Damage while there is at most one Rare or Unique Enemy nearby":[null,"Damage from your Critical Strikes cannot be Reflected 25% more Damage while there is at most one Rare or Unique Enemy nearby "],
-  "Damage from your Critical Strikes cannot be Reflected 25% more Damage while there is at most one Rare or Unique Enemy nearby 35% less Damage taken while there are at least two Rare or Unique Enemies nearby":[null,"Damage from your Critical Strikes cannot be Reflected 25% more Damage while there is at most one Rare or Unique Enemy nearby 35% less Damage taken while there are at least two Rare or Unique Enemies nearby "],
+  "Damage of Enemies Hitting you is Unlucky":[null,"Damage of Enemies Hitting you is Unlucky "],
+  "Damage of Enemies Hitting you is Unlucky Damage with Hits is Unlucky":[null,"Damage of Enemies Hitting you is Unlucky Damage with Hits is Unlucky "],
   "Damage of Enemies Hitting you is Unlucky while you are on Full Life":[null,"Damage of Enemies Hitting you is Unlucky while you are on Full Life "],
   "Damage of Enemies Hitting you is Unlucky while you are on Low Life":[null,"Damage of Enemies Hitting you is Unlucky while you are on Low Life "],
   "Damage of Enemies Hitting you is Unlucky while you have a Magic Ring Equipped":[null,"Damage of Enemies Hitting you is Unlucky while you have a Magic Ring Equipped "],
@@ -78415,7 +78848,7 @@
         "value":true
       }]],
   "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward":[null,"Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward "],
-  "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward 40% increased Ward from Equipped Armour Items":[null,"Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward 40% increased Ward from Equipped Armour Items "],
+  "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward 70% increased Ward from Equipped Armour Items":[null,"Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward 70% increased Ward from Equipped Armour Items "],
   "Damage taken from Blocked Hits cannot bypass Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -78506,6 +78939,11 @@
         "type":"BASE",
         "value":8
       }]],
+  "Damageable Minions deal 30% increased Damage for each second they have been alive,":[null,"Damageable Minions deal 30% increased Damage for each second they have been alive, "],
+  "Damageable Minions deal 30% increased Damage for each second they have been alive, up to a maximum of 150%":[null,"Damageable Minions deal 30% increased Damage for each second they have been alive, up to a maximum of 150% "],
+  "Damageable Minions deal 30% increased Damage for each second they have been alive, up to a maximum of 150% Damageable Minions take 5% increased Damage for each second they have been alive,\nup to a maximum of 50%":[null,"Damageable Minions deal 30% increased Damage for each second they have been alive, up to a maximum of 150% Damageable Minions take 5% increased Damage for each second they have been alive,\nup to a maximum of 50% "],
+  "Damageable Minions take 5% increased Damage for each second they have been alive,":[null,"Damageable Minions take 5% increased Damage for each second they have been alive, "],
+  "Damageable Minions take 5% increased Damage for each second they have been alive, up to a maximum of 50%":[null,"Damageable Minions take 5% increased Damage for each second they have been alive, up to a maximum of 50% "],
   "Damaging Ailments Cannot Be inflicted on you while you already have one":[null,"Damaging Ailments Cannot Be inflicted on you while you already have one "],
   "Damaging Ailments Cannot Be inflicted on you while you already have one Non-Damaging Ailments Cannot Be inflicted on you while you already have one":[null,"Damaging Ailments Cannot Be inflicted on you while you already have one Non-Damaging Ailments Cannot Be inflicted on you while you already have one "],
   "Damaging Ailments deal damage 10% faster":[[{
@@ -78906,6 +79344,13 @@
         "type":"BASE",
         "value":10
       }]],
+  "Debuffs on you expire 100% faster":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfDebuffExpirationRate",
+        "type":"BASE",
+        "value":100
+      }]],
   "Debuffs on you expire 15% faster":[[{
         "flags":0,
         "keywordFlags":0,
@@ -79172,7 +79617,7 @@
           "type":"SkillType"
         }
       }]],
-  "Determination has 50% increased Aura Effect while you have no Endurance Charges":[[{
+  "Determination has 50% increased Aura Effect while at Minimum Endurance Charges":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"AuraEffect",
@@ -79180,7 +79625,7 @@
         "value":50,
         "1":{
           "stat":"EnduranceCharges",
-          "threshold":0,
+          "thresholdStat":"EnduranceChargesMin",
           "type":"StatThreshold",
           "upper":true
         },
@@ -79302,7 +79747,7 @@
         "type":"OVERRIDE",
         "value":3
       }]],
-  "Discipline has 50% increased Aura Effect while you have no Power Charges":[[{
+  "Discipline has 50% increased Aura Effect while at Minimum Power Charges":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"AuraEffect",
@@ -79310,7 +79755,7 @@
         "value":50,
         "1":{
           "stat":"PowerCharges",
-          "threshold":0,
+          "thresholdStat":"PowerChargesMin",
           "type":"StatThreshold",
           "upper":true
         },
@@ -79946,6 +80391,20 @@
           }
         }
       }]],
+  "Eat 3 Souls when you Kill a Rare or Unique Enemy with this Weapon":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanHaveSoulEater",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Eat 4 Souls when you Kill a Rare or Unique Enemy with this Weapon":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanHaveSoulEater",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Eat a Soul when you Hit a Rare or Unique Enemy, no more than once every 0.5 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80033,6 +80492,7 @@
         "type":"LIST",
         "value":"Elemental Equilibrium"
       }]],
+  "Elemental Hit's Added Damage cannot be replaced this way":[null,"Elemental Hit's Added Damage cannot be replaced this way "],
   "Elemental Overload":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80090,7 +80550,7 @@
         "value":40
       }]],
   "Elusive has 50% chance to be removed from you at 100% effect":[null,"Elusive has 50% chance to be removed from you at 100% effect "],
-  "Elusive has 50% chance to be removed from you at 100% effect 50% increased Stealth while Elusive":[null,"Elusive has 50% chance to be removed from you at 100% effect 50% increased Stealth while Elusive "],
+  "Elusive has 50% chance to be removed from you at 100% effect 50% increased Effect of your Marks while Elusive":[null,"Elusive has 50% chance to be removed from you at 100% effect 50% increased Effect of your Marks while Elusive "],
   "Elusive is removed from you at 20% effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80862,6 +81322,8 @@
   "Enemies cannot Leech Mana from You":[null,"Enemies cannot Leech Mana from You "],
   "Enemies cannot Leech Mana from You Socketed Gems have 50% reduced Mana Cost":[null,"Enemies cannot Leech Mana from You Socketed Gems have 50% reduced Mana Cost "],
   "Enemies display their Monster Category":[null,"Enemies display their Monster Category "],
+  "Enemies display their Monster Category +23% to Chaos Resistance":[null,"Enemies display their Monster Category +23% to Chaos Resistance "],
+  "Enemies display their Monster Category +23% to Chaos Resistance 20% increased Movement Speed":[null,"Enemies display their Monster Category +23% to Chaos Resistance 20% increased Movement Speed "],
   "Enemies in your Chilling Areas take 30% increased Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -82035,14 +82497,14 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Enemies you or your Totems Kill have 5% chance to Explode, dealing 500% of their maximum Life as Fire Damage":[[{
+  "Enemies you or your Totems Kill have 10% chance to Explode, dealing 250% of their maximum Life as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExplodeMod",
         "type":"LIST",
         "value":{
-          "amount":500,
-          "chance":0.05,
+          "amount":250,
+          "chance":0.1,
           "keyOfScaledMod":"chance",
           "type":"Fire"
         }
@@ -82479,8 +82941,9 @@
           "type":"PercentStat"
         }
       }]],
+  "Every 4 seconds, remove Curses and Ailments from you":[null,"Every 4 seconds, remove Curses and Ailments from you "],
+  "Every 4 seconds, remove Curses and Ailments from you Every 4 seconds, Regenerate 100% of Life over one second":[null,"Every 4 seconds, remove Curses and Ailments from you Every 4 seconds, Regenerate 100% of Life over one second "],
   "Every 4 seconds, remove Curses and Elemental Ailments from you":[null,"Every 4 seconds, remove Curses and Elemental Ailments from you "],
-  "Every 4 seconds, remove Curses and Elemental Ailments from you Every 4 seconds, Regenerate 100% of Life over one second":[null,"Every 4 seconds, remove Curses and Elemental Ailments from you Every 4 seconds, Regenerate 100% of Life over one second "],
   "Every 4 seconds, remove Curses and Elemental Ailments from you Grants Armour equal to 6% of your Reserved Mana to you and nearby Allies":[null,"Every 4 seconds, remove Curses and Elemental Ailments from you Grants Armour equal to 6% of your Reserved Mana to you and nearby Allies "],
   "Every 5 seconds, gain one of the following for 5 seconds:":[null,"Every 5 seconds, gain one of the following for 5 seconds: "],
   "Every 5 seconds, gain one of the following for 5 seconds: Your Hits are always Critical Strikes":[null,"Every 5 seconds, gain one of the following for 5 seconds: Your Hits are always Critical Strikes "],
@@ -83451,13 +83914,13 @@
   "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment":[[]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment "],
   "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound":[[]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound "],
   "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound":[[]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound "],
-  "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 80% more Elemental Damage while Unbound":[[{
+  "Gain 1 Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 100% more Elemental Damage while Unbound":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ElementalDamage",
         "type":"BASE",
         "value":1
-      }]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 80% more  while Unbound "],
+      }]," Unbound Fury when you inflict an Elemental Ailment with a Hit on an Enemy, no more than once every 0.2 seconds for each type of Ailment Cannot gain Unbound Fury while Unbound Your Hits always inflict Freeze, Shock and Ignite while Unbound 100% more  while Unbound "],
   "Gain 1 Vaal Soul per second":[[],"  Soul per second "],
   "Gain 1 Vaal Soul per second Limited to 1 Runegraft of the Soulwick":[[],"  Soul per second Limited to 1 Runegraft of the Soulwick "],
   "Gain 1% of Cold Damage as Extra Fire Damage per 1% Chill Effect on Enemy":[[{
@@ -83638,6 +84101,13 @@
         "type":"BASE",
         "value":10
       }]],
+  "Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsLightning",
+        "type":"BASE",
+        "value":10
+      }],"   for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80% "],
   "Gain 10% of Wand Physical Damage as Extra Chaos Damage":[[{
         "flags":8388612,
         "keywordFlags":0,
@@ -84206,6 +84676,27 @@
           "var":"PowerCharge"
         }
       }]],
+  "Gain 20 Baryatic Tension per 20 Life Spent on Upfront Costs of Spells":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":20
+      }]," Baryatic Tension per 20  Spent on Upfront Costs of s "],
+  "Gain 20 Baryatic Tension per 20 Life Spent on Upfront Costs of Spells Maximum Baryatic Tension is equal to 30% of maximum Life":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":20
+      }]," Baryatic Tension per 20  Spent on Upfront Costs of s Maximum Baryatic Tension is equal to 30% of maximum Life "],
+  "Gain 20 Baryatic Tension per 20 Life Spent on Upfront Costs of Spells Maximum Baryatic Tension is equal to 30% of maximum Life When you take a Savage Hit, lose Baryatic Tension to recover that much Life, up to maximum":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":20
+      }]," Baryatic Tension per 20  Spent on Upfront Costs of s Maximum Baryatic Tension is equal to 30% of maximum Life When you take a Savage Hit, lose Baryatic Tension to recover that much Life, up to maximum "],
   "Gain 20 Energy Shield for each Enemy you Hit which is affected by a Spider's Web":[[{
         "flags":4,
         "keywordFlags":0,
@@ -84621,6 +85112,13 @@
         "value":true
       }]],
   "Gain 3 Rage when Hit by an Enemy":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanGainRage",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Gain 3 Rage when you use a Life Flask":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"Condition:CanGainRage",
@@ -86275,6 +86773,13 @@
   "Gain an Endurance Charge when you take a Critical Strike Gain up to maximum Endurance Charges when you take a Critical Strike":[null,"an Endurance Charge when you take a Critical Strike Gain up to maximum Endurance Charges when you take a Critical Strike "],
   "Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill":[null,"an Endurance Charge, Frenzy Charge, and Power Charge  "],
   "Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill Shepherd of Souls":[null,"an Endurance Charge, Frenzy Charge, and Power Charge  Shepherd of Souls "],
+  "Gain no Armour from Equipped Body Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GainNoArmourFromBody Armour",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Gain no armour from equipped body armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -86925,7 +87430,7 @@
       }]],
   "Gore Footprints":[null,"Gore Footprints "],
   "Gore Footprints 3% increased Damage per Frenzy Charge with Hits against Enemies on Low Life":[null,"Gore Footprints 3% increased Damage per Frenzy Charge with Hits against Enemies on Low Life "],
-  "Grace has 50% increased Aura Effect while you have no Frenzy Charges":[[{
+  "Grace has 50% increased Aura Effect while at Minimum Frenzy Charges":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"AuraEffect",
@@ -86933,7 +87438,7 @@
         "value":50,
         "1":{
           "stat":"FrenzyCharges",
-          "threshold":0,
+          "thresholdStat":"FrenzyChargesMin",
           "type":"StatThreshold",
           "upper":true
         },
@@ -87946,6 +88451,16 @@
           "skillId":"Precision"
         }
       }]],
+  "Grants Level 30 Purity of Elements Skill":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":30,
+          "skillId":"PurityOfElements"
+        }
+      }]],
   "Grants Level 30 Smite Skill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -87977,6 +88492,16 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Grants Level 30 Thirst for Blood Skill":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":30,
+          "skillId":"ThirstForBlood"
         }
       }]],
   "Grants Level 30 Will of the Lords Skill":[[{
@@ -88199,6 +88724,7 @@
         "type":"BASE",
         "value":50
       }]],
+  "Hallowing Flame you inflict has 1% increased magnitude per 2% Attack Block chance":[null,"Hallowing Flame you inflict has 1% increased magnitude per 2% Attack Block chance "],
   "Has 1 Abyssal Socket":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90415,6 +90941,13 @@
         "type":"MAX",
         "value":150
       }]],
+  "Increases and Reductions to Effect of Flasks applied to you also applies to Effect of Arcane Surge on you at 210% of their value":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskEffectToArcaneSurgeEffect",
+        "type":"BASE",
+        "value":210
+      }]],
   "Increases and Reductions to Fire Damage also apply to Effect of Auras from Fire Skills at 13% of their value, up to a maximum of 150%":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90826,6 +91359,10 @@
           "var":"UsingFlask"
         }
       }]],
+  "Inflict Hallowing Flame on Hit while on Consecrated Ground":[null,"Inflict Hallowing Flame on Hit while on Consecrated Ground "],
+  "Inflict Hallowing Flame on Melee Hit":[null,"Inflict Hallowing Flame on Melee Hit "],
+  "Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies":[null,"Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies "],
+  "Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%":[null,"Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80% "],
   "Inflict Lightning Exposure on Hit if you've cast Conductivity in the past 10 seconds":[[{
         "flags":4,
         "keywordFlags":0,
@@ -91294,6 +91831,54 @@
           "type":"SlotNumber"
         }
       }]],
+  "Left ring slot: 100% of Elemental Hit Damage from you and your Minions cannot be Reflected":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"BASE",
+            "value":100,
+            "1":{
+              "num":1,
+              "type":"SlotNumber"
+            },
+            "2":{
+              "includeTransfigured":true,
+              "skillName":"Elemental Hit",
+              "type":"SkillName"
+            }
+          }
+        }
+      }]," from you and your s cannot be Reflected "],
+  "Left ring slot: 100% of Elemental Hit Damage from you and your Minions cannot be Reflected Right ring slot: 30% reduced Reflected Physical Damage taken":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"BASE",
+            "value":100,
+            "1":{
+              "num":1,
+              "type":"SlotNumber"
+            },
+            "2":{
+              "includeTransfigured":true,
+              "skillName":"Elemental Hit",
+              "type":"SkillName"
+            }
+          }
+        }
+      }]," from you and your s cannot be Reflected Right ring slot: 30% reduced Reflected Physical Damage taken "],
   "Left ring slot: 30% reduced Reflected Elemental Damage taken":[[{
         "flags":0,
         "keywordFlags":0,
@@ -92279,6 +92864,14 @@
           "type":"SkillType"
         }
       }]],
+  "Mana Flask Effects are not removed when Unreserved Mana is Filled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaFlaskEffectNotRemoved",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "Mana Flask Effects do not Queue":[null,"Mana Flask Effects do not Queue "],
   "Mana Flasks gain 1 Charge every 3 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -92572,6 +93165,8 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Maximum Baryatic Tension is equal to 30% of maximum Life":[null,"Maximum Baryatic Tension is equal to 30% of maximum Life "],
+  "Maximum Baryatic Tension is equal to 30% of maximum Life When you take a Savage Hit, lose Baryatic Tension to recover that much Life, up to maximum":[null,"Maximum Baryatic Tension is equal to 30% of maximum Life When you take a Savage Hit, lose Baryatic Tension to recover that much Life, up to maximum "],
   "Maximum Brutal Charges is equal to Maximum Endurance Charges":[[{
         "flags":0,
         "keywordFlags":0,
@@ -92655,6 +93250,25 @@
         "name":"MaximumRage",
         "type":"MORE",
         "value":-50
+      }]],
+  "Maximum Recovery per Energy Shield Leech is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaxEnergyShieldLeechInstance",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"MaxEnergyShieldLeechInstanceDoubledLimit",
+          "type":"Multiplier",
+          "var":"MaxEnergyShieldLeechInstanceDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:MaxEnergyShieldLeechInstanceDoubled",
+        "type":"OVERRIDE",
+        "value":1
       }]],
   "Maximum number of Animated Weapons is Doubled":[[{
         "flags":0,
@@ -93043,6 +93657,8 @@
   "Melee Strike Skills deal Splash Damage to surrounding targets":[null,"Melee Strike Skills deal Splash Damage to surrounding targets "],
   "Melee Strike Skills deal Splash Damage to surrounding targets 10% increased Global Physical Damage":[null,"Melee Strike Skills deal Splash Damage to surrounding targets 10% increased Global Physical Damage "],
   "Melee Strike Skills deal Splash Damage to surrounding targets 15% reduced Mana Burn rate":[null,"Melee Strike Skills deal Splash Damage to surrounding targets 15% reduced Mana Burn rate "],
+  "Melee Strike Skills deal Splash Damage to surrounding targets Recover 5% of Life on Kill":[null,"Melee Strike Skills deal Splash Damage to surrounding targets Recover 5% of Life on Kill "],
+  "Melee Strike Skills deal Splash Damage to surrounding targets Recover 5% of Life on Kill Enemies Killed by your Hits are destroyed":[null,"Melee Strike Skills deal Splash Damage to surrounding targets Recover 5% of Life on Kill Enemies Killed by your Hits are destroyed "],
   "Melee Weapon Attacks have Culling Strike":[[{
         "flags":67108865,
         "keywordFlags":0,
@@ -93858,25 +94474,6 @@
           }
         }
       }]],
-  "Minions deal 15% more Damage while they are on Low Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"MORE",
-            "value":15,
-            "1":{
-              "type":"Condition",
-              "var":"LowLife"
-            }
-          }
-        }
-      }]],
   "Minions deal 16% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -93978,6 +94575,25 @@
               "actor":"enemy",
               "type":"ActorCondition",
               "var":"Ignited"
+            }
+          }
+        }
+      }]],
+  "Minions deal 20% more Damage while they are on Low Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"MORE",
+            "value":20,
+            "1":{
+              "type":"Condition",
+              "var":"LowLife"
             }
           }
         }
@@ -96792,6 +97408,7 @@
       }]],
   "Minions have the same maximum number of Endurance, Frenzy and Power Charges as you":[null,"the same maximum number of Endurance, Frenzy and Power Charges as you "],
   "Minions have the same maximum number of Endurance, Frenzy and Power Charges as you Minions count as having the same number of Endurance, Frenzy and Power Charges as you":[null,"the same maximum number of Endurance, Frenzy and Power Charges as you Minions count as having the same number of Endurance, Frenzy and Power Charges as you "],
+  "Minions' Base Attack Critical Strike Chance is equal to the Critical":[null,"Minions' Base Attack Critical Strike Chance is equal to the Critical "],
   "Minions' Base Attack Critical Strike Chance is equal to the Critical Strike Chance of your Main Hand Weapon":[[{
         "flags":0,
         "keywordFlags":0,
@@ -97954,21 +98571,6 @@
           }
         }
       }]],
-  "Nearby Enemies take 100% increased Damage from Graft Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"DamageTaken",
-            "type":"INC",
-            "value":100
-          }
-        }
-      }],"  from Graft Skills "],
   "Nearby Enemies take 16% increased Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -98649,6 +99251,7 @@
   "Nova Spells Cast at a Marked target instead of around you if possible":[null,"Nova Spells Cast at a Marked target instead of around you if possible "],
   "Nova Spells Cast at a Marked target instead of around you if possible Limited to 1 Runegraft of the Novamark":[null,"Nova Spells Cast at a Marked target instead of around you if possible Limited to 1 Runegraft of the Novamark "],
   "Nova Spells Cast at the targeted location instead of around you":[null,"Nova Spells Cast at the targeted location instead of around you "],
+  "Nova Spells Cast at the targeted location instead of around you Spell Skills have 25% increased Area of Effect":[null,"Nova Spells Cast at the targeted location instead of around you Spell Skills have 25% increased Area of Effect "],
   "Nova Spells have 20% less Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -98716,9 +99319,32 @@
         }
       }]],
   "Offerings Kill affected Damagable targets when Offering Duration expires":[null,"Offerings Kill affected Damagable targets when Offering Duration expires "],
-  "On Killing a Poisoned Enemy, nearby Enemies are Poisoned":[null,"On Killing a Poisoned Enemy, nearby Enemies are Poisoned "],
-  "On Killing a Poisoned Enemy, nearby Enemies are Poisoned and nearby Allies Regenerate 200 Life per second":[null,"On Killing a Poisoned Enemy, nearby Enemies are Poisoned and nearby Allies Regenerate 200 Life per second "],
+  "On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned":[null,"On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned "],
+  "On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned and nearby Allies Regenerate 400 Life per second":[null,"On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned and nearby Allies Regenerate 400 Life per second "],
   "On Killing a Rare monster, a random Linked Minion gains its Modifiers for 60 seconds":[null,"On Killing a Rare monster, a random Linked Minion gains its Modifiers for 60 seconds "],
+  "On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50%":[null,"On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50% "],
+  "On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50% For each Charge removed this way, that Attack gains +2% to Damage over time Multiplier":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DotMultiplier",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "floor":true,
+          "percent":50,
+          "stat":"LifeFlaskCharges",
+          "type":"PercentStat"
+        },
+        "2":{
+          "neg":true,
+          "skillType":57,
+          "type":"SkillType"
+        },
+        "3":{
+          "skillType":1,
+          "type":"SkillType"
+        }
+      }]],
   "Only affects Passives in Large Ring":[[{
         "flags":0,
         "keywordFlags":0,
@@ -100158,6 +100784,13 @@
       }]],
   "Projectile Barrages have no spread":[null,"Projectile Barrages have no spread "],
   "Projectile Barrages have no spread You take no Extra Damage from Critical Strikes while Elusive":[null,"Projectile Barrages have no spread You take no Extra Damage from Critical Strikes while Elusive "],
+  "Projectiles Chain +1 times":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ChainCountMax",
+        "type":"BASE",
+        "value":1
+      }]],
   "Projectiles Chain +1 times while you have Phasing":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -100299,21 +100932,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Projectiles deal 15% increased Damage with Hits and Ailments for each remaining Chain":[[{
-        "flags":0,
+  "Projectiles deal 20% increased Damage with Hits and Ailments for":[[{
+        "flags":1024,
         "keywordFlags":786432,
         "name":"Damage",
         "type":"INC",
-        "value":15,
-        "1":{
-          "stat":"ChainRemaining",
-          "type":"PerStat"
-        },
-        "2":{
-          "skillType":3,
-          "type":"SkillType"
-        }
-      }]],
+        "value":20
+      }],"   for "],
   "Projectiles deal 20% increased Damage with Hits and Ailments for each Enemy Pierced":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -100329,6 +100954,17 @@
           "type":"SkillType"
         }
       }]],
+  "Projectiles deal 20% increased Damage with Hits and Ailments for each remaining Chain, up to a maximum of 100%":[[{
+        "flags":1024,
+        "keywordFlags":786432,
+        "name":"Damage",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "stat":"ChainRemaining",
+          "type":"PerStat"
+        }
+      }],"   , up to a maximum of 100% "],
   "Projectiles deal 20% increased Damage with Hits and Ailments for each time they have Chained":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -100644,6 +101280,18 @@
         "1":{
           "skillId":"Punishment",
           "type":"SkillId"
+        }
+      }]],
+  "Purity of Elements has 100% increased Mana Reservation Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaReservationEfficiency",
+        "type":"INC",
+        "value":100,
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Purity of Elements",
+          "type":"SkillName"
         }
       }]],
   "Purity of Elements has no Reservation":[[{
@@ -102348,8 +102996,8 @@
   "Reflects 81 Physical Damage to Melee Attackers":[[]],
   "Reflects 90 Physical Damage to Melee Attackers":[[]],
   "Reflects your opposite Ring":[[]],
-  "Refresh Duration of Ignite, Chill and Shock on Enemies you Curse":[null,"Refresh Duration of Ignite, Chill and Shock on Enemies you Curse "],
-  "Refresh Duration of Ignite, Chill and Shock on Enemies you Curse Remove Elemental Ailments when you Cast a Curse Spell":[null,"Refresh Duration of Ignite, Chill and Shock on Enemies you Curse Remove Elemental Ailments when you Cast a Curse Spell "],
+  "Refresh Duration of Chill and Shock on Enemies you Curse":[null,"Refresh Duration of Chill and Shock on Enemies you Curse "],
+  "Refresh Duration of Chill and Shock on Enemies you Curse Remove Elemental Ailments when you Cast a Curse Spell":[null,"Refresh Duration of Chill and Shock on Enemies you Curse Remove Elemental Ailments when you Cast a Curse Spell "],
   "Regenerate (0.7-1.2)% of Life per second":[null,"Regenerate (0.7-1.2)% of Life per second "],
   "Regenerate 0.1% of Life per second per Fortification":[[{
         "flags":0,
@@ -104366,6 +105014,8 @@
   "Requires Class Templar Allocates Instruments of Virtue if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Templar Allocates Instruments of Virtue if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Templar Allocates Instruments of Zeal if you have the matching modifier on Forbidden Flame":[null,"Requires Class Templar Allocates Instruments of Zeal if you have the matching modifier on Forbidden Flame "],
   "Requires Class Templar Allocates Instruments of Zeal if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Templar Allocates Instruments of Zeal if you have the matching modifier on Forbidden Flesh "],
+  "Requires Class Templar Allocates Marshal of Divinity if you have the matching modifier on Forbidden Flame":[null,"Requires Class Templar Allocates Marshal of Divinity if you have the matching modifier on Forbidden Flame "],
+  "Requires Class Templar Allocates Marshal of Divinity if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Templar Allocates Marshal of Divinity if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Templar Allocates Pious Path if you have the matching modifier on Forbidden Flame":[null,"Requires Class Templar Allocates Pious Path if you have the matching modifier on Forbidden Flame "],
   "Requires Class Templar Allocates Pious Path if you have the matching modifier on Forbidden Flesh":[null,"Requires Class Templar Allocates Pious Path if you have the matching modifier on Forbidden Flesh "],
   "Requires Class Templar Allocates Pursuit of Faith if you have the matching modifier on Forbidden Flame":[null,"Requires Class Templar Allocates Pursuit of Faith if you have the matching modifier on Forbidden Flame "],
@@ -104748,6 +105398,25 @@
           "type":"SlotNumber"
         }
       }]],
+  "Right ring slot: 100% of Physical Hit Damage from you and your Minions cannot be Reflected":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"BASE",
+            "value":100,
+            "1":{
+              "num":2,
+              "type":"SlotNumber"
+            }
+          }
+        }
+      }]," Physical Hit  from you and your s cannot be Reflected "],
   "Right ring slot: 30% reduced Reflected Physical Damage taken":[[{
         "flags":0,
         "keywordFlags":0,
@@ -105278,6 +105947,13 @@
         "type":"BASE",
         "value":15
       }]],
+  "Skills Cost Life instead of 50% of Mana Cost":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"HybridManaAndLifeCost_Life",
+        "type":"BASE",
+        "value":50
+      }]],
   "Skills Cost Life instead of Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -105464,20 +106140,34 @@
           "type":"SocketedIn"
         }
       }]],
-  "Skills gain Added Chaos Damage equal to 20% of Life Cost, if Life Cost is not higher than the maximum you could spend":[[{
+  "Skills from Equipped Main Hand Weapon are supported by level 1 Cruelty":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"SupportCruelty"
+        },
+        "1":{
+          "slotName":"Main Hand Weapon",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Skills gain Added Chaos Damage equal to 25% of Life Cost, if Life Cost is not higher than the maximum you could spend":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ChaosMin",
         "type":"BASE",
         "value":1,
         "1":{
-          "percent":20,
+          "percent":25,
           "stat":"LifeCost",
           "type":"PercentStat"
         },
         "2":{
           "stat":"LifeUnreserved",
-          "thresholdPercent":20,
+          "thresholdPercent":25,
           "thresholdStat":"LifeCost",
           "type":"StatThreshold"
         }
@@ -105488,13 +106178,13 @@
         "type":"BASE",
         "value":1,
         "1":{
-          "percent":20,
+          "percent":25,
           "stat":"LifeCost",
           "type":"PercentStat"
         },
         "2":{
           "stat":"LifeUnreserved",
-          "thresholdPercent":20,
+          "thresholdPercent":25,
           "thresholdStat":"LifeCost",
           "type":"StatThreshold"
         }
@@ -105758,6 +106448,20 @@
         "value":{
           "level":1,
           "skillId":"SupportGenerosity"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 1 Greater Spell Echo":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"SupportGreaterSpellEcho"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -112883,6 +113587,13 @@
         "type":"INC",
         "value":20
       }]],
+  "Spell Skills have 25% increased Area of Effect":[[{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":25
+      }]],
   "Spells Cast by Totems have 4% increased Cast Speed":[[{
         "flags":18,
         "keywordFlags":16384,
@@ -113023,6 +113734,44 @@
           "skillType":2,
           "type":"SkillType"
         }
+      }]],
+  "Spells deal added Chaos Damage equal to 5% of your maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":5,
+          "stat":"Life",
+          "type":"PercentStat"
+        },
+        "2":{
+          "skillType":2,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":5,
+          "stat":"Life",
+          "type":"PercentStat"
+        },
+        "2":{
+          "skillType":2,
+          "type":"SkillType"
+        }
+      }]],
+  "Spells fire 2 additional Projectiles":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":2
       }]],
   "Spells fire an additional Projectile":[[{
         "flags":2,
@@ -114518,50 +115267,6 @@
           "var":"AffectedByApproachingFlames"
         }
       }]],
-  "Take 15% less Cold Damage with at least one Tulgraft grafted to you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdDamageTaken",
-        "type":"MORE",
-        "value":-15,
-        "1":{
-          "type":"Condition",
-          "var":"UsingTulgraft"
-        }
-      }]],
-  "Take 15% less Fire Damage with at least one Xophgraft grafted to you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamageTaken",
-        "type":"MORE",
-        "value":-15,
-        "1":{
-          "type":"Condition",
-          "var":"UsingXophgraft"
-        }
-      }]],
-  "Take 15% less Lightning Damage with at least one Eshgraft grafted to you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningDamageTaken",
-        "type":"MORE",
-        "value":-15,
-        "1":{
-          "type":"Condition",
-          "var":"UsingEshgraft"
-        }
-      }]],
-  "Take 15% less Physical Damage with at least one Uulgraft grafted to you":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamageTaken",
-        "type":"MORE",
-        "value":-15,
-        "1":{
-          "type":"Condition",
-          "var":"UsingUulgraft"
-        }
-      }]],
   "Take 150 Physical Damage per Second per Siphoning Charge if you've used a Skill Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -115508,6 +116213,17 @@
           "type":"SkillId"
         }
       }]],
+  "Treats Enemy Monster Chaos Resistance values as inverted":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"HitsInvertChaosResChance",
+        "type":"CHANCE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        }
+      }]],
   "Treats Enemy Monster Elemental Resistance values as inverted":[[{
         "flags":0,
         "keywordFlags":0,
@@ -116442,6 +117158,19 @@
           "triggered":true
         }
       }]],
+  "Trigger level 10 Consecrate when you deal a Critical Strike":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredConsecrate",
+          "triggered":true
+        }
+      }]],
+  "Trigger level 20 Suspend in Time on Casting a Spell":[null,"Trigger level 20 Suspend in Time on Casting a Spell "],
+  "Trigger level 20 Suspend in Time on Casting a Spell 60% increased Spell Damage":[null,"Trigger level 20 Suspend in Time on Casting a Spell 60% increased Spell Damage "],
   "Triggered Spells Poison on Hit":[[{
         "flags":0,
         "keywordFlags":131072,
@@ -116817,7 +117546,8 @@
       }],"Unaffected bywhile affected by Haste  while affected by Hatred "],
   "Unaffected by Vulnerability while affected by Determination":[null,"Unaffected by Vulnerability while affected by Determination "],
   "Unaffected by Vulnerability while affected by Determination +8% Chance to Block Spell Damage while affected by Discipline":[null,"Unaffected by Vulnerability while affected by Determination +8% Chance to Block Spell Damage while affected by Discipline "],
-  "Unattached Brands gain 20% increased Brand Attachment Range per second, up to 100%":[null,"Unattached Brands gain 20% increased Brand Attachment Range per second, up to 100% "],
+  "Unattached Brands gain 20% increased Brand Attachment Range per":[null,"Unattached Brands gain 20% increased Brand Attachment Range per "],
+  "Unattached Brands gain 20% increased Brand Attachment Range per second, up to a maximum of 100%":[null,"Unattached Brands gain 20% increased Brand Attachment Range per second, up to a maximum of 100% "],
   "Unholy Might":[[{
         "flags":0,
         "keywordFlags":0,
@@ -117588,8 +118318,8 @@
           "var":"UsedWarcryRecently"
         }
       }]],
-  "When you kill a Poisoned Enemy during any Flask Effect, nearby Enemies are Poisoned":[null,"When you kill a Poisoned Enemy during any Flask Effect, nearby Enemies are Poisoned "],
-  "When you kill a Poisoned Enemy during any Flask Effect, nearby Enemies are Poisoned Poisons you inflict during any Flask Effect have 20% chance to deal 100% more Damage":[null,"When you kill a Poisoned Enemy during any Flask Effect, nearby Enemies are Poisoned Poisons you inflict during any Flask Effect have 20% chance to deal 100% more Damage "],
+  "When you kill a Poisoned Enemy during any Flask Effect, Enemies within 1.5 metres are Poisoned":[null,"When you kill a Poisoned Enemy during any Flask Effect, Enemies within 1.5 metres are Poisoned "],
+  "When you kill a Poisoned Enemy during any Flask Effect, Enemies within 1.5 metres are Poisoned Poisons you inflict during any Flask Effect have 20% chance to deal 100% more Damage":[null,"When you kill a Poisoned Enemy during any Flask Effect, Enemies within 1.5 metres are Poisoned Poisons you inflict during any Flask Effect have 20% chance to deal 100% more Damage "],
   "When you leave your Banner's Area, recover 25% of the Valour consumed for that Banner":[null,"When you leave your Banner's Area, recover 25% of the Valour consumed for that Banner "],
   "When you leave your Banner's Area, recover 25% of the Valour consumed for that Banner Recover 5% of Life when you use a Flask":[null,"When you leave your Banner's Area, recover 25% of the Valour consumed for that Banner Recover 5% of Life when you use a Flask "],
   "When you leave your Banner's Area, recover 30% of the Valour consumed for that Banner":[null,"When you leave your Banner's Area, recover 30% of the Valour consumed for that Banner "],
@@ -117600,6 +118330,7 @@
         "type":"FLAG",
         "value":true
       }]],
+  "When you take a Savage Hit, lose Baryatic Tension to recover that much Life, up to maximum":[null,"When you take a Savage Hit, lose Baryatic Tension to recover that much Life, up to maximum "],
   "When your Hits Impale Enemies, also Impale other Enemies near them":[null,"When your Hits Impale Enemies, also Impale other Enemies near them "],
   "When your Hits Impale Enemies, also Impale other Enemies near them Inflict 5 additional Impales on Enemies you Impale":[null,"When your Hits Impale Enemies, also Impale other Enemies near them Inflict 5 additional Impales on Enemies you Impale "],
   "When your Hits Impale Enemies, also Impale other Enemies near them Inflict 5 additional Impales on Enemies you Impale For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them":[null,"When your Hits Impale Enemies, also Impale other Enemies near them Inflict 5 additional Impales on Enemies you Impale For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them "],
@@ -117731,6 +118462,17 @@
           "neg":true,
           "type":"Condition",
           "var":"FullLife"
+        }
+      }]],
+  "While on Low Life, Life Flasks gain 4 Charges every 3 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeFlaskChargesGenerated",
+        "type":"BASE",
+        "value":1.3333333333333,
+        "1":{
+          "type":"Condition",
+          "var":"LowLife"
         }
       }]],
   "While there are at least five nearby Allies, you and nearby Allies have Onslaught":[[{
@@ -118937,6 +119679,8 @@
   "You can have two Offerings of different types":[null,"You can have two Offerings of different types "],
   "You can have two Offerings of different types 35% chance to Avoid Elemental Ailments":[null,"You can have two Offerings of different types 35% chance to Avoid Elemental Ailments "],
   "You can have two different Banners at the same time":[[]],
+  "You can inflict +1 Hallowing Flame on Enemies":[null,"You can inflict +1 Hallowing Flame on Enemies "],
+  "You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%":[null,"You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80% "],
   "You can inflict Bleeding on an Enemy up to 8 times":[[{
         "flags":0,
         "keywordFlags":0,
@@ -119159,6 +119903,11 @@
       }]],
   "You gain 3 Grasping Vines when you take a Critical Strike":[[]," Grasping Vines when you take a Critical Strike "],
   "You gain 3 Grasping Vines when you take a Critical Strike Nearby stationary Enemies gain a Grasping Vine every 0.5 seconds":[[]," Grasping Vines when you take a Critical Strike Nearby stationary Enemies gain a Grasping Vine every 0.5 seconds "],
+  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes":[null,"Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes "],
+  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[null,"Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes "],
+  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way":[null,"Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way "],
+  "You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[null,"Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes "],
+  "You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way":[null,"Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way "],
   "You gain Divinity for 10 seconds on reaching maximum Divine Charges":[[{
         "flags":0,
         "keywordFlags":0,
@@ -119407,6 +120156,17 @@
         }
       }],"an Endurance Charge  You gain   per Endurance Charge when Hit "],
   "You grant 6 Frenzy Charges to allies on Death":[null,"You grant 6 Frenzy Charges to allies on Death "],
+  "You have Arcane Surge during Effect of any Mana Flask":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:ArcaneSurge",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"UsingManaFlask"
+        }
+      }]],
   "You have Consecrated Ground around you while":[null,"Consecrated Ground around you while "],
   "You have Consecrated Ground around you while stationary":[[{
         "flags":0,
@@ -119466,6 +120226,18 @@
           "actor":"enemy",
           "type":"ActorCondition",
           "var":"Cursed"
+        }
+      }]],
+  "You have Diamond Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:DiamondShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
         }
       }]],
   "You have Elemental Conflux if the stars are aligned":[[{
@@ -120034,6 +120806,18 @@
         "1":{
           "type":"Condition",
           "var":"AffectedByCat'sStealth"
+        }
+      }]],
+  "You have Resistance Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:ResistanceShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
         }
       }]],
   "You have Resolute Technique while you do not have Elemental Overload":[[{
@@ -121327,6 +122111,7 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Your Warcries inflict Hallowing Flame":[null,"Your Warcries inflict Hallowing Flame "],
   "Your hits can't be Evaded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -121448,7 +122233,7 @@
   "also grant an equal chance to gain a Frenzy Charge on Kill":[null,"also grant an equal chance to gain a Frenzy Charge on Kill "],
   "also grant an equal chance to gain a Power Charge on Kill":[null,"also grant an equal chance to gain a Power Charge on Kill "],
   "also grant an equal chance to gain an Endurance Charge on Kill":[null,"also grant an equal chance to gain an Endurance Charge on Kill "],
-  "and nearby Allies Regenerate 200 Life per second":[[{
+  "and nearby Allies Regenerate 400 Life per second":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraAura",
@@ -121459,7 +122244,7 @@
             "keywordFlags":0,
             "name":"LifeRegen",
             "type":"BASE",
-            "value":200
+            "value":400
           }
         },
         "1":{
@@ -121469,6 +122254,8 @@
       }]],
   "be inflicted on a nearby Minion instead":[null,"be inflicted on a nearby Minion instead "],
   "be inflicted on a nearby Minion instead Limited to 1 Runegraft of Loyalty":[null,"be inflicted on a nearby Minion instead Limited to 1 Runegraft of Loyalty "],
+  "each Herald affecting you, up to a maximum of 40%":[null,"each Herald affecting you, up to a maximum of 40% "],
+  "each remaining Chain, up to a maximum of 100%":[null,"each remaining Chain, up to a maximum of 100% "],
   "grant 100% increased Flask Charges":[null,"grant 100% increased Flask Charges "],
   "grant 40% increased Flask Charges":[null,"grant 40% increased Flask Charges "],
   "grant 40% increased Flask Charges Melee Hits have 20% chance to Fortify":[null,"grant 40% increased Flask Charges Melee Hits have 20% chance to Fortify "],
@@ -121477,12 +122264,16 @@
   "more than once every 0.3 seconds Lose all Defiance when you reach 10 Defiance Gain 3% of Missing Unreserved Life before being Hit by an Enemy Per Defiance":[null,"more than once every 0.3 seconds Lose all Defiance when you reach 10 Defiance Gain 3% of Missing Unreserved Life before being Hit by an Enemy Per Defiance "],
   "per Tribe for which you have an allocated Tattoo":[null,"per Tribe for which you have an allocated Tattoo "],
   "per Tribe for which you have an allocated Tattoo Limited to 1 Ancestral Tattoo":[null,"per Tribe for which you have an allocated Tattoo Limited to 1 Ancestral Tattoo "],
+  "second, up to a maximum of 100%":[null,"second, up to a maximum of 100% "],
   "to surrounding targets":[null,"to surrounding targets "],
   "to surrounding targets 15% increased Attack Damage":[null,"to surrounding targets 15% increased Attack Damage "],
   "to surrounding targets while wielding a Mace":[null,"to surrounding targets while wielding a Mace "],
   "to surrounding targets while wielding a Mace With at least 40 Dexterity in Radius, Dual Strike has 30% increased":[null,"to surrounding targets while wielding a Mace With at least 40 Dexterity in Radius, Dual Strike has 30% increased "],
   "until you take no Damage to Life for 2 seconds":[null,"until you take no Damage to Life for 2 seconds "],
   "until you take no Damage to Life for 2 seconds 30% more Maximum Life":[null,"until you take no Damage to Life for 2 seconds 30% more Maximum Life "],
+  "up to a maximum of 150%":[null,"up to a maximum of 150% "],
+  "up to a maximum of 150% Damageable Minions take 5% increased Damage for each second they have been alive,\nup to a maximum of 50%":[null,"up to a maximum of 150% Damageable Minions take 5% increased Damage for each second they have been alive,\nup to a maximum of 50% "],
+  "up to a maximum of 50%":[null,"up to a maximum of 50% "],
   "used if you've Hit an enemy with a Weapon Recently":[null,"used if you've Hit an enemy with a Weapon Recently "],
   "your maximum number of Crab Barriers":[null,"your maximum number of Crab Barriers "],
   "your maximum number of Power Charges":[null,"your maximum number of Power Charges "]
