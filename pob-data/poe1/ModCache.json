@@ -72244,10 +72244,20 @@
   "Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have Non-Animated, Non-Manifested Minions":[null,"Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets You cannot have Non-Animated, Non-Manifested Minions "],
   "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets "],
   "Animated Minions' Melee Attacks deal Splash Damage to surrounding targets Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets":[null,"Animated Minions' Melee Attacks deal Splash Damage to surrounding targets Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets "],
-  "Arcane Surge also grants 10% more Spell Damage to you":[null,"Arcane Surge also grants 10% more Spell Damage to you "],
-  "Arcane Surge also grants 10% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell":[null,"Arcane Surge also grants 10% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell "],
-  "Arcane Surge also grants 20% more Spell Damage to you":[null,"Arcane Surge also grants 20% more Spell Damage to you "],
-  "Arcane Surge also grants 20% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell":[null,"Arcane Surge also grants 20% more Spell Damage to you Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell "],
+  "Arcane Surge also grants 10% more Spell Damage to you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArcaneSurgeDamage",
+        "type":"MAX",
+        "value":10
+      }]],
+  "Arcane Surge also grants 20% more Spell Damage to you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArcaneSurgeDamage",
+        "type":"MAX",
+        "value":20
+      }]],
   "Arctic Armour has no Reservation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80492,7 +80502,7 @@
         "type":"LIST",
         "value":"Elemental Equilibrium"
       }]],
-  "Elemental Hit's Added Damage cannot be replaced this way":[null,"Elemental Hit's Added Damage cannot be replaced this way "],
+  "Elemental Hit's Added Damage cannot be replaced this way":[[]],
   "Elemental Overload":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85112,13 +85122,6 @@
         "value":true
       }]],
   "Gain 3 Rage when Hit by an Enemy":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Condition:CanGainRage",
-        "type":"FLAG",
-        "value":true
-      }]],
-  "Gain 3 Rage when you use a Life Flask":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"Condition:CanGainRage",
@@ -94084,7 +94087,31 @@
   "Minions can hear the whispers for 5 seconds after they deal a Critical Strike":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MinionModifier",
+        "name":"ExtraSkillMod",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Speed",
+            "type":"INC",
+            "value":50,
+            "1":{
+              "effectType":"Global",
+              "type":"GlobalEffect",
+              "unscalable":true
+            },
+            "2":{
+              "neg":true,
+              "type":"Condition",
+              "var":"NeverCrit"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkillMod",
         "type":"LIST",
         "value":{
           "mod":{
@@ -94094,6 +94121,11 @@
             "type":"INC",
             "value":50,
             "1":{
+              "effectType":"Global",
+              "type":"GlobalEffect",
+              "unscalable":true
+            },
+            "2":{
               "neg":true,
               "type":"Condition",
               "var":"NeverCrit"
@@ -94103,26 +94135,7 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":1,
-            "keywordFlags":0,
-            "name":"Speed",
-            "type":"INC",
-            "value":50,
-            "1":{
-              "neg":true,
-              "type":"Condition",
-              "var":"NeverCrit"
-            }
-          }
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
+        "name":"ExtraSkillMod",
         "type":"LIST",
         "value":{
           "mod":{
@@ -94137,6 +94150,11 @@
               "type":"PercentStat"
             },
             "2":{
+              "effectType":"Global",
+              "type":"GlobalEffect",
+              "unscalable":true
+            },
+            "3":{
               "neg":true,
               "type":"Condition",
               "var":"NeverCrit"
@@ -100784,13 +100802,6 @@
       }]],
   "Projectile Barrages have no spread":[null,"Projectile Barrages have no spread "],
   "Projectile Barrages have no spread You take no Extra Damage from Critical Strikes while Elusive":[null,"Projectile Barrages have no spread You take no Extra Damage from Critical Strikes while Elusive "],
-  "Projectiles Chain +1 times":[[{
-        "flags":1024,
-        "keywordFlags":0,
-        "name":"ChainCountMax",
-        "type":"BASE",
-        "value":1
-      }]],
   "Projectiles Chain +1 times while you have Phasing":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -119903,11 +119914,28 @@
       }]],
   "You gain 3 Grasping Vines when you take a Critical Strike":[[]," Grasping Vines when you take a Critical Strike "],
   "You gain 3 Grasping Vines when you take a Critical Strike Nearby stationary Enemies gain a Grasping Vine every 0.5 seconds":[[]," Grasping Vines when you take a Critical Strike Nearby stationary Enemies gain a Grasping Vine every 0.5 seconds "],
-  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes":[null,"Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes "],
-  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[null,"Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes "],
-  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way":[null,"Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way "],
-  "You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[null,"Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes "],
-  "You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way":[null,"Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes Elemental Hit's Added Damage cannot be replaced this way "],
+  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AllAddedDamageAsCold",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"DexSingleHighestAttribute"
+        }
+      }]],
+  "You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AllAddedDamageAsLightning",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"IntSingleHighestAttribute"
+        }
+      }]],
   "You gain Divinity for 10 seconds on reaching maximum Divine Charges":[[{
         "flags":0,
         "keywordFlags":0,
