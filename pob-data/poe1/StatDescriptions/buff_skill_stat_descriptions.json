@@ -24,14 +24,14 @@
   "damage_taken_goes_to_mana_%":26,
   "display_bulwark_link_overrides_attack_block_and_maximum_attack_block":27,
   "display_critical_link_overrides_main_hand_critical_strike_chance":28,
-  "display_link_stuff":56,
+  "display_link_stuff":57,
   "display_skill_buff_grants_bleeding_immunity":29,
   "energy_shield_lost_per_minute":30,
   "flame_link_grants_chance_to_ignite_%":31,
   "herald_of_ice_cold_damage_+%":7,
   "herald_of_thunder_lightning_damage_+%":8,
   "life_leech_is_applied_to_remora_link_targets_instead":35,
-  "link_grace_period_8_second_override":56,
+  "link_grace_period_8_second_override":57,
   "parent":"skill_stat_descriptions",
   "petrified_blood_%_life_loss_below_half_from_hit_to_prevent":32,
   "petrified_blood_%_prevented_life_loss_to_lose_over_time":32,
@@ -62,12 +62,13 @@
   "spell_minimum_added_lightning_damage":5,
   "stealth_+%":9,
   "storm_blade_energy_shield_+%_final":51,
-  "unaffected_by_temporal_chains":52,
-  "vaal_molten_shall_armour_+%_final":53,
-  "virtual_flame_link_maximum_fire_damage":54,
-  "virtual_flame_link_minimum_fire_damage":54,
-  "virtual_storm_blade_maximum_lightning_damage":55,
-  "virtual_storm_blade_minimum_lightning_damage":55,
+  "storm_blade_global_attack_speed_+%":52,
+  "unaffected_by_temporal_chains":53,
+  "vaal_molten_shall_armour_+%_final":54,
+  "virtual_flame_link_maximum_fire_damage":55,
+  "virtual_flame_link_minimum_fire_damage":55,
+  "virtual_storm_blade_maximum_lightning_damage":56,
+  "virtual_storm_blade_minimum_lightning_damage":56,
   "1":{
     "name":"attack_added_fire",
     "stats":["attack_minimum_added_fire_damage","attack_maximum_added_fire_damage"],
@@ -648,6 +649,21 @@
       }]
   },
   "52":{
+    "name":"storm_blade_buff_attack_speed",
+    "stats":["storm_blade_global_attack_speed_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Buff grants {0}% increased Attack Speed"
+      },{
+        "limit":[["#",-1]],
+        "text":"Buff grants {0}% reduced Attack Speed",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "53":{
     "name":"unaffected_by_temporal_chains",
     "stats":["unaffected_by_temporal_chains"],
     "1":[{
@@ -659,7 +675,7 @@
         }
       }]
   },
-  "53":{
+  "54":{
     "name":"vaal_molten_shall_armour_incr",
     "stats":["vaal_molten_shall_armour_+%_final"],
     "1":[{
@@ -667,7 +683,7 @@
         "text":"Buff grants {0}% more Armour"
       }]
   },
-  "54":{
+  "55":{
     "name":"flame_link_added_damage",
     "stats":["virtual_flame_link_minimum_fire_damage","virtual_flame_link_maximum_fire_damage"],
     "1":[{
@@ -675,7 +691,7 @@
         "text":"Linked target gains {0} to {1} Added Fire Damage"
       }]
   },
-  "55":{
+  "56":{
     "name":"storm_blade_base_damage",
     "stats":["virtual_storm_blade_minimum_lightning_damage","virtual_storm_blade_maximum_lightning_damage"],
     "1":[{
@@ -683,7 +699,7 @@
         "text":"Energy Blades have {0} to {1} Lightning Damage"
       }]
   },
-  "56":{
+  "57":{
     "name":"link_stuff",
     "stats":["display_link_stuff","link_grace_period_8_second_override"],
     "1":[{

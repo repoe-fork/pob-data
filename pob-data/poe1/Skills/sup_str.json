@@ -349,6 +349,7 @@
       "60":true,
       "72":true,
       "82":true,
+      "101":true,
       "126":true
     },
     "statDescriptionScope":"debuff_skill_stat_descriptions",
@@ -814,6 +815,96 @@
         }]
     },
     "stats":["support_spirit_strike_damage_+%_final"],
+    "support":true
+  },
+  "SupportAnnhilation":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports any skill that hits enemies.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":25
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":35
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":42
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":45
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":47
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":50
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":52
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":55
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":57
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":62
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":65
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":67
+      }],
+    "name":"Annihilation",
+    "qualityStats":{
+      "Default":[["explode_enemies_for_10%_life_as_random_element_on_killing_blow_chance_%",0.25]]
+    },
+    "requireSkillTypes":[10,1],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["explode_enemies_for_10%_life_as_random_element_on_killing_blow_chance_%"],
     "support":true
   },
   "SupportArrogance":{
@@ -3198,6 +3289,270 @@
     "stats":["melee_range_+","support_executioner_damage_vs_enemies_on_low_life_+%_final"],
     "support":true
   },
+  "SupportBlessedCall":{
+    "addSkillTypes":[12],
+    "color":1,
+    "constantStats":[["warcry_cooldown_speed_+%",-20]],
+    "description":"Supports Warcries that are not triggered. Supported Warcries create Consecrated Ground, but have lowered area of effect and cooldown recovery.",
+    "excludeSkillTypes":[41],
+    "levels":[{
+        "levelRequirement":31,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4100,
+        "2":-49
+      },{
+        "levelRequirement":34,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4200,
+        "2":-49
+      },{
+        "levelRequirement":36,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4300,
+        "2":-48
+      },{
+        "levelRequirement":38,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4400,
+        "2":-48
+      },{
+        "levelRequirement":40,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4500,
+        "2":-47
+      },{
+        "levelRequirement":42,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4600,
+        "2":-47
+      },{
+        "levelRequirement":44,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4700,
+        "2":-46
+      },{
+        "levelRequirement":46,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4800,
+        "2":-46
+      },{
+        "levelRequirement":48,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":4900,
+        "2":-45
+      },{
+        "levelRequirement":50,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5000,
+        "2":-45
+      },{
+        "levelRequirement":52,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5100,
+        "2":-44
+      },{
+        "levelRequirement":54,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5200,
+        "2":-44
+      },{
+        "levelRequirement":56,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5300,
+        "2":-43
+      },{
+        "levelRequirement":58,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5400,
+        "2":-43
+      },{
+        "levelRequirement":60,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5500,
+        "2":-42
+      },{
+        "levelRequirement":62,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5600,
+        "2":-42
+      },{
+        "levelRequirement":64,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5700,
+        "2":-41
+      },{
+        "levelRequirement":66,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5800,
+        "2":-41
+      },{
+        "levelRequirement":68,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":5900,
+        "2":-40
+      },{
+        "levelRequirement":70,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6000,
+        "2":-40
+      },{
+        "levelRequirement":72,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6100,
+        "2":-39
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6200,
+        "2":-39
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6300,
+        "2":-38
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6400,
+        "2":-38
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6500,
+        "2":-37
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6600,
+        "2":-37
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6700,
+        "2":-36
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6800,
+        "2":-36
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":6900,
+        "2":-35
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7000,
+        "2":-35
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7100,
+        "2":-34
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7200,
+        "2":-34
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7300,
+        "2":-33
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7400,
+        "2":-33
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7500,
+        "2":-32
+      },{
+        "levelRequirement":96,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7600,
+        "2":-32
+      },{
+        "levelRequirement":97,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7700,
+        "2":-31
+      },{
+        "levelRequirement":98,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7800,
+        "2":-31
+      },{
+        "levelRequirement":99,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":7900,
+        "2":-30
+      },{
+        "levelRequirement":100,
+        "manaMultiplier":15,
+        "statInterpolation":[1,1],
+        "1":8000,
+        "2":-30
+      }],
+    "name":"Blessed Call",
+    "qualityStats":{
+      "Default":[["warcry_speed_+%",0.5]]
+    },
+    "requireSkillTypes":[73],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "consecrated_cry_warcry_area_of_effect_+%_final":[{
+          "flags":0,
+          "keywordFlags":4,
+          "name":"AreaOfEffect",
+          "type":"MORE"
+        }]
+    },
+    "stats":["consecrated_cry_consecrated_ground_duration_ms","consecrated_cry_warcry_area_of_effect_+%_final"],
+    "support":true
+  },
   "SupportBloodlust":{
     "addSkillTypes":[],
     "color":1,
@@ -3424,6 +3779,167 @@
         }]
     },
     "stats":["support_bloodlust_melee_physical_damage_+%_final_vs_bleeding_enemies","cannot_cause_bleeding"],
+    "support":true
+  },
+  "SupportBloodsoakedBanner":{
+    "addSkillTypes":[39,12],
+    "baseEffectiveness":0.079999998211861,
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"debuff",
+          "value":true
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"dotIsCorruptingBlood",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":{
+          "div":8,
+          "type":"Multiplier",
+          "var":"ValourStacks"
+        },
+        "keywordFlags":0,
+        "name":"Multiplier:BloodsoakedBannerMaxStages",
+        "type":"BASE",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":16777216,
+        "name":"Damage",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "type":"Multiplier",
+          "var":"BloodsoakedBannerStageAfterFirst"
+        }
+      }],
+    "color":1,
+    "constantStats":[["support_bloodstained_banner_apply_corrupted_blood_every_x_ms",1000],["support_bloodstained_banner_apply_corrupted_blood_duration_ms",8000]],
+    "description":"Supports banner skills. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[],
+    "ignoreMinionTypes":true,
+    "incrementalEffectiveness":0.050000000745058,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":900,
+        "statInterpolation":[3],
+        "1":16.666667039196
+      }],
+    "name":"Bloodsoaked Banner",
+    "notMinionStat":["support_bloodstained_banner_corrupted_blood_base_physical_damage_to_deal_per_minute_per_valour"],
+    "qualityStats":{
+      "Default":[["base_skill_area_of_effect_+%",0.5]]
+    },
+    "requireSkillTypes":[99],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_bloodstained_banner_apply_corrupted_blood_duration_ms":{
+        "div":1000,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"durationSecondary"
+          }
+        }
+      },
+      "support_bloodstained_banner_corrupted_blood_base_physical_damage_to_deal_per_minute_per_valour":{
+        "div":60,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"PhysicalDot"
+          },
+          "1":{
+            "type":"Multiplier",
+            "var":"ValourStacks"
+          }
+        }
+      }
+    },
+    "stats":["support_bloodstained_banner_corrupted_blood_base_physical_damage_to_deal_per_minute_per_valour","base_skill_cost_life_instead_of_mana"],
     "support":true
   },
   "SupportBloodthirst":{
@@ -3699,7 +4215,7 @@
         "levelRequirement":18,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":0,
+        "1":24,
         "2":0
       },{
         "baseMultiplier":2.353,
@@ -3708,7 +4224,7 @@
         "levelRequirement":22,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":0,
+        "1":24,
         "2":2
       },{
         "baseMultiplier":2.4,
@@ -3717,7 +4233,7 @@
         "levelRequirement":26,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":0,
+        "1":24,
         "2":4
       },{
         "baseMultiplier":2.448,
@@ -3726,7 +4242,7 @@
         "levelRequirement":29,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":0,
+        "1":24,
         "2":6
       },{
         "baseMultiplier":2.497,
@@ -3735,7 +4251,7 @@
         "levelRequirement":32,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":0,
+        "1":24,
         "2":8
       },{
         "baseMultiplier":2.547,
@@ -3744,7 +4260,7 @@
         "levelRequirement":35,
         "statInterpolation":[1,1],
         "storedUses":2,
-        "1":1,
+        "1":25,
         "2":10
       },{
         "baseMultiplier":2.598,
@@ -3753,7 +4269,7 @@
         "levelRequirement":38,
         "statInterpolation":[1,1],
         "storedUses":2,
-        "1":1,
+        "1":25,
         "2":12
       },{
         "baseMultiplier":2.649,
@@ -3762,7 +4278,7 @@
         "levelRequirement":41,
         "statInterpolation":[1,1],
         "storedUses":2,
-        "1":1,
+        "1":25,
         "2":14
       },{
         "baseMultiplier":2.702,
@@ -3771,7 +4287,7 @@
         "levelRequirement":44,
         "statInterpolation":[1,1],
         "storedUses":2,
-        "1":1,
+        "1":25,
         "2":16
       },{
         "baseMultiplier":2.757,
@@ -3780,7 +4296,7 @@
         "levelRequirement":47,
         "statInterpolation":[1,1],
         "storedUses":2,
-        "1":1,
+        "1":25,
         "2":18
       },{
         "baseMultiplier":2.812,
@@ -3789,7 +4305,7 @@
         "levelRequirement":50,
         "statInterpolation":[1,1],
         "storedUses":3,
-        "1":2,
+        "1":26,
         "2":20
       },{
         "baseMultiplier":2.868,
@@ -3798,7 +4314,7 @@
         "levelRequirement":53,
         "statInterpolation":[1,1],
         "storedUses":3,
-        "1":2,
+        "1":26,
         "2":22
       },{
         "baseMultiplier":2.925,
@@ -3807,7 +4323,7 @@
         "levelRequirement":56,
         "statInterpolation":[1,1],
         "storedUses":3,
-        "1":2,
+        "1":26,
         "2":24
       },{
         "baseMultiplier":2.984,
@@ -3816,7 +4332,7 @@
         "levelRequirement":58,
         "statInterpolation":[1,1],
         "storedUses":3,
-        "1":2,
+        "1":26,
         "2":26
       },{
         "baseMultiplier":3.043,
@@ -3825,7 +4341,7 @@
         "levelRequirement":60,
         "statInterpolation":[1,1],
         "storedUses":3,
-        "1":2,
+        "1":26,
         "2":28
       },{
         "baseMultiplier":3.104,
@@ -3834,7 +4350,7 @@
         "levelRequirement":62,
         "statInterpolation":[1,1],
         "storedUses":4,
-        "1":3,
+        "1":27,
         "2":30
       },{
         "baseMultiplier":3.166,
@@ -3843,7 +4359,7 @@
         "levelRequirement":64,
         "statInterpolation":[1,1],
         "storedUses":4,
-        "1":3,
+        "1":27,
         "2":32
       },{
         "baseMultiplier":3.23,
@@ -3852,7 +4368,7 @@
         "levelRequirement":66,
         "statInterpolation":[1,1],
         "storedUses":4,
-        "1":3,
+        "1":27,
         "2":34
       },{
         "baseMultiplier":3.294,
@@ -3861,7 +4377,7 @@
         "levelRequirement":68,
         "statInterpolation":[1,1],
         "storedUses":4,
-        "1":3,
+        "1":27,
         "2":36
       },{
         "baseMultiplier":3.36,
@@ -3870,7 +4386,7 @@
         "levelRequirement":70,
         "statInterpolation":[1,1],
         "storedUses":4,
-        "1":3,
+        "1":27,
         "2":38
       },{
         "baseMultiplier":3.427,
@@ -3879,7 +4395,7 @@
         "levelRequirement":72,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":4,
+        "1":28,
         "2":40
       },{
         "baseMultiplier":3.496,
@@ -3888,7 +4404,7 @@
         "levelRequirement":74,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":4,
+        "1":28,
         "2":42
       },{
         "baseMultiplier":3.566,
@@ -3897,7 +4413,7 @@
         "levelRequirement":76,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":4,
+        "1":28,
         "2":44
       },{
         "baseMultiplier":3.637,
@@ -3906,7 +4422,7 @@
         "levelRequirement":78,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":4,
+        "1":28,
         "2":46
       },{
         "baseMultiplier":3.71,
@@ -3915,7 +4431,7 @@
         "levelRequirement":80,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":4,
+        "1":28,
         "2":48
       },{
         "baseMultiplier":3.784,
@@ -3924,7 +4440,7 @@
         "levelRequirement":82,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":5,
+        "1":29,
         "2":50
       },{
         "baseMultiplier":3.86,
@@ -3933,7 +4449,7 @@
         "levelRequirement":84,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":5,
+        "1":29,
         "2":52
       },{
         "baseMultiplier":3.937,
@@ -3942,7 +4458,7 @@
         "levelRequirement":86,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":5,
+        "1":29,
         "2":54
       },{
         "baseMultiplier":4.016,
@@ -3951,7 +4467,7 @@
         "levelRequirement":88,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":5,
+        "1":29,
         "2":56
       },{
         "baseMultiplier":4.096,
@@ -3960,7 +4476,7 @@
         "levelRequirement":90,
         "statInterpolation":[1,1],
         "storedUses":5,
-        "1":5,
+        "1":29,
         "2":58
       },{
         "baseMultiplier":4.22,
@@ -3969,7 +4485,7 @@
         "levelRequirement":91,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":6,
+        "1":30,
         "2":59
       },{
         "baseMultiplier":4.262,
@@ -3978,7 +4494,7 @@
         "levelRequirement":92,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":6,
+        "1":30,
         "2":60
       },{
         "baseMultiplier":4.305,
@@ -3987,7 +4503,7 @@
         "levelRequirement":93,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":6,
+        "1":30,
         "2":61
       },{
         "baseMultiplier":4.348,
@@ -3996,7 +4512,7 @@
         "levelRequirement":94,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":6,
+        "1":30,
         "2":62
       },{
         "baseMultiplier":4.391,
@@ -4005,7 +4521,7 @@
         "levelRequirement":95,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":6,
+        "1":30,
         "2":63
       },{
         "baseMultiplier":4.435,
@@ -4014,7 +4530,7 @@
         "levelRequirement":96,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":7,
+        "1":31,
         "2":64
       },{
         "baseMultiplier":4.479,
@@ -4023,7 +4539,7 @@
         "levelRequirement":97,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":7,
+        "1":31,
         "2":65
       },{
         "baseMultiplier":4.524,
@@ -4032,7 +4548,7 @@
         "levelRequirement":98,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":7,
+        "1":31,
         "2":66
       },{
         "baseMultiplier":4.569,
@@ -4041,7 +4557,7 @@
         "levelRequirement":99,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":7,
+        "1":31,
         "2":67
       },{
         "baseMultiplier":4.615,
@@ -4050,11 +4566,11 @@
         "levelRequirement":100,
         "statInterpolation":[1,1],
         "storedUses":6,
-        "1":7,
+        "1":31,
         "2":68
       }],
     "name":"Shockwave",
-    "notMinionStat":["active_skill_base_radius_+","base_cooldown_speed_+%"],
+    "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":{
       "Default":[["melee_damage_+%",0.5]]
     },
@@ -4065,16 +4581,79 @@
       "24":true,
       "35":true,
       "41":true,
+      "101":true,
       "126":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
-    "stats":["active_skill_base_radius_+","base_cooldown_speed_+%","is_area_damage","triggered_by_shockwave_support"],
+    "stats":["active_skill_base_area_of_effect_radius","base_cooldown_speed_+%","is_area_damage","triggered_by_shockwave_support"],
     "weaponTypes":{
       "One Handed Mace":true,
       "Sceptre":true,
       "Staff":true,
       "Two Handed Mace":true
     }
+  },
+  "SupportBonespire":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["support_trigger_seize_the_flesh_on_warcry_chance_%",100]],
+    "description":"Supports warcry skills you use yourself.",
+    "excludeSkillTypes":[41,40,36,134,106],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":30
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":30
+      }],
+    "name":"Bonespire",
+    "requireSkillTypes":[73],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_trigger_seize_the_flesh_on_warcry_chance_%":[]
+    },
+    "stats":[],
+    "support":true
   },
   "SupportBrutality":{
     "addSkillTypes":[],
@@ -5610,7 +6189,7 @@
     "qualityStats":{
       "Default":[["bleeding_damage_+%",0.5]]
     },
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[1,55],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_chance_to_bleed_bleeding_damage_+%_final":[{
@@ -7138,6 +7717,190 @@
     "stats":["support_damage_while_on_full_life_+%_final"],
     "support":true
   },
+  "SupportDivineSentinel":{
+    "addSkillTypes":[],
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsFire",
+        "type":"BASE",
+        "value":15,
+        "1":{
+          "effectType":"Aura",
+          "type":"GlobalEffect",
+          "unscalable":true
+        },
+        "2":{
+          "type":"Condition",
+          "var":"DivineSentinelPhysAsFire"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsLightning",
+        "type":"BASE",
+        "value":15,
+        "1":{
+          "effectType":"Aura",
+          "type":"GlobalEffect",
+          "unscalable":true
+        },
+        "2":{
+          "type":"Condition",
+          "var":"DivineSentinelPhysAsLightning"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeRegenPercent",
+        "type":"BASE",
+        "value":1.5,
+        "1":{
+          "effectType":"Aura",
+          "type":"GlobalEffect",
+          "unscalable":true
+        },
+        "2":{
+          "type":"Condition",
+          "var":"DivineSentinelRegenLife"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "effectType":"Aura",
+          "type":"GlobalEffect",
+          "unscalable":true
+        },
+        "2":{
+          "type":"Condition",
+          "var":"DivineSentinelRegenMana"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosResist",
+        "type":"BASE",
+        "value":23,
+        "1":{
+          "effectType":"Aura",
+          "type":"GlobalEffect",
+          "unscalable":true
+        },
+        "2":{
+          "type":"Condition",
+          "var":"DivineSentinelChaosResistance"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffectOnSelf",
+        "type":"INC",
+        "value":-50,
+        "1":{
+          "effectType":"Aura",
+          "type":"GlobalEffect",
+          "unscalable":true
+        },
+        "2":{
+          "type":"Condition",
+          "var":"DivineSentinelSelfCurseEffect"
+        }
+      }],
+    "color":1,
+    "description":"Supports skills that create sentinel minions, causing those minions to be created with a beneficial templar aura.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":38
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":46
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":54
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":58
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":62
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":66
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":70
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":74
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":78
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":82
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":86
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":90
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":94
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "1":98
+      }],
+    "name":"Divine Sentinel",
+    "qualityStats":{
+      "Default":[["minion_maximum_life_+%",0.5]]
+    },
+    "requireSkillTypes":[88,140],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "summoned_sentinels_have_random_templar_aura":[]
+    },
+    "stats":["minion_area_of_effect_+%","summoned_sentinels_have_random_templar_aura"],
+    "support":true
+  },
   "SupportElementalDamageWithAttacks":{
     "addSkillTypes":[],
     "baseEffectiveness":0,
@@ -7871,6 +8634,272 @@
     "stats":["aura_effect_+%","skill_aura_also_disables_non_blessing_mana_reservation_skills","skill_is_blessing_skill","base_skill_no_reservation"],
     "support":true
   },
+  "SupportExcommunicate":{
+    "addSkillTypes":[12],
+    "color":1,
+    "constantStats":[["support_excommunicate_on_melee_attack_hit_for_X_ms",3000]],
+    "description":"Supports melee attacks. Does not modify skills used by minions.",
+    "excludeSkillTypes":[],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":31,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":7
+      },{
+        "levelRequirement":34,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":8
+      },{
+        "levelRequirement":36,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":8
+      },{
+        "levelRequirement":38,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":9
+      },{
+        "levelRequirement":40,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":9
+      },{
+        "levelRequirement":42,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":10
+      },{
+        "levelRequirement":44,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":10
+      },{
+        "levelRequirement":46,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":11
+      },{
+        "levelRequirement":48,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":11
+      },{
+        "levelRequirement":50,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":12
+      },{
+        "levelRequirement":52,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":13,
+        "2":12
+      },{
+        "levelRequirement":54,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":13,
+        "2":13
+      },{
+        "levelRequirement":56,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":13,
+        "2":13
+      },{
+        "levelRequirement":58,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":14,
+        "2":13
+      },{
+        "levelRequirement":60,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":14,
+        "2":14
+      },{
+        "levelRequirement":62,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":15,
+        "2":14
+      },{
+        "levelRequirement":64,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":15,
+        "2":15
+      },{
+        "levelRequirement":66,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":16,
+        "2":15
+      },{
+        "levelRequirement":68,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":16,
+        "2":16
+      },{
+        "levelRequirement":70,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":17,
+        "2":16
+      },{
+        "levelRequirement":72,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":17,
+        "2":17
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":17,
+        "2":17
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":18,
+        "2":17
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":18,
+        "2":18
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":19,
+        "2":18
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":19,
+        "2":19
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":20,
+        "2":19
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":20,
+        "2":20
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":21,
+        "2":20
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":21,
+        "2":21
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":22,
+        "2":21
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":22,
+        "2":22
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":22,
+        "2":22
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":23,
+        "2":22
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":23,
+        "2":23
+      },{
+        "levelRequirement":96,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":24,
+        "2":23
+      },{
+        "levelRequirement":97,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":24,
+        "2":24
+      },{
+        "levelRequirement":98,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":25,
+        "2":24
+      },{
+        "levelRequirement":99,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":25,
+        "2":25
+      },{
+        "levelRequirement":100,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":26,
+        "2":25
+      }],
+    "name":"Excommunicate",
+    "qualityStats":{
+      "Default":[["physical_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[24],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_excommunicate_on_melee_attack_hit_for_X_ms":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Condition:CanExcommunicate",
+          "type":"FLAG",
+          "value":true
+        }]
+    },
+    "stats":["physical_damage_%_to_add_as_lightning","physical_damage_%_to_add_as_fire"],
+    "support":true
+  },
   "SupportExpertRetaliation":{
     "addSkillTypes":[],
     "color":1,
@@ -8347,6 +9376,68 @@
     "requireSkillTypes":[10,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_reduce_enemy_fire_resistance_%"],
+    "support":true
+  },
+  "SupportFissure":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["support_fissure_trigger_fissure_on_slam_skill_impact_chance_%",100]],
+    "description":"Supports slam skills you use yourself, causing them to create fissures when impacting the ground.",
+    "excludeSkillTypes":[41,40,36,134,106,30],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40
+      }],
+    "name":"Fissure",
+    "requireSkillTypes":[103],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_fissure_trigger_fissure_on_slam_skill_impact_chance_%":[]
+    },
+    "stats":["supported_skill_can_only_use_axe_mace_and_staff"],
     "support":true
   },
   "SupportFistofWar":{
@@ -9272,6 +10363,284 @@
     "stats":["non_curse_aura_effect_+%","aura_cannot_affect_self"],
     "support":true
   },
+  "SupportGreaterAncestralCall":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["melee_attack_number_of_spirit_strikes",3]],
+    "description":"Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
+    "excludeSkillTypes":[60,41,42],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":20
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":50
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":55
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":65
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":70
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":75
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":80
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":85
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":90
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":95
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":100
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":105
+      }],
+    "name":"Greater Ancestral Call",
+    "notMinionStat":["extra_target_targeting_distance_+%"],
+    "plusVersionOf":"SupportAncestralCall",
+    "qualityStats":{
+      "Default":[["melee_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[25],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["extra_target_targeting_distance_+%"],
+    "support":true
+  },
+  "SupportGreaterMultistrike":{
+    "addSkillTypes":[133],
+    "color":1,
+    "constantStats":[["base_melee_attack_repeat_count",3],["multistrike_damage_+%_final_on_first_repeat",22],["multistrike_damage_+%_final_on_second_repeat",44],["multistrike_damage_+%_final_on_third_repeat",66],["support_multiple_attack_damage_+%_final",-20],["repeat_target_selection_distance_from_initial_target_bias",3]],
+    "description":"Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
+    "excludeSkillTypes":[42,105,88,85,84],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":45
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":50
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":55
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":57
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":62
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":65
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":67
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":70
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":72
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":75
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":77
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":80
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":60,
+        "statInterpolation":[1],
+        "1":82
+      }],
+    "name":"Greater Multistrike",
+    "plusVersionOf":"SupportMultistrike",
+    "qualityStats":{
+      "Default":[["melee_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[28],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "multistrike_damage_+%_final_on_first_repeat":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"RepeatOneDamage",
+          "type":"MORE",
+          "1":{
+            "modFlags":83886080,
+            "type":"ModFlagOr"
+          },
+          "2":{
+            "type":"Condition",
+            "varList":["averageRepeat","alwaysFinalRepeat"]
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"RepeatOneDamage",
+          "type":"MORE",
+          "1":{
+            "skillType":13,
+            "type":"SkillType"
+          },
+          "2":{
+            "type":"Condition",
+            "varList":["averageRepeat","alwaysFinalRepeat"]
+          }
+        }],
+      "multistrike_damage_+%_final_on_second_repeat":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"RepeatTwoDamage",
+          "type":"MORE",
+          "1":{
+            "modFlags":83886080,
+            "type":"ModFlagOr"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"RepeatTwoDamage",
+          "type":"MORE",
+          "1":{
+            "skillType":13,
+            "type":"SkillType"
+          }
+        }],
+      "multistrike_damage_+%_final_on_third_repeat":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"RepeatThreeDamage",
+          "type":"MORE",
+          "1":{
+            "modFlags":83886080,
+            "type":"ModFlagOr"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"RepeatThreeDamage",
+          "type":"MORE",
+          "1":{
+            "skillType":13,
+            "type":"SkillType"
+          }
+        }],
+      "support_multiple_attack_damage_+%_final":[{
+          "flags":1,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE"
+        }],
+      "support_multiple_attacks_melee_attack_speed_+%_final":[{
+          "flags":1,
+          "keywordFlags":0,
+          "name":"Speed",
+          "type":"MORE",
+          "1":{
+            "modFlags":83886080,
+            "type":"ModFlagOr"
+          }
+        },{
+          "flags":1,
+          "keywordFlags":0,
+          "name":"Speed",
+          "type":"MORE",
+          "1":{
+            "skillType":13,
+            "type":"SkillType"
+          }
+        }]
+    },
+    "stats":["support_multiple_attacks_melee_attack_speed_+%_final"],
+    "support":true
+  },
   "SupportGuardiansBlessing":{
     "addSkillTypes":[119],
     "baseMods":[{
@@ -9800,6 +11169,223 @@
       }
     },
     "stats":["support_guardians_blessing_minion_physical_damage_%_of_maximum_life_and_ES_taken_per_minute","support_guardians_blessing_summoned_minions_are_guardians_blessing_minions"],
+    "support":true
+  },
+  "SupportHallow":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["hallowing_flame_duration_ms",6000]],
+    "description":"Supports melee attacks you use yourself. Does not modify skills used by minions.",
+    "excludeSkillTypes":[30,40,106,36],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":1,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":0
+      },{
+        "levelRequirement":2,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":0
+      },{
+        "levelRequirement":4,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":4
+      },{
+        "levelRequirement":7,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":4
+      },{
+        "levelRequirement":11,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":8
+      },{
+        "levelRequirement":16,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":8
+      },{
+        "levelRequirement":20,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":12
+      },{
+        "levelRequirement":24,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":12
+      },{
+        "levelRequirement":28,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":16
+      },{
+        "levelRequirement":32,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":16
+      },{
+        "levelRequirement":36,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":20
+      },{
+        "levelRequirement":40,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":20
+      },{
+        "levelRequirement":44,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":24
+      },{
+        "levelRequirement":48,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":24
+      },{
+        "levelRequirement":52,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":28
+      },{
+        "levelRequirement":56,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":28
+      },{
+        "levelRequirement":60,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":32
+      },{
+        "levelRequirement":64,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":32
+      },{
+        "levelRequirement":67,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":36
+      },{
+        "levelRequirement":70,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":36
+      },{
+        "levelRequirement":72,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":44
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":44
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":48
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":48
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":52
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":52
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":56
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":56
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":56
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":96,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":64
+      },{
+        "levelRequirement":97,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":64
+      },{
+        "levelRequirement":98,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":64
+      },{
+        "levelRequirement":99,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":64
+      },{
+        "levelRequirement":100,
+        "manaMultiplier":10,
+        "statInterpolation":[1],
+        "1":68
+      }],
+    "name":"Hallow",
+    "qualityStats":{
+      "Default":[["hallowing_flame_magnitude_+%",0.5]]
+    },
+    "requireSkillTypes":[24],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["hallowing_flame_magnitude_+%","support_hallow_inflict_hallowing_flame_on_melee_hit"],
     "support":true
   },
   "SupportInspiration":{
@@ -13433,210 +15019,249 @@
   "SupportOverexertion":{
     "addSkillTypes":[],
     "color":1,
-    "constantStats":[["support_overexertion_damage_+%_final_if_exerted",10]],
     "description":"Supports melee attack skills which can be exerted. Cannot modify the skills of minions. Vaal skills and channelling skills cannot be exerted.",
-    "excludeSkillTypes":[57,133],
+    "excludeSkillTypes":[57,133,41],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":12
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":10
       },{
         "levelRequirement":40,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":12
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":10
       },{
         "levelRequirement":42,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":13
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":10
       },{
         "levelRequirement":44,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":13
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":10
       },{
         "levelRequirement":46,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":13
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":11
       },{
         "levelRequirement":48,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":14
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":11
       },{
         "levelRequirement":50,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":14
+        "statInterpolation":[1,1],
+        "1":7,
+        "2":11
       },{
         "levelRequirement":52,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":14
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":11
       },{
         "levelRequirement":54,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":14
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":12
       },{
         "levelRequirement":56,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":15
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":12
       },{
         "levelRequirement":58,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":15
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":12
       },{
         "levelRequirement":60,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":15
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":12
       },{
         "levelRequirement":62,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":16
+        "statInterpolation":[1,1],
+        "1":8,
+        "2":13
       },{
         "levelRequirement":64,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":16
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":13
       },{
         "levelRequirement":65,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":16
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":13
       },{
         "levelRequirement":66,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":17
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":13
       },{
         "levelRequirement":67,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":17
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":14
       },{
         "levelRequirement":68,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":17
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":14
       },{
         "levelRequirement":69,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":17
+        "statInterpolation":[1,1],
+        "1":9,
+        "2":14
       },{
         "levelRequirement":70,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":18
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":14
       },{
         "levelRequirement":72,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":18
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":15
       },{
         "levelRequirement":74,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":18
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":15
       },{
         "levelRequirement":76,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":19
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":15
       },{
         "levelRequirement":78,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":19
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":15
       },{
         "levelRequirement":80,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":19
+        "statInterpolation":[1,1],
+        "1":10,
+        "2":16
       },{
         "levelRequirement":82,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":20
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":16
       },{
         "levelRequirement":84,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":20
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":16
       },{
         "levelRequirement":86,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":20
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":16
       },{
         "levelRequirement":88,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":20
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":17
       },{
         "levelRequirement":90,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":21
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":17
       },{
         "levelRequirement":91,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":21
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":17
       },{
         "levelRequirement":92,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":21
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":17
       },{
         "levelRequirement":93,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":21
+        "statInterpolation":[1,1],
+        "1":11,
+        "2":18
       },{
         "levelRequirement":94,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":21
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":18
       },{
         "levelRequirement":95,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":21
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":18
       },{
         "levelRequirement":96,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":22
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":18
       },{
         "levelRequirement":97,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":22
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":19
       },{
         "levelRequirement":98,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":22
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":19
       },{
         "levelRequirement":99,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":22
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":19
       },{
         "levelRequirement":100,
         "manaMultiplier":40,
-        "statInterpolation":[1],
-        "1":22
+        "statInterpolation":[1,1],
+        "1":12,
+        "2":19
       }],
     "name":"Overexertion",
     "qualityStats":{
@@ -13664,7 +15289,112 @@
           "type":"MORE"
         }]
     },
-    "stats":["support_overexertion_damage_+%_final_per_warcry_exerting_action"],
+    "stats":["support_overexertion_damage_+%_final_per_warcry_exerting_action","support_overexertion_damage_+%_final_if_exerted"],
+    "support":true
+  },
+  "SupportOverheat":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports melee attack skills you use yourself. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[30,36,40,106],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":6
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":7
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":8
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":9
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":9
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":10
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":10
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":11
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":11
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":12
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":12
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":13
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":13
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":14
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":14
+      }],
+    "name":"Overheat",
+    "notMinionStat":["support_overheat_ailment_damage_+%_final_per_3_fortification_consumed"],
+    "qualityStats":{
+      "Default":[["base_all_ailment_duration_+%",0.5]]
+    },
+    "requireSkillTypes":[24],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_overheat_ailment_damage_+%_final_per_3_fortification_consumed":[{
+          "flags":2048,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "div":3,
+            "stat":"RemovableFortification",
+            "type":"PerStat"
+          }
+        }]
+    },
+    "stats":["support_overheat_ailment_damage_+%_final_per_3_fortification_consumed"],
     "support":true
   },
   "SupportPulverise":{
@@ -13935,6 +15665,100 @@
         }]
     },
     "stats":["support_pulverise_melee_area_damage_+%_final","base_skill_area_of_effect_+%"],
+    "support":true
+  },
+  "SupportPyre":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["support_call_the_pyre_chance_to_trigger_call_the_pyre_on_melee_hit_vs_ignited_enemies_%",50]],
+    "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
+    "excludeSkillTypes":[41,40,36,134,106],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":72,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":74,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":76,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":78,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":80,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":82,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":84,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":86,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":88,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":90,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":91,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":92,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":93,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":94,
+        "manaMultiplier":30
+      },{
+        "PvPDamageMultiplier":-20,
+        "levelRequirement":95,
+        "manaMultiplier":30
+      }],
+    "name":"Pyre",
+    "requireSkillTypes":[24],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_call_the_pyre_chance_to_trigger_call_the_pyre_on_melee_hit_vs_ignited_enemies_%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"chanceToTriggerCallThePyreOnHit"
+          },
+          "1":{
+            "skillType":24,
+            "type":"SkillType"
+          },
+          "2":{
+            "actor":"enemy",
+            "type":"ActorCondition",
+            "var":"Ignited"
+          }
+        }]
+    },
+    "stats":[],
     "support":true
   },
   "SupportRage":{
@@ -15053,6 +16877,129 @@
     "stats":["base_stun_threshold_reduction_+%"],
     "support":true
   },
+  "SupportTransfusion":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports non-blessing spells.",
+    "excludeSkillTypes":[119],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":70,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":90,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":110,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":120,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":130,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":140,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":150,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":160,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":170,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":180,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":190,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":200,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":210,
+        "statInterpolation":[1],
+        "1":200
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":220,
+        "statInterpolation":[1],
+        "1":200
+      }],
+    "name":"Transfusion",
+    "notMinionStat":["random_nearby_minion_gain_a_soul_eater_soul_on_X_life_spent"],
+    "qualityStats":{
+      "Default":[["base_life_cost_+%",0.5]]
+    },
+    "requireSkillTypes":[2],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "random_nearby_minion_gain_a_soul_eater_soul_on_X_life_spent":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Condition:MinionCanHaveSoulEater",
+          "type":"FLAG",
+          "value":true,
+          "1":{
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"MinionModifier",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:CanHaveSoulEater",
+              "type":"FLAG",
+              "value":true
+            }
+          },
+          "1":{
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }]
+    },
+    "stats":["random_nearby_minion_gain_a_soul_eater_soul_on_X_life_spent","base_skill_cost_life_instead_of_mana"],
+    "support":true
+  },
   "SupportTrauma":{
     "addSkillTypes":[12],
     "baseEffectiveness":0.079999998211861,
@@ -15704,6 +17651,171 @@
     "stats":["warcry_speed_+%"],
     "support":true
   },
+  "SupportVaalTemptation":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Vaal skills.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "1":90000
+      },{
+        "levelRequirement":74,
+        "statInterpolation":[1],
+        "1":84000
+      },{
+        "levelRequirement":76,
+        "statInterpolation":[1],
+        "1":78000
+      },{
+        "levelRequirement":78,
+        "statInterpolation":[1],
+        "1":72000
+      },{
+        "levelRequirement":80,
+        "statInterpolation":[1],
+        "1":70500
+      },{
+        "levelRequirement":82,
+        "statInterpolation":[1],
+        "1":69000
+      },{
+        "levelRequirement":84,
+        "statInterpolation":[1],
+        "1":67500
+      },{
+        "levelRequirement":86,
+        "statInterpolation":[1],
+        "1":66000
+      },{
+        "levelRequirement":88,
+        "statInterpolation":[1],
+        "1":64500
+      },{
+        "levelRequirement":90,
+        "statInterpolation":[1],
+        "1":63000
+      },{
+        "levelRequirement":91,
+        "statInterpolation":[1],
+        "1":61500
+      },{
+        "levelRequirement":92,
+        "statInterpolation":[1],
+        "1":60000
+      },{
+        "levelRequirement":93,
+        "statInterpolation":[1],
+        "1":58500
+      },{
+        "levelRequirement":94,
+        "statInterpolation":[1],
+        "1":57000
+      },{
+        "levelRequirement":95,
+        "statInterpolation":[1],
+        "1":55500
+      }],
+    "name":"Vaal Temptation",
+    "qualityStats":{
+      "Default":[["damage_+%",0.5]]
+    },
+    "requireSkillTypes":[42],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_vaal_temptation_physical_damage_taken_per_minute_instead_of_soul_gain_prevention":{
+        "div":60,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"PhysicalDegen",
+          "type":"BASE",
+          "1":{
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }
+      }
+    },
+    "stats":["support_vaal_temptation_physical_damage_taken_per_minute_instead_of_soul_gain_prevention"],
+    "support":true
+  },
+  "SupportVoidShockwave":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["support_blunt_chance_to_trigger_shockwave_on_hit_%",100]],
+    "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
+    "excludeSkillTypes":[41,88,30,106],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":50
+      }],
+    "name":"Void Shockwave",
+    "plusVersionOf":"SupportShockwave",
+    "qualityStats":{
+      "Default":[["melee_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[24],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_blunt_chance_to_trigger_shockwave_on_hit_%":[],
+      "supported_skill_can_only_use_axe_mace_and_staff":[]
+    },
+    "stats":["supported_skill_can_only_use_axe_mace_and_staff"],
+    "support":true,
+    "weaponTypes":{
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true
+    }
+  },
   "SupportVolatility":{
     "addSkillTypes":[],
     "color":1,
@@ -15980,5 +18092,635 @@
     },
     "stats":["minimum_attack_damage_+%_final_from_volatility_support","maximum_attack_damage_+%_final_from_volatility_support"],
     "support":true
+  },
+  "TriggeredSupportBonespire":{
+    "baseFlags":{
+      "area":true,
+      "attack":true
+    },
+    "baseTypeName":"Seize the Flesh",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["graft_skill_uulnet_bone_spires_max_spires_allowed",20],["base_skill_effect_duration",8000],["active_skill_base_area_of_effect_radius",45],["active_skill_base_secondary_area_of_effect_radius",24],["graft_skill_uulnetol_bone_spires_num_of_spires_to_create",6],["active_skill_bleeding_damage_+%_final",200]],
+    "description":"Cause spires of bone to erupt from the earth around you. When you use a slam on them, these spires will explode to deal damage in an area and inflicting bleeding.",
+    "levels":[{
+        "baseMultiplier":2.5,
+        "cooldown":4,
+        "damageEffectiveness":2.5,
+        "levelRequirement":72,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.605,
+        "cooldown":4,
+        "damageEffectiveness":2.605,
+        "levelRequirement":74,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.711,
+        "cooldown":4,
+        "damageEffectiveness":2.711,
+        "levelRequirement":76,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.816,
+        "cooldown":4,
+        "damageEffectiveness":2.816,
+        "levelRequirement":78,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.921,
+        "cooldown":4,
+        "damageEffectiveness":2.921,
+        "levelRequirement":80,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.026,
+        "cooldown":4,
+        "damageEffectiveness":3.026,
+        "levelRequirement":82,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.132,
+        "cooldown":4,
+        "damageEffectiveness":3.132,
+        "levelRequirement":84,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.237,
+        "cooldown":4,
+        "damageEffectiveness":3.237,
+        "levelRequirement":86,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.342,
+        "cooldown":4,
+        "damageEffectiveness":3.342,
+        "levelRequirement":88,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.447,
+        "cooldown":4,
+        "damageEffectiveness":3.447,
+        "levelRequirement":90,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.553,
+        "cooldown":4,
+        "damageEffectiveness":3.553,
+        "levelRequirement":91,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.658,
+        "cooldown":4,
+        "damageEffectiveness":3.658,
+        "levelRequirement":92,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.763,
+        "cooldown":4,
+        "damageEffectiveness":3.763,
+        "levelRequirement":93,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.868,
+        "cooldown":4,
+        "damageEffectiveness":3.868,
+        "levelRequirement":94,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.974,
+        "cooldown":4,
+        "damageEffectiveness":3.974,
+        "levelRequirement":95,
+        "storedUses":1
+      }],
+    "name":"Seize the Flesh",
+    "qualityStats":{
+      "Default":[["graft_skill_uulnetol_bone_spires_num_of_spires_to_create",0.1]]
+    },
+    "skillTypes":{
+      "1":true,
+      "11":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "73":true,
+      "86":true,
+      "101":true,
+      "126":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["is_area_damage","global_bleed_on_hit","triggered_by_bonespire_support"],
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "None":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Thrusting One Handed Sword":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
+    }
+  },
+  "TriggeredSupportFissure":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseTypeName":"Fissure",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["skill_physical_damage_%_to_convert_to_fire",60],["volcanic_fissure_number_of_simultaneous_crack_count",3]],
+    "description":"Creates multiple fissures that deal area damage while travelling outwards. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+    "levels":[{
+        "baseMultiplier":3.4,
+        "cooldown":0.5,
+        "damageEffectiveness":3.4,
+        "levelRequirement":72,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.526,
+        "cooldown":0.5,
+        "damageEffectiveness":3.526,
+        "levelRequirement":74,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.653,
+        "cooldown":0.5,
+        "damageEffectiveness":3.653,
+        "levelRequirement":76,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.779,
+        "cooldown":0.5,
+        "damageEffectiveness":3.779,
+        "levelRequirement":78,
+        "storedUses":1
+      },{
+        "baseMultiplier":3.905,
+        "cooldown":0.5,
+        "damageEffectiveness":3.905,
+        "levelRequirement":80,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.032,
+        "cooldown":0.5,
+        "damageEffectiveness":4.032,
+        "levelRequirement":82,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.158,
+        "cooldown":0.5,
+        "damageEffectiveness":4.158,
+        "levelRequirement":84,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.284,
+        "cooldown":0.5,
+        "damageEffectiveness":4.284,
+        "levelRequirement":86,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.411,
+        "cooldown":0.5,
+        "damageEffectiveness":4.411,
+        "levelRequirement":88,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.537,
+        "cooldown":0.5,
+        "damageEffectiveness":4.537,
+        "levelRequirement":90,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.663,
+        "cooldown":0.5,
+        "damageEffectiveness":4.663,
+        "levelRequirement":91,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.789,
+        "cooldown":0.5,
+        "damageEffectiveness":4.789,
+        "levelRequirement":92,
+        "storedUses":1
+      },{
+        "baseMultiplier":4.916,
+        "cooldown":0.5,
+        "damageEffectiveness":4.916,
+        "levelRequirement":93,
+        "storedUses":1
+      },{
+        "baseMultiplier":5.042,
+        "cooldown":0.5,
+        "damageEffectiveness":5.042,
+        "levelRequirement":94,
+        "storedUses":1
+      },{
+        "baseMultiplier":5.168,
+        "cooldown":0.5,
+        "damageEffectiveness":5.168,
+        "levelRequirement":95,
+        "storedUses":1
+      }],
+    "name":"Fissure",
+    "qualityStats":{
+      "Default":[["volcanic_fissure_number_of_simultaneous_crack_count",0.05]]
+    },
+    "skillTypes":{
+      "1":true,
+      "11":true,
+      "24":true,
+      "32":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "101":true,
+      "103":true,
+      "126":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["triggered_by_fissure_support","is_area_damage"],
+    "weaponTypes":{
+      "None":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true
+    }
+  },
+  "TriggeredSupportPyre":{
+    "baseFlags":{
+      "area":true,
+      "attack":true
+    },
+    "baseTypeName":"Call the Pyre",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["cover_in_ash_on_hit_%",100],["active_skill_base_area_of_effect_radius",12],["skill_physical_damage_%_to_convert_to_fire",100]],
+    "description":"Calls forth pillars of ashen flame. These pillars deal Fire damage in an area, and cover Enemies they hit in Ash.",
+    "levels":[{
+        "baseMultiplier":2.2,
+        "cooldown":1,
+        "damageEffectiveness":2.2,
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":3
+      },{
+        "baseMultiplier":2.305,
+        "cooldown":1,
+        "damageEffectiveness":2.305,
+        "levelRequirement":74,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":3
+      },{
+        "baseMultiplier":2.411,
+        "cooldown":1,
+        "damageEffectiveness":2.411,
+        "levelRequirement":76,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":4
+      },{
+        "baseMultiplier":2.516,
+        "cooldown":1,
+        "damageEffectiveness":2.516,
+        "levelRequirement":78,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":4
+      },{
+        "baseMultiplier":2.621,
+        "cooldown":1,
+        "damageEffectiveness":2.621,
+        "levelRequirement":80,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":4
+      },{
+        "baseMultiplier":2.726,
+        "cooldown":1,
+        "damageEffectiveness":2.726,
+        "levelRequirement":82,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":5
+      },{
+        "baseMultiplier":2.832,
+        "cooldown":1,
+        "damageEffectiveness":2.832,
+        "levelRequirement":84,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":5
+      },{
+        "baseMultiplier":2.937,
+        "cooldown":1,
+        "damageEffectiveness":2.937,
+        "levelRequirement":86,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":5
+      },{
+        "baseMultiplier":3.042,
+        "cooldown":1,
+        "damageEffectiveness":3.042,
+        "levelRequirement":88,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":5
+      },{
+        "baseMultiplier":3.147,
+        "cooldown":1,
+        "damageEffectiveness":3.147,
+        "levelRequirement":90,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":6
+      },{
+        "baseMultiplier":3.253,
+        "cooldown":1,
+        "damageEffectiveness":3.253,
+        "levelRequirement":91,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":6
+      },{
+        "baseMultiplier":3.358,
+        "cooldown":1,
+        "damageEffectiveness":3.358,
+        "levelRequirement":92,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":6
+      },{
+        "baseMultiplier":3.463,
+        "cooldown":1,
+        "damageEffectiveness":3.463,
+        "levelRequirement":93,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":6
+      },{
+        "baseMultiplier":3.568,
+        "cooldown":1,
+        "damageEffectiveness":3.568,
+        "levelRequirement":94,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":7
+      },{
+        "baseMultiplier":3.674,
+        "cooldown":1,
+        "damageEffectiveness":3.674,
+        "levelRequirement":95,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":7
+      }],
+    "name":"Call the Pyre",
+    "qualityStats":{
+      "Default":[["graft_skill_xoph_flame_pillars_number_of_pillars",0.05]]
+    },
+    "skillTypes":{
+      "1":true,
+      "11":true,
+      "32":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "101":true,
+      "126":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["graft_skill_xoph_flame_pillars_number_of_pillars","is_area_damage","triggered_by_pyre_support"],
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "None":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Thrusting One Handed Sword":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
+    }
+  },
+  "TriggeredSupportVoidShockwave":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseTypeName":"Void Shockwave",
+    "castTime":1,
+    "color":1,
+    "constantStats":[["shockwave_support_art_variation",3],["shockwave_chained_damage_+%_final",-50]],
+    "description":"Deals attack damage in an area. A number of enemies hit by the wave will release an additional wave.",
+    "levels":[{
+        "baseMultiplier":4.4,
+        "cooldown":0.5,
+        "damageEffectiveness":4.4,
+        "levelRequirement":72,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":18,
+        "2":0,
+        "3":2
+      },{
+        "baseMultiplier":4.474,
+        "cooldown":0.5,
+        "damageEffectiveness":4.474,
+        "levelRequirement":74,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":19,
+        "2":0,
+        "3":3
+      },{
+        "baseMultiplier":4.547,
+        "cooldown":0.5,
+        "damageEffectiveness":4.547,
+        "levelRequirement":76,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":20,
+        "2":0,
+        "3":4
+      },{
+        "baseMultiplier":4.621,
+        "cooldown":0.5,
+        "damageEffectiveness":4.621,
+        "levelRequirement":78,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":21,
+        "2":0,
+        "3":5
+      },{
+        "baseMultiplier":4.695,
+        "cooldown":0.5,
+        "damageEffectiveness":4.695,
+        "levelRequirement":80,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":21,
+        "2":0,
+        "3":5
+      },{
+        "baseMultiplier":4.768,
+        "cooldown":0.5,
+        "damageEffectiveness":4.768,
+        "levelRequirement":82,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":22,
+        "2":0,
+        "3":6
+      },{
+        "baseMultiplier":4.842,
+        "cooldown":0.5,
+        "damageEffectiveness":4.842,
+        "levelRequirement":84,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":22,
+        "2":0,
+        "3":6
+      },{
+        "baseMultiplier":4.916,
+        "cooldown":0.5,
+        "damageEffectiveness":4.916,
+        "levelRequirement":86,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":23,
+        "2":0,
+        "3":7
+      },{
+        "baseMultiplier":4.989,
+        "cooldown":0.5,
+        "damageEffectiveness":4.989,
+        "levelRequirement":88,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":23,
+        "2":0,
+        "3":7
+      },{
+        "baseMultiplier":5.063,
+        "cooldown":0.5,
+        "damageEffectiveness":5.063,
+        "levelRequirement":90,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":24,
+        "2":0,
+        "3":8
+      },{
+        "baseMultiplier":5.137,
+        "cooldown":0.5,
+        "damageEffectiveness":5.137,
+        "levelRequirement":91,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":24,
+        "2":0,
+        "3":8
+      },{
+        "baseMultiplier":5.174,
+        "cooldown":0.5,
+        "damageEffectiveness":5.174,
+        "levelRequirement":92,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":25,
+        "2":0,
+        "3":9
+      },{
+        "baseMultiplier":5.211,
+        "cooldown":0.5,
+        "damageEffectiveness":5.211,
+        "levelRequirement":93,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":25,
+        "2":0,
+        "3":9
+      },{
+        "baseMultiplier":5.247,
+        "cooldown":0.5,
+        "damageEffectiveness":5.247,
+        "levelRequirement":94,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":26,
+        "2":0,
+        "3":10
+      },{
+        "baseMultiplier":5.284,
+        "cooldown":0.5,
+        "damageEffectiveness":5.284,
+        "levelRequirement":95,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":26,
+        "2":0,
+        "3":10
+      }],
+    "name":"Void Shockwave",
+    "notMinionStat":["base_cooldown_speed_+%"],
+    "parts":[{
+        "name":"Maim Shockwave"
+      },{
+        "name":"Shockwave Repeat"
+      }],
+    "qualityStats":{
+      "Default":[["melee_damage_+%",0.5]]
+    },
+    "skillTypes":{
+      "1":true,
+      "10":true,
+      "11":true,
+      "24":true,
+      "35":true,
+      "41":true,
+      "101":true,
+      "126":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "shockwave_chained_damage_+%_final":[{
+          "flags":0,
+          "keywordFlags":786432,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "skillPart":2,
+            "type":"SkillPart"
+          }
+        }]
+    },
+    "stats":["active_skill_base_area_of_effect_radius","base_cooldown_speed_+%","void_shockwave_chains_x_times","is_area_damage","triggered_by_shockwave_support"],
+    "weaponTypes":{
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true
+    }
   }
 }

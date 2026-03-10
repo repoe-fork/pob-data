@@ -1559,6 +1559,16 @@
       "minion":true,
       "spell":true
     },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"minionUseMainHandWeapon",
+          "value":true
+        }
+      }],
     "baseTypeName":"Animate Weapon of Self Reflection",
     "castTime":0.6,
     "color":2,
@@ -2006,7 +2016,6 @@
         "4":100,
         "5":6
       }],
-    "minionHasItemSet":true,
     "minionList":["AnimatedWeapon"],
     "minionSkillTypes":{
       "1":true,
@@ -2016,9 +2025,6 @@
       "53":true,
       "55":true,
       "67":true
-    },
-    "minionUses":{
-      "Weapon 1":true
     },
     "name":"Animate Weapon of Self Reflection",
     "notMinionStat":["active_skill_minion_damage_+%_final","active_skill_minion_attack_speed_+%_final"],
@@ -18445,6 +18451,480 @@
       "Two Handed Sword":true
     }
   },
+  "ChargedDashAltX":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radius",
+          "value":14
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radiusLabel",
+          "value":"Start of Dash:"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radiusSecondary",
+          "value":26
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radiusSecondaryLabel",
+          "value":"End of Dash:"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"hitTimeMultiplier",
+          "value":2
+        },
+        "1":{
+          "skillPartList":[1,2],
+          "type":"Skill"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ChargedDashMaxStages",
+        "type":"BASE",
+        "value":15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"showAverage",
+          "value":true
+        },
+        "1":{
+          "skillPart":3,
+          "type":"SkillPart"
+        }
+      }],
+    "baseTypeName":"Charged Dash of Projection",
+    "castTime":1,
+    "color":2,
+    "constantStats":[["skill_physical_damage_%_to_convert_to_lightning",50],["charged_dash_damage_+%_final",-100],["charged_dash_damage_+%_final_per_stack",125],["charged_dash_channelling_damage_at_full_stacks_+%_final",150],["charged_dash_skill_inherent_movement_speed_+%_final",50]],
+    "description":"Channel to project an illusion which you steer. You gain stages while it moves, until it stops at a maximum total distance. Waves of area damage frequently pulse along its path, based on your attack speed. Stop channelling to release the illusion, dealing a final wave of damage. Requires a Melee Weapon.",
+    "levels":[{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":0.88,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":0.88,
+        "levelRequirement":28
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":0.918,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":0.918,
+        "levelRequirement":31
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":0.956,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":0.956,
+        "levelRequirement":34
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":0.994,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":0.994,
+        "levelRequirement":37
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.032,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":1.032,
+        "levelRequirement":40
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.069,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":1.069,
+        "levelRequirement":42
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.107,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":1.107,
+        "levelRequirement":44
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.145,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":1.145,
+        "levelRequirement":46
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.183,
+        "cost":{
+          "Mana":4
+        },
+        "damageEffectiveness":1.183,
+        "levelRequirement":48
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.221,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.221,
+        "levelRequirement":50
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.259,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.259,
+        "levelRequirement":52
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.297,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.297,
+        "levelRequirement":54
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.335,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.335,
+        "levelRequirement":56
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.373,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.373,
+        "levelRequirement":58
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.411,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.411,
+        "levelRequirement":60
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.448,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.448,
+        "levelRequirement":62
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.486,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.486,
+        "levelRequirement":64
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.524,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.524,
+        "levelRequirement":66
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.562,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.562,
+        "levelRequirement":68
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.6,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.6,
+        "levelRequirement":70
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.638,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.638,
+        "levelRequirement":72
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.676,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.676,
+        "levelRequirement":74
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.714,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.714,
+        "levelRequirement":76
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.752,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.752,
+        "levelRequirement":78
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.789,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.789,
+        "levelRequirement":80
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.827,
+        "cost":{
+          "Mana":5
+        },
+        "damageEffectiveness":1.827,
+        "levelRequirement":82
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.865,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.865,
+        "levelRequirement":84
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.903,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.903,
+        "levelRequirement":86
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.941,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.941,
+        "levelRequirement":88
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.979,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.979,
+        "levelRequirement":90
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":1.998,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":1.998,
+        "levelRequirement":91
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.017,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.017,
+        "levelRequirement":92
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.036,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.036,
+        "levelRequirement":93
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.055,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.055,
+        "levelRequirement":94
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.074,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.074,
+        "levelRequirement":95
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.093,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.093,
+        "levelRequirement":96
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.112,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.112,
+        "levelRequirement":97
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.131,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.131,
+        "levelRequirement":98
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.149,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.149,
+        "levelRequirement":99
+      },{
+        "attackSpeedMultiplier":100,
+        "baseMultiplier":2.168,
+        "cost":{
+          "Mana":6
+        },
+        "damageEffectiveness":2.168,
+        "levelRequirement":100
+      }],
+    "name":"Charged Dash of Projection",
+    "parts":[{
+        "name":"Channelling, No Stages"
+      },{
+        "name":"Channelling, Max Stages"
+      },{
+        "name":"Release",
+        "stages":true
+      }],
+    "qualityStats":{
+      "Default":[["charged_dash_damage_+%_final_per_stack",1]]
+    },
+    "skillTypes":{
+      "1":true,
+      "10":true,
+      "11":true,
+      "24":true,
+      "34":true,
+      "57":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "base_skill_show_average_damage_instead_of_dps":[],
+      "charged_dash_channelling_damage_at_full_stacks_+%_final":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "skillPart":2,
+            "type":"SkillPart"
+          }
+        }],
+      "charged_dash_damage_+%_final":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"chargedDashFinalDamageModifier",
+          "type":"INC",
+          "1":{
+            "skillPart":3,
+            "type":"SkillPart"
+          }
+        }],
+      "charged_dash_damage_+%_final_per_stack":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"chargedDashFinalDamageModifier",
+          "type":"INC",
+          "1":{
+            "type":"Multiplier",
+            "var":"ChargedDashStage"
+          },
+          "2":{
+            "skillPart":3,
+            "type":"SkillPart"
+          }
+        }]
+    },
+    "stats":["is_area_damage","base_skill_show_average_damage_instead_of_dps","skill_can_add_multiple_charges_per_action","quality_display_chaged_dash_is_gem"],
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Thrusting One Handed Sword":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
+    }
+  },
   "CobraLash":{
     "baseFlags":{
       "attack":true,
@@ -23512,7 +23992,7 @@
     "baseTypeName":"Detonate Dead of Scavenging",
     "castTime":0.6,
     "color":2,
-    "constantStats":[["active_skill_base_area_of_effect_radius",28],["active_skill_ailment_damage_+%_final",-60]],
+    "constantStats":[["active_skill_base_area_of_effect_radius",28],["active_skill_ailment_damage_+%_final",-70]],
     "description":"Targets a corpse, causing it to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. Cannot target corpses that have been created by skills.",
     "incrementalEffectiveness":0.031700000166893,
     "levels":[{
@@ -27085,6 +27565,7 @@
         "7":64
       }],
     "name":"Elemental Hit",
+    "notMinionStat":["attack_minimum_added_fire_damage_for_elemental_hit","attack_maximum_added_fire_damage_for_elemental_hit","attack_minimum_added_cold_damage_for_elemental_hit","attack_maximum_added_cold_damage_for_elemental_hit","attack_minimum_added_lightning_damage_for_elemental_hit","attack_maximum_added_lightning_damage_for_elemental_hit"],
     "parts":[{
         "area":false,
         "name":"Fire Attack"
@@ -27132,6 +27613,42 @@
             "skillPartList":[2,4,6],
             "type":"SkillPart"
           }
+        }],
+      "attack_maximum_added_cold_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"ColdMax",
+          "type":"BASE"
+        }],
+      "attack_maximum_added_fire_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"FireMax",
+          "type":"BASE"
+        }],
+      "attack_maximum_added_lightning_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"LightningMax",
+          "type":"BASE"
+        }],
+      "attack_minimum_added_cold_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"ColdMin",
+          "type":"BASE"
+        }],
+      "attack_minimum_added_fire_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"FireMin",
+          "type":"BASE"
+        }],
+      "attack_minimum_added_lightning_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"LightningMin",
+          "type":"BASE"
         }],
       "deal_no_non_elemental_damage":[],
       "elemental_hit_area_of_effect_+100%_final_vs_enemy_with_associated_ailment":[],
@@ -27221,7 +27738,7 @@
         }],
       "quality_display_elemental_hit_is_gem":[]
     },
-    "stats":["attack_minimum_added_fire_damage","attack_maximum_added_fire_damage","attack_minimum_added_cold_damage","attack_maximum_added_cold_damage","attack_minimum_added_lightning_damage","attack_maximum_added_lightning_damage","chance_to_freeze_shock_ignite_%","elemental_hit_area_of_effect_+100%_final_vs_enemy_with_associated_ailment","elemental_hit_no_physical_chaos_damage","elemental_hit_no_damage_of_unchosen_elemental_type","quality_display_elemental_hit_is_gem"],
+    "stats":["attack_minimum_added_fire_damage_for_elemental_hit","attack_maximum_added_fire_damage_for_elemental_hit","attack_minimum_added_cold_damage_for_elemental_hit","attack_maximum_added_cold_damage_for_elemental_hit","attack_minimum_added_lightning_damage_for_elemental_hit","attack_maximum_added_lightning_damage_for_elemental_hit","chance_to_freeze_shock_ignite_%","elemental_hit_area_of_effect_+100%_final_vs_enemy_with_associated_ailment","elemental_hit_no_physical_chaos_damage","elemental_hit_no_damage_of_unchosen_elemental_type","quality_display_elemental_hit_is_gem"],
     "weaponTypes":{
       "Claw":true,
       "Dagger":true,
@@ -27849,6 +28366,7 @@
         "7":64
       }],
     "name":"Elemental Hit of the Spectrum",
+    "notMinionStat":["attack_minimum_added_fire_damage_for_elemental_hit","attack_maximum_added_fire_damage_for_elemental_hit","attack_minimum_added_cold_damage_for_elemental_hit","attack_maximum_added_cold_damage_for_elemental_hit","attack_minimum_added_lightning_damage_for_elemental_hit","attack_maximum_added_lightning_damage_for_elemental_hit"],
     "parts":[{
         "area":false,
         "name":"Attack"
@@ -27890,6 +28408,42 @@
             "type":"SkillPart"
           }
         }],
+      "attack_maximum_added_cold_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"ColdMax",
+          "type":"BASE"
+        }],
+      "attack_maximum_added_fire_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"FireMax",
+          "type":"BASE"
+        }],
+      "attack_maximum_added_lightning_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"LightningMax",
+          "type":"BASE"
+        }],
+      "attack_minimum_added_cold_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"ColdMin",
+          "type":"BASE"
+        }],
+      "attack_minimum_added_fire_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"FireMin",
+          "type":"BASE"
+        }],
+      "attack_minimum_added_lightning_damage_for_elemental_hit":[{
+          "flags":0,
+          "keywordFlags":65536,
+          "name":"LightningMin",
+          "type":"BASE"
+        }],
       "deal_no_non_elemental_damage":[],
       "elemental_hit_damage_+%_final_per_enemy_elemental_ailment":[{
           "flags":0,
@@ -27916,7 +28470,7 @@
         }],
       "quality_display_elemental_hit_is_gem":[]
     },
-    "stats":["attack_minimum_added_fire_damage","attack_maximum_added_fire_damage","attack_minimum_added_cold_damage","attack_maximum_added_cold_damage","attack_minimum_added_lightning_damage","attack_maximum_added_lightning_damage","chance_to_freeze_shock_ignite_%","elemental_hit_no_physical_chaos_damage","quality_display_elemental_hit_is_gem","deal_no_non_elemental_damage","skill_can_fire_arrows","skill_can_fire_wand_projectiles"],
+    "stats":["attack_minimum_added_fire_damage_for_elemental_hit","attack_maximum_added_fire_damage_for_elemental_hit","attack_minimum_added_cold_damage_for_elemental_hit","attack_maximum_added_cold_damage_for_elemental_hit","attack_minimum_added_lightning_damage_for_elemental_hit","attack_maximum_added_lightning_damage_for_elemental_hit","chance_to_freeze_shock_ignite_%","elemental_hit_no_physical_chaos_damage","quality_display_elemental_hit_is_gem","deal_no_non_elemental_damage","skill_can_fire_arrows","skill_can_fire_wand_projectiles"],
     "weaponTypes":{
       "Bow":true,
       "Wand":true
@@ -35091,6 +35645,530 @@
           }
         }]
     },
+    "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_skill_is_trapped","base_skill_show_average_damage_instead_of_dps","is_trap","quality_display_trap_duration_is_gem"]
+  },
+  "FlamethrowerTrapAltX":{
+    "baseEffectiveness":0.14200000464916,
+    "baseFlags":{
+      "area":true,
+      "duration":true,
+      "spell":true,
+      "trap":true
+    },
+    "baseMods":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"radius",
+          "value":32
+        }
+      }],
+    "baseTypeName":"Flamethrower Trap of Stability",
+    "castTime":1,
+    "color":2,
+    "constantStats":[["base_trap_duration",4000],["base_skill_effect_duration",2000],["flamethrower_tower_trap_number_of_flamethrowers",5]],
+    "description":"Throws a trap that releases a number of flames in different directions around it when triggered. The flames last for a duration repeatedly dealing damage.",
+    "incrementalEffectiveness":0.059500001370907,
+    "levels":[{
+        "cooldown":1,
+        "cost":{
+          "Mana":13
+        },
+        "critChance":5,
+        "damageEffectiveness":0.15,
+        "levelRequirement":28,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":13
+        },
+        "critChance":5,
+        "damageEffectiveness":0.15,
+        "levelRequirement":31,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":14
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":34,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":14
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":37,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":15
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":40,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":15
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":42,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":16
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":44,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":16
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":46,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":17
+        },
+        "critChance":5,
+        "damageEffectiveness":0.2,
+        "levelRequirement":48,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":17
+        },
+        "critChance":5,
+        "damageEffectiveness":0.25,
+        "levelRequirement":50,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":18
+        },
+        "critChance":5,
+        "damageEffectiveness":0.25,
+        "levelRequirement":52,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":18
+        },
+        "critChance":5,
+        "damageEffectiveness":0.25,
+        "levelRequirement":54,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":19
+        },
+        "critChance":5,
+        "damageEffectiveness":0.25,
+        "levelRequirement":56,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":19
+        },
+        "critChance":5,
+        "damageEffectiveness":0.25,
+        "levelRequirement":58,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":20
+        },
+        "critChance":5,
+        "damageEffectiveness":0.25,
+        "levelRequirement":60,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":20
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":62,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":21
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":64,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":21
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":66,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":22
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":68,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":22
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":70,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":23
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":72,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":23
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":74,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":24
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":76,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":24
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":78,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":25
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":80,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":25
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":82,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":26
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":84,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":26
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":86,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":27
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":88,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":27
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":90,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":28
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":91,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":28
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":92,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":29
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":93,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":29
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":94,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":30
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":95,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":30
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":96,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":31
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":97,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":31
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":98,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":32
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":99,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      },{
+        "cooldown":1,
+        "cost":{
+          "Mana":32
+        },
+        "critChance":5,
+        "damageEffectiveness":0.3,
+        "levelRequirement":100,
+        "statInterpolation":[3,3],
+        "storedUses":3,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Flamethrower Trap of Stability",
+    "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+    "qualityStats":{
+      "Default":[["flamethrower_tower_trap_number_of_flamethrowers",0.05]]
+    },
+    "skillTypes":{
+      "2":true,
+      "10":true,
+      "11":true,
+      "12":true,
+      "19":true,
+      "32":true,
+      "36":true,
+      "82":true,
+      "101":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_skill_is_trapped","base_skill_show_average_damage_instead_of_dps","is_trap","quality_display_trap_duration_is_gem"]
   },
   "FlickerStrike":{
@@ -53787,7 +54865,7 @@
     "cannotBeSupported":true,
     "castTime":0.15,
     "color":4,
-    "constantStats":[["cooldown_recovery_rate_+%_when_a_unique_enemy_in_your_presence",200],["gem_display_quality_has_no_effect",1]],
+    "constantStats":[["cooldown_recovery_rate_+%_when_a_unique_enemy_in_your_presence",200],["cooldown_recovery_rate_+%_if_no_enemies_in_your_presence",200],["gem_display_quality_has_no_effect",1]],
     "description":"Performs a series of quick teleports towards a targeted location, stopping if you would overlap with monsters or terrain. If using the \"Attack in Place\" option, the direction is reversed. Shares a cooldown with other Blink skills. Cannot be supported.",
     "levels":[{
         "cooldown":10,
@@ -78197,6 +79275,7 @@
       "11":true,
       "12":true,
       "18":true,
+      "26":true,
       "27":true,
       "42":true,
       "82":true,
@@ -87311,7 +88390,7 @@
     "baseTypeName":"Viper Strike of the Mamba",
     "castTime":1,
     "color":2,
-    "constantStats":[["skill_physical_damage_%_to_convert_to_chaos",60],["base_chance_to_poison_on_hit_%",60],["base_skill_effect_duration",2000],["active_skill_poison_damage_+%_final",200]],
+    "constantStats":[["skill_physical_damage_%_to_convert_to_chaos",60],["base_chance_to_poison_on_hit_%",60],["viper_strike_dual_wield_damage_+%_final",-20],["viper_strike_dual_wield_attack_speed_+%_final",-30],["base_skill_effect_duration",2000],["active_skill_poison_damage_+%_final",200]],
     "description":"Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, deals the damage of both weapons in one strike. Requires a claw, dagger or sword.",
     "incrementalEffectiveness":0.023299999535084,
     "levels":[{
@@ -87616,9 +88695,29 @@
           "name":"Damage",
           "type":"MORE"
         }],
-      "quality_display_active_skill_poison_damage_final_is_gem":[]
+      "quality_display_active_skill_poison_damage_final_is_gem":[],
+      "viper_strike_dual_wield_attack_speed_+%_final":[{
+          "flags":1,
+          "keywordFlags":0,
+          "name":"Speed",
+          "type":"MORE",
+          "1":{
+            "type":"Condition",
+            "var":"DualWielding"
+          }
+        }],
+      "viper_strike_dual_wield_damage_+%_final":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "type":"Condition",
+            "var":"DualWielding"
+          }
+        }]
     },
-    "stats":["poison_duration_is_skill_duration","skill_double_hits_when_dual_wielding","visual_hit_effect_chaos_is_green","cannot_poison_poisoned_enemies","quality_display_active_skill_poison_damage_final_is_gem"],
+    "stats":["poison_duration_is_skill_duration","skill_double_hits_when_dual_wielding","visual_hit_effect_chaos_is_green","cannot_poison_poisoned_enemies","cannot_inflict_additional_poisons","quality_display_active_skill_poison_damage_final_is_gem"],
     "weaponTypes":{
       "Claw":true,
       "Dagger":true,

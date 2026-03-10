@@ -1951,18 +1951,6 @@
     },
     "requireSkillTypes":[],
     "statDescriptionScope":"gem_stat_descriptions",
-    "statMap":{
-      "supported_active_skill_gem_quality_%":[{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"SupportedGemProperty",
-          "type":"LIST",
-          "value":{
-            "key":"quality",
-            "keyword":"grants_active_skill"
-          }
-        }]
-    },
     "stats":["supported_active_skill_gem_quality_%"],
     "support":true,
     "supportGemsOnly":true
@@ -4304,6 +4292,151 @@
     "stats":["cast_on_death_damage_+%_final_while_dead","spell_uncastable_if_triggerable","spell_only_castable_on_death","base_skill_show_average_damage_instead_of_dps","no_cost"],
     "support":true
   },
+  "SupportCastOnWardBreak":{
+    "addSkillTypes":[41,101],
+    "color":2,
+    "constantStats":[["trigger_on_ward_break_%_chance",100],["cooldown_recovery_rate_+%_per_100_ward",5]],
+    "description":"Each supported spell skill will be triggered when your Ward breaks. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+    "excludeSkillTypes":[36,40,30,43,60,134],
+    "isTrigger":true,
+    "levels":[{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":72,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-30
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":74,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-26
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":76,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-22
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":78,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-18
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":80,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-16
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":82,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-14
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":84,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-12
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":86,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-10
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":88,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-8
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":90,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-6
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":91,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-4
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":92,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":-2
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":93,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":0
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":94,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":2
+      },{
+        "PvPDamageMultiplier":-80,
+        "cooldown":1,
+        "levelRequirement":95,
+        "manaMultiplier":100,
+        "statInterpolation":[1],
+        "storedUses":1,
+        "1":4
+      }],
+    "name":"Cast on Ward Break",
+    "qualityStats":{
+      "Default":[["spell_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[2,35,84],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "cast_on_ward_break_damage_+%_final":[{
+          "flags":2,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE"
+        }]
+    },
+    "stats":["cast_on_ward_break_damage_+%_final","spell_uncastable_if_triggerable","base_skill_show_average_damage_instead_of_dps"],
+    "support":true
+  },
   "SupportChain":{
     "addSkillTypes":[],
     "color":2,
@@ -4313,241 +4446,241 @@
     "levels":[{
         "PvPDamageMultiplier":-30,
         "levelRequirement":38,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-30
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":40,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-29
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":42,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-28
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":44,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-27
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":46,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-26
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":48,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-25
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":50,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-24
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":52,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-23
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":54,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-22
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":56,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-21
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":58,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-20
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":60,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-19
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":62,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-18
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":64,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-17
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":65,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-16
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":66,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-15
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":67,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-14
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":68,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-13
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":69,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-12
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":70,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-11
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":72,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-10
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":74,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-9
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":76,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-8
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":78,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-7
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":80,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-6
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":82,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-5
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":84,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-4
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":86,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-3
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":88,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-2
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":90,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-1
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":91,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":-1
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":92,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":0
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":93,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":0
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":94,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":1
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":95,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":1
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":96,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":2
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":97,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":2
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":98,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":3
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":99,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":3
       },{
         "PvPDamageMultiplier":-30,
         "levelRequirement":100,
-        "manaMultiplier":50,
+        "manaMultiplier":40,
         "statInterpolation":[1],
         "1":4
       }],
@@ -6023,6 +6156,97 @@
     "stats":["base_reduce_enemy_cold_resistance_%"],
     "support":true
   },
+  "SupportCompanionship":{
+    "addSkillTypes":[],
+    "color":2,
+    "constantStats":[["damage_removed_from_minions_before_life_or_es_%_if_only_one_minion",15]],
+    "description":"Supports skills that create minions which can be damaged. Cannot support triggered skills.",
+    "excludeSkillTypes":[128,41],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":50
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":70
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":75
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":80
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":85
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":90
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":95
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":100
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":105
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":110
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":115
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":120
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":125
+      }],
+    "name":"Companionship",
+    "qualityStats":{
+      "Default":[["minion_maximum_life_+%",1]]
+    },
+    "requireSkillTypes":[88],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["support_companionship_minion_maximum_life_+%_final_if_at_most_one_minion"],
+    "support":true
+  },
   "SupportCriticalStrikeAffliction":{
     "addSkillTypes":[],
     "color":2,
@@ -6236,6 +6460,97 @@
     "requireSkillTypes":[10,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["critical_ailment_dot_multiplier_+"],
+    "support":true
+  },
+  "SupportCullTheWeak":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that hits enemies. If normal or magic enemies are left below a percentage of maximum life after being hit by these skills, they will be killed.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":32
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":34
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":36
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":37
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":38
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":39
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":41
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":42
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":43
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":44
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":45
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":46
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":47
+      }],
+    "name":"Cull the Weak",
+    "plusVersionOf":"SupportCullingStrike",
+    "qualityStats":{
+      "Default":[["recover_%_maximum_life_on_cull",0.1]]
+    },
+    "requireSkillTypes":[10,1],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["kill_normal_or_magic_enemy_on_hit_if_under_x%_life"],
     "support":true
   },
   "SupportCullingStrike":{
@@ -6745,18 +7060,6 @@
     },
     "requireSkillTypes":[],
     "statDescriptionScope":"gem_stat_descriptions",
-    "statMap":{
-      "supported_active_skill_gem_quality_%":[{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"SupportedGemProperty",
-          "type":"LIST",
-          "value":{
-            "key":"quality",
-            "keyword":"grants_active_skill"
-          }
-        }]
-    },
     "stats":["supported_active_skill_gem_quality_%"],
     "support":true,
     "supportGemsOnly":true
@@ -7808,6 +8111,205 @@
     "stats":["support_fork_projectile_damage_+%_final","projectiles_fork"],
     "support":true
   },
+  "SupportGreaterChain":{
+    "addSkillTypes":[],
+    "color":2,
+    "constantStats":[["number_of_chains",1],["support_chain_count_+%_final",50],["terrain_arrow_attachment_chance_reduction_+%",150]],
+    "description":"Supports projectile skills, and any other skills that chain.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":72,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":0
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":74,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":15
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":76,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":78,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":45
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":80,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":52
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":82,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":84,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":67
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":86,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":75
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":88,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":82
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":90,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":90
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":91,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":97
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":92,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":105
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":93,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":112
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":94,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":120
+      },{
+        "PvPDamageMultiplier":-30,
+        "levelRequirement":95,
+        "manaMultiplier":50,
+        "statInterpolation":[1],
+        "1":127
+      }],
+    "name":"Greater Chain",
+    "plusVersionOf":"SupportChain",
+    "qualityStats":{
+      "Default":[["chaining_range_+%",0.5]]
+    },
+    "requireSkillTypes":[23,3,53,55,102],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["chaining_range_+%"],
+    "support":true
+  },
+  "SupportGreaterFork":{
+    "addSkillTypes":[],
+    "color":2,
+    "constantStats":[["number_of_additional_forks_base",1],["terrain_arrow_attachment_chance_reduction_+%",150]],
+    "description":"Supports projectile skills, making their projectiles fork into two projectiles the first two times they hit an enemy and don't pierce it.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":50
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":60
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":65
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":70
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":75
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":80
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":85
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":90
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":95
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":100
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":100
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":100
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":100
+      }],
+    "name":"Greater Fork",
+    "plusVersionOf":"SupportFork",
+    "qualityStats":{
+      "Default":[["projectile_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[3,53,55],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["chance_to_fork_extra_projectile_%","projectiles_fork"],
+    "support":true
+  },
   "SupportGreaterMultipleProjectiles":{
     "addSkillTypes":[],
     "baseEffectiveness":0,
@@ -8057,6 +8559,7 @@
         "1":-18
       }],
     "name":"Greater Multiple Projectiles",
+    "plusVersionOf":"SupportLesserMultipleProjectiles",
     "qualityStats":{
       "Default":[["projectile_damage_+%",0.5]]
     },
@@ -8321,6 +8824,7 @@
         "1":-11
       }],
     "name":"Greater Volley",
+    "plusVersionOf":"SupportVolley",
     "qualityStats":{
       "Default":[["projectile_damage_+%",1]]
     },
@@ -9223,6 +9727,137 @@
     "stats":["impale_debuff_effect_+%"],
     "support":true
   },
+  "SupportInvention":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills which throw Traps or Mines.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":14,
+        "2":14
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":17,
+        "2":17
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":20,
+        "2":20
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":23,
+        "2":23
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":24,
+        "2":24
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":26,
+        "2":26
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":27,
+        "2":27
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":29,
+        "2":29
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":30,
+        "2":30
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":32,
+        "2":32
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":33,
+        "2":33
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":35,
+        "2":35
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":36,
+        "2":36
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":38,
+        "2":38
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":30,
+        "statInterpolation":[1,1],
+        "1":39,
+        "2":39
+      }],
+    "name":"Invention",
+    "qualityStats":{
+      "Default":[["trap_duration_+%",1],["mine_duration_+%",1]]
+    },
+    "requireSkillTypes":[36,40],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_invention_trap_and_mine_damage_+%_final_per_second_placed_up_to_100":[{
+          "flags":0,
+          "keywordFlags":12288,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "limit":100,
+            "limitTotal":true,
+            "type":"Multiplier",
+            "var":"PlacedDuration"
+          }
+        }],
+      "trap_and_mine_area_of_effect_+%_per_second_placed_up_to_100":[{
+          "flags":0,
+          "keywordFlags":12288,
+          "name":"AreaOfEffect",
+          "type":"INC",
+          "1":{
+            "limit":100,
+            "limitTotal":true,
+            "type":"Multiplier",
+            "var":"PlacedDuration"
+          }
+        }]
+    },
+    "stats":["support_invention_trap_and_mine_damage_+%_final_per_second_placed_up_to_100","trap_and_mine_area_of_effect_+%_per_second_placed_up_to_100"],
+    "support":true
+  },
   "SupportLesserMultipleProjectiles":{
     "addSkillTypes":[],
     "baseEffectiveness":0,
@@ -9471,7 +10106,7 @@
         "statInterpolation":[1],
         "1":4
       }],
-    "name":"Lesser Multiple Projectiles",
+    "name":"Multiple Projectiles",
     "qualityStats":{
       "Default":[["projectile_damage_+%",0.5]]
     },
@@ -9486,6 +10121,105 @@
         }]
     },
     "stats":["support_lesser_multiple_projectile_damage_+%_final"],
+    "support":true
+  },
+  "SupportLethalDose":{
+    "addSkillTypes":[],
+    "color":2,
+    "constantStats":[["additional_poisons_+_to_apply_vs_non_poisoned_enemies",2]],
+    "description":"Supports any skill that hits enemies.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-40
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-35
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-30
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-25
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-23
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-20
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-18
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-15
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-13
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-10
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-8
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-5
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":-3
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":0
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40,
+        "statInterpolation":[1],
+        "1":2
+      }],
+    "name":"Lethal Dose",
+    "qualityStats":{
+      "Default":[["base_poison_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[10,1],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_lethal_dose_poison_damage_+%_final":[{
+          "flags":0,
+          "keywordFlags":2097152,
+          "name":"Damage",
+          "type":"MORE"
+        }]
+    },
+    "stats":["support_lethal_dose_poison_damage_+%_final"],
     "support":true
   },
   "SupportLocusMine":{
@@ -9720,6 +10454,121 @@
         }]
     },
     "stats":["support_locus_mine_damage_+%_final","support_locus_mine_throw_mines_in_an_arc","support_locus_mine_mines_always_target_your_location","base_skill_is_mined","is_remote_mine","disable_skill_if_melee_attack","base_skill_show_average_damage_instead_of_dps","remote_mined_by_support","minimum_number_of_projectiles_to_fire_is_1"],
+    "support":true
+  },
+  "SupportMachinations":{
+    "addSkillTypes":[],
+    "color":2,
+    "constantStats":[["skill_cost_+%_per_keystone",10]],
+    "description":"Supports skills that hit enemies. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":6
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":7
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":8
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":9
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":9
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":10
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":10
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":11
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":11
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":12
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":12
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":13
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":13
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":14
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":20,
+        "statInterpolation":[1],
+        "1":14
+      }],
+    "name":"Machinations",
+    "notMinionStat":["physical_damage_%_to_add_as_chaos_per_keystone"],
+    "qualityStats":{
+      "Default":[["chaos_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[10,1],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "physical_damage_%_to_add_as_chaos_per_keystone":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"PhysicalDamageGainAsChaos",
+          "type":"BASE",
+          "1":{
+            "type":"Multiplier",
+            "var":"AllocatedKeystone"
+          }
+        }],
+      "skill_cost_+%_per_keystone":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Cost",
+          "type":"INC",
+          "1":{
+            "type":"Multiplier",
+            "var":"AllocatedKeystone"
+          }
+        }]
+    },
+    "stats":["physical_damage_%_to_add_as_chaos_per_keystone"],
     "support":true
   },
   "SupportManaLeech":{
@@ -11752,6 +12601,81 @@
       "Dagger":true
     }
   },
+  "SupportPacifism":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports any skill that hits enemies.",
+    "excludeSkillTypes":[],
+    "levels":[{
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "1":10
+      },{
+        "levelRequirement":74,
+        "statInterpolation":[1],
+        "1":15
+      },{
+        "levelRequirement":76,
+        "statInterpolation":[1],
+        "1":20
+      },{
+        "levelRequirement":78,
+        "statInterpolation":[1],
+        "1":25
+      },{
+        "levelRequirement":80,
+        "statInterpolation":[1],
+        "1":27
+      },{
+        "levelRequirement":82,
+        "statInterpolation":[1],
+        "1":30
+      },{
+        "levelRequirement":84,
+        "statInterpolation":[1],
+        "1":32
+      },{
+        "levelRequirement":86,
+        "statInterpolation":[1],
+        "1":35
+      },{
+        "levelRequirement":88,
+        "statInterpolation":[1],
+        "1":37
+      },{
+        "levelRequirement":90,
+        "statInterpolation":[1],
+        "1":40
+      },{
+        "levelRequirement":91,
+        "statInterpolation":[1],
+        "1":42
+      },{
+        "levelRequirement":92,
+        "statInterpolation":[1],
+        "1":45
+      },{
+        "levelRequirement":93,
+        "statInterpolation":[1],
+        "1":47
+      },{
+        "levelRequirement":94,
+        "statInterpolation":[1],
+        "1":50
+      },{
+        "levelRequirement":95,
+        "statInterpolation":[1],
+        "1":52
+      }],
+    "name":"Pacifism",
+    "qualityStats":{
+      "Default":[["global_hit_causes_monster_flee_%",0.5]]
+    },
+    "requireSkillTypes":[],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["global_hit_causes_monster_flee_%","hits_cannot_kill_enemies"],
+    "support":true
+  },
   "SupportPierce":{
     "addSkillTypes":[],
     "baseEffectiveness":0,
@@ -12672,7 +13596,7 @@
     "qualityStats":{
       "Default":[["critical_strike_chance_+%",1]]
     },
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[1,55],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "critical_strikes_that_inflict_bleeding_also_rupture":[{
@@ -14543,6 +15467,174 @@
     "stats":["support_trap_and_mine_damage_+%_final"],
     "support":true
   },
+  "SupportUnholyTrinity":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports skills that hit enemies, causing them to gain bonuses while you have unholy resonance of lightning, physical and chaos, and to grant unholy resonance of damage types other than the highest one in a hit. There is a maximum of 50 unholy resonance for each damage type. Cannot support triggered skills, instant skills, orb skills, brands, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+    "excludeSkillTypes":[36,40,30,74,15,41,60,75,111],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":6,
+        "2":50,
+        "3":50
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":6,
+        "2":70,
+        "3":70
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":7,
+        "2":90,
+        "3":90
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":7,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":7,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":8,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":8,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":8,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":8,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":9,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":9,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":9,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":9,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":10,
+        "2":100,
+        "3":100
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40,
+        "statInterpolation":[1,1,1],
+        "1":10,
+        "2":100,
+        "3":100
+      }],
+    "name":"Unholy Trinity",
+    "notMinionStat":["damage_+%_final_per_10_lowest_unholy_resonance","hits_ignore_enemy_monster_physical_damage_reduction_%_chance_while_all_unholy_resonance_is_25","hits_ignore_enemy_monster_lightning_and_chaos_resistance_%_chance_while_all_unholy_resonance_is_25"],
+    "plusVersionOf":"SupportTrinity",
+    "qualityStats":{
+      "Default":[["damage_+%",0.5]]
+    },
+    "requireSkillTypes":[10,1],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "damage_+%_final_per_10_lowest_unholy_resonance":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "div":10,
+            "type":"Multiplier",
+            "var":"UnholyResonanceCount"
+          }
+        }],
+      "hits_ignore_enemy_monster_lightning_and_chaos_resistance_%_chance_while_all_unholy_resonance_is_25":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"ChanceToIgnoreChaosResistance",
+          "type":"BASE",
+          "1":{
+            "threshold":25,
+            "type":"MultiplierThreshold",
+            "var":"UnholyResonanceCount"
+          }
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"ChanceToIgnoreLightningResistance",
+          "type":"BASE",
+          "1":{
+            "threshold":25,
+            "type":"MultiplierThreshold",
+            "var":"UnholyResonanceCount"
+          }
+        }],
+      "hits_ignore_enemy_monster_physical_damage_reduction_%_chance_while_all_unholy_resonance_is_25":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"ChanceToIgnoreEnemyPhysicalDamageReduction",
+          "type":"BASE",
+          "1":{
+            "threshold":25,
+            "type":"MultiplierThreshold",
+            "var":"UnholyResonanceCount"
+          }
+        }]
+    },
+    "stats":["damage_+%_final_per_10_lowest_unholy_resonance","hits_ignore_enemy_monster_physical_damage_reduction_%_chance_while_all_unholy_resonance_is_25","hits_ignore_enemy_monster_lightning_and_chaos_resistance_%_chance_while_all_unholy_resonance_is_25","gain_unholy_resonance_of_majority_damage_on_hit_for_2_seconds"],
+    "support":true
+  },
   "SupportViciousProjectiles":{
     "addSkillTypes":[],
     "color":2,
@@ -15370,6 +16462,74 @@
     "stats":["support_void_manipulation_chaos_damage_+%_final","deal_no_elemental_damage"],
     "support":true
   },
+  "SupportVoidstorm":{
+    "addSkillTypes":[],
+    "color":2,
+    "description":"Supports ranged attack skills that fire projectiles upwards. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
+    "excludeSkillTypes":[41,40,36,134,30,106],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":40
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":40
+      }],
+    "name":"Voidstorm",
+    "qualityStats":{
+      "Default":[["area_damage_+%",0.5]]
+    },
+    "requireSkillTypes":[100],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_voidstorm_trigger_voidstorm_on_rain_skill_impact":[]
+    },
+    "stats":["support_voidstorm_trigger_voidstorm_on_rain_skill_impact"],
+    "support":true,
+    "weaponTypes":{
+      "Bow":true,
+      "Wand":true
+    }
+  },
   "SupportVolley":{
     "addSkillTypes":[],
     "color":2,
@@ -15986,6 +17146,160 @@
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["physical_damage_%_to_add_as_chaos"],
     "support":true
+  },
+  "TriggeredSupportVoidstorm":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "projectile":true
+    },
+    "baseTypeName":"Voidstorm",
+    "castTime":1,
+    "color":2,
+    "constantStats":[["windstorm_storm_maximum_stages",10],["base_skill_effect_duration",10000],["windstorm_storm_limit",3],["base_windstorm_storm_stage_gained_per_X_ms",200],["windstorm_storm_area_of_effect_+%_final_per_stage",15],["windstorm_storm_hit_damage_+%_final_on_detonation_per_stage",40],["active_skill_base_area_of_effect_radius",18]],
+    "description":"Creates a voidstorm that blinds enemies within it. Entering the storm will cause it to explode, dealing attack damage in an area.",
+    "levels":[{
+        "baseMultiplier":1.4,
+        "cooldown":0.5,
+        "damageEffectiveness":1.4,
+        "levelRequirement":72,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.442,
+        "cooldown":0.5,
+        "damageEffectiveness":1.442,
+        "levelRequirement":74,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.484,
+        "cooldown":0.5,
+        "damageEffectiveness":1.484,
+        "levelRequirement":76,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.526,
+        "cooldown":0.5,
+        "damageEffectiveness":1.526,
+        "levelRequirement":78,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.568,
+        "cooldown":0.5,
+        "damageEffectiveness":1.568,
+        "levelRequirement":80,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.611,
+        "cooldown":0.5,
+        "damageEffectiveness":1.611,
+        "levelRequirement":82,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.653,
+        "cooldown":0.5,
+        "damageEffectiveness":1.653,
+        "levelRequirement":84,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.695,
+        "cooldown":0.5,
+        "damageEffectiveness":1.695,
+        "levelRequirement":86,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.737,
+        "cooldown":0.5,
+        "damageEffectiveness":1.737,
+        "levelRequirement":88,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.779,
+        "cooldown":0.5,
+        "damageEffectiveness":1.779,
+        "levelRequirement":90,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.821,
+        "cooldown":0.5,
+        "damageEffectiveness":1.821,
+        "levelRequirement":91,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.863,
+        "cooldown":0.5,
+        "damageEffectiveness":1.863,
+        "levelRequirement":92,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.905,
+        "cooldown":0.5,
+        "damageEffectiveness":1.905,
+        "levelRequirement":93,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.947,
+        "cooldown":0.5,
+        "damageEffectiveness":1.947,
+        "levelRequirement":94,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.989,
+        "cooldown":0.5,
+        "damageEffectiveness":1.989,
+        "levelRequirement":95,
+        "storedUses":1
+      }],
+    "name":"Voidstorm",
+    "qualityStats":{
+      "Default":[["area_damage_+%",0.5]]
+    },
+    "skillTypes":{
+      "1":true,
+      "10":true,
+      "11":true,
+      "12":true,
+      "35":true,
+      "41":true,
+      "47":true,
+      "101":true,
+      "124":true,
+      "126":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "triggered_by_voidstorm_support":[],
+      "windstorm_storm_area_of_effect_+%_final_per_stage":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"AreaOfEffect",
+          "type":"MORE",
+          "1":{
+            "type":"Multiplier",
+            "var":"VoidstormStageAfterFirst"
+          }
+        }],
+      "windstorm_storm_hit_damage_+%_final_on_detonation_per_stage":[{
+          "flags":0,
+          "keywordFlags":786432,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "type":"Multiplier",
+            "var":"VoidstormStageAfterFirst"
+          }
+        }],
+      "windstorm_storm_maximum_stages":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Multiplier:VoidstormMaxStages",
+          "type":"BASE"
+        }]
+    },
+    "stats":["triggered_by_voidstorm_support","is_area_damage","base_skill_show_average_damage_instead_of_dps","base_is_projectile"],
+    "weaponTypes":{
+      "Bow":true,
+      "Wand":true
+    }
   },
   "TriggeredSupportWindburst":{
     "baseFlags":{

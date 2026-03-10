@@ -194,6 +194,60 @@
     },
     "stats":["chance_to_trigger_on_animate_weapon_kill_%","attack_minimum_added_physical_damage","attack_maximum_added_physical_damage","base_number_of_animated_weapons_allowed","chance_to_trigger_on_animate_guardian_kill_%"]
   },
+  "AnimosityUniqueSkill":{
+    "baseFlags":{
+      "duration":true,
+      "spell":true
+    },
+    "castTime":0,
+    "color":2,
+    "constantStats":[["base_skill_effect_duration",3000],["base_physical_damage_to_deal_per_minute",37500]],
+    "description":"While active, this skill inflicts the Weeping Black debuff on impaled enemies you hit with bow attacks. Weeping Black deals physical damage over time, and can stack up to five times. This skill cannot be cast by Totems.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "cooldown":1,
+        "levelRequirement":0,
+        "statInterpolation":[3],
+        "storedUses":1,
+        "1":33.333334078391
+      }
+    },
+    "name":"Tears of Rot",
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "12":true,
+      "35":true,
+      "39":true,
+      "41":true,
+      "74":true,
+      "86":true,
+      "101":true
+    },
+    "statDescriptionScope":"debuff_skill_stat_descriptions",
+    "statMap":{
+      "base_physical_damage_to_deal_per_minute":{
+        "div":60,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"PhysicalDot"
+          },
+          "1":{
+            "limit":5,
+            "type":"Multiplier",
+            "var":"WeepingBlackStacks"
+          }
+        }
+      }
+    },
+    "stats":["base_physical_damage_to_deal_per_minute","cast_on_gain_skill","spell_uncastable_if_triggerable","no_cost"]
+  },
   "ApproachingFlames":{
     "baseFlags":{
       "spell":true
@@ -269,6 +323,17 @@
         "2":12,
         "3":14,
         "4":14
+      },
+      "35":{
+        "cooldown":0.5,
+        "levelRequirement":1,
+        "manaReservationPercent":25,
+        "statInterpolation":[1,1,1,1],
+        "storedUses":1,
+        "1":15,
+        "2":15,
+        "3":18,
+        "4":18
       }
     },
     "name":"Aspect of the Avian",
@@ -386,6 +451,18 @@
         "3":100,
         "4":16,
         "5":16
+      },
+      "35":{
+        "cooldown":0.5,
+        "levelRequirement":1,
+        "manaReservationPercent":25,
+        "statInterpolation":[1,1,1,1,1],
+        "storedUses":1,
+        "1":140,
+        "2":15,
+        "3":100,
+        "4":20,
+        "5":20
       }
     },
     "name":"Aspect of the Cat",
@@ -654,7 +731,8 @@
       "35":true,
       "41":true,
       "60":true,
-      "82":true
+      "82":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_skill_show_average_damage_instead_of_dps","skill_has_trigger_from_unique_item"]
@@ -706,7 +784,8 @@
       "35":true,
       "41":true,
       "60":true,
-      "82":true
+      "82":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","base_skill_show_average_damage_instead_of_dps","console_skill_dont_chase","atziri_do_not_gain_skill_charges","skill_has_trigger_from_unique_item"]
@@ -806,6 +885,43 @@
         }]
     },
     "stats":["physical_attack_damage_taken_+_per_barkskin_stack","chance_to_evade_attacks_+%_final_per_missing_barkskin_stack"]
+  },
+  "BitingBraidNova":{
+    "baseEffectiveness":2.2599999904633,
+    "baseFlags":{
+      "area":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":2,
+    "constantStats":[["active_skill_base_area_of_effect_radius",30],["cast_when_hit_%",100],["spells_chance_to_hinder_on_hit_%",100]],
+    "description":"When hit, release a nova of venomous bile that deals spell chaos damage. This nova poisons and hinders on hit.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "cooldown":1,
+        "levelRequirement":0,
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":11,
+        "2":19
+      }
+    },
+    "name":"Caustic Retribution",
+    "skillTypes":{
+      "2":true,
+      "10":true,
+      "11":true,
+      "35":true,
+      "41":true,
+      "49":true,
+      "82":true,
+      "95":true,
+      "101":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["minimum_added_chaos_damage_per_level","maximum_added_chaos_damage_per_level","is_area_damage","global_poison_on_hit","visual_hit_effect_chaos_is_green"]
   },
   "BloodOffering":{
     "baseFlags":{
@@ -1171,7 +1287,8 @@
       "41":true,
       "47":true,
       "60":true,
-      "67":true
+      "67":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["projectiles_nova","spell_uncastable_if_triggerable","base_is_projectile","cannot_cause_bleeding"]
@@ -1392,6 +1509,51 @@
         }]
     },
     "stats":["base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","cannot_cancel_skill_before_contact_point","warcry_count_power_from_enemies","cast_on_lose_cats_stealth","intimidating_cry_empowerd_attacks_deal_double_damage_display","enemies_taunted_by_your_warcies_are_intimidated","use_intimidating_cry_buff_visual_for_intimidate"]
+  },
+  "CeaselessFleshUnique":{
+    "baseFlags":{
+      "duration":true,
+      "minion":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":3,
+    "constantStats":[["base_skill_effect_duration",5000],["base_number_of_restless_dead_allowed",100],["triggered_by_item_buff",1],["minion_attack_speed_+%_when_on_low_life",100],["display_minion_monster_type",28]],
+    "description":"Once per second, raise a nearby corpse as a shambling undead. This minion will follow you and attack your enemies with melee strikes, but quickly falls apart. These minions have significantly increased attack speed while on low life.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "levelRequirement":70,
+        "statInterpolation":[1],
+        "1":70
+      },
+      "25":{
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "1":80
+      }
+    },
+    "minionList":["ShamblingUndead"],
+    "minionSkillTypes":{
+      "1":true,
+      "24":true,
+      "25":true,
+      "28":true
+    },
+    "name":"Ceaseless Flesh",
+    "skillTypes":{
+      "2":true,
+      "9":true,
+      "12":true,
+      "21":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "88":true
+    },
+    "statDescriptionScope":"minion_spell_skill_stat_descriptions",
+    "stats":["base_display_minion_actor_level"]
   },
   "ColdAegis":{
     "baseFlags":{
@@ -2612,7 +2774,8 @@
       "24":true,
       "35":true,
       "41":true,
-      "60":true
+      "60":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","skill_has_trigger_from_unique_item"],
@@ -3004,7 +3167,8 @@
       "35":true,
       "41":true,
       "60":true,
-      "82":true
+      "82":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","spell_uncastable_if_triggerable"]
@@ -3224,7 +3388,7 @@
         "levelRequirement":1,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":1,
+        "1":25,
         "2":0
       },null,null,null,{
         "baseMultiplier":2.497,
@@ -3233,21 +3397,22 @@
         "levelRequirement":1,
         "statInterpolation":[1,1],
         "storedUses":1,
-        "1":2,
+        "1":26,
         "2":8
       }],
     "name":"Gore Shockwave",
-    "notMinionStat":["active_skill_base_radius_+","base_cooldown_speed_+%"],
+    "notMinionStat":["base_cooldown_speed_+%"],
     "skillTypes":{
       "1":true,
       "10":true,
       "11":true,
       "24":true,
       "35":true,
-      "41":true
+      "41":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
-    "stats":["active_skill_base_radius_+","base_cooldown_speed_+%","is_area_damage"],
+    "stats":["active_skill_base_area_of_effect_radius","base_cooldown_speed_+%","is_area_damage"],
     "weaponTypes":{
       "Two Handed Axe":true
     }
@@ -4121,7 +4286,8 @@
       "41":true,
       "47":true,
       "60":true,
-      "67":true
+      "67":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["projectiles_nova","spell_uncastable_if_triggerable","base_is_projectile","never_freeze"]
@@ -4704,7 +4870,7 @@
       }],
     "castTime":0.15,
     "color":4,
-    "constantStats":[["base_skill_effect_duration",2000],["active_skill_base_area_of_effect_radius",30],["misty_reflection_clone_base_maximum_life_%_of_owner_maximum_life",10]],
+    "constantStats":[["base_skill_effect_duration",3000],["active_skill_base_area_of_effect_radius",30],["misty_reflection_clone_base_maximum_life_%_of_owner_maximum_life",5]],
     "description":"Dash backwards, leaving a short-lived mist copy of yourself that Taunts nearby Enemies for a short duration. The copy can be damaged by Enemies, and copies that are killed by an Enemy will apply a debuff in an area that makes affected targets take 30% increased Damage and deal 30% less Damage for 4 seconds.",
     "fromTree":true,
     "hidden":true,
@@ -5040,6 +5206,7 @@
       "41":true,
       "60":true,
       "88":true,
+      "101":true,
       "128":true
     },
     "statDescriptionScope":"minion_spell_skill_stat_descriptions",
@@ -5157,8 +5324,8 @@
         "critChance":5,
         "levelRequirement":1,
         "statInterpolation":[1,1,1],
-        "1":150,
-        "2":225,
+        "1":300,
+        "2":450,
         "3":25
       }
     },
@@ -5203,7 +5370,8 @@
       "35":true,
       "41":true,
       "60":true,
-      "86":true
+      "86":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["display_this_skill_cooldown_does_not_recover_during_buff"]
@@ -5461,6 +5629,45 @@
         }]
     },
     "stats":["spell_minimum_base_physical_damage_per_shield_quality","spell_maximum_base_physical_damage_per_shield_quality","buff_added_spell_minimum_base_physical_damage_per_shield_quality","buff_added_spell_maximum_base_physical_damage_per_shield_quality"]
+  },
+  "SolartwineBlindingNova":{
+    "baseEffectiveness":2.2599999904633,
+    "baseFlags":{
+      "area":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":2,
+    "constantStats":[["active_skill_base_area_of_effect_radius",30],["global_chance_to_blind_on_hit_%",100],["cast_when_hit_%",100]],
+    "description":"When hit, release a nova of fiery vengeance, dealing spell fire damage and blinding enemies struck.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "cooldown":1,
+        "critChance":5,
+        "levelRequirement":0,
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":15,
+        "2":26
+      }
+    },
+    "name":"Blazing Glare",
+    "skillTypes":{
+      "2":true,
+      "10":true,
+      "11":true,
+      "32":true,
+      "35":true,
+      "41":true,
+      "60":true,
+      "82":true,
+      "95":true,
+      "101":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["minimum_added_fire_damage_per_level","maximum_added_fire_damage_per_level","is_area_damage"]
   },
   "SpectralSpirits":{
     "baseFlags":{
@@ -6951,7 +7158,6 @@
     "stats":["spell_uncastable_if_triggerable"]
   },
   "SummonSentinelOfRadiance":{
-    "baseEffectiveness":2.0517001152039,
     "baseFlags":{
       "duration":true,
       "minion":true,
@@ -6959,17 +7165,15 @@
     },
     "castTime":0.75,
     "color":4,
-    "constantStats":[["display_minion_monster_type",23],["base_skill_effect_duration",20000],["minion_actor_level_is_user_level_up_to_maximum",85]],
+    "constantStats":[["display_minion_monster_type",23],["minion_actor_level_is_user_level_up_to_maximum",85]],
     "description":"Summons a Sentinel of Radiance which follows you and attacks enemies in melee, while burning enemies around it and taking a portion of damage from hits for you. You can only have one Sentinel of Radiance.",
     "fromTree":true,
     "hidden":true,
-    "incrementalEffectiveness":0.043200001120567,
     "levels":{
       "20":{
         "cost":{
           "Mana":40
         },
-        "critChance":6,
         "damageEffectiveness":2,
         "levelRequirement":12,
         "statInterpolation":[1,1],
@@ -6996,7 +7200,8 @@
       "35":true,
       "66":true,
       "80":true,
-      "88":true
+      "88":true,
+      "140":true
     },
     "statDescriptionScope":"single_minion_spell_skill_stat_descriptions",
     "statMap":{
@@ -7071,7 +7276,7 @@
     },
     "castTime":1,
     "color":4,
-    "constantStats":[["base_skill_effect_duration",30000],["number_of_tigers_allowed",5],["display_minion_monster_type",8],["base_display_minion_actor_level",65],["cast_on_crit_%",100]],
+    "constantStats":[["base_skill_effect_duration",30000],["number_of_tigers_allowed",5],["display_minion_monster_type",30],["cast_on_crit_%",100]],
     "description":"Summons a Spectral Tiger Companion that attacks nearby enemies and dies after a duration. Each Spectral Tiger grants you a buff that increases Critical Strike Chance, and increases Attack and Cast Speed. If you have the maximum number of them, refreshes the duration and life of an existing one instead.",
     "fromTree":true,
     "hidden":true,
@@ -7079,10 +7284,11 @@
       "20":{
         "cooldown":0.5,
         "levelRequirement":70,
-        "statInterpolation":[1,1],
+        "statInterpolation":[1,1,1],
         "storedUses":1,
         "1":25,
-        "2":7
+        "2":7,
+        "3":70
       }
     },
     "minionList":["SummonedSpectralTiger"],
@@ -7156,7 +7362,7 @@
           }
         }]
     },
-    "stats":["spectral_tiger_grants_critical_strike_chance_+%","spectral_tiger_grants_attack_and_cast_speed_+%","spell_uncastable_if_triggerable","modifiers_to_claw_critical_strike_chance_apply_minion_critical_strike_chance","modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier"]
+    "stats":["spectral_tiger_grants_critical_strike_chance_+%","spectral_tiger_grants_attack_and_cast_speed_+%","base_display_minion_actor_level","spell_uncastable_if_triggerable","modifiers_to_claw_critical_strike_chance_apply_minion_critical_strike_chance","modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier"]
   },
   "SummonSpectralWolf":{
     "baseFlags":{
@@ -7166,24 +7372,26 @@
     },
     "castTime":1,
     "color":4,
-    "constantStats":[["base_skill_effect_duration",30000],["number_of_wolves_allowed",10],["display_minion_monster_type",8],["base_display_minion_actor_level",65]],
+    "constantStats":[["base_skill_effect_duration",30000],["number_of_wolves_allowed",10],["display_minion_monster_type",8]],
     "description":"Summons a spectral wolf companion that attacks nearby enemies and dies after a duration. Each spectral wolf grants you a buff that adds damage to your attacks. If you have the maximum number of them, refreshes the duration and life of an existing one instead.",
     "fromItem":true,
     "hidden":true,
     "levels":{
       "10":{
         "levelRequirement":55,
-        "statInterpolation":[1,1,1],
+        "statInterpolation":[1,1,1,1],
         "1":100,
         "2":3,
-        "3":6
+        "3":6,
+        "4":55
       },
       "25":{
         "levelRequirement":78,
-        "statInterpolation":[0,1,1],
+        "statInterpolation":[0,1,1,1],
         "1":0,
         "2":8,
-        "3":16
+        "3":16,
+        "4":78
       }
     },
     "minionList":["SummonedSpectralWolf"],
@@ -7257,7 +7465,7 @@
           }
         }]
     },
-    "stats":["chance_to_cast_on_kill_%_target_self","spectral_wolf_grants_attack_minimum_added_physical_damage","spectral_wolf_grants_attack_maximum_added_physical_damage","skill_has_trigger_from_unique_item","spell_uncastable_if_triggerable","modifiers_to_claw_critical_strike_chance_apply_minion_critical_strike_chance","modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier"]
+    "stats":["chance_to_cast_on_kill_%_target_self","spectral_wolf_grants_attack_minimum_added_physical_damage","spectral_wolf_grants_attack_maximum_added_physical_damage","base_display_minion_actor_level","skill_has_trigger_from_unique_item","spell_uncastable_if_triggerable","modifiers_to_claw_critical_strike_chance_apply_minion_critical_strike_chance","modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier"]
   },
   "SummonTauntingContraption":{
     "baseFlags":{
@@ -7992,6 +8200,112 @@
     "stats":["totem_support_gem_level","support_ancestor_slam_totem_damage_+%_final","base_skill_is_totemified","is_totem","leap_slam_no_epk","totem_targets_ignoring_action_distance","force_lite_skill_effects","support_totem_type_override_to_support_slam_ancestor"],
     "support":true
   },
+  "SupportEclipse":{
+    "addSkillTypes":[],
+    "color":4,
+    "description":"Supports any skill gem.\nCannot support skills that don't come from gems.",
+    "excludeSkillTypes":[126],
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":-2,
+        "statInterpolation":[1,1],
+        "1":1,
+        "2":4
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":-4,
+        "statInterpolation":[1,1],
+        "1":1,
+        "2":8
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":-6,
+        "statInterpolation":[1,1],
+        "1":1,
+        "2":12
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":-8,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":16
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":-9,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":18
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":-10,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":20
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":-11,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":22
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":-12,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":24
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":-13,
+        "statInterpolation":[1,1],
+        "1":2,
+        "2":26
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":-14,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":28
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":-15,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":30
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":-16,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":32
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":-17,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":34
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":-18,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":36
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":-19,
+        "statInterpolation":[1,1],
+        "1":3,
+        "2":38
+      }],
+    "name":"Eclipse",
+    "qualityStats":{
+      "Default":[["local_gem_experience_gain_+%",5]]
+    },
+    "requireSkillTypes":[],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "stats":["supported_active_skill_gem_level_+","supported_active_skill_gem_quality_%"],
+    "support":true,
+    "supportGemsOnly":true
+  },
   "SupportElementalPenetration":{
     "addSkillTypes":[],
     "color":3,
@@ -8206,65 +8520,6 @@
     "requireSkillTypes":[10,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["reduce_enemy_elemental_resistance_%"],
-    "support":true
-  },
-  "SupportGreaterSpellEcho":{
-    "addSkillTypes":[],
-    "baseMods":[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Condition:HaveGreaterSpellEcho",
-        "type":"FLAG",
-        "value":true
-      }],
-    "color":3,
-    "constantStats":[["base_spell_repeat_count",2],["support_greater_spell_echo_spell_damage_+%_final_per_repeat",30],["support_greater_spell_echo_area_of_effect_+%_per_repeat",50]],
-    "excludeSkillTypes":[30,36,40,41,15,42,74,105,88,85,84],
-    "fromItem":true,
-    "hidden":true,
-    "levels":{
-      "30":{
-        "levelRequirement":90,
-        "manaMultiplier":40
-      }
-    },
-    "name":"Greater Spell Echo",
-    "requireSkillTypes":[26],
-    "statDescriptionScope":"gem_stat_descriptions",
-    "statMap":{
-      "support_greater_spell_echo_area_of_effect_+%_per_repeat":[{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"RepeatPerRepeatAreaOfEffect",
-          "type":"INC",
-          "1":{
-            "neg":true,
-            "type":"Condition",
-            "var":"CastOnFrostbolt"
-          }
-        }],
-      "support_greater_spell_echo_spell_damage_+%_final_per_repeat":[{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"RepeatPerRepeatDamage",
-          "type":"MORE",
-          "1":{
-            "neg":true,
-            "type":"Condition",
-            "var":"HaveBladeVortex"
-          },
-          "2":{
-            "neg":true,
-            "type":"Condition",
-            "var":"CastOnFrostbolt"
-          },
-          "3":{
-            "type":"Condition",
-            "varList":["averageRepeat","alwaysFinalRepeat"]
-          }
-        }]
-    },
-    "stats":[],
     "support":true
   },
   "SupportTriggerBowSkillOnBowAttack":{
@@ -8622,7 +8877,6 @@
     },
     "castTime":0,
     "color":4,
-    "constantStats":[["vampiric_icon_max_bleeding_beam_targets",5],["skill_life_regeneration_per_minute_per_affected_enemy",24000],["vampiric_icon_bleeding_damage_+%_final",20]],
     "description":"Reserves some of your life to cause bleeding you inflict to be stronger, and grant life regeneration based on the number bleeding enemies nearby.",
     "fromItem":true,
     "hidden":true,
@@ -8631,7 +8885,21 @@
         "cooldown":1.2,
         "levelRequirement":70,
         "lifeReservationPercent":10,
-        "storedUses":1
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":5,
+        "2":24000,
+        "3":20
+      },
+      "30":{
+        "cooldown":1.2,
+        "levelRequirement":90,
+        "lifeReservationPercent":10,
+        "statInterpolation":[1,1,1],
+        "storedUses":1,
+        "1":5,
+        "2":32000,
+        "3":30
       }
     },
     "name":"Thirst for Blood",
@@ -8682,7 +8950,7 @@
           }
         }]
     },
-    "stats":[]
+    "stats":["vampiric_icon_max_bleeding_beam_targets","skill_life_regeneration_per_minute_per_affected_enemy","vampiric_icon_bleeding_damage_+%_final"]
   },
   "TriggerSummonedAncestorAhuana":{
     "baseFlags":{
@@ -9084,7 +9352,7 @@
     },
     "castTime":1,
     "color":4,
-    "constantStats":[["base_skill_effect_duration",12000],["minion_actor_level_is_user_level_up_to_maximum",85],["ancestral_embrace_effect_+%_per_ngamahu_tattoo",20],["ancestral_buff_damage_removed_from_your_nearest_totem_before_life_or_es_%",15]],
+    "constantStats":[["base_skill_effect_duration",12000],["minion_actor_level_is_user_level_up_to_maximum",85]],
     "description":"Summons an immortal chieftain minion of the Ngamahu tribe to fight alongside you for a duration. This minion grants you a buff which allows totems to take some damage from hits for you. Shares a Cooldown with other Spirit Chieftain Skills.",
     "fromTree":true,
     "hidden":true,
@@ -9092,19 +9360,27 @@
       "1":{
         "cooldown":80,
         "levelRequirement":0,
-        "storedUses":1
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":20,
+        "2":15
       },
       "2":{
         "cooldown":20,
         "levelRequirement":0,
-        "statInterpolation":[1],
+        "statInterpolation":[1,1,1],
         "storedUses":1,
-        "1":10
+        "1":10,
+        "2":20,
+        "3":15
       },
       "20":{
         "cooldown":20,
         "levelRequirement":0,
-        "storedUses":1
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":10,
+        "2":25
       }
     },
     "minionList":["AncestralKaomMinion"],
@@ -9163,7 +9439,7 @@
         }
       }
     },
-    "stats":["trigger_on_totem_death_in_presence_of_unique","chance_to_cast_on_kill_%","display_this_skill_cooldown_does_not_recover_during_buff"]
+    "stats":["ancestral_embrace_effect_+%_per_ngamahu_tattoo","ancestral_buff_damage_removed_from_your_nearest_totem_before_life_or_es_%","trigger_on_totem_death_in_presence_of_unique","chance_to_cast_on_kill_%","display_this_skill_cooldown_does_not_recover_during_buff"]
   },
   "TriggerSummonedAncestorKiloava":{
     "baseFlags":{
@@ -9572,7 +9848,7 @@
     },
     "castTime":1,
     "color":4,
-    "constantStats":[["base_skill_effect_duration",12000],["minion_actor_level_is_user_level_up_to_maximum",85],["ancestral_embrace_effect_+%_per_kitava_tattoo",20],["ancestral_buff_leech_%_is_instant",25]],
+    "constantStats":[["base_skill_effect_duration",12000],["minion_actor_level_is_user_level_up_to_maximum",85]],
     "description":"Summons an immortal chieftain minion of the Kitava tribe to fight alongside you for a duration. This minion grants you a buff which makes a percentage of your leech recover instantly. Shares a Cooldown with other Spirit Chieftain Skills.",
     "fromTree":true,
     "hidden":true,
@@ -9580,19 +9856,27 @@
       "1":{
         "cooldown":80,
         "levelRequirement":0,
-        "storedUses":1
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":20,
+        "2":25
       },
       "2":{
         "cooldown":20,
         "levelRequirement":0,
-        "statInterpolation":[1],
+        "statInterpolation":[1,1,1],
         "storedUses":1,
-        "1":10
+        "1":10,
+        "2":20,
+        "3":25
       },
       "20":{
         "cooldown":20,
         "levelRequirement":0,
-        "storedUses":1
+        "statInterpolation":[1,1],
+        "storedUses":1,
+        "1":10,
+        "2":50
       }
     },
     "minionList":["AncestralUtulaMinion"],
@@ -9677,7 +9961,7 @@
         }
       }
     },
-    "stats":["trigger_on_taking_savage_hit_from_unique","chance_to_cast_on_kill_%","display_this_skill_cooldown_does_not_recover_during_buff"]
+    "stats":["ancestral_embrace_effect_+%_per_kitava_tattoo","ancestral_buff_leech_%_is_instant","trigger_on_taking_savage_hit_from_unique","chance_to_cast_on_kill_%","display_this_skill_cooldown_does_not_recover_during_buff"]
   },
   "TriggeredConsecrate":{
     "baseFlags":{
@@ -9788,7 +10072,8 @@
       "41":true,
       "60":true,
       "82":true,
-      "95":true
+      "95":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_uncastable_if_triggerable"]
@@ -9921,7 +10206,8 @@
       "12":true,
       "35":true,
       "41":true,
-      "60":true
+      "60":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_uncastable_if_triggerable"]
@@ -9973,7 +10259,8 @@
       "41":true,
       "60":true,
       "67":true,
-      "86":true
+      "86":true,
+      "101":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectiles_nova","always_pierce","spell_uncastable_if_triggerable"]
@@ -10133,7 +10420,7 @@
     "baseTypeName":"Vaal Breach",
     "castTime":2.5,
     "color":4,
-    "description":"Creates a breach, making you vulnerable to its powerful inhabitants.",
+    "description":"This skill is temporarily disabled and cannot be used.",
     "levels":[{
         "cost":{
           "Soul":100
@@ -10218,7 +10505,7 @@
       "42":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
-    "stats":["base_deal_no_damage","display_vaal_breach_no_drops_xp","cannot_cancel_skill_before_contact_point","skill_cannot_be_stunned_before_contact_point"]
+    "stats":["base_deal_no_damage","display_vaal_breach_no_drops_xp","cannot_cancel_skill_before_contact_point","skill_cannot_be_stunned_before_contact_point","base_skill_disabled"]
   },
   "VoidGaze":{
     "baseFlags":{
@@ -10356,7 +10643,6 @@
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_cold_damage_to_deal_per_minute","is_area_damage","base_skill_show_average_damage_instead_of_dps","spell_damage_modifiers_apply_to_skill_dot","spell_uncastable_if_triggerable"]
   },
   "WardShatter":{
-    "baseEffectiveness":0.68000000715256,
     "baseFlags":{
       "spell":true
     },
@@ -10372,29 +10658,22 @@
       }],
     "castTime":1,
     "color":1,
-    "constantStats":[["trigger_on_ward_break_%_chance",100],["from_code_active_skill_ailment_damage_+%_final",-40],["active_skill_damage_+%_final_if_ward_has_not_broken_in_the_past_2_seconds",80]],
+    "constantStats":[["trigger_on_ward_break_%_chance",100],["from_code_active_skill_ailment_damage_+%_final",-40],["active_skill_damage_+%_final_if_ward_has_not_broken_in_the_past_2_seconds",200],["spell_minimum_base_physical_damage_%_of_ward",160],["spell_maximum_base_physical_damage_%_of_ward",240]],
     "description":"Your ward shatters, dealing physical spell damage to enemies in an area, based on the amount of ward you have. Enemies hit are inflicted with Enervation, a Debuff that lowers Movement Speed by 20% and prevents Life and Energy Shield Recovery for 4 seconds.",
     "fromTree":true,
     "hidden":true,
-    "incrementalEffectiveness":0.045000001788139,
     "levels":{
       "1":{
-        "cooldown":0.5,
+        "cooldown":0.15,
         "critChance":6,
         "levelRequirement":4,
-        "statInterpolation":[3,3],
-        "storedUses":1,
-        "1":0.20000000298023,
-        "2":0.30000001192093
+        "storedUses":1
       },
       "20":{
-        "cooldown":0.5,
+        "cooldown":0.15,
         "critChance":6,
         "levelRequirement":70,
-        "statInterpolation":[3,3],
-        "storedUses":1,
-        "1":0.61250001192093,
-        "2":0.73750001192093
+        "storedUses":1
       }
     },
     "name":"Ward Shatter",
@@ -10429,6 +10708,6 @@
           "type":"MORE"
         }]
     },
-    "stats":["spell_minimum_base_physical_damage_%_of_ward","spell_maximum_base_physical_damage_%_of_ward"]
+    "stats":[]
   }
 }

@@ -3571,28 +3571,27 @@
     "castTime":1.15,
     "color":4,
     "constantStats":[["base_stun_threshold_reduction_+%",30],["base_stun_duration_+%",100]],
-    "description":"Swings a two handed melee weapon in a circle, knocking back monsters around the character.",
+    "description":"Swings a two handed mace or a staff in a circle, calling down holy hammers to land randomly on a number of enemies struck. Hits from these holy hammers cannot be evaded.",
     "hidden":true,
     "levels":[{
         "levelRequirement":19,
         "statInterpolation":[1],
         "1":20
       }],
-    "name":"Sweep",
+    "name":"Holy Sweep",
     "notMinionStat":["active_skill_physical_damage_+%_final"],
     "skillTypes":{
       "1":true,
       "11":true,
       "24":true,
-      "28":true
+      "28":true,
+      "34":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_physical_damage_+%_final","is_area_damage","cast_time_overrides_attack_duration"],
     "weaponTypes":{
       "Staff":true,
-      "Two Handed Axe":true,
-      "Two Handed Mace":true,
-      "Two Handed Sword":true
+      "Two Handed Mace":true
     }
   },
   "AzmeriOakVitality":{

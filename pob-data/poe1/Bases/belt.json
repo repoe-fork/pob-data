@@ -41,6 +41,27 @@
     },
     "type":"Belt"
   },
+  "Cord Belt":{
+    "implicit":"Can be Anointed",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
+    "req":[],
+    "tags":{
+      "belt":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Belt"
+  },
   "Crystal Belt":{
     "implicit":"+(60-80) to maximum Energy Shield",
     "implicitModTypes":[["defences","energy_shield"]],

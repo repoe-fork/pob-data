@@ -5781,6 +5781,18 @@
         "type":"BASE",
         "value":2
       }]],
+  "+2 to Ward per 10 Armour on Equipped Helmet":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "div":10,
+          "stat":"Armour",
+          "type":"PerStat"
+        }
+      }],"   on Equipped Helmet "],
   "+2 to Weapon Range":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9226,6 +9238,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Divine Blast Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"divine blast",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Divine Ire Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10035,6 +10059,42 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"holy flame totem",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Holy Hammers Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"holy hammers",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Holy Strike Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"holy strike",
+          "value":3
+        }
+      }]],
+  "+3 to Level of all Holy Sweep Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"holy sweep",
           "value":3
         }
       }]],
@@ -10950,6 +11010,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Shield of Light Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"shield of light",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Shock Nova Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11439,18 +11511,6 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"sunder",
-          "value":3
-        }
-      }]],
-  "+3 to Level of all Sweep Gems":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyOfScaledMod":"value",
-          "keyword":"sweep",
           "value":3
         }
       }]],
@@ -13495,6 +13555,18 @@
         "type":"BASE",
         "value":4
       }]],
+  "+4 to Ward per 10 Evasion Rating on Equipped Gloves":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":4,
+        "1":{
+          "div":10,
+          "stat":"Evasion",
+          "type":"PerStat"
+        }
+      }],"   on Equipped Gloves "],
   "+4 to all Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14038,6 +14110,13 @@
         "flags":262148,
         "keywordFlags":0,
         "name":"CritMultiplier",
+        "type":"BASE",
+        "value":40
+      }]],
+  "+40% to Damage over Time Multiplier":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DotMultiplier",
         "type":"BASE",
         "value":40
       }]],
@@ -15347,6 +15426,16 @@
         "name":"ElementalResist",
         "type":"BASE",
         "value":50
+      }]],
+  "+50% to global critical strike chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":50,
+        "1":{
+          "type":"Global"
+        }
       }]],
   "+500 to Accuracy Rating":[[{
         "flags":0,
@@ -16667,6 +16756,13 @@
         "type":"BASE",
         "value":8
       }]],
+  "+8 to Ward per 10 Energy Shield on Equipped Boots":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":8
+      }],"  per 10 Energy Shield on Equipped Boots "],
   "+8 to all Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19518,6 +19614,13 @@
         "type":"LIST",
         "value":"Fettle"
       }]],
+  "1 Added Passive Skill is Fiery Aegis":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ClusterJewelNotable",
+        "type":"LIST",
+        "value":"Fiery Aegis"
+      }]],
   "1 Added Passive Skill is Fire Attunement":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19699,6 +19802,13 @@
         "name":"ClusterJewelNotable",
         "type":"LIST",
         "value":"Holy Conquest"
+      }]],
+  "1 Added Passive Skill is Holy Word":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ClusterJewelNotable",
+        "type":"LIST",
+        "value":"Holy Word"
       }]],
   "1 Added Passive Skill is Hound's Mark":[[{
         "flags":0,
@@ -22435,6 +22545,13 @@
         "type":"BASE",
         "value":10
       }]," to Recover 10% of  when you use a Skill When you leave your Banner's , recover 25% of the Valour consumed for that Banner "],
+  "10% chance to Restore Ward when you Block":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":10
+      }]," to Restore  when you Block "],
   "10% chance to Shock":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27898,6 +28015,13 @@
         "type":"INC",
         "value":12
       }]],
+  "12% increased Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"INC",
+        "value":12
+      }]],
   "12% increased effect of Non-Curse Auras from your Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27914,6 +28038,22 @@
           "type":"SkillType"
         }
       }]],
+  "12% increased effect of Non-Curse Auras from your skills while your Ward is Broken":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AuraEffect",
+        "type":"INC",
+        "value":12,
+        "1":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "2":{
+          "neg":true,
+          "skillType":79,
+          "type":"SkillType"
+        }
+      }],"  while your Ward is Broken "],
   "12% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -29303,6 +29443,13 @@
         "type":"BASE",
         "value":15
       }]],
+  "15% chance for Ward to be Restored when you Use a Flask":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":15
+      }]," for  to be Restored when you Use a Flask "],
   "15% chance to Avoid being Stunned":[[{
         "flags":0,
         "keywordFlags":0,
@@ -29551,6 +29698,13 @@
         "name":"Condition:CanWither",
         "type":"FLAG",
         "value":true
+      }]],
+  "15% faster Restoration of Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardRechargeFaster",
+        "type":"INC",
+        "value":15
       }]],
   "15% faster start of Energy Shield Recharge":[[{
         "flags":0,
@@ -31966,6 +32120,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ElementalDamage",
+        "type":"INC",
+        "value":16
+      }]],
+  "16% increased Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
         "type":"INC",
         "value":16
       }]],
@@ -34891,6 +35052,13 @@
   "20% chance to gain an Endurance Charge when you Block Can't use Chest armour":[null,"an Endurance Charge when you Block Can't use Chest armour "],
   "20% chance to gain an Endurance Charge when you Stun an Enemy with a Melee Hit":[null,"an Endurance Charge when you Stun an Enemy with a Melee Hit "],
   "20% chance when you Kill a Magic Monster to gain its Modifiers for 60 seconds":[[]," when you Kill a Magic Monster to gain its Modifiers  "],
+  "20% faster Restoration of Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardRechargeFaster",
+        "type":"INC",
+        "value":20
+      }]],
   "20% faster start of Energy Shield Recharge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -36861,6 +37029,28 @@
         "name":"WarcrySpeed",
         "type":"INC",
         "value":20
+      }]],
+  "20% increased Ward during any Flask Effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
+  "20% increased Ward from Equipped Armour Items":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "slotNameList":["Helmet","Body Armour","Gloves","Boots","Weapon 2"],
+          "type":"SlotName"
+        }
       }]],
   "20% increased bonuses gained from Equipped Gloves":[[{
         "flags":0,
@@ -40754,6 +40944,13 @@
         "type":"INC",
         "value":25
       }]],
+  "25% increased Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"INC",
+        "value":25
+      }]],
   "25% increased effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43013,6 +43210,13 @@
           "var":"BeenHitRecently"
         }
       }]],
+  "30% increased Armour while you have Unbroken Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"INC",
+        "value":30
+      }],"  while you have Unbroken Ward "],
   "30% increased Attack Critical Strike Chance while Dual Wielding":[[{
         "flags":1,
         "keywordFlags":0,
@@ -43433,6 +43637,13 @@
           "var":"UsingWand"
         }
       }]],
+  "30% increased Damage while you have Unbroken Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":30
+      }],"  while you have Unbroken Ward "],
   "30% increased Damage while you have no Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43983,6 +44194,13 @@
           "var":"HaveEnergyShield"
         }
       }]],
+  "30% increased Evasion Rating while you have Unbroken Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":30
+      }],"  while you have Unbroken Ward "],
   "30% increased Evasion Rating while you have an active Tincture":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45450,7 +45668,7 @@
   "33% chance to inflict an additional Poison on the same Target when you inflict Poison":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"DoublePoisonChance",
+        "name":"AdditionalPoisonChance",
         "type":"BASE",
         "value":33
       }]],
@@ -47282,7 +47500,7 @@
   "40% chance to inflict an additional Poison on the same Target when you inflict Poison":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"DoublePoisonChance",
+        "name":"AdditionalPoisonChance",
         "type":"BASE",
         "value":40
       }]],
@@ -48762,6 +48980,13 @@
           "var":"Insane"
         }
       }]],
+  "40% less Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"MORE",
+        "value":-40
+      }]],
   "40% less duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49845,6 +50070,13 @@
         "type":"BASE",
         "value":5
       }]],
+  "5% Chance to Block Attack Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BlockChance",
+        "type":"BASE",
+        "value":5
+      }]],
   "5% Chance to Block Attack Damage while wielding a Staff":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49855,6 +50087,13 @@
           "type":"Condition",
           "var":"UsingStaff"
         }
+      }]],
+  "5% Chance to Block Spell Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SpellBlockChance",
+        "type":"BASE",
+        "value":5
       }]],
   "5% Chance to Block Spell Damage during Effect":[[{
         "flags":0,
@@ -51805,6 +52044,52 @@
         "type":"INC",
         "value":50
       }]],
+  "50% increased Damage with Damaging Ailments you inflict while you are affected by the same Ailment":[[{
+        "flags":0,
+        "keywordFlags":4194304,
+        "name":"Damage",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Bleeding"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"Bleeding"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":8388608,
+        "name":"Damage",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Ignited"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"Ignited"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":2097152,
+        "name":"Damage",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Poisoned"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"Poisoned"
+        }
+      }]],
   "50% increased Damage with Hits and Ailments against Bleeding Enemies":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -52764,6 +53049,13 @@
         "type":"MORE",
         "value":-50
       }]],
+  "50% less Duration of Ignites you inflict":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteDuration",
+        "type":"MORE",
+        "value":-50
+      }]],
   "50% less Energy Shield Recharge Rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -53228,28 +53520,6 @@
         "name":"FlaskRecoveryRate",
         "type":"INC",
         "value":-50
-      }]],
-  "50% reduced Reflected Elemental Damage taken while affected by Purity of Elements":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ElementalReflectedDamageTaken",
-        "type":"INC",
-        "value":-50,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByPurityofElements"
-        }
-      }]],
-  "50% reduced Reflected Physical Damage taken while affected by Determination":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalReflectedDamageTaken",
-        "type":"INC",
-        "value":-50,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByDetermination"
-        }
       }]],
   "50% reduced Totem Damage":[[{
         "flags":0,
@@ -56245,6 +56515,24 @@
         "type":"BASE",
         "value":75
       }]],
+  "75% of Elemental Damage from your Hits cannot be Reflected while":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalDamage",
+        "type":"BASE",
+        "value":75
+      }],"  from your Hits cannot be Reflected while "],
+  "75% of Elemental Damage from your Hits cannot be Reflected while affected by Purity of Elements":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalDamage",
+        "type":"BASE",
+        "value":75,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByPurityofElements"
+        }
+      }],"  from your Hits cannot be Reflected  "],
   "75% of Physical Damage converted to a random Element":[[{
         "flags":0,
         "keywordFlags":0,
@@ -56252,6 +56540,28 @@
         "type":"BASE",
         "value":75
       }]],
+  "75% of Physical Damage from your Hits cannot be Reflected while affected by Determination":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"BASE",
+        "value":75,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByDetermination"
+        }
+      }],"  from your Hits cannot be Reflected  "],
+  "75% of Physical Damage from your Hits cannot be Reflected while affected by Determination Unaffected by Vulnerability while affected by Determination":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamage",
+        "type":"BASE",
+        "value":75,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByDetermination"
+        }
+      }],"  from your Hits cannot be Reflected  Unaffected by Vulnerability while affected by Determination "],
   "75% reduced Effect of Chill on You":[[{
         "flags":0,
         "keywordFlags":0,
@@ -56668,6 +56978,17 @@
         "name":"AreaOfEffect",
         "type":"INC",
         "value":8
+      }]],
+  "8% increased Area of Effect of Aura Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":8,
+        "1":{
+          "skillType":43,
+          "type":"SkillType"
+        }
       }]],
   "8% increased Armour":[[{
         "flags":0,
@@ -72251,6 +72572,13 @@
         "type":"MAX",
         "value":10
       }]],
+  "Arcane Surge also grants 15% increased Life Regeneration Rate to you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArcaneSurgeAlsoLifeRegen",
+        "type":"BASE",
+        "value":15
+      }]],
   "Arcane Surge also grants 20% more Spell Damage to you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -76268,6 +76596,43 @@
           }
         }
       }],"Cannot have s other than Animated Weapons   "],
+  "Cannot have Minions other than Holy Armaments":[null,"Cannot have Minions other than Holy Armaments "],
+  "Cannot have Minions other than Living Lightning":[null,"Cannot have Minions other than Living Lightning "],
+  "Cannot have Minions other than Living Lightning Maximum number of Holy Armaments is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveHolyStrikeMinionLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveHolyStrikeMinionLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveHolyStrikeMinionLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveHolyStrikeMinionLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Living Lightning   "],
   "Cannot have Minions other than Raised Spectres":[null,"Cannot have Minions other than Raised Spectres "],
   "Cannot have Minions other than Raised Spectres Maximum number of Raised Spiders is Doubled":[[{
         "flags":0,
@@ -76677,6 +77042,41 @@
         }
       }],"Cannot have s other than Summoned Skeletons   "],
   "Cannot have Minions other than Summoned Spectral Wolves":[null,"Cannot have Minions other than Summoned Spectral Wolves "],
+  "Cannot have Minions other than Summoned Spectral Wolves Maximum number of Living Lightning is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ActiveLivingLightningLimit",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "globalLimit":100,
+              "globalLimitKey":"ActiveLivingLightningLimitDoubledLimit",
+              "type":"Multiplier",
+              "var":"ActiveLivingLightningLimitDoubled"
+            }
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ActiveLivingLightningLimitDoubled",
+            "type":"OVERRIDE",
+            "value":1
+          }
+        }
+      }],"Cannot have s other than Summoned Spectral Wolves   "],
   "Cannot inflict Freeze or Chill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -76960,6 +77360,8 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating":[null,"Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating "],
+  "Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour":[null,"Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour "],
   "Chance to Suppress Spell Damage is Lucky":[[{
         "flags":0,
         "keywordFlags":0,
@@ -77847,6 +78249,17 @@
             "value":30
           }
         },
+        "1":{
+          "type":"Condition",
+          "var":"OnConsecratedGround"
+        }
+      }]],
+  "Consecrated Ground you create grants 30% increased Mana Regeneration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"INC",
+        "value":30,
         "1":{
           "type":"Condition",
           "var":"OnConsecratedGround"
@@ -78789,6 +79202,13 @@
         "type":"BASE",
         "value":7
       }]],
+  "Damage Penetrates 8% Elemental Resistances while your Ward is Broken":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ElementalPenetration",
+        "type":"BASE",
+        "value":8
+      }],"   while your Ward is Broken "],
   "Damage Penetrates 8% Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80570,6 +80990,8 @@
       }]],
   "Elusive on you reduces in effect 50% slower":[null,"Elusive on you reduces in effect 50% slower "],
   "Elusive on you reduces in effect 50% slower Elusive is removed from you at 20% effect":[null,"Elusive on you reduces in effect 50% slower Elusive is removed from you at 20% effect "],
+  "Elusive's Effect on you is increased instead for the first 2 seconds":[null,"Elusive's Effect on you is increased instead for the first 2 seconds "],
+  "Elusive's Effect on you is increased instead for the first 2 seconds Limited to 1 Runegraft of the Agile":[null,"Elusive's Effect on you is increased instead for the first 2 seconds Limited to 1 Runegraft of the Agile "],
   "Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed":[null,"Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed "],
   "Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed 30% chance to Freeze Enemies which are Chilled":[null,"Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed 30% chance to Freeze Enemies which are Chilled "],
   "Enemies Blinded by you have Malediction":[[{
@@ -81056,6 +81478,25 @@
             "name":"ChaosResist",
             "type":"BASE",
             "value":-5,
+            "1":{
+              "type":"Condition",
+              "var":"Poisoned"
+            }
+          }
+        }
+      }]],
+  "Enemies Poisoned by you have 10% of Physical Damage they deal converted to Chaos":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PhysicalDamageConvertToChaos",
+            "type":"BASE",
+            "value":10,
             "1":{
               "type":"Condition",
               "var":"Poisoned"
@@ -82489,13 +82930,13 @@
       }],"Enemies you inflict Bleeding on grant 100% increased Flask Charges   "],
   "Enemies you kill are Shocked":[null,"Enemies you kill are Shocked "],
   "Enemies you kill are Shocked Shocks you inflict spread to other Enemies within 1.5 metres":[null,"Enemies you kill are Shocked Shocks you inflict spread to other Enemies within 1.5 metres "],
-  "Enemies you or your Totems Kill have 1% chance to Explode, dealing 500% of their maximum Life as Fire Damage":[[{
+  "Enemies you or your Totems Kill have 1% chance to Explode, dealing 250% of their maximum Life as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExplodeMod",
         "type":"LIST",
         "value":{
-          "amount":500,
+          "amount":250,
           "chance":0.01,
           "keyOfScaledMod":"chance",
           "type":"Fire"
@@ -82953,8 +83394,7 @@
       }]],
   "Every 4 seconds, remove Curses and Ailments from you":[null,"Every 4 seconds, remove Curses and Ailments from you "],
   "Every 4 seconds, remove Curses and Ailments from you Every 4 seconds, Regenerate 100% of Life over one second":[null,"Every 4 seconds, remove Curses and Ailments from you Every 4 seconds, Regenerate 100% of Life over one second "],
-  "Every 4 seconds, remove Curses and Elemental Ailments from you":[null,"Every 4 seconds, remove Curses and Elemental Ailments from you "],
-  "Every 4 seconds, remove Curses and Elemental Ailments from you Grants Armour equal to 6% of your Reserved Mana to you and nearby Allies":[null,"Every 4 seconds, remove Curses and Elemental Ailments from you Grants Armour equal to 6% of your Reserved Mana to you and nearby Allies "],
+  "Every 4 seconds, remove Curses and Ailments from you Grants Armour equal to 6% of your Reserved Mana to you and nearby Allies":[null,"Every 4 seconds, remove Curses and Ailments from you Grants Armour equal to 6% of your Reserved Mana to you and nearby Allies "],
   "Every 5 seconds, gain one of the following for 5 seconds:":[null,"Every 5 seconds, gain one of the following for 5 seconds: "],
   "Every 5 seconds, gain one of the following for 5 seconds: Your Hits are always Critical Strikes":[null,"Every 5 seconds, gain one of the following for 5 seconds: Your Hits are always Critical Strikes "],
   "Every 8 seconds, gain Avatar of Fire for 4 seconds":[[{
@@ -83825,6 +84265,13 @@
   "Gain 1 Endurance Charge on use Gain 1 Frenzy Charge on use":[[]," Endurance Charge on use Gain 1Charge on use "],
   "Gain 1 Endurance Charge on use Petrified during Effect":[[]," Endurance Charge on use Petrified  "],
   "Gain 1 Endurance Charge per Second during Effect":[[]," Endurance Charge per Second  "],
+  "Gain 1 Endurance Charge when Ward Breaks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":1
+      }]," Endurance Charge when  Breaks "],
   "Gain 1 Energy Shield on Kill per Level":[[{
         "flags":0,
         "keywordFlags":0,
@@ -83843,9 +84290,35 @@
   "Gain 1 Fanatic Charge every second if you've Attacked in the past second":[[]," Fanatic Charge every second if you've Attacked in the past second "],
   "Gain 1 Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges":[[]," Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges "],
   "Gain 1 Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges +4 to Maximum Fanatic Charges":[[]," Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges +4 to Maximum Fanatic Charges "],
+  "Gain 1 Fortification per 5 Valour consumed to place a Banner":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinimumFortification",
+        "type":"BASE",
+        "value":1
+      }],"  per 5 Valour consumed to place a Banner "],
+  "Gain 1 Fortification per 5 Valour consumed to place a Banner Limited to 1 Runegraft of Rallying":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinimumFortification",
+        "type":"BASE",
+        "value":1
+      }],"  per 5 Valour consumed to place a Banner Limited to 1 Runegraft of Rallying "],
   "Gain 1 Fragile Regrowth each second":[[]," Fragile Regrowth each second "],
   "Gain 1 Frenzy Charge on use":[[],"Charge on use "],
   "Gain 1 Frenzy Charge on use Gain 1 Power Charge on use":[[],"Charge on use Gain 1 Power Charge on use "],
+  "Gain 1 Frenzy Charge when Ward Breaks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Frenzy",
+          "type":"SkillName"
+        }
+      }],"Charge when  Breaks "],
   "Gain 1 Gale Force when you use a Skill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -83885,6 +84358,13 @@
       }]],
   "Gain 1 Power Charge on use":[[]," Power Charge on use "],
   "Gain 1 Power Charge on use Gain 3 Endurance Charge on use":[[]," Power Charge on use Gain 3 Endurance Charge on use "],
+  "Gain 1 Power Charge when Ward Breaks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":1
+      }]," Power Charge when  Breaks "],
   "Gain 1 Rage on Attack Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85128,6 +85608,13 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Gain 3 Rage when you use a Life Flask":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanGainRage",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Gain 3% of Maximum Life as Extra Maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85138,14 +85625,14 @@
   "Gain 3% of Missing Unreserved Life before being Hit by an Enemy Per Defiance":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Life",
+        "name":"MissingLifeBeforeEnemyHit",
         "type":"BASE",
         "value":3,
         "1":{
           "type":"Multiplier",
           "var":"Defiance"
         }
-      }]," Missing Unreserved  before being Hit by an Enemy  "],
+      }]],
   "Gain 30 Energy Shield per Enemy Hit while affected by Discipline":[[{
         "flags":4,
         "keywordFlags":0,
@@ -90527,6 +91014,8 @@
           "type":"SkillType"
         }
       }]],
+  "Ignites you cause are reflected back to you":[null,"Ignites you cause are reflected back to you "],
+  "Ignites you cause are reflected back to you 50% less Duration of Ignites you inflict":[null,"Ignites you cause are reflected back to you 50% less Duration of Ignites you inflict "],
   "Ignites you inflict deal Damage 15% faster":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90586,6 +91075,8 @@
         "type":"INC",
         "value":35
       }]],
+  "Ignites you inflict with this weapon spread to other Enemies within 2.8 metres":[null,"Ignites you inflict with this weapon spread to other Enemies within 2.8 metres "],
+  "Ignites you inflict with this weapon spread to other Enemies within 2.8 metres Unaffected by Ignite":[null,"Ignites you inflict with this weapon spread to other Enemies within 2.8 metres Unaffected by Ignite "],
   "Ignites your Skills cause spread to other Enemies within 1.2 metres":[null,"Ignites your Skills cause spread to other Enemies within 1.2 metres "],
   "Ignites your Skills cause spread to other Enemies within 1.2 metres Ignites your Skills cause spread to other Enemies within 1.5 metres":[null,"Ignites your Skills cause spread to other Enemies within 1.2 metres Ignites your Skills cause spread to other Enemies within 1.5 metres "],
   "Ignites your Skills cause spread to other Enemies within 1.5 metres":[null,"Ignites your Skills cause spread to other Enemies within 1.5 metres "],
@@ -91660,6 +92151,7 @@
           "var":"SelfCastPunishment"
         }
       }]],
+  "Iron Flasks gain 2 charges when your Ward Breaks":[null,"Iron Flasks gain 2 charges when your Ward Breaks "],
   "Iron Grip":[[{
         "flags":0,
         "keywordFlags":0,
@@ -92251,24 +92743,34 @@
   "Limited to 1 Loyalty Tattoo":[null,"Limited to 1 Loyalty Tattoo "],
   "Limited to 1 Runegraft of Bellows":[null,"Limited to 1 Runegraft of Bellows "],
   "Limited to 1 Runegraft of Blasphemy":[null,"Limited to 1 Runegraft of Blasphemy "],
+  "Limited to 1 Runegraft of Connection":[null,"Limited to 1 Runegraft of Connection "],
+  "Limited to 1 Runegraft of Consecration":[null,"Limited to 1 Runegraft of Consecration "],
+  "Limited to 1 Runegraft of Fury":[null,"Limited to 1 Runegraft of Fury "],
   "Limited to 1 Runegraft of Gemcraft":[null,"Limited to 1 Runegraft of Gemcraft "],
   "Limited to 1 Runegraft of Loyalty":[null,"Limited to 1 Runegraft of Loyalty "],
   "Limited to 1 Runegraft of Quaffing":[null,"Limited to 1 Runegraft of Quaffing "],
+  "Limited to 1 Runegraft of Rallying":[null,"Limited to 1 Runegraft of Rallying "],
   "Limited to 1 Runegraft of Refraction":[null,"Limited to 1 Runegraft of Refraction "],
   "Limited to 1 Runegraft of Restitching":[null,"Limited to 1 Runegraft of Restitching "],
+  "Limited to 1 Runegraft of Resurgence":[null,"Limited to 1 Runegraft of Resurgence "],
+  "Limited to 1 Runegraft of Rotblood":[null,"Limited to 1 Runegraft of Rotblood "],
   "Limited to 1 Runegraft of Stability":[null,"Limited to 1 Runegraft of Stability "],
+  "Limited to 1 Runegraft of Suffering":[null,"Limited to 1 Runegraft of Suffering "],
   "Limited to 1 Runegraft of Time":[null,"Limited to 1 Runegraft of Time "],
   "Limited to 1 Runegraft of Treachery":[null,"Limited to 1 Runegraft of Treachery "],
+  "Limited to 1 Runegraft of the Agile":[null,"Limited to 1 Runegraft of the Agile "],
   "Limited to 1 Runegraft of the Angler":[null,"Limited to 1 Runegraft of the Angler "],
   "Limited to 1 Runegraft of the Bound":[null,"Limited to 1 Runegraft of the Bound "],
   "Limited to 1 Runegraft of the Combatant":[null,"Limited to 1 Runegraft of the Combatant "],
   "Limited to 1 Runegraft of the Fortress":[null,"Limited to 1 Runegraft of the Fortress "],
   "Limited to 1 Runegraft of the Gauche":[null,"Limited to 1 Runegraft of the Gauche "],
+  "Limited to 1 Runegraft of the Imbued":[null,"Limited to 1 Runegraft of the Imbued "],
   "Limited to 1 Runegraft of the Jeweller":[null,"Limited to 1 Runegraft of the Jeweller "],
   "Limited to 1 Runegraft of the Novamark":[null,"Limited to 1 Runegraft of the Novamark "],
   "Limited to 1 Runegraft of the River":[null,"Limited to 1 Runegraft of the River "],
   "Limited to 1 Runegraft of the Sinistral":[null,"Limited to 1 Runegraft of the Sinistral "],
   "Limited to 1 Runegraft of the Soulwick":[null,"Limited to 1 Runegraft of the Soulwick "],
+  "Limited to 1 Runegraft of the Spellbound":[null,"Limited to 1 Runegraft of the Spellbound "],
   "Limited to 1 Runegraft of the Warp":[null,"Limited to 1 Runegraft of the Warp "],
   "Limited to 1 Runegraft of the Witchmark":[null,"Limited to 1 Runegraft of the Witchmark "],
   "Link Skills Link to 1 additional random target":[null,"Link Skills Link to 1 additional random target "],
@@ -92364,6 +92866,8 @@
           "type":"SkillType"
         }
       }]],
+  "Link Skills have 50% increased range":[[]," range "],
+  "Link Skills have 50% increased range Limited to 1 Runegraft of Connection":[[]," range Limited to 1 Runegraft of Connection "],
   "Linked Targets Cannot Die for 2 seconds after you Die":[null,"Linked Targets Cannot Die for 2 seconds after you Die "],
   "Linked Targets Cannot Die for 2 seconds after you Die Lose no Experience when you die because a Linked target died":[null,"Linked Targets Cannot Die for 2 seconds after you Die Lose no Experience when you die because a Linked target died "],
   "Linked Targets always count as in range of Non-Curse Auras from your Skills":[[]],
@@ -93289,6 +93793,44 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Multiplier:ActiveAnimatedWeaponLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Holy Armaments is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveHolyStrikeMinionLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveHolyStrikeMinionLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveHolyStrikeMinionLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveHolyStrikeMinionLimitDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
+  "Maximum number of Living Lightning is Doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveLivingLightningLimit",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"ActiveLivingLightningLimitDoubledLimit",
+          "type":"Multiplier",
+          "var":"ActiveLivingLightningLimitDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:ActiveLivingLightningLimitDoubled",
         "type":"OVERRIDE",
         "value":1
       }]],
@@ -100320,6 +100862,7 @@
   "Passives granting Lightning Resistance or all Elemental Resistances in Radius":[null,"Passives granting Lightning Resistance or all Elemental Resistances in Radius "],
   "Passives granting Lightning Resistance or all Elemental Resistances in Radius also grant an equal chance to gain a Power Charge on Kill":[null,"Passives granting Lightning Resistance or all Elemental Resistances in Radius also grant an equal chance to gain a Power Charge on Kill "],
   "Passives in radius are Conquered by the Eternal Empire":[[]],
+  "Passives in radius are Conquered by the Kalguur":[[]],
   "Passives in radius are Conquered by the Karui":[[]],
   "Passives in radius are Conquered by the Maraketh":[[]],
   "Passives in radius are Conquered by the Templars":[[]],
@@ -100382,6 +100925,7 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour":[null,"Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour "],
   "Physical Damage of Enemies Hitting you is Unlucky":[null,"Physical Damage of Enemies Hitting you is Unlucky "],
   "Physical Damage taken bypasses Energy Shield":[[{
         "flags":0,
@@ -100812,6 +101356,13 @@
           "type":"Condition",
           "var":"Phasing"
         }
+      }]],
+  "Projectiles Chain an additional time":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ChainCountMax",
+        "type":"BASE",
+        "value":1
       }]],
   "Projectiles Fork":[[{
         "flags":1024,
@@ -102350,6 +102901,8 @@
           "var":"ConnectedToRangerStart"
         }
       }]],
+  "Rate to you and Allies":[null,"Rate to you and Allies "],
+  "Rate to you and Allies Limited to 1 Runegraft of Consecration":[null,"Rate to you and Allies Limited to 1 Runegraft of Consecration "],
   "Recharges 1 Charge when you Consume an Ignited corpse":[null,"Recharges 1 Charge when you Consume an Ignited corpse "],
   "Recharges 1 Charge when you Consume an Ignited corpse Recharges 5 Charges when you Consume an Ignited corpse":[null,"Recharges 1 Charge when you Consume an Ignited corpse Recharges 5 Charges when you Consume an Ignited corpse "],
   "Recharges 5 Charges when you Consume an Ignited corpse":[null,"Recharges 5 Charges when you Consume an Ignited corpse "],
@@ -104657,6 +105210,70 @@
         "type":"BASE",
         "value":90
       }]],
+  "Remembrancing 4050 songworthy deeds by the line of Medved":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":3,
+              "type":"kalguur"
+            },
+            "id":4050
+          }
+        }
+      }]],
+  "Remembrancing 8000 songworthy deeds by the line of Medved":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":3,
+              "type":"kalguur"
+            },
+            "id":8000
+          }
+        }
+      }]],
+  "Remembrancing 8000 songworthy deeds by the line of Uhtred":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":2,
+              "type":"kalguur"
+            },
+            "id":8000
+          }
+        }
+      }]],
+  "Remembrancing 8000 songworthy deeds by the line of Vorana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelData",
+        "type":"LIST",
+        "value":{
+          "key":"conqueredBy",
+          "value":{
+            "conqueror":{
+              "id":1,
+              "type":"kalguur"
+            },
+            "id":8000
+          }
+        }
+      }]],
   "Remove Bleeding when you use a Guard Skill":[null,"Remove Bleeding when you use a Guard Skill "],
   "Remove Bleeding when you use a Guard Skill Remove Corrupted Blood when you use a Guard Skill":[null,"Remove Bleeding when you use a Guard Skill Remove Corrupted Blood when you use a Guard Skill "],
   "Remove Bleeding when you use a Guard Skill Remove Corrupted Blood when you use a Guard Skill Guard Skills have 25% increased Duration":[null,"Remove Bleeding when you use a Guard Skill Remove Corrupted Blood when you use a Guard Skill Guard Skills have 25% increased Duration "],
@@ -104669,6 +105286,7 @@
   "Remove Maim and Hinder when you use a Flask":[null,"Remove Maim and Hinder when you use a Flask "],
   "Remove a Curse after Channelling for 2 seconds":[null,"Remove a Curse after Channelling for 2 seconds "],
   "Remove a random Ailment on you when you consume at least 10 Valour to place a Banner":[null,"Remove a random Ailment on you when you consume at least 10 Valour to place a Banner "],
+  "Remove a random Damaging Ailment when Ward is Restored":[null,"Remove a random Damaging Ailment when Ward is Restored "],
   "Remove a random Elemental Ailment when you use a Mana Flask":[null,"Remove a random Elemental Ailment when you use a Mana Flask "],
   "Remove a random Non-Elemental Ailment when you use a Life Flask":[null,"Remove a random Non-Elemental Ailment when you use a Life Flask "],
   "Remove all Ailments and Burning when you gain Adrenaline":[null,"Remove all Ailments and Burning when you gain Adrenaline "],
@@ -104742,7 +105360,7 @@
         }
       }],"% of your  on use You take 10% of your maximum Life  on use "],
   "Removes Bleeding when you use a Flask":[null,"Removes Bleeding when you use a Flask "],
-  "Removes Bleeding when you use a Flask Every 4 seconds, remove Curses and Elemental Ailments from you":[null,"Removes Bleeding when you use a Flask Every 4 seconds, remove Curses and Elemental Ailments from you "],
+  "Removes Bleeding when you use a Flask Every 4 seconds, remove Curses and Ailments from you":[null,"Removes Bleeding when you use a Flask Every 4 seconds, remove Curses and Ailments from you "],
   "Removes Bleeding when you use a Flask Flasks gain 3 Charges every 3 seconds":[null,"Removes Bleeding when you use a Flask Flasks gain 3 Charges every 3 seconds "],
   "Removes Bleeding when you use a Flask Flasks gain 3 Charges every 3 seconds 25% chance for Flasks you use to not consume Charges":[null,"Removes Bleeding when you use a Flask Flasks gain 3 Charges every 3 seconds 25% chance for Flasks you use to not consume Charges "],
   "Removes Elemental Ailments when you use a Flask":[null,"Removes Elemental Ailments when you use a Flask "],
@@ -106619,6 +107237,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Annihilation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportAnnhilation"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Arcane Surge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -106745,6 +107377,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Blessed Call":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportBlessedCall"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Blind":[[{
         "flags":0,
         "keywordFlags":0,
@@ -106767,6 +107413,20 @@
         "value":{
           "level":10,
           "skillId":"SupportBloodlust"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Bloodsoaked Banner":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportBloodsoakedBanner"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -106799,6 +107459,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Bonespire":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportBonespire"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredSupportBonespire"
         }
       }]],
   "Socketed Gems are Supported by Level 10 Brutality":[[{
@@ -106891,6 +107574,20 @@
         "value":{
           "level":10,
           "skillId":"SupportCastOnMeleeKillTriggered"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Cast on Ward Break":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportCastOnWardBreak"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107106,6 +107803,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Companionship":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportCompanionship"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Concentrated Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107114,6 +107825,20 @@
         "value":{
           "level":10,
           "skillId":"SupportConcentratedEffect"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Congregation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportCongregation"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107142,6 +107867,20 @@
         "value":{
           "level":10,
           "skillId":"SupportControlledDestruction"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Cooldown Recovery":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportCooldownRecovery"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107288,6 +108027,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Divine Sentinel":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportDivineSentinel"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Earthbreaker":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107296,6 +108049,20 @@
         "value":{
           "level":10,
           "skillId":"SupportEarthbreaker"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Eclipse":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportEclipse"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107428,6 +108195,34 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Excommunicate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportExcommunicate"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Exemplar":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportExemplar"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Expert Retaliation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107510,6 +108305,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Fissure":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportFissure"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredSupportFissure"
         }
       }]],
   "Socketed Gems are Supported by Level 10 Fist of War":[[{
@@ -107605,6 +108423,29 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Foulgrasp":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportFoulgrasp"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredSupportFoulgrasp"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Fresh Meat":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107647,28 +108488,14 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Gems are Supported by Level 10 Greater Multiple Projectiles":[[{
+  "Socketed Gems are Supported by Level 10 Gluttony":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraSupport",
         "type":"LIST",
         "value":{
           "level":10,
-          "skillId":"SupportGreaterMultipleProjectiles"
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
-  "Socketed Gems are Supported by Level 10 Greater Volley":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSupport",
-        "type":"LIST",
-        "value":{
-          "level":10,
-          "skillId":"SupportGreaterVolley"
+          "skillId":"SupportGluttony"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107702,6 +108529,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Hallow":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportHallow"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Hex Bloom":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107710,6 +108551,20 @@
         "value":{
           "level":10,
           "skillId":"SupportHexBloom"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Hexpass":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportHexpass"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -107755,6 +108610,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Hiveborn":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportHiveborn"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredSupportHiveborn"
         }
       }]],
   "Socketed Gems are Supported by Level 10 Hypothermia":[[{
@@ -107962,6 +108840,34 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Invention":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportInvention"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Invert the Rules":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportInvertTheRules"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Iron Grip":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108055,14 +108961,14 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Gems are Supported by Level 10 Lesser Multiple Projectiles":[[{
+  "Socketed Gems are Supported by Level 10 Lethal Dose":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraSupport",
         "type":"LIST",
         "value":{
           "level":10,
-          "skillId":"SupportLesserMultipleProjectiles"
+          "skillId":"SupportLethalDose"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -108156,6 +109062,20 @@
         "value":{
           "level":10,
           "skillId":"SupportLocusMine"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Machinations":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportMachinations"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -108302,6 +109222,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Minion Pact":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportMinionPact"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Minion Speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108352,6 +109286,20 @@
         "value":{
           "level":10,
           "skillId":"SupportMoreDuration"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Multiple Projectiles":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportLesserMultipleProjectiles"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -108436,6 +109384,48 @@
         "value":{
           "level":10,
           "skillId":"SupportOverexertion"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Overheat":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportOverheat"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Overloaded Intensity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportOverloadedIntensity"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Pacifism":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportPacifism"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -108572,6 +109562,29 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Pyre":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportPyre"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredSupportPyre"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Rage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108675,6 +109688,20 @@
         "value":{
           "level":10,
           "skillId":"SupportSadism"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Scornful Herald":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportScornfulHerald"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -108858,6 +109885,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Transfusion":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportTransfusion"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Trap":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108956,6 +109997,34 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 10 Vaal Sacrifice":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportVaalSacrifice"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Vaal Temptation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportVaalTemptation"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 10 Vicious Projectiles":[[{
         "flags":0,
         "keywordFlags":0,
@@ -108996,6 +110065,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 10 Voidstorm":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"SupportVoidstorm"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":10,
+          "skillId":"TriggeredSupportVoidstorm"
         }
       }]],
   "Socketed Gems are Supported by Level 10 Volatility":[[{
@@ -109119,20 +110211,8 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Gems are Supported by Level 12 Lesser Multiple Projectiles":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSupport",
-        "type":"LIST",
-        "value":{
-          "level":12,
-          "skillId":"SupportLesserMultipleProjectiles"
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
+  "Socketed Gems are Supported by Level 12 Lesser Multiple Projectiles":[],
+  "Socketed Gems are Supported by Level 12 Lesser Multiple Projectiles Socketed Golem Skills have 25% chance to Taunt on Hit":[],
   "Socketed Gems are Supported by Level 13 Faster Attacks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110003,6 +111083,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Annihilation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportAnnhilation"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Arcane Surge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110129,6 +111223,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Blessed Call":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportBlessedCall"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Blind":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110151,6 +111259,20 @@
         "value":{
           "level":35,
           "skillId":"SupportBloodlust"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Bloodsoaked Banner":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportBloodsoakedBanner"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -110183,6 +111305,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Bonespire":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportBonespire"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"TriggeredSupportBonespire"
         }
       }]],
   "Socketed Gems are Supported by Level 35 Brutality":[[{
@@ -110275,6 +111420,20 @@
         "value":{
           "level":35,
           "skillId":"SupportCastOnMeleeKillTriggered"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Cast on Ward Break":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportCastOnWardBreak"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -110490,6 +111649,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Companionship":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportCompanionship"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Concentrated Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110498,6 +111671,20 @@
         "value":{
           "level":35,
           "skillId":"SupportConcentratedEffect"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Congregation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportCongregation"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -110526,6 +111713,20 @@
         "value":{
           "level":35,
           "skillId":"SupportControlledDestruction"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Cooldown Recovery":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportCooldownRecovery"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -110672,6 +111873,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Divine Sentinel":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportDivineSentinel"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Earthbreaker":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110680,6 +111895,20 @@
         "value":{
           "level":35,
           "skillId":"SupportEarthbreaker"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Eclipse":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportEclipse"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -110812,6 +112041,34 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Excommunicate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportExcommunicate"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Exemplar":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportExemplar"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Expert Retaliation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -110894,6 +112151,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Fissure":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportFissure"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"TriggeredSupportFissure"
         }
       }]],
   "Socketed Gems are Supported by Level 35 Fist of War":[[{
@@ -110989,6 +112269,29 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Foulgrasp":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportFoulgrasp"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"TriggeredSupportFoulgrasp"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Fresh Meat":[[{
         "flags":0,
         "keywordFlags":0,
@@ -111031,28 +112334,14 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Gems are Supported by Level 35 Greater Multiple Projectiles":[[{
+  "Socketed Gems are Supported by Level 35 Gluttony":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraSupport",
         "type":"LIST",
         "value":{
           "level":35,
-          "skillId":"SupportGreaterMultipleProjectiles"
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
-  "Socketed Gems are Supported by Level 35 Greater Volley":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSupport",
-        "type":"LIST",
-        "value":{
-          "level":35,
-          "skillId":"SupportGreaterVolley"
+          "skillId":"SupportGluttony"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -111086,6 +112375,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Hallow":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportHallow"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Hex Bloom":[[{
         "flags":0,
         "keywordFlags":0,
@@ -111094,6 +112397,20 @@
         "value":{
           "level":35,
           "skillId":"SupportHexBloom"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Hexpass":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportHexpass"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -111139,6 +112456,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Hiveborn":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportHiveborn"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"TriggeredSupportHiveborn"
         }
       }]],
   "Socketed Gems are Supported by Level 35 Hypothermia":[[{
@@ -111346,6 +112686,34 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Invention":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportInvention"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Invert the Rules":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportInvertTheRules"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Iron Grip":[[{
         "flags":0,
         "keywordFlags":0,
@@ -111439,14 +112807,14 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Gems are Supported by Level 35 Lesser Multiple Projectiles":[[{
+  "Socketed Gems are Supported by Level 35 Lethal Dose":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ExtraSupport",
         "type":"LIST",
         "value":{
           "level":35,
-          "skillId":"SupportLesserMultipleProjectiles"
+          "skillId":"SupportLethalDose"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -111540,6 +112908,20 @@
         "value":{
           "level":35,
           "skillId":"SupportLocusMine"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Machinations":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportMachinations"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -111686,6 +113068,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Minion Pact":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportMinionPact"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Minion Speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -111736,6 +113132,20 @@
         "value":{
           "level":35,
           "skillId":"SupportMoreDuration"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Multiple Projectiles":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportLesserMultipleProjectiles"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -111820,6 +113230,48 @@
         "value":{
           "level":35,
           "skillId":"SupportOverexertion"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Overheat":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportOverheat"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Overloaded Intensity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportOverloadedIntensity"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Pacifism":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportPacifism"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -111956,6 +113408,29 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Pyre":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportPyre"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"TriggeredSupportPyre"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Rage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -112057,6 +113532,20 @@
         "value":{
           "level":35,
           "skillId":"SupportSadism"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Scornful Herald":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportScornfulHerald"
         },
         "1":{
           "slotName":"{SlotName}",
@@ -112240,6 +113729,20 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Transfusion":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportTransfusion"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Trap":[[{
         "flags":0,
         "keywordFlags":0,
@@ -112338,6 +113841,34 @@
           "type":"SocketedIn"
         }
       }]],
+  "Socketed Gems are Supported by Level 35 Vaal Sacrifice":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportVaalSacrifice"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Vaal Temptation":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportVaalTemptation"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      }]],
   "Socketed Gems are Supported by Level 35 Vicious Projectiles":[[{
         "flags":0,
         "keywordFlags":0,
@@ -112378,6 +113909,29 @@
         "1":{
           "slotName":"{SlotName}",
           "type":"SocketedIn"
+        }
+      }]],
+  "Socketed Gems are Supported by Level 35 Voidstorm":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSupport",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"SupportVoidstorm"
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":35,
+          "skillId":"TriggeredSupportVoidstorm"
         }
       }]],
   "Socketed Gems are Supported by Level 35 Volatility":[[{
@@ -113833,6 +115387,24 @@
         "1":{
           "type":"Multiplier",
           "var":"Intensity"
+        }
+      }]],
+  "Spells have Added Spell Damage equal to 30% of Physical Damage of":[null,"dded Spell Damage equal to 30% of Physical Damage of "],
+  "Spells have Added Spell Damage equal to 30% of Physical Damage of your Equipped Two handed Weapon":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WeaponPhysAppliesToSpells",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WeaponPhysAppliesToSpellsPercent",
+        "type":"BASE",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UsingTwoHandedWeapon"
         }
       }]],
   "Spells have a 20% chance to deal Double Damage":[[{
@@ -115990,6 +117562,22 @@
         "2":{
           "type":"Condition",
           "var":"UsingLifeFlask"
+        }
+      }]],
+  "Tinctures applied to you have 30% increased Effect while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TinctureEffect",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "actor":"player",
+          "type":"ActorCondition"
+        },
+        "2":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
         }
       }]],
   "Tinctures applied to you have 30% less Mana Burn rate":[[{
@@ -118196,6 +119784,7 @@
           "var":"UsingFlask"
         }
       }]],
+  "Ward has a 60% chance to not Break":[null,"Ward has a 60% chance to not Break "],
   "Warlord's Call":[null,"Warlord's Call "],
   "Warlord's Call Call to Arms":[null,"Warlord's Call Call to Arms "],
   "Weapons you Animate create an additional copy":[null,"Weapons you Animate create an additional copy "],
@@ -118506,6 +120095,7 @@
           "var":"NearbyAlly"
         }
       }]],
+  "While you have Unbroken Ward, your next non-channelling Attack you Use yourself breaks your Ward to gain Added Cold Damage equal to 25% of Ward":[null,"While you have Unbroken Ward, your next non-channelling Attack you Use yourself breaks your Ward to gain Added Cold Damage equal to 25% of Ward "],
   "While your Passive Skill Tree connects to a class' starting location, you gain:":[[]],
   "Wicked Ward":[[{
         "flags":0,
@@ -118764,7 +120354,6 @@
   "With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile":[null,"With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile "],
   "With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile Speed per second":[null,"With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile Speed per second "],
   "With at least 40 Intelligence in Radius, Raised":[null,"With at least 40 Intelligence in Radius, Raised "],
-  "With at least 40 Intelligence in Radius, Raised Spectres have a 50% chance to gain Soul Eater for 20 seconds on Kill":[null,"With at least 40 Intelligence in Radius, Raised Spectres have a 50% chance to gain Soul Eater for 20 seconds on Kill "],
   "With at least 40 Intelligence in Radius, Raised Zombies' Slam":[null,"With at least 40 Intelligence in Radius, Raised Zombies' Slam "],
   "With at least 40 Intelligence in Radius, Rolling Magma":[null,"With at least 40 Intelligence in Radius, Rolling Magma "],
   "With at least 40 Intelligence in Radius, Spark fires Projectiles in a Nova":[null,"With at least 40 Intelligence in Radius, Spark fires Projectiles in a Nova "],
@@ -122258,6 +123847,8 @@
           "type":"SkillType"
         }
       }]],
+  "affected by Purity of Elements":[null,"affected by Purity of Elements "],
+  "affected by Purity of Elements 12% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements":[null,"affected by Purity of Elements 12% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements "],
   "also grant an equal chance to gain a Frenzy Charge on Kill":[null,"also grant an equal chance to gain a Frenzy Charge on Kill "],
   "also grant an equal chance to gain a Power Charge on Kill":[null,"also grant an equal chance to gain a Power Charge on Kill "],
   "also grant an equal chance to gain an Endurance Charge on Kill":[null,"also grant an equal chance to gain an Endurance Charge on Kill "],

@@ -1021,7 +1021,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Attack, AoE, Duration, Melee",
+    "tagString":"Attack, Melee, AoE, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -1041,7 +1041,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Attack, AoE, Duration, Melee",
+    "tagString":"Attack, Melee, AoE, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -1580,7 +1580,7 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Movement, AoE, Channelling, Attack, Lightning, Melee",
+    "tagString":"Movement, AoE, Channelling, Attack, Melee, Lightning",
     "tags":{
       "area":true,
       "attack":true,
@@ -1592,6 +1592,27 @@
       "movement":true
     },
     "variantId":"ChargedDash"
+  },
+  "Metadata/Items/Gems/SkillGemChargedDashAltX":{
+    "baseTypeName":"Charged Dash of Projection",
+    "gameId":"Metadata/Items/Gems/SkillGemChargedDash",
+    "grantedEffectId":"ChargedDashAltX",
+    "name":"Charged Dash of Projection",
+    "naturalMaxLevel":20,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Channelling, Attack, Melee, Lightning",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "channelling":true,
+      "dexterity":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true
+    },
+    "variantId":"ChargedDashAltX"
   },
   "Metadata/Items/Gems/SkillGemClarity":{
     "baseTypeName":"Clarity",
@@ -1762,7 +1783,7 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Fire, Attack, AoE, Movement, Duration, Slam, Melee",
+    "tagString":"Fire, Melee, Attack, AoE, Movement, Duration, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -1785,7 +1806,7 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Fire, Attack, AoE, Movement, Duration, Slam, Melee",
+    "tagString":"Fire, Melee, Attack, AoE, Movement, Duration, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -1993,6 +2014,27 @@
     },
     "variantId":"CreepingFrost"
   },
+  "Metadata/Items/Gems/SkillGemCreepingFrostAltX":{
+    "baseTypeName":"Creeping Frost of Floes",
+    "gameId":"Metadata/Items/Gems/SkillGemArcticBreath",
+    "grantedEffectId":"CreepingFrostAltX",
+    "name":"Creeping Frost of Floes",
+    "naturalMaxLevel":20,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "tagString":"Spell, Projectile, Duration, AoE, Cold",
+    "tags":{
+      "area":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "projectile":true,
+      "spell":true
+    },
+    "variantId":"CreepingFrostAltX"
+  },
   "Metadata/Items/Gems/SkillGemCremation":{
     "baseTypeName":"Cremation",
     "gameId":"Metadata/Items/Gems/SkillGemCorpseEruption",
@@ -2068,7 +2110,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, Slam, AoE, Retaliation, Melee",
+    "tagString":"Attack, Melee, Slam, AoE, Retaliation",
     "tags":{
       "area":true,
       "attack":true,
@@ -2089,7 +2131,7 @@
     "reqDex":60,
     "reqInt":0,
     "reqStr":40,
-    "tagString":"Attack, AoE, Movement, Channelling, Melee",
+    "tagString":"Attack, AoE, Melee, Movement, Channelling",
     "tags":{
       "area":true,
       "attack":true,
@@ -2110,7 +2152,7 @@
     "reqDex":60,
     "reqInt":0,
     "reqStr":40,
-    "tagString":"Attack, AoE, Movement, Channelling, Melee",
+    "tagString":"Attack, AoE, Melee, Movement, Channelling",
     "tags":{
       "area":true,
       "attack":true,
@@ -2444,6 +2486,27 @@
     },
     "variantId":"Discipline"
   },
+  "Metadata/Items/Gems/SkillGemDivineBlast":{
+    "baseTypeName":"Divine Blast",
+    "gameId":"Metadata/Items/Gems/SkillGemDivineBlast",
+    "grantedEffectId":"DivineBlast",
+    "name":"Divine Blast",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"AoE, Attack, Physical, Duration, Fire",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "strength":true
+    },
+    "variantId":"DivineBlast"
+  },
   "Metadata/Items/Gems/SkillGemDivineIre":{
     "baseTypeName":"Divine Ire",
     "gameId":"Metadata/Items/Gems/SkillGemDivineTempest",
@@ -2698,7 +2761,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Duration, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Duration, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -2719,7 +2782,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Duration, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Duration, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -2740,7 +2803,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Duration, Melee",
+    "tagString":"Attack, AoE, Melee, Slam, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -2761,7 +2824,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Duration, Melee",
+    "tagString":"Attack, AoE, Melee, Slam, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -2782,7 +2845,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Duration, Melee",
+    "tagString":"Attack, AoE, Melee, Slam, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -3070,7 +3133,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Attack, AoE, Retaliation, Physical, Melee",
+    "tagString":"Attack, Melee, AoE, Retaliation, Physical",
     "tags":{
       "area":true,
       "attack":true,
@@ -3632,6 +3695,27 @@
     },
     "variantId":"FlamethrowerTrap"
   },
+  "Metadata/Items/Gems/SkillGemFlamethrowerTrapAltX":{
+    "baseTypeName":"Flamethrower Trap of Stability",
+    "gameId":"Metadata/Items/Gems/SkillGemFlamethrowerTrap",
+    "grantedEffectId":"FlamethrowerTrapAltX",
+    "name":"Flamethrower Trap of Stability",
+    "naturalMaxLevel":20,
+    "reqDex":60,
+    "reqInt":40,
+    "reqStr":0,
+    "tagString":"Trap, Spell, Duration, AoE, Fire",
+    "tags":{
+      "area":true,
+      "dexterity":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "spell":true,
+      "trap":true
+    },
+    "variantId":"FlamethrowerTrapAltX"
+  },
   "Metadata/Items/Gems/SkillGemFlammability":{
     "baseTypeName":"Flammability",
     "gameId":"Metadata/Items/Gems/SkillGemFlammability",
@@ -4073,7 +4157,7 @@
     "reqInt":40,
     "reqStr":60,
     "secondaryGrantedEffectId":"FrozenSweep",
-    "tagString":"Spell, Cold, Attack, AoE, Melee",
+    "tagString":"Spell, Cold, Attack, Melee, AoE",
     "tags":{
       "area":true,
       "attack":true,
@@ -4095,7 +4179,7 @@
     "reqInt":40,
     "reqStr":60,
     "secondaryGrantedEffectId":"FrozenSweepAltX",
-    "tagString":"Spell, Cold, Attack, AoE, Melee",
+    "tagString":"Spell, Cold, Attack, Melee, AoE",
     "tags":{
       "area":true,
       "attack":true,
@@ -4342,7 +4426,7 @@
     "reqDex":60,
     "reqInt":0,
     "reqStr":40,
-    "tagString":"Attack, AoE, Cold, Physical, Retaliation, Melee",
+    "tagString":"Attack, Melee, AoE, Cold, Physical, Retaliation",
     "tags":{
       "area":true,
       "attack":true,
@@ -4383,7 +4467,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -4403,7 +4487,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -4664,8 +4748,9 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Totem, Spell, Projectile, Fire, Channelling, Physical",
+    "tagString":"Totem, Spell, Projectile, Fire, Channelling, Physical, AoE",
     "tags":{
+      "area":true,
       "channelling":true,
       "fire":true,
       "grants_active_skill":true,
@@ -4686,8 +4771,9 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Totem, Spell, Projectile, Fire, Channelling, Physical",
+    "tagString":"Totem, Spell, Projectile, Fire, Channelling, Physical, AoE",
     "tags":{
+      "area":true,
       "channelling":true,
       "fire":true,
       "grants_active_skill":true,
@@ -4698,6 +4784,49 @@
       "totem":true
     },
     "variantId":"HolyFlameTotemAltX"
+  },
+  "Metadata/Items/Gems/SkillGemHolyHammers":{
+    "baseTypeName":"Holy Hammers",
+    "gameId":"Metadata/Items/Gems/SkillGemHolyHammers",
+    "grantedEffectId":"HolyHammers",
+    "name":"Holy Hammers",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Attack, Slam, Melee, AoE, Lightning",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "slam":true,
+      "strength":true
+    },
+    "variantId":"HolyHammers"
+  },
+  "Metadata/Items/Gems/SkillGemHolyStrike":{
+    "baseTypeName":"Holy Strike",
+    "gameId":"Metadata/Items/Gems/SkillGemHolyStrike",
+    "grantedEffectId":"HolyStrike",
+    "name":"Holy Strike",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Minion, Attack, Melee, Strike, Lightning, Duration",
+    "tags":{
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "minion":true,
+      "strength":true,
+      "strike":true
+    },
+    "variantId":"HolyStrike"
   },
   "Metadata/Items/Gems/SkillGemHydrosphere":{
     "baseTypeName":"Hydrosphere",
@@ -4731,7 +4860,7 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Attack, AoE, Cold, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Cold, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -4752,7 +4881,7 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Attack, AoE, Cold, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Cold, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -5147,7 +5276,7 @@
     "reqInt":0,
     "reqStr":100,
     "secondaryGrantedEffectId":"Combust",
-    "tagString":"Warcry, AoE, Duration, Fire, Attack, Trigger, Melee",
+    "tagString":"Warcry, AoE, Duration, Fire, Attack, Melee, Trigger",
     "tags":{
       "area":true,
       "attack":true,
@@ -5298,6 +5427,26 @@
     },
     "variantId":"KineticFusillade"
   },
+  "Metadata/Items/Gems/SkillGemKineticFusilladeAltX":{
+    "baseTypeName":"Kinetic Fusillade of Detonation",
+    "gameId":"Metadata/Items/Gems/SkillGemKineticFusillade",
+    "grantedEffectId":"KineticFusilladeAltX",
+    "name":"Kinetic Fusillade of Detonation",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Attack, Projectile, Duration, AoE",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "projectile":true
+    },
+    "variantId":"KineticFusilladeAltX"
+  },
   "Metadata/Items/Gems/SkillGemKineticRain":{
     "baseTypeName":"Kinetic Rain",
     "gameId":"Metadata/Items/Gems/SkillGemKineticRain",
@@ -5348,7 +5497,7 @@
     "reqDex":60,
     "reqInt":0,
     "reqStr":40,
-    "tagString":"Attack, AoE, Physical, Melee",
+    "tagString":"Attack, AoE, Melee, Physical",
     "tags":{
       "area":true,
       "attack":true,
@@ -5387,7 +5536,7 @@
     "reqDex":60,
     "reqInt":0,
     "reqStr":40,
-    "tagString":"Attack, AoE, Physical, Melee",
+    "tagString":"Attack, AoE, Melee, Physical",
     "tags":{
       "area":true,
       "attack":true,
@@ -5444,7 +5593,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Movement, Travel, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Movement, Travel, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -5466,7 +5615,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Movement, Travel, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Movement, Travel, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -5984,6 +6133,27 @@
     },
     "variantId":"OrbOfStorms"
   },
+  "Metadata/Items/Gems/SkillGemOrbOfStormsAltX":{
+    "baseTypeName":"Orb of Storms of Squalls",
+    "gameId":"Metadata/Items/Gems/SkillGemOrbOfStorms",
+    "grantedEffectId":"OrbOfStormsAltX",
+    "name":"Orb of Storms of Squalls",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Lightning, Spell, AoE, Chaining, Orb",
+    "tags":{
+      "area":true,
+      "chaining":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "orb":true,
+      "spell":true
+    },
+    "variantId":"OrbOfStormsAltX"
+  },
   "Metadata/Items/Gems/SkillGemPenanceBrand":{
     "baseTypeName":"Penance Brand",
     "gameId":"Metadata/Items/Gems/SkillGemPenanceBrand",
@@ -6059,7 +6229,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -6079,7 +6249,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -6099,7 +6269,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Physical, Attack, AoE, Slam, Melee",
+    "tagString":"Physical, Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -6642,7 +6812,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Duration, Melee",
+    "tagString":"Attack, Melee, AoE, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -6662,7 +6832,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Melee",
+    "tagString":"Attack, Melee, AoE",
     "tags":{
       "area":true,
       "attack":true,
@@ -7079,6 +7249,27 @@
     },
     "variantId":"SearingBond"
   },
+  "Metadata/Items/Gems/SkillGemSearingBondAltX":{
+    "baseTypeName":"Searing Bond of Detonation",
+    "gameId":"Metadata/Items/Gems/SkillGemSearingBond",
+    "grantedEffectId":"SearingBondAltX",
+    "name":"Searing Bond of Detonation",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Spell, Totem, Fire, AoE, Duration",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "spell":true,
+      "strength":true,
+      "totem":true
+    },
+    "variantId":"SearingBondAltX"
+  },
   "Metadata/Items/Gems/SkillGemSeismicCry":{
     "baseTypeName":"Seismic Cry",
     "gameId":"Metadata/Items/Gems/SkillGemSeismicCry",
@@ -7189,7 +7380,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Movement, Travel, Physical, Melee",
+    "tagString":"Attack, Melee, AoE, Movement, Travel, Physical",
     "tags":{
       "area":true,
       "attack":true,
@@ -7211,7 +7402,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Physical, Melee",
+    "tagString":"Attack, Melee, AoE, Physical",
     "tags":{
       "area":true,
       "attack":true,
@@ -7231,7 +7422,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Fire, Melee",
+    "tagString":"Attack, Melee, AoE, Fire",
     "tags":{
       "area":true,
       "attack":true,
@@ -7241,6 +7432,28 @@
       "strength":true
     },
     "variantId":"ShieldCrushAltX"
+  },
+  "Metadata/Items/Gems/SkillGemShieldOfLight":{
+    "baseTypeName":"Shield of Light",
+    "gameId":"Metadata/Items/Gems/SkillGemShieldOfLight",
+    "grantedEffectId":"ShieldOfLight",
+    "name":"Shield of Light",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Attack, Melee, AoE, Lightning, Physical, Retaliation",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "physical":true,
+      "retaliation":true,
+      "strength":true
+    },
+    "variantId":"ShieldOfLight"
   },
   "Metadata/Items/Gems/SkillGemShockNova":{
     "baseTypeName":"Shock Nova",
@@ -7262,6 +7475,26 @@
     },
     "variantId":"ShockNova"
   },
+  "Metadata/Items/Gems/SkillGemShockNovaAltX":{
+    "baseTypeName":"Shock Nova of Procession",
+    "gameId":"Metadata/Items/Gems/SkillGemShockNova",
+    "grantedEffectId":"ShockNovaAltX",
+    "name":"Shock Nova of Procession",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Spell, AoE, Lightning, Nova",
+    "tags":{
+      "area":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "nova":true,
+      "spell":true
+    },
+    "variantId":"ShockNovaAltX"
+  },
   "Metadata/Items/Gems/SkillGemShockwaveTotem":{
     "baseTypeName":"Shockwave Totem",
     "gameId":"Metadata/Items/Gems/SkillGemShockwaveTotem",
@@ -7282,6 +7515,27 @@
       "totem":true
     },
     "variantId":"ShockwaveTotem"
+  },
+  "Metadata/Items/Gems/SkillGemShockwaveTotemAltX":{
+    "baseTypeName":"Shockwave Totem of Authority",
+    "gameId":"Metadata/Items/Gems/SkillGemShockwaveTotem",
+    "grantedEffectId":"ShockwaveTotemAltX",
+    "name":"Shockwave Totem of Authority",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Totem, Spell, AoE, Physical, Nova",
+    "tags":{
+      "area":true,
+      "grants_active_skill":true,
+      "nova":true,
+      "physical":true,
+      "spell":true,
+      "strength":true,
+      "totem":true
+    },
+    "variantId":"ShockwaveTotemAltX"
   },
   "Metadata/Items/Gems/SkillGemShrapnelBallista":{
     "baseTypeName":"Shrapnel Ballista",
@@ -7426,6 +7680,27 @@
     },
     "variantId":"SiphoningTrap"
   },
+  "Metadata/Items/Gems/SkillGemSiphoningTrapAltX":{
+    "baseTypeName":"Siphoning Trap of Pain",
+    "gameId":"Metadata/Items/Gems/SkillGemIceSiphonTrap",
+    "grantedEffectId":"SiphoningTrapAltX",
+    "name":"Siphoning Trap of Pain",
+    "naturalMaxLevel":20,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "tagString":"Trap, Spell, Duration, AoE, Cold",
+    "tags":{
+      "area":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "spell":true,
+      "trap":true
+    },
+    "variantId":"SiphoningTrapAltX"
+  },
   "Metadata/Items/Gems/SkillGemSmite":{
     "baseTypeName":"Smite",
     "gameId":"Metadata/Items/Gems/SkillGemSmite",
@@ -7435,7 +7710,7 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Lightning, Attack, AoE, Duration, Melee, Strike, Aura",
+    "tagString":"Lightning, Melee, Attack, AoE, Duration, Strike, Aura",
     "tags":{
       "area":true,
       "attack":true,
@@ -7458,7 +7733,7 @@
     "reqDex":0,
     "reqInt":40,
     "reqStr":60,
-    "tagString":"Lightning, Attack, AoE, Melee, Strike",
+    "tagString":"Lightning, Melee, Attack, AoE, Strike",
     "tags":{
       "area":true,
       "attack":true,
@@ -7985,6 +8260,28 @@
     },
     "variantId":"StaticStrike"
   },
+  "Metadata/Items/Gems/SkillGemStaticStrikeAltX":{
+    "baseTypeName":"Static Strike of Gathering Lightning",
+    "gameId":"Metadata/Items/Gems/SkillGemStaticStrike",
+    "grantedEffectId":"StaticStrikeAltX",
+    "name":"Static Strike of Gathering Lightning",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Attack, Melee, Strike, Duration, Lightning, Chaining",
+    "tags":{
+      "attack":true,
+      "chaining":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "strength":true,
+      "strike":true
+    },
+    "variantId":"StaticStrikeAltX"
+  },
   "Metadata/Items/Gems/SkillGemStormBind":{
     "baseTypeName":"Stormbind",
     "gameId":"Metadata/Items/Gems/SkillGemStormBind",
@@ -8099,6 +8396,28 @@
       "spell":true
     },
     "variantId":"StormBurst"
+  },
+  "Metadata/Items/Gems/SkillGemStormBurstAltX":{
+    "baseTypeName":"Storm Burst of Repulsion",
+    "gameId":"Metadata/Items/Gems/SkillGemStormBurst",
+    "grantedEffectId":"StormBurstAltX",
+    "name":"Storm Burst of Repulsion",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":60,
+    "reqStr":40,
+    "tagString":"AoE, Spell, Lightning, Channelling, Duration, Physical",
+    "tags":{
+      "area":true,
+      "channelling":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "physical":true,
+      "spell":true
+    },
+    "variantId":"StormBurstAltX"
   },
   "Metadata/Items/Gems/SkillGemStormCall":{
     "baseTypeName":"Storm Call",
@@ -8789,7 +9108,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -8809,7 +9128,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -8829,7 +9148,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Attack, AoE, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -8954,6 +9273,24 @@
       "support":true
     },
     "variantId":"SupportAncestralCall"
+  },
+  "Metadata/Items/Gems/SkillGemSupportAnnhilation":{
+    "gameId":"Metadata/Items/Gems/SupportGemAnnihilation",
+    "grantedEffectId":"SupportAnnhilation",
+    "name":"Annihilation",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Exceptional, AoE, Support",
+    "tags":{
+      "area":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportAnnhilation"
   },
   "Metadata/Items/Gems/SkillGemSupportArcaneSurge":{
     "gameId":"Metadata/Items/Gems/SupportGemArcaneSurge",
@@ -9784,6 +10121,23 @@
     },
     "variantId":"SupportBlastchainMine"
   },
+  "Metadata/Items/Gems/SkillGemSupportBlessedCall":{
+    "gameId":"Metadata/Items/Gems/SupportGemBlessedCall",
+    "grantedEffectId":"SupportBlessedCall",
+    "name":"Blessed Call",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Support, Warcry, Duration",
+    "tags":{
+      "duration":true,
+      "strength":true,
+      "support":true,
+      "warcry":true
+    },
+    "variantId":"SupportBlessedCall"
+  },
   "Metadata/Items/Gems/SkillGemSupportBlind":{
     "gameId":"Metadata/Items/Gems/SupportGemBlind",
     "grantedEffectId":"SupportBlind",
@@ -9833,6 +10187,26 @@
     },
     "variantId":"SupportBloodlust"
   },
+  "Metadata/Items/Gems/SkillGemSupportBloodsoakedBanner":{
+    "gameId":"Metadata/Items/Gems/SupportGemBloodsoakedBanner",
+    "grantedEffectId":"SupportBloodsoakedBanner",
+    "name":"Bloodsoaked Banner",
+    "naturalMaxLevel":3,
+    "reqDex":40,
+    "reqInt":0,
+    "reqStr":60,
+    "tagString":"Exceptional, Physical, Support, Duration",
+    "tags":{
+      "banner":true,
+      "duration":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "physical":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportBloodsoakedBanner"
+  },
   "Metadata/Items/Gems/SkillGemSupportBloodthirst":{
     "gameId":"Metadata/Items/Gems/SupportGemBloodthirst",
     "grantedEffectId":"SupportBloodthirst",
@@ -9865,6 +10239,31 @@
       "support":true
     },
     "variantId":"SupportBonechill"
+  },
+  "Metadata/Items/Gems/SkillGemSupportBonespire":{
+    "gameId":"Metadata/Items/Gems/SupportGemBonespire",
+    "grantedEffectId":"SupportBonespire",
+    "name":"Bonespire",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "secondaryGrantedEffectId":"TriggeredSupportBonespire",
+    "tagString":"Exceptional, Warcry, Support, Attack, AoE, Physical, Trigger, Melee",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "low_max_level":true,
+      "melee":true,
+      "physical":true,
+      "strength":true,
+      "support":true,
+      "trigger":true,
+      "warcry":true
+    },
+    "variantId":"SupportBonespire"
   },
   "Metadata/Items/Gems/SkillGemSupportBrutality":{
     "gameId":"Metadata/Items/Gems/SupportGemBrutality",
@@ -9933,6 +10332,25 @@
       "trigger":true
     },
     "variantId":"SupportCastOnDeath"
+  },
+  "Metadata/Items/Gems/SkillGemSupportCastOnWardBreak":{
+    "gameId":"Metadata/Items/Gems/SupportGemCastOnWardBreak",
+    "grantedEffectId":"SupportCastOnWardBreak",
+    "name":"Cast on Ward Break",
+    "naturalMaxLevel":3,
+    "reqDex":60,
+    "reqInt":40,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Spell, Trigger",
+    "tags":{
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"SupportCastOnWardBreak"
   },
   "Metadata/Items/Gems/SkillGemSupportCastWhenDamageTaken":{
     "gameId":"Metadata/Items/Gems/SupportGemCastOnDamageTaken",
@@ -10189,6 +10607,24 @@
     },
     "variantId":"SupportCombustion"
   },
+  "Metadata/Items/Gems/SkillGemSupportCompanionship":{
+    "gameId":"Metadata/Items/Gems/SupportGemCompanionship",
+    "grantedEffectId":"SupportCompanionship",
+    "name":"Companionship",
+    "naturalMaxLevel":3,
+    "reqDex":60,
+    "reqInt":40,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Minion",
+    "tags":{
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "minion":true,
+      "support":true
+    },
+    "variantId":"SupportCompanionship"
+  },
   "Metadata/Items/Gems/SkillGemSupportConcentratedEffect":{
     "gameId":"Metadata/Items/Gems/SupportGemConcentratedEffect",
     "grantedEffectId":"SupportConcentratedEffect",
@@ -10204,6 +10640,24 @@
       "support":true
     },
     "variantId":"SupportConcentratedEffect"
+  },
+  "Metadata/Items/Gems/SkillGemSupportCongregation":{
+    "gameId":"Metadata/Items/Gems/SupportGemCongregation",
+    "grantedEffectId":"SupportCongregation",
+    "name":"Congregation",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Minion",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "minion":true,
+      "support":true
+    },
+    "variantId":"SupportCongregation"
   },
   "Metadata/Items/Gems/SkillGemSupportControlledBlaze":{
     "gameId":"Metadata/Items/Gems/SupportGemControlledBlaze",
@@ -10239,6 +10693,23 @@
       "support":true
     },
     "variantId":"SupportControlledDestruction"
+  },
+  "Metadata/Items/Gems/SkillGemSupportCooldownRecovery":{
+    "gameId":"Metadata/Items/Gems/SupportGemCooldownRecovery",
+    "grantedEffectId":"SupportCooldownRecovery",
+    "name":"Cooldown Recovery",
+    "naturalMaxLevel":3,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportCooldownRecovery"
   },
   "Metadata/Items/Gems/SkillGemSupportCorruptingCry":{
     "gameId":"Metadata/Items/Gems/SupportGemCorruptingCry",
@@ -10290,6 +10761,23 @@
       "support":true
     },
     "variantId":"SupportCruelty"
+  },
+  "Metadata/Items/Gems/SkillGemSupportCullTheWeak":{
+    "gameId":"Metadata/Items/Gems/SupportGemCullTheWeak",
+    "grantedEffectId":"SupportCullTheWeak",
+    "name":"Cull the Weak",
+    "naturalMaxLevel":3,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportCullTheWeak"
   },
   "Metadata/Items/Gems/SkillGemSupportCullingStrike":{
     "gameId":"Metadata/Items/Gems/SupportGemCullingStrike",
@@ -10404,6 +10892,25 @@
     },
     "variantId":"SupportDivineBlessing"
   },
+  "Metadata/Items/Gems/SkillGemSupportDivineSentinel":{
+    "gameId":"Metadata/Items/Gems/SupportGemDivineSentinel",
+    "grantedEffectId":"SupportDivineSentinel",
+    "name":"Divine Sentinel",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Exceptional, AoE, Support, Minion",
+    "tags":{
+      "area":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "minion":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportDivineSentinel"
+  },
   "Metadata/Items/Gems/SkillGemSupportEarthbreaker":{
     "gameId":"Metadata/Items/Gems/SupportGemEarthbreaker",
     "grantedEffectId":"SupportEarthbreaker",
@@ -10424,6 +10931,22 @@
     },
     "variantId":"SupportEarthbreaker"
   },
+  "Metadata/Items/Gems/SkillGemSupportEclipse":{
+    "gameId":"Metadata/Items/Gems/SupportGemEclipse",
+    "grantedEffectId":"SupportEclipse",
+    "name":"Eclipse",
+    "naturalMaxLevel":3,
+    "reqDex":250,
+    "reqInt":250,
+    "reqStr":250,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "exceptional":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportEclipse"
+  },
   "Metadata/Items/Gems/SkillGemSupportEfficacy":{
     "gameId":"Metadata/Items/Gems/SupportGemEfficacy",
     "grantedEffectId":"SupportEfficacy",
@@ -10439,6 +10962,25 @@
       "support":true
     },
     "variantId":"SupportEfficacy"
+  },
+  "Metadata/Items/Gems/SkillGemSupportEldritchBlasphemy":{
+    "gameId":"Metadata/Items/Gems/SupportGemEldritchBlasphemy",
+    "grantedEffectId":"SupportEldritchBlasphemy",
+    "name":"Eldritch Blasphemy",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Hex, Aura",
+    "tags":{
+      "aura":true,
+      "exceptional":true,
+      "hex":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportEldritchBlasphemy"
   },
   "Metadata/Items/Gems/SkillGemSupportElementalArmy":{
     "gameId":"Metadata/Items/Gems/SupportGemSummonElementalResistance",
@@ -10621,6 +11163,44 @@
     },
     "variantId":"SupportEternalBlessing"
   },
+  "Metadata/Items/Gems/SkillGemSupportExcommunicate":{
+    "gameId":"Metadata/Items/Gems/SupportGemExcommunicate",
+    "grantedEffectId":"SupportExcommunicate",
+    "name":"Excommunicate",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Lightning, Fire, Physical, Support, Melee, Attack, Duration",
+    "tags":{
+      "attack":true,
+      "duration":true,
+      "fire":true,
+      "lightning":true,
+      "melee":true,
+      "physical":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportExcommunicate"
+  },
+  "Metadata/Items/Gems/SkillGemSupportExemplar":{
+    "gameId":"Metadata/Items/Gems/SupportGemExemplar",
+    "grantedEffectId":"SupportExemplar",
+    "name":"Exemplar",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":60,
+    "reqStr":40,
+    "tagString":"Critical, Support, Minion",
+    "tags":{
+      "critical":true,
+      "intelligence":true,
+      "minion":true,
+      "support":true
+    },
+    "variantId":"SupportExemplar"
+  },
   "Metadata/Items/Gems/SkillGemSupportExpertRetaliation":{
     "gameId":"Metadata/Items/Gems/SupportGemExpertRetaliation",
     "grantedEffectId":"SupportExpertRetaliation",
@@ -10717,6 +11297,31 @@
       "support":true
     },
     "variantId":"SupportFirePenetration"
+  },
+  "Metadata/Items/Gems/SkillGemSupportFissure":{
+    "gameId":"Metadata/Items/Gems/SupportGemFissure",
+    "grantedEffectId":"SupportFissure",
+    "name":"Fissure",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "secondaryGrantedEffectId":"TriggeredSupportFissure",
+    "tagString":"Exceptional, Support, Attack, AoE, Melee, Slam, Fire, Trigger",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "exceptional":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "low_max_level":true,
+      "melee":true,
+      "slam":true,
+      "strength":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"SupportFissure"
   },
   "Metadata/Items/Gems/SkillGemSupportFistofWar":{
     "gameId":"Metadata/Items/Gems/SupportGemFistOfWar",
@@ -10827,6 +11432,30 @@
     },
     "variantId":"SupportFortify"
   },
+  "Metadata/Items/Gems/SkillGemSupportFoulgrasp":{
+    "gameId":"Metadata/Items/Gems/SupportGemFoulgrasp",
+    "grantedEffectId":"SupportFoulgrasp",
+    "name":"Foulgrasp",
+    "naturalMaxLevel":3,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredSupportFoulgrasp",
+    "tagString":"Exceptional, Brand, Support, AoE, Spell, Lightning, Trigger",
+    "tags":{
+      "area":true,
+      "brand":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"SupportFoulgrasp"
+  },
   "Metadata/Items/Gems/SkillGemSupportFreshMeat":{
     "gameId":"Metadata/Items/Gems/SupportGemFreshMeat",
     "grantedEffectId":"SupportFreshMeat",
@@ -10862,6 +11491,26 @@
     },
     "variantId":"SupportFrigidBond"
   },
+  "Metadata/Items/Gems/SkillGemSupportFrostmage":{
+    "gameId":"Metadata/Items/Gems/SupportGemFrostmage",
+    "grantedEffectId":"SupportFrostmage",
+    "name":"Frostmage",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Cold, Arcane, Support, Spell",
+    "tags":{
+      "arcane":true,
+      "cold":true,
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportFrostmage"
+  },
   "Metadata/Items/Gems/SkillGemSupportGenerosity":{
     "gameId":"Metadata/Items/Gems/SupportGemGenerosity",
     "grantedEffectId":"SupportGenerosity",
@@ -10878,6 +11527,124 @@
     },
     "variantId":"SupportGenerosity"
   },
+  "Metadata/Items/Gems/SkillGemSupportGluttony":{
+    "gameId":"Metadata/Items/Gems/SupportGemGluttony",
+    "grantedEffectId":"SupportGluttony",
+    "name":"Gluttony",
+    "naturalMaxLevel":3,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Projectile, Spell, Duration",
+    "tags":{
+      "duration":true,
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "projectile":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportGluttony"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterAncestralCall":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterAncestralCall",
+    "grantedEffectId":"SupportGreaterAncestralCall",
+    "name":"Greater Ancestral Call",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Exceptional, Support, Melee, Attack, Strike",
+    "tags":{
+      "attack":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "melee":true,
+      "strength":true,
+      "strike":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterAncestralCall"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterChain":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterChain",
+    "grantedEffectId":"SupportGreaterChain",
+    "name":"Greater Chain",
+    "naturalMaxLevel":3,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Chaining, Projectile",
+    "tags":{
+      "chaining":true,
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "projectile":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterChain"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterDevour":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterDevour",
+    "grantedEffectId":"SupportGreaterDevour",
+    "name":"Greater Devour",
+    "naturalMaxLevel":3,
+    "reqDex":40,
+    "reqInt":60,
+    "reqStr":0,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterDevour"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterFork":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterFork",
+    "grantedEffectId":"SupportGreaterFork",
+    "name":"Greater Fork",
+    "naturalMaxLevel":3,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Projectile",
+    "tags":{
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "projectile":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterFork"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterKineticInstability":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterKineticInstability",
+    "grantedEffectId":"SupportGreaterKineticInstability",
+    "name":"Greater Kinetic Instability",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredSupportGreaterKineticInstability",
+    "tagString":"Exceptional, Critical, Support, AoE, Trigger, Attack, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "critical":true,
+      "duration":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"SupportGreaterKineticInstability"
+  },
   "Metadata/Items/Gems/SkillGemSupportGreaterMultipleProjectiles":{
     "gameId":"Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles",
     "grantedEffectId":"SupportGreaterMultipleProjectiles",
@@ -10893,6 +11660,81 @@
       "support":true
     },
     "variantId":"SupportGreaterMultipleProjectiles"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterMultistrike":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterMultistrike",
+    "grantedEffectId":"SupportGreaterMultistrike",
+    "name":"Greater Multistrike",
+    "naturalMaxLevel":3,
+    "reqDex":40,
+    "reqInt":0,
+    "reqStr":60,
+    "tagString":"Exceptional, Attack, Melee, Support",
+    "tags":{
+      "attack":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "melee":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterMultistrike"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterSpellCascade":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterSpellCascade",
+    "grantedEffectId":"SupportGreaterSpellCascade",
+    "name":"Greater Spell Cascade",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"AoE, Spell, Exceptional, Support",
+    "tags":{
+      "area":true,
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterSpellCascade"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterSpellEcho":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterSpellEcho",
+    "grantedEffectId":"SupportGreaterSpellEcho",
+    "name":"Greater Spell Echo",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Spell, AoE, Support",
+    "tags":{
+      "area":true,
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterSpellEcho"
+  },
+  "Metadata/Items/Gems/SkillGemSupportGreaterUnleash":{
+    "gameId":"Metadata/Items/Gems/SupportGemGreaterUnleash",
+    "grantedEffectId":"SupportGreaterUnleash",
+    "name":"Greater Unleash",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Spell, Support",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportGreaterUnleash"
   },
   "Metadata/Items/Gems/SkillGemSupportGreaterVolley":{
     "gameId":"Metadata/Items/Gems/SupportGemGreaterVolley",
@@ -10929,6 +11771,25 @@
     },
     "variantId":"SupportGuardiansBlessing"
   },
+  "Metadata/Items/Gems/SkillGemSupportHallow":{
+    "gameId":"Metadata/Items/Gems/SupportGemHallow",
+    "grantedEffectId":"SupportHallow",
+    "name":"Hallow",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Physical, Fire, Support, Melee, Attack",
+    "tags":{
+      "attack":true,
+      "fire":true,
+      "melee":true,
+      "physical":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportHallow"
+  },
   "Metadata/Items/Gems/SkillGemSupportHexBloom":{
     "gameId":"Metadata/Items/Gems/SupportGemHexBloom",
     "grantedEffectId":"SupportHexBloom",
@@ -10944,6 +11805,48 @@
       "support":true
     },
     "variantId":"SupportHexBloom"
+  },
+  "Metadata/Items/Gems/SkillGemSupportHexpass":{
+    "gameId":"Metadata/Items/Gems/SupportGemHexpass",
+    "grantedEffectId":"SupportHexpass",
+    "name":"Hexpass",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Hex",
+    "tags":{
+      "exceptional":true,
+      "hex":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportHexpass"
+  },
+  "Metadata/Items/Gems/SkillGemSupportHextoad":{
+    "gameId":"Metadata/Items/Gems/SupportGemHextoad",
+    "grantedEffectId":"SupportHextoad",
+    "name":"Hextoad",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredSupportHextoad",
+    "tagString":"Exceptional, AoE, Duration, Support, Hex, Spell, Chaos",
+    "tags":{
+      "area":true,
+      "chaos":true,
+      "duration":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "hex":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportHextoad"
   },
   "Metadata/Items/Gems/SkillGemSupportHextouch":{
     "gameId":"Metadata/Items/Gems/SupportGemCurseOnHit",
@@ -10980,6 +11883,29 @@
       "support":true
     },
     "variantId":"SupportHighImpactMine"
+  },
+  "Metadata/Items/Gems/SkillGemSupportHiveborn":{
+    "gameId":"Metadata/Items/Gems/SupportGemHiveborn",
+    "grantedEffectId":"SupportHiveborn",
+    "name":"Hiveborn",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredSupportHiveborn",
+    "tagString":"Exceptional, Minion, Cold, Support, Spell, Trigger",
+    "tags":{
+      "cold":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "minion":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"SupportHiveborn"
   },
   "Metadata/Items/Gems/SkillGemSupportHypothermia":{
     "gameId":"Metadata/Items/Gems/SupportGemDamageAgainstChilled",
@@ -11217,6 +12143,42 @@
     },
     "variantId":"SupportIntensify"
   },
+  "Metadata/Items/Gems/SkillGemSupportInvention":{
+    "gameId":"Metadata/Items/Gems/SupportGemInvention",
+    "grantedEffectId":"SupportInvention",
+    "name":"Invention",
+    "naturalMaxLevel":3,
+    "reqDex":60,
+    "reqInt":40,
+    "reqStr":0,
+    "tagString":"Exceptional, Support, Trap, Mine",
+    "tags":{
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "mine":true,
+      "support":true,
+      "trap":true
+    },
+    "variantId":"SupportInvention"
+  },
+  "Metadata/Items/Gems/SkillGemSupportInvertTheRules":{
+    "gameId":"Metadata/Items/Gems/SupportGemInvertTheRules",
+    "grantedEffectId":"SupportInvertTheRules",
+    "name":"Invert the Rules",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportInvertTheRules"
+  },
   "Metadata/Items/Gems/SkillGemSupportIronGrip":{
     "gameId":"Metadata/Items/Gems/SupportGemIronGrip",
     "grantedEffectId":"SupportIronGrip",
@@ -11335,7 +12297,7 @@
   "Metadata/Items/Gems/SkillGemSupportLesserMultipleProjectiles":{
     "gameId":"Metadata/Items/Gems/SupportGemLesserMultipleProjectiles",
     "grantedEffectId":"SupportLesserMultipleProjectiles",
-    "name":"Lesser Multiple Projectiles",
+    "name":"Multiple Projectiles",
     "naturalMaxLevel":20,
     "reqDex":100,
     "reqInt":0,
@@ -11347,6 +12309,24 @@
       "support":true
     },
     "variantId":"SupportLesserMultipleProjectiles"
+  },
+  "Metadata/Items/Gems/SkillGemSupportLethalDose":{
+    "gameId":"Metadata/Items/Gems/SupportGemLethalDose",
+    "grantedEffectId":"SupportLethalDose",
+    "name":"Lethal Dose",
+    "naturalMaxLevel":3,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Chaos, Support",
+    "tags":{
+      "chaos":true,
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportLethalDose"
   },
   "Metadata/Items/Gems/SkillGemSupportLifeGainOnHit":{
     "gameId":"Metadata/Items/Gems/SupportGemLifeGainOnHit",
@@ -11451,6 +12431,25 @@
       "support":true
     },
     "variantId":"SupportLocusMine"
+  },
+  "Metadata/Items/Gems/SkillGemSupportMachinations":{
+    "gameId":"Metadata/Items/Gems/SupportGemMachinations",
+    "grantedEffectId":"SupportMachinations",
+    "name":"Machinations",
+    "naturalMaxLevel":3,
+    "reqDex":60,
+    "reqInt":40,
+    "reqStr":0,
+    "tagString":"Exceptional, Physical, Chaos, Support",
+    "tags":{
+      "chaos":true,
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "physical":true,
+      "support":true
+    },
+    "variantId":"SupportMachinations"
   },
   "Metadata/Items/Gems/SkillGemSupportMaim":{
     "gameId":"Metadata/Items/Gems/SupportGemMaim",
@@ -11618,6 +12617,26 @@
       "support":true
     },
     "variantId":"SupportMinionLife"
+  },
+  "Metadata/Items/Gems/SkillGemSupportMinionPact":{
+    "gameId":"Metadata/Items/Gems/SupportGemMinionPact",
+    "grantedEffectId":"SupportMinionPact",
+    "name":"Minion Pact",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Spell, Minion, Physical, Support",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "minion":true,
+      "physical":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportMinionPact"
   },
   "Metadata/Items/Gems/SkillGemSupportMinionSpeed":{
     "gameId":"Metadata/Items/Gems/SupportGemMinionSpeed",
@@ -11787,6 +12806,61 @@
     },
     "variantId":"SupportOverexertion"
   },
+  "Metadata/Items/Gems/SkillGemSupportOverheat":{
+    "gameId":"Metadata/Items/Gems/SupportGemOverheat",
+    "grantedEffectId":"SupportOverheat",
+    "name":"Overheat",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Exceptional, Support, Melee, Attack",
+    "tags":{
+      "attack":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "melee":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportOverheat"
+  },
+  "Metadata/Items/Gems/SkillGemSupportOverloadedIntensity":{
+    "gameId":"Metadata/Items/Gems/SupportGemOverloadedIntensity",
+    "grantedEffectId":"SupportOverloadedIntensity",
+    "name":"Overloaded Intensity",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Spell, Critical, Support",
+    "tags":{
+      "critical":true,
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"SupportOverloadedIntensity"
+  },
+  "Metadata/Items/Gems/SkillGemSupportPacifism":{
+    "gameId":"Metadata/Items/Gems/SupportGemPacifism",
+    "grantedEffectId":"SupportPacifism",
+    "name":"Pacifism",
+    "naturalMaxLevel":3,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "dexterity":true,
+      "exceptional":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportPacifism"
+  },
   "Metadata/Items/Gems/SkillGemSupportPhysicalToLightning":{
     "gameId":"Metadata/Items/Gems/SupportGemPhysicalToLightning",
     "grantedEffectId":"SupportPhysicalToLightning",
@@ -11932,6 +13006,30 @@
     },
     "variantId":"SupportPulverise"
   },
+  "Metadata/Items/Gems/SkillGemSupportPyre":{
+    "gameId":"Metadata/Items/Gems/SupportGemPyre",
+    "grantedEffectId":"SupportPyre",
+    "name":"Pyre",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "secondaryGrantedEffectId":"TriggeredSupportPyre",
+    "tagString":"Exceptional, Support, Melee, Attack, Fire, AoE, Trigger",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "exceptional":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "low_max_level":true,
+      "melee":true,
+      "strength":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"SupportPyre"
+  },
   "Metadata/Items/Gems/SkillGemSupportRage":{
     "gameId":"Metadata/Items/Gems/SupportGemRage",
     "grantedEffectId":"SupportRage",
@@ -12054,6 +13152,25 @@
       "support":true
     },
     "variantId":"SupportSadism"
+  },
+  "Metadata/Items/Gems/SkillGemSupportScornfulHerald":{
+    "gameId":"Metadata/Items/Gems/SupportGemScornfulHerald",
+    "grantedEffectId":"SupportScornfulHerald",
+    "name":"Scornful Herald",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":60,
+    "reqStr":40,
+    "tagString":"Exceptional, Critical, Support, Herald",
+    "tags":{
+      "critical":true,
+      "exceptional":true,
+      "herald":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportScornfulHerald"
   },
   "Metadata/Items/Gems/SkillGemSupportSecondWind":{
     "gameId":"Metadata/Items/Gems/SupportGemSecondWind",
@@ -12252,6 +13369,25 @@
     },
     "variantId":"SupportSwiftbrand"
   },
+  "Metadata/Items/Gems/SkillGemSupportTransfusion":{
+    "gameId":"Metadata/Items/Gems/SupportGemTransfusion",
+    "grantedEffectId":"SupportTransfusion",
+    "name":"Transfusion",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Exceptional, Spell, Minion, Support",
+    "tags":{
+      "exceptional":true,
+      "low_max_level":true,
+      "minion":true,
+      "spell":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportTransfusion"
+  },
   "Metadata/Items/Gems/SkillGemSupportTrap":{
     "gameId":"Metadata/Items/Gems/SupportGemTrap",
     "grantedEffectId":"SupportTrap",
@@ -12335,6 +13471,26 @@
     },
     "variantId":"SupportUnboundAilments"
   },
+  "Metadata/Items/Gems/SkillGemSupportUnholyTrinity":{
+    "gameId":"Metadata/Items/Gems/SupportGemUnholyTrinity",
+    "grantedEffectId":"SupportUnholyTrinity",
+    "name":"Unholy Trinity",
+    "naturalMaxLevel":3,
+    "reqDex":60,
+    "reqInt":40,
+    "reqStr":0,
+    "tagString":"Exceptional, Physical, Chaos, Lightning, Support",
+    "tags":{
+      "chaos":true,
+      "dexterity":true,
+      "exceptional":true,
+      "lightning":true,
+      "low_max_level":true,
+      "physical":true,
+      "support":true
+    },
+    "variantId":"SupportUnholyTrinity"
+  },
   "Metadata/Items/Gems/SkillGemSupportUnleash":{
     "gameId":"Metadata/Items/Gems/SupportGemHandcastAnticipation",
     "grantedEffectId":"SupportUnleash",
@@ -12366,6 +13522,43 @@
       "warcry":true
     },
     "variantId":"SupportUrgentOrders"
+  },
+  "Metadata/Items/Gems/SkillGemSupportVaalSacrifice":{
+    "gameId":"Metadata/Items/Gems/SupportGemVaalSacrifice",
+    "grantedEffectId":"SupportVaalSacrifice",
+    "name":"Vaal Sacrifice",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":60,
+    "reqStr":40,
+    "tagString":"Exceptional, Spell, Support, Vaal",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "spell":true,
+      "support":true,
+      "vaal":true
+    },
+    "variantId":"SupportVaalSacrifice"
+  },
+  "Metadata/Items/Gems/SkillGemSupportVaalTemptation":{
+    "gameId":"Metadata/Items/Gems/SupportGemVaalTemptation",
+    "grantedEffectId":"SupportVaalTemptation",
+    "name":"Vaal Temptation",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Exceptional, Support, Vaal",
+    "tags":{
+      "exceptional":true,
+      "low_max_level":true,
+      "strength":true,
+      "support":true,
+      "vaal":true
+    },
+    "variantId":"SupportVaalTemptation"
   },
   "Metadata/Items/Gems/SkillGemSupportViciousProjectiles":{
     "gameId":"Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage",
@@ -12416,6 +13609,51 @@
       "support":true
     },
     "variantId":"SupportVoidManipulation"
+  },
+  "Metadata/Items/Gems/SkillGemSupportVoidShockwave":{
+    "gameId":"Metadata/Items/Gems/SupportGemVoidShockwave",
+    "grantedEffectId":"SupportVoidShockwave",
+    "name":"Void Shockwave",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "secondaryGrantedEffectId":"TriggeredSupportVoidShockwave",
+    "tagString":"Exceptional, Support, Melee, Attack, AoE",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "low_max_level":true,
+      "melee":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportVoidShockwave"
+  },
+  "Metadata/Items/Gems/SkillGemSupportVoidstorm":{
+    "gameId":"Metadata/Items/Gems/SupportGemVoidstorm",
+    "grantedEffectId":"SupportVoidstorm",
+    "name":"Voidstorm",
+    "naturalMaxLevel":3,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredSupportVoidstorm",
+    "tagString":"Exceptional, Support, Attack, AoE, Duration, Bow",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "bow":true,
+      "dexterity":true,
+      "duration":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportVoidstorm"
   },
   "Metadata/Items/Gems/SkillGemSupportVolatility":{
     "gameId":"Metadata/Items/Gems/SupportGemVolatility",
@@ -12492,19 +13730,20 @@
     "variantId":"SupportWitheringTouch"
   },
   "Metadata/Items/Gems/SkillGemSweep":{
-    "baseTypeName":"Sweep",
+    "baseTypeName":"Holy Sweep",
     "gameId":"Metadata/Items/Gems/SkillGemSweep",
     "grantedEffectId":"Sweep",
-    "name":"Sweep",
+    "name":"Holy Sweep",
     "naturalMaxLevel":20,
     "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, AoE, Melee",
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Attack, AoE, Melee, Lightning",
     "tags":{
       "area":true,
       "attack":true,
       "grants_active_skill":true,
+      "lightning":true,
       "melee":true,
       "strength":true
     },
@@ -12519,7 +13758,7 @@
     "reqDex":40,
     "reqInt":0,
     "reqStr":60,
-    "tagString":"Attack, AoE, Retaliation, Melee",
+    "tagString":"Attack, Melee, AoE, Retaliation",
     "tags":{
       "area":true,
       "attack":true,
@@ -12539,7 +13778,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Fire, Attack, AoE, Slam, Melee",
+    "tagString":"Fire, Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -12560,7 +13799,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Fire, Attack, AoE, Slam, Melee",
+    "tagString":"Fire, Attack, AoE, Melee, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -12926,7 +14165,7 @@
     "reqInt":40,
     "reqStr":0,
     "secondaryGrantedEffectId":"BladeFlurry",
-    "tagString":"Attack, AoE, Channelling, Vaal, Melee",
+    "tagString":"Attack, AoE, Channelling, Melee, Vaal",
     "tags":{
       "area":true,
       "attack":true,
@@ -13070,7 +14309,7 @@
     "reqInt":0,
     "reqStr":60,
     "secondaryGrantedEffectId":"Cleave",
-    "tagString":"Attack, AoE, Vaal, Duration, Melee",
+    "tagString":"Attack, AoE, Melee, Vaal, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -13116,7 +14355,7 @@
     "reqInt":0,
     "reqStr":40,
     "secondaryGrantedEffectId":"Cyclone",
-    "tagString":"Attack, AoE, Duration, Vaal, Melee, Movement, Channelling",
+    "tagString":"Attack, AoE, Melee, Duration, Vaal, Movement, Channelling",
     "tags":{
       "area":true,
       "attack":true,
@@ -13235,7 +14474,7 @@
     "reqInt":0,
     "reqStr":100,
     "secondaryGrantedEffectId":"Earthquake",
-    "tagString":"Attack, AoE, Duration, Vaal, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Duration, Vaal, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -13400,7 +14639,7 @@
     "reqInt":0,
     "reqStr":100,
     "secondaryGrantedEffectId":"GroundSlam",
-    "tagString":"Attack, AoE, Vaal, Slam, Melee",
+    "tagString":"Attack, AoE, Melee, Vaal, Slam",
     "tags":{
       "area":true,
       "attack":true,
@@ -13826,7 +15065,7 @@
     "reqInt":40,
     "reqStr":0,
     "secondaryGrantedEffectId":"Reave",
-    "tagString":"Attack, AoE, Vaal, Melee",
+    "tagString":"Attack, AoE, Melee, Vaal",
     "tags":{
       "area":true,
       "attack":true,
@@ -13894,7 +15133,7 @@
     "reqInt":40,
     "reqStr":60,
     "secondaryGrantedEffectId":"Smite",
-    "tagString":"Lightning, Attack, AoE, Duration, Melee, Strike, Aura, Vaal",
+    "tagString":"Lightning, Melee, Attack, AoE, Duration, Strike, Aura, Vaal",
     "tags":{
       "area":true,
       "attack":true,
@@ -14529,7 +15768,7 @@
     "reqDex":60,
     "reqInt":40,
     "reqStr":0,
-    "tagString":"Attack, Movement, Travel, Melee",
+    "tagString":"Attack, Melee, Movement, Travel",
     "tags":{
       "attack":true,
       "dexterity":true,
