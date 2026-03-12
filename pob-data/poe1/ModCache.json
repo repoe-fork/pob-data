@@ -95570,7 +95570,8 @@
             "type":"INC",
             "value":80,
             "1":{
-              "type":"Condition",
+              "actor":"parent",
+              "type":"ActorCondition",
               "var":"UsedWarcryRecently"
             }
           }

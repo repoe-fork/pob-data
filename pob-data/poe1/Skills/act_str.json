@@ -27274,6 +27274,27 @@
       "128":true
     },
     "statDescriptionScope":"minion_attack_skill_stat_descriptions",
+    "statMap":{
+      "skill_physical_damage_%_to_convert_to_lightning":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillPhysicalDamageConvertToLightning",
+          "type":"BASE"
+        },{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"MinionModifier",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillPhysicalDamageConvertToLightning",
+              "type":"BASE"
+            }
+          }
+        }]
+    },
     "stats":["minion_melee_range_+","base_holy_strike_maximum_number_of_animated_weapons","active_skill_minion_damage_+%_final","visual_hit_effect_elemental_is_holy","holy_strike_animates_owners_main_hand_weapon","console_skill_dont_chase"],
     "weaponTypes":{
       "One Handed Mace":true,
