@@ -39049,6 +39049,21 @@
         "type":"INC",
         "value":24
       }]],
+  "24% increased Minion Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":24,
+        "1":{
+          "skillType":88,
+          "type":"SkillType"
+        },
+        "2":{
+          "skillType":9,
+          "type":"SkillType"
+        }
+      }]],
   "24% increased Quantity of Items found":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45533,6 +45548,21 @@
         "name":"LightRadius",
         "type":"INC",
         "value":31
+      }]],
+  "31% increased Minion Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":31,
+        "1":{
+          "skillType":88,
+          "type":"SkillType"
+        },
+        "2":{
+          "skillType":9,
+          "type":"SkillType"
+        }
       }]],
   "31% increased Spell Damage":[[{
         "flags":2,
@@ -78244,14 +78274,14 @@
           "mod":{
             "flags":0,
             "keywordFlags":0,
-            "name":"Accuracy",
+            "name":"ConsecratedGroundAlsoAccuracy",
             "type":"INC",
-            "value":30
+            "value":30,
+            "1":{
+              "type":"Condition",
+              "var":"OnConsecratedGround"
+            }
           }
-        },
-        "1":{
-          "type":"Condition",
-          "var":"OnConsecratedGround"
         }
       }]],
   "Consecrated Ground you create grants 30% increased Mana Regeneration":[[{
@@ -95004,6 +95034,21 @@
           }
         }
       }]],
+  "Minions deal 135% increased Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"INC",
+            "value":135
+          }
+        }
+      }]],
   "Minions deal 14% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -95031,6 +95076,21 @@
             "name":"Damage",
             "type":"INC",
             "value":15
+          }
+        }
+      }]],
+  "Minions deal 157% increased Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"INC",
+            "value":157
           }
         }
       }]],
@@ -95813,6 +95873,36 @@
             "name":"PhysicalDamageGainAsFire",
             "type":"BASE",
             "value":6
+          }
+        }
+      }]],
+  "Minions gain 71% of Physical Damage as Extra Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PhysicalDamageGainAsChaos",
+            "type":"BASE",
+            "value":71
+          }
+        }
+      }]],
+  "Minions gain 83% of Physical Damage as Extra Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PhysicalDamageGainAsChaos",
+            "type":"BASE",
+            "value":83
           }
         }
       }]],
@@ -101016,7 +101106,7 @@
         "value":300,
         "1":{
           "type":"Condition",
-          "var":"SinglePoison"
+          "var":"NonPoisonedOnly"
         }
       }]],
   "Precise Technique":[[{
@@ -118771,6 +118861,17 @@
       }]],
   "Trigger level 20 Suspend in Time on Casting a Spell":[null,"Trigger level 20 Suspend in Time on Casting a Spell "],
   "Trigger level 20 Suspend in Time on Casting a Spell 60% increased Spell Damage":[null,"Trigger level 20 Suspend in Time on Casting a Spell 60% increased Spell Damage "],
+  "Trigger level 25 Ceaseless Flesh once every second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":25,
+          "skillId":"CeaselessFleshUnique",
+          "triggered":true
+        }
+      }]],
   "Triggered Spells Poison on Hit":[[{
         "flags":0,
         "keywordFlags":131072,
@@ -119816,6 +119917,8 @@
       }]],
   "When Hit, lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating":[null,"lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating "],
   "When Hit, lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating Limited to 1 Keystone Tattoo":[null,"lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating Limited to 1 Keystone Tattoo "],
+  "When a nearby Minion dies, gain Rotten Bulwark equal to 9% of its maximum Life":[null,"When a nearby Minion dies, gain Rotten Bulwark equal to 9% of its maximum Life "],
+  "When a nearby Minion dies, gain Rotten Bulwark equal to 9% of its maximum Life Minions gain 83% of Physical Damage as Extra Chaos Damage":[null,"When a nearby Minion dies, gain Rotten Bulwark equal to 9% of its maximum Life Minions gain 83% of Physical Damage as Extra Chaos Damage "],
   "When an Enemy Hit deals Elemental Damage to you, their Resistance to those Elements becomes zero for 4 seconds":[[{
         "flags":0,
         "keywordFlags":0,
