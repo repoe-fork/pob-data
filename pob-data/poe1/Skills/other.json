@@ -5362,6 +5362,59 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_chance_to_ignite_%","cast_on_gain_skill","cannot_knockback","spell_uncastable_if_triggerable","is_area_damage","skill_can_add_multiple_charges_per_action","no_cost"]
   },
+  "ResentmentUniqueSkill":{
+    "baseFlags":{
+      "duration":true,
+      "spell":true
+    },
+    "castTime":0,
+    "color":2,
+    "constantStats":[["base_skill_effect_duration",3000],["base_fire_damage_to_deal_per_minute",20000]],
+    "description":"While active, your bow attacks inflict Cinderflame. Cinderflame deals fire damage over time, and can stack up to ten times. This skill cannot be cast by Totems.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "cooldown":1,
+        "levelRequirement":0,
+        "storedUses":1
+      }
+    },
+    "name":"Cinders",
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "12":true,
+      "29":true,
+      "32":true,
+      "35":true,
+      "39":true,
+      "41":true,
+      "74":true,
+      "101":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "base_fire_damage_to_deal_per_minute":{
+        "div":60,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"FireDot"
+          },
+          "1":{
+            "limit":10,
+            "type":"Multiplier",
+            "var":"CinderflameStacks"
+          }
+        }
+      }
+    },
+    "stats":["cast_on_gain_skill","spell_uncastable_if_triggerable","no_cost"]
+  },
   "ShadeForm":{
     "baseFlags":{
       "duration":true,

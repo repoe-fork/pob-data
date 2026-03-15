@@ -2462,6 +2462,7 @@
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
     "incrementalEffectiveness":0.003800000064075,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -2620,6 +2621,7 @@
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
     "incrementalEffectiveness":0.0057000000961125,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -2778,6 +2780,7 @@
     "description":"Supports hex curse skills, turning them into auras that will apply their effect to all enemies in an area around you.",
     "excludeSkillTypes":[36,40,83,30,85,84],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "cooldown":1.2,
         "levelRequirement":72,
@@ -2963,6 +2966,7 @@
     "color":3,
     "description":"Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
     "excludeSkillTypes":[30,134],
+    "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
         "levelRequirement":72,
@@ -3140,6 +3144,7 @@
     "constantStats":[["support_controlled_destruction_critical_strike_chance_+%_final",-80]],
     "description":"Supports attack skills, or spell skills that deal damage.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -3290,6 +3295,7 @@
     "color":3,
     "description":"Supports any skill that hits or burns enemies, or inflicts elemental ailments.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -3512,6 +3518,7 @@
     "description":"Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
     "excludeSkillTypes":[36,40,30,134],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30
@@ -3590,6 +3597,7 @@
     "color":3,
     "description":"Supports any skill with an area of effect.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -3734,6 +3742,7 @@
     "color":3,
     "description":"Supports any skill that hits enemies, making those hits penetrate enemy lightning resistance.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -3871,6 +3880,7 @@
     "constantStats":[["support_minion_damage_minion_life_+%_final",-25]],
     "description":"Supports skills which create Minions.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -4025,6 +4035,7 @@
     "description":"Supports spell skills that apply an effect to an area around a targeted location. Cannot support Vaal skills or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
     "excludeSkillTypes":[30,36,40,43,42],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-20,
         "levelRequirement":72,
@@ -4197,6 +4208,7 @@
     "constantStats":[["base_spell_repeat_count",1],["support_echo_damage_+%_final",0],["spell_echo_plus_chance_double_damage_%_final",20]],
     "description":"Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, retaliation skills, blink skills, or skills with a reservation.",
     "excludeSkillTypes":[30,36,40,41,15,42,74,105,88,85,84],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -4342,6 +4354,7 @@
     "color":3,
     "description":"Supports any skill that hits enemies or inflicts ailments",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -4513,6 +4526,7 @@
     "color":3,
     "description":"Supports spell skills, making their effect reoccur when cast. Cannot support skills with cooldowns, triggered skills, Brand skills, Vaal skills, channelling skills, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
     "excludeSkillTypes":[30,36,40,41,15,42,74,57,101],
+    "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-40,
         "levelRequirement":72,

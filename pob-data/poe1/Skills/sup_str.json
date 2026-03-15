@@ -1127,6 +1127,7 @@
     "color":1,
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -1265,6 +1266,7 @@
     "description":"Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
     "excludeSkillTypes":[60,41,42],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -1389,6 +1391,7 @@
     "color":1,
     "description":"Supports any skill that deals damage.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -1533,6 +1536,7 @@
     "color":1,
     "description":"Supports any skill that hits enemies, or can deal burning damage directly.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -1677,6 +1681,7 @@
     "color":1,
     "description":"Supports attack skills.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -1938,6 +1943,7 @@
     "color":1,
     "description":"Supports any skill that hits enemies, making those hits penetrate enemy fire resistance.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -2075,6 +2081,7 @@
     "description":"Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems. Cannot modify the skills of minions.",
     "excludeSkillTypes":[30,79,63],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "statInterpolation":[1,1],
@@ -2204,6 +2211,7 @@
     "constantStats":[["support_melee_physical_damage_attack_speed_+%_final",-10]],
     "description":"Supports melee attack skills.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -2380,6 +2388,7 @@
     "color":1,
     "description":"Supports melee strike skills, causing their melee strike to deal splash damage around each target hit.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -2537,6 +2546,7 @@
     "constantStats":[["base_melee_attack_repeat_count",3],["multistrike_damage_+%_final_on_first_repeat",22],["multistrike_damage_+%_final_on_second_repeat",44],["multistrike_damage_+%_final_on_third_repeat",66],["support_multiple_attack_damage_+%_final",-20],["repeat_target_selection_distance_from_initial_target_bias",3]],
     "description":"Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
     "excludeSkillTypes":[42,105,88,85,84],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":50,
@@ -12190,6 +12200,7 @@
     "color":1,
     "description":"Supports any skill that can kill enemies.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":24,
         "statInterpolation":[1],
@@ -16974,6 +16985,7 @@
           "type":"FLAG",
           "value":true,
           "1":{
+            "effectName":"Transfusion",
             "effectType":"Buff",
             "type":"GlobalEffect"
           }
@@ -16992,6 +17004,7 @@
             }
           },
           "1":{
+            "effectName":"Transfusion",
             "effectType":"Buff",
             "type":"GlobalEffect"
           }

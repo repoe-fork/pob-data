@@ -1044,6 +1044,7 @@
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
     "incrementalEffectiveness":0.0043999999761581,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -1203,6 +1204,7 @@
     "description":"Supports bow attack skills that fire arrows forwards as projectiles. These skills will instead fire a payload arrow into the air to land at a targeted location. The supported skills' arrows will then fire out in a circle from where it lands. Cannot support skills that already fire arrows into the air, channelled skills, or skills that create Minions.",
     "excludeSkillTypes":[57,88,93,124],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-25,
         "levelRequirement":72,
@@ -1352,6 +1354,7 @@
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
     "excludeSkillTypes":[36,40,30,15,134],
     "ignoreMinionTypes":true,
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20
@@ -1432,6 +1435,7 @@
     "constantStats":[["number_of_chains",3],["terrain_arrow_attachment_chance_reduction_+%",150]],
     "description":"Supports projectile skills, and any other skills that chain.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-30,
         "levelRequirement":72,
@@ -1576,6 +1580,7 @@
     "color":2,
     "description":"Supports any skill that hits enemies, making those hits penetrate enemy cold resistance.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -1713,6 +1718,7 @@
     "constantStats":[["support_better_ailments_hit_damage_+%_final",-80]],
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -1961,6 +1967,7 @@
     "constantStats":[["number_of_additional_forks_base",1],["terrain_arrow_attachment_chance_reduction_+%",150]],
     "description":"Supports projectile skills, making their projectiles fork into two projectiles the first two times they hit an enemy and don't pierce it.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -2086,6 +2093,7 @@
     "constantStats":[["number_of_additional_projectiles",5],["terrain_arrow_attachment_chance_reduction_+%",250]],
     "description":"Supports projectile skills.",
     "excludeSkillTypes":[124],
+    "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-25,
         "levelRequirement":72,
@@ -2231,6 +2239,7 @@
     "constantStats":[["support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",-25]],
     "description":"Supports any skill that has a duration, or can hit enemies to inflict ailments on them.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -2356,6 +2365,7 @@
     "constantStats":[["support_projectile_attack_speed_+%_final",-10]],
     "description":"Supports projectile attack skills.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -2538,6 +2548,7 @@
     "color":2,
     "description":"Supports any skill that deals damage.",
     "excludeSkillTypes":[],
+    "legacy":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,

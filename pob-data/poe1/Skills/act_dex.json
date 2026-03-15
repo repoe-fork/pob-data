@@ -18509,7 +18509,7 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"Multiplier:ChargedDashMaxStages",
+        "name":"Multiplier:ChargedDashofProjectionMaxStages",
         "type":"BASE",
         "value":15
       },{
@@ -18902,7 +18902,7 @@
           "type":"INC",
           "1":{
             "type":"Multiplier",
-            "var":"ChargedDashStage"
+            "var":"ChargedDashofProjectionStage"
           },
           "2":{
             "skillPart":3,
@@ -88369,7 +88369,7 @@
           }
         }],
       "viper_strike_dual_wield_damage_+%_final":[{
-          "flags":0,
+          "flags":4,
           "keywordFlags":0,
           "name":"Damage",
           "type":"MORE",
@@ -88725,7 +88725,7 @@
           }
         }],
       "viper_strike_dual_wield_damage_+%_final":[{
-          "flags":0,
+          "flags":4,
           "keywordFlags":0,
           "name":"Damage",
           "type":"MORE",

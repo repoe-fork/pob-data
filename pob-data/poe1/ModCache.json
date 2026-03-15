@@ -8026,6 +8026,13 @@
         "type":"BASE",
         "value":28
       }]],
+  "+28 to Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":28
+      }]],
   "+28 to Strength and Dexterity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8107,13 +8114,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ChaosDotMultiplier",
-        "type":"BASE",
-        "value":28
-      }]],
-  "+28% to Chaos Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosResist",
         "type":"BASE",
         "value":28
       }]],
@@ -12920,6 +12920,13 @@
         "type":"BASE",
         "value":31
       }]],
+  "+32 to Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":32
+      }]],
   "+32 to maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12945,6 +12952,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"FireResist",
+        "type":"BASE",
+        "value":32
+      }]],
+  "+32% to Physical Damage over Time Multiplier":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDotMultiplier",
         "type":"BASE",
         "value":32
       }]],
@@ -13246,6 +13260,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"LightningResist",
+        "type":"BASE",
+        "value":35
+      }]],
+  "+35% to Physical Damage over Time Multiplier":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDotMultiplier",
         "type":"BASE",
         "value":35
       }]],
@@ -15427,16 +15448,6 @@
         "type":"BASE",
         "value":50
       }]],
-  "+50% to global critical strike chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":50,
-        "1":{
-          "type":"Global"
-        }
-      }]],
   "+500 to Accuracy Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16315,6 +16326,13 @@
         "name":"Life",
         "type":"BASE",
         "value":62
+      }]],
+  "+63 to maximum Mana":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Mana",
+        "type":"BASE",
+        "value":63
       }]],
   "+63% to Cold Resistance":[[{
         "flags":0,
@@ -17340,13 +17358,6 @@
           "sockets":[1],
           "type":"SocketedIn"
         }
-      }]],
-  "+89 to maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"BASE",
-        "value":89
       }]],
   "+9 to maximum Energy Shield":[[{
         "flags":0,
@@ -18382,6 +18393,13 @@
         "type":"BASE",
         "value":0
       }]],
+  "0% of Chaos Damage Leeched as Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosDamageLifeLeech",
+        "type":"BASE",
+        "value":0
+      }]],
   "0% of Physical Attack Damage Leeched as Life":[[{
         "flags":1,
         "keywordFlags":0,
@@ -18596,6 +18614,13 @@
           "type":"Multiplier",
           "var":"BlueSocketIn{SlotName}"
         }
+      }]],
+  "0.45% of Chaos Damage Leeched as Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosDamageLifeLeech",
+        "type":"BASE",
+        "value":0.45
       }]],
   "0.5% of Attack Damage Leeched as Life":[[{
         "flags":1,
@@ -21744,6 +21769,13 @@
           "var":"Bleeding"
         }
       }]],
+  "1% of Chaos Damage Leeched as Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosDamageLifeLeech",
+        "type":"BASE",
+        "value":1
+      }]],
   "1% of Cold Damage Leeched as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23384,13 +23416,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ColdDamageTaken",
-        "type":"INC",
-        "value":10
-      }]],
-  "10% increased Cooldown Recovery Rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CooldownRecovery",
         "type":"INC",
         "value":10
       }]],
@@ -27010,6 +27035,13 @@
         "type":"INC",
         "value":110
       }]],
+  "110% increased Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireDamage",
+        "type":"INC",
+        "value":110
+      }]],
   "110% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -28611,6 +28643,13 @@
         "type":"INC",
         "value":13
       }]],
+  "13% increased Cooldown Recovery Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecovery",
+        "type":"INC",
+        "value":13
+      }]],
   "13% increased Cooldown Recovery Rate for throwing Traps":[[{
         "flags":0,
         "keywordFlags":4096,
@@ -29129,13 +29168,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ArmourAndEvasion",
-        "type":"INC",
-        "value":14
-      }]],
-  "14% increased Light Radius":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightRadius",
         "type":"INC",
         "value":14
       }]],
@@ -33149,6 +33181,13 @@
           "type":"SkillType"
         }
       }]],
+  "18% increased Ignite Duration on Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteDuration",
+        "type":"INC",
+        "value":18
+      }]],
   "18% increased Intelligence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35969,6 +36008,13 @@
         "type":"INC",
         "value":20
       }]],
+  "20% increased Effect of Shrine Buffs on you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ShrineBuffEffect",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased Effect of Withered":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37110,7 +37156,13 @@
           "type":"SkillName"
         }
       }]],
-  "20% increased magnitude of Hallowing Flame you inflict":[[]," magnitude of Hallowing Flame you inflict "],
+  "20% increased magnitude of Hallowing Flame you inflict":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"HallowingFlameMagnitude",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38630,6 +38682,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"EnemyIgniteChance",
+        "type":"BASE",
+        "value":23
+      }]],
+  "23% chance to Impale Enemies on Hit with Attacks":[[{
+        "flags":0,
+        "keywordFlags":65536,
+        "name":"ImpaleChance",
         "type":"BASE",
         "value":23
       }]],
@@ -42905,6 +42964,13 @@
         "type":"BASE",
         "value":30
       }]],
+  "30% chance to Impale Enemies on Hit with Attacks":[[{
+        "flags":0,
+        "keywordFlags":65536,
+        "name":"ImpaleChance",
+        "type":"BASE",
+        "value":30
+      }]],
   "30% chance to Poison on Melee Hit":[[{
         "flags":260,
         "keywordFlags":0,
@@ -45532,16 +45598,6 @@
         "type":"INC",
         "value":31
       }]],
-  "31% increased Global Critical Strike Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
-        "value":31,
-        "1":{
-          "type":"Global"
-        }
-      }]],
   "31% increased Light Radius":[[{
         "flags":0,
         "keywordFlags":0,
@@ -46337,6 +46393,7 @@
         "type":"INC",
         "value":35
       }]],
+  "35% increased Quantity of Gold Dropped by Slain Enemies":[[]," Quantity of Gold Dropped by Slain Enemies "],
   "35% increased Rarity of Items found":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50020,21 +50077,6 @@
         "name":"BleedChance",
         "type":"BASE",
         "value":47
-      }]],
-  "47% increased Rarity of Items Dropped by Enemies killed with a Critical Strike":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LootRarity",
-        "type":"INC",
-        "value":47,
-        "1":{
-          "type":"Condition",
-          "var":"CritRecently"
-        },
-        "2":{
-          "type":"Condition",
-          "var":"KilledRecently"
-        }
       }]],
   "475% increased Evasion Rating":[[{
         "flags":0,
@@ -56218,6 +56260,13 @@
           "type":"Condition",
           "var":"AffectedByVitality"
         }
+      }]],
+  "70% increased Mana Regeneration Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"INC",
+        "value":70
       }]],
   "70% increased Physical Damage":[[{
         "flags":0,
@@ -63696,6 +63745,19 @@
         "type":"BASE",
         "value":300
       }]],
+  "Adds 205 to 335 Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireMin",
+        "type":"BASE",
+        "value":205
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireMax",
+        "type":"BASE",
+        "value":335
+      }]],
   "Adds 21 to 33 Cold Damage to Spells and Attacks":[[{
         "flags":0,
         "keywordFlags":196608,
@@ -64093,6 +64155,19 @@
         "name":"PhysicalMax",
         "type":"BASE",
         "value":285
+      }]],
+  "Adds 230 to 360 Fire Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireMin",
+        "type":"BASE",
+        "value":230
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireMax",
+        "type":"BASE",
+        "value":360
       }]],
   "Adds 235 to 290 Physical Damage":[[{
         "flags":0,
@@ -74260,7 +74335,13 @@
           "type":"SkillType"
         }
       }]],
-  "Attacks with this Weapon inflict Hallowing Flame on Hit":[null,"inflict Hallowing Flame on Hit "],
+  "Attacks with this Weapon inflict Hallowing Flame on Hit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanInflictHallowingFlame",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Attacks you use yourself Repeat an additional time":[[{
         "flags":1,
         "keywordFlags":0,
@@ -75904,7 +75985,7 @@
         }
       }]],
   "Can't use Life Flasks":[null,"Can't use Life Flasks "],
-  "Can't use Life Flasks +65 to maximum Mana":[null,"Can't use Life Flasks +65 to maximum Mana "],
+  "Can't use Life Flasks +70 to maximum Mana":[null,"Can't use Life Flasks +70 to maximum Mana "],
   "Can't use Mana Flasks":[null,"Can't use Mana Flasks "],
   "Can't use Mana Flasks On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50%":[null,"Can't use Mana Flasks On non-channelling Attack, set a Life Flask with greater than 50% of maximum Charges remaining to 50% "],
   "Can't use other Rings":[[{
@@ -76116,6 +76197,13 @@
           "type":"Condition",
           "var":"LowLife"
         }
+      }]],
+  "Cannot Poison Enemies with at least 12 Poisons on them":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PoisonStackLimit",
+        "type":"MIN",
+        "value":12
       }]],
   "Cannot Recharge Energy Shield":[[{
         "flags":0,
@@ -81024,6 +81112,8 @@
   "Elusive's Effect on you is increased instead for the first 2 seconds Limited to 1 Runegraft of the Agile":[null,"Elusive's Effect on you is increased instead for the first 2 seconds Limited to 1 Runegraft of the Agile "],
   "Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed":[null,"Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed "],
   "Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed 30% chance to Freeze Enemies which are Chilled":[null,"Enemies Become Chilled as they Unfreeze, causing 30% reduced Action Speed 30% chance to Freeze Enemies which are Chilled "],
+  "Enemies Blinded by you cannot inflict Damaging Ailments":[null,"you cannot inflict Damaging Ailments "],
+  "Enemies Blinded by you cannot inflict Damaging Ailments Grants Level 20 Blazing Glare":[null,"you cannot inflict Damaging Ailments Grants Level 20 Blazing Glare "],
   "Enemies Blinded by you have Malediction":[[{
         "flags":0,
         "keywordFlags":0,
@@ -84626,8 +84716,13 @@
         "keywordFlags":0,
         "name":"PhysicalDamageGainAsLightning",
         "type":"BASE",
-        "value":10
-      }],"   for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80% "],
+        "value":10,
+        "1":{
+          "limit":8,
+          "type":"Multiplier",
+          "var":"HallowingFlameStacksRemovedByAlly"
+        }
+      }]],
   "Gain 10% of Wand Physical Damage as Extra Chaos Damage":[[{
         "flags":8388612,
         "keywordFlags":0,
@@ -85773,6 +85868,17 @@
           "var":"UsingFlask"
         }
       }]],
+  "Gain 30% of Physical Damage as Extra Cold Damage if you've used a Sapphire Flask Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsCold",
+        "type":"BASE",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UsedSapphireFlaskRecently"
+        }
+      }]],
   "Gain 30% of Physical Damage as Extra Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85786,6 +85892,17 @@
         "name":"PhysicalDamageGainAsLightning",
         "type":"BASE",
         "value":30
+      }]],
+  "Gain 30% of Physical Damage as Extra Lightning Damage if you've used a Topaz Flask Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsLightning",
+        "type":"BASE",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UsedTopazFlaskRecently"
+        }
       }]],
   "Gain 300 Life per Ignited Enemy Killed":[[{
         "flags":0,
@@ -85936,6 +86053,17 @@
         "type":"BASE",
         "value":40
       }]],
+  "Gain 40% of Physical Damage as Extra Cold Damage if you've used a Sapphire Flask Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsCold",
+        "type":"BASE",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"UsedSapphireFlaskRecently"
+        }
+      }]],
   "Gain 40% of Physical Damage as Extra Damage of a random Element while you are Ignited":[[{
         "flags":0,
         "keywordFlags":0,
@@ -85945,6 +86073,17 @@
         "1":{
           "type":"Condition",
           "var":"Ignited"
+        }
+      }]],
+  "Gain 40% of Physical Damage as Extra Lightning Damage if you've used a Topaz Flask Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsLightning",
+        "type":"BASE",
+        "value":40,
+        "1":{
+          "type":"Condition",
+          "var":"UsedTopazFlaskRecently"
         }
       }]],
   "Gain 40% of Physical Damage as a Random Element if you've cast Elemental Weakness in the past 10 seconds":[[{
@@ -86212,6 +86351,17 @@
         "type":"BASE",
         "value":51
       }]],
+  "Gain 58% of Physical Damage as Extra Chaos Damage if you've used an Amethyst Flask Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsChaos",
+        "type":"BASE",
+        "value":58,
+        "1":{
+          "type":"Condition",
+          "var":"UsedAmethystFlaskRecently"
+        }
+      }]],
   "Gain 6 Life per Enemy Hit with Attacks":[[{
         "flags":4,
         "keywordFlags":65536,
@@ -86339,6 +86489,17 @@
         "name":"ManaOnKill",
         "type":"BASE",
         "value":75
+      }]],
+  "Gain 75% of Physical Damage as Extra Chaos Damage if you've used an Amethyst Flask Recently":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageGainAsChaos",
+        "type":"BASE",
+        "value":75,
+        "1":{
+          "type":"Condition",
+          "var":"UsedAmethystFlaskRecently"
+        }
       }]],
   "Gain 8 Life per Enemy Hit with Attacks":[[{
         "flags":4,
@@ -88538,6 +88699,16 @@
           "skillId":"BearTrap"
         }
       }]],
+  "Grants Level 20 Blazing Glare":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"SolartwineBlindingNova"
+        }
+      }]],
   "Grants Level 20 Brandsurge Skill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -88546,6 +88717,16 @@
         "value":{
           "level":20,
           "skillId":"Brandsurge"
+        }
+      }]],
+  "Grants Level 20 Caustic Retribution":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"BitingBraidNova"
         }
       }]],
   "Grants Level 20 Death Wish Skill":[[{
@@ -91465,12 +91646,19 @@
         "type":"MAX",
         "value":150
       }]],
-  "Increases and Reductions to Effect of Flasks applied to you also applies to Effect of Arcane Surge on you at 210% of their value":[[{
+  "Increases and Reductions to Effect of Flasks applied to you also applies to Effect of Arcane Surge on you at 225% of their value":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"FlaskEffectToArcaneSurgeEffect",
         "type":"BASE",
-        "value":210
+        "value":225
+      }]],
+  "Increases and Reductions to Effect of Flasks applied to you also applies to Effect of Arcane Surge on you at 250% of their value":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskEffectToArcaneSurgeEffect",
+        "type":"BASE",
+        "value":250
       }]],
   "Increases and Reductions to Fire Damage also apply to Effect of Auras from Fire Skills at 13% of their value, up to a maximum of 150%":[[{
         "flags":0,
@@ -91705,6 +91893,18 @@
         "type":"MAX",
         "value":30
       }]],
+  "Inflict 3 additional Poisons on the same Target":[null,"Inflict 3 additional Poisons on the same Target "],
+  "Inflict 3 additional Poisons on the same Target when you inflict Poison with this weapon":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AdditionalPoisonStacks",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        }
+      }]],
   "Inflict 5 additional Impales on Enemies you Impale":[null,"Inflict 5 additional Impales on Enemies you Impale "],
   "Inflict 5 additional Impales on Enemies you Impale For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them":[null,"Inflict 5 additional Impales on Enemies you Impale For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them "],
   "Inflict 5 additional Impales on Enemies you Impale For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them Limited to 1 Keystone Tattoo":[null,"Inflict 5 additional Impales on Enemies you Impale For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them Limited to 1 Keystone Tattoo "],
@@ -91724,6 +91924,45 @@
           "actor":"enemy",
           "type":"ActorCondition",
           "var":"Cursed"
+        }
+      }]],
+  "Inflict Fire Exposure on Hit against Enemies with 5 Cinderflame, applying -25% to Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireExposureChance",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"Effective"
+        },
+        "2":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"CinderflameStacks"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"FireExposure",
+            "type":"BASE",
+            "value":-25
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"Effective"
+        },
+        "2":{
+          "threshold":5,
+          "type":"MultiplierThreshold",
+          "var":"CinderflameStacks"
         }
       }]],
   "Inflict Fire Exposure on Hit if you've cast Flammability in the past 10 seconds":[[{
@@ -91883,10 +92122,24 @@
           "var":"UsingFlask"
         }
       }]],
-  "Inflict Hallowing Flame on Hit while on Consecrated Ground":[null,"Inflict Hallowing Flame on Hit while on Consecrated Ground "],
-  "Inflict Hallowing Flame on Melee Hit":[null,"Inflict Hallowing Flame on Melee Hit "],
-  "Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies":[null,"Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies "],
-  "Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%":[null,"Inflict Hallowing Flame on Melee Hit You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80% "],
+  "Inflict Hallowing Flame on Hit while on Consecrated Ground":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanInflictHallowingFlame",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"OnConsecratedGround"
+        }
+      }]],
+  "Inflict Hallowing Flame on Melee Hit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanInflictHallowingFlame",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Inflict Lightning Exposure on Hit if you've cast Conductivity in the past 10 seconds":[[{
         "flags":4,
         "keywordFlags":0,
@@ -106870,7 +107123,7 @@
           "skillId":"SupportCruelty"
         },
         "1":{
-          "slotName":"Main Hand Weapon",
+          "slotName":"Weapon 1",
           "type":"SocketedIn"
         }
       }]],
@@ -107019,9 +107272,30 @@
         "value":2
       }]],
   "Skills which create Brands have 35% chance to create an additional Brand":[null,"Skills which create Brands have 35% chance to create an additional Brand "],
-  "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity":[null,"Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity "],
-  "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence":[null,"Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence "],
-  "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence":[null,"Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence "],
+  "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Dexterity":[[{
+        "flags":0,
+        "keywordFlags":8192,
+        "name":"MineThrowCount",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "stat":"Dex",
+          "threshold":800,
+          "type":"StatThreshold"
+        }
+      }]],
+  "Skills which throw Mines throw up to 1 additional Mine if you have at least 800 Intelligence":[[{
+        "flags":0,
+        "keywordFlags":8192,
+        "name":"MineThrowCount",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "stat":"Int",
+          "threshold":800,
+          "type":"StatThreshold"
+        }
+      }]],
   "Skills which throw Traps Cost Life instead of Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -118145,6 +118419,17 @@
           "triggered":true
         }
       }]],
+  "Trigger Level 20 Cinders when Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"ResentmentUniqueSkill",
+          "triggered":true
+        }
+      }]],
   "Trigger Level 20 Death Aura when Equipped":[[{
         "flags":0,
         "keywordFlags":0,
@@ -118361,6 +118646,17 @@
         "value":{
           "level":20,
           "skillId":"SummonMirageChieftain",
+          "triggered":true
+        }
+      }]],
+  "Trigger Level 20 Tears of Rot when Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"AnimosityUniqueSkill",
           "triggered":true
         }
       }]],
@@ -118860,7 +119156,7 @@
         }
       }]],
   "Trigger level 20 Suspend in Time on Casting a Spell":[null,"Trigger level 20 Suspend in Time on Casting a Spell "],
-  "Trigger level 20 Suspend in Time on Casting a Spell 60% increased Spell Damage":[null,"Trigger level 20 Suspend in Time on Casting a Spell 60% increased Spell Damage "],
+  "Trigger level 20 Suspend in Time on Casting a Spell 80% increased Spell Damage":[null,"Trigger level 20 Suspend in Time on Casting a Spell 80% increased Spell Damage "],
   "Trigger level 25 Ceaseless Flesh once every second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -120168,12 +120464,23 @@
           "var":"FullLife"
         }
       }]],
-  "While on Low Life, Life Flasks gain 4 Charges every 3 seconds":[[{
+  "While on Low Life, Life Flasks gain 5 Charges every 3 seconds":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LifeFlaskChargesGenerated",
         "type":"BASE",
-        "value":1.3333333333333,
+        "value":1.6666666666667,
+        "1":{
+          "type":"Condition",
+          "var":"LowLife"
+        }
+      }]],
+  "While on Low Life, Life Flasks gain 6 Charges every 3 seconds":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeFlaskChargesGenerated",
+        "type":"BASE",
+        "value":2,
         "1":{
           "type":"Condition",
           "var":"LowLife"
@@ -120530,6 +120837,13 @@
           "type":"MultiplierThreshold",
           "var":"NearbyCorpse"
         }
+      }]],
+  "Wither on Hit with this weapon against Enemies with at least 12 Poisons on them":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanWither",
+        "type":"FLAG",
+        "value":true
       }]],
   "Withered does not expire on Enemies Ignited by you":[null,"Withered does not expire on Enemies Ignited by you "],
   "Withered does not expire on Enemies Ignited by you +25% to Fire and Chaos Resistances":[null,"Withered does not expire on Enemies Ignited by you +25% to Fire and Chaos Resistances "],
@@ -121383,8 +121697,13 @@
   "You can have two Offerings of different types":[null,"You can have two Offerings of different types "],
   "You can have two Offerings of different types 35% chance to Avoid Elemental Ailments":[null,"You can have two Offerings of different types 35% chance to Avoid Elemental Ailments "],
   "You can have two different Banners at the same time":[[]],
-  "You can inflict +1 Hallowing Flame on Enemies":[null,"You can inflict +1 Hallowing Flame on Enemies "],
-  "You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%":[null,"You can inflict +1 Hallowing Flame on Enemies Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80% "],
+  "You can inflict +1 Hallowing Flame on Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:HallowingFlameMax",
+        "type":"BASE",
+        "value":1
+      }]],
   "You can inflict Bleeding on an Enemy up to 8 times":[[{
         "flags":0,
         "keywordFlags":0,
@@ -121877,6 +122196,18 @@
         }
       }],"an Endurance Charge  You gain   per Endurance Charge when Hit "],
   "You grant 6 Frenzy Charges to allies on Death":[null,"You grant 6 Frenzy Charges to allies on Death "],
+  "You have Acceleration Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:AccelerationShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "You have Arcane Surge during Effect of any Mana Flask":[[{
         "flags":0,
         "keywordFlags":0,
@@ -121886,6 +122217,18 @@
         "1":{
           "type":"Condition",
           "var":"UsingManaFlask"
+        }
+      }]],
+  "You have Brutal Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:BrutalShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
         }
       }]],
   "You have Consecrated Ground around you while":[null,"Consecrated Ground around you while "],
@@ -121953,6 +122296,18 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Condition:DiamondShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
+  "You have Echoing Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:EchoingShrine",
         "type":"FLAG",
         "value":true,
         "1":{
@@ -122183,6 +122538,54 @@
           "varList":["OnFungalGround","Stationary"]
         }
       }]],
+  "You have Gloom Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:GloomShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
+  "You have Greater Freezing Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:GreaterFreezingShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
+  "You have Greater Shocking Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:GreaterShockingShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
+  "You have Greater Skeletal Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:GreaterSkeletalShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "You have Igniting, Chilling and Shocking Conflux while affected by Glorious Madness":[[{
         "flags":0,
         "keywordFlags":0,
@@ -122324,6 +122727,18 @@
           "var":"AffectedByGloriousMadness"
         }
       }]],
+  "You have Impenetrable Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:ImpenetrableShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "You have Iron Reflexes while at maximum Frenzy Charges":[[{
         "flags":0,
         "keywordFlags":0,
@@ -122349,6 +122764,18 @@
         "name":"Condition:LesserMassiveShrine",
         "type":"FLAG",
         "value":true
+      }]],
+  "You have Massive Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:MassiveShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
       }]],
   "You have Mind over Matter while at maximum Power Charges":[[{
         "flags":0,
@@ -122529,6 +122956,18 @@
           "var":"AffectedByCat'sStealth"
         }
       }]],
+  "You have Replenishing Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:ReplenishingShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "You have Resistance Shrine Buff while affected by no Flasks":[[{
         "flags":0,
         "keywordFlags":0,
@@ -122551,6 +122990,18 @@
           "neg":true,
           "type":"Condition",
           "var":"HaveElementalOverload"
+        }
+      }]],
+  "You have Resonating Shrine Buff while affected by no Flasks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:ResonatingShrine",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UsingFlask"
         }
       }]],
   "You have Sacrifice of Blood if at least 8 Corrupted Items are Equipped":[null,"Sacrifice of Blood if at least 8 Corrupted Items are Equipped "],
@@ -123832,7 +124283,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Your Warcries inflict Hallowing Flame":[null,"Your Warcries inflict Hallowing Flame "],
+  "Your Warcries inflict Hallowing Flame":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanInflictHallowingFlame",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Your hits can't be Evaded":[[{
         "flags":0,
         "keywordFlags":0,
