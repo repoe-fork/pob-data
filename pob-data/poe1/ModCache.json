@@ -77478,8 +77478,20 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating":[null,"Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating "],
-  "Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour":[null,"Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour "],
+  "Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvadeChanceBasedOnWard",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvadeChanceBasedOnWardPercent",
+        "source":"Black Scythe Training",
+        "type":"OVERRIDE",
+        "value":200
+      }]],
   "Chance to Suppress Spell Damage is Lucky":[[{
         "flags":0,
         "keywordFlags":0,
@@ -101269,7 +101281,20 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour":[null,"Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour "],
+  "Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalReductionBasedOnWard",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalReductionBasedOnWardPercent",
+        "source":"Black Scythe Training",
+        "type":"OVERRIDE",
+        "value":200
+      }]],
   "Physical Damage of Enemies Hitting you is Unlucky":[null,"Physical Damage of Enemies Hitting you is Unlucky "],
   "Physical Damage taken bypasses Energy Shield":[[{
         "flags":0,
