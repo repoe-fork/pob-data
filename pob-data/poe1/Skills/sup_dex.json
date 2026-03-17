@@ -10223,6 +10223,16 @@
     "requireSkillTypes":[10,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
+      "additional_poisons_+_to_apply_vs_non_poisoned_enemies":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"AdditionalPoisonStacks",
+          "type":"BASE",
+          "1":{
+            "type":"Condition",
+            "var":"NonPoisonedOnly"
+          }
+        }],
       "support_lethal_dose_poison_damage_+%_final":[{
           "flags":0,
           "keywordFlags":2097152,

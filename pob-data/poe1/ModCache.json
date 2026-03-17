@@ -53023,6 +53023,7 @@
         "type":"INC",
         "value":50
       }]],
+  "50% increased Valour gained":[[]," Valour gained "],
   "50% increased Warcry Buff Effect":[[{
         "flags":0,
         "keywordFlags":4,
@@ -75176,8 +75177,6 @@
           "type":"SkillType"
         }
       }]],
-  "Banners you are carrying gain 1 Stage on Melee Hit, up to 5 per second":[null,"Banners you are carrying gain 1 Stage on Melee Hit, up to 5 per second "],
-  "Banners you are carrying gain 1 Stage on Melee Hit, up to 5 per second War Banner has 200% increased Adrenaline duration":[null,"Banners you are carrying gain 1 Stage on Melee Hit, up to 5 per second War Banner has 200% increased Adrenaline duration "],
   "Base Critical Strike Chance for Attacks with Weapons is 8%":[[{
         "flags":0,
         "keywordFlags":0,
@@ -77893,7 +77892,7 @@
         "value":8
       }]],
   "Cold Exposure on Hit if you've cast Frostbite in the past 10 seconds":[[{
-        "flags":4,
+        "flags":0,
         "keywordFlags":0,
         "name":"EnemyModifier",
         "type":"LIST",
@@ -77901,7 +77900,7 @@
           "mod":{
             "flags":0,
             "keywordFlags":0,
-            "name":"OldExposure",
+            "name":"ColdExposure",
             "type":"BASE",
             "value":-10
           }
@@ -79968,30 +79967,6 @@
       }]],
   "Defend with 120% of Armour against Projectile Attacks":[null,"Defend with 120% of Armour against Projectile Attacks "],
   "Defend with 120% of Armour against Projectile Attacks 5% more chance to Evade Melee Attacks":[null,"Defend with 120% of Armour against Projectile Attacks 5% more chance to Evade Melee Attacks "],
-  "Defiance Banner has 200% increased Taunt duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":200,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Defiance Banner",
-          "type":"SkillName"
-        }
-      }]," Taunt  "],
-  "Defiance Banner has 200% increased Taunt duration Having a placed Banner does not prevent you gaining Valour":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":200,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Defiance Banner",
-          "type":"SkillName"
-        }
-      }]," Taunt  Having a placed Banner does not prevent you gaining Valour "],
   "Denoted service of 4250 dekhara in the akhara of Balbala":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80448,33 +80423,6 @@
       }],"Does not delay Inherent Loss of   Rage "],
   "Does not inflict Mana Burn over time":[null,"Does not inflict Mana Burn over time "],
   "Does not inflict Mana Burn over time Inflicts Mana Burn on you when you Hit an Enemy with a Melee Weapon":[null,"Does not inflict Mana Burn over time Inflicts Mana Burn on you when you Hit an Enemy with a Melee Weapon "],
-  "Dread Banner grants an additional +4 to maximum Fortification when placing the Banner":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkillMod",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"MaximumFortification",
-            "type":"BASE",
-            "value":4,
-            "1":{
-              "effectType":"Buff",
-              "type":"GlobalEffect"
-            }
-          }
-        },
-        "1":{
-          "type":"Condition",
-          "var":"BannerPlanted"
-        },
-        "2":{
-          "skillName":"Dread Banner",
-          "type":"SkillName"
-        }
-      }]],
   "Drops Scorched Ground while moving, lasting 4 seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -89756,6 +89704,7 @@
         }
       }]],
   "Having a placed Banner does not prevent you gaining Valour":[null,"Having a placed Banner does not prevent you gaining Valour "],
+  "Having a placed Banner does not prevent you gaining Valour 40% increased Melee Damage":[null,"Having a placed Banner does not prevent you gaining Valour 40% increased Melee Damage "],
   "Having a placed Banner does not prevent you gaining Valour Banner Skills have 100% increased Duration":[null,"Having a placed Banner does not prevent you gaining Valour Banner Skills have 100% increased Duration "],
   "Herald Skills and Minions from Herald Skills deal 1% more Damage for every 1% of Maximum Life those Skills Reserve":[[{
         "flags":0,
@@ -91978,7 +91927,7 @@
         }
       }]],
   "Inflict Fire Exposure on Hit if you've cast Flammability in the past 10 seconds":[[{
-        "flags":4,
+        "flags":0,
         "keywordFlags":0,
         "name":"EnemyModifier",
         "type":"LIST",
@@ -92153,7 +92102,7 @@
         "value":true
       }]],
   "Inflict Lightning Exposure on Hit if you've cast Conductivity in the past 10 seconds":[[{
-        "flags":4,
+        "flags":0,
         "keywordFlags":0,
         "name":"EnemyModifier",
         "type":"LIST",
@@ -119996,18 +119945,6 @@
         "type":"BASE",
         "value":1
       }]],
-  "War Banner has 200% increased Adrenaline duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AdrenalineDuration",
-        "type":"INC",
-        "value":200,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"War Banner",
-          "type":"SkillName"
-        }
-      }]],
   "Warcries Debilitate Enemies for 1 second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -121721,7 +121658,6 @@
       }]],
   "You can have two Offerings of different types":[null,"You can have two Offerings of different types "],
   "You can have two Offerings of different types 35% chance to Avoid Elemental Ailments":[null,"You can have two Offerings of different types 35% chance to Avoid Elemental Ailments "],
-  "You can have two different Banners at the same time":[[]],
   "You can inflict +1 Hallowing Flame on Enemies":[[{
         "flags":0,
         "keywordFlags":0,
