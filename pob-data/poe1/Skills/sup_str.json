@@ -11395,6 +11395,25 @@
     },
     "requireSkillTypes":[24],
     "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "hallowing_flame_magnitude_+%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"HallowingFlameMagnitude",
+          "type":"INC"
+        }],
+      "support_hallow_inflict_hallowing_flame_on_melee_hit":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Condition:CanInflictHallowingFlame",
+          "type":"FLAG",
+          "value":true,
+          "1":{
+            "effectType":"Global",
+            "type":"GlobalEffect"
+          }
+        }]
+    },
     "stats":["hallowing_flame_magnitude_+%","support_hallow_inflict_hallowing_flame_on_melee_hit"],
     "support":true
   },

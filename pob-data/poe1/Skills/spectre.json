@@ -5234,6 +5234,37 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final"]
   },
+  "CGEFaridunWarlockSwarmGround":{
+    "baseEffectiveness":2,
+    "baseFlags":{
+      "area":true,
+      "duration":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":4,
+    "constantStats":[["active_skill_area_of_effect_radius_+%_final",-5],["base_skill_effect_duration",5000],["ground_caustic_art_variation",23],["spell_maximum_action_distance_+%",-40]],
+    "hidden":true,
+    "incrementalEffectiveness":0.027499999850988,
+    "levels":[{
+        "cooldown":15,
+        "levelRequirement":0,
+        "statInterpolation":[3],
+        "storedUses":1,
+        "1":33.333334078391
+      }],
+    "name":"Caustic Ground",
+    "skillTypes":{
+      "2":true,
+      "10":true,
+      "11":true,
+      "12":true,
+      "35":true,
+      "82":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["base_chaos_damage_to_deal_per_minute","action_attack_or_cast_time_uses_animation_length","is_area_damage"]
+  },
   "CageSpiderCycloneTriggerSandstorms":{
     "baseFlags":{
       "area":true,
@@ -6735,6 +6766,73 @@
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage","corpse_explosion_monster_life_%","is_area_damage"]
+  },
+  "FaridunCasterUndeadDamageOverTimeAura":{
+    "baseFlags":{
+      "area":true,
+      "aura":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":3,
+    "constantStats":[["active_skill_area_of_effect_radius_+%_final",50]],
+    "description":"Casts an aura that multiplies damage over time and increases skill effect duration of you and your allies.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":0.5,
+        "levelRequirement":0,
+        "statInterpolation":[2,2],
+        "storedUses":1,
+        "1":14,
+        "2":10
+      },{
+        "cooldown":0.5,
+        "levelRequirement":80,
+        "statInterpolation":[2,2],
+        "storedUses":1,
+        "1":17,
+        "2":14
+      }],
+    "name":"Malevolence",
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "11":true,
+      "15":true,
+      "18":true,
+      "27":true,
+      "43":true,
+      "74":true,
+      "82":true,
+      "92":true,
+      "96":true,
+      "97":true,
+      "101":true
+    },
+    "statDescriptionScope":"aura_skill_stat_descriptions",
+    "statMap":{
+      "delirium_aura_damage_over_time_+%_final":[{
+          "flags":8,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "effectType":"Aura",
+            "type":"GlobalEffect"
+          }
+        }],
+      "delirium_skill_effect_duration_+%":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Duration",
+          "type":"INC",
+          "1":{
+            "effectType":"Aura",
+            "type":"GlobalEffect"
+          }
+        }]
+    },
+    "stats":["delirium_aura_damage_over_time_+%_final","delirium_skill_effect_duration_+%","base_deal_no_damage"]
   },
   "FemaleCannibalBossFireStorm":{
     "baseEffectiveness":0.85000002384186,
@@ -10637,6 +10735,35 @@
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
+  },
+  "MPSFaridunWarlockBloodSpray":{
+    "baseEffectiveness":1.1000000238419,
+    "baseFlags":{
+      "projectile":true,
+      "spell":true
+    },
+    "castTime":1,
+    "color":4,
+    "constantStats":[["monster_projectile_variation",284],["projectile_maximum_range_override",25],["base_number_of_projectiles",3]],
+    "hidden":true,
+    "incrementalEffectiveness":0.03999999910593,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0,
+        "statInterpolation":[3,3],
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Blood Spray",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "35":true,
+      "67":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","distribute_projectiles_over_contact_points"]
   },
   "MPSHeistCultistStaffProjectileGreen":{
     "baseEffectiveness":3.2000000476837,

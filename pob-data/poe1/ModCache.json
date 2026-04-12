@@ -124249,7 +124249,11 @@
         "keywordFlags":0,
         "name":"Condition:CanInflictHallowingFlame",
         "type":"FLAG",
-        "value":true
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"UsedWarcryRecently"
+        }
       }]],
   "Your hits can't be Evaded":[[{
         "flags":0,
