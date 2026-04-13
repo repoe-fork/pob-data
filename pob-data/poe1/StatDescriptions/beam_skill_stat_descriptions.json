@@ -18,6 +18,14 @@
     "name":"base_split_num",
     "stats":["projectile_number_to_split"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,1]],
+        "text":"Beam Splits towards {0:+d} additional target"
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Beam Splits towards {0:+d} additional targets"
+      },{
         "limit":[[1,1]],
         "text":"Beam Splits towards {0} additional target"
       },{

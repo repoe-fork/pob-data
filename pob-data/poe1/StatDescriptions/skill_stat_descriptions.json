@@ -8034,6 +8034,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -8567,6 +8571,18 @@
     "name":"active_skill_bleeding_damage_more",
     "stats":["active_skill_bleeding_damage_+%_final"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"{0:+d}% more Damage with Bleeding"
+      },{
+        "gem_quality":true,
+        "limit":[["#",-1]],
+        "text":"{0:+d}% less Damage with Bleeding",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      },{
         "limit":[[1,"#"]],
         "text":"{0}% more Damage with Bleeding"
       },{
@@ -8727,6 +8743,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -9660,7 +9680,11 @@
         "text":"Buff grants {0} Flask Charge every 3 seconds"
       },{
         "limit":[["#","#"]],
-        "text":"Buff grants {0} Flask Charges every 3 seconds"
+        "text":"Buff grants {0} Flask Charges every 3 seconds",
+        "1":{
+          "k":"canonical_line",
+          "v":true
+        }
       }]
   },
   "521":{
@@ -11942,6 +11966,10 @@
     "name":"charged_dash_final_wave_damage_per_stage",
     "stats":["charged_dash_damage_+%_final_per_stack"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Hits from Final wave deal {0:+d}% of Damage per stage"
+      },{
         "limit":[[1,"#"]],
         "text":"Hits from Final wave deal {0}% of Damage per stage"
       }]
@@ -13940,6 +13968,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -14632,6 +14664,14 @@
     "name":"flamethrower_tower_trap_flames",
     "stats":["flamethrower_tower_trap_number_of_flamethrowers"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,1]],
+        "text":"Has {0:+d} Flame"
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Has {0:+d} Flames"
+      },{
         "limit":[[1,1]],
         "text":"Has {0} Flame"
       },{
@@ -14666,6 +14706,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -15592,6 +15636,14 @@
     "name":"uulnetol_bone_spires_num_of_spires_to_create",
     "stats":["graft_skill_uulnetol_bone_spires_num_of_spires_to_create"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,1]],
+        "text":"Creates {0:+d} Bone Spire"
+      },{
+        "gem_quality":true,
+        "limit":[[2,"#"]],
+        "text":"Creates {0:+d} Bone Spires"
+      },{
         "limit":[[1,1]],
         "text":"Creates {0} Bone Spire"
       },{
@@ -15603,6 +15655,14 @@
     "name":"xoph_flame_pillars_number_of_pillars",
     "stats":["graft_skill_xoph_flame_pillars_number_of_pillars"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,1]],
+        "text":"Creates {0:+d} Ashen Pillar"
+      },{
+        "gem_quality":true,
+        "limit":[[2,"#"]],
+        "text":"Creates {0:+d} Ashen Pillars"
+      },{
         "limit":[[1,1]],
         "text":"Creates {0} Ashen Pillar"
       },{
@@ -16184,6 +16244,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -19344,10 +19408,10 @@
     "stats":["sand_mirage_triggered_skill_damage_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Skills Triggered by Suspended Mirages deal {0}% more Damage"
+        "text":"Skills used by Suspended Mirages deal {0}% more Damage"
       },{
         "limit":[["#",-1]],
-        "text":"Skills Triggered by Suspended Mirages deal {0}% less Damage",
+        "text":"Skills used by Suspended Mirages deal {0}% less Damage",
         "1":{
           "k":"negate",
           "v":1
@@ -19407,6 +19471,18 @@
     "name":"searing_bond_detonate_damage_multi",
     "stats":["searing_bond_totems_detonation_damage_over_time_+%_final_per_active_totem"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Burning Damage applied by Detonation deals {0:+d}% more Damage per Totem Detonated"
+      },{
+        "gem_quality":true,
+        "limit":[["#",-1]],
+        "text":"Burning Damage applied by Detonation deals {0:+d}% less Damage Totem Detonated",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      },{
         "limit":[[1,"#"]],
         "text":"Burning Damage applied by Detonation deals {0}% more Damage per Totem Detonated"
       },{
@@ -23902,6 +23978,14 @@
     "name":"fissure_crack_count",
     "stats":["volcanic_fissure_number_of_simultaneous_crack_count"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,1]],
+        "text":"Creates {0:+d} Fissure"
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Creates {0:+d} Fissures"
+      },{
         "limit":[[1,1]],
         "text":"Creates {0} Fissure"
       },{

@@ -704,6 +704,14 @@
   "30":{
     "stats":["base_skill_effect_duration"],
     "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:+d} seconds to Base duration",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp",
+          "v":1
+        }
+      },{
         "limit":[[1000,1000]],
         "text":"Base duration is {0} second",
         "1":{
@@ -1149,6 +1157,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -1832,6 +1844,14 @@
   "124":{
     "stats":["base_number_of_projectiles"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,1]],
+        "text":"Fires {0:+d} Projectile"
+      },{
+        "gem_quality":true,
+        "limit":[[2,"#"]],
+        "text":"Fires {0:+d} Projectiles"
+      },{
         "limit":[[1,1]],
         "text":"Fires 1 Projectile"
       },{
@@ -3137,6 +3157,10 @@
   "230":{
     "stats":["base_graft_skill_tul_summon_maximum_allowed_demons"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"{0:+d} to Maximum Hiveborn"
+      },{
         "limit":[[1,"#"]],
         "text":"Maximum {0} Hiveborn"
       }]

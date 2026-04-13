@@ -3070,6 +3070,22 @@
   "177":{
     "stats":["support_innervate_buff_base_duration_ms"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1000,1000]],
+        "text":"Innervation lasts {0:+d} second",
+        "1":{
+          "k":"milliseconds_to_seconds",
+          "v":1
+        }
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Innervation lasts {0:+d} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds",
+          "v":1
+        }
+      },{
         "limit":[[1000,1000]],
         "text":"Innervation lasts {0} second",
         "1":{
@@ -4170,6 +4186,18 @@
   "263":{
     "stats":["base_cooldown_speed_+%"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Supported Skills have {0:+d}% increased Cooldown Recovery Rate"
+      },{
+        "gem_quality":true,
+        "limit":[["#",-1]],
+        "text":"Supported Skills have {0:+d}% reduced Cooldown Recovery Rate",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      },{
         "limit":[[1,"#"]],
         "text":"Supported Skills have {0}% increased Cooldown Recovery Rate"
       },{
@@ -5638,6 +5666,10 @@
         "1":{
           "k":"negate",
           "v":1
+        },
+        "2":{
+          "k":"canonical_line",
+          "v":true
         }
       }]
   },
@@ -5710,6 +5742,10 @@
   "374":{
     "stats":["explode_enemies_for_10%_life_as_random_element_on_killing_blow_chance_%"],
     "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Killing Blows with Supported Skills cause Enemies to have {0:+d}% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element"
+      },{
         "limit":[[1,99]],
         "text":"Killing Blows with Supported Skills cause Enemies to have a {0}% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element"
       },{
@@ -5960,6 +5996,14 @@
   "397":{
     "stats":["global_hit_causes_monster_flee_%"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Supported Skills have {0:+d}% chance to cause Monsters to Flee on Hit",
+        "1":{
+          "k":"reminderstring",
+          "v":"ReminderTextFlee"
+        }
+      },{
         "limit":[[1,"#"]],
         "text":"Supported Skills have {0}% chance to cause Monsters to Flee on Hit",
         "1":{
@@ -6296,6 +6340,10 @@
   "427":{
     "stats":["kill_normal_or_magic_enemy_on_hit_if_under_x%_life"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Kill Normal and Magic Rarity Enemies that have {0:+d}% Life or\nlower when Hit by Supported Skills"
+      },{
         "limit":[[1,"#"]],
         "text":"Kill Normal and Magic Rarity Enemies that have {0}% Life or\nlower when Hit by Supported Skills"
       }]
@@ -7434,6 +7482,10 @@
         "2":{
           "k":"reminderstring",
           "v":"ReminderTextUpfrontCost"
+        },
+        "3":{
+          "k":"reminderstring",
+          "v":"ReminderTextTransfusionNearbyMinion"
         }
       }]
   },
@@ -10701,6 +10753,22 @@
   "776":{
     "stats":["killing_blow_consumes_corpse_chance_to_gain_soul_per_power_permillage"],
     "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Consuming a Corpse with Supported Skills has {0:+d}% chance to grant a Soul per Power",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        },
+        "2":{
+          "k":"reminderstring",
+          "v":"ReminderTextPower"
+        },
+        "3":{
+          "k":"reminderstring",
+          "v":"ReminderTextSoulEaterNonAura"
+        }
+      },{
         "limit":[[1,"#"]],
         "text":"Consuming a Corpse with Supported Skills has {0}% chance to grant a Soul per Power",
         "1":{
