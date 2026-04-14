@@ -82516,8 +82516,8 @@
         "value":true
       }]],
   "Final Repeat of Attack Skills deals 60% more Damage":[[{
-        "flags":1,
-        "keywordFlags":0,
+        "flags":0,
+        "keywordFlags":65536,
         "name":"RepeatFinalDamage",
         "type":"MORE",
         "value":60
@@ -98956,12 +98956,17 @@
         }
       }]],
   "Non-Travel Attack Skills Repeat an additional Time":[[{
-        "flags":1,
-        "keywordFlags":0,
+        "flags":0,
+        "keywordFlags":65536,
         "name":"RepeatCount",
         "type":"BASE",
         "value":1,
         "1":{
+          "neg":true,
+          "skillType":90,
+          "type":"SkillType"
+        },
+        "2":{
           "type":"Condition",
           "varList":["averageRepeat","alwaysFinalRepeat"]
         }
