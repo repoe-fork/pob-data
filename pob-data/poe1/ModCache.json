@@ -78902,8 +78902,17 @@
         "type":"BASE",
         "value":20
       }]],
-  "Debuffs on you expire 20% faster while affected by Haste":[null,"Debuffs on you expire 20% faster while affected by Haste "],
-  "Debuffs on you expire 20% faster while affected by Haste You gain Onslaught for 4 seconds on Kill while affected by Haste":[null,"Debuffs on you expire 20% faster while affected by Haste You gain Onslaught for 4 seconds on Kill while affected by Haste "],
+  "Debuffs on you expire 20% faster while affected by Haste":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfDebuffExpirationRate",
+        "type":"BASE",
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByHaste"
+        }
+      }]],
   "Debuffs on you expire 30% faster":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90230,8 +90239,17 @@
           "var":"Ignited"
         }
       }]],
-  "Immune to Freeze while affected by Purity of Ice":[null,"Immune to Freeze while affected by Purity of Ice "],
-  "Immune to Freeze while affected by Purity of Ice 10% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Ice":[null,"Immune to Freeze while affected by Purity of Ice 10% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Ice "],
+  "Immune to Freeze while affected by Purity of Ice":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FreezeImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByPurityofIce"
+        }
+      }]],
   "Immune to Ignite and Shock":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90245,8 +90263,17 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Immune to Ignite while affected by Purity of Fire":[null,"Immune to Ignite while affected by Purity of Fire "],
-  "Immune to Ignite while affected by Purity of Fire 10% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Fire":[null,"Immune to Ignite while affected by Purity of Fire 10% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Fire "],
+  "Immune to Ignite while affected by Purity of Fire":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IgniteImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByPurityofFire"
+        }
+      }]],
   "Immune to Poison if Equipped Helmet has higher Evasion Rating than Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -90260,8 +90287,17 @@
       }]],
   "Immune to Reflected Damage if you've cast Punishment in the past 10 seconds":[null,"Immune to Reflected Damage if you've cast Punishment in the past 10 seconds "],
   "Immune to Reflected Damage if you've cast Punishment in the past 10 seconds Intimidate Enemies on Hit if you've cast Punishment in the past 10 seconds":[null,"Immune to Reflected Damage if you've cast Punishment in the past 10 seconds Intimidate Enemies on Hit if you've cast Punishment in the past 10 seconds "],
-  "Immune to Shock while affected by Purity of Lightning":[null,"Immune to Shock while affected by Purity of Lightning "],
-  "Immune to Shock while affected by Purity of Lightning 10% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Lightning":[null,"Immune to Shock while affected by Purity of Lightning 10% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Lightning "],
+  "Immune to Shock while affected by Purity of Lightning":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ShockImmune",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByPurityofLightning"
+        }
+      }]],
   "Immunity to Freeze, Chill, Curses and Stuns during Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -118148,8 +118184,22 @@
         "type":"MORE",
         "value":-100
       }]],
-  "Unaffected by Bleeding while affected by Malevolence":[null,"Unaffected by Bleeding while affected by Malevolence "],
-  "Unaffected by Bleeding while affected by Malevolence Unaffected by Poison while affected by Malevolence":[null,"Unaffected by Bleeding while affected by Malevolence Unaffected by Poison while affected by Malevolence "],
+  "Unaffected by Bleeding while affected by Malevolence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfBleedEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByMalevolence"
+        },
+        "2":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
   "Unaffected by Burning Ground":[null,"Unaffected by Burning Ground "],
   "Unaffected by Burning Ground while affected by Purity of Fire":[null,"Unaffected by Burning Ground while affected by Purity of Fire "],
   "Unaffected by Burning Ground while affected by Purity of Fire Unaffected by Flammability while affected by Purity of Fire":[null,"Unaffected by Burning Ground while affected by Purity of Fire Unaffected by Flammability while affected by Purity of Fire "],
@@ -118190,8 +118240,26 @@
   "Unaffected by Chilled Ground":[null,"Unaffected by Chilled Ground "],
   "Unaffected by Chilled Ground while affected by Purity of Ice":[null,"Unaffected by Chilled Ground while affected by Purity of Ice "],
   "Unaffected by Chilled Ground while affected by Purity of Ice Unaffected by Frostbite while affected by Purity of Ice":[null,"Unaffected by Chilled Ground while affected by Purity of Ice Unaffected by Frostbite while affected by Purity of Ice "],
-  "Unaffected by Conductivity while affected by Purity of Lightning":[null,"Unaffected by Conductivity while affected by Purity of Lightning "],
-  "Unaffected by Conductivity while affected by Purity of Lightning Unaffected by Shocked Ground while affected by Purity of Lightning":[null,"Unaffected by Conductivity while affected by Purity of Lightning Unaffected by Shocked Ground while affected by Purity of Lightning "],
+  "Unaffected by Conductivity while affected by Purity of Lightning":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "skillName":"Conductivity",
+          "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByPurityofLightning"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
   "Unaffected by Curses":[[{
         "flags":0,
         "keywordFlags":0,
@@ -118240,14 +118308,86 @@
         "value":-100
       }]],
   "Unaffected by Desecrated Ground":[null,"Unaffected by Desecrated Ground "],
-  "Unaffected by Elemental Weakness while affected by Purity of Elements":[null,"Unaffected by Elemental Weakness while affected by Purity of Elements "],
-  "Unaffected by Elemental Weakness while affected by Purity of Elements 20% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire":[null,"Unaffected by Elemental Weakness while affected by Purity of Elements 20% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire "],
-  "Unaffected by Enfeeble while affected by Grace":[null,"Unaffected by Enfeeble while affected by Grace "],
-  "Unaffected by Enfeeble while affected by Grace +8% chance to Suppress Spell Damage while affected by Haste":[null,"Unaffected by Enfeeble while affected by Grace +8% chance to Suppress Spell Damage while affected by Haste "],
-  "Unaffected by Flammability while affected by Purity of Fire":[null,"Unaffected by Flammability while affected by Purity of Fire "],
-  "Unaffected by Flammability while affected by Purity of Fire 20% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice":[null,"Unaffected by Flammability while affected by Purity of Fire 20% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice "],
-  "Unaffected by Frostbite while affected by Purity of Ice":[null,"Unaffected by Frostbite while affected by Purity of Ice "],
-  "Unaffected by Frostbite while affected by Purity of Ice 20% of Fire and Cold Damage taken as Lightning Damage while":[null,"Unaffected by Frostbite while affected by Purity of Ice 20% of Fire and Cold Damage taken as Lightning Damage while "],
+  "Unaffected by Elemental Weakness while affected by Purity of Elements":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "skillName":"Elemental Weakness",
+          "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByPurityofElements"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
+  "Unaffected by Enfeeble while affected by Grace":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "skillName":"Enfeeble",
+          "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByGrace"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
+  "Unaffected by Flammability while affected by Purity of Fire":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "skillName":"Flammability",
+          "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByPurityofFire"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
+  "Unaffected by Frostbite while affected by Purity of Ice":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "skillName":"Frostbite",
+          "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByPurityofIce"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
   "Unaffected by Ignite":[[{
         "flags":0,
         "keywordFlags":0,
@@ -118287,8 +118427,22 @@
           "var":"HunterItem"
         }
       }]],
-  "Unaffected by Poison while affected by Malevolence":[null,"Unaffected by Poison while affected by Malevolence "],
-  "Unaffected by Poison while affected by Malevolence Damaging Ailments you inflict deal Damage 15% faster while affected by Malevolence":[null,"Unaffected by Poison while affected by Malevolence Damaging Ailments you inflict deal Damage 15% faster while affected by Malevolence "],
+  "Unaffected by Poison while affected by Malevolence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfPoisonEffect",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByMalevolence"
+        },
+        "2":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
+        }
+      }]],
   "Unaffected by Shock":[[{
         "flags":0,
         "keywordFlags":0,
@@ -118339,32 +118493,46 @@
           "unscalable":true
         }
       }]],
-  "Unaffected by Temporal Chains while affected by Haste":[null,"Unaffected by Temporal Chains while affected by Haste "],
-  "Unaffected by Temporal Chains while affected by Haste Adds 70 to 104 Cold Damage while affected by Hatred":[[{
+  "Unaffected by Temporal Chains while affected by Haste":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ColdMin",
-        "type":"BASE",
-        "value":70,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
         "1":{
-          "includeTransfigured":true,
           "skillName":"Temporal Chains",
           "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByHaste"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
         }
-      },{
+      }]],
+  "Unaffected by Vulnerability while affected by Determination":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ColdMax",
-        "type":"BASE",
-        "value":104,
+        "name":"CurseEffectOnSelf",
+        "type":"MORE",
+        "value":-100,
         "1":{
-          "includeTransfigured":true,
-          "skillName":"Temporal Chains",
+          "skillName":"Vulnerability",
           "type":"SkillName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"AffectedByDetermination"
+        },
+        "3":{
+          "effectType":"Global",
+          "type":"GlobalEffect",
+          "unscalable":true
         }
-      }],"Unaffected bywhile affected by Haste  while affected by Hatred "],
-  "Unaffected by Vulnerability while affected by Determination":[null,"Unaffected by Vulnerability while affected by Determination "],
-  "Unaffected by Vulnerability while affected by Determination +8% Chance to Block Spell Damage while affected by Discipline":[null,"Unaffected by Vulnerability while affected by Determination +8% Chance to Block Spell Damage while affected by Discipline "],
+      }]],
   "Unattached Brands gain 20% increased Brand Attachment Range per":[null,"Unattached Brands gain 20% increased Brand Attachment Range per "],
   "Unattached Brands gain 20% increased Brand Attachment Range per second, up to a maximum of 100%":[null,"Unattached Brands gain 20% increased Brand Attachment Range per second, up to a maximum of 100% "],
   "Unholy Might":[[{
@@ -122521,8 +122689,25 @@
           "type":"SkillType"
         }
       }]],
-  "Your Hits Intimidate Enemies for 4 seconds while you are using Pride":[null,"Your Hits Intimidate Enemies for 4 seconds while you are using Pride "],
-  "Your Hits Intimidate Enemies for 4 seconds while you are using Pride +50% to Chaos Resistance while affected by Purity of Elements":[null,"Your Hits Intimidate Enemies for 4 seconds while you are using Pride +50% to Chaos Resistance while affected by Purity of Elements "],
+  "Your Hits Intimidate Enemies for 4 seconds while you are using Pride":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Intimidated",
+            "type":"FLAG",
+            "value":true
+          }
+        },
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByPride"
+        }
+      }]],
   "Your Hits always inflict Freeze, Shock and Ignite while Unbound":[[{
         "flags":0,
         "keywordFlags":0,
