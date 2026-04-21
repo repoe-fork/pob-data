@@ -7720,6 +7720,7 @@
     "description":"Supports aura skills that create permanent auras around you, changing their reservation to a cost and making them temporary. Cannot support banner or stance skills.",
     "excludeSkillTypes":[30,60],
     "fromItem":true,
+    "hideFromGemList":true,
     "levels":[{
         "levelRequirement":31,
         "statInterpolation":[1,1,1],
@@ -7992,6 +7993,7 @@
     "description":"Supports slam skills, causing them to summon an ancestor totem that uses the skill for you while you're near it. Being near it grants you increased area of effect for melee skills.",
     "excludeSkillTypes":[60],
     "fromItem":true,
+    "hideFromGemList":true,
     "levels":[{
         "levelRequirement":8,
         "manaMultiplier":100,
