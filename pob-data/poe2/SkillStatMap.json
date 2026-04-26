@@ -3535,6 +3535,13 @@
       "name":"DamageTakenOverTime",
       "type":"INC"
     }],
+  "disable_skill_repeats":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotRepeat",
+      "type":"FLAG",
+      "value":true
+    }],
   "discharge_damage_+%_if_3_charge_types_removed":[{
       "flags":0,
       "keywordFlags":0,
@@ -6415,6 +6422,16 @@
       "keywordFlags":0,
       "name":"SkillPhysicalDamageConvertToLightning",
       "type":"BASE"
+    }],
+  "skill_repeat_count":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"RepeatCount",
+      "type":"BASE",
+      "1":{
+        "skillType":22,
+        "type":"SkillType"
+      }
     }],
   "skill_requires_X_ultimate_charge":[{
       "flags":0,
