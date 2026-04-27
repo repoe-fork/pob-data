@@ -17834,46 +17834,16 @@
         "value":-20
       }]],
   "-25 Damage taken of each Damage Type from Spell Hits per Bark":[[{
-        "flags":2,
+        "flags":0,
         "keywordFlags":0,
-        "name":"DamageTaken",
+        "name":"DamageTakenFromSpells",
         "type":"BASE",
         "value":-25,
         "1":{
           "type":"Multiplier",
           "var":"BarkskinStacks"
         }
-      }],"  of each Damage Type from  Hits  "],
-  "-25 Damage taken of each Damage Type from Spell Hits per Bark Prevent +3% of Suppressed Spell Damage per Bark below maximum":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"BASE",
-        "value":-25,
-        "1":{
-          "type":"Multiplier",
-          "var":"BarkskinStacks"
-        },
-        "2":{
-          "type":"Multiplier",
-          "var":"MissingBarkskinStacks"
-        }
-      }],"  of each Damage Type from  Hits  Prevent +3% of Suppressed Spell Damage  "],
-  "-25 Damage taken of each Damage Type from Spell Hits per Bark Prevent +3% of Suppressed Spell Damage per Bark below maximum Lose 1 Bark when Hit by Enemy Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"BASE",
-        "value":-25,
-        "1":{
-          "type":"Multiplier",
-          "var":"BarkskinStacks"
-        },
-        "2":{
-          "type":"Multiplier",
-          "var":"MissingBarkskinStacks"
-        }
-      }],"  of each Damage Type from  Hits  Prevent +3% of Suppressed Spell Damage  Lose 1 Bark when Hit by Enemy Spell Damage "],
+      }]],
   "-25 Physical Damage taken from Projectile Attacks":[[{
         "flags":0,
         "keywordFlags":0,
