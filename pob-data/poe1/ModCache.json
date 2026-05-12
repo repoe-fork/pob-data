@@ -5755,10 +5755,10 @@
         "value":2,
         "1":{
           "div":10,
-          "stat":"Armour",
+          "stat":"ArmourOnHelmet",
           "type":"PerStat"
         }
-      }],"   on Equipped Helmet "],
+      }]],
   "+2 to Weapon Range":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13536,10 +13536,10 @@
         "value":4,
         "1":{
           "div":10,
-          "stat":"Evasion",
+          "stat":"EvasionOnGloves",
           "type":"PerStat"
         }
-      }],"   on Equipped Gloves "],
+      }]],
   "+4 to all Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16684,8 +16684,13 @@
         "keywordFlags":0,
         "name":"Ward",
         "type":"BASE",
-        "value":8
-      }],"  per 10 Energy Shield on Equipped Boots "],
+        "value":8,
+        "1":{
+          "div":10,
+          "stat":"EnergyShieldOnBoots",
+          "type":"PerStat"
+        }
+      }]],
   "+8 to all Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27889,8 +27894,13 @@
           "neg":true,
           "skillType":79,
           "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UnbrokenWard"
         }
-      }],"  while your Ward is Broken "],
+      }]],
   "12% increased maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42744,8 +42754,12 @@
         "keywordFlags":0,
         "name":"WardRechargeFaster",
         "type":"INC",
-        "value":30
-      }],"  per Enemy Hit taken Recently "],
+        "value":30,
+        "1":{
+          "type":"Multiplier",
+          "var":"BeenHitRecently"
+        }
+      }]],
   "30% increased Accuracy Rating with Wands":[[{
         "flags":8388612,
         "keywordFlags":0,
@@ -42878,8 +42892,12 @@
         "keywordFlags":0,
         "name":"Armour",
         "type":"INC",
-        "value":30
-      }],"  while you have Unbroken Ward "],
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      }]],
   "30% increased Attack Critical Strike Chance while Dual Wielding":[[{
         "flags":1,
         "keywordFlags":0,
@@ -43305,8 +43323,12 @@
         "keywordFlags":0,
         "name":"Damage",
         "type":"INC",
-        "value":30
-      }],"  while you have Unbroken Ward "],
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      }]],
   "30% increased Damage while you have no Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -43873,8 +43895,12 @@
         "keywordFlags":0,
         "name":"Evasion",
         "type":"INC",
-        "value":30
-      }],"  while you have Unbroken Ward "],
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      }]],
   "30% increased Evasion Rating while you have an active Tincture":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52439,8 +52465,12 @@
         "keywordFlags":0,
         "name":"DamageTakenOverTime",
         "type":"MORE",
-        "value":-50
-      }],"  while you have Unbroken Ward "],
+        "value":-50,
+        "1":{
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      }]],
   "50% less Damage with Bleeding":[[{
         "flags":0,
         "keywordFlags":4194304,
@@ -78297,8 +78327,13 @@
         "keywordFlags":0,
         "name":"ElementalPenetration",
         "type":"BASE",
-        "value":8
-      }],"   while your Ward is Broken "],
+        "value":8,
+        "1":{
+          "neg":true,
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      }]],
   "Damage Penetrates 8% Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -78367,8 +78402,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward":[null,"Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward "],
-  "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward 70% increased Ward from Equipped Armour Items":[null,"Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward 70% increased Ward from Equipped Armour Items "],
+  "Damage taken bypasses Unbroken Ward if the Hit deals less Damage than 15% of Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardBypassBelowPercent",
+        "type":"BASE",
+        "value":15
+      }]],
   "Damage taken from Blocked Hits cannot bypass Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -83552,6 +83592,11 @@
         "type":"BASE",
         "value":10,
         "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"HallowingFlame"
+        },
+        "2":{
           "limit":8,
           "type":"Multiplier",
           "var":"HallowingFlameStacksRemovedByAlly"
@@ -91268,7 +91313,13 @@
           "var":"SelfCastPunishment"
         }
       }]],
-  "Iron Flasks gain 2 charges when your Ward Breaks":[null,"Iron Flasks gain 2 charges when your Ward Breaks "],
+  "Iron Flasks gain 2 charges when your Ward Breaks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IronFlaskChargesGeneratedOnWardBreak",
+        "type":"BASE",
+        "value":2
+      }]],
   "Iron Grip":[[{
         "flags":0,
         "keywordFlags":0,
@@ -119170,7 +119221,17 @@
   "Ward does not Break during Effect":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"WardNotBreak",
+        "name":"Condition:WardNotBreak",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:UnbrokenWard",
         "type":"FLAG",
         "value":true,
         "1":{
@@ -119178,7 +119239,13 @@
           "var":"UsingFlask"
         }
       }]],
-  "Ward has a 60% chance to not Break":[null,"Ward has a 60% chance to not Break "],
+  "Ward has a 60% chance to not Break":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardAvoidBreakChance",
+        "type":"BASE",
+        "value":60
+      }]],
   "Weapons you Animate create an additional copy":[null,"Weapons you Animate create an additional copy "],
   "When 90% of your Hex's Duration Expires on an Enemy, Eat 1 Soul per Enemy Power":[[{
         "flags":0,
@@ -119496,7 +119563,65 @@
           "var":"NearbyAlly"
         }
       }]],
-  "While you have Unbroken Ward, your next non-channelling Attack you Use yourself breaks your Ward to gain Added Cold Damage equal to 25% of Ward":[null,"While you have Unbroken Ward, your next non-channelling Attack you Use yourself breaks your Ward to gain Added Cold Damage equal to 25% of Ward "],
+  "While you have Unbroken Ward, your next non-channelling Attack you Use yourself breaks your Ward to gain Added Cold Damage equal to 25% of Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":25,
+          "stat":"Ward",
+          "type":"PercentStat"
+        },
+        "2":{
+          "neg":true,
+          "skillType":57,
+          "type":"SkillType"
+        },
+        "3":{
+          "skillType":1,
+          "type":"SkillType"
+        },
+        "4":{
+          "neg":true,
+          "type":"Condition",
+          "var":"WardNotBreak"
+        },
+        "5":{
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":25,
+          "stat":"Ward",
+          "type":"PercentStat"
+        },
+        "2":{
+          "neg":true,
+          "skillType":57,
+          "type":"SkillType"
+        },
+        "3":{
+          "skillType":1,
+          "type":"SkillType"
+        },
+        "4":{
+          "neg":true,
+          "type":"Condition",
+          "var":"WardNotBreak"
+        },
+        "5":{
+          "type":"Condition",
+          "var":"UnbrokenWard"
+        }
+      }]],
   "While your Passive Skill Tree connects to a class' starting location, you gain:":[[]],
   "Wicked Ward":[[{
         "flags":0,

@@ -6191,6 +6191,37 @@
     "qualityStats":[["minion_maximum_life_+%",1]],
     "requireSkillTypes":[88],
     "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "damage_removed_from_minions_before_life_or_es_%_if_only_one_minion":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"takenFromMinionBeforeYou",
+          "type":"BASE",
+          "1":{
+            "effectType":"Buff",
+            "type":"GlobalEffect",
+            "unscalable":true
+          }
+        }],
+      "support_companionship_minion_maximum_life_+%_final_if_at_most_one_minion":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"MinionModifier",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Life",
+              "type":"MORE"
+            }
+          },
+          "1":{
+            "type":"Condition",
+            "var":"OnlyMinion"
+          }
+        }]
+    },
     "stats":["support_companionship_minion_maximum_life_+%_final_if_at_most_one_minion"],
     "support":true
   },
