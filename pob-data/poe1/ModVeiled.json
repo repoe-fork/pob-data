@@ -4,7 +4,11 @@
     "group":"AvoidStunAndElementalStatusAilments",
     "level":1,
     "modTags":["unveiled_mod","elemental","fire","cold","lightning","ailment"],
-    "statOrder":[1843,1851],
+    "statOrder":[1848,1856],
+    "tradeHashes":{
+      "3005472710":["(20-25)% chance to Avoid Elemental Ailments"],
+      "4262448838":["(20-25)% chance to Avoid being Stunned"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[0,0],
@@ -16,7 +20,11 @@
     "group":"AddedColdAndLightningDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","cold","lightning"],
-    "statOrder":[1368,1379],
+    "statOrder":[1373,1384],
+    "tradeHashes":{
+      "1334060246":["Adds (14-16) to (20-22) Lightning Damage"],
+      "2387423236":["Adds (14-16) to (20-22) Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["shield","ring","quiver","amulet","default"],
     "weightVal":[1000,1000,1000,1000,0],
@@ -28,7 +36,11 @@
     "group":"SelfColdAndLightningDamageTaken",
     "level":60,
     "modTags":["elemental_damage","damage","elemental","cold","lightning"],
-    "statOrder":[1367,1378],
+    "statOrder":[1372,1383],
+    "tradeHashes":{
+      "2923069345":["Adds (14-16) to (20-22) Lightning Damage to Hits against you"],
+      "3482587079":["Adds (14-16) to (20-22) Cold Damage to Hits against you"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -40,7 +52,11 @@
     "group":"AddedColdAndLightningDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","cold","lightning"],
-    "statOrder":[1368,1379],
+    "statOrder":[1373,1384],
+    "tradeHashes":{
+      "1334060246":["Adds (9-10) to (13-14) Lightning Damage"],
+      "2387423236":["Adds (9-10) to (13-14) Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["quiver","default"],
     "weightVal":[0,0],
@@ -52,7 +68,11 @@
     "group":"AddedFireAndColdDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","cold"],
-    "statOrder":[1359,1368],
+    "statOrder":[1364,1373],
+    "tradeHashes":{
+      "321077055":["Adds (14-16) to (20-22) Fire Damage"],
+      "2387423236":["Adds (14-16) to (20-22) Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["shield","ring","quiver","amulet","default"],
     "weightVal":[1000,1000,1000,1000,0],
@@ -64,7 +84,11 @@
     "group":"SelfFireAndColdDamageTaken",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","cold"],
-    "statOrder":[1358,1367],
+    "statOrder":[1363,1372],
+    "tradeHashes":{
+      "1905034712":["Adds (14-16) to (20-22) Fire Damage to Hits against you"],
+      "3482587079":["Adds (14-16) to (20-22) Cold Damage to Hits against you"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -76,7 +100,11 @@
     "group":"AddedFireAndColdDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","cold"],
-    "statOrder":[1359,1368],
+    "statOrder":[1364,1373],
+    "tradeHashes":{
+      "321077055":["Adds (9-10) to (13-14) Fire Damage"],
+      "2387423236":["Adds (9-10) to (13-14) Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["quiver","default"],
     "weightVal":[0,0],
@@ -88,7 +116,11 @@
     "group":"AddedFireAndLightningDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","lightning"],
-    "statOrder":[1359,1379],
+    "statOrder":[1364,1384],
+    "tradeHashes":{
+      "321077055":["Adds (14-16) to (20-22) Fire Damage"],
+      "1334060246":["Adds (14-16) to (20-22) Lightning Damage"]
+    },
     "type":"Prefix",
     "weightKey":["shield","ring","quiver","amulet","default"],
     "weightVal":[1000,1000,1000,1000,0],
@@ -100,7 +132,11 @@
     "group":"SelfFireAndLightningDamageTaken",
     "level":60,
     "modTags":["elemental_damage","damage","elemental","fire","lightning"],
-    "statOrder":[1358,1378],
+    "statOrder":[1363,1383],
+    "tradeHashes":{
+      "1905034712":["Adds (14-16) to (20-22) Fire Damage to Hits against you"],
+      "2923069345":["Adds (14-16) to (20-22) Lightning Damage to Hits against you"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -112,7 +148,11 @@
     "group":"AddedFireAndLightningDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","lightning"],
-    "statOrder":[1359,1379],
+    "statOrder":[1364,1384],
+    "tradeHashes":{
+      "321077055":["Adds (9-10) to (13-14) Fire Damage"],
+      "1334060246":["Adds (9-10) to (13-14) Lightning Damage"]
+    },
     "type":"Prefix",
     "weightKey":["quiver","default"],
     "weightVal":[0,0],
@@ -124,7 +164,10 @@
     "group":"AllDamage",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[1191],
+    "statOrder":[1196],
+    "tradeHashes":{
+      "2154246560":["(20-23)% increased Damage"]
+    },
     "type":"Prefix",
     "weightKey":["leo_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -135,7 +178,10 @@
     "group":"Allow2Offerings",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[4636],
+    "statOrder":[4641],
+    "tradeHashes":{
+      "3639765866":["You can have two Offerings of different types"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -146,7 +192,10 @@
     "group":"AlwaysHits",
     "level":60,
     "modTags":["unveiled_mod","attack"],
-    "statOrder":[2043],
+    "statOrder":[2048],
+    "tradeHashes":{
+      "4126210832":["Hits can't be Evaded"]
+    },
     "type":"Prefix",
     "weightKey":["vagan_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -157,7 +206,11 @@
     "group":"AreaDamageAndAreaOfEffect",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[1880,2035],
+    "statOrder":[1885,2040],
+    "tradeHashes":{
+      "280731498":["(14-16)% increased Area of Effect"],
+      "4251717817":["(17-20)% increased Area Damage"]
+    },
     "type":"Prefix",
     "weightKey":["gloves","default"],
     "weightVal":[750,0],
@@ -169,7 +222,11 @@
     "group":"ArmourAndEnergyShield",
     "level":60,
     "modTags":["unveiled_mod","defences","armour","energy_shield"],
-    "statOrder":[1539,1558],
+    "statOrder":[1544,1563],
+    "tradeHashes":{
+      "809229260":["+(365-400) to Armour"],
+      "3489782002":["+(31-35) to maximum Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["belt","default"],
     "weightVal":[1500,0],
@@ -181,7 +238,10 @@
     "group":"ArmourAndEvasionRating",
     "level":60,
     "modTags":["unveiled_mod","defences","armour","evasion"],
-    "statOrder":[4266],
+    "statOrder":[4271],
+    "tradeHashes":{
+      "2316658489":["+(365-400) to Armour and Evasion Rating"]
+    },
     "type":"Prefix",
     "weightKey":["belt","quiver","default"],
     "weightVal":[1500,1500,0],
@@ -192,7 +252,10 @@
     "group":"AttackAndCastSpeedIfCorpseConsumedRecently",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[4806],
+    "statOrder":[4811],
+    "tradeHashes":{
+      "672563185":["20% increased Attack and Cast Speed if you've Consumed a Corpse Recently"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -203,7 +266,11 @@
     "group":"AttackAndCastSpeedWhileFocused",
     "level":60,
     "modTags":["unveiled_mod","attack","caster","speed"],
-    "statOrder":[4822],
+    "statOrder":[4827],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2628163981":["(45-50)% increased Attack and Cast Speed while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["gloves","default"],
     "weightVal":[2000,0],
@@ -214,7 +281,10 @@
     "group":"AttackAndCastSpeed",
     "level":60,
     "modTags":["unveiled_mod","attack","caster","speed"],
-    "statOrder":[2046],
+    "statOrder":[2051],
+    "tradeHashes":{
+      "2672805335":["(7-8)% increased Attack and Cast Speed"]
+    },
     "type":"Suffix",
     "weightKey":["amulet","quiver","default"],
     "weightVal":[1500,1500,0],
@@ -225,7 +295,10 @@
     "group":"AttackSpeedPercentIfRareOrUniqueEnemyNearby",
     "level":60,
     "modTags":["unveiled_mod","attack","speed"],
-    "statOrder":[4900],
+    "statOrder":[4905],
+    "tradeHashes":{
+      "314741699":["(12-15)% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -236,7 +309,10 @@
     "group":"AttackSpeedPercentIfRareOrUniqueEnemyNearby",
     "level":60,
     "modTags":["unveiled_mod","attack","speed"],
-    "statOrder":[4900],
+    "statOrder":[4905],
+    "tradeHashes":{
+      "314741699":["(27-30)% increased Attack Speed while a Rare or Unique Enemy is Nearby"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -247,7 +323,10 @@
     "group":"AvoidElementalDamageChanceDuringSoulGainPrevention",
     "level":60,
     "modTags":["unveiled_mod","elemental"],
-    "statOrder":[4943],
+    "statOrder":[4948],
+    "tradeHashes":{
+      "720398262":["(10-12)% chance to Avoid Elemental Damage from Hits during Soul Gain Prevention"]
+    },
     "type":"Suffix",
     "weightKey":["helmet","body_armour","default"],
     "weightVal":[1000,1000,0],
@@ -258,7 +337,11 @@
     "group":"AvoidFreezeAndChill",
     "level":60,
     "modTags":["unveiled_mod","elemental","cold","ailment"],
-    "statOrder":[1844,1845],
+    "statOrder":[1849,1850],
+    "tradeHashes":{
+      "1514829491":["100% chance to Avoid being Frozen"],
+      "3483999943":["(20-30)% chance to Avoid being Chilled"]
+    },
     "type":"Prefix",
     "weightKey":["rin_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -270,7 +353,11 @@
     "group":"AvoidStunAndElementalStatusAilments",
     "level":60,
     "modTags":["unveiled_mod","elemental","fire","cold","lightning","ailment"],
-    "statOrder":[1843,1851],
+    "statOrder":[1848,1856],
+    "tradeHashes":{
+      "3005472710":["(30-35)% chance to Avoid Elemental Ailments"],
+      "4262448838":["(30-35)% chance to Avoid being Stunned"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[2000,0],
@@ -282,7 +369,10 @@
     "group":"BannerEffect",
     "level":60,
     "modTags":["unveiled_mod","aura"],
-    "statOrder":[3362],
+    "statOrder":[3367],
+    "tradeHashes":{
+      "2729804981":["Banner Skills have (26-35)% increased Aura Effect"]
+    },
     "type":"Prefix",
     "weightKey":["gravicius_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -293,7 +383,11 @@
     "group":"BaseLifeAndManaDegenGracePeriod",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[1569,1583],
+    "statOrder":[1574,1588],
+    "tradeHashes":{
+      "838272676":["Lose 5.3 Mana per second"],
+      "3299347043":["+(55-60) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -305,7 +399,11 @@
     "group":"BaseLifeAndManaRegen",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[1569,1582],
+    "statOrder":[1574,1587],
+    "tradeHashes":{
+      "3299347043":["+(55-60) to maximum Life"],
+      "4291461939":["Regenerate 5.3 Mana per second"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","boots","gloves","ring","amulet","belt","quiver","default"],
     "weightVal":[1000,1000,1000,1000,1000,1000,1000,0],
@@ -317,7 +415,11 @@
     "group":"BaseLifeAndMana",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[1569,1579],
+    "statOrder":[1574,1584],
+    "tradeHashes":{
+      "1050105434":["+(55-60) to maximum Mana"],
+      "3299347043":["+(55-60) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","boots","gloves","ring","amulet","belt","quiver","default"],
     "weightVal":[0,0,0,0,0,0,0,0],
@@ -329,7 +431,11 @@
     "group":"BaseManaAndLifeDegenGracePeriod",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[1575,1579],
+    "statOrder":[1580,1584],
+    "tradeHashes":{
+      "771127912":["Lose 33.3 Life per second"],
+      "1050105434":["+(55-60) to maximum Mana"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -341,7 +447,11 @@
     "group":"BaseManaAndLifeRegen",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[1574,1579],
+    "statOrder":[1579,1584],
+    "tradeHashes":{
+      "1050105434":["+(55-60) to maximum Mana"],
+      "3325883026":["Regenerate 33.3 Life per second"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","boots","gloves","ring","amulet","belt","quiver","default"],
     "weightVal":[1000,1000,1000,1000,1000,1000,1000,0],
@@ -353,7 +463,11 @@
     "group":"LocalAddedPhysicalDamageAndCausesBleeding",
     "level":60,
     "modTags":["physical_damage","bleed","unveiled_mod","damage","physical","attack","ailment"],
-    "statOrder":[1276,2483],
+    "statOrder":[1281,2488],
+    "tradeHashes":{
+      "1519615863":["40% chance to cause Bleeding on Hit"],
+      "1940865751":["Adds (12-14) to (18-20) Physical Damage"]
+    },
     "type":"Prefix",
     "weightKey":["tora_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -365,7 +479,11 @@
     "group":"LocalAddedPhysicalDamageAndCausesBleeding",
     "level":60,
     "modTags":["physical_damage","bleed","unveiled_mod","damage","physical","attack","ailment"],
-    "statOrder":[1276,2483],
+    "statOrder":[1281,2488],
+    "tradeHashes":{
+      "1519615863":["40% chance to cause Bleeding on Hit"],
+      "1940865751":["Adds (17-20) to (26-28) Physical Damage"]
+    },
     "type":"Prefix",
     "weightKey":["tora_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -377,7 +495,10 @@
     "group":"BlockPercent",
     "level":60,
     "modTags":["block","unveiled_mod"],
-    "statOrder":[1138],
+    "statOrder":[1143],
+    "tradeHashes":{
+      "2530372417":["(8-9)% Chance to Block Attack Damage"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[2000,0],
@@ -388,7 +509,10 @@
     "group":"BrandAttachmentRange",
     "level":60,
     "modTags":["unveiled_mod","caster"],
-    "statOrder":[10043],
+    "statOrder":[10042],
+    "tradeHashes":{
+      "4223377453":["(25-28)% increased Brand Attachment range"]
+    },
     "type":"Suffix",
     "weightKey":["amulet","gloves","default"],
     "weightVal":[1000,1000,0],
@@ -399,7 +523,11 @@
     "group":"CastSpeedAndGainArcaneSurgeOnKillChance",
     "level":60,
     "modTags":["unveiled_mod","caster","speed"],
-    "statOrder":[1446,6730],
+    "statOrder":[1451,6735],
+    "tradeHashes":{
+      "573223427":["15% chance to gain Arcane Surge when you Kill an Enemy"],
+      "2891184298":["(18-22)% increased Cast Speed"]
+    },
     "type":"Suffix",
     "weightKey":["wand","dagger","sceptre","one_hand_weapon","default"],
     "weightVal":[1000,1000,1000,100,0],
@@ -411,7 +539,11 @@
     "group":"CastSpeedAndGainArcaneSurgeOnKillChance",
     "level":60,
     "modTags":["unveiled_mod","caster","speed"],
-    "statOrder":[1446,6730],
+    "statOrder":[1451,6735],
+    "tradeHashes":{
+      "573223427":["15% chance to gain Arcane Surge when you Kill an Enemy"],
+      "2891184298":["(26-31)% increased Cast Speed"]
+    },
     "type":"Suffix",
     "weightKey":["staff","two_hand_weapon","default"],
     "weightVal":[1000,100,0],
@@ -423,7 +555,11 @@
     "group":"ChanceToDealDoubleDamageWhileFocused",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[5666],
+    "statOrder":[5671],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2908886986":["(18-20)% chance to deal Double Damage while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","shield","default"],
     "weightVal":[1000,1000,0],
@@ -434,7 +570,11 @@
     "group":"ChanceToDealDoubleDamageWhileFocused",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[5666],
+    "statOrder":[5671],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2908886986":["(36-40)% chance to deal Double Damage while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -445,7 +585,10 @@
     "group":"FlaskChanceToNotConsumeCharges",
     "level":60,
     "modTags":["flask","unveiled_mod"],
-    "statOrder":[4230],
+    "statOrder":[4235],
+    "tradeHashes":{
+      "311641062":["(9-10)% chance for Flasks you use to not consume Charges"]
+    },
     "type":"Prefix",
     "weightKey":["belt","default"],
     "weightVal":[0,0],
@@ -456,7 +599,11 @@
     "group":"ChaosDamageAndChaosSkillDuration",
     "level":60,
     "modTags":["chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[1385,1896],
+    "statOrder":[1390,1901],
+    "tradeHashes":{
+      "289885185":["Chaos Skills have (13-15)% increased Skill Effect Duration"],
+      "736967255":["(60-69)% increased Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,100,0],
@@ -468,7 +615,11 @@
     "group":"ChaosDamageAndChaosSkillDuration",
     "level":60,
     "modTags":["chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[1385,1896],
+    "statOrder":[1390,1901],
+    "tradeHashes":{
+      "289885185":["Chaos Skills have (26-30)% increased Skill Effect Duration"],
+      "736967255":["(90-99)% increased Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","bow","staff","weapon","default"],
     "weightVal":[0,0,1000,100,0],
@@ -480,7 +631,10 @@
     "group":"ChaosDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[1259],
+    "statOrder":[1264],
+    "tradeHashes":{
+      "4055307827":["+(44-48)% to Chaos Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","bow","staff","weapon","default"],
     "weightVal":[0,0,1000,100,0],
@@ -491,7 +645,10 @@
     "group":"ChaosDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[1259],
+    "statOrder":[1264],
+    "tradeHashes":{
+      "4055307827":["+(24-28)% to Chaos Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["bow","two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[1000,0,1000,1000,600,100,0],
@@ -502,7 +659,10 @@
     "group":"ObliterationExplodeOnKillChaos",
     "level":60,
     "modTags":["chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[3305],
+    "statOrder":[3310],
+    "tradeHashes":{
+      "1776945532":["Enemies you Kill have a (15-25)% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -513,7 +673,10 @@
     "group":"ChaosDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[1259],
+    "statOrder":[1264],
+    "tradeHashes":{
+      "4055307827":["+(24-28)% to Chaos Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -524,7 +687,10 @@
     "group":"ChaosDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","chaos_damage","unveiled_mod","damage","chaos"],
-    "statOrder":[1259],
+    "statOrder":[1264],
+    "tradeHashes":{
+      "4055307827":["+(44-48)% to Chaos Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -535,7 +701,10 @@
     "group":"LocalChaosPenetration",
     "level":60,
     "modTags":["chaos_damage","unveiled_mod","damage","chaos","attack"],
-    "statOrder":[7875],
+    "statOrder":[7880],
+    "tradeHashes":{
+      "3762412853":["Attacks with this Weapon Penetrate (14-16)% Chaos Resistance"]
+    },
     "type":"Prefix",
     "weightKey":["wand","dagger","weapon","default"],
     "weightVal":[500,500,1000,0],
@@ -546,7 +715,10 @@
     "group":"ColdAddedAsChaos",
     "level":60,
     "modTags":["elemental_damage","chaos_damage","unveiled_mod","damage","elemental","cold","chaos"],
-    "statOrder":[1940],
+    "statOrder":[1945],
+    "tradeHashes":{
+      "2915373966":["Gain (9-10)% of Cold Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","it_veiled_prefix","default"],
     "weightVal":[0,2000,0],
@@ -557,7 +729,10 @@
     "group":"ColdAddedAsChaos",
     "level":60,
     "modTags":["elemental_damage","chaos_damage","unveiled_mod","damage","elemental","cold","chaos"],
-    "statOrder":[1940],
+    "statOrder":[1945],
+    "tradeHashes":{
+      "2915373966":["Gain (18-20)% of Cold Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","shield","it_veiled_prefix","default"],
     "weightVal":[0,0,2000,0],
@@ -568,7 +743,10 @@
     "group":"ColdAndChaosDamageResistance",
     "level":60,
     "modTags":["unveiled_mod","elemental","cold","chaos","resistance"],
-    "statOrder":[5800],
+    "statOrder":[5805],
+    "tradeHashes":{
+      "3393628375":["+(16-20)% to Cold and Chaos Resistances"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","boots","gloves","helmet","shield","amulet","ring","belt","quiver","default"],
     "weightVal":[600,600,600,600,600,600,600,600,600,0],
@@ -579,7 +757,11 @@
     "group":"ColdDamageAndBaseChanceToFreeze",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","cold","ailment"],
-    "statOrder":[1366,2029],
+    "statOrder":[1371,2034],
+    "tradeHashes":{
+      "44571480":["(21-23)% chance to Freeze"],
+      "3291658075":["(70-79)% increased Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,100,0],
@@ -591,7 +773,11 @@
     "group":"ColdDamageAndBaseChanceToFreeze",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","cold","ailment"],
-    "statOrder":[1366,2029],
+    "statOrder":[1371,2034],
+    "tradeHashes":{
+      "44571480":["(35-40)% chance to Freeze"],
+      "3291658075":["(100-109)% increased Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","bow","staff","weapon","default"],
     "weightVal":[0,0,1000,100,0],
@@ -603,7 +789,10 @@
     "group":"ColdDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","cold"],
-    "statOrder":[1256],
+    "statOrder":[1261],
+    "tradeHashes":{
+      "1950806024":["+(24-28)% to Cold Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -614,7 +803,10 @@
     "group":"ColdDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","cold"],
-    "statOrder":[1256],
+    "statOrder":[1261],
+    "tradeHashes":{
+      "1950806024":["+(44-48)% to Cold Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -625,7 +817,10 @@
     "group":"ColdDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","cold"],
-    "statOrder":[1256],
+    "statOrder":[1261],
+    "tradeHashes":{
+      "1950806024":["+(44-48)% to Cold Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["bow","staff","two_hand_weapon","default"],
     "weightVal":[0,1000,400,0],
@@ -636,7 +831,10 @@
     "group":"ColdDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","cold"],
-    "statOrder":[1256],
+    "statOrder":[1261],
+    "tradeHashes":{
+      "1950806024":["+(24-28)% to Cold Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,600,400,0],
@@ -647,7 +845,10 @@
     "group":"CorpseLife",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[9162],
+    "statOrder":[9166],
+    "tradeHashes":{
+      "586568910":["Corpses you Spawn have 20% increased Maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -658,7 +859,11 @@
     "group":"CriticalChanceAndAddedChaosDamageIfHaveCritRecently",
     "level":60,
     "modTags":["chaos_damage","unveiled_mod","damage","chaos","critical"],
-    "statOrder":[1459,9224],
+    "statOrder":[1464,9228],
+    "tradeHashes":{
+      "587431675":["(20-22)% increased Global Critical Strike Chance"],
+      "2523334466":["Adds (22-25) to (28-32) Chaos Damage if you've dealt a Critical Strike Recently"]
+    },
     "type":"Suffix",
     "weightKey":["gloves","quiver","default"],
     "weightVal":[1500,1500,0],
@@ -670,7 +875,11 @@
     "group":"CriticalChanceAndElementalDamagePercentIfHaveCritRecently",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","critical"],
-    "statOrder":[1459,6302],
+    "statOrder":[1464,6307],
+    "tradeHashes":{
+      "587431675":["(20-22)% increased Global Critical Strike Chance"],
+      "2379781920":["(27-30)% increased Elemental Damage if you've dealt a Critical Strike Recently"]
+    },
     "type":"Suffix",
     "weightKey":["gloves","quiver","default"],
     "weightVal":[1500,1500,0],
@@ -682,7 +891,11 @@
     "group":"CriticalChanceAndGainFrenzyChargeOnCriticalStrikePercent",
     "level":60,
     "modTags":["frenzy_charge","unveiled_mod","critical"],
-    "statOrder":[1459,6755],
+    "statOrder":[1464,6760],
+    "tradeHashes":{
+      "587431675":["(18-20)% increased Global Critical Strike Chance"],
+      "3032585258":["(6-7)% chance to gain a Frenzy Charge on Critical Strike"]
+    },
     "type":"Suffix",
     "weightKey":["quiver","default"],
     "weightVal":[1500,0],
@@ -694,7 +907,11 @@
     "group":"CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently",
     "level":60,
     "modTags":["unveiled_mod","damage","critical"],
-    "statOrder":[1459,5958],
+    "statOrder":[1464,5963],
+    "tradeHashes":{
+      "536929014":["+(27-30)% to Critical Strike Multiplier if you've Shattered an Enemy Recently"],
+      "587431675":["(20-22)% increased Global Critical Strike Chance"]
+    },
     "type":"Suffix",
     "weightKey":["cameria_veiled_suffix","default"],
     "weightVal":[2000,0],
@@ -706,7 +923,10 @@
     "group":"CriticalStrikeMultiplierIfRareOrUniqueEnemyNearby",
     "level":60,
     "modTags":["unveiled_mod","damage","critical"],
-    "statOrder":[5961],
+    "statOrder":[5966],
+    "tradeHashes":{
+      "3992439283":["+(36-40)% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -717,7 +937,10 @@
     "group":"CriticalStrikeMultiplierIfRareOrUniqueEnemyNearby",
     "level":60,
     "modTags":["unveiled_mod","damage","critical"],
-    "statOrder":[5961],
+    "statOrder":[5966],
+    "tradeHashes":{
+      "3992439283":["+(54-60)% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -728,7 +951,10 @@
     "group":"CurseEffectiveness",
     "level":60,
     "modTags":["unveiled_mod","caster","curse"],
-    "statOrder":[2596],
+    "statOrder":[2601],
+    "tradeHashes":{
+      "2353576063":["(8-10)% increased Effect of your Curses"]
+    },
     "type":"Suffix",
     "weightKey":["shield","default"],
     "weightVal":[3000,0],
@@ -739,7 +965,10 @@
     "group":"DamageDuringFlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod","damage"],
-    "statOrder":[4082],
+    "statOrder":[4087],
+    "tradeHashes":{
+      "2947215268":["(36-40)% increased Damage during any Flask Effect"]
+    },
     "type":"Prefix",
     "weightKey":["brinerot_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -750,7 +979,10 @@
     "group":"DamageIfConsumedCorpse",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[4253],
+    "statOrder":[4258],
+    "tradeHashes":{
+      "2118708619":["20% increased Damage if you have Consumed a corpse Recently"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -761,7 +993,10 @@
     "group":"DamagePerEnduranceCharge",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[3199],
+    "statOrder":[3204],
+    "tradeHashes":{
+      "3515686789":["(5-6)% increased Damage per Endurance Charge"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -772,7 +1007,10 @@
     "group":"DamagePerEnduranceCharge",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[3199],
+    "statOrder":[3204],
+    "tradeHashes":{
+      "3515686789":["(7-8)% increased Damage per Endurance Charge"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -783,7 +1021,10 @@
     "group":"DamagePerFrenzyCharge",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[3286],
+    "statOrder":[3291],
+    "tradeHashes":{
+      "902747843":["(5-6)% increased Damage per Frenzy Charge"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -794,7 +1035,10 @@
     "group":"DamagePerFrenzyCharge",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[3286],
+    "statOrder":[3291],
+    "tradeHashes":{
+      "902747843":["(7-8)% increased Damage per Frenzy Charge"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -805,7 +1049,10 @@
     "group":"IncreasedDamagePerPowerCharge",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[6066],
+    "statOrder":[6071],
+    "tradeHashes":{
+      "2034658008":["(5-6)% increased Damage per Power Charge"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -816,7 +1063,10 @@
     "group":"IncreasedDamagePerPowerCharge",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[6066],
+    "statOrder":[6071],
+    "tradeHashes":{
+      "2034658008":["(7-8)% increased Damage per Power Charge"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -827,7 +1077,11 @@
     "group":"DamageRemovedFromManaBeforeLifeWhileFocused",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[6089],
+    "statOrder":[6094],
+    "tradeHashes":{
+      "1533152070":[""],
+      "1588539856":["(18-22)% of Damage is taken from Mana before Life while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","default"],
     "weightVal":[1000,0],
@@ -838,7 +1092,10 @@
     "group":"DamageWhileLeeching",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[3063],
+    "statOrder":[3068],
+    "tradeHashes":{
+      "310246444":["(54-60)% increased Damage while Leeching"]
+    },
     "type":"Prefix",
     "weightKey":["vorici_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -849,7 +1106,10 @@
     "group":"DamageWithNonVaalSkillsDuringSoulGainPrevention",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[6084],
+    "statOrder":[6089],
+    "tradeHashes":{
+      "1583385065":["(71-80)% increased Damage with Non-Vaal Skills during Soul Gain Prevention"]
+    },
     "type":"Suffix",
     "weightKey":["gloves","boots","default"],
     "weightVal":[1500,1500,0],
@@ -860,7 +1120,11 @@
     "group":"DexterityAndAvoidFreeze",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1178,1845],
+    "statOrder":[1183,1850],
+    "tradeHashes":{
+      "1514829491":["(21-25)% chance to Avoid being Frozen"],
+      "3261801346":["+(31-35) to Dexterity"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","shield","default"],
     "weightVal":[1000,1000,0],
@@ -872,7 +1136,10 @@
     "group":"DexterityAndIntelligence",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1182],
+    "statOrder":[1187],
+    "tradeHashes":{
+      "2300185227":["+(31-35) to Dexterity and Intelligence"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","boots","gloves","helmet","amulet","ring","belt","shield","quiver","default"],
     "weightVal":[600,600,600,600,600,600,600,600,600,0],
@@ -883,7 +1150,11 @@
     "group":"DexterityAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1178,7950],
+    "statOrder":[1183,7955],
+    "tradeHashes":{
+      "2016708976":["+(15-18)% to Quality"],
+      "3261801346":["+(31-35) to Dexterity"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","shield","default"],
     "weightVal":[0,0,0],
@@ -895,7 +1166,11 @@
     "group":"DodgeChanceDuringFocus",
     "level":60,
     "modTags":["unveiled_mod","defences","evasion"],
-    "statOrder":[6477],
+    "statOrder":[6482],
+    "tradeHashes":{
+      "1533152070":[""],
+      "3839620417":["(30-32)% increased Evasion Rating while Focused"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","boots","default"],
     "weightVal":[1000,1000,0],
@@ -906,7 +1181,10 @@
     "group":"DoubleDamageChance",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[5659],
+    "statOrder":[5664],
+    "tradeHashes":{
+      "1172810729":["(6-7)% chance to deal Double Damage"]
+    },
     "type":"Suffix",
     "weightKey":["shield","one_hand_weapon","default"],
     "weightVal":[1000,1000,0],
@@ -917,7 +1195,10 @@
     "group":"DoubleDamageChance",
     "level":60,
     "modTags":["unveiled_mod","damage"],
-    "statOrder":[5659],
+    "statOrder":[5664],
+    "tradeHashes":{
+      "1172810729":["(12-14)% chance to deal Double Damage"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","default"],
     "weightVal":[1000,0],
@@ -928,7 +1209,10 @@
     "group":"IncreasedAilmentEffectOnEnemies",
     "level":60,
     "modTags":["unveiled_mod","ailment"],
-    "statOrder":[9499],
+    "statOrder":[9498],
+    "tradeHashes":{
+      "782230869":["(33-40)% increased Effect of Non-Damaging Ailments"]
+    },
     "type":"Suffix",
     "weightKey":["boots","amulet","default"],
     "weightVal":[1500,1500,0],
@@ -939,7 +1223,10 @@
     "group":"LocalAttackReduceEnemyElementalResistance",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","attack"],
-    "statOrder":[3761],
+    "statOrder":[3766],
+    "tradeHashes":{
+      "4064396395":["Attacks with this Weapon Penetrate (14-16)% Elemental Resistances"]
+    },
     "type":"Prefix",
     "weightKey":["wand","dagger","weapon","default"],
     "weightVal":[500,500,1000,0],
@@ -950,7 +1237,10 @@
     "group":"EnergyShieldRegenerationRatePerMinuteIfRareOrUniqueEnemyNearby",
     "level":60,
     "modTags":["unveiled_mod","defences","energy_shield"],
-    "statOrder":[6456],
+    "statOrder":[6461],
+    "tradeHashes":{
+      "2238019079":["Regenerate 200 Energy Shield per second while a Rare or Unique Enemy is Nearby"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","belt","default"],
     "weightVal":[1500,1500,0],
@@ -961,7 +1251,10 @@
     "group":"EnergyShieldRegenerationRatePercentageIfCorpseConsumedRecently",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[6455],
+    "statOrder":[6460],
+    "tradeHashes":{
+      "2160190507":["Regenerate 2% of Energy Shield per second if you've Consumed a Corpse Recently"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -972,7 +1265,11 @@
     "group":"EvasionRatingAndEnergyShield",
     "level":60,
     "modTags":["unveiled_mod","defences","evasion","energy_shield"],
-    "statOrder":[1544,1558],
+    "statOrder":[1549,1563],
+    "tradeHashes":{
+      "2144192055":["+(365-400) to Evasion Rating"],
+      "3489782002":["+(31-35) to maximum Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["belt","quiver","default"],
     "weightVal":[1500,1500,0],
@@ -984,7 +1281,10 @@
     "group":"FireAddedAsChaos",
     "level":60,
     "modTags":["elemental_damage","chaos_damage","unveiled_mod","damage","elemental","fire","chaos"],
-    "statOrder":[1941],
+    "statOrder":[1946],
+    "tradeHashes":{
+      "1599775597":["Gain (9-10)% of Fire Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","it_veiled_prefix","default"],
     "weightVal":[0,2000,0],
@@ -995,7 +1295,10 @@
     "group":"FireAddedAsChaos",
     "level":60,
     "modTags":["elemental_damage","chaos_damage","unveiled_mod","damage","elemental","fire","chaos"],
-    "statOrder":[1941],
+    "statOrder":[1946],
+    "tradeHashes":{
+      "1599775597":["Gain (18-20)% of Fire Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","shield","it_veiled_prefix","default"],
     "weightVal":[0,0,2000,0],
@@ -1006,7 +1309,10 @@
     "group":"FireAndChaosDamageResistance",
     "level":60,
     "modTags":["unveiled_mod","elemental","fire","chaos","resistance"],
-    "statOrder":[6549],
+    "statOrder":[6554],
+    "tradeHashes":{
+      "378817135":["+(16-20)% to Fire and Chaos Resistances"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","boots","gloves","helmet","shield","amulet","ring","belt","quiver","default"],
     "weightVal":[600,600,600,600,600,600,600,600,600,0],
@@ -1017,7 +1323,11 @@
     "group":"FireDamageAndChanceToIgnite",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","ailment"],
-    "statOrder":[1357,2026],
+    "statOrder":[1362,2031],
+    "tradeHashes":{
+      "1335054179":["(21-23)% chance to Ignite"],
+      "3962278098":["(70-79)% increased Fire Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,100,0],
@@ -1029,7 +1339,11 @@
     "group":"FireDamageAndChanceToIgnite",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","ailment"],
-    "statOrder":[1357,2026],
+    "statOrder":[1362,2031],
+    "tradeHashes":{
+      "1335054179":["(35-40)% chance to Ignite"],
+      "3962278098":["(100-109)% increased Fire Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","bow","staff","weapon","default"],
     "weightVal":[0,0,1000,100,0],
@@ -1041,7 +1355,10 @@
     "group":"FireDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","fire"],
-    "statOrder":[1251],
+    "statOrder":[1256],
+    "tradeHashes":{
+      "3382807662":["+(24-28)% to Fire Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["bow","two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[100,0,1000,1000,600,400,0],
@@ -1052,7 +1369,10 @@
     "group":"FireDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","fire"],
-    "statOrder":[1251],
+    "statOrder":[1256],
+    "tradeHashes":{
+      "3382807662":["+(24-28)% to Fire Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1063,7 +1383,10 @@
     "group":"FireDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","fire"],
-    "statOrder":[1251],
+    "statOrder":[1256],
+    "tradeHashes":{
+      "3382807662":["+(44-48)% to Fire Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1074,7 +1397,10 @@
     "group":"FireDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","elemental_damage","unveiled_mod","damage","elemental","fire"],
-    "statOrder":[1251],
+    "statOrder":[1256],
+    "tradeHashes":{
+      "3382807662":["+(44-48)% to Fire Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["bow","staff","two_hand_weapon","default"],
     "weightVal":[0,1000,400,0],
@@ -1085,7 +1411,10 @@
     "group":"FlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod"],
-    "statOrder":[2742],
+    "statOrder":[2747],
+    "tradeHashes":{
+      "114734841":["Flasks applied to you have (9-10)% increased Effect"]
+    },
     "type":"Prefix",
     "weightKey":["belt","default"],
     "weightVal":[0,0],
@@ -1096,7 +1425,11 @@
     "group":"FlaskEffectAndFlaskChargesGained",
     "level":60,
     "modTags":["flask","unveiled_mod"],
-    "statOrder":[2183,2742],
+    "statOrder":[2188,2747],
+    "tradeHashes":{
+      "114734841":["Flasks applied to you have (15-18)% increased Effect"],
+      "1452809865":["33% reduced Flask Charges gained"]
+    },
     "type":"Prefix",
     "weightKey":["belt","default"],
     "weightVal":[1500,0],
@@ -1108,7 +1441,11 @@
     "group":"FlaskEffectAndFlaskChargesGained",
     "level":60,
     "modTags":["flask","unveiled_mod"],
-    "statOrder":[2183,2742],
+    "statOrder":[2188,2747],
+    "tradeHashes":{
+      "114734841":["Flasks applied to you have (15-18)% increased Effect"],
+      "1452809865":["33% reduced Flask Charges gained"]
+    },
     "type":"Suffix",
     "weightKey":["belt","default"],
     "weightVal":[0,0],
@@ -1120,7 +1457,10 @@
     "group":"FocusCooldownRecovery",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[6653],
+    "statOrder":[6658],
+    "tradeHashes":{
+      "3610263531":["Focus has (31-35)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["boots","default"],
     "weightVal":[2000,0],
@@ -1131,7 +1471,11 @@
     "group":"FortifyEffectWhileFocused",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[9118],
+    "statOrder":[9122],
+    "tradeHashes":{
+      "922014346":["+10 to maximum Fortification while Focused"],
+      "1533152070":[""]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","default"],
     "weightVal":[1000,0],
@@ -1142,7 +1486,10 @@
     "group":"GainOnslaughtDuringSoulGainPrevention",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[6780],
+    "statOrder":[6785],
+    "tradeHashes":{
+      "1572897579":["You have Onslaught during Soul Gain Prevention"]
+    },
     "type":"Suffix",
     "weightKey":["gloves","boots","default"],
     "weightVal":[1500,1500,0],
@@ -1153,7 +1500,11 @@
     "group":"GainVaalPactWhileFocused",
     "level":60,
     "modTags":["resource","unveiled_mod","life"],
-    "statOrder":[6828],
+    "statOrder":[6833],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2022851697":["You have Vaal Pact while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["ring","default"],
     "weightVal":[0,0],
@@ -1164,7 +1515,10 @@
     "group":"GlobalCooldownRecovery",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[5005],
+    "statOrder":[5010],
+    "tradeHashes":{
+      "1004011302":["(13-16)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["belt","default"],
     "weightVal":[1500,0],
@@ -1175,7 +1529,12 @@
     "group":"ImmuneToStatusAilmentsWhileFocusedCDR",
     "level":60,
     "modTags":["unveiled_mod","ailment"],
-    "statOrder":[6653,7239],
+    "statOrder":[6658,7244],
+    "tradeHashes":{
+      "1533152070":[""],
+      "1766730250":["You are Immune to Ailments while Focused"],
+      "3610263531":["Focus has (5-8)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["boots","default"],
     "weightVal":[2000,0],
@@ -1187,7 +1546,11 @@
     "group":"IncreasedChaosAndPhysicalDamage",
     "level":60,
     "modTags":["physical_damage","chaos_damage","unveiled_mod","damage","physical","chaos"],
-    "statOrder":[1231,1385],
+    "statOrder":[1236,1390],
+    "tradeHashes":{
+      "736967255":["(18-20)% increased Chaos Damage"],
+      "1310194496":["(20-22)% increased Global Physical Damage"]
+    },
     "type":"Suffix",
     "weightKey":["aislin_veiled_suffix","default"],
     "weightVal":[2000,0],
@@ -1199,7 +1562,11 @@
     "group":"IncreasedFireAndLightningDamage",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","fire","lightning"],
-    "statOrder":[1357,1377],
+    "statOrder":[1362,1382],
+    "tradeHashes":{
+      "2231156303":["(20-22)% increased Lightning Damage"],
+      "3962278098":["(18-20)% increased Fire Damage"]
+    },
     "type":"Suffix",
     "weightKey":["riker_veiled_suffix","default"],
     "weightVal":[2000,0],
@@ -1211,7 +1578,11 @@
     "group":"IncreasedManaAndRegen",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[1579,1582],
+    "statOrder":[1584,1587],
+    "tradeHashes":{
+      "1050105434":["+(51-55) to maximum Mana"],
+      "4291461939":["Regenerate 5.3 Mana per second"]
+    },
     "type":"Prefix",
     "weightKey":["ring","amulet","default"],
     "weightVal":[600,600,0],
@@ -1223,7 +1594,11 @@
     "group":"IncreasedManaAndDegenGracePeriod",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[1579,1583],
+    "statOrder":[1584,1588],
+    "tradeHashes":{
+      "838272676":["Lose 5.3 Mana per second"],
+      "1050105434":["+(51-55) to maximum Mana"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1235,7 +1610,11 @@
     "group":"IntelligenceAndAvoidShock",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1179,1848],
+    "statOrder":[1184,1853],
+    "tradeHashes":{
+      "328541901":["+(31-35) to Intelligence"],
+      "1871765599":["(21-25)% chance to Avoid being Shocked"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","shield","default"],
     "weightVal":[1000,1000,0],
@@ -1247,7 +1626,11 @@
     "group":"IntelligenceAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1179,7950],
+    "statOrder":[1184,7955],
+    "tradeHashes":{
+      "328541901":["+(31-35) to Intelligence"],
+      "2016708976":["+(15-18)% to Quality"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","shield","default"],
     "weightVal":[0,0,0],
@@ -1259,7 +1642,10 @@
     "group":"RareOrUniqueMonsterDroppedItemRarity",
     "level":60,
     "modTags":["unveiled_mod","drop"],
-    "statOrder":[9830],
+    "statOrder":[9829],
+    "tradeHashes":{
+      "2161689853":["(55-60)% increased Rarity of Items Dropped by Slain Rare or Unique Enemies"]
+    },
     "type":"Suffix",
     "weightKey":["janus_veiled_suffix","default"],
     "weightVal":[2000,0],
@@ -1270,7 +1656,10 @@
     "group":"LifeAddedAsEnergyShield",
     "level":60,
     "modTags":["unveiled_mod","defences","energy_shield"],
-    "statOrder":[9160],
+    "statOrder":[9164],
+    "tradeHashes":{
+      "67280387":["Gain (12-14)% of Maximum Life as Extra Maximum Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["gravicius_veiled_prefix","default"],
     "weightVal":[0,0],
@@ -1281,7 +1670,12 @@
     "group":"LifeLeechFromAnyDamagePermyriadWhileFocusedAndVaalPact",
     "level":60,
     "modTags":["resource","unveiled_mod","life"],
-    "statOrder":[6828,7362],
+    "statOrder":[6833,7367],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2022851697":["You have Vaal Pact while Focused"],
+      "3324747104":["15% of Damage Leeched as Life while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["amulet","default"],
     "weightVal":[3000,0],
@@ -1293,7 +1687,12 @@
     "group":"EnemyLifeLeechPermyriadWhileFocusedAndVaalPact",
     "level":60,
     "modTags":["resource","unveiled_mod","life"],
-    "statOrder":[6828,7363],
+    "statOrder":[6833,7368],
+    "tradeHashes":{
+      "497196601":["15% of Damage Leeched by Enemy as Life while Focused"],
+      "1533152070":[""],
+      "2022851697":["You have Vaal Pact while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1305,7 +1704,10 @@
     "group":"LifeRegenerationRatePercentage",
     "level":60,
     "modTags":["resource","unveiled_mod","life"],
-    "statOrder":[1944],
+    "statOrder":[1949],
+    "tradeHashes":{
+      "836936635":["Regenerate (1.03-1.33)% of Life per second"]
+    },
     "type":"Suffix",
     "weightKey":["shield","amulet","default"],
     "weightVal":[0,0,0],
@@ -1316,7 +1718,11 @@
     "group":"LifeRegenerationPerEvasionDuringFocus",
     "level":60,
     "modTags":["resource","unveiled_mod","life"],
-    "statOrder":[6487],
+    "statOrder":[6492],
+    "tradeHashes":{
+      "1533152070":[""],
+      "3244118730":["1.5% of Evasion Rating is Regenerated as Life per second while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","default"],
     "weightVal":[1000,0],
@@ -1327,7 +1733,10 @@
     "group":"LifeRegenerationRatePerMinuteWhileUsingFlask",
     "level":60,
     "modTags":["flask","resource","unveiled_mod","life"],
-    "statOrder":[7426],
+    "statOrder":[7431],
+    "tradeHashes":{
+      "3500911418":["Regenerate 3% of Life per second during any Flask Effect"]
+    },
     "type":"Suffix",
     "weightKey":["belt","default"],
     "weightVal":[0,0],
@@ -1338,7 +1747,10 @@
     "group":"LifeRegenerationRatePercentageIfCorpseConsumedRecently",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[7413],
+    "statOrder":[7418],
+    "tradeHashes":{
+      "1107877645":["Regenerate 2% of Life per second if you've Consumed a corpse Recently"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1349,7 +1761,10 @@
     "group":"LightningAddedAsChaos",
     "level":60,
     "modTags":["elemental_damage","chaos_damage","unveiled_mod","damage","elemental","lightning","chaos"],
-    "statOrder":[1938],
+    "statOrder":[1943],
+    "tradeHashes":{
+      "2402136583":["Gain (9-10)% of Lightning Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","it_veiled_prefix","default"],
     "weightVal":[0,2000,0],
@@ -1360,7 +1775,10 @@
     "group":"LightningAddedAsChaos",
     "level":60,
     "modTags":["elemental_damage","chaos_damage","unveiled_mod","damage","elemental","lightning","chaos"],
-    "statOrder":[1938],
+    "statOrder":[1943],
+    "tradeHashes":{
+      "2402136583":["Gain (18-20)% of Lightning Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","shield","it_veiled_prefix","default"],
     "weightVal":[0,0,2000,0],
@@ -1371,7 +1789,10 @@
     "group":"LightningAndChaosDamageResistance",
     "level":60,
     "modTags":["unveiled_mod","elemental","lightning","chaos","resistance"],
-    "statOrder":[7435],
+    "statOrder":[7440],
+    "tradeHashes":{
+      "3465022881":["+(16-20)% to Lightning and Chaos Resistances"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","boots","gloves","helmet","shield","amulet","ring","belt","quiver","default"],
     "weightVal":[600,600,600,600,600,600,600,600,600,0],
@@ -1382,7 +1803,11 @@
     "group":"LightningDamageAndChanceToShock",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","lightning","ailment"],
-    "statOrder":[1377,2033],
+    "statOrder":[1382,2038],
+    "tradeHashes":{
+      "1538773178":["(21-23)% chance to Shock"],
+      "2231156303":["(70-79)% increased Lightning Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,100,0],
@@ -1394,7 +1819,11 @@
     "group":"LightningDamageAndChanceToShock",
     "level":60,
     "modTags":["elemental_damage","unveiled_mod","damage","elemental","lightning","ailment"],
-    "statOrder":[1377,2033],
+    "statOrder":[1382,2038],
+    "tradeHashes":{
+      "1538773178":["(35-40)% chance to Shock"],
+      "2231156303":["(100-109)% increased Lightning Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","bow","staff","weapon","default"],
     "weightVal":[0,0,1000,100,0],
@@ -1406,7 +1835,11 @@
     "group":"LocalAccuracyRatingAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attack"],
-    "statOrder":[2024,7950],
+    "statOrder":[2029,7955],
+    "tradeHashes":{
+      "691932474":["+(311-350) to Accuracy Rating"],
+      "2016708976":["+(16-18)% to Quality"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1418,7 +1851,11 @@
     "group":"LocalAccuracyRatingStrengthDexterity",
     "level":60,
     "modTags":["unveiled_mod","attack","attribute"],
-    "statOrder":[1180,2024],
+    "statOrder":[1185,2029],
+    "tradeHashes":{
+      "538848803":["+(25-28) to Strength and Dexterity"],
+      "691932474":["+(311-350) to Accuracy Rating"]
+    },
     "type":"Suffix",
     "weightKey":["weapon","default"],
     "weightVal":[1000,0],
@@ -1430,7 +1867,11 @@
     "group":"LocalAttackSpeedAndLocalDisplayTriggerLevel1BloodRageOnKillChance",
     "level":60,
     "modTags":["unveiled_mod","attack","speed"],
-    "statOrder":[792,1413],
+    "statOrder":[797,1418],
+    "tradeHashes":{
+      "205619502":["15% chance to Trigger Level 1 Blood Rage when you Kill an Enemy"],
+      "210067635":["(12-15)% increased Attack Speed"]
+    },
     "type":"Suffix",
     "weightKey":["bow","wand","default"],
     "weightVal":[1000,1000,0],
@@ -1442,7 +1883,11 @@
     "group":"LocalAttackSpeedAndLocalDisplayTriggerLevel1BloodRageOnKillChance",
     "level":60,
     "modTags":["unveiled_mod","attack","speed"],
-    "statOrder":[792,1413],
+    "statOrder":[797,1418],
+    "tradeHashes":{
+      "205619502":["15% chance to Trigger Level 1 Blood Rage when you Kill an Enemy"],
+      "210067635":["(18-22)% increased Attack Speed"]
+    },
     "type":"Suffix",
     "weightKey":["ranged","weapon","default"],
     "weightVal":[0,1000,0],
@@ -1454,7 +1899,11 @@
     "group":"LocalAttackSpeedAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attack","speed"],
-    "statOrder":[1413,7950],
+    "statOrder":[1418,7955],
+    "tradeHashes":{
+      "210067635":["(18-22)% increased Attack Speed"],
+      "2016708976":["+(13-18)% to Quality"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1466,7 +1915,11 @@
     "group":"LocalAttackSpeedAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attack","speed"],
-    "statOrder":[1413,7950],
+    "statOrder":[1418,7955],
+    "tradeHashes":{
+      "210067635":["(12-15)% increased Attack Speed"],
+      "2016708976":["+(13-18)% to Quality"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1478,7 +1931,11 @@
     "group":"LocalAttackSpeedDexterityIntelligence",
     "level":60,
     "modTags":["unveiled_mod","attack","speed","attribute"],
-    "statOrder":[1182,1413],
+    "statOrder":[1187,1418],
+    "tradeHashes":{
+      "210067635":["(18-22)% increased Attack Speed"],
+      "2300185227":["+(25-28) to Dexterity and Intelligence"]
+    },
     "type":"Suffix",
     "weightKey":["ranged","weapon","default"],
     "weightVal":[0,1000,0],
@@ -1490,7 +1947,11 @@
     "group":"LocalAttackSpeedDexterityIntelligence",
     "level":60,
     "modTags":["unveiled_mod","attack","speed","attribute"],
-    "statOrder":[1182,1413],
+    "statOrder":[1187,1418],
+    "tradeHashes":{
+      "210067635":["(12-15)% increased Attack Speed"],
+      "2300185227":["+(25-28) to Dexterity and Intelligence"]
+    },
     "type":"Suffix",
     "weightKey":["wand","bow","default"],
     "weightVal":[1000,1000,0],
@@ -1502,7 +1963,11 @@
     "group":"LocalCriticalStrikeChanceAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attack","critical"],
-    "statOrder":[1464,7950],
+    "statOrder":[1469,7955],
+    "tradeHashes":{
+      "2016708976":["+(13-18)% to Quality"],
+      "2375316951":["(28-32)% increased Critical Strike Chance"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -1514,7 +1979,11 @@
     "group":"LocalCriticalStrikeChanceStrengthIntelligence",
     "level":60,
     "modTags":["unveiled_mod","attack","critical","attribute"],
-    "statOrder":[1181,1464],
+    "statOrder":[1186,1469],
+    "tradeHashes":{
+      "1535626285":["+(25-28) to Strength and Intelligence"],
+      "2375316951":["(28-32)% increased Critical Strike Chance"]
+    },
     "type":"Suffix",
     "weightKey":["weapon","default"],
     "weightVal":[1000,0],
@@ -1526,7 +1995,10 @@
     "group":"LocalFlaskAdditionalCurseOnEnemies",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[996],
+    "statOrder":[1001],
+    "tradeHashes":{
+      "3897433431":["You can apply an additional Curse during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","body_armour","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1537,7 +2009,11 @@
     "group":"LocalFlaskAvoidStunChanceAndMovementSpeedDuringFlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod","speed"],
-    "statOrder":[972],
+    "statOrder":[977],
+    "tradeHashes":{
+      "2312652600":["50% Chance to Avoid being Stunned during Effect"],
+      "3182498570":[""]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[0,0],
@@ -1548,7 +2024,10 @@
     "group":"LocalFlaskAvoidStunChanceDuringFlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod"],
-    "statOrder":[972],
+    "statOrder":[977],
+    "tradeHashes":{
+      "2312652600":["50% Chance to Avoid being Stunned during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[1000,0],
@@ -1559,7 +2038,10 @@
     "group":"LocalFlaskCriticalStrikeChanceDuringFlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod","critical"],
-    "statOrder":[976],
+    "statOrder":[981],
+    "tradeHashes":{
+      "2008255263":["(40-60)% increased Critical Strike Chance during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[0,0],
@@ -1570,7 +2052,10 @@
     "group":"LocalFlaskIgniteDamageLifeLeech",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[990],
+    "statOrder":[995],
+    "tradeHashes":{
+      "96869632":["Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","body_armour","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1581,7 +2066,10 @@
     "group":"LocalFlaskIgniteProlif",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[981],
+    "statOrder":[986],
+    "tradeHashes":{
+      "3052040294":["Ignites you inflict during Effect spread to other Enemies within 1.5 metres"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","body_armour","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1592,7 +2080,10 @@
     "group":"LocalFlaskIgnitedEnemiesHaveMalediction",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[982],
+    "statOrder":[987],
+    "tradeHashes":{
+      "1558071928":["Enemies Ignited by you during Effect have Malediction"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","body_armour","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1603,7 +2094,10 @@
     "group":"LocalFlaskItemFoundRarityDuringFlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod","drop"],
-    "statOrder":[989],
+    "statOrder":[994],
+    "tradeHashes":{
+      "3251705960":["(20-30)% increased Rarity of Items found during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[1000,0],
@@ -1614,7 +2108,10 @@
     "group":"LocalFlaskLifeLeechOnDamageTakenPermyriadDuringFlaskEffect",
     "level":60,
     "modTags":["flask","resource","unveiled_mod","life"],
-    "statOrder":[992],
+    "statOrder":[997],
+    "tradeHashes":{
+      "3824033729":["15% of Damage Taken from Hits is Leeched as Life during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[1000,0],
@@ -1625,7 +2122,10 @@
     "group":"LocalFlaskLifeRegenerationPerMinuteDuringFlaskEffect",
     "level":60,
     "modTags":["flask","resource","unveiled_mod","life"],
-    "statOrder":[993],
+    "statOrder":[998],
+    "tradeHashes":{
+      "871270154":["Regenerate 3% of Life per second during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[1000,0],
@@ -1636,7 +2136,10 @@
     "group":"LocalFlaskPhysicalDamageCanIgnite",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[998],
+    "statOrder":[1003],
+    "tradeHashes":{
+      "3914001710":["Your Physical Damage can Ignite during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","body_armour","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1647,7 +2150,10 @@
     "group":"FlaskReflectReductionDuringFlaskEffect",
     "level":60,
     "modTags":["flask","unveiled_mod"],
-    "statOrder":[968],
+    "statOrder":[973],
+    "tradeHashes":{
+      "603134774":["(60-80)% of Damage from your Hits cannot be Reflected during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[1000,0],
@@ -1658,7 +2164,10 @@
     "group":"LocalFlaskSkillManaCostDuringFlaskEffect",
     "level":60,
     "modTags":["flask","resource","unveiled_mod","mana"],
-    "statOrder":[999],
+    "statOrder":[1004],
+    "tradeHashes":{
+      "683273571":["(20-25)% reduced Mana Cost of Skills during Effect"]
+    },
     "type":"Prefix",
     "weightKey":["flask","default"],
     "weightVal":[0,0],
@@ -1669,7 +2178,10 @@
     "group":"LocalIncreaseSocketedGemLevel",
     "level":60,
     "modTags":["unveiled_mod","gem"],
-    "statOrder":[162],
+    "statOrder":[167],
+    "tradeHashes":{
+      "2843100721":["+2 to Level of Socketed Gems"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1680,7 +2192,11 @@
     "group":"LocalIncreaseSocketedSupportGemLevelAndQuality",
     "level":60,
     "modTags":["unveiled_mod","gem"],
-    "statOrder":[189,205],
+    "statOrder":[194,210],
+    "tradeHashes":{
+      "1328548975":["+(5-8)% to Quality of Socketed Support Gems"],
+      "4154259475":["+2 to Level of Socketed Support Gems"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -1692,7 +2208,11 @@
     "group":"LocalIncreasedArmourAndEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","energy_shield"],
-    "statOrder":[1552,1569],
+    "statOrder":[1557,1574],
+    "tradeHashes":{
+      "3299347043":["+(17-19) to maximum Life"],
+      "3321629045":["(24-28)% increased Armour and Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","str_int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1704,7 +2224,11 @@
     "group":"LocalIncreasedArmourAndEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","energy_shield"],
-    "statOrder":[1552,1569],
+    "statOrder":[1557,1574],
+    "tradeHashes":{
+      "3299347043":["+(23-26) to maximum Life"],
+      "3321629045":["(24-28)% increased Armour and Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","str_int_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1716,7 +2240,11 @@
     "group":"LocalIncreasedArmourAndEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","energy_shield"],
-    "statOrder":[1552,1569],
+    "statOrder":[1557,1574],
+    "tradeHashes":{
+      "3299347043":["+(19-22) to maximum Life"],
+      "3321629045":["(24-28)% increased Armour and Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","str_int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1728,7 +2256,11 @@
     "group":"LocalIncreasedArmourAndEvasionAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","evasion"],
-    "statOrder":[1553,1569],
+    "statOrder":[1558,1574],
+    "tradeHashes":{
+      "2451402625":["(24-28)% increased Armour and Evasion"],
+      "3299347043":["+(17-19) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","str_dex_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1740,7 +2272,11 @@
     "group":"LocalIncreasedArmourAndEvasionAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","evasion"],
-    "statOrder":[1553,1569],
+    "statOrder":[1558,1574],
+    "tradeHashes":{
+      "2451402625":["(24-28)% increased Armour and Evasion"],
+      "3299347043":["+(23-26) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","str_dex_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1752,7 +2288,11 @@
     "group":"LocalIncreasedArmourAndEvasionAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","evasion"],
-    "statOrder":[1553,1569],
+    "statOrder":[1558,1574],
+    "tradeHashes":{
+      "2451402625":["(24-28)% increased Armour and Evasion"],
+      "3299347043":["+(19-22) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","str_dex_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1764,7 +2304,11 @@
     "group":"LocalIncreasedArmourAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour"],
-    "statOrder":[1542,1569],
+    "statOrder":[1547,1574],
+    "tradeHashes":{
+      "1062208444":["(24-28)% increased Armour"],
+      "3299347043":["+(23-26) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","str_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1776,7 +2320,11 @@
     "group":"LocalIncreasedArmourAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour"],
-    "statOrder":[1542,1569],
+    "statOrder":[1547,1574],
+    "tradeHashes":{
+      "1062208444":["(24-28)% increased Armour"],
+      "3299347043":["+(19-22) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","str_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1788,7 +2336,11 @@
     "group":"LocalIncreasedArmourAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour"],
-    "statOrder":[1542,1569],
+    "statOrder":[1547,1574],
+    "tradeHashes":{
+      "1062208444":["(24-28)% increased Armour"],
+      "3299347043":["+(17-19) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","str_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1800,7 +2352,11 @@
     "group":"LocalIncreasedDefencesAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","evasion","energy_shield"],
-    "statOrder":[1555,1569],
+    "statOrder":[1560,1574],
+    "tradeHashes":{
+      "3299347043":["+(17-19) to maximum Life"],
+      "3523867985":["(24-28)% increased Armour, Evasion and Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","str_dex_int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1812,7 +2368,11 @@
     "group":"LocalIncreasedDefencesAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","evasion","energy_shield"],
-    "statOrder":[1555,1569],
+    "statOrder":[1560,1574],
+    "tradeHashes":{
+      "3299347043":["+(23-26) to maximum Life"],
+      "3523867985":["(24-28)% increased Armour, Evasion and Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","str_dex_int_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1824,7 +2384,11 @@
     "group":"LocalIncreasedDefencesAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","armour","evasion","energy_shield"],
-    "statOrder":[1555,1569],
+    "statOrder":[1560,1574],
+    "tradeHashes":{
+      "3299347043":["+(19-22) to maximum Life"],
+      "3523867985":["(24-28)% increased Armour, Evasion and Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","str_dex_int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1836,7 +2400,11 @@
     "group":"LocalIncreasedEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","energy_shield"],
-    "statOrder":[1560,1569],
+    "statOrder":[1565,1574],
+    "tradeHashes":{
+      "3299347043":["+(23-26) to maximum Life"],
+      "4015621042":["(24-28)% increased Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","int_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1848,7 +2416,11 @@
     "group":"LocalIncreasedEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","energy_shield"],
-    "statOrder":[1560,1569],
+    "statOrder":[1565,1574],
+    "tradeHashes":{
+      "3299347043":["+(19-22) to maximum Life"],
+      "4015621042":["(24-28)% increased Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1860,7 +2432,11 @@
     "group":"LocalIncreasedEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","energy_shield"],
-    "statOrder":[1560,1569],
+    "statOrder":[1565,1574],
+    "tradeHashes":{
+      "3299347043":["+(17-19) to maximum Life"],
+      "4015621042":["(24-28)% increased Energy Shield"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1872,7 +2448,11 @@
     "group":"LocalIncreasedEvasionAndEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","evasion","energy_shield"],
-    "statOrder":[1554,1569],
+    "statOrder":[1559,1574],
+    "tradeHashes":{
+      "1999113824":["(24-28)% increased Evasion and Energy Shield"],
+      "3299347043":["+(17-19) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","dex_int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1884,7 +2464,11 @@
     "group":"LocalIncreasedEvasionAndEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","evasion","energy_shield"],
-    "statOrder":[1554,1569],
+    "statOrder":[1559,1574],
+    "tradeHashes":{
+      "1999113824":["(24-28)% increased Evasion and Energy Shield"],
+      "3299347043":["+(23-26) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","dex_int_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1896,7 +2480,11 @@
     "group":"LocalIncreasedEvasionAndEnergyShieldAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","evasion","energy_shield"],
-    "statOrder":[1554,1569],
+    "statOrder":[1559,1574],
+    "tradeHashes":{
+      "1999113824":["(24-28)% increased Evasion and Energy Shield"],
+      "3299347043":["+(19-22) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","dex_int_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1908,7 +2496,11 @@
     "group":"LocalIncreasedEvasionAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","evasion"],
-    "statOrder":[1550,1569],
+    "statOrder":[1555,1574],
+    "tradeHashes":{
+      "124859000":["(24-28)% increased Evasion Rating"],
+      "3299347043":["+(23-26) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["shield","helmet","gloves","boots","dex_armour","default"],
     "weightVal":[0,0,0,0,1000,0],
@@ -1920,7 +2512,11 @@
     "group":"LocalIncreasedEvasionAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","evasion"],
-    "statOrder":[1550,1569],
+    "statOrder":[1555,1574],
+    "tradeHashes":{
+      "124859000":["(24-28)% increased Evasion Rating"],
+      "3299347043":["+(19-22) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","gloves","boots","dex_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1932,7 +2528,11 @@
     "group":"LocalIncreasedEvasionAndLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","defences","evasion"],
-    "statOrder":[1550,1569],
+    "statOrder":[1555,1574],
+    "tradeHashes":{
+      "124859000":["(24-28)% increased Evasion Rating"],
+      "3299347043":["+(17-19) to maximum Life"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","shield","helmet","dex_armour","default"],
     "weightVal":[0,0,0,1000,0],
@@ -1944,7 +2544,11 @@
     "group":"LocalIncreasedPhysicalDamageAndBleedChance",
     "level":60,
     "modTags":["physical_damage","bleed","unveiled_mod","damage","physical","attack","ailment"],
-    "statOrder":[1232,2483],
+    "statOrder":[1237,2488],
+    "tradeHashes":{
+      "1519615863":["(21-25)% chance to cause Bleeding on Hit"],
+      "1805374733":["(120-139)% increased Physical Damage"]
+    },
     "type":"Prefix",
     "weightKey":["wand","sceptre","dagger","weapon","default"],
     "weightVal":[500,500,500,1000,0],
@@ -1956,7 +2560,11 @@
     "group":"LocalIncreasedPhysicalDamageAndBlindChance",
     "level":60,
     "modTags":["physical_damage","unveiled_mod","damage","physical","attack"],
-    "statOrder":[1232,2263],
+    "statOrder":[1237,2268],
+    "tradeHashes":{
+      "1805374733":["(120-139)% increased Physical Damage"],
+      "2301191210":["(21-25)% chance to Blind Enemies on hit"]
+    },
     "type":"Prefix",
     "weightKey":["wand","sceptre","dagger","weapon","default"],
     "weightVal":[500,500,500,1000,0],
@@ -1968,7 +2576,11 @@
     "group":"LocalIncreasedPhysicalDamageAndImpaleChance",
     "level":60,
     "modTags":["physical_damage","unveiled_mod","damage","physical","attack"],
-    "statOrder":[1232,7860],
+    "statOrder":[1237,7865],
+    "tradeHashes":{
+      "725880290":["(21-25)% chance to Impale Enemies on Hit with Attacks"],
+      "1805374733":["(120-139)% increased Physical Damage"]
+    },
     "type":"Prefix",
     "weightKey":["wand","sceptre","dagger","weapon","default"],
     "weightVal":[500,500,500,1000,0],
@@ -1980,7 +2592,11 @@
     "group":"LocalIncreasedPhysicalDamageAndPoisonChance",
     "level":60,
     "modTags":["physical_damage","chaos_damage","bleed","poison","unveiled_mod","damage","physical","chaos","attack","ailment"],
-    "statOrder":[1232,8002],
+    "statOrder":[1237,8007],
+    "tradeHashes":{
+      "1805374733":["(120-139)% increased Physical Damage"],
+      "3885634897":["(21-25)% chance to Poison on Hit"]
+    },
     "type":"Prefix",
     "weightKey":["wand","sceptre","dagger","weapon","default"],
     "weightVal":[500,500,500,1000,0],
@@ -1992,7 +2608,12 @@
     "group":"LuckyCriticalsDuringFocusCDR",
     "level":60,
     "modTags":["unveiled_mod","critical"],
-    "statOrder":[6530,6653],
+    "statOrder":[6535,6658],
+    "tradeHashes":{
+      "1349659520":["Your Critical Strike Chance is Lucky while Focused"],
+      "1533152070":[""],
+      "3610263531":["Focus has (5-8)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["belt","default"],
     "weightVal":[1000,0],
@@ -2004,7 +2625,11 @@
     "group":"ManaAndDamageTakenGoesToManaPercent",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[1579,2455],
+    "statOrder":[1584,2460],
+    "tradeHashes":{
+      "472520716":["(7-8)% of Damage taken Recouped as Mana"],
+      "1050105434":["+(51-55) to maximum Mana"]
+    },
     "type":"Prefix",
     "weightKey":["ring","amulet","default"],
     "weightVal":[600,600,0],
@@ -2016,7 +2641,11 @@
     "group":"ManaAndManaCostPercent",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[1579,1883],
+    "statOrder":[1584,1888],
+    "tradeHashes":{
+      "474294393":["(6-7)% reduced Mana Cost of Skills"],
+      "1050105434":["+(51-55) to maximum Mana"]
+    },
     "type":"Prefix",
     "weightKey":["ring","amulet","default"],
     "weightVal":[600,600,0],
@@ -2028,7 +2657,10 @@
     "group":"ManaRegenerationRatePercentageIfCorpseConsumedRecently",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[8194],
+    "statOrder":[8199],
+    "tradeHashes":{
+      "1309492287":["Regenerate 2% of Mana per second if you've Consumed a corpse Recently"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2039,7 +2671,10 @@
     "group":"AdditionalCurseOnEnemies",
     "level":60,
     "modTags":["unveiled_mod","caster","curse"],
-    "statOrder":[2168],
+    "statOrder":[2173],
+    "tradeHashes":{
+      "30642521":["You can apply an additional Curse"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[0,0],
@@ -2050,7 +2685,10 @@
     "group":"MaximumSpectreCount",
     "level":60,
     "modTags":["unveiled_mod","minion"],
-    "statOrder":[2161],
+    "statOrder":[2166],
+    "tradeHashes":{
+      "125218179":["+1 to maximum number of Spectres"]
+    },
     "type":"Prefix",
     "weightKey":["weapon","helmet","quiver","flask","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2061,7 +2699,12 @@
     "group":"MaximumMinionCountAndMinionLife",
     "level":60,
     "modTags":["unveiled_mod","minion"],
-    "statOrder":[1766,2160,2162],
+    "statOrder":[1771,2165,2167],
+    "tradeHashes":{
+      "770672621":["Minions have (8-10)% increased maximum Life"],
+      "1652515349":["+1 to maximum number of Raised Zombies"],
+      "2428829184":["+1 to maximum number of Skeletons"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","body_armour","default"],
     "weightVal":[2000,0,0],
@@ -2074,7 +2717,11 @@
     "group":"MeleeDamageAndMeleeRange",
     "level":60,
     "modTags":["unveiled_mod","damage","attack"],
-    "statOrder":[1234,2534],
+    "statOrder":[1239,2539],
+    "tradeHashes":{
+      "1002362373":["(17-20)% increased Melee Damage"],
+      "2264295449":["+0.2 metres to Melee Strike Range"]
+    },
     "type":"Prefix",
     "weightKey":["gloves","default"],
     "weightVal":[750,0],
@@ -2086,7 +2733,11 @@
     "group":"MeleeRangeAndMeleeGemLevel",
     "level":60,
     "modTags":["unveiled_mod","attack","attack","gem"],
-    "statOrder":[179,2534],
+    "statOrder":[184,2539],
+    "tradeHashes":{
+      "829382474":["+2 to Level of Socketed Melee Gems"],
+      "2264295449":["+0.2 metres to Melee Strike Range"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","default"],
     "weightVal":[1500,0],
@@ -2098,7 +2749,10 @@
     "group":"MineLayingSpeed",
     "level":60,
     "modTags":["unveiled_mod","speed"],
-    "statOrder":[1928],
+    "statOrder":[1933],
+    "tradeHashes":{
+      "1896971621":["(14-16)% increased Mine Throwing Speed"]
+    },
     "type":"Suffix",
     "weightKey":["amulet","helmet","default"],
     "weightVal":[1000,1000,0],
@@ -2109,7 +2763,11 @@
     "group":"MinimumEnduranceChargesAndOnKillLose",
     "level":60,
     "modTags":["endurance_charge","unveiled_mod"],
-    "statOrder":[1803,2630],
+    "statOrder":[1808,2635],
+    "tradeHashes":{
+      "627015097":["(3-4)% chance to lose an Endurance Charge on Kill"],
+      "3706959521":["+1 to Minimum Endurance Charges"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2121,7 +2779,11 @@
     "group":"MinimumEnduranceChargesAndOnKillChance",
     "level":60,
     "modTags":["endurance_charge","unveiled_mod"],
-    "statOrder":[1803,2629],
+    "statOrder":[1808,2634],
+    "tradeHashes":{
+      "1054322244":["(3-4)% chance to gain an Endurance Charge on Kill"],
+      "3706959521":["+1 to Minimum Endurance Charges"]
+    },
     "type":"Suffix",
     "weightKey":["ring","amulet","default"],
     "weightVal":[1500,1500,0],
@@ -2133,7 +2795,11 @@
     "group":"MinimumFrenzyChargesAndOnKillLose",
     "level":60,
     "modTags":["frenzy_charge","unveiled_mod"],
-    "statOrder":[1808,2632],
+    "statOrder":[1813,2637],
+    "tradeHashes":{
+      "658456881":["+1 to Minimum Frenzy Charges"],
+      "2142803347":["(3-4)% chance to lose a Frenzy Charge on Kill"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2145,7 +2811,11 @@
     "group":"MinimumFrenzyChargesAndOnKillChance",
     "level":60,
     "modTags":["frenzy_charge","unveiled_mod"],
-    "statOrder":[1808,2631],
+    "statOrder":[1813,2636],
+    "tradeHashes":{
+      "658456881":["+1 to Minimum Frenzy Charges"],
+      "1826802197":["(3-4)% chance to gain a Frenzy Charge on Kill"]
+    },
     "type":"Suffix",
     "weightKey":["ring","amulet","default"],
     "weightVal":[1500,1500,0],
@@ -2157,7 +2827,11 @@
     "group":"MinimumPowerChargesAndOnKillChance",
     "level":60,
     "modTags":["power_charge","unveiled_mod"],
-    "statOrder":[1813,2633],
+    "statOrder":[1818,2638],
+    "tradeHashes":{
+      "1999711879":["+1 to Minimum Power Charges"],
+      "2483795307":["(3-4)% chance to gain a Power Charge on Kill"]
+    },
     "type":"Suffix",
     "weightKey":["ring","amulet","default"],
     "weightVal":[1500,1500,0],
@@ -2169,7 +2843,11 @@
     "group":"MinimumPowerChargesAndOnKillLose",
     "level":60,
     "modTags":["power_charge","unveiled_mod"],
-    "statOrder":[1813,2634],
+    "statOrder":[1818,2639],
+    "tradeHashes":{
+      "1999711879":["+1 to Minimum Power Charges"],
+      "2939195168":["(3-4)% chance to lose a Power Charge on Kill"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2181,7 +2859,11 @@
     "group":"MinionAttackAndCastSpeedOnWeapon",
     "level":60,
     "modTags":["unveiled_mod","attack","caster","speed","minion"],
-    "statOrder":[2907,2908],
+    "statOrder":[2912,2913],
+    "tradeHashes":{
+      "3375935924":["Minions have (18-20)% increased Attack Speed"],
+      "4000101551":["Minions have (18-20)% increased Cast Speed"]
+    },
     "type":"Suffix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,400,0],
@@ -2193,7 +2875,11 @@
     "group":"MinionAttackAndCastSpeedOnWeapon",
     "level":60,
     "modTags":["unveiled_mod","attack","caster","speed","minion"],
-    "statOrder":[2907,2908],
+    "statOrder":[2912,2913],
+    "tradeHashes":{
+      "3375935924":["Minions have (34-38)% increased Attack Speed"],
+      "4000101551":["Minions have (34-38)% increased Cast Speed"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","staff","weapon","default"],
     "weightVal":[0,1000,400,0],
@@ -2205,7 +2891,10 @@
     "group":"MinionAttackSpeedAlsoAffectsYou",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[3752],
+    "statOrder":[3757],
+    "tradeHashes":{
+      "2293111154":["Increases and Reductions to Minion Attack Speed also affect you"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","helmet","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2216,7 +2905,10 @@
     "group":"MinionCastSpeedAlsoAffectsYou",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[3753],
+    "statOrder":[3758],
+    "tradeHashes":{
+      "2284852387":["Increases and Reductions to Minion Cast Speed also affect you"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","helmet","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2227,7 +2919,10 @@
     "group":"MinionDamageAlsoAffectsYou",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[3750],
+    "statOrder":[3755],
+    "tradeHashes":{
+      "1631928082":["Increases and Reductions to Minion Damage also affect you"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","helmet","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2238,7 +2933,11 @@
     "group":"MinionDamageAndMinionMaximumLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","damage","minion"],
-    "statOrder":[1766,1973],
+    "statOrder":[1771,1978],
+    "tradeHashes":{
+      "770672621":["Minions have (34-38)% increased maximum Life"],
+      "1589917703":["Minions deal (34-38)% increased Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,400,0],
@@ -2250,7 +2949,11 @@
     "group":"MinionDamageAndMinionMaximumLife",
     "level":60,
     "modTags":["resource","unveiled_mod","life","damage","minion"],
-    "statOrder":[1766,1973],
+    "statOrder":[1771,1978],
+    "tradeHashes":{
+      "770672621":["Minions have (50-59)% increased maximum Life"],
+      "1589917703":["Minions deal (50-59)% increased Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","staff","weapon","default"],
     "weightVal":[0,1000,400,0],
@@ -2262,7 +2965,10 @@
     "group":"MinionLargerAggroRadius",
     "level":60,
     "modTags":["unveiled_mod","minion"],
-    "statOrder":[10760],
+    "statOrder":[10759],
+    "tradeHashes":{
+      "128585622":["Minions are Aggressive"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","helmet","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2273,7 +2979,10 @@
     "group":"MinionSkillCastSpeed",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[5465],
+    "statOrder":[5470],
+    "tradeHashes":{
+      "1516375869":["(20-40)% increased Cast Speed with Minion Skills"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","helmet","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2284,7 +2993,12 @@
     "group":"MinionsRecoverMaximumLifeWhenYouFocusCDR",
     "level":60,
     "modTags":["resource","unveiled_mod","life","minion"],
-    "statOrder":[6653,9366],
+    "statOrder":[6658,9370],
+    "tradeHashes":{
+      "1533152070":[""],
+      "3500359417":["Minions Recover 100% of their Life when you Focus"],
+      "3610263531":["Focus has (5-8)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["gloves","default"],
     "weightVal":[2000,0],
@@ -2296,7 +3010,11 @@
     "group":"MovementVelocityAndCannotBeChilled",
     "level":60,
     "modTags":["unveiled_mod","elemental","cold","speed","ailment"],
-    "statOrder":[1798,1844],
+    "statOrder":[1803,1849],
+    "tradeHashes":{
+      "2250533757":["(25-30)% increased Movement Speed"],
+      "3483999943":["100% chance to Avoid being Chilled"]
+    },
     "type":"Prefix",
     "weightKey":["boots","default"],
     "weightVal":[1500,0],
@@ -2308,7 +3026,11 @@
     "group":"MovementVelocityAndMovementVelocityIfNotHitRecently",
     "level":60,
     "modTags":["unveiled_mod","speed"],
-    "statOrder":[1798,3223],
+    "statOrder":[1803,3228],
+    "tradeHashes":{
+      "1177358866":["(10-12)% increased Movement Speed if you haven't been Hit Recently"],
+      "2250533757":["(25-30)% increased Movement Speed"]
+    },
     "type":"Prefix",
     "weightKey":["boots","default"],
     "weightVal":[1500,0],
@@ -2320,7 +3042,11 @@
     "group":"MovementVelocityAndOnslaughtOnKill",
     "level":60,
     "modTags":["unveiled_mod","speed"],
-    "statOrder":[1798,2993],
+    "statOrder":[1803,2998],
+    "tradeHashes":{
+      "2250533757":["(25-30)% increased Movement Speed"],
+      "2988593550":["(13-16)% chance to gain Onslaught for 4 seconds on Kill"]
+    },
     "type":"Prefix",
     "weightKey":["boots","default"],
     "weightVal":[1500,0],
@@ -2332,7 +3058,10 @@
     "group":"OfferingDuration",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[9552],
+    "statOrder":[9551],
+    "tradeHashes":{
+      "2957407601":["Offering Skills have 20% increased Duration"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2343,7 +3072,10 @@
     "group":"OfferingEffect",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[4063],
+    "statOrder":[4068],
+    "tradeHashes":{
+      "3191479793":["20% increased effect of Offerings"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2354,7 +3086,10 @@
     "group":"PercentageAllAttributes",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1183],
+    "statOrder":[1188],
+    "tradeHashes":{
+      "3143208761":["(7-8)% increased Attributes"]
+    },
     "type":"Suffix",
     "weightKey":["hillock_veiled_suffix","default"],
     "weightVal":[2000,0],
@@ -2365,7 +3100,11 @@
     "group":"PercentageLifeAndMana",
     "level":60,
     "modTags":["resource","unveiled_mod","life","mana"],
-    "statOrder":[1571,1580],
+    "statOrder":[1576,1585],
+    "tradeHashes":{
+      "983749596":["(9-10)% increased maximum Life"],
+      "2748665614":["(9-10)% increased maximum Mana"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[2000,0],
@@ -2377,7 +3116,10 @@
     "group":"PhysicalAddedAsChaos",
     "level":60,
     "modTags":["physical_damage","chaos_damage","unveiled_mod","damage","physical","chaos"],
-    "statOrder":[1935],
+    "statOrder":[1940],
+    "tradeHashes":{
+      "3319896421":["Gain (9-10)% of Physical Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","it_veiled_prefix","default"],
     "weightVal":[0,2000,0],
@@ -2388,7 +3130,10 @@
     "group":"PhysicalAddedAsChaos",
     "level":60,
     "modTags":["physical_damage","chaos_damage","unveiled_mod","damage","physical","chaos"],
-    "statOrder":[1935],
+    "statOrder":[1940],
+    "tradeHashes":{
+      "3319896421":["Gain (18-20)% of Physical Damage as Extra Chaos Damage"]
+    },
     "type":"Prefix",
     "weightKey":["one_hand_weapon","shield","it_veiled_prefix","default"],
     "weightVal":[0,0,2000,0],
@@ -2399,7 +3144,10 @@
     "group":"ConvertPhysicalToCold",
     "level":60,
     "modTags":["physical_damage","elemental_damage","unveiled_mod","damage","physical","elemental","cold"],
-    "statOrder":[1957],
+    "statOrder":[1962],
+    "tradeHashes":{
+      "2133341901":["(30-35)% of Physical Damage Converted to Cold Damage"]
+    },
     "type":"Prefix",
     "weightKey":["gloves","default"],
     "weightVal":[2000,0],
@@ -2410,7 +3158,10 @@
     "group":"ConvertPhysicalToFire",
     "level":60,
     "modTags":["physical_damage","elemental_damage","unveiled_mod","damage","physical","elemental","fire"],
-    "statOrder":[1955],
+    "statOrder":[1960],
+    "tradeHashes":{
+      "1533563525":["(30-35)% of Physical Damage Converted to Fire Damage"]
+    },
     "type":"Prefix",
     "weightKey":["gloves","default"],
     "weightVal":[2000,0],
@@ -2421,7 +3172,10 @@
     "group":"ConvertPhysicalToLightning",
     "level":60,
     "modTags":["physical_damage","elemental_damage","unveiled_mod","damage","physical","elemental","lightning"],
-    "statOrder":[1959],
+    "statOrder":[1964],
+    "tradeHashes":{
+      "3240769289":["(30-35)% of Physical Damage Converted to Lightning Damage"]
+    },
     "type":"Prefix",
     "weightKey":["gloves","default"],
     "weightVal":[2000,0],
@@ -2432,7 +3186,10 @@
     "group":"PhysicalDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","physical_damage","unveiled_mod","damage","physical"],
-    "statOrder":[1247],
+    "statOrder":[1252],
+    "tradeHashes":{
+      "1314617696":["+(24-28)% to Physical Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["bow","two_hand_weapon","wand","weapon","default"],
     "weightVal":[400,0,1000,400,0],
@@ -2443,7 +3200,10 @@
     "group":"PhysicalDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","physical_damage","unveiled_mod","damage","physical"],
-    "statOrder":[1247],
+    "statOrder":[1252],
+    "tradeHashes":{
+      "1314617696":["+(24-28)% to Physical Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2454,7 +3214,10 @@
     "group":"PhysicalDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","physical_damage","unveiled_mod","damage","physical"],
-    "statOrder":[1247],
+    "statOrder":[1252],
+    "tradeHashes":{
+      "1314617696":["+(44-48)% to Physical Damage over Time Multiplier"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2465,7 +3228,10 @@
     "group":"PhysicalDamageOverTimeMultiplier",
     "level":60,
     "modTags":["dot_multi","physical_damage","unveiled_mod","damage","physical"],
-    "statOrder":[1247],
+    "statOrder":[1252],
+    "tradeHashes":{
+      "1314617696":["+(44-48)% to Physical Damage over Time Multiplier"]
+    },
     "type":"Suffix",
     "weightKey":["one_hand_weapon","bow","staff","weapon","default"],
     "weightVal":[0,0,1000,400,0],
@@ -2476,7 +3242,11 @@
     "group":"PhysicalDamageReductionDuringFocus",
     "level":60,
     "modTags":["unveiled_mod","physical"],
-    "statOrder":[4572],
+    "statOrder":[4577],
+    "tradeHashes":{
+      "1533152070":[""],
+      "3753650187":["(13-15)% additional Physical Damage Reduction while Focused"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","gloves","default"],
     "weightVal":[1500,1500,0],
@@ -2487,7 +3257,10 @@
     "group":"PhysicalDamageReductionRatingDuringSoulGainPrevention",
     "level":60,
     "modTags":["unveiled_mod","physical"],
-    "statOrder":[9651],
+    "statOrder":[9650],
+    "tradeHashes":{
+      "1539825365":["+(3201-4000) to Armour during Soul Gain Prevention"]
+    },
     "type":"Prefix",
     "weightKey":["shield","body_armour","default"],
     "weightVal":[1000,1000,0],
@@ -2498,7 +3271,10 @@
     "group":"PhysicalDamageTakenAsFirePercent",
     "level":60,
     "modTags":["unveiled_mod","physical","elemental","fire"],
-    "statOrder":[2447],
+    "statOrder":[2452],
+    "tradeHashes":{
+      "3342989455":["(9-10)% of Physical Damage from Hits taken as Fire Damage"]
+    },
     "type":"Prefix",
     "weightKey":["keema_veiled_prefix","default"],
     "weightVal":[0,0],
@@ -2509,7 +3285,11 @@
     "group":"PhysicalDamageTakenAsFireAndLightningPercent",
     "level":60,
     "modTags":["unveiled_mod","physical","elemental","fire","lightning"],
-    "statOrder":[2447,2449],
+    "statOrder":[2452,2454],
+    "tradeHashes":{
+      "425242359":["(8-9)% of Physical Damage from Hits taken as Lightning Damage"],
+      "3342989455":["(8-9)% of Physical Damage from Hits taken as Fire Damage"]
+    },
     "type":"Prefix",
     "weightKey":["gravicius_veiled_prefix","default"],
     "weightVal":[0,0],
@@ -2521,7 +3301,11 @@
     "group":"ProjectileDamageAndProjectileSpeed",
     "level":60,
     "modTags":["unveiled_mod","damage","speed"],
-    "statOrder":[1796,1996],
+    "statOrder":[1801,2001],
+    "tradeHashes":{
+      "1839076647":["(17-20)% increased Projectile Damage"],
+      "3759663284":["(23-25)% increased Projectile Speed"]
+    },
     "type":"Prefix",
     "weightKey":["gloves","default"],
     "weightVal":[750,0],
@@ -2533,7 +3317,11 @@
     "group":"ProjectilePierceAndProjectileGemLevel",
     "level":60,
     "modTags":["unveiled_mod","gem"],
-    "statOrder":[177,1790],
+    "statOrder":[182,1795],
+    "tradeHashes":{
+      "2067062068":["Projectiles Pierce an additional Target"],
+      "2176571093":["+2 to Level of Socketed Projectile Gems"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","default"],
     "weightVal":[1500,0],
@@ -2545,7 +3333,10 @@
     "group":"IncreaseManaCostFlat",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[1891],
+    "statOrder":[1896],
+    "tradeHashes":{
+      "3736589033":["-(10-9) to Total Mana Cost of Skills"]
+    },
     "type":"Prefix",
     "weightKey":["elreon_veiled_prefix","default"],
     "weightVal":[0,0],
@@ -2556,7 +3347,10 @@
     "group":"ManaCostBaseChannelled",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[10061],
+    "statOrder":[10060],
+    "tradeHashes":{
+      "1178188780":["Channelling Skills Cost -4 Mana"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2567,7 +3361,10 @@
     "group":"ManaCostTotalChannelled",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[10060],
+    "statOrder":[10059],
+    "tradeHashes":{
+      "2421446548":["Channelling Skills have -4 to Total Mana Cost"]
+    },
     "type":"Prefix",
     "weightKey":["elreon_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -2578,7 +3375,10 @@
     "group":"ManaCostTotalNonChannelled",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[10062],
+    "statOrder":[10061],
+    "tradeHashes":{
+      "677564538":["Non-Channelling Skills have -(10-9) to Total Mana Cost"]
+    },
     "type":"Prefix",
     "weightKey":["elreon_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -2589,7 +3389,10 @@
     "group":"ManaCostBaseNonChannelled",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[10063],
+    "statOrder":[10062],
+    "tradeHashes":{
+      "407482587":["Non-Channelling Skills Cost -(10-9) Mana"]
+    },
     "type":"Prefix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2600,7 +3403,11 @@
     "group":"RestoreManaAndEnergyShieldOnFocus",
     "level":60,
     "modTags":["resource","unveiled_mod","mana","defences","energy_shield"],
-    "statOrder":[9924],
+    "statOrder":[9923],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2992263716":["Recover (37-40)% of Mana and Energy Shield when you Focus"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","default"],
     "weightVal":[1000,0],
@@ -2611,7 +3418,12 @@
     "group":"ShockNearbyEnemiesOnFocusCDR",
     "level":60,
     "modTags":["unveiled_mod","elemental","lightning","ailment"],
-    "statOrder":[6653,10013],
+    "statOrder":[6658,10012],
+    "tradeHashes":{
+      "1533152070":[""],
+      "3031766858":["Shock nearby Enemies for 4 Seconds when you Focus"],
+      "3610263531":["Focus has (5-8)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["ring","default"],
     "weightVal":[1000,0],
@@ -2623,7 +3435,12 @@
     "group":"ShockYourselfOnFocusCDR",
     "level":60,
     "modTags":["unveiled_mod","elemental","lightning","ailment"],
-    "statOrder":[6653,10012],
+    "statOrder":[6658,10011],
+    "tradeHashes":{
+      "1533152070":[""],
+      "3181879507":["Shock yourself for 4 Seconds when you Focus"],
+      "3610263531":["Focus has (5-8)% reduced Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["default"],
     "weightVal":[0],
@@ -2635,7 +3452,11 @@
     "group":"SkillAreaOfEffectPercentAndAreaOfEffectGemLevel",
     "level":60,
     "modTags":["unveiled_mod","gem"],
-    "statOrder":[176,1880],
+    "statOrder":[181,1885],
+    "tradeHashes":{
+      "280731498":["(8-10)% increased Area of Effect"],
+      "2551600084":["+2 to Level of Socketed AoE Gems"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","default"],
     "weightVal":[1500,0],
@@ -2647,7 +3468,12 @@
     "group":"SkillsCostNoManaWhileFocusedCDR",
     "level":60,
     "modTags":["resource","unveiled_mod","mana"],
-    "statOrder":[6653,10065],
+    "statOrder":[6658,10064],
+    "tradeHashes":{
+      "849152640":["Non-Aura Skills Cost no Mana or Life while Focused"],
+      "1533152070":[""],
+      "3610263531":["Focus has (5-8)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["amulet","default"],
     "weightVal":[0,0],
@@ -2659,7 +3485,10 @@
     "group":"SocketedGemQuality",
     "level":60,
     "modTags":["unveiled_mod","gem"],
-    "statOrder":[204],
+    "statOrder":[209],
+    "tradeHashes":{
+      "3828613551":["+(9-10)% to Quality of Socketed Gems"]
+    },
     "type":"Prefix",
     "weightKey":["haku_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -2670,7 +3499,10 @@
     "group":"SpectresAdditionalBaseCriticalChance",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[10115],
+    "statOrder":[10114],
+    "tradeHashes":{
+      "2341487846":["Raised Spectres have +(3-5)% to Critical Strike Chance"]
+    },
     "type":"Prefix",
     "weightKey":["weapon","helmet","quiver","flask","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2681,7 +3513,10 @@
     "group":"SpectresAdditionalProjectiles",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[10123],
+    "statOrder":[10122],
+    "tradeHashes":{
+      "1275218140":["Raised Spectres fire 2 additional Projectiles"]
+    },
     "type":"Prefix",
     "weightKey":["weapon","helmet","quiver","flask","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2692,7 +3527,10 @@
     "group":"SpectresAreaOfEffect",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[10118],
+    "statOrder":[10117],
+    "tradeHashes":{
+      "3724637507":["Raised Spectres have (30-50)% increased Area of Effect"]
+    },
     "type":"Prefix",
     "weightKey":["weapon","helmet","quiver","flask","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2703,7 +3541,10 @@
     "group":"SpectresBaseMaximumAllResistance",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[10117],
+    "statOrder":[10116],
+    "tradeHashes":{
+      "2472962676":["Raised Spectres have +(5-10)% to all maximum Resistances"]
+    },
     "type":"Prefix",
     "weightKey":["weapon","helmet","quiver","flask","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2714,7 +3555,10 @@
     "group":"SpellBlockPercentage",
     "level":60,
     "modTags":["block","unveiled_mod"],
-    "statOrder":[1160],
+    "statOrder":[1165],
+    "tradeHashes":{
+      "561307714":["(9-10)% Chance to Block Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[2000,0],
@@ -2725,7 +3569,11 @@
     "group":"SpellDamageAndManaRegenerationRate",
     "level":60,
     "modTags":["caster_damage","resource","unveiled_mod","mana","damage","caster"],
-    "statOrder":[1223,1584],
+    "statOrder":[1228,1589],
+    "tradeHashes":{
+      "789117908":["(18-20)% increased Mana Regeneration Rate"],
+      "2974417149":["(70-79)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,100,0],
@@ -2737,7 +3585,11 @@
     "group":"SpellDamageAndManaRegenerationRate",
     "level":60,
     "modTags":["caster_damage","resource","unveiled_mod","mana","damage","caster"],
-    "statOrder":[1223,1584],
+    "statOrder":[1228,1589],
+    "tradeHashes":{
+      "789117908":["(36-40)% increased Mana Regeneration Rate"],
+      "2974417149":["(100-109)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["bow","staff","two_hand_weapon","default"],
     "weightVal":[0,1000,100,0],
@@ -2749,7 +3601,11 @@
     "group":"SpellDamageAndNonChaosDamageToAddAsChaosDamage",
     "level":60,
     "modTags":["caster_damage","chaos_damage","unveiled_mod","damage","chaos","caster"],
-    "statOrder":[1223,9488],
+    "statOrder":[1228,9487],
+    "tradeHashes":{
+      "2063695047":["Gain 5% of Non-Chaos Damage as extra Chaos Damage"],
+      "2974417149":["(60-69)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["two_hand_weapon","wand","dagger","sceptre","weapon","default"],
     "weightVal":[0,1000,1000,1000,100,0],
@@ -2761,7 +3617,11 @@
     "group":"SpellDamageAndNonChaosDamageToAddAsChaosDamage",
     "level":60,
     "modTags":["caster_damage","chaos_damage","unveiled_mod","damage","chaos","caster"],
-    "statOrder":[1223,9488],
+    "statOrder":[1228,9487],
+    "tradeHashes":{
+      "2063695047":["Gain (9-10)% of Non-Chaos Damage as extra Chaos Damage"],
+      "2974417149":["(90-99)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["bow","staff","two_hand_weapon","default"],
     "weightVal":[0,1000,100,0],
@@ -2773,7 +3633,10 @@
     "group":"ChanceToSuppressSpellsOld",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[1142],
+    "statOrder":[1147],
+    "tradeHashes":{
+      "492027537":["+(18-21)% chance to Suppress Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","default"],
     "weightVal":[0,0],
@@ -2784,7 +3647,11 @@
     "group":"StatusAilmentsYouInflictDurationWhileFocused",
     "level":60,
     "modTags":["unveiled_mod","ailment"],
-    "statOrder":[10224],
+    "statOrder":[10223],
+    "tradeHashes":{
+      "1533152070":[""],
+      "1840751341":["(36-40)% increased Duration of Ailments you inflict while Focused"]
+    },
     "type":"Suffix",
     "weightKey":["helmet","default"],
     "weightVal":[1000,0],
@@ -2795,7 +3662,11 @@
     "group":"StrengthAndAvoidIgnite",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1177,1846],
+    "statOrder":[1182,1851],
+    "tradeHashes":{
+      "1783006896":["(21-25)% chance to Avoid being Ignited"],
+      "4080418644":["+(31-35) to Strength"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","shield","default"],
     "weightVal":[1000,1000,0],
@@ -2807,7 +3678,10 @@
     "group":"StrengthAndDexterity",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1180],
+    "statOrder":[1185],
+    "tradeHashes":{
+      "538848803":["+(31-35) to Strength and Dexterity"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","boots","gloves","helmet","amulet","ring","belt","shield","quiver","default"],
     "weightVal":[600,600,600,600,600,600,600,600,600,0],
@@ -2818,7 +3692,10 @@
     "group":"StrengthAndIntelligence",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1181],
+    "statOrder":[1186],
+    "tradeHashes":{
+      "1535626285":["+(31-35) to Strength and Intelligence"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","boots","gloves","helmet","amulet","ring","belt","shield","quiver","default"],
     "weightVal":[600,600,600,600,600,600,600,600,600,0],
@@ -2829,7 +3706,11 @@
     "group":"StrengthAndLocalItemQuality",
     "level":60,
     "modTags":["unveiled_mod","attribute"],
-    "statOrder":[1177,7950],
+    "statOrder":[1182,7955],
+    "tradeHashes":{
+      "2016708976":["+(15-18)% to Quality"],
+      "4080418644":["+(31-35) to Strength"]
+    },
     "type":"Suffix",
     "weightKey":["body_armour","shield","default"],
     "weightVal":[0,0,0],
@@ -2841,7 +3722,10 @@
     "group":"SummonTotemCastSpeed",
     "level":60,
     "modTags":["unveiled_mod","speed"],
-    "statOrder":[2578],
+    "statOrder":[2583],
+    "tradeHashes":{
+      "3374165039":["(36-40)% increased Totem Placement speed"]
+    },
     "type":"Suffix",
     "weightKey":["boots","amulet","default"],
     "weightVal":[1000,1000,0],
@@ -2852,7 +3736,11 @@
     "group":"ArcaneSurgeAndSpellDamage",
     "level":60,
     "modTags":["support_gem","caster_damage","unveiled_mod","damage","caster"],
-    "statOrder":[226,1223],
+    "statOrder":[231,1228],
+    "tradeHashes":{
+      "2287264161":["Socketed Gems are Supported by Level 1 Arcane Surge"],
+      "2974417149":["(80-89)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2864,7 +3752,11 @@
     "group":"CastOnCritAndSpellDamage",
     "level":60,
     "modTags":["support_gem","caster_damage","unveiled_mod","damage","caster","critical"],
-    "statOrder":[472,1223],
+    "statOrder":[477,1228],
+    "tradeHashes":{
+      "2325632050":["Socketed Gems are supported by Level 1 Cast On Critical Strike"],
+      "2974417149":["(80-89)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2876,7 +3768,11 @@
     "group":"CastWhileChannelingAndSpellDamage",
     "level":60,
     "modTags":["support_gem","caster_damage","unveiled_mod","damage","caster"],
-    "statOrder":[242,1223],
+    "statOrder":[247,1228],
+    "tradeHashes":{
+      "1316646496":["Socketed Gems are Supported by Level 1 Cast While Channelling"],
+      "2974417149":["(80-89)% increased Spell Damage"]
+    },
     "type":"Prefix",
     "weightKey":["helmet","quiver","flask","shield","body_armour","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2888,7 +3784,10 @@
     "group":"TakeNoExtraDamageFromCriticalStrikesIfEnergyShieldRechargeStartedRecently",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[9979],
+    "statOrder":[9978],
+    "tradeHashes":{
+      "3753680856":["Take no Extra Damage from Critical Strikes if Energy Shield Recharge started Recently"]
+    },
     "type":"Prefix",
     "weightKey":["body_armour","quiver","flask","shield","weapon","catarina_veiled_prefix","default"],
     "weightVal":[0,0,0,0,0,2000,0],
@@ -2899,7 +3798,10 @@
     "group":"TrapThrowSpeed",
     "level":60,
     "modTags":["unveiled_mod","speed"],
-    "statOrder":[1927],
+    "statOrder":[1932],
+    "tradeHashes":{
+      "118398748":["(14-16)% increased Trap Throwing Speed"]
+    },
     "type":"Suffix",
     "weightKey":["amulet","belt","default"],
     "weightVal":[1000,1000,0],
@@ -2910,7 +3812,10 @@
     "group":"TriggerSocketedSpellOnSkillUseFourSeconds",
     "level":60,
     "modTags":["skill","unveiled_mod","caster","gem"],
-    "statOrder":[832,832.1],
+    "statOrder":[837,837.1],
+    "tradeHashes":{
+      "1582781759":["Trigger a Socketed Spell on Using a Skill, with a 4 second Cooldown","Spells Triggered this way have 150% more Cost"]
+    },
     "type":"Suffix",
     "weightKey":["weapon","default"],
     "weightVal":[0,0],
@@ -2922,7 +3827,12 @@
     "group":"TriggerSocketedSpellWhenYouFocusCDR",
     "level":60,
     "modTags":["skill","unveiled_mod","caster","gem"],
-    "statOrder":[834,6653],
+    "statOrder":[839,6658],
+    "tradeHashes":{
+      "1533152070":[""],
+      "2062792091":["Trigger Socketed Spells when you Focus, with a 0.25 second Cooldown"],
+      "3610263531":["Focus has (5-8)% increased Cooldown Recovery Rate"]
+    },
     "type":"Suffix",
     "weightKey":["helmet","default"],
     "weightVal":[1000,0],
@@ -2934,7 +3844,10 @@
     "group":"WarcryBuffEffect",
     "level":60,
     "modTags":["unveiled_mod"],
-    "statOrder":[10566],
+    "statOrder":[10565],
+    "tradeHashes":{
+      "3037553757":["(20-25)% increased Warcry Buff Effect"]
+    },
     "type":"Prefix",
     "weightKey":["keema_veiled_prefix","default"],
     "weightVal":[2000,0],
@@ -2945,7 +3858,10 @@
     "group":"SummonWolfOnKillOld",
     "level":60,
     "modTags":["unveiled_mod","minion"],
-    "statOrder":[791],
+    "statOrder":[796],
+    "tradeHashes":{
+      "1468606528":["Trigger Level 10 Summon Spectral Wolf on Kill"]
+    },
     "type":"Suffix",
     "weightKey":["jorgin_veiled_suffix","default"],
     "weightVal":[2000,0],

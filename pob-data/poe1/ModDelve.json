@@ -1,0 +1,2631 @@
+{
+  "DelveAbyssJewelMinionDamage1":{
+    "affix":"Subterranean",
+    "group":"MinionDamage",
+    "level":1,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (14-16)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","default"],
+    "weightVal":[2000,0],
+    "1":"Minions deal (14-16)% increased Damage"
+  },
+  "DelveAbyssJewelSocket1":{
+    "affix":"of the Underground",
+    "group":"AbyssJewelSocket",
+    "level":1,
+    "modTags":[],
+    "statOrder":[73],
+    "tradeHashes":{
+      "3527617737":["Has 1 Abyssal Socket"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","weapon","helmet","boots","gloves","body_armour","default"],
+    "weightVal":[0,0,2000,2000,2000,2000,2000,0],
+    "1":"Has 1 Abyssal Socket"
+  },
+  "DelveAmuletBeltManaRecoveryRate1":{
+    "affix":"of the Underground",
+    "group":"ManaRecoveryRate",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[1591],
+    "tradeHashes":{
+      "3513180117":["(8-12)% increased Mana Recovery rate"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","belt","amulet","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(8-12)% increased Mana Recovery rate"
+  },
+  "DelveAmuletCannotBeChilledOrFrozenWhileMoving1":{
+    "affix":"of the Underground",
+    "group":"CannotBeChilledOrFrozenWhileMoving",
+    "level":1,
+    "modTags":["elemental","cold","ailment"],
+    "statOrder":[5401],
+    "tradeHashes":{
+      "628032624":["Cannot be Chilled or Frozen while moving"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","amulet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Cannot be Chilled or Frozen while moving"
+  },
+  "DelveAmuletVaalSkillDuration1":{
+    "affix":"of the Underground",
+    "group":"VaalSkillDuration",
+    "level":1,
+    "modTags":["vaal"],
+    "statOrder":[3110],
+    "tradeHashes":{
+      "547412107":["Vaal Skills have (15-25)% increased Skill Effect Duration"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","amulet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Vaal Skills have (15-25)% increased Skill Effect Duration"
+  },
+  "DelveArmourArmour1":{
+    "affix":"of the Underground",
+    "group":"LocalPhysicalDamageReductionRatingPercentSuffix",
+    "level":1,
+    "modTags":["defences","armour"],
+    "statOrder":[1547],
+    "tradeHashes":{
+      "1062208444":["(25-50)% increased Armour"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","str_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Armour"
+  },
+  "DelveArmourArmourAndEnergyShield1__":{
+    "affix":"of the Underground",
+    "group":"LocalArmourAndEnergyShieldSuffix",
+    "level":1,
+    "modTags":["defences","armour","energy_shield"],
+    "statOrder":[1557],
+    "tradeHashes":{
+      "3321629045":["(25-50)% increased Armour and Energy Shield"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","str_int_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Armour and Energy Shield"
+  },
+  "DelveArmourArmourAndEvasion1_":{
+    "affix":"of the Underground",
+    "group":"LocalArmourAndEvasionSuffix",
+    "level":1,
+    "modTags":["defences","armour","evasion"],
+    "statOrder":[1558],
+    "tradeHashes":{
+      "2451402625":["(25-50)% increased Armour and Evasion"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","str_dex_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Armour and Evasion"
+  },
+  "DelveArmourAttackBlock":{
+    "affix":"of the Underground",
+    "group":"BlockPercent",
+    "level":1,
+    "modTags":["block"],
+    "statOrder":[1143],
+    "tradeHashes":{
+      "2530372417":["(3-4)% Chance to Block Attack Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","boots","helmet","str_armour","str_int_armour","str_dex_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"(3-4)% Chance to Block Attack Damage"
+  },
+  "DelveArmourAvoidBleeding1":{
+    "affix":"of the Underground",
+    "group":"ChanceToAvoidBleeding",
+    "level":1,
+    "modTags":["bleed","physical","attack","ailment"],
+    "statOrder":[4221],
+    "tradeHashes":{
+      "1618589784":["50% chance to Avoid Bleeding"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","helmet","boots","body_armour","default"],
+    "weightVal":[0,0,1600,1600,1600,1600,0],
+    "1":"50% chance to Avoid Bleeding"
+  },
+  "DelveArmourAvoidPoison1":{
+    "affix":"of the Underground",
+    "group":"ChanceToAvoidPoison",
+    "level":1,
+    "modTags":["poison","chaos","ailment"],
+    "statOrder":[1854],
+    "tradeHashes":{
+      "4053951709":["50% chance to Avoid being Poisoned"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","helmet","boots","body_armour","default"],
+    "weightVal":[0,0,1600,1600,1600,1600,0],
+    "1":"50% chance to Avoid being Poisoned"
+  },
+  "DelveArmourBlindChance":{
+    "affix":"of the Underground",
+    "group":"GlobalChanceToBlindOnHit",
+    "level":1,
+    "modTags":[],
+    "statOrder":[2963],
+    "tradeHashes":{
+      "2221570601":["(4-6)% Global chance to Blind Enemies on hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","boots","helmet","dex_armour","dex_int_armour","str_dex_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"(4-6)% Global chance to Blind Enemies on hit"
+  },
+  "DelveArmourChaosResistance1_":{
+    "affix":"Subterranean",
+    "group":"ChaosResistancePrefix",
+    "level":1,
+    "modTags":["chaos","resistance"],
+    "statOrder":[1646],
+    "tradeHashes":{
+      "2923486259":["+(20-35)% to Chaos Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","quiver","shield","body_armour","boots","gloves","default"],
+    "weightVal":[0,0,0,0,0,0,0,0],
+    "1":"+(20-35)% to Chaos Resistance"
+  },
+  "DelveArmourColdResistance1":{
+    "affix":"Subterranean",
+    "group":"ColdResistancePrefix",
+    "level":1,
+    "modTags":["elemental","cold","resistance"],
+    "statOrder":[1636],
+    "tradeHashes":{
+      "4220027924":["+(20-35)% to Cold Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["quiver","shield","body_armour","boots","gloves","default"],
+    "weightVal":[0,0,0,0,0,0],
+    "1":"+(20-35)% to Cold Resistance"
+  },
+  "DelveArmourDefences1":{
+    "affix":"of the Underground",
+    "group":"LocalArmourAndEvasionAndEnergyShieldSuffix",
+    "level":1,
+    "modTags":["defences","armour","evasion","energy_shield"],
+    "statOrder":[1560],
+    "tradeHashes":{
+      "3523867985":["(25-50)% increased Armour, Evasion and Energy Shield"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","str_dex_int_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Armour, Evasion and Energy Shield"
+  },
+  "DelveArmourDodgeAndSpellDodge_":{
+    "affix":"of the Underground",
+    "group":"ChanceToDodgeAndSpellDodge",
+    "level":1,
+    "modTags":[],
+    "statOrder":[1147],
+    "tradeHashes":{
+      "223497523":[""],
+      "492027537":["+(4-6)% chance to Suppress Spell Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","gloves","helmet","dex_armour","dex_int_armour","str_dex_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"+(4-6)% chance to Suppress Spell Damage"
+  },
+  "DelveArmourDoubleArmourEffectOnHit":{
+    "affix":"of the Underground",
+    "group":"ChanceWhenHitForArmourToBeDoubled",
+    "level":1,
+    "modTags":["defences","armour"],
+    "statOrder":[5676],
+    "tradeHashes":{
+      "327253797":["(10-20)% chance to Defend with 200% of Armour"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","gloves","helmet","str_armour","str_int_armour","str_dex_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"(10-20)% chance to Defend with 200% of Armour"
+  },
+  "DelveArmourElementalAilmentDuration1___":{
+    "affix":"of the Underground",
+    "group":"SelfStatusAilmentDuration",
+    "level":1,
+    "modTags":["elemental","ailment"],
+    "statOrder":[1872],
+    "tradeHashes":{
+      "1745952865":["(20-30)% reduced Elemental Ailment Duration on you"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","helmet","gloves","boots","default"],
+    "weightVal":[0,0,2000,2000,2000,2000,2000,0],
+    "1":"(20-30)% reduced Elemental Ailment Duration on you"
+  },
+  "DelveArmourEnergyShield1":{
+    "affix":"of the Underground",
+    "group":"LocalEnergyShieldPercentSuffix",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[1565],
+    "tradeHashes":{
+      "4015621042":["(25-50)% increased Energy Shield"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","int_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Energy Shield"
+  },
+  "DelveArmourEnergyShieldLeechSpells_":{
+    "affix":"of the Underground",
+    "group":"EnergyShieldLeechPermyriad",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[1727],
+    "tradeHashes":{
+      "11106713":["0.3% of Spell Damage Leeched as Energy Shield"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","boots","helmet","int_armour","dex_int_armour","str_int_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"0.3% of Spell Damage Leeched as Energy Shield"
+  },
+  "DelveArmourEnergyShieldRegen":{
+    "affix":"of the Underground",
+    "group":"EnergyShieldRegenerationPerMinute",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[2651],
+    "tradeHashes":{
+      "3594640492":["Regenerate 1% of Energy Shield per second"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","gloves","helmet","int_armour","dex_int_armour","str_int_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"Regenerate 1% of Energy Shield per second"
+  },
+  "DelveArmourEvasion1":{
+    "affix":"of the Underground",
+    "group":"LocalEvasionRatingIncreasePercentSuffix",
+    "level":1,
+    "modTags":["defences","evasion"],
+    "statOrder":[1555],
+    "tradeHashes":{
+      "124859000":["(25-50)% increased Evasion Rating"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","dex_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Evasion Rating"
+  },
+  "DelveArmourEvasionAndEnergyShield1":{
+    "affix":"of the Underground",
+    "group":"LocalEvasionAndEnergyShieldSuffix",
+    "level":1,
+    "modTags":["defences","evasion","energy_shield"],
+    "statOrder":[1559],
+    "tradeHashes":{
+      "1999113824":["(25-50)% increased Evasion and Energy Shield"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","dex_int_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(25-50)% increased Evasion and Energy Shield"
+  },
+  "DelveArmourEvasionOnFullLife":{
+    "affix":"of the Underground",
+    "group":"GlobalEvasionRatingPercentOnFullLife",
+    "level":1,
+    "modTags":["defences","evasion"],
+    "statOrder":[6501],
+    "tradeHashes":{
+      "88817332":["(25-50)% increased Global Evasion Rating when on Full Life"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","gloves","boots","dex_armour","dex_int_armour","str_dex_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"(25-50)% increased Global Evasion Rating when on Full Life"
+  },
+  "DelveArmourFireResistance1":{
+    "affix":"Subterranean",
+    "group":"FireResistancePrefix",
+    "level":1,
+    "modTags":["elemental","fire","resistance"],
+    "statOrder":[1630],
+    "tradeHashes":{
+      "3372524247":["+(20-35)% to Fire Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["quiver","shield","body_armour","boots","gloves","default"],
+    "weightVal":[0,0,0,0,0,0],
+    "1":"+(20-35)% to Fire Resistance"
+  },
+  "DelveArmourFortifyEffect":{
+    "affix":"of the Underground",
+    "group":"FortifyEffect",
+    "level":1,
+    "modTags":[],
+    "statOrder":[9121],
+    "tradeHashes":{
+      "335507772":["+(3-5) to maximum Fortification"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","gloves","boots","str_armour","str_int_armour","str_dex_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"+(3-5) to maximum Fortification"
+  },
+  "DelveArmourLifeRegen1":{
+    "affix":"of the Underground",
+    "group":"LifeRegenerationRatePercentage",
+    "level":1,
+    "modTags":["resource","life"],
+    "statOrder":[1949],
+    "tradeHashes":{
+      "836936635":["Regenerate 1% of Life per second"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","shield","body_armour","helmet","gloves","boots","default"],
+    "weightVal":[0,0,2000,2000,2000,2000,2000,2000,0],
+    "1":"Regenerate 1% of Life per second"
+  },
+  "DelveArmourLightningResistance1":{
+    "affix":"Subterranean",
+    "group":"LightningResistancePrefix",
+    "level":1,
+    "modTags":["elemental","lightning","resistance"],
+    "statOrder":[1641],
+    "tradeHashes":{
+      "1671376347":["+(20-35)% to Lightning Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["quiver","shield","body_armour","boots","gloves","default"],
+    "weightVal":[0,0,0,0,0,0],
+    "1":"+(20-35)% to Lightning Resistance"
+  },
+  "DelveArmourLocalDisplaySocketedAttacksManaCost1_":{
+    "affix":"of the Underground",
+    "group":"SocketedAttacksManaCost",
+    "level":1,
+    "modTags":["skill","resource","mana","attack","gem"],
+    "statOrder":[554],
+    "tradeHashes":{
+      "2264586521":["Socketed Attacks have -15 to Total Mana Cost"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","shield","boots","helmet","default"],
+    "weightVal":[0,0,2000,2000,2000,2000,0],
+    "1":"Socketed Attacks have -15 to Total Mana Cost"
+  },
+  "DelveArmourMinionLife1":{
+    "affix":"of the Underground",
+    "group":"MinionLife",
+    "level":74,
+    "modTags":["resource","life","minion"],
+    "statOrder":[1771],
+    "tradeHashes":{
+      "770672621":["Minions have (20-30)% increased maximum Life"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","shield","belt","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"Minions have (20-30)% increased maximum Life"
+  },
+  "DelveArmourPhysDamageTaken1":{
+    "affix":"of the Underground",
+    "group":"FlatPhysicalDamageTaken",
+    "level":1,
+    "modTags":["physical"],
+    "statOrder":[2240],
+    "tradeHashes":{
+      "321765853":["-(75-50) Physical Damage taken from Hits"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"-(75-50) Physical Damage taken from Hits"
+  },
+  "DelveArmourPhysDamageTakenv2_1":{
+    "affix":"of the Underground",
+    "group":"FlatPhysicalDamageTaken",
+    "level":1,
+    "modTags":["physical"],
+    "statOrder":[2240],
+    "tradeHashes":{
+      "321765853":["-(34-20) Physical Damage taken from Hits"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"-(34-20) Physical Damage taken from Hits"
+  },
+  "DelveArmourPhysDamageTakenv2_2":{
+    "affix":"of the Underground",
+    "group":"FlatPhysicalDamageTaken",
+    "level":30,
+    "modTags":["physical"],
+    "statOrder":[2240],
+    "tradeHashes":{
+      "321765853":["-(49-35) Physical Damage taken from Hits"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"-(49-35) Physical Damage taken from Hits"
+  },
+  "DelveArmourPhysDamageTakenv2_3":{
+    "affix":"of the Underground",
+    "group":"FlatPhysicalDamageTaken",
+    "level":60,
+    "modTags":["physical"],
+    "statOrder":[2240],
+    "tradeHashes":{
+      "321765853":["-(75-50) Physical Damage taken from Hits"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"-(75-50) Physical Damage taken from Hits"
+  },
+  "DelveArmourQuality":{
+    "affix":"of the Underground",
+    "group":"LocalItemQuality",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7955],
+    "tradeHashes":{
+      "2016708976":["+(10-20)% to Quality"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"+(10-20)% to Quality"
+  },
+  "DelveArmourSocketedSpellsManaCost1_":{
+    "affix":"of the Underground",
+    "group":"SocketedSpellsManaCost",
+    "level":1,
+    "modTags":["skill","resource","mana","caster","gem"],
+    "statOrder":[573],
+    "tradeHashes":{
+      "1688834903":["Socketed Spells have 20% reduced Mana Cost"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","boots","helmet","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"Socketed Spells have 20% reduced Mana Cost"
+  },
+  "DelveArmourSpellBlock__":{
+    "affix":"of the Underground",
+    "group":"SpellBlockPercentage",
+    "level":1,
+    "modTags":["block"],
+    "statOrder":[1165],
+    "tradeHashes":{
+      "561307714":["(3-4)% Chance to Block Spell Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","shield","body_armour","boots","gloves","int_armour","dex_int_armour","str_int_armour","default"],
+    "weightVal":[0,0,0,0,0,0,2000,2000,2000,0],
+    "1":"(3-4)% Chance to Block Spell Damage"
+  },
+  "DelveArmourVaalSoulsOnKill1_":{
+    "affix":"of the Underground",
+    "group":"AdditionalVaalSoulOnKill",
+    "level":1,
+    "modTags":["vaal"],
+    "statOrder":[3109],
+    "tradeHashes":{
+      "1962922582":["(5-8)% chance to gain an additional Vaal Soul on Kill"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","body_armour","boots","shield","default"],
+    "weightVal":[0,0,2000,2000,2000,2000,0],
+    "1":"(5-8)% chance to gain an additional Vaal Soul on Kill"
+  },
+  "DelveBeltChanceToGainOnslaughtOnFlaskUse1":{
+    "affix":"of the Underground",
+    "group":"ChanceToGainOnslaughtOnFlaskUse",
+    "level":1,
+    "modTags":["flask"],
+    "statOrder":[5698],
+    "tradeHashes":{
+      "1324450398":["(15-20)% chance to gain Onslaught when you use a Flask"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","belt","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(15-20)% chance to gain Onslaught when you use a Flask"
+  },
+  "DelveBodyArmourAuraEffect1_":{
+    "affix":"of the Underground",
+    "group":"AuraEffect",
+    "level":1,
+    "modTags":["aura"],
+    "statOrder":[3571],
+    "tradeHashes":{
+      "1880071428":["(20-25)% increased effect of Non-Curse Auras from your Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(20-25)% increased effect of Non-Curse Auras from your Skills"
+  },
+  "DelveBodyArmourAvoidCold1":{
+    "affix":"Subterranean",
+    "group":"ColdDamageAvoidance",
+    "level":1,
+    "modTags":["elemental","cold"],
+    "statOrder":[3379],
+    "tradeHashes":{
+      "3743375737":["(6-10)% chance to Avoid Cold Damage from Hits"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","body_armour","shield","quiver","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"(6-10)% chance to Avoid Cold Damage from Hits"
+  },
+  "DelveBodyArmourAvoidFire1_":{
+    "affix":"Subterranean",
+    "group":"FireDamageAvoidance",
+    "level":1,
+    "modTags":["elemental","fire"],
+    "statOrder":[3378],
+    "tradeHashes":{
+      "42242677":["(8-10)% chance to Avoid Fire Damage from Hits"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","body_armour","shield","quiver","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"(8-10)% chance to Avoid Fire Damage from Hits"
+  },
+  "DelveBodyArmourAvoidLightning1":{
+    "affix":"Subterranean",
+    "group":"LightningDamageAvoidance",
+    "level":1,
+    "modTags":["elemental","lightning"],
+    "statOrder":[3380],
+    "tradeHashes":{
+      "2889664727":["(6-10)% chance to Avoid Lightning Damage from Hits"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","body_armour","shield","quiver","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"(6-10)% chance to Avoid Lightning Damage from Hits"
+  },
+  "DelveBodyArmourChaosDegenResist1":{
+    "affix":"of the Underground",
+    "group":"ChaosResistanceAgainstDamageOverTime",
+    "level":1,
+    "modTags":["chaos","resistance"],
+    "statOrder":[5739],
+    "tradeHashes":{
+      "2266636761":["+(30-40)% Chaos Resistance against Damage Over Time"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","shield","quiver","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"+(30-40)% Chaos Resistance against Damage Over Time"
+  },
+  "DelveBodyArmourLife1":{
+    "affix":"Subterranean",
+    "group":"LifeAndPercentLife",
+    "level":1,
+    "modTags":["resource","life"],
+    "statOrder":[1574,1576],
+    "tradeHashes":{
+      "983749596":["(3-5)% increased maximum Life"],
+      "3299347043":["+(25-40) to maximum Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"+(25-40) to maximum Life",
+    "2":"(3-5)% increased maximum Life"
+  },
+  "DelveBodyArmourSocketedSkillsSupportedByArcaneSurge1_":{
+    "affix":"of the Underground",
+    "group":"SupportedByArcaneSurge",
+    "level":1,
+    "modTags":["support","gem"],
+    "statOrder":[231],
+    "tradeHashes":{
+      "2287264161":["Socketed Gems are Supported by Level 1 Arcane Surge"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,600,0],
+    "1":"Socketed Gems are Supported by Level 1 Arcane Surge"
+  },
+  "DelveBodyArmourSocketedSkillsSupportedByMaim1":{
+    "affix":"of the Underground",
+    "group":"SupportedByMaim",
+    "level":1,
+    "modTags":["support","gem"],
+    "statOrder":[336],
+    "tradeHashes":{
+      "3826977109":["Socketed Gems are Supported by Level 1 Maim"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"Socketed Gems are Supported by Level 1 Maim"
+  },
+  "DelveBodyDamageRemovedFromManaBeforeLife1_":{
+    "affix":"of the Underground",
+    "group":"DamageRemovedFromManaBeforeLife",
+    "level":1,
+    "modTags":["resource","life","mana"],
+    "statOrder":[2704],
+    "tradeHashes":{
+      "458438597":["(5-10)% of Damage is taken from Mana before Life"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(5-10)% of Damage is taken from Mana before Life"
+  },
+  "DelveBodyDamageRemovedFromManaBeforeLifeNew1":{
+    "affix":"Subterranean",
+    "group":"DamageRemovedFromManaBeforeLife",
+    "level":1,
+    "modTags":["resource","life","mana"],
+    "statOrder":[2704],
+    "tradeHashes":{
+      "458438597":["(5-10)% of Damage is taken from Mana before Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(5-10)% of Damage is taken from Mana before Life"
+  },
+  "DelveBodyFrenzyChargeWhenHit1":{
+    "affix":"of the Underground",
+    "group":"FrenzyChargeWhenHit",
+    "level":1,
+    "modTags":["frenzy_charge"],
+    "statOrder":[4535],
+    "tradeHashes":{
+      "881914531":["(15-20)% chance to gain a Frenzy Charge when Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","body_armour","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(15-20)% chance to gain a Frenzy Charge when Hit"
+  },
+  "DelveBootsAdditionalSpectre1_":{
+    "affix":"of the Underground",
+    "group":"MinionGlobalSkillLevel",
+    "level":1,
+    "modTags":["skill","minion","gem"],
+    "statOrder":[1621],
+    "tradeHashes":{
+      "2120904498":[""],
+      "2739830820":[""],
+      "3235814433":["+1 to Level of all Raise Spectre Gems"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"+1 to Level of all Raise Spectre Gems"
+  },
+  "DelveBootsManaRegenerationRateWhileMoving1":{
+    "affix":"of the Underground",
+    "group":"ManaRegenerationRateWhileMoving",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[8216],
+    "tradeHashes":{
+      "1327522346":["(50-70)% increased Mana Regeneration Rate while moving"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(50-70)% increased Mana Regeneration Rate while moving"
+  },
+  "DelveBootsMovementSpeedIfHitRecently1":{
+    "affix":"of the Underground",
+    "group":"MovementSpeedIfHitRecently",
+    "level":1,
+    "modTags":["speed"],
+    "statOrder":[9417],
+    "tradeHashes":{
+      "3178542354":["(4-6)% increased Movement Speed if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(4-6)% increased Movement Speed if you've Hit an Enemy Recently"
+  },
+  "DelveBootsPhyiscalDamageReductionRatingWhileMoving1":{
+    "affix":"of the Underground",
+    "group":"AdditionalPhysicalDamageReductionWhileMoving",
+    "level":1,
+    "modTags":["physical"],
+    "statOrder":[4589],
+    "tradeHashes":{
+      "2713357573":["(3-5)% additional Physical Damage Reduction while moving"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(3-5)% additional Physical Damage Reduction while moving"
+  },
+  "DelveBootsSocketedChaosGemLevel1":{
+    "affix":"Subterranean",
+    "group":"LocalIncreaseSocketedChaosGemLevel",
+    "level":1,
+    "modTags":["chaos","gem"],
+    "statOrder":[175],
+    "tradeHashes":{
+      "2675603254":["+2 to Level of Socketed Chaos Gems"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"+2 to Level of Socketed Chaos Gems"
+  },
+  "DelveBootsSocketedColdGemLevel1":{
+    "affix":"Subterranean",
+    "group":"LocalIncreaseSocketedColdGemLevel",
+    "level":1,
+    "modTags":["elemental","cold","gem"],
+    "statOrder":[173],
+    "tradeHashes":{
+      "1645459191":["+2 to Level of Socketed Cold Gems"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"+2 to Level of Socketed Cold Gems"
+  },
+  "DelveBootsSocketedFireGemLevel1":{
+    "affix":"Subterranean",
+    "group":"LocalIncreaseSocketedFireGemLevel",
+    "level":1,
+    "modTags":["elemental","fire","gem"],
+    "statOrder":[172],
+    "tradeHashes":{
+      "339179093":["+2 to Level of Socketed Fire Gems"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"+2 to Level of Socketed Fire Gems"
+  },
+  "DelveBootsSocketedLightningGemLevel1_":{
+    "affix":"Subterranean",
+    "group":"LocalIncreaseSocketedLightningGemLevel",
+    "level":1,
+    "modTags":["elemental","lightning","gem"],
+    "statOrder":[174],
+    "tradeHashes":{
+      "4043416969":["+2 to Level of Socketed Lightning Gems"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","boots","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"+2 to Level of Socketed Lightning Gems"
+  },
+  "DelveDexterityGemLevel1":{
+    "affix":"of the Underground",
+    "group":"DelveDexterityGemLevel",
+    "level":1,
+    "modTags":["attribute","gem"],
+    "statOrder":[165],
+    "tradeHashes":{
+      "2718698372":["+1 to Level of Socketed Dexterity Gems"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","staff","sceptre","mace","axe","sword","bow","dagger","claw","wand","str_armour","int_armour","dex_armour","str_dex_armour","str_int_armour","dex_int_armour","str_dex_int_armour","unset_ring","default"],
+    "weightVal":[0,0,750,750,750,1000,1000,1600,1000,1000,750,750,750,1600,1000,750,1000,1000,1000,0],
+    "1":"+1 to Level of Socketed Dexterity Gems"
+  },
+  "DelveGlovesAddedPhysicalDamageVsBleedingEnemies1":{
+    "affix":"Subterranean",
+    "group":"AddedPhysicalDamageVsBleedingEnemies",
+    "level":1,
+    "modTags":["physical_damage","damage","physical"],
+    "statOrder":[2499],
+    "tradeHashes":{
+      "1244003614":["Adds (7-11) to (12-18) Physical Damage against Bleeding Enemies"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,1600,0],
+    "1":"Adds (7-11) to (12-18) Physical Damage against Bleeding Enemies"
+  },
+  "DelveGlovesAddedPhysicalDamageVsPoisonedEnemies1":{
+    "affix":"Subterranean",
+    "group":"AddedPhysicalDamageVsPoisonedEnemies",
+    "level":1,
+    "modTags":["physical_damage","damage","physical"],
+    "statOrder":[9254],
+    "tradeHashes":{
+      "424026624":["Adds (7-11) to (12-18) Physical Damage against Poisoned Enemies"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,1600,0],
+    "1":"Adds (7-11) to (12-18) Physical Damage against Poisoned Enemies"
+  },
+  "DelveGlovesAttackAndCastSpeedIfHitRecently1":{
+    "affix":"of the Underground",
+    "group":"AttackAndCastSpeedIfHitRecently",
+    "level":1,
+    "modTags":["attack","caster","speed"],
+    "statOrder":[4820],
+    "tradeHashes":{
+      "1483753325":["(5-10)% increased Attack and Cast Speed if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(5-10)% increased Attack and Cast Speed if you've Hit an Enemy Recently"
+  },
+  "DelveGlovesChaosDamageToSpells1":{
+    "affix":"Subterranean",
+    "group":"GlobalAddedChaosDamage",
+    "level":1,
+    "modTags":["chaos_damage","damage","chaos"],
+    "statOrder":[1391],
+    "tradeHashes":{
+      "3531280422":["Adds (15-20) to (21-30) Chaos Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Adds (15-20) to (21-30) Chaos Damage"
+  },
+  "DelveGlovesColdDamageToSpells1":{
+    "affix":"Subterranean",
+    "group":"GlobalAddedColdDamage",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","cold"],
+    "statOrder":[1373],
+    "tradeHashes":{
+      "2387423236":["Adds (20-25) to (26-35) Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Adds (20-25) to (26-35) Cold Damage"
+  },
+  "DelveGlovesFireDamageToSpells1":{
+    "affix":"Subterranean",
+    "group":"GlobalAddedFireDamage",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","fire"],
+    "statOrder":[1364],
+    "tradeHashes":{
+      "321077055":["Adds (20-25) to (26-35) Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Adds (20-25) to (26-35) Fire Damage"
+  },
+  "DelveGlovesGlobalAddedPhysicalDamage1":{
+    "affix":"Subterranean",
+    "group":"GlobalAddedPhysicalDamage",
+    "level":1,
+    "modTags":["physical_damage","damage","physical"],
+    "statOrder":[1270],
+    "tradeHashes":{
+      "960081730":["Adds (6-8) to (9-11) Physical Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Adds (6-8) to (9-11) Physical Damage"
+  },
+  "DelveGlovesLightningDamageToSpells1":{
+    "affix":"Subterranean",
+    "group":"GlobalAddedLightningDamage",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","lightning"],
+    "statOrder":[1384],
+    "tradeHashes":{
+      "1334060246":["Adds 1 to (48-60) Lightning Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Adds 1 to (48-60) Lightning Damage"
+  },
+  "DelveGlovesLocalDisplaySocketedSkillsAttackSpeed1":{
+    "affix":"of the Underground",
+    "group":"SocketedSkillsAttackSpeed",
+    "level":1,
+    "modTags":["skill","attack","speed","gem"],
+    "statOrder":[566],
+    "tradeHashes":{
+      "2881124988":["Socketed Skills have 18% increased Attack Speed"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Socketed Skills have 18% increased Attack Speed"
+  },
+  "DelveGlovesManaGainPerTarget1":{
+    "affix":"of the Underground",
+    "group":"ManaGainPerTarget",
+    "level":1,
+    "modTags":["resource","mana","attack"],
+    "statOrder":[1749],
+    "tradeHashes":{
+      "820939409":["Gain (2-4) Mana per Enemy Hit with Attacks"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Gain (2-4) Mana per Enemy Hit with Attacks"
+  },
+  "DelveGlovesMinionDamage1":{
+    "affix":"Subterranean",
+    "group":"MinionDamage",
+    "level":1,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (20-30)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Minions deal (20-30)% increased Damage"
+  },
+  "DelveGlovesSocketedSkillsCastSpeed1_":{
+    "affix":"of the Underground",
+    "group":"SocketedSkillsCastSpeed",
+    "level":1,
+    "modTags":["skill","caster","speed","gem"],
+    "statOrder":[567],
+    "tradeHashes":{
+      "3425934849":["Socketed Skills have 18% increased Cast Speed"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","gloves","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Socketed Skills have 18% increased Cast Speed"
+  },
+  "DelveGlovesVaalSkillCriticalChance1":{
+    "affix":"of the Underground",
+    "group":"VaalSkillCriticalStrikeChance",
+    "level":1,
+    "modTags":["critical","vaal"],
+    "statOrder":[3112],
+    "tradeHashes":{
+      "3165492062":["(80-120)% increased Vaal Skill Critical Strike Chance"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","gloves","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(80-120)% increased Vaal Skill Critical Strike Chance"
+  },
+  "DelveHelmBaseManaRegeneration1":{
+    "affix":"of the Underground",
+    "group":"BaseManaRegeneration",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[1586],
+    "tradeHashes":{
+      "3188455409":["Regenerate 0.5% of Mana per second"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Regenerate 0.5% of Mana per second"
+  },
+  "DelveHelmIgnoreArmourMovementPenalties1":{
+    "affix":"of the Underground",
+    "group":"IgnoreArmourMovementPenalties",
+    "level":1,
+    "modTags":["speed"],
+    "statOrder":[2186],
+    "tradeHashes":{
+      "1311723478":["Ignore all Movement Penalties from Armour"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Ignore all Movement Penalties from Armour"
+  },
+  "DelveHelmetEnemyChaosResistanceAura1":{
+    "affix":"of the Underground",
+    "group":"NearbyEnemyChaosDamageResistance",
+    "level":1,
+    "modTags":["chaos_damage","damage","chaos","resistance"],
+    "statOrder":[7916],
+    "tradeHashes":{
+      "1902595112":["Nearby Enemies have -9% to Chaos Resistance"],
+      "2923486259":["-9% to Chaos Resistance"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Nearby Enemies have -9% to Chaos Resistance"
+  },
+  "DelveHelmetEnemyColdResistanceAura1":{
+    "affix":"of the Underground",
+    "group":"NearbyEnemyColdDamageResistance",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","cold","resistance"],
+    "statOrder":[7917],
+    "tradeHashes":{
+      "2674336304":["Nearby Enemies have -9% to Cold Resistance"],
+      "4220027924":["-9% to Cold Resistance"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Nearby Enemies have -9% to Cold Resistance"
+  },
+  "DelveHelmetEnemyFireResistanceAura1":{
+    "affix":"of the Underground",
+    "group":"NearbyEnemyFireDamageResistance",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","fire","resistance"],
+    "statOrder":[7919],
+    "tradeHashes":{
+      "3372524247":["-9% to Fire Resistance"],
+      "3914021960":["Nearby Enemies have -9% to Fire Resistance"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Nearby Enemies have -9% to Fire Resistance"
+  },
+  "DelveHelmetEnemyLightningResistanceAura1":{
+    "affix":"of the Underground",
+    "group":"NearbyEnemyLightningDamageResistance",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","lightning","resistance"],
+    "statOrder":[7921],
+    "tradeHashes":{
+      "1671376347":["-9% to Lightning Resistance"],
+      "1849749435":["Nearby Enemies have -9% to Lightning Resistance"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Nearby Enemies have -9% to Lightning Resistance"
+  },
+  "DelveHelmetEnemyPhysicalDamageTakenAura1":{
+    "affix":"of the Underground",
+    "group":"NearbyEnemyPhysicalDamageTaken",
+    "level":1,
+    "modTags":["physical_damage","damage","physical"],
+    "statOrder":[7923],
+    "tradeHashes":{
+      "415837237":["Nearby Enemies take 9% increased Physical Damage"],
+      "3853018505":["9% increased Physical Damage taken"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Nearby Enemies take 9% increased Physical Damage"
+  },
+  "DelveHelmetManaReservationEfficiency1":{
+    "affix":"of the Underground",
+    "group":"ManaReservationEfficiency",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[2233],
+    "tradeHashes":{
+      "4237190083":["10% increased Mana Reservation Efficiency of Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"10% increased Mana Reservation Efficiency of Skills"
+  },
+  "DelveHelmetReducedManaReserved1":{
+    "affix":"of the Underground",
+    "group":"ReducedReservation",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[2237],
+    "tradeHashes":{
+      "1269219558":["(8-10)% increased Mana Reservation Efficiency of Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","helmet","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(8-10)% increased Mana Reservation Efficiency of Skills"
+  },
+  "DelveIntelligenceGemLevel1":{
+    "affix":"of the Underground",
+    "group":"DelveIntelligenceGemLevel",
+    "level":1,
+    "modTags":["attribute","gem"],
+    "statOrder":[166],
+    "tradeHashes":{
+      "1719423857":["+1 to Level of Socketed Intelligence Gems"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","staff","sceptre","mace","axe","sword","bow","dagger","claw","wand","str_armour","int_armour","dex_armour","str_dex_armour","str_int_armour","dex_int_armour","str_dex_int_armour","unset_ring","default"],
+    "weightVal":[0,0,1000,1000,750,750,750,750,1000,1000,1600,750,1600,750,750,1000,1000,1000,1000,0],
+    "1":"+1 to Level of Socketed Intelligence Gems"
+  },
+  "DelveJewelAilmentDamage1__":{
+    "affix":"of the Underground",
+    "group":"AilmentDamage",
+    "level":1,
+    "modTags":["damage","ailment"],
+    "statOrder":[4988],
+    "tradeHashes":{
+      "690707482":["(15-20)% increased Damage with Ailments"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(15-20)% increased Damage with Ailments"
+  },
+  "DelveJewelArmourIfYouHitRecently1":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","armour"],
+    "statOrder":[9651],
+    "tradeHashes":{
+      "2368149582":["+(250-300) to Armour if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[300,300,0],
+    "1":"+(250-300) to Armour if you've Hit an Enemy Recently"
+  },
+  "DelveJewelAttackLeech1":{
+    "affix":"of the Underground",
+    "group":"LifeLeechFromAttacksPermyriad",
+    "level":1,
+    "modTags":["resource","life","attack"],
+    "statOrder":[1669],
+    "tradeHashes":{
+      "141810208":["0.3% of Attack Damage Leeched as Life"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"0.3% of Attack Damage Leeched as Life"
+  },
+  "DelveJewelAvoidInterruptionWhileCasting1":{
+    "affix":"of the Underground",
+    "group":"AvoidInterruptionWhileCasting",
+    "level":1,
+    "modTags":[],
+    "statOrder":[1903],
+    "tradeHashes":{
+      "1916706958":["(15-20)% chance to Ignore Stuns while Casting"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(15-20)% chance to Ignore Stuns while Casting"
+  },
+  "DelveJewelChanceToGainOnslaughtOnFlaskUse1":{
+    "affix":"of the Underground",
+    "group":"ChanceToGainOnslaughtOnFlaskUse",
+    "level":1,
+    "modTags":["flask"],
+    "statOrder":[5698],
+    "tradeHashes":{
+      "1324450398":["(5-10)% chance to gain Onslaught when you use a Flask"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(5-10)% chance to gain Onslaught when you use a Flask"
+  },
+  "DelveJewelChaosDamage1":{
+    "affix":"of the Underground",
+    "group":"IncreasedChaosDamage",
+    "level":1,
+    "modTags":["chaos_damage","damage","chaos"],
+    "statOrder":[1390],
+    "tradeHashes":{
+      "736967255":["(13-19)% increased Chaos Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(13-19)% increased Chaos Damage"
+  },
+  "DelveJewelColdPenetration1":{
+    "affix":"Subterranean",
+    "group":"ColdResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","cold"],
+    "statOrder":[2988],
+    "tradeHashes":{
+      "3417711605":["Damage Penetrates 1% Cold Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"Damage Penetrates 1% Cold Resistance"
+  },
+  "DelveJewelDamageTakenGainedAsMana1":{
+    "affix":"of the Underground",
+    "group":"PercentDamageGoesToMana",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[2460],
+    "tradeHashes":{
+      "472520716":["(2-3)% of Damage taken Recouped as Mana"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(2-3)% of Damage taken Recouped as Mana"
+  },
+  "DelveJewelElementalPenetration1":{
+    "affix":"Subterranean",
+    "group":"ElementalPenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[2985],
+    "tradeHashes":{
+      "2101383955":["Damage Penetrates 1% Elemental Resistances"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","default"],
+    "weightVal":[1600,1600,0],
+    "1":"Damage Penetrates 1% Elemental Resistances"
+  },
+  "DelveJewelEnergyShieldRegenIfYouHitRecently1_":{
+    "affix":"of the Underground",
+    "group":"EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[6463],
+    "tradeHashes":{
+      "588560583":["Regenerate 0.3% of Energy Shield per second if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[300,300,0],
+    "1":"Regenerate 0.3% of Energy Shield per second if you've Hit an Enemy Recently"
+  },
+  "DelveJewelEvasionIfYouHitRecently1":{
+    "affix":"of the Underground",
+    "group":"EvasionRatingIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","evasion"],
+    "statOrder":[6494],
+    "tradeHashes":{
+      "2935548106":["+(250-300) to Evasion Rating if Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[300,300,0],
+    "1":"+(250-300) to Evasion Rating if Hit an Enemy Recently"
+  },
+  "DelveJewelFirePenetration1":{
+    "affix":"Subterranean",
+    "group":"FireResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","fire"],
+    "statOrder":[2986],
+    "tradeHashes":{
+      "2653955271":["Damage Penetrates 1% Fire Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"Damage Penetrates 1% Fire Resistance"
+  },
+  "DelveJewelGlobalDefences1":{
+    "affix":"Subterranean",
+    "group":"AllDefences",
+    "level":1,
+    "modTags":["defences"],
+    "statOrder":[2838],
+    "tradeHashes":{
+      "1389153006":["(4-6)% increased Global Defences"]
+    },
+    "type":"Prefix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(4-6)% increased Global Defences"
+  },
+  "DelveJewelLifeRegeneration1":{
+    "affix":"Subterranean",
+    "group":"LifeRegenerationRatePercentage",
+    "level":1,
+    "modTags":["resource","life"],
+    "statOrder":[1949],
+    "tradeHashes":{
+      "836936635":["Regenerate 0.3% of Life per second"]
+    },
+    "type":"Prefix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"Regenerate 0.3% of Life per second"
+  },
+  "DelveJewelLightningPenetration1":{
+    "affix":"Subterranean",
+    "group":"LightningResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","lightning"],
+    "statOrder":[2989],
+    "tradeHashes":{
+      "818778753":["Damage Penetrates 1% Lightning Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"Damage Penetrates 1% Lightning Resistance"
+  },
+  "DelveJewelMinionAttackAndCastSpeed1":{
+    "affix":"of the Underground",
+    "group":"MinionAttackAndCastSpeed",
+    "level":1,
+    "modTags":["attack","caster","speed","minion"],
+    "statOrder":[2912,2913],
+    "tradeHashes":{
+      "3375935924":["Minions have (4-6)% increased Attack Speed"],
+      "4000101551":["Minions have (4-6)% increased Cast Speed"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","default"],
+    "weightVal":[0,2000,0],
+    "1":"Minions have (4-6)% increased Attack Speed",
+    "2":"Minions have (4-6)% increased Cast Speed"
+  },
+  "DelveJewelPhysicalDamageOverTimeTaken1":{
+    "affix":"Subterranean",
+    "group":"PhysicalDamageOverTimeTaken",
+    "level":1,
+    "modTags":["physical"],
+    "statOrder":[5046],
+    "tradeHashes":{
+      "511024200":["(1-2)% reduced Physical Damage taken over time"]
+    },
+    "type":"Prefix",
+    "weightKey":["jewel","abyss_jewel","default"],
+    "weightVal":[1000,1000,0],
+    "1":"(1-2)% reduced Physical Damage taken over time"
+  },
+  "DelveJewelVaalSoulsOnKill1":{
+    "affix":"of the Underground",
+    "group":"AdditionalVaalSoulOnKill",
+    "level":1,
+    "modTags":["vaal"],
+    "statOrder":[3109],
+    "tradeHashes":{
+      "1962922582":["(3-5)% chance to gain an additional Vaal Soul on Kill"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","default"],
+    "weightVal":[2000,2000,0],
+    "1":"(3-5)% chance to gain an additional Vaal Soul on Kill"
+  },
+  "DelveJewelryAilmentDamage1_":{
+    "affix":"of the Underground",
+    "group":"AilmentDamage",
+    "level":1,
+    "modTags":["damage","ailment"],
+    "statOrder":[4988],
+    "tradeHashes":{
+      "690707482":["(30-40)% increased Damage with Ailments"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","ring","amulet","belt","default"],
+    "weightVal":[0,0,1600,1600,1600,1600,0],
+    "1":"(30-40)% increased Damage with Ailments"
+  },
+  "DelveJewelryChanceToEvade":{
+    "affix":"of the Underground",
+    "group":"AdditionalChanceToEvade",
+    "level":1,
+    "modTags":["defences","evasion"],
+    "statOrder":[5678],
+    "tradeHashes":{
+      "2021058489":["+(1-2)% chance to Evade Attack Hits"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","ring","amulet","belt","default"],
+    "weightVal":[0,0,1600,1600,1600,1600,0],
+    "1":"+(1-2)% chance to Evade Attack Hits"
+  },
+  "DelveJewelryChanceWhenHitForArmourToBeDoubled1":{
+    "affix":"of the Underground",
+    "group":"ChanceWhenHitForArmourToBeDoubled",
+    "level":1,
+    "modTags":["defences","armour"],
+    "statOrder":[5676],
+    "tradeHashes":{
+      "327253797":["20% chance to Defend with 200% of Armour"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","ring","amulet","belt","default"],
+    "weightVal":[0,0,1600,1600,1600,0],
+    "1":"20% chance to Defend with 200% of Armour"
+  },
+  "DelveJewelryChaosDamage1":{
+    "affix":"Subterranean",
+    "group":"IncreasedChaosDamagePrefix",
+    "level":1,
+    "modTags":["chaos_damage","damage","chaos"],
+    "statOrder":[1390],
+    "tradeHashes":{
+      "736967255":["(20-30)% increased Chaos Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","amulet","belt","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(20-30)% increased Chaos Damage"
+  },
+  "DelveJewelryColdDamage1":{
+    "affix":"Subterranean",
+    "group":"ColdDamagePercentagePrefix",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","cold"],
+    "statOrder":[1371],
+    "tradeHashes":{
+      "3291658075":["(20-30)% increased Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","amulet","belt","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(20-30)% increased Cold Damage"
+  },
+  "DelveJewelryElementalPenetration1":{
+    "affix":"Subterranean",
+    "group":"ElementalPenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[2985],
+    "tradeHashes":{
+      "2101383955":["Damage Penetrates (3-5)% Elemental Resistances"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","quiver","amulet","default"],
+    "weightVal":[0,0,1600,1600,0],
+    "1":"Damage Penetrates (3-5)% Elemental Resistances"
+  },
+  "DelveJewelryFireDamage1":{
+    "affix":"Subterranean",
+    "group":"FireDamagePercentagePrefix",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","fire"],
+    "statOrder":[1362],
+    "tradeHashes":{
+      "3962278098":["(20-30)% increased Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","amulet","belt","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(20-30)% increased Fire Damage"
+  },
+  "DelveJewelryFlaskLifeRecovery1":{
+    "affix":"of the Underground",
+    "group":"GlobalFlaskLifeRecovery",
+    "level":1,
+    "modTags":["flask","resource","life"],
+    "statOrder":[2064],
+    "tradeHashes":{
+      "821241191":["(20-30)% increased Life Recovery from Flasks"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","ring","amulet","belt","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"(20-30)% increased Life Recovery from Flasks"
+  },
+  "DelveJewelryIncreasedEnergyShieldFromBodyArmour1":{
+    "affix":"of the Underground",
+    "group":"MaximumEnergyShieldFromBodyArmour",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[9137],
+    "tradeHashes":{
+      "1195319608":["(20-30)% increased Energy Shield from Equipped Body Armour"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","ring","amulet","belt","default"],
+    "weightVal":[0,0,1600,1600,1600,0],
+    "1":"(20-30)% increased Energy Shield from Equipped Body Armour"
+  },
+  "DelveJewelryLightningDamage1":{
+    "affix":"Subterranean",
+    "group":"LightningDamagePercentagePrefix",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","lightning"],
+    "statOrder":[1382],
+    "tradeHashes":{
+      "2231156303":["(20-30)% increased Lightning Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","amulet","belt","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(20-30)% increased Lightning Damage"
+  },
+  "DelveJewelryMinionRunSpeed1":{
+    "affix":"of the Underground",
+    "group":"MinionRunSpeed",
+    "level":74,
+    "modTags":["speed","minion"],
+    "statOrder":[1774],
+    "tradeHashes":{
+      "174664100":["Minions have (15-30)% increased Movement Speed"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","ring","amulet","default"],
+    "weightVal":[0,0,2000,2000,2000,0],
+    "1":"Minions have (15-30)% increased Movement Speed"
+  },
+  "DelveJewelryPhysicalDamage1":{
+    "affix":"Subterranean",
+    "group":"PhysicalDamagePercentPrefix",
+    "level":1,
+    "modTags":["physical_damage","damage","physical"],
+    "statOrder":[1236],
+    "tradeHashes":{
+      "1310194496":["(20-30)% increased Global Physical Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","amulet","belt","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(20-30)% increased Global Physical Damage"
+  },
+  "DelveJewelryVaalSkillDamage1":{
+    "affix":"of the Underground",
+    "group":"VaalSkillDamage",
+    "level":1,
+    "modTags":["damage","vaal"],
+    "statOrder":[3100],
+    "tradeHashes":{
+      "2257141320":["(20-40)% increased Damage with Vaal Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","belt","ring","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(20-40)% increased Damage with Vaal Skills"
+  },
+  "DelveMapMonsterPacksVaalMapWorlds1":{
+    "affix":"Subterranean",
+    "group":"MapMonsterPacksVaalMapWorlds",
+    "level":1,
+    "modTags":[],
+    "statOrder":[8766,10825],
+    "tradeHashes":{
+      "57434274":[""],
+      "728267040":["Found Items have 10% chance to drop Corrupted in Area"],
+      "2017682521":[""],
+      "2306002879":[""],
+      "2390685262":[""]
+    },
+    "type":"Prefix",
+    "weightKey":["map","expedition_logbook","default"],
+    "weightVal":[1000,0,0],
+    "1":"Area is inhabited by the Vaal",
+    "2":"Found Items have 10% chance to drop Corrupted in Area"
+  },
+  "DelveNonBodyArmourLife1":{
+    "affix":"Subterranean",
+    "group":"LifeAndPercentLife",
+    "level":1,
+    "modTags":["resource","life"],
+    "statOrder":[1574,1576],
+    "tradeHashes":{
+      "983749596":["(2-3)% increased maximum Life"],
+      "3299347043":["+(15-25) to maximum Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","shield","boots","helmet","gloves","default"],
+    "weightVal":[0,0,0,0,0,0,0],
+    "1":"+(15-25) to maximum Life",
+    "2":"(2-3)% increased maximum Life"
+  },
+  "DelveQuiverFrenzyChargeOnHittingRareOrUnique1":{
+    "affix":"of the Underground",
+    "group":"FrenzyChargeOnHittingRareOrUnique",
+    "level":1,
+    "modTags":["frenzy_charge"],
+    "statOrder":[6765],
+    "tradeHashes":{
+      "4179663748":["(3-5)% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(3-5)% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy"
+  },
+  "DelveQuiverIncreasedMana1":{
+    "affix":"of the Underground",
+    "group":"MaximumManaIncreasePercent",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[1585],
+    "tradeHashes":{
+      "2748665614":["(20-30)% increased maximum Mana"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","quiver","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(20-30)% increased maximum Mana"
+  },
+  "DelveRingCannotBeShockedWhileMoving1":{
+    "affix":"of the Underground",
+    "group":"CannotBeShockedOrIgnitedWhileMoving",
+    "level":1,
+    "modTags":["elemental","lightning","ailment"],
+    "statOrder":[5417],
+    "tradeHashes":{
+      "3592330380":["Cannot be Shocked or Ignited while moving"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Cannot be Shocked or Ignited while moving"
+  },
+  "DelveRingChaosLeech1":{
+    "affix":"Subterranean",
+    "group":"ChaosDamageLifeLeechPermyriad",
+    "level":1,
+    "modTags":["resource","life","chaos"],
+    "statOrder":[1687],
+    "tradeHashes":{
+      "744082851":["0.2% of Chaos Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,600,0],
+    "1":"0.2% of Chaos Damage Leeched as Life"
+  },
+  "DelveRingColdLeech1":{
+    "affix":"Subterranean",
+    "group":"ColdDamageLifeLeechPermyriad",
+    "level":1,
+    "modTags":["resource","life","elemental","cold"],
+    "statOrder":[1680],
+    "tradeHashes":{
+      "3999401129":["0.2% of Cold Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,600,0],
+    "1":"0.2% of Cold Damage Leeched as Life"
+  },
+  "DelveRingElementalDamage1":{
+    "affix":"of the Underground",
+    "group":"ElementalDamagePercent",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(25-30)% increased Elemental Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","belt","ring","default"],
+    "weightVal":[0,0,1600,1600,0],
+    "1":"(25-30)% increased Elemental Damage"
+  },
+  "DelveRingFireLeech1":{
+    "affix":"Subterranean",
+    "group":"FireDamageLifeLeechPermyriad",
+    "level":1,
+    "modTags":["resource","life","elemental","fire"],
+    "statOrder":[1675],
+    "tradeHashes":{
+      "3848282610":["0.2% of Fire Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,600,0],
+    "1":"0.2% of Fire Damage Leeched as Life"
+  },
+  "DelveRingLightningLeech1_":{
+    "affix":"Subterranean",
+    "group":"LightningDamageLifeLeechPermyriad",
+    "level":1,
+    "modTags":["resource","life","elemental","lightning"],
+    "statOrder":[1684],
+    "tradeHashes":{
+      "80079005":["0.2% of Lightning Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,600,0],
+    "1":"0.2% of Lightning Damage Leeched as Life"
+  },
+  "DelveRingManaCostReduction1":{
+    "affix":"of the Underground",
+    "group":"ManaCostReduction",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[1888],
+    "tradeHashes":{
+      "474294393":["(4-6)% reduced Mana Cost of Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(4-6)% reduced Mana Cost of Skills"
+  },
+  "DelveRingPhysicalLeech1":{
+    "affix":"Subterranean",
+    "group":"PhysicalDamageLifeLeechPermyriad",
+    "level":1,
+    "modTags":["resource","life","physical"],
+    "statOrder":[1671],
+    "tradeHashes":{
+      "3764265320":["0.2% of Physical Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","ring","default"],
+    "weightVal":[0,0,600,0],
+    "1":"0.2% of Physical Damage Leeched as Life"
+  },
+  "DelveShieldPhysicalDamageReductionRating1":{
+    "affix":"Subterranean",
+    "group":"ReducedPhysicalDamageTaken",
+    "level":1,
+    "modTags":["physical"],
+    "statOrder":[2278],
+    "tradeHashes":{
+      "3771516363":["(3-5)% additional Physical Damage Reduction"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","shield","quiver","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"(3-5)% additional Physical Damage Reduction"
+  },
+  "DelveStrengthGemLevel1":{
+    "affix":"of the Underground",
+    "group":"DelveStrengthGemLevel",
+    "level":1,
+    "modTags":["attribute","gem"],
+    "statOrder":[163],
+    "tradeHashes":{
+      "916797432":["+1 to Level of Socketed Strength Gems"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","staff","sceptre","mace","axe","sword","bow","dagger","claw","wand","str_armour","int_armour","dex_armour","str_dex_armour","str_int_armour","dex_int_armour","str_dex_int_armour","unset_ring","default"],
+    "weightVal":[0,0,1000,1000,1600,1000,1000,750,750,750,750,1600,750,750,1000,1000,750,1000,1000,0],
+    "1":"+1 to Level of Socketed Strength Gems"
+  },
+  "DelveWeaponArmourIfYouHitRecently1h1":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","armour"],
+    "statOrder":[9651],
+    "tradeHashes":{
+      "2368149582":["+500 to Armour if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","sceptre","mace","axe","sword","default"],
+    "weightVal":[0,0,0,1600,1600,1600,1600,0],
+    "1":"+500 to Armour if you've Hit an Enemy Recently"
+  },
+  "DelveWeaponArmourIfYouHitRecently2h1":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","armour"],
+    "statOrder":[9651],
+    "tradeHashes":{
+      "2368149582":["+1000 to Armour if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","staff","mace","axe","sword","default"],
+    "weightVal":[0,0,0,1600,1600,1600,1600,0],
+    "1":"+1000 to Armour if you've Hit an Enemy Recently"
+  },
+  "DelveWeaponChanceToGainOnslaughtOnKill1h1_":{
+    "affix":"of the Underground",
+    "group":"ChanceToGainOnslaughtOnKill",
+    "level":1,
+    "modTags":[],
+    "statOrder":[2998],
+    "tradeHashes":{
+      "2988593550":["10% chance to gain Onslaught for 4 seconds on Kill"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","shield","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"10% chance to gain Onslaught for 4 seconds on Kill"
+  },
+  "DelveWeaponChanceToGainOnslaughtOnKill2h1":{
+    "affix":"of the Underground",
+    "group":"ChanceToGainOnslaughtOnKill",
+    "level":1,
+    "modTags":[],
+    "statOrder":[2998],
+    "tradeHashes":{
+      "2988593550":["20% chance to gain Onslaught for 4 seconds on Kill"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"20% chance to gain Onslaught for 4 seconds on Kill"
+  },
+  "DelveWeaponColdPenetration1h1":{
+    "affix":"Subterranean",
+    "group":"ColdResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","cold"],
+    "statOrder":[2988],
+    "tradeHashes":{
+      "3417711605":["Damage Penetrates (5-7)% Cold Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Damage Penetrates (5-7)% Cold Resistance"
+  },
+  "DelveWeaponColdPenetration2h1":{
+    "affix":"Subterranean",
+    "group":"ColdResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","cold"],
+    "statOrder":[2988],
+    "tradeHashes":{
+      "3417711605":["Damage Penetrates (12-15)% Cold Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Damage Penetrates (12-15)% Cold Resistance"
+  },
+  "DelveWeaponDamageOnFullLife1h1__":{
+    "affix":"of the Underground",
+    "group":"DamageOnFullLife",
+    "level":1,
+    "modTags":["damage"],
+    "statOrder":[6079],
+    "tradeHashes":{
+      "592020238":["(50-60)% increased Damage when on Full Life"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(50-60)% increased Damage when on Full Life"
+  },
+  "DelveWeaponDamageOnFullLife2h1":{
+    "affix":"of the Underground",
+    "group":"DamageOnFullLife",
+    "level":1,
+    "modTags":["damage"],
+    "statOrder":[6079],
+    "tradeHashes":{
+      "592020238":["(100-120)% increased Damage when on Full Life"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"(100-120)% increased Damage when on Full Life"
+  },
+  "DelveWeaponDespairOnHit1h1":{
+    "affix":"of the Underground",
+    "group":"CurseOnHitDespair",
+    "level":1,
+    "modTags":["caster","curse"],
+    "statOrder":[2533],
+    "tradeHashes":{
+      "2764915899":["Curse Enemies with Despair on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Curse Enemies with Despair on Hit"
+  },
+  "DelveWeaponDespairOnHit2h1":{
+    "affix":"of the Underground",
+    "group":"CurseOnHitDespair",
+    "level":1,
+    "modTags":["caster","curse"],
+    "statOrder":[2533],
+    "tradeHashes":{
+      "2764915899":["Curse Enemies with Despair on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Curse Enemies with Despair on Hit"
+  },
+  "DelveWeaponElementalDamage1h1":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(40-60)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(40-60)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamage2h1":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(80-120)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,0,0],
+    "1":"(80-120)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_1h1":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(19-25)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(19-25)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_1h2_":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":25,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(26-32)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(26-32)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_1h3":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":50,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(33-39)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(33-39)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_1h4":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":75,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(40-49)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(40-49)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_2h1":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(37-50)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(37-50)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_2h2__":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":25,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(51-65)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(51-65)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_2h3":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":50,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(66-79)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(66-79)% increased Elemental Damage"
+  },
+  "DelveWeaponElementalDamagev2_2h4_":{
+    "affix":"Subterranean",
+    "group":"ElementalDamagePercent",
+    "level":75,
+    "modTags":["elemental_damage","damage","elemental"],
+    "statOrder":[1985],
+    "tradeHashes":{
+      "3141070085":["(80-94)% increased Elemental Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"(80-94)% increased Elemental Damage"
+  },
+  "DelveWeaponEnergyShieldRegenIfYouHitRecently1h1":{
+    "affix":"of the Underground",
+    "group":"EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[6463],
+    "tradeHashes":{
+      "588560583":["Regenerate 0.5% of Energy Shield per second if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","dagger","claw","wand","sceptre","default"],
+    "weightVal":[0,0,1600,1600,1600,1600,0],
+    "1":"Regenerate 0.5% of Energy Shield per second if you've Hit an Enemy Recently"
+  },
+  "DelveWeaponEnergyShieldRegenIfYouHitRecently2h1":{
+    "affix":"of the Underground",
+    "group":"EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","energy_shield"],
+    "statOrder":[6463],
+    "tradeHashes":{
+      "588560583":["Regenerate 1% of Energy Shield per second if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","staff","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Regenerate 1% of Energy Shield per second if you've Hit an Enemy Recently"
+  },
+  "DelveWeaponEvasionIfYouHitRecently1h1":{
+    "affix":"of the Underground",
+    "group":"EvasionRatingIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","evasion"],
+    "statOrder":[6494],
+    "tradeHashes":{
+      "2935548106":["+500 to Evasion Rating if Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","axe","sword","dagger","claw","default"],
+    "weightVal":[0,0,0,1600,1600,1600,1600,0],
+    "1":"+500 to Evasion Rating if Hit an Enemy Recently"
+  },
+  "DelveWeaponEvasionIfYouHitRecently2h1":{
+    "affix":"of the Underground",
+    "group":"EvasionRatingIfYouHaveHitAnEnemyRecently",
+    "level":1,
+    "modTags":["defences","evasion"],
+    "statOrder":[6494],
+    "tradeHashes":{
+      "2935548106":["+1000 to Evasion Rating if Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","axe","sword","bow","default"],
+    "weightVal":[0,0,0,1600,1600,1600,0],
+    "1":"+1000 to Evasion Rating if Hit an Enemy Recently"
+  },
+  "DelveWeaponFirePenetration1h1_":{
+    "affix":"Subterranean",
+    "group":"FireResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","fire"],
+    "statOrder":[2986],
+    "tradeHashes":{
+      "2653955271":["Damage Penetrates (5-7)% Fire Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Damage Penetrates (5-7)% Fire Resistance"
+  },
+  "DelveWeaponFirePenetration2h1":{
+    "affix":"Subterranean",
+    "group":"FireResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","fire"],
+    "statOrder":[2986],
+    "tradeHashes":{
+      "2653955271":["Damage Penetrates (12-15)% Fire Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Damage Penetrates (12-15)% Fire Resistance"
+  },
+  "DelveWeaponIncreasedDamageFromAuras1h1":{
+    "affix":"of the Underground",
+    "group":"IncreasedDamageFromAuras",
+    "level":1,
+    "modTags":["damage","aura"],
+    "statOrder":[3463],
+    "tradeHashes":{
+      "3729445224":["Auras from your Skills grant 2% increased Damage to you and Allies"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Auras from your Skills grant 2% increased Damage to you and Allies"
+  },
+  "DelveWeaponIncreasedDamageFromAuras2h1":{
+    "affix":"of the Underground",
+    "group":"IncreasedDamageFromAuras",
+    "level":1,
+    "modTags":["damage","aura"],
+    "statOrder":[3463],
+    "tradeHashes":{
+      "3729445224":["Auras from your Skills grant 4% increased Damage to you and Allies"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Auras from your Skills grant 4% increased Damage to you and Allies"
+  },
+  "DelveWeaponIntimidateOnHit1":{
+    "affix":"of the Underground",
+    "group":"LocalChanceToIntimidateOnHit",
+    "level":1,
+    "modTags":["attack"],
+    "statOrder":[7879],
+    "tradeHashes":{
+      "2089652545":["15% chance to Intimidate Enemies for 4 seconds on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"15% chance to Intimidate Enemies for 4 seconds on Hit"
+  },
+  "DelveWeaponLightningPenetration1h1":{
+    "affix":"Subterranean",
+    "group":"LightningResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","lightning"],
+    "statOrder":[2989],
+    "tradeHashes":{
+      "818778753":["Damage Penetrates (5-7)% Lightning Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Damage Penetrates (5-7)% Lightning Resistance"
+  },
+  "DelveWeaponLightningPenetration2h1":{
+    "affix":"Subterranean",
+    "group":"LightningResistancePenetration",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","lightning"],
+    "statOrder":[2989],
+    "tradeHashes":{
+      "818778753":["Damage Penetrates (12-15)% Lightning Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Damage Penetrates (12-15)% Lightning Resistance"
+  },
+  "DelveWeaponLocalAttackReduceEnemyElementalResistance1h1":{
+    "affix":"Subterranean",
+    "group":"LocalAttackReduceEnemyElementalResistance",
+    "level":1,
+    "modTags":["elemental_damage","damage","elemental","attack"],
+    "statOrder":[3766],
+    "tradeHashes":{
+      "4064396395":["Attacks with this Weapon Penetrate (9-12)% Elemental Resistances"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"Attacks with this Weapon Penetrate (9-12)% Elemental Resistances"
+  },
+  "DelveWeaponLocalChanceForBleedingDamage100FinalInflictedWithThisWeapon1":{
+    "affix":"Subterranean",
+    "group":"LocalChanceForBleedingDamage100FinalInflictedWithThisWeapon",
+    "level":1,
+    "modTags":["physical_damage","bleed","damage","physical","attack","ailment"],
+    "statOrder":[7875],
+    "tradeHashes":{
+      "1560880986":["60% chance for Bleeding inflicted with this Weapon to deal 100% more Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"60% chance for Bleeding inflicted with this Weapon to deal 100% more Damage"
+  },
+  "DelveWeaponLocalChanceForPoisonDamage100FinalInflictedWithThisWeapon1":{
+    "affix":"Subterranean",
+    "group":"LocalChanceForPoisonDamage100FinalInflictedWithThisWeapon",
+    "level":1,
+    "modTags":["chaos_damage","poison","damage","chaos","attack","ailment"],
+    "statOrder":[7876],
+    "tradeHashes":{
+      "2523146878":["60% chance for Poisons inflicted with this Weapon to deal 100% more Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"60% chance for Poisons inflicted with this Weapon to deal 100% more Damage"
+  },
+  "DelveWeaponManaRegeneratedIfYouveHitRecently1h1":{
+    "affix":"of the Underground",
+    "group":"ManaRegeneratedIfYouveHitRecently",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[8204],
+    "tradeHashes":{
+      "2602865453":["Regenerate 0.4% of Mana per second if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","shield","default"],
+    "weightVal":[0,0,2000,2000,0],
+    "1":"Regenerate 0.4% of Mana per second if you've Hit an Enemy Recently"
+  },
+  "DelveWeaponManaRegeneratedIfYouveHitRecently2h1_":{
+    "affix":"of the Underground",
+    "group":"ManaRegeneratedIfYouveHitRecently",
+    "level":1,
+    "modTags":["resource","mana"],
+    "statOrder":[8204],
+    "tradeHashes":{
+      "2602865453":["Regenerate 0.8% of Mana per second if you've Hit an Enemy Recently"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Regenerate 0.8% of Mana per second if you've Hit an Enemy Recently"
+  },
+  "DelveWeaponMinionDamage1h1_":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":1,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (30-44)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Minions deal (30-44)% increased Damage"
+  },
+  "DelveWeaponMinionDamage1h2":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":25,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (45-59)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Minions deal (45-59)% increased Damage"
+  },
+  "DelveWeaponMinionDamage1h3___":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":50,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (60-74)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"Minions deal (60-74)% increased Damage"
+  },
+  "DelveWeaponMinionDamage1h4":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":75,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (75-80)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,500,0],
+    "1":"Minions deal (75-80)% increased Damage"
+  },
+  "DelveWeaponMinionDamage2h1":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":1,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (51-70)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Minions deal (51-70)% increased Damage"
+  },
+  "DelveWeaponMinionDamage2h2":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":25,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (71-90)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Minions deal (71-90)% increased Damage"
+  },
+  "DelveWeaponMinionDamage2h3_":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":50,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (91-110)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,1000,0],
+    "1":"Minions deal (91-110)% increased Damage"
+  },
+  "DelveWeaponMinionDamage2h4":{
+    "affix":"Subterranean",
+    "group":"MinionDamageOnWeapon",
+    "level":75,
+    "modTags":["damage","minion"],
+    "statOrder":[1978],
+    "tradeHashes":{
+      "1589917703":["Minions deal (111-130)% increased Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,500,0],
+    "1":"Minions deal (111-130)% increased Damage"
+  },
+  "DelveWeaponSocketedAttacksDamageFinal1h1":{
+    "affix":"Subterranean",
+    "group":"SocketedAttacksDamageFinal",
+    "level":1,
+    "modTags":["skill","damage","attack","gem"],
+    "statOrder":[551],
+    "tags":["has_attack_mod"],
+    "tradeHashes":{
+      "1970781345":["Socketed Skills deal 40% more Attack Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightMultiplierKey":["attack_dagger","dagger","warstaff","staff","sceptre","wand_can_roll_caster_modifiers","default"],
+    "weightMultiplierVal":[100,50,100,50,50,50,100],
+    "weightVal":[0,0,2000,0],
+    "1":"Socketed Skills deal 40% more Attack Damage"
+  },
+  "DelveWeaponSocketedAttacksDamageFinal2h1_":{
+    "affix":"Subterranean",
+    "group":"SocketedAttacksDamageFinal",
+    "level":1,
+    "modTags":["skill","damage","attack","gem"],
+    "statOrder":[551],
+    "tags":["has_attack_mod"],
+    "tradeHashes":{
+      "1970781345":["Socketed Skills deal 20% more Attack Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightMultiplierKey":["attack_dagger","dagger","warstaff","staff","sceptre","wand_can_roll_caster_modifiers","default"],
+    "weightMultiplierVal":[100,50,100,50,50,50,100],
+    "weightVal":[0,0,2000,0],
+    "1":"Socketed Skills deal 20% more Attack Damage"
+  },
+  "DelveWeaponSocketedSpellsDamageFinal1h1_":{
+    "affix":"Subterranean",
+    "group":"SocketedSpellsDamageFinal",
+    "level":1,
+    "modTags":["skill","caster_damage","damage","caster","gem"],
+    "statOrder":[570],
+    "tradeHashes":{
+      "2964800094":["Socketed Skills deal 40% more Spell Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Socketed Skills deal 40% more Spell Damage"
+  },
+  "DelveWeaponSocketedSpellsDamageFinal2h1":{
+    "affix":"Subterranean",
+    "group":"SocketedSpellsDamageFinal",
+    "level":1,
+    "modTags":["skill","caster_damage","damage","caster","gem"],
+    "statOrder":[570],
+    "tradeHashes":{
+      "2964800094":["Socketed Skills deal 20% more Spell Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Socketed Skills deal 20% more Spell Damage"
+  },
+  "DelveWeaponVaalSoulCost1h1_":{
+    "affix":"of the Underground",
+    "group":"VaalSoulCost",
+    "level":1,
+    "modTags":["vaal"],
+    "statOrder":[9485],
+    "tradeHashes":{
+      "3533432197":["Non-Aura Vaal Skills require 20% reduced Souls Per Use"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","one_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Non-Aura Vaal Skills require 20% reduced Souls Per Use"
+  },
+  "DelveWeaponVaalSoulCost2h1":{
+    "affix":"of the Underground",
+    "group":"VaalSoulCost",
+    "level":1,
+    "modTags":["vaal"],
+    "statOrder":[9485],
+    "tradeHashes":{
+      "3533432197":["Non-Aura Vaal Skills require 40% reduced Souls Per Use"]
+    },
+    "type":"Suffix",
+    "weightKey":["abyss_jewel","jewel","two_hand_weapon","default"],
+    "weightVal":[0,0,2000,0],
+    "1":"Non-Aura Vaal Skills require 40% reduced Souls Per Use"
+  },
+  "DoubleModSellPrice1":{
+    "affix":"",
+    "group":"DoubleModSellPrice1",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[6000],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice2":{
+    "affix":"",
+    "group":"DoubleModSellPrice2",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[1000],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice3_":{
+    "affix":"",
+    "group":"DoubleModSellPrice3",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[6000],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice4":{
+    "affix":"",
+    "group":"DoubleModSellPrice4",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[1000],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice5_":{
+    "affix":"",
+    "group":"DoubleModSellPrice5",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[6000],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice6":{
+    "affix":"",
+    "group":"DoubleModSellPrice6",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[10],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice7":{
+    "affix":"",
+    "group":"DoubleModSellPrice7",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[2000],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice8":{
+    "affix":"",
+    "group":"DoubleModSellPrice8",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[1],
+    "1":"Item sells for much more to vendors"
+  },
+  "DoubleModSellPrice9":{
+    "affix":"",
+    "group":"DoubleModSellPrice9",
+    "level":1,
+    "modTags":[],
+    "statOrder":[7956],
+    "tradeHashes":{
+      "3513534186":["Item sells for much more to vendors"]
+    },
+    "type":"DelveImplicit",
+    "weightKey":["default"],
+    "weightVal":[1000],
+    "1":"Item sells for much more to vendors"
+  }
+}
