@@ -1537,7 +1537,7 @@
                 "type":"PercentStat"
               },
               "2":{
-                "effectName":"Cannibalism",
+                "effectName":"Cannibalism I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -1581,7 +1581,7 @@
                 "type":"PercentStat"
               },
               "2":{
-                "effectName":"Cannibalism",
+                "effectName":"Cannibalism II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -1884,6 +1884,7 @@
             "type":"MORE",
             "value":100,
             "1":{
+              "limit":9,
               "type":"Multiplier",
               "var":"CorruptingCryStageAfterFirst"
             }
@@ -1987,6 +1988,7 @@
             "type":"MORE",
             "value":100,
             "1":{
+              "limit":9,
               "type":"Multiplier",
               "var":"CorruptingCryStageAfterFirst"
             }
@@ -2082,6 +2084,7 @@
             "type":"MORE",
             "value":100,
             "1":{
+              "limit":9,
               "type":"Multiplier",
               "var":"CorruptingCryStageAfterFirst"
             }
@@ -2551,9 +2554,13 @@
               "name":"Damage",
               "type":"INC",
               "1":{
-                "effectName":"Direstrike",
+                "effectName":"Direstrike I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
+              },
+              "2":{
+                "type":"Condition",
+                "var":"LowLife"
               }
             }]
         },
@@ -2590,9 +2597,13 @@
               "name":"Damage",
               "type":"INC",
               "1":{
-                "effectName":"Direstrike",
+                "effectName":"Direstrike II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
+              },
+              "2":{
+                "type":"Condition",
+                "var":"LowLife"
               }
             }]
         },
@@ -3751,7 +3762,7 @@
               "name":"FlaskLifeRecovery",
               "type":"INC",
               "1":{
-                "effectName":"Herbalism",
+                "effectName":"Herbalism I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -3790,7 +3801,7 @@
               "name":"FlaskLifeRecovery",
               "type":"INC",
               "1":{
-                "effectName":"Herbalism",
+                "effectName":"Herbalism II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -6223,7 +6234,7 @@
               "name":"ThornsDamage",
               "type":"INC",
               "1":{
-                "effectName":"Thornskin",
+                "effectName":"Thornskin I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -6262,7 +6273,7 @@
               "name":"ThornsDamage",
               "type":"INC",
               "1":{
-                "effectName":"Thornskin",
+                "effectName":"Thornskin II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -6844,7 +6855,7 @@
               "name":"LifeRegenPercent",
               "type":"BASE",
               "1":{
-                "effectName":"Vitality",
+                "effectName":"Vitality I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -6886,7 +6897,7 @@
               "name":"LifeRegenPercent",
               "type":"BASE",
               "1":{
-                "effectName":"Vitality",
+                "effectName":"Vitality II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -6972,6 +6983,28 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_zerphis_legacy_area_of_effect_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"AreaOfEffect",
+              "type":"MORE",
+              "1":{
+                "skillTypeList":[63,8],
+                "type":"SkillType"
+              }
+            }],
+          "support_zerphis_legacy_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "skillTypeList":[63,8],
+                "type":"SkillType"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true

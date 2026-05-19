@@ -1045,6 +1045,22 @@
                 "type":"ActorCondition",
                 "var":"Frozen"
               }
+            }],
+          "support_biting_frost_damage_+%_final_vs_frozen_unique_enemies":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Frozen"
+              },
+              "2":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Unique"
+              }
             }]
         },
         "stats":["never_freeze"]
@@ -1082,6 +1098,22 @@
                 "actor":"enemy",
                 "type":"ActorCondition",
                 "var":"Frozen"
+              }
+            }],
+          "support_biting_frost_damage_+%_final_vs_frozen_unique_enemies":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Frozen"
+              },
+              "2":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Unique"
               }
             }]
         },
@@ -1511,7 +1543,7 @@
               "name":"ManaRegen",
               "type":"INC",
               "1":{
-                "effectName":"Clarity",
+                "effectName":"Clarity I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -1550,7 +1582,7 @@
               "name":"ManaRegen",
               "type":"INC",
               "1":{
-                "effectName":"Clarity",
+                "effectName":"Clarity II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -2638,6 +2670,30 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
+      }],
+    "support":true
+  },
+  "SupportEternalMarkPlayer":{
+    "addSkillTypes":[],
+    "color":3,
+    "description":"Supports Mark Skills, causing them to not be Consumed the first time they are Activated.",
+    "excludeSkillTypes":[],
+    "gemFamily":["EternalMark"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Eternal Mark",
+    "requireSkillTypes":[99],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Eternal Mark",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["marks_avoid_consumption_when_first_activated"]
       }],
     "support":true
   },
@@ -3732,10 +3788,10 @@
           "support_inevitable_criticals_critical_strike_multiplier_+%_final_per_second":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"CritChance",
+              "name":"CritMultiplier",
               "type":"MORE",
               "1":{
-                "limitTotal":true,
+                "limitNegTotal":true,
                 "limitVar":"InevitableCritMultCap",
                 "type":"Multiplier",
                 "var":"SecondsSinceInevitableCrit"
@@ -4437,6 +4493,28 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_approaching_storms_area_of_effect_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"AreaOfEffect",
+              "type":"MORE",
+              "1":{
+                "skillType":255,
+                "type":"SkillType"
+              }
+            }],
+          "support_approaching_storms_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "skillType":255,
+                "type":"SkillType"
+              }
+            }]
+        },
         "stats":["storm_skills_spawn_at_initiator_location","self_targeted_storm_skills_target_a_location_instead"]
       }],
     "support":true
@@ -4519,7 +4597,7 @@
                 "var":"FullEnergyShield"
               },
               "2":{
-                "effectName":"Mysticism",
+                "effectName":"Mysticism I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -4562,7 +4640,7 @@
                 "var":"FullEnergyShield"
               },
               "2":{
-                "effectName":"Mysticism",
+                "effectName":"Mysticism II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -5025,6 +5103,14 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_ritual_curse_curse_delay_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CurseDelay",
+              "type":"MORE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -5866,26 +5952,6 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_anticipation_rapid_fire_count":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SealCount",
-              "type":"BASE"
-            }],
-          "support_spell_rapid_fire_repeat_use_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SealRepeatPenalty",
-              "type":"MORE"
-            }],
-          "unleash_support_seal_gain_frequency_as_%_of_total_cast_time":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SealGainFrequency",
-              "type":"BASE"
-            }]
-        },
         "stats":[]
       }],
     "support":true
@@ -6347,6 +6413,13 @@
     "requireSkillTypes":[234,2,74],
     "statSets":[{
         "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"HasSeals",
+            "type":"FLAG",
+            "value":true
+          }],
         "constantStats":[["support_spell_rapid_fire_repeat_use_damage_+%_final",-20],["unleash_support_seal_gain_frequency_as_%_of_total_cast_time",50],["support_anticipation_rapid_fire_count",5]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Zarokh's Revolt",

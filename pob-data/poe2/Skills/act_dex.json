@@ -893,6 +893,7 @@
                 "type":"GlobalEffect"
               },
               "2":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovableFrenzyCharge"
               }
@@ -13482,6 +13483,7 @@
               "name":"SplitCount",
               "type":"BASE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
@@ -13493,6 +13495,7 @@
               "name":"Damage",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
@@ -17671,10 +17674,12 @@
           "rain_of_arrows_projectile_count_multiplier_per_frenzy_charge":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"ProjectileNumber",
+              "name":"ProjectileCount",
               "type":"MORE",
               "1":{
-                "type":"Multiplier",
+                "scalar":"ConsumedFrenzyChargeEffect",
+                "threshold":1,
+                "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
               }
             }]
@@ -22552,6 +22557,7 @@
               "name":"ChainCountMax",
               "type":"BASE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovableFrenzyCharge"
               }
@@ -22562,6 +22568,7 @@
               "name":"Damage",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovableFrenzyCharge"
               }
@@ -22572,6 +22579,7 @@
               "name":"Damage",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
@@ -24268,7 +24276,6 @@
         "baseFlags":{
           "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true,
           "summonBeast":true
         },

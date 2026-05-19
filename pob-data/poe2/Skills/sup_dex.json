@@ -2144,6 +2144,7 @@
               "name":"Speed",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
@@ -2154,6 +2155,7 @@
               "name":"WarcrySpeed",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
@@ -2164,6 +2166,7 @@
               "name":"TotemPlacementSpeed",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedFrenzyChargeEffect",
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
@@ -3711,7 +3714,7 @@
               "name":"Accuracy",
               "type":"INC",
               "1":{
-                "effectName":"Precision",
+                "effectName":"Precision I",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
@@ -3750,7 +3753,7 @@
               "name":"Accuracy",
               "type":"INC",
               "1":{
-                "effectName":"Precision",
+                "effectName":"Precision II",
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }

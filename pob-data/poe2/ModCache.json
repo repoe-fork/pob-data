@@ -1965,7 +1965,17 @@
           "value":2
         }
       }]],
-  "+2 to Limit for Elemental Skills":[[]," Limit for Elemental Skills "],
+  "+2 to Limit for Elemental Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AdditionalCooldownUses",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "skillTypeList":[29,28,30],
+          "type":"SkillType"
+        }
+      }]],
   "+2 to Maximum Endurance Charges":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8424,32 +8434,19 @@
   "1% increased Spirit Reservation Efficiency of Buff Skills per 100 Maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Spirit",
+        "name":"SpiritReservationEfficiency",
         "type":"INC",
         "value":1,
         "1":{
-          "div":100,
-          "stat":"Life",
-          "type":"PerStat"
-        }
-      }],"  Reservation Efficiency of Buff Skills  "],
-  "1% increased Spirit Reservation Efficiency of Buff Skills per 100 Maximum Life +1 to Maximum Spirit per 50 Maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Spirit",
-        "type":"INC",
-        "value":1,
-        "1":{
-          "div":100,
-          "stat":"Life",
-          "type":"PerStat"
+          "skillType":5,
+          "type":"SkillType"
         },
         "2":{
-          "div":50,
+          "div":100,
           "stat":"Life",
           "type":"PerStat"
         }
-      }],"  Reservation Efficiency of Buff Skills  +1 to Maximum Spirit  "],
+      }]],
   "1% increased Spirit Reservation Efficiency of Skills per 20 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10807,7 +10804,13 @@
         "type":"INC",
         "value":100
       }]],
-  "100% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
+  "100% increased Culling Strike Threshold":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CullPercent",
+        "type":"INC",
+        "value":100
+      }]],
   "100% increased Defences from Equipped Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15906,8 +15909,13 @@
           "var":"Shapeshifted"
         }
       }]],
-  "20% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
-  "20% increased Culling Strike Threshold Culling Strike against Beasts while your Companion is in your Presence":[[]," Culling Strike Threshold Culling Strike against Beasts  "],
+  "20% increased Culling Strike Threshold":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CullPercent",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased Curse Duration":[[{
         "flags":0,
         "keywordFlags":2,
@@ -18333,14 +18341,13 @@
         "type":"INC",
         "value":25
       }]],
-  "25% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
-  "25% increased Culling Strike Threshold Gain 13% of Damage as Extra Chaos Damage":[[{
+  "25% increased Culling Strike Threshold":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"CullPercent",
         "type":"INC",
         "value":25
-      }]," Culling Strike Threshold Gain 13% of  as Extra Chaos Damage "],
+      }]],
   "25% increased Damage during any Flask Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24447,7 +24454,13 @@
         "type":"INC",
         "value":5
       }]],
-  "5% increased Culling Strike Threshold":[[]," Culling Strike Threshold "],
+  "5% increased Culling Strike Threshold":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CullPercent",
+        "type":"INC",
+        "value":5
+      }]],
   "5% increased Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -30378,44 +30391,14 @@
   "All Damage from Hits Contributes to Chill Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"PhysicalCanChill",
-        "type":"FLAG",
-        "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireCanChill",
-        "type":"FLAG",
-        "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningCanChill",
-        "type":"FLAG",
-        "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosCanChill",
+        "name":"CanChill",
         "type":"FLAG",
         "value":true
       }]],
   "All Damage from Hits Contributes to Poison Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FireCanPoison",
-        "type":"FLAG",
-        "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdCanPoison",
-        "type":"FLAG",
-        "value":true
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningCanPoison",
+        "name":"CanPoison",
         "type":"FLAG",
         "value":true
       }]],
@@ -30444,11 +30427,45 @@
         "type":"FLAG",
         "value":true
       }]],
-  "All Damage from Hits against Bleeding targets Contributes to Chill Magnitude":[null,"All Damage from Hits against Bleeding targets Contributes to Chill Magnitude "],
-  "All Damage from Hits against Bleeding targets Contributes to Chill Magnitude 20% chance to inflict Bleeding on Hit":[null,"All Damage from Hits against Bleeding targets Contributes to Chill Magnitude 20% chance to inflict Bleeding on Hit "],
-  "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude":[null,"All Damage from Hits against Poisoned targets Contributes to Chill Magnitude "],
-  "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude 25% increased Magnitude of Poison you inflict":[null,"All Damage from Hits against Poisoned targets Contributes to Chill Magnitude 25% increased Magnitude of Poison you inflict "],
-  "All Damage from Hits with this Weapon Contributes to Chill Magnitude":[null,"All Damage from Hits with this Weapon Contributes to Chill Magnitude "],
+  "All Damage from Hits against Bleeding targets Contributes to Chill Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Bleeding"
+        }
+      }]],
+  "All Damage from Hits against Poisoned targets Contributes to Chill Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Poisoned"
+        }
+      }]],
+  "All Damage from Hits with this Weapon Contributes to Chill Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanChill",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "type":"Condition",
+          "var":"{Hand}Attack"
+        },
+        "2":{
+          "skillType":1,
+          "type":"SkillType"
+        }
+      }]],
   "All Damage from Hits with this Weapon Contributes to Freeze Buildup":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37938,22 +37955,10 @@
   "Benefits from consuming Frenzy Charges for your Skills have 50% chance to be doubled":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FlaskCharges",
-        "type":"MORE",
-        "value":100,
-        "1":{
-          "globalLimit":100,
-          "globalLimitKey":"FlaskChargesDoubledLimit",
-          "type":"Multiplier",
-          "var":"FlaskChargesDoubled"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Multiplier:FlaskChargesDoubled",
-        "type":"OVERRIDE",
-        "value":1
-      }],"Benefits from consuming Frenzy  for your Skills have 50% chance to be d "],
+        "name":"Multiplier:ConsumedFrenzyChargeEffect",
+        "type":"BASE",
+        "value":"50"
+      }]],
   "Bifurcates Critical Hits":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38445,14 +38450,22 @@
   "Can Socket a non-Unique Basic Jewel into the Phylactery":[[]],
   "Can be modified while Corrupted":[null,"Can be modified while Corrupted "],
   "Can be modified while Corrupted +150 to maximum Life":[null,"Can be modified while Corrupted +150 to maximum Life "],
-  "Can have 2 additional Instilled Modifiers":[null,"Can have 2 additional Instilled Modifiers "],
-  "Can have 2 additional Instilled Modifiers Can have 3 additional Instilled Modifiers":[null,"Can have 2 additional Instilled Modifiers Can have 3 additional Instilled Modifiers "],
-  "Can have 3 additional Instilled Modifiers":[null,"Can have 3 additional Instilled Modifiers "],
+  "Can have 2 additional Instilled Modifiers":[[]],
+  "Can have 3 additional Instilled Modifiers":[[]],
   "Can instead consume 25% of maximum Mana to trigger Charms with insufficient charges":[null,"Can instead consume 25% of maximum Mana to trigger Charms with insufficient charges "],
   "Can only use a Normal Body Armour":[null,"Can only use a Normal Body Armour "],
   "Can only use a Normal Body Armour +200 to Armour for each Connected Notable Passive Skill Allocated":[null,"Can only use a Normal Body Armour +200 to Armour for each Connected Notable Passive Skill Allocated "],
-  "Can't use Body Armour":[null,"Can't use Body Armour "],
-  "Can't use Body Armour You can wield Two-Handed Axes, Maces and Swords in one hand":[null,"Can't use Body Armour You can wield Two-Handed Axes, Maces and Swords in one hand "],
+  "Can't use Body Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanNotUseBody",
+        "type":"Flag",
+        "value":1,
+        "1":{
+          "slotName":"Body Armour",
+          "type":"DisablesItem"
+        }
+      }]],
   "Can't use Helmets":[null,"Can't use Helmets "],
   "Can't use Helmets Your Critical Hit Chance is Lucky":[null,"Can't use Helmets Your Critical Hit Chance is Lucky "],
   "Can't use Helmets Your Critical Hit Chance is Lucky Your Damage with Critical Hits is Lucky":[null,"Can't use Helmets Your Critical Hit Chance is Lucky Your Damage with Critical Hits is Lucky "],
@@ -38519,7 +38532,31 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Cannot Immobilise enemies":[null,"Cannot Immobilise enemies "],
+  "Cannot Immobilise enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotElectrocute",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotFreeze",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotHeavyStun",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotPin",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Cannot Recharge or Regenerate Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -38967,8 +39004,25 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup":[null,"Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup "],
-  "Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance":[null,"Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance "],
+  "Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdCanIgnite",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdCannotChill",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdCannotFreeze",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Cold Resistance is unaffected by Area Penalties":[null,"Cold Resistance is unaffected by Area Penalties "],
   "Cold Resistance is unaffected by Area Penalties Fire Resistance is unaffected by Area Penalties":[null,"Cold Resistance is unaffected by Area Penalties Fire Resistance is unaffected by Area Penalties "],
   "Combo count loss occurs 20% slower":[null,"Combo count loss occurs 20% slower "],
@@ -39315,7 +39369,52 @@
           "var":"Frozen"
         }
       }]],
-  "Current Energy Shield also grants Elemental Damage reduction":[null,"Current Energy Shield also grants Elemental Damage reduction "],
+  "Current Energy Shield also grants Elemental Damage reduction":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldAppliesToColdDamageTaken",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "limit":150,
+          "type":"Multiplier",
+          "var":"CurrentEnergyShield"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UseCurrentEnergyShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldAppliesToFireDamageTaken",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "limit":150,
+          "type":"Multiplier",
+          "var":"CurrentEnergyShield"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UseCurrentEnergyShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldAppliesToLightningDamageTaken",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "limit":150,
+          "type":"Multiplier",
+          "var":"CurrentEnergyShield"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UseCurrentEnergyShield"
+        }
+      }]],
   "Curse Enemies with Enfeeble on Block":[[{
         "flags":0,
         "keywordFlags":0,
@@ -39602,7 +39701,13 @@
   "Damage over Time bypasses your Energy Shield":[null,"Damage over Time bypasses your Energy Shield "],
   "Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 1% of maximum Mana per Second to Recover that much Life":[null,"Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 1% of maximum Mana per Second to Recover that much Life "],
   "Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 10% of maximum Mana per Second to Recover that much Life":[null,"Damage over Time bypasses your Energy Shield While not on Full Life, Sacrifice 10% of maximum Mana per Second to Recover that much Life "],
-  "Damage taken Recouped as Life is also Recouped as Energy Shield":[null,"Damage taken Recouped as Life is also Recouped as Energy Shield "],
+  "Damage taken Recouped as Life is also Recouped as Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AddLifeRecoupToEnergyShieldRecoup",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Damage taken is Reserved from Darkness before being taken from Life or Energy Shield":[null,"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield "],
   "Damage taken is Reserved from Darkness before being taken from Life or Energy Shield Darkness Reservation lasts for 5 seconds":[null,"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield Darkness Reservation lasts for 5 seconds "],
   "Damage taken is Reserved from Darkness before being taken from Life or Energy Shield Darkness Reservation lasts for 5 seconds +10 to Maximum Darkness per Level":[null,"Damage taken is Reserved from Darkness before being taken from Life or Energy Shield Darkness Reservation lasts for 5 seconds +10 to Maximum Darkness per Level "],
@@ -39828,8 +39933,23 @@
   "Debuffs you inflict have 7% increased Slow Magnitude":[null,"Debuffs you inflict have 7% increased Slow Magnitude "],
   "Debuffs you inflict have 7% increased Slow Magnitude 7% increased Exposure Effect":[null,"Debuffs you inflict have 7% increased Slow Magnitude 7% increased Exposure Effect "],
   "Decimating Strike":[null,"Decimating Strike "],
-  "Defend against Hits as though you had 1% more Armour per 1% current Energy Shield":[null,"Defend against Hits as though you had 1% more Armour per 1% current Energy Shield "],
-  "Defend against Hits as though you had 1% more Armour per 1% current Energy Shield 50% reduced Duration of Bleeding on You":[null,"Defend against Hits as though you had 1% more Armour per 1% current Energy Shield 50% reduced Duration of Bleeding on You "],
+  "Defend against Hits as though you had 1% more Armour per 1% current Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourDefense",
+        "type":"MAX",
+        "value":1,
+        "1":{
+          "div":"1",
+          "limit":150,
+          "type":"Multiplier",
+          "var":"CurrentEnergyShield"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UseCurrentEnergyShield"
+        }
+      }]],
   "Defend with 120% of Armour against Projectile Attacks":[null,"Defend with 120% of Armour against Projectile Attacks "],
   "Defend with 120% of Armour while not on Low Energy Shield":[[{
         "flags":0,
@@ -40011,8 +40131,13 @@
         "type":"LIST",
         "value":"Eldritch Battery"
       }]],
-  "Elemental Ailment Threshold is increased by Uncapped Chaos Resistance":[null,"Elemental Ailment Threshold is increased by Uncapped Chaos Resistance "],
-  "Elemental Ailment Threshold is increased by Uncapped Chaos Resistance Armour is increased by Uncapped Fire Resistance":[null,"Elemental Ailment Threshold is increased by Uncapped Chaos Resistance Armour is increased by Uncapped Fire Resistance "],
+  "Elemental Ailment Threshold is increased by Uncapped Chaos Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AilmentThresholdIncreasedByUncappedChaosRes",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Elemental Archon does not expire while on High Infernal Flame":[null,"Elemental Archon does not expire while on High Infernal Flame "],
   "Elemental Archon does not expire while on High Infernal Flame Lose Elemental Archon on reaching maximum Infernal Flame":[null,"Elemental Archon does not expire while on High Infernal Flame Lose Elemental Archon on reaching maximum Infernal Flame "],
   "Elemental Damage also Contributes to Bleeding Magnitude":[[{
@@ -40189,8 +40314,13 @@
         }
       }]],
   "Enemies Chilled by your Hits can be Shattered as though Frozen":[null,"your Hits can be Shattered as though Frozen "],
-  "Enemies Chilled by your Hits increase damage taken by Chill Magnitude":[null,"your Hits increase damage taken by Chill Magnitude "],
-  "Enemies Chilled by your Hits increase damage taken by Chill Magnitude Attacks Gain 10% of Damage as Extra Cold Damage":[null,"your Hits increase damage taken by Chill Magnitude Attacks Gain 10% of Damage as Extra Cold Damage "],
+  "Enemies Chilled by your Hits increase damage taken by Chill Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChillEffectIncDamageTaken",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Enemies Frozen by you have -8% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41499,8 +41629,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Energy Shield is increased by Uncapped Cold Resistance":[null,"Energy Shield is increased by Uncapped Cold Resistance "],
-  "Energy Shield is increased by Uncapped Cold Resistance Evasion Rating is increased by Uncapped Lightning Resistance":[null,"Energy Shield is increased by Uncapped Cold Resistance Evasion Rating is increased by Uncapped Lightning Resistance "],
+  "Energy Shield is increased by Uncapped Cold Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldIncreasedByUncappedColdRes",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Energy Shield starts at zero":[null,"Energy Shield starts at zero "],
   "Energy Shield starts at zero Cannot Recharge or Regenerate Energy Shield":[null,"Energy Shield starts at zero Cannot Recharge or Regenerate Energy Shield "],
   "Energy Shield starts at zero Cannot Recharge or Regenerate Energy Shield Lose 5% of Energy Shield per second":[null,"Energy Shield starts at zero Cannot Recharge or Regenerate Energy Shield Lose 5% of Energy Shield per second "],
@@ -41580,7 +41715,13 @@
           "var":"BeenHitRecently"
         }
       }]],
-  "Evasion Rating is increased by Uncapped Lightning Resistance":[null,"Evasion Rating is increased by Uncapped Lightning Resistance "],
+  "Evasion Rating is increased by Uncapped Lightning Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionRatingIncreasedByUncappedLightningRes",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Everlasting Sacrifice":[[{
         "flags":0,
         "keywordFlags":0,
@@ -41674,9 +41815,46 @@
           "var":"RageEffect"
         }
       }]],
-  "Every Rage also grants you 1% increased Minion Attack Speed":[null,"you 1% increased Minion Attack Speed "],
-  "Every Rage also grants you 1% increased Minion Attack Speed Every Rage also grants you 1% increased Minion Damage":[null,"you 1% increased Minion Attack Speed Every Rage also grants you 1% increased Minion Damage "],
-  "Every Rage also grants you 1% increased Minion Damage":[null,"you 1% increased Minion Damage "],
+  "Every Rage also grants you 1% increased Minion Attack Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":1,
+            "keywordFlags":0,
+            "name":"Speed",
+            "type":"INC",
+            "value":1,
+            "1":{
+              "actor":"player",
+              "type":"Multiplier",
+              "var":"RageEffect"
+            }
+          }
+        }
+      }]],
+  "Every Rage also grants you 1% increased Minion Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"INC",
+            "value":1,
+            "1":{
+              "actor":"player",
+              "type":"Multiplier",
+              "var":"RageEffect"
+            }
+          }
+        }
+      }]],
   "Every Third Slam skill that doesn't create Fissures which you use yourself causes 3 additional Aftershocks ahead and to each side of the initial area":[null,"Every Third Slam skill that doesn't create Fissures which you use yourself causes 3 additional Aftershocks ahead and to each side of the initial area "],
   "Every second Slam Skill you use yourself is Ancestrally Boosted":[null,"Every second Slam Skill you use yourself is Ancestrally Boosted "],
   "Every second, inflicts Critical Weakness on enemies in your Presence for 1 second":[[{
@@ -41745,8 +41923,19 @@
           "varList":["averageRepeat","alwaysFinalRepeat"]
         }
       }]],
-  "Fire Damage from Hits Contributes to Shock Chance instead of Flammability and Ignite Magnitudes":[null,"Fire Damage from Hits Contributes to Shock Chance instead of Flammability and Ignite Magnitudes "],
-  "Fire Damage from Hits Contributes to Shock Chance instead of Flammability and Ignite Magnitudes Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup":[null,"Fire Damage from Hits Contributes to Shock Chance instead of Flammability and Ignite Magnitudes Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup "],
+  "Fire Damage from Hits Contributes to Shock Chance instead of Flammability and Ignite Magnitudes":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireCanShock",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireCannotIgnite",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Fire Resistance is unaffected by Area Penalties":[null,"Fire Resistance is unaffected by Area Penalties "],
   "Fire Resistance is unaffected by Area Penalties Lightning Resistance is unaffected by Area Penalties":[null,"Fire Resistance is unaffected by Area Penalties Lightning Resistance is unaffected by Area Penalties "],
   "Fire Spells Convert 100% of Fire Damage to Chaos Damage":[[{
@@ -41765,7 +41954,25 @@
         }
       }]],
   "Fissure Skills have +1 to Limit":[null,"Fissure Skills have +1 to Limit "],
-  "Flammability Magnitude is doubled":[[],"Magnitude  "],
+  "Flammability Magnitude is doubled":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyIgniteChance",
+        "type":"MORE",
+        "value":100,
+        "1":{
+          "globalLimit":100,
+          "globalLimitKey":"EnemyIgniteChanceDoubledLimit",
+          "type":"Multiplier",
+          "var":"EnemyIgniteChanceDoubled"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:EnemyIgniteChanceDoubled",
+        "type":"OVERRIDE",
+        "value":1
+      }]],
   "Flasks gain 0.17 charges per Second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44776,7 +44983,13 @@
         }
       }]],
   "Grants Thaumaturgical Dynamism":[null,"Grants Thaumaturgical Dynamism "],
-  "Grants Unravelling":[null,"Grants Unravelling "],
+  "Grants Unravelling":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Unravelling",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Grants a Frenzy Charge on use":[null,"Grants a Frenzy Charge on use "],
   "Grants a Power Charge on use":[null,"Grants a Power Charge on use "],
   "Grants effect of Dreaming Gloom Shrine":[null,"Grants effect of Dreaming Gloom Shrine "],
@@ -45213,8 +45426,21 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Immobilise enemies at 50% buildup instead of 100%":[null,"Immobilise enemies at 50% buildup instead of 100% "],
-  "Immobilise enemies at 50% buildup instead of 100% Enemies Immobilised by you take 25% less Damage":[null,"Immobilise enemies at 50% buildup instead of 100% Enemies Immobilised by you take 25% less Damage "],
+  "Immobilise enemies at 50% buildup instead of 100%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PoiseThreshold",
+            "type":"MORE",
+            "value":-50
+          }
+        }
+      }]],
   "Immune to Bleeding if Equipped Helmet has higher Armour than Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -45437,9 +45663,135 @@
   "Inflict Cold Exposure on Igniting an Enemy Inflict Fire Exposure on Shocking an Enemy":[null,"Inflict Cold Exposure on Igniting an Enemy Inflict Fire Exposure on Shocking an Enemy "],
   "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of":[null,"Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of "],
   "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of your maximum Life as Physical damage per second":[null,"Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of your maximum Life as Physical damage per second "],
-  "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 30%":[null,"Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 30% "],
-  "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 30% Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 60%":[null,"Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 30% Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 60% "],
-  "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 60%":[null,"Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 60% "],
+  "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 30%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"FireExposure",
+            "type":"BASE",
+            "value":-30
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ColdExposure",
+            "type":"BASE",
+            "value":-30
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LightningExposure",
+            "type":"BASE",
+            "value":-30
+          }
+        }
+      }]],
+  "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 55%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"FireExposure",
+            "type":"BASE",
+            "value":-55
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ColdExposure",
+            "type":"BASE",
+            "value":-55
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LightningExposure",
+            "type":"BASE",
+            "value":-55
+          }
+        }
+      }]],
+  "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 60%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"FireExposure",
+            "type":"BASE",
+            "value":-60
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ColdExposure",
+            "type":"BASE",
+            "value":-60
+          }
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LightningExposure",
+            "type":"BASE",
+            "value":-60
+          }
+        }
+      }]],
   "Inflict Elemental Exposure to Enemies 3 metres in front of you":[null,"Inflict Elemental Exposure to Enemies 3 metres in front of you "],
   "Inflict Elemental Exposure to Enemies 3 metres in front of you for 4 seconds, every 0.25 seconds while raised":[null,"Inflict Elemental Exposure to Enemies 3 metres in front of you for 4 seconds, every 0.25 seconds while raised "],
   "Inflict Fire Exposure on Shocking an Enemy":[null,"Inflict Fire Exposure on Shocking an Enemy "],
@@ -45938,7 +46290,19 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance":[null,"Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance "],
+  "Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningCanFreeze",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningCannotShock",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Lightning Damage of Enemies Hitting you is Unlucky":[null,"Lightning Damage of Enemies Hitting you is Unlucky "],
   "Lightning Damage of Enemies Hitting you is Unlucky during effect":[null,"Lightning Damage of Enemies Hitting you is Unlucky during effect "],
   "Lightning Resistance does not affect Lightning damage taken":[[{
@@ -47724,8 +48088,40 @@
         "type":"BASE",
         "value":100
       }]],
-  "Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry":[null,"Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry "],
-  "Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry 100% of Parry Physical Damage Converted to Cold Damage":[null,"Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry 100% of Parry Physical Damage Converted to Cold Damage "],
+  "Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FreezeBuildupInsteadOfStunBuildup",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Parry",
+          "type":"SkillName"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotStun",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Parry",
+          "type":"SkillName"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CannotHeavyStun",
+        "type":"FLAG",
+        "value":true,
+        "1":{
+          "includeTransfigured":true,
+          "skillName":"Parry",
+          "type":"SkillName"
+        }
+      }]],
   "Moving while Bleeding doesn't cause you to take extra damage":[null,"Moving while Bleeding doesn't cause you to take extra damage "],
   "Nearby Allies and Enemies Share Charges with you":[null,"Nearby Allies and Enemies Share Charges with you "],
   "Nearby Allies and Enemies Share Charges with you Enemies Hitting you have 10% chance to gain an Endurance, ":[null,"Nearby Allies and Enemies Share Charges with you Enemies Hitting you have 10% chance to gain an Endurance,  "],
@@ -47756,7 +48152,17 @@
       }],"No Inherent loss of  Regenerate 6% of your  per second Increases and Reductions to Mana Regeneration Rate also apply to Rage Regeneration Rate Skills have +5 to Rage  to Maximum Rage "],
   "No Inherent loss of Rage during effect":[null,"No Inherent loss of Rage during effect "],
   "No Inherent loss of Rage during effect 50% increased Duration":[null,"No Inherent loss of Rage during effect 50% increased Duration "],
-  "No Movement Speed Penalty while Shield is Raised":[null,"No Movement Speed Penalty while Shield is Raised "],
+  "No Movement Speed Penalty while Shield is Raised":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MovementSpeedPenalty",
+        "type":"MORE",
+        "value":-100,
+        "1":{
+          "skillName":"Raise Shield",
+          "type":"SkillName"
+        }
+      }]],
   "No Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49912,7 +50318,13 @@
         "type":"BASE",
         "value":100
       }]],
-  "Skills have +1 to Limit":[[]," Limit "],
+  "Skills have +1 to Limit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AdditionalCooldownUses",
+        "type":"BASE",
+        "value":1
+      }]],
   "Skills have +5 to Rage cost":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49926,9 +50338,27 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Skills have -1 seconds to Cooldown":[[]," seconds to Cooldown "],
-  "Skills have -2 seconds to Cooldown":[[]," seconds to Cooldown "],
-  "Skills have -2 seconds to Cooldown Skills have -1 seconds to Cooldown":[[]," seconds to Cooldown Skills have -1 seconds to Cooldown "],
+  "Skills have -1 seconds to Cooldown":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecoveryFromTemporalis",
+        "type":"BASE",
+        "value":-1
+      }]],
+  "Skills have -1.5 seconds to Cooldown":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecoveryFromTemporalis",
+        "type":"BASE",
+        "value":-1.5
+      }]],
+  "Skills have -2 seconds to Cooldown":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CooldownRecoveryFromTemporalis",
+        "type":"BASE",
+        "value":-2
+      }]],
   "Skills have 10% chance to not remove Charges but still count as consuming them":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50114,7 +50544,18 @@
         "type":"BASE",
         "value":5
       }]],
-  "Spells consume a Power Charge if able to deal 40% more Damage":[null,"Spells consume a Power Charge if able to deal 40% more Damage "],
+  "Spells consume a Power Charge if able to deal 40% more Damage":[[{
+        "flags":0,
+        "keywordFlags":131072,
+        "name":"Damage",
+        "type":"MORE",
+        "value":40,
+        "1":{
+          "threshold":1,
+          "type":"MultiplierThreshold",
+          "var":"RemovablePowerCharge"
+        }
+      }]],
   "Spells fire 4 additional Projectiles":[[{
         "flags":2,
         "keywordFlags":0,
@@ -50159,7 +50600,13 @@
           "type":"SkillType"
         }
       }]],
-  "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills":[null,"Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills "],
+  "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StrengthSatisfiesMeleeWeaponsAndSkills",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Strike Skills you use yourself with Maces have 10% chance to deal Splash Damage":[null,"Strike Skills you use yourself with Maces have 10% chance to deal Splash Damage "],
   "Strikes deal Splash Damage":[null,"Strikes deal Splash Damage "],
   "Strikes deal Splash Damage 172% increased Physical Damage":[null,"Strikes deal Splash Damage 172% increased Physical Damage "],
@@ -50420,7 +50867,18 @@
         "type":"OVERRIDE",
         "value":2
       }]],
-  "Temporary Minion Skills have +2 to Limit of Minions summoned":[null,"Temporary Minion Skills have +2 to Limit of Minions summoned "],
+  "Temporary Minion Skills have +2 to Limit of Minions summoned":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ActiveMinionLimit",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "baseFlag":"duration",
+          "neg":true,
+          "type":"BaseFlag"
+        }
+      }]],
   "The Effect of Chill on you is reversed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50906,9 +51364,20 @@
           "type":"GlobalEffect"
         }
       }]],
-  "You can Socket 2 additional copies of each Lineage Support Gem, in different Skills":[null,"You can Socket 2 additional copies of each Lineage Support Gem, in different Skills "],
-  "You can Socket an additional copy of each Lineage Support Gem, in different Skills":[null,"You can Socket an additional copy of each Lineage Support Gem, in different Skills "],
-  "You can Socket an additional copy of each Lineage Support Gem, in different Skills You can Socket 2 additional copies of each Lineage Support Gem, in different Skills":[null,"You can Socket an additional copy of each Lineage Support Gem, in different Skills You can Socket 2 additional copies of each Lineage Support Gem, in different Skills "],
+  "You can Socket 2 additional copies of each Lineage Support Gem, in different Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaxLineageCount",
+        "type":"BASE",
+        "value":2
+      }]],
+  "You can Socket an additional copy of each Lineage Support Gem, in different Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaxLineageCount",
+        "type":"BASE",
+        "value":1
+      }]],
   "You can apply an additional Curse":[[{
         "flags":0,
         "keywordFlags":0,

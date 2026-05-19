@@ -12599,7 +12599,6 @@
     },
     "statSets":[{
         "baseFlags":{
-          "duration":true,
           "minion":true,
           "spell":true
         },
@@ -18579,8 +18578,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",8],["infernal_familiar_minion_burns_for_%_max_life",20],["infernal_familiar_minion_burn_radius",25],["skill_desired_amount_override",1]],
@@ -19887,8 +19886,8 @@
     },
     "statSets":[{
         "baseFlags":{
-          "minion":true,
-          "permanentMinion":true
+          "duration":true,
+          "minion":true
         },
         "constantStats":[["minion_1%_damage_+%_per_X_player_strength",1],["minion_1%_area_of_effect_+%_per_X_player_dexterity",3],["skill_desired_amount_override",1]],
         "incrementalEffectiveness":0.054999999701977,

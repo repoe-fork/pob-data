@@ -48607,7 +48607,29 @@
                 "key":"maxHitRatePerEnemy"
               }
             }
-          }
+          },
+          "thunderstorm_wet_debuff_hit_damage_freeze_multiplier_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyFreezeBuildup",
+              "type":"MORE",
+              "1":{
+                "effectName":"Thunderstorm",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "thunderstorm_wet_debuff_shock_chance_on_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EnemyShockChance",
+              "type":"MORE",
+              "1":{
+                "effectName":"Thunderstorm",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
         },
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","thunderstorm_wet_debuff_cannot_apply_to_targets_above_level","disable_visual_hit_effect","can_perform_skill_while_moving","base_skill_show_average_damage_instead_of_dps","is_area_damage"]
       }]

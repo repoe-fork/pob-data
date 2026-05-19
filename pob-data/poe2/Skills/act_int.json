@@ -31669,6 +31669,41 @@
             "baseMultiplier":9.93
           }],
         "statDescriptionScope":"glacial_cascade_attack",
+        "statMap":{
+          "active_skill_consume_enemy_freeze_to_gain_damage_against_non_unique_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Frozen"
+              },
+              "2":{
+                "actor":"enemy",
+                "neg":true,
+                "type":"ActorCondition",
+                "var":"Unique"
+              }
+            }],
+          "active_skill_consume_enemy_freeze_to_gain_damage_against_unique_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Frozen"
+              },
+              "2":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"Unique"
+              }
+            }]
+        },
         "stats":["never_freeze","is_area_damage","can_perform_skill_while_moving","cannot_knockback","destroy_frost_wall_segment_on_hit","display_statset_hide_usage_stats"]
       }],
     "weaponTypes":{
@@ -50197,7 +50232,6 @@
     "statSets":[{
         "baseFlags":{
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["base_number_of_raging_spirits_allowed",10],["display_minion_monster_type",20],["base_skill_effect_duration",5000],["skill_raging_spirit_per_x_radius",15],["minion_skill_physical_damage_%_to_convert_to_fire",70],["skill_raging_spirits_max_per_action",2]],
@@ -50520,7 +50554,6 @@
         "baseEffectiveness":0,
         "baseFlags":{
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",1],["zombie_decay_rate_increase_+%_final",25],["base_number_of_zombies_allowed",10],["zombie_base_decay_rate_permyriad",0],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["power_charged_zombie_movement_speed_+%_final",25],["power_charged_zombie_damage_taken_-%_final",30],["base_skill_effect_duration",20000]],
@@ -60125,8 +60158,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",15]],
@@ -60369,8 +60402,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",60]],
@@ -60606,8 +60639,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",30]],
@@ -60851,8 +60884,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",35]],
@@ -61092,8 +61125,8 @@
     "statSets":[{
         "baseEffectiveness":0,
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",6],["attack_speed_+%_per_rage",3]],
@@ -61336,8 +61369,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",15]],
@@ -61580,8 +61613,8 @@
     },
     "statSets":[{
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["skeletal_graft_buff_effect_magnitude",25]],
@@ -61821,8 +61854,8 @@
     "statSets":[{
         "baseEffectiveness":0,
         "baseFlags":{
+          "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spell":true
         },
         "constantStats":[["display_minion_monster_type",2],["minion_base_resummon_time_ms",12000],["first_X_minions_have_0_base_spirit_reservation",2],["skill_desired_initial_amount",2],["skeletal_graft_buff_effect_magnitude",15]],
@@ -62083,7 +62116,6 @@
         "baseFlags":{
           "duration":true,
           "minion":true,
-          "permanentMinion":true,
           "spectre":true,
           "spell":true
         },

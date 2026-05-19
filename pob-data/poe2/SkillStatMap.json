@@ -1806,7 +1806,7 @@
       "type":"INC"
     }
   },
-  "base_mana_cost_efficiency_":[{
+  "base_mana_cost_efficiency_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"ManaCostEfficiency",
@@ -2849,6 +2849,22 @@
       "type":"MORE"
     }
   },
+  "chance_%_to_double_effect_of_removing_charges":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Multiplier:ConsumedEnduranceChargeEffect",
+      "type":"BASE"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Multiplier:ConsumedFrenzyChargeEffect",
+      "type":"BASE"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Multiplier:ConsumedPowerChargeEffect",
+      "type":"BASE"
+    }],
   "chance_for_extra_damage_roll_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3310,6 +3326,13 @@
       "keywordFlags":0,
       "name":"CurseEffectAgainstPlayer",
       "type":"INC"
+    }],
+  "curse_ignores_curse_limit":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CursesIgnoreCurseLimit",
+      "type":"FLAG",
+      "value":true
     }],
   "curse_maximum_doom":[{
       "flags":0,
@@ -7049,6 +7072,12 @@
       "type":"BASE"
     }
   },
+  "support_anticipation_rapid_fire_count":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SealCount",
+      "type":"BASE"
+    }],
   "support_apply_daze_on_warcry":{
     "value":100,
     "1":{
@@ -7168,6 +7197,12 @@
           }
         }
       }
+    }],
+  "support_cooldown_reduction_cooldown_recovery_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CooldownRecovery",
+      "type":"MORE"
     }],
   "support_deliberation_movement_speed_penalty_+%_final_while_performing_action":[{
       "flags":0,
@@ -7303,6 +7338,16 @@
       "name":"Damage",
       "type":"MORE"
     }],
+  "support_spell_damage_+%_final_while_above_90%_maximum_mana":[{
+      "flags":0,
+      "keywordFlags":131072,
+      "name":"Damage",
+      "type":"MORE",
+      "1":{
+        "type":"Condition",
+        "var":"FullMana"
+      }
+    }],
   "support_spell_echo_area_of_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -7316,6 +7361,22 @@
       "type":"BASE",
       "1":{
         "skillType":56,
+        "type":"SkillType"
+      }
+    }],
+  "support_spell_rapid_fire_repeat_use_damage_+%_final":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SealRepeatPenalty",
+      "type":"MORE"
+    }],
+  "support_storm_skill_limit_+":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"AdditionalCooldownUses",
+      "type":"BASE",
+      "1":{
+        "skillType":255,
         "type":"SkillType"
       }
     }],
@@ -7754,6 +7815,12 @@
         "skillType":30,
         "type":"SkillType"
       }
+    }],
+  "unleash_support_seal_gain_frequency_as_%_of_total_cast_time":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SealGainFrequency",
+      "type":"BASE"
     }],
   "warcry_count_power_from_enemies":[{
       "flags":0,
