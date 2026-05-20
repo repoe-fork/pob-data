@@ -8443,6 +8443,16 @@
           "duration":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          }],
         "constantStats":[["base_skill_effect_duration",5000],["active_skill_base_area_of_effect_radius",17],["contagion_spread_magnitude_+%_final",100],["contagion_maximum_spread_magnitude_+%_final",300],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["pvp_skill_dot_attack_time_override_ms",10000]],
         "damageIncrementalEffectiveness":0.010599999688566,
         "incrementalEffectiveness":0.17000000178814,
@@ -66498,6 +66508,28 @@
           }],
         "notMinionStat":["base_skill_effect_duration"],
         "statDescriptionScope":"temporal_chains",
+        "statMap":{
+          "base_skill_debuff_action_speed_+%_final_to_inflict":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"TemporalChainsActionSpeed",
+              "type":"INC",
+              "1":{
+                "effectType":"Curse",
+                "type":"GlobalEffect"
+              }
+            }],
+          "base_temporal_chains_other_buff_time_passed_+%_to_apply":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"BuffExpireFaster",
+              "type":"MORE",
+              "1":{
+                "effectType":"Curse",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["base_skill_effect_duration","active_skill_base_area_of_effect_radius","base_skill_debuff_action_speed_+%_final_to_inflict","base_temporal_chains_other_buff_time_passed_+%_to_apply","skill_curses_cannot_apply_to_targets_above_level","base_deal_no_damage","can_perform_skill_while_moving"]
       }]
   },
@@ -69354,8 +69386,19 @@
         "baseEffectiveness":4.0900001525879,
         "baseFlags":{
           "area":true,
+          "duration":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          }],
         "constantStats":[["active_skill_base_area_of_effect_radius",40],["base_secondary_skill_effect_duration",0],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["spells_impale_on_hit_%_chance",100],["base_skill_effect_duration",4000]],
         "damageIncrementalEffectiveness":0.0096000004559755,
         "incrementalEffectiveness":0.12999999523163,

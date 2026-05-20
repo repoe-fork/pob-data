@@ -11704,7 +11704,21 @@
       "234":true
     },
     "statSets":[{
-        "baseFlags":[],
+        "baseFlags":{
+          "area":true,
+          "curse":true,
+          "duration":true
+        },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          }],
         "constantStats":[["curse_delay_duration_ms",1500],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["curse_pain_synchronisation_base_recorded_damage_%_to_apply",50]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Inevitable Agony",
@@ -16501,6 +16515,16 @@
           "melee":true,
           "shieldAttack":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          }],
         "constantStats":[["movement_speed_+%_final_while_performing_action",-50],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["base_maximum_active_block_distance_for_non_projectiles",10],["base_maximum_active_block_distance_for_projectiles",15],["base_parry_buff_damage_taken_+%_final_to_apply",50],["base_skill_effect_duration",2000],["active_skill_hit_damage_stun_multiplier_+%_final",400],["active_skill_heavy_stun_decay_after_action_delay_ms",2000],["stun_threshold_+%_final_while_performing_action",-40],["active_skill_override_turn_duration_ms",100],["melee_strike_bonus_attack_distance",14]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Parry",
