@@ -896,6 +896,11 @@
                 "scalar":"ConsumedFrenzyChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovableFrenzyCharge"
+              },
+              "3":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CannotConsumeCharges"
               }
             }],
           "quality_display_barrage_is_gem":[]
@@ -13487,18 +13492,11 @@
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
-              }
-            }],
-          "lightning_spear_damage_+%_final_when_charged":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "scalar":"ConsumedFrenzyChargeEffect",
-                "threshold":1,
-                "type":"MultiplierThreshold",
-                "var":"RemovableFrenzyCharge"
+              },
+              "2":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CannotConsumeCharges"
               }
             }]
         },
@@ -17681,6 +17679,11 @@
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
+              },
+              "2":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CannotConsumeCharges"
               }
             }]
         },
@@ -22560,6 +22563,11 @@
                 "scalar":"ConsumedFrenzyChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovableFrenzyCharge"
+              },
+              "2":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CannotConsumeCharges"
               }
             }],
           "spiral_volley_damage_+%_final_per_frenzy_charge_consumed":[{
@@ -22571,6 +22579,11 @@
                 "scalar":"ConsumedFrenzyChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovableFrenzyCharge"
+              },
+              "2":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CannotConsumeCharges"
               }
             }],
           "spiral_volley_damage_+%_final_when_frenzy_charges_consumed":[{
@@ -22583,6 +22596,11 @@
                 "threshold":1,
                 "type":"MultiplierThreshold",
                 "var":"RemovableFrenzyCharge"
+              },
+              "2":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CannotConsumeCharges"
               }
             }]
         },
