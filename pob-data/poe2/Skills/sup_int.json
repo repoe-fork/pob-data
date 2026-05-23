@@ -2206,6 +2206,18 @@
     "requireSkillTypes":[69],
     "statSets":[{
         "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Decaying Hex",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
+            }
+          }],
         "constantStats":[["support_decaying_hex_base_chaos_damage_per_minute_as_%_of_intelligence_for_8_seconds",6000]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Decaying Hex",

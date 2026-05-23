@@ -8452,6 +8452,17 @@
               "key":"debuff",
               "value":true
             }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Contagion",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
+            }
           }],
         "constantStats":[["base_skill_effect_duration",5000],["active_skill_base_area_of_effect_radius",17],["contagion_spread_magnitude_+%_final",100],["contagion_maximum_spread_magnitude_+%_final",300],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["pvp_skill_dot_attack_time_override_ms",10000]],
         "damageIncrementalEffectiveness":0.010599999688566,
@@ -10995,6 +11006,33 @@
           "spell":true,
           "totem":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DPS",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "actor":"enemy",
+              "type":"Multiplier",
+              "var":"ChaosDebuff"
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Poison",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
+            },
+            "2":{
+              "type":"Condition",
+              "var":"Poisoned"
+            }
+          }],
         "constantStats":[["skill_disabled_unless_cloned",2],["active_skill_base_area_of_effect_radius",120],["active_skill_base_secondary_area_of_effect_radius",12],["number_of_additional_projectiles",100]],
         "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.12999999523163,
@@ -15321,6 +15359,18 @@
           "projectile":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Essence Drain",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
+            }
+          }],
         "constantStats":[["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["pvp_skill_dot_attack_time_override_ms",10000]],
         "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.12999999523163,
@@ -15544,6 +15594,17 @@
             "value":{
               "key":"debuff",
               "value":true
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Essence Drain",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
             }
           }],
         "constantStats":[["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["pvp_skill_dot_attack_time_override_ms",10000],["base_skill_effect_duration",4000]],
@@ -48827,6 +48888,18 @@
           "area":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Profane Ritual",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
+            }
+          }],
         "constantStats":[["base_skill_effect_duration",2000],["ritual_of_power_maximum_number_of_rituals",5],["active_skill_base_area_of_effect_radius",22],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50]],
         "damageIncrementalEffectiveness":0.010599999688566,
         "incrementalEffectiveness":0.17000000178814,
@@ -57508,6 +57581,18 @@
           "projectile":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Soulrend",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
+            }
+          }],
         "constantStats":[["active_skill_projectile_speed_+%_variation_final",25],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50]],
         "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.12999999523163,
@@ -57730,6 +57815,17 @@
             "value":{
               "key":"debuff",
               "value":true
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:ChaosDebuff",
+            "type":"BASE",
+            "value":1,
+            "1":{
+              "effectName":"Soulrend",
+              "effectType":"Debuff",
+              "type":"GlobalEffect"
             }
           }],
         "constantStats":[["active_skill_projectile_speed_+%_variation_final",25],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["base_skill_effect_duration",600],["pvp_skill_dot_attack_time_override_ms",600]],
