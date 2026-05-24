@@ -4443,7 +4443,12 @@
               "flags":0,
               "keywordFlags":0,
               "name":"Damage",
-              "type":"MORE"
+              "type":"MORE",
+              "1":{
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "var":"MinionPresenceCount"
+              }
             }]
         },
         "stats":[]
@@ -4476,7 +4481,12 @@
               "flags":0,
               "keywordFlags":0,
               "name":"Damage",
-              "type":"MORE"
+              "type":"MORE",
+              "1":{
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "var":"MinionPresenceCount"
+              }
             }]
         },
         "stats":[]
