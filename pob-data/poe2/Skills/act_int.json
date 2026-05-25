@@ -6589,6 +6589,7 @@
               "name":"LightningMax",
               "type":"BASE",
               "1":{
+                "scalar":"ConsumedPowerChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovablePowerCharge"
               },
@@ -6605,6 +6606,7 @@
               "name":"LightningMin",
               "type":"BASE",
               "1":{
+                "scalar":"ConsumedPowerChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovablePowerCharge"
               },
@@ -6621,6 +6623,7 @@
               "name":"ChargedStaffBuffDuration",
               "type":"BASE",
               "1":{
+                "scalar":"ConsumedPowerChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovablePowerCharge"
               },
@@ -12895,6 +12898,54 @@
             "1":74
           }],
         "statDescriptionScope":"elemental_conflux",
+        "statMap":{
+          "skill_elemental_conflux_active_element_damage_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LightningDamage",
+              "type":"MORE",
+              "1":{
+                "effectName":"Elemental Conflux",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "invert":true,
+                "type":"Multiplier",
+                "var":"ElementalConfluxLightningEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ColdDamage",
+              "type":"MORE",
+              "1":{
+                "effectName":"Elemental Conflux",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "invert":true,
+                "type":"Multiplier",
+                "var":"ElementalConfluxColdEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"FireDamage",
+              "type":"MORE",
+              "1":{
+                "effectName":"Elemental Conflux",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "invert":true,
+                "type":"Multiplier",
+                "var":"ElementalConfluxFireEffect"
+              }
+            }]
+        },
         "stats":["skill_elemental_conflux_active_element_damage_+%_final","base_deal_no_damage"]
       }]
   },
@@ -17541,6 +17592,7 @@
               "name":"Damage",
               "type":"MORE",
               "1":{
+                "scalar":"ConsumedPowerChargeEffect",
                 "type":"Multiplier",
                 "var":"RemovablePowerCharge"
               }
@@ -23454,6 +23506,13 @@
           "attack":true,
           "melee":true
         },
+        "baseMods":[{
+            "flags":1,
+            "keywordFlags":0,
+            "name":"Speed",
+            "type":"MORE",
+            "value":285
+          }],
         "constantStats":[["flicker_strike_additional_flickers_from_power_charges",2]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Flicker Strike",
@@ -23539,6 +23598,21 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"skill_stat_descriptions",
+        "statMap":{
+          "base_skill_show_average_damage_instead_of_dps":[],
+          "cannot_gain_power_charges_during_skill":[],
+          "flicker_strike_additional_flickers_from_power_charges":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"AdditionalFlickersPerPowerCharge",
+              "type":"BASE",
+              "1":{
+                "scalar":"ConsumedPowerChargeEffect",
+                "type":"Multiplier",
+                "var":"RemovablePowerCharge"
+              }
+            }]
+        },
         "stats":["ignores_proximity_shield","base_skill_show_average_damage_instead_of_dps","cannot_gain_power_charges_during_skill","is_area_damage"]
       }],
     "weaponTypes":{
@@ -25179,21 +25253,6 @@
           }],
         "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
         "statDescriptionScope":"frost_bomb",
-        "statMap":{
-          "skill_cold_exposure_magnitude":{
-            "mult":-1,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"ColdExposure",
-              "type":"BASE",
-              "1":{
-                "effectType":"Debuff",
-                "type":"GlobalEffect"
-              }
-            }
-          }
-        },
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","active_skill_base_area_of_effect_radius","frost_bomb_exposure_does_not_apply_to_enemies_of_level_higher_than_X","is_area_damage","base_skill_show_average_damage_instead_of_dps","cannot_cancel_skill_before_contact_point","can_perform_skill_while_moving"]
       }]
   },

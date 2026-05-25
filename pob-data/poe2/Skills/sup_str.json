@@ -3313,19 +3313,6 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "inflict_fire_exposure_for_x_ms_on_ignite":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"FireExposureChance",
-              "type":"BASE",
-              "1":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"Ignited"
-              }
-            }]
-        },
         "stats":[]
       }],
     "support":true
@@ -5326,6 +5313,75 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_tempered_valour_banner_applies_%_elemental_exposure_per_1000_armour":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"FireExposure",
+              "type":"BASE",
+              "1":{
+                "actor":"player",
+                "type":"ActorCondition",
+                "var":"BannerPlanted"
+              },
+              "2":{
+                "effectType":"AuraDebuff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "actor":"player",
+                "div":1000,
+                "limit":80,
+                "limitTotal":true,
+                "stat":"Armour",
+                "type":"PerStat"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ColdExposure",
+              "type":"BASE",
+              "1":{
+                "actor":"player",
+                "type":"ActorCondition",
+                "var":"BannerPlanted"
+              },
+              "2":{
+                "effectType":"AuraDebuff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "actor":"player",
+                "div":1000,
+                "limit":80,
+                "limitTotal":true,
+                "stat":"Armour",
+                "type":"PerStat"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LightningExposure",
+              "type":"BASE",
+              "1":{
+                "actor":"player",
+                "type":"ActorCondition",
+                "var":"BannerPlanted"
+              },
+              "2":{
+                "effectType":"AuraDebuff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "actor":"player",
+                "div":1000,
+                "limit":80,
+                "limitTotal":true,
+                "stat":"Armour",
+                "type":"PerStat"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true

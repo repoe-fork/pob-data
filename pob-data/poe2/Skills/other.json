@@ -10390,17 +10390,6 @@
             "2":1670
           }],
         "statDescriptionScope":"explosive_concoction",
-        "statMap":{
-          "flask_throw_fire_exposure_ms":{
-            "value":100,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"FireExposureChance",
-              "type":"BASE"
-            }
-          }
-        },
         "stats":["main_hand_weapon_minimum_fire_damage","main_hand_weapon_maximum_fire_damage","base_is_projectile","projectile_behaviour_only_explode","can_perform_skill_while_moving","replace_main_hand_unarmed_attack_stats_with_nothing_type","is_area_damage"]
       }],
     "weaponTypes":{
@@ -10961,17 +10950,6 @@
             "2":1948
           }],
         "statDescriptionScope":"fulminating_concoction",
-        "statMap":{
-          "flask_throw_lightning_exposure_ms":{
-            "value":100,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"LightningExposureChance",
-              "type":"BASE"
-            }
-          }
-        },
         "stats":["main_hand_weapon_minimum_lightning_damage","main_hand_weapon_maximum_lightning_damage","base_is_projectile","projectile_behaviour_only_explode","can_perform_skill_while_moving","replace_main_hand_unarmed_attack_stats_with_nothing_type","is_area_damage"]
       }],
     "weaponTypes":{
@@ -16600,6 +16578,102 @@
           }
         },
         "statDescriptionScope":"pinnacle_of_power",
+        "statMap":{
+          "elemental_power_buff_duration_per_power_charge_ms":{
+            "div":1000,
+            "1":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Duration",
+              "type":"BASE",
+              "1":{
+                "scalar":"ConsumedPowerChargeEffect",
+                "type":"Multiplier",
+                "var":"RemovablePowerCharge"
+              }
+            }
+          },
+          "elemental_power_elemental_damage_+%_final_per_power_charge":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "skillTypeList":[29,28,30],
+                "type":"SkillType"
+              },
+              "2":{
+                "scalar":"ConsumedPowerChargeEffect",
+                "type":"Multiplier",
+                "var":"RemovablePowerCharge"
+              },
+              "3":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ColdCanIgnite",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ColdCanShock",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"FireCanFreeze",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"FireCanShock",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LightningCanFreeze",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LightningCanIgnite",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "quality_stat_elemental_power_elemental_damage_+%_final_per_power_charge_is_gem":[]
+        },
         "stats":["base_skill_is_instant","base_deal_no_damage","quality_stat_elemental_power_elemental_damage_+%_final_per_power_charge_is_gem"]
       }]
   },
@@ -17547,17 +17621,6 @@
             "2":1447
           }],
         "statDescriptionScope":"shattering_concoction",
-        "statMap":{
-          "flask_throw_cold_exposure_ms":{
-            "value":100,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"ColdExposureChance",
-              "type":"BASE"
-            }
-          }
-        },
         "stats":["main_hand_weapon_minimum_cold_damage","main_hand_weapon_maximum_cold_damage","base_is_projectile","projectile_behaviour_only_explode","can_perform_skill_while_moving","replace_main_hand_unarmed_attack_stats_with_nothing_type","is_area_damage","has_freeze_cull","inflict_all_exposure_on_hit","active_skill_show_freeze_range"]
       }],
     "weaponTypes":{

@@ -1143,15 +1143,15 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
+          "support_blazing_crits_base_duration_ms":[],
           "support_blazing_crits_gain_%_fire_damage_with_attacks_on_critical_hit":[{
-              "flags":0,
+              "flags":1,
               "keywordFlags":0,
-              "name":"DamageAsFire",
+              "name":"DamageGainAsFire",
               "type":"BASE",
-              "value":1,
               "1":{
                 "type":"Condition",
-                "var":"CriticalStrike"
+                "var":"CritRecently"
               }
             }]
         },
@@ -1613,14 +1613,6 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "inflict_cold_exposure_for_x_ms_on_cold_crit":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"ColdExposureChance",
-              "type":"BASE"
-            }]
-        },
         "stats":[]
       }],
     "support":true
