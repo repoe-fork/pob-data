@@ -17935,6 +17935,54 @@
             "1":4600
           }],
         "statDescriptionScope":"sorcery_ward",
+        "statMap":{
+          "aegis_unique_shield_max_value_from_%_armour_evasion":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ElementalAegisValue",
+              "type":"MAX",
+              "1":{
+                "type":"Condition",
+                "var":"SorceryWard"
+              },
+              "2":{
+                "neg":true,
+                "type":"Condition",
+                "var":"CeremonialAblution"
+              },
+              "3":{
+                "percent":1,
+                "statList":["Armour","Evasion"],
+                "type":"PercentStat"
+              },
+              "4":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"AegisValue",
+              "type":"MAX",
+              "1":{
+                "type":"Condition",
+                "var":"SorceryWard"
+              },
+              "2":{
+                "type":"Condition",
+                "var":"CeremonialAblution"
+              },
+              "3":{
+                "percent":1,
+                "statList":["Armour","Evasion"],
+                "type":"PercentStat"
+              },
+              "4":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["aegis_recharge_delay_ms","base_deal_no_damage","display_statset_hide_usage_stats"]
       }]
   },

@@ -45404,6 +45404,12 @@
   "Grants Skill: Sorcery Ward":[[{
         "flags":0,
         "keywordFlags":0,
+        "name":"Condition:SorceryWard",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
         "name":"ExtraSkill",
         "type":"LIST",
         "value":{
@@ -51109,7 +51115,13 @@
       }]],
   "Slam Skills you use yourself cause an additional Aftershock":[null,"Slam Skills you use yourself cause an additional Aftershock "],
   "Slam Skills you use yourself have 30% increased Aftershock Area of Effect":[null,"Slam Skills you use yourself have 30% increased Aftershock Area of Effect "],
-  "Sorcery Ward's Barrier can also take Physical and Chaos Damage from Hits":[null,"Sorcery Ward's Barrier can also take Physical and Chaos Damage from Hits "],
+  "Sorcery Ward's Barrier can also take Physical and Chaos Damage from Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CeremonialAblution",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Soul Eater":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51677,7 +51689,13 @@
           "type":"SkillType"
         }
       }]],
-  "Totems you place grant Embankment Auras":[null,"Totems you place grant Embankment Auras "],
+  "Totems you place grant Embankment Auras":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:StrategicEmbankments",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Trigger Ancestral Spirits when you Summon a Totem":[[]],
   "Trigger Decompose every 1.2 metres travelled":[null,"Trigger Decompose every 1.2 metres travelled "],
   "Trigger Elemental Expression on Melee Critical Hit":[null,"Trigger Elemental Expression on Melee Critical Hit "],

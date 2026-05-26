@@ -10654,6 +10654,21 @@
           "spell":true,
           "totem":true
         },
+        "baseMods":[{
+            "flags":8,
+            "keywordFlags":0,
+            "name":"Damage",
+            "type":"INC",
+            "value":40,
+            "1":{
+              "effectType":"Aura",
+              "type":"GlobalEffect"
+            },
+            "2":{
+              "type":"Condition",
+              "var":"StrategicEmbankments"
+            }
+          }],
         "constantStats":[["base_totem_duration",8000],["base_totem_range",120],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["base_number_of_totems_allowed",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Dark Effigy",
