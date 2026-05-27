@@ -11263,6 +11263,32 @@
     "variantId":"MirageArcher",
     "weaponRequirements":"Spear, Bow, Crossbow"
   },
+  "Metadata/Items/Gems/SkillGemMirageDeadeye":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"SupportMirageDeadeyePlayer",
+    "additionalGrantedEffectId2":"MirageDeadeyeSpawnPlayer",
+    "baseTypeName":"Mirage Deadeye",
+    "gameId":"Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+    "gemType":"Buff",
+    "grantedEffectDisplayOrder":[1,2],
+    "grantedEffectId":"MetaMirageDeadeyePlayer",
+    "name":"Mirage Deadeye",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, Trigger, Duration, Meta",
+    "tags":{
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "meta":true,
+      "persistent":true,
+      "trigger":true
+    },
+    "variantId":"MirageDeadeye",
+    "weaponRequirements":"Spear, Bow, Crossbow"
+  },
   "Metadata/Items/Gems/SkillGemMirrorOfRefraction":{
     "Tier":0,
     "baseTypeName":"Mirror of Refraction",

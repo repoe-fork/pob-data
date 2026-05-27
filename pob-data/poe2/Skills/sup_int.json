@@ -2798,6 +2798,19 @@
     "requireSkillTypes":[2,8,74],
     "statSets":[{
         "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"HasSeals",
+            "type":"FLAG",
+            "value":true
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"AreaSeal",
+            "type":"FLAG",
+            "value":true
+          }],
         "constantStats":[["support_expand_max_seals",3],["support_expand_charge_gain_interval_ms",0],["expand_support_seal_gain_frequency_as_%_of_total_cast_time",200],["skill_area_of_effect_+%_per_expand_seal",30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Expand",
@@ -2805,6 +2818,26 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "expand_support_seal_gain_frequency_as_%_of_total_cast_time":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SealGainFrequency",
+              "type":"BASE"
+            }],
+          "skill_area_of_effect_+%_per_expand_seal":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SealRepeatPenalty",
+              "type":"MORE"
+            }],
+          "support_expand_max_seals":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SealCount",
+              "type":"BASE"
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -5958,6 +5991,12 @@
             "name":"HasSeals",
             "type":"FLAG",
             "value":true
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageSeal",
+            "type":"FLAG",
+            "value":true
           }],
         "constantStats":[["support_spell_rapid_fire_repeat_use_damage_+%_final",-50],["unleash_support_seal_gain_frequency_as_%_of_total_cast_time",200],["support_anticipation_rapid_fire_count",2]],
         "incrementalEffectiveness":0.092720001935959,
@@ -6431,6 +6470,12 @@
             "flags":0,
             "keywordFlags":0,
             "name":"HasSeals",
+            "type":"FLAG",
+            "value":true
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageSeal",
             "type":"FLAG",
             "value":true
           }],

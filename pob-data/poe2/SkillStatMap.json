@@ -1111,6 +1111,13 @@
         "type":"GlobalEffect"
       }
     }],
+  "apply_x_wither_on_hit":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:CanWither",
+      "type":"FLAG",
+      "value":true
+    }],
   "area_damage_+%":[{
       "flags":512,
       "keywordFlags":0,
@@ -2529,6 +2536,24 @@
       "name":"Condition:CannotRecallBrand",
       "type":"FLAG",
       "value":true
+    }],
+  "breach_flame_chaos_addition_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BreachFlameChaosGain",
+      "type":"BASE"
+    }],
+  "breach_flame_life_leech_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BreachFlameLifeLeech",
+      "type":"BASE"
+    }],
+  "breach_flame_mana_leech_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BreachFlameManaLeech",
+      "type":"BASE"
     }],
   "buff_effect_duration_+%_per_removable_endurance_charge":[{
       "flags":0,
@@ -4394,6 +4419,12 @@
       "type":"BASE"
     }
   },
+  "life_remnants_gain_per_globe":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"LifeGainPerRemnant",
+      "type":"BASE"
+    }],
   "lightning_ailment_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -4542,6 +4573,12 @@
       "flags":0,
       "keywordFlags":0,
       "name":"SelfDamageManaLeech",
+      "type":"BASE"
+    }],
+  "mana_remnants_mana_gain_per_globe":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"ManaGainPerRemnant",
       "type":"BASE"
     }],
   "mark_effect_+%":[{
@@ -6229,6 +6266,12 @@
       "flags":0,
       "keywordFlags":0,
       "name":"ReloadSpeed",
+      "type":"INC"
+    }],
+  "remnant_effect_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"RemnantEffect",
       "type":"INC"
     }],
   "remote_mined_by_support":[{
@@ -8142,6 +8185,13 @@
         "type":"Condition",
         "var":"WhirlwindBuffLightning"
       }
+    }],
+  "wither_on_hit_chance_rollovercapped":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:CanWither",
+      "type":"FLAG",
+      "value":true
     }],
   "withered_on_chaos_damage_hit_chance_%":[{
       "flags":0,

@@ -4419,6 +4419,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Mirage Deadeye Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"mirage deadeye",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Molten Blast Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -30911,9 +30923,27 @@
   "All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you All Damage from Hits against Bleeding targets Contributes to Chill Magnitude":[null,"All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you All Damage from Hits against Bleeding targets Contributes to Chill Magnitude "],
   "All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you":[null,"All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you "],
   "All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you All Damage from Hits against Poisoned targets Contributes to Chill Magnitude":[null,"All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you All Damage from Hits against Poisoned targets Contributes to Chill Magnitude "],
-  "All Flames of Chayula that you manifest are Blue":[null,"All Flames of Chayula that you manifest are Blue "],
-  "All Flames of Chayula that you manifest are Purple":[null,"All Flames of Chayula that you manifest are Purple "],
-  "All Flames of Chayula that you manifest are Red":[null,"All Flames of Chayula that you manifest are Red "],
+  "All Flames of Chayula that you manifest are Blue":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BreachFlameOnlyBlue",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "All Flames of Chayula that you manifest are Purple":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BreachFlameOnlyPurple",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "All Flames of Chayula that you manifest are Red":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"BreachFlameOnlyRed",
+        "type":"FLAG",
+        "value":true
+      }]],
   "All bonuses from Equipped Amulet apply to your Minions instead of you":[[]],
   "All damage with this Weapon causes Electrocution buildup":[[{
         "flags":0,
@@ -38599,9 +38629,75 @@
           "var":"ReloadedRecently"
         }
       }]],
-  "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 10% of Flask's Life Recovery amount":[null,"Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 10% of Flask's Life Recovery amount "],
-  "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount":[null,"Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount "],
-  "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 10% of Flask's Life Recovery amount":[null,"Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 10% of Flask's Life Recovery amount "],
+  "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 10% of Flask's Life Recovery amount":[[{
+        "flags":131073,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":"10",
+          "stat":"LifeFlaskRecovery",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":131073,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":"10",
+          "stat":"LifeFlaskRecovery",
+          "type":"PercentStat"
+        }
+      }]],
+  "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 5% of Flask's Life Recovery amount":[[{
+        "flags":131073,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":"5",
+          "stat":"LifeFlaskRecovery",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":131073,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":"5",
+          "stat":"LifeFlaskRecovery",
+          "type":"PercentStat"
+        }
+      }]],
+  "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to 8% of Flask's Life Recovery amount":[[{
+        "flags":131073,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":"8",
+          "stat":"LifeFlaskRecovery",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":131073,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":"8",
+          "stat":"LifeFlaskRecovery",
+          "type":"PercentStat"
+        }
+      }]],
   "Bow Attacks fire 3 additional Arrows":[[{
         "flags":0,
         "keywordFlags":2048,
@@ -45324,7 +45420,16 @@
           "skillId":"MeditatePlayer"
         }
       }]],
-  "Grants Skill: Mirage Deadeye":[],
+  "Grants Skill: Mirage Deadeye":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"MetaMirageDeadeyePlayer"
+        }
+      }]],
   "Grants Skill: Moment of Vulnerability":[[{
         "flags":0,
         "keywordFlags":0,
@@ -47900,17 +48005,9 @@
   "Minions have 10% chance to inflict Withered on Hit":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Condition:CanWither",
-            "type":"FLAG",
-            "value":true
-          }
-        }
+        "name":"Condition:CanWither",
+        "type":"FLAG",
+        "value":true
       }]],
   "Minions have 10% increased Movement Speed":[[{
         "flags":0,
@@ -50692,13 +50789,21 @@
   "Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple":[null,"Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple "],
   "Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red":[null,"Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red "],
   "Remnants can be collected from 50% further away Remnants you create reappear once, 3 seconds after being collected":[null,"Remnants can be collected from 50% further away Remnants you create reappear once, 3 seconds after being collected "],
-  "Remnants have 10% increased effect":[null,"Remnants have 10% increased effect "],
+  "Remnants have 10% increased effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"RemnantEffect",
+        "type":"INC",
+        "value":10
+      }]],
   "Remnants have 2% increased effect per 10 Tribute":[null,"Remnants have 2% increased effect per 10 Tribute "],
-  "Remnants have 50% increased effect":[null,"Remnants have 50% increased effect "],
-  "Remnants have 50% increased effect Remnants can be collected from 50% further away":[null,"Remnants have 50% increased effect Remnants can be collected from 50% further away "],
-  "Remnants have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Blue":[null,"Remnants have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Blue "],
-  "Remnants have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple":[null,"Remnants have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple "],
-  "Remnants have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red":[null,"Remnants have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red "],
+  "Remnants have 50% increased effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"RemnantEffect",
+        "type":"INC",
+        "value":50
+      }]],
   "Remnants you create reappear once, 3 seconds after being collected":[null,"Remnants you create reappear once, 3 seconds after being collected "],
   "Remove Ignite when you Warcry":[null,"Remove Ignite when you Warcry "],
   "Remove a Curse after Channelling for 2 seconds":[null,"Remove a Curse after Channelling for 2 seconds "],
@@ -51637,9 +51742,13 @@
   "Thorns can Retaliate against all Hits":[null,"Thorns can Retaliate against all Hits "],
   "Totems Regenerate 3% of maximum Life per second":[null,"Totems Regenerate 3% of maximum Life per second "],
   "Totems die 6 seconds after their Life is reduced to 0":[null,"Totems die 6 seconds after their Life is reduced to 0 "],
-  "Totems gain +1% to all Maximum Elemental Resistances":[null,"Totems gain +1% to all Maximum Elemental Resistances "],
-  "Totems gain +1% to all Maximum Elemental Resistances Spells Cast by Totems have 2% increased Cast Speed":[null,"Totems gain +1% to all Maximum Elemental Resistances Spells Cast by Totems have 2% increased Cast Speed "],
-  "Totems gain +1% to all Maximum Elemental Resistances Spells Cast by Totems have 2% increased Cast Speed Attacks used by Totems have 2% increased Attack Speed":[null,"Totems gain +1% to all Maximum Elemental Resistances Spells Cast by Totems have 2% increased Cast Speed Attacks used by Totems have 2% increased Attack Speed "],
+  "Totems gain +1% to all Maximum Elemental Resistances":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TotemElementalResistMax",
+        "type":"BASE",
+        "value":1
+      }]],
   "Totems gain +12% to all Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51647,7 +51756,13 @@
         "type":"BASE",
         "value":12
       }]],
-  "Totems gain +2% to all Maximum Elemental Resistances":[null,"Totems gain +2% to all Maximum Elemental Resistances "],
+  "Totems gain +2% to all Maximum Elemental Resistances":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TotemElementalResistMax",
+        "type":"BASE",
+        "value":2
+      }]],
   "Totems gain +20% to all Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51655,8 +51770,13 @@
         "type":"BASE",
         "value":20
       }]],
-  "Totems gain +3% to all Maximum Elemental Resistances":[null,"Totems gain +3% to all Maximum Elemental Resistances "],
-  "Totems gain +3% to all Maximum Elemental Resistances 20% increased Area of Effect for Skills used by Totems":[null,"Totems gain +3% to all Maximum Elemental Resistances 20% increased Area of Effect for Skills used by Totems "],
+  "Totems gain +3% to all Maximum Elemental Resistances":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"TotemElementalResistMax",
+        "type":"BASE",
+        "value":3
+      }]],
   "Totems have 12% additional Physical Damage Reduction":[[{
         "flags":0,
         "keywordFlags":16384,
@@ -51793,8 +51913,13 @@
         "type":"LIST",
         "value":"Unwavering Stance"
       }]],
-  "Unwithered enemies are Withered for 8 seconds when they enter your Presence":[null,"Unwithered enemies are Withered for 8 seconds when they enter your Presence "],
-  "Unwithered enemies are Withered for 8 seconds when they enter your Presence 20% increased Withered Magnitude":[null,"Unwithered enemies are Withered for 8 seconds when they enter your Presence 20% increased Withered Magnitude "],
+  "Unwithered enemies are Withered for 8 seconds when they enter your Presence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanWither",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Used when you are affected by a Slow":[null,"Used when you are affected by a Slow "],
   "Used when you are affected by a Slow Grants Onslaught during effect":[null,"Used when you are affected by a Slow Grants Onslaught during effect "],
   "Used when you become Frozen":[null,"Used when you become Frozen "],

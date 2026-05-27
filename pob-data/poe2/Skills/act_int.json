@@ -15425,18 +15425,6 @@
           "projectile":true,
           "spell":true
         },
-        "baseMods":[{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Multiplier:ChaosDebuff",
-            "type":"BASE",
-            "value":1,
-            "1":{
-              "effectName":"Essence Drain",
-              "effectType":"Debuff",
-              "type":"GlobalEffect"
-            }
-          }],
         "constantStats":[["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["pvp_skill_dot_attack_time_override_ms",10000]],
         "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.12999999523163,
@@ -21576,32 +21564,6 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","base_skill_effect_duration"],
         "statDescriptionScope":"flame_wall",
-        "statMap":{
-          "flame_wall_maximum_added_fire_damage":[{
-              "flags":1024,
-              "keywordFlags":0,
-              "name":"FireMax",
-              "type":"BASE",
-              "1":{
-                "effectCond":"FlameWallAddedDamage",
-                "effectName":"Flame Wall",
-                "effectType":"Buff",
-                "type":"GlobalEffect"
-              }
-            }],
-          "flame_wall_minimum_added_fire_damage":[{
-              "flags":1024,
-              "keywordFlags":0,
-              "name":"FireMin",
-              "type":"BASE",
-              "1":{
-                "effectCond":"FlameWallAddedDamage",
-                "effectName":"Flame Wall",
-                "effectType":"Buff",
-                "type":"GlobalEffect"
-              }
-            }]
-        },
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","wall_maximum_length","base_skill_effect_duration","is_area_damage","can_perform_skill_while_moving","quality_hide_display_character_panel","active_skill_consumes_a_lightning_infusion"]
       },{
         "baseEffectiveness":0.60000002384186,
@@ -22093,6 +22055,56 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","base_skill_effect_duration"],
         "statDescriptionScope":"flame_wall",
+        "statMap":{
+          "flame_wall_maximum_added_fire_damage":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"FireMax",
+              "type":"BASE",
+              "1":{
+                "effectCond":"FlameWallAddedDamage",
+                "effectName":"Flame Wall",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "flame_wall_maximum_added_lightning_damage_to_add_to_projectile":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"LightningMax",
+              "type":"BASE",
+              "1":{
+                "effectCond":"FlameWallInfused",
+                "effectName":"Infused Flame Wall",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "flame_wall_minimum_added_fire_damage":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"FireMin",
+              "type":"BASE",
+              "1":{
+                "effectCond":"FlameWallAddedDamage",
+                "effectName":"Flame Wall",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "flame_wall_minimum_added_lightning_damage_to_add_to_projectile":[{
+              "flags":1024,
+              "keywordFlags":0,
+              "name":"LightningMin",
+              "type":"BASE",
+              "1":{
+                "effectCond":"FlameWallInfused",
+                "effectName":"Infused Flame Wall",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","flame_wall_minimum_added_fire_damage","flame_wall_maximum_added_fire_damage","flame_wall_minimum_added_lightning_damage_to_add_to_projectile","flame_wall_maximum_added_lightning_damage_to_add_to_projectile","wall_maximum_length","base_skill_effect_duration","is_area_damage","can_perform_skill_while_moving","active_skill_consumes_a_lightning_infusion","display_statset_hide_usage_stats"]
       }]
   },
@@ -34611,6 +34623,15 @@
           }],
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
         "statDescriptionScope":"his_foul_emergence",
+        "statMap":{
+          "active_skill_withered_base_duration_ms":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:CanWither",
+              "type":"FLAG",
+              "value":true
+            }]
+        },
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","is_area_damage","base_skill_show_average_damage_instead_of_dps"]
       }]
   },
@@ -57655,18 +57676,6 @@
           "projectile":true,
           "spell":true
         },
-        "baseMods":[{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Multiplier:ChaosDebuff",
-            "type":"BASE",
-            "value":1,
-            "1":{
-              "effectName":"Soulrend",
-              "effectType":"Debuff",
-              "type":"GlobalEffect"
-            }
-          }],
         "constantStats":[["active_skill_projectile_speed_+%_variation_final",25],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50]],
         "damageIncrementalEffectiveness":0.0082000000402331,
         "incrementalEffectiveness":0.12999999523163,
@@ -72900,6 +72909,13 @@
           "duration":true,
           "spell":true
         },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:CanWither",
+            "type":"FLAG",
+            "value":true
+          }],
         "constantStats":[["chaos_damage_taken_+%",6],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["active_skill_base_area_of_effect_radius",25],["wither_channeled_move_targeting_area_X_units_per_second",18]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Wither",
@@ -73377,6 +73393,15 @@
             "1":1120
           }],
         "statDescriptionScope":"withering_presence",
+        "statMap":{
+          "skill_withering_presence_frequency_ms":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:CanWither",
+              "type":"FLAG",
+              "value":true
+            }]
+        },
         "stats":["skill_withering_presence_frequency_ms"]
       }]
   }
