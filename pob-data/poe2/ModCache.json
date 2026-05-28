@@ -717,6 +717,13 @@
           "var":"Level"
         }
       }]],
+  "+10 to Maximum Rage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaximumRage",
+        "type":"BASE",
+        "value":10
+      }]],
   "+10 to Maximum Rage while wielding an Axe":[[{
         "flags":0,
         "keywordFlags":0,
@@ -1136,6 +1143,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Int",
+        "type":"BASE",
+        "value":12
+      }]],
+  "+12 to Maximum Rage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaximumRage",
         "type":"BASE",
         "value":12
       }]],
@@ -38897,8 +38911,7 @@
         }
       }]],
   "Can Socket a non-Unique Basic Jewel into the Phylactery":[[]],
-  "Can be modified while Corrupted":[null,"Can be modified while Corrupted "],
-  "Can be modified while Corrupted +150 to maximum Life":[null,"Can be modified while Corrupted +150 to maximum Life "],
+  "Can be modified while Corrupted":[[]],
   "Can have 2 additional Instilled Modifiers":[[]],
   "Can have 3 additional Instilled Modifiers":[[]],
   "Can instead consume 25% of maximum Mana to trigger Charms with insufficient charges":[null,"Can instead consume 25% of maximum Mana to trigger Charms with insufficient charges "],
@@ -45690,7 +45703,6 @@
         "value":3
       }]],
   "Has 4 Augment Sockets":[null,"Has 4 Augment Sockets "],
-  "Has 6 Rune Sockets":[null,"Has 6 Rune Sockets "],
   "Has no Attribute Requirements":[[{
         "flags":0,
         "keywordFlags":0,
@@ -46305,7 +46317,13 @@
         "type":"MAX",
         "value":100
       }]],
-  "Inevitable Critical Hits":[null,"Inevitable Critical Hits "],
+  "Inevitable Critical Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ForcedOutcome",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Infinite Parry Range":[null,"Infinite Parry Range "],
   "Infinite Parry Range 50% increased Parried Debuff Duration":[null,"Infinite Parry Range 50% increased Parried Debuff Duration "],
   "Inflict Abyssal Wasting on Hit":[null,"Inflict Abyssal Wasting on Hit "],
@@ -52302,11 +52320,45 @@
   "You can have two Companions of different types 60% reduced Duration of Bleeding on You":[null,"You can have two Companions of different types 60% reduced Duration of Bleeding on You "],
   "You can have two Companions of different types You have 30% less Defences":[null,"You can have two Companions of different types You have 30% less Defences "],
   "You can have two Companions of different types You have 30% less Defences Companions have +1 to each Defence for every 2 of that Defence you have":[null,"You can have two Companions of different types You have 30% less Defences Companions have +1 to each Defence for every 2 of that Defence you have "],
-  "You can only Socket Emerald Jewels in this item":[null,"You can only Socket Emerald Jewels in this item "],
-  "You can only Socket Emerald Jewels in this item You can only Socket Ruby Jewels in this item":[null,"You can only Socket Emerald Jewels in this item You can only Socket Ruby Jewels in this item "],
-  "You can only Socket Ruby Jewels in this item":[null,"You can only Socket Ruby Jewels in this item "],
-  "You can only Socket Ruby Jewels in this item You can only Socket Sapphire Jewels in this item":[null,"You can only Socket Ruby Jewels in this item You can only Socket Sapphire Jewels in this item "],
-  "You can only Socket Sapphire Jewels in this item":[null,"You can only Socket Sapphire Jewels in this item "],
+  "You can only Socket Emerald Jewels in this item":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelSocketRestriction",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanSocketJewelBaseEmerald",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "You can only Socket Ruby Jewels in this item":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelSocketRestriction",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanSocketJewelBaseRuby",
+        "type":"FLAG",
+        "value":true
+      }]],
+  "You can only Socket Sapphire Jewels in this item":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"JewelSocketRestriction",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanSocketJewelBaseSapphire",
+        "type":"FLAG",
+        "value":true
+      }]],
   "You can wield Two-Handed Axes, Maces and Swords in one hand":[[{
         "flags":0,
         "keywordFlags":0,
