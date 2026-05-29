@@ -1082,6 +1082,36 @@
       "type":"BASE"
     }
   },
+  "ancestral_call_spirit_strike_interval_ms":[{
+      "div":1000,
+      "1":{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AncestralCallCooldown",
+        "type":"BASE"
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:AncestrallyBoosted",
+      "type":"FLAG",
+      "value":true
+    }],
+  "ancestral_slam_interval_duration":[{
+      "div":1000,
+      "1":{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FistOfWarCooldown",
+        "type":"BASE"
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:AncestrallyBoosted",
+      "type":"FLAG",
+      "value":true
+    }],
   "apply_X_armour_break_on_hit":[{
       "flags":0,
       "keywordFlags":0,
@@ -3771,6 +3801,15 @@
       "name":"DotMultiplier",
       "type":"BASE"
     }],
+  "double_ancestral_boost_effect":{
+    "value":1,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Multiplier:AncestralBoostEffect",
+      "type":"BASE"
+    }
+  },
   "elemental_damage_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3858,6 +3897,27 @@
       "keywordFlags":0,
       "name":"PoisonFaster",
       "type":"INC"
+    }],
+  "final_strike_is_ancestrally_boosted":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:AncestrallyBoosted",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "type":"Condition",
+        "var":"FinalStrike"
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MaxBoostedUptimeRatio",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "type":"Condition",
+        "var":"FinalStrike"
+      }
     }],
   "fire_damage_%_to_add_as_chaos":[{
       "flags":0,
@@ -4337,6 +4397,13 @@
       "flags":0,
       "keywordFlags":0,
       "name":"Condition:CommandableSkill",
+      "type":"FLAG",
+      "value":true
+    }],
+  "is_final_strike":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:FinalStrike",
       "type":"FLAG",
       "value":true
     }],
@@ -8133,6 +8200,18 @@
         "effectType":"Buff",
         "type":"GlobalEffect"
       }
+    }],
+  "warcry_empowers_per_X_monster_power":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"WarcryPowerPer",
+      "type":"BASE"
+    }],
+  "warcry_empowers_per_X_monster_power_mp_cap":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"WarcryPowerCap",
+      "type":"BASE"
     }],
   "warcry_grant_X_rage_per_5_power":[{
       "flags":0,

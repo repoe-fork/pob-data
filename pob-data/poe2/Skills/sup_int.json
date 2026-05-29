@@ -2009,6 +2009,19 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "support_crescendo_non_final_strike_attack_speed_+%_final":[{
+              "flags":1,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"MORE",
+              "1":{
+                "neg":true,
+                "type":"Condition",
+                "var":"FinalStrike"
+              }
+            }]
+        },
         "stats":["repeat_last_step_of_combo_attack"]
       }],
     "support":true
