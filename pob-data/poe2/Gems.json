@@ -3937,29 +3937,6 @@
     },
     "variantId":"ConcussiveSpellsSupport"
   },
-  "Metadata/Items/Gems/SkillGemConductivity":{
-    "Tier":0,
-    "baseTypeName":"Conductivity",
-    "gameId":"Metadata/Items/Gems/SkillGemConductivity",
-    "gemType":"Spell",
-    "grantedEffectId":"ConductivityPlayer",
-    "name":"Conductivity",
-    "naturalMaxLevel":20,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"AoE, Lightning, Duration, Curse",
-    "tags":{
-      "area":true,
-      "curse":true,
-      "duration":true,
-      "grants_active_skill":true,
-      "intelligence":true,
-      "lightning":true,
-      "spell":true
-    },
-    "variantId":"Conductivity"
-  },
   "Metadata/Items/Gems/SkillGemConsideredCastingSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemConsideredCasting",
@@ -4682,60 +4659,6 @@
     },
     "variantId":"DazeSupport"
   },
-  "Metadata/Items/Gems/SkillGemDazedBreakSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemBreakPosture",
-    "gemFamily":"Break Posture",
-    "gemType":"Support",
-    "grantedEffectId":"SupportDazedBreakPlayer",
-    "name":"Break Posture",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Attack",
-    "tags":{
-      "attack":true,
-      "support":true
-    },
-    "variantId":"DazedBreakSupport"
-  },
-  "Metadata/Items/Gems/SkillGemDazingCrySupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemDazingCry",
-    "gemFamily":"Dazing Cry",
-    "gemType":"Support",
-    "grantedEffectId":"SupportDazingCryPlayer",
-    "name":"Dazing Cry",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Warcry",
-    "tags":{
-      "support":true,
-      "warcry":true
-    },
-    "variantId":"DazingCrySupport"
-  },
-  "Metadata/Items/Gems/SkillGemDazzleSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemDazzle",
-    "gemFamily":"Dazzle",
-    "gemType":"Support",
-    "grantedEffectId":"SupportDazzlePlayer",
-    "name":"Dazzle",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Attack",
-    "tags":{
-      "attack":true,
-      "support":true
-    },
-    "variantId":"DazzleSupport"
-  },
   "Metadata/Items/Gems/SkillGemDeadlyCurrentSupport":{
     "Tier":1,
     "additionalGrantedEffectId1":"TriggeredDeadlyCurrentPlayer",
@@ -5099,25 +5022,6 @@
     },
     "variantId":"Despair"
   },
-  "Metadata/Items/Gems/SkillGemDesperationSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemDesperation",
-    "gemFamily":"Desperation",
-    "gemType":"Support",
-    "grantedEffectId":"SupportDesperationPlayer",
-    "name":"Desperation",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "support":true
-    },
-    "variantId":"DesperationSupport"
-  },
   "Metadata/Items/Gems/SkillGemDetonateDead":{
     "Tier":7,
     "baseTypeName":"Detonate Dead",
@@ -5189,23 +5093,6 @@
     },
     "variantId":"DetonatingArrow",
     "weaponRequirements":"Bow"
-  },
-  "Metadata/Items/Gems/SkillGemDevastateSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemDevastate",
-    "gemFamily":"Devastate",
-    "gemType":"Support",
-    "grantedEffectId":"SupportDevastatePlayer",
-    "name":"Devastate",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"DevastateSupport"
   },
   "Metadata/Items/Gems/SkillGemDiallasDesireSupport":{
     "Tier":0,
@@ -5927,23 +5814,6 @@
     },
     "variantId":"EmpoweredCullSupport"
   },
-  "Metadata/Items/Gems/SkillGemEmpoweredDamageSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemPremeditation",
-    "gemFamily":"Premeditation",
-    "gemType":"Support",
-    "grantedEffectId":"SupportEmpoweredDamagePlayer",
-    "name":"Premeditation",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"EmpoweredDamageSupport"
-  },
   "Metadata/Items/Gems/SkillGemEncroachingGroundSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemSuffuse",
@@ -5961,40 +5831,6 @@
       "support":true
     },
     "variantId":"EncroachingGroundSupport"
-  },
-  "Metadata/Items/Gems/SkillGemEnduranceChargeOnArmourBreakSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemBreakEndurance",
-    "gemFamily":"Break Endurance",
-    "gemType":"Support",
-    "grantedEffectId":"SupportEnduranceChargeOnArmourBreak",
-    "name":"Break Endurance",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"EnduranceChargeOnArmourBreakSupport"
-  },
-  "Metadata/Items/Gems/SkillGemEnergyBarrierSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemEnergyBarrier",
-    "gemFamily":"Energy Barrier",
-    "gemType":"Support",
-    "grantedEffectId":"SupportEnergyBarrierPlayer",
-    "name":"Energy Barrier",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"EnergyBarrierSupport"
   },
   "Metadata/Items/Gems/SkillGemEnergyCapacitorSupport":{
     "Tier":3,
@@ -6292,25 +6128,6 @@
       "support":true
     },
     "variantId":"ExciseSupport"
-  },
-  "Metadata/Items/Gems/SkillGemExcoriateSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemExcoriate",
-    "gemFamily":"Excoriate",
-    "gemType":"Support",
-    "grantedEffectId":"SupportExcoriatePlayer",
-    "name":"Excoriate",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Attack, Melee",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "support":true
-    },
-    "variantId":"ExcoriateSupport"
   },
   "Metadata/Items/Gems/SkillGemExecrateSupport":{
     "Tier":3,
@@ -7096,25 +6913,6 @@
     },
     "variantId":"Firestorm"
   },
-  "Metadata/Items/Gems/SkillGemFirstBloodSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemFirstBlood",
-    "gemFamily":"First Blood",
-    "gemType":"Support",
-    "grantedEffectId":"SupportFirstBloodPlayer",
-    "name":"First Blood",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Physical",
-    "tags":{
-      "attack":true,
-      "physical":true,
-      "support":true
-    },
-    "variantId":"FirstBloodSupport"
-  },
   "Metadata/Items/Gems/SkillGemFistOfWarSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gems/SupportGemFistOfWar",
@@ -7264,29 +7062,6 @@
     },
     "variantId":"FlamepierceSupport"
   },
-  "Metadata/Items/Gems/SkillGemFlammability":{
-    "Tier":0,
-    "baseTypeName":"Flammability",
-    "gameId":"Metadata/Items/Gems/SkillGemFlammability",
-    "gemType":"Spell",
-    "grantedEffectId":"FlammabilityPlayer",
-    "name":"Flammability",
-    "naturalMaxLevel":20,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"AoE, Fire, Duration, Curse",
-    "tags":{
-      "area":true,
-      "curse":true,
-      "duration":true,
-      "fire":true,
-      "grants_active_skill":true,
-      "intelligence":true,
-      "spell":true
-    },
-    "variantId":"Flammability"
-  },
   "Metadata/Items/Gems/SkillGemFlashGrenade":{
     "Tier":3,
     "baseTypeName":"Flash Grenade",
@@ -7370,23 +7145,6 @@
     },
     "variantId":"FlickerStrike",
     "weaponRequirements":"Quarterstaff"
-  },
-  "Metadata/Items/Gems/SkillGemFlowSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemFlow",
-    "gemFamily":"Flow",
-    "gemType":"Support",
-    "grantedEffectId":"SupportFlowPlayer",
-    "name":"Flow",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"FlowSupport"
   },
   "Metadata/Items/Gems/SkillGemFlukeSupport":{
     "Tier":3,
@@ -8828,25 +8586,6 @@
     "variantId":"HighVelocityRounds",
     "weaponRequirements":"Crossbow"
   },
-  "Metadata/Items/Gems/SkillGemHinderSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemHinder",
-    "gemFamily":"Hinder",
-    "gemType":"Support",
-    "grantedEffectId":"SupportHinderPlayer",
-    "name":"Hinder",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"Spell, Chaos",
-    "tags":{
-      "chaos":true,
-      "spell":true,
-      "support":true
-    },
-    "variantId":"HinderSupport"
-  },
   "Metadata/Items/Gems/SkillGemHisFoulEmergence":{
     "Tier":0,
     "baseTypeName":"His Foul Emergence",
@@ -8912,24 +8651,6 @@
       "support":true
     },
     "variantId":"HitAndRunSupport"
-  },
-  "Metadata/Items/Gems/SkillGemHobbleSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemBloodintheEyes",
-    "gemFamily":"Hobble",
-    "gemType":"Support",
-    "grantedEffectId":"SupportHobblePlayer",
-    "name":"Hobble",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Physical",
-    "tags":{
-      "physical":true,
-      "support":true
-    },
-    "variantId":"HobbleSupport"
   },
   "Metadata/Items/Gems/SkillGemHolyDescentSupport":{
     "Tier":5,
@@ -9008,29 +8729,6 @@
       "strength":true
     },
     "variantId":"HyenaCackle"
-  },
-  "Metadata/Items/Gems/SkillGemHypothermia":{
-    "Tier":0,
-    "baseTypeName":"Hypothermia",
-    "gameId":"Metadata/Items/Gems/SkillGemHypothermia",
-    "gemType":"Spell",
-    "grantedEffectId":"HypothermiaPlayer",
-    "name":"Hypothermia",
-    "naturalMaxLevel":20,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"AoE, Cold, Duration, Curse",
-    "tags":{
-      "area":true,
-      "cold":true,
-      "curse":true,
-      "duration":true,
-      "grants_active_skill":true,
-      "intelligence":true,
-      "spell":true
-    },
-    "variantId":"Hypothermia"
   },
   "Metadata/Items/Gems/SkillGemIceBiteSupport":{
     "Tier":1,
@@ -10129,23 +9827,6 @@
     },
     "variantId":"LeapSlam",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
-  },
-  "Metadata/Items/Gems/SkillGemLeverageSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemLeverage",
-    "gemFamily":"Leverage",
-    "gemType":"Support",
-    "grantedEffectId":"SupportLeveragePlayer",
-    "name":"Leverage",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"LeverageSupport"
   },
   "Metadata/Items/Gems/SkillGemLifeFlaskSupport":{
     "Tier":0,
@@ -11742,24 +11423,6 @@
     },
     "variantId":"OrbOfStorms"
   },
-  "Metadata/Items/Gems/SkillGemOutmaneuverSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemOutmaneuver",
-    "gemFamily":"Outmaneuver",
-    "gemType":"Support",
-    "grantedEffectId":"SupportOutmaneuverPlayer",
-    "name":"Outmaneuver",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Physical",
-    "tags":{
-      "physical":true,
-      "support":true
-    },
-    "variantId":"OutmaneuverSupport"
-  },
   "Metadata/Items/Gems/SkillGemOverchargeSupport":{
     "Tier":4,
     "gameId":"Metadata/Items/Gems/SupportGemOvercharge",
@@ -12646,23 +12309,6 @@
     },
     "variantId":"PotentExposureSupport"
   },
-  "Metadata/Items/Gems/SkillGemPotentialSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemPotential",
-    "gemFamily":"Potential",
-    "gemType":"Support",
-    "grantedEffectId":"SupportPotentialPlayer",
-    "name":"Potential",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"PotentialSupport"
-  },
   "Metadata/Items/Gems/SkillGemPowerSiphon":{
     "Tier":0,
     "baseTypeName":"Power Siphon",
@@ -13378,25 +13024,6 @@
     },
     "variantId":"RakiatasFlowSupport"
   },
-  "Metadata/Items/Gems/SkillGemRallySupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemRally",
-    "gemFamily":"Rally",
-    "gemType":"Support",
-    "grantedEffectId":"SupportRallyPlayer",
-    "name":"Rally",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "support":true
-    },
-    "variantId":"RallySupport"
-  },
   "Metadata/Items/Gems/SkillGemRapidAssault":{
     "Tier":5,
     "additionalStatSet1":"RapidAssaultFinalHitPlayer",
@@ -14027,24 +13654,6 @@
     },
     "variantId":"RigwaldsFerocitySupport"
   },
-  "Metadata/Items/Gems/SkillGemRimeSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemRime",
-    "gemFamily":"Rime",
-    "gemType":"Support",
-    "grantedEffectId":"SupportRimePlayer",
-    "name":"Rime",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"Cold",
-    "tags":{
-      "cold":true,
-      "support":true
-    },
-    "variantId":"RimeSupport"
-  },
   "Metadata/Items/Gems/SkillGemRipSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gem/SupportGemRip",
@@ -14398,25 +14007,6 @@
       "support":true
     },
     "variantId":"SecondWindSupportTwo"
-  },
-  "Metadata/Items/Gems/SkillGemSeeRedSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemSeeRed",
-    "gemFamily":"See Red",
-    "gemType":"Support",
-    "grantedEffectId":"SupportSeeRedPlayer",
-    "name":"See Red",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Physical",
-    "tags":{
-      "attack":true,
-      "physical":true,
-      "support":true
-    },
-    "variantId":"SeeRedSupport"
   },
   "Metadata/Items/Gems/SkillGemSeismicCry":{
     "Tier":11,
@@ -16955,26 +16545,6 @@
     },
     "variantId":"TrailOfCaltrops"
   },
-  "Metadata/Items/Gems/SkillGemTremorsSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemTremors",
-    "gemFamily":"Tremors",
-    "gemType":"Support",
-    "grantedEffectId":"SupportTremorsPlayer",
-    "name":"Tremors",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee, Slam",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "slam":true,
-      "support":true
-    },
-    "variantId":"TremorsSupport"
-  },
   "Metadata/Items/Gems/SkillGemTrinity":{
     "Tier":14,
     "baseTypeName":"Trinity",
@@ -17018,24 +16588,6 @@
       "support":true
     },
     "variantId":"TulsStillnessSupport"
-  },
-  "Metadata/Items/Gems/SkillGemTumultSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemTumult",
-    "gemFamily":"Tumult",
-    "gemType":"Support",
-    "grantedEffectId":"SupportTumultPlayer",
-    "name":"Tumult",
-    "naturalMaxLevel":1,
-    "reqDex":100,
-    "reqInt":0,
-    "reqStr":0,
-    "tagString":"Physical",
-    "tags":{
-      "physical":true,
-      "support":true
-    },
-    "variantId":"TumultSupport"
   },
   "Metadata/Items/Gems/SkillGemTwister":{
     "Tier":1,
@@ -17115,59 +16667,6 @@
       "support":true
     },
     "variantId":"UhtredOmenSupport"
-  },
-  "Metadata/Items/Gems/SkillGemUnabatingSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemUnabating",
-    "gemFamily":"Unabating",
-    "gemType":"Support",
-    "grantedEffectId":"SupportUnabatingPlayer",
-    "name":"Unabating",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack",
-    "tags":{
-      "attack":true,
-      "support":true
-    },
-    "variantId":"UnabatingSupport"
-  },
-  "Metadata/Items/Gems/SkillGemUnbendingSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemUnbending",
-    "gemFamily":"Unbending",
-    "gemType":"Support",
-    "grantedEffectId":"SupportUnbendingPlayer",
-    "name":"Unbending",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"Spell",
-    "tags":{
-      "spell":true,
-      "support":true
-    },
-    "variantId":"UnbendingSupport"
-  },
-  "Metadata/Items/Gems/SkillGemUnbreakableSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gems/SupportGemUnbreakable",
-    "gemFamily":"Unbreakable",
-    "gemType":"Support",
-    "grantedEffectId":"UnbreakableSupportPlayer",
-    "name":"Unbreakable",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"",
-    "tags":{
-      "support":true
-    },
-    "variantId":"UnbreakableSupport"
   },
   "Metadata/Items/Gems/SkillGemUndermineSupport":{
     "Tier":0,
@@ -17289,25 +16788,6 @@
     },
     "variantId":"UnleashSupport"
   },
-  "Metadata/Items/Gems/SkillGemUnsteadyTempoSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemUnsteadyTempo",
-    "gemFamily":"Unsteady Tempo",
-    "gemType":"Support",
-    "grantedEffectId":"SupportUnsteadyTempoPlayer",
-    "name":"Unsteady Tempo",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "support":true
-    },
-    "variantId":"UnsteadyTempoSupport"
-  },
   "Metadata/Items/Gems/SkillGemUntouchableSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemUntouchable",
@@ -17325,25 +16805,6 @@
       "support":true
     },
     "variantId":"UntouchableSupport"
-  },
-  "Metadata/Items/Gems/SkillGemUnyieldingSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemUnyielding",
-    "gemFamily":"Unyielding",
-    "gemType":"Support",
-    "grantedEffectId":"SupportUnyieldingPlayer",
-    "name":"Unyielding",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":0,
-    "reqStr":100,
-    "tagString":"Attack, Melee",
-    "tags":{
-      "attack":true,
-      "melee":true,
-      "support":true
-    },
-    "variantId":"UnyieldingSupport"
   },
   "Metadata/Items/Gems/SkillGemUpheavalSupport":{
     "Tier":1,
@@ -17787,25 +17248,6 @@
       "spell":true
     },
     "variantId":"VolatileDead"
-  },
-  "Metadata/Items/Gems/SkillGemVolatilePowerSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemVolatilePower",
-    "gemFamily":"Volatile Power",
-    "gemType":"Support",
-    "grantedEffectId":"SupportVolatilePowerPlayer",
-    "name":"Volatile Power",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"Physical, Chaos",
-    "tags":{
-      "chaos":true,
-      "physical":true,
-      "support":true
-    },
-    "variantId":"VolatilePowerSupport"
   },
   "Metadata/Items/Gems/SkillGemVolatilitySupport":{
     "Tier":3,

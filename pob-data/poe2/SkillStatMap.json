@@ -837,7 +837,7 @@
   "additive_thorns_damage_modifiers_apply_to_attack_damage":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"ThornsDamageAppliesToHits",
+      "name":"ThornsDamageApplyToAttackDamage",
       "type":"FLAG",
       "value":true
     }],
@@ -4428,15 +4428,13 @@
       "type":"FLAG",
       "value":true
     }],
-  "kill_enemy_on_hit_if_under_10%_life":{
-    "value":10,
-    "1":{
+  "kill_enemy_on_hit_if_under_10%_life":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"CullPercent",
-      "type":"MAX"
-    }
-  },
+      "name":"CanCull",
+      "type":"FLAG",
+      "value":true
+    }],
   "knockback_distance_+%":[{
       "flags":0,
       "keywordFlags":0,

@@ -2,6 +2,7 @@
   "KnockbackWavePlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Interact.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -31,6 +32,7 @@
     "castTime":1,
     "description":"Triggered when an enemy Poisoned by a supported skill dies, dealing Physical damage around them based on the built-up Plague.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RangerPlagueBearerSkill.dds",
     "levels":[{
         "cooldown":0.1,
         "levelRequirement":0,
@@ -1446,20 +1448,17 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_culling_strike_vs_rare_or_unique_enemy":{
-            "value":10,
-            "1":{
+          "support_culling_strike_vs_rare_or_unique_enemy":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"CullPercent",
-              "type":"MAX",
+              "name":"CanCull",
+              "type":"FLAG",
               "1":{
                 "actor":"enemy",
                 "type":"ActorCondition",
                 "var":"RareOrUnique"
               }
-            }
-          }
+            }]
         },
         "stats":["support_culling_strike_vs_rare_or_unique_enemy"]
       }],
@@ -1486,20 +1485,17 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_culling_strike_vs_rare_or_unique_enemy":{
-            "value":10,
-            "1":{
+          "support_culling_strike_vs_rare_or_unique_enemy":[{
               "flags":0,
               "keywordFlags":0,
-              "name":"CullPercent",
-              "type":"MAX",
+              "name":"CanCull",
+              "type":"FLAG",
               "1":{
                 "actor":"enemy",
                 "type":"ActorCondition",
                 "var":"RareOrUnique"
               }
-            }
-          }
+            }]
         },
         "stats":["support_culling_strike_vs_rare_or_unique_enemy"]
       }],
@@ -1573,53 +1569,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
-      }],
-    "support":true
-  },
-  "SupportDazedBreakPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Attacks, causing them to Daze Enemies when they fully Break Armour.",
-    "excludeSkillTypes":[],
-    "gemFamily":["BreakPosture"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Break Posture",
-    "requireSkillTypes":[1,117],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_daze_break_duration_ms",8000]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Break Posture",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["support_apply_daze_on_armour_break"]
-      }],
-    "support":true
-  },
-  "SupportDazzlePlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Attack Skills. Supported Skills always hit Dazed Enemies, but Consume Daze on Hit, and cannot themselves inflict Daze.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Dazzle"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Dazzle",
-    "requireSkillTypes":[1,116,117],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Dazzle",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["consume_enemy_daze_to_always_hit","cannot_daze"]
       }],
     "support":true
   },
@@ -1896,9 +1845,7 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_empowered_culling_strike":{
-            "value":10,
-            "1":{
+          "support_empowered_culling_strike":[{
               "flags":0,
               "keywordFlags":0,
               "name":"ExtraEmpowerMod",
@@ -1907,13 +1854,12 @@
                 "mod":{
                   "flags":0,
                   "keywordFlags":0,
-                  "name":"CullPercent",
-                  "type":"MAX"
+                  "name":"CanCull",
+                  "type":"FLAG"
                 },
                 "unscalable":true
               }
-            }
-          }
+            }]
         },
         "stats":["support_empowered_culling_strike"]
       }],
@@ -1960,84 +1906,6 @@
             }]
         },
         "stats":[]
-      }],
-    "support":true
-  },
-  "SupportExcoriatePlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Melee Attack Skills. Supported Skills deal more Melee Damage for each Elemental Ailment on Enemies they hit, but cannot themselves inflict Elemental Ailments.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Excoriate"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":15
-      }],
-    "name":"Excoriate",
-    "requireSkillTypes":[1,20,74],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_elemental_assault_melee_damage_+%_final_per_elemental_ailment_on_target",10]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Excoriate",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_elemental_assault_melee_damage_+%_final_per_elemental_ailment_on_target":[{
-              "flags":256,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"Ignited"
-              }
-            },{
-              "flags":256,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"Chilled"
-              }
-            },{
-              "flags":256,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"Frozen"
-              }
-            },{
-              "flags":256,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"Shocked"
-              }
-            },{
-              "flags":256,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"Electrocuted"
-              }
-            }]
-        },
-        "stats":["cannot_inflict_elemental_ailments"]
       }],
     "support":true
   },
@@ -2189,30 +2057,6 @@
             }]
         },
         "stats":["skill_cannot_generate_frenzy_charges"]
-      }],
-    "support":true
-  },
-  "SupportFlowPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Skills which require Combo to use. Supported Skills lose their Combo stacks after a longer delay spent not gaining any Combo.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Flow"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Flow",
-    "requireSkillTypes":[152],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["combo_falloff_speed_+%",-60]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Flow",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
       }],
     "support":true
   },
@@ -2465,29 +2309,6 @@
       }],
     "support":true
   },
-  "SupportHobblePlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Skills that Hit Enemies, causing those Hits to Hobble Bleeding Enemies based on a portion of Physical Damage dealt.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Hobble"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Hobble",
-    "requireSkillTypes":[7,1,117],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Hobble",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportImpalePlayer":{
     "addSkillTypes":[],
     "color":2,
@@ -2687,30 +2508,6 @@
               "type":"MORE"
             }]
         },
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportLeveragePlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Skills which Hit Enemies. Supported Skills gain increased chance to Critically Hit against Immobilised Enemies.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Leverage"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Leverage",
-    "requireSkillTypes":[7,117,1],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["critical_strike_chance_+%_vs_immobilised_enemies",50]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Leverage",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
       }],
     "support":true
@@ -3195,32 +2992,6 @@
       }],
     "support":true
   },
-  "SupportOutmaneuverPlayer":{
-    "addSkillTypes":[],
-    "color":2,
-    "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills Break Armour against Parried Enemies.",
-    "excludeSkillTypes":[139,96,25,6,33,36,37],
-    "gemFamily":["Outmaneuver"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":15
-      }],
-    "name":"Outmaneuver",
-    "requireSkillTypes":[7,1,116,117],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["armour_break_physical_damage_%_dealt_as_armour_break_vs_parried_enemies",25]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Outmaneuver",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportOverchargePlayer":{
     "addSkillTypes":[],
     "color":2,
@@ -3251,6 +3022,7 @@
     "description":"Supports Attack Skills you use yourself. Supported Skills deal more Damage with Critical Hits, but Critically Hitting an Enemy with them will Daze you for a short time.",
     "excludeSkillTypes":[139,6,25,96,37],
     "gemFamily":["Overextend"],
+    "legacy":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":15
@@ -4984,31 +4756,6 @@
       }],
     "support":true
   },
-  "SupportTumultPlayer":{
-    "addSkillTypes":[221],
-    "color":2,
-    "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills consume a Frenzy Charge on use to powerfully Break Armour.",
-    "excludeSkillTypes":[139,37,96,25,6,33,36,172,221,75,74],
-    "gemFamily":["Tumult"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Tumult",
-    "requireSkillTypes":[1,7,116],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["skill_consume_frenzy_charge_to_armour_break_for_%_of_physical_damage",50]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Tumult",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportUnerringPowerPlayer":{
     "addSkillTypes":[],
     "color":2,
@@ -5232,6 +4979,7 @@
     "castTime":1,
     "description":"Maims and deals Attack area damage when triggered by an Enemy. Caltrops are destroyed when triggered, and a maximum of 20 Caltrops can be active at once.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "attackTime":1,
         "levelRequirement":0
@@ -5275,6 +5023,7 @@
   "TriggeredChargedMarkPlayer":{
     "castTime":0,
     "hidden":true,
+    "icon":"",
     "levels":[{
         "levelRequirement":0
       },{
@@ -5546,6 +5295,7 @@
     "castTime":1,
     "description":"Attach a Toxic Pustule to the enemy, which Detonates after a delay, dealing Attack damage. They can also be Poisoned, causing them to Detonate faster and more violently.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RangerToxicDomain.dds",
     "levels":[{
         "cooldown":0.1,
         "levelRequirement":0,
@@ -6227,6 +5977,7 @@
     "castTime":1,
     "description":"Explodes to deal Cold Damage in an area after a short delay, based on the life of the slain frozen Enemy.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "baseMultiplier":0.75,
         "levelRequirement":0

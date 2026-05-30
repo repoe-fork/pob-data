@@ -2,6 +2,7 @@
   "ArmourExplosionPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -303,6 +304,7 @@
   "StompingGroundShockwavePlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -844,6 +846,9 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "deal_thorns_damage_on_hit_for_X_hits_after_thorns_trigger":[]
+        },
         "stats":[]
       }],
     "support":true
@@ -870,6 +875,9 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "deal_thorns_damage_twice_on_hit_for_X_hits_after_thorns_trigger":[]
+        },
         "stats":[]
       }],
     "support":true
@@ -896,6 +904,9 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "deal_thorns_damage_on_hit_for_X_hits_after_thorns_trigger":[]
+        },
         "stats":[]
       }],
     "support":true
@@ -2164,31 +2175,6 @@
       }],
     "support":true
   },
-  "SupportDazingCryPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Warcries, causing them to Daze Enemies on use.",
-    "excludeSkillTypes":[],
-    "gemFamily":["DazingCry"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":10
-      }],
-    "name":"Dazing Cry",
-    "requireSkillTypes":[63],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_dazed_cry_duration_ms",4000]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Dazing Cry",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["support_apply_daze_on_warcry"]
-      }],
-    "support":true
-  },
   "SupportDeadlyIgnitesPlayer":{
     "addSkillTypes":[],
     "color":1,
@@ -2384,68 +2370,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":["attack_damage_is_lucky_if_surrounded","skills_are_usable_without_mana_cost_while_surrounded"]
-      }],
-    "support":true
-  },
-  "SupportDesperationPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Melee Attack Skills you use yourself. Insufficient Mana doesn't prevent Supported Skills from being used while Surrounded.",
-    "excludeSkillTypes":[139,25,96,6,37],
-    "gemFamily":["Desperation"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Desperation",
-    "requireSkillTypes":[1,20,74],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Desperation",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["skills_are_usable_without_mana_cost_while_surrounded"]
-      }],
-    "support":true
-  },
-  "SupportDevastatePlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports any skill that Hits enemies, causing them to apply Broken Armour to enemies when causing a Heavy Stun to enemies.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Devastate"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Devastate",
-    "requireSkillTypes":[7,1,117],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Devastate",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "fully_break_enemies_armour_on_heavy_stun":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Condition:CanArmourBreak",
-              "type":"FLAG",
-              "value":true,
-              "1":{
-                "effectName":"ArmourBreak",
-                "effectType":"Buff",
-                "type":"GlobalEffect"
-              }
-            }]
-        },
-        "stats":["fully_break_enemies_armour_on_heavy_stun"]
       }],
     "support":true
   },
@@ -2868,71 +2792,6 @@
       }],
     "support":true
   },
-  "SupportEmpoweredDamagePlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports skills that can Empower skills other than themselves, causing skills they Empower to deal more damage.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Premeditation"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":30
-      }],
-    "name":"Premeditation",
-    "requireSkillTypes":[147],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_empowered_damage_+%_final",15]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Premeditation",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_empowered_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"ExtraEmpowerMod",
-              "type":"LIST",
-              "value":{
-                "mod":{
-                  "flags":0,
-                  "keywordFlags":0,
-                  "name":"Damage",
-                  "type":"MORE"
-                }
-              }
-            }]
-        },
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportEnduranceChargeOnArmourBreak":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports any skill that Hits enemies, giving it a chance to gain an Endurance Charge when it Fully Breaks an enemy's Armour.",
-    "excludeSkillTypes":[],
-    "gemFamily":["BreakEndurance"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Break Endurance",
-    "requireSkillTypes":[1,7,117],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["chance_to_gain_endurance_charge_on_armour_break_%",40]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Break Endurance",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportEnragedWarcryPlayer":{
     "addSkillTypes":[224],
     "color":1,
@@ -3285,31 +3144,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":["hits_ignore_enemy_fire_resistance"]
-      }],
-    "support":true
-  },
-  "SupportFirstBloodPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Attacks. Supported Skills are far more likely to inflict Bleeding on Hitting full Life Enemies.",
-    "excludeSkillTypes":[],
-    "gemFamily":["FirstBlood"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":10
-      }],
-    "name":"First Blood",
-    "requireSkillTypes":[1],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["bleed_chance_+%_vs_full_life_enemy",100]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"First Blood",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
       }],
     "support":true
   },
@@ -4087,6 +3921,7 @@
     "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Burn. Damage dealt by the Burning is based off the Life of the supported Minion.",
     "excludeSkillTypes":[214],
     "gemFamily":["InfernalLegion"],
+    "legacy":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -4920,6 +4755,9 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "trigger_spiked_gauntlets_for_X_hits_after_thorns_trigger":[]
+        },
         "stats":[]
       }],
     "support":true
@@ -5112,30 +4950,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
-      }],
-    "support":true
-  },
-  "SupportRallyPlayer":{
-    "addSkillTypes":[131,204],
-    "color":1,
-    "description":"Supports Melee Attacks you use yourself. Supported Skills Consume all Endurance Charge on use, causing you to restore a percentage of your maximum Life for each Charge Consumed.",
-    "excludeSkillTypes":[37,6,25,96,139,173,204,75,74],
-    "gemFamily":["Rally"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Rally",
-    "requireSkillTypes":[20],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["consume_endurance_charges_on_use_to_recover_%_maximum_life_per_charge",10]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Rally",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["skill_cannot_generate_endurance_charges"]
       }],
     "support":true
   },
@@ -5620,30 +5434,6 @@
         "constantStats":[["aggravate_bleeding_on_pin_chance_%",100]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Rusted Spikes",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportSeeRedPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Attack Skills. Bleeding inflicted with Supported Skills lasts significantly longer, but enemies you inflict Bleeding onto with Supported Skills will move and Attack faster.",
-    "excludeSkillTypes":[],
-    "gemFamily":["SeeRed"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"See Red",
-    "requireSkillTypes":[1,116,117],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["bleeding_monsters_movement_velocity_+%",15],["base_bleed_duration_+%",50],["bleeding_monsters_attack_speed_+%",15]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"See Red",
         "levels":[{
             "actorLevel":1
           }],
@@ -6201,9 +5991,9 @@
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
           "support_thorns_spirit_cost_thorns_damage_+%":[{
-              "flags":0,
+              "flags":32,
               "keywordFlags":0,
-              "name":"ThornsDamage",
+              "name":"Damage",
               "type":"INC",
               "1":{
                 "effectName":"Thornskin I",
@@ -6239,9 +6029,9 @@
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
           "support_thorns_spirit_cost_thorns_damage_+%":[{
-              "flags":0,
+              "flags":32,
               "keywordFlags":0,
-              "name":"ThornsDamage",
+              "name":"Damage",
               "type":"INC",
               "1":{
                 "effectName":"Thornskin II",
@@ -6276,38 +6066,6 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportTremorsPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Slam Skills you use yourself. Supported Skills gain multiple independent chances to cause Aftershocks, but deal less Damage.",
-    "excludeSkillTypes":[139,6,96,37],
-    "gemFamily":["Tremors"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Tremors",
-    "requireSkillTypes":[93],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_slam_chance_for_one_additional_aftershock_%",30],["support_slam_chance_for_two_additional_aftershocks_%",15],["support_slam_chance_for_three_additional_aftershocks_%",10],["support_unstable_earth_damage_+%_final",-35]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Tremors",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_unstable_earth_damage_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE"
-            }]
-        },
         "stats":[]
       }],
     "support":true
@@ -6444,32 +6202,6 @@
       }],
     "support":true
   },
-  "SupportUnabatingPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Attack Skills you use yourself. While using Supported Skills, you gain increased Armour, with the increase scaling higher the longer the Attack time of the supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,6,96,25,48,37],
-    "gemFamily":["Unabating"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Unabating",
-    "requireSkillTypes":[1],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["armour_+%_while_performing_action_per_250_ms_attack_time",25]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Unabating",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportUnderminePlayer":{
     "addSkillTypes":[],
     "color":1,
@@ -6491,56 +6223,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":["cannot_inflict_maim"]
-      }],
-    "support":true
-  },
-  "SupportUnsteadyTempoPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Melee Attack Skills you use yourself. Attacking with Supported Skills will cycle through various effects, with the first Attack in sequence inflicting Hobble on you. The second and third Attacks in sequence will powerfully scale chance to Critically Hit and overall damage, respectively, at which point the cycle will reset. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,96,25,37,48],
-    "gemFamily":["UnsteadyTempo"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":10
-      }],
-    "name":"Unsteady Tempo",
-    "requireSkillTypes":[20,1,74],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Unsteady Tempo",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportUnyieldingPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports Melee Attack Skills you use yourself. While using Supported Skills, a percentage of Damage taken is Recouped as Life, with the percentage scaling higher the longer the Attack time of the Supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,6,96,25,48,37],
-    "gemFamily":["Unyielding"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Unyielding",
-    "requireSkillTypes":[1,20,74],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["damage_taken_%_recouped_as_life_while_performing_attack_per_250_ms_attack_time",8]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Unyielding",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
       }],
     "support":true
   },
@@ -6978,10 +6660,101 @@
       }],
     "support":true
   },
+  "TriggeredBarbsPlayer":{
+    "cannotBeSupported":true,
+    "description":"Deal your thorns damage.",
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Barbs I",
+    "qualityStats":[],
+    "skillTypes":{
+      "7":true,
+      "83":true,
+      "115":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "thorns":true,
+          "triggeredOnHitBySupportedSkill":true
+        },
+        "baseMods":[],
+        "constantStats":[],
+        "incrementalEffectiveness":0,
+        "label":"Barbs I",
+        "levels":[[]],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
+  "TriggeredBarbsPlayerThree":{
+    "cannotBeSupported":true,
+    "description":"Deal twice your thorns damage.",
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Barbs III",
+    "qualityStats":[],
+    "skillTypes":{
+      "7":true,
+      "83":true,
+      "115":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "thorns":true,
+          "triggeredOnHitBySupportedSkill":true
+        },
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DoubleDamageChance",
+            "type":"BASE",
+            "value":100
+          }],
+        "constantStats":[],
+        "incrementalEffectiveness":0,
+        "label":"Barbs III",
+        "levels":[[]],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
+  "TriggeredBarbsPlayerTwo":{
+    "cannotBeSupported":true,
+    "description":"Deal your thorns damage.",
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Barbs II",
+    "qualityStats":[],
+    "skillTypes":{
+      "7":true,
+      "83":true,
+      "115":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "thorns":true,
+          "triggeredOnHitBySupportedSkill":true
+        },
+        "baseMods":[],
+        "constantStats":[],
+        "incrementalEffectiveness":0,
+        "label":"Barbs II",
+        "levels":[[]],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
   "TriggeredBattershoutExplosionPlayer":{
     "castTime":1,
     "description":"Deal Physical Area Damage based off of the Broken Armour of the target which this explosion was Triggered from.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -7013,6 +6786,7 @@
     "castTime":1,
     "description":"Hazardous thorns damage and Maim enemies with which they come in contact.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "cooldown":0.15,
         "levelRequirement":0,
@@ -7053,6 +6827,7 @@
     "castTime":1,
     "description":"Creates multiple Fissures when landing with Supported Skill.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/ElementalPowerSkillWand.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -7093,6 +6868,7 @@
     "castTime":1,
     "description":"Causes a fiery explosion in a cone behind the target, dealing Attack damage.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/FanTheFlames.dds",
     "levels":[{
         "baseMultiplier":0.45,
         "cooldown":0.5,
@@ -7566,6 +7342,7 @@
     "castTime":1,
     "description":"Causes a fiery explosion in a cone behind the target, dealing Attack damage.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/FanTheFlames.dds",
     "levels":[{
         "baseMultiplier":0.45,
         "cooldown":0.5,
@@ -8039,6 +7816,7 @@
     "castTime":1,
     "description":"Deal Fire Damage in an Area based on a percentage of the expected Damage of the Consumed Ignite.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BeserkSkill.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -8069,6 +7847,7 @@
     "castTime":1,
     "description":"Deal Physical Damage in an Area based on a percentage of the expected Damage of the Consumed Bleed.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -8103,6 +7882,7 @@
     "castTime":1,
     "description":"Deal your Thorns Damage in an Area. Cannot Hit the target this was Triggered from.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "cooldown":0.15,
         "levelRequirement":0,
@@ -8122,7 +7902,9 @@
       "115":true
     },
     "statSets":[{
-        "baseFlags":[],
+        "baseFlags":{
+          "thorns":true
+        },
         "constantStats":[["triggered_by_spiked_gauntlets_support_%",100],["active_skill_base_area_of_effect_radius",15]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Quill Burst",
@@ -8130,6 +7912,9 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"triggered_spiked_gauntlets",
+        "statMap":{
+          "display_skill_deals_thorns_damage":[]
+        },
         "stats":["is_area_damage","display_skill_deals_thorns_damage"]
       }]
   },
@@ -8137,6 +7922,7 @@
     "castTime":1,
     "description":"Creates Skittering Stone Minions from shattered objects created by Supported Skill.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/SkitteringStone.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -8194,6 +7980,7 @@
     "castTime":1,
     "description":"Creates Skittering Stone Minions from shattered objects created by Supported Skill.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/SkitteringStone.dds",
     "levels":[{
         "levelRequirement":0
       }],
@@ -8251,6 +8038,7 @@
     "castTime":1,
     "description":"Deals Physical Damage in an area, based on Totem Life.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/WindstormLanceSkillIcon.dds",
     "levels":[{
         "critChance":5,
         "levelRequirement":0
@@ -8285,6 +8073,7 @@
     "castTime":1,
     "description":"Fire molten Projectiles from the struck target, which will land nearby dealing Attack damage in an area.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/VolcanicEruptionSkillIcon.dds",
     "levels":[{
         "cooldown":0.4,
         "levelRequirement":0,
@@ -8321,43 +8110,5 @@
         "statDescriptionScope":"triggered_volcanic_eruption",
         "stats":["base_is_projectile","is_area_damage"]
       }]
-  },
-  "UnbreakableSupportPlayer":{
-    "addSkillTypes":[],
-    "color":1,
-    "description":"Supports any skill that you can use, making you harder to Stun while using it.",
-    "excludeSkillTypes":[64,139],
-    "gemFamily":["Unbreakable"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":10
-      }],
-    "name":"Unbreakable",
-    "requireSkillTypes":[],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_unbreakable_light_stun_threshold_+%_final_while_performing_action",200],["support_stability_heavy_stun_threshold_+%_final_while_performing_action",30]],
-        "incrementalEffectiveness":0.092720001935959,
-        "label":"Unbreakable",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "support_unbreakable_stun_threshold_+%_final_while_performing_action":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"StunThreshold",
-              "type":"MORE",
-              "1":{
-                "effectType":"Buff",
-                "type":"GlobalEffect",
-                "unscalable":true
-              }
-            }]
-        },
-        "stats":[]
-      }],
-    "support":true
   }
 }

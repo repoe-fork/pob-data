@@ -4,6 +4,7 @@
     "castTime":1,
     "color":2,
     "description":"While active, grants you Flask charges passively and causes Life and Mana recovery from your Flasks to also apply to Allies in your Presence.",
+    "icon":"Art/2DArt/SkillIcons/AlchemistsBoonSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -378,6 +379,7 @@
     "castTime":0.7,
     "color":2,
     "description":"Ready a volley of arrows or spears, Empowering your next Barrageable Bow or Projectile Spear Attack to Repeat multiple times. Consumes your Frenzy Charges on use to add additional repeats.",
+    "icon":"Art/2DArt/SkillIcons/RangerBarrageSkill.dds",
     "levels":[{
         "cooldown":2,
         "cost":{
@@ -917,6 +919,7 @@
     "castTime":1,
     "color":2,
     "description":"Lunge at a target and skewers them. Hitting an enemy that has suffered Blood Loss will cause a blood explosion and also Consume Bleeding. This skill cannot be Ancestrally Boosted.",
+    "icon":"Art/2DArt/SkillIcons/HuntressBloodHuntSkillIcon.dds",
     "levels":[{
         "baseMultiplier":0.5,
         "cost":{
@@ -1484,6 +1487,7 @@
     "castTime":1,
     "description":"A violent explosion of blood that deals Attack damage but does not use your weapon's damage.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/MarkoftheBloodhoundSkillIcon.dds",
     "levels":[{
         "critChance":5,
         "levelRequirement":0
@@ -1877,6 +1881,7 @@
     "castTime":0.5,
     "color":2,
     "description":"Mark a target, making them suffer Heavy Stun build up from Blood Loss. If they suffer enough Blood Loss while Marked, the Mark will Activate, Consuming itself and releasing an explosion of blood when they are killed or Heavy Stunned. The Mark's duration does not expire while the Marked target is suffering Blood Loss.",
+    "icon":"Art/2DArt/SkillIcons/MarkoftheBloodhoundSkillIcon.dds",
     "levels":[{
         "cooldown":0.5,
         "cost":{
@@ -2270,6 +2275,7 @@
     "castTime":1,
     "color":2,
     "description":"While active, grants you a Frenzy Charge when you Freeze, Electrocute or Pin an enemy. This can only occur once every few seconds.",
+    "icon":"Art/2DArt/SkillIcons/RangerCombatFrenzySkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -2593,6 +2599,7 @@
     "castTime":1,
     "color":2,
     "description":"Dash to an enemy and run them through, Culling enemies if their life is low enough. If this Attack kills at least one enemy, it grants you a Frenzy Charge, with higher Rarity monsters granting additional Charges. Enemies around you that can be Culled will be highlighted.",
+    "icon":"Art/2DArt/SkillIcons/FrenziedLungeSkillIcon.dds",
     "levels":[{
         "attackSpeedMultiplier":-40,
         "baseMultiplier":0.5,
@@ -2985,6 +2992,7 @@
     "castTime":1,
     "color":2,
     "description":"Channel to charge up before firing off a burning arrow. At maximum stages, the arrow will create a Detonating explosion at the end of its flight.",
+    "icon":"Art/2DArt/SkillIcons/RangerDetonatingArrowSkill.dds",
     "levels":[{
         "attackSpeedMultiplier":-55,
         "baseMultiplier":0.53,
@@ -3424,6 +3432,7 @@
     "castTime":1,
     "color":2,
     "description":"Jump back as you rupture the earth in front of you with spearpoints, damaging enemies. Consumes the Parried Debuff on Hitting enemies to release a shockwave and grant you a Frenzy Charge. This skill can be used while using other skills, and causes Strikes and Projectiles to miss you while jumping. This skill cannot be Ancestrally Boosted.",
+    "icon":"Art/2DArt/SkillIcons/ImpaleSkillIcon.dds",
     "levels":[{
         "baseMultiplier":0.85,
         "cooldown":1.5,
@@ -4156,6 +4165,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire an electrifying arrow that explodes in an Area on Hit. Hitting an enemy will attach an Electrocuting Rod to them, causing all incoming Lightning damage to build up Electrocution. This rod is removed when the enemy is next Electrocuted.",
+    "icon":"Art/2DArt/SkillIcons/RangerElectrocutingRodSkill.dds",
     "levels":[{
         "attackSpeedMultiplier":10,
         "baseMultiplier":0.8,
@@ -4559,6 +4569,7 @@
     "castTime":1,
     "color":2,
     "description":"Plunge your Spear into the ground to emit a pulse that Consumes Freeze, Shock and Ignite on a number of nearby enemies, Allies and Corpses. The pulse itself deals no damage, but each Ailment Consumed causes an explosion of the corresponding elemental damage type.",
+    "icon":"Art/2DArt/SkillIcons/HuntressExtraElements.dds",
     "levels":[{
         "attackSpeedMultiplier":-45,
         "cost":{
@@ -5317,6 +5328,7 @@
   "EscapeShotIceFragmentPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "baseMultiplier":0.6,
         "levelRequirement":0
@@ -5631,6 +5643,7 @@
     "castTime":1,
     "color":2,
     "description":"Leap backwards, firing an icy arrow which can Chill or Freeze enemies around the location from which you escaped. This arrow will create Ice Fragments on impact.",
+    "icon":"Art/2DArt/SkillIcons/RangerFrostEscapeShot.dds",
     "levels":[{
         "baseMultiplier":0.65,
         "cost":{
@@ -6110,6 +6123,7 @@
     "castTime":1,
     "color":2,
     "description":"Hurl a single payload Spear that pierces through enemies and lodges in terrain where it lands. The Spear will explode at the end of its Detonation Time or if Detonated. Consumes a Frenzy Charge if you have one to explode immediately, dealing more damage in a cross-shaped area and creating Ignited Ground.",
+    "icon":"Art/2DArt/SkillIcons/HuntressRemoteMineSpear.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.5,
@@ -7060,6 +7074,7 @@
     "castTime":1,
     "color":2,
     "description":"Perform an icy stab that exploits enemies who are already off balance. Hitting a Parried target Consumes the Debuff to cause an explosion of frost and leave Chilled Ground.",
+    "icon":"Art/2DArt/SkillIcons/FangsofFrostSkillIcon.dds",
     "levels":[{
         "attackSpeedMultiplier":-15,
         "baseMultiplier":0.95,
@@ -7909,6 +7924,7 @@
     "castTime":1,
     "color":2,
     "description":"Passively coalesces icy missiles from the air over time. Using the skill fires a missile, firing an additional missile for each that has been accumulated. Fires an additional missile, up to its current missile count, targeting each Ice Fragment in its Area of effect, causing the Fragments to Detonate immediately.",
+    "icon":"Art/2DArt/SkillIcons/RangerFreezingSalvoSkill.dds",
     "levels":[{
         "baseMultiplier":0.48,
         "cost":{
@@ -8429,6 +8445,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a noxious arrow at the ground, creating a cloud of flammable poisonous gas at the end of its flight. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosion.",
+    "icon":"Art/2DArt/SkillIcons/RangerGasCloudSkill.dds",
     "levels":[{
         "baseMultiplier":0.3,
         "cost":{
@@ -9055,6 +9072,7 @@
     "castTime":1,
     "color":2,
     "description":"Throw a single Piercing lance that leaves icy fragments in its wake. The fragments Chill nearby enemies. Consumes a Frenzy Charge if possible to cause the glacial fragments created by the first Projectile to explode outwards after a short duration, peppering enemies with shrapnel.",
+    "icon":"Art/2DArt/SkillIcons/HuntressGlacialLance.dds",
     "levels":[{
         "attackSpeedMultiplier":-40,
         "baseMultiplier":1.3,
@@ -9830,6 +9848,7 @@
     "castTime":1,
     "color":2,
     "description":"While active, killing a Poisoned enemy spreads its Poison to other nearby enemies, and has a chance to also Hinder them.",
+    "icon":"Art/2DArt/SkillIcons/HeraldOfAgonySkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -10205,6 +10224,7 @@
     "castTime":0,
     "color":2,
     "description":"While active, killing Shocked enemies with a non-Herald Attack Hit will cause subsequent Attack Hits to release lightning bolts which deals Attack damage to all surrounding enemies.",
+    "icon":"Art/2DArt/SkillIcons/HeraldOfThunderSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -10753,6 +10773,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire an icy arrow that sprays a cone of ice shards when it hits a target.",
+    "icon":"Art/2DArt/SkillIcons/RangerIceShot.dds",
     "levels":[{
         "attackSpeedMultiplier":-10,
         "baseMultiplier":0.95,
@@ -11321,6 +11342,7 @@
   "IceTippedArrowsIceFragmentPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "baseMultiplier":0.6,
         "cooldown":0.15,
@@ -11636,6 +11658,7 @@
     "castTime":0.7,
     "color":2,
     "description":"Ready your active Bow or Spear, Empowering your next Barrageable Bow or Projectile Spear Attacks to Convert Physical Damage to Cold Damage and create Ice Fragments on Hit. This Skill's cooldown can be bypassed by expending a Frenzy Charge. Cannot Empower Sustained Skills.",
+    "icon":"Art/2DArt/SkillIcons/RangerShearingBolts.dds",
     "levels":[{
         "cooldown":12,
         "cost":{
@@ -12036,6 +12059,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a charged arrow at the target. On hitting an enemy or wall, the arrow will fire Chaining Lightning beams at nearby enemies.",
+    "icon":"Art/2DArt/SkillIcons/RangerLightningArrow.dds",
     "levels":[{
         "attackSpeedMultiplier":-10,
         "baseMultiplier":0.8,
@@ -12691,6 +12715,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire an arrow that drops from above, creating a Lightning burst. The arrow remains in the ground, and any Chaining Lightning beams can Chain to it. When Chained to, the arrows charge up for a brief period before releasing another Lightning burst. The Lightning Arrow Skill reduces this delay, causing bursts to happen more quickly.",
+    "icon":"Art/2DArt/SkillIcons/RangerLightningRodRainSkill.dds",
     "levels":[{
         "attackSpeedMultiplier":20,
         "baseMultiplier":0.26,
@@ -13092,6 +13117,7 @@
     "castTime":1,
     "color":2,
     "description":"Throw a single copy of your spear. When it hits an enemy it bursts, firing secondary lightning bolt Projectiles at multiple other enemies within a large area around it. Consumes a Frenzy Charge if possible to cause the main spear to split into multiple copies on impact, each of which then bursts.",
+    "icon":"Art/2DArt/SkillIcons/HuntressStormSpear.dds",
     "levels":[{
         "attackSpeedMultiplier":-40,
         "baseMultiplier":1.1,
@@ -13642,6 +13668,7 @@
     "castTime":1,
     "color":2,
     "description":"Aim skyward and fires energy missiles at lingering bolts or arrows created by other Lightning Attacks in front of you. The missiles explode if they land close to a lingering bolt or arrow, dealing more damage in a larger area but destroying that bolt or arrow in the process.",
+    "icon":"Art/2DArt/SkillIcons/RangerMagneticSalvo.dds",
     "levels":[{
         "attackSpeedMultiplier":-50,
         "baseMultiplier":0.5,
@@ -14169,6 +14196,7 @@
     "castTime":0,
     "color":2,
     "description":"While active, dodge rolling will create a Mirage that uses socketed ranged Attacks for a short duration, then vanish.",
+    "icon":"Art/2DArt/SkillIcons/LingeringMirageSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":60
@@ -14397,6 +14425,7 @@
   "MirageArcherSpawnPlayer":{
     "castTime":0,
     "hidden":true,
+    "icon":"",
     "levels":[{
         "cooldown":10,
         "levelRequirement":0,
@@ -14750,6 +14779,7 @@
     "color":2,
     "description":"Fires an arrow that embeds where it lands for a short duration. At the end of the duration, the arrow explodes in spectral flame, turning it to ashes and damaging enemies, with a high chance to Ignite. Igniting any enemy with the Explosion also applies Ignite to enemies within range.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/GhostfuseArrow.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0.2,
@@ -15358,6 +15388,7 @@
   "PlagueBearerNovaPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RangerPlagueBearerSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -15548,6 +15579,7 @@
     "castTime":0,
     "color":2,
     "description":"While active, stores a portion of the Poison Damage you deal. Using this Skill unleashes the stored Poison to damage and Poison enemies around you.",
+    "icon":"Art/2DArt/SkillIcons/RangerPlagueBearerSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -15866,6 +15898,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a virulent arrow that creates a burst of Poison on hit, affecting all enemies in an area.",
+    "icon":"Art/2DArt/SkillIcons/RangerPoisonBurstArrow.dds",
     "levels":[{
         "baseMultiplier":0.88,
         "cost":{
@@ -16436,6 +16469,7 @@
     "castTime":1,
     "color":2,
     "description":"Perform a Lightning-charged stab that can be chained into a combination of up to three attacks. The first two attacks conjure a charging Wildwood spirit if they Hit a Shocked enemy and refresh Shock duration. The third attack is a large swipe that inflicts Elemental Exposure, and can Consume Shock to conjure a stampede of spirits.",
+    "icon":"Art/2DArt/SkillIcons/PrimalStrikesSkillIcon.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.8,
@@ -17174,6 +17208,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a hail of arrows into the air, causing them to rain from above. Consumes a Frenzy Charge to fire more arrows.",
+    "icon":"Art/2DArt/SkillIcons/RangerRainOfArrowsSkill.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.5,
@@ -17698,6 +17733,7 @@
     "castTime":1,
     "color":2,
     "description":"Dash towards an enemy and perform a lacerating slash, inflicting Bleeding on all enemies struck.",
+    "icon":"Art/2DArt/SkillIcons/HuntressBloodHunt.dds",
     "levels":[{
         "baseMultiplier":0.5,
         "cost":{
@@ -18065,6 +18101,7 @@
     "castTime":1,
     "color":2,
     "description":"Perform a series of six rapid stabs. The final stab inflicts Bleeding and leaves a spearhead stuck in the target, Maiming them for a duration. Detonator Skills will cause the stuck spearheads to explode, dealing further damage to the target and other nearby enemies.",
+    "icon":"Art/2DArt/SkillIcons/HuntressRapidAssault.dds",
     "levels":[{
         "attackSpeedMultiplier":-60,
         "baseMultiplier":0.25,
@@ -18721,6 +18758,7 @@
     "castTime":1,
     "color":2,
     "description":"Harnesses a Companion Rhoa you can mount while you're wielding a Bow or Spear. While mounted you can use Bow, thrown Spear, and Mark Skills, and are much less slowed while using Skills, but being Hit will cause Heavy Stun buildup. While you aren't mounted, the Rhoa will attack your enemies alongside you with its beak, but can be damaged.",
+    "icon":"Art/2DArt/SkillIcons/RhoaMountSkillIcon.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":100
@@ -18958,6 +18996,7 @@
     "color":2,
     "description":"Stamp your spear, destroying all Bloodstone Lances on each enemy in your Presence to cause a damaging explosion around that enemy. Each explosion gains new benefits when reaching higher thresholds of Bloodstone Lances removed from an enemy, causing them to deal more damage, have increased area of effect, and Leech Life from enemies caught in the blast.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/AtzirisContempt.dds",
     "levels":[{
         "baseMultiplier":1.25,
         "levelRequirement":0
@@ -19191,6 +19230,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a Lightning-charged arrow that homes in on enemies afflicted by Lightning Ailments. Hitting such an enemy will cause your arrow to release a damaging shockwave and Chain towards nearby targets, with those Chaining Hits also releasing a shockwave. After the final Chain, the arrow lodges into the ground as a Lightning Rod. Consumes Shock from enemies it Hits, but not Electrocution.",
+    "icon":"Art/2DArt/SkillIcons/RangerShockchainSkill.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0.7,
@@ -19725,6 +19765,7 @@
     "castTime":1,
     "color":2,
     "description":"Channel to charge up your bow before releasing a powerful shot. Releasing with Perfect Timing causes the arrow to explode on impact and Consume Freeze on directly Hitting. Consuming Freeze enhances the explosion.",
+    "icon":"Art/2DArt/SkillIcons/RangerSnipeShotArrow.dds",
     "levels":[{
         "attackSpeedMultiplier":-55,
         "baseMultiplier":1.1,
@@ -20401,6 +20442,7 @@
     "castTime":0.5,
     "color":2,
     "description":"Mark a target. The next Critical Hit the target receives Activates the Mark, Consuming it to deal extra damage and grant you a Frenzy Charge.",
+    "icon":"Art/2DArt/SkillIcons/projectileweakness.dds",
     "levels":[{
         "cooldown":6,
         "cost":{
@@ -20899,6 +20941,7 @@
     "castTime":1,
     "color":2,
     "description":"Build Glory by inflicting Freeze, Shock or Ignite on enemies. When you have maximum Glory you may call forth the Azmeri goddess Solaris, jumping backwards and throwing your Spear in the air. On landing the spear deals heavy damage in an area, then calls a divine skybeam that pulses periodically and creates expanding Ignited Ground. Modifiers to number of Projectiles fired do not apply to this skill.",
+    "icon":"Art/2DArt/SkillIcons/SolarisSpearSkillIcon.dds",
     "levels":[{
         "baseMultiplier":1.5,
         "cost":{
@@ -21545,6 +21588,7 @@
     "castTime":1,
     "color":2,
     "description":"Stab the ground causing multiple spears to burst out of the ground in front of you in a large area. The spears remain for a duration, or explode when enemies touch them, damaging and Maiming them.",
+    "icon":"Art/2DArt/SkillIcons/HuntressSpearField.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "cost":{
@@ -22205,6 +22249,7 @@
     "castTime":1,
     "color":2,
     "description":"Load your Bow with a volley of enchanted arrows and fire them in a circle as you spin forward, firing directly at targets if possible. Consumes Frenzy Charges to cause the arrows to deal more damage and Chain to other targets. Each target can only be Hit once.",
+    "icon":"Art/2DArt/SkillIcons/RangerSpiralVolleySkill.dds",
     "levels":[{
         "baseMultiplier":0.66,
         "cost":{
@@ -22615,6 +22660,7 @@
     "castTime":1,
     "color":2,
     "description":"Throw an electrified Spear that lodges in the ground and periodically zaps nearby enemies with Lightning bolts. If the Spear is Detonated by another Skill, it immediately unleashes a volley of bolts and expires. Consumes a Frenzy Charge if possible to fire bolts more frequently for a shorter duration, automatically Detonate at the end of its duration, and create Shocked Ground on Detonation.",
+    "icon":"Art/2DArt/SkillIcons/HuntressOverchargedSpear.dds",
     "levels":[{
         "attackSpeedMultiplier":-40,
         "baseMultiplier":0.6,
@@ -23521,6 +23567,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire an arrow that embeds where it lands for a short duration. At the end of the duration, a Lightning Bolt strikes the arrow, disintegrating it and damaging enemies, with a high chance to Shock. Shocking any enemy with the Bolt also applies Shock to all enemies near the impact.",
+    "icon":"Art/2DArt/SkillIcons/RangerShockingArrow.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.2,
@@ -24169,6 +24216,7 @@
     "castTime":1,
     "color":2,
     "description":"Summon a Reviving Beast Companion to aid you in combat.",
+    "icon":"Art/2DArt/SkillIcons/HuntressSummonCompanion.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -24297,21 +24345,6 @@
           "spell":true,
           "summonBeast":true
         },
-        "baseMods":[{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"MinionModifier",
-            "type":"LIST",
-            "value":{
-              "mod":{
-                "flags":0,
-                "keywordFlags":0,
-                "name":"Damage",
-                "type":"MORE",
-                "value":25
-              }
-            }
-          }],
         "constantStats":[["minion_base_resummon_time_ms",12000]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Minion Info",
@@ -24592,6 +24625,7 @@
     "castTime":1,
     "color":2,
     "description":"Conjure Azmeri wisps to engulf a Rare Beast for a duration, Hindering them. If you defeat the Beast while it is engulfed in wisps, it will be captured by this gem, transforming the gem to instead allow you to summon the Beast as a Reviving Companion.",
+    "icon":"Art/2DArt/SkillIcons/HuntressTameBeast.dds",
     "levels":[{
         "cost":{
           "Mana":22
@@ -24976,6 +25010,7 @@
     "castTime":1,
     "color":2,
     "description":"Leap into the air and plunge your Spear into the ground at the target location, emitting a Lightning-charged shockwave.",
+    "icon":"Art/2DArt/SkillIcons/ThunderousLeapSkillIcon.dds",
     "levels":[{
         "baseMultiplier":1.1,
         "cost":{
@@ -25332,6 +25367,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a skyward shot that whips up a Tornado where it lands, dealing Physical damage over time and Hindering enemies standing in it. Arrows, thrown Spears and Crossbow bolts fired at the Tornado are sucked into it, causing the Tornado to spit out a ring of copied Projectiles. Copied Projectiles cannot be copied again, even by further Tornados.",
+    "icon":"Art/2DArt/SkillIcons/RangerTornadoShotSkill.dds",
     "levels":[{
         "attackSpeedMultiplier":20,
         "baseMultiplier":0.5,
@@ -26127,6 +26163,7 @@
     "castTime":1,
     "color":2,
     "description":"Create an area of Toxic Bloom on the ground around you. While in the Bloom, you have increased Skill costs, Regenerate Life, and your Projectile Attacks attach a Toxic Pustule, which can be Poisoned. Pustules will Detonate after a duration or when enough Poison has been applied, dealing more damage based on the stored Poison damage and applying Poison in an area around it.",
+    "icon":"Art/2DArt/SkillIcons/RangerToxicDomain.dds",
     "levels":[{
         "baseMultiplier":0.38,
         "cooldown":11,
@@ -27134,6 +27171,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire a rain of Toxic Pustules into the air. The Pustules deal damage on impact, then Detonate after a delay. They can also be Poisoned, causing them to Detonate faster and more violently.",
+    "icon":"Art/2DArt/SkillIcons/RangerPoisonBloomSkill.dds",
     "levels":[{
         "baseMultiplier":0.2,
         "cost":{
@@ -28025,6 +28063,7 @@
     "castTime":0,
     "color":2,
     "description":"While active, scatters caltrops in your wake when you dodge.",
+    "icon":"Art/2DArt/SkillIcons/CaltropsOnDodgeSkillIcon.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -28252,6 +28291,7 @@
     "castTime":0,
     "description":"Maims and deals Attack area damage when triggered by an Enemy. Caltrops are destroyed when triggered, and a maximum of 20 Caltrops can be active at once.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "baseMultiplier":0.35,
         "critChance":5,
@@ -28650,6 +28690,7 @@
   "TriggeredWindDancerPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/InspiringCry.dds",
     "levels":[{
         "baseMultiplier":0.2,
         "cooldown":0.25,
@@ -29014,6 +29055,7 @@
     "castTime":1,
     "color":2,
     "description":"Whip up a twister with a flick of your Spear. The twister moves forward erratically, Blinding and repeatedly Hitting enemies within. If a twister touches a Whirlwind from your other skills, it Consumes the Whirlwind to create additional twisters that deal more damage. Passing over Elemental Ground Surfaces or Consuming an elemental Whirlwind will grant twisters extra damage of that element.",
+    "icon":"Art/2DArt/SkillIcons/TwisterSkillIcon.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.8,
@@ -29453,6 +29495,7 @@
     "castTime":1,
     "color":2,
     "description":"Fire an arrow into the air that lands after a short delay, damaging enemies and causing a plant to spring up at the impact location. The plant sprouts vines that latch onto nearby enemies, Slowing their movement speed and dealing Chaos damage over time. The plant can be Poisoned, causing it to deal more damage.",
+    "icon":"Art/2DArt/SkillIcons/RangerPoisonVineArrowSkill.dds",
     "levels":[{
         "baseMultiplier":0.7,
         "cost":{
@@ -30161,6 +30204,7 @@
     "castTime":0.5,
     "color":2,
     "description":"Mark a target, making them more susceptible to being Electrocuted. When the Marked target is Electrocuted, the Mark Activates, granting a Buff which gives extra Lightning damage and Consuming the Mark. Marking another target while you have the Buff will remove the Buff.",
+    "icon":"Art/2DArt/SkillIcons/ShockingMarkSkill.dds",
     "levels":[{
         "cooldown":0.5,
         "cost":{
@@ -30659,6 +30703,7 @@
     "castTime":1,
     "color":2,
     "description":"Perform a circular slash that kicks up a Whirlwind around you, Slowing enemies and Blinding them in its area of effect. Leaving the area collapses the storm, dealing damage and causing Knockback.",
+    "icon":"Art/2DArt/SkillIcons/HuntressWhirlingSlash.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0.7,
@@ -31213,6 +31258,7 @@
     "castTime":1,
     "color":2,
     "description":"Throw a Spear with enough force to kick up a Whirlwind where it lands, Slowing enemies and Blinding them in its area of effect. Entering the Whirlwind collapses it, dealing damage and causing Knockback. Consumes a Frenzy Charge if possible to create the Whirlwind with one more than its normal maximum number of stages.",
+    "icon":"Art/2DArt/SkillIcons/WindstormLanceSkillIcon.dds",
     "levels":[{
         "attackSpeedMultiplier":-40,
         "baseMultiplier":1.1,
@@ -31772,6 +31818,7 @@
     "castTime":1,
     "color":2,
     "description":"While active, periodically grants stages of a buff that gives you more Evasion per stage. Being Hit by an Enemy while you have this buff consumes all stages to damage and Knock Back enemies around you.",
+    "icon":"Art/2DArt/SkillIcons/RangerWindDancerSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -32123,6 +32170,7 @@
     "castTime":1,
     "color":2,
     "description":"Consume all Frenzy Charges to perform a gigantic spear thrust that Knocks Back enemies. For each Frenzy Charge consumed, a Wind Serpent follows in the spear's wake. Each Serpent also damages and Knocks Back enemies.",
+    "icon":"Art/2DArt/SkillIcons/WindSerpentsFurySkillIcon.dds",
     "levels":[{
         "attackSpeedMultiplier":-60,
         "baseMultiplier":1.65,

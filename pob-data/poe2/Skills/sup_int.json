@@ -3,6 +3,7 @@
     "castTime":1,
     "description":"Deal Chaos damage in an area around the previously Cursed enemy.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/ViciousHex.dds",
     "levels":[{
         "cooldown":0.15,
         "critChance":7,
@@ -1872,6 +1873,7 @@
     "description":"Supports Channelling Skills. While Channelling Supported Skills, you gain Lightning Thorns based off of your maximum Mana.",
     "excludeSkillTypes":[6,96],
     "gemFamily":["CracklingBarrier"],
+    "grantsThornsDamage":true,
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
@@ -1887,6 +1889,47 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"gem_stat_descriptions",
+        "statMap":{
+          "return_%_of_maximum_mana_as_lightning_damage_to_attacker_while_channelling":[{
+              "flags":32,
+              "keywordFlags":0,
+              "name":"LightningMin",
+              "type":"BASE",
+              "1":{
+                "percent":1,
+                "stat":"Mana",
+                "type":"PercentStat"
+              },
+              "2":{
+                "effectName":"Crackling Barrier",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "type":"Condition",
+                "var":"Channelling"
+              }
+            },{
+              "flags":32,
+              "keywordFlags":0,
+              "name":"LightningMax",
+              "type":"BASE",
+              "1":{
+                "percent":1,
+                "stat":"Mana",
+                "type":"PercentStat"
+              },
+              "2":{
+                "effectName":"Crackling Barrier",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "3":{
+                "type":"Condition",
+                "var":"Channelling"
+              }
+            }]
+        },
         "stats":[]
       }],
     "support":true
@@ -2509,30 +2552,6 @@
         "constantStats":[["support_ground_effect_area_of_effect_+%_final_per_second",20],["support_ground_effect_area_of_effect_+%_final_per_second_max",100]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Encroaching Ground",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportEnergyBarrierPlayer":{
-    "addSkillTypes":[],
-    "color":3,
-    "description":"Supports any skill that you can use, causing Energy Shield recharge to begin immediately if you are Stunned while using it.",
-    "excludeSkillTypes":[64,139],
-    "gemFamily":["EnergyBarrier"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Energy Barrier",
-    "requireSkillTypes":[],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["support_no_energy_shield_recharge_delay_for_duration_ms_on_stunned",2000]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Energy Barrier",
         "levels":[{
             "actorLevel":1
           }],
@@ -3472,30 +3491,6 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
-      }],
-    "support":true
-  },
-  "SupportHinderPlayer":{
-    "addSkillTypes":[],
-    "color":3,
-    "description":"Supports Spells that deal non-Ailment Chaos damage over time, causing damage over time they inflict to also Hinder enemies. Does not Support Skills used by Minions.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Hinder"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Hinder",
-    "requireSkillTypes":[2,35,42,74,74],
-    "statSets":[{
-        "baseFlags":[],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Hinder",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":["support_hinder_dots_also_apply_hinder"]
       }],
     "support":true
   },
@@ -4881,43 +4876,6 @@
       }],
     "support":true
   },
-  "SupportPotentialPlayer":{
-    "addSkillTypes":[175],
-    "color":3,
-    "description":"Supports Skills that you use yourself. Supported Skills will consume a Power Charge on use if possible, and will be much more likely to Critically Hit if they do. Supported Skills cannot generate Power Charges.",
-    "excludeSkillTypes":[37,6,25,96,139,171,175,75,74],
-    "gemFamily":["Potential"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Potential",
-    "requireSkillTypes":[7,117,1],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["skill_consume_power_charge_to_gain_critical_strike_chance_+%_final",40]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Potential",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "skill_consume_power_charge_to_gain_critical_strike_chance_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"CritChance",
-              "type":"MORE",
-              "1":{
-                "limit":1,
-                "type":"Multiplier",
-                "var":"RemovablePowerCharge"
-              }
-            }]
-        },
-        "stats":["skill_cannot_generate_power_charges"]
-      }],
-    "support":true
-  },
   "SupportPracticalMagicPlayer":{
     "addSkillTypes":[9],
     "color":3,
@@ -5091,54 +5049,6 @@
       }],
     "support":true
   },
-  "SupportRimePlayer":{
-    "addSkillTypes":[],
-    "color":3,
-    "description":"Supports Skills which create Ground Surfaces, causing Enemies Chilled by those Surfaces to be more easily Frozen, but at the cost of some Chill magnitude.",
-    "excludeSkillTypes":[],
-    "gemFamily":["Rime"],
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Rime",
-    "requireSkillTypes":[168],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["chilled_ground_applies_%_freeze_multiplier_taken",-20],["support_winterblast_chill_effect_+%_final",-30]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Rime",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "statMap":{
-          "chilled_ground_applies_%_freeze_multiplier_taken":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"EnemyFreezeBuildup",
-              "type":"MORE",
-              "1":{
-                "effectName":"Rime",
-                "effectType":"Buff",
-                "type":"GlobalEffect"
-              },
-              "2":{
-                "actor":"enemy",
-                "type":"ActorCondition",
-                "var":"OnChilledGround"
-              }
-            }],
-          "support_winterblast_chill_effect_+%_final":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"EnemyChillMagnitude",
-              "type":"MORE"
-            }]
-        },
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportRitualisticCursePlayer":{
     "addSkillTypes":[],
     "color":3,
@@ -5286,6 +5196,7 @@
     "description":"Supports any skill that Hits enemies, giving it a chance to also Shock nearby enemies when you Shock an enemy. Always Shocks enemies which are Drenched.",
     "excludeSkillTypes":[],
     "gemFamily":["ShockConduction"],
+    "legacy":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":20
@@ -5602,6 +5513,7 @@
   "SupportTriggeredAnnihilationPlayer":{
     "castTime":0,
     "hidden":true,
+    "icon":"",
     "levels":[{
         "critChance":9,
         "levelRequirement":0
@@ -5953,31 +5865,6 @@
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","display_annihilation_tag_conversion","is_area_damage"]
       }]
   },
-  "SupportUnbendingPlayer":{
-    "addSkillTypes":[],
-    "color":3,
-    "description":"Supports Spell Skills you use yourself. While using Supported Skills, a percentage of Damage taken is Recouped as Mana, with the percentage scaling higher the longer the Cast time of the Supported Skill. Cannot Support Channelling Skills.",
-    "excludeSkillTypes":[139,6,96,25,48,37],
-    "gemFamily":["Unbending"],
-    "levels":[{
-        "levelRequirement":0,
-        "manaMultiplier":20
-      }],
-    "name":"Unbending",
-    "requireSkillTypes":[2],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["damage_taken_%_recouped_as_mana_while_performing_spell_per_250_ms_cast_time",8]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Unbending",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
   "SupportUnleashPlayer":{
     "addSkillTypes":[188,189],
     "color":3,
@@ -6137,31 +6024,6 @@
         "constantStats":[["cast_speed_additive_modifiers_also_apply_to_projectile_speed_at_%_value",75]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Vilenta's Propulsion",
-        "levels":[{
-            "actorLevel":1
-          }],
-        "statDescriptionScope":"gem_stat_descriptions",
-        "stats":[]
-      }],
-    "support":true
-  },
-  "SupportVolatilePowerPlayer":{
-    "addSkillTypes":[],
-    "color":3,
-    "description":"Supports Skills which you use yourself. On using Supported Skills while they are Empowered, you gain Volatility.",
-    "excludeSkillTypes":[96,37,122,139,37],
-    "gemFamily":["VolatilePower"],
-    "ignoreMinionTypes":true,
-    "levels":[{
-        "levelRequirement":0
-      }],
-    "name":"Volatile Power",
-    "requireSkillTypes":[],
-    "statSets":[{
-        "baseFlags":[],
-        "constantStats":[["gain_X_volatility_on_empowered_skill_use",5]],
-        "incrementalEffectiveness":0.054999999701977,
-        "label":"Volatile Power",
         "levels":[{
             "actorLevel":1
           }],
@@ -6551,6 +6413,7 @@
     "castTime":1,
     "description":"Deal Physical Area Damage based off of the maximum Life of the Pinned target slain.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "critChance":13,
         "levelRequirement":0
@@ -6583,6 +6446,7 @@
     "castTime":1,
     "description":"Create Ignited Ground Igniting Enemies based on a percentage of your Maximum Mana.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -6804,6 +6668,7 @@
     "castTime":0,
     "description":"Triggered when supported skill is boosted by an Elemental Ground Surface to deal damage of the matching Element.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/SorceressArcticArmour.dds",
     "levels":[{
         "cooldown":1,
         "levelRequirement":0,
@@ -7825,6 +7690,7 @@
     "castTime":1,
     "description":"Creates spreading Chilled Ground around Ice Crystals created by Supported Skills.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -8013,6 +7879,7 @@
     "castTime":1,
     "description":"Explodes and deals Chaos Damage when an Enemy enters the area, applying the supported Curse on Hit.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "critChance":7,
         "levelRequirement":0
@@ -8367,6 +8234,7 @@
     "castTime":0,
     "description":"Sends a Chaining Lightning Projectile from the Shocked enemy towards a nearby Drenched enemy, dealing Spell damage.",
     "hidden":true,
+    "icon":"Art/2DItems/Gems/New/NewSupport/DeadlyCurrentSupportGem.dds",
     "levels":[{
         "cooldown":0.2,
         "critChance":10,
@@ -8801,6 +8669,7 @@
     "castTime":1,
     "description":"Triggered when supported skill Consumes Ignite, Shock, or Freeze, to deal damage of Types matching the Consumed Ailments.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/SorceressArcticArmour.dds",
     "levels":[{
         "cooldown":1,
         "critChance":10,
@@ -8951,6 +8820,7 @@
     "castTime":0,
     "description":"Spawn a verdant flower that grows and explodes.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/ExplosiveGrowth.dds",
     "levels":[{
         "critChance":10,
         "levelRequirement":0
@@ -9301,6 +9171,7 @@
     "castTime":0,
     "description":"Spawn a verdant flower that grows and explodes.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/ExplosiveGrowth.dds",
     "levels":[{
         "critChance":10,
         "levelRequirement":0
@@ -9650,6 +9521,7 @@
   "TriggeredFieryDeathPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/burntground.dds",
     "levels":[{
         "critChance":8,
         "levelRequirement":0,
@@ -9706,6 +9578,7 @@
   "TriggeredLivingLightningPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/LivingLightningSkill.dds",
     "levels":[{
         "cooldown":0.2,
         "levelRequirement":0,
@@ -10017,6 +9890,7 @@
   "TriggeredLivingLightningPlayerTwo":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/LivingLightningSkill.dds",
     "levels":[{
         "cooldown":0.2,
         "levelRequirement":0,
@@ -10140,6 +10014,7 @@
   "TriggeredManaFlarePlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "cooldown":1,
         "critChance":7,
@@ -10215,6 +10090,7 @@
     "castTime":0,
     "description":"Pull enemies in and pulse Lightning damage, Hindering enemies Hit. Each pulse increases in damage, with the final pulse dealing additional damage.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "critChance":9,
         "levelRequirement":0
@@ -10858,6 +10734,7 @@
     "castTime":0,
     "description":"Attaches a Static Shock to a target that pulses Lightning damage to the attached target and nearby enemies. Targets can have a maximum of one Static Shock attached to them.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Support/GroundingShocksSupport.dds",
     "levels":[{
         "cooldown":0.4,
         "critChance":9,
@@ -11292,6 +11169,7 @@
     "castTime":1,
     "description":"Deals Fire damage in an area around the exploding Corpse based on its maximum Life.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/Rolldodge.dds",
     "levels":[{
         "levelRequirement":0
       }],

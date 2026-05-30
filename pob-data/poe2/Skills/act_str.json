@@ -4,6 +4,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Perform a Warcry using Glory gained by Igniting enemies to turn you into an embodiment of Kaom. While embodying Kaom, you Trigger Volcanic Steps while travelling, Melee Strikes and Slams are Ancestrally Boosted, and your Melee Strikes Trigger Volcanic Eruption.",
+    "icon":"Art/2DArt/SkillIcons/WarriorAncestralCry.dds",
     "levels":[{
         "cost":{
           "Mana":10
@@ -334,6 +335,7 @@
     "castTime":1,
     "description":"Fire molten Projectiles from the struck enemy, which will land nearby dealing Attack damage in an area.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/VolcanicEruptionSkillIcon.dds",
     "levels":[{
         "baseMultiplier":0.8,
         "cooldown":0.4,
@@ -649,6 +651,7 @@
     "castTime":1,
     "description":"Slam the ground around you, dealing damage to nearby enemies.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/WarriorAncestralCry.dds",
     "levels":[{
         "baseMultiplier":0.6,
         "levelRequirement":0
@@ -884,6 +887,7 @@
     "castTime":0.5,
     "color":1,
     "description":"Consume 3 Endurance Charges to Raise a Totem that uses socketed Mace Skills. Cannot use Channelling Skills or Skills with Cooldowns.",
+    "icon":"Art/2DArt/SkillIcons/BruteAncestralWarriorTotem.dds",
     "levels":[{
         "cost":{
           "Mana":13
@@ -1340,6 +1344,7 @@
     "castTime":1,
     "color":1,
     "description":"Strike with a forceful blow, knocking enemies back and weakening their Armour.",
+    "icon":"Art/2DArt/SkillIcons/BruteHeavyStrike.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.5,
@@ -1814,6 +1819,7 @@
     "castTime":0.6,
     "color":1,
     "description":"Load your Crossbow with a clip of bolts that can be fired rapidly and Break enemy Armour. Using this Skill again reloads the clip.",
+    "icon":"Art/2DArt/SkillIcons/RapidShotPhysical.dds",
     "levels":[{
         "cost":{
           "Mana":8
@@ -2200,6 +2206,7 @@
     "castTime":1,
     "description":"Rapidly fire bolts that Break enemy Armour. Can fire a limited number of bolts before needing to reload.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RapidShotPhysical.dds",
     "levels":[{
         "attackSpeedMultiplier":325,
         "baseMultiplier":0.25,
@@ -2556,6 +2563,7 @@
     "castTime":1,
     "color":1,
     "description":"Deploy a Ballista Totem that rains down a salvo of Pinning, Maiming bolts.",
+    "icon":"Art/2DArt/SkillIcons/MercRipwireBallista.dds",
     "levels":[{
         "cost":{
           "Mana":14
@@ -3046,6 +3054,7 @@
   "ArtilleryBallistaProjectilePlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/MercRipwireBallista.dds",
     "levels":[{
         "attackSpeedMultiplier":-75,
         "baseMultiplier":0.15,
@@ -3326,6 +3335,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, causes you to deal more Hit damage to Rare and Unique enemies the longer you've been fighting them, and gain Culling Strike against them once you've been fighting them for long enough.",
+    "icon":"Art/2DArt/SkillIcons/AttritionSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -3673,51 +3683,49 @@
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
-            }],
-          "skill_attrition_hit_damage_+%_final_vs_rare_or_unique_enemy_per_second_ever_in_presence_up_to_max":[[{
-                "flags":0,
-                "keywordFlags":262144,
-                "name":"Damage",
-                "type":"MORE",
-                "1":{
-                  "effectType":"Buff",
-                  "type":"GlobalEffect"
-                },
-                "2":{
-                  "actor":"enemy",
-                  "div":2,
-                  "limitTotal":true,
-                  "limitVar":"AttritionMaxDamage",
-                  "type":"Multiplier",
-                  "var":"EnemyPresenceSeconds"
-                },
-                "3":{
-                  "actor":"enemy",
-                  "type":"ActorCondition",
-                  "var":"RareOrUnique"
-                }
-              }],{
-              "value":10,
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CanCull",
+              "type":"FLAG",
               "1":{
-                "flags":0,
-                "keywordFlags":0,
-                "name":"CullPercent",
-                "type":"MAX",
-                "1":{
-                  "effectType":"Buff",
-                  "type":"GlobalEffect"
-                },
-                "2":{
-                  "actor":"enemy",
-                  "thresholdVar":"AttritionCullSeconds",
-                  "type":"MultiplierThreshold",
-                  "var":"EnemyPresenceSeconds"
-                },
-                "3":{
-                  "actor":"enemy",
-                  "type":"ActorCondition",
-                  "var":"RareOrUnique"
-                }
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "actor":"enemy",
+                "thresholdActor":"player",
+                "thresholdVar":"AttritionCullSeconds",
+                "type":"MultiplierThreshold",
+                "var":"EnemyPresenceSeconds"
+              },
+              "3":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"RareOrUnique"
+              }
+            }],
+          "skill_attrition_hit_damage_+%_final_vs_rare_or_unique_enemy_per_second_ever_in_presence_up_to_max":[{
+              "flags":0,
+              "keywordFlags":262144,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "actor":"enemy",
+                "div":2,
+                "limitTotal":true,
+                "limitVar":"AttritionMaxDamage",
+                "type":"Multiplier",
+                "var":"EnemyPresenceSeconds"
+              },
+              "3":{
+                "actor":"enemy",
+                "type":"ActorCondition",
+                "var":"RareOrUnique"
               }
             }],
           "skill_attrition_presence_max_seconds":[{
@@ -3739,6 +3747,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, taking Hit damage from enemies to your Energy Shield causes you to gain Armour for a short duration. Armour gained from multiple Hits can stack. The total Armour gained from this Skill cannot exceed the Item Armour on your Equipped Armour Items.",
+    "icon":"Art/2DArt/SkillIcons/DruidBarkSkin.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -4045,6 +4054,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Bear and repeatedly pound the ground, creating Molten Fissures that travel randomly in a wide arc in front of you.",
+    "icon":"Art/2DArt/SkillIcons/DruidFuryoftheMountain.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0.55,
@@ -4444,6 +4454,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Bear and charge forward, Slamming the ground as you run. Channelling ends after a short amount of time but can be prolonged by spending Rage.",
+    "icon":"Art/2DArt/SkillIcons/DruidBearRampage.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0.75,
@@ -4882,6 +4893,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, strengthens your Rage, but causes you to lose Life while not losing Rage.",
+    "icon":"Art/2DArt/SkillIcons/BeserkSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -5232,6 +5244,7 @@
     "castTime":0.7,
     "fromItem":true,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/ShankgonneSkill.dds",
     "levels":[{
         "cooldown":4.5,
         "critChance":15,
@@ -5669,6 +5682,7 @@
     "color":1,
     "description":"Replaces your dodge roll with an explosive-assisted leap, firing off a round from your prosthetic cannon leg that Blinds and Ignites enemies in the area you escape from. The explosion will cause any Grenades in its area of effect to also explode.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/ShankgonneSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -5856,6 +5870,7 @@
     "castTime":1,
     "color":1,
     "description":"Attack enemies with a melee Strike. The Strike will cause a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area.",
+    "icon":"Art/2DArt/SkillIcons/BruteBoneshatter.dds",
     "levels":[{
         "attackSpeedMultiplier":-40,
         "cost":{
@@ -6393,6 +6408,7 @@
     "castTime":0,
     "color":1,
     "description":"While active, a portion of the Physical Attack damage you deal is stored. Casting a Spell uses the stored damage to create a patch of Thorny Ground that deals Spell damage to moving enemies.",
+    "icon":"Art/2DArt/SkillIcons/DruidBriarpatch.dds",
     "levels":[{
         "critChance":10,
         "levelRequirement":0,
@@ -6753,6 +6769,7 @@
     "castTime":1,
     "color":1,
     "description":"Fire a bouncing Grenade that explodes when its fuse expires, throwing out a ring of mini Grenades that explode when they come to a stop.",
+    "icon":"Art/2DArt/SkillIcons/MercClusterGrenade.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":1.2,
@@ -7366,6 +7383,7 @@
     "color":1,
     "description":"Your weapon passively accumulates anguish from the tormented souls within. When fully charged, use this skill to compose the Requiem, transforming your Crossbow shot into a torrent of anguish for a short, fixed amount of time. Does not use Ammunition.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/RequiemChargeSkillCrossbow.dds",
     "levels":[{
         "cost":{
           "Mana":22
@@ -7673,6 +7691,7 @@
     "description":"Unleashes a torrent of anguish that bombard the target area, dealing damage in an area on impact. Does not use Ammunition and can be fired freely until the Requiem ends.",
     "fromItem":true,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RequiemShotSkillCrossbow.dds",
     "levels":[{
         "attackSpeedMultiplier":300,
         "baseMultiplier":3,
@@ -7950,6 +7969,7 @@
   "DefianceBannerPlayer":{
     "castTime":0.5,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DefianceBannerSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -8344,6 +8364,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Armour, Evasion and movement speed.",
+    "icon":"Art/2DArt/SkillIcons/DefianceBannerSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -8569,6 +8590,7 @@
   "DreadBannerPlayer":{
     "castTime":0.5,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DreadBannerSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -9006,6 +9028,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Elemental Ailment Threshold, Maximum Elemental Resistances and Flask charges.",
+    "icon":"Art/2DArt/SkillIcons/DreadBannerSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -9233,6 +9256,7 @@
     "castTime":1,
     "color":1,
     "description":"Smash the ground, dealing damage in an area and leaving behind Jagged Ground that slows enemies. The Jagged Ground erupts in a powerful Aftershock after a duration. Cannot create Jagged Ground on top of an existing patch, or if you already have the maximum number of active patches.",
+    "icon":"Art/2DArt/SkillIcons/BruteEarthquake.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":0.4,
@@ -10016,6 +10040,7 @@
     "castTime":1,
     "color":1,
     "description":"Slam the ground, sending out a fissure that deals area damage to enemies it passes under and thrusts a spike from the ground when it ends. Warcries performed near the spike will cause it to shatter, damaging surrounding enemies.",
+    "icon":"Art/2DArt/SkillIcons/BruteEarthshatter.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.45,
@@ -10545,6 +10570,7 @@
     "castTime":0,
     "color":1,
     "description":"Instantly reload all your Crossbow Ammunition clips and Empower each clip's Ammunition to deal more damage for a duration.",
+    "icon":"Art/2DArt/SkillIcons/MercEmergencyReload.dds",
     "levels":[{
         "cooldown":45,
         "cost":{
@@ -11017,6 +11043,7 @@
     "castTime":0.9,
     "color":1,
     "description":"Conjures a rootbound fissure that crawls forward, damaging enemies in its path. While the fissure persists, vines lash out from it and attach to nearby enemies, damaging and Slowing them.",
+    "icon":"Art/2DArt/SkillIcons/DruidEntangle.dds",
     "levels":[{
         "cost":{
           "Mana":9
@@ -11873,6 +11900,7 @@
     "castTime":0,
     "color":1,
     "description":"While active, you constantly regenerate Rage.",
+    "icon":"Art/2DArt/SkillIcons/CeaselessRageSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":100
@@ -12204,6 +12232,7 @@
     "castTime":1,
     "color":1,
     "description":"Fire a bouncing Grenade that unleashes a devastating fiery blast when its fuse expires.",
+    "icon":"Art/2DArt/SkillIcons/ExplosiveGrenade.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":2.15,
@@ -12766,6 +12795,7 @@
     "castTime":1.5,
     "color":1,
     "description":"Load your Crossbow with flaming bolts that explode on impact. The explosion will cause any Grenades in its area of effect to also explode.",
+    "icon":"Art/2DArt/SkillIcons/PowerShotIncendiary.dds",
     "levels":[{
         "cost":{
           "Mana":9
@@ -13072,6 +13102,7 @@
     "castTime":1,
     "description":"Fire a flaming bolt that explodes on impact. The explosion will cause any Grenades in its area of effect to also explode.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/PowerShotIncendiary.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":1.3,
@@ -13522,6 +13553,7 @@
     "castTime":1.1,
     "color":1,
     "description":"Shapeshift into a Bear and roar in defiance, immediately gaining Rage if there are enemies nearby and Empowering subsequent Attacks to Break Armour. Alternatively, socketing a human-form Warcry into this Skill triggers that Warcry instead, and augments its damage and area. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
+    "icon":"Art/2DArt/SkillIcons/DruidBearWarcry.dds",
     "levels":[{
         "cooldown":8,
         "cost":{
@@ -13995,6 +14027,7 @@
     "castTime":1,
     "color":1,
     "description":"Fire a bouncing Grenade that unleashes a Blinding, Stunning explosion when its fuse expires.",
+    "icon":"Art/2DArt/SkillIcons/FlashbangGrenade.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "cooldown":5,
@@ -14551,6 +14584,7 @@
     "castTime":1,
     "color":1,
     "description":"Hurl a fiery hammer that Slams into the ground and lodges there. While the hammer is lodged in the ground, reusing this Skill recalls the hammer and resets the Skill's cooldown. Alternatively, using a Warcry near the lodged hammer causes it to shatter, releasing a number of Molten Fissures in a spiral.",
+    "icon":"Art/2DArt/SkillIcons/WarriorForgeHammer.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":1.85,
@@ -15166,6 +15200,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Perform a Warcry that grants Guard and Triggers Shield Wave when subsequent Shield Attacks deal damage. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
+    "icon":"Art/2DArt/SkillIcons/WarriorShieldingCry.dds",
     "levels":[{
         "cooldown":8,
         "cost":{
@@ -15640,6 +15675,7 @@
   "FortifyingCryShockwavePlayer":{
     "castTime":0,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/WarriorShieldingCry.dds",
     "levels":[{
         "baseMultiplier":0.5,
         "critChance":5,
@@ -16116,6 +16152,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Load your Crossbow with Piercing bolts that fragment in flight. Bolts that hit a Frozen enemy Consume the Freeze and cause an explosion of shrapnel. Bolts that hit an Ice Crystal cause it to explode. These fragments can Merge.",
+    "icon":"Art/2DArt/SkillIcons/BurstShotPhysical.dds",
     "levels":[{
         "cost":{
           "Mana":7
@@ -16422,6 +16459,7 @@
     "castTime":1,
     "description":"Fire Piercing bolts that fragment in flight. Bolts that hit a Frozen enemy Consume the Freeze and cause an explosion of ice shards. These fragments can Merge.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BurstShotPhysical.dds",
     "levels":[{
         "baseMultiplier":0.2,
         "levelRequirement":0
@@ -16963,6 +17001,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Bear and Slam the ground with great force, causing a pair of shockwaves. Can spend Rage to create larger shockwaves that leave behind Jagged Ground.",
+    "icon":"Art/2DArt/SkillIcons/DruidBearSlam.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0.7,
@@ -17491,6 +17530,7 @@
     "castTime":0.6,
     "color":1,
     "description":"Load your Crossbow with charged bolts that fragment in flight, releasing Chaining Lightning beams when they Hit enemies. These fragments can Merge.",
+    "icon":"Art/2DArt/SkillIcons/BurstShotStormblast.dds",
     "levels":[{
         "cost":{
           "Mana":6
@@ -17797,6 +17837,7 @@
     "castTime":1,
     "description":"Rapidly fire charged bolts that fragment in flight, releasing Chaining Lightning beams when they Hit enemies. Can fire a limited number of bursts before needing to reload. These fragments can Merge.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BurstShotStormblast.dds",
     "levels":[{
         "baseMultiplier":0.15,
         "levelRequirement":0
@@ -18166,6 +18207,7 @@
     "color":1,
     "description":"Grants your weapon Surges. Non-Melee Projectile Attacks with that weapon Consume Surges to cause the Projectiles fired to explode at the end of their flight.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/AmazonElementalInfusionSkillIcon.dds",
     "levels":[{
         "baseMultiplier":0.5,
         "levelRequirement":0
@@ -18529,6 +18571,7 @@
     "castTime":1,
     "color":1,
     "description":"Load your Crossbow with icy bolts that create two walls of Ice Crystals at the end of their flight.",
+    "icon":"Art/2DArt/SkillIcons/PowerShotPermafrost.dds",
     "levels":[{
         "cost":{
           "Mana":7
@@ -18836,6 +18879,7 @@
     "castTime":0.8,
     "description":"Fire an icy bolt that creates two walls of Ice Crystals at the end of its flight.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/PowerShotPermafrost.dds",
     "levels":[{
         "baseMultiplier":0.4,
         "levelRequirement":0
@@ -19288,6 +19332,7 @@
     "castTime":1,
     "color":1,
     "description":"Passively generate bolts of ice at a frequency equal to reload time, up to a cap. Activate to Load the accumulated bolts into your Crossbow. All loaded bolts are fired at once, causing them to rain down over the target area.",
+    "icon":"Art/2DArt/SkillIcons/SiegeCascadePermafrost.dds",
     "levels":[{
         "cost":{
           "Mana":28
@@ -19674,6 +19719,7 @@
     "castTime":1,
     "description":"Fire all loaded bolts into the sky, causing them to rain down over the target area, starting at the centre and spreading outward.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/SiegeCascadePermafrost.dds",
     "levels":[{
         "attackSpeedMultiplier":-45,
         "baseMultiplier":0.63,
@@ -20195,6 +20241,7 @@
     "castTime":1,
     "color":1,
     "description":"Build Glory by Heavy Stunning enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon.",
+    "icon":"Art/2DArt/SkillIcons/BruteHammerOfTheGods.dds",
     "levels":[{
         "attackSpeedMultiplier":-50,
         "baseMultiplier":5.8,
@@ -20592,6 +20639,7 @@
     "castTime":0,
     "color":1,
     "description":"While active, enemies you sufficiently Overkill with non-Herald Attacks will cause an explosion that Ignites nearby enemies based on the Overkill damage dealt.",
+    "icon":"Art/2DArt/SkillIcons/HeraldOfAshSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -21020,6 +21068,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, killing an enemy with Blood Loss will cause a bloody explosion that deals Physical Attack damage to surrounding enemies based off the life of the exploded enemy, destroying their Corpse if the enemy was Normal or Magic. The explosion also has a chance to Aggravate Bleeding.",
+    "icon":"Art/2DArt/SkillIcons/HeraldOfBloodSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -21611,6 +21660,7 @@
     "castTime":1,
     "color":1,
     "description":"Load your Crossbow with Piercing bolts that apply Riven Armour to enemies with Fully Broken Armour, causing any Hits against those enemies to deal extra damage.",
+    "icon":"Art/2DArt/SkillIcons/PowerShotPhysical.dds",
     "levels":[{
         "cost":{
           "Mana":6
@@ -21918,6 +21968,7 @@
     "castTime":0.8,
     "description":"Fire a powerful Piercing bolt that applies Riven Armour to enemies with Fully Broken Armour, causing any Hits against those enemies to deal extra damage.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/PowerShotPhysical.dds",
     "levels":[{
         "baseMultiplier":1.6,
         "levelRequirement":0
@@ -22287,6 +22338,7 @@
     "castTime":1,
     "color":1,
     "description":"Activate to summon a cackle of Hyena Companions. The cackle is treated as a single Companion for effects that count or limit Companions, regardless of the number of Hyenas in the cackle. Hyenas whoop when they first appear, Hindering nearby enemies, and have a chance to Maim enemies they Hit.",
+    "icon":"Art/2DArt/SkillIcons/HandoftheClanSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -22564,6 +22616,7 @@
     "castTime":0.6,
     "color":1,
     "description":"Load your Crossbow with a clip of icy bolts that rapidly fire at the ground, leaving a shard of ice at the impact location that arms after a duration. After arming, the ice shards explode when enemies step on them, dealing more damage the longer they have been armed, up to a maximum. Using this Skill again reloads the clip.",
+    "icon":"Art/2DArt/SkillIcons/RapidShotPermafrost.dds",
     "levels":[{
         "cost":{
           "Mana":12
@@ -22870,6 +22923,7 @@
     "castTime":1,
     "description":"Rapidly fire icy bolts at the ground, leaving a shard of ice at the impact location that arms after a duration. After arming, the ice shards explode when enemies step on them, dealing more damage the longer they have been armed, up to a maximum. Can fire a limited number of bolts before needing to reload.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RapidShotPermafrost.dds",
     "levels":[{
         "attackSpeedMultiplier":450,
         "baseMultiplier":0.08,
@@ -23369,6 +23423,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Load your Crossbow with flaming bolts that fragment in flight, damaging and Igniting enemies on hit and in a small cone behind their final target. These fragments can Merge.",
+    "icon":"Art/2DArt/SkillIcons/BurstShotIncendiary.dds",
     "levels":[{
         "cost":{
           "Mana":6
@@ -23675,6 +23730,7 @@
     "castTime":1,
     "description":"Fire flaming bolts that fragment in flight, damaging and Igniting enemies on hit, and in a small cone behind their final target. These fragments can Merge.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BurstShotIncendiary.dds",
     "levels":[{
         "baseMultiplier":0.1,
         "levelRequirement":0
@@ -23911,6 +23967,7 @@
     "castTime":1,
     "description":"The enemy's Corpse violently explodes, dealing Fire damage in an area around it.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/FireBurst.dds",
     "levels":[{
         "critChance":7,
         "levelRequirement":0
@@ -24265,6 +24322,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Perform a Warcry, Empowering subsequent Melee Attacks if there are enemies nearby. Enemies in the warcry's area are destabilised and will Combust on death. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
+    "icon":"Art/2DArt/SkillIcons/BruteInfernalCry.dds",
     "levels":[{
         "cooldown":8,
         "cost":{
@@ -24745,6 +24803,7 @@
   "IronWardNovaPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/WardingSteel.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -24934,6 +24993,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, stores a percentage of the Physical damage that is prevented by your Armour or other sources of damage reduction. Using this Skill releases the stored damage as a nova of spikes.",
+    "icon":"Art/2DArt/SkillIcons/WardingSteel.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -25278,6 +25338,7 @@
     "castTime":1.4,
     "color":1,
     "description":"Jump into the air, damaging and Knocking Back enemies with your mace where you land. Enemies you would land on are\npushed out of the way.",
+    "icon":"Art/2DArt/SkillIcons/BruteLeapSlam.dds",
     "levels":[{
         "baseMultiplier":1.1,
         "cost":{
@@ -25728,6 +25789,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Werewolf and swipe with your claws, projecting an arc of moonlight and ice forward in a crescent.",
+    "icon":"Art/2DArt/SkillIcons/DruidLunarAssault.dds",
     "levels":[{
         "attackSpeedMultiplier":10,
         "baseMultiplier":0.4,
@@ -26244,6 +26306,7 @@
     "castTime":0,
     "color":1,
     "description":"While active, increases your Block Chance passively and imbues your Shield with lava over time. When fully imbued, your next Block with your Shield raised will expend the lava to create an explosion, granting you an Endurance Charge.",
+    "icon":"Art/2DArt/SkillIcons/BruteMagmaBarrier.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -26481,6 +26544,7 @@
   "MagmaSprayPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BruteMagmaBarrier.dds",
     "levels":[{
         "baseMultiplier":1.7,
         "critChance":5,
@@ -27037,6 +27101,7 @@
     "color":1,
     "description":"While active, gains Energy when you Hit enemies with Melee Attacks and triggers socketed Lightning spells on reaching maximum Energy.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/CastLightningSpellOnHitSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -27308,6 +27373,7 @@
     "color":1,
     "description":"While active, gains Energy when you Block and triggers socketed Spells on reaching maximum Energy.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/CastOnMeleeBlockSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -27578,6 +27644,7 @@
     "color":1,
     "description":"While active, gains Energy when you kill enemies with Melee Attacks and triggers socketed spells on reaching maximum Energy.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/CastOnMeleeKillSkill.dds",
     "levels":[null,null,null,null,null,null,null,{
         "levelRequirement":26,
         "spiritReservationFlat":60
@@ -27612,6 +27679,7 @@
     "color":1,
     "description":"While active, gains Energy when you Stun enemies with Melee Attacks and triggers socketed spells on reaching maximum Energy.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/CastOnMeleeStunSkill.dds",
     "levels":[null,null,null,null,null,null,null,{
         "levelRequirement":26,
         "spiritReservationFlat":60
@@ -27645,6 +27713,7 @@
     "castTime":0,
     "color":1,
     "description":"While active, gains Energy when you spend Mana. Using the Invocation once sufficient Energy is gathered will consume the Energy to create visages which attack once with a socketed Shapeshifting Attack, creating multiple visages if it has enough Energy.",
+    "icon":"Art/2DArt/SkillIcons/DruidFeralInvocation.dds",
     "levels":[{
         "cooldown":0.2,
         "levelRequirement":0,
@@ -28039,6 +28108,7 @@
     "castTime":1,
     "color":1,
     "description":"Raise a cannon Ballista Totem which uses socketed Grenade Skills, with significantly improved Cooldown Recovery Rate.",
+    "icon":"Art/2DArt/SkillIcons/GrenadeBallistaSkillIcon.dds",
     "levels":[{
         "cost":{
           "Mana":18
@@ -28490,6 +28560,7 @@
     "castTime":1,
     "color":1,
     "description":"Gouge molten rock from the ground and fling it at the target. The Projectile explodes on collision, damaging enemies and scattering shrapnel in a cone behind it.",
+    "icon":"Art/2DArt/SkillIcons/BruteMoltenBlast.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":0.65,
@@ -29020,6 +29091,7 @@
     "color":1,
     "description":"Shapeshift into a burning monstrosity and leap through the air to crash down upon the earth, Slamming twice and creating Molten Fissures. Consumes Rage to create additional Molten Fissures.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/VesselofWrath.dds",
     "levels":[{
         "baseMultiplier":1.2,
         "cost":{
@@ -29515,6 +29587,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Wyvern and spit Oil at enemies, creating Oil Ground where the Projectiles land. Consumes Power Charges if possible to instead Channel a sustained barrage of electrified Oil that does not create Oil Ground. Projectiles are fired in sequence, allowing multiple Projectiles to Hit the same target.",
+    "icon":"Art/2DArt/SkillIcons/DruidElectricSpittle.dds",
     "levels":[{
         "attackSpeedMultiplier":200,
         "baseMultiplier":0.8,
@@ -30141,6 +30214,7 @@
     "castTime":1,
     "color":1,
     "description":"Fire a bouncing Grenade that bursts in a spray of Oil when the fuse expires or when it impacts an Enemy, dealing minimal damage but covering the ground and nearby enemies in Oil. Oil created this way can be Ignited by Detonator Skills or Ignited Ground.",
+    "icon":"Art/2DArt/SkillIcons/OilGrenade.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "cooldown":4,
@@ -30876,6 +30950,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, emits an Aura that makes enemies in your Presence easier to Stun and inflict Elemental Ailments upon.",
+    "icon":"Art/2DArt/SkillIcons/OverwhelmingPressureSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -31222,6 +31297,7 @@
     "castTime":1,
     "color":1,
     "description":"Channel to charge up your weapon with Fire. Releasing with Perfect Timing will create a damaging wave of intense Fire.",
+    "icon":"Art/2DArt/SkillIcons/BrutePerfectStrike.dds",
     "levels":[{
         "attackSpeedMultiplier":-70,
         "baseMultiplier":1.1,
@@ -31753,6 +31829,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Load your Crossbow with icy bolts that fragment in flight, damaging enemies on hit and in a small cone behind their final target. The icy coating on the bolts makes them extremely potent at Freezing enemies. These fragments can Merge.",
+    "icon":"Art/2DArt/SkillIcons/BurstShotPermafrost.dds",
     "levels":[{
         "cost":{
           "Mana":6
@@ -32059,6 +32136,7 @@
     "castTime":1,
     "description":"Fire icy bolts that  fragment in flight, damaging enemies on hit and in a small cone behind their final target. The icy coating on the bolts makes them extremely potent at Freezing enemies. These fragments can Merge.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BurstShotPermafrost.dds",
     "levels":[{
         "baseMultiplier":0.17,
         "levelRequirement":0
@@ -32456,6 +32534,7 @@
     "castTime":1,
     "color":1,
     "description":"Load your Crossbow with unstable bolts that require a lengthy charging period to fire but deal devastating damage, Pierce through enemies, and explode upon hitting terrain. Additional Projectiles are fired in a spread, unlike other Crossbow Skills.",
+    "icon":"Art/2DArt/SkillIcons/PowerShotStormblast.dds",
     "levels":[{
         "cost":{
           "Mana":18
@@ -32762,6 +32841,7 @@
     "castTime":1,
     "description":"Channel to charge an unstable bolt. The bolt deals devastating damage and explodes on hitting terrain, but cannot be fired at all unless fully charged. Additional Projectiles are fired in a spread, unlike other Crossbow Skills.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/PowerShotStormblast.dds",
     "levels":[{
         "baseMultiplier":8.3,
         "levelRequirement":0
@@ -33132,6 +33212,7 @@
     "castTime":1.2,
     "color":1,
     "description":"Load your Crossbow with a large clip of heated bolts. Heat builds up on your Crossbow as you fire them, and reaching maximum Heat will prevent you from firing or reloading these bolts for a short time. However, other Skills can Consume Heat for extra benefits. Using this Skill again reloads the clip.",
+    "icon":"Art/2DArt/SkillIcons/RapidShotIncendiary.dds",
     "levels":[{
         "cost":{
           "Mana":27
@@ -33438,6 +33519,7 @@
     "castTime":1,
     "description":"Fire a stream of heated bolts. Heat builds up on your Crossbow as you fire, and reaching maximum heat will prevent you from firing these bolts for a short time. However, other Skills can Consume Heat for extra benefits.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RapidShotIncendiary.dds",
     "levels":[{
         "attackSpeedMultiplier":450,
         "baseMultiplier":0.26,
@@ -33793,6 +33875,7 @@
     "castTime":1,
     "color":1,
     "description":"Repeatedly hammer your Shield with your weapon causing damaging shockwaves in an area around you. Enemies hit by the shockwave lose Armour for a duration. While Channelling Resonating Shield, your Shield is raised and you will Block all incoming Blockable hits.",
+    "icon":"Art/2DArt/SkillIcons/BruteResonatingShield.dds",
     "levels":[{
         "attackTime":800,
         "baseMultiplier":0.3,
@@ -34469,6 +34552,7 @@
     "castTime":0.7,
     "color":1,
     "description":"Shapeshift into a Wyvern and lob a ball of magma that deals area damage as it hits the ground. The skill Chains, bouncing forward to deal damage multiple times. Impacts on Molten Fissures or Volcanos will activate them as though they were Slammed.",
+    "icon":"Art/2DArt/SkillIcons/DruidRollingMagma.dds",
     "levels":[{
         "attackSpeedMultiplier":-15,
         "baseMultiplier":0.7,
@@ -34986,6 +35070,7 @@
     "castTime":1,
     "color":1,
     "description":"Slam the ground to Stun enemies and knock them away, then continue forward and perform a devastating second Slam.",
+    "icon":"Art/2DArt/SkillIcons/BruteDoubleSlam.dds",
     "levels":[{
         "cost":{
           "Mana":14
@@ -35562,6 +35647,8 @@
     "castTime":1,
     "color":1,
     "description":"While active, uses fragments of armour scavenged from enemies to bolster your own. Fully Breaking an enemy's Armour grants you stacks of Scavenged Plating for a duration based on the enemy's rarity, and you gain Armour and Thorns per stack. Normal enemies grant 1 stack, Magic enemies grant 2 stacks, Rare enemies grant 5 stacks and Unique enemies grant 10 stacks.",
+    "grantsThornsDamage":true,
+    "icon":"Art/2DArt/SkillIcons/BruteScavengedPlating.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -35931,6 +36018,38 @@
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
+            }],
+          "scavenged_plating_thorns_maximum_physical_damage":[{
+              "flags":32,
+              "keywordFlags":0,
+              "name":"PhysicalMax",
+              "type":"BASE",
+              "1":{
+                "effectName":"Scavenged Plating",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "limitVar":"ScavengedPlatingStacksLimit",
+                "type":"Multiplier",
+                "var":"ScavengedPlatingStacks"
+              }
+            }],
+          "scavenged_plating_thorns_minimum_physical_damage":[{
+              "flags":32,
+              "keywordFlags":0,
+              "name":"PhysicalMin",
+              "type":"BASE",
+              "1":{
+                "effectName":"Scavenged Plating",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "limitVar":"ScavengedPlatingStacksLimit",
+                "type":"Multiplier",
+                "var":"ScavengedPlatingStacks"
+              }
             }]
         },
         "stats":["scavenged_plating_thorns_minimum_physical_damage","scavenged_plating_thorns_maximum_physical_damage","base_deal_no_damage"]
@@ -35941,6 +36060,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Perform a damaging Warcry, Knocking Back nearby enemies and Heavy Stunning enemies that are Primed for Stun. If an enemy is Heavy Stunned or a currently Heavy Stunned enemy is Hit, this Skill Empowers subsequent Slams to perform an additional Aftershock. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
+    "icon":"Art/2DArt/SkillIcons/BruteSeismicCry.dds",
     "levels":[{
         "cooldown":8,
         "cost":{
@@ -36458,6 +36578,7 @@
     "castTime":0,
     "color":1,
     "description":"While active, Consuming Freeze, Shock, Ignite, or Fully Broken Armour on an enemy reloads your Crossbow, restores one cooldown use for your Grenades and grants a Buff causing Crossbow Attacks to not consume bolts for a duration. This can only occur once every few seconds.",
+    "icon":"Art/2DArt/SkillIcons/MercShardDespoiler.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -36811,6 +36932,7 @@
     "castTime":1,
     "color":1,
     "description":"Channel to charge in the target direction. You will crash into enemies on your path, stopping your charge and dealing damage to enemies in an area, and extra damage to the enemies you collided with. While charging, your Shield is raised and you will Block all incoming Blockable hits.",
+    "icon":"Art/2DArt/SkillIcons/BruteShieldCharge.dds",
     "levels":[{
         "attackTime":600,
         "baseMultiplier":0.3,
@@ -37968,6 +38090,7 @@
     "castTime":1,
     "color":1,
     "description":"Ram your Shield into the ground, throwing up a wall of earth. Enemies can attack your wall segments, and your Slams, Warcries, and Shield Charge will instantly shatter them all. The segments explode when shattered, damaging enemies in front of and around them.",
+    "icon":"Art/2DArt/SkillIcons/BruteShieldWall.dds",
     "levels":[{
         "attackTime":1250,
         "baseMultiplier":0.65,
@@ -38684,6 +38807,7 @@
     "castTime":1,
     "color":1,
     "description":"Fire a bouncing Grenade that discharges an Electrocuting Lightning blast when its fuse expires, causing all Lightning Hits against enemies to contribute to Electrocution buildup for a duration.",
+    "icon":"Art/2DArt/SkillIcons/ShockGrenade.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":0.8,
@@ -39284,6 +39408,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Load your Crossbow with a clip of charged bolts which release damaging pulses upon Hitting an enemy affected by a Lightning Ailment. Using this Skill again reloads the clip.",
+    "icon":"Art/2DArt/SkillIcons/RapidShotStormblast.dds",
     "levels":[{
         "cost":{
           "Mana":14
@@ -39670,6 +39795,7 @@
     "castTime":1,
     "description":"Rapidly fire charged bolts which release damaging pulses upon Hitting an enemy affected by a Lightning Ailment. Can fire a limited number of bolts before needing to reload.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RapidShotStormblast.dds",
     "levels":[{
         "attackSpeedMultiplier":300,
         "baseMultiplier":0.1,
@@ -40079,6 +40205,7 @@
     "castTime":0.6,
     "color":1,
     "description":"Raise a Totem that Slams the ground around it, repeatedly damaging nearby enemies. Jagged Ground erupts when hit by this Slam, damaging enemies standing on it. The Totem cannot create Jagged Ground. This Skill can be used while Shapeshifted.",
+    "icon":"Art/2DArt/SkillIcons/BruteShockwaveTotem.dds",
     "levels":[{
         "cost":{
           "Mana":15
@@ -40539,6 +40666,7 @@
   "ShockwaveTotemQuakePlayer":{
     "castTime":0.6,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/BruteShockwaveTotem.dds",
     "levels":[{
         "attackSpeedMultiplier":-50,
         "baseMultiplier":0.25,
@@ -40961,6 +41089,7 @@
     "castTime":1,
     "color":1,
     "description":"Deploy a Ballista Totem that fires bolts skyward, to explode a short time after landing.",
+    "icon":"Art/2DArt/SkillIcons/MercArtilleryBallista.dds",
     "levels":[{
         "cost":{
           "Mana":18
@@ -41413,6 +41542,7 @@
   "SiegeBallistaProjectilePlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/MercArtilleryBallista.dds",
     "levels":[{
         "attackSpeedMultiplier":-75,
         "baseMultiplier":0.25,
@@ -41821,6 +41951,7 @@
     "castTime":1,
     "color":1,
     "description":"Load your Crossbow with enemy-seeking payloads which are fired into the air, dropping a bolt near every enemy in the target area. These bolts lodge in the ground and explode after a short delay.",
+    "icon":"Art/2DArt/SkillIcons/SiegeCascadePhysical.dds",
     "levels":[{
         "cost":{
           "Mana":12
@@ -42127,6 +42258,7 @@
     "castTime":1,
     "description":"Aim skyward and fires an enemy-seeking payload which drops a bolt near every enemy in the target area. These bolts lodge in the ground and explode after a short delay.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/SiegeCascadePhysical.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":0.4,
@@ -42565,6 +42697,7 @@
     "color":1,
     "description":"Create an area of Consecrated Ground around you.",
     "fromItem":true,
+    "icon":"Art/2DArt/BuffIcons/consecrated.dds",
     "levels":[{
         "cost":{
           "Mana":0
@@ -42957,6 +43090,7 @@
     "castTime":1,
     "color":1,
     "description":"Charges forward, cracking the earth and leaving a patch of Jagged Ground with every footstep. At the end of your charge, a massive leaping Slam damages enemies and causes all nearby patches of Jagged Ground to explode, damaging enemies standing on them. Once you begin your charge, the use speed of this Skill is affected by movement speed instead of Attack speed.",
+    "icon":"Art/2DArt/SkillIcons/BruteStampede.dds",
     "levels":[{
         "baseMultiplier":0.4,
         "cost":{
@@ -43577,6 +43711,7 @@
     "castTime":1,
     "color":1,
     "description":"Load your Crossbow with charged bolts that land around the target location and explode if hit by a Detonator Skill. Using this Skill again reloads the clip.",
+    "icon":"Art/2DArt/SkillIcons/SiegeCascadeStormblast.dds",
     "levels":[{
         "cost":{
           "Mana":9
@@ -43883,6 +44018,7 @@
     "castTime":1,
     "description":"Aims skyward and fires charged bolts that land around the target location, dealing damage and lodging in the ground for a duration. Detonator Skills will cause these bolts to explode. Can fire a limited number of bolts before needing to reload.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/SiegeCascadeStormblast.dds",
     "levels":[{
         "baseMultiplier":0.2,
         "levelRequirement":0
@@ -44254,6 +44390,7 @@
     "castTime":0.5,
     "color":1,
     "description":"Consume any combination of 3 Power and/or Endurance Charges to raise a Totem that uses socketed Spells. Cannot use Skills with Cooldowns.",
+    "icon":"Art/2DArt/SkillIcons/DruidSpellTotem.dds",
     "levels":[{
         "cost":{
           "Mana":18
@@ -44740,6 +44877,7 @@
     "castTime":1,
     "color":1,
     "description":"Slam the ground, creating a roiling fissure that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies. Hitting an enemy with Fully Broken Armour applies Sundered Armour, making it take additional increased Physical damage.",
+    "icon":"Art/2DArt/SkillIcons/BruteSunder.dds",
     "levels":[{
         "attackSpeedMultiplier":-60,
         "baseMultiplier":1.6,
@@ -45267,6 +45405,7 @@
     "castTime":1,
     "color":1,
     "description":"Channel to charge up a heavy swing, drawing earth from the ground to enlarge your mace. Release to Slam the ground, dealing damage in an area around the impact, followed by Aftershocks dealing damage in a larger area.",
+    "icon":"Art/2DArt/SkillIcons/BruteSuperchargedSlam.dds",
     "levels":[{
         "attackTime":850,
         "baseMultiplier":0.7,
@@ -47686,6 +47825,7 @@
     "castTime":1,
     "color":1,
     "description":"Spur the growth of huge vines, which emerge randomly within the target area. The vines crash to the ground then retreat, targeting nearby enemies if possible.",
+    "icon":"Art/2DArt/SkillIcons/DruidAwakenedForest.dds",
     "levels":[{
         "cost":{
           "Mana":14
@@ -48168,6 +48308,7 @@
     "castTime":0.9,
     "color":1,
     "description":"Conjure a thunderstorm which causes lightning strikes and torrential rain in an area. Enemies in the area are Drenched, causing them to become Shocked or Frozen more easily. Plants in the area become Overgrown.",
+    "icon":"Art/2DArt/SkillIcons/LightningStormSkill.dds",
     "levels":[{
         "cost":{
           "Mana":12
@@ -48737,6 +48878,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, periodically invokes divine blessings to heal you and remove Curses and Elemental Ailments from you.",
+    "icon":"Art/2DArt/SkillIcons/TimeOfNeedSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -49085,6 +49227,7 @@
     "castTime":0.75,
     "color":1,
     "description":"Create a storm that sucks in enemies and deals Physical damage over time. A Tornado that overlaps an Elemental Ground Surface absorbs that surface's Debuff, applying it to enemies inside the Tornado and causing the Tornado to deal extra damage of that element.",
+    "icon":"Art/2DArt/SkillIcons/DruidTornado.dds",
     "levels":[{
         "cost":{
           "Mana":10
@@ -49526,6 +49669,7 @@
     "castTime":1,
     "color":1,
     "description":"Fire a bouncing Grenade that causes a burst of Poison gas when its fuse expires, damaging enemies and leaving behind a growing Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast.",
+    "icon":"Art/2DArt/SkillIcons/ToxicGrenade.dds",
     "levels":[{
         "attackSpeedMultiplier":-25,
         "baseMultiplier":0.4,
@@ -50514,6 +50658,7 @@
     "color":1,
     "description":"While active, taking Lightning damage builds up charge on you. Reaching full charge expends all charge to Trigger this skill, creating a Chaining lightning bolt that arcs to nearby enemies.",
     "fromItem":true,
+    "icon":"Art/2DArt/SkillIcons/ValakosLuckLightningCoilSkill.dds",
     "levels":[{
         "cooldown":1,
         "critChance":9,
@@ -51203,6 +51348,7 @@
     "castTime":1,
     "color":1,
     "description":"Slam the ground, creating a branching Molten Fissure that deals damage as it travels and remains for a duration. Using a different Slam on a Molten Fissure creates a spreading Aftershock.",
+    "icon":"Art/2DArt/SkillIcons/BruteVolcanicFissure.dds",
     "levels":[{
         "attackSpeedMultiplier":-20,
         "baseMultiplier":0.63,
@@ -51602,6 +51748,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Uplift a volcano from the earth, damaging enemies standing on it and releasing a spray of molten Projectiles. While the volcano persists, Slamming it will cause another Projectile spray. Channelling this Skill for longer makes the initial eruption more violent, but does not affect subsequent Projectile sprays.",
+    "icon":"Art/2DArt/SkillIcons/DruidVolcano.dds",
     "levels":[{
         "cost":{
           "Mana":7,
@@ -52470,6 +52617,7 @@
   "WalkingCalamityMeteorPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DruidWalkingCalamity.dds",
     "levels":[{
         "baseMultiplier":1.5,
         "levelRequirement":0
@@ -52834,6 +52982,7 @@
     "castTime":1,
     "color":1,
     "description":"Build Glory by gaining Rage while already at maximum Rage. When you have maximum Glory, roar to the heavens to bring them down upon your enemies. For the duration of the Skill, meteors rain down around you and you Gain Fire damage and Rage regeneration. This Skill's effects are suppressed if you leave Bear form, but will resume if you return to Bear form before the duration expires.",
+    "icon":"Art/2DArt/SkillIcons/DruidWalkingCalamity.dds",
     "levels":[{
         "attackSpeedMultiplier":-30,
         "baseMultiplier":0,
@@ -53226,6 +53375,7 @@
   "WarBannerPlayer":{
     "castTime":0.5,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/WarBannerSkill.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -53647,6 +53797,7 @@
     "castTime":1,
     "color":1,
     "description":"While active, Attacking enemies builds Glory. When you have maximum Glory, you can place an inspiring Banner for a duration with an Aura that grants you and nearby Allies Attack damage, Attack speed and Accuracy.",
+    "icon":"Art/2DArt/SkillIcons/WarBannerSkill.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":30
@@ -53874,6 +54025,7 @@
     "castTime":0.5,
     "color":1,
     "description":"Shapeshift into a Wyvern and launch yourself backwards with a powerful wingbeat that Knocks Back enemies. Enemies Primed for Heavy Stun will be stunned, release a shockwave, and have a chance to grant you a Power Charge. This skill can be used while using other skills to interrupt them.",
+    "icon":"Art/2DArt/SkillIcons/DruidWingBlast.dds",
     "levels":[{
         "baseMultiplier":0.85,
         "cost":{
@@ -54362,6 +54514,7 @@
     "castTime":0.8,
     "color":1,
     "description":"Shapeshift into a Werewolf and let out an icy howl that damages enemies and Freezes Primed enemies. If an enemy is Frozen or a Frozen enemy is Hit, this Skill Empowers your attacks with added Cold damage, causes Empowered Slams to create Chilled Ground, and grants your Allies added Cold damage. This Skill's cooldown can be bypassed by expending an Endurance Charge.",
+    "icon":"Art/2DArt/SkillIcons/DruidTundraHunter.dds",
     "levels":[{
         "cooldown":8,
         "cost":{
@@ -55086,6 +55239,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Werewolf and leap backwards as you gouge the ground with both claws. Enemies can be Hit separately by both gouges. Hitting a Marked enemy with both gouges will Activate the Mark and cause an additional shockwave. Ice Fragments will be pulled into the location where the gouges cross and explode immediately. This skill can be used while using other skills to interrupt them.",
+    "icon":"Art/2DArt/SkillIcons/DruidCrossSlash.dds",
     "levels":[{
         "attackSpeedMultiplier":10,
         "baseMultiplier":1.3,
@@ -55692,6 +55846,7 @@
     "castTime":1,
     "description":"This skill is Triggered when Predator's Mark Activates to Summon a Wolf Minion that follows you as long as it lives.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DruidWolfHowl.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -55967,6 +56122,7 @@
   "WolfLunarBlessingBeamAttackPlayer":{
     "castTime":1,
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DruidLunarBlessing.dds",
     "levels":[{
         "baseMultiplier":0.65,
         "cooldown":1,
@@ -56361,6 +56517,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Werewolf and offer your Rage to the moon to receive a blessing, gaining bonus Cold damage for yourself and any Wolf Minions you have from Wolf Pack or Predator's Mark. Spends all Rage to extend the Buff's duration. While the Buff is active, your Werewolf Melee Attacks call down Moonbeams on Hit.",
+    "icon":"Art/2DArt/SkillIcons/DruidLunarBlessing.dds",
     "levels":[{
         "cooldown":22,
         "cost":{
@@ -56834,6 +56991,7 @@
     "castTime":1,
     "color":1,
     "description":"Activate to summon a pack of Wolf Companions. The pack treated as a single Companion for effects that count or limit Companions, regardless of the number of Wolves in the pack.",
+    "icon":"Art/2DArt/SkillIcons/DruidSummonWolf.dds",
     "levels":[{
         "levelRequirement":0,
         "spiritReservationFlat":60
@@ -57150,6 +57308,7 @@
     "castTime":0,
     "description":"Mark a target, causing it to take increased damage based on how many of the target's enemies are near to it. If the target dies, the Mark will Activate to Trigger the Summon Wolf skill and Consume the Mark.",
     "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DruidCrossSlash.dds",
     "levels":[{
         "levelRequirement":0
       },{
@@ -57340,6 +57499,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Werewolf and leap to a target location, damaging enemies in an area around where you land. Predator's Mark will be Triggered targeting the highest Rarity enemy Hit, or if a Mark gem is socketed into this Skill, that Mark will be Triggered instead. Using this Skill allows any Wolf Minions you have to leap immediately.",
+    "icon":"Art/2DArt/SkillIcons/DruidWolfLeapAttack.dds",
     "levels":[{
         "cooldown":5,
         "cost":{
@@ -57776,6 +57936,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Wyvern and devour a Corpse or Cullable enemy, and additional nearby Corpses. For each enemy or corpse devoured, you regenerate life and gain a Power Charge. If the target is far enough away, you will leap to them and damage nearby enemies where you land. Targeting nearby enemies or corpses will not perform a leap or a Slam.",
+    "icon":"Art/2DArt/SkillIcons/DruidDevourShock.dds",
     "levels":[{
         "attackSpeedMultiplier":70,
         "baseMultiplier":0.65,
@@ -58254,6 +58415,7 @@
     "castTime":1,
     "color":1,
     "description":"Shapeshift into a Wyvern and take to the skies, immolating enemies with a jet of fire. Channelling ends after a short amount of time but can be prolonged by spending Rage. Consumes a Power Charge if possible to Empower the Skill, Gaining extra Lightning damage and spending Rage more slowly.",
+    "icon":"Art/2DArt/SkillIcons/DruidFlameBreath.dds",
     "levels":[{
         "attackSpeedMultiplier":700,
         "baseMultiplier":0.3,

@@ -127,19 +127,12 @@
         }
       }]],
   "+0.15% to Thorns Critical Hit Chance":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
         "name":"CritChance",
         "type":"BASE",
         "value":0.15
-      }]," Thorns  "],
-  "+0.15% to Thorns Critical Hit Chance +25% to Thorns Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":0.15
-      }]," Thorns  +25% to Thorns Critical Hit Chance "],
+      }]],
   "+0.2 metres to Melee Strike Range":[[{
         "flags":0,
         "keywordFlags":0,
@@ -191,7 +184,7 @@
         }
       }]," metres to Dodge Roll distance  10% increased   "],
   "+0.5% to Thorns Critical Hit Chance per 50 Tribute":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
         "name":"CritChance",
         "type":"BASE",
@@ -202,26 +195,7 @@
           "stat":"Tribute",
           "type":"PerStat"
         }
-      }]," Thorns   "],
-  "+0.5% to Thorns Critical Hit Chance per 50 Tribute 2% increased Thorns damage per 10 Tribute":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":0.5,
-        "1":{
-          "actor":"parent",
-          "div":50,
-          "stat":"Tribute",
-          "type":"PerStat"
-        },
-        "2":{
-          "actor":"parent",
-          "div":10,
-          "stat":"Tribute",
-          "type":"PerStat"
-        }
-      }]," Thorns   2% increased Thorns damage  "],
+      }]],
   "+0.6% to Unarmed Melee Attack Critical Hit Chance":[[{
         "flags":16777477,
         "keywordFlags":0,
@@ -2741,19 +2715,12 @@
         "value":25
       }]],
   "+25% to Thorns Critical Hit Chance":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
         "name":"CritChance",
         "type":"BASE",
         "value":25
-      }]," Thorns  "],
-  "+25% to Thorns Critical Hit Chance 15 to 25 Physical Thorns damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":25
-      }]," Thorns  15 to 25 Physical Thorns damage "],
+      }]],
   "+250 to Accuracy Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -3275,18 +3242,6 @@
           "value":3
         }
       }]],
-  "+3 to Level of all Conductivity Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyOfScaledMod":"value",
-          "keyword":"conductivity",
-          "value":3
-        }
-      }]],
   "+3 to Level of all Contagion Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -3779,18 +3734,6 @@
           "value":3
         }
       }]],
-  "+3 to Level of all Flammability Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyOfScaledMod":"value",
-          "keyword":"flammability",
-          "value":3
-        }
-      }]],
   "+3 to Level of all Flash Grenade Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -4184,18 +4127,6 @@
           "key":"level",
           "keyOfScaledMod":"value",
           "keyword":"high velocity rounds",
-          "value":3
-        }
-      }]],
-  "+3 to Level of all Hypothermia Skills":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyOfScaledMod":"value",
-          "keyword":"hypothermia",
           "value":3
         }
       }]],
@@ -6510,19 +6441,12 @@
         "value":4
       }]],
   "+4% to Thorns Critical Hit Chance":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
         "name":"CritChance",
         "type":"BASE",
         "value":4
-      }]," Thorns  "],
-  "+4% to Thorns Critical Hit Chance Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":4
-      }]," Thorns  Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour "],
+      }]],
   "+4% to all Elemental Resistances per socketed Grand Spectrum":[[{
         "flags":0,
         "keywordFlags":0,
@@ -7337,12 +7261,12 @@
         "value":6
       }]],
   "+6% to Thorns Critical Hit Chance":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
         "name":"CritChance",
         "type":"BASE",
         "value":6
-      }]," Thorns  "],
+      }]],
   "+6% to all Elemental Resistances per socketed Grand Spectrum":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10508,9 +10432,9 @@
         }
       }]],
   "10% increased Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":10
       }]],
@@ -10810,9 +10734,9 @@
         "value":10
       }]],
   "10% of Thorns Damage Leeched as Life":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamageLifeLeech",
+        "name":"DamageLifeLeech",
         "type":"BASE",
         "value":10
       }]],
@@ -11438,9 +11362,9 @@
         }
       }]],
   "100% increased Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":100
       }]],
@@ -12384,9 +12308,9 @@
         }
       }]],
   "12% increased Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":12
       }]],
@@ -12573,6 +12497,19 @@
         "name":"EvasionAndEnergyShield",
         "type":"INC",
         "value":125
+      }]],
+  "13 to 23 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":13
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":23
       }]],
   "13% increased Attack Speed":[[{
         "flags":1,
@@ -12853,19 +12790,18 @@
         "value":15
       }]],
   "15 to 25 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":15
-      }]," to 25 Physical  "],
-  "15 to 25 Physical Thorns damage Thorns can Retaliate against all Hits":[[{
-        "flags":0,
+      },{
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMax",
         "type":"BASE",
-        "value":15
-      }]," to 25 Physical  Thorns can Retaliate against all Hits "],
+        "value":25
+      }]],
   "15% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill":[[],"% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill "],
   "15% additional Physical Damage Reduction":[[{
         "flags":0,
@@ -14873,9 +14809,9 @@
         "value":16
       }]],
   "16% increased Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":16
       }]],
@@ -15049,6 +14985,19 @@
         "name":"PhysicalDamage",
         "type":"INC",
         "value":175
+      }]],
+  "18 to 28 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":18
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":28
       }]],
   "18% increased Area of Effect for Attacks":[[{
         "flags":1,
@@ -15645,9 +15594,9 @@
         }
       }]],
   "2% increased Thorns damage per 10 Tribute":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":2,
         "1":{
@@ -15725,12 +15674,18 @@
         "value":20
       }]],
   "20 to 30 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":20
-      }]," to 30 Physical  "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":30
+      }]],
   "20% Chance to build an additional Combo on Hit":[[]," to build an additional Combo  "],
   "20% chance for Attack Hits to apply Incision":[[{
         "flags":0,
@@ -17450,9 +17405,9 @@
         }
       }]],
   "20% increased Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":20
       }]],
@@ -18380,19 +18335,31 @@
         "value":25
       }]],
   "25 to 35 Cold Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"ColdMin",
         "type":"BASE",
         "value":25
-      }]," to 35 Cold  "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ColdMax",
+        "type":"BASE",
+        "value":35
+      }]],
   "25 to 35 Fire Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"FireMin",
         "type":"BASE",
         "value":25
-      }]," to 35 Fire  "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"FireMax",
+        "type":"BASE",
+        "value":35
+      }]],
   "25% Chance to gain a Charge when you kill an enemy":[null,"a Charge  "],
   "25% Chance to gain a Charge when you kill an enemy Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life":[null,"a Charge  Creates Ignited Ground  when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life "],
   "25% Chance to gain a Charge when you kill an enemy Energy Shield Recharge starts on use":[null,"a Charge  Energy Shield Recharge starts on use "],
@@ -20116,6 +20083,19 @@
         "type":"INC",
         "value":253
       }]],
+  "26 to 40 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":26
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":40
+      }]],
   "26% reduced Charges per use":[[{
         "flags":0,
         "keywordFlags":0,
@@ -20129,6 +20109,19 @@
         "name":"PhysicalDamage",
         "type":"INC",
         "value":275
+      }]],
+  "28 to 38 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":28
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":38
       }]],
   "28% increased maximum Energy Shield":[[{
         "flags":0,
@@ -20774,12 +20767,31 @@
         "value":30
       }]],
   "30 to 40 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":30
-      }]," to 40 Physical  "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":40
+      }]],
+  "30 to 44 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":30
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":44
+      }]],
   "30% chance for Lightning Damage with Hits to be Lucky":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22036,12 +22048,12 @@
         }
       }]],
   "30% increased Thorns Critical Damage Bonus":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
         "name":"CritMultiplier",
         "type":"INC",
         "value":30
-      }]," Thorns  "],
+      }]],
   "30% increased Totem Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22553,12 +22565,18 @@
         "value":300
       }]],
   "31 to 49 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":31
-      }]," to 49 Physical  "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":49
+      }]],
   "32% increased Spell Damage while wielding a Melee Weapon":[[{
         "flags":2,
         "keywordFlags":0,
@@ -22639,12 +22657,18 @@
         "value":35
       }]],
   "35 to 53 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":35
-      }]," to 53 Physical  "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":53
+      }]],
   "35% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill":[[],"% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill "],
   "35% increased Attack Damage while you have an Ally in your Presence":[[{
         "flags":1,
@@ -23025,6 +23049,19 @@
         "type":"BASE",
         "value":4
       }]," seconds after being d by an Enemy Hit, take Damage equal to 30% of that Hit's Damage "],
+  "4 to 8 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":4
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":8
+      }]],
   "4% chance for Spell Skills to fire 2 additional Projectiles":[[{
         "flags":2,
         "keywordFlags":0,
@@ -23701,8 +23738,30 @@
         "type":"INC",
         "value":40
       }]],
-  "40% increased Culling Strike Threshold against Immobilised Enemies":[[]," Culling Strike Threshold  "],
-  "40% increased Culling Strike Threshold against Rare or Unique Enemies":[[]," Culling Strike Threshold  "],
+  "40% increased Culling Strike Threshold against Immobilised Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CullPercent",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"Immobilised"
+        }
+      }]],
+  "40% increased Culling Strike Threshold against Rare or Unique Enemies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CullPercent",
+        "type":"INC",
+        "value":40,
+        "1":{
+          "actor":"enemy",
+          "type":"ActorCondition",
+          "var":"RareOrUnique"
+        }
+      }]],
   "40% increased Curse Duration":[[{
         "flags":0,
         "keywordFlags":2,
@@ -24766,19 +24825,31 @@
         "value":5
       }]],
   "5 to 10 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":5
-      }]," to 10 Physical  "],
-  "5 to 10 Physical Thorns damage Pain Attunement":[[{
-        "flags":0,
+      },{
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":10
+      }]],
+  "5 to 9 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
         "type":"BASE",
         "value":5
-      }]," to 10 Physical  Pain Attunement "],
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":9
+      }]],
   "5% Chance to build an additional Combo on Hit":[[]," to build an additional Combo  "],
   "5% additional Physical Damage Reduction while you have at least 150 Devotion":[[{
         "flags":0,
@@ -26270,9 +26341,9 @@
         "value":50
       }]],
   "50% increased Thorns damage if you've consumed an Endurance Charge Recently":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":50,
         "1":{
@@ -26774,9 +26845,9 @@
       }]],
   "50% reduced Slowing Potency of Debuffs on You":[[]," Slowing Potency of Debuffs on You "],
   "50% reduced Slowing Potency of Debuffs on You 20 to 30 Physical Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":-50
       }]," Slowing Potency of Debuffs on You 20 to 30 Physical  "],
@@ -28064,9 +28135,9 @@
         }
       }]],
   "75% increased Thorns damage if you've Blocked Recently":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":75,
         "1":{
@@ -31137,8 +31208,19 @@
   "Aggravate Bleeding on targets you Critically Hit with Attacks":[null,"Aggravate Bleeding on targets you Critically Hit with Attacks "],
   "Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target":[null,"Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target "],
   "Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target 40% chance to Aggravate Bleeding on Hit":[null,"Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target 40% chance to Aggravate Bleeding on Hit "],
-  "All Attacks count as Empowered Attacks":[null,"All Attacks count as Empowered Attacks "],
-  "All Attacks count as Empowered Attacks Cannot use Warcries":[null,"All Attacks count as Empowered Attacks Cannot use Warcries "],
+  "All Attacks count as Empowered Attacks":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Condition:Empowered",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"MaxEmpoweredUptimeRatio",
+        "type":"FLAG",
+        "value":true
+      }]],
   "All Damage from Hits Contributes to Chill Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33206,9 +33288,9 @@
         }
       }]],
   "Body Armour grants 100% increased Thorns damage":[[{
-        "flags":0,
+        "flags":32,
         "keywordFlags":0,
-        "name":"ThornsDamage",
+        "name":"Damage",
         "type":"INC",
         "value":100,
         "1":{
@@ -33435,9 +33517,9 @@
   "Bow Attacks have Culling Strike":[[{
         "flags":131073,
         "keywordFlags":0,
-        "name":"CullPercent",
-        "type":"MAX",
-        "value":10
+        "name":"CanCull",
+        "type":"FLAG",
+        "value":1
       }]],
   "Break 10% increased Armour":[[{
         "flags":0,
@@ -34342,11 +34424,107 @@
           "type":"SkillType"
         }
       }]],
-  "Companions gain 12% Damage as extra Chaos Damage":[null,"Companions gain 12% Damage as extra Chaos Damage "],
-  "Companions gain 12% Damage as extra Cold Damage":[null,"Companions gain 12% Damage as extra Cold Damage "],
-  "Companions gain 4% Damage as extra Chaos Damage":[null,"Companions gain 4% Damage as extra Chaos Damage "],
-  "Companions gain 4% Damage as extra Cold Damage":[null,"Companions gain 4% Damage as extra Cold Damage "],
-  "Companions gain added Attack damage equal to 60% of your main hand Weapon's damage":[null,"Companions gain added Attack damage equal to 60% of your main hand Weapon's damage "],
+  "Companions gain 12% Damage as extra Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageGainAsChaos",
+            "type":"BASE",
+            "value":12
+          }
+        },
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
+  "Companions gain 12% Damage as extra Cold Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageGainAsCold",
+            "type":"BASE",
+            "value":12
+          }
+        },
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
+  "Companions gain 4% Damage as extra Chaos Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageGainAsChaos",
+            "type":"BASE",
+            "value":4
+          }
+        },
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
+  "Companions gain 4% Damage as extra Cold Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"DamageGainAsCold",
+            "type":"BASE",
+            "value":4
+          }
+        },
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
+  "Companions gain added Attack damage equal to 60% of your main hand Weapon's damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"GainMainHandDmgFromParent",
+            "type":"FLAG",
+            "value":true
+          }
+        },
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Multiplier:MainHandDamageToAllies",
+        "type":"BASE",
+        "value":60
+      }]],
   "Companions gain your Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34605,8 +34783,26 @@
           "type":"SkillType"
         }
       }]],
-  "Companions have a 40% chance to Poison on Hit":[null,"a 40% chance to Poison on Hit "],
-  "Companions in your Presence have Onslaught while you are Shapeshifted":[null,"Companions in your Presence have Onslaught while you are Shapeshifted "],
+  "Companions have a 40% chance to Poison on Hit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"PoisonChance",
+            "type":"BASE",
+            "value":40
+          }
+        },
+        "1":{
+          "skillType":219,
+          "type":"SkillType"
+        }
+      }]],
+  "Companions in your Presence have Onslaught while you are Shapeshifted":[null,"in your Presence have Onslaught while you are Shapeshifted "],
   "Conduit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34616,26 +34812,13 @@
       }]],
   "Consume all Rage when Shapeshifting to Human form to recover 1% of maximum life per Rage Consumed":[null,"Consume all Rage when Shapeshifting to Human form to recover 1% of maximum life per Rage Consumed "],
   "Consuming Glory grants you 3% increased Attack damage per Glory consumed for 6 seconds, up to 60%":[null,"Consuming Glory grants you 3% increased Attack damage per Glory consumed for 6 seconds, up to 60% "],
-  "Convert 100% of maximum Energy Shield to maximum Mana":[null,"Convert 100% of maximum Energy Shield to maximum Mana "],
-  "Convert 100% of maximum Energy Shield to maximum Mana Mana Costs are Doubled":[[{
+  "Convert 100% of maximum Energy Shield to maximum Mana":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnergyShield",
-        "type":"MORE",
-        "value":100,
-        "1":{
-          "globalLimit":100,
-          "globalLimitKey":"EnergyShieldDoubledLimit",
-          "type":"Multiplier",
-          "var":"EnergyShieldDoubled"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Multiplier:EnergyShieldDoubled",
-        "type":"OVERRIDE",
-        "value":1
-      }],"Convert 100% of  to maximum Mana Mana Costs are d "],
+        "name":"EnergyShieldConvertToMana",
+        "type":"BASE",
+        "value":100
+      }]],
   "Converts all Evasion Rating to Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34696,7 +34879,19 @@
         }
       }]],
   "Critical Hits cannot Extract Impale":[null,"Critical Hits cannot Extract Impale "],
-  "Critical Hits cannot Extract Impale 31 to 49 Physical Thorns damage":[null,"Critical Hits cannot Extract Impale 31 to 49 Physical Thorns damage "],
+  "Critical Hits cannot Extract Impale 31 to 49 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":31
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":49
+      }],"Critical Hits cannot Extract Impale  "],
   "Critical Hits do not deal extra Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34760,9 +34955,9 @@
   "Culling Strike":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"CullPercent",
-        "type":"MAX",
-        "value":10,
+        "name":"CanCull",
+        "type":"FLAG",
+        "value":1,
         "1":{
           "effectType":"Global",
           "type":"GlobalEffect",
@@ -34773,9 +34968,9 @@
   "Culling Strike against Enemies you Mark":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"CullPercent",
-        "type":"MAX",
-        "value":10,
+        "name":"CanCull",
+        "type":"FLAG",
+        "value":1,
         "1":{
           "actor":"enemy",
           "type":"ActorCondition",
@@ -34785,9 +34980,9 @@
   "Culling Strike against Frozen Enemies":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"CullPercent",
-        "type":"MAX",
-        "value":10,
+        "name":"CanCull",
+        "type":"FLAG",
+        "value":1,
         "1":{
           "actor":"enemy",
           "type":"ActorCondition",
@@ -35319,7 +35514,19 @@
       }]],
   "Deal up to 40% more Damage to Enemies based on their missing Concentration":[null,"up to 40% more Damage to Enemies based on their missing Concentration "],
   "Deal your Thorns Damage to Enemies you Stun with Melee Attacks":[null,"your Thorns Damage to Enemies you Stun with Melee Attacks "],
-  "Deal your Thorns Damage to Enemies you Stun with Melee Attacks 35 to 53 Physical Thorns damage":[null,"your Thorns Damage to Enemies you Stun with Melee Attacks 35 to 53 Physical Thorns damage "],
+  "Deal your Thorns Damage to Enemies you Stun with Melee Attacks 35 to 53 Physical Thorns damage":[[{
+        "flags":256,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":35
+      },{
+        "flags":256,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":53
+      }],"your  to Enemies you Stun   "],
   "Deals 25% of current Mana as Chaos Damage to you when Effect ends":[null,"Deals 25% of current Mana as Chaos Damage to you when Effect ends "],
   "Debuffs inflicted by Hazards have 30% increased Slow Magnitude":[null,"Debuffs inflicted by Hazards have 30% increased Slow Magnitude "],
   "Debuffs inflicted by Hazards have 30% increased Slow Magnitude 30% increased Hazard Immobilisation buildup":[null,"Debuffs inflicted by Hazards have 30% increased Slow Magnitude 30% increased Hazard Immobilisation buildup "],
@@ -38556,8 +38763,86 @@
         "type":"FLAG",
         "value":true
       }]," when you Shapeshift to Human form after being Shapeshifted for at least 8 seconds "],
-  "Gain Armour equal to 150% of total Strength Requirements of Equipped Boots, Gloves and Helmet":[null,"Armour equal to 150% of total Strength Requirements of Equipped Boots, Gloves and Helmet "],
-  "Gain Cold Thorns Damage equal to 18% of your maximum Mana":[null,"Cold Thorns Damage equal to 18% of your maximum Mana "],
+  "Gain Armour equal to 150% of total Strength Requirements of Equipped Boots, Gloves and Helmet":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":150,
+          "stat":"StrRequirementsOnBoots",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":150,
+          "stat":"StrRequirementsOnGloves",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":150,
+          "stat":"StrRequirementsOnHelmet",
+          "type":"PercentStat"
+        }
+      }]],
+  "Gain Cold Thorns Damage equal to 14% of your maximum Mana":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ColdMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":14,
+          "stat":"Mana",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ColdMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":14,
+          "stat":"Mana",
+          "type":"PercentStat"
+        }
+      }]],
+  "Gain Cold Thorns Damage equal to 18% of your maximum Mana":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ColdMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":18,
+          "stat":"Mana",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ColdMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":18,
+          "stat":"Mana",
+          "type":"PercentStat"
+        }
+      }]],
   "Gain Combo from all Attack Hits":[null,"Combo from all Attack Hits "],
   "Gain Deflection Rating equal to 10% of Evasion Rating":[[{
         "flags":0,
@@ -38702,10 +38987,83 @@
         }
       }],"  when a  Dies 18% increased  for Attacks "],
   "Gain Owl Feathers 50% faster":[null,"Owl Feathers 50% faster "],
-  "Gain Physical Thorns damage equal to 10% of Item Armour on Equipped Body Armour":[null,"Physical Thorns damage equal to 10% of Item Armour on Equipped Body Armour "],
-  "Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour":[null,"Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour "],
-  "Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour 12% chance for Trigger skills to refund half of Energy Spent":[null,"Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour 12% chance for Trigger skills to refund half of Energy Spent "],
-  "Gain Physical Thorns damage equal to 8% of maximum Life while Shapeshifted":[null,"Physical Thorns damage equal to 8% of maximum Life while Shapeshifted "],
+  "Gain Physical Thorns damage equal to 10% of Item Armour on Equipped Body Armour":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":10,
+          "stat":"ArmourOnBody Armour",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":10,
+          "stat":"ArmourOnBody Armour",
+          "type":"PercentStat"
+        }
+      }]],
+  "Gain Physical Thorns damage equal to 6% of Item Armour on Equipped Body Armour":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":6,
+          "stat":"ArmourOnBody Armour",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "percent":6,
+          "stat":"ArmourOnBody Armour",
+          "type":"PercentStat"
+        }
+      }]],
+  "Gain Physical Thorns damage equal to 8% of maximum Life while Shapeshifted":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "type":"Condition",
+          "var":"Shapeshifted"
+        },
+        "2":{
+          "percent":8,
+          "stat":"Life",
+          "type":"PercentStat"
+        }
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "type":"Condition",
+          "var":"Shapeshifted"
+        },
+        "2":{
+          "percent":8,
+          "stat":"Life",
+          "type":"PercentStat"
+        }
+      }]],
   "Gain Power Charges instead of Frenzy Charges":[null,"Power Charges instead of Frenzy Charges "],
   "Gain Power Charges instead of Frenzy Charges Gain Frenzy Charges instead of Endurance Charges":[null,"Power Charges instead of Frenzy Charges Gain Frenzy Charges instead of Endurance Charges "],
   "Gain Power Charges instead of Frenzy Charges Gain Frenzy Charges instead of Endurance Charges Gain Endurance Charges instead of Power Charges":[null,"Power Charges instead of Frenzy Charges Gain Frenzy Charges instead of Endurance Charges Gain Endurance Charges instead of Power Charges "],
@@ -40899,9 +41257,9 @@
   "Hits that Heavy Stun Enemies have Culling Strike":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"CullPercent",
-        "type":"MAX",
-        "value":10,
+        "name":"CanCull",
+        "type":"FLAG",
+        "value":1,
         "1":{
           "type":"Condition",
           "var":"AlwaysHeavyStunning"
@@ -41227,7 +41585,7 @@
   "Inevitable Critical Hits":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"ForcedOutcome",
+        "name":"InevitableCriticalHits",
         "type":"FLAG",
         "value":true
       }]],
@@ -41844,7 +42202,19 @@
       }]],
   "Life Recovery from Flasks can Overflow Maximum Life":[null,"Life Recovery from Flasks can Overflow Maximum Life "],
   "Life Recovery from Flasks is instant":[null,"Life Recovery from Flasks is instant "],
-  "Life Recovery from Flasks is instant 30 to 40 Physical Thorns damage":[null,"Life Recovery from Flasks is instant 30 to 40 Physical Thorns damage "],
+  "Life Recovery from Flasks is instant 30 to 40 Physical Thorns damage":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMin",
+        "type":"BASE",
+        "value":30
+      },{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"PhysicalMax",
+        "type":"BASE",
+        "value":40
+      }]," is instant  "],
   "Life Recovery from Regeneration is not applied":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42017,20 +42387,8 @@
         "keywordFlags":0,
         "name":"ManaCost",
         "type":"MORE",
-        "value":100,
-        "1":{
-          "globalLimit":100,
-          "globalLimitKey":"ManaCostDoubledLimit",
-          "type":"Multiplier",
-          "var":"ManaCostDoubled"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Multiplier:ManaCostDoubled",
-        "type":"OVERRIDE",
-        "value":1
-      }],"s are d "],
+        "value":100
+      }]],
   "Mana Flasks also recover Life":[null,"Mana Flasks also recover Life "],
   "Mana Flasks gain 0.1 charges per Second":[[{
         "flags":0,
@@ -46104,7 +46462,7 @@
         "type":"INC",
         "value":125
       }]],
-  "Skills have a 15% chance to not consume Glory":[null,"a 15% chance to not consume Glory "],
+  "Skills have a 15% chance to not consume Glory":[[]," to not consume Glory "],
   "Skills have a 150% longer Perfect Timing window":[[{
         "flags":0,
         "keywordFlags":0,
@@ -46688,8 +47046,20 @@
   "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet This item gains bonuses from Socketed Soul Cores as though it was also a Shield":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Helmet This item gains bonuses from Socketed Soul Cores as though it was also a Shield "],
   "This item gains bonuses from Socketed Soul Cores as though it was also a Shield":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Shield "],
   "This item gains bonuses from Socketed Soul Cores as though it was also a Shield Has no Attribute Requirements":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Shield Has no Attribute Requirements "],
-  "Thorns Damage has 25% chance to ignore Enemy Armour":[null,"Thorns Damage has 25% chance to ignore Enemy Armour "],
-  "Thorns Damage has 50% chance to ignore Enemy Armour":[null,"Thorns Damage has 50% chance to ignore Enemy Armour "],
+  "Thorns Damage has 25% chance to ignore Enemy Armour":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ChanceToIgnoreEnemyArmour",
+        "type":"BASE",
+        "value":25
+      }]],
+  "Thorns Damage has 50% chance to ignore Enemy Armour":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"ChanceToIgnoreEnemyArmour",
+        "type":"BASE",
+        "value":50
+      }]],
   "Thorns can Retaliate against all Hits":[null,"Thorns can Retaliate against all Hits "],
   "Totems Regenerate 3% of maximum Life per second":[null,"Totems Regenerate 3% of maximum Life per second "],
   "Totems die 6 seconds after their Life is reduced to 0":[null,"Totems die 6 seconds after their Life is reduced to 0 "],
