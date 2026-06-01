@@ -1,0 +1,42 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "mantra_of_illusions_bonus_illusions_when_consuming_power_charge":4,
+  "mantra_of_illusions_cloned_skill_mana_cost_%":3,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Images can be created within {0} metre radius of you",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["mantra_of_illusions_cloned_skill_mana_cost_%"],
+    "1":[{
+        "limit":[[100,100]],
+        "text":"Creating an Image spends Socketed Skill's Cost"
+      },{
+        "limit":[["#","#"]],
+        "text":"Creating an Image spends {0}% of Socketed Skill's Cost"
+      }]
+  },
+  "4":{
+    "stats":["mantra_of_illusions_bonus_illusions_when_consuming_power_charge"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Consumes a Power Charge to create {0} additional Image"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Consumes a Power Charge to create {0} additional Images"
+      }]
+  }
+}

@@ -4,7 +4,8 @@
   "bell_hit_limit":3,
   "parent":"skill_stat_descriptions",
   "skill_effect_duration":4,
-  "virtual_bell_hit_limit":5,
+  "skill_specific_stat_description_mode":5,
+  "virtual_bell_hit_limit":6,
   "1":{
     "stats":["base_secondary_skill_effect_duration"]
   },
@@ -42,6 +43,13 @@
     "1":[]
   },
   "5":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Can be Ancestrally Boosted as though a Strike"
+      }]
+  },
+  "6":{
     "stats":["virtual_bell_hit_limit"],
     "1":[]
   }

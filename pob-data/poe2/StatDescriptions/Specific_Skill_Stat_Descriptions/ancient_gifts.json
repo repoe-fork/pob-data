@@ -1,0 +1,65 @@
+{
+  "base_remnant_duration_ms":1,
+  "breach_flame_spawn_radius":2,
+  "breach_flame_spawn_rate_ms":3,
+  "parent":"skill_stat_descriptions",
+  "remnant_effect_+%":4,
+  "virtual_remnant_duration_ms":5,
+  "1":{
+    "stats":["base_remnant_duration_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Ancient Blooms fade after {0} second if not picked up",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Ancient Blooms fade after {0} seconds if not picked up",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["breach_flame_spawn_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Ancient Blooms within 5m of you are revealed"
+      }]
+  },
+  "3":{
+    "stats":["breach_flame_spawn_rate_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"An Ancient Bloom manifests within 8.5m of\n you every second"
+      },{
+        "limit":[["#","#"]],
+        "text":"An Ancient Bloom manifests within 8.5m of\n you every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["remnant_effect_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Ancient Blooms have {0}% increased effect"
+      },{
+        "limit":[["#",-1]],
+        "text":"Ancient Blooms have {0}% reduced effect",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["virtual_remnant_duration_ms"],
+    "1":[]
+  }
+}

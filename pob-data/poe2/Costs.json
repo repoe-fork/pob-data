@@ -20,6 +20,11 @@
     "Stat":"base_rage_cost"
   },{
     "Divisor":1,
+    "Resource":"Ward",
+    "ResourceString":"{0} Ward",
+    "Stat":"base_ward_cost"
+  },{
+    "Divisor":1,
     "Resource":"ManaPercent",
     "ResourceString":"{0}% Mana",
     "Stat":"base_mana_cost_%"
@@ -28,6 +33,11 @@
     "Resource":"LifePercent",
     "ResourceString":"{0}% Life",
     "Stat":"base_life_cost_%"
+  },{
+    "Divisor":1,
+    "Resource":"WardPercent",
+    "ResourceString":"{0}% Ward",
+    "Stat":"base_ward_cost_%"
   },{
     "Divisor":1,
     "Resource":"UnreservedManaPercent",
@@ -73,6 +83,11 @@
     "Resource":"RagePerMinute",
     "ResourceString":"{0} Rage per second",
     "Stat":"base_rage_cost_per_minute"
+  },{
+    "Divisor":60,
+    "Resource":"WardPerMinute",
+    "ResourceString":"{0} Ward per second",
+    "Stat":"base_ward_cost_per_minute"
   },{
     "Divisor":1,
     "Resource":"Soul",

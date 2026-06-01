@@ -1,4 +1,145 @@
 {
+  "ApplyTangmazuSwarmAuraPlayer":{
+    "castTime":1,
+    "description":"The Flock damages enemies around you.",
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      },{
+        "levelRequirement":0
+      }],
+    "name":"Winged Entropy",
+    "qualityStats":[],
+    "skillTypes":{
+      "5":true,
+      "12":true,
+      "39":true,
+      "83":true,
+      "120":true,
+      "140":true,
+      "185":true
+    },
+    "statSets":[{
+        "baseEffectiveness":7.1999998092651,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["skill_desired_amount_override",1],["flock_damage_over_time_+%_final_per_tangmazu_raven_in_owners_flock",5],["flock_area_of_effect_+%_final_per_tangmazu_raven_in_owners_flock",5],["active_skill_base_area_of_effect_radius",20]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Winged Entropy",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":26.666667660077,
+            "2":6.6666669150194
+          }],
+        "statDescriptionScope":"apply_tangmazu_swarm_aura",
+        "statMap":{
+          "flock_area_of_effect_+%_final_per_tangmazu_raven_in_owners_flock":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"AreaOfEffect",
+              "type":"MORE",
+              "1":{
+                "actor":"parent",
+                "type":"Multiplier",
+                "var":"MistRavenCount"
+              }
+            }],
+          "flock_damage_over_time_+%_final_per_tangmazu_raven_in_owners_flock":[{
+              "flags":8,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "actor":"parent",
+                "type":"Multiplier",
+                "var":"MistRavenCount"
+              }
+            }]
+        },
+        "stats":["base_chaos_damage_to_deal_per_minute","base_physical_damage_to_deal_per_minute","display_statset_no_hit_damage","display_statset_hide_usage_stats"]
+      }]
+  },
   "ArcSkeletonMageMinion":{
     "castTime":1.25,
     "description":"An arc of Lightning stretches from the caster to a targeted enemy and Chains on to other nearby enemies. Shocked enemies Hit release damaging pulses.",
@@ -23,7 +164,7 @@
       "31":true,
       "72":true,
       "125":true,
-      "140":true,
+      "141":true,
       "234":true
     },
     "statSets":[{
@@ -90,6 +231,7 @@
     },
     "statSets":[{
         "baseFlags":{
+          "area":true,
           "attack":true,
           "melee":true
         },
@@ -100,7 +242,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["crushing_blow"]
+        "stats":["crushing_blow","is_area_damage"]
       },{
         "baseFlags":{
           "area":true,
@@ -278,7 +420,7 @@
   },
   "DeathFromAboveDaemonMinion":{
     "castTime":1,
-    "description":"Fires a flare at a target location, attaching to an enemy if it lands on one. Then fires a series of arrow volleys centred around the flare.",
+    "description":"Fires a flare at a target location, attaching to an enemy if it lands on one, then launches a series of arrow volleys centred around the flare.",
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/TacticianDeathFromAboveSkillIcon.dds",
     "levels":[{
@@ -322,7 +464,7 @@
               }
             }]
         },
-        "stats":["is_commandable_skill","base_is_projectile","is_area_damage","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","modifiers_to_projectile_count_do_not_apply"]
+        "stats":["is_commandable_skill","base_is_projectile","is_area_damage","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","base_modifiers_to_projectile_count_do_not_apply"]
       }]
   },
   "DeathStormSkeletonStormMageMinion":{
@@ -343,7 +485,7 @@
       "8":true,
       "30":true,
       "91":true,
-      "168":true
+      "167":true
     },
     "statSets":[{
         "baseEffectiveness":9,
@@ -906,8 +1048,8 @@
       "41":true,
       "62":true,
       "83":true,
-      "158":true,
-      "168":true,
+      "159":true,
+      "167":true,
       "217":true
     },
     "statSets":[{
@@ -967,8 +1109,8 @@
       "28":true,
       "60":true,
       "91":true,
-      "144":true,
-      "163":true,
+      "145":true,
+      "162":true,
       "203":true,
       "220":true
     },
@@ -1257,7 +1399,7 @@
         "storedUses":1
       }],
     "name":"Gas Arrow",
-    "qualityStats":[],
+    "qualityStats":[["dummy_stat_display_nothing",0.001]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -1265,10 +1407,11 @@
       "11":true,
       "35":true,
       "41":true,
+      "58":true,
       "62":true,
       "90":true,
       "91":true,
-      "168":true,
+      "167":true,
       "192":true
     },
     "statSets":[{
@@ -1336,7 +1479,7 @@
       "27":true,
       "48":true,
       "91":true,
-      "187":true
+      "186":true
     },
     "statSets":[{
         "baseEffectiveness":4.9000000953674,
@@ -1834,7 +1977,7 @@
       "8":true,
       "27":true,
       "91":true,
-      "163":true,
+      "162":true,
       "192":true
     },
     "statSets":[{
@@ -1895,7 +2038,7 @@
       "2":true,
       "8":true,
       "28":true,
-      "144":true,
+      "145":true,
       "217":true
     },
     "statSets":[{
@@ -2391,7 +2534,7 @@
             "actorLevel":100
           }],
         "statDescriptionScope":"djinn_triggered_wave",
-        "stats":["base_deal_no_damage","display_statset_hide_usage_stats"]
+        "stats":["base_deal_no_damage","display_statset_hide_usage_stats","monster_skill_triggered_by_geal"]
       }]
   },
   "RavenousSwarmAttack":{
@@ -2604,8 +2747,8 @@
       "83":true,
       "85":true,
       "91":true,
-      "135":true,
-      "140":true
+      "136":true,
+      "141":true
     },
     "statSets":[{
         "baseEffectiveness":1.5,
@@ -2868,6 +3011,41 @@
       "One Hand Sword":true,
       "Spear":true
     }
+  },
+  "TangmazuMadFlightMinion":{
+    "castTime":1,
+    "description":"Command part of your flock to leave and crash through a set of illusory mirrors, Attacking enemies in the area between the mirrors with frequent Hits.",
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/RoostOfTheRavenKingCommand.dds",
+    "levels":[{
+        "baseMultiplier":5.5,
+        "cooldown":10,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Mad Flight",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "8":true,
+      "83":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "duration":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",22],["active_skill_base_secondary_area_of_effect_radius",70],["base_skill_effect_duration",5000],["tangmazu_mad_flight_damage_tick_delay_ms",120],["display_commanded_skill_ravens_expended",10],["active_skill_base_physical_damage_%_to_convert_to_chaos",70]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Mad Flight",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"tangmazu_mad_flight",
+        "stats":["is_commandable_skill","is_area_damage","skill_does_not_pathfind"]
+      }]
   },
   "WaterBubbleWaterDjinn":{
     "castTime":2,

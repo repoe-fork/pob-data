@@ -4,7 +4,7 @@
   "active_skill_base_tertiary_area_of_effect_radius":3,
   "active_skill_tertiary_area_of_effect_radius":4,
   "awakened_forest_area_of_effect_+%_final_when_wet":5,
-  "awakened_forest_spawn_X_vines_per_cast_time":6,
+  "awakened_forest_spawn_vines_per_X%_cast_time":6,
   "base_number_of_awakened_forests_allowed":7,
   "base_skill_effect_duration":8,
   "number_of_awakened_forests_allowed":9,
@@ -80,13 +80,10 @@
       }]
   },
   "6":{
-    "stats":["awakened_forest_spawn_X_vines_per_cast_time"],
+    "stats":["awakened_forest_spawn_vines_per_X%_cast_time"],
     "1":[{
-        "limit":[[1,1]],
-        "text":"{0} vine grows per cast time"
-      },{
-        "limit":[[2,"#"]],
-        "text":"{0} vines grow per cast time"
+        "limit":[["#","#"]],
+        "text":"Time between vine growths is {0}% of this Skill's Cast Time"
       }]
   },
   "7":{

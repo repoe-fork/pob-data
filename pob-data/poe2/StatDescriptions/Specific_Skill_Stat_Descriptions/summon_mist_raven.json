@@ -1,0 +1,19 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":1,
+  "parent":"skill_stat_descriptions",
+  "use_owners_culling_threshold_instead_of_your_own":3,
+  "1":{
+    "stats":["active_skill_base_area_of_effect_radius"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"]
+  },
+  "3":{
+    "stats":["use_owners_culling_threshold_instead_of_your_own"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"This Minion uses your Culling Strike threshold"
+      }]
+  }
+}

@@ -1,17 +1,23 @@
 {
-  "base_skill_effect_duration":1,
-  "display_skill_ghost_dance_grants_energy_shield_when_hit":2,
+  "base_cooldown_modifiable_repeat_interval_ms":1,
+  "cooldown_recovery_modifiers_also_apply_to_repeat_interval":2,
   "ghost_dance_max_stacks":3,
   "parent":"skill_stat_descriptions",
-  "quality_display_ghost_dance_is_gem":4,
-  "skill_base_ghost_dance_grants_%_evasion_as_energy_shield_when_hit":4,
-  "skill_effect_duration":5,
+  "skill_base_ghost_dance_grants_%_evasion_as_es_regeneration_per_minute_if_have_lost_ghost_dance_shroud_recently":4,
+  "virtual_cooldown_modifiable_repeat_interval_ms":5,
   "virtual_ghost_dance_max_stacks":6,
   "1":{
-    "stats":["base_skill_effect_duration"],
+    "stats":["base_cooldown_modifiable_repeat_interval_ms"],
     "1":[{
+        "limit":[[1000,1000]],
+        "text":"Gain a Ghost Shroud every second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
         "limit":[["#","#"]],
-        "text":"{0} second duration between gaining Ghost Shrouds",
+        "text":"Gain a Ghost Shroud every {0} seconds",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
@@ -19,8 +25,11 @@
       }]
   },
   "2":{
-    "stats":["display_skill_ghost_dance_grants_energy_shield_when_hit"],
-    "1":[]
+    "stats":["cooldown_recovery_modifiers_also_apply_to_repeat_interval"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Modifiers to Cooldown Recovery Rate also apply to\nGhost Shroud gain frequency"
+      }]
   },
   "3":{
     "stats":["ghost_dance_max_stacks"],
@@ -30,17 +39,18 @@
       }]
   },
   "4":{
-    "stats":["skill_base_ghost_dance_grants_%_evasion_as_energy_shield_when_hit","quality_display_ghost_dance_is_gem"],
+    "stats":["skill_base_ghost_dance_grants_%_evasion_as_es_regeneration_per_minute_if_have_lost_ghost_dance_shroud_recently"],
     "1":[{
-        "limit":[["#","#"],[0,0]],
-        "text":"Ghost Shrouds recover Energy Shield equal to {0:+d}% of your Evasion"
-      },{
-        "limit":[["#","#"],["#","#"]],
-        "text":"When Hit, Consume a Ghost Shroud to\nrecover Energy Shield equal to {0}% of your Evasion"
+        "limit":[["#","#"]],
+        "text":"When Hit, lose a Ghost Shroud \nRegenerate Energy Shield equal to {0}% of your Evasion Rating per second if you have lost a Ghost Shroud Recently",
+        "1":{
+          "k":"per_minute_to_per_second_2dp_if_required",
+          "v":1
+        }
       }]
   },
   "5":{
-    "stats":["skill_effect_duration"],
+    "stats":["virtual_cooldown_modifiable_repeat_interval_ms"],
     "1":[]
   },
   "6":{

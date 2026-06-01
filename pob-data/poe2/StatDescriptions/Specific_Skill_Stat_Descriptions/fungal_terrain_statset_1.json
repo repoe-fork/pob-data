@@ -1,0 +1,34 @@
+{
+  "base_skill_effect_duration":1,
+  "fungal_terrain_spore_cloud_chaos_damage_per_minute":2,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"DNT Spore Cloud duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Spore Cloud duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["fungal_terrain_spore_cloud_chaos_damage_per_minute"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"DNT Spore Cloud deals {0} Chaos damage per second",
+        "1":{
+          "k":"per_minute_to_per_second",
+          "v":1
+        }
+      }]
+  }
+}

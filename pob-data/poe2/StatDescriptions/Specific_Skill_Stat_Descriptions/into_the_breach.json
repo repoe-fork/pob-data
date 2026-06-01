@@ -1,7 +1,9 @@
 {
   "base_remnant_duration_ms":1,
+  "breach_flame_spawn_radius":2,
   "parent":"skill_stat_descriptions",
-  "virtual_remnant_duration_ms":2,
+  "remnant_effect_+%":3,
+  "virtual_remnant_duration_ms":4,
   "1":{
     "stats":["base_remnant_duration_ms"],
     "1":[{
@@ -21,6 +23,27 @@
       }]
   },
   "2":{
+    "stats":["breach_flame_spawn_radius"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Flame of Chayula within 5m of you are revealed"
+      }]
+  },
+  "3":{
+    "stats":["remnant_effect_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Flames of Chayula have {0}% increased effect"
+      },{
+        "limit":[["#",-1]],
+        "text":"Flames of Chayula have {0}% reduced effect",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "4":{
     "stats":["virtual_remnant_duration_ms"],
     "1":[]
   }

@@ -1,0 +1,52 @@
+{
+  "base_skill_area_of_effect_+%":1,
+  "parent":"skill_stat_descriptions",
+  "tangmazu_raven_added_to_your_flock_every_x_msec_a_rare_or_unique_enemy_is_in_your_presence":2,
+  "tangmazu_raven_added_to_your_flock_every_x_power_of_enemies_killed":3,
+  "tangmazu_raven_flock_count":4,
+  "1":{
+    "stats":["base_skill_area_of_effect_+%"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"Raven Flock's Skills have {0}% increased Area of Effect"
+      },{
+        "gem_quality":true,
+        "limit":[["#",-1]],
+        "text":"Raven Flock's Skills have {0}% reduced Area of Effect",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["tangmazu_raven_added_to_your_flock_every_x_msec_a_rare_or_unique_enemy_is_in_your_presence"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"A Raven joins the Flock every {0} second while a Rare or Unique enemy is in your Presence",
+        "1":{
+          "k":"divide_by_one_thousand",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"A Raven joins the Flock every {0} seconds while a Rare or Unique enemy is in your Presence",
+        "1":{
+          "k":"divide_by_one_thousand",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["tangmazu_raven_added_to_your_flock_every_x_power_of_enemies_killed"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"A Raven joins the Flock for every {0} total Power of enemies slain by you or your Minions"
+      }]
+  },
+  "4":{
+    "stats":["tangmazu_raven_flock_count"],
+    "1":[]
+  }
+}

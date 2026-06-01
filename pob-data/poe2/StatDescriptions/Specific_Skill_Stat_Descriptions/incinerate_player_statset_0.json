@@ -91,6 +91,14 @@
   "9":{
     "stats":["incinerate_maximum_fuel"],
     "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"+{0} seconds of Maximum fuel",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
         "limit":[[1000,1000]],
         "text":"Can store up to {0} second of fuel",
         "1":{

@@ -3,6 +3,7 @@
   "active_skill_base_area_of_effect_radius":2,
   "parent":"skill_stat_descriptions",
   "sandstorm_swipe_storm_radius_+_per_stage":3,
+  "windstorm_gain_all_damage_%_as_corresponding_element_if_empowered":4,
   "1":{
     "stats":["active_skill_area_of_effect_radius"],
     "1":[]
@@ -34,6 +35,13 @@
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
+      }]
+  },
+  "4":{
+    "stats":["windstorm_gain_all_damage_%_as_corresponding_element_if_empowered"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Elemental Whirlwinds Gain {0}% of damage as damage of the corresponding Type"
       }]
   }
 }

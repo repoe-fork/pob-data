@@ -1,0 +1,35 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "parent":"skill_stat_descriptions",
+  "skill_has_trigger_from_unique_item":3,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["skill_has_trigger_from_unique_item"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"This Attack is Triggered by Brutus' Lead Sprinkler"
+      }]
+  }
+}

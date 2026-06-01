@@ -1,0 +1,63 @@
+{
+  "active_skill_area_of_effect_radius":1,
+  "active_skill_base_area_of_effect_radius":2,
+  "active_skill_hit_damage_freeze_multiplier_+permyriad_final_per_1%_of_target_ailment_threshold_being_dealt_by_ignite_per_second":3,
+  "parent":"skill_stat_descriptions",
+  "skill_specific_stat_description_mode":4,
+  "1":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[10,10]],
+        "text":"{0:+d} metre to wave radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:+d} metres to wave radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[[10,10]],
+        "text":"Wave radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Wave radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["active_skill_hit_damage_freeze_multiplier_+permyriad_final_per_1%_of_target_ailment_threshold_being_dealt_by_ignite_per_second"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% more Freeze Buildup for each 1% of enemy's Ailment Threshold dealt by the affected Ignite per second",
+        "1":{
+          "k":"divide_by_one_hundred_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Hits enemies every 0.5 seconds until affected Ignite expires"
+      }]
+  }
+}

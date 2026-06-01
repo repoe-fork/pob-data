@@ -1,0 +1,33 @@
+{
+  "active_skill_buff_stack_gain_frequency_ms":1,
+  "base_active_skill_buff_stack_gain_frequency_ms":2,
+  "maximum_number_of_arctic_armour_stationary_stacks":2,
+  "parent":"skill_stat_descriptions",
+  "virtual_maximum_number_of_arctic_armour_stationary_stacks":3,
+  "1":{
+    "stats":["active_skill_buff_stack_gain_frequency_ms"],
+    "1":[]
+  },
+  "2":{
+    "stats":["base_active_skill_buff_stack_gain_frequency_ms","maximum_number_of_arctic_armour_stationary_stacks"],
+    "1":[{
+        "limit":[[1000,1000],["#","#"]],
+        "text":"Gains a Stage every second, up to a maximum of {1} Stages",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Gains a Stage every {0} seconds, up to a maximum of {1} Stages",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["virtual_maximum_number_of_arctic_armour_stationary_stacks"],
+    "1":[]
+  }
+}

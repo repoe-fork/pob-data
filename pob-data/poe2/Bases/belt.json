@@ -2,7 +2,7 @@
   "Double Belt":{
     "charmLimit":0,
     "implicit":"(20-30)% increased Charm Charges gained\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[]],
+    "implicitModTypes":[["charm"]],
     "req":{
       "level":44
     },
@@ -18,6 +18,19 @@
     "implicitModTypes":[[]],
     "req":{
       "level":62
+    },
+    "tags":{
+      "belt":true,
+      "default":true
+    },
+    "type":"Belt"
+  },
+  "Forking Belt":{
+    "charmLimit":0,
+    "implicit":"Has 1 Charm Slot\nAdds 1 to (20-30) Lightning damage to Attacks\nHas (1-3) Charm Slots",
+    "implicitModTypes":[["charm"],["elemental_damage","damage","elemental","lightning","attack"]],
+    "req":{
+      "level":32
     },
     "tags":{
       "belt":true,
@@ -51,6 +64,19 @@
     },
     "type":"Belt"
   },
+  "Invoking Belt":{
+    "charmLimit":0,
+    "implicit":"Has 1 Charm Slot\n(8-12)% increased Cast Speed\nHas (1-3) Charm Slots",
+    "implicitModTypes":[["charm"],["caster_speed","caster","speed"]],
+    "req":{
+      "level":32
+    },
+    "tags":{
+      "belt":true,
+      "default":true
+    },
+    "type":"Belt"
+  },
   "Linen Belt":{
     "charmLimit":0,
     "implicit":"(20-30)% increased Mana Recovery from Flasks\nHas (1-3) Charm Slots",
@@ -65,7 +91,7 @@
   "Long Belt":{
     "charmLimit":0,
     "implicit":"(15-20)% increased Charm Effect Duration\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[]],
+    "implicitModTypes":[["charm"]],
     "req":{
       "level":20
     },
@@ -91,7 +117,7 @@
   "Ornate Belt":{
     "charmLimit":0,
     "implicit":"(10-15)% reduced Charm Charges used\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[]],
+    "implicitModTypes":[["charm"]],
     "req":{
       "level":31
     },
@@ -103,8 +129,8 @@
   },
   "Plate Belt":{
     "charmLimit":0,
-    "implicit":"+(100-140) to Armour\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["armour","defences"]],
+    "implicit":"+(140-180) to Armour\nHas (1-3) Charm Slots",
+    "implicitModTypes":[["defences","armour"]],
     "req":{
       "level":24
     },
@@ -119,6 +145,46 @@
     "implicit":"(20-30)% increased Life Recovery from Flasks\nHas (1-3) Charm Slots",
     "implicitModTypes":[["flask","resource","life"]],
     "req":[],
+    "tags":{
+      "belt":true,
+      "default":true
+    },
+    "type":"Belt"
+  },
+  "Runemastered Heavy Belt":{
+    "charmLimit":0,
+    "implicit":"(20-30)% increased Stun Threshold\nFlasks gain (0.5-1) charges per Second\nHas (1-3) Charm Slots",
+    "implicitModTypes":[[],[]],
+    "req":{
+      "level":50
+    },
+    "tags":{
+      "belt":true,
+      "default":true,
+      "runeforged":true
+    },
+    "type":"Belt"
+  },
+  "Sinew Belt":{
+    "charmLimit":0,
+    "implicit":"Has 1 Charm Slot\n+(15-20) to Strength\nHas (1-3) Charm Slots",
+    "implicitModTypes":[["charm"],["attribute"]],
+    "req":{
+      "level":32
+    },
+    "tags":{
+      "belt":true,
+      "default":true
+    },
+    "type":"Belt"
+  },
+  "Stalking Belt":{
+    "charmLimit":0,
+    "implicit":"Has 1 Charm Slot\nThis item gains bonuses from Socketed Items as though it was Boots\nHas (1-3) Charm Slots",
+    "implicitModTypes":[["charm"],[]],
+    "req":{
+      "level":40
+    },
     "tags":{
       "belt":true,
       "default":true

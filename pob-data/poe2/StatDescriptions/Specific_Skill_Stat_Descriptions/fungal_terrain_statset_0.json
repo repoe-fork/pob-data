@@ -1,0 +1,38 @@
+{
+  "base_skill_effect_duration":1,
+  "fungal_terrain_maximum_mushrooms":2,
+  "fungal_terrain_number_of_mushrooms_per_use":3,
+  "parent":"skill_stat_descriptions",
+  "1":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"DNT Mushroom duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"DNT Mushroom duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["fungal_terrain_maximum_mushrooms"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"DNT Maximum {0} Mushrooms"
+      }]
+  },
+  "3":{
+    "stats":["fungal_terrain_number_of_mushrooms_per_use"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"DNT Spawns {0} Mushrooms per Skill Use"
+      }]
+  }
+}

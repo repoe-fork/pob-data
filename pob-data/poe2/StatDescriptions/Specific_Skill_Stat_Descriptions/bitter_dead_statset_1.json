@@ -1,0 +1,40 @@
+{
+  "active_skill_area_of_effect_radius":4,
+  "active_skill_base_area_of_effect_radius":3,
+  "parent":"skill_stat_descriptions",
+  "spell_maximum_base_cold_damage":2,
+  "spell_minimum_base_cold_damage":2,
+  "volatile_dead_base_number_of_corpses_to_consume":1,
+  "1":{
+    "stats":["volatile_dead_base_number_of_corpses_to_consume"]
+  },
+  "2":{
+    "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
+    "1":[{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Deals {0} to {1} Cold damage"
+      }]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Explosion radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Explosion radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  }
+}

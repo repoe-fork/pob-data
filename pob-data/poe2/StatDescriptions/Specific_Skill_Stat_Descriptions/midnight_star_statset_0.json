@@ -1,0 +1,39 @@
+{
+  "base_skill_cannot_generate_midnight_star_petals":1,
+  "midnight_star_attempt_to_consume_x_ice_seeds_to_create_an_ice_crystal_each_time_you_gain_ice_seeds":4,
+  "midnight_star_gain_ice_seeds_equal_to_enemy_power_on_kill_with_critical_hit":2,
+  "midnight_star_gain_x_ice_seeds_when_you_critically_hit_a_rare_or_unique_enemy":3,
+  "parent":"skill_stat_descriptions",
+  "unique_nattblom_crystals_per_trigger":4,
+  "1":{
+    "stats":["base_skill_cannot_generate_midnight_star_petals"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"You cannot gain Arctic Petals from this Skill's Critical Hits"
+      }]
+  },
+  "2":{
+    "stats":["midnight_star_gain_ice_seeds_equal_to_enemy_power_on_kill_with_critical_hit"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"+1 Arctic Petal per Power of targets Killed with Critical Hits"
+      }]
+  },
+  "3":{
+    "stats":["midnight_star_gain_x_ice_seeds_when_you_critically_hit_a_rare_or_unique_enemy"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"{0:+d} Arctic Petal on Critically Hitting Rare or Unique targets"
+      },{
+        "limit":[[2,"#"]],
+        "text":"{0:+d} Arctic Petals on Critically Hitting Rare or Unique targets"
+      }]
+  },
+  "4":{
+    "stats":["midnight_star_attempt_to_consume_x_ice_seeds_to_create_an_ice_crystal_each_time_you_gain_ice_seeds","unique_nattblom_crystals_per_trigger"],
+    "1":[{
+        "limit":[[1,"#"],["#","#"]],
+        "text":"Consumes {0} Arctic Petals to create {1} Ice Crystals when able"
+      }]
+  }
+}

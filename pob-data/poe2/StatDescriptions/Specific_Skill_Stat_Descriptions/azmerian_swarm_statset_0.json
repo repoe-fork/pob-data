@@ -1,0 +1,90 @@
+{
+  "%_chance_to_apply_hounded_by_wisps_on_hit":4,
+  "active_skill_minion_1%_attack_speed_+%_per_X_player_dexterity":8,
+  "base_skill_effect_duration":6,
+  "max_azmerian_swarms":3,
+  "minion_damage_+%_final_per_different_elemental_ailment_on_target":9,
+  "minion_duration":7,
+  "non_skill_base_physical_damage_%_to_convert_to_random_element":5,
+  "parent":"skill_stat_descriptions",
+  "skill_grants_%_chance_to_summon_azmerian_swarm_on_hitting_unique_or_rare_enemy_affected_by_elemental_ailment":2,
+  "skill_grants_%_chance_to_summon_azmerian_swarm_on_kill_affected_by_elemental_ailment":1,
+  "1":{
+    "stats":["skill_grants_%_chance_to_summon_azmerian_swarm_on_kill_affected_by_elemental_ailment"],
+    "1":[{
+        "limit":[[100,"#"]],
+        "text":"Summon an Azmerian Swarm when you kill a target affected by an Elemental Ailment"
+      },{
+        "limit":[[1,"#"]],
+        "text":"{0}% chance to summon an Azmerian Swarm when you kill a target affected by an Elemental Ailment"
+      }]
+  },
+  "2":{
+    "stats":["skill_grants_%_chance_to_summon_azmerian_swarm_on_hitting_unique_or_rare_enemy_affected_by_elemental_ailment"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"{0}% chance to summon an Azmerian Swarm when you Hit a Rare or Unique target affected by an Elemental Ailment"
+      }]
+  },
+  "3":{
+    "stats":["max_azmerian_swarms"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[0,"#"]],
+        "text":"Maximum {0:+d} Azmerian Swarms"
+      },{
+        "limit":[[0,"#"]],
+        "text":"Maximum {0} Azmerian Swarms"
+      }]
+  },
+  "4":{
+    "stats":["%_chance_to_apply_hounded_by_wisps_on_hit"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Swarms have {0}% chance to inflict 1 Faerie Fire on Hit"
+      }]
+  },
+  "5":{
+    "stats":["non_skill_base_physical_damage_%_to_convert_to_random_element"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Swarms Convert {0}% of Physical Damage to a random Element"
+      }]
+  },
+  "6":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Swarm duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Swarm duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "7":{
+    "stats":["minion_duration"],
+    "1":[]
+  },
+  "8":{
+    "stats":["active_skill_minion_1%_attack_speed_+%_per_X_player_dexterity"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Swarms have 1% increased Attack Speed\nper {0} of your Dexterity"
+      }]
+  },
+  "9":{
+    "stats":["minion_damage_+%_final_per_different_elemental_ailment_on_target"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Swarms deal {0}% more Damage with Hits for each type of Elemental Ailment on target"
+      }]
+  }
+}

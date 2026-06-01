@@ -136,6 +136,32 @@
     },
     "type":"Wand"
   },
+  "Runemastered Runic Fork":{
+    "implicit":"+300 to maximum Runic Ward",
+    "implicitModTypes":[["runic_ward"]],
+    "quality":20,
+    "req":[],
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "onehand":true,
+      "runeforged":true,
+      "wand":true
+    },
+    "type":"Wand"
+  },
+  "Runic Fork":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":[],
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "onehand":true,
+      "wand":true
+    },
+    "type":"Wand"
+  },
   "Siphoning Wand":{
     "implicit":"Grants Skill: Level (1-20) Power Siphon",
     "implicitModTypes":[],
@@ -151,6 +177,19 @@
   },
   "Torture Wand":{
     "implicit":"Grants Skill: Level (1-20) Chaos Bolt",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":[],
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "onehand":true,
+      "wand":true
+    },
+    "type":"Wand"
+  },
+  "Twisted Wand":{
+    "implicit":"Grants Skill: Level (1-20) Coiling Bolts",
     "implicitModTypes":[],
     "quality":20,
     "req":[],

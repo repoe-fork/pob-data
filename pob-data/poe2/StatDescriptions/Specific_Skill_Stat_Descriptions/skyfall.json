@@ -1,0 +1,57 @@
+{
+  "active_skill_area_of_effect_radius":4,
+  "active_skill_base_area_of_effect_radius":5,
+  "active_skill_generates_%_of_ward_spent_as_glory":1,
+  "base_number_of_verisium_octopus_minions_allowed":3,
+  "parent":"skill_stat_descriptions",
+  "verisium_comet_number_of_minions_to_create":2,
+  "1":{
+    "stats":["active_skill_generates_%_of_ward_spent_as_glory"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Generates {0}% of Runic Ward spent as Glory for this Skill"
+      }]
+  },
+  "2":{
+    "stats":["verisium_comet_number_of_minions_to_create"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Creates {0} Temporary Minion"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Creates {0} Temporary Minions"
+      }]
+  },
+  "3":{
+    "stats":["base_number_of_verisium_octopus_minions_allowed"],
+    "1":[{
+        "limit":[[1,1]],
+        "text":"Limit {0} Temporary Minion"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Limit {0} Temporary Minions"
+      }]
+  },
+  "4":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "5":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  }
+}

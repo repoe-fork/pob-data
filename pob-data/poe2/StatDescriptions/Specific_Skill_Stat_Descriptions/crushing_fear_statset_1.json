@@ -1,0 +1,47 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "bell_hit_limit":1,
+  "crushing_fear_area_of_effect_+%_final_per_power_of_culled_enemy":4,
+  "crushing_fear_damage_+%_final_per_power_of_culled_enemy":5,
+  "parent":"specific_skill_stat_descriptions/tempest_bell_statset_0",
+  "1":{
+    "stats":["bell_hit_limit"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["crushing_fear_area_of_effect_+%_final_per_power_of_culled_enemy"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% more Area of Effect per Power of killed target"
+      }]
+  },
+  "5":{
+    "stats":["crushing_fear_damage_+%_final_per_power_of_culled_enemy"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% more Damage per Power of killed target"
+      }]
+  }
+}

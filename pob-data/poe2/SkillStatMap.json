@@ -1663,6 +1663,15 @@
       }
     }
   },
+  "base_cooldown_modifiable_repeat_interval_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CooldownRecovery",
+      "type":"BASE"
+    }
+  },
   "base_cooldown_modifier_ms":{
     "div":1000,
     "1":{
@@ -1959,6 +1968,12 @@
       "name":"LightningResistMax",
       "type":"BASE"
     }],
+  "base_maximum_seals_for_skill":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SealCount",
+      "type":"BASE"
+    }],
   "base_melee_attack_repeat_count":[{
       "flags":0,
       "keywordFlags":0,
@@ -2000,6 +2015,13 @@
         "skillType":77,
         "type":"SkillType"
       }
+    }],
+  "base_modifiers_to_projectile_count_do_not_apply":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"NoAdditionalProjectiles",
+      "type":"FLAG",
+      "value":true
     }],
   "base_movement_velocity_+%":[{
       "flags":0,
@@ -2396,6 +2418,13 @@
       "flags":0,
       "keywordFlags":0,
       "name":"Condition:BallistaSkill",
+      "type":"FLAG",
+      "value":true
+    }],
+  "base_skill_is_sealed_skill":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"HasSeals",
       "type":"FLAG",
       "value":true
     }],
@@ -3249,6 +3278,21 @@
       "name":"ColdDotMultiplier",
       "type":"BASE"
     }],
+  "companions_are_gigantic":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Gigantic",
+          "type":"FLAG",
+          "value":true
+        }
+      }
+    }],
   "consecrated_ground_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3333,6 +3377,17 @@
       "keywordFlags":0,
       "name":"CritChance",
       "type":"INC"
+    }],
+  "critical_strike_chance_+%_per_5_rage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CritChance",
+      "type":"INC",
+      "1":{
+        "div":5,
+        "stat":"Rage",
+        "type":"PerStat"
+      }
     }],
   "critical_strike_chance_+%_per_power_charge":[{
       "flags":0,
@@ -3430,6 +3485,23 @@
       "1":{
         "skillType":116,
         "type":"SkillType"
+      }
+    }],
+  "crushed_target_%_physical_damage_taken_as_armour_break":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:CanArmourBreak",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "effectName":"ArmourBreak",
+        "effectType":"Buff",
+        "type":"GlobalEffect"
+      },
+      "2":{
+        "actor":"enemy",
+        "type":"ActorCondition",
+        "var":"Crushed"
       }
     }],
   "curse_area_of_effect_+%":[{
@@ -3810,6 +3882,12 @@
       "type":"BASE"
     }
   },
+  "echoed_spell_area_of_effect_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"RepeatAreaOfEffect",
+      "type":"INC"
+    }],
   "elemental_damage_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3994,6 +4072,18 @@
         "percent":100,
         "stat":"Int",
         "type":"PercentStat"
+      }
+    }],
+  "gain_x%_of_maximum_rage_on_melee_hit":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:CanGainRage",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "effectName":"Rage",
+        "effectType":"Buff",
+        "type":"GlobalEffect"
       }
     }],
   "gain_x_rage_on_attack_hit":[{
@@ -4975,6 +5065,15 @@
         }
       }
     }],
+  "minion_base_resummon_time_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"BaseReviveTime",
+      "type":"OVERRIDE"
+    }
+  },
   "minion_block_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5119,6 +5218,20 @@
           "flags":0,
           "keywordFlags":0,
           "name":"ElementalResist",
+          "type":"BASE"
+        }
+      }
+    }],
+  "minion_fire_damage_resistance_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"FireResist",
           "type":"BASE"
         }
       }
@@ -5702,6 +5815,13 @@
       "name":"MinionPerCastCount",
       "type":"BASE"
     }],
+  "number_of_projectiles_cannot_be_modified":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"NoAdditionalProjectiles",
+      "type":"FLAG",
+      "value":true
+    }],
   "number_of_spider_minions_allowed":[{
       "flags":0,
       "keywordFlags":0,
@@ -6080,6 +6200,13 @@
         "type":"Multiplier",
         "var":"FrenzyCharge"
       }
+    }],
+  "physical_damage_can_freeze":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PhysicalCanFreeze",
+      "type":"FLAG",
+      "value":true
     }],
   "physical_damage_reduction_rating_+%":[{
       "flags":0,
@@ -7274,6 +7401,13 @@
         "type":"SkillType"
       }
     }],
+  "spells_have_culling_strike":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CanCull",
+      "type":"FLAG",
+      "value":true
+    }],
   "spells_impale_on_hit_%_chance":[{
       "flags":0,
       "keywordFlags":131072,
@@ -7559,7 +7693,7 @@
       "name":"CooldownRecovery",
       "type":"MORE"
     }],
-  "support_damage_+%_final_per_combo_stack":[{
+  "support_culmination_damage_+%_final_per_combo_stack":[{
       "flags":0,
       "keywordFlags":0,
       "name":"Damage",
@@ -7742,7 +7876,7 @@
       "name":"AdditionalCooldownUses",
       "type":"BASE",
       "1":{
-        "skillType":255,
+        "skillType":254,
         "type":"SkillType"
       }
     }],
@@ -7899,6 +8033,17 @@
       "1":{
         "skillType":27,
         "type":"SkillType"
+      }
+    }],
+  "supported_skill_attack_speed_+%_per_5_rage":[{
+      "flags":1,
+      "keywordFlags":0,
+      "name":"Speed",
+      "type":"INC",
+      "1":{
+        "div":5,
+        "stat":"Rage",
+        "type":"PerStat"
       }
     }],
   "supported_strike_skill_gem_level_+":[{

@@ -1,0 +1,55 @@
+{
+  "active_skill_area_of_effect_radius":2,
+  "active_skill_base_area_of_effect_radius":3,
+  "display_no_cooldown_use_if_empowered":4,
+  "parent":"skill_stat_descriptions",
+  "recover_%_of_life_over_2_seconds_when_consuming_a_divine_fragment":5,
+  "recover_%_of_mana_over_2_seconds_when_consuming_a_divine_fragment":6,
+  "total_attack_time_+_ms":1,
+  "1":{
+    "stats":["total_attack_time_+_ms"]
+  },
+  "2":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "3":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[10,10]],
+        "text":"Impact radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Impact radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["display_no_cooldown_use_if_empowered"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Does not consume a Cooldown Use"
+      }]
+  },
+  "5":{
+    "stats":["recover_%_of_life_over_2_seconds_when_consuming_a_divine_fragment"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Recover {0}% of maximum Life over 2 seconds"
+      }]
+  },
+  "6":{
+    "stats":["recover_%_of_mana_over_2_seconds_when_consuming_a_divine_fragment"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Recover {0}% of maximum Mana over 2 seconds"
+      }]
+  }
+}

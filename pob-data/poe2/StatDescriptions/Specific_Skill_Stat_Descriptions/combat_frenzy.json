@@ -4,6 +4,14 @@
   "1":{
     "stats":["skill_combat_frenzy_x_ms_cooldown"],
     "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0} seconds to delay on gaining a Frenzy Charge",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
         "limit":[[1000,1000]],
         "text":"Gain a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once per second"
       },{

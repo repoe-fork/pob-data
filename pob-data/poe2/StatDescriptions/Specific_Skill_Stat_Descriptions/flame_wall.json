@@ -14,6 +14,7 @@
   "skill_effect_duration":10,
   "spell_maximum_base_fire_damage":11,
   "spell_minimum_base_fire_damage":11,
+  "wall_maximum_length":12,
   "1":{
     "stats":["base_fire_damage_to_deal_per_minute"],
     "1":[{
@@ -117,6 +118,25 @@
     "1":[{
         "limit":[["#","#"],["#","#"]],
         "text":"Ignites as though dealing {0} to {1} Fire damage"
+      }]
+  },
+  "12":{
+    "stats":["wall_maximum_length"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"+{0} metres to Wall length",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Wall length is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
       }]
   }
 }

@@ -6,6 +6,7 @@
   "grenade_fuse_duration":6,
   "parent":"skill_stat_descriptions",
   "projectiles_nova":2,
+  "skill_detonation_time_+%":7,
   "1":{
     "stats":["active_skill_base_secondary_area_of_effect_radius"]
   },
@@ -55,5 +56,31 @@
   "6":{
     "stats":["grenade_fuse_duration"],
     "1":[]
+  },
+  "7":{
+    "stats":["skill_detonation_time_+%"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[[1,"#"]],
+        "text":"{0}% increased Detonation Time"
+      },{
+        "gem_quality":true,
+        "limit":[["#",-1]],
+        "text":"{0}% reduced Detonation Time",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      },{
+        "limit":[[1,"#"]],
+        "text":"{0}% increased Detonation Time"
+      },{
+        "limit":[["#",-1]],
+        "text":"{0}% reduced Detonation Time",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
   }
 }

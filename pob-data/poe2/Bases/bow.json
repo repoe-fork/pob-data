@@ -46,7 +46,7 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.15,
+      "AttackRateBase":1.1,
       "CritChanceBase":5,
       "PhysicalMax":72,
       "PhysicalMin":39,
@@ -287,7 +287,7 @@
     }
   },
   "Guardian Bow":{
-    "implicit":"(20-30)% chance to Chain an additional time",
+    "implicit":"(25-35)% chance to Chain an additional time",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -309,6 +309,31 @@
       "CritChanceBase":5,
       "PhysicalMax":88,
       "PhysicalMin":53,
+      "Range":120
+    }
+  },
+  "Heartwood Shortbow":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":134,
+      "level":67
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":5,
+      "PhysicalMax":76,
+      "PhysicalMin":41,
       "Range":120
     }
   },
@@ -407,7 +432,7 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.15,
+      "AttackRateBase":1.1,
       "CritChanceBase":5,
       "PhysicalMax":115,
       "PhysicalMin":62,
@@ -415,7 +440,7 @@
     }
   },
   "Protector Bow":{
-    "implicit":"(20-30)% chance to Chain an additional time",
+    "implicit":"(25-35)% chance to Chain an additional time",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -488,6 +513,172 @@
       "CritChanceBase":5,
       "PhysicalMax":61,
       "PhysicalMin":36,
+      "Range":120
+    }
+  },
+  "Runeforged Composite Bow":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":97,
+      "level":55
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "maraketh_basetype":true,
+      "ranged":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":5,
+      "PhysicalMax":88,
+      "PhysicalMin":53,
+      "Range":120
+    }
+  },
+  "Runeforged Crude Bow":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":97,
+      "level":55
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ezomyte_basetype":true,
+      "ranged":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "ChaosMax":62,
+      "ChaosMin":42,
+      "CritChanceBase":5,
+      "Range":120
+    }
+  },
+  "Runeforged Dualstring Bow":{
+    "implicit":"+50% Surpassing chance to fire an additional Arrow",
+    "implicitModTypes":[["attack"]],
+    "quality":20,
+    "req":{
+      "dex":97,
+      "level":55
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "maraketh_basetype":true,
+      "ranged":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.15,
+      "CritChanceBase":6.5,
+      "PhysicalMax":83,
+      "PhysicalMin":45,
+      "Range":120
+    }
+  },
+  "Runeforged Recurve Bow":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":72,
+      "level":40
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "maraketh_basetype":true,
+      "ranged":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.1,
+      "CritChanceBase":5,
+      "PhysicalMax":84,
+      "PhysicalMin":41,
+      "Range":120
+    }
+  },
+  "Runeforged Shortbow":{
+    "implicit":"Projectiles have 50% chance for an additional Projectile when Forking",
+    "implicitModTypes":[[]],
+    "quality":20,
+    "req":{
+      "dex":97,
+      "level":55
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ezomyte_basetype":true,
+      "ranged":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":5,
+      "PhysicalMax":81,
+      "PhysicalMin":44,
+      "Range":120
+    }
+  },
+  "Runeforged Zealot Bow":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":97,
+      "level":55
+    },
+    "socketLimit":4,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "vaal_basetype":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "ChaosMax":19,
+      "ChaosMin":7,
+      "CritChanceBase":10,
+      "PhysicalMax":67,
+      "PhysicalMin":44,
       "Range":120
     }
   },
@@ -595,7 +786,7 @@
     }
   },
   "Warden Bow":{
-    "implicit":"(20-30)% chance to Chain an additional time",
+    "implicit":"(25-35)% chance to Chain an additional time",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{

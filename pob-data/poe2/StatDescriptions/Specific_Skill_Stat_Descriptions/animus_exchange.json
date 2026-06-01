@@ -1,0 +1,66 @@
+{
+  "animus_exchange_additional_%_spend_per_animus_exchange_stack":1,
+  "animus_exchange_damage_taken_goes_to_life_over_4_seconds_%":3,
+  "animus_exchange_gain_%_maximum_energy_shield_spent_as_ward":2,
+  "animus_exchange_gain_%_maximum_life_spent_as_ward":2,
+  "animus_exchange_spend_%_maximum_energy_shield":1,
+  "animus_exchange_spend_up_to_X_life":1,
+  "base_skill_effect_duration":4,
+  "parent":"skill_stat_descriptions",
+  "skill_effect_duration":5,
+  "1":{
+    "stats":["animus_exchange_spend_up_to_X_life","animus_exchange_spend_%_maximum_energy_shield","animus_exchange_additional_%_spend_per_animus_exchange_stack"],
+    "1":[{
+        "limit":[[0,0],["#","#"],["#","#"]],
+        "text":"Sacrifices up to {1} Energy Shield"
+      },{
+        "limit":[["#","#"],[0,0],["#","#"]],
+        "text":"Sacrifices up to {0} Life"
+      },{
+        "limit":[["#","#"],["#","#"],["#","#"]],
+        "text":"Sacrifices up to {0} Life and {1} Energy Shield"
+      }]
+  },
+  "2":{
+    "stats":["animus_exchange_gain_%_maximum_life_spent_as_ward","animus_exchange_gain_%_maximum_energy_shield_spent_as_ward"],
+    "1":[{
+        "limit":[[0,0],["#","#"]],
+        "text":"Gain Runic Ward equal to {1}% of Sacrificed Energy Shield"
+      },{
+        "limit":[["#","#"],[0,0]],
+        "text":"Gain Runic Ward equal to {0}% of Sacrificed Life"
+      },{
+        "limit":[["#","#"],["#","#"]],
+        "text":"Gain Runic Ward equal to {0}% of Sacrificed Life and\n{1}% of Sacrificed Energy Shield"
+      }]
+  },
+  "3":{
+    "stats":["animus_exchange_damage_taken_goes_to_life_over_4_seconds_%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% of damage taken Recouped as Life while\nyou have Animus Sensitivity"
+      }]
+  },
+  "4":{
+    "stats":["base_skill_effect_duration"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Animus Sensitivity duration is {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Animus Sensitivity duration is {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["skill_effect_duration"],
+    "1":[]
+  }
+}

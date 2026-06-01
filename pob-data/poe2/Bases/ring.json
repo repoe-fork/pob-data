@@ -11,7 +11,7 @@
   },
   "Amethyst Ring":{
     "implicit":"+(7-13)% to Chaos Resistance",
-    "implicitModTypes":[["chaos","resistance"]],
+    "implicitModTypes":[["chaos_resistance","chaos","resistance"]],
     "req":{
       "level":20
     },
@@ -21,8 +21,20 @@
     },
     "type":"Ring"
   },
+  "Biostatic Ring":{
+    "implicit":"+1% to all maximum Resistances",
+    "implicitModTypes":[["resistance"]],
+    "req":{
+      "level":52
+    },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
   "Breach Ring":{
-    "implicit":"Maximum Quality is 40%",
+    "implicit":"+20% to Maximum Quality",
     "implicitModTypes":[[]],
     "req":{
       "level":40
@@ -91,10 +103,34 @@
     },
     "type":"Ring"
   },
+  "Grasping Ring":{
+    "implicit":"This item gains bonuses from Socketed Items as though it was Gloves",
+    "implicitModTypes":[[]],
+    "req":{
+      "level":40
+    },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
   "Iron Ring":{
     "implicit":"Adds 1 to 4 Physical Damage to Attacks",
     "implicitModTypes":[["physical_damage","damage","physical","attack"]],
     "req":[],
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
+  "Kinetic Ring":{
+    "implicit":"Adds (6-9) to (11-15) Physical Damage to Attacks",
+    "implicitModTypes":[["physical_damage","damage","physical","attack"]],
+    "req":{
+      "level":40
+    },
     "tags":{
       "default":true,
       "ring":true
@@ -111,9 +147,33 @@
     },
     "type":"Ring"
   },
+  "Mnemonic Ring":{
+    "implicit":"(4-6)% increased maximum Mana",
+    "implicitModTypes":[["resource","mana"]],
+    "req":{
+      "level":40
+    },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
+  "Oneiric Ring":{
+    "implicit":"(11-23)% increased Chaos Damage",
+    "implicitModTypes":[["chaos_damage","damage","chaos"]],
+    "req":{
+      "level":47
+    },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
   "Pearl Ring":{
     "implicit":"(7-10)% increased Cast Speed",
-    "implicitModTypes":[["caster","speed"]],
+    "implicitModTypes":[["caster_speed","caster","speed"]],
     "req":{
       "level":32
     },
@@ -135,9 +195,21 @@
   },
   "Prismatic Ring":{
     "implicit":"+(7-10)% to all Elemental Resistances",
-    "implicitModTypes":[["elemental","fire","cold","lightning","resistance"]],
+    "implicitModTypes":[["cold_resistance","elemental_resistance","fire_resistance","lightning_resistance","elemental","fire","cold","lightning","resistance"]],
     "req":{
       "level":35
+    },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
+  "Refined Breach Ring":{
+    "implicit":"+25% to Maximum Quality",
+    "implicitModTypes":[[]],
+    "req":{
+      "level":40
     },
     "tags":{
       "default":true,
@@ -156,7 +228,7 @@
   },
   "Ruby Ring":{
     "implicit":"+(20-30)% to Fire Resistance",
-    "implicitModTypes":[["elemental","fire","resistance"]],
+    "implicitModTypes":[["elemental_resistance","fire_resistance","elemental","fire","resistance"]],
     "req":{
       "level":8
     },
@@ -168,7 +240,7 @@
   },
   "Sapphire Ring":{
     "implicit":"+(20-30)% to Cold Resistance",
-    "implicitModTypes":[["elemental","cold","resistance"]],
+    "implicitModTypes":[["cold_resistance","elemental_resistance","elemental","cold","resistance"]],
     "req":{
       "level":12
     },
@@ -190,10 +262,20 @@
   },
   "Topaz Ring":{
     "implicit":"+(20-30)% to Lightning Resistance",
-    "implicitModTypes":[["elemental","lightning","resistance"]],
+    "implicitModTypes":[["elemental_resistance","lightning_resistance","elemental","lightning","resistance"]],
     "req":{
       "level":16
     },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
+  "Two-Stone Ring":{
+    "implicit":"+(12-16)% to Cold and Lightning Resistances",
+    "implicitModTypes":[["cold_resistance","elemental_resistance","lightning_resistance","elemental","cold","lightning","resistance"]],
+    "req":[],
     "tags":{
       "default":true,
       "ring":true
@@ -205,6 +287,18 @@
     "implicitModTypes":[[]],
     "req":{
       "level":44
+    },
+    "tags":{
+      "default":true,
+      "ring":true
+    },
+    "type":"Ring"
+  },
+  "Vitalic Ring":{
+    "implicit":"(4-6)% increased maximum Life",
+    "implicitModTypes":[["resource","life"]],
+    "req":{
+      "level":40
     },
     "tags":{
       "default":true,

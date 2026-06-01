@@ -7,7 +7,8 @@
   "skill_effect_duration":6,
   "skill_specific_stat_description_mode":1,
   "windstorm_base_maximum_number_of_storms":7,
-  "windstorm_maximum_number_of_storms":8,
+  "windstorm_gain_all_damage_%_as_corresponding_element_if_empowered":8,
+  "windstorm_maximum_number_of_storms":9,
   "1":{
     "stats":["skill_specific_stat_description_mode"],
     "1":[{
@@ -81,6 +82,17 @@
       }]
   },
   "8":{
+    "stats":["windstorm_gain_all_damage_%_as_corresponding_element_if_empowered"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Elemental Whirlwinds Gain +{0}% of damage as damage of the corresponding Type"
+      },{
+        "limit":[["#","#"]],
+        "text":"Elemental Whirlwinds Gain {0}% of damage as damage of the corresponding Type"
+      }]
+  },
+  "9":{
     "stats":["windstorm_maximum_number_of_storms"],
     "1":[]
   }

@@ -29,7 +29,7 @@
   },
   "Barbed Spear":{
     "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
-    "implicitModTypes":[["physical_damage","bleed","damage","physical","attack","ailment"]],
+    "implicitModTypes":[["bleed","physical_damage","damage","physical","attack","ailment"]],
     "quality":20,
     "req":{
       "dex":47,
@@ -370,7 +370,7 @@
   },
   "Jagged Spear":{
     "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
-    "implicitModTypes":[["physical_damage","bleed","damage","physical","attack","ailment"]],
+    "implicitModTypes":[["bleed","physical_damage","damage","physical","attack","ailment"]],
     "quality":20,
     "req":{
       "dex":81,
@@ -472,6 +472,232 @@
       "Range":15
     }
   },
+  "Runeforged Barbed Spear":{
+    "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes":[["bleed","physical_damage","damage","physical","attack","ailment"]],
+    "quality":20,
+    "req":{
+      "dex":76,
+      "level":55,
+      "str":31
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "vaal_basetype":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":6,
+      "FireMax":95,
+      "FireMin":51,
+      "PhysicalMax":49,
+      "PhysicalMin":26,
+      "Range":15
+    }
+  },
+  "Runeforged Forked Spear":{
+    "implicit":"Grants Skill: Spear Throw",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":76,
+      "level":55,
+      "str":31
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "maraketh_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.6,
+      "CritChanceBase":7,
+      "PhysicalMax":57,
+      "PhysicalMin":8,
+      "Range":15
+    }
+  },
+  "Runeforged Hardwood Spear":{
+    "implicit":"Grants Skill: Spear Throw",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":56,
+      "level":40,
+      "str":23
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.6,
+      "CritChanceBase":5,
+      "PhysicalMax":45,
+      "PhysicalMin":24,
+      "Range":15
+    }
+  },
+  "Runeforged Hunting Spear":{
+    "implicit":"Grants Skill: Spear Throw\n(15-25)% chance to Maim on Hit",
+    "implicitModTypes":[["attack"]],
+    "quality":20,
+    "req":{
+      "dex":54,
+      "level":38,
+      "str":23
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.55,
+      "CritChanceBase":5,
+      "PhysicalMax":108,
+      "PhysicalMin":65,
+      "Range":15
+    }
+  },
+  "Runeforged Ironhead Spear":{
+    "implicit":"Grants Skill: Spear Throw",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":54,
+      "level":38,
+      "str":23
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.6,
+      "CritChanceBase":5,
+      "PhysicalMax":54,
+      "PhysicalMin":40,
+      "Range":15
+    }
+  },
+  "Runeforged War Spear":{
+    "implicit":"Grants Skill: Spear Throw\n(25-35)% increased Projectile Speed with this Weapon",
+    "implicitModTypes":[[]],
+    "quality":20,
+    "req":{
+      "dex":56,
+      "level":40,
+      "str":23
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "maraketh_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.6,
+      "CritChanceBase":5,
+      "PhysicalMax":98,
+      "PhysicalMin":59,
+      "Range":15
+    }
+  },
+  "Runeforged Winged Spear":{
+    "implicit":"Grants Skill: Spear Throw",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":56,
+      "level":40,
+      "str":23
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "maraketh_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.7,
+      "CritChanceBase":5,
+      "LightningMax":125,
+      "LightningMin":0,
+      "Range":15
+    }
+  },
+  "Runemastered Ironhead Spear":{
+    "implicit":"Grants Skill: Spear Throw",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":76,
+      "level":55,
+      "str":31
+    },
+    "socketLimit":3,
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "runeforged":true,
+      "spear":true,
+      "weapon":true
+    },
+    "type":"Spear",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":5,
+      "PhysicalMax":127,
+      "PhysicalMin":94,
+      "Range":15
+    }
+  },
   "Seaglass Spear":{
     "implicit":"Grants Skill: Spear Throw",
     "implicitModTypes":[],
@@ -529,7 +755,7 @@
   },
   "Spiked Spear":{
     "implicit":"Grants Skill: Spear Throw\nBleeding you inflict deals Damage (10-20)% faster",
-    "implicitModTypes":[["physical_damage","bleed","damage","physical","attack","ailment"]],
+    "implicitModTypes":[["bleed","physical_damage","damage","physical","attack","ailment"]],
     "quality":20,
     "req":{
       "dex":127,

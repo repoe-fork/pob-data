@@ -1,0 +1,91 @@
+{
+  "active_skill_buff_stack_gain_frequency_ms":6,
+  "base_active_skill_buff_stack_gain_frequency_ms":1,
+  "gem_barrier_blue_grants_life_regeneration_rate_+%":5,
+  "gem_barrier_blue_grants_mana_regeneration_rate_+%":7,
+  "gem_barrier_green_grants_evasion_rating_+%":4,
+  "gem_barrier_red_grants_maximum_life_+%":3,
+  "parent":"skill_stat_descriptions",
+  "skill_specific_stat_description_mode":2,
+  "virtual_gem_barrier_blue_maximum_stacks":8,
+  "virtual_gem_barrier_green_maximum_stacks":9,
+  "virtual_gem_barrier_red_maximum_stacks":10,
+  "1":{
+    "stats":["base_active_skill_buff_stack_gain_frequency_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Gains a random Mote every second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Gains a random Mote every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Maximum of each Attribute of Mote is {0} plus the number of Skills you have which require that Attribute\nSingle-Attribute Skills grant twice as many maximum Motes"
+      }]
+  },
+  "3":{
+    "stats":["gem_barrier_red_grants_maximum_life_+%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% increased maximum Life per Strength Mote"
+      }]
+  },
+  "4":{
+    "stats":["gem_barrier_green_grants_evasion_rating_+%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% increased Armour, Evasion and\nEnergy Shield per Dexterity Mote"
+      }]
+  },
+  "5":{
+    "stats":["gem_barrier_blue_grants_life_regeneration_rate_+%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% increased Life Regeneration rate per Intelligence Mote"
+      }]
+  },
+  "6":{
+    "stats":["active_skill_buff_stack_gain_frequency_ms"],
+    "1":[]
+  },
+  "7":{
+    "stats":["gem_barrier_blue_grants_mana_regeneration_rate_+%"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"{0}% increased Mana Regeneration rate per Intelligence Mote"
+      }]
+  },
+  "8":{
+    "stats":["virtual_gem_barrier_blue_maximum_stacks"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Maximum Intelligence Motes@{0}"
+      }]
+  },
+  "9":{
+    "stats":["virtual_gem_barrier_green_maximum_stacks"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Maximum Dexterity Motes@{0}"
+      }]
+  },
+  "10":{
+    "stats":["virtual_gem_barrier_red_maximum_stacks"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Maximum Strength Motes@{0}"
+      }]
+  }
+}

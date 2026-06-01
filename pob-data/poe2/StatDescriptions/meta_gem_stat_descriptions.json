@@ -1,27 +1,34 @@
 {
   "active_skill_base_area_of_effect_radius":8,
-  "base_curse_duration_+%":9,
-  "base_skill_area_of_effect_+%":10,
-  "curse_effect_+%":11,
-  "damage_+%":12,
+  "base_cooldown_speed_+%":9,
+  "base_curse_duration_+%":10,
+  "base_skill_area_of_effect_+%":11,
+  "base_skill_cost_efficiency_+%":12,
+  "base_skill_ward_cost_as_%_of_life_and_mana_cost":13,
+  "cannot_consume_power_frenzy_endurance_charges":14,
+  "curse_effect_+%":23,
+  "damage_+%":16,
   "disable_skill_if_melee_attack":7,
   "display_bear_warcry":1,
-  "feral_invocation_energy_cost_per_X_ms_of_base_attack_time":13,
-  "generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time":14,
-  "generic_ongoing_trigger_triggers_at_maximum_energy":14,
-  "mark_effect_+%":15,
+  "feral_invocation_energy_cost_per_X_ms_of_base_attack_time":17,
+  "generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time":18,
+  "generic_ongoing_trigger_triggers_at_maximum_energy":18,
+  "mantra_of_illusions_triggered_skill_attack_speed_+%_final":19,
+  "mantra_of_illusions_triggered_skill_damage_+%_final":20,
+  "mark_effect_+%":21,
   "parent":"gem_stat_descriptions",
   "quality_display_active_skill_base_area_of_effect_radius_is_gem":8,
-  "skill_empower_limitation_specifier_for_stat_description":18,
-  "skill_empowers_next_x_melee_attacks":18,
+  "skill_effect_duration_+%":22,
+  "skill_empower_limitation_specifier_for_stat_description":26,
+  "skill_empowers_next_x_melee_attacks":26,
   "support_additional_totem_damage_+%_final":3,
   "support_attack_totem_attack_speed_+%_final":6,
   "support_blasphemy_curse_effect_+%_final":4,
   "support_spell_totem_cast_speed_+%_final":5,
   "support_totem_damage_+%_final":2,
-  "trigger_meta_gem_damage_+%_final":16,
-  "warcry_buff_effect_+%":17,
-  "warcry_grant_damage_+%_to_exerted_attacks":19,
+  "trigger_meta_gem_damage_+%_final":24,
+  "warcry_buff_effect_+%":25,
+  "warcry_grant_damage_+%_to_exerted_attacks":27,
   "1":{
     "stats":["display_bear_warcry"],
     "1":[{
@@ -118,6 +125,20 @@
       }]
   },
   "9":{
+    "stats":["base_cooldown_speed_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Socketed Skills have {0}% increased Cooldown Recovery Rate"
+      },{
+        "limit":[["#",-1]],
+        "text":"Socketed Skills have {0}% reduced Cooldown Recovery Rate",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "10":{
     "stats":["base_curse_duration_+%"],
     "1":[{
         "gem_quality":true,
@@ -135,7 +156,7 @@
         }
       }]
   },
-  "10":{
+  "11":{
     "stats":["base_skill_area_of_effect_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -149,7 +170,35 @@
         }
       }]
   },
-  "11":{
+  "12":{
+    "stats":["base_skill_cost_efficiency_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Socketed Skills have {0}% increased Cost Efficiency"
+      },{
+        "limit":[["#",-1]],
+        "text":"Socketed Skills have {0}% reduced Cost Efficiency",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "13":{
+    "stats":["base_skill_ward_cost_as_%_of_life_and_mana_cost"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Socketed Skills Gain {0}% of Life and Mana Cost as Extra Runic Ward Cost"
+      }]
+  },
+  "14":{
+    "stats":["cannot_consume_power_frenzy_endurance_charges"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Socketed Skills cannot consume Charges"
+      }]
+  },
+  "15":{
     "stats":["curse_effect_+%"],
     "1":[{
         "gem_quality":true,
@@ -167,7 +216,7 @@
         }
       }]
   },
-  "12":{
+  "16":{
     "stats":["damage_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -181,7 +230,7 @@
         }
       }]
   },
-  "13":{
+  "17":{
     "stats":["feral_invocation_energy_cost_per_X_ms_of_base_attack_time"],
     "1":[{
         "limit":[["#","#"]],
@@ -192,7 +241,7 @@
         }
       }]
   },
-  "14":{
+  "18":{
     "stats":["generic_ongoing_trigger_1_maximum_energy_per_Xms_total_cast_time","generic_ongoing_trigger_triggers_at_maximum_energy"],
     "1":[{
         "limit":[["!",0],["!",0]],
@@ -210,7 +259,35 @@
         }
       }]
   },
-  "15":{
+  "19":{
+    "stats":["mantra_of_illusions_triggered_skill_attack_speed_+%_final"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Socketed Skills have {0}% more Attack speed"
+      },{
+        "limit":[["#",-1]],
+        "text":"Socketed Skills have {0}% less Attack speed",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "20":{
+    "stats":["mantra_of_illusions_triggered_skill_damage_+%_final"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Socketed Skills deal {0}% more damage"
+      },{
+        "limit":[["#",-1]],
+        "text":"Socketed Skills deal {0}% less damage",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "21":{
     "stats":["mark_effect_+%"],
     "1":[{
         "gem_quality":true,
@@ -228,7 +305,35 @@
         }
       }]
   },
-  "16":{
+  "22":{
+    "stats":["skill_effect_duration_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Socketed Skills have {0}% increased Skill Effect Duration"
+      },{
+        "limit":[["#",-1]],
+        "text":"Socketed Skills have {0}% reduced Skill Effect Duration",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "23":{
+    "stats":["curse_effect_+%"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Socketed Curses have {0}% increased Magnitudes"
+      },{
+        "limit":[["#",-1]],
+        "text":"Socketed Curses have {0}% reduced Magnitudes",
+        "1":{
+          "k":"negate",
+          "v":1
+        }
+      }]
+  },
+  "24":{
     "stats":["trigger_meta_gem_damage_+%_final"],
     "1":[{
         "limit":[[1,"#"]],
@@ -242,7 +347,7 @@
         }
       }]
   },
-  "17":{
+  "25":{
     "stats":["warcry_buff_effect_+%"],
     "1":[{
         "limit":[[1,"#"]],
@@ -256,7 +361,7 @@
         }
       }]
   },
-  "18":{
+  "26":{
     "stats":["skill_empowers_next_x_melee_attacks","skill_empower_limitation_specifier_for_stat_description"],
     "1":[{
         "limit":[[1,1],[0,0]],
@@ -266,7 +371,7 @@
         "text":"Socketed Warcries Exert {0} additional Attacks"
       }]
   },
-  "19":{
+  "27":{
     "stats":["warcry_grant_damage_+%_to_exerted_attacks"],
     "1":[{
         "limit":[["#","#"]],

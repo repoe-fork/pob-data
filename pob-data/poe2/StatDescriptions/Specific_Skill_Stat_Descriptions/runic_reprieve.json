@@ -1,0 +1,35 @@
+{
+  "non_ward_damage_taken_from_blocked_hits_is_taken_to_ward_as_well":2,
+  "parent":"skill_stat_descriptions",
+  "rune_ward_block_%_damage_taken":1,
+  "rune_ward_requires_%_maximum_ward_to_perform":3,
+  "1":{
+    "stats":["rune_ward_block_%_damage_taken"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"You take {0}% of damage from Blocked Hits"
+      },{
+        "limit":[["#","#"]],
+        "text":"You take {0}% of damage from Blocked Hits"
+      }]
+  },
+  "2":{
+    "stats":["non_ward_damage_taken_from_blocked_hits_is_taken_to_ward_as_well"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Lose Runic Ward on Block equal to the damage you took from that Hit"
+      }]
+  },
+  "3":{
+    "stats":["rune_ward_requires_%_maximum_ward_to_perform"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"Requires {0:+d}% of maximum Runic Ward to be able to use this Skill"
+      },{
+        "limit":[["#","#"]],
+        "text":"Requires at least {0}% of maximum Runic Ward to be able to use this Skill"
+      }]
+  }
+}

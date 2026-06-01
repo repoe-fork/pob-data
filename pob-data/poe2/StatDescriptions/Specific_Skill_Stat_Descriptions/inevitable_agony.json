@@ -12,15 +12,23 @@
   "2":{
     "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"+{0} Metres to initial cast radius",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
         "limit":[[10,10]],
-        "text":"Curse radius is {0} metre",
+        "text":"Initial cast radius is {0} metre",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"Curse radius is {0} metres",
+        "text":"Initial cast radius is {0} metres",
         "1":{
           "k":"divide_by_ten_1dp_if_required",
           "v":1
@@ -31,14 +39,14 @@
     "stats":["base_skill_effect_duration"],
     "1":[{
         "limit":[[1000,1000]],
-        "text":"Curse duration is {0} second",
+        "text":"Debuff duration is {0} second",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
         }
       },{
         "limit":[["#","#"]],
-        "text":"Curse duration is {0} seconds",
+        "text":"Debuff duration is {0} seconds",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
@@ -49,7 +57,7 @@
     "stats":["curse_pain_synchronisation_base_recorded_damage_%_to_apply"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Cursed targets take {0}% of Hit Damage dealt to them while Cursed again when Curse expires\nTaking Damage again this way cannot inflict Ailments on the Cursed target"
+        "text":"Debuffed targets lose life equal to {0}% of Hit Damage dealt to them while Debuffed when Debuff expires\n Culls enemies if Debuff reaches Culling Strike Threshold"
       }]
   },
   "5":{

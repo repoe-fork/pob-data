@@ -173,18 +173,6 @@
     "modList":[{
         "flags":0,
         "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"MORE",
-        "value":-100
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"OVERRIDE",
-        "value":1
-      },{
-        "flags":0,
-        "keywordFlags":0,
         "name":"StunImmune",
         "type":"FLAG",
         "value":1
@@ -346,6 +334,75 @@
     "monsterTags":["construct","fast_movement"],
     "name":"Animated Weapon",
     "skillList":["MinionMelee","GAAnimateWeaponMaceSlam","DTTAnimateWeaponSpearDashStab","DTTAnimateWeaponSpearDashStabImpact","GAAnimateWeaponQuarterstaffSweep","GAManifestWeaponTalismanRake"],
+    "spawnLocation":[],
+    "spectreReservation":50
+  },
+  "MistRaven":{
+    "accuracy":1,
+    "attackRange":6,
+    "attackTime":1,
+    "baseDamageIgnoresAttackSpeed":true,
+    "baseMovementSpeed":8,
+    "chaosResist":0,
+    "coldResist":0,
+    "companionReservation":30,
+    "damage":0.67,
+    "damageSpread":0.2,
+    "fireResist":0,
+    "life":1,
+    "lightningResist":0,
+    "modList":[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseImmune",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FrenzyChargesMax",
+        "type":"OVERRIDE",
+        "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnduranceChargesMax",
+        "type":"OVERRIDE",
+        "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PowerChargesMax",
+        "type":"OVERRIDE",
+        "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"HiddenMonster",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CannotBeDamaged",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"StunImmune",
+        "type":"FLAG",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"KnockbackImmune",
+        "type":"FLAG",
+        "value":1
+      }],
+    "monsterTags":["ranged","Unarmed_onhit_audio","very_slow_movement"],
+    "name":"Raven Conspiracy",
+    "skillList":["ApplyTangmazuSwarmAuraPlayer","TangmazuMadFlightMinion"],
     "spawnLocation":[],
     "spectreReservation":50
   },
@@ -633,12 +690,6 @@
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"HiddenMonster",
-        "type":"FLAG",
-        "value":1
-      },{
-        "flags":0,
-        "keywordFlags":0,
         "name":"Condition:CannotBeDamaged",
         "type":"FLAG",
         "value":1
@@ -689,18 +740,6 @@
     "life":1,
     "lightningResist":0,
     "modList":[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"MORE",
-        "value":-100
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"OVERRIDE",
-        "value":1
-      },{
         "flags":0,
         "keywordFlags":0,
         "name":"StunImmune",
@@ -916,18 +955,6 @@
     "life":1,
     "lightningResist":0,
     "modList":[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageTaken",
-        "type":"MORE",
-        "value":-100
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"OVERRIDE",
-        "value":1
-      },{
         "flags":0,
         "keywordFlags":0,
         "name":"StunImmune",

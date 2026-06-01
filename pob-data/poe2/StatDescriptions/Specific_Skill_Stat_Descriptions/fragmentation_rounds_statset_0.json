@@ -5,7 +5,7 @@
   "parent":"skill_stat_descriptions",
   "projectile_base_number_of_targets_to_pierce":6,
   "projectiles_can_shotgun":4,
-  "quality_display_base_number_of_projectiles_is_gem":2,
+  "quality_display_base_number_of_projectiles_is_gem":5,
   "skill_can_fire_arrows":5,
   "1":{
     "stats":["never_freeze"]
@@ -20,10 +20,13 @@
     "stats":["projectiles_can_shotgun"]
   },
   "5":{
-    "stats":["base_number_of_projectiles","skill_can_fire_arrows"],
+    "stats":["base_number_of_projectiles","skill_can_fire_arrows","quality_display_base_number_of_projectiles_is_gem"],
     "1":[{
-        "limit":[[2,"#"],["#","#"]],
+        "limit":[[2,"#"],["#","#"],["#","#"]],
         "text":"Fires {0} fragments per shot"
+      },{
+        "limit":[["#","#"],["#","#"],[0,0]],
+        "text":"Fires {0:+d} fragments per shot"
       }]
   },
   "6":{

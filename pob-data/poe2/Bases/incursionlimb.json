@@ -11,7 +11,7 @@
   },
   "Caster Arm":{
     "implicit":"(6-10)% increased Cast Speed",
-    "implicitModTypes":[["caster","speed"]],
+    "implicitModTypes":[["caster_speed","caster","speed"]],
     "req":[],
     "subType":"Transcendent Arm",
     "tags":{
@@ -31,7 +31,7 @@
   },
   "Commanding Arm":{
     "implicit":"(15-25)% increased Presence Area of Effect",
-    "implicitModTypes":[[]],
+    "implicitModTypes":[["aura"]],
     "req":[],
     "subType":"Transcendent Arm",
     "tags":{
@@ -51,7 +51,7 @@
   },
   "Deflective Arm":{
     "implicit":"(6-10)% increased Deflection Rating",
-    "implicitModTypes":[["evasion","defences"]],
+    "implicitModTypes":[["defences","evasion"]],
     "req":[],
     "subType":"Transcendent Arm",
     "tags":{
@@ -61,7 +61,7 @@
   },
   "Evasive Leg":{
     "implicit":"(20-30)% increased Evasion Rating",
-    "implicitModTypes":[["evasion","defences"]],
+    "implicitModTypes":[["defences","evasion"]],
     "req":[],
     "subType":"Transcendent Leg",
     "tags":{
@@ -91,7 +91,7 @@
   },
   "Sprinters Leg":{
     "implicit":"(6-10)% increased Movement Speed while Sprinting",
-    "implicitModTypes":[[]],
+    "implicitModTypes":[["speed"]],
     "req":[],
     "subType":"Transcendent Leg",
     "tags":{

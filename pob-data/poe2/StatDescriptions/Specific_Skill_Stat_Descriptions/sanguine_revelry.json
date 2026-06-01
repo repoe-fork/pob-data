@@ -1,0 +1,54 @@
+{
+  "create_furious_remnant_when_hitting_bleeding_enemies_once_every_x_ms":1,
+  "parent":"skill_stat_descriptions",
+  "sanguine_revelry_%_change_to_create_remnant_on_killing_bleeding_enemy":2,
+  "sanguine_revelry_rage_gain_per_pickup":3,
+  "sanguine_revelry_remnant_restore_%_permyriad_of_max_life_per_5_current_rage":4,
+  "virtual_mana_remnants_mana_gain_per_globe":5,
+  "1":{
+    "stats":["create_furious_remnant_when_hitting_bleeding_enemies_once_every_x_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Spawn a Remnant on Hitting a Bleeding enemy, no more than once per second"
+      },{
+        "limit":[["#","#"]],
+        "text":"Spawn a Remnant on Hitting a Bleeding enemy, no more than once every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "2":{
+    "stats":["sanguine_revelry_%_change_to_create_remnant_on_killing_bleeding_enemy"],
+    "1":[{
+        "limit":[[1,99]],
+        "text":"{0}% chance to Spawn a Remnant on killing a Bleeding enemy"
+      },{
+        "limit":[[100,"#"]],
+        "text":"Spawn a Remnant on killing a Bleeding enemy"
+      }]
+  },
+  "3":{
+    "stats":["sanguine_revelry_rage_gain_per_pickup"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Each Remnant grants {0} Rage"
+      }]
+  },
+  "4":{
+    "stats":["sanguine_revelry_remnant_restore_%_permyriad_of_max_life_per_5_current_rage"],
+    "1":[{
+        "limit":[[1,"#"]],
+        "text":"Each Remnant causes you to recover {0}% of maximum Life per 5 Current Rage",
+        "1":{
+          "k":"divide_by_ten_thousand_1dp",
+          "v":1
+        }
+      }]
+  },
+  "5":{
+    "stats":["virtual_mana_remnants_mana_gain_per_globe"],
+    "1":[]
+  }
+}

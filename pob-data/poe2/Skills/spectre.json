@@ -71,7 +71,7 @@
       "56":true,
       "69":true,
       "72":true,
-      "140":true,
+      "141":true,
       "234":true
     },
     "statSets":[{
@@ -124,7 +124,7 @@
       "56":true,
       "69":true,
       "72":true,
-      "140":true,
+      "141":true,
       "226":true,
       "234":true
     },
@@ -197,7 +197,7 @@
       "56":true,
       "69":true,
       "72":true,
-      "140":true,
+      "141":true,
       "234":true
     },
     "statSets":[{
@@ -246,7 +246,7 @@
       "62":true,
       "83":true,
       "90":true,
-      "185":true,
+      "184":true,
       "192":true
     },
     "statSets":[{
@@ -267,7 +267,7 @@
             "1":16.666667039196
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["base_chaos_damage_to_deal_per_minute","base_is_projectile","is_area_damage","skill_can_fire_arrows","cannot_pierce","action_attack_or_cast_time_uses_animation_length","base_cannot_be_blocked"]
+        "stats":["base_chaos_damage_to_deal_per_minute","base_is_projectile","is_area_damage","skill_can_fire_arrows","cannot_pierce","action_attack_or_cast_time_uses_animation_length","base_cannot_be_blocked","skill_allow_base_use_time_when_using_anim_length"]
       }],
     "weaponTypes":{
       "Bow":true
@@ -298,7 +298,7 @@
       "27":true,
       "31":true,
       "35":true,
-      "140":true,
+      "141":true,
       "234":true
     },
     "statSets":[{
@@ -674,7 +674,7 @@
     "icon":"",
     "levels":[{
         "attackSpeedMultiplier":-25,
-        "baseMultiplier":1.75,
+        "baseMultiplier":1.4,
         "levelRequirement":0
       }],
     "name":"Sunder",
@@ -689,6 +689,7 @@
           "attack":true,
           "triggerable":true
         },
+        "constantStats":[["apply_X_armour_break_on_hit",10000],["maim_on_hit_%",50],["voll_slam_damage_+%_final_at_centre",30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Sunder",
         "levels":[{
@@ -1054,20 +1055,18 @@
         "label":"Ground Laser",
         "levels":[{
             "actorLevel":1,
-            "statInterpolation":[3,3,1],
-            "1":0.80000001192093,
-            "2":1.2000000476837,
-            "3":50
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
           },{
             "actorLevel":68,
-            "statInterpolation":[3,3,1],
-            "1":0.80000001192093,
-            "2":1.2000000476837,
-            "3":200
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
           }],
-        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","active_skill_ignite_effect_+%_final","is_area_damage","cannot_stun","disable_visual_hit_effect"]
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","cannot_stun","disable_visual_hit_effect"]
       }]
   },
   "FarudinWarlockBugRend":{
@@ -1819,6 +1818,7 @@
     "name":"Wave",
     "qualityStats":[],
     "skillTypes":{
+      "2":true,
       "7":true,
       "31":true,
       "83":true
@@ -1827,6 +1827,7 @@
         "baseEffectiveness":4.4000000953674,
         "baseFlags":{
           "hit":true,
+          "spell":true,
           "triggerable":true
         },
         "constantStats":[["knockback_distance_+%",175]],
@@ -3524,7 +3525,7 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["projectile_spread_radius",5],["active_skill_base_physical_damage_%_to_convert_to_chaos",40],["spell_maximum_action_distance_+%",-40],["monster_projectile_variation",1340]],
+        "constantStats":[["projectile_spread_radius",5],["spell_maximum_action_distance_+%",-40],["monster_projectile_variation",1340]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Projectile",
@@ -3536,7 +3537,7 @@
           }],
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","projectile_ballistic_angle_from_target_distance"]
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","projectile_ballistic_angle_from_target_distance","base_deal_no_damage"]
       }]
   },
   "MMSBoneRabbleMortar":{
@@ -3654,10 +3655,11 @@
       "11":true,
       "28":true,
       "41":true,
+      "58":true,
       "62":true,
       "91":true,
-      "140":true,
-      "158":true,
+      "141":true,
+      "159":true,
       "217":true,
       "241":true
     },
@@ -3705,11 +3707,12 @@
       "11":true,
       "28":true,
       "41":true,
+      "58":true,
       "62":true,
       "91":true,
-      "140":true,
-      "158":true,
-      "168":true,
+      "141":true,
+      "159":true,
+      "167":true,
       "217":true
     },
     "statSets":[{
@@ -4049,12 +4052,12 @@
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[3,3],
-            "1":0.80000001192093,
-            "2":1.2000000476837
+            "1":0.5,
+            "2":1.5
           }],
-        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","disable_visual_hit_effect","distribute_projectiles_over_contact_points"]
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","disable_visual_hit_effect","distribute_projectiles_over_contact_points"]
       }]
   },
   "MPSAzmeriPictStaffProj":{
@@ -4378,7 +4381,7 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["monster_projectile_variation",1361],["spell_maximum_action_distance_+%",-30]],
+        "constantStats":[["monster_projectile_variation",1361],["spell_maximum_action_distance_+%",-30],["monster_breaks_brequel_npc_concentration",1]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Projectile",
@@ -4422,7 +4425,7 @@
           "spell":true,
           "triggerable":true
         },
-        "constantStats":[["monster_projectile_variation",1360],["number_of_additional_projectiles",5],["projectile_spread_radius",12]],
+        "constantStats":[["monster_projectile_variation",1360],["number_of_additional_projectiles",5],["projectile_spread_radius",12],["projectile_ballistic_angle_override",1]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Projectile",
@@ -4434,7 +4437,7 @@
           }],
         "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_reference_event","ballistic_projectiles_always_bounce","distribute_projectiles_over_contact_points"]
+        "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length","distribute_projectiles_over_contact_points","ballistic_projectiles_always_bounce"]
       }]
   },
   "MPSBrineMaidenIceProjectile":{
@@ -6087,10 +6090,10 @@
       "58":true,
       "70":true,
       "90":true,
-      "140":true,
-      "151":true,
-      "172":true,
-      "185":true,
+      "141":true,
+      "152":true,
+      "171":true,
+      "184":true,
       "192":true
     },
     "statSets":[{
@@ -6223,7 +6226,7 @@
       "56":true,
       "69":true,
       "72":true,
-      "140":true,
+      "141":true,
       "234":true
     },
     "statSets":[{
@@ -6486,7 +6489,7 @@
           }],
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","maintain_projectile_direction_when_using_contact_position","projectile_uses_contact_direction","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll","no_additional_projectiles"]
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","maintain_projectile_direction_when_using_contact_position","projectile_uses_contact_direction","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll","number_of_projectiles_cannot_be_modified"]
       }]
   },
   "ShellMonsterSprayMortarPoison":{
@@ -6538,14 +6541,13 @@
   },
   "SkelemancerSkelenado":{
     "castTime":1,
-    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle.",
     "hidden":true,
-    "icon":"Art/2DArt/SkillIcons/SorceressSpark.dds",
+    "icon":"",
     "levels":[{
         "critChance":5,
         "levelRequirement":0
       }],
-    "name":"Spark",
+    "name":"",
     "qualityStats":[],
     "skillTypes":{
       "2":true,
@@ -6559,8 +6561,8 @@
       "30":true,
       "31":true,
       "57":true,
+      "83":true,
       "125":true,
-      "140":true,
       "234":true
     },
     "statSets":[{
@@ -6573,7 +6575,7 @@
         "constantStats":[["base_skill_effect_duration",6000],["monster_projectile_variation",1000],["base_projectile_speed_+%",-70],["skill_visual_scale_+%",-20],["number_of_projectiles_override",1],["spark_min_time_between_target_clearing_ms",200]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
-        "label":"Spark",
+        "label":"",
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[3,3,3,3],
@@ -6583,7 +6585,7 @@
             "4":0.60000002384186
           }],
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
-        "statDescriptionScope":"spark_statset_0",
+        "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectiles_not_offset","always_pierce"]
       }]
   },
@@ -6753,7 +6755,7 @@
       "83":true
     },
     "statSets":[{
-        "baseEffectiveness":1.25,
+        "baseEffectiveness":0.55000001192093,
         "baseFlags":{
           "attack":true,
           "hit":true,
@@ -7081,7 +7083,7 @@
       "27":true,
       "31":true,
       "35":true,
-      "140":true,
+      "141":true,
       "234":true
     },
     "statSets":[{
@@ -7176,13 +7178,13 @@
       "83":true
     },
     "statSets":[{
-        "baseEffectiveness":5,
+        "baseEffectiveness":4.5,
         "baseFlags":{
           "hit":true,
           "projectile":true,
           "spell":true
         },
-        "constantStats":[["active_skill_projectile_damage_+%_final",50],["spectral_throw_deceleration_override",100],["spell_maximum_action_distance_+%",-45],["base_skill_effect_duration",200]],
+        "constantStats":[["active_skill_projectile_damage_+%_final",50],["spectral_throw_deceleration_override",100],["spell_maximum_action_distance_+%",-45],["base_skill_effect_duration",200],["active_skill_cast_speed_+%_final",-12]],
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
         "label":"Shock Rifle",
@@ -7199,9 +7201,8 @@
   },
   "VaalZealotLightningSpark":{
     "castTime":1.2,
-    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle.",
     "hidden":true,
-    "icon":"Art/2DArt/SkillIcons/SorceressSpark.dds",
+    "icon":"",
     "levels":[{
         "cooldown":0.2,
         "critChance":7,
@@ -7222,8 +7223,8 @@
       "30":true,
       "31":true,
       "57":true,
+      "83":true,
       "125":true,
-      "140":true,
       "234":true
     },
     "statSets":[{
@@ -7246,15 +7247,14 @@
             "2":1.5
           }],
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
-        "statDescriptionScope":"spark_statset_0",
+        "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
   "VaalZealotLightningSparkNova":{
     "castTime":1,
-    "description":"Launch a spray of sparking Projectiles that travel erratically along the ground until they hit an enemy or expire. Consumes a Cold Infusion if possible to fire many sparks in a circle.",
     "hidden":true,
-    "icon":"Art/2DArt/SkillIcons/SorceressSpark.dds",
+    "icon":"",
     "levels":[{
         "critChance":7,
         "levelRequirement":0
@@ -7273,8 +7273,8 @@
       "30":true,
       "31":true,
       "57":true,
+      "83":true,
       "125":true,
-      "140":true,
       "234":true
     },
     "statSets":[{
@@ -7297,7 +7297,7 @@
             "2":1.5
           }],
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
-        "statDescriptionScope":"spark_statset_0",
+        "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","projectiles_nova","base_is_projectile","action_attack_or_cast_time_uses_animation_length"]
       }]
   }

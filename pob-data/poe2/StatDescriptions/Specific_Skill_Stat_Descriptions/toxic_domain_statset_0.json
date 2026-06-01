@@ -8,9 +8,10 @@
   "skill_detonation_time":2,
   "skill_effect_duration":9,
   "skill_specific_stat_description_mode":10,
-  "toxic_domain_healing_per_minute_+":11,
-  "toxic_domain_mana_cost_+%":12,
-  "toxic_domain_pustule_chance_%":13,
+  "toxic_domain_buff_linger_duration_ms":11,
+  "toxic_domain_healing_per_minute_+":12,
+  "toxic_domain_mana_cost_+%":13,
+  "toxic_domain_pustule_chance_%":14,
   "toxic_pustule_max_burst_damage_+%_final_from_stored_poison":5,
   "1":{
     "stats":["base_skill_detonation_time"]
@@ -95,6 +96,20 @@
       }]
   },
   "11":{
+    "stats":["toxic_domain_buff_linger_duration_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Effects of Toxic Bloom Linger on you for 1 second"
+      },{
+        "limit":[["#","#"]],
+        "text":"Effects of Toxic Bloom Linger on you for {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "12":{
     "stats":["toxic_domain_healing_per_minute_+"],
     "1":[{
         "limit":[["#","#"]],
@@ -105,7 +120,7 @@
         }
       }]
   },
-  "12":{
+  "13":{
     "stats":["toxic_domain_mana_cost_+%"],
     "1":[{
         "limit":[["#",-1]],
@@ -119,7 +134,7 @@
         "text":"Skill costs are increased by {0}%"
       }]
   },
-  "13":{
+  "14":{
     "stats":["toxic_domain_pustule_chance_%"],
     "1":[{
         "limit":[[100,100]],

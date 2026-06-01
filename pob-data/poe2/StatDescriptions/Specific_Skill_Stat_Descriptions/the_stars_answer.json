@@ -1,0 +1,90 @@
+{
+  "active_skill_area_of_effect_radius":6,
+  "active_skill_base_area_of_effect_radius":2,
+  "mana_required_to_activate_skill":1,
+  "parent":"skill_stat_descriptions",
+  "walking_calamity_large_meteor_every":5,
+  "walking_calamity_large_meteor_same_target_prevention_duration_ms":7,
+  "walking_calamity_meteor_frequency_+%_cap":4,
+  "walking_calamity_meteor_frequency_+%_per_enemy_in_walking_calamity_radius":4,
+  "walking_calamity_spawn_meteor_every_ms":3,
+  "1":{
+    "stats":["mana_required_to_activate_skill"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Cannot be cast if you have less than {0} Mana\nCannot be cast if already active"
+      }]
+  },
+  "2":{
+    "stats":["active_skill_base_area_of_effect_radius"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Targeting radius is {0} metre",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Targeting radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "3":{
+    "stats":["walking_calamity_spawn_meteor_every_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Triggers Starfall every second, targeting enemies if able"
+      },{
+        "limit":[["#","#"]],
+        "text":"Triggers Starfall every {0} seconds, targeting enemies if able",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  },
+  "4":{
+    "stats":["walking_calamity_meteor_frequency_+%_per_enemy_in_walking_calamity_radius","walking_calamity_meteor_frequency_+%_cap"],
+    "1":[{
+        "limit":[[1,"#"],[1,"#"]],
+        "text":"{0}% increased Starfall Trigger frequency per enemy in radius after the first, up to a maximum of {1}%"
+      }]
+  },
+  "5":{
+    "stats":["walking_calamity_large_meteor_every"],
+    "1":[{
+        "gem_quality":true,
+        "limit":[["#","#"]],
+        "text":"{0:+d} Starfall Triggers required per large star"
+      },{
+        "limit":[[2,"#"]],
+        "text":"Starfall creates a large star every {0} times Triggered"
+      }]
+  },
+  "6":{
+    "stats":["active_skill_area_of_effect_radius"],
+    "1":[]
+  },
+  "7":{
+    "stats":["walking_calamity_large_meteor_same_target_prevention_duration_ms"],
+    "1":[{
+        "limit":[[1000,1000]],
+        "text":"Cannot Trigger Starfall for more than one large star per target every {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
+        "limit":[["#","#"]],
+        "text":"Starfall cannot cannot target the same enemy with large stars more than once every {0} seconds",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      }]
+  }
+}

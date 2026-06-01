@@ -1,6 +1,6 @@
 {
   "Alpha Talisman":{
-    "implicit":"+(10-15)% to Block chance",
+    "implicit":"+(14-18)% to Block chance",
     "implicitModTypes":[["block"]],
     "quality":20,
     "req":{
@@ -154,7 +154,7 @@
   },
   "Familial Talisman":{
     "implicit":"Minions deal (30-50)% increased Damage",
-    "implicitModTypes":[["damage","minion"]],
+    "implicitModTypes":[["minion_damage","damage","minion"]],
     "quality":20,
     "req":{
       "int":16,
@@ -180,7 +180,7 @@
   },
   "Fang Talisman":{
     "implicit":"Minions deal (30-50)% increased Damage",
-    "implicitModTypes":[["damage","minion"]],
+    "implicitModTypes":[["minion_damage","damage","minion"]],
     "quality":20,
     "req":{
       "int":68,
@@ -255,7 +255,7 @@
     }
   },
   "Fury Talisman":{
-    "implicit":"+(8-12) to Maximum Rage",
+    "implicit":"+(7-10) to Maximum Rage",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -281,7 +281,7 @@
     }
   },
   "Howling Talisman":{
-    "implicit":"+(10-15)% to Block chance",
+    "implicit":"+(14-18)% to Block chance",
     "implicitModTypes":[["block"]],
     "quality":20,
     "req":{
@@ -357,7 +357,7 @@
     }
   },
   "Maji Talisman":{
-    "implicit":"+(8-12) to Maximum Rage",
+    "implicit":"+(7-10) to Maximum Rage",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -408,7 +408,7 @@
     }
   },
   "Primal Talisman":{
-    "implicit":"+(10-15)% to Block chance",
+    "implicit":"+(14-18)% to Block chance",
     "implicitModTypes":[["block"]],
     "quality":20,
     "req":{
@@ -434,7 +434,7 @@
     }
   },
   "Rabid Talisman":{
-    "implicit":"+(8-12) to Maximum Rage",
+    "implicit":"+(7-10) to Maximum Rage",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -460,7 +460,7 @@
     }
   },
   "Roaring Talisman":{
-    "implicit":"+(8-12) to Maximum Rage",
+    "implicit":"+(7-10) to Maximum Rage",
     "implicitModTypes":[[]],
     "quality":20,
     "req":{
@@ -481,6 +481,164 @@
       "CritChanceBase":8,
       "PhysicalMax":96,
       "PhysicalMin":57,
+      "Range":12
+    }
+  },
+  "Runeforged Changeling Talisman":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":32,
+      "level":38,
+      "str":45
+    },
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "runeforged":true,
+      "talisman":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Talisman",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":8,
+      "PhysicalMax":151,
+      "PhysicalMin":91,
+      "Range":12
+    }
+  },
+  "Runeforged Familial Talisman":{
+    "implicit":"Minions deal (30-50)% increased Damage",
+    "implicitModTypes":[["minion_damage","damage","minion"]],
+    "quality":20,
+    "req":{
+      "int":32,
+      "level":38,
+      "str":45
+    },
+    "tags":{
+      "default":true,
+      "maraketh_basetype":true,
+      "runeforged":true,
+      "talisman":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Talisman",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":8,
+      "PhysicalMax":91,
+      "PhysicalMin":54,
+      "Range":12
+    }
+  },
+  "Runeforged Nettle Talisman":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":32,
+      "level":38,
+      "str":45
+    },
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "runeforged":true,
+      "talisman":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Talisman",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":11,
+      "PhysicalMax":86,
+      "PhysicalMin":51,
+      "Range":12
+    }
+  },
+  "Runeforged Vicious Talisman":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":52,
+      "level":65,
+      "str":74
+    },
+    "tags":{
+      "default":true,
+      "runeforged":true,
+      "talisman":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "vaal_basetype":true,
+      "weapon":true
+    },
+    "type":"Talisman",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":8,
+      "PhysicalMax":205,
+      "PhysicalMin":123,
+      "Range":12
+    }
+  },
+  "Runemastered Familial Talisman":{
+    "implicit":"Minions deal (51-100)% increased Damage",
+    "implicitModTypes":[["minion_damage","damage","minion"]],
+    "quality":20,
+    "req":{
+      "int":45,
+      "level":55,
+      "str":63
+    },
+    "tags":{
+      "default":true,
+      "maraketh_basetype":true,
+      "runeforged":true,
+      "talisman":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Talisman",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":8,
+      "PhysicalMax":122,
+      "PhysicalMin":73,
+      "Range":12
+    }
+  },
+  "Runemastered Nettle Talisman":{
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":45,
+      "level":55,
+      "str":63
+    },
+    "tags":{
+      "default":true,
+      "ezomyte_basetype":true,
+      "runeforged":true,
+      "talisman":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Talisman",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":11,
+      "PhysicalMax":114,
+      "PhysicalMin":68,
       "Range":12
     }
   },
@@ -510,7 +668,7 @@
     }
   },
   "Thunder Talisman":{
-    "implicit":"(15-25)% increased Magnitude of Shock you inflict",
+    "implicit":"(20-30)% increased Magnitude of Shock you inflict",
     "implicitModTypes":[["elemental","lightning","ailment"]],
     "quality":20,
     "req":{
@@ -563,7 +721,7 @@
     }
   },
   "Voltfang Talisman":{
-    "implicit":"(15-25)% increased Magnitude of Shock you inflict",
+    "implicit":"(20-30)% increased Magnitude of Shock you inflict",
     "implicitModTypes":[["elemental","lightning","ailment"]],
     "quality":20,
     "req":{

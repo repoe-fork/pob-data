@@ -4,6 +4,9 @@
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "name":"Armour Explosion",
@@ -12,6 +15,7 @@
       "1":true,
       "7":true,
       "8":true,
+      "28":true,
       "31":true,
       "37":true,
       "50":true,
@@ -102,8 +106,9 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, providing a powerful Ancestral Boost every few seconds.",
-    "excludeSkillTypes":[139,25,96,33,36,38,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["FistOfWar"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":50
@@ -127,8 +132,9 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, providing a very powerful Ancestral Boost infrequently.",
-    "excludeSkillTypes":[139,25,96,33,36,38,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["FistOfWar"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":100
@@ -152,8 +158,9 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, providing a powerful Ancestral Boost every few seconds.",
-    "excludeSkillTypes":[139,25,96,33,36,38,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["FistOfWar"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0,
         "manaMultiplier":50
@@ -183,7 +190,7 @@
         "levelRequirement":0
       }],
     "name":"Impact Shockwave",
-    "requireSkillTypes":[21,253,1,74],
+    "requireSkillTypes":[21,252,1,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_impact_shockwave_base_non_slam_aftershock_on_heavy_stun_radius",15]],
@@ -419,7 +426,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, giving them a chance to create an Aftershock.",
-    "excludeSkillTypes":[139,25,96,33,36,38,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Aftershock"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -444,7 +451,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, giving them a chance to create an Aftershock.",
-    "excludeSkillTypes":[139,25,96,33,36,38,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Aftershock"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -477,7 +484,7 @@
         "levelRequirement":0
       }],
     "name":"Amanamu's Tithe",
-    "requireSkillTypes":[139,6,74],
+    "requireSkillTypes":[140,6,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["chance_%_to_gain_abyssal_modifier_on_minion_death",50]],
@@ -495,7 +502,7 @@
     "addSkillTypes":[194,213],
     "color":1,
     "description":"Supports Strikes you use yourself. Supported Skills cannot be used until you have Blocked a certain number of Hits, but will be Ancestrally Boosted when used. After use, this Blocked Hit counter will reset. Cannot Support Channelled Skills or Skills which already have a Condition for use.",
-    "excludeSkillTypes":[139,194,213,75,74,209,48,96,25,37],
+    "excludeSkillTypes":[194,213,75,74,209,48,258,37,140],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -520,7 +527,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Strikes you use yourself, providing a powerful Ancestral Boost every few seconds. Cannot Support Channelled Skills and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[139,209,48,96,25,37],
+    "excludeSkillTypes":[209,48,258,37,140],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -528,7 +535,7 @@
         "manaMultiplier":20
       }],
     "name":"Ancestral Call I",
-    "requireSkillTypes":[21],
+    "requireSkillTypes":[21,260],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["ancestral_call_spirit_strike_interval_ms",5000]],
@@ -546,7 +553,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Strikes you use yourself, providing a powerful Ancestral Boost every few seconds. Cannot Support Channelled Skills and does not modify Skills used by Minions.",
-    "excludeSkillTypes":[139,209,48,96,25,37],
+    "excludeSkillTypes":[209,48,258,37,140],
     "gemFamily":["AncestralCall"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -554,7 +561,7 @@
         "manaMultiplier":20
       }],
     "name":"Ancestral Call II",
-    "requireSkillTypes":[21],
+    "requireSkillTypes":[21,260],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["ancestral_call_spirit_strike_interval_ms",3000]],
@@ -764,7 +771,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any Skill, turning a portion of its Mana cost into a Life cost. Does not support Skills which reserve Spirit. Supported Skills Gain a portion of their Life cost as extra Physical Damage.",
-    "excludeSkillTypes":[109,139],
+    "excludeSkillTypes":[109,140],
     "flavourText":["Atazek and Atalui rose, battered and dark, bleeding from a hundred","different wounds. She gave her brother a sinister grin. \"Shall we","show them what happens to those who challenge the Vaal?\""],
     "gemFamily":["Lifetap"],
     "isLineage":true,
@@ -827,7 +834,7 @@
   "SupportBarbsPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Strike Skills. Supported Skills deal your Thorns Damage on Hit after you've Retaliated with Thorns Damage.",
+    "description":"Supports Melee Strike Skills. After you Retaliate with Thorns Damage, you also deal your Thorns damage to enemies you Hit with Supported Skills.",
     "excludeSkillTypes":[],
     "gemFamily":["Barbs"],
     "ignoreMinionTypes":true,
@@ -856,7 +863,7 @@
   "SupportBarbsPlayerThree":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Strike Skills. Supported Skills deal your Thorns Damage on Hit twice after you've Retaliated with Thorns Damage.",
+    "description":"Supports Melee Strike Skills. After you Retaliate with Thorns Damage, you also deal your Thorns damage twice to enemies you Hit with Supported Skills.",
     "excludeSkillTypes":[],
     "gemFamily":["Barbs"],
     "ignoreMinionTypes":true,
@@ -885,7 +892,7 @@
   "SupportBarbsPlayerTwo":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Strike Skills. Supported Skills deal your Thorns Damage on Hit after you've Retaliated with Thorns Damage.",
+    "description":"Supports Melee Strike Skills. After you Retaliate with Thorns Damage, you also deal your Thorns damage to enemies you Hit with Supported Skills.",
     "excludeSkillTypes":[],
     "gemFamily":["Barbs"],
     "ignoreMinionTypes":true,
@@ -1098,7 +1105,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills which create Totems. Totems created by supported Skills generate a Font of Blood which will Leech Life to Allies within it.",
-    "excludeSkillTypes":[6,139,74],
+    "excludeSkillTypes":[6,140,74],
     "gemFamily":["Font"],
     "levels":[{
         "levelRequirement":0
@@ -1137,7 +1144,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any Skill, turning its Mana cost into a Life cost. Does not support Skills which reserve Spirit.",
-    "excludeSkillTypes":[109,139],
+    "excludeSkillTypes":[109,140],
     "gemFamily":["Lifetap"],
     "levels":[{
         "levelRequirement":0
@@ -1230,7 +1237,7 @@
         "manaMultiplier":20
       }],
     "name":"Branching Fissures I",
-    "requireSkillTypes":[165],
+    "requireSkillTypes":[164],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["number_of_branching_fissures",2],["branching_fissure_area_of_effect_+%_final",-35],["branching_fissure_damage_+%_final",-40]],
@@ -1255,7 +1262,7 @@
         "manaMultiplier":20
       }],
     "name":"Branching Fissures II",
-    "requireSkillTypes":[165],
+    "requireSkillTypes":[164],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["number_of_branching_fissures",2],["branching_fissure_area_of_effect_+%_final",-35],["branching_fissure_damage_+%_final",-30]],
@@ -1452,7 +1459,7 @@
         "spiritReservationFlat":15
       }],
     "name":"Cannibalism I",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_cannibalism_recover_%_maximum_life_on_kill",2]],
@@ -1495,7 +1502,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Cannibalism II",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_cannibalism_recover_%_maximum_life_on_kill",3]],
@@ -1531,7 +1538,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills which create Totems, preventing you from having more than one of that Totem but granting significant benefits for Supported Totems based how many allied Totems are near them. Does not Support Skills used by Minions.",
-    "excludeSkillTypes":[243],
+    "excludeSkillTypes":[242],
     "flavourText":["The oldest and greatest fortress on Wraeclast was grown, not built.","She Who Waited planted their seeds in a time of ash and snow.","Now, the gate of the Taisce is unassailable, yet open to all."],
     "gemFamily":["TotemicControl"],
     "ignoreMinionTypes":true,
@@ -1607,7 +1614,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills you use yourself which Damage enemies with Hits. Supported Skills consume a percentage of your maximum Life Flask charges, inflicting more powerful Bleeding based on Life Flask charges consumed.",
-    "excludeSkillTypes":[139,6,96,25,37,122],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Concoct"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -1675,7 +1682,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills you use yourself which Damage enemies with Hits. Supported Skills consume a percentage of your maximum Life Flask charges, inflicting more powerful Bleeding based on Life Flask charges consumed.",
-    "excludeSkillTypes":[139,6,96,25,37,122],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Concoct"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -1750,7 +1757,7 @@
         "spiritReservationFlat":15
       }],
     "name":"Cool Headed",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_ignite_protection_spirit_cost_ignite_duration_on_self_+%_final",-50]],
@@ -1780,7 +1787,7 @@
   "SupportCorruptingCryPlayer":{
     "addSkillTypes":[35,9],
     "color":1,
-    "description":"Supports Warcries, causing them to inflict Corrupted Blood on enemies in their area of effect.",
+    "description":"Supports Warcries, Triggering Corrupted Cry to inflict Corrupted Blood on enemies in their area of effect.",
     "excludeSkillTypes":[],
     "gemFamily":["CorruptingCry"],
     "ignoreMinionTypes":true,
@@ -1791,40 +1798,7 @@
     "requireSkillTypes":[63],
     "statSets":[{
         "baseFlags":[],
-        "baseMods":[{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"SkillData",
-            "type":"LIST",
-            "value":{
-              "key":"debuff",
-              "value":true
-            }
-          },{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"dotIsCorruptingBlood",
-            "type":"FLAG",
-            "value":true
-          },{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Multiplier:CorruptingCryMaxStages",
-            "type":"BASE",
-            "value":10
-          },{
-            "flags":0,
-            "keywordFlags":16777216,
-            "name":"Damage",
-            "type":"MORE",
-            "value":100,
-            "1":{
-              "limit":9,
-              "type":"Multiplier",
-              "var":"CorruptingCryStageAfterFirst"
-            }
-          }],
-        "constantStats":[["support_corrupting_cry_warcry_applies_x_stacks_of_corrupted_blood",1],["support_corrupting_cry_corrupted_blood_base_physical_damage_per_minute_as_%_of_strength",1500],["support_corrupting_cry_area_of_effect_+%_final",-30],["support_corrupting_cry_corrupted_blood_duration_ms",5000]],
+        "constantStats":[["support_corrupting_cry_area_of_effect_+%_final",-30]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Corrupting Cry I",
         "levels":[{
@@ -1838,51 +1812,16 @@
               "name":"AreaOfEffect",
               "type":"MORE"
             }],
-          "support_corrupting_cry_corrupted_blood_base_physical_damage_per_minute_as_%_of_strength":{
-            "div":60,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"PhysicalDot"
-              },
-              "1":{
-                "percent":1,
-                "stat":"Str",
-                "type":"PercentStat"
-              }
-            }
-          },
-          "support_corrupting_cry_corrupted_blood_duration_ms":{
-            "div":1000,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"durationSecondary"
-              }
-            }
-          },
-          "support_corrupting_cry_warcry_applies_X_stacks_of_corrupted_blood":[{
-              "flags":4,
-              "keywordFlags":0,
-              "name":"CorruptingCryStagesFromWarcry",
-              "value":0
-            }],
-          "support_corrupting_cry_warcry_applies_x_stacks_of_corrupted_blood":[]
+          "warcry_triggers_corrupting_cry":[]
         },
-        "stats":[]
+        "stats":["warcry_triggers_corrupting_cry"]
       }],
     "support":true
   },
   "SupportCorruptingCryPlayerThree":{
     "addSkillTypes":[35,9],
     "color":1,
-    "description":"Supports Warcries, causing them to inflict massive amounts of Corrupted Blood on enemies in their area of effect, at the cost of your Life.",
+    "description":"Supports Warcries, Triggering Twisted Pact  to inflict Corrupted Blood on enemies in their area of effect., at the cost of your Life.",
     "excludeSkillTypes":[],
     "flavourText":["The water used to cool the Locus of Corruption ran red","as blood, bright as flame, and bubbled with strange heat.","\"Drink,\" he offered. \"Suffuse your flesh with power!\""],
     "gemFamily":["CorruptingCry"],
@@ -1895,40 +1834,7 @@
     "requireSkillTypes":[63],
     "statSets":[{
         "baseFlags":[],
-        "baseMods":[{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"SkillData",
-            "type":"LIST",
-            "value":{
-              "key":"debuff",
-              "value":true
-            }
-          },{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"dotIsCorruptingBlood",
-            "type":"FLAG",
-            "value":true
-          },{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Multiplier:CorruptingCryMaxStages",
-            "type":"BASE",
-            "value":10
-          },{
-            "flags":0,
-            "keywordFlags":16777216,
-            "name":"Damage",
-            "type":"MORE",
-            "value":100,
-            "1":{
-              "limit":9,
-              "type":"Multiplier",
-              "var":"CorruptingCryStageAfterFirst"
-            }
-          }],
-        "constantStats":[["support_corrupting_cry_warcry_applies_x_stacks_of_corrupted_blood",5],["support_corrupting_cry_corrupted_blood_base_physical_damage_per_minute_as_%_of_strength",1500],["support_corrupting_cry_corrupted_blood_duration_ms",5000],["support_corrupting_cry_%_life_lost_per_corrupting_blood_applied",2]],
+        "constantStats":[["support_corrupting_cry_%_life_cost_per_supported_skill_trigger_or_use_recently_up_to_30%",10]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Paquate's Pact",
         "levels":[{
@@ -1936,51 +1842,16 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_corrupting_cry_corrupted_blood_base_physical_damage_per_minute_as_%_of_strength":{
-            "div":60,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"PhysicalDot"
-              },
-              "1":{
-                "percent":1,
-                "stat":"Str",
-                "type":"PercentStat"
-              }
-            }
-          },
-          "support_corrupting_cry_corrupted_blood_duration_ms":{
-            "div":1000,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"durationSecondary"
-              }
-            }
-          },
-          "support_corrupting_cry_warcry_applies_X_stacks_of_corrupted_blood":[{
-              "flags":4,
-              "keywordFlags":0,
-              "name":"CorruptingCryStagesFromWarcry",
-              "value":0
-            }],
-          "support_corrupting_cry_warcry_applies_x_stacks_of_corrupted_blood":[]
+          "warcry_triggers_paquates_pact":[]
         },
-        "stats":[]
+        "stats":["warcry_triggers_paquates_pact"]
       }],
     "support":true
   },
   "SupportCorruptingCryPlayerTwo":{
     "addSkillTypes":[35,9],
     "color":1,
-    "description":"Supports Warcries, causing them to inflict Corrupted Blood on enemies in their area of effect.",
+    "description":"Supports Warcries, Triggering Corrupted Cry to inflict Corrupted Blood on enemies in their area of effect.",
     "excludeSkillTypes":[],
     "gemFamily":["CorruptingCry"],
     "ignoreMinionTypes":true,
@@ -1991,40 +1862,6 @@
     "requireSkillTypes":[63],
     "statSets":[{
         "baseFlags":[],
-        "baseMods":[{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"SkillData",
-            "type":"LIST",
-            "value":{
-              "key":"debuff",
-              "value":true
-            }
-          },{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"dotIsCorruptingBlood",
-            "type":"FLAG",
-            "value":true
-          },{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Multiplier:CorruptingCryMaxStages",
-            "type":"BASE",
-            "value":10
-          },{
-            "flags":0,
-            "keywordFlags":16777216,
-            "name":"Damage",
-            "type":"MORE",
-            "value":100,
-            "1":{
-              "limit":9,
-              "type":"Multiplier",
-              "var":"CorruptingCryStageAfterFirst"
-            }
-          }],
-        "constantStats":[["support_corrupting_cry_warcry_applies_x_stacks_of_corrupted_blood",1],["support_corrupting_cry_corrupted_blood_base_physical_damage_per_minute_as_%_of_strength",1500],["support_corrupting_cry_corrupted_blood_duration_ms",5000]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Corrupting Cry II",
         "levels":[{
@@ -2032,49 +1869,14 @@
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "statMap":{
-          "support_corrupting_cry_corrupted_blood_base_physical_damage_per_minute_as_%_of_strength":{
-            "div":60,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"PhysicalDot"
-              },
-              "1":{
-                "percent":1,
-                "stat":"Str",
-                "type":"PercentStat"
-              }
-            }
-          },
-          "support_corrupting_cry_corrupted_blood_duration_ms":{
-            "div":1000,
-            "1":{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"SkillData",
-              "type":"LIST",
-              "value":{
-                "key":"durationSecondary"
-              }
-            }
-          },
-          "support_corrupting_cry_warcry_applies_X_stacks_of_corrupted_blood":[{
-              "flags":4,
-              "keywordFlags":0,
-              "name":"CorruptingCryStagesFromWarcry",
-              "value":0
-            }],
-          "support_corrupting_cry_warcry_applies_x_stacks_of_corrupted_blood":[]
+          "warcry_triggers_corrupting_cry":[]
         },
-        "stats":[]
+        "stats":["warcry_triggers_corrupting_cry"]
       }],
     "support":true
   },
   "SupportCraterPlayer":{
-    "addSkillTypes":[165],
+    "addSkillTypes":[164],
     "color":1,
     "description":"Supports Melee Skills that leap into the air, causing them to create Fissures when you land. Cannot Support Totem Skills, and does not modify Skills used by Minions.",
     "excludeSkillTypes":[96,25],
@@ -2084,7 +1886,7 @@
         "levelRequirement":0
       }],
     "name":"Crater",
-    "requireSkillTypes":[20,162,74],
+    "requireSkillTypes":[20,161,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_fissure_on_landing_create_X_fissures_on_impact",3]],
@@ -2127,8 +1929,8 @@
   "SupportDauntlessPlayer":{
     "addSkillTypes":[194,201],
     "color":1,
-    "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills cannot be used unless you have been stationary for a certain duration, but deal increasingly more damage the longer you are stationary. Cannot support Skills which have a reservation, are Triggered, have a cooldown or have another usage Condition.",
-    "excludeSkillTypes":[139,194,201,75,74,49,12,96,25,37,91,37],
+    "description":"Supports Skills you use yourself which can cause Damaging Hits. Supported Skills cannot be used unless you have been stationary for a certain duration, but deal increasingly more damage the longer you are stationary. Cannot support Skills which have a cooldown or another usage Condition.",
+    "excludeSkillTypes":[194,201,75,74,258,37,140],
     "gemFamily":["Dauntless"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2331,8 +2133,9 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Hit Damage from Supported Skills is Lucky if you are Surrounded.",
-    "excludeSkillTypes":[139,6,96,25,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Defy"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -2354,8 +2157,9 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Hit Damage from Supported Skills is Lucky and Insufficient Mana doesn't prevent Supported Skills from being used if you are Surrounded.",
-    "excludeSkillTypes":[139,6,96,25,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Defy"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -2384,7 +2188,7 @@
         "spiritReservationFlat":20
       }],
     "name":"Direstrike I",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_attack_damage_spirit_cost_attack_damage_+%_on_low_life",50]],
@@ -2426,7 +2230,7 @@
         "spiritReservationFlat":40
       }],
     "name":"Direstrike II",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_attack_damage_spirit_cost_attack_damage_+%_on_low_life",70]],
@@ -2584,10 +2388,10 @@
     "support":true
   },
   "SupportEchoingCryPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[194,259],
     "color":1,
-    "description":"Supports Warcries. Supported Skills echo, causing their effects to happen again after a short delay, growing larger each time, but are less effective and require you to have travelled a certain distance before use.",
-    "excludeSkillTypes":[],
+    "description":"Supports Warcries. Supported Skills Echo twice, and their area grows larger each time, but are less effective and require you to have travelled a certain distance before use.",
+    "excludeSkillTypes":[194,259,75,74],
     "gemFamily":["EchoingCry"],
     "levels":[{
         "levelRequirement":0,
@@ -2612,7 +2416,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any skill, making it cost less to use. Cannot support skills which reserve Spirit.",
-    "excludeSkillTypes":[139],
+    "excludeSkillTypes":[140],
     "gemFamily":["Efficiency"],
     "levels":[{
         "levelRequirement":0
@@ -2645,7 +2449,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any skill, making it cost less to use. Cannot support skills which reserve Spirit.",
-    "excludeSkillTypes":[139],
+    "excludeSkillTypes":[140],
     "gemFamily":["Efficiency"],
     "levels":[{
         "levelRequirement":0
@@ -2968,7 +2772,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any skill that Hits enemies, causing them to deal more Damage against enemies with Broken Armour but preventing them from Breaking Armour themselves. Cannot support skills that Consume Broken Armour.",
-    "excludeSkillTypes":[134],
+    "excludeSkillTypes":[135],
     "gemFamily":["ExploitWeakness"],
     "levels":[{
         "levelRequirement":0,
@@ -3037,7 +2841,7 @@
         "levelRequirement":0
       }],
     "name":"Fan The Flames",
-    "requireSkillTypes":[1,7,73,253,74],
+    "requireSkillTypes":[1,7,73,252,74],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
@@ -3060,7 +2864,7 @@
         "levelRequirement":0
       }],
     "name":"Fan The Flames II",
-    "requireSkillTypes":[1,7,73,253,74],
+    "requireSkillTypes":[1,7,73,252,74],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
@@ -3148,10 +2952,10 @@
     "support":true
   },
   "SupportFlamePillarPlayer":{
-    "addSkillTypes":[136,245],
+    "addSkillTypes":[137,244],
     "color":1,
     "description":"Supports any Skill you use yourself which can cause Damaging Hits. Supported Skills Consume Ignite on Hit to create pillars of flame, but cannot themselves inflict Ignite. Cannot Support Skills which already Consume Ignite, and does not modify the Skills of Minions.",
-    "excludeSkillTypes":[136,245,75,74,139,96,25,37,33,36],
+    "excludeSkillTypes":[137,244,75,74,258,37,140],
     "gemFamily":["FlamePillar"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -3177,7 +2981,7 @@
     "addSkillTypes":[205],
     "color":1,
     "description":"Supports Skills which can fire Projectiles. Initial Projectile created by Supported Skills will always Pierce Ignited Enemies, but Supported Skills cannot inflict Ignite themselves.",
-    "excludeSkillTypes":[176],
+    "excludeSkillTypes":[175],
     "gemFamily":["Flamepierce"],
     "levels":[{
         "levelRequirement":0
@@ -3270,10 +3074,10 @@
     "support":true
   },
   "SupportHaemocrystalsPlayer":{
-    "addSkillTypes":[210,244],
+    "addSkillTypes":[210,243],
     "color":1,
     "description":"Supports Attack Skills you use yourself which can cause Damaging Hits. Supported Skills Consume Bleeding on Hit to create explosive blood-filled crystals, but cannot themselves inflict Bleeding. Cannot Support Skills which already Consume Bleeding.",
-    "excludeSkillTypes":[210,244,75,74,139,96,25,37,33,36],
+    "excludeSkillTypes":[210,243,75,74,258,37,140],
     "gemFamily":["Haemocrystals"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -3476,6 +3280,33 @@
       }],
     "support":true
   },
+  "SupportHelbrymsHidePlayer":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Shapeshifting Skills, causing them to grant Helbrym's Composure for a brief duration when they cause you to Shapeshift. Shapeshifting into a different form before the Buff expires causes it to be removed without effect.",
+    "excludeSkillTypes":[],
+    "flavourText":["Surrounded by abominations, Lysanda of Myr expected her","time had come to an end. Helbrym of Tarth charged from","the trees, breaking his oath, to save the Ezomyte Queen."],
+    "gemFamily":["Helbrym"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":30
+      }],
+    "name":"Helbrym's Hide",
+    "requireSkillTypes":[157],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["support_hide_of_helbrym_soak_duration_ms",2000],["support_hide_of_helbrym_guard_duration_ms",4000],["support_hide_of_helbrym_gain_guard_from_%_of_damage_taken",50],["support_hide_of_helbrym_gain_rage_from_%_of_damage_taken",3]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Helbrym's Hide",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportHerbalismPlayer":{
     "addSkillTypes":[],
     "color":1,
@@ -3487,7 +3318,7 @@
         "spiritReservationFlat":15
       }],
     "name":"Herbalism I",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_herbalism_life_recovery_+%_from_life_flasks",30]],
@@ -3525,7 +3356,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Herbalism II",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_herbalism_life_recovery_+%_from_life_flasks",50]],
@@ -3553,7 +3384,7 @@
     "support":true
   },
   "SupportHolyDescentPlayer":{
-    "addSkillTypes":[168,8,9],
+    "addSkillTypes":[167,8,9],
     "color":1,
     "description":"Supports Skills that leap into the air, causing them to create Consecrated Ground when you land.",
     "excludeSkillTypes":[],
@@ -3562,7 +3393,7 @@
         "levelRequirement":0
       }],
     "name":"Holy Descent",
-    "requireSkillTypes":[162],
+    "requireSkillTypes":[161],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_holy_descent_consecrated_ground_base_duration_ms",4000],["support_holy_descent_consecrated_ground_on_landing_radius",22]],
@@ -3835,7 +3666,7 @@
   "SupportInfernalLegionPlayer":{
     "addSkillTypes":[24],
     "color":1,
-    "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Burn. Damage dealt by the Burning is based off the Life of the supported Minion.",
+    "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Ignite. The damage of the Ignite is based on the Life of the supported Minion.",
     "excludeSkillTypes":[214],
     "gemFamily":["InfernalLegion"],
     "levels":[{
@@ -3846,7 +3677,7 @@
     "statSets":[{
         "baseEffectiveness":5.9082999229431,
         "baseFlags":[],
-        "constantStats":[["minion_fire_damage_%_of_maximum_life_taken_per_minute",1200],["support_minions_ignite_for_%_max_life",20],["infernal_legion_minion_burning_effect_radius",15]],
+        "constantStats":[["minion_fire_damage_%_of_maximum_life_taken_per_minute",600],["support_minions_ignite_for_%_max_life",10],["infernal_legion_minion_burning_effect_radius",15]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Infernal Legion I",
         "levels":[{
@@ -3918,7 +3749,7 @@
   "SupportInfernalLegionPlayerThree":{
     "addSkillTypes":[24],
     "color":1,
-    "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Burn. Damage dealt by the Burning is based off the Life of the supported Minion.",
+    "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Ignite. The damage of the Ignite is based on the Life of the supported Minion.",
     "excludeSkillTypes":[214],
     "gemFamily":["InfernalLegion"],
     "legacy":true,
@@ -3929,7 +3760,7 @@
     "requireSkillTypes":[77],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["minion_fire_damage_%_of_maximum_life_taken_per_minute",1800],["support_minions_ignite_for_%_max_life",25],["infernal_legion_minion_burning_effect_radius",20]],
+        "constantStats":[["minion_fire_damage_%_of_maximum_life_taken_per_minute",600],["support_minions_ignite_for_%_max_life",10],["infernal_legion_minion_burning_effect_radius",20],["minion_fire_damage_resistance_%",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Infernal Legion III",
         "levels":[{
@@ -4001,7 +3832,7 @@
   "SupportInfernalLegionPlayerTwo":{
     "addSkillTypes":[24],
     "color":1,
-    "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Burn. Damage dealt by the Burning is based off the Life of the supported Minion.",
+    "description":"Supports skills which create Minions which can be damaged, causing them and enemies near them to Ignite. The damage of the Ignite is based on the Life of the supported Minion.",
     "excludeSkillTypes":[214],
     "gemFamily":["InfernalLegion"],
     "levels":[{
@@ -4011,7 +3842,7 @@
     "requireSkillTypes":[77],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["minion_fire_damage_%_of_maximum_life_taken_per_minute",1200],["support_minions_ignite_for_%_max_life",20],["infernal_legion_minion_burning_effect_radius",20]],
+        "constantStats":[["minion_fire_damage_%_of_maximum_life_taken_per_minute",600],["support_minions_ignite_for_%_max_life",10],["infernal_legion_minion_burning_effect_radius",20],["minion_fire_damage_resistance_%",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Infernal Legion II",
         "levels":[{
@@ -4090,7 +3921,7 @@
         "levelRequirement":0
       }],
     "name":"Remnant Potency I",
-    "requireSkillTypes":[183],
+    "requireSkillTypes":[182],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["remnant_effect_+%",20]],
@@ -4114,7 +3945,7 @@
         "levelRequirement":0
       }],
     "name":"Remnant Potency III",
-    "requireSkillTypes":[183],
+    "requireSkillTypes":[182],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["remnant_effect_+%",40],["remnant_delay_X_ms",3000]],
@@ -4138,7 +3969,7 @@
         "levelRequirement":0
       }],
     "name":"Remnant Potency II",
-    "requireSkillTypes":[183],
+    "requireSkillTypes":[182],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["remnant_delay_X_ms",4000],["remnant_effect_+%",30]],
@@ -4153,7 +3984,7 @@
     "support":true
   },
   "SupportJaggedGroundPlayer":{
-    "addSkillTypes":[9,8,168],
+    "addSkillTypes":[9,8,167],
     "color":1,
     "description":"Supports Slam skills. Supported Skills will consume Endurance Charges on use to create Jagged Ground.",
     "excludeSkillTypes":[235],
@@ -4178,7 +4009,7 @@
     "support":true
   },
   "SupportJaggedGroundPlayerTwo":{
-    "addSkillTypes":[9,8,168],
+    "addSkillTypes":[9,8,167],
     "color":1,
     "description":"Supports Slam skills. Aftershocks caused by Supported Slam Skills always create patches of Jagged Ground.",
     "excludeSkillTypes":[235],
@@ -4214,7 +4045,7 @@
         "levelRequirement":0
       }],
     "name":"Kaom's Madness",
-    "requireSkillTypes":[165],
+    "requireSkillTypes":[164],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_number_of_additional_fissures",3],["support_additional_fissures_damage_+%_final",-20],["support_additional_fissures_skill_speed_+%_final",-20],["support_upheaval_area_of_effect_+%_final",-30]],
@@ -4291,7 +4122,7 @@
         "levelRequirement":0
       }],
     "name":"Lasting Ground",
-    "requireSkillTypes":[168],
+    "requireSkillTypes":[167],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["ground_effect_duration_+%",50]],
@@ -4639,6 +4470,55 @@
       }],
     "support":true
   },
+  "SupportMinionMeleeSplashPlayer":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Skills which create Minions which Strike, causing those Minions' Strikes to have Melee Splash.",
+    "excludeSkillTypes":[],
+    "gemFamily":["MinionMeleeSplash"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Minion Splash I",
+    "requireSkillTypes":[6,21,74],
+    "statSets":[{
+        "baseFlags":[],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Minion Splash I",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["minion_melee_splash"]
+      }],
+    "support":true
+  },
+  "SupportMinionMeleeSplashPlayerTwo":{
+    "addSkillTypes":[],
+    "color":1,
+    "description":"Supports Skills which create Minions which Strike, increasing their Area of Effect and causing those Minions' Strikes to have Melee Splash.",
+    "excludeSkillTypes":[],
+    "gemFamily":["MinionMeleeSplash"],
+    "levels":[{
+        "levelRequirement":0,
+        "manaMultiplier":10
+      }],
+    "name":"Minion Splash II",
+    "requireSkillTypes":[6,21,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["minion_skill_area_of_effect_+%",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Minion Splash II",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":["minion_melee_splash"]
+      }],
+    "support":true
+  },
   "SupportOpeningMovePlayer":{
     "addSkillTypes":[],
     "color":1,
@@ -4672,7 +4552,7 @@
         "levelRequirement":0
       }],
     "name":"Persistent Ground I",
-    "requireSkillTypes":[168],
+    "requireSkillTypes":[167],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["ground_effect_duration_+%",50]],
@@ -4696,7 +4576,7 @@
         "levelRequirement":0
       }],
     "name":"Persistent Ground III",
-    "requireSkillTypes":[168],
+    "requireSkillTypes":[167],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["ground_effect_duration_+%",50],["ground_effects_apply_cooldown_speed_+%_final",-30]],
@@ -4720,7 +4600,7 @@
         "levelRequirement":0
       }],
     "name":"Persistent Ground II",
-    "requireSkillTypes":[168],
+    "requireSkillTypes":[167],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["ground_effect_duration_+%",50]],
@@ -4768,7 +4648,6 @@
     "description":"Supports Melee Attacks, causing them to grant Rage on Hit.",
     "excludeSkillTypes":[],
     "gemFamily":["Rage"],
-    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -4791,10 +4670,9 @@
   "SupportRagePlayerThree":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks, causing them to grant Rage on Hit. Supported Skills have signficantly higher Attack speed while you are not at maximum Rage.",
+    "description":"Supports Melee Attacks, causing them to grant Rage on Hit. Supported Skills have signficantly higher Attack speed while you or supported minion are not at maximum Rage.",
     "excludeSkillTypes":[],
     "gemFamily":["Rage"],
-    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -4833,7 +4711,6 @@
     "description":"Supports Melee Attacks, causing them to grant Rage on Hit.",
     "excludeSkillTypes":[],
     "gemFamily":["Rage"],
-    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -4856,15 +4733,15 @@
   "SupportRageforgedPlayer":{
     "addSkillTypes":[224],
     "color":1,
-    "description":"Supports any damaging skill that you use or trigger yourself, causing it to spend Rage to deal more damage. If you don't have enough Rage to spend, the damage bonus will not apply.",
-    "excludeSkillTypes":[139,33,36,25,96],
+    "description":"Supports any damaging skill that you use or Trigger yourself, causing it to spend Rage to deal more damage. If you don't have enough Rage to spend, the damage bonus will not apply.",
+    "excludeSkillTypes":[258,140],
     "gemFamily":["RageForged"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Rageforged I",
-    "requireSkillTypes":[7,1,117,49],
+    "requireSkillTypes":[7,1,117,49,35],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_rageforged_consumes_X_rage_to_enrage_skill_use",10],["support_rageforged_enraged_damage_+%_final",35]],
@@ -4894,15 +4771,15 @@
   "SupportRageforgedPlayerTwo":{
     "addSkillTypes":[224],
     "color":1,
-    "description":"Supports any damaging skill that you use or trigger yourself, causing it to spend Rage to deal more damage, with a chance to skip spending Rage while still benefitting as though it had. If you don't have enough Rage to spend, the damage bonus will not apply.",
-    "excludeSkillTypes":[139,33,36,25,96],
+    "description":"Supports any damaging skill that you use or Trigger yourself, causing it to spend Rage to deal more damage, with a chance to skip spending Rage while still benefitting as though it had. If you don't have enough Rage to spend, the damage bonus will not apply.",
+    "excludeSkillTypes":[258,140],
     "gemFamily":["RageForged"],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Rageforged II",
-    "requireSkillTypes":[7,1,117,49],
+    "requireSkillTypes":[7,1,117,49,35],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_rageforged_consumes_X_rage_to_enrage_skill_use",10],["support_rageforged_enraged_damage_+%_final",35],["rage_skip_consume_chance_%",30]],
@@ -4956,7 +4833,7 @@
   "SupportRefractionPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Banner Skills, causing those affected by Auras they create to gain Refractive Plating, a Buff which causes Armour to partially apply to Elemental Hit Damage.",
+    "description":"Supports Banner Skills, causing those affected by Auras they create to gain Refractive Plating, a Buff which grants Deflection Rating and causes Armour to partially apply to Elemental Hit Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["Refraction"],
     "levels":[{
@@ -4964,10 +4841,10 @@
         "spiritReservationFlat":10
       }],
     "name":"Refraction I",
-    "requireSkillTypes":[89,139,5,74,74],
+    "requireSkillTypes":[89,140,5,74,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_tempered_valour_%_armour_to_apply_to_elemental_damage",20]],
+        "constantStats":[["support_tempered_valour_%_armour_to_apply_to_elemental_damage",20],["support_tempered_valour_deflection_rating_%_of_evasion_rating",15]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Refraction I",
         "levels":[{
@@ -5020,6 +4897,22 @@
                 "type":"MultiplierThreshold",
                 "var":"ValourStacks"
               }
+            }],
+          "support_tempered_valour_deflection_rating_%_of_evasion_rating":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EvasionGainAsDeflection",
+              "type":"BASE",
+              "1":{
+                "effectName":"Refractive Plating",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "thresholdVar":"RefractionMinimumValour",
+                "type":"MultiplierThreshold",
+                "var":"ValourStacks"
+              }
             }]
         },
         "stats":[]
@@ -5037,7 +4930,7 @@
         "spiritReservationFlat":10
       }],
     "name":"Refraction III",
-    "requireSkillTypes":[89,139,5,74,74],
+    "requireSkillTypes":[89,140,5,74,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_tempered_valour_banner_applies_%_elemental_exposure_per_1000_armour",2]],
@@ -5123,7 +5016,7 @@
   "SupportRefractionPlayerTwo":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Banner Skills, causing those affected by Auras they create to gain Refractive Plating, a Buff which causes Armour to partially apply to Elemental Hit Damage.",
+    "description":"Supports Banner Skills, causing those affected by Auras they create to gain Refractive Plating, a Buff which grants Deflection Rating and causes Armour to partially apply to Elemental Hit Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["Refraction"],
     "levels":[{
@@ -5131,10 +5024,10 @@
         "spiritReservationFlat":10
       }],
     "name":"Refraction II",
-    "requireSkillTypes":[89,139,5,74,74],
+    "requireSkillTypes":[89,140,5,74,74],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["support_tempered_valour_%_armour_to_apply_to_elemental_damage",30]],
+        "constantStats":[["support_tempered_valour_%_armour_to_apply_to_elemental_damage",30],["support_tempered_valour_deflection_rating_%_of_evasion_rating",20]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Refraction II",
         "levels":[{
@@ -5176,6 +5069,22 @@
               "flags":0,
               "keywordFlags":0,
               "name":"ArmourAppliesToLightningDamageTaken",
+              "type":"BASE",
+              "1":{
+                "effectName":"Refractive Plating",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "thresholdVar":"RefractionMinimumValour",
+                "type":"MultiplierThreshold",
+                "var":"ValourStacks"
+              }
+            }],
+          "support_tempered_valour_deflection_rating_%_of_evasion_rating":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"EvasionGainAsDeflection",
               "type":"BASE",
               "1":{
                 "effectName":"Refractive Plating",
@@ -5245,7 +5154,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills you use yourself. On spending Rage with any skill you will gain a Buff. Using Supported Skills consumes this Buff to grant you Rage.",
-    "excludeSkillTypes":[139,37,33,36,25,37,96],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["RelentlessRage"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5277,7 +5186,7 @@
         "levelRequirement":0
       }],
     "name":"Rending Apex",
-    "requireSkillTypes":[148],
+    "requireSkillTypes":[149],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["final_strike_attack_damage_%_dealt_as_armour_break",75]],
@@ -5295,7 +5204,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. Supported Skills gain much more damage the closer you are to being Heavily Stunned.",
-    "excludeSkillTypes":[139,6,96,25,122,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Retaliate"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5321,7 +5230,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Attack Skills you use yourself. Supported Skills gain much more damage and are more capable of Stunning Enemies the closer you are to being Heavily Stunned.",
-    "excludeSkillTypes":[139,6,96,25,122,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Retaliate"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5369,10 +5278,10 @@
     "support":true
   },
   "SupportRipPlayer":{
-    "addSkillTypes":[183,9],
+    "addSkillTypes":[182,9],
     "color":1,
-    "description":"Supports Melee Attack Skills you use yourself or that you Trigger. Killing Blows with Supported Skills on Bleeding enemies create a Blood Remnant. Blood Remnants increase your Life regeneration rate for a short while after being collected.",
-    "excludeSkillTypes":[139,6,96,25],
+    "description":"Supports Melee Attack Skills you use or Trigger yourself. Killing Blows with Supported Skills on Bleeding enemies create a Blood Remnant. Blood Remnants increase your Life regeneration rate for a short while after being collected.",
+    "excludeSkillTypes":[258,140],
     "gemFamily":["Rip"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5446,13 +5355,13 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills that generate Remnants, causing those Remnants to affect Allies in your Presence when collected instead of you.",
-    "excludeSkillTypes":[247],
+    "excludeSkillTypes":[246],
     "gemFamily":["SelflessRemnants"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Selfless Remnants",
-    "requireSkillTypes":[183],
+    "requireSkillTypes":[182],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
@@ -5548,7 +5457,7 @@
         "levelRequirement":0
       }],
     "name":"Skittering Stone I",
-    "requireSkillTypes":[246],
+    "requireSkillTypes":[245],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_hatching_elementals_hatch_after_X_deaths_in_radius",5],["support_hatching_elementals_base_radius",40],["support_chance_to_trigger_hatching_elementals_%",100]],
@@ -5573,7 +5482,7 @@
         "levelRequirement":0
       }],
     "name":"Skittering Stone II",
-    "requireSkillTypes":[246],
+    "requireSkillTypes":[245],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_hatching_elementals_hatch_after_X_deaths_in_radius",5],["support_hatching_elementals_base_radius",40],["support_chance_to_trigger_hatching_elementals_%",100]],
@@ -5591,7 +5500,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slams you use yourself, causing them to create simultaneous Aftershocks behind the Slam, but lowering Aftershock damage and area of effect with Supported Skills. Cannot Support Skills which create Fissures.",
-    "excludeSkillTypes":[139,25,96,33,36,38,37,165],
+    "excludeSkillTypes":[258,37,140,164],
     "gemFamily":["Aftershock"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5641,7 +5550,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills which create Totems, preventing having more than one active Totem but causing that Totem to splinter into smaller versions of itself after it uses an Attack or Spell, with each Totem becoming less effective. Each splintered Totem can further splinter, up to a maximum. Does not Support Skills used by Minions. Only one Totem can be splintering at a time.",
-    "excludeSkillTypes":[243],
+    "excludeSkillTypes":[242],
     "gemFamily":["TotemicControl"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5667,7 +5576,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Skills which create Totems, preventing having more than one active Totem but causing that Totem to splinter into smaller versions of itself after it uses an Attack or Spell, with each Totem becoming less effective. Each splintered Totem can further splinter, up to a maximum. Does not Support Skills used by Minions. Only one Totem can be splintering at a time.",
-    "excludeSkillTypes":[243],
+    "excludeSkillTypes":[242],
     "gemFamily":["TotemicControl"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5693,7 +5602,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Channelling Skills you use yourself, granting you higher Stun Threshold while Channelling them.",
-    "excludeSkillTypes":[139,6,96,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Steadfast"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5719,7 +5628,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Channelling Skills you use yourself, granting you higher Stun Threshold and Ailment Threshold  while Channelling them.",
-    "excludeSkillTypes":[139,6,96,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Steadfast"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5745,7 +5654,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Supported Skills steadily gain more Damage, up to a cap. This Damage bonus is reset if you Dodge Roll or use a Travel Skill.",
-    "excludeSkillTypes":[139,96,33,36,37],
+    "excludeSkillTypes":[258,37,140,2],
     "gemFamily":["Stoicism"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5770,7 +5679,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attack Skills you use yourself. Supported Skills steadily gain more Damage, up to a cap. This Damage bonus is reset if you Dodge Roll or use a Travel Skill.",
-    "excludeSkillTypes":[139,96,33,36,37],
+    "excludeSkillTypes":[258,37,140,2],
     "gemFamily":["Stoicism"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5923,8 +5832,9 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Slam Skills you use yourself. Hits from Supported Skills are considered Crushing Blows against Enemies which are both Ignited and Fully Armour Broken. Hits with Supported Skills that Heavily Stun Ignited and Fully Armour Broken Enemies will Intimidate them.",
-    "excludeSkillTypes":[139,6,96,25,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["Syzygy"],
+    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":0
       }],
@@ -5945,8 +5855,8 @@
   "SupportTearPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Melee Attacks you use yourself or that you Trigger. On-Kill effects caused by Killing Blows with Supported Skills on Bleeding enemies have a chance to occur twice.",
-    "excludeSkillTypes":[139,6,96,25],
+    "description":"Supports Melee Attacks you use or Trigger yourself. On-Kill effects caused by Killing Blows with Supported Skills on Bleeding enemies have a chance to occur twice.",
+    "excludeSkillTypes":[258,140],
     "gemFamily":["Tear"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5979,7 +5889,7 @@
         "spiritReservationFlat":20
       }],
     "name":"Thornskin I",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_thorns_spirit_cost_thorns_damage_+%",40]],
@@ -6017,7 +5927,7 @@
         "spiritReservationFlat":40
       }],
     "name":"Thornskin II",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_thorns_spirit_cost_thorns_damage_+%",70]],
@@ -6073,7 +5983,7 @@
   "SupportUhtredAuguryPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Skills which can gain levels, granting them many additional levels provided exactly two other supports are used with the supported Skill. Does not support skills which do not have levels.",
+    "description":"Supports Skills which can gain levels, granting them additional levels provided exactly two other supports are used with the supported Skill. Does not support skills which do not have levels.",
     "excludeSkillTypes":[236],
     "flavourText":["Studying the ill omens of the stars, Uhtred came to suspect","something was very wrong among the first Kalguurans.","Olroth, Vorana, Medved... three there were. Three dangers."],
     "gemFamily":["UhtredLineage"],
@@ -6085,7 +5995,7 @@
     "requireSkillTypes":[],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["supported_active_skill_gem_level_+_if_two_other_supports",3]],
+        "constantStats":[["supported_active_skill_gem_level_+_if_two_other_supports",2]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Uhtred's Augury",
         "levels":[{
@@ -6161,7 +6071,7 @@
   "SupportUhtredOmenPlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Skills which can gain levels, granting them many additional levels provided exactly one other support is used with the supported Skill. Does not support skills which do not have levels.",
+    "description":"Supports Skills which can gain levels, granting them additional levels provided exactly one other support is used with the supported Skill. Does not support skills which do not have levels.",
     "excludeSkillTypes":[236],
     "flavourText":["Day and night, his priests followed each of the Kalguuran","heroes. When Medved disappeared, Uhtred grew even more","paranoid. Now, only two remained... Olroth and Vorana."],
     "gemFamily":["UhtredLineage"],
@@ -6173,7 +6083,7 @@
     "requireSkillTypes":[],
     "statSets":[{
         "baseFlags":[],
-        "constantStats":[["supported_active_skill_gem_level_+_if_one_other_support",3]],
+        "constantStats":[["supported_active_skill_gem_level_+_if_one_other_support",2]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Uhtred's Omen",
         "levels":[{
@@ -6236,7 +6146,7 @@
         "levelRequirement":0
       }],
     "name":"Upheaval I",
-    "requireSkillTypes":[165],
+    "requireSkillTypes":[164],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_number_of_additional_fissures",1],["support_additional_fissures_damage_+%_final",-20],["support_additional_fissures_skill_speed_+%_final",-20]],
@@ -6274,7 +6184,7 @@
         "levelRequirement":0
       }],
     "name":"Upheaval II",
-    "requireSkillTypes":[165],
+    "requireSkillTypes":[164],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["base_number_of_additional_fissures",2],["support_additional_fissures_damage_+%_final",-40],["support_additional_fissures_skill_speed_+%_final",-20]],
@@ -6488,7 +6398,7 @@
         "spiritReservationFlat":20
       }],
     "name":"Vitality I",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_vitality_life_regeneration_rate_per_minute_%",60]],
@@ -6529,7 +6439,7 @@
         "spiritReservationFlat":40
       }],
     "name":"Vitality II",
-    "requireSkillTypes":[139,5,74],
+    "requireSkillTypes":[140,5,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_vitality_life_regeneration_rate_per_minute_%",120]],
@@ -6563,7 +6473,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Melee Strike Skills you use yourself. Supported Skills trigger Volcanic Eruption on Hit against Ignited Enemies.",
-    "excludeSkillTypes":[139,6,25,96,37],
+    "excludeSkillTypes":[258,37,140],
     "gemFamily":["VolcanicEruption"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -6579,6 +6489,33 @@
         "label":"Volcanic Eruption",
         "levels":[{
             "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
+  "SupportVruunsInevitability":{
+    "addSkillTypes":[153,263,194],
+    "color":1,
+    "description":"Supports Melee Attack Skills. Supported Skills gain Combo when you successfully Strike Enemies with other Melee Attacks. Supported Skills expend their Combo when used, gaining more area of effect the higher Combo they had. Cannot support skills which already gain Combo. Cannot modify the Skills of Minions.",
+    "excludeSkillTypes":[194,263,75,74],
+    "flavourText":["\"If you think you've won, it's only because you don't","understand their strategy. Each Vruun you kill only","teaches the next one how to endure against you.\""],
+    "gemFamily":["IncreasedAreaOfEffect"],
+    "ignoreMinionTypes":true,
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Vruun's Inevitability",
+    "requireSkillTypes":[1,20,74],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["area_of_effect_+%_per_combo_stack",6],["base_combo_stacks_decay_delay_ms",6000],["skill_maximum_number_of_combo_stacks",10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Vruun's Inevitability",
+        "levels":[{
+            "actorLevel":65
           }],
         "statDescriptionScope":"gem_stat_descriptions",
         "stats":[]
@@ -6616,15 +6553,16 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports Attacks and Warcries you use yourself. Supported Skills gain a Glory requirement, and build Glory when you spend Life on Skills. Supported Skills deal more damage and have significantly\n increased area of effect.",
-    "excludeSkillTypes":[96,5,139,37,2,6],
+    "excludeSkillTypes":[258,37,140],
     "flavourText":["\"It was the quality of his heinous acts that set him apart, not","the quantity... all of the physical trauma inflicted occurred","while the victim was still alive. Perhaps this was the key.\""],
     "gemFamily":["Zerphi"],
+    "ignoreMinionTypes":true,
     "isLineage":true,
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Zerphi's Infamy",
-    "requireSkillTypes":[8,1,41,63],
+    "requireSkillTypes":[1,63],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["active_skill_requires_X_glory",50],["active_skill_generates_%_of_life_spent_as_glory",5],["support_zerphis_legacy_area_of_effect_+%",50],["support_zerphis_legacy_damage_+%_final",50]],
@@ -6756,6 +6694,9 @@
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "name":"Battershout",
@@ -6789,6 +6730,9 @@
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "cooldown":0.15,
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0,
         "storedUses":6
       }],
@@ -6807,13 +6751,13 @@
       "115":true,
       "203":true,
       "218":true,
-      "252":true
+      "251":true
     },
     "statSets":[{
         "baseFlags":{
           "attack":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",10],["triggered_by_briarpatch_support_on_slam_%",100],["base_skill_effect_duration",8000],["briarpatches_arming_time_ms",400],["active_skill_has_%_standard_scaling_attack_damage",35],["ice_crystals_hazard_damage_+%_final_for_first_500_ms_when_not_killed_by_self",-80],["plant_skill_damage_+%_final_when_wet",50]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",10],["triggered_by_briarpatch_support_on_slam_%",100],["base_skill_effect_duration",8000],["briarpatches_arming_time_ms",400],["active_skill_has_%_standard_scaling_attack_damage",35],["hazard_damage_+%_final_for_first_500_ms_when_not_killed_by_self",-80],["plant_skill_damage_+%_final_when_wet",50]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Brambles",
         "levels":[{
@@ -6823,12 +6767,1311 @@
         "stats":["is_hazard","global_maim_on_hit","additive_thorns_damage_modifiers_apply_to_attack_damage"]
       }]
   },
+  "TriggeredCorruptingCryPlayer":{
+    "castTime":1,
+    "description":"Covers the target in Corrupted Blood which damages them.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      }],
+    "name":"Corrupted Cry",
+    "qualityStats":[],
+    "skillTypes":{
+      "9":true,
+      "27":true,
+      "31":true,
+      "35":true,
+      "37":true,
+      "50":true,
+      "83":true,
+      "115":true,
+      "121":true
+    },
+    "statSets":[{
+        "baseEffectiveness":5.5,
+        "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"dotIsCorruptingBlood",
+            "type":"FLAG",
+            "value":true
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:CorruptingCryMaxStages",
+            "type":"BASE",
+            "value":10
+          },{
+            "flags":0,
+            "keywordFlags":16777216,
+            "name":"Damage",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "limit":9,
+              "type":"Multiplier",
+              "var":"CorruptingCryStageAfterFirst"
+            }
+          }],
+        "constantStats":[["base_skill_effect_duration",5000],["add_buff_to_target_skill_number_of_corrupted_blood_debuffs_to_inflict",1]],
+        "damageIncrementalEffectiveness":0.010599999688566,
+        "incrementalEffectiveness":0.17000000178814,
+        "label":"Corrupted Cry",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1],
+            "1":356
+          },{
+            "actorLevel":3.4519999027252,
+            "statInterpolation":[1],
+            "1":518
+          },{
+            "actorLevel":6.7670001983643,
+            "statInterpolation":[1],
+            "1":750
+          },{
+            "actorLevel":10.307999610901,
+            "statInterpolation":[1],
+            "1":1015
+          },{
+            "actorLevel":14.074999809265,
+            "statInterpolation":[1],
+            "1":1317
+          },{
+            "actorLevel":18.068000793457,
+            "statInterpolation":[1],
+            "1":1664
+          },{
+            "actorLevel":22.287000656128,
+            "statInterpolation":[1],
+            "1":2059
+          },{
+            "actorLevel":26.732000350952,
+            "statInterpolation":[1],
+            "1":2511
+          },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1],
+            "1":3027
+          },{
+            "actorLevel":36.299999237061,
+            "statInterpolation":[1],
+            "1":3618
+          },{
+            "actorLevel":41.423000335693,
+            "statInterpolation":[1],
+            "1":4294
+          },{
+            "actorLevel":46.771999359131,
+            "statInterpolation":[1],
+            "1":5067
+          },{
+            "actorLevel":52.34700012207,
+            "statInterpolation":[1],
+            "1":5954
+          },{
+            "actorLevel":58.147998809814,
+            "statInterpolation":[1],
+            "1":6971
+          },{
+            "actorLevel":64.175003051758,
+            "statInterpolation":[1],
+            "1":8139
+          },{
+            "actorLevel":70.428001403809,
+            "statInterpolation":[1],
+            "1":9481
+          },{
+            "actorLevel":76.906997680664,
+            "statInterpolation":[1],
+            "1":11025
+          },{
+            "actorLevel":83.611999511719,
+            "statInterpolation":[1],
+            "1":12803
+          },{
+            "actorLevel":90.542999267578,
+            "statInterpolation":[1],
+            "1":14852
+          },{
+            "actorLevel":97.699996948242,
+            "statInterpolation":[1],
+            "1":17217
+          },{
+            "actorLevel":105.08300018311,
+            "statInterpolation":[1],
+            "1":19951
+          },{
+            "actorLevel":112.69200134277,
+            "statInterpolation":[1],
+            "1":23113
+          },{
+            "actorLevel":120.52700042725,
+            "statInterpolation":[1],
+            "1":26777
+          },{
+            "actorLevel":128.58799743652,
+            "statInterpolation":[1],
+            "1":31026
+          },{
+            "actorLevel":136.875,
+            "statInterpolation":[1],
+            "1":35961
+          },{
+            "actorLevel":145.38800048828,
+            "statInterpolation":[1],
+            "1":41701
+          },{
+            "actorLevel":154.12699890137,
+            "statInterpolation":[1],
+            "1":48385
+          },{
+            "actorLevel":163.09199523926,
+            "statInterpolation":[1],
+            "1":56180
+          },{
+            "actorLevel":172.28300476074,
+            "statInterpolation":[1],
+            "1":65284
+          },{
+            "actorLevel":181.69999694824,
+            "statInterpolation":[1],
+            "1":75932
+          },{
+            "actorLevel":191.34300231934,
+            "statInterpolation":[1],
+            "1":88403
+          },{
+            "actorLevel":201.21200561523,
+            "statInterpolation":[1],
+            "1":103032
+          },{
+            "actorLevel":211.30700683594,
+            "statInterpolation":[1],
+            "1":120217
+          },{
+            "actorLevel":221.62800598145,
+            "statInterpolation":[1],
+            "1":140438
+          },{
+            "actorLevel":232.17500305176,
+            "statInterpolation":[1],
+            "1":164266
+          },{
+            "actorLevel":242.94799804688,
+            "statInterpolation":[1],
+            "1":192389
+          },{
+            "actorLevel":253.94700622559,
+            "statInterpolation":[1],
+            "1":225635
+          },{
+            "actorLevel":265.17199707031,
+            "statInterpolation":[1],
+            "1":265001
+          },{
+            "actorLevel":276.62298583984,
+            "statInterpolation":[1],
+            "1":311688
+          },{
+            "actorLevel":288.29998779297,
+            "statInterpolation":[1],
+            "1":367150
+          }],
+        "statDescriptionScope":"triggered_corrupting_cry",
+        "statMap":{
+          "add_buff_to_target_skill_number_of_corrupted_blood_debuffs_to_inflict":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"CorruptingCryStagesFromWarcry",
+              "value":0
+            }]
+        },
+        "stats":["base_physical_damage_to_deal_per_minute","skill_triggered_by_support_which_grants_it","modifiers_to_warcry_damage_also_apply_to_this"]
+      }]
+  },
+  "TriggeredCorruptingCryThreePlayer":{
+    "castTime":1,
+    "description":"Covers the target in large quantities of Corrupted Blood which severly damages them.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      }],
+    "name":"Twisted Pact",
+    "qualityStats":[],
+    "skillTypes":{
+      "9":true,
+      "27":true,
+      "31":true,
+      "35":true,
+      "37":true,
+      "50":true,
+      "83":true,
+      "115":true,
+      "121":true
+    },
+    "statSets":[{
+        "baseEffectiveness":6.5,
+        "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"dotIsCorruptingBlood",
+            "type":"FLAG",
+            "value":true
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:CorruptingCryMaxStages",
+            "type":"BASE",
+            "value":10
+          },{
+            "flags":0,
+            "keywordFlags":16777216,
+            "name":"Damage",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "limit":9,
+              "type":"Multiplier",
+              "var":"CorruptingCryStageAfterFirst"
+            }
+          }],
+        "constantStats":[["base_skill_effect_duration",5000],["add_buff_to_target_skill_number_of_corrupted_blood_debuffs_to_inflict",5]],
+        "damageIncrementalEffectiveness":0.010599999688566,
+        "incrementalEffectiveness":0.17000000178814,
+        "label":"Twisted Pact",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1],
+            "1":421
+          },{
+            "actorLevel":3.4519999027252,
+            "statInterpolation":[1],
+            "1":612
+          },{
+            "actorLevel":6.7670001983643,
+            "statInterpolation":[1],
+            "1":886
+          },{
+            "actorLevel":10.307999610901,
+            "statInterpolation":[1],
+            "1":1199
+          },{
+            "actorLevel":14.074999809265,
+            "statInterpolation":[1],
+            "1":1557
+          },{
+            "actorLevel":18.068000793457,
+            "statInterpolation":[1],
+            "1":1966
+          },{
+            "actorLevel":22.287000656128,
+            "statInterpolation":[1],
+            "1":2433
+          },{
+            "actorLevel":26.732000350952,
+            "statInterpolation":[1],
+            "1":2967
+          },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1],
+            "1":3578
+          },{
+            "actorLevel":36.299999237061,
+            "statInterpolation":[1],
+            "1":4275
+          },{
+            "actorLevel":41.423000335693,
+            "statInterpolation":[1],
+            "1":5074
+          },{
+            "actorLevel":46.771999359131,
+            "statInterpolation":[1],
+            "1":5989
+          },{
+            "actorLevel":52.34700012207,
+            "statInterpolation":[1],
+            "1":7037
+          },{
+            "actorLevel":58.147998809814,
+            "statInterpolation":[1],
+            "1":8239
+          },{
+            "actorLevel":64.175003051758,
+            "statInterpolation":[1],
+            "1":9619
+          },{
+            "actorLevel":70.428001403809,
+            "statInterpolation":[1],
+            "1":11205
+          },{
+            "actorLevel":76.906997680664,
+            "statInterpolation":[1],
+            "1":13029
+          },{
+            "actorLevel":83.611999511719,
+            "statInterpolation":[1],
+            "1":15130
+          },{
+            "actorLevel":90.542999267578,
+            "statInterpolation":[1],
+            "1":17552
+          },{
+            "actorLevel":97.699996948242,
+            "statInterpolation":[1],
+            "1":20348
+          },{
+            "actorLevel":105.08300018311,
+            "statInterpolation":[1],
+            "1":23578
+          },{
+            "actorLevel":112.69200134277,
+            "statInterpolation":[1],
+            "1":27315
+          },{
+            "actorLevel":120.52700042725,
+            "statInterpolation":[1],
+            "1":31645
+          },{
+            "actorLevel":128.58799743652,
+            "statInterpolation":[1],
+            "1":36667
+          },{
+            "actorLevel":136.875,
+            "statInterpolation":[1],
+            "1":42499
+          },{
+            "actorLevel":145.38800048828,
+            "statInterpolation":[1],
+            "1":49283
+          },{
+            "actorLevel":154.12699890137,
+            "statInterpolation":[1],
+            "1":57182
+          },{
+            "actorLevel":163.09199523926,
+            "statInterpolation":[1],
+            "1":66395
+          },{
+            "actorLevel":172.28300476074,
+            "statInterpolation":[1],
+            "1":77154
+          },{
+            "actorLevel":181.69999694824,
+            "statInterpolation":[1],
+            "1":89738
+          },{
+            "actorLevel":191.34300231934,
+            "statInterpolation":[1],
+            "1":104476
+          },{
+            "actorLevel":201.21200561523,
+            "statInterpolation":[1],
+            "1":121765
+          },{
+            "actorLevel":211.30700683594,
+            "statInterpolation":[1],
+            "1":142075
+          },{
+            "actorLevel":221.62800598145,
+            "statInterpolation":[1],
+            "1":165972
+          },{
+            "actorLevel":232.17500305176,
+            "statInterpolation":[1],
+            "1":194132
+          },{
+            "actorLevel":242.94799804688,
+            "statInterpolation":[1],
+            "1":227369
+          },{
+            "actorLevel":253.94700622559,
+            "statInterpolation":[1],
+            "1":266660
+          },{
+            "actorLevel":265.17199707031,
+            "statInterpolation":[1],
+            "1":313183
+          },{
+            "actorLevel":276.62298583984,
+            "statInterpolation":[1],
+            "1":368359
+          },{
+            "actorLevel":288.29998779297,
+            "statInterpolation":[1],
+            "1":433905
+          }],
+        "statDescriptionScope":"triggered_paquates_pact",
+        "statMap":{
+          "add_buff_to_target_skill_number_of_corrupted_blood_debuffs_to_inflict":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"CorruptingCryStagesFromWarcry",
+              "value":0
+            }]
+        },
+        "stats":["base_physical_damage_to_deal_per_minute","skill_triggered_by_support_which_grants_it","modifiers_to_warcry_damage_also_apply_to_this"]
+      }]
+  },
+  "TriggeredCorruptingCryTwoPlayer":{
+    "castTime":1,
+    "description":"Covers the target in Corrupted Blood which damages them.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      },{
+        "cost":{
+          "Mana":0
+        },
+        "levelRequirement":0
+      }],
+    "name":"Corrupted Cry",
+    "qualityStats":[],
+    "skillTypes":{
+      "9":true,
+      "27":true,
+      "31":true,
+      "35":true,
+      "37":true,
+      "50":true,
+      "83":true,
+      "115":true,
+      "121":true
+    },
+    "statSets":[{
+        "baseEffectiveness":5.5,
+        "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"SkillData",
+            "type":"LIST",
+            "value":{
+              "key":"debuff",
+              "value":true
+            }
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"dotIsCorruptingBlood",
+            "type":"FLAG",
+            "value":true
+          },{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Multiplier:CorruptingCryMaxStages",
+            "type":"BASE",
+            "value":10
+          },{
+            "flags":0,
+            "keywordFlags":16777216,
+            "name":"Damage",
+            "type":"MORE",
+            "value":100,
+            "1":{
+              "limit":9,
+              "type":"Multiplier",
+              "var":"CorruptingCryStageAfterFirst"
+            }
+          }],
+        "constantStats":[["base_skill_effect_duration",5000],["add_buff_to_target_skill_number_of_corrupted_blood_debuffs_to_inflict",1]],
+        "damageIncrementalEffectiveness":0.010599999688566,
+        "incrementalEffectiveness":0.17000000178814,
+        "label":"Corrupted Cry",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[1],
+            "1":356
+          },{
+            "actorLevel":3.4519999027252,
+            "statInterpolation":[1],
+            "1":518
+          },{
+            "actorLevel":6.7670001983643,
+            "statInterpolation":[1],
+            "1":750
+          },{
+            "actorLevel":10.307999610901,
+            "statInterpolation":[1],
+            "1":1015
+          },{
+            "actorLevel":14.074999809265,
+            "statInterpolation":[1],
+            "1":1317
+          },{
+            "actorLevel":18.068000793457,
+            "statInterpolation":[1],
+            "1":1664
+          },{
+            "actorLevel":22.287000656128,
+            "statInterpolation":[1],
+            "1":2059
+          },{
+            "actorLevel":26.732000350952,
+            "statInterpolation":[1],
+            "1":2511
+          },{
+            "actorLevel":31.40299987793,
+            "statInterpolation":[1],
+            "1":3027
+          },{
+            "actorLevel":36.299999237061,
+            "statInterpolation":[1],
+            "1":3618
+          },{
+            "actorLevel":41.423000335693,
+            "statInterpolation":[1],
+            "1":4294
+          },{
+            "actorLevel":46.771999359131,
+            "statInterpolation":[1],
+            "1":5067
+          },{
+            "actorLevel":52.34700012207,
+            "statInterpolation":[1],
+            "1":5954
+          },{
+            "actorLevel":58.147998809814,
+            "statInterpolation":[1],
+            "1":6971
+          },{
+            "actorLevel":64.175003051758,
+            "statInterpolation":[1],
+            "1":8139
+          },{
+            "actorLevel":70.428001403809,
+            "statInterpolation":[1],
+            "1":9481
+          },{
+            "actorLevel":76.906997680664,
+            "statInterpolation":[1],
+            "1":11025
+          },{
+            "actorLevel":83.611999511719,
+            "statInterpolation":[1],
+            "1":12803
+          },{
+            "actorLevel":90.542999267578,
+            "statInterpolation":[1],
+            "1":14852
+          },{
+            "actorLevel":97.699996948242,
+            "statInterpolation":[1],
+            "1":17217
+          },{
+            "actorLevel":105.08300018311,
+            "statInterpolation":[1],
+            "1":19951
+          },{
+            "actorLevel":112.69200134277,
+            "statInterpolation":[1],
+            "1":23113
+          },{
+            "actorLevel":120.52700042725,
+            "statInterpolation":[1],
+            "1":26777
+          },{
+            "actorLevel":128.58799743652,
+            "statInterpolation":[1],
+            "1":31026
+          },{
+            "actorLevel":136.875,
+            "statInterpolation":[1],
+            "1":35961
+          },{
+            "actorLevel":145.38800048828,
+            "statInterpolation":[1],
+            "1":41701
+          },{
+            "actorLevel":154.12699890137,
+            "statInterpolation":[1],
+            "1":48385
+          },{
+            "actorLevel":163.09199523926,
+            "statInterpolation":[1],
+            "1":56180
+          },{
+            "actorLevel":172.28300476074,
+            "statInterpolation":[1],
+            "1":65284
+          },{
+            "actorLevel":181.69999694824,
+            "statInterpolation":[1],
+            "1":75932
+          },{
+            "actorLevel":191.34300231934,
+            "statInterpolation":[1],
+            "1":88403
+          },{
+            "actorLevel":201.21200561523,
+            "statInterpolation":[1],
+            "1":103032
+          },{
+            "actorLevel":211.30700683594,
+            "statInterpolation":[1],
+            "1":120217
+          },{
+            "actorLevel":221.62800598145,
+            "statInterpolation":[1],
+            "1":140438
+          },{
+            "actorLevel":232.17500305176,
+            "statInterpolation":[1],
+            "1":164266
+          },{
+            "actorLevel":242.94799804688,
+            "statInterpolation":[1],
+            "1":192389
+          },{
+            "actorLevel":253.94700622559,
+            "statInterpolation":[1],
+            "1":225635
+          },{
+            "actorLevel":265.17199707031,
+            "statInterpolation":[1],
+            "1":265001
+          },{
+            "actorLevel":276.62298583984,
+            "statInterpolation":[1],
+            "1":311688
+          },{
+            "actorLevel":288.29998779297,
+            "statInterpolation":[1],
+            "1":367150
+          }],
+        "statDescriptionScope":"triggered_corrupting_cry",
+        "statMap":{
+          "add_buff_to_target_skill_number_of_corrupted_blood_debuffs_to_inflict":[{
+              "flags":4,
+              "keywordFlags":0,
+              "name":"CorruptingCryStagesFromWarcry",
+              "value":0
+            }]
+        },
+        "stats":["base_physical_damage_to_deal_per_minute","skill_triggered_by_support_which_grants_it","modifiers_to_warcry_damage_also_apply_to_this"]
+      }]
+  },
   "TriggeredCraterPlayer":{
     "castTime":1,
     "description":"Creates multiple Fissures when landing with Supported Skill.",
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/ElementalPowerSkillWand.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "name":"Crater",
@@ -6844,8 +8087,8 @@
       "50":true,
       "83":true,
       "115":true,
-      "144":true,
-      "165":true
+      "145":true,
+      "164":true
     },
     "statSets":[{
         "baseFlags":{
@@ -6866,245 +8109,365 @@
   },
   "TriggeredFanTheFlamesPlayer":{
     "castTime":1,
-    "description":"Causes a fiery explosion in a cone behind the target, dealing Attack damage.",
+    "description":"Causes a fiery explosion in a cone behind the target, dealing Attack damage which is not based on your Weapon",
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/Support/FanTheFlames.dds",
     "levels":[{
         "baseMultiplier":0.45,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.49,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.54,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.6,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.64,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.7,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.75,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.8,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.84,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.89,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.94,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.06,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.12,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.19,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.27,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.35,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.43,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.53,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.63,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.74,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.85,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.98,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.11,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.25,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.4,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.56,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.73,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.91,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.11,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.31,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.53,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.77,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.02,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.29,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.57,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.88,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":5.2,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":5.55,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":5.92,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
@@ -7122,13 +8485,14 @@
       "83":true,
       "91":true,
       "115":true,
-      "118":true
+      "118":true,
+      "166":true
     },
     "statSets":[{
         "baseEffectiveness":2.2999999523163,
         "baseFlags":{
           "area":true,
-          "attack":true
+          "nonWeaponAttack":true
         },
         "constantStats":[["triggered_by_support_fan_the_flames_%",100],["active_skill_base_area_of_effect_radius",35]],
         "incrementalEffectiveness":0.27349999547005,
@@ -7340,245 +8704,365 @@
   },
   "TriggeredFanTheFlamesPlayerTwo":{
     "castTime":1,
-    "description":"Causes a fiery explosion in a cone behind the target, dealing Attack damage.",
+    "description":"Causes a fiery explosion in a cone behind the target, dealing Attack damage which is not based on your Weapon",
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/Support/FanTheFlames.dds",
     "levels":[{
         "baseMultiplier":0.45,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.49,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.54,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.6,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.64,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.7,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.75,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.8,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.84,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.89,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":0.94,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.06,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.12,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.19,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.27,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.35,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.43,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.53,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.63,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.74,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.85,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":1.98,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.11,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.25,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.4,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.56,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.73,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":2.91,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.11,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.31,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.53,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":3.77,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.02,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.29,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.57,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":4.88,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":5.2,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":5.55,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
       },{
         "baseMultiplier":5.92,
         "cooldown":0.5,
+        "cost":{
+          "Mana":0
+        },
         "critChance":7,
         "levelRequirement":0,
         "storedUses":5
@@ -7596,13 +9080,14 @@
       "83":true,
       "91":true,
       "115":true,
-      "118":true
+      "118":true,
+      "166":true
     },
     "statSets":[{
         "baseEffectiveness":2.2999999523163,
         "baseFlags":{
           "area":true,
-          "attack":true
+          "nonWeaponAttack":true
         },
         "constantStats":[["triggered_by_support_fan_the_flames_%",100],["active_skill_base_area_of_effect_radius",35]],
         "incrementalEffectiveness":0.27349999547005,
@@ -7818,6 +9303,9 @@
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/BeserkSkill.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "name":"Flame Pillar",
@@ -7845,10 +9333,13 @@
   },
   "TriggeredHaemocrystalsPlayer":{
     "castTime":1,
-    "description":"Deal Physical Damage in an Area based on a percentage of the expected Damage of the Consumed Bleed.",
+    "description":"Deal Physical Damage in an Area based on a percentage of the expected Damage of the Consumed Bleeding.",
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "name":"Haemocrystals",
@@ -7885,6 +9376,9 @@
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
     "levels":[{
         "cooldown":0.15,
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0,
         "storedUses":1
       }],
@@ -7924,6 +9418,9 @@
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/Support/SkitteringStone.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "minionSkillTypes":{
@@ -7982,6 +9479,9 @@
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/Support/SkitteringStone.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0
       }],
     "minionSkillTypes":{
@@ -8040,6 +9540,9 @@
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/WindstormLanceSkillIcon.dds",
     "levels":[{
+        "cost":{
+          "Mana":0
+        },
         "critChance":5,
         "levelRequirement":0
       }],
@@ -8076,6 +9579,9 @@
     "icon":"Art/2DArt/SkillIcons/VolcanicEruptionSkillIcon.dds",
     "levels":[{
         "cooldown":0.4,
+        "cost":{
+          "Mana":0
+        },
         "levelRequirement":0,
         "storedUses":1
       }],
@@ -8093,7 +9599,7 @@
       "83":true,
       "91":true,
       "115":true,
-      "176":true,
+      "175":true,
       "218":true
     },
     "statSets":[{

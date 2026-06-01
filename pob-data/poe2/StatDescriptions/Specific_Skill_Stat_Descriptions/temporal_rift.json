@@ -1,15 +1,23 @@
 {
   "parent":"skill_stat_descriptions",
-  "temporal_rift_maximum_snapshots":1,
-  "temporal_rift_snapshot_interval":2,
+  "skill_specific_stat_description_mode":1,
+  "temporal_rift_maximum_snapshots":2,
+  "temporal_rift_snapshot_interval":3,
   "1":{
+    "stats":["skill_specific_stat_description_mode"],
+    "1":[{
+        "limit":[["#","#"]],
+        "text":"Removes damage delayed by Phased Form"
+      }]
+  },
+  "2":{
     "stats":["temporal_rift_maximum_snapshots"],
     "1":[{
         "limit":[["#","#"]],
         "text":"Maximum {0} afterimages"
       }]
   },
-  "2":{
+  "3":{
     "stats":["temporal_rift_snapshot_interval"],
     "1":[{
         "limit":[["#","#"]],

@@ -176,9 +176,8 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Spell, Storm",
+    "tagString":"Storm",
     "tags":{
-      "spell":true,
       "storm":true,
       "support":true
     },
@@ -605,14 +604,14 @@
     "additionalGrantedEffectId1":"SupportAncestralWarriorTotemPlayer",
     "baseTypeName":"Ancestral Warrior Totem",
     "gameId":"Metadata/Items/Gems/SkillGemAncestralWarriorTotem",
-    "gemType":"Attack",
+    "gemType":"Totem",
     "grantedEffectId":"AncestralWarriorTotemPlayer",
     "name":"Ancestral Warrior Totem",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Totem, AoE, Melee, Duration, Conditional, Meta",
+    "tagString":"Attack, AoE, Melee, Duration, Conditional, Meta",
     "tags":{
       "area":true,
       "attack":true,
@@ -626,6 +625,63 @@
     },
     "variantId":"AncestralWarriorTotem",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
+  },
+  "Metadata/Items/Gems/SkillGemAncientGifts":{
+    "Tier":0,
+    "baseTypeName":"Wildwood's Gifts",
+    "gameId":"Metadata/Items/Gems/SkillGemAncientGifts",
+    "gemType":"Buff",
+    "grantedEffectId":"AncientGiftsPlayer",
+    "name":"Wildwood's Gifts",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, Remnant",
+    "tags":{
+      "buff":true,
+      "grants_active_skill":true,
+      "persistent":true,
+      "remnant":true
+    },
+    "variantId":"AncientGifts"
+  },
+  "Metadata/Items/Gems/SkillGemAnimusExchange":{
+    "Tier":0,
+    "baseTypeName":"Animus Exchange",
+    "gameId":"Metadata/Items/Gems/SkillGemAnimusExchange",
+    "gemType":"Spell",
+    "grantedEffectId":"AnimusExchangePlayer",
+    "name":"Animus Exchange",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"",
+    "tags":{
+      "grants_active_skill":true,
+      "spell":true
+    },
+    "variantId":"AnimusExchange"
+  },
+  "Metadata/Items/Gems/SkillGemAnimusSplinters":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"SupportAnimusSplintersPlayer",
+    "baseTypeName":"Animus Splinters",
+    "gameId":"Metadata/Items/Gems/SkillGemAnimusSplinters",
+    "gemType":"Meta",
+    "grantedEffectId":"MetaAnimusSplintersPlayer",
+    "name":"Animus Splinters",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"",
+    "tags":{
+      "grants_active_skill":true,
+      "meta":true
+    },
+    "variantId":"AnimusSplinters"
   },
   "Metadata/Items/Gems/SkillGemApocalypse":{
     "Tier":0,
@@ -695,6 +751,27 @@
     },
     "variantId":"ArbitersIngitionSupport"
   },
+  "Metadata/Items/Gems/SkillGemArbitersReachSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemArbitersReach",
+    "gemFamily":"Arbiter's Reach",
+    "gemType":"Support",
+    "grantedEffectId":"ArbitersReachWardPlayer",
+    "name":"Arbiter's Reach",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Buff, Persistent, Duration",
+    "tags":{
+      "buff":true,
+      "duration":true,
+      "lineage":true,
+      "persistent":true,
+      "support":true
+    },
+    "variantId":"ArbitersReachSupport"
+  },
   "Metadata/Items/Gems/SkillGemArc":{
     "Tier":5,
     "baseTypeName":"Arc",
@@ -706,13 +783,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Projectile, Lightning, Chaining",
+    "tagString":"Projectile, Lightning, Chaining, Repeatable",
     "tags":{
       "chaining":true,
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Arc"
@@ -756,6 +834,34 @@
       "persistent":true
     },
     "variantId":"Archmage"
+  },
+  "Metadata/Items/Gems/SkillGemArchonOfChayula":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"ArchonOfChayulaTornadoPlayer",
+    "baseTypeName":"Archon of Chayula",
+    "gameId":"Metadata/Items/Gems/SkillGemArchonOfChayula",
+    "gemType":"Buff",
+    "grantedEffectId":"ArchonOfChayulaPlayer",
+    "name":"Archon of Chayula",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, AoE, Trigger, Physical, Chaos, Duration, Conditional, Storm",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "buff":true,
+      "chaos":true,
+      "conditional":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "storm":true,
+      "trigger":true
+    },
+    "variantId":"ArchonOfChayula",
+    "weaponRequirements":"Any Martial Weapon"
   },
   "Metadata/Items/Gems/SkillGemArcticArmour":{
     "Tier":4,
@@ -1525,6 +1631,53 @@
     },
     "variantId":"AutoReloadSupport"
   },
+  "Metadata/Items/Gems/SkillGemAzmerianSwarm":{
+    "Tier":0,
+    "baseTypeName":"Azmerian Swarms",
+    "gameId":"Metadata/Items/Gems/SkillGemAzmerianSwarm",
+    "gemType":"Buff",
+    "grantedEffectId":"AzmerianSwarmPlayer",
+    "name":"Azmerian Swarms",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Minion, Persistent, Physical, Lightning, Cold, Fire, Duration",
+    "tags":{
+      "buff":true,
+      "cold":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "minion":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"AzmerianSwarm"
+  },
+  "Metadata/Items/Gems/SkillGemAzmerianWolf":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"CommandPackleaderPlayer",
+    "baseTypeName":"Azmerian Wolf",
+    "gameId":"Metadata/Items/Gems/SkillGemAzmerianWolf",
+    "gemType":"Minion",
+    "grantedEffectId":"SummonAzmerianWolfPlayer",
+    "name":"Azmerian Wolf",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Companion, Persistent, Physical",
+    "tags":{
+      "companion":true,
+      "grants_active_skill":true,
+      "minion":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"AzmerianWolf"
+  },
   "Metadata/Items/Gems/SkillGemBallLightning":{
     "Tier":11,
     "additionalStatSet1":"BallLightningInfusedExplosionPlayer",
@@ -1538,7 +1691,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Sustained, Lightning, Duration, Chaining",
+    "tagString":"AoE, Projectile, Sustained, Lightning, Duration, Chaining, Repeatable",
     "tags":{
       "area":true,
       "chaining":true,
@@ -1547,6 +1700,7 @@
       "intelligence":true,
       "lightning":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true,
       "sustained":true
     },
@@ -1963,6 +2117,30 @@
     },
     "variantId":"BitingFrostSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemBitterDead":{
+    "Tier":0,
+    "additionalStatSet1":"BitterDeadExplosionPlayer",
+    "additionalStatSet2":"BitterDeadChillAuraPlayer",
+    "additionalStatSet3":"BitterDeadRuneAuraPlayer",
+    "baseTypeName":"Bitter Dead",
+    "gameId":"Metadata/Items/Gems/SkillGemBitterDead",
+    "gemType":"Spell",
+    "grantedEffectId":"BitterDeadPlayer",
+    "name":"Bitter Dead",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Cold, Repeatable",
+    "tags":{
+      "area":true,
+      "cold":true,
+      "grants_active_skill":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"BitterDead"
+  },
   "Metadata/Items/Gems/SkillGemBlackPowderBlitzReservation":{
     "Tier":0,
     "additionalGrantedEffectId1":"BlackPowderBlitzPlayer",
@@ -1973,20 +2151,18 @@
     "grantedEffectId":"BlackPowderBlitzReservationPlayer",
     "name":"Black Powder Blitz",
     "naturalMaxLevel":20,
-    "reqDex":50,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":50,
+    "reqStr":0,
     "tagString":"Persistent, AoE, Physical, Fire, Detonator, Travel",
     "tags":{
       "area":true,
       "buff":true,
       "detonator":true,
-      "dexterity":true,
       "fire":true,
       "grants_active_skill":true,
       "persistent":true,
       "physical":true,
-      "strength":true,
       "travel":true
     },
     "variantId":"BlackPowderBlitzReservation"
@@ -2321,13 +2497,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Physical, Duration",
+    "tagString":"AoE, Physical, Duration, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"BoneBlast"
@@ -2343,7 +2520,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Physical, Duration, Nova",
+    "tagString":"AoE, Physical, Duration, Nova, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
@@ -2351,6 +2528,7 @@
       "intelligence":true,
       "nova":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"BoneCage"
@@ -2437,7 +2615,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Sustained, Physical, Channelling",
+    "tagString":"AoE, Projectile, Physical, Channelling",
     "tags":{
       "area":true,
       "channelling":true,
@@ -2445,8 +2623,7 @@
       "intelligence":true,
       "physical":true,
       "projectile":true,
-      "spell":true,
-      "sustained":true
+      "spell":true
     },
     "variantId":"Bonestorm"
   },
@@ -2579,6 +2756,27 @@
     },
     "variantId":"BranchingFissuresSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemBreachlordsAmalgamSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemBreachlordsAmalgam",
+    "gemFamily":"Grants Cooldown",
+    "gemType":"Support",
+    "grantedEffectId":"SupportBreachlordsAmalgam",
+    "name":"Breachlord's Amalgam",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Projectile, Lightning, Cold",
+    "tags":{
+      "cold":true,
+      "lightning":true,
+      "lineage":true,
+      "projectile":true,
+      "support":true
+    },
+    "variantId":"BreachlordsAmalgamSupport"
+  },
   "Metadata/Items/Gems/SkillGemBriarpatch":{
     "Tier":4,
     "baseTypeName":"Briarpatch",
@@ -2607,7 +2805,7 @@
     "variantId":"Briarpatch"
   },
   "Metadata/Items/Gems/SkillGemBrinkSupport":{
-    "Tier":2,
+    "Tier":1,
     "gameId":"Metadata/Items/Gem/SupportGemBrink",
     "gemFamily":"Brink",
     "gemType":"Support",
@@ -2933,17 +3131,15 @@
     "name":"Thundergod's Wrath",
     "naturalMaxLevel":20,
     "reqDex":0,
-    "reqInt":50,
-    "reqStr":50,
+    "reqInt":0,
+    "reqStr":0,
     "tagString":"Persistent, Trigger, Lightning, Meta",
     "tags":{
       "buff":true,
       "grants_active_skill":true,
-      "intelligence":true,
       "lightning":true,
       "meta":true,
       "persistent":true,
-      "strength":true,
       "trigger":true
     },
     "variantId":"CastLightningSpellOnHit"
@@ -2958,16 +3154,14 @@
     "name":"Cast on Block",
     "naturalMaxLevel":20,
     "reqDex":0,
-    "reqInt":50,
-    "reqStr":50,
+    "reqInt":0,
+    "reqStr":0,
     "tagString":"Persistent, Trigger, Meta",
     "tags":{
       "buff":true,
       "grants_active_skill":true,
-      "intelligence":true,
       "meta":true,
       "persistent":true,
-      "strength":true,
       "trigger":true
     },
     "variantId":"CastOnBlock"
@@ -3183,6 +3377,27 @@
     },
     "variantId":"CatharsisSupport"
   },
+  "Metadata/Items/Gems/SkillGemCathasBrillianceSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemCathasBrilliance",
+    "gemFamily":"Infernal Legion",
+    "gemType":"Support",
+    "grantedEffectId":"SupportCathasBrilliance",
+    "name":"Catha's Brilliance",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Minion, AoE, Fire",
+    "tags":{
+      "area":true,
+      "fire":true,
+      "lineage":true,
+      "minion":true,
+      "support":true
+    },
+    "variantId":"CathasBrillianceSupport"
+  },
   "Metadata/Items/Gems/SkillGemChainSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gems/SupportGemChain",
@@ -3269,12 +3484,13 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Projectile, Chaos",
+    "tagString":"Projectile, Chaos, Repeatable",
     "tags":{
       "chaos":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Chaosbolt"
@@ -3352,7 +3568,7 @@
   },
   "Metadata/Items/Gems/SkillGemChargeRegulation":{
     "Tier":14,
-    "baseTypeName":"Charge Infusion",
+    "baseTypeName":"Charge Regulation",
     "gameId":"Metadata/Items/Gem/SkillGemChargeInfusion",
     "gemType":"Buff",
     "grantedEffectId":"ChargeRegulationPlayer",
@@ -3635,6 +3851,29 @@
     "variantId":"ClusterGrenade",
     "weaponRequirements":"Crossbow"
   },
+  "Metadata/Items/Gems/SkillGemCoilingBolts":{
+    "Tier":0,
+    "additionalStatSet1":"CoilingBoltsChaosPlayer",
+    "baseTypeName":"Coiling Bolts",
+    "gameId":"Metadata/Items/Gems/SkillGemCoilingBolts",
+    "gemType":"Spell",
+    "grantedEffectId":"CoilingBoltsPlayer",
+    "name":"Coiling Bolts",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Projectile, Chaos, Repeatable",
+    "tags":{
+      "chaos":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "projectile":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"CoilingBolts"
+  },
   "Metadata/Items/Gems/SkillGemColdExposureSupport":{
     "Tier":4,
     "gameId":"Metadata/Items/Gems/SupportGemColdExposure",
@@ -3784,12 +4023,13 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Cold",
+    "tagString":"AoE, Cold, Repeatable",
     "tags":{
       "area":true,
       "cold":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Comet"
@@ -3918,6 +4158,30 @@
     },
     "variantId":"ConcoctSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemConcussiveRunesSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"ConcussiveRunesPlayer",
+    "gameId":"Metadata/Items/Gems/SupportGemConcussiveRunes",
+    "gemFamily":"Concussive Runes",
+    "gemType":"Support",
+    "grantedEffectId":"SupportConcussiveRunesPlayer",
+    "name":"Concussive Runes",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, AoE, Melee, Slam, Trigger",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "slam":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"ConcussiveRunesSupport"
+  },
   "Metadata/Items/Gems/SkillGemConcussiveSpellsSupport":{
     "Tier":4,
     "gameId":"Metadata/Items/Gems/SupportGemConcussiveSpells",
@@ -3936,6 +4200,29 @@
       "support":true
     },
     "variantId":"ConcussiveSpellsSupport"
+  },
+  "Metadata/Items/Gems/SkillGemConductiveRunes":{
+    "Tier":0,
+    "additionalStatSet1":"ConductiveRunesExplosionPlayer",
+    "baseTypeName":"Conductive Runes",
+    "gameId":"Metadata/Items/Gems/SkillGemConductiveRunes",
+    "gemType":"Attack",
+    "grantedEffectId":"ConductiveRunesPlayer",
+    "name":"Conductive Runes",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Lightning, Duration, Hazard",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "hazard":true,
+      "lightning":true
+    },
+    "variantId":"ConductiveRunes"
   },
   "Metadata/Items/Gems/SkillGemConsideredCastingSupport":{
     "Tier":2,
@@ -3966,13 +4253,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Chaos, Duration",
+    "tagString":"AoE, Chaos, Duration, Repeatable",
     "tags":{
       "area":true,
       "chaos":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Contagion"
@@ -4151,6 +4439,7 @@
   },
   "Metadata/Items/Gems/SkillGemCorruptingCrySupport":{
     "Tier":3,
+    "additionalGrantedEffectId1":"TriggeredCorruptingCryPlayer",
     "gameId":"Metadata/Items/Gems/SupportGemCorruptingCry",
     "gemFamily":"Corrupting Cry",
     "gemType":"Support",
@@ -4160,17 +4449,20 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Warcry, Physical, Duration",
+    "tagString":"Warcry, Trigger, Physical, Duration",
     "tags":{
       "duration":true,
+      "grants_active_skill":true,
       "physical":true,
       "support":true,
+      "trigger":true,
       "warcry":true
     },
     "variantId":"CorruptingCrySupport"
   },
   "Metadata/Items/Gems/SkillGemCorruptingCrySupportThree":{
     "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredCorruptingCryThreePlayer",
     "gameId":"Metadata/Items/Gems/SupportGemCorruptingCryThree",
     "gemFamily":"Corrupting Cry",
     "gemType":"Support",
@@ -4180,18 +4472,21 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Lineage, Warcry, Physical, Duration",
+    "tagString":"Lineage, Warcry, Trigger, Physical, Duration",
     "tags":{
       "duration":true,
+      "grants_active_skill":true,
       "lineage":true,
       "physical":true,
       "support":true,
+      "trigger":true,
       "warcry":true
     },
     "variantId":"CorruptingCrySupportThree"
   },
   "Metadata/Items/Gems/SkillGemCorruptingCrySupportTwo":{
     "Tier":5,
+    "additionalGrantedEffectId1":"TriggeredCorruptingCryTwoPlayer",
     "gameId":"Metadata/Items/Gems/SupportGemCorruptingCryTwo",
     "gemFamily":"Corrupting Cry",
     "gemType":"Support",
@@ -4201,11 +4496,13 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Warcry, Physical, Duration",
+    "tagString":"Warcry, Trigger, Physical, Duration",
     "tags":{
       "duration":true,
+      "grants_active_skill":true,
       "physical":true,
       "support":true,
+      "trigger":true,
       "warcry":true
     },
     "variantId":"CorruptingCrySupportTwo"
@@ -4238,17 +4535,15 @@
     "grantedEffectId":"CracklingPalmPlayer",
     "name":"Crackling Palm",
     "naturalMaxLevel":20,
-    "reqDex":50,
-    "reqInt":50,
+    "reqDex":0,
+    "reqInt":0,
     "reqStr":0,
     "tagString":"Attack, Persistent, AoE, Lightning",
     "tags":{
       "area":true,
       "attack":true,
       "buff":true,
-      "dexterity":true,
       "grants_active_skill":true,
-      "intelligence":true,
       "lightning":true,
       "persistent":true
     },
@@ -4391,9 +4686,9 @@
     "grantedEffectId":"CrossbowRequiemAmmoPlayer",
     "name":"Requiem",
     "naturalMaxLevel":20,
-    "reqDex":50,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":50,
+    "reqStr":0,
     "tagString":"AoE, Ammunition, Projectile, Cold, Conditional",
     "tags":{
       "ammunition":true,
@@ -4401,13 +4696,36 @@
       "attack":true,
       "cold":true,
       "conditional":true,
-      "dexterity":true,
       "grants_active_skill":true,
-      "projectile":true,
-      "strength":true
+      "projectile":true
     },
     "variantId":"CrossbowRequiem",
     "weaponRequirements":"Crossbow"
+  },
+  "Metadata/Items/Gems/SkillGemCrushingFear":{
+    "Tier":0,
+    "additionalStatSet1":"CrushingFearNovaPlayer",
+    "baseTypeName":"Crushing Fear",
+    "gameId":"Metadata/Items/Gems/SkillGemCrushingFear",
+    "gemType":"Attack",
+    "grantedEffectId":"CrushingFearPlayer",
+    "name":"Crushing Fear",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Melee, Strike, Physical, Chaos",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "chaos":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "physical":true,
+      "strike":true
+    },
+    "variantId":"CrushingFear",
+    "weaponRequirements":"Quarterstaff"
   },
   "Metadata/Items/Gems/SkillGemCrystallineShardsSupport":{
     "Tier":1,
@@ -4602,14 +4920,14 @@
     "additionalGrantedEffectId1":"DarkEffigyProjectilePlayer",
     "baseTypeName":"Dark Effigy",
     "gameId":"Metadata/Items/Gem/SkillGemDarkEffigy",
-    "gemType":"Spell",
+    "gemType":"Totem",
     "grantedEffectId":"DarkEffigyPlayer",
     "name":"Dark Effigy",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Totem, AoE, Projectile, Chaos, Duration",
+    "tagString":"Spell, AoE, Projectile, Chaos, Duration",
     "tags":{
       "area":true,
       "chaos":true,
@@ -4794,6 +5112,7 @@
   },
   "Metadata/Items/Gems/SkillGemDecayingHexSupport":{
     "Tier":3,
+    "additionalGrantedEffectId1":"TriggeredDecayingHexPlayer",
     "gameId":"Metadata/Items/Gem/SupportGemDecayingHex",
     "gemFamily":"Decaying Hex",
     "gemType":"Support",
@@ -4803,11 +5122,15 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Chaos, Curse",
+    "tagString":"Spell, Trigger, Chaos, Duration, Curse",
     "tags":{
       "chaos":true,
       "curse":true,
-      "support":true
+      "duration":true,
+      "grants_active_skill":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
     },
     "variantId":"DecayingHexSupport"
   },
@@ -5010,7 +5333,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Chaos, Duration, Curse",
+    "tagString":"AoE, Chaos, Duration, Curse, Repeatable",
     "tags":{
       "area":true,
       "chaos":true,
@@ -5018,6 +5341,7 @@
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Despair"
@@ -5033,7 +5357,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Physical, Fire, Detonator",
+    "tagString":"AoE, Physical, Fire, Detonator, Repeatable",
     "tags":{
       "area":true,
       "detonator":true,
@@ -5041,9 +5365,32 @@
       "grants_active_skill":true,
       "intelligence":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"DetonateDead"
+  },
+  "Metadata/Items/Gems/SkillGemDetonateLiving":{
+    "Tier":0,
+    "additionalStatSet1":"DetonateLivingExplodePlayer",
+    "baseTypeName":"Detonate Living",
+    "gameId":"Metadata/Items/Gems/SkillGemDetonateLiving",
+    "gemType":"Spell",
+    "grantedEffectId":"DetonateLivingPlayer",
+    "name":"Detonate Living",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Physical, Repeatable",
+    "tags":{
+      "area":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"DetonateLiving"
   },
   "Metadata/Items/Gems/SkillGemDetonateMinion":{
     "Tier":0,
@@ -5078,17 +5425,17 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire, Channelling, Detonator, Staged, Barrageable",
+    "tagString":"AoE, Projectile, Fire, Channelling, Detonator, Staged, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "channelling":true,
       "detonator":true,
       "dexterity":true,
       "fire":true,
       "grants_active_skill":true,
       "projectile":true,
+      "repeatable":true,
       "stages":true
     },
     "variantId":"DetonatingArrow",
@@ -5196,32 +5543,6 @@
     },
     "variantId":"Disengage",
     "weaponRequirements":"Spear"
-  },
-  "Metadata/Items/Gems/SkillGemDoedresUndoingSupport":{
-    "Tier":0,
-    "additionalGrantedEffectId1":"TriggeredCurseZoneHazardExplosionPlayer",
-    "gameId":"Metadata/Items/Gem/SupportGemDoedresUndoing",
-    "gemFamily":"Cursed Ground",
-    "gemType":"Support",
-    "grantedEffectId":"SupportDoedresUndoingPlayer",
-    "name":"Doedre's Undoing",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"Lineage, Spell, AoE, Trigger, Chaos, Curse, Hazard",
-    "tags":{
-      "area":true,
-      "chaos":true,
-      "curse":true,
-      "grants_active_skill":true,
-      "hazard":true,
-      "lineage":true,
-      "spell":true,
-      "support":true,
-      "trigger":true
-    },
-    "variantId":"DoedresUndoingSupport"
   },
   "Metadata/Items/Gems/SkillGemDoubleBarrelSupport":{
     "Tier":1,
@@ -5404,9 +5725,10 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Warcry, AoE",
+    "tagString":"Warcry, AoE, Conditional",
     "tags":{
       "area":true,
+      "conditional":true,
       "support":true,
       "warcry":true
     },
@@ -5496,16 +5818,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Lightning, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Lightning, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "lightning":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"ElectrocutingArrow",
     "weaponRequirements":"Bow"
@@ -5718,7 +6040,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Lightning, Cold, Fire, Duration, Curse",
+    "tagString":"AoE, Lightning, Cold, Fire, Duration, Curse, Repeatable",
     "tags":{
       "area":true,
       "cold":true,
@@ -5728,6 +6050,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"ElementalWeakness"
@@ -5745,7 +6068,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire, Duration",
+    "tagString":"AoE, Projectile, Fire, Duration, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
@@ -5753,6 +6076,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"EmberFusillade"
@@ -5896,13 +6220,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Duration, Curse",
+    "tagString":"AoE, Duration, Curse, Repeatable",
     "tags":{
       "area":true,
       "curse":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Enfeeble"
@@ -5955,7 +6280,7 @@
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"AoE, Sustained, Physical, Duration, Plant",
+    "tagString":"AoE, Sustained, Physical, Duration, Repeatable, Plant",
     "tags":{
       "area":true,
       "duration":true,
@@ -5963,11 +6288,36 @@
       "intelligence":true,
       "physical":true,
       "plant":true,
+      "repeatable":true,
       "spell":true,
       "strength":true,
       "sustained":true
     },
     "variantId":"Entangle"
+  },
+  "Metadata/Items/Gems/SkillGemEonyrsThunderSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredLightningDetonateDeadPlayer",
+    "gameId":"Metadata/Items/Gems/SupportGemEonyrsThunder",
+    "gemFamily":"Electrocute",
+    "gemType":"Support",
+    "grantedEffectId":"SupportEonyrsThunderPlayer",
+    "name":"Eonyr's Thunder",
+    "naturalMaxLevel":1,
+    "reqDex":100,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Spell, AoE, Trigger, Lightning",
+    "tags":{
+      "area":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "lineage":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"EonyrsThunderSupport"
   },
   "Metadata/Items/Gems/SkillGemEscalatingPoisonSupport":{
     "Tier":1,
@@ -6012,6 +6362,25 @@
     "variantId":"EscapeShot",
     "weaponRequirements":"Bow"
   },
+  "Metadata/Items/Gems/SkillGemEshsProwessSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemEshsProwess",
+    "gemFamily":"Mastery",
+    "gemType":"Support",
+    "grantedEffectId":"SupportEshsProwess",
+    "name":"Esh's Prowess",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Lightning",
+    "tags":{
+      "lightning":true,
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"EshsProwessSupport"
+  },
   "Metadata/Items/Gems/SkillGemEshsRadianceSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemEshsRadiance",
@@ -6044,13 +6413,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Projectile, Chaos, Duration",
+    "tagString":"Projectile, Chaos, Duration, Repeatable",
     "tags":{
       "chaos":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"EssenceDrain"
@@ -6073,6 +6443,25 @@
       "support":true
     },
     "variantId":"EssenceHarvestSupport"
+  },
+  "Metadata/Items/Gems/SkillGemEternalMarch":{
+    "Tier":0,
+    "baseTypeName":"Eternal March",
+    "gameId":"Metadata/Items/Gems/SkillGemEternalMarch",
+    "gemType":"Spell",
+    "grantedEffectId":"EternalMarchPlayer",
+    "name":"Eternal March",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Minion",
+    "tags":{
+      "grants_active_skill":true,
+      "minion":true,
+      "spell":true
+    },
+    "variantId":"EternalMarch"
   },
   "Metadata/Items/Gems/SkillGemEternalMarkSupport":{
     "Tier":3,
@@ -6387,20 +6776,48 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire, Duration, Detonator, Barrageable",
+    "tagString":"AoE, Projectile, Fire, Duration, Detonator, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "detonator":true,
       "dexterity":true,
       "duration":true,
       "fire":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"ExplosiveSpear",
     "weaponRequirements":"Spear"
+  },
+  "Metadata/Items/Gems/SkillGemExplosiveTransmutation":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredExplosiveTransmutationExplosionPlayer",
+    "baseTypeName":"Explosive Transmutation",
+    "gameId":"Metadata/Items/Gems/SkillGemExplosiveTransmutation",
+    "gemType":"Buff",
+    "grantedEffectId":"ExplosiveTransmutationPlayer",
+    "name":"Explosive Transmutation",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Spell, Persistent, AoE, Trigger, Physical, Lightning, Cold, Fire, Chaos",
+    "tags":{
+      "area":true,
+      "buff":true,
+      "chaos":true,
+      "cold":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "persistent":true,
+      "physical":true,
+      "spell":true,
+      "trigger":true
+    },
+    "variantId":"ExplosiveTransmutation"
   },
   "Metadata/Items/Gems/SkillGemExposingCrySupport":{
     "Tier":4,
@@ -6432,13 +6849,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Physical, Duration, Chaining",
+    "tagString":"Physical, Duration, Chaining, Repeatable",
     "tags":{
       "chaining":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Exsanguinate"
@@ -6628,13 +7046,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Buff, AoE, Nova",
+    "tagString":"Buff, AoE, Nova, Repeatable",
     "tags":{
       "area":true,
       "buff":true,
       "grants_active_skill":true,
       "intelligence":true,
       "nova":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"FeastOfFlesh"
@@ -6853,13 +7272,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire",
+    "tagString":"AoE, Projectile, Fire, Repeatable",
     "tags":{
       "area":true,
       "fire":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Fireball"
@@ -6876,13 +7296,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire",
+    "tagString":"AoE, Projectile, Fire, Repeatable",
     "tags":{
       "area":true,
       "fire":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Firebolt"
@@ -6900,18 +7321,45 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Fire, Duration, Storm",
+    "tagString":"AoE, Sustained, Fire, Duration, Repeatable, Storm",
     "tags":{
       "area":true,
       "duration":true,
       "fire":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true,
       "storm":true,
       "sustained":true
     },
     "variantId":"Firestorm"
+  },
+  "Metadata/Items/Gems/SkillGemFistOfKalguurSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredFistOfKalguurPlayer",
+    "gameId":"Metadata/Items/Gems/SupportGemFistOfKalguur",
+    "gemFamily":"Fist of War",
+    "gemType":"Support",
+    "grantedEffectId":"SupportFistOfKalguurPlayer",
+    "name":"Fist Of Kalguur",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, AoE, Melee, Slam, Trigger, Physical, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "physical":true,
+      "slam":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"FistOfKalguurSupport"
   },
   "Metadata/Items/Gems/SkillGemFistOfWarSupport":{
     "Tier":1,
@@ -7008,13 +7456,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Fire, Duration",
+    "tagString":"AoE, Fire, Duration, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
       "fire":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"FlameWall"
@@ -7214,7 +7663,7 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"AoE, Melee, Slam, Sustained, Fire, Duration",
+    "tagString":"AoE, Melee, Slam, Fire, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -7223,8 +7672,7 @@
       "grants_active_skill":true,
       "melee":true,
       "slam":true,
-      "strength":true,
-      "sustained":true
+      "strength":true
     },
     "variantId":"ForgeHammer",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
@@ -7303,6 +7751,32 @@
     "variantId":"FragmentationRounds",
     "weaponRequirements":"Crossbow"
   },
+  "Metadata/Items/Gems/SkillGemFragmentsOfThePast":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"FragmentsOfThePastFragmentPlayer",
+    "baseTypeName":"Fragments of the Past",
+    "gameId":"Metadata/Items/Gems/SkillGemFragmentsOfThePast",
+    "gemType":"Attack",
+    "grantedEffectId":"FragmentsOfThePastPlayer",
+    "name":"Fragments Of The Past",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Projectile, Trigger, Sustained, Cold, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "projectile":true,
+      "sustained":true,
+      "trigger":true
+    },
+    "variantId":"FragmentsOfThePast",
+    "weaponRequirements":"Any Martial Weapon, Unarmed"
+  },
   "Metadata/Items/Gems/SkillGemFreezeForkSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemFreezefork",
@@ -7374,14 +7848,15 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold",
+    "tagString":"AoE, Projectile, Cold, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
       "cold":true,
       "dexterity":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"FreezingSalvo",
     "weaponRequirements":"Bow"
@@ -7397,12 +7872,13 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Projectile, Cold",
+    "tagString":"Projectile, Cold, Repeatable",
     "tags":{
       "cold":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"FreezingShards"
@@ -7471,13 +7947,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold",
+    "tagString":"AoE, Projectile, Cold, Repeatable",
     "tags":{
       "area":true,
       "cold":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"FrostBolt"
@@ -7519,7 +7996,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold, Payoff",
+    "tagString":"AoE, Projectile, Cold, Payoff, Repeatable",
     "tags":{
       "area":true,
       "cold":true,
@@ -7527,6 +8004,7 @@
       "intelligence":true,
       "payoff":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"FrostDarts"
@@ -7573,6 +8051,30 @@
       "support":true
     },
     "variantId":"FrostfireSupport"
+  },
+  "Metadata/Items/Gems/SkillGemFrostflameNova":{
+    "Tier":0,
+    "additionalStatSet1":"FrostflameNovaColdHitPlayer",
+    "baseTypeName":"Frostflame Nova",
+    "gameId":"Metadata/Items/Gems/SkillGemFrostflameNova",
+    "gemType":"Spell",
+    "grantedEffectId":"FrostflameNovaPlayer",
+    "name":"Frostflame Nova",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Cold, Fire, Nova, Repeatable",
+    "tags":{
+      "area":true,
+      "cold":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "nova":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"FrostflameNova"
   },
   "Metadata/Items/Gems/SkillGemFrozenLocus":{
     "Tier":1,
@@ -7776,9 +8278,10 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Lineage, Attack",
+    "tagString":"Lineage, Attack, Conditional",
     "tags":{
       "attack":true,
+      "conditional":true,
       "lineage":true,
       "support":true
     },
@@ -7797,17 +8300,17 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire, Chaos, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Fire, Chaos, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "chaos":true,
       "dexterity":true,
       "duration":true,
       "fire":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"GasArrow",
     "weaponRequirements":"Bow"
@@ -7816,6 +8319,7 @@
     "Tier":13,
     "additionalStatSet1":"GatheringStormPerfectPlayer",
     "additionalStatSet2":"GatheringStormExplodePlayer",
+    "additionalStatSet3":"GatheringStormExplodeBetterPlayer",
     "baseTypeName":"Gathering Storm",
     "gameId":"Metadata/Items/Gem/SkillGemGatheringStorm",
     "gemType":"Attack",
@@ -7850,18 +8354,16 @@
     "grantedEffectId":"GeminiSurgePlayer",
     "name":"Gemini Surge",
     "naturalMaxLevel":20,
-    "reqDex":50,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":50,
+    "reqStr":0,
     "tagString":"AoE, Trigger, Cold, Fire",
     "tags":{
       "area":true,
       "attack":true,
       "cold":true,
-      "dexterity":true,
       "fire":true,
       "grants_active_skill":true,
-      "strength":true,
       "trigger":true
     },
     "variantId":"GeminiSurge"
@@ -7877,11 +8379,10 @@
     "reqDex":50,
     "reqInt":50,
     "reqStr":0,
-    "tagString":"Persistent, Duration",
+    "tagString":"Persistent",
     "tags":{
       "buff":true,
       "dexterity":true,
-      "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "persistent":true
@@ -7954,16 +8455,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Cold, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "cold":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"GlacialLance",
     "weaponRequirements":"Spear"
@@ -8008,6 +8509,29 @@
       "spell":true
     },
     "variantId":"GrimFeast"
+  },
+  "Metadata/Items/Gems/SkillGemGrimPillars":{
+    "Tier":0,
+    "additionalStatSet1":"GrimPillarsExplodePlayer",
+    "baseTypeName":"Grim Pillars",
+    "gameId":"Metadata/Items/Gems/SkillGemGrimPillars",
+    "gemType":"Spell",
+    "grantedEffectId":"GrimPillarsPlayer",
+    "name":"Grim Pillars",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Cold, Duration, Nova",
+    "tags":{
+      "area":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "nova":true,
+      "spell":true
+    },
+    "variantId":"GrimPillars"
   },
   "Metadata/Items/Gems/SkillGemGuatelitzisAblationSupport":{
     "Tier":0,
@@ -8219,6 +8743,25 @@
     },
     "variantId":"HayoxisFulminationSupport"
   },
+  "Metadata/Items/Gems/SkillGemHealingRunesSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gems/SupportGemHealingRunes",
+    "gemFamily":"Healing Runes",
+    "gemType":"Support",
+    "grantedEffectId":"SupportHealingRunesPlayer",
+    "name":"Healing Runes",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Buff, Persistent",
+    "tags":{
+      "buff":true,
+      "persistent":true,
+      "support":true
+    },
+    "variantId":"HealingRunesSupport"
+  },
   "Metadata/Items/Gems/SkillGemHeartOfIce":{
     "Tier":0,
     "baseTypeName":"Heart of Ice",
@@ -8346,6 +8889,46 @@
       "support":true
     },
     "variantId":"HeightenedChargesSupport"
+  },
+  "Metadata/Items/Gems/SkillGemHelbrymsHideSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemHelbrymsHide",
+    "gemFamily":"Helbrym's Hide",
+    "gemType":"Support",
+    "grantedEffectId":"SupportHelbrymsHidePlayer",
+    "name":"Helbrym's Hide",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Lineage, Shapeshift, Buff",
+    "tags":{
+      "buff":true,
+      "lineage":true,
+      "shapeshift":true,
+      "support":true
+    },
+    "variantId":"HelbrymsHideSupport"
+  },
+  "Metadata/Items/Gems/SkillGemHerDeclarationSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemHerDeclaration",
+    "gemFamily":"Her Declaration",
+    "gemType":"Support",
+    "grantedEffectId":"SupportHerDeclarationPlayer",
+    "name":"Her Declaration",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Buff, Persistent",
+    "tags":{
+      "buff":true,
+      "lineage":true,
+      "persistent":true,
+      "support":true
+    },
+    "variantId":"HerDeclarationSupport"
   },
   "Metadata/Items/Gems/SkillGemHeraldOfAsh":{
     "Tier":4,
@@ -8547,13 +9130,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Chaos, Payoff",
+    "tagString":"AoE, Chaos, Payoff, Repeatable",
     "tags":{
       "area":true,
       "chaos":true,
       "grants_active_skill":true,
       "intelligence":true,
       "payoff":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Hexblast"
@@ -8597,7 +9181,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Physical, Chaos, Duration",
+    "tagString":"AoE, Physical, Chaos, Duration, Repeatable",
     "tags":{
       "area":true,
       "chaos":true,
@@ -8605,6 +9189,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"HisFoulEmergence"
@@ -8651,6 +9236,96 @@
       "support":true
     },
     "variantId":"HitAndRunSupport"
+  },
+  "Metadata/Items/Gems/SkillGemHollowFocus":{
+    "Tier":0,
+    "additionalStatSet1":"HollowFocusNovaPlayer",
+    "baseTypeName":"Hollow Focus",
+    "gameId":"Metadata/Items/Gem/SkillGemAscendancyHollowFocus",
+    "gemType":"Attack",
+    "grantedEffectId":"HollowFocusPlayer",
+    "name":"Hollow Focus",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Buff, Persistent, AoE, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "persistent":true
+    },
+    "variantId":"HollowFocus",
+    "weaponRequirements":"Any Melee Martial Weapon"
+  },
+  "Metadata/Items/Gems/SkillGemHollowForm":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"SupportHollowFormPlayer",
+    "baseTypeName":"Hollow Form",
+    "gameId":"Metadata/Items/Gem/SkillGemAscendancyHollowForm",
+    "gemType":"Attack",
+    "grantedEffectId":"MetaHollowFormPlayer",
+    "name":"Hollow Form",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Melee, Sustained, Channelling, Meta",
+    "tags":{
+      "attack":true,
+      "channelling":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "meta":true,
+      "sustained":true
+    },
+    "variantId":"HollowForm",
+    "weaponRequirements":"Any Melee Martial Weapon"
+  },
+  "Metadata/Items/Gems/SkillGemHollowResonance":{
+    "Tier":0,
+    "baseTypeName":"Hollow Resonance",
+    "gameId":"Metadata/Items/Gem/SkillGemAscendancyHollowResonance",
+    "gemType":"Attack",
+    "grantedEffectId":"HollowResonancePlayer",
+    "name":"Hollow Resonance",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Trigger",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "trigger":true
+    },
+    "variantId":"HollowResonance",
+    "weaponRequirements":"Any non-Talisman Melee Martial Weapon"
+  },
+  "Metadata/Items/Gems/SkillGemHollowShell":{
+    "Tier":0,
+    "baseTypeName":"Hollow Shell",
+    "gameId":"Metadata/Items/Gems/SkillGemHollowShell",
+    "gemType":"Spell",
+    "grantedEffectId":"HollowShellPlayer",
+    "name":"Hollow Shell",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Buff, AoE, Nova",
+    "tags":{
+      "area":true,
+      "buff":true,
+      "grants_active_skill":true,
+      "nova":true,
+      "spell":true
+    },
+    "variantId":"HollowShell"
   },
   "Metadata/Items/Gems/SkillGemHolyDescentSupport":{
     "Tier":5,
@@ -8716,17 +9391,15 @@
     "name":"Cackling Companions",
     "naturalMaxLevel":20,
     "reqDex":0,
-    "reqInt":50,
-    "reqStr":50,
+    "reqInt":0,
+    "reqStr":0,
     "tagString":"Companion, Persistent, Physical",
     "tags":{
       "companion":true,
       "grants_active_skill":true,
-      "intelligence":true,
       "minion":true,
       "persistent":true,
-      "physical":true,
-      "strength":true
+      "physical":true
     },
     "variantId":"HyenaCackle"
   },
@@ -8807,7 +9480,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Cold, Duration, Nova",
+    "tagString":"AoE, Cold, Duration, Nova, Repeatable",
     "tags":{
       "area":true,
       "cold":true,
@@ -8815,6 +9488,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "nova":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"IceNova"
@@ -8860,14 +9534,14 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Projectile, Cold, Barrageable",
+    "tagString":"Projectile, Cold, Repeatable",
     "tags":{
       "attack":true,
-      "barrageable":true,
       "cold":true,
       "dexterity":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"IceShot",
     "weaponRequirements":"Bow"
@@ -8938,7 +9612,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Cold, Duration, Payoff, Storm",
+    "tagString":"AoE, Sustained, Cold, Duration, Payoff, Repeatable, Storm",
     "tags":{
       "area":true,
       "cold":true,
@@ -8946,6 +9620,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "payoff":true,
+      "repeatable":true,
       "spell":true,
       "storm":true,
       "sustained":true
@@ -9316,12 +9991,12 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Duration, Curse",
+    "tagString":"AoE, Duration, Repeatable",
     "tags":{
       "area":true,
-      "curse":true,
       "duration":true,
       "grants_active_skill":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"InevitableAgony"
@@ -9381,7 +10056,7 @@
     "variantId":"InfernalLegionSupport"
   },
   "Metadata/Items/Gems/SkillGemInfernalLegionSupportThree":{
-    "Tier":5,
+    "Tier":0,
     "gameId":"Metadata/Items/Gems/SupportGemInfernalLegionThree",
     "gemFamily":"Infernal Legion",
     "gemType":"Support",
@@ -9401,7 +10076,7 @@
     "variantId":"InfernalLegionSupportThree"
   },
   "Metadata/Items/Gems/SkillGemInfernalLegionSupportTwo":{
-    "Tier":4,
+    "Tier":5,
     "gameId":"Metadata/Items/Gems/SupportGemInfernalLegionTwo",
     "gemFamily":"Infernal Legion",
     "gemType":"Support",
@@ -9828,6 +10503,27 @@
     "variantId":"LeapSlam",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
   },
+  "Metadata/Items/Gems/SkillGemLeylines":{
+    "Tier":0,
+    "baseTypeName":"Leylines",
+    "gameId":"Metadata/Items/Gems/SkillGemLeylines",
+    "gemType":"Buff",
+    "grantedEffectId":"LeylinesPlayer",
+    "name":"Leylines",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, AoE, Duration",
+    "tags":{
+      "area":true,
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "persistent":true
+    },
+    "variantId":"Leylines"
+  },
   "Metadata/Items/Gems/SkillGemLifeFlaskSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gems/SupportGemLifeBounty",
@@ -9931,16 +10627,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Lightning, Chaining, Barrageable",
+    "tagString":"AoE, Projectile, Lightning, Chaining, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "chaining":true,
       "dexterity":true,
       "grants_active_skill":true,
       "lightning":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"LightningArrow",
     "weaponRequirements":"Bow"
@@ -9956,12 +10652,13 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Lightning",
+    "tagString":"AoE, Lightning, Repeatable",
     "tags":{
       "area":true,
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"LightningBolt"
@@ -10053,16 +10750,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Sustained, Lightning, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Sustained, Lightning, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "lightning":true,
       "projectile":true,
+      "repeatable":true,
       "sustained":true
     },
     "variantId":"LightningRod",
@@ -10080,15 +10777,15 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Lightning, Barrageable",
+    "tagString":"AoE, Projectile, Lightning, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "grants_active_skill":true,
       "lightning":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"LightningSpear",
     "weaponRequirements":"Spear"
@@ -10104,7 +10801,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Lightning, Duration, Remnant",
+    "tagString":"AoE, Lightning, Duration, Remnant, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
@@ -10112,6 +10809,7 @@
       "intelligence":true,
       "lightning":true,
       "remnant":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"LightningWarp"
@@ -10329,7 +11027,8 @@
       "strength":true,
       "trigger":true
     },
-    "variantId":"MagmaBarrier"
+    "variantId":"MagmaBarrier",
+    "weaponRequirements":"Any Shield"
   },
   "Metadata/Items/Gems/SkillGemMagneticRemnantsSupport":{
     "Tier":0,
@@ -10777,6 +11476,26 @@
     },
     "variantId":"MeatShieldSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemMedvedsFellingSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemMedvedsFelling",
+    "gemFamily":"Rage",
+    "gemType":"Support",
+    "grantedEffectId":"SupportMedvedsFelling",
+    "name":"Medved's Felling",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Attack, Melee",
+    "tags":{
+      "attack":true,
+      "lineage":true,
+      "melee":true,
+      "support":true
+    },
+    "variantId":"MedvedsFellingSupport"
+  },
   "Metadata/Items/Gems/SkillGemMeleePhysicalDamageSupport":{
     "Tier":4,
     "gameId":"Metadata/Items/Gems/SupportGemHeavySwing",
@@ -10824,14 +11543,14 @@
     "additionalGrantedEffectId1":"SupportMetaTotemSpellTotemPlayer",
     "baseTypeName":"Spell Totem",
     "gameId":"Metadata/Items/Gems/SkillGemSpellTotem",
-    "gemType":"Spell",
+    "gemType":"Totem",
     "grantedEffectId":"SummonMetaTotemSpellTotemPlayer",
     "name":"Spell Totem",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Totem, Duration, Conditional, Meta",
+    "tagString":"Spell, Duration, Conditional, Meta",
     "tags":{
       "conditional":true,
       "duration":true,
@@ -10843,6 +11562,29 @@
       "totem":true
     },
     "variantId":"MetaSpellTotem"
+  },
+  "Metadata/Items/Gems/SkillGemMidnightStar":{
+    "Tier":0,
+    "additionalStatSet1":"MidnightStarIceCrystalDetonate",
+    "baseTypeName":"Midnight Zenith",
+    "gameId":"Metadata/Items/Gems/SkillGemMidnightStar",
+    "gemType":"Buff",
+    "grantedEffectId":"MidnightStarPlayer",
+    "name":"Midnight Zenith",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, AoE, Cold, Duration",
+    "tags":{
+      "area":true,
+      "buff":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "persistent":true
+    },
+    "variantId":"MidnightStar"
   },
   "Metadata/Items/Gems/SkillGemMinionInstabilitySupport":{
     "Tier":2,
@@ -10880,6 +11622,48 @@
       "support":true
     },
     "variantId":"MinionMasterySupport"
+  },
+  "Metadata/Items/Gems/SkillGemMinionMeleeSplashSupport":{
+    "Tier":2,
+    "gameId":"Metadata/Items/Gems/SupportGemMinionMeleeSplash",
+    "gemFamily":"Minion Area of Effect",
+    "gemType":"Support",
+    "grantedEffectId":"SupportMinionMeleeSplashPlayer",
+    "name":"Minion Splash I",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, Minion, Melee, Strike",
+    "tags":{
+      "attack":true,
+      "melee":true,
+      "minion":true,
+      "strike":true,
+      "support":true
+    },
+    "variantId":"MinionMeleeSplashSupport"
+  },
+  "Metadata/Items/Gems/SkillGemMinionMeleeSplashSupportTwo":{
+    "Tier":5,
+    "gameId":"Metadata/Items/Gems/SupportGemMinionMeleeSplashTwo",
+    "gemFamily":"Minion Area of Effect",
+    "gemType":"Support",
+    "grantedEffectId":"SupportMinionMeleeSplashPlayerTwo",
+    "name":"Minion Splash II",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, Minion, Melee, Strike",
+    "tags":{
+      "attack":true,
+      "melee":true,
+      "minion":true,
+      "strike":true,
+      "support":true
+    },
+    "variantId":"MinionMeleeSplashSupportTwo"
   },
   "Metadata/Items/Gems/SkillGemMinionPactSupport":{
     "Tier":1,
@@ -10991,6 +11775,29 @@
     },
     "variantId":"MirrorOfRefraction"
   },
+  "Metadata/Items/Gems/SkillGemMistRaven":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"CommandMistRavenPlayer",
+    "baseTypeName":"Mist Raven",
+    "gameId":"Metadata/Items/Gems/SkillGemMistRaven",
+    "gemType":"Minion",
+    "grantedEffectId":"SummonMistRavenPlayer",
+    "name":"Mist Raven",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Companion, Persistent, Physical, Chaos",
+    "tags":{
+      "chaos":true,
+      "companion":true,
+      "grants_active_skill":true,
+      "minion":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"MistRaven"
+  },
   "Metadata/Items/Gems/SkillGemMobilitySupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gems/SupportGemMobility",
@@ -11042,23 +11849,43 @@
     "name":"Molten Crash",
     "naturalMaxLevel":20,
     "reqDex":0,
-    "reqInt":50,
-    "reqStr":50,
+    "reqInt":0,
+    "reqStr":0,
     "tagString":"Shapeshift, Bear, AoE, Melee, Slam, Travel",
     "tags":{
       "area":true,
       "attack":true,
       "bear":true,
       "grants_active_skill":true,
-      "intelligence":true,
       "melee":true,
       "shapeshift":true,
       "slam":true,
-      "strength":true,
       "travel":true
     },
     "variantId":"MoltenCrash",
     "weaponRequirements":"Talisman"
+  },
+  "Metadata/Items/Gems/SkillGemMoltenShower":{
+    "Tier":0,
+    "baseTypeName":"Molten Shower",
+    "gameId":"Metadata/Items/Gems/SkillGemMoltenShower",
+    "gemType":"Attack",
+    "grantedEffectId":"TriggeredMoltenShowerPlayer",
+    "name":"Molten Shower",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Projectile, Trigger, Fire",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "projectile":true,
+      "trigger":true
+    },
+    "variantId":"MoltenShower"
   },
   "Metadata/Items/Gems/SkillGemMomentumSupport":{
     "Tier":2,
@@ -11088,14 +11915,37 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Lineage, Spell, Storm",
+    "tagString":"Lineage, Storm",
     "tags":{
       "lineage":true,
-      "spell":true,
       "storm":true,
       "support":true
     },
     "variantId":"MorganasTempestSupport"
+  },
+  "Metadata/Items/Gems/SkillGemMorrigansInsightSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredMorrigansInsightPlayer",
+    "gameId":"Metadata/Items/Gem/SupportGemMorrigansInsight",
+    "gemFamily":"Biting Frost",
+    "gemType":"Support",
+    "grantedEffectId":"SupportMorrigansInsight",
+    "name":"Morrigan's Insight",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Trigger, Cold, Duration, Payoff",
+    "tags":{
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "lineage":true,
+      "payoff":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"MorrigansInsightSupport"
   },
   "Metadata/Items/Gems/SkillGemMortarCannon":{
     "Tier":11,
@@ -11214,24 +12064,6 @@
     },
     "variantId":"MysticismSupportTwo"
   },
-  "Metadata/Items/Gems/SkillGemNadirSupport":{
-    "Tier":0,
-    "gameId":"Metadata/Items/Gem/SupportGemNadir",
-    "gemFamily":"Nadir",
-    "gemType":"Support",
-    "grantedEffectId":"SupportNadirPlayer",
-    "name":"Nadir",
-    "naturalMaxLevel":1,
-    "reqDex":0,
-    "reqInt":100,
-    "reqStr":0,
-    "tagString":"Staged",
-    "tags":{
-      "stages":true,
-      "support":true
-    },
-    "variantId":"NadirSupport"
-  },
   "Metadata/Items/Gems/SkillGemNeuralOverload":{
     "Tier":3,
     "gameId":"Metadata/Items/Gems/SupportGemNeuralOverload",
@@ -11249,6 +12081,33 @@
       "support":true
     },
     "variantId":"NeuralOverload"
+  },
+  "Metadata/Items/Gems/SkillGemNightfallShieldThrow":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"NightfallEmbraceTheFallPlayer",
+    "baseTypeName":"Soaring Midnight",
+    "gameId":"Metadata/Items/Gems/SkillGemGlacialClash",
+    "gemType":"Attack",
+    "grantedEffectId":"NightfallSoaringMidnightPlayer",
+    "name":"Soaring Midnight",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Melee, Slam, Projectile, Physical, Cold, Travel",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "cold":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "physical":true,
+      "projectile":true,
+      "slam":true,
+      "travel":true
+    },
+    "variantId":"NightfallShieldThrow",
+    "weaponRequirements":"Any Shield"
   },
   "Metadata/Items/Gems/SkillGemNimbleReloadSupport":{
     "Tier":4,
@@ -11380,6 +12239,42 @@
     },
     "variantId":"OisinsOathSupport"
   },
+  "Metadata/Items/Gems/SkillGemOlrothsConvictionSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gems/SupportOlrothsConviction",
+    "gemFamily":"Olroth's Conviction",
+    "gemType":"Support",
+    "grantedEffectId":"SupportOlrothsConvictionPlayer",
+    "name":"Olroth's Conviction",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage",
+    "tags":{
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"OlrothsConvictionSupport"
+  },
+  "Metadata/Items/Gems/SkillGemOlrothsHubrisSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gems/SupportGemOlrothsHubris",
+    "gemFamily":"Runic Infusion",
+    "gemType":"Support",
+    "grantedEffectId":"SupportOlrothsHubrisPlayer",
+    "name":"Olroth's Hubris",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage",
+    "tags":{
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"OlrothsHubrisSupport"
+  },
   "Metadata/Items/Gems/SkillGemOpeningMoveSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gems/SupportGemOpeningMove",
@@ -11408,7 +12303,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Lightning, Duration, Chaining, Orb, Remnant",
+    "tagString":"AoE, Sustained, Lightning, Duration, Chaining, Orb, Remnant, Repeatable",
     "tags":{
       "area":true,
       "chaining":true,
@@ -11418,6 +12313,7 @@
       "lightning":true,
       "orb":true,
       "remnant":true,
+      "repeatable":true,
       "spell":true,
       "sustained":true
     },
@@ -11442,7 +12338,7 @@
     "variantId":"OverchargeSupport"
   },
   "Metadata/Items/Gems/SkillGemOverextendSupport":{
-    "Tier":2,
+    "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemOverextend",
     "gemFamily":"Overextend",
     "gemType":"Support",
@@ -11510,10 +12406,9 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Buff, AoE, Duration, Barrageable",
+    "tagString":"Buff, AoE, Duration",
     "tags":{
       "area":true,
-      "barrageable":true,
       "buff":true,
       "duration":true,
       "grants_active_skill":true,
@@ -11728,19 +12623,18 @@
     "grantedEffectId":"PhantasmalArrowPlayer",
     "name":"Phantasmal Arrow",
     "naturalMaxLevel":20,
-    "reqDex":100,
+    "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Fire, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Fire, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
-      "dexterity":true,
       "duration":true,
       "fire":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"PhantasmalArrowPlayer",
     "weaponRequirements":"Bow"
@@ -12040,12 +12934,12 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Projectile, Barrageable",
+    "tagString":"Projectile, Repeatable",
     "tags":{
       "attack":true,
-      "barrageable":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"PlayerDefaultBow",
     "weaponRequirements":"Bow"
@@ -12071,6 +12965,30 @@
       "projectile":true
     },
     "variantId":"PlayerDefaultCrossbow",
+    "weaponRequirements":"Crossbow"
+  },
+  "Metadata/Items/Gems/SkillGemPlayerDefaultGrenadeLauncher":{
+    "Tier":0,
+    "baseTypeName":"Grenade",
+    "gameId":"Metadata/Items/Gem/SkillGemPlayerDefaultGrenadeLauncher",
+    "gemType":"Attack",
+    "grantedEffectId":"MeleeGrenadeLauncherPlayer",
+    "name":"Grenade",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Projectile, Grenade, Physical, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "grenade":true,
+      "physical":true,
+      "projectile":true
+    },
+    "variantId":"PlayerDefaultGrenadeLauncher",
     "weaponRequirements":"Crossbow"
   },
   "Metadata/Items/Gems/SkillGemPlayerDefaultMaceMace":{
@@ -12173,13 +13091,13 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Barrageable",
+    "tagString":"AoE, Projectile, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"PlayerDefaultSpearThrow",
     "weaponRequirements":"Spear"
@@ -12196,16 +13114,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Chaos, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Chaos, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "chaos":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"PoisonBurstArrow",
     "weaponRequirements":"Bow"
@@ -12329,6 +13247,25 @@
     },
     "variantId":"PowerSiphon"
   },
+  "Metadata/Items/Gems/SkillGemPoweredByVerisium":{
+    "Tier":0,
+    "baseTypeName":"Powered by Verisium",
+    "gameId":"Metadata/Items/Gems/SkillGemPoweredByVerisium",
+    "gemType":"Spell",
+    "grantedEffectId":"PoweredByVerisiumPlayer",
+    "name":"Powered by Verisium",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Repeatable",
+    "tags":{
+      "grants_active_skill":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"PoweredByVerisium"
+  },
   "Metadata/Items/Gems/SkillGemPracticalMagicSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gems/SupportGemPracticalMagic",
@@ -12425,8 +13362,27 @@
     },
     "variantId":"PrecisionSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemPrimalBounty":{
+    "Tier":0,
+    "baseTypeName":"Primal Bounty",
+    "gameId":"Metadata/Items/Gem/SkillGemPrimalBounty",
+    "gemType":"Buff",
+    "grantedEffectId":"PrimalBountyPlayer",
+    "name":"Primal Bounty",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Trigger",
+    "tags":{
+      "buff":true,
+      "grants_active_skill":true,
+      "trigger":true
+    },
+    "variantId":"PrimalBounty"
+  },
   "Metadata/Items/Gems/SkillGemPrimalStrikes":{
-    "Tier":7,
+    "Tier":9,
     "additionalStatSet1":"PrimalStrikesSecondPlayer",
     "additionalStatSet2":"PrimalStrikesFinalPlayer",
     "additionalStatSet3":"PrimalStrikesStagWavePlayer",
@@ -12464,13 +13420,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Chaos, Duration",
+    "tagString":"AoE, Chaos, Duration, Repeatable",
     "tags":{
       "area":true,
       "chaos":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"ProfaneRitual"
@@ -12636,6 +13593,24 @@
       "support":true
     },
     "variantId":"ProlongedDurationSupportTwo"
+  },
+  "Metadata/Items/Gems/SkillGemPrototypeSeventeenSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemPrototypeSeventeen",
+    "gemFamily":"Prototype",
+    "gemType":"Support",
+    "grantedEffectId":"SupportPrototypeSeventeenPlayer",
+    "name":"Prototype Seventeen",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage",
+    "tags":{
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"PrototypeSeventeenSupport"
   },
   "Metadata/Items/Gems/SkillGemPunchThroughSupport":{
     "Tier":3,
@@ -12960,6 +13935,30 @@
     },
     "variantId":"RainOfArrows",
     "weaponRequirements":"Bow"
+  },
+  "Metadata/Items/Gems/SkillGemRainOfBlades":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"RainOfBladesTriggeredPlayer",
+    "baseTypeName":"Rain of Blades",
+    "gameId":"Metadata/Items/Gems/SkillGemRainOfBlades",
+    "gemType":"Attack",
+    "grantedEffectId":"RainOfBladesPlayer",
+    "name":"Rain of Blades",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Buff, AoE, Trigger, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "trigger":true
+    },
+    "variantId":"RainOfBlades",
+    "weaponRequirements":"Any Martial Weapon"
   },
   "Metadata/Items/Gems/SkillGemRaiseZombie":{
     "Tier":5,
@@ -13349,6 +14348,27 @@
     },
     "variantId":"RefractionSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemRefutation":{
+    "Tier":0,
+    "baseTypeName":"Refutation",
+    "gameId":"Metadata/Items/Gems/SkillGemRefutation",
+    "gemType":"Buff",
+    "grantedEffectId":"RefutationPlayer",
+    "name":"Refutation",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Spell, Duration, Repeatable",
+    "tags":{
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"Refutation"
+  },
   "Metadata/Items/Gems/SkillGemReinforcedTotemsSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gem/SupportGemIronwood",
@@ -13456,6 +14476,26 @@
     },
     "variantId":"RemnantPotencySupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemRemnantsOfKalguur":{
+    "Tier":0,
+    "baseTypeName":"Remnants of Kalguur",
+    "gameId":"Metadata/Items/Gems/SkillGemRemnantsOfKalguur",
+    "gemType":"Buff",
+    "grantedEffectId":"MetaRemnantsOfKalguurPlayer",
+    "name":"Remnants of Kalguur",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, Remnant",
+    "tags":{
+      "buff":true,
+      "grants_active_skill":true,
+      "persistent":true,
+      "remnant":true
+    },
+    "variantId":"RemnantsOfKalguur"
+  },
   "Metadata/Items/Gems/SkillGemRendingApexSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gems/SupportGemRendingApex",
@@ -13475,6 +14515,32 @@
       "support":true
     },
     "variantId":"RendingApexSupport"
+  },
+  "Metadata/Items/Gems/SkillGemRepulsion":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"CurseOfRepulsionShockwavePlayer",
+    "baseTypeName":"Repulsion",
+    "gameId":"Metadata/Items/Gems/SkillGemRepulsion",
+    "gemType":"Spell",
+    "grantedEffectId":"CurseOfRepulsionPlayer",
+    "name":"Repulsion",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, AoE, Trigger, Physical, Duration, Curse, Repeatable",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "curse":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "repeatable":true,
+      "spell":true,
+      "trigger":true
+    },
+    "variantId":"Repulsion"
   },
   "Metadata/Items/Gems/SkillGemResonatingShield":{
     "Tier":5,
@@ -13635,6 +14701,31 @@
     },
     "variantId":"RhoaMount"
   },
+  "Metadata/Items/Gems/SkillGemRighteousDescent":{
+    "Tier":0,
+    "additionalStatSet1":"RighteousDescentPlayerBoosted",
+    "baseTypeName":"Righteous Descent",
+    "gameId":"Metadata/Items/Gems/SkillGemRighteousDescent",
+    "gemType":"Attack",
+    "grantedEffectId":"RighteousDescentPlayer",
+    "name":"Righteous Descent",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Melee, Slam, Physical, Lightning, Travel",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "physical":true,
+      "slam":true,
+      "travel":true
+    },
+    "variantId":"RighteousDescent"
+  },
   "Metadata/Items/Gems/SkillGemRigwaldsFerocitySupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemRigwaldsFerocity",
@@ -13766,6 +14857,84 @@
     "variantId":"RollingSlam",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
   },
+  "Metadata/Items/Gems/SkillGemRuneforgedBladesSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredRuneforgedBladesPlayer",
+    "gameId":"Metadata/Items/Gems/SupportGemRuneforgedBlades",
+    "gemType":"Support",
+    "grantedEffectId":"SupportRuneforgedBladesPlayer",
+    "name":"Runeforged Blades",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, Projectile, Trigger, Payoff",
+    "tags":{
+      "attack":true,
+      "grants_active_skill":true,
+      "payoff":true,
+      "projectile":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"RuneforgedBladesSupport"
+  },
+  "Metadata/Items/Gems/SkillGemRunicExtractionSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gems/SupportGemRunicExtraction",
+    "gemFamily":"Runic Extraction",
+    "gemType":"Support",
+    "grantedEffectId":"SupportRunicExtractionPlayer",
+    "name":"Runic Extraction",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Remnant",
+    "tags":{
+      "remnant":true,
+      "support":true
+    },
+    "variantId":"RunicExtractionSupport"
+  },
+  "Metadata/Items/Gems/SkillGemRunicInfusionSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gems/SupportGemRunicInfusion",
+    "gemFamily":"Runic Infusion",
+    "gemType":"Support",
+    "grantedEffectId":"SupportRunicInfusionPlayer",
+    "name":"Runic Infusion",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, Physical",
+    "tags":{
+      "attack":true,
+      "physical":true,
+      "support":true
+    },
+    "variantId":"RunicInfusionSupport"
+  },
+  "Metadata/Items/Gems/SkillGemRunicReprieve":{
+    "Tier":0,
+    "baseTypeName":"Runic Reprieve",
+    "gameId":"Metadata/Items/Gems/SkillGemRunicReprieve",
+    "gemType":"Spell",
+    "grantedEffectId":"RunicReprievePlayer",
+    "name":"Runic Reprieve",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Channelling",
+    "tags":{
+      "channelling":true,
+      "grants_active_skill":true,
+      "spell":true
+    },
+    "variantId":"RunicReprieve"
+  },
   "Metadata/Items/Gems/SkillGemRuptureSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gem/SupportGemRupture",
@@ -13895,7 +15064,7 @@
   "Metadata/Items/Gems/SkillGemSalvoSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gem/SupportGemSalvo",
-    "gemFamily":"Additional Projectiles",
+    "gemFamily":"Additional Projectiles, Seal",
     "gemType":"Support",
     "grantedEffectId":"SupportSalvoPlayer",
     "name":"Salvo",
@@ -13923,7 +15092,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Lightning, Duration",
+    "tagString":"AoE, Projectile, Lightning, Duration, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
@@ -13931,6 +15100,7 @@
       "intelligence":true,
       "lightning":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"ScatteringCalamity"
@@ -13956,6 +15126,24 @@
       "strength":true
     },
     "variantId":"ScavengedPlating"
+  },
+  "Metadata/Items/Gems/SkillGemScouringFlame":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gems/SupportGemScouringFlame",
+    "gemFamily":"Searing Flame",
+    "gemType":"Support",
+    "grantedEffectId":"SupportScouringFlamePlayer",
+    "name":"Scouring Flame",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Fire",
+    "tags":{
+      "fire":true,
+      "support":true
+    },
+    "variantId":"ScouringFlame"
   },
   "Metadata/Items/Gems/SkillGemSecondWindSupport":{
     "Tier":2,
@@ -14048,6 +15236,26 @@
     },
     "variantId":"SelflessRemnantsSupport"
   },
+  "Metadata/Items/Gems/SkillGemSeraphsHeartSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemSeraphsHeart",
+    "gemFamily":"Seraph's Heart",
+    "gemType":"Support",
+    "grantedEffectId":"SupportSeraphsHeartPlayer",
+    "name":"Seraph's Heart",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Buff, Persistent",
+    "tags":{
+      "buff":true,
+      "lineage":true,
+      "persistent":true,
+      "support":true
+    },
+    "variantId":"SeraphsHeartSupport"
+  },
   "Metadata/Items/Gems/SkillGemShardScavenger":{
     "Tier":8,
     "baseTypeName":"Shard Scavenger",
@@ -14110,19 +15318,17 @@
     "grantedEffectId":"ShatteringSpitePlayer",
     "name":"Shattering Spite",
     "naturalMaxLevel":20,
-    "reqDex":75,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":25,
+    "reqStr":0,
     "tagString":"AoE, Physical, Lightning, Fire",
     "tags":{
       "area":true,
       "attack":true,
-      "dexterity":true,
       "fire":true,
       "grants_active_skill":true,
       "lightning":true,
-      "physical":true,
-      "strength":true
+      "physical":true
     },
     "variantId":"ShatteringSpite",
     "weaponRequirements":"Spear"
@@ -14206,7 +15412,7 @@
     "gemFamily":"Shock Conduction",
     "gemType":"Support",
     "grantedEffectId":"SupportShockConductionPlayer",
-    "name":"Shock Conduction I",
+    "name":"Shock Conduction",
     "naturalMaxLevel":1,
     "reqDex":0,
     "reqInt":100,
@@ -14220,7 +15426,7 @@
     "variantId":"ShockConductionSupport"
   },
   "Metadata/Items/Gems/SkillGemShockConductionSupportTwo":{
-    "Tier":5,
+    "Tier":0,
     "gameId":"Metadata/Items/Gems/SupportGemCoursingCurrentTwo",
     "gemFamily":"Shock Conduction",
     "gemType":"Support",
@@ -14322,17 +15528,17 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Lightning, Chaining, Payoff, Barrageable",
+    "tagString":"AoE, Projectile, Lightning, Chaining, Payoff, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "chaining":true,
       "dexterity":true,
       "grants_active_skill":true,
       "lightning":true,
       "payoff":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"ShockchainArrow",
     "weaponRequirements":"Bow"
@@ -14454,17 +15660,18 @@
     "reqDex":50,
     "reqInt":0,
     "reqStr":50,
-    "tagString":"Totem, AoE, Projectile, Fire, Duration, Barrageable",
+    "tagString":"Totem, AoE, Projectile, Sustained, Fire, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "fire":true,
       "grants_active_skill":true,
       "projectile":true,
+      "repeatable":true,
       "strength":true,
+      "sustained":true,
       "totem":true
     },
     "variantId":"SiegeBallista",
@@ -14496,6 +15703,27 @@
     },
     "variantId":"SiegeCascade",
     "weaponRequirements":"Crossbow"
+  },
+  "Metadata/Items/Gems/SkillGemSigilOfLife":{
+    "Tier":0,
+    "baseTypeName":"Rite of Restoration",
+    "gameId":"Metadata/Items/Gems/SkillGemSigilOfLife",
+    "gemType":"Spell",
+    "grantedEffectId":"SacredGroundPlayer",
+    "name":"Rite of Restoration",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Duration, Staged",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "spell":true,
+      "stages":true
+    },
+    "variantId":"SigilOfLife"
   },
   "Metadata/Items/Gems/SkillGemSigilOfPower":{
     "Tier":0,
@@ -14794,6 +16022,31 @@
     },
     "variantId":"SkitteringStoneSupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemSkyfall":{
+    "Tier":0,
+    "additionalStatSet1":"SkyfallInfusedPlayer",
+    "baseTypeName":"Skyfall",
+    "gameId":"Metadata/Items/Gems/SkillGemSkyfall",
+    "gemType":"Spell",
+    "grantedEffectId":"SkyfallPlayer",
+    "name":"Skyfall",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Minion, AoE, Physical, Cold, Conditional, Repeatable",
+    "tags":{
+      "area":true,
+      "cold":true,
+      "conditional":true,
+      "grants_active_skill":true,
+      "minion":true,
+      "physical":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"Skyfall"
+  },
   "Metadata/Items/Gems/SkillGemSlamAftershocksSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gems/SupportGemSlamAftershocks",
@@ -14845,7 +16098,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Lightning, Cold, Fire, Payoff, Remnant",
+    "tagString":"AoE, Lightning, Cold, Fire, Payoff, Remnant, Repeatable",
     "tags":{
       "area":true,
       "cold":true,
@@ -14855,6 +16108,7 @@
       "lightning":true,
       "payoff":true,
       "remnant":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Snap"
@@ -14872,17 +16126,17 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Cold, Channelling, Payoff, Barrageable",
+    "tagString":"AoE, Projectile, Cold, Channelling, Payoff, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "channelling":true,
       "cold":true,
       "dexterity":true,
       "grants_active_skill":true,
       "payoff":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"Snipe",
     "weaponRequirements":"Bow"
@@ -14919,7 +16173,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Sustained, Fire, Duration, Orb",
+    "tagString":"AoE, Sustained, Fire, Duration, Orb, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
@@ -14927,6 +16181,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "orb":true,
+      "repeatable":true,
       "spell":true,
       "sustained":true
     },
@@ -14988,13 +16243,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Projectile, Chaos, Duration",
+    "tagString":"Projectile, Chaos, Duration, Repeatable",
     "tags":{
       "chaos":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Soulrend"
@@ -15030,13 +16286,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Projectile, Lightning, Duration",
+    "tagString":"Projectile, Lightning, Duration, Repeatable",
     "tags":{
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
       "projectile":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Spark"
@@ -15196,6 +16453,53 @@
     "variantId":"SpiralVolley",
     "weaponRequirements":"Bow"
   },
+  "Metadata/Items/Gems/SkillGemSpiralingConspiracy":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"CommandMadFlightPlayer",
+    "baseTypeName":"Spiraling Conspiracy",
+    "gameId":"Metadata/Items/Gems/SkillGemSpiralingConspiracy",
+    "gemType":"Minion",
+    "grantedEffectId":"SummonSpiralingConspiracyPlayer",
+    "name":"Spiraling Conspiracy",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Persistent, AoE, Physical, Chaos, Duration",
+    "tags":{
+      "area":true,
+      "chaos":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "minion":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"SpiralingConspiracy"
+  },
+  "Metadata/Items/Gems/SkillGemSpiritVessel":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"SpiritVesselSupport",
+    "baseTypeName":"Spirit Vessel",
+    "gameId":"Metadata/Items/Gems/SkillGemSpiritVessel",
+    "gemType":"Minion",
+    "grantedEffectId":"SpiritVesselPlayer",
+    "name":"Spirit Vessel",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Companion, Persistent, Meta",
+    "tags":{
+      "companion":true,
+      "grants_active_skill":true,
+      "meta":true,
+      "minion":true,
+      "persistent":true
+    },
+    "variantId":"SpiritVessel"
+  },
   "Metadata/Items/Gems/SkillGemSplinteringTotemSupport":{
     "Tier":3,
     "gameId":"Metadata/Items/Gem/SupportGemSplinteringTotem",
@@ -15311,6 +16615,32 @@
     },
     "variantId":"Stampede",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
+  },
+  "Metadata/Items/Gems/SkillGemStarbornOnslaught":{
+    "Tier":0,
+    "additionalStatSet1":"StarbornOnslaughtExplosions",
+    "baseTypeName":"Starborn Onslaught",
+    "gameId":"Metadata/Items/Gems/SkillGemStarbornOnslaught",
+    "gemType":"Attack",
+    "grantedEffectId":"StarbornOnslaughtPlayer",
+    "name":"Starborn Onslaught",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Melee, Slam, Physical, Cold, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "physical":true,
+      "slam":true
+    },
+    "variantId":"StarbornOnslaught",
+    "weaponRequirements":"Two Hand Mace"
   },
   "Metadata/Items/Gems/SkillGemStaticShocksSupport":{
     "Tier":3,
@@ -15443,16 +16773,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Sustained, Lightning, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Sustained, Lightning, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "lightning":true,
       "projectile":true,
+      "repeatable":true,
       "sustained":true
     },
     "variantId":"StormLance",
@@ -15522,16 +16852,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Lightning, Duration, Barrageable",
+    "tagString":"AoE, Projectile, Lightning, Duration, Repeatable",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "lightning":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"StormcallerArrow",
     "weaponRequirements":"Bow"
@@ -15663,6 +16993,43 @@
       "support":true
     },
     "variantId":"StunSupportTwo"
+  },
+  "Metadata/Items/Gems/SkillGemStyrnsFerocitySupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemStyrnsFerocity",
+    "gemFamily":"Armour Break",
+    "gemType":"Support",
+    "grantedEffectId":"SupportStyrnsFerocity",
+    "name":"Styrn's Ferocity",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Physical",
+    "tags":{
+      "lineage":true,
+      "physical":true,
+      "support":true
+    },
+    "variantId":"StyrnsFerocitySupport"
+  },
+  "Metadata/Items/Gems/SkillGemStyrnsMountainSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemStyrnsMountain",
+    "gemFamily":"Styrn's Mountain",
+    "gemType":"Support",
+    "grantedEffectId":"SupportStyrnsMountain",
+    "name":"Styrn's Mountain",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage",
+    "tags":{
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"StyrnsMountainSupport"
   },
   "Metadata/Items/Gems/SkillGemSummonBeast":{
     "Tier":0,
@@ -15895,7 +17262,7 @@
     "variantId":"TacatisIreSupport"
   },
   "Metadata/Items/Gems/SkillGemTameBeast":{
-    "Tier":9,
+    "Tier":7,
     "baseTypeName":"Tame Beast",
     "gameId":"Metadata/Items/Gem/SkillGemTameBeast",
     "gemType":"Minion",
@@ -15915,6 +17282,26 @@
       "persistent":true
     },
     "variantId":"TameBeast"
+  },
+  "Metadata/Items/Gems/SkillGemTangmazusThuribleSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemTangmazusThurible",
+    "gemFamily":"Hulking Minions",
+    "gemType":"Support",
+    "grantedEffectId":"SupportTangMazusThuriblePlayer",
+    "name":"Tangmazu's Thurible",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Minion, Persistent",
+    "tags":{
+      "lineage":true,
+      "minion":true,
+      "persistent":true,
+      "support":true
+    },
+    "variantId":"TangmazusThuribleSupport"
   },
   "Metadata/Items/Gems/SkillGemTasaliosRhythmSupport":{
     "Tier":0,
@@ -16084,13 +17471,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Duration, Curse",
+    "tagString":"AoE, Duration, Curse, Repeatable",
     "tags":{
       "area":true,
       "curse":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"TemporalChains"
@@ -16150,6 +17538,31 @@
       "support":true
     },
     "variantId":"TerrainChainSupportTwo"
+  },
+  "Metadata/Items/Gems/SkillGemTheStarsAnswer":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TheStarsAnswerCometPlayer",
+    "baseTypeName":"The Stars Answer",
+    "gameId":"Metadata/Items/Gems/SkillGemTheStarsAnswer",
+    "gemType":"Spell",
+    "grantedEffectId":"TheStarsAnswerPlayer",
+    "name":"The Stars Answer",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Buff, AoE, Trigger, Physical, Cold, Duration",
+    "tags":{
+      "area":true,
+      "buff":true,
+      "cold":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "spell":true,
+      "trigger":true
+    },
+    "variantId":"TheStarsAnswer"
   },
   "Metadata/Items/Gems/SkillGemThornskinSupport":{
     "Tier":2,
@@ -16336,10 +17749,9 @@
     "reqDex":0,
     "reqInt":25,
     "reqStr":75,
-    "tagString":"Persistent, Duration",
+    "tagString":"Persistent",
     "tags":{
       "buff":true,
-      "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "persistent":true,
@@ -16420,16 +17832,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Physical, Duration, Barrageable, Wind",
+    "tagString":"AoE, Projectile, Physical, Duration, Repeatable, Wind",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "physical":true,
       "projectile":true,
+      "repeatable":true,
       "wind":true
     },
     "variantId":"TornadoShot",
@@ -16503,16 +17915,16 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Chaos, Barrageable, Plant",
+    "tagString":"AoE, Projectile, Chaos, Repeatable, Plant",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "chaos":true,
       "dexterity":true,
       "grants_active_skill":true,
       "plant":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"ToxicGrowth",
     "weaponRequirements":"Bow"
@@ -16545,6 +17957,30 @@
     },
     "variantId":"TrailOfCaltrops"
   },
+  "Metadata/Items/Gems/SkillGemTrickstersShardSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredFracturedSelfPlayer",
+    "gameId":"Metadata/Items/Gem/SupportGemTrickstersShard",
+    "gemFamily":"Spell Echo",
+    "gemType":"Support",
+    "grantedEffectId":"SupportTrickstersShardPlayer",
+    "name":"Trickster's Shard",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Spell, AoE, Trigger, Duration",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "lineage":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"TrickstersShardSupport"
+  },
   "Metadata/Items/Gems/SkillGemTrinity":{
     "Tier":14,
     "baseTypeName":"Trinity",
@@ -16568,6 +18004,46 @@
       "persistent":true
     },
     "variantId":"Trinity"
+  },
+  "Metadata/Items/Gems/SkillGemTriskelionCascade":{
+    "Tier":0,
+    "baseTypeName":"Triskelion Cascade",
+    "gameId":"Metadata/Items/Gems/SkillGemTriskelionCascade",
+    "gemType":"Spell",
+    "grantedEffectId":"TriskelionCascadePlayer",
+    "name":"Triskelion Cascade",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Buff, Duration",
+    "tags":{
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "spell":true
+    },
+    "variantId":"TriskelionCascade"
+  },
+  "Metadata/Items/Gems/SkillGemTulsAvalancheSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemTulsAvalanche",
+    "gemFamily":"Spell Echo, Seal",
+    "gemType":"Support",
+    "grantedEffectId":"SupportTulsAvalanche",
+    "name":"Tul's Avalanche",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Spell, AoE",
+    "tags":{
+      "area":true,
+      "lineage":true,
+      "spell":true,
+      "support":true
+    },
+    "variantId":"TulsAvalancheSupport"
   },
   "Metadata/Items/Gems/SkillGemTulsStillnessSupport":{
     "Tier":0,
@@ -16600,15 +18076,15 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Duration, Barrageable, Wind",
+    "tagString":"AoE, Projectile, Duration, Repeatable, Wind",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "projectile":true,
+      "repeatable":true,
       "wind":true
     },
     "variantId":"Twister",
@@ -16668,6 +18144,43 @@
     },
     "variantId":"UhtredOmenSupport"
   },
+  "Metadata/Items/Gems/SkillGemUhtredsConstellationSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemUhtredsConstellation",
+    "gemFamily":"Second Wind",
+    "gemType":"Support",
+    "grantedEffectId":"SupportUhtredsConstellation",
+    "name":"Uhtred's Constellation",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage",
+    "tags":{
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"UhtredsConstellationSupport"
+  },
+  "Metadata/Items/Gems/SkillGemUhtredsRiteSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemUhtredsRite",
+    "gemFamily":"Uhtred's Rite",
+    "gemType":"Support",
+    "grantedEffectId":"SupportUhtredsRitePlayer",
+    "name":"Uhtred's Rite",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Duration",
+    "tags":{
+      "duration":true,
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"UhtredsRiteSupport"
+  },
   "Metadata/Items/Gems/SkillGemUndermineSupport":{
     "Tier":0,
     "gameId":"Metadata/Items/Gem/SupportGemUndermine",
@@ -16697,7 +18210,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"Minion, AoE, Physical, Duration",
+    "tagString":"Minion, AoE, Physical, Duration, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
@@ -16705,6 +18218,7 @@
       "intelligence":true,
       "minion":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Unearth"
@@ -16738,12 +18252,13 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Trigger, Lightning",
+    "tagString":"AoE, Trigger, Lightning, Repeatable",
     "tags":{
       "area":true,
       "grants_active_skill":true,
       "intelligence":true,
       "lightning":true,
+      "repeatable":true,
       "spell":true,
       "trigger":true
     },
@@ -16980,18 +18495,16 @@
     "grantedEffectId":"ValakosChargePlayer",
     "name":"Valako's Charge",
     "naturalMaxLevel":20,
-    "reqDex":50,
+    "reqDex":0,
     "reqInt":0,
-    "reqStr":50,
+    "reqStr":0,
     "tagString":"AoE, Trigger, Lightning, Chaining",
     "tags":{
       "area":true,
       "chaining":true,
-      "dexterity":true,
       "grants_active_skill":true,
       "lightning":true,
       "spell":true,
-      "strength":true,
       "trigger":true
     },
     "variantId":"ValakosCharge"
@@ -17095,6 +18608,28 @@
     },
     "variantId":"VerglasSupport"
   },
+  "Metadata/Items/Gems/SkillGemVerisiumManifestation":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"TriggeredManifestRunePlayer",
+    "baseTypeName":"Verisium Manifestations",
+    "gameId":"Metadata/Items/Gems/SkillGemVerisiumManifestation",
+    "gemType":"Buff",
+    "grantedEffectId":"VerisiumManifestationPlayer",
+    "name":"Verisium Manifestations",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Minion, Persistent, Duration",
+    "tags":{
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "minion":true,
+      "persistent":true
+    },
+    "variantId":"VerisiumManifestation"
+  },
   "Metadata/Items/Gems/SkillGemVileDisruption":{
     "Tier":0,
     "baseTypeName":"His Vile Intrusion",
@@ -17106,13 +18641,14 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Physical, Duration",
+    "tagString":"AoE, Physical, Duration, Repeatable",
     "tags":{
       "area":true,
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"VileDisruption"
@@ -17149,17 +18685,17 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Chaos, Duration, Barrageable, Plant",
+    "tagString":"AoE, Projectile, Chaos, Duration, Repeatable, Plant",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "chaos":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "plant":true,
-      "projectile":true
+      "projectile":true,
+      "repeatable":true
     },
     "variantId":"VineArrow",
     "weaponRequirements":"Bow"
@@ -17202,6 +18738,29 @@
     },
     "variantId":"VitalitySupportTwo"
   },
+  "Metadata/Items/Gems/SkillGemVividStampede":{
+    "Tier":0,
+    "baseTypeName":"Vivid Stampede",
+    "gameId":"Metadata/Items/Gem/SkillGemAscendancyVividStampede",
+    "gemType":"Attack",
+    "grantedEffectId":"VividStampedePlayer",
+    "name":"Vivid Stampede",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Trigger, Lightning, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "trigger":true
+    },
+    "variantId":"VividStampede",
+    "weaponRequirements":"Any Martial Weapon, Unarmed"
+  },
   "Metadata/Items/Gems/SkillGemVoidIllusion":{
     "Tier":0,
     "additionalGrantedEffectId1":"VoidIllusionSpawnPlayer",
@@ -17229,7 +18788,8 @@
   },
   "Metadata/Items/Gems/SkillGemVolatileDead":{
     "Tier":0,
-    "additionalStatSet1":"VolatileDeadIgniteAuraPlayer",
+    "additionalStatSet1":"VolatileDeadExplosionPlayer",
+    "additionalStatSet2":"VolatileDeadIgniteAuraPlayer",
     "baseTypeName":"Volatile Dead",
     "gameId":"Metadata/Items/Gems/SkillGemVolatileDead",
     "gemType":"Spell",
@@ -17239,12 +18799,13 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Fire",
+    "tagString":"AoE, Fire, Repeatable",
     "tags":{
       "area":true,
       "fire":true,
       "grants_active_skill":true,
       "intelligence":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"VolatileDead"
@@ -17359,15 +18920,38 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"Attack, Projectile, Lightning, Chaining",
+    "tagString":"Attack, Projectile, Lightning",
     "tags":{
       "attack":true,
-      "chaining":true,
       "lightning":true,
       "projectile":true,
       "support":true
     },
     "variantId":"VoltSupport"
+  },
+  "Metadata/Items/Gems/SkillGemVoltaicBarrier":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"VoltaicBarrierTriggeredChainLightningPlayer",
+    "baseTypeName":"Voltaic Barrier",
+    "gameId":"Metadata/Items/Gems/SkillGemVoltaicBarrier",
+    "gemType":"Attack",
+    "grantedEffectId":"VoltaicBarrierPlayer",
+    "name":"Voltaic Barrier",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Trigger, Lightning, Chaining",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "chaining":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "trigger":true
+    },
+    "variantId":"VoltaicBarrier",
+    "weaponRequirements":"Any non-Talisman Martial Weapon"
   },
   "Metadata/Items/Gems/SkillGemVoltaicMark":{
     "Tier":7,
@@ -17391,6 +18975,65 @@
     },
     "variantId":"VoltaicMark"
   },
+  "Metadata/Items/Gems/SkillGemVoranasSiegeSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemVoranasSiege",
+    "gemFamily":"Increased Area of Effect, Concentrated Area",
+    "gemType":"Support",
+    "grantedEffectId":"SupportVoranasSiege",
+    "name":"Vorana's Siege",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, AoE",
+    "tags":{
+      "area":true,
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"VoranasSiegeSupport"
+  },
+  "Metadata/Items/Gems/SkillGemVruunsAftermathSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemVruunsAftermath",
+    "gemFamily":"Vruun's Aftermath",
+    "gemType":"Support",
+    "grantedEffectId":"SupportVruunsAftermath",
+    "name":"Vruun's Aftermath",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Warcry",
+    "tags":{
+      "lineage":true,
+      "support":true,
+      "warcry":true
+    },
+    "variantId":"VruunsAftermathSupport"
+  },
+  "Metadata/Items/Gems/SkillGemVruunsInevitabilitySupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemVruunsInevitability",
+    "gemFamily":"Increased Area of Effect",
+    "gemType":"Support",
+    "grantedEffectId":"SupportVruunsInevitability",
+    "name":"Vruun's Inevitability",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Lineage, Attack, Melee, Conditional",
+    "tags":{
+      "attack":true,
+      "conditional":true,
+      "lineage":true,
+      "melee":true,
+      "support":true
+    },
+    "variantId":"VruunsInevitabilitySupport"
+  },
   "Metadata/Items/Gems/SkillGemVulnerability":{
     "Tier":7,
     "baseTypeName":"Vulnerability",
@@ -17402,7 +19045,7 @@
     "reqDex":0,
     "reqInt":100,
     "reqStr":0,
-    "tagString":"AoE, Physical, Duration, Curse",
+    "tagString":"AoE, Physical, Duration, Curse, Repeatable",
     "tags":{
       "area":true,
       "curse":true,
@@ -17410,6 +19053,7 @@
       "grants_active_skill":true,
       "intelligence":true,
       "physical":true,
+      "repeatable":true,
       "spell":true
     },
     "variantId":"Vulnerability"
@@ -17505,6 +19149,27 @@
       "strength":true
     },
     "variantId":"WarBanner"
+  },
+  "Metadata/Items/Gems/SkillGemWardboundMinions":{
+    "Tier":0,
+    "baseTypeName":"Wardbound Minions",
+    "gameId":"Metadata/Items/Gems/SkillGemWardboundMinions",
+    "gemType":"Spell",
+    "grantedEffectId":"WardboundMinionsPlayer",
+    "name":"Wardbound Minions",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Minion, Duration, Repeatable",
+    "tags":{
+      "duration":true,
+      "grants_active_skill":true,
+      "minion":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"WardboundMinions"
   },
   "Metadata/Items/Gems/SkillGemWarmBloodedSupport":{
     "Tier":3,
@@ -17611,19 +19276,40 @@
     "reqDex":100,
     "reqInt":0,
     "reqStr":0,
-    "tagString":"AoE, Projectile, Duration, Barrageable, Wind",
+    "tagString":"AoE, Projectile, Duration, Repeatable, Wind",
     "tags":{
       "area":true,
       "attack":true,
-      "barrageable":true,
       "dexterity":true,
       "duration":true,
       "grants_active_skill":true,
       "projectile":true,
+      "repeatable":true,
       "wind":true
     },
     "variantId":"WhirlwindLance",
     "weaponRequirements":"Spear"
+  },
+  "Metadata/Items/Gems/SkillGemWildProtector":{
+    "Tier":0,
+    "baseTypeName":"Wild Protector",
+    "gameId":"Metadata/Items/Gem/SkillGemWildProtector",
+    "gemType":"Minion",
+    "grantedEffectId":"WildProtectorPlayer",
+    "name":"Wild Protector",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Companion, Persistent, Physical",
+    "tags":{
+      "companion":true,
+      "grants_active_skill":true,
+      "minion":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"WildProtector"
   },
   "Metadata/Items/Gems/SkillGemWildfireSupport":{
     "Tier":2,
@@ -17973,7 +19659,7 @@
     "reqDex":0,
     "reqInt":50,
     "reqStr":50,
-    "tagString":"Attack, Shapeshift, Buff, Werewolf, AoE, Melee, Trigger, Cold, Duration",
+    "tagString":"Attack, Shapeshift, Buff, Werewolf, AoE, Trigger, Cold, Duration",
     "tags":{
       "area":true,
       "attack":true,
@@ -17982,7 +19668,6 @@
       "duration":true,
       "grants_active_skill":true,
       "intelligence":true,
-      "melee":true,
       "shapeshift":true,
       "strength":true,
       "trigger":true,
@@ -18017,9 +19702,9 @@
   },
   "Metadata/Items/Gems/SkillGemWolfPounce":{
     "Tier":3,
-    "additionalGrantedEffectId1":"SupportCrossSlashPlayer",
+    "additionalGrantedEffectId1":"SupportWolfPouncePlayer",
     "additionalGrantedEffectId2":"WolfPounceMarkPlayer",
-    "additionalGrantedEffectId3":"WolfCrossSlashWolfPlayer",
+    "additionalGrantedEffectId3":"WolfPounceSummonWolfPlayer",
     "baseTypeName":"Pounce",
     "gameId":"Metadata/Items/Gems/SkillGemWolfPounce",
     "gemType":"Attack",
@@ -18291,9 +19976,8 @@
     "reqDex":0,
     "reqInt":0,
     "reqStr":100,
-    "tagString":"Lineage, Warcry, AoE",
+    "tagString":"Lineage, Warcry",
     "tags":{
-      "area":true,
       "lineage":true,
       "support":true,
       "warcry":true
