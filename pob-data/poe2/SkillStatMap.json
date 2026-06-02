@@ -2876,6 +2876,16 @@
       "name":"Speed",
       "type":"INC"
     }],
+  "cast_speed_+%_per_num_unique_spells_cast_in_last_8_seconds":[{
+      "flags":16,
+      "keywordFlags":0,
+      "name":"Speed",
+      "type":"INC",
+      "1":{
+        "type":"Multiplier",
+        "var":"NonInstantSpellCastRecently"
+      }
+    }],
   "cast_speed_additive_modifiers_also_apply_to_projectile_speed_at_%_value":[{
       "flags":0,
       "keywordFlags":0,
@@ -7504,6 +7514,12 @@
       "keywordFlags":0,
       "name":"Speed",
       "type":"MORE"
+    }],
+  "support_%_of_total_cast_time_as_base_skill_seal_gain_interval":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SealGainFrequency",
+      "type":"BASE"
     }],
   "support_added_cooldown_count_if_not_instant":[{
       "flags":0,
