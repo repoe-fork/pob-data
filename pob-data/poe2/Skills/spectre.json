@@ -1248,6 +1248,39 @@
         "stats":["base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
       }]
   },
+  "GAExpeditionShakariMonsterSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "attackSpeedMultiplier":-15,
+        "baseMultiplier":1.35,
+        "cooldown":10,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_fire",60],["voll_slam_damage_+%_final_at_centre",33],["active_skill_ignite_chance_+%_final",25]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
   "GAFigureheadSlamGhostFlame":{
     "castTime":4.8,
     "hidden":true,
@@ -1418,6 +1451,37 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["is_area_damage"]
+      }]
+  },
+  "GAIcyQuadrillaBossRectSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":3,
+        "levelRequirement":0
+      }],
+    "name":"Pillar Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["voll_slam_damage_+%_final_at_centre",0],["monster_penalty_against_minions_damage_+%_final_vs_player_minions",150],["active_skill_base_physical_damage_%_to_convert_to_cold",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Pillar Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_skill_can_be_blocked","base_skill_cannot_be_avoided_by_dodge_roll_or_evaded_or_blocked"]
       }]
   },
   "GAKaruiSpiritTurtleSlam":{
@@ -1613,6 +1677,69 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["is_area_damage"]
+      }]
+  },
+  "GAQuadrillaBossRectSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":3,
+        "levelRequirement":0
+      }],
+    "name":"Pillar Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["voll_slam_damage_+%_final_at_centre",0],["monster_penalty_against_minions_damage_+%_final_vs_player_minions",150]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Pillar Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_skill_can_be_blocked","base_skill_cannot_be_avoided_by_dodge_roll_or_evaded_or_blocked"]
+      }]
+  },
+  "GARathbreakerEnrageSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":2.5,
+        "cooldown":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",100],["voll_slam_damage_+%_final_at_centre",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length","base_skill_cannot_be_avoided_by_dodge_roll_or_evaded_or_blocked"]
       }]
   },
   "GASaltGolemMelee":{
@@ -1928,7 +2055,7 @@
         "critChance":6,
         "levelRequirement":0
       }],
-    "name":"Small Ball Impact ",
+    "name":"Small Ball Impact",
     "qualityStats":[],
     "skillTypes":{
       "2":true,
@@ -1945,7 +2072,7 @@
         },
         "damageIncrementalEffectiveness":0.017500000074506,
         "incrementalEffectiveness":0.10000000149012,
-        "label":"Small Ball Impact ",
+        "label":"Small Ball Impact",
         "levels":[{
             "actorLevel":1,
             "statInterpolation":[3,3],
@@ -2699,6 +2826,46 @@
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "GSRaptorDefenderRailShot":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cooldown":8,
+        "critChance":5.5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Rail Shot",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4.5,
+        "baseFlags":{
+          "hit":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_shock_chance_+%_final",200],["spell_maximum_action_distance_+%",-30]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Rail Shot",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
   "GSShrikeScreech":{
     "castTime":1,
     "hidden":true,
@@ -3248,6 +3415,79 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","arc_enhanced_behaviour","disable_visual_hit_effect"]
+      }]
+  },
+  "MAASExpedition2ShakariBasicMelee":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":0.85,
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_attack_speed_+%_final",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "MAASExpedition2ShakariTailSwipe":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "attackSpeedMultiplier":-5,
+        "baseMultiplier":1.45,
+        "cooldown":6,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Tail Swipe",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_fire",60]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Tail Swipe",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
   "MASExtraAttackDistance20":{
@@ -4697,6 +4937,47 @@
         "stats":["base_is_projectile","projectile_uses_contact_position","action_attack_or_cast_time_uses_animation_length","maintain_projectile_direction_when_using_contact_position","projectile_ballistic_angle_from_reference_event"]
       }]
   },
+  "MPSGoblinShamanBasicProj":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/passives/MaceNotable2.dds",
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Basic Spell",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":3,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-40],["monster_projectile_variation",1056],["active_skill_base_physical_damage_%_to_convert_to_lightning",40]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","check_for_targets_between_initiator_and_projectile_source","projectile_uses_contact_direction"]
+      }]
+  },
   "MPSHellscapeDemonFodderProj":{
     "castTime":1.25,
     "hidden":true,
@@ -4901,6 +5182,49 @@
         "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","disable_visual_hit_effect"]
+      }]
+  },
+  "MPSRaptorDefenderExplosiveShot":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/passives/MaceNotable2.dds",
+    "levels":[{
+        "cooldown":8,
+        "critChance":5.5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Explosive Shot",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":3,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1479],["spell_maximum_action_distance_+%",-30]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Explosive Shot",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","use_scaled_contact_offset","projectile_uses_contact_direction","projectile_ballistic_angle_from_reference_event","projectile_ballistic_ignore_force_while_exploding","ballistic_projectiles_always_bounce","projectiles_not_offset","distribute_projectiles_over_contact_points","projectile_uses_bearing_as_firing_orientation","base_deal_no_damage"]
       }]
   },
   "MPSRedSkeletonCaster":{
@@ -5683,6 +6007,40 @@
         "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","global_poison_on_hit","projectiles_not_offset","projectile_ballistic_angle_from_reference_event"]
       }]
   },
+  "MeleeAtAnimationSpeedBoss":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
   "MeleeAtAnimationSpeedBow":{
     "castTime":1,
     "hidden":true,
@@ -5716,6 +6074,40 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","maintain_projectile_direction_when_using_contact_position","check_for_targets_between_initiator_and_projectile_source"]
+      }]
+  },
+  "MeleeAtAnimationSpeedCold":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack (Cold)",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_cold",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack (Cold)",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
   "MeleeAtAnimationSpeedComboTEMP":{
@@ -5846,6 +6238,41 @@
         "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",40]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Basic Attack (Lightning)",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "MeleeAtAnimationSpeedUnique":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
         "levels":[{
             "actorLevel":1
           }],
@@ -6931,6 +7358,51 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["ignores_proximity_shield","is_area_damage"]
+      }],
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "Flail":true,
+      "None":true,
+      "One Hand Axe":true,
+      "One Hand Mace":true,
+      "One Hand Sword":true,
+      "Spear":true
+    }
+  },
+  "TCRathbreakerDrivebyCharge":{
+    "castTime":1,
+    "description":"Charges at an enemy, bashing it with the character's shield and striking it. This knocks it back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled. Cannot be supported by Multistrike.",
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconshieldcharge.dds",
+    "levels":[{
+        "cooldown":8,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Charge",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "20":true,
+      "21":true,
+      "34":true,
+      "79":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Charge",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["ignores_proximity_shield","is_area_damage","skill_cannot_be_interrupted","skill_cannot_be_stunned","skill_cannot_be_knocked_back","global_knockback","action_attack_or_cast_time_uses_animation_length"]
       }],
     "weaponTypes":{
       "Claw":true,

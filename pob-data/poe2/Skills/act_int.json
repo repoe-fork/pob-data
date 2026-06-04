@@ -8282,6 +8282,9 @@
           }],
         "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
         "statDescriptionScope":"comet",
+        "statMap":{
+          "base_skill_show_average_damage_instead_of_dps":[]
+        },
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_skill_show_average_damage_instead_of_dps","active_skill_consumes_a_fire_infusion"]
       },{
         "baseEffectiveness":7.4099998474121,
@@ -8656,6 +8659,9 @@
           }],
         "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
         "statDescriptionScope":"comet",
+        "statMap":{
+          "base_skill_show_average_damage_instead_of_dps":[]
+        },
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_skill_show_average_damage_instead_of_dps","active_skill_consumes_a_fire_infusion"]
       }]
   },
@@ -17927,6 +17933,36 @@
           }],
         "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
         "statDescriptionScope":"eye_of_winter_new",
+        "statMap":{
+          "eye_of_winter_damage_%_to_gain_as_element_per_ground_effect_type":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillDamageGainAsCold",
+              "type":"BASE",
+              "1":{
+                "type":"Condition",
+                "var":"EyeOfWinterCold"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillDamageGainAsFire",
+              "type":"BASE",
+              "1":{
+                "type":"Condition",
+                "var":"EyeOfWinterFire"
+              }
+            },{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"SkillDamageGainAsLightning",
+              "type":"BASE",
+              "1":{
+                "type":"Condition",
+                "var":"EyeOfWinterLightning"
+              }
+            }]
+        },
         "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","single_primary_projectile","can_perform_skill_while_moving","precise_cursor_targeting_uses_contact_point_height_offset"]
       }]
   },
@@ -22004,7 +22040,10 @@
     },
     "statSets":[{
         "baseEffectiveness":1.7000000476837,
-        "baseFlags":[],
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
         "constantStats":[["number_of_allowed_firewalls",3],["firewall_attached_projectile_effect_mtx",1],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["console_cast_on_self_custom_range",15],["active_skill_energy_generated_+%_final",-50]],
         "damageIncrementalEffectiveness":0.0096000004559755,
         "incrementalEffectiveness":0.12999999523163,

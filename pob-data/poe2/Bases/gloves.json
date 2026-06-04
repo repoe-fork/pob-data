@@ -641,6 +641,22 @@
     },
     "type":"Gloves"
   },
+  "Fists of Stone":{
+    "armour":[],
+    "hidden":true,
+    "implicit":"Has +3 to Evasion Rating per player level\nHas +1 to maximum Energy Shield per player level",
+    "implicitModTypes":[[],[]],
+    "quality":20,
+    "req":[],
+    "socketLimit":3,
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "gloves":true
+    },
+    "type":"Gloves"
+  },
   "Furtive Wraps":{
     "armour":{
       "EnergyShield":21,
@@ -1942,6 +1958,23 @@
       "default":true,
       "dex_armour":true,
       "ezomyte_basetype":true,
+      "gloves":true,
+      "runeforged":true
+    },
+    "type":"Gloves"
+  },
+  "Runeforged Fists of Stone":{
+    "armour":[],
+    "hidden":true,
+    "implicit":"Has +2 to Evasion Rating per player level\nHas +1 to maximum Energy Shield per player level\nHas +1 to maximum Runic Ward per player level",
+    "implicitModTypes":[[],[],[]],
+    "quality":20,
+    "req":[],
+    "socketLimit":3,
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
       "gloves":true,
       "runeforged":true
     },

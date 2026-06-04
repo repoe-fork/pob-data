@@ -37,10 +37,10 @@
     "stats":["djinn_damage_+%_final_per_teleport_in_sequence"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"{0}% more damage for each previous time this Skill has been used consecutively"
+        "text":"{0}% more damage for each previous time this Skill has been used consecutively, up to 300%"
       },{
         "limit":[["#",-1]],
-        "text":"{0}% less damage for each previous time this Skill has been used consecutively",
+        "text":"{0}% less damage for each previous time this Skill has been used consecutively, up to 300%",
         "1":{
           "k":"negate",
           "v":1

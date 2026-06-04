@@ -7,7 +7,7 @@
     "isHideout":false,
     "isMap":false,
     "level":79,
-    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Flesh Larva","Gargantuan Larva","Lightless Abomination","Lightless Moray","Lightless Serpent","Lightless Vengewing"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Faridun Plaguebringer","Flesh Larva","Gargantuan Larva","Lightless Abomination","Lightless Moray","Lightless Serpent","Lightless Vengewing","Plague Harvester"],
     "name":"Lightless Void",
     "tags":[]
   },
@@ -30,7 +30,7 @@
     "isHideout":false,
     "isMap":false,
     "level":22,
-    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Flesh Larva","Gargantuan Larva","Lightless Abomination","Lightless Moray","Lightless Serpent","Lightless Vengewing"],
+    "monsterVarieties":["Abyssal Shambler","Abyssal Strangler","Abyssal Walker","Faridun Plaguebringer","Flesh Larva","Gargantuan Larva","Lightless Abomination","Lightless Moray","Lightless Serpent","Lightless Vengewing","Plague Harvester"],
     "name":"Abyssal Depths (Act 2)",
     "tags":[]
   },
@@ -79,16 +79,16 @@
     "tags":[]
   },
   "Abyss_Pinnacle":{
-    "act":2,
-    "baseName":"The Black Cathedral",
+    "act":10,
+    "baseName":"The Well of Souls",
     "bossVarieties":["Vessel of Kulemak"],
-    "description":"That which cannot die waits in darkness",
+    "description":"From anywhere, and everywhere, it is... down.",
     "isHideout":false,
     "isMap":false,
-    "level":80,
+    "level":79,
     "monsterVarieties":[],
-    "name":"The Black Cathedral (Act 2)",
-    "tags":[]
+    "name":"The Well of Souls",
+    "tags":["pinnacle_boss"]
   },
   "BossRush_Area1":{
     "act":10,
@@ -127,12 +127,13 @@
     "act":10,
     "baseName":"Twisted Domain",
     "bossVarieties":["Xesht, We That Are One"],
+    "description":"Under their broken sun they plot our doom",
     "isHideout":false,
     "isMap":false,
-    "level":80,
+    "level":79,
     "monsterVarieties":["It That Controls","It That Crawls","It That Creeps","It That Grasps","It That Guards","It That Hates","It That Hunts","It That Lashes","It That Shreds","It That Stalks","It That Watches"],
     "name":"Twisted Domain",
-    "tags":[]
+    "tags":["pinnacle_boss"]
   },
   "CharacterSelect":{
     "act":1,
@@ -142,6 +143,40 @@
     "level":0,
     "monsterVarieties":[],
     "name":"Character Select (Act 1)",
+    "tags":[]
+  },
+  "ChayulaLeague":{
+    "act":10,
+    "baseName":"Monastery of the Keepers",
+    "description":"Through the Dreamer they see their path.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Monastery of the Keepers",
+    "tags":[]
+  },
+  "ChayulaLeague_Tower":{
+    "act":10,
+    "baseName":"Hive Fortress",
+    "description":"Our world is becoming... their world.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":["It That Controls","It That Creeps","It That Guards","It That Hates","It That Hunts","It That Lashes","It That Shreds","It That Stalks"],
+    "name":"Hive Fortress",
+    "tags":[]
+  },
+  "ChayulaLeague_TowerBoss":{
+    "act":10,
+    "baseName":"Hive Colony",
+    "bossVarieties":["It That Was Tul","It That Was Esh"],
+    "description":"A rare chance to strike back at the horde...",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":["It That Controls","It That Creeps","It That Guards","It That Hates","It That Hunts","It That Lashes","It That Shreds","It That Stalks"],
+    "name":"Hive Colony",
     "tags":[]
   },
   "CurrentTown":{
@@ -156,22 +191,89 @@
   },
   "Delirium_Act1Town":{
     "act":10,
-    "baseName":"Clearfell Lumbermill",
+    "baseName":"Simulacrum of Delusion",
+    "description":"Exactly as you remember it...",
     "isHideout":false,
     "isMap":false,
     "level":80,
     "monsterVarieties":[],
-    "name":"Clearfell Lumbermill",
+    "name":"Simulacrum of Delusion",
+    "tags":[]
+  },
+  "Delirium_Act1Town_Quest":{
+    "act":10,
+    "baseName":"Simulacrum of Delusion",
+    "description":"Delusions of suffering... and death.",
+    "isHideout":false,
+    "isMap":false,
+    "level":80,
+    "monsterVarieties":[],
+    "name":"Simulacrum of Delusion",
+    "tags":[]
+  },
+  "Delirium_Act2Reveal":{
+    "act":10,
+    "baseName":"Garukhan's Tomb",
+    "description":"Secrets and shadows...",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Garukhan's Tomb",
     "tags":[]
   },
   "Delirium_Act3Town":{
     "act":10,
     "baseName":"Sunken Pyramid",
+    "description":"Drown in the black waters of nightmare...",
     "isHideout":false,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
     "name":"Sunken Pyramid",
+    "tags":[]
+  },
+  "Delirium_HungerBoss":{
+    "act":10,
+    "baseName":"Loathsome Mire",
+    "description":"Your senses may betray you",
+    "isHideout":false,
+    "isMap":false,
+    "level":80,
+    "monsterVarieties":[],
+    "name":"Loathsome Mire",
+    "tags":[]
+  },
+  "DruidTrailer":{
+    "act":1,
+    "baseName":"Druid Trailer",
+    "isHideout":false,
+    "isMap":false,
+    "level":30,
+    "monsterVarieties":[],
+    "name":"Druid Trailer (Act 1)",
+    "tags":[]
+  },
+  "EndgameDoodad_BeastGroundZero":{
+    "act":10,
+    "baseName":"The Chained Beast",
+    "description":"Heroes of many different cultures gather to save the world.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"The Chained Beast",
+    "tags":[]
+  },
+  "EndgameDoodad_MeteorCrater":{
+    "act":10,
+    "baseName":"The Fallen Star",
+    "description":"What ruin the sky wreaks...",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"The Fallen Star",
     "tags":[]
   },
   "ExpeditionLeagueBoss":{
@@ -188,32 +290,145 @@
   "ExpeditionLogBook_Atoll":{
     "act":10,
     "baseName":"Barren Atoll",
+    "description":"This lonely island lay untouched for centuries.",
     "isHideout":false,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
     "name":"Barren Atoll",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Basin":{
+    "act":10,
+    "baseName":"Stagnant Basin",
+    "description":"The crumbling landscape reveals what lies beneath...",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Stagnant Basin",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Digsite":{
+    "act":10,
+    "baseName":"Exhumed Ruins",
+    "description":"You will find what they did not.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Exhumed Ruins",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Gully":{
+    "act":10,
+    "baseName":"Sloughed Gully",
+    "description":"The past lies piled under dirt and rot.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Sloughed Gully",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Heath":{
+    "act":10,
+    "baseName":"Moor of Fallen Skies",
+    "description":"Traces of history remain.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Moor of Fallen Skies",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Peninsula":{
+    "act":10,
+    "baseName":"Craggy Peninsula",
+    "description":"On the edge of the sea, the dead are closest to home.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Craggy Peninsula",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Prairie":{
+    "act":10,
+    "baseName":"Grazed Prairie",
+    "description":"The land has forgotten what came before.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Grazed Prairie",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Reef":{
+    "act":10,
+    "baseName":"Bleached Shoals",
+    "description":"They came by ship... and they never left.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Bleached Shoals",
+    "tags":["area_with_water"]
   },
   "ExpeditionLogBook_Tropical":{
     "act":10,
     "baseName":"Lush Isle",
+    "description":"Life roils over layers of bones.",
     "isHideout":false,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
     "name":"Lush Isle",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "ExpeditionLogBook_Tundra":{
     "act":10,
     "baseName":"Frigid Bluffs",
+    "description":"This place was not always so bleak.",
     "isHideout":false,
     "isMap":false,
     "level":65,
     "monsterVarieties":["Blood Zealot","Gelid Zealot"],
     "name":"Frigid Bluffs",
-    "tags":["area_with_water","VaalStrongbox"]
+    "tags":["area_with_water"]
+  },
+  "ExpeditionLogBook_Wastes":{
+    "act":10,
+    "baseName":"Scorched Cay",
+    "description":"The past lies untouched where the living dare not tread.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Scorched Cay",
+    "tags":["area_with_water"]
+  },
+  "ExpeditionSubArea_BlackKnightBoss":{
+    "act":10,
+    "baseName":"Tomb of the Fallen Knight",
+    "bossVarieties":["Styrn, Fallen Knight of Aldur"],
+    "description":"He disavowed his new King and fled his homeland",
+    "isHideout":false,
+    "isMap":false,
+    "level":80,
+    "monsterVarieties":[],
+    "name":"Tomb of the Fallen Knight",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Catacomb":{
+    "act":10,
+    "baseName":"Derelict Catacombs",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Derelict Catacombs",
+    "tags":[]
   },
   "ExpeditionSubArea_Cavern":{
     "act":10,
@@ -225,28 +440,81 @@
     "name":"Smuggler's Den",
     "tags":[]
   },
+  "ExpeditionSubArea_Fissure":{
+    "act":10,
+    "baseName":"Stale Crevice",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Stale Crevice",
+    "tags":[]
+  },
   "ExpeditionSubArea_Kalguur":{
     "act":10,
-    "baseName":"Kalguuran Tomb",
+    "baseName":"Runic Catacombs",
     "isHideout":false,
     "isMap":false,
     "level":65,
-    "monsterVarieties":[],
-    "name":"Kalguuran Tomb",
+    "monsterVarieties":["Black Scythe Arbalist","Black Scythe Mercenary","Druid of the Broken Circle","Knight of the Sun","Order Ostiary","Priest of the Chalice","Runed Knight","Unearthed Rampager","Unearthed Runecaster","Unearthed Skeletal Archer","Unearthed Skeletal Swordsman","Unearthed Skeletal Warrior","Unearthed Soldier","Unearthed Urchin","Unearthed Zombie"],
+    "name":"Runic Catacombs",
     "tags":[]
   },
-  "ExpeditionSubArea_OlrothBoss":{
+  "ExpeditionSubArea_Kalguur_Act1":{
+    "act":1,
+    "baseName":"Lost Catacombs",
+    "description":"The Tree of Souls reveals a hidden past",
+    "isHideout":false,
+    "isMap":false,
+    "level":12,
+    "monsterVarieties":["Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Priest of the Chalice","Runed Knight","Unearthed Rampager","Unearthed Runecaster","Unearthed Skeletal Archer","Unearthed Skeletal Swordsman","Unearthed Skeletal Warrior","Unearthed Zombie"],
+    "name":"Lost Catacombs (Act 1)",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Kalguur_Act2":{
+    "act":2,
+    "baseName":"Skull of the Titan",
+    "description":"A long dead Titan is more than it seems",
+    "isHideout":false,
+    "isMap":false,
+    "level":28,
+    "monsterVarieties":["Black Scythe Arbalist","Black Scythe Mercenary","Quake Golem","Skitter Golem","Tombshrieker","Unearthed Rampager","Unearthed Skeletal Archer","Unearthed Skeletal Swordsman","Unearthed Skeletal Warrior","Unearthed Zombie","Vault Lurker"],
+    "name":"Skull of the Titan (Act 2)",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Kalguur_Act3":{
+    "act":3,
+    "baseName":"Mystic Refuge",
+    "description":"The jungle has not forgotten the scrying few",
+    "isHideout":false,
+    "isMap":false,
+    "level":35,
+    "monsterVarieties":["Constricted Shambler","Constricted Spitter","Druid of the Broken Circle","Entrailhome Shambler","Entwined Hulk","Rotted Rat","Snakethroat Shambler","Unearthed Runecaster","Unearthed Soldier","Unearthed Urchin"],
+    "name":"Mystic Refuge (Act 3)",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Kalguur_Act4":{
+    "act":4,
+    "baseName":"Deserted Post",
+    "description":"They left in a hurry and for good reason",
+    "isHideout":false,
+    "isMap":false,
+    "level":53,
+    "monsterVarieties":["Knight of the Sun","Order Ostiary","Unearthed Runecaster","Unearthed Soldier","Unearthed Urchin"],
+    "name":"Deserted Post (Act 4)",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Laboratory":{
     "act":10,
-    "baseName":"Kalguuran Tomb",
-    "bossVarieties":["Olroth, Origin of the Fall"],
+    "baseName":"Decayed Laboratory",
     "isHideout":false,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
-    "name":"Kalguuran Tomb",
+    "name":"Decayed Laboratory",
     "tags":[]
   },
-  "ExpeditionSubArea_Shrike":{
+  "ExpeditionSubArea_Lair":{
     "act":10,
     "baseName":"Rancid Nest",
     "isHideout":false,
@@ -254,6 +522,60 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Rancid Nest",
+    "tags":[]
+  },
+  "ExpeditionSubArea_MedvedBoss":{
+    "act":10,
+    "baseName":"Sprawling Jungle",
+    "bossVarieties":["Medved, the Fallen Seer"],
+    "description":"What once was, shall be again.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":["Caustic Crab","Druid of the Broken Circle","Scorpion Monkey","Stoneback Rhoa","Unearthed Soldier","Unearthed Urchin","Unearthed Zombie"],
+    "name":"Sprawling Jungle",
+    "tags":[]
+  },
+  "ExpeditionSubArea_OlrothBoss":{
+    "act":10,
+    "baseName":"Obscure Island",
+    "bossVarieties":["Olroth, Origin of the Fall"],
+    "description":"The truth lies somewhere between light and shadow.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":["Amphibious Prowler","Knight of the Sun","Order Ostiary","Skittering Jellycrab","Unearthed Skeletal Archer","Unearthed Skeletal Swordsman","Unearthed Skeletal Warrior"],
+    "name":"Obscure Island",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Pond":{
+    "act":10,
+    "baseName":"Famed Pond",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Famed Pond",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Precursor":{
+    "act":10,
+    "baseName":"Ancient Cache",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Ancient Cache",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Sanctuary":{
+    "act":10,
+    "baseName":"Tranquil Chamber",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Tranquil Chamber",
     "tags":[]
   },
   "ExpeditionSubArea_Siren":{
@@ -268,13 +590,24 @@
   },
   "ExpeditionSubArea_UhtredBoss":{
     "act":10,
-    "baseName":"Kalguuran Tomb",
-    "bossVarieties":["Uhtred, Covetous Traitor"],
+    "baseName":"Secluded Temple",
+    "bossVarieties":["Uhtred, the Stardrinker"],
+    "description":"What lies beyond the limits of mortal understanding?",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":["Goliath Shrike","Manshrike","Priest of the Chalice","Runed Knight","Unearthed Runecaster","Unearthed Soldier","Unearthed Urchin","Vile Vulture","Vilespit Gull"],
+    "name":"Secluded Temple",
+    "tags":[]
+  },
+  "ExpeditionSubArea_Vein":{
+    "act":10,
+    "baseName":"Gilded Deposit",
     "isHideout":false,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
-    "name":"Kalguuran Tomb",
+    "name":"Gilded Deposit",
     "tags":[]
   },
   "ExpeditionSubArea_Volcano":{
@@ -287,6 +620,18 @@
     "name":"Sulphur Mines",
     "tags":[]
   },
+  "ExpeditionSubArea_VoranaBoss":{
+    "act":10,
+    "baseName":"Mournful Cliffside",
+    "bossVarieties":["Vorana, Last to Fall"],
+    "description":"Her one-woman crusade continues still.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":["Black Scythe Arbalist","Black Scythe Mercenary","Gargantuan Wasp","Swarming Wasp","Unearthed Runecaster","Unearthed Soldier","Unearthed Zombie"],
+    "name":"Mournful Cliffside",
+    "tags":[]
+  },
   "G1_1":{
     "act":1,
     "baseName":"The Riverbank",
@@ -297,7 +642,7 @@
     "level":1,
     "monsterVarieties":["Drowned","Porcupine Crab"],
     "name":"The Riverbank (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_10":{
     "act":1,
@@ -308,7 +653,7 @@
     "level":15,
     "monsterVarieties":[],
     "name":"Root Hollow (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_11":{
     "act":1,
@@ -320,7 +665,7 @@
     "level":10,
     "monsterVarieties":["Bramble Ape","Bramble Burrower","Bramble Hulk","Bramble Rhoa","Venomous Crab","Venomous Crab Matriarch"],
     "name":"Hunting Grounds (Act 1)",
-    "tags":["EzomyteStrongbox","nameless_shrine"]
+    "tags":[]
   },
   "G1_12":{
     "act":1,
@@ -331,7 +676,7 @@
     "level":11,
     "monsterVarieties":["Cultist Archer","Cultist Brute","Cultist Daggerdancer","Cultist Warrior","Cultist Witch","Ribrattle","Skeleton Spriggan","Skullslinger","Spinesnatcher"],
     "name":"Freythorn (Act 1)",
-    "tags":["EzomyteStrongbox","nameless_shrine"]
+    "tags":[]
   },
   "G1_13_1":{
     "act":1,
@@ -342,7 +687,7 @@
     "level":12,
     "monsterVarieties":["Decrepit Mercenary","Iron Guard","Iron Thaumaturgist","Pack Werewolf","Rabid Dog","Risen Farmhand","Rotting Crow","Scarecrow Beast","Voracious Werewolf","Werewolf Prowler"],
     "name":"Ogham Farmlands (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_13_2":{
     "act":1,
@@ -354,7 +699,7 @@
     "level":13,
     "monsterVarieties":["Blood Collector","Blood Cretin","Burning Dead","Decrepit Mercenary","Voracious Werewolf","Werewolf Prowler"],
     "name":"Ogham Village (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_14":{
     "act":1,
@@ -365,7 +710,7 @@
     "level":14,
     "monsterVarieties":["Blood Carrier","Blood Collector","Blood Cretin","Courtesan","Death Knight","Decrepit Mercenary","Gargoyle Demon","Iron Guard","Iron Spearman","Iron Thaumaturgist"],
     "name":"The Manor Ramparts (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_15":{
     "act":1,
@@ -377,7 +722,7 @@
     "level":15,
     "monsterVarieties":["Blood Carrier","Blood Collector","Blood Cretin","Courtesan","Iron Enforcer","Iron Guard","Iron Sharpshooter","Iron Spearman","Iron Thaumaturgist","Tendril Prowler","Tendril Sentinel"],
     "name":"Ogham Manor (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_2":{
     "act":1,
@@ -389,7 +734,7 @@
     "level":2,
     "monsterVarieties":["Lumbering Dead","Rotten Wolf","Vile Hag","Vile Imp"],
     "name":"Clearfell (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_3":{
     "act":1,
@@ -401,7 +746,7 @@
     "level":3,
     "monsterVarieties":["Flesh Larva","Mud Simulacrum","Wretched Rattler"],
     "name":"Mud Burrow (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_4":{
     "act":1,
@@ -413,7 +758,7 @@
     "level":4,
     "monsterVarieties":["Fungal Proliferator","Fungal Rattler","Fungal Zombie","Pack Werewolf","Vile Hag","Vile Imp","Werewolf Prowler"],
     "name":"The Grelwood (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_5":{
     "act":1,
@@ -425,7 +770,7 @@
     "level":5,
     "monsterVarieties":["Ancient Ezomyte","Bloom Serpent","Maw Demon","Risen Arbalest"],
     "name":"The Red Vale (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_6":{
     "act":1,
@@ -437,7 +782,7 @@
     "level":6,
     "monsterVarieties":["Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie"],
     "name":"The Grim Tangle (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_7":{
     "act":1,
@@ -449,7 +794,7 @@
     "level":7,
     "monsterVarieties":["Bearer of Penitence","Burdened Wretch","Death Knight","Frost Wraith","Hungering Stalker","Risen Rattler","Undertaker"],
     "name":"Cemetery of the Eternals (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_8":{
     "act":1,
@@ -461,7 +806,7 @@
     "level":8,
     "monsterVarieties":["Blood Cretin","Courtesan","Eternal Knight","Ghoul Commander","Lightning Wraith","Risen Rattler","Skulking Ghoul","Wheelbound Hag"],
     "name":"Mausoleum of the Praetor (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_9":{
     "act":1,
@@ -473,7 +818,7 @@
     "level":8,
     "monsterVarieties":["Bone Stalker","Dread Servant","Eternal Knight","Knight-Gaunt","Risen Rattler"],
     "name":"Tomb of the Consort (Act 1)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "G1_WorldMap":{
     "act":1,
@@ -506,7 +851,7 @@
     "level":16,
     "monsterVarieties":["Brimstone Crab","Crag Leaper","Hyena Demon","Rotting Hulk","Sandscoured Dead","Sun Clan Scavenger"],
     "name":"Vastiri Outskirts (Act 2)",
-    "tags":["MarakethStrongbox","badlands_shrine"]
+    "tags":[]
   },
   "G2_10_1":{
     "act":2,
@@ -517,7 +862,7 @@
     "level":17,
     "monsterVarieties":["Armoured Rhex","Corrupted Corpse","Faridun Crawler","Forsaken Hulk","Forsaken Miner","Plague Harvester","Plague Swarm"],
     "name":"Mawdun Quarry (Act 2)",
-    "tags":["MarakethStrongbox","faridun_shrine"]
+    "tags":[]
   },
   "G2_10_2":{
     "act":2,
@@ -529,7 +874,7 @@
     "level":18,
     "monsterVarieties":["Corrupted Corpse","Faridun Crawler","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Miner","Mantis Rat","Plague Nymph"],
     "name":"Mawdun Mine (Act 2)",
-    "tags":["MarakethStrongbox","faridun_shrine"]
+    "tags":[]
   },
   "G2_11":{
     "act":2,
@@ -537,32 +882,21 @@
     "isHideout":false,
     "isMap":false,
     "level":30,
-    "monsterVarieties":["Corrupted Corpse","Plague Harvester","Plague Nymph","Plague Swarm","Rasp Scavenger","Rhex"],
+    "monsterVarieties":["Corrupted Corpse","Plague Harvester","Plague Nymph","Plague Swarm","Rasp Scavenger","Rhex","The Punished"],
     "name":"The Dreadnought's Wake (Act 2)",
-    "tags":["MarakethStrongbox","faridun_shrine"]
+    "tags":[]
   },
-  "G2_12_1":{
+  "G2_12":{
     "act":2,
-    "baseName":"The Dreadnought",
-    "description":"War Caravan of the Faridun",
+    "baseName":"Dreadnought",
+    "bossVarieties":["Jamanra, the Abomination"],
+    "description":"War Caravan of the Risen King",
     "isHideout":false,
     "isMap":false,
     "level":31,
-    "monsterVarieties":["Faridun Bladedancer","Faridun Crawler","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Plaguebringer","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer","Plague Harvester","Plague Swarm"],
-    "name":"The Dreadnought (Act 2)",
-    "tags":["MarakethStrongbox","faridun_shrine"]
-  },
-  "G2_12_2":{
-    "act":2,
-    "baseName":"Dreadnought Vanguard",
-    "bossVarieties":["Jamanra, the Abomination"],
-    "description":"Forward carts of the Risen King",
-    "isHideout":false,
-    "isMap":false,
-    "level":32,
-    "monsterVarieties":["Faridun Bladedancer","Faridun Butcher","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer"],
-    "name":"Dreadnought Vanguard (Act 2)",
-    "tags":["MarakethStrongbox","faridun_shrine"]
+    "monsterVarieties":["Faridun Bladedancer","Faridun Butcher","Faridun Crawler","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Plaguebringer","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer","Plague Harvester","Plague Swarm"],
+    "name":"Dreadnought (Act 2)",
+    "tags":[]
   },
   "G2_13":{
     "act":2,
@@ -573,7 +907,7 @@
     "level":22,
     "monsterVarieties":[],
     "name":"Trial of the Sekhemas (Act 2)",
-    "tags":["MarakethStrongbox","faridun_shrine"]
+    "tags":[]
   },
   "G2_2":{
     "act":2,
@@ -585,7 +919,7 @@
     "level":19,
     "monsterVarieties":["Desiccated Lich","Quake Golem","Risen Arbalest","Risen Maraketh","Skitter Golem","Tombshrieker","Vault Lurker"],
     "name":"Traitor's Passage (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_3":{
     "act":2,
@@ -597,7 +931,7 @@
     "level":20,
     "monsterVarieties":["Faridun Bladedancer","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer"],
     "name":"The Halani Gates (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_3a":{
     "act":2,
@@ -608,7 +942,7 @@
     "level":20,
     "monsterVarieties":[],
     "name":"The Halani Gates (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_3s":{
     "act":2,
@@ -619,7 +953,7 @@
     "level":20,
     "monsterVarieties":[],
     "name":"The Halani Gates (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_4_1":{
     "act":2,
@@ -631,7 +965,7 @@
     "level":21,
     "monsterVarieties":["Desiccated Lich","Living Sand","Risen Maraketh","Serpent Clan","Serpent Shaman","Tarnished Beetle","Tarnished Scarab"],
     "name":"Keth (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_4_2":{
     "act":2,
@@ -642,7 +976,7 @@
     "level":22,
     "monsterVarieties":["Adorned Beetle","Adorned Scarab","Risen Arbalest","Risen Maraketh","Sand Spirit","Serpent Clan","Serpent Shaman","Tarnished Beetle"],
     "name":"The Lost City (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_4_3":{
     "act":2,
@@ -654,7 +988,7 @@
     "level":23,
     "monsterVarieties":["Mar Acolyte","Risen Arbalest","Risen Maraketh","Sand Spirit","Vesper Bat"],
     "name":"Buried Shrines (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_5_1":{
     "act":2,
@@ -665,7 +999,7 @@
     "level":21,
     "monsterVarieties":["Gilded Cobra","Lost-men Brute","Lost-men Necromancer","Lost-men Zealot","Ribrattle","Sabre Spider","Skullslinger","Spinesnatcher"],
     "name":"Mastodon Badlands (Act 2)",
-    "tags":["MarakethStrongbox","badlands_shrine"]
+    "tags":[]
   },
   "G2_5_2":{
     "act":2,
@@ -677,7 +1011,7 @@
     "level":22,
     "monsterVarieties":["Drudge Osseodon","Gilded Cobra","Hyena Demon","Lost-men Brute","Lost-men Necromancer","Lost-men Subjugator","Lost-men Zealot","Ribrattle","Skullslinger","Spinesnatcher","Sun Clan Scavenger"],
     "name":"The Bone Pits (Act 2)",
-    "tags":["MarakethStrongbox","badlands_shrine"]
+    "tags":[]
   },
   "G2_6":{
     "act":2,
@@ -688,7 +1022,7 @@
     "level":21,
     "monsterVarieties":["Desiccated Lich","Dune Lurker","Quake Golem","Risen Arbalest","Risen Maraketh","Skitter Golem","Walking Goliath"],
     "name":"Valley of the Titans (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_7":{
     "act":2,
@@ -700,7 +1034,7 @@
     "level":22,
     "monsterVarieties":["Goliath","Sandflesh Mage","Sandflesh Skeleton","Sandflesh Warrior","Winged Horror"],
     "name":"The Titan Grotto (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_8":{
     "act":2,
@@ -711,7 +1045,7 @@
     "level":28,
     "monsterVarieties":["Maraketh Undead","Porcupine Goliath","Rasp Scavenger","Regurgitating Vulture","Vile Vulture"],
     "name":"Deshar (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_8a":{
     "act":2,
@@ -722,7 +1056,7 @@
     "level":28,
     "monsterVarieties":[],
     "name":"Deshar (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_9_1":{
     "act":2,
@@ -733,7 +1067,7 @@
     "level":29,
     "monsterVarieties":["Maraketh Undead","Risen Maraketh","Risen Tale-woman"],
     "name":"Path of Mourning (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_9_2":{
     "act":2,
@@ -745,7 +1079,7 @@
     "level":30,
     "monsterVarieties":["Faridun Bladedancer","Faridun Fledgling","Faridun Heavy Infantry","Faridun Impaler","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer","Maraketh Undead","Winged Fiend"],
     "name":"The Spires of Deshar (Act 2)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "G2_WorldMap":{
     "act":2,
@@ -778,7 +1112,7 @@
     "level":33,
     "monsterVarieties":["Bloodthief Wasp","Bogfelled Commoner","Bogfelled Slave","Dredge Fiend","Orok Fleshstabber","Orok Hunter","Orok Shaman","Orok Throatcutter","Rotting Hulk"],
     "name":"Sandswept Marsh (Act 3)",
-    "tags":["area_with_water","VaalStrongbox"]
+    "tags":["area_with_water"]
   },
   "G3_10":{
     "act":3,
@@ -790,7 +1124,7 @@
     "level":38,
     "monsterVarieties":[],
     "name":"The Trial of Chaos (Act 3)",
-    "tags":["dungeon","VaalStrongbox","vaal_shrine"]
+    "tags":["dungeon"]
   },
   "G3_10_Airlock":{
     "act":3,
@@ -801,7 +1135,7 @@
     "level":38,
     "monsterVarieties":[],
     "name":"The Temple of Chaos (Act 3)",
-    "tags":["area_with_water","VaalStrongbox"]
+    "tags":["area_with_water"]
   },
   "G3_11":{
     "act":3,
@@ -813,7 +1147,7 @@
     "level":41,
     "monsterVarieties":["Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Flathead Youngling","Foul Blacksmith","Foul Mauler","Foul Sage","Hunchback Clubber","Pyromushroom Cultivator"],
     "name":"Apex of Filth (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_12":{
     "act":3,
@@ -825,7 +1159,7 @@
     "level":42,
     "monsterVarieties":["Adorned Miscreation","Bloodrite Guard","Bloodrite Priest","Priest of the Sun"],
     "name":"Temple of Kopec (Act 3)",
-    "tags":["dungeon","VaalStrongbox","vaal_shrine"]
+    "tags":["dungeon"]
   },
   "G3_14":{
     "act":3,
@@ -837,7 +1171,7 @@
     "level":43,
     "monsterVarieties":["Chaotic Zealot","Gelid Zealot","Loyal Jaguar","Vaal Excoriator","Vaal Goliath","Vaal Guard","Vaal Overseer","Viper Legionnaire"],
     "name":"Utzaal (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_15":{
     "act":3,
@@ -847,7 +1181,7 @@
     "level":43,
     "monsterVarieties":["Vaal Enforcer","Vaal Excoriator","Vaal Guard","Vaal Overseer","Vaal Researcher"],
     "name":"Library of Kamasa (Act 3)",
-    "tags":["dungeon","VaalStrongbox","vaal_shrine"]
+    "tags":["dungeon"]
   },
   "G3_16":{
     "act":3,
@@ -858,7 +1192,7 @@
     "level":44,
     "monsterVarieties":["Bannerbearing Zealot","Blood Priest","Blood Priestess","Blood Zealot","Chaotic Zealot","Fiery Zealot","Gelid Zealot","Vaal Axeman","Vaal Formshifter","Vaal Goliath"],
     "name":"Aggorat (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_17":{
     "act":3,
@@ -870,7 +1204,7 @@
     "level":45,
     "monsterVarieties":["Bladelash Transcendent","Brutal Transcendent","Doryani's Elite","Fused Swordsman","Goliath Transcendent","Shielded Transcendent","Surgical Experimentalist","Warrior Transcendent"],
     "name":"The Black Chambers (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_2_1":{
     "act":3,
@@ -881,7 +1215,7 @@
     "level":35,
     "monsterVarieties":["Antlion Charger","Bane Sapling","Diretusk Boar","Ill-fated Explorer"],
     "name":"Infested Barrens (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_2_2":{
     "act":3,
@@ -892,7 +1226,7 @@
     "level":39,
     "monsterVarieties":["Azak Brute","Azak Fleshstabber","Azak Mongrelmaster","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter","Chaw Mongrel","Chyme Skitterer","River Drake"],
     "name":"The Matlan Waterways (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_3":{
     "act":3,
@@ -904,7 +1238,7 @@
     "level":34,
     "monsterVarieties":["Alpha Primate","Antlion Charger","Bane Sapling","Constricted Shambler","Constricted Spitter","Entwined Hulk","Feral Primate","Quadrilla","Snakethroat Shambler"],
     "name":"Jungle Ruins (Act 3)",
-    "tags":["area_with_water","VaalStrongbox"]
+    "tags":["area_with_water"]
   },
   "G3_4":{
     "act":3,
@@ -913,9 +1247,9 @@
     "isHideout":false,
     "isMap":false,
     "level":35,
-    "monsterVarieties":["Constricted Shambler","Constricted Spitter","Entrailhome Shambler","Entwined Hulk","Rotted Rat","Scorpion Monkey","Slitherspitter","Snakethroat Shambler"],
+    "monsterVarieties":["Constricted Shambler","Constricted Spitter","Entrailhome Shambler","Entwined Hulk","Orok Fleshstabber","Orok Hunter","Orok Shaman","Orok Throatcutter","Rotted Rat","Scorpion Monkey","Slitherspitter","Snakethroat Shambler"],
     "name":"The Venom Crypts (Act 3)",
-    "tags":["area_with_water","VaalStrongbox"]
+    "tags":["area_with_water"]
   },
   "G3_5":{
     "act":3,
@@ -927,7 +1261,7 @@
     "level":36,
     "monsterVarieties":["Bloom Serpent","Diretusk Boar","Ill-fated Explorer","Prowling Chimeral","River Drake"],
     "name":"Chimeral Wetlands (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_6_1":{
     "act":3,
@@ -939,7 +1273,7 @@
     "level":37,
     "monsterVarieties":["Crawler Sentinel","Pale-stitched Stalker","Rotted Rat","Rusted Dyna Golem","Rusted Reconstructor","Vaal Skeletal Archer","Vaal Skeletal Priest","Vaal Skeletal Squire","Vaal Skeletal Warrior"],
     "name":"Jiquani's Machinarium (Act 3)",
-    "tags":["dungeon","VaalStrongbox","vaal_shrine"]
+    "tags":["dungeon"]
   },
   "G3_6_2":{
     "act":3,
@@ -951,7 +1285,7 @@
     "level":38,
     "monsterVarieties":["Pale-stitched Stalker","Prowling Shade","Undead Vaal Bladedancer","Undead Vaal Guard","Vaal Skeletal Archer","Vaal Skeletal Priest","Vaal Skeletal Squire","Vaal Skeletal Warrior"],
     "name":"Jiquani's Sanctum (Act 3)",
-    "tags":["dungeon","VaalStrongbox","vaal_shrine"]
+    "tags":["dungeon"]
   },
   "G3_7":{
     "act":3,
@@ -960,10 +1294,10 @@
     "description":"Home of the merciless Azak savages",
     "isHideout":false,
     "isMap":false,
-    "level":36,
+    "level":40,
     "monsterVarieties":["Azak Brute","Azak Fledgling","Azak Fleshstabber","Azak Mauler","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter","Azak Torchbearer","Chaw Mongrel"],
     "name":"The Azak Bog (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_8":{
     "act":3,
@@ -974,7 +1308,7 @@
     "level":40,
     "monsterVarieties":["Chyme Skitterer","Drowned Crawler","Drowned Explorer","Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Foul Blacksmith","Foul Mauler","Foul Sage","Hunchback Clubber","River Drake","River Hag"],
     "name":"The Drowned City (Act 3)",
-    "tags":["area_with_water","VaalStrongbox","vaal_shrine"]
+    "tags":["area_with_water"]
   },
   "G3_9":{
     "act":3,
@@ -986,7 +1320,7 @@
     "level":41,
     "monsterVarieties":["Gold-Melted Sentinel","Gold-Melted Shambler","Gold-melted Blacksmith","Vaal Embalmed Archer","Vaal Embalmed Axeman","Vaal Embalmed Bearer","Vaal Embalmed Rogue","Vaal Embalmed Spearman"],
     "name":"The Molten Vault (Act 3)",
-    "tags":["dungeon","VaalStrongbox","vaal_shrine"]
+    "tags":["dungeon"]
   },
   "G3_WorldMap":{
     "act":3,
@@ -1019,7 +1353,7 @@
     "level":52,
     "monsterVarieties":["Faithful Archer","Faithful Warrior","Righteous Axewielder","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Soldier","Zealous Courser","Zealous Excavator","Zealous Guard","Zealous Pillarcrusher","Zealous Shockwarden"],
     "name":"The Excavation (Act 4)",
-    "tags":["KaruiStrongbox"]
+    "tags":[]
   },
   "G4_11_1a":{
     "act":4,
@@ -1030,7 +1364,7 @@
     "level":53,
     "monsterVarieties":[],
     "name":"Ngakanu (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_11_1b":{
     "act":4,
@@ -1041,7 +1375,7 @@
     "level":53,
     "monsterVarieties":["Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Tuskbeast","Blood-fevered Warrior","Blood-fevered Wisewoman"],
     "name":"Ngakanu (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_11_2":{
     "act":4,
@@ -1053,7 +1387,7 @@
     "level":53,
     "monsterVarieties":["Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Plaguespreader","Blood-fevered Spearman","Blood-fevered Warrior","Blood-fevered Wisewoman"],
     "name":"Heart of the Tribe (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_13":{
     "act":4,
@@ -1064,7 +1398,7 @@
     "level":53,
     "monsterVarieties":[],
     "name":"Plunder's Point (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_14":{
     "act":4,
@@ -1075,7 +1409,7 @@
     "level":53,
     "monsterVarieties":[],
     "name":"Brinerot Cove (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_1_1":{
     "act":4,
@@ -1087,7 +1421,7 @@
     "level":46,
     "monsterVarieties":["Feral Kin","Shaman Kin","Skulltop Kin","Spearbearer Kin","Tallwalker Kin","Tuskbearer Kin","Wardrum Kin"],
     "name":"Isle of Kin (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_1_2":{
     "act":4,
@@ -1099,7 +1433,7 @@
     "level":47,
     "monsterVarieties":["Feral Kin","Molten Imp","Shaman Kin","Skulltop Kin","Spearbearer Kin","Tallwalker Kin","Torchbearer Kin","Tuskbearer Kin","Wardrum Kin"],
     "name":"Volcanic Warrens (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_2_1":{
     "act":4,
@@ -1110,7 +1444,7 @@
     "level":46,
     "monsterVarieties":["Bloated Anchorman","Drowned Bearer","Drowned Crawler","Drowned Explorer","Gull Shrike","Searot Harpooner","Searot Skeleton","Searot Sniper"],
     "name":"Kedge Bay (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_2_2":{
     "act":4,
@@ -1122,7 +1456,7 @@
     "level":47,
     "monsterVarieties":["Drowned Explorer","Man o' War","Rotting Cannoneer","Rotting Demolitionist","Rotting Soulcatcher"],
     "name":"Journey's End (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_3_1":{
     "act":4,
@@ -1134,7 +1468,7 @@
     "level":46,
     "monsterVarieties":["Caustic Crab","Coconut Crab","Elephant Tortoise","Quill Crab","Scorpion Monkey","Spiked Scuttler","Stoneback Rhoa"],
     "name":"Whakapanu Island (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_3_2":{
     "act":4,
@@ -1146,7 +1480,7 @@
     "level":47,
     "monsterVarieties":["Amphibious Prowler","Brine Maiden","Coral-crowned Skeleton","Ghastly Siren","Giant Maw","Luminous Spinefish","Skittering Jellycrab","Spiked Ray"],
     "name":"Singing Caverns (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_4_1":{
     "act":4,
@@ -1157,7 +1491,7 @@
     "level":46,
     "monsterVarieties":["Guardian Lizard","Guardian Turtle"],
     "name":"Eye of Hinekora (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_4_2":{
     "act":4,
@@ -1169,7 +1503,7 @@
     "level":47,
     "monsterVarieties":["Ancestral Archer","Ancestral Channeler","Ancestral Guardian","Ancestral Headtaker","Ancestral Hornbearer","Ancestral Warrior"],
     "name":"Halls of the Dead (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","karui_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_4_3":{
     "act":4,
@@ -1191,7 +1525,7 @@
     "level":46,
     "monsterVarieties":["Eaten Rat","Eternal Guard","Eternal Prisoner","Eternal Torturer","Prowling Skeleton","Rattling Gibbet","Risen Rattler","Spined Necromancer"],
     "name":"Abandoned Prison (Act 4)",
-    "tags":["area_with_water","EzomyteStrongbox","ezomyte_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_5_2":{
     "act":4,
@@ -1203,7 +1537,7 @@
     "level":47,
     "monsterVarieties":["Angler Maw","Bulbous Maw","Coral-crowned Skeleton","Eternal Guard","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker","Prowling Skeleton","Spined Necromancer"],
     "name":"Solitary Confinement (Act 4)",
-    "tags":["area_with_water","EzomyteStrongbox","ezomyte_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_7":{
     "act":4,
@@ -1215,7 +1549,7 @@
     "level":46,
     "monsterVarieties":["Carrion Gull","Goliath Shrike","Gull Shrike","Manshrike","Raven Shrike","Scavenged Skeleton","Vile Vulture","Vilespit Gull"],
     "name":"Shrike Island (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_8a":{
     "act":4,
@@ -1226,7 +1560,7 @@
     "level":52,
     "monsterVarieties":[],
     "name":"Arastas (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_8b":{
     "act":4,
@@ -1238,7 +1572,7 @@
     "level":52,
     "monsterVarieties":["Faithful Archer","Faithful Warrior","Gargantuan Wasp","Righteous Axewielder","Swarming Wasp","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Priest","Twilight Order Soldier"],
     "name":"Arastas (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox","twilight_order_shrine"]
+    "tags":["area_with_water"]
   },
   "G4_9_":{
     "act":4,
@@ -1248,7 +1582,7 @@
     "level":53,
     "monsterVarieties":["Infested Anglerfish","Infested Manta","Infested Octopus","Infested Turtle"],
     "name":"Isle of Decay (Act 4)",
-    "tags":["area_with_water","KaruiStrongbox"]
+    "tags":["area_with_water"]
   },
   "G4_WorldMap":{
     "act":4,
@@ -1279,17 +1613,6 @@
     "level":0,
     "monsterVarieties":[],
     "name":"Interlude (Act 6)",
-    "tags":[]
-  },
-  "G_Endgame_Town":{
-    "act":10,
-    "baseName":"The Ziggurat Refuge",
-    "description":"Reinforced hideaway from the Cataclysm",
-    "isHideout":false,
-    "isMap":false,
-    "level":65,
-    "monsterVarieties":["Adorned Beetle","Adorned Miscreation","Adorned Scarab","Alpha Primate","Amphibious Prowler","Ancestral Archer","Ancestral Channeler","Ancestral Guardian","Ancestral Headtaker","Ancestral Hornbearer","Ancestral Warrior","Ancient Ezomyte","Angler Maw","Antlion Charger","Armoured Rhex","Azak Brute","Azak Fledgling","Azak Fleshstabber","Azak Mauler","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter","Bearer of Penitence","Bladelash Transcendent","Bloated Anchorman","Blood Carrier","Blood Collector","Blood Cretin","Blood Priest","Blood Priestess","Blood Zealot","Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Plaguespreader","Blood-fevered Spearman","Blood-fevered Tuskbeast","Blood-fevered Warrior","Blood-fevered Wisewoman","Bloodrite Guard","Bloodrite Priest","Bloodthief Wasp","Bloom Serpent","Bogfelled Commoner","Bogfelled Slave","Bone Stalker","Bramble Ape","Bramble Burrower","Bramble Hulk","Bramble Rhoa","Brimstone Crab","Brine Maiden","Brutal Transcendent","Bulbous Maw","Burdened Wretch","Burning Dead","Caustic Crab","Chaotic Zealot","Chaw Mongrel","Chyme Skitterer","Constricted Shambler","Constricted Spitter","Corrupted Corpse","Courtesan","Crag Leaper","Cultist Archer","Cultist Brute","Cultist Daggerdancer","Cultist Warrior","Cultist Witch","Cultivated Grove","Death Knight","Decrepit Mercenary","Desiccated Lich","Diretusk Boar","Doryani's Elite","Dread Servant","Dredge Fiend","Drowned","Drowned Bearer","Drowned Crawler","Drowned Explorer","Drudge Osseodon","Dune Lurker","Elephant Tortoise","Entrailhome Shambler","Entwined Hulk","Eternal Guard","Eternal Knight","Eternal Prisoner","Eternal Torturer","Faithful Archer","Faithful Warrior","Faridun Bladedancer","Faridun Butcher","Faridun Crawler","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Plaguebringer","Faridun Spearman","Faridun Swordsman","Faridun Wind-slicer","Feral Kin","Feral Primate","Fiery Zealot","Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Flathead Youngling","Flesh Larva","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Hulk","Forsaken Miner","Foul Blacksmith","Foul Mauler","Foul Sage","Frost Wraith","Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Fused Swordsman","Gargantuan Wasp","Gargoyle Demon","Gelid Zealot","Ghastly Siren","Giant Maw","Gilded Cobra","Gold-Melted Sentinel","Gold-Melted Shambler","Gold-melted Blacksmith","Goliath","Goliath Shrike","Goliath Transcendent","Guardian Lizard","Guardian Turtle","Gull Shrike","Hunchback Clubber","Hyena Demon","Ill-fated Explorer","Iron Guard","Iron Sharpshooter","Iron Spearman","Iron Thaumaturgist","Knight-Gaunt","Lightning Wraith","Living Sand","Lost-men Brute","Lost-men Necromancer","Lost-men Subjugator","Lost-men Zealot","Luminous Spinefish","Man o' War","Manshrike","Mantis Rat","Mar Acolyte","Maraketh Undead","Molten Imp","Mud Simulacrum","Orok Fleshstabber","Orok Hunter","Orok Shaman","Orok Throatcutter","Pack Werewolf","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker","Pale-stitched Stalker","Plague Harvester","Plague Nymph","Plague Swarm","Porcupine Crab","Porcupine Goliath","Powered Zealot","Priest of the Sun","Prowling Chimeral","Prowling Shade","Pyromushroom Cultivator","Quadrilla","Quake Golem","Quill Crab","Rabid Dog","Rasp Scavenger","Rattling Gibbet","Rhex","Ribrattle","Righteous Axewielder","Risen Arbalest","Risen Farmhand","Risen Maraketh","Risen Rattler","Risen Tale-woman","River Drake","River Hag","Rotted Rat","Rotten Wolf","Rotting Cannoneer","Rotting Crow","Rotting Demolitionist","Rotting Hulk","Rotting Soulcatcher","Rusted Dyna Golem","Sabre Spider","Sand Spirit","Sandflesh Mage","Sandflesh Skeleton","Sandflesh Warrior","Sandscoured Dead","Scarecrow Beast","Scavenged Skeleton","Scorpion Monkey","Searot Harpooner","Searot Skeleton","Searot Sniper","Serpent Clan","Serpent Shaman","Shaman Kin","Shielded Transcendent","Skeleton Spriggan","Skitter Golem","Skittering Jellycrab","Skullslinger","Skulltop Kin","Slitherspitter","Snakethroat Shambler","Spearbearer Kin","Spiked Ray","Spiked Scuttler","Spined Necromancer","Spinesnatcher","Stoneback Rhoa","Sun Clan Scavenger","Surgical Experimentalist","Swamp Golem","Swarming Wasp","Tallwalker Kin","Tarnished Beetle","Tarnished Scarab","Tendril Prowler","Tendril Sentinel","Tombshrieker","Torchbearer Kin","Tuskbearer Kin","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Priest","Twilight Order Soldier","Undead Vaal Bladedancer","Undead Vaal Guard","Undertaker","Vaal Axeman","Vaal Embalmed Archer","Vaal Embalmed Axeman","Vaal Embalmed Bearer","Vaal Embalmed Rogue","Vaal Embalmed Spearman","Vaal Excoriator","Vaal Formshifter","Vaal Goliath","Vaal Guard","Vaal Overseer","Vaal Skeletal Archer","Vaal Skeletal Priest","Vaal Skeletal Squire","Vaal Skeletal Warrior","Vault Lurker","Venomous Crab","Venomous Crab Matriarch","Vile Hag","Vile Imp","Vile Vulture","Vilespit Gull","Viper Legionnaire","Walking Goliath","Wardrum Kin","Warrior Transcendent","Werewolf Prowler","Winged Fiend","Winged Horror","Wretched Rattler","Zealous Courser","Zealous Excavator","Zealous Guard","Zealous Pillarcrusher","Zealous Shockwarden"],
-    "name":"The Ziggurat Refuge",
     "tags":[]
   },
   "G_login":{
@@ -1360,6 +1683,16 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Entombed Hideout (Act 1)",
+    "tags":[]
+  },
+  "HideoutArenaIncursion":{
+    "act":1,
+    "baseName":"Red Queen's Chambers Hideout",
+    "isHideout":true,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Red Queen's Chambers Hideout (Act 1)",
     "tags":[]
   },
   "HideoutArenaInfiniteHunger":{
@@ -1522,6 +1855,16 @@
     "name":"Vast Plains Hideout (Act 1)",
     "tags":[]
   },
+  "HideoutBlankJungle":{
+    "act":1,
+    "baseName":"Jungle Clearing Hideout",
+    "isHideout":true,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Jungle Clearing Hideout (Act 1)",
+    "tags":[]
+  },
   "HideoutBlankMountain":{
     "act":1,
     "baseName":"Alpine Plateau Hideout",
@@ -1560,6 +1903,16 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Civic Square Hideout (Act 1)",
+    "tags":[]
+  },
+  "HideoutBlankVolcanicCave":{
+    "act":1,
+    "baseName":"Volcanic Cave Hideout",
+    "isHideout":true,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Volcanic Cave Hideout (Act 1)",
     "tags":[]
   },
   "HideoutCanal":{
@@ -1610,6 +1963,16 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Chiyou Hideout (Act 1)",
+    "tags":[]
+  },
+  "HideoutColossalTitan":{
+    "act":1,
+    "baseName":"Titan Apex Hideout",
+    "isHideout":true,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Titan Apex Hideout (Act 1)",
     "tags":[]
   },
   "HideoutCosmicAtlas":{
@@ -1874,12 +2237,12 @@
   },
   "HideoutSacrifice":{
     "act":1,
-    "baseName":"Sacrifice Hideout",
+    "baseName":"Sacrificial Apex Hideout",
     "isHideout":true,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
-    "name":"Sacrifice Hideout (Act 1)",
+    "name":"Sacrificial Apex Hideout (Act 1)",
     "tags":[]
   },
   "HideoutShaperArena":{
@@ -1952,6 +2315,16 @@
     "name":"Plateau of the Gods Hideout (Act 1)",
     "tags":[]
   },
+  "HideoutSunkenPalace":{
+    "act":1,
+    "baseName":"Sunken Palace Hideout",
+    "isHideout":true,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Sunken Palace Hideout (Act 1)",
+    "tags":[]
+  },
   "HideoutSunspire":{
     "act":1,
     "baseName":"Sunspire Hideout",
@@ -2012,14 +2385,24 @@
     "name":"Twisted Hideout (Act 1)",
     "tags":[]
   },
-  "HideoutVerdant":{
+  "HideoutVampireManor":{
     "act":1,
-    "baseName":"Verdant Hideout",
+    "baseName":"Bloodreaver Manor Hideout",
     "isHideout":true,
     "isMap":false,
     "level":65,
     "monsterVarieties":[],
-    "name":"Verdant Hideout (Act 1)",
+    "name":"Bloodreaver Manor Hideout (Act 1)",
+    "tags":[]
+  },
+  "HideoutVerdant":{
+    "act":1,
+    "baseName":"Overgrown Apex Hideout",
+    "isHideout":true,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Overgrown Apex Hideout (Act 1)",
     "tags":[]
   },
   "HideoutVeritaniaArena":{
@@ -2053,6 +2436,17 @@
     "name":"Vaal Ruins (Act 3)",
     "tags":[]
   },
+  "IncursionHubEndgame":{
+    "act":10,
+    "baseName":"Vaal Ruins",
+    "description":"The secrets of the Vaal await an intrepid explorer.",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Vaal Ruins",
+    "tags":[]
+  },
   "IncursionTemple":{
     "act":3,
     "baseName":"Atziri's Temple",
@@ -2062,7 +2456,7 @@
     "level":46,
     "monsterVarieties":[],
     "name":"Atziri's Temple (Act 3)",
-    "tags":["VaalStrongbox","vaal_shrine"]
+    "tags":[]
   },
   "IncursionTemplePresent":{
     "act":1,
@@ -2073,7 +2467,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Lost Temple (Act 1)",
-    "tags":["VaalStrongbox","vaal_shrine"]
+    "tags":[]
   },
   "KaruiBossShowcase":{
     "act":4,
@@ -2106,7 +2500,19 @@
     "level":65,
     "monsterVarieties":["Winged Fiend"],
     "name":"Alpine Ridge (Map)",
-    "tags":["map","mountain_biome","map_tower","EzomyteStrongbox"]
+    "tags":["map","map_tower"]
+  },
+  "MapAridPlains":{
+    "act":10,
+    "baseName":"Arid Plains",
+    "bossVarieties":["Akthi, the Final Sting","Anundr, the Sandworm"],
+    "description":"Cruel time and change, now plains only in name.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Mar Acolyte","Sand Spirit"],
+    "name":"Arid Plains (Map)",
+    "tags":["map","has_desert_biome_monsters"]
   },
   "MapArroyo":{
     "act":10,
@@ -2117,7 +2523,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Arroyo (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapAugury":{
     "act":10,
@@ -2129,7 +2535,7 @@
     "level":65,
     "monsterVarieties":["Constricted Spitter","Slitherspitter"],
     "name":"Augury (Map)",
-    "tags":["map","grass_biome","forest_biome","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapAzmerianRanges":{
     "act":10,
@@ -2141,7 +2547,7 @@
     "level":65,
     "monsterVarieties":["Elephant Tortoise","Stoneback Rhoa"],
     "name":"Azmerian Ranges (Map)",
-    "tags":["map","forest_biome","mountain_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapBackwash":{
     "act":10,
@@ -2153,7 +2559,7 @@
     "level":65,
     "monsterVarieties":["Filthy Crone","Filthy First-born","Filthy Lobber","Flathead Clubber","Flathead Warrior","Foul Blacksmith","Foul Mauler","Foul Sage","Pyromushroom Cultivator"],
     "name":"Backwash (Map)",
-    "tags":["map","forest_biome","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapBastille":{
     "act":10,
@@ -2165,18 +2571,19 @@
     "level":65,
     "monsterVarieties":["Decrepit Mercenary","Iron Guard"],
     "name":"Bastille (Map)",
-    "tags":["map","grass_biome","forest_biome","VaalStrongbox"]
+    "tags":["map"]
   },
-  "MapBastion":{
+  "MapBazaar":{
     "act":10,
-    "baseName":"Bastion",
-    "bossVarieties":[],
+    "baseName":"Bazaar",
+    "bossVarieties":["Viper Napuatzi"],
+    "description":"Live by the power of Corruption... die by madness.",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
-    "name":"Bastion (Map)",
-    "tags":["map","faridun_city","MarakethStrongbox"]
+    "monsterVarieties":["Chaotic Zealot","Vaal Goliath","Vaal Overseer"],
+    "name":"Bazaar (Map)",
+    "tags":["map","area_with_water"]
   },
   "MapBloodwood":{
     "act":10,
@@ -2188,7 +2595,7 @@
     "level":65,
     "monsterVarieties":["Blood Collector","Blood Cretin","Courtesan"],
     "name":"Bloodwood (Map)",
-    "tags":["map","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapBloomingField":{
     "act":10,
@@ -2200,7 +2607,7 @@
     "level":65,
     "monsterVarieties":["Bloom Serpent"],
     "name":"Blooming Field (Map)",
-    "tags":["map","forest_biome","grass_biome","EzomyteStrongbox"]
+    "tags":["map","has_grass_biome_monsters"]
   },
   "MapBluff":{
     "act":10,
@@ -2212,7 +2619,7 @@
     "level":65,
     "monsterVarieties":["Constricted Spitter","Entrailhome Shambler","Slitherspitter"],
     "name":"Bluff (Map)",
-    "tags":["map","map_tower","grass_biome","VaalStrongbox"]
+    "tags":["map","map_tower"]
   },
   "MapBurialBog":{
     "act":10,
@@ -2224,7 +2631,7 @@
     "level":65,
     "monsterVarieties":["Bogfelled Commoner","Bogfelled Slave","Dredge Fiend"],
     "name":"Burial Bog (Map)",
-    "tags":["map","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapCaldera":{
     "act":10,
@@ -2236,7 +2643,7 @@
     "level":65,
     "monsterVarieties":["Feral Kin","Shaman Kin","Skulltop Kin","Spearbearer Kin","Tallwalker Kin","Torchbearer Kin","Tuskbearer Kin","Wardrum Kin"],
     "name":"Caldera (Map)",
-    "tags":["map","area_with_water","water_biome","KaruiStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapCanyon":{
     "act":10,
@@ -2248,7 +2655,7 @@
     "level":65,
     "monsterVarieties":["Maraketh Undead","Risen Tale-woman"],
     "name":"Canyon (Map)",
-    "tags":["map","desert_biome","mountain_biome","MarakethStrongbox"]
+    "tags":["map","has_mountain_biome_monsters"]
   },
   "MapCavernCity":{
     "act":10,
@@ -2260,7 +2667,7 @@
     "level":65,
     "monsterVarieties":["Faridun Bladedancer","Faridun Butcher","Faridun Fledgling","Faridun Heavy Infantry","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Spearman","Faridun Swordsman","Faridun Wind-slicer"],
     "name":"Sacred Reservoir (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox","maraketh_shrine"]
+    "tags":["map"]
   },
   "MapCenotes":{
     "act":10,
@@ -2272,7 +2679,7 @@
     "level":65,
     "monsterVarieties":["Bogfelled Commoner","Bogfelled Slave","Rotting Hulk","Swamp Golem"],
     "name":"Cenotes (Map)",
-    "tags":["map","mountain_biome","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapChannel":{
     "act":10,
@@ -2284,18 +2691,19 @@
     "level":65,
     "monsterVarieties":["Mar Acolyte","Sand Spirit"],
     "name":"Channel (Map)",
-    "tags":["map","desert_biome","faridun_city","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapChasm":{
     "act":10,
     "baseName":"Chasm",
     "bossVarieties":["Diamora, Song of Death"],
+    "description":"Haunting echoes carry a song of sorrow...",
     "isHideout":false,
     "isMap":true,
     "level":65,
     "monsterVarieties":[],
     "name":"Chasm (Map)",
-    "tags":["map","area_with_water","water_biome"]
+    "tags":["map","area_with_water"]
   },
   "MapCliffside":{
     "act":10,
@@ -2307,7 +2715,7 @@
     "level":65,
     "monsterVarieties":["Faithful Archer","Faithful Warrior","Righteous Axewielder","Twilight Order Oathsworn","Twilight Order Officer","Twilight Order Priest","Twilight Order Soldier"],
     "name":"Cliffside (Map)",
-    "tags":["map","area_with_water","water_biome","grass_biome","forest_biome","mountain_biome","KaruiStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapCreek":{
     "act":10,
@@ -2319,7 +2727,7 @@
     "level":65,
     "monsterVarieties":["River Drake"],
     "name":"Creek (Map)",
-    "tags":["map","forest_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapCrimsonShores":{
     "act":10,
@@ -2331,7 +2739,7 @@
     "level":65,
     "monsterVarieties":["Brimstone Crab"],
     "name":"Crimson Shores (Map)",
-    "tags":["map","water_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapCrypt":{
     "act":10,
@@ -2343,7 +2751,7 @@
     "level":65,
     "monsterVarieties":["Knight-Gaunt","Risen Rattler"],
     "name":"Crypt (Map)",
-    "tags":["map","grass_biome","desert_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapDecay":{
     "act":10,
@@ -2355,7 +2763,19 @@
     "level":65,
     "monsterVarieties":["Fungal Artillery","Fungal Proliferator","Fungal Zombie"],
     "name":"Decay (Map)",
-    "tags":["map","grass_biome","forest_biome","swamp_biome","EzomyteStrongbox"]
+    "tags":["map"]
+  },
+  "MapDeforestation":{
+    "act":10,
+    "baseName":"Deforestation",
+    "bossVarieties":["Morwyn, the Kinslayer"],
+    "description":"The felling continues, unto insanity.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Cultist Archer","Cultist Brute","Cultist Warrior","Cultist Witch"],
+    "name":"Deforestation (Map)",
+    "tags":["map","has_forest_biome_monsters"]
   },
   "MapDerelictMansion":{
     "act":10,
@@ -2367,7 +2787,7 @@
     "level":65,
     "monsterVarieties":["Tendril Sentinel"],
     "name":"Derelict Mansion (Map)",
-    "tags":["map","grass_biome","forest_biome","EzomyteStrongbox","ezomyte_shrine","swamp_biome"]
+    "tags":["map"]
   },
   "MapDeserted":{
     "act":10,
@@ -2379,7 +2799,7 @@
     "level":65,
     "monsterVarieties":["Desiccated Lich","Living Sand"],
     "name":"Deserted (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapEpitaph":{
     "act":10,
@@ -2391,19 +2811,19 @@
     "level":65,
     "monsterVarieties":["Dread Servant","Eternal Knight","Risen Rattler"],
     "name":"Epitaph (Map)",
-    "tags":["map","mountain_biome","grass_biome","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapExcavation":{
     "act":10,
     "baseName":"Digsite",
     "bossVarieties":["Aurelian, the Grand Adjudicator"],
-    "description":"The remains of a time before Time.",
+    "description":"They dig not to discover, but to escape.",
     "isHideout":false,
     "isMap":true,
     "level":65,
     "monsterVarieties":["Zealous Courser","Zealous Excavator","Zealous Guard","Zealous Pillarcrusher","Zealous Shockwarden"],
     "name":"Digsite (Map)",
-    "tags":["map","grass_biome","EzomyteStrongbox"]
+    "tags":["map","has_grass_biome_monsters"]
   },
   "MapFlotsam":{
     "act":10,
@@ -2415,7 +2835,7 @@
     "level":65,
     "monsterVarieties":["Bloated Anchorman","Drowned Bearer","Drowned Explorer","Rotting Cannoneer","Rotting Demolitionist","Rotting Soulcatcher"],
     "name":"Flotsam (Map)",
-    "tags":["map","area_with_water","water_biome","grass_biome","forest_biome","KaruiStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapForge":{
     "act":10,
@@ -2427,7 +2847,7 @@
     "level":65,
     "monsterVarieties":["Goliath"],
     "name":"Forge (Map)",
-    "tags":["map","grass_biome","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapFortress":{
     "act":10,
@@ -2439,7 +2859,7 @@
     "level":65,
     "monsterVarieties":["Vaal Skeletal Priest","Vaal Skeletal Squire"],
     "name":"Fortress (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapFrozenFalls":{
     "act":10,
@@ -2451,7 +2871,30 @@
     "level":65,
     "monsterVarieties":["Bulbous Maw","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker"],
     "name":"Frozen Falls (Map)",
-    "tags":["map","mountain_biome","EzomyteStrongbox"]
+    "tags":["map"]
+  },
+  "MapGeode":{
+    "act":10,
+    "baseName":"Geode",
+    "bossVarieties":["Rattlecage, the Earthbreaker"],
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Geode (Map)",
+    "tags":["map"]
+  },
+  "MapGreenhouse":{
+    "act":10,
+    "baseName":"Greenhouse",
+    "bossVarieties":["Rootgrasp, the Hateful Forest"],
+    "description":"Fell blooms and grasping roots grow in shadow.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Vaal Skeletal Priest","Vaal Skeletal Squire"],
+    "name":"Greenhouse (Map)",
+    "tags":["map","has_forest_biome_monsters","has_swamp_biome_monsters"]
   },
   "MapGrimhaven":{
     "act":10,
@@ -2463,7 +2906,7 @@
     "level":65,
     "monsterVarieties":["Decrepit Mercenary","Iron Thaumaturgist"],
     "name":"Grimhaven (Map)",
-    "tags":["map","grass_biome","ezomyte_city","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapHeadland":{
     "act":10,
@@ -2475,7 +2918,7 @@
     "level":65,
     "monsterVarieties":["Pale-stitched Stalker"],
     "name":"Headland (Map)",
-    "tags":["map","mountain_biome","desert_biome","faridun_city","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapHiddenGrotto":{
     "act":10,
@@ -2487,7 +2930,7 @@
     "level":65,
     "monsterVarieties":["Quake Golem","Skitter Golem"],
     "name":"Hidden Grotto (Map)",
-    "tags":["map","grass_biome","forest_biome","swamp_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapHideoutCanal_Claimable":{
     "act":10,
@@ -2498,7 +2941,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Canal Hideout (Map)",
-    "tags":["map","grass_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapHideoutFarmlands_Claimable":{
     "act":10,
@@ -2509,7 +2952,7 @@
     "level":65,
     "monsterVarieties":["Decrepit Mercenary","Risen Farmhand","Scarecrow Beast"],
     "name":"Farmlands Hideout (Map)",
-    "tags":["map","grass_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapHideoutFelled_Claimable":{
     "act":10,
@@ -2520,7 +2963,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Felled Hideout (Map)",
-    "tags":["map","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapHideoutLimestone_Claimable":{
     "act":10,
@@ -2531,7 +2974,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Limestone Hideout (Map)",
-    "tags":["map","water_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapHideoutPrison_Claimable":{
     "act":10,
@@ -2542,7 +2985,7 @@
     "level":65,
     "monsterVarieties":["Eternal Torturer"],
     "name":"Prison Hideout (Map)",
-    "tags":["map","swamp_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapHideoutShoreline_Claimable":{
     "act":4,
@@ -2563,7 +3006,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Shrine Hideout (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapHive":{
     "act":10,
@@ -2575,19 +3018,19 @@
     "level":65,
     "monsterVarieties":["Plague Nymph"],
     "name":"Hive (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapIceCave":{
     "act":10,
     "baseName":"Ice Cave",
     "bossVarieties":["The Frostborn Fiend"],
-    "description":"These caves offer scant protection from the elements.",
+    "description":"The chill is second only to the stench.",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Frost Wraith","Risen Rattler"],
+    "monsterVarieties":["Quill Crab","Spiked Scuttler"],
     "name":"Ice Cave (Map)",
-    "tags":["map","mountain_biome","EzomyteStrongbox"]
+    "tags":["map","has_mountain_biome_monsters"]
   },
   "MapInferno":{
     "act":10,
@@ -2599,7 +3042,7 @@
     "level":65,
     "monsterVarieties":["Burning Dead"],
     "name":"Inferno (Map)",
-    "tags":["map","forest_biome","VaalStrongbox"]
+    "tags":["map","has_forest_biome_monsters"]
   },
   "MapKarst":{
     "act":10,
@@ -2609,7 +3052,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Karst (Map)",
-    "tags":["map","mountain_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapLeaguePortal":{
     "act":10,
@@ -2631,7 +3074,7 @@
     "level":65,
     "monsterVarieties":["Frost Wraith","Risen Rattler"],
     "name":"Lofty Summit (Map)",
-    "tags":["map","mountain_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapLostTowers":{
     "act":10,
@@ -2643,7 +3086,7 @@
     "level":65,
     "monsterVarieties":["Blood Priest","Blood Priestess","Blood Zealot","Vaal Formshifter"],
     "name":"Lost Towers (Map)",
-    "tags":["map","map_tower","forest_biome","VaalStrongbox"]
+    "tags":["map","map_tower"]
   },
   "MapMarrow":{
     "act":10,
@@ -2655,7 +3098,7 @@
     "level":65,
     "monsterVarieties":["Mar Acolyte","Risen Arbalest","Risen Maraketh"],
     "name":"Marrow (Map)",
-    "tags":["map","grass_biome","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapMesa":{
     "act":10,
@@ -2667,7 +3110,7 @@
     "level":65,
     "monsterVarieties":["Hyena Demon","Sun Clan Scavenger"],
     "name":"Mesa (Map)",
-    "tags":["map","map_tower","desert_biome","MarakethStrongbox"]
+    "tags":["map","map_tower"]
   },
   "MapMezzanine":{
     "act":10,
@@ -2689,7 +3132,7 @@
     "level":65,
     "monsterVarieties":["Forsaken Miner"],
     "name":"Mineshaft (Map)",
-    "tags":["map","mountain_biome","desert_biome","faridun_city","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapMire":{
     "act":10,
@@ -2701,7 +3144,78 @@
     "level":65,
     "monsterVarieties":["Cultist Archer","Cultist Daggerdancer"],
     "name":"Mire (Map)",
-    "tags":["map","forest_biome","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
+  },
+  "MapMonument":{
+    "act":10,
+    "baseName":"The Monument",
+    "description":"It continues still, its purpose unknown.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"The Monument (Map)",
+    "tags":["map"]
+  },
+  "MapMortuary":{
+    "act":10,
+    "baseName":"Mortuary",
+    "bossVarieties":["Micata, the Remade"],
+    "description":"These halls weren't meant for you...",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Bladelash Transcendent","Brutal Transcendent","Surgical Experimentalist","Warrior Transcendent"],
+    "name":"Mortuary (Map)",
+    "tags":["map"]
+  },
+  "MapMothersoul_Female":{
+    "act":10,
+    "baseName":"The Matriarch Halls",
+    "bossVarieties":["Phya, Sentinel of the Cradle"],
+    "description":"One cannot take life without the power to create it.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Precursor Driller","Precursor Fabricator","Precursor Refractor","Precursor Spherator","Tombshrieker"],
+    "name":"The Matriarch Halls (Map)",
+    "tags":["map"]
+  },
+  "MapMothersoul_Female_Quest":{
+    "act":10,
+    "baseName":"The Matriarch Halls",
+    "bossVarieties":["Phya, Sentinel of the Cradle"],
+    "description":"One cannot take life without the power to create it.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"The Matriarch Halls (Map)",
+    "tags":["map"]
+  },
+  "MapMothersoul_Male":{
+    "act":10,
+    "baseName":"The Patriarch Halls",
+    "bossVarieties":["Phyx, Sentinel of the Spark"],
+    "description":"One cannot create life without the power to take it.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Precursor Driller","Precursor Fabricator","Precursor Refractor","Precursor Spherator","Tombshrieker"],
+    "name":"The Patriarch Halls (Map)",
+    "tags":["map"]
+  },
+  "MapMothersoul_Male_Quest":{
+    "act":10,
+    "baseName":"The Patriarch Halls",
+    "bossVarieties":["Phyx, Sentinel of the Spark"],
+    "description":"One cannot create life without the power to take it.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"The Patriarch Halls (Map)",
+    "tags":["map"]
   },
   "MapNecropolis":{
     "act":10,
@@ -2713,7 +3227,7 @@
     "level":65,
     "monsterVarieties":["Death Knight","Risen Rattler"],
     "name":"Necropolis (Map)",
-    "tags":["map","forest_biome","ezomyte_city","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapOasis":{
     "act":10,
@@ -2725,7 +3239,19 @@
     "level":65,
     "monsterVarieties":["Faridun Heavy Infantry","Faridun Neophyte","Faridun Spearman","Faridun Swordsman"],
     "name":"Oasis (Map)",
-    "tags":["map","desert_biome","faridun_city","MarakethStrongbox"]
+    "tags":["map"]
+  },
+  "MapOrbalasCrossing":{
+    "act":10,
+    "baseName":"Orbala's Crossing",
+    "bossVarieties":["Serath, the Scaled One"],
+    "description":"Follow in her footsteps... if you dare.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Orbala's Crossing (Map)",
+    "tags":["map","has_mountain_biome_monsters"]
   },
   "MapOrnateChambers":{
     "act":10,
@@ -2737,7 +3263,7 @@
     "level":65,
     "monsterVarieties":["Serpent Clan","Serpent Shaman"],
     "name":"Ornate Chambers (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox","mountain_biome"]
+    "tags":["map","has_mountain_biome_monsters"]
   },
   "MapOutlands":{
     "act":10,
@@ -2748,7 +3274,7 @@
     "level":65,
     "monsterVarieties":["Faridun Heavy Infantry","Faridun Neophyte","Faridun Spearman","Faridun Swordsman"],
     "name":"Outlands (Map)",
-    "tags":["map","desert_biome","faridun_city","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapOvergrown":{
     "act":10,
@@ -2760,7 +3286,7 @@
     "level":65,
     "monsterVarieties":["Constricted Shambler","Constricted Spitter","Entwined Hulk","Scorpion Monkey","Snakethroat Shambler"],
     "name":"Overgrown (Map)",
-    "tags":["map","area_with_water","forest_biome","VaalStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapPenitentiary":{
     "act":10,
@@ -2772,40 +3298,126 @@
     "level":65,
     "monsterVarieties":["Gilded Cobra","Lost-men Zealot"],
     "name":"Penitentiary (Map)",
-    "tags":["map","grass_biome","ezomyte_city","EzomyteStrongbox"]
+    "tags":["map"]
   },
-  "MapPerch":{
+  "MapPit":{
     "act":10,
-    "baseName":"Perch",
-    "bossVarieties":[],
+    "baseName":"Pit",
+    "bossVarieties":["Brakkus, the Juggernaut"],
+    "description":"They scrabble and dig; they know not why...",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
-    "name":"Perch (Map)",
-    "tags":["map","mountain_biome","VaalStrongbox"]
+    "monsterVarieties":["Faridun Crawler"],
+    "name":"Pit (Map)",
+    "tags":["map"]
   },
   "MapPlantation":{
     "act":10,
     "baseName":"Plantation",
-    "bossVarieties":["Thariel, the Umbral Wraith"],
+    "bossVarieties":["Varloch, the Ashen Lord"],
+    "description":"A mad Thane rules over ruin.",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Risen Farmhand","Scarecrow Beast"],
     "name":"Plantation (Map)",
-    "tags":["map","EzomyteStrongbox"]
+    "tags":["map","has_grass_biome_monsters"]
   },
   "MapPort":{
     "act":10,
     "baseName":"Port",
-    "bossVarieties":["Torrek of the Drowned Fleet"],
+    "bossVarieties":["Malgor, the Nautilord"],
+    "description":"The sea returns everything eventually. Even the dead.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Drowned Explorer","Rotting Cannoneer"],
+    "name":"Port (Map)",
+    "tags":["map","area_with_water","has_grass_biome_monsters","has_water_biome_monsters"]
+  },
+  "MapPrecipice":{
+    "act":10,
+    "baseName":"Precipice",
+    "bossVarieties":["Morvak, the Infernal"],
+    "description":"This cavern burns hot and deadly.",
     "isHideout":false,
     "isMap":true,
     "level":65,
     "monsterVarieties":[],
-    "name":"Port (Map)",
-    "tags":["map","area_with_water","water_biome"]
+    "name":"Precipice (Map)",
+    "tags":["map","has_mountain_biome_monsters"]
+  },
+  "MapPrecursorTower":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Precursor Displacer","Precursor Extractor"],
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","map_tower"]
+  },
+  "MapPrecursorTowerDesert":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Precursor Displacer","Precursor Extractor"],
+    "description":"There is no how, or why, or when. Only awe.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","map_tower","desert_biome"]
+  },
+  "MapPrecursorTowerForest":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Precursor Displacer","Precursor Extractor"],
+    "description":"There is no how, or why, or when. Only awe.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","map_tower","forest_biome"]
+  },
+  "MapPrecursorTowerGrass":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Precursor Displacer","Precursor Extractor"],
+    "description":"There is no how, or why, or when. Only awe.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","map_tower","grass_biome"]
+  },
+  "MapPrecursorTowerMountain":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Precursor Displacer","Precursor Extractor"],
+    "description":"There is no how, or why, or when. Only awe.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","mountain_biome"]
+  },
+  "MapPrecursorTowerSwamp":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Precursor Displacer","Precursor Extractor"],
+    "description":"There is no how, or why, or when. Only awe.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","map_tower","swamp_biome"]
   },
   "MapRavine":{
     "act":10,
@@ -2817,42 +3429,43 @@
     "level":65,
     "monsterVarieties":["Constricted Spitter","Snakethroat Shambler"],
     "name":"Ravine (Map)",
-    "tags":["map","mountain_biome","forest_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapRazedFields":{
     "act":10,
     "baseName":"Razed Fields",
     "bossVarieties":["Elvara, the Savage Flame","Rael, the Frost Hand"],
-    "description":"Shadows in the night came for the farmers and torched their crops.",
+    "description":"Strife and terror rule the night.",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Azak Brute","Azak Fleshstabber","Azak Mauler","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter"],
+    "monsterVarieties":["Decrepit Mercenary"],
     "name":"Razed Fields (Map)",
-    "tags":["map","grass_biome","EzomyteStrongbox"]
+    "tags":["map","has_grass_biome_monsters"]
   },
   "MapReservoir":{
     "act":10,
     "baseName":"Reservoir",
     "bossVarieties":["Grudgelash, Vile Thorn"],
+    "description":"It's always raining, but the channels never fill...",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Azak Fleshstabber","Azak Mauler","Azak Spearthrower","Azak Stalker","Azak Throatcutter"],
     "name":"Reservoir (Map)",
-    "tags":["map","area_with_water"]
+    "tags":["map","area_with_water","has_swamp_biome_monsters","has_forest_biome_monsters"]
   },
   "MapRiverhold":{
     "act":10,
     "baseName":"Riverhold",
     "bossVarieties":["Thariel, the Umbral Wraith"],
-    "description":"The barges stopped, and the atrocity began.",
+    "description":"Only the shadow of death lives here now.",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Knight-Gaunt","Risen Rattler"],
+    "monsterVarieties":["Rabid Dog"],
     "name":"Riverhold (Map)",
-    "tags":["map","grass_biome","forest_biome","EzomyteStrongbox"]
+    "tags":["map","has_forest_biome_monsters"]
   },
   "MapRiverside":{
     "act":10,
@@ -2864,7 +3477,7 @@
     "level":65,
     "monsterVarieties":["Quadrilla","Scorpion Monkey"],
     "name":"Riverside (Map)",
-    "tags":["map","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapRockpools":{
     "act":10,
@@ -2876,19 +3489,19 @@
     "level":65,
     "monsterVarieties":["Constricted Shambler","Constricted Spitter","Snakethroat Shambler"],
     "name":"Rockpools (Map)",
-    "tags":["map","VaalStrongbox","water_biome"]
+    "tags":["map"]
   },
   "MapRugosa":{
     "act":10,
     "baseName":"Rugosa",
     "bossVarieties":["Syvora, Daughter of the Deep"],
-    "description":"A song so exquisite it can only be heard once.",
+    "description":"There is beauty to be found in the depths.",
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":["Brine Maiden","Ghastly Siren"],
+    "monsterVarieties":["Giant Maw","Skittering Jellycrab"],
     "name":"Rugosa (Map)",
-    "tags":["map","water_biome","KaruiStrongbox","area_with_water"]
+    "tags":["map","area_with_water"]
   },
   "MapRupture":{
     "act":10,
@@ -2900,7 +3513,7 @@
     "level":65,
     "monsterVarieties":["Quadrilla","Scorpion Monkey"],
     "name":"Rupture (Map)",
-    "tags":["map","area_with_water","swamp_biome","VaalStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapRustbowl":{
     "act":10,
@@ -2912,7 +3525,19 @@
     "level":65,
     "monsterVarieties":["Ancient Ezomyte","Risen Arbalest"],
     "name":"Rustbowl (Map)",
-    "tags":["map","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
+  },
+  "MapSanctuary":{
+    "act":10,
+    "baseName":"Sanctuary",
+    "bossVarieties":["Pirasha, the Forgotten Prisoner"],
+    "description":"When does protection become a prison?",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Faridun Heavy Infantry","Faridun Neophyte","Faridun Spearman","Faridun Swordsman"],
+    "name":"Sanctuary (Map)",
+    "tags":["map","has_desert_biome_monsters"]
   },
   "MapSandspit":{
     "act":10,
@@ -2924,7 +3549,7 @@
     "level":65,
     "monsterVarieties":["Venomous Crab","Venomous Crab Matriarch"],
     "name":"Sandspit (Map)",
-    "tags":["map","water_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapSavanna":{
     "act":10,
@@ -2936,7 +3561,7 @@
     "level":65,
     "monsterVarieties":["Hyena Demon","Sun Clan Scavenger"],
     "name":"Savannah (Map)",
-    "tags":["map","grass_biome","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapSeepage":{
     "act":10,
@@ -2948,7 +3573,7 @@
     "level":65,
     "monsterVarieties":["Fungal Artillery","Fungal Proliferator","Fungal Rattler"],
     "name":"Seepage (Map)",
-    "tags":["map","grass_biome","forest_biome","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapSevenWaters":{
     "act":10,
@@ -2960,7 +3585,7 @@
     "level":65,
     "monsterVarieties":["Rasp Scavenger","Vile Vulture"],
     "name":"Confluence (Map)",
-    "tags":["map","area_with_water","desert_biome","MarakethStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapSinkhole":{
     "act":10,
@@ -2972,7 +3597,31 @@
     "level":65,
     "monsterVarieties":["Ancestral Archer","Ancestral Channeler","Ancestral Guardian","Ancestral Headtaker","Ancestral Hornbearer","Ancestral Warrior","Guardian Lizard","Guardian Turtle"],
     "name":"Sinkhole (Map)",
-    "tags":["map","area_with_water","water_biome","KaruiStrongbox"]
+    "tags":["map","area_with_water"]
+  },
+  "MapSinterRift":{
+    "act":10,
+    "baseName":"Sinter Rift",
+    "bossVarieties":["Brughor, the Insatiable"],
+    "description":"The air is acrid. The skin burns. No doubt... sulphite.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Quake Golem","Skitter Golem"],
+    "name":"Sinter Rift (Map)",
+    "tags":["map"]
+  },
+  "MapSlash":{
+    "act":10,
+    "baseName":"Slash",
+    "bossVarieties":["The Black Crow"],
+    "description":"Calm, bleak twilight holds only despair.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Cultivated Grove","Skeleton Spriggan"],
+    "name":"Slash (Map)",
+    "tags":["map","has_forest_biome_monsters"]
   },
   "MapSlick":{
     "act":10,
@@ -2984,7 +3633,19 @@
     "level":65,
     "monsterVarieties":["Undead Vaal Guard"],
     "name":"Slick (Map)",
-    "tags":["map","grass_biome","desert_biome","MarakethStrongbox"]
+    "tags":["map"]
+  },
+  "MapSnowfall":{
+    "act":10,
+    "baseName":"Snowfall",
+    "bossVarieties":["Thariel, the Umbral Wraith"],
+    "description":"There is no bleaker tundra than a city at night.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Twilight Order Officer","Twilight Order Soldier"],
+    "name":"Snowfall (Map)",
+    "tags":["map","has_mountain_biome_monsters"]
   },
   "MapSpiderWoods":{
     "act":10,
@@ -2996,7 +3657,7 @@
     "level":65,
     "monsterVarieties":["Vault Lurker"],
     "name":"Spider Woods (Map)",
-    "tags":["map","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapSpring_":{
     "act":10,
@@ -3008,7 +3669,7 @@
     "level":65,
     "monsterVarieties":["Adorned Beetle","Adorned Scarab"],
     "name":"Spring (Map)",
-    "tags":["map","area_with_water","desert_biome","MarakethStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapSteamingSprings":{
     "act":10,
@@ -3020,7 +3681,7 @@
     "level":65,
     "monsterVarieties":["Bramble Rhoa"],
     "name":"Steaming Springs (Map)",
-    "tags":["map","mountain_biome","grass_biome","forest_biome","MarakethStrongbox"]
+    "tags":["map"]
   },
   "MapSteppe":{
     "act":10,
@@ -3032,7 +3693,7 @@
     "level":65,
     "monsterVarieties":["Diretusk Boar"],
     "name":"Steppe (Map)",
-    "tags":["map","grass_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapStronghold":{
     "act":10,
@@ -3044,7 +3705,7 @@
     "level":65,
     "monsterVarieties":["Rattling Gibbet","Risen Rattler"],
     "name":"Stronghold (Map)",
-    "tags":["map","area_with_water","water_biome","EzomyteStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapSulphuricCaverns":{
     "act":10,
@@ -3056,7 +3717,7 @@
     "level":65,
     "monsterVarieties":["Orok Fleshstabber","Orok Hunter","Orok Shaman","Orok Throatcutter"],
     "name":"Sulphuric Caverns (Map)",
-    "tags":["map","swamp_biome","desert_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapSump":{
     "act":10,
@@ -3068,7 +3729,7 @@
     "level":65,
     "monsterVarieties":["Diretusk Boar","Ill-fated Explorer"],
     "name":"Sump (Map)",
-    "tags":["map","swamp_biome","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapSunTemple":{
     "act":10,
@@ -3080,7 +3741,7 @@
     "level":65,
     "monsterVarieties":["Bloodrite Guard","Bloodrite Priest","Priest of the Sun"],
     "name":"Sun Temple (Map)",
-    "tags":["map","swamp_biome","vaal_city","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapSwampTower":{
     "act":10,
@@ -3092,18 +3753,19 @@
     "level":65,
     "monsterVarieties":["Filthy Crone","Flathead Clubber","Hunchback Clubber"],
     "name":"Sinking Spire (Map)",
-    "tags":["map","swamp_biome","map_tower","VaalStrongbox"]
+    "tags":["map","map_tower"]
   },
   "MapSwarm":{
     "act":10,
     "baseName":"Swarm",
     "bossVarieties":["Volkhar, the Emberborn"],
+    "description":"Something rumbles in the lava-lit gloom.",
     "isHideout":false,
     "isMap":true,
     "level":65,
     "monsterVarieties":[],
     "name":"Swarm (Map)",
-    "tags":["map","desert_biome"]
+    "tags":["map"]
   },
   "MapTerrace":{
     "act":10,
@@ -3114,7 +3776,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"Terrace (Map)",
-    "tags":["map","grass_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapTrenches":{
     "act":10,
@@ -3126,7 +3788,7 @@
     "level":65,
     "monsterVarieties":["Gargantuan Wasp","Swarming Wasp"],
     "name":"Trenches (Map)",
-    "tags":["map","forest_biome","swamp_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapUberBoss_CopperCitadel":{
     "act":10,
@@ -3138,7 +3800,54 @@
     "level":80,
     "monsterVarieties":["Faridun Butcher","Faridun Infantry"],
     "name":"The Copper Citadel (Map)",
-    "tags":["map","faridun_city","MarakethStrongbox"]
+    "tags":["map"]
+  },
+  "MapUberBoss_CopperCitadel_Quest":{
+    "act":10,
+    "baseName":"The Copper Citadel",
+    "bossVarieties":["Jamanra, the Abomination"],
+    "isHideout":false,
+    "isMap":true,
+    "level":75,
+    "monsterVarieties":[],
+    "name":"The Copper Citadel (Map)",
+    "tags":["map"]
+  },
+  "MapUberBoss_Delirium":{
+    "act":10,
+    "baseName":"The Withered Willow",
+    "bossVarieties":["The Raven Trickster"],
+    "description":"A gnarled tree reflects a terrifying truth.",
+    "isHideout":false,
+    "isMap":true,
+    "level":79,
+    "monsterVarieties":[],
+    "name":"The Withered Willow (Map)",
+    "tags":["map","pinnacle_boss","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
+  },
+  "MapUberBoss_Divinity":{
+    "act":10,
+    "baseName":"The Origin Tower",
+    "bossVarieties":["The Arbiter of Divinity"],
+    "description":"Perhaps the truth of history may be found within.",
+    "isHideout":false,
+    "isMap":true,
+    "level":79,
+    "monsterVarieties":[],
+    "name":"The Origin Tower (Map)",
+    "tags":["map","pinnacle_boss","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
+  },
+  "MapUberBoss_FallenStar":{
+    "act":10,
+    "baseName":"Ruins of Kingsmarch",
+    "bossVarieties":["The Aberration"],
+    "description":"And it shall be a legendary battle!",
+    "isHideout":false,
+    "isMap":true,
+    "level":79,
+    "monsterVarieties":[],
+    "name":"Ruins of Kingsmarch (Map)",
+    "tags":["map","pinnacle_boss","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
   },
   "MapUberBoss_IronCitadel":{
     "act":10,
@@ -3150,7 +3859,19 @@
     "level":80,
     "monsterVarieties":["Iron Sharpshooter","Iron Spearman"],
     "name":"The Iron Citadel (Map)",
-    "tags":["map","ezomyte_city","EzomyteStrongbox"]
+    "tags":["map"]
+  },
+  "MapUberBoss_IronCitadel_Quest":{
+    "act":10,
+    "baseName":"Western Enigma Chamber",
+    "bossVarieties":["Count Geonor","Geonor, the Putrid Wolf"],
+    "description":"Where reality begins and ends is uncertain.",
+    "isHideout":false,
+    "isMap":true,
+    "level":75,
+    "monsterVarieties":["Iron Sharpshooter","Iron Spearman"],
+    "name":"Western Enigma Chamber (Map)",
+    "tags":["map"]
   },
   "MapUberBoss_JadeCitadel":{
     "act":10,
@@ -3162,19 +3883,31 @@
     "level":65,
     "monsterVarieties":["Blood-fevered Axeman","Blood-fevered Brew-breather","Blood-fevered Hookman","Blood-fevered Maceman","Blood-fevered Plaguespreader","Blood-fevered Spearman","Blood-fevered Tuskbeast","Blood-fevered Warrior","Blood-fevered Wisewoman"],
     "name":"The Jade Isles (Map)",
-    "tags":["map","KaruiStrongbox","water_biome","swamp_biome","karui_shrine"]
+    "tags":["map"]
   },
   "MapUberBoss_Monolith":{
     "act":10,
     "baseName":"The Burning Monolith",
     "bossVarieties":["The Arbiter of Ash"],
-    "description":"Flaming rite of the Fourth Edict",
+    "description":"Within lies power beyond comprehension.",
     "isHideout":false,
     "isMap":true,
-    "level":82,
+    "level":74,
     "monsterVarieties":[],
     "name":"The Burning Monolith (Map)",
-    "tags":["map","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
+    "tags":["map","pinnacle_boss","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
+  },
+  "MapUberBoss_Ritual":{
+    "act":10,
+    "baseName":"Caer Tarth",
+    "bossVarieties":["The Bodach"],
+    "description":"Once the heart of Druidic power and culture...",
+    "isHideout":false,
+    "isMap":true,
+    "level":79,
+    "monsterVarieties":[],
+    "name":"Caer Tarth (Map)",
+    "tags":["map","pinnacle_boss","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
   },
   "MapUberBoss_StoneCitadel":{
     "act":10,
@@ -3186,7 +3919,19 @@
     "level":80,
     "monsterVarieties":["Bladelash Transcendent","Brutal Transcendent","Surgical Experimentalist","Warrior Transcendent"],
     "name":"The Stone Citadel (Map)",
-    "tags":["map","vaal_city","VaalStrongbox"]
+    "tags":["map"]
+  },
+  "MapUberBoss_StoneCitadel_Quest":{
+    "act":10,
+    "baseName":"Eastern Enigma Chamber",
+    "bossVarieties":["Doryani, Royal Thaumaturge","Doryani's Triumph"],
+    "description":"Your eyes betray you at every turn.",
+    "isHideout":false,
+    "isMap":true,
+    "level":80,
+    "monsterVarieties":["Bladelash Transcendent","Brutal Transcendent","Surgical Experimentalist","Warrior Transcendent"],
+    "name":"Eastern Enigma Chamber (Map)",
+    "tags":["map"]
   },
   "MapUniqueCastaway":{
     "act":10,
@@ -3211,6 +3956,18 @@
     "name":"Freight (Map)",
     "tags":["map"]
   },
+  "MapUniqueInitialTower":{
+    "act":10,
+    "baseName":"Precursor Tower",
+    "bossVarieties":["Karash, The Dune Dweller"],
+    "description":"A tower of the Ancients emerged before your eyes",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Hyena Demon","Sun Clan Scavenger"],
+    "name":"Precursor Tower (Map)",
+    "tags":["map","map_tower"]
+  },
   "MapUniqueLake":{
     "act":10,
     "baseName":"The Fractured Lake",
@@ -3220,7 +3977,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"The Fractured Lake (Map)",
-    "tags":["map","water_biome"]
+    "tags":["map"]
   },
   "MapUniqueMegalith":{
     "act":10,
@@ -3246,13 +4003,13 @@
   },
   "MapUniqueMerchant01_Oasis":{
     "act":10,
-    "baseName":"Merchant's Campsite",
+    "baseName":"Jado's Campsite",
     "description":"A travelling merchant offers wares in perilous times.",
     "isHideout":false,
     "isMap":true,
     "level":65,
     "monsterVarieties":[],
-    "name":"Merchant's Campsite (Map)",
+    "name":"Jado's Campsite (Map)",
     "tags":["map"]
   },
   "MapUniqueMerchant01_Sandswept":{
@@ -3278,17 +4035,6 @@
     "tags":["map"]
   },
   "MapUniqueMerchant02_Farmland":{
-    "act":10,
-    "baseName":"Merchant's Campsite",
-    "description":"A travelling merchant offers wares in perilous times.",
-    "isHideout":false,
-    "isMap":true,
-    "level":65,
-    "monsterVarieties":[],
-    "name":"Merchant's Campsite (Map)",
-    "tags":["map"]
-  },
-  "MapUniqueMerchant02_Riverbank":{
     "act":10,
     "baseName":"Merchant's Campsite",
     "description":"A travelling merchant offers wares in perilous times.",
@@ -3342,6 +4088,52 @@
     "name":"The Voyage (Map)",
     "tags":["map"]
   },
+  "MapUniqueReactor_01":{
+    "act":10,
+    "baseName":"Western Gateway",
+    "bossVarieties":["Precursor Separator"],
+    "description":"Silent and imposing, it dominates the landscape.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Precursor Driller","Precursor Fabricator","Precursor Refractor","Precursor Spherator","Tombshrieker"],
+    "name":"Western Gateway (Map)",
+    "tags":["map","has_forest_biome_monsters"]
+  },
+  "MapUniqueReactor_02":{
+    "act":10,
+    "baseName":"Ancient Gateway",
+    "description":"Long lost secrets lie buried beyond.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Precursor Driller","Precursor Fabricator","Precursor Refractor","Precursor Spherator","Tombshrieker"],
+    "name":"Ancient Gateway (Map)",
+    "tags":["map","has_forest_biome_monsters"]
+  },
+  "MapUniqueReactor_03":{
+    "act":10,
+    "baseName":"Eastern Gateway",
+    "bossVarieties":["Precursor Refiner"],
+    "description":"What kind of people could have built such a thing?",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":["Precursor Driller","Precursor Fabricator","Precursor Refractor","Precursor Spherator","Tombshrieker"],
+    "name":"Eastern Gateway (Map)",
+    "tags":["map","has_forest_biome_monsters"]
+  },
+  "MapUniqueReactor_04":{
+    "act":10,
+    "baseName":"Site of the Chosen",
+    "description":"Selfless ancients gave themselves to save tomorrow.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Site of the Chosen (Map)",
+    "tags":["map"]
+  },
   "MapUniqueSelenite":{
     "act":10,
     "baseName":"The Silent Cave",
@@ -3351,7 +4143,7 @@
     "level":65,
     "monsterVarieties":[],
     "name":"The Silent Cave (Map)",
-    "tags":["map","mountain_biome"]
+    "tags":["map"]
   },
   "MapUniqueUntaintedParadise":{
     "act":10,
@@ -3396,7 +4188,7 @@
     "level":65,
     "monsterVarieties":["Viper Legionnaire"],
     "name":"Vaal City (Map)",
-    "tags":["map","swamp_biome","vaal_city","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapVaalFactory":{
     "act":10,
@@ -3406,9 +4198,9 @@
     "isHideout":false,
     "isMap":true,
     "level":65,
-    "monsterVarieties":[],
+    "monsterVarieties":["Rusted Dyna Golem"],
     "name":"The Assembly (Map)",
-    "tags":["map","grass_biome","vaal_city","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapVaalFoundry":{
     "act":10,
@@ -3420,18 +4212,7 @@
     "level":65,
     "monsterVarieties":["Gold-Melted Sentinel","Gold-Melted Shambler","Gold-melted Blacksmith"],
     "name":"Molten Vault (Map)",
-    "tags":["map","mountain_biome","desert_biome","vaal_city","VaalStrongbox"]
-  },
-  "MapVaalOutskirts":{
-    "act":10,
-    "baseName":"Vaal Outskirts",
-    "bossVarieties":[],
-    "isHideout":false,
-    "isMap":true,
-    "level":65,
-    "monsterVarieties":[],
-    "name":"Vaal Outskirts (Map)",
-    "tags":["map","lightning","maraketh","bloodbather","area_with_water","machinarium","giant","earth_elemental","construct","bones","reptile_beast","beach","vaal","devourer","rodent_beast","insect","demon","rust","cultist","mutewind","avian_beast","spider","stone_construct","corrupted","chaos","gardens","desert_area","inca","forest","undead","mammal_beast","primate_beast","cenobite","amphibian_beast","skeleton","snake","cavern","feline_beast","crustacean_beast","canine_beast","urban","cold","fire","swamp","ghost","werewolf"]
+    "tags":["map"]
   },
   "MapVaalVault":{
     "act":10,
@@ -3443,7 +4224,7 @@
     "level":65,
     "monsterVarieties":["Blood Priest","Blood Priestess","Blood Zealot","Vaal Formshifter"],
     "name":"Sealed Vault (Map)",
-    "tags":["map","mountain_biome","VaalStrongbox","vaal_shrine"]
+    "tags":["map","has_mountain_biome_monsters"]
   },
   "MapVaalVillage":{
     "act":10,
@@ -3455,11 +4236,12 @@
     "level":65,
     "monsterVarieties":["Vaal Goliath"],
     "name":"Vaal Village (Map)",
-    "tags":["map","swamp_biome","vaal_city","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapVoidReliquary":{
     "act":10,
     "baseName":"The Reliquary Vault",
+    "description":"Ancient treasures await.",
     "isHideout":false,
     "isMap":true,
     "level":65,
@@ -3477,7 +4259,7 @@
     "level":65,
     "monsterVarieties":["Gilded Cobra","Lost-men Necromancer","Lost-men Zealot","Ribrattle","Skullslinger","Spinesnatcher"],
     "name":"Wayward Isle (Map)",
-    "tags":["map","area_with_water","water_biome","MarakethStrongbox"]
+    "tags":["map","area_with_water"]
   },
   "MapWetlands":{
     "act":10,
@@ -3489,7 +4271,7 @@
     "level":65,
     "monsterVarieties":["Hyena Demon","Sun Clan Scavenger"],
     "name":"Wetlands (Map)",
-    "tags":["map","swamp_biome","EzomyteStrongbox","VaalStrongbox"]
+    "tags":["map"]
   },
   "MapWillow":{
     "act":10,
@@ -3501,7 +4283,7 @@
     "level":65,
     "monsterVarieties":["Lightning Wraith","Risen Rattler"],
     "name":"Willow (Map)",
-    "tags":["map","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
   },
   "MapWoodland":{
     "act":10,
@@ -3513,7 +4295,18 @@
     "level":65,
     "monsterVarieties":["Antlion Charger","Ill-fated Explorer"],
     "name":"Woodland (Map)",
-    "tags":["map","forest_biome","EzomyteStrongbox"]
+    "tags":["map"]
+  },
+  "Map_HildaCampsite":{
+    "act":10,
+    "baseName":"Hilda's Campsite",
+    "description":"The hunt never ends... but it does pause for rests.",
+    "isHideout":false,
+    "isMap":true,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Hilda's Campsite (Map)",
+    "tags":["map"]
   },
   "P1_1":{
     "act":6,
@@ -3525,7 +4318,7 @@
     "level":54,
     "monsterVarieties":["Azak Fleshstabber","Azak Mauler","Azak Shaman","Azak Spearthrower","Azak Stalker","Azak Throatcutter","Azak Torchbearer","Burning Dead","Rabid Dog","Ribrattle","Risen Farmhand","Rotting Crow","Scarecrow Beast","Skullslinger","Spinesnatcher"],
     "name":"Scorched Farmlands (Act 6)",
-    "tags":["EzomyteStrongbox","frost_shrine"]
+    "tags":["frost_shrine"]
   },
   "P1_2":{
     "act":6,
@@ -3537,7 +4330,7 @@
     "level":54,
     "monsterVarieties":["Frost Wraith","Knight-Gaunt","Lightning Wraith","Pack Werewolf","Skeleton Spriggan","Voracious Werewolf","Werewolf Prowler"],
     "name":"Stones of Serle (Act 6)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "P1_3":{
     "act":6,
@@ -3548,7 +4341,7 @@
     "level":55,
     "monsterVarieties":["Forgotten Stag","Nameless Burrower","Nameless Dweller","Nameless Horror","Nameless Hulk","Nameless Lurker","Nameless Vermin","Treant Foulspawn","Treant Fungalreaver","Treant Hookhorror","Treant Mystic","Treant Sage","Treant Spriggan"],
     "name":"The Blackwood (Act 6)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "P1_4":{
     "act":6,
@@ -3560,7 +4353,7 @@
     "level":55,
     "monsterVarieties":["Bearer of Penitence","Burdened Wretch","Death Knight","Eternal Knight","Filthy Crone","Gargoyle Demon","Ghoul Commander","Hungering Stalker","Knight-Gaunt","Prowling Skeleton","Risen Rattler","Skulking Ghoul","Wheelbound Hag"],
     "name":"Holten (Act 6)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "P1_5":{
     "act":6,
@@ -3572,7 +4365,7 @@
     "level":56,
     "monsterVarieties":["Death Knight","Eaten Rat","Eternal Prisoner","Eternal Torturer","Prowling Skeleton","Rattling Gibbet","Risen Rattler","Spined Necromancer"],
     "name":"Wolvenhold (Act 6)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "P1_6":{
     "act":6,
@@ -3584,7 +4377,7 @@
     "level":56,
     "monsterVarieties":["Blood Carrier","Blood Collector","Blood Cretin","Courtesan","Iron Enforcer","Iron Guard","Iron Sharpshooter","Iron Spearman","Iron Thaumaturgist","Tendril Prowler","Tendril Sentinel"],
     "name":"Holten Estate (Act 6)",
-    "tags":["EzomyteStrongbox","ezomyte_shrine"]
+    "tags":[]
   },
   "P1_Town":{
     "act":6,
@@ -3607,7 +4400,7 @@
     "level":54,
     "monsterVarieties":["Crag Leaper","Desiccated Lich","Dune Lurker","Goliath","Living Sand","Mantis Rat","Molten Imp","Porcupine Goliath","Rasp Scavenger","Regurgitating Vulture","Risen Arbalest","Risen Maraketh","Sabre Spider","Stoneback Rhoa","Tarnished Beetle","Tarnished Scarab","Vile Vulture","Walking Goliath"],
     "name":"The Khari Crossing (Act 6)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "P2_2":{
     "act":6,
@@ -3618,7 +4411,7 @@
     "level":55,
     "monsterVarieties":["Corrupted Corpse","Flesh Larva","Plague Harvester","Plague Nymph","Plague Swarm","Porcupine Goliath","Rhex","Rotting Hulk","Sandscoured Dead"],
     "name":"Pools of Khatal (Act 6)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "P2_3":{
     "act":6,
@@ -3628,9 +4421,9 @@
     "isHideout":false,
     "isMap":false,
     "level":55,
-    "monsterVarieties":["Bone Stalker","Desiccated Lich","Ribrattle","Risen Arbalest","Risen Maraketh","Serpent Clan","Serpent Shaman","Skullslinger","Spinesnatcher"],
+    "monsterVarieties":["Bone Stalker","Desiccated Lich","Ribrattle","Risen Arbalest","Risen Maraketh","Serpent Clan","Serpent Shaman","Skeletal Cobra","Skullslinger","Spinesnatcher"],
     "name":"Sel Khari Sanctuary  (Act 6)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "P2_5":{
     "act":6,
@@ -3642,7 +4435,7 @@
     "level":56,
     "monsterVarieties":["Adorned Beetle","Adorned Scarab","Forgotten Crawler","Forgotten Satyr","Forgotten Stalker","Forsaken Hulk","Forsaken Miner","Maraketh Undead","Molten Imp","Risen Tale-woman","Tarnished Beetle"],
     "name":"The Galai Gates (Act 6)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "P2_6":{
     "act":6,
@@ -3653,7 +4446,7 @@
     "level":56,
     "monsterVarieties":["Bloodthief Wasp","Drudge Osseodon","Gilded Cobra","Hyena Demon","Lost-men Necromancer","Lost-men Subjugator","Lost-men Zealot","Mar Acolyte","Ribrattle","Risen Arbalest","Risen Maraketh","Skullslinger","Spinesnatcher","Sun Clan Scavenger","Winged Fiend"],
     "name":"Qimah (Act 6)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "P2_7":{
     "act":6,
@@ -3663,9 +4456,9 @@
     "isHideout":false,
     "isMap":false,
     "level":56,
-    "monsterVarieties":["Faridun Bladedancer","Faridun Butcher","Faridun Fledgling","Faridun Heavy Infantry","Faridun Impaler","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Plaguebringer","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer","Plague Harvester","Plague Swarm","Sand Spirit","Tombshrieker","Vesper Bat","Winged Horror"],
+    "monsterVarieties":["Faridun Bladedancer","Faridun Butcher","Faridun Fledgling","Faridun Heavy Infantry","Faridun Impaler","Faridun Infantry","Faridun Javelineer","Faridun Neophyte","Faridun Spearman","Faridun Spearwoman","Faridun Swordsman","Faridun Wind-slicer","Sand Spirit","Tombshrieker","Vesper Bat","Winged Horror"],
     "name":"Qimah Reservoir (Act 6)",
-    "tags":["MarakethStrongbox","maraketh_shrine"]
+    "tags":[]
   },
   "P2_Town":{
     "act":6,
@@ -3687,7 +4480,7 @@
     "level":54,
     "monsterVarieties":["Bramble Burrower","Bramble Rhoa","Fungal Artillery","Fungal Proliferator","Fungal Rattler","Fungal Wolf","Fungal Zombie","Gargantuan Wasp","Sabre Spider","Swarming Wasp","Vault Lurker"],
     "name":"Ashen Forest (Act 6)",
-    "tags":["VaalStrongbox","nameless_shrine"]
+    "tags":[]
   },
   "P3_2":{
     "act":6,
@@ -3699,7 +4492,7 @@
     "level":54,
     "monsterVarieties":["Bloom Serpent","Bramble Ape","Bramble Burrower","Bramble Hulk","Constricted Shambler","Constricted Spitter","Elephant Tortoise","Entrailhome Shambler","Entwined Hulk","Slitherspitter","Snakethroat Shambler"],
     "name":"Kriar Village (Act 6)",
-    "tags":["VaalStrongbox","nameless_shrine"]
+    "tags":[]
   },
   "P3_3":{
     "act":6,
@@ -3711,7 +4504,7 @@
     "level":55,
     "monsterVarieties":["Bane Sapling","Bogfelled Commoner","Bogfelled Slave","Bulbous Maw","Dredge Fiend","Drowned Explorer","Filthy First-born","Ill-fated Explorer","Pale Abductor","Pale Brinesplitter","Pale Tidecrasher","Pale Waterwalker","Quill Crab","River Hag"],
     "name":"Glacial Tarn (Act 6)",
-    "tags":["VaalStrongbox","nameless_shrine"]
+    "tags":[]
   },
   "P3_4":{
     "act":6,
@@ -3723,7 +4516,7 @@
     "level":55,
     "monsterVarieties":["Brine Maiden","Frost Wraith","Ghastly Siren","Hungry Wolf","Plague Nymph","Quadrilla","Scorpion Monkey"],
     "name":"Howling Caves (Act 6)",
-    "tags":["VaalStrongbox","vaal_shrine"]
+    "tags":[]
   },
   "P3_5":{
     "act":6,
@@ -3734,7 +4527,7 @@
     "level":56,
     "monsterVarieties":["Cerberic Bat","Feral Primate","Prowling Shade","Stoneclad Gorilla","Undead Vaal Bladedancer","Undead Vaal Guard","Vaal Skeletal Archer","Vaal Skeletal Priest","Vaal Skeletal Squire","Vaal Skeletal Warrior"],
     "name":"Kriar Peaks (Act 6)",
-    "tags":["VaalStrongbox","vaal_shrine"]
+    "tags":[]
   },
   "P3_6":{
     "act":6,
@@ -3746,7 +4539,7 @@
     "level":56,
     "monsterVarieties":["Crawler Sentinel","Powered Zealot","Rusted Dyna Golem","Rusted Reconstructor","Surgical Experimentalist","Vaal Axeman","Vaal Formshifter","Vaal Goliath"],
     "name":"Etched Ravine (Act 6)",
-    "tags":["VaalStrongbox","vaal_shrine"]
+    "tags":[]
   },
   "P3_7":{
     "act":6,
@@ -3758,7 +4551,7 @@
     "level":56,
     "monsterVarieties":["Blood Priest","Blood Priestess","Blood Zealot","Chaotic Zealot","Gelid Zealot","Loyal Jaguar","Vaal Axeman","Vaal Excoriator","Vaal Formshifter","Vaal Goliath","Vaal Guard","Vaal Overseer"],
     "name":"The Cuachic Vault (Act 6)",
-    "tags":["VaalStrongbox","vaal_shrine"]
+    "tags":[]
   },
   "P3_Town":{
     "act":6,
@@ -3781,10 +4574,21 @@
     "name":"Your Hideout (Act 1)",
     "tags":[]
   },
+  "PrecursorVault":{
+    "act":10,
+    "baseName":"Precursor Vault",
+    "isHideout":false,
+    "isMap":false,
+    "level":65,
+    "monsterVarieties":[],
+    "name":"Precursor Vault",
+    "tags":[]
+  },
   "RitualLeagueBoss":{
     "act":10,
     "baseName":"Crux of Nothingness",
     "bossVarieties":["The King in the Mists"],
+    "description":"On the crumbling edge of meaning, He awaits.",
     "isHideout":false,
     "isMap":true,
     "level":80,

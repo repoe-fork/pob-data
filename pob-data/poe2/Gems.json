@@ -1279,6 +1279,25 @@
     "variantId":"AscendancyFulminatingConcoction",
     "weaponRequirements":"Unarmed"
   },
+  "Metadata/Items/Gems/SkillGemAscendancyGemlingVirtuousBarrier":{
+    "Tier":0,
+    "baseTypeName":"Virtuous Barrier",
+    "gameId":"Metadata/Items/Gems/SkillGemAscendancyVirtuousBarrier",
+    "gemType":"Buff",
+    "grantedEffectId":"VirtuousBarrierPlayer",
+    "name":"Virtuous Barrier",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent",
+    "tags":{
+      "buff":true,
+      "grants_active_skill":true,
+      "persistent":true
+    },
+    "variantId":"AscendancyGemlingVirtuousBarrier"
+  },
   "Metadata/Items/Gems/SkillGemAscendancyLifeRemnants":{
     "Tier":0,
     "baseTypeName":"Life Remnants",
@@ -2777,6 +2796,26 @@
     },
     "variantId":"BreachlordsAmalgamSupport"
   },
+  "Metadata/Items/Gems/SkillGemBreachlordsRiftSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemBreachlordsRift",
+    "gemFamily":"Armour Break",
+    "gemType":"Support",
+    "grantedEffectId":"SupportBreachlordsRift",
+    "name":"Breachlord's Rift",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Lineage, Lightning, Cold",
+    "tags":{
+      "cold":true,
+      "lightning":true,
+      "lineage":true,
+      "support":true
+    },
+    "variantId":"BreachlordsRiftSupport"
+  },
   "Metadata/Items/Gems/SkillGemBriarpatch":{
     "Tier":4,
     "baseTypeName":"Briarpatch",
@@ -3472,6 +3511,27 @@
       "support":true
     },
     "variantId":"ChaosMasterySupport"
+  },
+  "Metadata/Items/Gems/SkillGemChaosSpearTriggerChaosSurge":{
+    "Tier":0,
+    "baseTypeName":"Chaotic Surge",
+    "gameId":"Metadata/Items/Gem/SkillGemChaoticInfusion",
+    "gemType":"Attack",
+    "grantedEffectId":"ChaosSpearTriggerChaosSurgePlayer",
+    "name":"Chaotic Surge",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Trigger, Chaos",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "chaos":true,
+      "grants_active_skill":true,
+      "trigger":true
+    },
+    "variantId":"ChaosSpearTriggerChaosSurge"
   },
   "Metadata/Items/Gems/SkillGemChaosbolt":{
     "Tier":0,
@@ -4879,6 +4939,31 @@
     },
     "variantId":"CursedGroundSupport"
   },
+  "Metadata/Items/Gems/SkillGemDangerousResolveSupport":{
+    "Tier":3,
+    "additionalGrantedEffectId1":"TriggeredDeadlyResolvePlayer",
+    "gameId":"Metadata/Items/Gem/SupportGemDeadlyResolve",
+    "gemFamily":"Deadly Resolve",
+    "gemType":"Support",
+    "grantedEffectId":"SupportDeadlyResolvePlayer",
+    "name":"Deadly Resolve",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, AoE, Trigger, Physical, Channelling, Staged",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "channelling":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "stages":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"DangerousResolveSupport"
+  },
   "Metadata/Items/Gems/SkillGemDanseMacabreSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemDanseMacabre",
@@ -5544,6 +5629,31 @@
     "variantId":"Disengage",
     "weaponRequirements":"Spear"
   },
+  "Metadata/Items/Gems/SkillGemDoedresUndoingSupport":{
+    "Tier":0,
+    "additionalGrantedEffectId1":"ChaosFrogExplosionPlayer",
+    "gameId":"Metadata/Items/Gem/SupportGemDoedresUndoing",
+    "gemFamily":"Cursed Ground",
+    "gemType":"Support",
+    "grantedEffectId":"SupportDoedresUndoingPlayer",
+    "name":"Doedre's Undoing",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Lineage, Spell, AoE, Trigger, Chaos, Curse",
+    "tags":{
+      "area":true,
+      "chaos":true,
+      "curse":true,
+      "grants_active_skill":true,
+      "lineage":true,
+      "spell":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"DoedresUndoingSupport"
+  },
   "Metadata/Items/Gems/SkillGemDoubleBarrelSupport":{
     "Tier":1,
     "gameId":"Metadata/Items/Gem/SupportGemDoubleBarrel",
@@ -6138,6 +6248,31 @@
     },
     "variantId":"EmpoweredCullSupport"
   },
+  "Metadata/Items/Gems/SkillGemEmpoweredSparksSupport":{
+    "Tier":2,
+    "additionalGrantedEffectId1":"TriggeredSparkEmpowerPlayer",
+    "additionalGrantedEffectId2":"TriggeredEmpoweredSparkPlayer",
+    "gameId":"Metadata/Items/Gems/SupportGemEmpoweredSparks",
+    "gemFamily":"Empowered Sparks",
+    "gemType":"Support",
+    "grantedEffectDisplayOrder":[1,2],
+    "grantedEffectId":"SupportEmpoweredSparksPlayer",
+    "name":"Empowered Sparks I",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Projectile, Trigger, Lightning, Duration",
+    "tags":{
+      "duration":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "projectile":true,
+      "support":true,
+      "trigger":true
+    },
+    "variantId":"EmpoweredSparksSupport"
+  },
   "Metadata/Items/Gems/SkillGemEncroachingGroundSupport":{
     "Tier":2,
     "gameId":"Metadata/Items/Gem/SupportGemSuffuse",
@@ -6208,6 +6343,30 @@
       "support":true
     },
     "variantId":"EnergyShieldOnShockKillSupport"
+  },
+  "Metadata/Items/Gems/SkillGemEnervatingNova":{
+    "Tier":0,
+    "baseTypeName":"Enervating Nova",
+    "gameId":"Metadata/Items/Gems/SkillGemEnervatingNova",
+    "gemType":"Spell",
+    "grantedEffectId":"EnervatingNovaPlayer",
+    "name":"Enervating Nova",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"AoE, Lightning, Duration, Nova, Repeatable",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "nova":true,
+      "repeatable":true,
+      "spell":true
+    },
+    "variantId":"EnervatingNova"
   },
   "Metadata/Items/Gems/SkillGemEnfeeble":{
     "Tier":3,
@@ -8345,6 +8504,30 @@
     "variantId":"GatheringStorm",
     "weaponRequirements":"Quarterstaff"
   },
+  "Metadata/Items/Gems/SkillGemGelidPalm":{
+    "Tier":0,
+    "additionalStatSet1":"GelidPalmBoltPlayer",
+    "baseTypeName":"Gelid Palm",
+    "gameId":"Metadata/Items/Gems/SkillGemGelidPalm",
+    "gemType":"Buff",
+    "grantedEffectId":"GelidPalmPlayer",
+    "name":"Gelid Palm",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, Persistent, AoE, Cold",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "buff":true,
+      "cold":true,
+      "grants_active_skill":true,
+      "persistent":true
+    },
+    "variantId":"GelidPalm",
+    "weaponRequirements":"Unarmed"
+  },
   "Metadata/Items/Gems/SkillGemGeminiSurge":{
     "Tier":0,
     "additionalStatSet1":"GeminiSurgeFirePlayer",
@@ -8485,6 +8668,23 @@
       "support":true
     },
     "variantId":"GlacierSupport"
+  },
+  "Metadata/Items/Gems/SkillGemGorgeSupport":{
+    "Tier":2,
+    "gameId":"Metadata/Items/Gems/SupportGemGorge",
+    "gemFamily":"Gorge",
+    "gemType":"Support",
+    "grantedEffectId":"SupportGorgePlayer",
+    "name":"Gorge",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"",
+    "tags":{
+      "support":true
+    },
+    "variantId":"GorgeSupport"
   },
   "Metadata/Items/Gems/SkillGemGrimFeast":{
     "Tier":4,
@@ -8653,6 +8853,27 @@
     },
     "variantId":"HandOfChayula",
     "weaponRequirements":"Quarterstaff"
+  },
+  "Metadata/Items/Gems/SkillGemHarbingerOfMadness":{
+    "Tier":0,
+    "baseTypeName":"Harbinger of Madness",
+    "gameId":"Metadata/Items/Gems/SkillGemHarbingerOfMadness",
+    "gemType":"Buff",
+    "grantedEffectId":"HarbingerOfMadnessPlayer",
+    "name":"Harbinger of Madness",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, AoE, Physical",
+    "tags":{
+      "area":true,
+      "buff":true,
+      "grants_active_skill":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"HarbingerOfMadness"
   },
   "Metadata/Items/Gems/SkillGemHardyTotemsSupport":{
     "Tier":2,
@@ -14857,6 +15078,25 @@
     "variantId":"RollingSlam",
     "weaponRequirements":"One Hand Mace, Two Hand Mace"
   },
+  "Metadata/Items/Gems/SkillGemRomirasRequitalSupport":{
+    "Tier":0,
+    "gameId":"Metadata/Items/Gem/SupportGemRomirasRequital",
+    "gemFamily":"Loyalty",
+    "gemType":"Support",
+    "grantedEffectId":"SupportRomirasRequitalPlayer",
+    "name":"Romira's Requital",
+    "naturalMaxLevel":1,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Lineage, Minion",
+    "tags":{
+      "lineage":true,
+      "minion":true,
+      "support":true
+    },
+    "variantId":"RomirasRequitalSupport"
+  },
   "Metadata/Items/Gems/SkillGemRuneforgedBladesSupport":{
     "Tier":0,
     "additionalGrantedEffectId1":"TriggeredRuneforgedBladesPlayer",
@@ -14934,6 +15174,24 @@
       "spell":true
     },
     "variantId":"RunicReprieve"
+  },
+  "Metadata/Items/Gems/SkillGemRunicTempering":{
+    "Tier":0,
+    "baseTypeName":"Runic Tempering",
+    "gameId":"Metadata/Items/Gems/SkillGemRunicTempering",
+    "gemType":"Channelling",
+    "grantedEffectId":"RunicTemperingPlayer",
+    "name":"Runic Tempering",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"",
+    "tags":{
+      "channelling":true,
+      "grants_active_skill":true
+    },
+    "variantId":"RunicTempering"
   },
   "Metadata/Items/Gems/SkillGemRuptureSupport":{
     "Tier":3,
@@ -15079,6 +15337,49 @@
       "support":true
     },
     "variantId":"SalvoSupport"
+  },
+  "Metadata/Items/Gems/SkillGemSanguineRevelry":{
+    "Tier":0,
+    "baseTypeName":"Sanguine Revelry",
+    "gameId":"Metadata/Items/Gem/SkillGemSanguineRevelry",
+    "gemType":"Buff",
+    "grantedEffectId":"SanguineRevelryPlayer",
+    "name":"Sanguine Revelry",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Persistent, Remnant",
+    "tags":{
+      "buff":true,
+      "grants_active_skill":true,
+      "persistent":true,
+      "remnant":true
+    },
+    "variantId":"SanguineRevelry"
+  },
+  "Metadata/Items/Gems/SkillGemSavageFury":{
+    "Tier":4,
+    "additionalGrantedEffectId1":"SavageFuryActivePlayer",
+    "baseTypeName":"Savage Fury",
+    "gameId":"Metadata/Items/Gems/SkillGemSavageFury",
+    "gemType":"Buff",
+    "grantedEffectId":"SavageFuryPlayer",
+    "name":"Savage Fury",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":50,
+    "reqStr":50,
+    "tagString":"Persistent, Duration",
+    "tags":{
+      "buff":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "persistent":true,
+      "strength":true
+    },
+    "variantId":"SavageFury"
   },
   "Metadata/Items/Gems/SkillGemScatteringCalamity":{
     "Tier":0,
@@ -16084,6 +16385,28 @@
       "support":true
     },
     "variantId":"SlowPotencySupport"
+  },
+  "Metadata/Items/Gems/SkillGemSmashToSmithereens":{
+    "Tier":0,
+    "baseTypeName":"Smash to Smithereens",
+    "gameId":"Metadata/Items/Gems/SkillGemSmashToSmithereens",
+    "gemType":"Attack",
+    "grantedEffectId":"SmashToSmithereensPlayer",
+    "name":"Smash to Smithereens",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"AoE, Trigger, Fire",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "trigger":true
+    },
+    "variantId":"SmashToSmithereens",
+    "weaponRequirements":"Any Martial Weapon, Unarmed"
   },
   "Metadata/Items/Gems/SkillGemSnap":{
     "Tier":5,
@@ -17981,6 +18304,25 @@
     },
     "variantId":"TrickstersShardSupport"
   },
+  "Metadata/Items/Gems/SkillGemTriggeredAbyssalApparition":{
+    "Tier":0,
+    "baseTypeName":"Abyssal Apparition",
+    "gameId":"Metadata/Items/Gem/SkillGemTriggeredAbyssalApparition",
+    "gemType":"Spell",
+    "grantedEffectId":"TriggeredAbyssalApparitionPlayer",
+    "name":"Abyssal Apparition",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Trigger",
+    "tags":{
+      "grants_active_skill":true,
+      "spell":true,
+      "trigger":true
+    },
+    "variantId":"TriggeredAbyssalApparition"
+  },
   "Metadata/Items/Gems/SkillGemTrinity":{
     "Tier":14,
     "baseTypeName":"Trinity",
@@ -18240,6 +18582,31 @@
       "support":true
     },
     "variantId":"UnerringPowerSupport"
+  },
+  "Metadata/Items/Gems/SkillGemUniqueAtziriHerald":{
+    "Tier":0,
+    "additionalStatSet1":"UniqueAtziriHeraldExplosionPlayer",
+    "baseTypeName":"Herald of the Royal Queen",
+    "gameId":"Metadata/Items/Gems/SkillGemUniqueAtziriHerald",
+    "gemType":"Buff",
+    "grantedEffectId":"UniqueAtziriHeraldPlayer",
+    "name":"Herald of the Royal Queen",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Attack, Persistent, AoE, Physical, Herald, Payoff",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "buff":true,
+      "grants_active_skill":true,
+      "herald":true,
+      "payoff":true,
+      "persistent":true,
+      "physical":true
+    },
+    "variantId":"UniqueAtziriHerald"
   },
   "Metadata/Items/Gems/SkillGemUniqueBreachLightningBolt":{
     "Tier":0,

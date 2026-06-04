@@ -113,18 +113,6 @@
   "+(9-14)% to Cold Resistance":[null,"+(9-14)% to Cold Resistance "],
   "+(9-14)% to Fire Resistance":[null,"+(9-14)% to Fire Resistance "],
   "+(9-14)% to Lightning Resistance":[null,"+(9-14)% to Lightning Resistance "],
-  "+0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":0.1,
-        "1":{
-          "div":10,
-          "stat":"EnergyShieldOnAllArmourItems",
-          "type":"PerStat"
-        }
-      }]],
   "+0.15% to Thorns Critical Hit Chance":[[{
         "flags":32,
         "keywordFlags":0,
@@ -5081,6 +5069,18 @@
           "value":3
         }
       }]],
+  "+3 to Level of all Savage Fury Skills":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GemProperty",
+        "type":"LIST",
+        "value":{
+          "key":"level",
+          "keyOfScaledMod":"value",
+          "keyword":"savage fury",
+          "value":3
+        }
+      }]],
   "+3 to Level of all Scavenged Plating Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9013,25 +9013,6 @@
         "type":"INC",
         "value":1
       }]],
-  "1% more Attack Speed per 75 Item Evasion on Equipped Armour Items":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"MORE",
-        "value":1
-      }],"  per 75 Item Evasion on Equipped Armour Items "],
-  "1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"MORE",
-        "value":1,
-        "1":{
-          "div":10,
-          "stat":"EnergyShieldOnAllArmourItems",
-          "type":"PerStat"
-        }
-      }],"  per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance  "],
   "1% of Maximum Life Converted to Energy Shield per 20 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10720,6 +10701,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Spirit",
+        "type":"INC",
+        "value":10
+      }]],
+  "10% increased Spirit Reservation Efficiency":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SpiritReservationEfficiency",
         "type":"INC",
         "value":10
       }]],
@@ -14440,10 +14428,10 @@
         "type":"INC",
         "value":15
       }]],
-  "15% less Damage":[[{
+  "15% less Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Damage",
+        "name":"Defences",
         "type":"MORE",
         "value":-15
       }]],
@@ -17910,6 +17898,13 @@
         "type":"INC",
         "value":20
       }]," speed of Recoup s "],
+  "20% less Armour, Evasion and Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Defences",
+        "type":"MORE",
+        "value":-20
+      }]],
   "20% less Attributes":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17953,13 +17948,6 @@
           "type":"Condition",
           "var":"BeenHitRecently"
         }
-      }]],
-  "20% less Defences":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Defences",
-        "type":"MORE",
-        "value":-20
       }]],
   "20% less Movement Speed":[[{
         "flags":0,
@@ -18106,17 +18094,10 @@
   "20% of Flask Recovery applied Instantly":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FlaskLifeRecoveryLowLife",
+        "name":"FlaskInstantRecovery",
         "type":"BASE",
         "value":20
-      }]," Flask  applied Instantly "],
-  "20% of Flask Recovery applied Instantly +2 Charm Slot":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FlaskLifeRecoveryLowLife",
-        "type":"BASE",
-        "value":20
-      }]," Flask  applied Instantly +2 Charm Slot "],
+      }]],
   "20% of Lightning Damage taken as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -39526,9 +39507,6 @@
         "type":"BASE",
         "value":100
       }]],
-  "Base Unarmed Physical damage replaced with damage based on their Skill Level":[null,"Base Unarmed Physical damage replaced with damage based on their Skill Level "],
-  "Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items":[null,"Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items "],
-  "Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
   "Bear Skills Convert 80% of Physical Damage to Fire Damage":[null,"Bear Skills Convert 80% of Physical Damage to Fire Damage "],
   "Bear Skills Convert 80% of Physical Damage to Fire Damage Skills which require Glory generate 5 Glory every 2 seconds":[null,"Bear Skills Convert 80% of Physical Damage to Fire Damage Skills which require Glory generate 5 Glory every 2 seconds "],
   "Bear Spirit gains Embrace of the Wild":[null,"Bear Spirit gains Embrace of the Wild "],
@@ -40084,7 +40062,37 @@
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have:":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: "],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level "],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items "],
-  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
+  "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"MORE",
+        "value":1,
+        "1":{
+          "type":"Condition",
+          "var":"HollowPalm"
+        },
+        "2":{
+          "div":75,
+          "stat":"EvasionOnAllArmourItems",
+          "type":"PerStat"
+        }
+      },{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"BASE",
+        "value":0.1,
+        "1":{
+          "type":"Condition",
+          "var":"HollowPalm"
+        },
+        "2":{
+          "div":10,
+          "stat":"EnergyShieldOnAllArmourItems",
+          "type":"PerStat"
+        }
+      }]],
   "Can Socket a non-Unique Basic Jewel into the Phylactery":[[]],
   "Can be modified while Corrupted":[[]],
   "Can have 2 additional Instilled Modifiers":[[]],
@@ -47370,7 +47378,16 @@
           "skillId":"UnboundAvatarPlayer"
         }
       }]],
-  "Grants Skill: Virtuous Barrier":[],
+  "Grants Skill: Virtuous Barrier":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"VirtuousBarrierPlayer"
+        }
+      }]],
   "Grants Skill: Vivid Stampede":[[{
         "flags":0,
         "keywordFlags":0,
@@ -53716,10 +53733,6 @@
         }
       }]],
   "Unaffected by Elemental Weakness":[null,"Unaffected by Elemental Weakness "],
-  "Unarmed Attacks that would use an Equipped Quarterstaff's damage have:":[null,"Unarmed Attacks that would use an Equipped Quarterstaff's damage have: "],
-  "Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level":[null,"Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level "],
-  "Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items":[null,"Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items "],
-  "Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items":[null,"Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level 1% more Attack Speed per 75 Item Evasion on Equipped Armour Items +0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items "],
   "Undead Minions have 25% less maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -53799,7 +53812,13 @@
         "type":"BASE",
         "value":100
       }]],
-  "Warcries Empower an additional Attack":[null,"Warcries Empower an additional Attack "],
+  "Warcries Empower an additional Attack":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraEmpoweredAttacks",
+        "type":"BASE",
+        "value":1
+      }]],
   "Warcries Explode Corpses dealing 10% of their Life as Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -53836,7 +53855,13 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Warcries have 15% chance to Empower 3 additional Attacks":[null,"Warcries have 15% chance to Empower 3 additional Attacks "],
+  "Warcries have 15% chance to Empower 3 additional Attacks":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraEmpoweredAttacks",
+        "type":"BASE",
+        "value":0.45
+      }]],
   "Warcries have a minimum of 10 Power":[[{
         "flags":0,
         "keywordFlags":0,

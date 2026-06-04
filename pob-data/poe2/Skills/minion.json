@@ -207,6 +207,41 @@
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","number_of_chains","disable_visual_hit_effect"]
       }]
   },
+  "AzmerianSwarmAttack":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":0.75,
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["attack_maximum_action_distance_+",4]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
   "BoneshatterBruteMinion":{
     "castTime":1,
     "description":"A Strike that causes a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area.",
@@ -345,6 +380,102 @@
           }],
         "statDescriptionScope":"djinn_oasis",
         "stats":["oasis_damage_recouped_as_life_%","oasis_damage_recouped_as_mana_%","base_deal_no_damage","is_commandable_skill","skill_does_not_pathfind"]
+      }]
+  },
+  "CompanionBearLeapImpact":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Leap Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["generic_knockback_+%_final_at_min_distance",200],["generic_knockback_+%_final_at_max_distance",-90],["generic_knockback_distance_limit",25]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Leap Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_show_average_damage_instead_of_dps","display_statset_hide_usage_stats","global_knockback","global_maim_on_hit"]
+      }]
+  },
+  "CompanionBearMaul":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/DruidBearMaul.dds",
+    "levels":[{
+        "attackSpeedMultiplier":20,
+        "levelRequirement":0
+      }],
+    "name":"Maul",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "20":true,
+      "21":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["melee_conditional_step_distance",5],["moving_melee_conditional_step_distance",15],["armour_break_damage_%_dealt_as_armour_break",5],["attack_maximum_action_distance_+",-6],["melee_range_+",6]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Maul",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["use_scaled_contact_offset"]
+      }]
+  },
+  "CompanionBearSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "cooldown":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "8":true,
+      "20":true,
+      "83":true,
+      "91":true,
+      "93":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",25],["bear_skills_additional_base_attack_time_when_performing_from_standing_stance",-500],["base_life_leech_from_any_attack_damage_permyriad",5000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_show_average_damage_instead_of_dps","global_knockback"]
       }]
   },
   "CorpseBeetleExplode":{
@@ -1386,6 +1517,43 @@
         "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "GSWardboundMinionBlast":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "critChance":7,
+        "levelRequirement":0
+      }],
+    "name":"Cold Spell",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":2,
+        "baseFlags":{
+          "area":true,
+          "spell":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-65]],
+        "damageIncrementalEffectiveness":0.041499998420477,
+        "incrementalEffectiveness":0.25,
+        "label":"Cold Spell",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
   "GasShotSkeletonSniperMinion":{
     "castTime":1,
     "description":"Rain an arrow down from above, creating a cloud of flammable poisonous gas where it lands. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosion.",
@@ -1457,6 +1625,43 @@
           }],
         "statDescriptionScope":"sniper_gas_shot_statset_2",
         "stats":["is_commandable_skill","base_is_projectile","is_area_damage","visual_hit_effect_chaos_is_green","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","quality_display_active_skill_ground_effect_area_of_effect_+%_final_per_second_max_is_gem"]
+      }]
+  },
+  "GreatHuntPackleaderMinion":{
+    "castTime":4,
+    "description":"The Azmerian Wolf howls, reaching out to the spirits to begin an Eternal Hunt. While the Eternal Hunt persists, spirits manifest as spectral wolves to ambush foes, damaging and Maiming enemies they Hit before disappearing.",
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/ThePackleaderCommandSkill.dds",
+    "levels":[{
+        "attackSpeedMultiplier":50,
+        "baseMultiplier":10,
+        "cooldown":15,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Eternal Hunt",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "27":true,
+      "91":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",14],["active_skill_base_secondary_area_of_effect_radius",20],["skill_specific_stat_description_mode",7]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Eternal Hunt",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"packleader_great_hunt",
+        "stats":["is_commandable_skill","skill_cannot_be_frozen","skill_cannot_be_electrocuted","skill_cannot_be_knocked_back","skill_cannot_be_stunned","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
   "HandSlamSandDjinn":{
@@ -2290,6 +2495,42 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
+  "MeleeAtAnimationSpeedWolfPackleader":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":2.5,
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["maim_on_hit_%",100],["attack_maximum_action_distance_+",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Melee",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length"]
       }]
   },
   "MeteorFireDjinn":{
@@ -3140,5 +3381,81 @@
       "Two Hand Mace":true,
       "Two Hand Sword":true
     }
+  },
+  "WolfPackleaderDashAttack":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":7,
+        "cooldown":7.5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Dash",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["attack_maximum_action_distance_+",35]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Dash",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "WolfPackleaderLungeBite":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":3.5,
+        "cooldown":3.5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Bite",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["attack_maximum_action_distance_+",30],["bleed_on_hit_with_attacks_%",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Lunge",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
   }
 }

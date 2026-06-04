@@ -1,4 +1,16 @@
 {
+  "%_chance_to_apply_hounded_by_wisps_on_hit":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:CanInflictFaerieFire",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "effectName":"FaerieFire",
+        "effectType":"Buff",
+        "type":"GlobalEffect"
+      }
+    }],
   "accuracy_range_penalty_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -1189,6 +1201,18 @@
         "var":"DualWielding"
       }
     }],
+  "armour_break_fire_damage_%_dealt_as_armour_break":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Condition:CanArmourBreak",
+      "type":"FLAG",
+      "value":true,
+      "1":{
+        "effectName":"ArmourBreak",
+        "effectType":"Buff",
+        "type":"GlobalEffect"
+      }
+    }],
   "armour_break_physical_damage_%_dealt_as_armour_break":[{
       "flags":0,
       "keywordFlags":0,
@@ -2151,6 +2175,12 @@
       "flags":0,
       "keywordFlags":0,
       "name":"ActiveTotemLimit",
+      "type":"BASE"
+    }],
+  "base_number_of_wardbound_minions_allowed":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"WardboundLimit",
       "type":"BASE"
     }],
   "base_number_of_zombies_allowed":[{
@@ -4766,6 +4796,12 @@
         "type":"SkillType"
       }
     }],
+  "max_azmerian_swarms":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"AzmerianSwarmLimit",
+      "type":"BASE"
+    }],
   "maximum_added_cold_damage_per_frenzy_charge":[{
       "flags":0,
       "keywordFlags":0,
@@ -5197,6 +5233,97 @@
           "keywordFlags":0,
           "name":"Damage",
           "type":"INC"
+        }
+      }
+    }],
+  "minion_damage_+%_final_per_different_elemental_ailment_on_target":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "actor":"enemy",
+            "type":"ActorCondition",
+            "var":"Electrocuted"
+          }
+        }
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "actor":"enemy",
+            "type":"ActorCondition",
+            "var":"Frozen"
+          }
+        }
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "actor":"enemy",
+            "type":"ActorCondition",
+            "var":"Chilled"
+          }
+        }
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "actor":"enemy",
+            "type":"ActorCondition",
+            "var":"Ignited"
+          }
+        }
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE",
+          "1":{
+            "actor":"enemy",
+            "type":"ActorCondition",
+            "var":"Shocked"
+          }
         }
       }
     }],
@@ -5687,6 +5814,12 @@
       "name":"DamageGainAsChaos",
       "type":"BASE"
     }],
+  "non_skill_base_all_damage_%_to_gain_as_cold":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsCold",
+      "type":"BASE"
+    }],
   "non_skill_base_all_damage_%_to_gain_as_cold_with_attacks":[{
       "flags":1,
       "keywordFlags":0,
@@ -5709,6 +5842,12 @@
         "type":"ActorCondition",
         "var":"Burning"
       }
+    }],
+  "non_skill_base_all_damage_%_to_gain_as_lightning":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsLightning",
+      "type":"BASE"
     }],
   "non_skill_base_all_damage_%_to_gain_as_lightning_with_attacks":[{
       "flags":1,
@@ -6606,6 +6745,12 @@
       "type":"MORE"
     }
   },
+  "set_base_damage_taken_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageTaken",
+      "type":"INC"
+    }],
   "set_base_heavy_stun_duration_ms":{
     "div":1000,
     "1":{
@@ -8356,7 +8501,7 @@
       "type":"FLAG",
       "value":true,
       "1":{
-        "effectType":"Buff",
+        "effectType":"Warcry",
         "type":"GlobalEffect"
       }
     }],
