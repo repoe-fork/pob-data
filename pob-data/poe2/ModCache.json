@@ -133,6 +133,27 @@
         "type":"BASE",
         "value":0.2
       }]],
+  "+0.3 metres to Melee Strike Range while Unarmed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.3,
+        "1":{
+          "type":"Condition",
+          "var":"Unarmed"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.3,
+        "1":{
+          "type":"Condition",
+          "var":"Unarmed"
+        }
+      }]],
   "+0.4 metres to Melee Strike Range if you've dealt a Projectile Attack Hit in the past eight seconds":[[{
         "flags":0,
         "keywordFlags":0,
@@ -229,6 +250,17 @@
           "var":"DodgeRolledRecently"
         }
       }]," metre to Dodge Roll distance 50% increased   "],
+  "+1 to Armour per Strength":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Armour",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "stat":"Str",
+          "type":"PerStat"
+        }
+      }]],
   "+1 to Evasion Rating per 1 Item Armour on Equipped Gloves":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9013,6 +9045,18 @@
         "type":"INC",
         "value":1
       }]],
+  "1% more Unarmed Damage per 5 Strength":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"MORE",
+        "value":1,
+        "1":{
+          "div":5,
+          "stat":"Str",
+          "type":"PerStat"
+        }
+      }]],
   "1% of Maximum Life Converted to Energy Shield per 20 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9641,6 +9685,28 @@
         "1":{
           "type":"Condition",
           "var":"FullLife"
+        }
+      }]],
+  "10% increased Cast Speed while Chilled":[[{
+        "flags":16,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"Chilled"
+        }
+      }]],
+  "10% increased Cast Speed while Ignited":[[{
+        "flags":16,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"Ignited"
         }
       }]],
   "10% increased Chaos Damage":[[{
@@ -10488,7 +10554,13 @@
           "var":"Surrounded"
         }
       }]],
-  "10% increased Parried Debuff Magnitude":[[]," Parried Debuff Magnitude "],
+  "10% increased Parried Debuff Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ParryDebuffMagnitude",
+        "type":"INC",
+        "value":10
+      }]],
   "10% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11285,9 +11357,8 @@
         "type":"BASE",
         "value":100
       }]],
-  "100% Surpassing chance per enemy Power to gain":[[],"% Surpassing chance per enemy Power to gain "],
-  "100% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy if":[[],"% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy if "],
-  "100% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy if you have the Way of the Mountain Ascendancy Passive Skill":[[],"% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy if you have the Way of the Mountain Ascendancy Passive Skill "],
+  "100% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy, up to a maximum of 30":[[],"% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy, up to a maximum of 30 "],
+  "100% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy, up to a maximum of 30 Lose a Mountain's Teaching when you are Hit, or when you use or Sustain an Attack that benefits from Mountain's Teachings":[[],"% Surpassing chance per enemy Power to gain Mountain's Teachings on Immobilising an enemy, up to a maximum of 30 Lose a Mountain's Teaching when you are Hit, or when you use or Sustain an Attack that benefits from Mountain's Teachings "],
   "100% chance to Daze Enemies whose Hits you Block with a raised Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11635,10 +11706,10 @@
   "100% increased Parried Debuff Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":100
-      }]," Parried Debuff  "],
+      }]],
   "100% increased Parry Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12545,17 +12616,6 @@
         "1":{
           "type":"Condition",
           "var":"ShapeshiftToHuman"
-        }
-      }]],
-  "12% increased Spell Damage if you have consumed an Elemental Infusion Recently":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":12,
-        "1":{
-          "type":"Condition",
-          "var":"InfusionConsumedRecently"
         }
       }]],
   "12% increased Spell Damage per 10 Spirit":[[{
@@ -14126,24 +14186,17 @@
   "15% increased Parried Debuff Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":15
-      }]," Parried Debuff  "],
-  "15% increased Parried Debuff Magnitude":[[]," Parried Debuff Magnitude "],
-  "15% increased Parried Debuff Magnitude 20% increased Parry Hit Area of Effect":[[{
+      }]],
+  "15% increased Parried Debuff Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"AreaOfEffect",
+        "name":"ParryDebuffMagnitude",
         "type":"INC",
-        "value":15,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Parry",
-          "type":"SkillName"
-        }
-      }]," Parried Debuff Magnitude 20% increasedHit  "],
-  "15% increased Parried Debuff Magnitude Cannot be Critically Hit while Parrying":[[]," Parried Debuff Magnitude Cannot be Critically Hit while Parrying "],
+        "value":15
+      }]],
   "15% increased Parry Hit Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14270,6 +14323,17 @@
         "name":"Damage",
         "type":"INC",
         "value":15
+      }]],
+  "15% increased Spell Damage if you have consumed an Elemental Infusion Recently":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"InfusionConsumedRecently"
+        }
       }]],
   "15% increased Spell Damage while you have Arcane Surge":[[{
         "flags":2,
@@ -15795,7 +15859,7 @@
   "2% increased Parried Debuff Duration per 10 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":2,
         "1":{
@@ -15804,7 +15868,7 @@
           "stat":"Tribute",
           "type":"PerStat"
         }
-      }]," Parried Debuff   "],
+      }]],
   "2% increased Reservation Efficiency of Skills per Idol in your Equipment":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16939,20 +17003,6 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased Elemental Infusion duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":20
-      }]," Elemental Infusion  "],
-  "20% increased Elemental Infusion duration Remnants can be collected from 30% further away":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Duration",
-        "type":"INC",
-        "value":20
-      }]," Elemental Infusion  Remnants can be collected from 30% further away "],
   "20% increased Endurance Charge Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17482,10 +17532,10 @@
   "20% increased Parried Debuff Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":20
-      }]," Parried Debuff  "],
+      }]],
   "20% increased Parry Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17513,14 +17563,15 @@
   "20% increased Parry Range":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"WeaponRange",
+        "name":"ParryRangeNonProj",
         "type":"INC",
-        "value":20,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Parry",
-          "type":"SkillName"
-        }
+        "value":20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ParryRangeProj",
+        "type":"INC",
+        "value":20
       }]],
   "20% increased Physical Damage":[[{
         "flags":0,
@@ -17749,13 +17800,7 @@
         "type":"INC",
         "value":20
       }]],
-  "20% increased Totem Placement range":[[{
-        "flags":0,
-        "keywordFlags":16384,
-        "name":"WeaponRange",
-        "type":"INC",
-        "value":20
-      }],"  Placement  "],
+  "20% increased Totem Placement range":[[],"  Placement range "],
   "20% increased Totem Placement speed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -19636,7 +19681,13 @@
           "varList":["Bleeding","Poisoned","Ignited","Chilled","Frozen","Shocked","Electrocuted"]
         }
       }]],
-  "25% increased Parried Debuff Magnitude":[[]," Parried Debuff Magnitude "],
+  "25% increased Parried Debuff Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ParryDebuffMagnitude",
+        "type":"INC",
+        "value":25
+      }]],
   "25% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21698,6 +21749,20 @@
           "var":"ShockedEnemyRecently"
         }
       }]],
+  "30% increased Elemental Infusion duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":30
+      }]," Elemental Infusion  "],
+  "30% increased Elemental Infusion duration Remnants can be collected from 30% further away":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"INC",
+        "value":30
+      }]," Elemental Infusion  Remnants can be collected from 30% further away "],
   "30% increased Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22085,10 +22150,10 @@
   "30% increased Parried Debuff Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":30
-      }]," Parried Debuff  "],
+      }]],
   "30% increased Parry Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -22104,14 +22169,15 @@
   "30% increased Parry Range":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"WeaponRange",
+        "name":"ParryRangeNonProj",
         "type":"INC",
-        "value":30,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Parry",
-          "type":"SkillName"
-        }
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ParryRangeProj",
+        "type":"INC",
+        "value":30
       }]],
   "30% increased Physical Damage":[[{
         "flags":0,
@@ -22252,17 +22318,6 @@
         "name":"Damage",
         "type":"INC",
         "value":30
-      }]],
-  "30% increased Spell Damage if you have consumed an Elemental Infusion Recently":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":30,
-        "1":{
-          "type":"Condition",
-          "var":"InfusionConsumedRecently"
-        }
       }]],
   "30% increased Spell Damage while you have Arcane Surge":[[{
         "flags":2,
@@ -23172,6 +23227,17 @@
         "name":"Damage",
         "type":"INC",
         "value":35
+      }]],
+  "35% increased Spell Damage if you have consumed an Elemental Infusion Recently":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":35,
+        "1":{
+          "type":"Condition",
+          "var":"InfusionConsumedRecently"
+        }
       }]],
   "35% increased Stun Buildup":[[{
         "flags":0,
@@ -25193,6 +25259,7 @@
           "type":"StatThreshold"
         }
       }]],
+  "5% chance for Slam Skills to cause an additional Aftershock":[[]," for Slam Skills to cause an additional Aftershock "],
   "5% chance for Slam Skills you use yourself to cause an additional Aftershock":[[]," for Slam Skills you use yourself to cause an additional Aftershock "],
   "5% chance to Blind Enemies on Hit":[[{
         "flags":0,
@@ -25898,6 +25965,28 @@
         "type":"INC",
         "value":-5
       }]],
+  "5% reduced Movement Speed Penalty from using Cold Skills while moving":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MovementSpeed",
+        "type":"INC",
+        "value":-5,
+        "1":{
+          "type":"Condition",
+          "var":"Moving"
+        }
+      }],"  Penalty from using Cold Skills  "],
+  "5% reduced Movement Speed Penalty from using Fire Skills while moving":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MovementSpeed",
+        "type":"INC",
+        "value":-5,
+        "1":{
+          "type":"Condition",
+          "var":"Moving"
+        }
+      }],"  Penalty from using Fire Skills  "],
   "5% reduced Movement Speed Penalty from using Skills while moving":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26563,11 +26652,17 @@
   "50% increased Parried Debuff Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":50
-      }]," Parried Debuff  "],
-  "50% increased Parried Debuff Magnitude":[[]," Parried Debuff Magnitude "],
+      }]],
+  "50% increased Parried Debuff Magnitude":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ParryDebuffMagnitude",
+        "type":"INC",
+        "value":50
+      }]],
   "50% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26652,6 +26747,13 @@
         "type":"INC",
         "value":50
       }]],
+  "50% increased Stun Buildup":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyHeavyStunBuildup",
+        "type":"INC",
+        "value":50
+      }]],
   "50% increased Stun Threshold while Channelling":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26682,13 +26784,7 @@
           "var":"RemovableEnduranceCharge"
         }
       }]],
-  "50% increased Totem Placement range":[[{
-        "flags":0,
-        "keywordFlags":16384,
-        "name":"WeaponRange",
-        "type":"INC",
-        "value":50
-      }],"  Placement  "],
+  "50% increased Totem Placement range":[[],"  Placement range "],
   "50% increased amount of Mana Leeched":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27450,6 +27546,13 @@
         "type":"INC",
         "value":6
       }],"  for each different  you've Cast in the last eight seconds "],
+  "6% increased Cast Speed per Spell Echoed Recently, up to 30%":[[{
+        "flags":18,
+        "keywordFlags":0,
+        "name":"Speed",
+        "type":"INC",
+        "value":6
+      }],"  per  Echoed Recently, up to 30% "],
   "6% increased Cooldown Recovery Rate":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27593,26 +27696,13 @@
           "var":"UsingCharm"
         }
       }]],
-  "6% increased Parried Debuff Magnitude":[[]," Parried Debuff Magnitude "],
-  "6% increased Parried Debuff Magnitude 8% increased Parried Debuff Duration":[[{
+  "6% increased Parried Debuff Magnitude":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffMagnitude",
         "type":"INC",
         "value":6
-      }]," Parried Debuff Magnitude 8% increased Parried Debuff  "],
-  "6% increased Parried Debuff Magnitude 8% increased Parry Hit Area of Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AreaOfEffect",
-        "type":"INC",
-        "value":6,
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Parry",
-          "type":"SkillName"
-        }
-      }]," Parried Debuff Magnitude 8% increasedHit  "],
+      }]],
   "6% increased Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -29088,10 +29178,10 @@
   "8% increased Parried Debuff Duration":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Duration",
+        "name":"ParryDebuffDuration",
         "type":"INC",
         "value":8
-      }]," Parried Debuff  "],
+      }]],
   "8% increased Parry Hit Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33247,6 +33337,20 @@
         "type":"LIST",
         "value":"bounty hunter"
       }]],
+  "Allocates Brain Freeze":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"brain freeze"
+      }]],
+  "Allocates Brain Storm":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"brain storm"
+      }]],
   "Allocates Branching Bolts":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34773,6 +34877,13 @@
         "type":"LIST",
         "value":"first teachings of the keeper"
       }]],
+  "Allocates Flamekeeper":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"flamekeeper"
+      }]],
   "Allocates Flamewalker":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34828,6 +34939,13 @@
         "name":"GrantedPassive",
         "type":"LIST",
         "value":"flow of time"
+      }]],
+  "Allocates Flurry":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"flurry"
       }]],
   "Allocates Focused Channel":[[{
         "flags":0,
@@ -35389,6 +35507,13 @@
         "type":"LIST",
         "value":"hunting companion"
       }]],
+  "Allocates Ice Storm":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"ice storm"
+      }]],
   "Allocates Ice Walls":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35913,6 +36038,13 @@
         "name":"GrantedPassive",
         "type":"LIST",
         "value":"lightning rod"
+      }]],
+  "Allocates Lightning Storm":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"lightning storm"
       }]],
   "Allocates Lingering Horror":[[{
         "flags":0,
@@ -37013,6 +37145,20 @@
         "type":"LIST",
         "value":"reverberation"
       }]],
+  "Allocates Rhythm of Fire":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"rhythm of fire"
+      }]],
+  "Allocates Rhythm of Ice":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"rhythm of ice"
+      }]],
   "Allocates Right Hand of Darkness":[[{
         "flags":0,
         "keywordFlags":0,
@@ -37726,6 +37872,13 @@
         "name":"GrantedPassive",
         "type":"LIST",
         "value":"stormcharged"
+      }]],
+  "Allocates Stormkeeper":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"GrantedPassive",
+        "type":"LIST",
+        "value":"stormkeeper"
       }]],
   "Allocates Stormwalker":[[{
         "flags":0,
@@ -38771,17 +38924,17 @@
       }]],
   "Archon Buffs also grant +20% to all Elemental Resistances":[null,"Archon Buffs also grant +20% to all Elemental Resistances "],
   "Archon Buffs also grant +20% to all Elemental Resistances Archon Buffs also grant 10% increased Movement Speed":[null,"Archon Buffs also grant +20% to all Elemental Resistances Archon Buffs also grant 10% increased Movement Speed "],
-  "Archon Buffs also grant +30% Critical Hit Chance":[null,"Archon Buffs also grant +30% Critical Hit Chance "],
-  "Archon Buffs also grant +50% Critical Damage Bonus":[null,"Archon Buffs also grant +50% Critical Damage Bonus "],
-  "Archon Buffs also grant +50% Critical Damage Bonus Archon Buffs also grant +30% Critical Hit Chance":[null,"Archon Buffs also grant +50% Critical Damage Bonus Archon Buffs also grant +30% Critical Hit Chance "],
   "Archon Buffs also grant 10% increased Movement Speed":[null,"Archon Buffs also grant 10% increased Movement Speed "],
+  "Archon Buffs also grant 30% increased Critical Hit Chance":[null,"Archon Buffs also grant 30% increased Critical Hit Chance "],
+  "Archon Buffs also grant 50% increased Critical Damage Bonus":[null,"Archon Buffs also grant 50% increased Critical Damage Bonus "],
+  "Archon Buffs also grant 50% increased Critical Damage Bonus Archon Buffs also grant 30% increased Critical Hit Chance":[null,"Archon Buffs also grant 50% increased Critical Damage Bonus Archon Buffs also grant 30% increased Critical Hit Chance "],
   "Archon Buffs have no recovery period after you lose one":[null,"Archon Buffs have no recovery period after you lose one "],
   "Archon recovery period expires 10% faster":[null,"Archon recovery period expires 10% faster "],
   "Archon recovery period expires 10% faster 10% increased effect of Archon Buffs on you":[null,"Archon recovery period expires 10% faster 10% increased effect of Archon Buffs on you "],
   "Archon recovery period expires 25% faster":[null,"Archon recovery period expires 25% faster "],
   "Archon recovery period expires 30% slower":[null,"Archon recovery period expires 30% slower "],
-  "Archon recovery period expires 30% slower Archon Buffs also grant +50% Critical Damage Bonus":[null,"Archon recovery period expires 30% slower Archon Buffs also grant +50% Critical Damage Bonus "],
-  "Archon recovery period expires 30% slower Archon Buffs also grant +50% Critical Damage Bonus Archon Buffs also grant +30% Critical Hit Chance":[null,"Archon recovery period expires 30% slower Archon Buffs also grant +50% Critical Damage Bonus Archon Buffs also grant +30% Critical Hit Chance "],
+  "Archon recovery period expires 30% slower Archon Buffs also grant 50% increased Critical Damage Bonus":[null,"Archon recovery period expires 30% slower Archon Buffs also grant 50% increased Critical Damage Bonus "],
+  "Archon recovery period expires 30% slower Archon Buffs also grant 50% increased Critical Damage Bonus Archon Buffs also grant 30% increased Critical Hit Chance":[null,"Archon recovery period expires 30% slower Archon Buffs also grant 50% increased Critical Damage Bonus Archon Buffs also grant 30% increased Critical Hit Chance "],
   "Area Skills have 20% chance to Knock Enemies Back on Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -40058,6 +40211,13 @@
   "Can Allocate Passive Skills from the Sorceress's starting point Grants 4 Passive Skill Point":[null,"Can Allocate Passive Skills from the Sorceress's starting point Grants 4 Passive Skill Point "],
   "Can Allocate Passive Skills from the Warrior's starting point":[null,"Can Allocate Passive Skills from the Warrior's starting point "],
   "Can Allocate Passive Skills from the Warrior's starting point Grants 4 Passive Skill Point":[null,"Can Allocate Passive Skills from the Warrior's starting point Grants 4 Passive Skill Point "],
+  "Can Attack as though using a One Handed Mace while both of your hand slots are empty":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CanAttackAsOneHandMaceUnarmed",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty "],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have:":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: "],
   "Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level":[null,"Can Attack as though using a Quarterstaff while both of your hand slots are empty Unarmed Attacks that would use an Equipped Quarterstaff's damage have: Base Unarmed Physical damage replaced with damage based on their Skill Level "],
@@ -44930,6 +45090,13 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Gain 6% of Cold damage as Extra Lightning damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdDamageGainAsLightning",
+        "type":"BASE",
+        "value":6
+      }]],
   "Gain 6% of Damage as Extra Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44955,6 +45122,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ElementalDamageGainAsLightning",
+        "type":"BASE",
+        "value":6
+      }]],
+  "Gain 6% of Lightning damage as Extra Cold damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningDamageGainAsCold",
         "type":"BASE",
         "value":6
       }]],
@@ -47496,6 +47670,39 @@
         "value":3
       }]],
   "Has 4 Augment Sockets":[null,"Has 4 Augment Sockets "],
+  "Has 8 to 12 Physical damage, +3 to +4 per Boss's Face Broken":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FacebreakerPhysicalMin",
+        "type":"BASE",
+        "value":8
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FacebreakerPhysicalMax",
+        "type":"BASE",
+        "value":12
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FacebreakerPhysicalMin",
+        "type":"BASE",
+        "value":3,
+        "1":{
+          "type":"Multiplier",
+          "var":"BossFaceBroken"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FacebreakerPhysicalMax",
+        "type":"BASE",
+        "value":4,
+        "1":{
+          "type":"Multiplier",
+          "var":"BossFaceBroken"
+        }
+      }]],
   "Has no Attribute Requirements":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48894,6 +49101,7 @@
         "value":5
       }]],
   "Lose Elemental Archon on reaching maximum Infernal Flame":[null,"Lose Elemental Archon on reaching maximum Infernal Flame "],
+  "Lose a Mountain's Teaching when you are Hit, or when you use or Sustain an Attack that benefits from Mountain's Teachings":[null,"Lose a Mountain's Teaching when you are Hit, or when you use or Sustain an Attack that benefits from Mountain's Teachings "],
   "Lose all Fragile Regrowth when Hit":[null,"Lose all Fragile Regrowth when Hit "],
   "Lose all Fragile Regrowth when Hit Gain 1 Fragile Regrowth each second":[null,"Lose all Fragile Regrowth when Hit Gain 1 Fragile Regrowth each second "],
   "Lose all Infernal Flame on reaching maximum Infernal Flame":[null,"Lose all Infernal Flame on reaching maximum Infernal Flame "],
@@ -50639,8 +50847,6 @@
           "type":"SkillName"
         }
       }]],
-  "Mountain's Teachings on Immobilising an enemy if":[null,"Mountain's Teachings on Immobilising an enemy if "],
-  "Mountain's Teachings on Immobilising an enemy if you have the Way of the Mountain Ascendancy Passive Skill":[null,"Mountain's Teachings on Immobilising an enemy if you have the Way of the Mountain Ascendancy Passive Skill "],
   "Moving while Bleeding doesn't cause you to take extra damage":[null,"Moving while Bleeding doesn't cause you to take extra damage "],
   "Nearby Allies and Enemies Share Charges with you":[null,"Nearby Allies and Enemies Share Charges with you "],
   "Nearby Allies and Enemies Share Charges with you Enemies Hitting you have 10% chance to gain an Endurance, ":[null,"Nearby Allies and Enemies Share Charges with you Enemies Hitting you have 10% chance to gain an Endurance,  "],
@@ -52637,13 +52843,21 @@
   "Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple":[null,"Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple "],
   "Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red":[null,"Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red "],
   "Remnants can be collected from 50% further away Remnants you create reappear once, 3 seconds after being collected":[null,"Remnants can be collected from 50% further away Remnants you create reappear once, 3 seconds after being collected "],
-  "Remnants you create have 10% increased effect":[null,"Remnants you create have 10% increased effect "],
+  "Remnants you create have 10% increased effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"RemnantEffect",
+        "type":"INC",
+        "value":10
+      }]],
   "Remnants you create have 2% increased effect per 10 Tribute":[null,"Remnants you create have 2% increased effect per 10 Tribute "],
-  "Remnants you create have 50% increased effect":[null,"Remnants you create have 50% increased effect "],
-  "Remnants you create have 50% increased effect Remnants can be collected from 50% further away":[null,"Remnants you create have 50% increased effect Remnants can be collected from 50% further away "],
-  "Remnants you create have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Blue":[null,"Remnants you create have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Blue "],
-  "Remnants you create have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple":[null,"Remnants you create have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Purple "],
-  "Remnants you create have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red":[null,"Remnants you create have 50% increased effect Remnants can be collected from 50% further away All Flames of Chayula that you manifest are Red "],
+  "Remnants you create have 50% increased effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"RemnantEffect",
+        "type":"INC",
+        "value":50
+      }]],
   "Remnants you create reappear once, 3 seconds after being collected":[null,"Remnants you create reappear once, 3 seconds after being collected "],
   "Remove Ignite when you Warcry":[null,"Remove Ignite when you Warcry "],
   "Remove a Curse after Channelling for 2 seconds":[null,"Remove a Curse after Channelling for 2 seconds "],
@@ -53732,7 +53946,16 @@
           "var":"LeechingMana"
         }
       }]],
+  "Unaffected by Chilled Ground":[null,"Unaffected by Chilled Ground "],
   "Unaffected by Elemental Weakness":[null,"Unaffected by Elemental Weakness "],
+  "Unaffected by Shocked Ground":[null,"Unaffected by Shocked Ground "],
+  "Unarmed Attacks that would use an Equipped One Hand Mace's damage use this Item's damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UseFacebreakerItemDamage",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Undead Minions have 25% less maximum Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -54630,7 +54853,6 @@
   "until you take no Damage to Life for 5 seconds Life that would be lost by taking Damage is instead Reserved":[null,"until you take no Damage to Life for 5 seconds Life that would be lost by taking Damage is instead Reserved "],
   "you Shapeshift to an Animal form":[null,"you Shapeshift to an Animal form "],
   "you Shapeshift to an Animal form Modifiers gained this way are lost after 30 seconds or when you next Shapeshift":[null,"you Shapeshift to an Animal form Modifiers gained this way are lost after 30 seconds or when you next Shapeshift "],
-  "you have the Way of the Mountain Ascendancy Passive Skill":[null,"the Way of the Mountain Ascendancy Passive Skill "],
   "your maximum Life as Physical damage per second":[null,"your maximum Life as Physical damage per second "],
   "your maximum number of Power Charges":[null,"your maximum number of Power Charges "],
   "your maximum number of Power Charges +1 to Maximum Power Charges":[null,"your maximum number of Power Charges +1 to Maximum Power Charges "]

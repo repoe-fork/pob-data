@@ -5482,6 +5482,9 @@
   "#% increased Cast Speed per Power Charge":[{
       "isScalable":true
     }],
+  "#% increased Cast Speed per Spell Echoed Recently, up to 30%":[{
+      "isScalable":true
+    }],
   "#% increased Cast Speed when on Full Life":[{
       "isScalable":true
     }],
@@ -9071,6 +9074,12 @@
       "isScalable":true
     }],
   "#% increased Movement Speed":[{
+      "isScalable":true
+    }],
+  "#% increased Movement Speed Penalty from using Cold Skills while moving":[{
+      "isScalable":true
+    }],
+  "#% increased Movement Speed Penalty from using Fire Skills while moving":[{
       "isScalable":true
     }],
   "#% increased Movement Speed Penalty from using Skills while moving":[{
@@ -13980,6 +13989,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Cast Speed per Spell Echoed Recently, up to 30%":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Cast Speed when on Full Life":[{
       "formats":["negate"],
       "isScalable":true
@@ -18344,6 +18357,14 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Movement Speed Penalty from using Cold Skills while moving":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Movement Speed Penalty from using Fire Skills while moving":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Movement Speed Penalty from using Skills while moving":[{
       "formats":["negate"],
       "isScalable":true
@@ -21543,6 +21564,7 @@
   "Acrobatics":[],
   "Action Speed cannot be Slowed below Base Value if you've cast Temporal Chains in the past 10 seconds":[],
   "Action Speed cannot be modified to below base value":[],
+  "Active":[],
   "Adaptations apply to all Elemental Damage during Effect":[],
   "Adds # Jewel Socket Passive Skills":[{
       "isScalable":true
@@ -22511,10 +22533,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Archon Buffs also grant #% Critical Damage Bonus":[{
+  "Archon Buffs also grant #% increased Critical Damage Bonus":[{
       "isScalable":true
     }],
-  "Archon Buffs also grant #% Critical Hit Chance":[{
+  "Archon Buffs also grant #% increased Critical Hit Chance":[{
       "isScalable":true
     }],
   "Archon Buffs also grant #% increased Movement Speed":[{
@@ -22733,9 +22755,6 @@
   "Area contains # additional Strongboxes":[{
       "isScalable":true
     }],
-  "Area contains # additional Summoning Circles":[{
-      "isScalable":true
-    }],
   "Area contains # additional Synthesised Chest which contains Magic Monsters":[{
       "isScalable":true
     }],
@@ -22930,6 +22949,11 @@
   "Area contains a Smuggler's Cache":[],
   "Area contains a Stone Circle":[],
   "Area contains a Strongbox":[],
+  "Area contains a Summoning Circle":[],
+  "Area contains a Summoning Circle\nArea contains # Reactivation Runes":[{
+      "formats":["subtract_one"],
+      "isScalable":true
+    }],
   "Area contains a Tormented Embezzler":[],
   "Area contains a Tormented Seditionist":[],
   "Area contains a Tormented Spirit":[],
@@ -23005,7 +23029,6 @@
   "Area contains an additional Shrine guarded by a Pantheon Monster":[],
   "Area contains an additional Smuggler's Cache":[],
   "Area contains an additional Strongbox":[],
-  "Area contains an additional Summoning Circle":[],
   "Area contains an additional Three Rat Talisman":[],
   "Area contains an additional Tormented Betrayer":[],
   "Area contains an additional Tormented Graverobber":[],
@@ -26055,6 +26078,34 @@
   "Curses you inflict spread to enemies within 3 metres when Cursed enemy dies":[],
   "Curses you with Punishment on Kill":[],
   "Curses you with Silence when Hit":[],
+  "DNT #% increased Movement Speed Penalty from using Attacks while moving":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Movement Speed Penalty from using Chaos Skills while moving":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Movement Speed Penalty from using Lightning Skills while moving":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Movement Speed Penalty from using Spells while moving":[{
+      "isScalable":true
+    }],
+  "DNT #% reduced Movement Speed Penalty from using Attacks while moving":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT #% reduced Movement Speed Penalty from using Chaos Skills while moving":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT #% reduced Movement Speed Penalty from using Lightning Skills while moving":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT #% reduced Movement Speed Penalty from using Spells while moving":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "DNT dummy_display_stat_rune_delevel_inherent_skill":[],
   "DNT-UNUSED #% chance when hitting a Rare Monster to disable one of its Modifiers":[{
       "isScalable":true
@@ -28889,6 +28940,9 @@
   "Gain #% of Cold damage as Extra Fire damage per 1% Chill Magnitude on enemy":[{
       "isScalable":true
     }],
+  "Gain #% of Cold damage as Extra Lightning damage":[{
+      "isScalable":true
+    }],
   "Gain #% of Cold damage as Extra Physical damage":[{
       "isScalable":true
     }],
@@ -29311,10 +29365,20 @@
       "isScalable":true
     }],
   "Gain Flame Archon when you Ignite an Enemy":[],
+  "Gain Guard equal to #% of Current Runic Ward for # seconds when Effect ends":[{
+      "isScalable":true
+    },{
+      "formats":["milliseconds_to_seconds_0dp"],
+      "isScalable":true
+    }],
   "Gain Guard equal to #% of maximum Life for 4 seconds on taking Savage Hit":[{
       "isScalable":true
     }],
   "Gain Guard equal to #% of missing Energy Shield for 4 seconds when you Dodge Roll":[{
+      "isScalable":true
+    }],
+  "Gain Guard equal to Current Runic Ward for # seconds when Effect ends":[{
+      "formats":["milliseconds_to_seconds_0dp"],
       "isScalable":true
     }],
   "Gain Ice Archon when your Energy Shield Recharge begins":[],
@@ -31091,6 +31155,7 @@
   "In Heists Regal Orbs drop as Blessed Orbs instead":[],
   "In Heists Regal Orbs drop as Divine Orbs instead":[],
   "In Heists Regal Orbs drop as Exalted Orbs instead":[],
+  "Inactive":[],
   "Incinerate has # to maximum stages":[{
       "isScalable":true
     }],
@@ -33370,6 +33435,7 @@
   "Minions' Accuracy Rating is equal to yours":[],
   "Minions' Hits can only Kill Ignited Enemies":[],
   "Minions' Resistances are equal to yours":[],
+  "Minions' Strikes have Melee Splash":[],
   "Mirage Archers are not attached to you":[],
   "Mirror Arrow and Clone Arrow spawn # additional Clones":[{
       "isScalable":true
@@ -36610,6 +36676,10 @@
       "formats":["per_minute_to_per_second"],
       "isScalable":true
     }],
+  "Regenerate #% of maximum Life per Second if you have used a Command Skill Recently":[{
+      "formats":["per_minute_to_per_second"],
+      "isScalable":true
+    }],
   "Regenerate #% of maximum Life per Second if you've Detonated a Mine Recently":[{
       "formats":["per_minute_to_per_second"],
       "isScalable":true
@@ -36785,6 +36855,10 @@
     }],
   "Regenerate #% of maximum Mana per second per Power Charge":[{
       "formats":["per_minute_to_per_second"],
+      "isScalable":true
+    }],
+  "Regenerate #% of maximum Runic Ward per second during Effect":[{
+      "formats":["per_minute_to_per_second_1dp"],
       "isScalable":true
     }],
   "Regenerate #% of your Armour as Life over 1 second when you Block":[{
@@ -39499,7 +39573,6 @@
       "isScalable":true
     }],
   "Supported Attack Skills cannot be used with Melee Weapons":[],
-  "Supported Minions' Strikes have Melee Splash":[],
   "Supported Projectile Skills deal #% less Projectile Damage":[{
       "formats":["negate"],
       "isScalable":true

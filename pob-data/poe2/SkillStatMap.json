@@ -2189,6 +2189,48 @@
       "name":"ActiveZombieLimit",
       "type":"BASE"
     }],
+  "base_parry_buff_damage_taken_+%_final_to_apply":[{
+      "flags":1,
+      "keywordFlags":0,
+      "name":"DamageTaken",
+      "type":"MORE",
+      "1":{
+        "effectCond":"ParryActive",
+        "effectName":"Parry Debuff",
+        "effectType":"Debuff",
+        "type":"GlobalEffect"
+      },
+      "2":{
+        "type":"Condition",
+        "var":"Effective"
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"parryDebuffBaseMagnitude"
+      }
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CanParry",
+      "type":"FLAG",
+      "value":true
+    }],
+  "base_parry_duration_ms":{
+    "div":1000,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"parryDebuffDuration"
+      }
+    }
+  },
   "base_penetrate_elemental_resistances_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5824,6 +5866,12 @@
       "flags":1,
       "keywordFlags":0,
       "name":"DamageGainAsCold",
+      "type":"BASE"
+    }],
+  "non_skill_base_all_damage_%_to_gain_as_fire":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsFire",
       "type":"BASE"
     }],
   "non_skill_base_all_damage_%_to_gain_as_fire_with_attacks":[{

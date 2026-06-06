@@ -72,18 +72,18 @@
   "SupportAddedLightningDamagePlayer":{
     "addSkillTypes":[],
     "color":2,
-    "description":"Supports Attacks, causing them to Gain Lightning Damage but deal less Cold and Fire Damage.",
+    "description":"Supports any skill that deals damage, causing them to Gain Lightning Damage but deal less Cold and Fire Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["LightningAttunement"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Lightning Attunement",
-    "requireSkillTypes":[1,117],
+    "requireSkillTypes":[1,117,7],
     "statSets":[{
         "baseEffectiveness":0.52710002660751,
         "baseFlags":[],
-        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_lightning_with_attacks",25],["support_cold_and_fire_damage_+%_final",-50]],
+        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_lightning",25],["support_cold_and_fire_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Lightning Attunement",
         "levels":[{
@@ -2432,7 +2432,7 @@
   "SupportInnervatePlayer":{
     "addSkillTypes":[9],
     "color":2,
-    "description":"Supports Attacks you use yourself. Killing a Shocked enemy with supported skills imbues all of your Attacks with Lightning damage for a short time.",
+    "description":"Supports damaging skills you use yourself. Killing a Shocked enemy with supported skills imbues your damage with Lightning damage for a short time.",
     "excludeSkillTypes":[258,37,140],
     "gemFamily":["Innervate"],
     "ignoreMinionTypes":true,
@@ -2440,7 +2440,7 @@
         "levelRequirement":0
       }],
     "name":"Innervate",
-    "requireSkillTypes":[1,117],
+    "requireSkillTypes":[1,117,7],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_innervate_buff_grant_%_added_lightning_attack_damage",25],["support_innervate_buff_base_duration_ms",5000]],
@@ -4349,7 +4349,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills which have a cooldown, giving them extra uses of that cooldown. Cannot support Meta, instant, or Triggered Skills, and cannot modify the Skills of Minions.",
-    "excludeSkillTypes":[37,64,122,258],
+    "excludeSkillTypes":[37,64,122],
     "gemFamily":["SecondWind"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4375,7 +4375,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills which have a cooldown, giving them extra uses of that cooldown and causing them to recover your Life when a Skill is used and goes on cooldown. Cannot support Meta, instant, or Triggered Skills, and cannot modify the Skills of Minions.",
-    "excludeSkillTypes":[37,64,122,258],
+    "excludeSkillTypes":[37,64,122],
     "gemFamily":["SecondWind"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4401,7 +4401,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports Skills which have a cooldown, giving them extra uses of that cooldown. Cannot support Meta, instant, or Triggered Skills, and cannot modify the Skills of Minions.",
-    "excludeSkillTypes":[37,64,122,258],
+    "excludeSkillTypes":[37,64,122],
     "gemFamily":["SecondWind"],
     "ignoreMinionTypes":true,
     "levels":[{

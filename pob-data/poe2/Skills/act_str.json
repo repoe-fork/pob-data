@@ -3128,7 +3128,7 @@
         "levelRequirement":90
       }],
     "name":"Artillery Ballista",
-    "qualityStats":[],
+    "qualityStats":[["dummy_stat_display_nothing",0]],
     "skillTotemId":22,
     "skillTypes":{
       "9":true,
@@ -13226,7 +13226,7 @@
           "attack":true,
           "projectile":true
         },
-        "constantStats":[["action_allowed_queue_time_override_ms",1000],["action_required_target_facing_angle_tolerance_degrees",90],["base_skill_detonation_time",3000],["active_skill_base_physical_damage_%_to_convert_to_fire",80],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["fixed_projectile_spread",30],["active_skill_projectile_speed_+%_variation_final_if_multiple_projectiles",15],["consume_X_heat_on_skill_use",15],["active_skill_all_damage_%_as_fire_if_heat_is_consumed",50]],
+        "constantStats":[["action_allowed_queue_time_override_ms",1000],["action_required_target_facing_angle_tolerance_degrees",90],["base_skill_detonation_time",3000],["active_skill_base_physical_damage_%_to_convert_to_fire",80],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["movement_speed_while_performing_action_locked_duration_%",50],["fixed_projectile_spread",30],["active_skill_projectile_speed_+%_variation_final_if_multiple_projectiles",15],["consume_X_heat_on_skill_use",15],["active_skill_all_damage_%_as_fire_if_heat_is_consumed",50],["base_number_of_projectiles",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosive Grenade",
         "levels":[{
@@ -34971,7 +34971,7 @@
           "channelRelease":true,
           "projectile":true
         },
-        "constantStats":[["action_required_target_facing_angle_tolerance_degrees",90],["active_skill_base_physical_damage_%_to_convert_to_lightning",80],["crossbow_barrage_recoil_per_shot",2],["crossbow_barrage_total_recoil_buff_count",8],["crossbow_barrage_debuff_duration_ms",300],["base_knockback_distance",400],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["total_attack_time_+_ms",2000],["channel_end_duration_as_%_of_attack_time",35],["shock_effect_+%",50]],
+        "constantStats":[["action_required_target_facing_angle_tolerance_degrees",90],["active_skill_base_physical_damage_%_to_convert_to_lightning",80],["crossbow_barrage_recoil_per_shot",2],["crossbow_barrage_total_recoil_buff_count",8],["crossbow_barrage_debuff_duration_ms",300],["base_knockback_distance",400],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["total_attack_time_+_ms",2000],["channel_end_duration_as_%_of_attack_time",35],["shock_effect_+%",50],["base_number_of_projectiles",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Projectile",
         "levels":[{
@@ -35064,7 +35064,7 @@
           "channelRelease":true,
           "projectile":true
         },
-        "constantStats":[["action_required_target_facing_angle_tolerance_degrees",90],["active_skill_base_physical_damage_%_to_convert_to_lightning",80],["crossbow_barrage_recoil_per_shot",2],["crossbow_barrage_total_recoil_buff_count",8],["crossbow_barrage_debuff_duration_ms",300],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["channel_end_duration_as_%_of_attack_time",35],["shock_effect_+%",50],["active_skill_base_physical_damage_%_to_convert_to_lightning",20],["active_skill_base_area_of_effect_radius",32]],
+        "constantStats":[["action_required_target_facing_angle_tolerance_degrees",90],["active_skill_base_physical_damage_%_to_convert_to_lightning",80],["crossbow_barrage_recoil_per_shot",2],["crossbow_barrage_total_recoil_buff_count",8],["crossbow_barrage_debuff_duration_ms",300],["movement_speed_+%_final_while_performing_action",-70],["movement_speed_acceleration_+%_per_second_while_performing_action",160],["channel_end_duration_as_%_of_attack_time",35],["shock_effect_+%",50],["base_number_of_projectiles",1],["active_skill_base_physical_damage_%_to_convert_to_lightning",20],["active_skill_base_area_of_effect_radius",32]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Explosion",
         "levels":[{

@@ -1492,7 +1492,7 @@
   "SupportAddedChaosDamagePlayer":{
     "addSkillTypes":[],
     "color":3,
-    "description":"Supports Attacks, causing them to Gain Chaos Damage but deal less Damage of other Types.",
+    "description":"Supports any skill that deals damage, causing them to Gain Chaos Damage but deal less Damage of other Types.",
     "excludeSkillTypes":[],
     "gemFamily":["ChaosAttunement"],
     "levels":[{
@@ -1500,11 +1500,11 @@
         "manaMultiplier":20
       }],
     "name":"Chaos Attunement",
-    "requireSkillTypes":[1,117],
+    "requireSkillTypes":[1,117,7],
     "statSets":[{
         "baseEffectiveness":0.47119998931885,
         "baseFlags":[],
-        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_chaos_with_attacks",25],["support_chaos_support_non_chaos_damage_+%_final",-50]],
+        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_chaos",25],["support_chaos_support_non_chaos_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Chaos Attunement",
         "levels":[{
@@ -1541,18 +1541,18 @@
   "SupportAddedColdDamagePlayer":{
     "addSkillTypes":[],
     "color":3,
-    "description":"Supports Attacks, causing them to Gain Cold Damage but deal less Fire and Lightning Damage.",
+    "description":"Supports any skill that deals damage, causing them to Gain Cold Damage but deal less Fire and Lightning Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["ColdAttunement"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Cold Attunement",
-    "requireSkillTypes":[1,117],
+    "requireSkillTypes":[1,117,7],
     "statSets":[{
         "baseEffectiveness":0.58050000667572,
         "baseFlags":[],
-        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_cold_with_attacks",25],["support_fire_and_lightning_damage_+%_final",-50]],
+        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_cold",25],["support_fire_and_lightning_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Cold Attunement",
         "levels":[{
@@ -4609,7 +4609,7 @@
   "SupportIceBitePlayer":{
     "addSkillTypes":[9],
     "color":3,
-    "description":"Supports Attacks and Warcries you use yourself. Freezing an enemy with supported skills infuses all of your Attacks with Cold damage for a short time.",
+    "description":"Supports damaging skills and Warcries you use yourself. Freezing an enemy with supported skills infuses your damage with Cold damage for a short time.",
     "excludeSkillTypes":[258,37,140],
     "gemFamily":["IceBite"],
     "ignoreMinionTypes":true,
@@ -4617,7 +4617,7 @@
         "levelRequirement":0
       }],
     "name":"Ice Bite I",
-    "requireSkillTypes":[1,117,63],
+    "requireSkillTypes":[1,117,63,7],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_ice_bite_buff_grant_%_added_cold_attack_damage",25],["support_ice_bite_base_buff_duration",5000]],
@@ -4668,7 +4668,7 @@
   "SupportIceBitePlayerTwo":{
     "addSkillTypes":[9],
     "color":3,
-    "description":"Supports Attacks and Warcries you use yourself. Freezing an enemy with supported skills infuses all of your Attacks with Cold damage for a short time.",
+    "description":"Supports damaging skills and Warcries you use yourself. Freezing an enemy with supported skills infuses your damage with Cold damage for a short time.",
     "excludeSkillTypes":[258,37,140],
     "gemFamily":["IceBite"],
     "ignoreMinionTypes":true,
@@ -4676,7 +4676,7 @@
         "levelRequirement":0
       }],
     "name":"Ice Bite II",
-    "requireSkillTypes":[1,117,63],
+    "requireSkillTypes":[1,117,63,7],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["support_ice_bite_buff_grant_%_added_cold_attack_damage",30],["support_ice_bite_base_buff_duration",6000]],

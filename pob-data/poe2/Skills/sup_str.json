@@ -387,18 +387,18 @@
   "SupportAddedFireDamagePlayer":{
     "addSkillTypes":[],
     "color":1,
-    "description":"Supports Attacks, causing them to Gain Fire Damage but deal less Cold and Lightning Damage.",
+    "description":"Supports any skill that deals damage, causing them to Gain Fire Damage but deal less Cold and Lightning Damage.",
     "excludeSkillTypes":[],
     "gemFamily":["FireAttunement"],
     "levels":[{
         "levelRequirement":0
       }],
     "name":"Fire Attunement",
-    "requireSkillTypes":[1,117],
+    "requireSkillTypes":[1,117,7],
     "statSets":[{
         "baseEffectiveness":0,
         "baseFlags":[],
-        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_fire_with_attacks",25],["support_cold_and_lightning_damage_+%_final",-50]],
+        "constantStats":[["non_skill_base_all_damage_%_to_gain_as_fire",25],["support_cold_and_lightning_damage_+%_final",-50]],
         "incrementalEffectiveness":0.092720001935959,
         "label":"Fire Attunement",
         "levels":[{
