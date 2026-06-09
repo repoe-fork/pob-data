@@ -857,6 +857,31 @@
     },
     "type":"Shield"
   },
+  "Glacial Fortress":{
+    "armour":{
+      "Armour":223,
+      "BlockChance":26,
+      "MovementPenalty":0.03
+    },
+    "hidden":true,
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "level":70,
+      "str":99
+    },
+    "socketLimit":3,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "shield":true,
+      "str_armour":true,
+      "str_shield":true
+    },
+    "type":"Shield"
+  },
   "Glowering Crest Shield":{
     "armour":{
       "Armour":107,
@@ -3792,6 +3817,7 @@
       "Evasion":103,
       "Ward":33
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -3819,6 +3845,7 @@
       "MovementPenalty":0.03,
       "Ward":28
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -3846,6 +3873,7 @@
       "MovementPenalty":0.03,
       "Ward":88
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -3873,6 +3901,7 @@
       "MovementPenalty":0.015,
       "Ward":47
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -3901,6 +3930,7 @@
       "MovementPenalty":0.03,
       "Ward":34
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -3929,6 +3959,7 @@
       "MovementPenalty":0.015,
       "Ward":23
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -3958,6 +3989,7 @@
       "MovementPenalty":0.03,
       "Ward":35
     },
+    "hidden":true,
     "implicit":"(15-25)% of Damage is taken from Mana before Life\nGrants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[["resource","life","mana"]],
     "quality":20,
@@ -3984,6 +4016,7 @@
       "MovementPenalty":0.03,
       "Ward":113
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4012,6 +4045,7 @@
       "MovementPenalty":0.015,
       "Ward":34
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4033,6 +4067,33 @@
     },
     "type":"Shield"
   },
+  "Runemastered Glacial Fortress":{
+    "armour":{
+      "Armour":203,
+      "BlockChance":26,
+      "MovementPenalty":0.03,
+      "Ward":53
+    },
+    "hidden":true,
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "level":70,
+      "str":99
+    },
+    "socketLimit":3,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "runeforged":true,
+      "shield":true,
+      "str_armour":true,
+      "str_shield":true
+    },
+    "type":"Shield"
+  },
   "Runemastered Hardwood Targe":{
     "armour":{
       "Armour":44,
@@ -4041,6 +4102,7 @@
       "MovementPenalty":0.015,
       "Ward":18
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4070,6 +4132,7 @@
       "MovementPenalty":0.03,
       "Ward":42
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4098,6 +4161,7 @@
       "MovementPenalty":0.015,
       "Ward":62
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4124,6 +4188,7 @@
       "Evasion":45,
       "Ward":45
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4153,6 +4218,7 @@
       "MovementPenalty":0.015,
       "Ward":45
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4180,6 +4246,7 @@
       "Evasion":108,
       "Ward":36
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4209,6 +4276,7 @@
       "MovementPenalty":0.015,
       "Ward":82
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4236,6 +4304,7 @@
       "Evasion":114,
       "Ward":12
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4263,6 +4332,7 @@
       "MovementPenalty":0.03,
       "Ward":57
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4289,6 +4359,7 @@
       "Evasion":67,
       "Ward":23
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4317,6 +4388,7 @@
       "MovementPenalty":0.03,
       "Ward":29
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4343,6 +4415,7 @@
       "Evasion":66,
       "Ward":28
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4372,6 +4445,7 @@
       "MovementPenalty":0.015,
       "Ward":12
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4399,6 +4473,7 @@
       "Evasion":61,
       "Ward":33
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4427,6 +4502,7 @@
       "MovementPenalty":0.03,
       "Ward":23
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4454,6 +4530,7 @@
       "MovementPenalty":0.03,
       "Ward":70
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Raise Shield",
     "implicitModTypes":[],
     "quality":20,
@@ -4473,12 +4550,44 @@
     },
     "type":"Shield"
   },
+  "Runemastered Venerable Defender":{
+    "armour":{
+      "Armour":89,
+      "BlockChance":25,
+      "Evasion":81,
+      "MovementPenalty":0.015,
+      "Ward":42
+    },
+    "hidden":true,
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":67,
+      "level":65,
+      "str":67
+    },
+    "socketLimit":3,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "buckler":true,
+      "default":true,
+      "karui_basetype":true,
+      "runeforged":true,
+      "shield":true,
+      "str_dex_armour":true,
+      "str_dex_shield":true
+    },
+    "type":"Shield"
+  },
   "Runemastered Wooden Buckler":{
     "armour":{
       "BlockChance":20,
       "Evasion":90,
       "Ward":18
     },
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Parry",
     "implicitModTypes":[],
     "quality":20,
@@ -4906,6 +5015,34 @@
       "shield":true,
       "str_armour":true,
       "str_shield":true
+    },
+    "type":"Shield"
+  },
+  "Venerable Defender":{
+    "armour":{
+      "Armour":107,
+      "BlockChance":28,
+      "Evasion":97,
+      "MovementPenalty":0.015
+    },
+    "hidden":true,
+    "implicit":"Grants Skill: Level (1-20) Raise Shield",
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":64,
+      "level":62,
+      "str":64
+    },
+    "socketLimit":3,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "karui_basetype":true,
+      "shield":true,
+      "str_dex_armour":true,
+      "str_dex_shield":true
     },
     "type":"Shield"
   },

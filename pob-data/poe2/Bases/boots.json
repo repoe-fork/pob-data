@@ -21,6 +21,29 @@
     },
     "type":"Boots"
   },
+  "Ancient Leggings":{
+    "armour":{
+      "Armour":134,
+      "EnergyShield":37
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":56,
+      "level":65,
+      "str":56
+    },
+    "socketLimit":3,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "boots":true,
+      "default":true,
+      "str_int_armour":true
+    },
+    "type":"Boots"
+  },
   "Apostle Leggings":{
     "armour":{
       "Armour":134,
@@ -3019,12 +3042,38 @@
     },
     "type":"Boots"
   },
+  "Runemastered Ancient Leggings":{
+    "armour":{
+      "Armour":107,
+      "EnergyShield":30,
+      "Ward":53
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":56,
+      "level":65,
+      "str":56
+    },
+    "socketLimit":3,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "boots":true,
+      "default":true,
+      "runeforged":true,
+      "str_int_armour":true
+    },
+    "type":"Boots"
+  },
   "Runemastered Braced Sabatons":{
     "armour":{
       "Armour":66,
       "Evasion":59,
       "Ward":34
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3050,6 +3099,7 @@
       "Armour":135,
       "Ward":20
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3074,6 +3124,7 @@
       "Evasion":178,
       "Ward":74
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3097,6 +3148,7 @@
       "Evasion":63,
       "Ward":73
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3121,6 +3173,7 @@
       "Evasion":94,
       "Ward":41
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3145,6 +3198,7 @@
       "EnergyShield":33,
       "Ward":42
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3170,6 +3224,7 @@
       "Evasion":41,
       "Ward":106
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3195,6 +3250,7 @@
       "Evasion":70,
       "Ward":28
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3219,6 +3275,7 @@
       "Armour":120,
       "Ward":27
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3243,6 +3300,7 @@
       "Evasion":54,
       "Ward":81
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3267,6 +3325,7 @@
       "EnergyShield":34,
       "Ward":34
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3291,6 +3350,7 @@
       "Evasion":99,
       "Ward":42
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3315,6 +3375,7 @@
       "Evasion":44,
       "Ward":54
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3340,6 +3401,7 @@
       "Armour":150,
       "Ward":27
     },
+    "hidden":true,
     "implicit":"10% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3365,6 +3427,7 @@
       "EnergyShield":17,
       "Ward":41
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3390,6 +3453,7 @@
       "EnergyShield":36,
       "Ward":54
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3414,6 +3478,7 @@
       "Evasion":155,
       "Ward":21
     },
+    "hidden":true,
     "implicit":"10% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3439,6 +3504,7 @@
       "Evasion":113,
       "Ward":28
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3462,6 +3528,7 @@
       "Armour":157,
       "Ward":46
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3485,6 +3552,7 @@
       "EnergyShield":45,
       "Ward":34
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3510,6 +3578,7 @@
       "Evasion":55,
       "Ward":34
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3535,6 +3604,7 @@
       "Armour":79,
       "Ward":71
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -3560,6 +3630,7 @@
       "Evasion":85,
       "Ward":63
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -3583,6 +3654,7 @@
       "EnergyShield":41,
       "Ward":41
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,

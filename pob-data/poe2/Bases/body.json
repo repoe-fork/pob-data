@@ -112,6 +112,30 @@
     },
     "type":"Body Armour"
   },
+  "Ancient Mail":{
+    "armour":{
+      "Armour":273,
+      "EnergyShield":76,
+      "MovementPenalty":0.04
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":67,
+      "level":70,
+      "str":67
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "str_int_armour":true
+    },
+    "type":"Body Armour"
+  },
   "Arcane Raiment":{
     "armour":{
       "EnergyShield":138,
@@ -1904,6 +1928,30 @@
     },
     "type":"Body Armour"
   },
+  "Ornate Ringmail":{
+    "armour":{
+      "Armour":749,
+      "EnergyShield":220,
+      "MovementPenalty":0.04
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":45,
+      "level":43,
+      "str":45
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "str_int_armour":true
+    },
+    "type":"Body Armour"
+  },
   "Patchwork Vest":{
     "armour":{
       "Evasion":320,
@@ -2032,6 +2080,30 @@
       "body_armour":true,
       "default":true,
       "str_int_armour":true
+    },
+    "type":"Body Armour"
+  },
+  "Primal Markings":{
+    "armour":{
+      "EnergyShield":82,
+      "Evasion":268,
+      "MovementPenalty":0.03
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":67,
+      "int":67,
+      "level":70
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "dex_int_armour":true
     },
     "type":"Body Armour"
   },
@@ -3210,6 +3282,7 @@
       "MovementPenalty":0.05,
       "Ward":69
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -4203,6 +4276,32 @@
       "default":true,
       "runeforged":true,
       "str_int_armour":true
+    },
+    "type":"Body Armour"
+  },
+  "Runeforged Primal Markings":{
+    "armour":{
+      "EnergyShield":72,
+      "Evasion":236,
+      "MovementPenalty":0.03,
+      "Ward":86
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":67,
+      "int":67,
+      "level":70
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "runeforged":true
     },
     "type":"Body Armour"
   },
@@ -5431,6 +5530,7 @@
       "MovementPenalty":0.03,
       "Ward":149
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5456,6 +5556,7 @@
       "MovementPenalty":0.04,
       "Ward":107
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5482,6 +5583,7 @@
       "MovementPenalty":0.03,
       "Ward":130
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5501,12 +5603,39 @@
     },
     "type":"Body Armour"
   },
+  "Runemastered Ancient Mail":{
+    "armour":{
+      "Armour":218,
+      "EnergyShield":61,
+      "MovementPenalty":0.04,
+      "Ward":86
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":67,
+      "level":70,
+      "str":67
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "runeforged":true,
+      "str_int_armour":true
+    },
+    "type":"Body Armour"
+  },
   "Runemastered Armoured Vest":{
     "armour":{
       "Evasion":361,
       "MovementPenalty":0.03,
       "Ward":129
     },
+    "hidden":true,
     "implicit":"(30-40)% increased Elemental Ailment Threshold",
     "implicitModTypes":[["ailment"]],
     "quality":20,
@@ -5532,6 +5661,7 @@
       "MovementPenalty":0.03,
       "Ward":43
     },
+    "hidden":true,
     "implicit":"5% increased Movement Speed",
     "implicitModTypes":[["speed"]],
     "quality":20,
@@ -5557,6 +5687,7 @@
       "MovementPenalty":0.03,
       "Ward":138
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5582,6 +5713,7 @@
       "MovementPenalty":0.04,
       "Ward":55
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5608,6 +5740,7 @@
       "MovementPenalty":0.04,
       "Ward":75
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5634,6 +5767,7 @@
       "MovementPenalty":0.04,
       "Ward":115
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5660,6 +5794,7 @@
       "MovementPenalty":0.04,
       "Ward":86
     },
+    "hidden":true,
     "implicit":"+(20-30) to Spirit",
     "implicitModTypes":[[]],
     "quality":20,
@@ -5685,6 +5820,7 @@
       "MovementPenalty":0.03,
       "Ward":75
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5709,6 +5845,7 @@
       "MovementPenalty":0.03,
       "Ward":86
     },
+    "hidden":true,
     "implicit":"(40-50)% increased Mana Regeneration Rate",
     "implicitModTypes":[["resource","mana"]],
     "quality":20,
@@ -5734,6 +5871,7 @@
       "MovementPenalty":0.04,
       "Ward":56
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5759,6 +5897,7 @@
       "MovementPenalty":0.03,
       "Ward":86
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5782,6 +5921,7 @@
       "MovementPenalty":0.03,
       "Ward":99
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5806,6 +5946,7 @@
       "MovementPenalty":0.05,
       "Ward":126
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5828,6 +5969,7 @@
     "armour":{
       "Ward":99
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5851,6 +5993,7 @@
       "MovementPenalty":0.04,
       "Ward":86
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5877,6 +6020,7 @@
       "MovementPenalty":0.04,
       "Ward":86
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5904,6 +6048,7 @@
       "MovementPenalty":0.04,
       "Ward":322
     },
+    "hidden":true,
     "implicit":"Can roll Ring Modifiers\nCatalysts can be applied to this item",
     "implicitModTypes":[[],[]],
     "quality":20,
@@ -5930,6 +6075,7 @@
       "MovementPenalty":0.03,
       "Ward":129
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5954,6 +6100,7 @@
       "MovementPenalty":0.03,
       "Ward":28
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -5980,6 +6127,7 @@
       "MovementPenalty":0.04,
       "Ward":215
     },
+    "hidden":true,
     "implicit":"+(60-80) to maximum Life",
     "implicitModTypes":[["resource","life"]],
     "quality":20,
@@ -6005,6 +6153,7 @@
       "MovementPenalty":0.03,
       "Ward":83
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6029,6 +6178,7 @@
       "MovementPenalty":0.05,
       "Ward":55
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6054,6 +6204,7 @@
       "MovementPenalty":0.04,
       "Ward":37
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6079,6 +6230,7 @@
       "MovementPenalty":0.03,
       "Ward":55
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6104,6 +6256,7 @@
       "MovementPenalty":0.04,
       "Ward":93
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6129,6 +6282,7 @@
       "MovementPenalty":0.03,
       "Ward":165
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6154,6 +6308,7 @@
       "MovementPenalty":0.04,
       "Ward":83
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6180,6 +6335,7 @@
       "MovementPenalty":0.03,
       "Ward":110
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6205,6 +6361,7 @@
       "MovementPenalty":0.05,
       "Ward":28
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6223,12 +6380,39 @@
     },
     "type":"Body Armour"
   },
+  "Runemastered Ornate Ringmail":{
+    "armour":{
+      "Armour":210,
+      "EnergyShield":60,
+      "MovementPenalty":0.04,
+      "Ward":112
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "int":57,
+      "level":55,
+      "str":57
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "runeforged":true,
+      "str_int_armour":true
+    },
+    "type":"Body Armour"
+  },
   "Runemastered Pathfinder Coat":{
     "armour":{
       "Evasion":219,
       "MovementPenalty":0.03,
       "Ward":55
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6254,6 +6438,7 @@
       "MovementPenalty":0.04,
       "Ward":55
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6279,6 +6464,7 @@
       "MovementPenalty":0.03,
       "Ward":43
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6296,12 +6482,39 @@
     },
     "type":"Body Armour"
   },
+  "Runemastered Primal Markings":{
+    "armour":{
+      "EnergyShield":68,
+      "Evasion":223,
+      "MovementPenalty":0.03,
+      "Ward":107
+    },
+    "hidden":true,
+    "implicitModTypes":[],
+    "quality":20,
+    "req":{
+      "dex":67,
+      "int":67,
+      "level":80
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "body_armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "runeforged":true
+    },
+    "type":"Body Armour"
+  },
   "Runemastered Quilted Vest":{
     "armour":{
       "Evasion":178,
       "MovementPenalty":0.03,
       "Ward":152
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6326,6 +6539,7 @@
       "MovementPenalty":0.05,
       "Ward":221
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6351,6 +6565,7 @@
       "MovementPenalty":0.04,
       "Ward":301
     },
+    "hidden":true,
     "implicit":"+1% to all Maximum Elemental Resistances",
     "implicitModTypes":[["cold_resistance","elemental_resistance","fire_resistance","lightning_resistance","elemental","fire","cold","lightning","resistance"]],
     "quality":20,
@@ -6376,6 +6591,7 @@
       "MovementPenalty":0.03,
       "Ward":69
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6401,6 +6617,7 @@
       "MovementPenalty":0.04,
       "Ward":83
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6426,6 +6643,7 @@
       "MovementPenalty":0.05,
       "Ward":110
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6451,6 +6669,7 @@
       "MovementPenalty":0.04,
       "Ward":37
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6478,6 +6697,7 @@
       "MovementPenalty":0.03,
       "Ward":215
     },
+    "hidden":true,
     "implicit":"+1 to Level of all Corrupted Skill Gems",
     "implicitModTypes":[["gem"]],
     "quality":20,
@@ -6505,6 +6725,7 @@
       "MovementPenalty":0.04,
       "Ward":75
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6531,6 +6752,7 @@
       "MovementPenalty":0.03,
       "Ward":75
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6556,6 +6778,7 @@
       "MovementPenalty":0.03,
       "Ward":130
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6580,6 +6803,7 @@
       "MovementPenalty":0.03,
       "Ward":19
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6605,6 +6829,7 @@
       "MovementPenalty":0.04,
       "Ward":44
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6630,6 +6855,7 @@
       "MovementPenalty":0.03,
       "Ward":138
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6654,6 +6880,7 @@
       "MovementPenalty":0.03,
       "Ward":110
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6678,6 +6905,7 @@
       "MovementPenalty":0.03,
       "Ward":86
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6702,6 +6930,7 @@
       "MovementPenalty":0.05,
       "Ward":43
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6726,6 +6955,7 @@
       "MovementPenalty":0.03,
       "Ward":107
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6749,6 +6979,7 @@
       "MovementPenalty":0.03,
       "Ward":29
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6773,6 +7004,7 @@
       "MovementPenalty":0.03,
       "Ward":138
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6798,6 +7030,7 @@
       "MovementPenalty":0.04,
       "Ward":129
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6823,6 +7056,7 @@
       "MovementPenalty":0.05,
       "Ward":93
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6848,6 +7082,7 @@
       "MovementPenalty":0.04,
       "Ward":41
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6873,6 +7108,7 @@
       "MovementPenalty":0.03,
       "Ward":186
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6898,6 +7134,7 @@
       "MovementPenalty":0.03,
       "Ward":69
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{
@@ -6924,6 +7161,7 @@
       "MovementPenalty":0.03,
       "Ward":43
     },
+    "hidden":true,
     "implicitModTypes":[],
     "quality":20,
     "req":{

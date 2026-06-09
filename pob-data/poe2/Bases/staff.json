@@ -526,6 +526,7 @@
     "type":"Staff"
   },
   "Perching Staff":{
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Spiraling Conspiracy",
     "implicitModTypes":[],
     "quality":20,
@@ -539,6 +540,7 @@
     "type":"Staff"
   },
   "Permafrost Staff":{
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Heart of Ice",
     "implicitModTypes":[],
     "quality":20,
@@ -652,6 +654,7 @@
     "type":"Staff"
   },
   "Reflecting Staff":{
+    "hidden":true,
     "implicit":"Grants Skill: Level (1-20) Mirror of Refraction",
     "implicitModTypes":[],
     "quality":20,
@@ -693,6 +696,35 @@
       "twohand":true
     },
     "type":"Staff"
+  },
+  "Runemastered Warding Quarterstaff":{
+    "hidden":true,
+    "implicit":"+(30-50) to maximum Runic Ward",
+    "implicitModTypes":[["runic_ward"]],
+    "quality":20,
+    "req":{
+      "dex":127,
+      "int":50,
+      "level":65
+    },
+    "socketLimit":4,
+    "subType":"Warstaff",
+    "tags":{
+      "default":true,
+      "runeforged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "warstaff":true,
+      "weapon":true
+    },
+    "type":"Staff",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":10,
+      "PhysicalMax":141,
+      "PhysicalMin":85,
+      "Range":14
+    }
   },
   "Sanctified Staff":{
     "implicit":"Grants Skill: Level (1-20) Consecrate",
@@ -898,6 +930,34 @@
       "twohand":true
     },
     "type":"Staff"
+  },
+  "Warding Quarterstaff":{
+    "hidden":true,
+    "implicit":"+(30-50) to maximum Runic Ward",
+    "implicitModTypes":[["runic_ward"]],
+    "quality":20,
+    "req":{
+      "dex":127,
+      "int":50,
+      "level":65
+    },
+    "socketLimit":4,
+    "subType":"Warstaff",
+    "tags":{
+      "default":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "warstaff":true,
+      "weapon":true
+    },
+    "type":"Staff",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":10,
+      "PhysicalMax":85,
+      "PhysicalMin":51,
+      "Range":14
+    }
   },
   "Waxing Quarterstaff":{
     "implicitModTypes":[],
