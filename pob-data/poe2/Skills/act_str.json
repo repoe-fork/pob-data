@@ -60288,6 +60288,35 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"wolf_cross_slash_mark",
+        "statMap":{
+          "skill_wolf_mark_damage_taken_+%_cap":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Multiplier:PredatorsMarkLimit",
+              "type":"BASE",
+              "1":{
+                "effectType":"Curse",
+                "type":"GlobalEffect"
+              }
+            }],
+          "skill_wolf_mark_damage_taken_+%_per_nearby_enemy":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageTaken",
+              "type":"INC",
+              "1":{
+                "actor":"player",
+                "limitTotal":true,
+                "limitVar":"PredatorsMarkLimit",
+                "type":"Multiplier",
+                "var":"MinionPresenceCount"
+              },
+              "2":{
+                "effectType":"Curse",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["base_deal_no_damage","can_perform_skill_while_moving","triggerable_in_any_set","usable_while_shapeshifted","secondary_skill_triggered_by_primary_skill_of_gem"]
       }]
   },
