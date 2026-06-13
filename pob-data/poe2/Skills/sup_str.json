@@ -919,10 +919,10 @@
     "support":true
   },
   "SupportBattershoutPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[135,279],
     "color":1,
     "description":"Supports Warcry Skills. Supported Skills Consume Fully Broken Armour to trigger Physical Damage explosions on Enemies within their range but cannot themselves Break Armour. ",
-    "excludeSkillTypes":[],
+    "excludeSkillTypes":[135,279,75,74],
     "gemFamily":["Battershout"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2794,10 +2794,10 @@
     "support":true
   },
   "SupportExploitWeaknessPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[135,281],
     "color":1,
     "description":"Supports any skill that Hits enemies, causing them to deal more Damage against enemies with Broken Armour but preventing them from Breaking Armour themselves. Cannot support skills that Consume Broken Armour.",
-    "excludeSkillTypes":[135],
+    "excludeSkillTypes":[135,281,75,74],
     "gemFamily":["ExploitWeakness"],
     "levels":[{
         "levelRequirement":0,
@@ -4009,10 +4009,10 @@
     "support":true
   },
   "SupportJaggedGroundPlayer":{
-    "addSkillTypes":[9,8,167],
+    "addSkillTypes":[9,8,167,131,172,287],
     "color":1,
-    "description":"Supports Slam skills. Supported Skills will consume Endurance Charges on use to create Jagged Ground.",
-    "excludeSkillTypes":[235],
+    "description":"Supports Slam skills. Supported Skills will consume Endurance Charges on use to create Jagged Ground. Cannot Support Skills which consume Endurance Charges.",
+    "excludeSkillTypes":[235,172,287,75,74],
     "gemFamily":["JaggedGround"],
     "levels":[{
         "levelRequirement":0,
@@ -4506,7 +4506,7 @@
         "manaMultiplier":10
       }],
     "name":"Minion Splash I",
-    "requireSkillTypes":[6,21,74],
+    "requireSkillTypes":[77,21,74],
     "statSets":[{
         "baseFlags":[],
         "incrementalEffectiveness":0.054999999701977,
@@ -4530,7 +4530,7 @@
         "manaMultiplier":10
       }],
     "name":"Minion Splash II",
-    "requireSkillTypes":[6,21,74],
+    "requireSkillTypes":[77,21,74],
     "statSets":[{
         "baseFlags":[],
         "constantStats":[["minion_skill_area_of_effect_+%",20]],
@@ -7008,8 +7008,7 @@
       "37":true,
       "50":true,
       "83":true,
-      "115":true,
-      "121":true
+      "115":true
     },
     "statSets":[{
         "baseEffectiveness":5.5,
@@ -7440,8 +7439,7 @@
       "37":true,
       "50":true,
       "83":true,
-      "115":true,
-      "121":true
+      "115":true
     },
     "statSets":[{
         "baseEffectiveness":6.5,
@@ -7872,8 +7870,7 @@
       "37":true,
       "50":true,
       "83":true,
-      "115":true,
-      "121":true
+      "115":true
     },
     "statSets":[{
         "baseEffectiveness":5.5,
@@ -8129,7 +8126,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"triggered_fissure_on_landing",
-        "stats":["is_area_damage","shapeshift_ignore_form_check","ignore_talisman_inherent_form_restriction","usable_with_talisman","usable_while_shapeshifted"]
+        "stats":["is_area_damage","triggerable_in_any_set","display_statset_hide_usage_stats"]
       }]
   },
   "TriggeredDeadlyResolvePlayer":{
@@ -8431,7 +8428,6 @@
       "83":true,
       "115":true,
       "118":true,
-      "121":true,
       "166":true
     },
     "statSets":[{

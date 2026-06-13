@@ -15693,6 +15693,13 @@
         "type":"INC",
         "value":-15
       }]],
+  "15% reduced Effect of Chill on you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfChillEffect",
+        "type":"INC",
+        "value":-15
+      }]],
   "15% reduced Flask Charges used":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15738,6 +15745,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"CurseEffectOnSelf",
+        "type":"INC",
+        "value":-15
+      }]],
+  "15% reduced effect of Shock on you":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SelfShockEffect",
         "type":"INC",
         "value":-15
       }]],
@@ -42287,12 +42301,40 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Can Allocate Passive Skills from the Mercenary's starting point":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AlternateClassStart",
+        "type":"LIST",
+        "value":"Mercenary"
+      }]],
+  "Can Allocate Passive Skills from the Ranger's starting point":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AlternateClassStart",
+        "type":"LIST",
+        "value":"Ranger"
+      }]],
+  "Can Allocate Passive Skills from the Shadow's starting point":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AlternateClassStart",
+        "type":"LIST",
+        "value":"Shadow"
+      }]],
   "Can Allocate Passive Skills from the Sorceress's starting point":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"AlternateClassStart",
         "type":"LIST",
         "value":"Sorceress"
+      }]],
+  "Can Allocate Passive Skills from the Templar's starting point":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AlternateClassStart",
+        "type":"LIST",
+        "value":"Templar"
       }]],
   "Can Allocate Passive Skills from the Warrior's starting point":[[{
         "flags":0,
@@ -42583,13 +42625,8 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Cannot be Used manually":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"UsedManuallyImmune",
-        "type":"FLAG",
-        "value":true
-      }]],
+  "Cannot be Used manually":[[],"Used manually "],
+  "Cannot be Used manually Used when you release a skill with Perfect Timing":[[],"Used manually Used when you release a skill with Perfect Timing "],
   "Cannot collide with targets":[null,"Cannot collide with targets "],
   "Cannot gain Spirit from Equipment":[[{
         "flags":0,
@@ -51627,7 +51664,6 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Jewel Socket":[null,"Jewel Socket "],
   "Knockback direction is reversed":[[{
         "flags":0,
         "keywordFlags":0,
@@ -56449,6 +56485,7 @@
   "Share Charges with Allies in your Presence":[null,"Share Charges with "],
   "Shocking Hits have a 50% chance to also Shock enemies in a 1.5 metre radius":[null,"Shocking Hits have a 50% chance to also Shock enemies in a 1.5 metre radius "],
   "Shocks you when you reach maximum Power Charges":[null,"Shocks you when you reach maximum Power Charges "],
+  "Sinister Jewel Socket":[null,"Sinister Jewel Socket "],
   "Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created":[[{
         "flags":0,
         "keywordFlags":0,
@@ -57436,9 +57473,7 @@
           "var":"LeechingMana"
         }
       }]],
-  "Unaffected by Chilled Ground":[null,"Unaffected by Chilled Ground "],
   "Unaffected by Elemental Weakness":[null,"Unaffected by Elemental Weakness "],
-  "Unaffected by Shocked Ground":[null,"Unaffected by Shocked Ground "],
   "Unarmed Attacks that would use an Equipped One Hand Mace's damage use this Item's damage":[[{
         "flags":0,
         "keywordFlags":0,

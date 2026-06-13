@@ -669,7 +669,6 @@
       "50":true,
       "83":true,
       "91":true,
-      "121":true,
       "162":true,
       "192":true,
       "218":true
@@ -1025,7 +1024,6 @@
       "50":true,
       "83":true,
       "93":true,
-      "121":true,
       "218":true
     },
     "statSets":[{
@@ -7061,6 +7059,7 @@
     "skillTypes":{
       "2":true,
       "5":true,
+      "7":true,
       "8":true,
       "9":true,
       "12":true,
@@ -30566,7 +30565,7 @@
           "attack":true,
           "projectile":true
         },
-        "constantStats":[["active_skill_base_area_of_effect_radius",16],["active_skill_base_physical_damage_%_to_convert_to_fire",60],["projectile_maximum_range_override",60],["active_skill_attack_speed_+%_final_while_dual_wielding",-15],["molten_blast_projectile_speed_as_%_of_attack_time",150],["molten_blast_target_range",60],["attack_maximum_action_distance_+",8],["active_skill_ignite_chance_+%_final",200],["active_skill_ignite_duration_+%_final",100]],
+        "constantStats":[["active_skill_base_area_of_effect_radius",16],["active_skill_base_physical_damage_%_to_convert_to_fire",60],["projectile_maximum_range_override",60],["active_skill_attack_speed_+%_final_while_dual_wielding",-15],["molten_blast_projectile_speed_as_%_of_attack_time",150],["molten_blast_target_range",60],["attack_maximum_action_distance_+",8],["active_skill_ignite_chance_+%_final",200],["active_skill_ignite_duration_+%_final",100],["base_number_of_projectiles",1]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Projectile",
         "levels":[{
@@ -60317,7 +60316,7 @@
               }
             }]
         },
-        "stats":["base_deal_no_damage","can_perform_skill_while_moving","triggerable_in_any_set","usable_while_shapeshifted","secondary_skill_triggered_by_primary_skill_of_gem"]
+        "stats":["base_deal_no_damage","can_perform_skill_while_moving","triggerable_in_any_set","secondary_skill_triggered_by_primary_skill_of_gem"]
       }]
   },
   "WolfPouncePlayer":{
@@ -61151,7 +61150,7 @@
             "1":8
           }],
         "statDescriptionScope":"skill_stat_descriptions",
-        "stats":["number_of_wolves_allowed","no_minion_duration","any_weapon_type_allowed","usable_with_talisman","usable_while_shapeshifted","triggerable_in_any_set","display_statset_no_hit_damage","secondary_skill_triggered_by_primary_skill_of_gem"]
+        "stats":["number_of_wolves_allowed","no_minion_duration","any_weapon_type_allowed","usable_with_talisman","triggerable_in_any_set","display_statset_no_hit_damage","secondary_skill_triggered_by_primary_skill_of_gem"]
       }]
   },
   "WyvernDevourPlayer":{

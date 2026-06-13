@@ -5757,7 +5757,7 @@
             "1":9
           }],
         "statDescriptionScope":"ice_fragments",
-        "stats":["base_number_of_projectiles","base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","usable_while_shapeshifted","is_area_damage"]
+        "stats":["base_number_of_projectiles","base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","is_area_damage","display_statset_hide_usage_stats"]
       }]
   },
   "EscapeShotPlayer":{
@@ -11779,7 +11779,7 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"ice_fragments",
-        "stats":["base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","usable_while_shapeshifted","is_area_damage","secondary_skill_triggered_by_primary_skill_of_gem"]
+        "stats":["base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","is_area_damage","secondary_skill_triggered_by_primary_skill_of_gem","display_statset_hide_usage_stats"]
       }]
   },
   "IceTippedArrowsPlayer":{
@@ -19097,6 +19097,7 @@
     "minionList":["SummonedRhoa"],
     "minionSkillTypes":{
       "1":true,
+      "8":true,
       "20":true,
       "21":true
     },

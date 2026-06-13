@@ -50715,8 +50715,10 @@
     "minionList":["SummonedRagingSpirit"],
     "minionSkillTypes":{
       "1":true,
+      "8":true,
       "20":true,
-      "21":true
+      "21":true,
+      "28":true
     },
     "name":"Raging Spirits",
     "qualityStats":[["base_number_of_raging_spirits_allowed",0.1]],
@@ -61636,6 +61638,7 @@
     "minionList":["RaisedSkeletonReaver"],
     "minionSkillTypes":{
       "1":true,
+      "8":true,
       "20":true,
       "21":true
     },
@@ -62369,6 +62372,7 @@
     "minionList":["RaisedSkeletonWarriors"],
     "minionSkillTypes":{
       "1":true,
+      "8":true,
       "20":true,
       "21":true
     },
@@ -68527,7 +68531,12 @@
         "levelRequirement":90
       }],
     "minionList":["UnearthBoneConstruct"],
-    "minionSkillTypes":[true],
+    "minionSkillTypes":{
+      "1":true,
+      "8":true,
+      "20":true,
+      "21":true
+    },
     "name":"Unearth",
     "qualityStats":[["base_skill_effect_duration",250],["minion_movement_speed_+%",2.5]],
     "skillTypes":{

@@ -2000,10 +2000,10 @@
     "support":true
   },
   "SupportFerocityPlayer":{
-    "addSkillTypes":[173],
+    "addSkillTypes":[131,173,171],
     "color":2,
-    "description":"Supports Skills that you use yourself. Supported Skills will consume a Frenzy Charge on use if possible, and will gain significant Skill Speed if they do. Supported Skills cannot generate Frenzy Charges.",
-    "excludeSkillTypes":[221,171,173,75,74,258,37,140],
+    "description":"Supports Skills that you use yourself. Supported Skills will consume a Frenzy Charge on use if possible, and will gain significant Skill Speed if they do, but cannot generate Frenzy Charges. Cannot Support Skills which consume Frenzy Charges.",
+    "excludeSkillTypes":[171,173,75,74,258,37,140],
     "gemFamily":["Ferocity"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2114,10 +2114,10 @@
     "support":true
   },
   "SupportFrenziedRipostePlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[216,289],
     "color":2,
     "description":"Supports Attacks you use or Trigger yourself, causing them to Consume the Parried Debuff on Hit to grant you a Frenzy Charge. Cannot support Skills which already Consume the Parried Debuff.",
-    "excludeSkillTypes":[258,140,216],
+    "excludeSkillTypes":[258,140,216,289,75,74],
     "gemFamily":["Retort"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -5860,7 +5860,7 @@
             }
           }
         },
-        "stats":["active_skill_base_area_of_effect_radius","skill_specific_stat_description_mode","triggerable_in_any_set","usable_while_shapeshifted","cannot_electrocute"]
+        "stats":["active_skill_base_area_of_effect_radius","skill_specific_stat_description_mode","triggerable_in_any_set","cannot_electrocute","display_statset_hide_usage_stats","is_area_damage"]
       }]
   },
   "TriggeredPoisonSporesPustule":{
@@ -6704,7 +6704,7 @@
             "actorLevel":1
           }],
         "statDescriptionScope":"triggered_support_frozen_spite_ice_fragment",
-        "stats":["base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","usable_while_shapeshifted","is_area_damage","never_freeze"]
+        "stats":["base_is_projectile","ballistic_projectiles_always_bounce","triggerable_in_any_set","is_area_damage","never_freeze"]
       }]
   }
 }

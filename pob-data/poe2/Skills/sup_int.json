@@ -1439,10 +1439,10 @@
       }]
   },
   "SupportAbidingHexPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[131,170,288],
     "color":3,
-    "description":"Supports Curse Skills you cast yourself. Supported Skills will consume Power Charges on use, gaining significant Curse duration if they do.",
-    "excludeSkillTypes":[39,258,37,140],
+    "description":"Supports Curse Skills you cast yourself. Supported Skills will consume Power Charges on use, gaining significant Curse duration if they do. Cannot Support Skills which consume Power Charges.",
+    "excludeSkillTypes":[39,258,37,140,170,288,75,74],
     "gemFamily":["AbidingHex"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -2020,10 +2020,10 @@
     "support":true
   },
   "SupportBitingFrostPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[136,286],
     "color":3,
     "description":"Supports any skill that Hits enemies, causing them to deal more damage to Frozen enemies but consume their Freeze. Cannot support skills that Consume Freeze.",
-    "excludeSkillTypes":[136,144],
+    "excludeSkillTypes":[136,286,75,74],
     "gemFamily":["BitingFrost"],
     "levels":[{
         "levelRequirement":0,
@@ -2074,10 +2074,10 @@
     "support":true
   },
   "SupportBitingFrostPlayerTwo":{
-    "addSkillTypes":[],
+    "addSkillTypes":[136,286],
     "color":3,
     "description":"Supports any skill that Hits enemies, causing them to deal more damage to Frozen enemies but consume their Freeze, leaving them Chilled. Cannot support skills that Consume Freeze.",
-    "excludeSkillTypes":[136,144],
+    "excludeSkillTypes":[136,286,75,74],
     "gemFamily":["BitingFrost"],
     "levels":[{
         "levelRequirement":0,
@@ -2967,10 +2967,10 @@
     "support":true
   },
   "SupportCreepingChillPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[131,170,290],
     "color":3,
     "description":"Supports any Skill that creates Ice Crystals, causing that Skill to Consume a Power Charge if possible to create Chilled Ground around the Crystal.",
-    "excludeSkillTypes":[],
+    "excludeSkillTypes":[170,290,75,74],
     "gemFamily":["CreepingChill"],
     "levels":[{
         "levelRequirement":0
@@ -3407,10 +3407,10 @@
     "support":true
   },
   "SupportDrainedAilmentPlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[136,137,138,210,211,282],
     "color":3,
     "description":"Supports Spells that deal non-Ailment damage over time, causing them to consume Ailments on enemies it applies damage over time Debuffs to in order to deal substantially more damage over time.",
-    "excludeSkillTypes":[],
+    "excludeSkillTypes":[136,137,73,138,73,210,73,211,73,282,75,74],
     "gemFamily":["DrainAilments"],
     "levels":[{
         "levelRequirement":0
@@ -3467,10 +3467,10 @@
     "support":true
   },
   "SupportElementalDischargePlayer":{
-    "addSkillTypes":[144],
+    "addSkillTypes":[136,137,138,144],
     "color":3,
-    "description":"Supports any Spell that Hits enemies, causing it to consume Elemental Ailments on hit to trigger an Elemental Discharge. Cannot support the skills of Minions.",
-    "excludeSkillTypes":[136,137,138],
+    "description":"Supports any Spell that Hits enemies, causing it to Consume Elemental Ailments on hit to trigger an Elemental Discharge. Cannot support the skills of Minions or skills which already Consume Elemental Ailments.",
+    "excludeSkillTypes":[136,137,73,138,73,144,75,74],
     "gemFamily":["ElementalDischarge"],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4344,10 +4344,10 @@
     "support":true
   },
   "SupportFrostfirePlayer":{
-    "addSkillTypes":[],
+    "addSkillTypes":[136,285],
     "color":3,
-    "description":"Supports any skill that Hits enemies, causing it to Consume Freeze on Igniting a Frozen enemy to boost the effect of the Ignite.",
-    "excludeSkillTypes":[137,144],
+    "description":"Supports any skill that Hits enemies, causing it to Consume Freeze on Igniting a Frozen enemy to boost the effect of the Ignite. Cannot support skills that Consume Freeze or Ignite.",
+    "excludeSkillTypes":[137,136,285,75,74],
     "gemFamily":["FrostFire"],
     "levels":[{
         "levelRequirement":0
@@ -8266,6 +8266,9 @@
       "2":true,
       "7":true,
       "8":true,
+      "28":true,
+      "29":true,
+      "30":true,
       "31":true,
       "37":true,
       "50":true,
@@ -10867,6 +10870,9 @@
       "2":true,
       "7":true,
       "8":true,
+      "28":true,
+      "29":true,
+      "30":true,
       "31":true,
       "37":true,
       "50":true,
@@ -15418,7 +15424,7 @@
           }],
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"triggered_grounding_shocks",
-        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","never_shock","shapeshift_ignore_form_check","usable_with_talisman","usable_while_shapeshifted"]
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","never_shock","triggerable_in_any_set","display_statset_hide_usage_stats"]
       }]
   },
   "TriggeredXibaquasRendingPlayer":{

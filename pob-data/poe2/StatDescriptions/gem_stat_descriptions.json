@@ -8166,7 +8166,7 @@
     "stats":["loyalty_%_of_redirected_damage_recouped_as_life_for_owner"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"You Recoup {0}% of Damage taken by Supported Minions this way as Life"
+        "text":"You Recoup {0}% of Damage taken from Supported Minion's Life this way as Life"
       }]
   },
   "624":{
@@ -10264,11 +10264,7 @@
     "stats":["support_%_of_total_cast_time_as_base_skill_seal_gain_interval"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"Supported Spells gain a Seal every {0}% of cast time",
-        "1":{
-          "k":"milliseconds_to_seconds_2dp_if_required",
-          "v":1
-        }
+        "text":"Supported Spells gain a Seal every {0}% of cast time"
       }]
   },
   "831":{
