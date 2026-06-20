@@ -11088,9 +11088,8 @@
         "type":"INC",
         "value":10,
         "1":{
-          "includeTransfigured":true,
-          "skillName":"Grenade",
-          "type":"SkillName"
+          "skillType":159,
+          "type":"SkillType"
         }
       }]],
   "10% increased Hazard Area of Effect":[[{
@@ -13335,9 +13334,8 @@
         "type":"INC",
         "value":12,
         "1":{
-          "includeTransfigured":true,
-          "skillName":"Grenade",
-          "type":"SkillName"
+          "skillType":159,
+          "type":"SkillType"
         }
       }]],
   "12% increased Ignite Magnitude":[[{
@@ -14421,11 +14419,10 @@
         "type":"INC",
         "value":15,
         "1":{
-          "includeTransfigured":true,
-          "skillName":"Grenade",
-          "type":"SkillName"
+          "skillType":159,
+          "type":"SkillType"
         }
-      }],"  forSkills "],
+      }]],
   "15% increased Cost Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25355,27 +25352,10 @@
         "type":"INC",
         "value":40,
         "1":{
-          "includeTransfigured":true,
-          "skillName":"Grenade",
-          "type":"SkillName"
-        }
-      }],"  forSkills "],
-  "40% increased Cooldown Recovery Rate for Grenade Skills 80% reduced Grenade Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CooldownRecovery",
-        "type":"INC",
-        "value":40,
-        "1":{
           "skillType":159,
           "type":"SkillType"
-        },
-        "2":{
-          "includeTransfigured":true,
-          "skillName":"Grenade",
-          "type":"SkillName"
         }
-      }],"  forSkills 80% reduced  Damage "],
+      }]],
   "40% increased Critical Damage Bonus":[[{
         "flags":0,
         "keywordFlags":0,
@@ -31377,9 +31357,8 @@
         "type":"INC",
         "value":-80,
         "1":{
-          "includeTransfigured":true,
-          "skillName":"Grenade",
-          "type":"SkillName"
+          "skillType":159,
+          "type":"SkillType"
         }
       }]],
   "800% increased Armour":[[{
@@ -46610,8 +46589,8 @@
   "Gain 1 Dark Whisper every second there is a Cursed Enemy in your Presence Curses you inflict can affect Hexproof Enemies":[[]," Dark Whisper every second there is a Cursed Enemy in your Presence Curses you inflict can affect Hexproof Enemies "],
   "Gain 1 Druidic Prowess for every 20 total Rage spent":[[]," Druidic Prowess for every 20 total Rage spent "],
   "Gain 1 Endurance Charge every second if you've been Hit Recently":[[]," Endurance Charge every second  "],
-  "Gain 1 Explosive Rhythm every 3 times you use a Grenade Skill":[[]," Explosive Rhythm every 3 times you use aSkill "],
-  "Gain 1 Explosive Rhythm every 3 times you use a Grenade Skill Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour for 10 Seconds":[[]," Explosive Rhythm every 3 times you use aSkill Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour  "],
+  "Gain 1 Explosive Rhythm every 3 times you use a Grenade Skill":[[]," Explosive Rhythm every 3 times you use a  Skill "],
+  "Gain 1 Explosive Rhythm every 3 times you use a Grenade Skill Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour for 10 Seconds":[[]," Explosive Rhythm every 3 times you use a  Skill Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour  "],
   "Gain 1 Fear Incarnate when you Cull a target":[[]," Fear Incarnate when you Cull a target "],
   "Gain 1 Fragile Regrowth each second":[[]," Fragile Regrowth each second "],
   "Gain 1 Life Flask Charge per 2% Life spent":[[{
@@ -50880,7 +50859,7 @@
           "var":"AlwaysHeavyStunning"
         }
       }]],
-  "Hits with this Weapon have 5% chance to Trigger Molten Shower per 25 Strength":[[]," to Trigger "],
+  "Hits with this Weapon have 5% chance to Trigger Molten Shower per 25 Strength":[[]," to Trigger Molten Shower  "],
   "Hits with this Weapon have 5% chance to Trigger Molten Shower per 25 Strength 120% increased Physical Damage":[[{
         "flags":4,
         "keywordFlags":0,
@@ -50899,13 +50878,8 @@
           "div":25,
           "stat":"Str",
           "type":"PerStat"
-        },
-        "4":{
-          "includeTransfigured":true,
-          "skillName":"Molten Shower",
-          "type":"SkillName"
         }
-      }]," to Trigger 120% increased  "],
+      }]," to Trigger Molten Shower  120% increased  "],
   "Hits with this Weapon have no Critical Damage Bonus":[[{
         "flags":0,
         "keywordFlags":0,
@@ -55775,7 +55749,7 @@
           "var":"UsingStaff"
         }
       }]],
-  "Raise Shield inflicts Parried for 2 seconds on Hit":[null,"inflicts Parried for 2 seconds on Hit "],
+  "Raise Shield inflicts Parried for 2 seconds on Hit":[null,"Raise Shield inflicts Parried for 2 seconds on Hit "],
   "Recoup 5% of damage taken by your Totems as Life":[null,"Recoup 5% of damage taken by your Totems as Life "],
   "Recoup 5% of damage taken by your Totems as Life Each Totem applies 2% increased Damage taken to Enemies in their Presence":[null,"Recoup 5% of damage taken by your Totems as Life Each Totem applies 2% increased Damage taken to Enemies in their Presence "],
   "Recover 1% of maximum Life on Kill":[[{

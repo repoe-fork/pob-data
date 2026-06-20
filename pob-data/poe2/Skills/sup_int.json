@@ -2158,6 +2158,12 @@
               "1":{
                 "type":"Condition",
                 "var":"CritRecently"
+              },
+              "2":{
+                "effectName":"Blazing Critical",
+                "effectType":"Buff",
+                "type":"GlobalEffect",
+                "unscalable":true
               }
             }]
         },
@@ -4646,7 +4652,7 @@
             }
           },
           "support_ice_bite_buff_grant_%_added_cold_attack_damage":[{
-              "flags":1,
+              "flags":0,
               "keywordFlags":0,
               "name":"DamageGainAsCold",
               "type":"BASE",
@@ -4705,7 +4711,7 @@
             }
           },
           "support_ice_bite_buff_grant_%_added_cold_attack_damage":[{
-              "flags":1,
+              "flags":0,
               "keywordFlags":0,
               "name":"DamageGainAsCold",
               "type":"BASE",
