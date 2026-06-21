@@ -606,7 +606,7 @@
     "group":"AdditionalArrowChanceCanExceed100%",
     "level":46,
     "modTags":["attack"],
-    "statOrder":[5504],
+    "statOrder":[5509],
     "tradeHashes":{
       "2463230181":["+(25-50)% Surpassing chance to fire an additional Arrow"]
     },
@@ -620,7 +620,7 @@
     "group":"AdditionalArrowChanceCanExceed100%",
     "level":55,
     "modTags":["attack"],
-    "statOrder":[5504],
+    "statOrder":[5509],
     "tradeHashes":{
       "2463230181":["+(75-100)% Surpassing chance to fire an additional Arrow"]
     },
@@ -634,7 +634,7 @@
     "group":"AdditionalArrowChanceCanExceed100%",
     "level":66,
     "modTags":["attack"],
-    "statOrder":[5504],
+    "statOrder":[5509],
     "tradeHashes":{
       "2463230181":["+(125-150)% Surpassing chance to fire an additional Arrow"]
     },
@@ -648,7 +648,7 @@
     "group":"AdditionalArrowChanceCanExceed100%",
     "level":82,
     "modTags":["attack"],
-    "statOrder":[5504],
+    "statOrder":[5509],
     "tradeHashes":{
       "2463230181":["+(175-200)% Surpassing chance to fire an additional Arrow"]
     },
@@ -662,7 +662,7 @@
     "group":"AdditionalArrowChanceCanExceed100%",
     "level":46,
     "modTags":["attack"],
-    "statOrder":[5504],
+    "statOrder":[5509],
     "tradeHashes":{
       "2463230181":["+(25-40)% Surpassing chance to fire an additional Arrow"]
     },
@@ -676,7 +676,7 @@
     "group":"AdditionalArrowChanceCanExceed100%",
     "level":80,
     "modTags":["attack"],
-    "statOrder":[5504],
+    "statOrder":[5509],
     "tradeHashes":{
       "2463230181":["+(41-60)% Surpassing chance to fire an additional Arrow"]
     },
@@ -858,7 +858,7 @@
     "group":"AlchemistsGeniusOnFlaskUseChance",
     "level":63,
     "modTags":["flask"],
-    "statOrder":[6725],
+    "statOrder":[6738],
     "tradeHashes":{
       "2989883253":["Gain Alchemist's Genius when you use a Flask"]
     },
@@ -1098,7 +1098,7 @@
     "group":"AilmentEffect",
     "level":45,
     "modTags":["damage","ailment"],
-    "statOrder":[4251],
+    "statOrder":[4256],
     "tradeHashes":{
       "1303248024":["(20-30)% increased Magnitude of Ailments you inflict"]
     },
@@ -1112,7 +1112,7 @@
     "group":"ArchonDuration",
     "level":45,
     "modTags":[],
-    "statOrder":[4336],
+    "statOrder":[4341],
     "tradeHashes":{
       "2158617060":["(35-42)% increased Archon Buff duration"]
     },
@@ -1126,7 +1126,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":45,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(10-15)% increased Area of Effect for Attacks"]
     },
@@ -1140,7 +1140,7 @@
     "group":"AttackSpeedWhileMissingRunicWard",
     "level":25,
     "modTags":[],
-    "statOrder":[4550],
+    "statOrder":[4555],
     "tradeHashes":{
       "325171970":["(10-15)% increased Attack Speed while missing Runic Ward"]
     },
@@ -1184,7 +1184,7 @@
     "group":"AdditionalBallistaTotem",
     "level":65,
     "modTags":[],
-    "statOrder":[4167],
+    "statOrder":[4172],
     "tradeHashes":{
       "1823942939":["+2 to maximum number of Summoned Ballista Totems"]
     },
@@ -1198,7 +1198,7 @@
     "group":"BellHitLimit",
     "level":65,
     "modTags":["attack"],
-    "statOrder":[4764],
+    "statOrder":[4769],
     "tradeHashes":{
       "3984146263":["Tempest Bells are destroyed after an additional (4-5) Hits"]
     },
@@ -1212,7 +1212,7 @@
     "group":"CastSpeedDamageAsExtraColdHybrid",
     "level":65,
     "modTags":[],
-    "statOrder":[987,9240],
+    "statOrder":[987,9257],
     "tradeHashes":{
       "1158842087":["Gain (11-16)% of Elemental Damage as Extra Cold Damage"],
       "2891184298":["(39-47)% increased Cast Speed"]
@@ -1222,6 +1222,22 @@
     "weightVal":[0],
     "1":"(39-47)% increased Cast Speed",
     "2":"Gain (11-16)% of Elemental Damage as Extra Cold Damage"
+  },
+  "AlloyCastSpeedDamageAsExtraColdHybridOneHand1":{
+    "affix":"of the Stars",
+    "group":"CastSpeedDamageAsExtraColdHybrid",
+    "level":65,
+    "modTags":[],
+    "statOrder":[987,9257],
+    "tradeHashes":{
+      "1158842087":["Gain (7-11)% of Elemental Damage as Extra Cold Damage"],
+      "2891184298":["(26-31)% increased Cast Speed"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(26-31)% increased Cast Speed",
+    "2":"Gain (7-11)% of Elemental Damage as Extra Cold Damage"
   },
   "AlloyCastSpeedGloves1":{
     "affix":"of the Stars",
@@ -1242,7 +1258,7 @@
     "group":"LocalAdditionalChainChance",
     "level":45,
     "modTags":[],
-    "statOrder":[7585],
+    "statOrder":[7599],
     "tradeHashes":{
       "1028592286":["(25-35)% chance to Chain an additional time"]
     },
@@ -1256,7 +1272,7 @@
     "group":"DamageGainedAsFireWhileMissingRunicWard",
     "level":25,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[9225],
+    "statOrder":[9242],
     "tradeHashes":{
       "589361270":["Gain (42-52)% of Damage as Extra Fire Damage while you are missing Runic Ward"]
     },
@@ -1270,7 +1286,7 @@
     "group":"DamageGainedAsFireWhileMissingRunicWard",
     "level":25,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[9225],
+    "statOrder":[9242],
     "tradeHashes":{
       "589361270":["Gain (21-26)% of Damage as Extra Fire Damage while you are missing Runic Ward"]
     },
@@ -1284,7 +1300,7 @@
     "group":"DamagingAilmentDuration",
     "level":45,
     "modTags":["ailment"],
-    "statOrder":[6055],
+    "statOrder":[6061],
     "tradeHashes":{
       "1829102168":["(20-25)% increased Duration of Damaging Ailments on Enemies"]
     },
@@ -1340,7 +1356,7 @@
     "group":"ElementalSkillLimit",
     "level":65,
     "modTags":["elemental"],
-    "statOrder":[6299],
+    "statOrder":[6305],
     "tradeHashes":{
       "1713927892":["+1 to Limit for Elemental Skills"]
     },
@@ -1354,7 +1370,7 @@
     "group":"ElementalExposureEffect",
     "level":45,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[6516],
+    "statOrder":[6529],
     "tradeHashes":{
       "2074866941":["(40-50)% increased Exposure Effect"]
     },
@@ -1368,7 +1384,7 @@
     "group":"AllFlaskChargeGeneration",
     "level":45,
     "modTags":[],
-    "statOrder":[6871],
+    "statOrder":[6884],
     "tradeHashes":{
       "731781020":["Flasks gain (0.75-1) charges per Second"]
     },
@@ -1382,7 +1398,7 @@
     "group":"LightningDamageCanIgnite",
     "level":65,
     "modTags":["elemental","fire","ailment"],
-    "statOrder":[7528],
+    "statOrder":[7542],
     "tradeHashes":{
       "3121133045":["Lightning Damage from Hits also Contributes to Flammability and Ignite Magnitudes"]
     },
@@ -1424,7 +1440,7 @@
     "group":"ManaCostEfficiency",
     "level":25,
     "modTags":["resource","mana"],
-    "statOrder":[4709],
+    "statOrder":[4714],
     "tradeHashes":{
       "4101445926":["(18-29)% increased Mana Cost Efficiency"]
     },
@@ -1468,7 +1484,7 @@
     "group":"MaximumElementalInfusion",
     "level":45,
     "modTags":["elemental"],
-    "statOrder":[8849],
+    "statOrder":[8866],
     "tradeHashes":{
       "4097212302":["+1 to maximum number of Elemental Infusions"]
     },
@@ -1538,7 +1554,7 @@
     "group":"MinionDamagingAilments",
     "level":45,
     "modTags":["minion"],
-    "statOrder":[8986],
+    "statOrder":[9003],
     "tradeHashes":{
       "953593695":["Minions have (40-49)% increased Magnitude of Damaging Ailments"]
     },
@@ -1552,7 +1568,7 @@
     "group":"ChanceToGainNaturesArchon",
     "level":65,
     "modTags":[],
-    "statOrder":[5390],
+    "statOrder":[5395],
     "tradeHashes":{
       "3518449420":["(25-50)% chance to gain Nature's Archon when your Plants Overgrow"]
     },
@@ -1580,7 +1596,7 @@
     "group":"MaximumPuppeteerStacks",
     "level":65,
     "modTags":["minion"],
-    "statOrder":[8813],
+    "statOrder":[8830],
     "tradeHashes":{
       "1484026495":["+(4-5) maximum stacks of Puppet Master"]
     },
@@ -1594,7 +1610,7 @@
     "group":"RecoverRunicWardOnCharmUse",
     "level":25,
     "modTags":[],
-    "statOrder":[9657],
+    "statOrder":[9674],
     "tradeHashes":{
       "554145967":["Recover (32-45) Runic Ward when a Charm is used"]
     },
@@ -1608,7 +1624,7 @@
     "group":"SlowPotency",
     "level":45,
     "modTags":[],
-    "statOrder":[4738],
+    "statOrder":[4743],
     "tradeHashes":{
       "924253255":["(15-30)% reduced Slowing Potency of Debuffs on You"]
     },
@@ -1622,7 +1638,7 @@
     "group":"RemnantPickupRadiusIncrease",
     "level":25,
     "modTags":[],
-    "statOrder":[9712],
+    "statOrder":[9729],
     "tradeHashes":{
       "3482326075":["Remnants can be collected from (35-50)% further away"]
     },
@@ -1636,7 +1652,7 @@
     "group":"ChanceToRefund40PercentGlory",
     "level":65,
     "modTags":[],
-    "statOrder":[5560],
+    "statOrder":[5566],
     "tradeHashes":{
       "2749595652":["(60-75)% chance for Skills to retain 40% of Glory on use"]
     },
@@ -1650,7 +1666,7 @@
     "group":"WardOnBlock",
     "level":13,
     "modTags":[],
-    "statOrder":[9656],
+    "statOrder":[9673],
     "tradeHashes":{
       "1568848828":["Recover (10-15) Runic Ward when you Block"]
     },
@@ -1664,7 +1680,7 @@
     "group":"WardRegenerationRate",
     "level":13,
     "modTags":["runic_ward"],
-    "statOrder":[10493],
+    "statOrder":[10510],
     "tradeHashes":{
       "2392260628":["(15-20)% increased Runic Ward Regeneration Rate"]
     },
@@ -1692,7 +1708,7 @@
     "group":"SpellAreaOfEffectPercent",
     "level":45,
     "modTags":["caster"],
-    "statOrder":[9965],
+    "statOrder":[9982],
     "tradeHashes":{
       "1967040409":["Spell Skills have (10-15)% increased Area of Effect"]
     },
@@ -1752,7 +1768,7 @@
     "group":"TemporaryMinionLimit",
     "level":25,
     "modTags":["minion"],
-    "statOrder":[10221],
+    "statOrder":[10238],
     "tradeHashes":{
       "1058934731":["Temporary Minion Skills have +(1-2) to Limit of Minions summoned"]
     },
@@ -2298,7 +2314,7 @@
     "group":"ThornsPhysicalDamage",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(1-2) to (3-4) Physical Thorns damage"]
     },
@@ -2312,7 +2328,7 @@
     "group":"ThornsPhysicalDamage",
     "level":10,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(5-7) to (7-10) Physical Thorns damage"]
     },
@@ -2326,7 +2342,7 @@
     "group":"ThornsPhysicalDamage",
     "level":19,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(11-16) to (17-23) Physical Thorns damage"]
     },
@@ -2340,7 +2356,7 @@
     "group":"ThornsPhysicalDamage",
     "level":38,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(24-35) to (36-53) Physical Thorns damage"]
     },
@@ -2354,7 +2370,7 @@
     "group":"ThornsPhysicalDamage",
     "level":48,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(40-60) to (61-92) Physical Thorns damage"]
     },
@@ -2368,7 +2384,7 @@
     "group":"ThornsPhysicalDamage",
     "level":63,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(64-97) to (98-145) Physical Thorns damage"]
     },
@@ -2382,7 +2398,7 @@
     "group":"ThornsPhysicalDamage",
     "level":74,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[10235],
+    "statOrder":[10252],
     "tradeHashes":{
       "2881298780":["(101-151) to (152-220) Physical Thorns damage"]
     },
@@ -2746,7 +2762,7 @@
     "group":"BeltIncreasedCharmChargesGained",
     "level":2,
     "modTags":["charm"],
-    "statOrder":[5595],
+    "statOrder":[5601],
     "tradeHashes":{
       "3585532255":["(5-10)% increased Charm Charges gained"]
     },
@@ -2760,7 +2776,7 @@
     "group":"BeltIncreasedCharmChargesGained",
     "level":16,
     "modTags":["charm"],
-    "statOrder":[5595],
+    "statOrder":[5601],
     "tradeHashes":{
       "3585532255":["(11-16)% increased Charm Charges gained"]
     },
@@ -2774,7 +2790,7 @@
     "group":"BeltIncreasedCharmChargesGained",
     "level":32,
     "modTags":["charm"],
-    "statOrder":[5595],
+    "statOrder":[5601],
     "tradeHashes":{
       "3585532255":["(17-22)% increased Charm Charges gained"]
     },
@@ -2788,7 +2804,7 @@
     "group":"BeltIncreasedCharmChargesGained",
     "level":48,
     "modTags":["charm"],
-    "statOrder":[5595],
+    "statOrder":[5601],
     "tradeHashes":{
       "3585532255":["(23-28)% increased Charm Charges gained"]
     },
@@ -2802,7 +2818,7 @@
     "group":"BeltIncreasedCharmChargesGained",
     "level":70,
     "modTags":["charm"],
-    "statOrder":[5595],
+    "statOrder":[5601],
     "tradeHashes":{
       "3585532255":["(29-34)% increased Charm Charges gained"]
     },
@@ -2816,7 +2832,7 @@
     "group":"BeltIncreasedCharmChargesGained",
     "level":81,
     "modTags":["charm"],
-    "statOrder":[5595],
+    "statOrder":[5601],
     "tradeHashes":{
       "3585532255":["(35-40)% increased Charm Charges gained"]
     },
@@ -2900,7 +2916,7 @@
     "group":"BeltIncreasedFlaskChargesGained",
     "level":2,
     "modTags":["flask"],
-    "statOrder":[6623],
+    "statOrder":[6636],
     "tradeHashes":{
       "1836676211":["(5-10)% increased Flask Charges gained"]
     },
@@ -2914,7 +2930,7 @@
     "group":"BeltIncreasedFlaskChargesGained",
     "level":16,
     "modTags":["flask"],
-    "statOrder":[6623],
+    "statOrder":[6636],
     "tradeHashes":{
       "1836676211":["(11-16)% increased Flask Charges gained"]
     },
@@ -2928,7 +2944,7 @@
     "group":"BeltIncreasedFlaskChargesGained",
     "level":32,
     "modTags":["flask"],
-    "statOrder":[6623],
+    "statOrder":[6636],
     "tradeHashes":{
       "1836676211":["(17-22)% increased Flask Charges gained"]
     },
@@ -2942,7 +2958,7 @@
     "group":"BeltIncreasedFlaskChargesGained",
     "level":48,
     "modTags":["flask"],
-    "statOrder":[6623],
+    "statOrder":[6636],
     "tradeHashes":{
       "1836676211":["(23-28)% increased Flask Charges gained"]
     },
@@ -2956,7 +2972,7 @@
     "group":"BeltIncreasedFlaskChargesGained",
     "level":70,
     "modTags":["flask"],
-    "statOrder":[6623],
+    "statOrder":[6636],
     "tradeHashes":{
       "1836676211":["(29-34)% increased Flask Charges gained"]
     },
@@ -2970,7 +2986,7 @@
     "group":"BeltIncreasedFlaskChargesGained",
     "level":81,
     "modTags":["flask"],
-    "statOrder":[6623],
+    "statOrder":[6636],
     "tradeHashes":{
       "1836676211":["(35-40)% increased Flask Charges gained"]
     },
@@ -2984,7 +3000,7 @@
     "group":"BeltReducedCharmChargesUsed",
     "level":3,
     "modTags":["charm"],
-    "statOrder":[5596],
+    "statOrder":[5602],
     "tradeHashes":{
       "1570770415":["(8-10)% reduced Charm Charges used"]
     },
@@ -2998,7 +3014,7 @@
     "group":"BeltReducedCharmChargesUsed",
     "level":18,
     "modTags":["charm"],
-    "statOrder":[5596],
+    "statOrder":[5602],
     "tradeHashes":{
       "1570770415":["(11-13)% reduced Charm Charges used"]
     },
@@ -3012,7 +3028,7 @@
     "group":"BeltReducedCharmChargesUsed",
     "level":33,
     "modTags":["charm"],
-    "statOrder":[5596],
+    "statOrder":[5602],
     "tradeHashes":{
       "1570770415":["(14-16)% reduced Charm Charges used"]
     },
@@ -3026,7 +3042,7 @@
     "group":"BeltReducedCharmChargesUsed",
     "level":50,
     "modTags":["charm"],
-    "statOrder":[5596],
+    "statOrder":[5602],
     "tradeHashes":{
       "1570770415":["(17-19)% reduced Charm Charges used"]
     },
@@ -3040,7 +3056,7 @@
     "group":"BeltReducedCharmChargesUsed",
     "level":72,
     "modTags":["charm"],
-    "statOrder":[5596],
+    "statOrder":[5602],
     "tradeHashes":{
       "1570770415":["(20-22)% reduced Charm Charges used"]
     },
@@ -3054,7 +3070,7 @@
     "group":"BeltReducedCharmChargesUsed",
     "level":81,
     "modTags":["charm"],
-    "statOrder":[5596],
+    "statOrder":[5602],
     "tradeHashes":{
       "1570770415":["(23-25)% reduced Charm Charges used"]
     },
@@ -3152,7 +3168,7 @@
     "group":"ChanceToGenerateAdditionalCombo",
     "level":45,
     "modTags":[],
-    "statOrder":[4177],
+    "statOrder":[4182],
     "tradeHashes":{
       "4258524206":["(20-39)% chance to build an additional Combo on Hit"]
     },
@@ -3166,7 +3182,7 @@
     "group":"ChanceToGenerateAdditionalCombo",
     "level":75,
     "modTags":[],
-    "statOrder":[4177],
+    "statOrder":[4182],
     "tradeHashes":{
       "4258524206":["(40-60)% chance to build an additional Combo on Hit"]
     },
@@ -3180,7 +3196,7 @@
     "group":"ArmourBreakDuration",
     "level":45,
     "modTags":[],
-    "statOrder":[4401],
+    "statOrder":[4406],
     "tradeHashes":{
       "2637470878":["(50-99)% increased Armour Break Duration"]
     },
@@ -3194,7 +3210,7 @@
     "group":"ArmourBreakDuration",
     "level":75,
     "modTags":[],
-    "statOrder":[4401],
+    "statOrder":[4406],
     "tradeHashes":{
       "2637470878":["(100-150)% increased Armour Break Duration"]
     },
@@ -3208,7 +3224,7 @@
     "group":"ArmourBreakEffect",
     "level":45,
     "modTags":["physical"],
-    "statOrder":[5227],
+    "statOrder":[5232],
     "tradeHashes":{
       "1879206848":["(15-24)% increased effect of Fully Broken Armour"]
     },
@@ -3222,7 +3238,7 @@
     "group":"ArmourBreakEffect",
     "level":65,
     "modTags":["physical"],
-    "statOrder":[5227],
+    "statOrder":[5232],
     "tradeHashes":{
       "1879206848":["(25-39)% increased effect of Fully Broken Armour"]
     },
@@ -3236,7 +3252,7 @@
     "group":"ArmourBreakEffect",
     "level":75,
     "modTags":["physical"],
-    "statOrder":[5227],
+    "statOrder":[5232],
     "tradeHashes":{
       "1879206848":["(40-60)% increased effect of Fully Broken Armour"]
     },
@@ -3250,7 +3266,7 @@
     "group":"WarcryDamage",
     "level":45,
     "modTags":["damage"],
-    "statOrder":[10482],
+    "statOrder":[10499],
     "tradeHashes":{
       "1594812856":["(20-34)% increased Damage with Warcries"]
     },
@@ -3264,7 +3280,7 @@
     "group":"WarcryDamage",
     "level":65,
     "modTags":["damage"],
-    "statOrder":[10482],
+    "statOrder":[10499],
     "tradeHashes":{
       "1594812856":["(35-49)% increased Damage with Warcries"]
     },
@@ -3278,7 +3294,7 @@
     "group":"WarcryDamage",
     "level":75,
     "modTags":["damage"],
-    "statOrder":[10482],
+    "statOrder":[10499],
     "tradeHashes":{
       "1594812856":["(50-75)% increased Damage with Warcries"]
     },
@@ -3292,7 +3308,7 @@
     "group":"GloryGeneration",
     "level":45,
     "modTags":[],
-    "statOrder":[6897],
+    "statOrder":[6910],
     "tradeHashes":{
       "3143918757":["(20-49)% increased Glory generation"]
     },
@@ -3306,7 +3322,7 @@
     "group":"GloryGeneration",
     "level":75,
     "modTags":[],
-    "statOrder":[6897],
+    "statOrder":[6910],
     "tradeHashes":{
       "3143918757":["(50-85)% increased Glory generation"]
     },
@@ -3320,7 +3336,7 @@
     "group":"MaximumRage",
     "level":45,
     "modTags":[],
-    "statOrder":[9583],
+    "statOrder":[9600],
     "tradeHashes":{
       "1181501418":["+(4-7) to Maximum Rage"]
     },
@@ -3334,7 +3350,7 @@
     "group":"MaximumRage",
     "level":75,
     "modTags":[],
-    "statOrder":[9583],
+    "statOrder":[9600],
     "tradeHashes":{
       "1181501418":["+(8-12) to Maximum Rage"]
     },
@@ -3348,7 +3364,7 @@
     "group":"WarcryPower",
     "level":45,
     "modTags":[],
-    "statOrder":[10485],
+    "statOrder":[10502],
     "tradeHashes":{
       "2663359259":["(20-34)% increased total Power counted by Warcries"]
     },
@@ -3362,7 +3378,7 @@
     "group":"WarcryPower",
     "level":75,
     "modTags":[],
-    "statOrder":[10485],
+    "statOrder":[10502],
     "tradeHashes":{
       "2663359259":["(35-55)% increased total Power counted by Warcries"]
     },
@@ -3376,7 +3392,7 @@
     "group":"RageCostEfficiency",
     "level":45,
     "modTags":[],
-    "statOrder":[4731],
+    "statOrder":[4736],
     "tradeHashes":{
       "2416650879":["(20-34)% increased Rage Cost Efficiency"]
     },
@@ -3390,7 +3406,7 @@
     "group":"RageCostEfficiency",
     "level":75,
     "modTags":[],
-    "statOrder":[4731],
+    "statOrder":[4736],
     "tradeHashes":{
       "2416650879":["(35-60)% increased Rage Cost Efficiency"]
     },
@@ -3404,7 +3420,7 @@
     "group":"RageLossDelay",
     "level":45,
     "modTags":[],
-    "statOrder":[9596],
+    "statOrder":[9613],
     "tradeHashes":{
       "3987691524":["Inherent Rage loss starts 1 second later"]
     },
@@ -3418,7 +3434,7 @@
     "group":"RageLossDelay",
     "level":75,
     "modTags":[],
-    "statOrder":[9596],
+    "statOrder":[9613],
     "tradeHashes":{
       "3987691524":["Inherent Rage loss starts (3-5) seconds later"]
     },
@@ -3432,7 +3448,7 @@
     "group":"GainRageWhenHit",
     "level":45,
     "modTags":[],
-    "statOrder":[6858],
+    "statOrder":[6871],
     "tradeHashes":{
       "3292710273":["Gain (4-5) Rage when Hit by an Enemy"]
     },
@@ -3446,7 +3462,7 @@
     "group":"GainRageWhenHit",
     "level":75,
     "modTags":[],
-    "statOrder":[6858],
+    "statOrder":[6871],
     "tradeHashes":{
       "3292710273":["Gain (6-10) Rage when Hit by an Enemy"]
     },
@@ -3460,7 +3476,7 @@
     "group":"WarcryAreaOfEffect",
     "level":45,
     "modTags":[],
-    "statOrder":[10487],
+    "statOrder":[10504],
     "tradeHashes":{
       "2567751411":["Warcry Skills have (15-29)% increased Area of Effect"]
     },
@@ -3474,7 +3490,7 @@
     "group":"WarcryAreaOfEffect",
     "level":75,
     "modTags":[],
-    "statOrder":[10487],
+    "statOrder":[10504],
     "tradeHashes":{
       "2567751411":["Warcry Skills have (30-50)% increased Area of Effect"]
     },
@@ -3572,7 +3588,7 @@
     "group":"BleedDuration",
     "level":30,
     "modTags":["bleed","physical","attack","ailment"],
-    "statOrder":[4652],
+    "statOrder":[4657],
     "tradeHashes":{
       "1459321413":["(8-12)% increased Bleeding Duration"]
     },
@@ -3586,7 +3602,7 @@
     "group":"BleedDuration",
     "level":60,
     "modTags":["bleed","physical","attack","ailment"],
-    "statOrder":[4652],
+    "statOrder":[4657],
     "tradeHashes":{
       "1459321413":["(13-18)% increased Bleeding Duration"]
     },
@@ -3614,7 +3630,7 @@
     "group":"CastSpeedDuringManaFlaskEffect",
     "level":22,
     "modTags":["caster_speed","caster","speed"],
-    "statOrder":[5323],
+    "statOrder":[5328],
     "tradeHashes":{
       "145581225":["(8-10)% increased Cast Speed during any Flask Effect"]
     },
@@ -3628,7 +3644,7 @@
     "group":"CastSpeedDuringManaFlaskEffect",
     "level":41,
     "modTags":["caster_speed","caster","speed"],
-    "statOrder":[5323],
+    "statOrder":[5328],
     "tradeHashes":{
       "145581225":["(11-13)% increased Cast Speed during any Flask Effect"]
     },
@@ -3642,7 +3658,7 @@
     "group":"CastSpeedDuringManaFlaskEffect",
     "level":59,
     "modTags":["caster_speed","caster","speed"],
-    "statOrder":[5323],
+    "statOrder":[5328],
     "tradeHashes":{
       "145581225":["(14-16)% increased Cast Speed during any Flask Effect"]
     },
@@ -3656,7 +3672,7 @@
     "group":"CastSpeedDuringManaFlaskEffect",
     "level":76,
     "modTags":["caster_speed","caster","speed"],
-    "statOrder":[5323],
+    "statOrder":[5328],
     "tradeHashes":{
       "145581225":["(17-19)% increased Cast Speed during any Flask Effect"]
     },
@@ -5257,7 +5273,7 @@
     "group":"LocalChaosPenetration",
     "level":65,
     "modTags":["chaos_damage","damage","chaos","attack"],
-    "statOrder":[7623],
+    "statOrder":[7637],
     "tradeHashes":{
       "3762412853":["Attacks with this Weapon Penetrate (15-25)% Chaos Resistance"]
     },
@@ -5271,7 +5287,7 @@
     "group":"DamageGainedAsChaosWhileMissingRunicWard",
     "level":25,
     "modTags":["chaos_damage","damage","chaos"],
-    "statOrder":[9214],
+    "statOrder":[9231],
     "tradeHashes":{
       "4011431182":["Gain (42-52)% of Damage as Extra Chaos Damage while you are missing Runic Ward"]
     },
@@ -5285,7 +5301,7 @@
     "group":"DamageGainedAsChaosWhileMissingRunicWard",
     "level":25,
     "modTags":["chaos_damage","damage","chaos"],
-    "statOrder":[9214],
+    "statOrder":[9231],
     "tradeHashes":{
       "4011431182":["Gain (21-26)% of Damage as Extra Chaos Damage while you are missing Runic Ward"]
     },
@@ -5299,7 +5315,7 @@
     "group":"DamageGainedAsColdWhileMissingRunicWard",
     "level":25,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[9218],
+    "statOrder":[9235],
     "tradeHashes":{
       "2888350852":["Gain (42-52)% of Damage as Extra Cold Damage while you are missing Runic Ward"]
     },
@@ -5313,7 +5329,7 @@
     "group":"DamageGainedAsColdWhileMissingRunicWard",
     "level":25,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[9218],
+    "statOrder":[9235],
     "tradeHashes":{
       "2888350852":["Gain (21-26)% of Damage as Extra Cold Damage while you are missing Runic Ward"]
     },
@@ -5327,7 +5343,7 @@
     "group":"DamageGainedAsLightningWhileMissingRunicWard",
     "level":25,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[9230],
+    "statOrder":[9247],
     "tradeHashes":{
       "457920946":["Gain (42-52)% of Damage as Extra Lightning Damage while you are missing Runic Ward"]
     },
@@ -5341,7 +5357,7 @@
     "group":"DamageGainedAsLightningWhileMissingRunicWard",
     "level":25,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[9230],
+    "statOrder":[9247],
     "tradeHashes":{
       "457920946":["Gain (21-26)% of Damage as Extra Lightning Damage while you are missing Runic Ward"]
     },
@@ -6139,7 +6155,7 @@
     "group":"CrushOnHitChance",
     "level":63,
     "modTags":["physical"],
-    "statOrder":[5487],
+    "statOrder":[5492],
     "tradeHashes":{
       "2228892313":["(15-25)% chance to Crush on Hit"]
     },
@@ -6489,7 +6505,7 @@
     "group":"DamagingAilmentDuration",
     "level":45,
     "modTags":["ailment"],
-    "statOrder":[6055],
+    "statOrder":[6061],
     "tradeHashes":{
       "1829102168":["(10-19)% increased Duration of Damaging Ailments on Enemies"]
     },
@@ -6503,7 +6519,7 @@
     "group":"DamagingAilmentDuration",
     "level":75,
     "modTags":["ailment"],
-    "statOrder":[6055],
+    "statOrder":[6061],
     "tradeHashes":{
       "1829102168":["(20-30)% increased Duration of Damaging Ailments on Enemies"]
     },
@@ -6517,7 +6533,7 @@
     "group":"AilmentEffect",
     "level":45,
     "modTags":["damage","ailment"],
-    "statOrder":[4251],
+    "statOrder":[4256],
     "tradeHashes":{
       "1303248024":["(20-25)% increased Magnitude of Ailments you inflict"]
     },
@@ -6531,7 +6547,7 @@
     "group":"AilmentEffect",
     "level":75,
     "modTags":["damage","ailment"],
-    "statOrder":[4251],
+    "statOrder":[4256],
     "tradeHashes":{
       "1303248024":["(26-32)% increased Magnitude of Ailments you inflict"]
     },
@@ -6545,7 +6561,7 @@
     "group":"BleedDotMultiplier",
     "level":45,
     "modTags":["bleed","physical_damage","damage","physical","attack","ailment"],
-    "statOrder":[4800],
+    "statOrder":[4805],
     "tradeHashes":{
       "3166958180":["(20-29)% increased Magnitude of Bleeding you inflict"]
     },
@@ -6559,7 +6575,7 @@
     "group":"BleedDotMultiplier",
     "level":75,
     "modTags":["bleed","physical_damage","damage","physical","attack","ailment"],
-    "statOrder":[4800],
+    "statOrder":[4805],
     "tradeHashes":{
       "3166958180":["(30-42)% increased Magnitude of Bleeding you inflict"]
     },
@@ -6601,7 +6617,7 @@
     "group":"ElementalExposureEffect",
     "level":45,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[6516],
+    "statOrder":[6529],
     "tradeHashes":{
       "2074866941":["(20-34)% increased Exposure Effect"]
     },
@@ -6615,7 +6631,7 @@
     "group":"ElementalExposureEffect",
     "level":75,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[6516],
+    "statOrder":[6529],
     "tradeHashes":{
       "2074866941":["(35-50)% increased Exposure Effect"]
     },
@@ -6629,7 +6645,7 @@
     "group":"CurseDelay",
     "level":75,
     "modTags":["caster","curse"],
-    "statOrder":[5914],
+    "statOrder":[5920],
     "tradeHashes":{
       "1104825894":["(20-30)% faster Curse Activation"]
     },
@@ -6643,7 +6659,7 @@
     "group":"FasterAilmentDamage",
     "level":45,
     "modTags":[],
-    "statOrder":[6058],
+    "statOrder":[6064],
     "tradeHashes":{
       "538241406":["Damaging Ailments deal damage (8-13)% faster"]
     },
@@ -6657,7 +6673,7 @@
     "group":"FasterAilmentDamage",
     "level":75,
     "modTags":[],
-    "statOrder":[6058],
+    "statOrder":[6064],
     "tradeHashes":{
       "538241406":["Damaging Ailments deal damage (14-20)% faster"]
     },
@@ -6743,7 +6759,7 @@
     "group":"PoisonEffect",
     "level":45,
     "modTags":["damage","ailment"],
-    "statOrder":[9472],
+    "statOrder":[9489],
     "tradeHashes":{
       "2487305362":["(20-29)% increased Magnitude of Poison you inflict"]
     },
@@ -6757,7 +6773,7 @@
     "group":"PoisonEffect",
     "level":75,
     "modTags":["damage","ailment"],
-    "statOrder":[9472],
+    "statOrder":[9489],
     "tradeHashes":{
       "2487305362":["(30-42)% increased Magnitude of Poison you inflict"]
     },
@@ -6787,7 +6803,7 @@
     "group":"WitheredEffect",
     "level":45,
     "modTags":["chaos"],
-    "statOrder":[10529],
+    "statOrder":[10546],
     "tradeHashes":{
       "3973629633":["(15-24)% increased Withered Magnitude"]
     },
@@ -6801,7 +6817,7 @@
     "group":"WitheredEffect",
     "level":75,
     "modTags":["chaos"],
-    "statOrder":[10529],
+    "statOrder":[10546],
     "tradeHashes":{
       "3973629633":["(25-35)% increased Withered Magnitude"]
     },
@@ -6815,7 +6831,7 @@
     "group":"DecayOnHit",
     "level":63,
     "modTags":["chaos_damage","damage","chaos"],
-    "statOrder":[6074],
+    "statOrder":[6080],
     "tradeHashes":{
       "3322709337":["Your Hits inflict Decay, dealing 700 Chaos Damage per second for 8 seconds"]
     },
@@ -7193,7 +7209,7 @@
     "group":"AbyssTargetMod",
     "level":1,
     "modTags":[],
-    "statOrder":[6456],
+    "statOrder":[6469],
     "tradeHashes":{
       "335885735":["Bears the Mark of the Abyssal Lord"]
     },
@@ -7207,7 +7223,7 @@
     "group":"AbyssTargetMod",
     "level":1,
     "modTags":[],
-    "statOrder":[6456],
+    "statOrder":[6469],
     "tradeHashes":{
       "335885735":["Bears the Mark of the Abyssal Lord"]
     },
@@ -7277,7 +7293,7 @@
     "group":"EssenceColdRecoupLife",
     "level":72,
     "modTags":["resource","life","elemental","cold"],
-    "statOrder":[5679],
+    "statOrder":[5685],
     "tradeHashes":{
       "3679418014":["(26-30)% of Cold Damage taken Recouped as Life"]
     },
@@ -7291,7 +7307,7 @@
     "group":"CorruptForTwoEnchantments",
     "level":1,
     "modTags":[],
-    "statOrder":[7685],
+    "statOrder":[7699],
     "tradeHashes":{
       "4215035940":["On Corruption, Item gains two Enchantments"]
     },
@@ -7417,7 +7433,7 @@
     "group":"EssenceFireRecoupLife",
     "level":72,
     "modTags":["resource","life","elemental","fire"],
-    "statOrder":[6558],
+    "statOrder":[6571],
     "tradeHashes":{
       "1742651309":["(26-30)% of Fire Damage taken Recouped as Life"]
     },
@@ -7445,7 +7461,7 @@
     "group":"EssenceGoldDropped",
     "level":72,
     "modTags":[],
-    "statOrder":[6900],
+    "statOrder":[6913],
     "tradeHashes":{
       "3175163625":["(10-15)% increased Quantity of Gold Dropped by Slain Enemies"]
     },
@@ -7487,7 +7503,7 @@
     "group":"EssenceLightningRecoupLife",
     "level":72,
     "modTags":["resource","life","elemental","lightning"],
-    "statOrder":[7533],
+    "statOrder":[7547],
     "tradeHashes":{
       "2970621759":["(26-30)% of Lightning Damage taken Recouped as Life"]
     },
@@ -7515,7 +7531,7 @@
     "group":"ManaCostEfficiency",
     "level":72,
     "modTags":["resource","mana"],
-    "statOrder":[4709],
+    "statOrder":[4714],
     "tradeHashes":{
       "4101445926":["(18-20)% increased Mana Cost Efficiency"]
     },
@@ -7529,7 +7545,7 @@
     "group":"ManaCostEfficiency",
     "level":72,
     "modTags":["resource","mana"],
-    "statOrder":[4709],
+    "statOrder":[4714],
     "tradeHashes":{
       "4101445926":["(28-32)% increased Mana Cost Efficiency"]
     },
@@ -7543,7 +7559,7 @@
     "group":"EssenceOnslaughtonKill",
     "level":72,
     "modTags":["speed"],
-    "statOrder":[7621],
+    "statOrder":[7635],
     "tradeHashes":{
       "1881230714":["(20-25)% chance to gain Onslaught on Killing Hits with this Weapon"]
     },
@@ -8565,7 +8581,7 @@
     "group":"FortifyEffect",
     "level":63,
     "modTags":[],
-    "statOrder":[8809],
+    "statOrder":[8826],
     "tradeHashes":{
       "335507772":["+3 to maximum Fortification"]
     },
@@ -8789,7 +8805,7 @@
     "group":"AdditionalMaximumSeals",
     "level":1,
     "modTags":[],
-    "statOrder":[4718],
+    "statOrder":[4723],
     "tradeHashes":{
       "4147510958":["Sealed Skills have +1 to maximum Seals"]
     },
@@ -8803,7 +8819,7 @@
     "group":"AnaemiaOnHit",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[4316,4316.1],
+    "statOrder":[4321,4321.1],
     "tradeHashes":{
       "971590056":["Inflict Anaemia on Hit","Anaemia allows +(2-3) Corrupted Blood debuffs to be inflicted on enemies"]
     },
@@ -8832,7 +8848,7 @@
     "group":"ArchonDuration",
     "level":1,
     "modTags":[],
-    "statOrder":[4336],
+    "statOrder":[4341],
     "tradeHashes":{
       "2158617060":["(40-50)% increased Archon Buff duration"]
     },
@@ -8846,7 +8862,7 @@
     "group":"ArchonEffect",
     "level":1,
     "modTags":[],
-    "statOrder":[4337],
+    "statOrder":[4342],
     "tradeHashes":{
       "1180552088":["(20-39)% increased effect of Archon Buffs on you"]
     },
@@ -8860,7 +8876,7 @@
     "group":"ArchonUndeathOnOfferingUse",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[5392],
+    "statOrder":[5397],
     "tradeHashes":{
       "933355817":["(35-50)% to gain Archon of Undeath when you create an Offering"]
     },
@@ -8874,7 +8890,7 @@
     "group":"ChanceToNotConsumeInfusionIfLostArchonPast6Seconds",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[5555],
+    "statOrder":[5561],
     "tradeHashes":{
       "2150661403":["Skills have (40-50)% chance to not remove Elemental Infusions but still count as consuming them if you've lost an Archon Buff in the past 6 seconds"]
     },
@@ -8888,7 +8904,7 @@
     "group":"ColdDamageIfColdInfusionCollectedLast8Seconds",
     "level":1,
     "modTags":["elemental","cold"],
-    "statOrder":[5665],
+    "statOrder":[5671],
     "tradeHashes":{
       "1002535626":["(41-59)% increased Cold Damage if you've collected a Cold Infusion in the last 8 seconds"]
     },
@@ -8902,7 +8918,7 @@
     "group":"DamageRemovedFromSpectres",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[6026],
+    "statOrder":[6032],
     "tradeHashes":{
       "54812069":["5% of Damage from Hits is taken from your Spectres' Life before you"]
     },
@@ -8916,7 +8932,7 @@
     "group":"FireDamageIfFireInfusionCollectedLast8Seconds",
     "level":1,
     "modTags":["elemental","fire"],
-    "statOrder":[6544],
+    "statOrder":[6557],
     "tradeHashes":{
       "3858572996":["(41-59)% increased Fire Damage if you've collected a Fire Infusion in the last 8 seconds"]
     },
@@ -8930,7 +8946,7 @@
     "group":"LightningDamageIfLightningInfusionCollectedLast8Seconds",
     "level":1,
     "modTags":["elemental","lightning"],
-    "statOrder":[7525],
+    "statOrder":[7539],
     "tradeHashes":{
       "797289402":["(41-59)% increased Lightning Damage if you've collected a Lightning Infusion in the last 8 seconds"]
     },
@@ -8944,7 +8960,7 @@
     "group":"MinionAdditionalProjectileChance",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[8993],
+    "statOrder":[9010],
     "tradeHashes":{
       "1797815732":["Minions have +(50-100)% Surpassing chance to fire an additional Projectile"]
     },
@@ -8958,7 +8974,7 @@
     "group":"MinionDamagePerDifferentCommandSkillUsedLast15Seconds",
     "level":1,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9008],
+    "statOrder":[9025],
     "tradeHashes":{
       "3526763442":["(7-12)% increased Minion Damage per different Command Skill used in the past 15 seconds"]
     },
@@ -8972,7 +8988,7 @@
     "group":"MinionDuration",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[4719],
+    "statOrder":[4724],
     "tradeHashes":{
       "999511066":["(35-49)% increased Minion Duration"]
     },
@@ -8986,7 +9002,7 @@
     "group":"MinionMeleeSplash",
     "level":1,
     "modTags":[],
-    "statOrder":[9041],
+    "statOrder":[9058],
     "tradeHashes":{
       "3249412463":["Minions' Strikes have Melee Splash"]
     },
@@ -9000,7 +9016,7 @@
     "group":"MinionReservationEfficiency",
     "level":1,
     "modTags":[],
-    "statOrder":[9741],
+    "statOrder":[9758],
     "tradeHashes":{
       "1805633363":["(7-10)% increased Reservation Efficiency of Minion Skills"]
     },
@@ -9014,7 +9030,7 @@
     "group":"MinionsGiganticRevivedRecently",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[9070],
+    "statOrder":[9087],
     "tradeHashes":{
       "1265767008":["Your Minions are Gigantic if they have Revived Recently"]
     },
@@ -9028,7 +9044,7 @@
     "group":"SealGainFrequency",
     "level":1,
     "modTags":[],
-    "statOrder":[9774],
+    "statOrder":[9791],
     "tradeHashes":{
       "3384867265":["Sealed Skills have (21-35)% increased Seal gain frequency"]
     },
@@ -9042,7 +9058,7 @@
     "group":"SpellElementalAilmentMagnitude",
     "level":1,
     "modTags":["elemental","fire","cold","lightning","caster"],
-    "statOrder":[9999],
+    "statOrder":[10016],
     "tradeHashes":{
       "3621874554":["(30-40)% increased Magnitude of Elemental Ailments you inflict with Spells"]
     },
@@ -9056,7 +9072,7 @@
     "group":"FireSpellBaseCriticalChance",
     "level":1,
     "modTags":["caster_critical","elemental","fire","caster","critical"],
-    "statOrder":[6573],
+    "statOrder":[6586],
     "tradeHashes":{
       "3399401168":["+(4-5)% to Fire Spell Critical Hit Chance"]
     },
@@ -9070,7 +9086,7 @@
     "group":"MinionCommandSkillSpeed",
     "level":1,
     "modTags":["minion_speed","speed","minion"],
-    "statOrder":[8999],
+    "statOrder":[9016],
     "tradeHashes":{
       "73032170":["Minions have (20-30)% increased Skill Speed with Command Skills"]
     },
@@ -9098,7 +9114,7 @@
     "group":"ElementalExposureEffect",
     "level":1,
     "modTags":["elemental","fire","cold","lightning"],
-    "statOrder":[6516],
+    "statOrder":[6529],
     "tradeHashes":{
       "2074866941":["(25-35)% increased Exposure Effect"]
     },
@@ -9112,7 +9128,7 @@
     "group":"MaximumElementalInfusion",
     "level":1,
     "modTags":["elemental"],
-    "statOrder":[8849],
+    "statOrder":[8866],
     "tradeHashes":{
       "4097212302":["+1 to maximum number of Elemental Infusions"]
     },
@@ -9126,7 +9142,7 @@
     "group":"InvocationMaximumEnergy",
     "level":1,
     "modTags":[],
-    "statOrder":[7367],
+    "statOrder":[7381],
     "tradeHashes":{
       "1615901249":["Invocated skills have (25-35)% increased Maximum Energy"]
     },
@@ -9140,7 +9156,7 @@
     "group":"MinionDamagingAilments",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[8986],
+    "statOrder":[9003],
     "tradeHashes":{
       "953593695":["Minions have (35-45)% increased Magnitude of Damaging Ailments"]
     },
@@ -9154,7 +9170,7 @@
     "group":"MinionArmourBreak",
     "level":1,
     "modTags":["physical","minion"],
-    "statOrder":[8974],
+    "statOrder":[8991],
     "tradeHashes":{
       "195270549":["Minions Break Armour equal to (2-4)% of Physical damage dealt"]
     },
@@ -9168,7 +9184,7 @@
     "group":"MinionCooldownRecoveryRate",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[9003],
+    "statOrder":[9020],
     "tradeHashes":{
       "1691403182":["Minions have (21-29)% increased Cooldown Recovery Rate"]
     },
@@ -9196,7 +9212,7 @@
     "group":"SpellDamageGainedAsChaos",
     "level":1,
     "modTags":["chaos_warband","damage"],
-    "statOrder":[9216],
+    "statOrder":[9233],
     "tradeHashes":{
       "555706343":["Spells Gain (8-12)% of Damage as extra Chaos Damage"]
     },
@@ -9252,7 +9268,7 @@
     "group":"SpellImpaleEffect",
     "level":1,
     "modTags":["physical","caster"],
-    "statOrder":[10001],
+    "statOrder":[10018],
     "tradeHashes":{
       "4259875040":["(20-30)% increased Magnitude of Impales inflicted with Spells"]
     },
@@ -9266,7 +9282,7 @@
     "group":"TemporaryMinionLimit",
     "level":1,
     "modTags":["minion"],
-    "statOrder":[10221],
+    "statOrder":[10238],
     "tradeHashes":{
       "1058934731":["Temporary Minion Skills have +1 to Limit of Minions summoned"]
     },
@@ -11002,7 +11018,7 @@
     "group":"GrenadeCooldownUse",
     "level":72,
     "modTags":[],
-    "statOrder":[6924],
+    "statOrder":[6937],
     "tradeHashes":{
       "2250681686":["Grenade Skills have +1 Cooldown Use"]
     },
@@ -11016,7 +11032,7 @@
     "group":"GrenadeCooldownUse",
     "level":81,
     "modTags":[],
-    "statOrder":[6924],
+    "statOrder":[6937],
     "tradeHashes":{
       "2250681686":["Grenade Skills have +2 Cooldown Uses"]
     },
@@ -11030,7 +11046,7 @@
     "group":"GrenadeProjectiles",
     "level":72,
     "modTags":[],
-    "statOrder":[6928],
+    "statOrder":[6941],
     "tradeHashes":{
       "1980802737":["Grenade Skills Fire an additional Projectile"]
     },
@@ -11044,7 +11060,7 @@
     "group":"GrenadeProjectiles",
     "level":81,
     "modTags":[],
-    "statOrder":[6928],
+    "statOrder":[6941],
     "tradeHashes":{
       "1980802737":["Grenade Skills Fire 2 additional Projectiles"]
     },
@@ -11058,7 +11074,7 @@
     "group":"GrenadeSkillCooldownSpeed",
     "level":4,
     "modTags":[],
-    "statOrder":[6925],
+    "statOrder":[6938],
     "tradeHashes":{
       "1544773869":["(4-8)% increased Cooldown Recovery Rate for Grenade Skills"]
     },
@@ -11072,7 +11088,7 @@
     "group":"GrenadeSkillCooldownSpeed",
     "level":16,
     "modTags":[],
-    "statOrder":[6925],
+    "statOrder":[6938],
     "tradeHashes":{
       "1544773869":["(9-14)% increased Cooldown Recovery Rate for Grenade Skills"]
     },
@@ -11086,7 +11102,7 @@
     "group":"GrenadeSkillCooldownSpeed",
     "level":33,
     "modTags":[],
-    "statOrder":[6925],
+    "statOrder":[6938],
     "tradeHashes":{
       "1544773869":["(15-21)% increased Cooldown Recovery Rate for Grenade Skills"]
     },
@@ -11100,7 +11116,7 @@
     "group":"GrenadeSkillCooldownSpeed",
     "level":46,
     "modTags":[],
-    "statOrder":[6925],
+    "statOrder":[6938],
     "tradeHashes":{
       "1544773869":["(22-26)% increased Cooldown Recovery Rate for Grenade Skills"]
     },
@@ -11114,7 +11130,7 @@
     "group":"GrenadeSkillCooldownSpeed",
     "level":60,
     "modTags":[],
-    "statOrder":[6925],
+    "statOrder":[6938],
     "tradeHashes":{
       "1544773869":["(27-32)% increased Cooldown Recovery Rate for Grenade Skills"]
     },
@@ -11128,7 +11144,7 @@
     "group":"GrenadeSkillCooldownSpeed",
     "level":81,
     "modTags":[],
-    "statOrder":[6925],
+    "statOrder":[6938],
     "tradeHashes":{
       "1544773869":["(33-40)% increased Cooldown Recovery Rate for Grenade Skills"]
     },
@@ -11260,7 +11276,7 @@
     "group":"DamageGainedAsColdVsDazed",
     "level":1,
     "modTags":["elemental","cold"],
-    "statOrder":[9252],
+    "statOrder":[9269],
     "tradeHashes":{
       "4212675042":["Gain (11-15)% of Physical Damage as Extra Cold Damage against Dazed Enemies"]
     },
@@ -11274,7 +11290,7 @@
     "group":"ImmobiliseIncreasedDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[5949],
+    "statOrder":[5955],
     "tradeHashes":{
       "3120508478":["(26-35)% increased Damage against Immobilised Enemies"]
     },
@@ -11288,7 +11304,7 @@
     "group":"LifeLeechOvercapLife",
     "level":1,
     "modTags":[],
-    "statOrder":[7436],
+    "statOrder":[7450],
     "tradeHashes":{
       "2714890129":["Life Leech can Overflow Maximum Life"]
     },
@@ -11330,7 +11346,7 @@
     "group":"CriticalAilmentEffect",
     "level":1,
     "modTags":["damage","critical","ailment"],
-    "statOrder":[5808],
+    "statOrder":[5814],
     "tradeHashes":{
       "440490623":["(20-35)% increased Magnitude of Damaging Ailments you inflict with Critical Hits"]
     },
@@ -11344,7 +11360,7 @@
     "group":"BasePoisonChanceAppliesToBleed",
     "level":1,
     "modTags":["bleed","poison","physical","chaos","ailment"],
-    "statOrder":[4651],
+    "statOrder":[4656],
     "tradeHashes":{
       "1710906986":["Chance to inflict Bleeding is calculated from your base chance to Poison instead"]
     },
@@ -11358,7 +11374,7 @@
     "group":"AttackSpeedIfNotHitRecently",
     "level":1,
     "modTags":["attack","speed"],
-    "statOrder":[4543],
+    "statOrder":[4548],
     "tradeHashes":{
       "3842707164":["(13-17)% increased Attack Speed if you haven't been Hit Recently"]
     },
@@ -11372,7 +11388,7 @@
     "group":"AggravateOldBleedOnHit",
     "level":1,
     "modTags":["bleed","physical","ailment"],
-    "statOrder":[4230],
+    "statOrder":[4235],
     "tradeHashes":{
       "521615509":["Attack Hits Aggravate any Bleeding on targets which is older than (3-4) seconds"]
     },
@@ -11386,7 +11402,7 @@
     "group":"BaseBleedChanceAppliesToPoison",
     "level":1,
     "modTags":["bleed","poison","physical","chaos","ailment"],
-    "statOrder":[4728],
+    "statOrder":[4733],
     "tradeHashes":{
       "1670828838":["Chance to Poison is calculated from your base chance to inflict Bleeding instead"]
     },
@@ -11652,7 +11668,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain 10% of Damage as Extra Lightning Damage"]
     },
@@ -11666,7 +11682,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain 11% of Damage as Extra Lightning Damage"]
     },
@@ -11680,7 +11696,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain 12% of Damage as Extra Lightning Damage"]
     },
@@ -11694,7 +11710,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain 13% of Damage as Extra Lightning Damage"]
     },
@@ -11708,7 +11724,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain 14% of Damage as Extra Lightning Damage"]
     },
@@ -11722,7 +11738,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain (15-16)% of Damage as Extra Lightning Damage"]
     },
@@ -11736,7 +11752,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain (17-18)% of Damage as Extra Lightning Damage"]
     },
@@ -11750,7 +11766,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain (19-20)% of Damage as Extra Lightning Damage"]
     },
@@ -11764,7 +11780,7 @@
     "group":"AttackDamageGainedAsLightning",
     "level":1,
     "modTags":["elemental","lightning","attack"],
-    "statOrder":[9239],
+    "statOrder":[9256],
     "tradeHashes":{
       "318492616":["Attacks Gain (21-23)% of Damage as Extra Lightning Damage"]
     },
@@ -11904,7 +11920,7 @@
     "group":"AttackAreaOfEffectPerIntelligence",
     "level":1,
     "modTags":["physical_damage","damage","physical","attack"],
-    "statOrder":[4486],
+    "statOrder":[4491],
     "tradeHashes":{
       "434750362":["1% increased Area of Effect for Attacks per 10 Intelligence"]
     },
@@ -11932,7 +11948,7 @@
     "group":"CriticalAilmentEffect",
     "level":1,
     "modTags":["damage","critical","ailment"],
-    "statOrder":[5808],
+    "statOrder":[5814],
     "tradeHashes":{
       "440490623":["(15-25)% increased Magnitude of Damaging Ailments you inflict with Critical Hits"]
     },
@@ -11960,7 +11976,7 @@
     "group":"RemnantGrantEffectTwiceChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5794],
+    "statOrder":[5800],
     "tradeHashes":{
       "3422093970":["(17-23)% chance for Remnants you pick up to count as picking up an additional Remnant"]
     },
@@ -12366,7 +12382,7 @@
     "group":"AilmentThresholdAndIncreasedAilmentThreshold",
     "level":1,
     "modTags":["ailment"],
-    "statOrder":[4256,4258],
+    "statOrder":[4261,4263],
     "tradeHashes":{
       "1488650448":["+(10-25) to Ailment Threshold"],
       "3544800472":["(10-20)% increased Elemental Ailment Threshold"]
@@ -12382,7 +12398,7 @@
     "group":"AilmentThresholdAndIncreasedAilmentThreshold",
     "level":1,
     "modTags":["ailment"],
-    "statOrder":[4256,4258],
+    "statOrder":[4261,4263],
     "tradeHashes":{
       "1488650448":["+(26-40) to Ailment Threshold"],
       "3544800472":["(21-35)% increased Elemental Ailment Threshold"]
@@ -12484,7 +12500,7 @@
     "group":"ManaGainOnHitCursedEnemy",
     "level":1,
     "modTags":["resource","mana","attack"],
-    "statOrder":[7965],
+    "statOrder":[7979],
     "tradeHashes":{
       "2087996552":["Gain (1-10) Mana per Cursed Enemy Hit with Attacks"]
     },
@@ -12498,7 +12514,7 @@
     "group":"EnemiesTakeIncreasedDamagePerAilmentType",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[6250,6250.1],
+    "statOrder":[6256,6256.1],
     "tradeHashes":{
       "1509533589":["Enemies take (5-10)% increased Damage for each Elemental Ailment type among","your Ailments on them"]
     },
@@ -12513,7 +12529,7 @@
     "group":"EnemiesTakeIncreasedDamagePerAilmentType",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[6250,6250.1],
+    "statOrder":[6256,6256.1],
     "tradeHashes":{
       "1509533589":["Enemies take (11-15)% increased Damage for each Elemental Ailment type among","your Ailments on them"]
     },
@@ -12542,7 +12558,7 @@
     "group":"EnemiesDestroyedOnKillAndBurningEnemiesExplodeOnKillChance",
     "level":1,
     "modTags":["elemental","fire"],
-    "statOrder":[6332,6504,6504.1],
+    "statOrder":[6339,6517,6517.1],
     "tradeHashes":{
       "1617268696":["Burning Enemies you kill have a (10-30)% chance to Explode, dealing a","tenth of their maximum Life as Fire Damage"],
       "2970902024":["Enemies killed by your Hits are destroyed"]
@@ -12559,7 +12575,7 @@
     "group":"EnemiesDestroyedOnKillAndBurningEnemiesExplodeOnKillChance",
     "level":1,
     "modTags":["elemental","fire"],
-    "statOrder":[6332,6504,6504.1],
+    "statOrder":[6339,6517,6517.1],
     "tradeHashes":{
       "1617268696":["Burning Enemies you kill have a (31-50)% chance to Explode, dealing a","tenth of their maximum Life as Fire Damage"],
       "2970902024":["Enemies killed by your Hits are destroyed"]
@@ -12576,7 +12592,7 @@
     "group":"LifeGainOnHitCursedEnemy",
     "level":1,
     "modTags":["resource","life","attack"],
-    "statOrder":[7428],
+    "statOrder":[7442],
     "tradeHashes":{
       "3072303874":["Gain (1-10) Life per Cursed Enemy Hit with Attacks"]
     },
@@ -12632,7 +12648,7 @@
     "group":"IncreasedEvasionRatingWhileLeeching",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[6493],
+    "statOrder":[6506],
     "tradeHashes":{
       "3854334101":["(15-35)% increased Evasion while Leeching"]
     },
@@ -12674,7 +12690,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(15-18)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12688,7 +12704,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(19-22)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12702,7 +12718,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(23-26)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12716,7 +12732,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(27-30)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12730,7 +12746,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(31-35)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12744,7 +12760,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(36-40)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12758,7 +12774,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(41-45)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12772,7 +12788,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(46-50)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12786,7 +12802,7 @@
     "group":"AdditionalProjectileChance",
     "level":1,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(51-60)% Surpassing chance to fire an additional Projectile"]
     },
@@ -12884,7 +12900,7 @@
     "group":"CharmChargeGeneration",
     "level":1,
     "modTags":["charm"],
-    "statOrder":[6872],
+    "statOrder":[6885],
     "tradeHashes":{
       "185580205":["Charms gain (0.13-0.27) charges per Second"]
     },
@@ -12898,7 +12914,7 @@
     "group":"DeflectDamageTakenRecoupedAsLife",
     "level":1,
     "modTags":[],
-    "statOrder":[6106],
+    "statOrder":[6112],
     "tradeHashes":{
       "3471443885":["(12-23)% of Damage taken from Deflected Hits Recouped as Life"]
     },
@@ -12912,7 +12928,7 @@
     "group":"GenerateLifeAndManaFlasksChargesPerMinute",
     "level":1,
     "modTags":["flask","resource","life","mana"],
-    "statOrder":[6875,6876],
+    "statOrder":[6888,6889],
     "tradeHashes":{
       "1102738251":["Life Flasks gain (0.13-0.27) charges per Second"],
       "2200293569":["Mana Flasks gain (0.13-0.27) charges per Second"]
@@ -12928,7 +12944,7 @@
     "group":"DeflectDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[4670],
+    "statOrder":[4675],
     "tradeHashes":{
       "3552135623":["Prevent +3% of Damage from Deflected Hits"]
     },
@@ -12942,7 +12958,7 @@
     "group":"DeflectDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[4670],
+    "statOrder":[4675],
     "tradeHashes":{
       "3552135623":["Prevent +4% of Damage from Deflected Hits"]
     },
@@ -12956,7 +12972,7 @@
     "group":"DeflectDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[4670],
+    "statOrder":[4675],
     "tradeHashes":{
       "3552135623":["Prevent +5% of Damage from Deflected Hits"]
     },
@@ -12970,7 +12986,7 @@
     "group":"DeflectDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[4670],
+    "statOrder":[4675],
     "tradeHashes":{
       "3552135623":["Prevent +6% of Damage from Deflected Hits"]
     },
@@ -12984,7 +13000,7 @@
     "group":"DeflectDamageTaken",
     "level":1,
     "modTags":[],
-    "statOrder":[4670],
+    "statOrder":[4675],
     "tradeHashes":{
       "3552135623":["Prevent +7% of Damage from Deflected Hits"]
     },
@@ -13156,7 +13172,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(12-14)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13170,7 +13186,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(15-17)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13184,7 +13200,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(18-20)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13198,7 +13214,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(21-23)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13212,7 +13228,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(24-26)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13226,7 +13242,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(27-29)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13240,7 +13256,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(30-32)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13254,7 +13270,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(33-35)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13268,7 +13284,7 @@
     "group":"AttacksBlindOnHitChance",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4580],
+    "statOrder":[4585],
     "tradeHashes":{
       "318953428":["(36-38)% chance to Blind Enemies on Hit with Attacks"]
     },
@@ -13646,7 +13662,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(5-8)% increased Cooldown Recovery Rate"]
     },
@@ -13660,7 +13676,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(9-12)% increased Cooldown Recovery Rate"]
     },
@@ -13674,7 +13690,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(13-16)% increased Cooldown Recovery Rate"]
     },
@@ -13688,7 +13704,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(17-20)% increased Cooldown Recovery Rate"]
     },
@@ -13702,7 +13718,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(21-24)% increased Cooldown Recovery Rate"]
     },
@@ -13716,7 +13732,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(25-28)% increased Cooldown Recovery Rate"]
     },
@@ -13730,7 +13746,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(29-32)% increased Cooldown Recovery Rate"]
     },
@@ -13744,7 +13760,7 @@
     "group":"GlobalCooldownRecovery",
     "level":1,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["10% increased Cooldown Recovery Rate"]
     },
@@ -13758,7 +13774,7 @@
     "group":"GoldFoundIncrease",
     "level":1,
     "modTags":["drop"],
-    "statOrder":[6900],
+    "statOrder":[6913],
     "tradeHashes":{
       "3175163625":["(15-20)% increased Quantity of Gold Dropped by Slain Enemies"]
     },
@@ -13772,7 +13788,7 @@
     "group":"GoldFoundIncrease",
     "level":1,
     "modTags":["drop"],
-    "statOrder":[6900],
+    "statOrder":[6913],
     "tradeHashes":{
       "3175163625":["(21-25)% increased Quantity of Gold Dropped by Slain Enemies"]
     },
@@ -13786,7 +13802,7 @@
     "group":"GoldFoundIncrease",
     "level":1,
     "modTags":["drop"],
-    "statOrder":[6900],
+    "statOrder":[6913],
     "tradeHashes":{
       "3175163625":["(26-30)% increased Quantity of Gold Dropped by Slain Enemies"]
     },
@@ -13800,7 +13816,7 @@
     "group":"LifeOnHitIfCritRecently",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[7427],
+    "statOrder":[7441],
     "tradeHashes":{
       "20762282":["Gain (4-6) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"]
     },
@@ -13814,7 +13830,7 @@
     "group":"LifeOnHitIfCritRecently",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[7427],
+    "statOrder":[7441],
     "tradeHashes":{
       "20762282":["Gain (7-9) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"]
     },
@@ -13828,7 +13844,7 @@
     "group":"LifeOnHitIfCritRecently",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[7427],
+    "statOrder":[7441],
     "tradeHashes":{
       "20762282":["Gain (10-12) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"]
     },
@@ -13842,7 +13858,7 @@
     "group":"LifeOnHitIfCritRecently",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[7427],
+    "statOrder":[7441],
     "tradeHashes":{
       "20762282":["Gain (13-15) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"]
     },
@@ -14466,7 +14482,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["3% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14480,7 +14496,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["4% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14494,7 +14510,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["5% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14508,7 +14524,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["6% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14522,7 +14538,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["7% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14536,7 +14552,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["8% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14760,7 +14776,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["3% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14774,7 +14790,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["4% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14788,7 +14804,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["5% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14802,7 +14818,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["6% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14816,7 +14832,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["7% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14830,7 +14846,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["8% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14844,7 +14860,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["3% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14858,7 +14874,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["4% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14872,7 +14888,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["5% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14886,7 +14902,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["6% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14900,7 +14916,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["7% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -14914,7 +14930,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["8% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15040,7 +15056,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["3% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15054,7 +15070,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["4% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15068,7 +15084,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["5% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15082,7 +15098,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["6% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15096,7 +15112,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["7% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15110,7 +15126,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["8% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15320,7 +15336,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["3% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15334,7 +15350,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["4% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15348,7 +15364,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["5% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15362,7 +15378,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["6% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15376,7 +15392,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["7% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15390,7 +15406,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["8% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15404,7 +15420,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["3% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15418,7 +15434,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["4% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15432,7 +15448,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["5% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15446,7 +15462,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["6% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15460,7 +15476,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["7% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -15474,7 +15490,7 @@
     "group":"RecoupLifeAndEnergyShield",
     "level":1,
     "modTags":[],
-    "statOrder":[6033],
+    "statOrder":[6039],
     "tradeHashes":{
       "2319832234":["8% of Damage Taken Recouped as Life, Mana and Energy Shield"]
     },
@@ -16128,7 +16144,7 @@
     "group":"ProjectileForkChanceIfMeleeRecently",
     "level":1,
     "modTags":[],
-    "statOrder":[9539],
+    "statOrder":[9556],
     "tradeHashes":{
       "2189073790":["Projectiles have (45-64)% chance to Fork if you've dealt a Melee Hit in the past eight seconds"]
     },
@@ -16142,7 +16158,7 @@
     "group":"ProjectileForkChanceIfMeleeRecently",
     "level":1,
     "modTags":[],
-    "statOrder":[9539],
+    "statOrder":[9556],
     "tradeHashes":{
       "2189073790":["Projectiles have (65-85)% chance to Fork if you've dealt a Melee Hit in the past eight seconds"]
     },
@@ -16226,7 +16242,7 @@
     "group":"SpreadMarkOnConsume",
     "level":1,
     "modTags":[],
-    "statOrder":[10595],
+    "statOrder":[10612],
     "tradeHashes":{
       "4031619030":["When your Marks are Consumed, they have (10-19)% chance to Mark another Enemy within 3 metres"]
     },
@@ -16240,7 +16256,7 @@
     "group":"SpreadMarkOnConsume",
     "level":1,
     "modTags":[],
-    "statOrder":[10595],
+    "statOrder":[10612],
     "tradeHashes":{
       "4031619030":["When your Marks are Consumed, they have (20-29)% chance to Mark another Enemy within 3 metres"]
     },
@@ -16254,7 +16270,7 @@
     "group":"CriticalHitChanceAgainstMarkedEnemies",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[5824],
+    "statOrder":[5830],
     "tradeHashes":{
       "1045789614":["(32-46)% increased Critical Hit Chance against Marked Enemies"]
     },
@@ -16268,7 +16284,7 @@
     "group":"CriticalHitChanceAgainstMarkedEnemies",
     "level":1,
     "modTags":["critical"],
-    "statOrder":[5824],
+    "statOrder":[5830],
     "tradeHashes":{
       "1045789614":["(47-61)% increased Critical Hit Chance against Marked Enemies"]
     },
@@ -16282,7 +16298,7 @@
     "group":"MarkedEnemyTakesIncreasedDamage",
     "level":1,
     "modTags":[],
-    "statOrder":[8802],
+    "statOrder":[8819],
     "tradeHashes":{
       "2083058281":["Enemies you Mark take (1-5)% increased Damage"]
     },
@@ -16296,7 +16312,7 @@
     "group":"MarkedEnemyTakesIncreasedDamage",
     "level":1,
     "modTags":[],
-    "statOrder":[8802],
+    "statOrder":[8819],
     "tradeHashes":{
       "2083058281":["Enemies you Mark take (6-10)% increased Damage"]
     },
@@ -16310,7 +16326,7 @@
     "group":"DamageAgainstMarkedEnemies",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[5969],
+    "statOrder":[5975],
     "tradeHashes":{
       "2001747092":["(10-19)% increased Damage with Hits against Marked Enemy"]
     },
@@ -16324,7 +16340,7 @@
     "group":"DamageAgainstMarkedEnemies",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[5969],
+    "statOrder":[5975],
     "tradeHashes":{
       "2001747092":["(20-29)% increased Damage with Hits against Marked Enemy"]
     },
@@ -16380,7 +16396,7 @@
     "group":"ProjectileChanceToFork",
     "level":1,
     "modTags":[],
-    "statOrder":[9518],
+    "statOrder":[9535],
     "tradeHashes":{
       "1549287843":["Projectiles have (25-44)% chance to Fork"]
     },
@@ -16394,7 +16410,7 @@
     "group":"ProjectileChanceToFork",
     "level":1,
     "modTags":[],
-    "statOrder":[9518],
+    "statOrder":[9535],
     "tradeHashes":{
       "1549287843":["Projectiles have (45-65)% chance to Fork"]
     },
@@ -16562,7 +16578,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(7-10)% increased Area of Effect for Attacks"]
     },
@@ -16576,7 +16592,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(11-13)% increased Area of Effect for Attacks"]
     },
@@ -16590,7 +16606,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(14-16)% increased Area of Effect for Attacks"]
     },
@@ -16604,7 +16620,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(17-19)% increased Area of Effect for Attacks"]
     },
@@ -16618,7 +16634,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(20-22)% increased Area of Effect for Attacks"]
     },
@@ -16632,7 +16648,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(23-25)% increased Area of Effect for Attacks"]
     },
@@ -16646,7 +16662,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(26-28)% increased Area of Effect for Attacks"]
     },
@@ -16660,7 +16676,7 @@
     "group":"IncreasedAttackAreaOfEffect",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[4485],
+    "statOrder":[4490],
     "tradeHashes":{
       "1840985759":["(29-32)% increased Area of Effect for Attacks"]
     },
@@ -16688,7 +16704,7 @@
     "group":"LifeOnHitIfCritRecently",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[7427],
+    "statOrder":[7441],
     "tradeHashes":{
       "20762282":["Gain (16-24) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently"]
     },
@@ -16786,7 +16802,7 @@
     "group":"DazeBuildup",
     "level":1,
     "modTags":[],
-    "statOrder":[4661],
+    "statOrder":[4666],
     "tradeHashes":{
       "3146310524":["Dazes on Hit"]
     },
@@ -16800,7 +16816,7 @@
     "group":"ChaosDamageMaximumLife",
     "level":1,
     "modTags":["chaos"],
-    "statOrder":[4455],
+    "statOrder":[4460],
     "tradeHashes":{
       "1141563002":["Attacks have added Chaos damage equal to (1-3)% of maximum Life"]
     },
@@ -16828,7 +16844,7 @@
     "group":"AttackLightningDamageMaximumMana",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning","attack"],
-    "statOrder":[4542],
+    "statOrder":[4547],
     "tradeHashes":{
       "2778228111":["Attack Skills have Added Lightning Damage equal to (1-5)% of maximum Mana"]
     },
@@ -16870,7 +16886,7 @@
     "group":"ReducedAttackManaCost",
     "level":1,
     "modTags":[],
-    "statOrder":[4530],
+    "statOrder":[4535],
     "tradeHashes":{
       "2859471749":["(15-40)% reduced Mana Cost of Attacks"]
     },
@@ -16884,7 +16900,7 @@
     "group":"EnemiesDyingInPresenceRecoverMana",
     "level":1,
     "modTags":[],
-    "statOrder":[9662],
+    "statOrder":[9679],
     "tradeHashes":{
       "2456226238":["Recover (2-6)% of your maximum Mana when an Enemy dies in your Presence"]
     },
@@ -16898,7 +16914,7 @@
     "group":"PhysicalAddedAsFirePerRage",
     "level":1,
     "modTags":["elemental_damage","physical_damage","damage","physical","elemental","fire"],
-    "statOrder":[9275],
+    "statOrder":[9292],
     "tradeHashes":{
       "1336175820":["Gain 1% of Physical Damage as Extra Fire Damage per Rage"]
     },
@@ -16912,7 +16928,7 @@
     "group":"AttackDamageOnLowLife",
     "level":1,
     "modTags":[],
-    "statOrder":[4522],
+    "statOrder":[4527],
     "tradeHashes":{
       "4246007234":["(20-30)% increased Attack Damage while on Low Life"]
     },
@@ -16942,7 +16958,7 @@
     "group":"RageOnHit",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[6856],
+    "statOrder":[6869],
     "tradeHashes":{
       "2709367754":["Gain (1-3) Rage on Melee Hit"]
     },
@@ -16956,7 +16972,7 @@
     "group":"DamageIncreasePerPoisonOnSelfAndReflectPoisonToSelf",
     "level":1,
     "modTags":["chaos_damage","poison","damage","chaos","ailment"],
-    "statOrder":[5998,9477],
+    "statOrder":[6004,9494],
     "tradeHashes":{
       "1034580601":["(20-35)% increased Damage for each Poison on you up to a maximum of 75%"],
       "2374357674":["Poison you inflict is Reflected to you"]
@@ -16972,7 +16988,7 @@
     "group":"PoisonOnCrit",
     "level":1,
     "modTags":["poison","chaos","attack","critical","ailment"],
-    "statOrder":[9476],
+    "statOrder":[9493],
     "tradeHashes":{
       "62849030":["Critical Hits Poison the enemy"]
     },
@@ -17000,7 +17016,7 @@
     "group":"ChaosResistancePerPoisonOnSelfAndReflectPoisonToSelf",
     "level":1,
     "modTags":["chaos_resistance","poison","chaos","resistance","ailment"],
-    "statOrder":[5581,9477],
+    "statOrder":[5587,9494],
     "tradeHashes":{
       "175362265":["+(12-23)% to Chaos Resistance per Poison on you"],
       "2374357674":["Poison you inflict is Reflected to you"]
@@ -17016,7 +17032,7 @@
     "group":"MovementSpeedPerPoisonOnSelfAndReflectPoisonToSelf",
     "level":1,
     "modTags":["poison","chaos","speed","ailment"],
-    "statOrder":[9144,9477],
+    "statOrder":[9161,9494],
     "tradeHashes":{
       "1360723495":["(17-25)% increased Movement Speed for each Poison on you up to a maximum of 50%"],
       "2374357674":["Poison you inflict is Reflected to you"]
@@ -17046,7 +17062,7 @@
     "group":"ManaCostBaseNonChannelled",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[9884],
+    "statOrder":[9901],
     "tradeHashes":{
       "407482587":["Non-Channelling Skills Cost -(8-3) Mana"]
     },
@@ -17060,7 +17076,7 @@
     "group":"PhysicalDamageMaximumLife",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[4456],
+    "statOrder":[4461],
     "tradeHashes":{
       "2723294374":["Attacks have added Physical damage equal to (1-3)% of maximum Life"]
     },
@@ -26846,7 +26862,7 @@
     "group":"ManaGainedOnBlock",
     "level":63,
     "modTags":["block","resource","mana"],
-    "statOrder":[7973],
+    "statOrder":[7987],
     "tradeHashes":{
       "3041288981":["Recover 5% of your maximum Mana when you Block"]
     },
@@ -27252,7 +27268,7 @@
     "group":"ChainFromTerrain",
     "level":45,
     "modTags":[],
-    "statOrder":[9517],
+    "statOrder":[9534],
     "tradeHashes":{
       "4081947835":["Projectiles have (10-19)% chance to Chain an additional time from terrain"]
     },
@@ -27266,7 +27282,7 @@
     "group":"ChainFromTerrain",
     "level":75,
     "modTags":[],
-    "statOrder":[9517],
+    "statOrder":[9534],
     "tradeHashes":{
       "4081947835":["Projectiles have (20-32)% chance to Chain an additional time from terrain"]
     },
@@ -27280,7 +27296,7 @@
     "group":"ForkingProjectiles",
     "level":45,
     "modTags":[],
-    "statOrder":[5506],
+    "statOrder":[5511],
     "tradeHashes":{
       "3003542304":["Projectiles have (25-50)% chance for an additional Projectile when Forking"]
     },
@@ -27294,7 +27310,7 @@
     "group":"ForkingProjectiles",
     "level":75,
     "modTags":[],
-    "statOrder":[5506],
+    "statOrder":[5511],
     "tradeHashes":{
       "3003542304":["Projectiles have (51-100)% chance for an additional Projectile when Forking"]
     },
@@ -27378,7 +27394,7 @@
     "group":"MarkDuration",
     "level":45,
     "modTags":[],
-    "statOrder":[8796],
+    "statOrder":[8813],
     "tradeHashes":{
       "2594634307":["Mark Skills have (50-74)% increased Skill Effect Duration"]
     },
@@ -27392,7 +27408,7 @@
     "group":"MarkDuration",
     "level":75,
     "modTags":[],
-    "statOrder":[8796],
+    "statOrder":[8813],
     "tradeHashes":{
       "2594634307":["Mark Skills have (75-100)% increased Skill Effect Duration"]
     },
@@ -27434,7 +27450,7 @@
     "group":"MarkSkillGemLevels",
     "level":45,
     "modTags":[],
-    "statOrder":[8797],
+    "statOrder":[8814],
     "tradeHashes":{
       "1992191903":["+(1-2) to Level of all Mark Skills"]
     },
@@ -27448,7 +27464,7 @@
     "group":"MarkSkillGemLevels",
     "level":65,
     "modTags":[],
-    "statOrder":[8797],
+    "statOrder":[8814],
     "tradeHashes":{
       "1992191903":["+(3-4) to Level of all Mark Skills"]
     },
@@ -27602,7 +27618,7 @@
     "group":"AdditionalProjectileChance",
     "level":45,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(23-36)% Surpassing chance to fire an additional Projectile"]
     },
@@ -27616,7 +27632,7 @@
     "group":"AdditionalProjectileChance",
     "level":65,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(37-50)% Surpassing chance to fire an additional Projectile"]
     },
@@ -27630,7 +27646,7 @@
     "group":"AdditionalProjectileChance",
     "level":75,
     "modTags":[],
-    "statOrder":[5503],
+    "statOrder":[5508],
     "tradeHashes":{
       "1347539079":["+(51-66)% Surpassing chance to fire an additional Projectile"]
     },
@@ -28022,7 +28038,7 @@
     "group":"MinionAttackSpeedAndCastSpeed",
     "level":31,
     "modTags":["caster_speed","minion_speed","attack","caster","speed","minion"],
-    "statOrder":[8977],
+    "statOrder":[8994],
     "tradeHashes":{
       "3091578504":["Minions have (3-4)% increased Attack and Cast Speed"]
     },
@@ -28036,7 +28052,7 @@
     "group":"MinionAttackSpeedAndCastSpeed",
     "level":53,
     "modTags":["caster_speed","minion_speed","attack","caster","speed","minion"],
-    "statOrder":[8977],
+    "statOrder":[8994],
     "tradeHashes":{
       "3091578504":["Minions have (5-6)% increased Attack and Cast Speed"]
     },
@@ -28050,7 +28066,7 @@
     "group":"MinionAttackSpeedAndCastSpeed",
     "level":69,
     "modTags":["caster_speed","minion_speed","attack","caster","speed","minion"],
-    "statOrder":[8977],
+    "statOrder":[8994],
     "tradeHashes":{
       "3091578504":["Minions have (7-8)% increased Attack and Cast Speed"]
     },
@@ -28064,7 +28080,7 @@
     "group":"MinionAttackSpeedAndCastSpeed",
     "level":80,
     "modTags":["caster_speed","minion_speed","attack","caster","speed","minion"],
-    "statOrder":[8977],
+    "statOrder":[8994],
     "tradeHashes":{
       "3091578504":["Minions have (9-10)% increased Attack and Cast Speed"]
     },
@@ -28078,7 +28094,7 @@
     "group":"MinionCommandSkillDamage",
     "level":18,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9001],
+    "statOrder":[9018],
     "tradeHashes":{
       "3742865955":["Minions deal (13-20)% increased Damage with Command Skills"]
     },
@@ -28092,7 +28108,7 @@
     "group":"MinionCommandSkillDamage",
     "level":35,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9001],
+    "statOrder":[9018],
     "tradeHashes":{
       "3742865955":["Minions deal (21-28)% increased Damage with Command Skills"]
     },
@@ -28106,7 +28122,7 @@
     "group":"MinionCommandSkillDamage",
     "level":44,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9001],
+    "statOrder":[9018],
     "tradeHashes":{
       "3742865955":["Minions deal (29-36)% increased Damage with Command Skills"]
     },
@@ -28120,7 +28136,7 @@
     "group":"MinionCommandSkillDamage",
     "level":52,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9001],
+    "statOrder":[9018],
     "tradeHashes":{
       "3742865955":["Minions deal (37-44)% increased Damage with Command Skills"]
     },
@@ -28134,7 +28150,7 @@
     "group":"MinionCommandSkillDamage",
     "level":63,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9001],
+    "statOrder":[9018],
     "tradeHashes":{
       "3742865955":["Minions deal (45-52)% increased Damage with Command Skills"]
     },
@@ -28148,7 +28164,7 @@
     "group":"MinionCommandSkillDamage",
     "level":81,
     "modTags":["minion_damage","damage","minion"],
-    "statOrder":[9001],
+    "statOrder":[9018],
     "tradeHashes":{
       "3742865955":["Minions deal (53-61)% increased Damage with Command Skills"]
     },
@@ -28162,7 +28178,7 @@
     "group":"MinionCriticalStrikeChanceIncrease",
     "level":18,
     "modTags":["minion","critical"],
-    "statOrder":[9004],
+    "statOrder":[9021],
     "tradeHashes":{
       "491450213":["Minions have (5-12)% increased Critical Hit Chance"]
     },
@@ -28176,7 +28192,7 @@
     "group":"MinionCriticalStrikeChanceIncrease",
     "level":32,
     "modTags":["minion","critical"],
-    "statOrder":[9004],
+    "statOrder":[9021],
     "tradeHashes":{
       "491450213":["Minions have (13-20)% increased Critical Hit Chance"]
     },
@@ -28190,7 +28206,7 @@
     "group":"MinionCriticalStrikeChanceIncrease",
     "level":45,
     "modTags":["minion","critical"],
-    "statOrder":[9004],
+    "statOrder":[9021],
     "tradeHashes":{
       "491450213":["Minions have (21-28)% increased Critical Hit Chance"]
     },
@@ -28204,7 +28220,7 @@
     "group":"MinionCriticalStrikeChanceIncrease",
     "level":58,
     "modTags":["minion","critical"],
-    "statOrder":[9004],
+    "statOrder":[9021],
     "tradeHashes":{
       "491450213":["Minions have (29-36)% increased Critical Hit Chance"]
     },
@@ -28218,7 +28234,7 @@
     "group":"MinionCriticalStrikeChanceIncrease",
     "level":70,
     "modTags":["minion","critical"],
-    "statOrder":[9004],
+    "statOrder":[9021],
     "tradeHashes":{
       "491450213":["Minions have (37-44)% increased Critical Hit Chance"]
     },
@@ -28232,7 +28248,7 @@
     "group":"MinionCriticalStrikeChanceIncrease",
     "level":81,
     "modTags":["minion","critical"],
-    "statOrder":[9004],
+    "statOrder":[9021],
     "tradeHashes":{
       "491450213":["Minions have (45-52)% increased Critical Hit Chance"]
     },
@@ -28246,7 +28262,7 @@
     "group":"MinionCriticalStrikeMultiplier",
     "level":17,
     "modTags":["minion_damage","damage","minion","critical"],
-    "statOrder":[9006],
+    "statOrder":[9023],
     "tradeHashes":{
       "1854213750":["Minions have (6-10)% increased Critical Damage Bonus"]
     },
@@ -28260,7 +28276,7 @@
     "group":"MinionCriticalStrikeMultiplier",
     "level":30,
     "modTags":["minion_damage","damage","minion","critical"],
-    "statOrder":[9006],
+    "statOrder":[9023],
     "tradeHashes":{
       "1854213750":["Minions have (11-15)% increased Critical Damage Bonus"]
     },
@@ -28274,7 +28290,7 @@
     "group":"MinionCriticalStrikeMultiplier",
     "level":44,
     "modTags":["minion_damage","damage","minion","critical"],
-    "statOrder":[9006],
+    "statOrder":[9023],
     "tradeHashes":{
       "1854213750":["Minions have (16-20)% increased Critical Damage Bonus"]
     },
@@ -28288,7 +28304,7 @@
     "group":"MinionCriticalStrikeMultiplier",
     "level":57,
     "modTags":["minion_damage","damage","minion","critical"],
-    "statOrder":[9006],
+    "statOrder":[9023],
     "tradeHashes":{
       "1854213750":["Minions have (21-25)% increased Critical Damage Bonus"]
     },
@@ -28302,7 +28318,7 @@
     "group":"MinionCriticalStrikeMultiplier",
     "level":69,
     "modTags":["minion_damage","damage","minion","critical"],
-    "statOrder":[9006],
+    "statOrder":[9023],
     "tradeHashes":{
       "1854213750":["Minions have (26-30)% increased Critical Damage Bonus"]
     },
@@ -28316,7 +28332,7 @@
     "group":"MinionCriticalStrikeMultiplier",
     "level":80,
     "modTags":["minion_damage","damage","minion","critical"],
-    "statOrder":[9006],
+    "statOrder":[9023],
     "tradeHashes":{
       "1854213750":["Minions have (31-35)% increased Critical Damage Bonus"]
     },
@@ -28554,7 +28570,7 @@
     "group":"MinionImmobilisationBuildup",
     "level":16,
     "modTags":["minion"],
-    "statOrder":[9032],
+    "statOrder":[9049],
     "tradeHashes":{
       "1485480327":["Minions have (20-25)% increased Immobilisation buildup"]
     },
@@ -28568,7 +28584,7 @@
     "group":"MinionImmobilisationBuildup",
     "level":34,
     "modTags":["minion"],
-    "statOrder":[9032],
+    "statOrder":[9049],
     "tradeHashes":{
       "1485480327":["Minions have (26-31)% increased Immobilisation buildup"]
     },
@@ -28582,7 +28598,7 @@
     "group":"MinionImmobilisationBuildup",
     "level":48,
     "modTags":["minion"],
-    "statOrder":[9032],
+    "statOrder":[9049],
     "tradeHashes":{
       "1485480327":["Minions have (32-37)% increased Immobilisation buildup"]
     },
@@ -28596,7 +28612,7 @@
     "group":"MinionImmobilisationBuildup",
     "level":56,
     "modTags":["minion"],
-    "statOrder":[9032],
+    "statOrder":[9049],
     "tradeHashes":{
       "1485480327":["Minions have (38-43)% increased Immobilisation buildup"]
     },
@@ -28610,7 +28626,7 @@
     "group":"MinionImmobilisationBuildup",
     "level":65,
     "modTags":["minion"],
-    "statOrder":[9032],
+    "statOrder":[9049],
     "tradeHashes":{
       "1485480327":["Minions have (44-49)% increased Immobilisation buildup"]
     },
@@ -28624,7 +28640,7 @@
     "group":"MinionImmobilisationBuildup",
     "level":74,
     "modTags":["minion"],
-    "statOrder":[9032],
+    "statOrder":[9049],
     "tradeHashes":{
       "1485480327":["Minions have (50-55)% increased Immobilisation buildup"]
     },
@@ -28862,7 +28878,7 @@
     "group":"MinionReviveSpeed",
     "level":24,
     "modTags":["minion"],
-    "statOrder":[9059],
+    "statOrder":[9076],
     "tradeHashes":{
       "2639966148":["Minions Revive (1-2)% faster"]
     },
@@ -28876,7 +28892,7 @@
     "group":"MinionReviveSpeed",
     "level":45,
     "modTags":["minion"],
-    "statOrder":[9059],
+    "statOrder":[9076],
     "tradeHashes":{
       "2639966148":["Minions Revive (3-5)% faster"]
     },
@@ -28890,7 +28906,7 @@
     "group":"MinionReviveSpeed",
     "level":63,
     "modTags":["minion"],
-    "statOrder":[9059],
+    "statOrder":[9076],
     "tradeHashes":{
       "2639966148":["Minions Revive (7-9)% faster"]
     },
@@ -28904,7 +28920,7 @@
     "group":"MinionReviveSpeed",
     "level":76,
     "modTags":["minion"],
-    "statOrder":[9059],
+    "statOrder":[9076],
     "tradeHashes":{
       "2639966148":["Minions Revive (10-12)% faster"]
     },
@@ -28918,7 +28934,7 @@
     "group":"MovementSpeedOnBurningChilledShockedGround",
     "level":63,
     "modTags":["speed"],
-    "statOrder":[9152],
+    "statOrder":[9169],
     "tradeHashes":{
       "1521863824":["12% increased Movement speed while on Burning, Chilled or Shocked ground"]
     },
@@ -30276,7 +30292,7 @@
     "group":"OfferingDuration",
     "level":15,
     "modTags":["minion"],
-    "statOrder":[9329],
+    "statOrder":[9346],
     "tradeHashes":{
       "2957407601":["Offering Skills have (6-15)% increased Duration"]
     },
@@ -30290,7 +30306,7 @@
     "group":"OfferingDuration",
     "level":29,
     "modTags":["minion"],
-    "statOrder":[9329],
+    "statOrder":[9346],
     "tradeHashes":{
       "2957407601":["Offering Skills have (16-25)% increased Duration"]
     },
@@ -30304,7 +30320,7 @@
     "group":"OfferingDuration",
     "level":47,
     "modTags":["minion"],
-    "statOrder":[9329],
+    "statOrder":[9346],
     "tradeHashes":{
       "2957407601":["Offering Skills have (26-35)% increased Duration"]
     },
@@ -30318,7 +30334,7 @@
     "group":"OfferingDuration",
     "level":68,
     "modTags":["minion"],
-    "statOrder":[9329],
+    "statOrder":[9346],
     "tradeHashes":{
       "2957407601":["Offering Skills have (36-45)% increased Duration"]
     },
@@ -30332,7 +30348,7 @@
     "group":"OfferingDuration",
     "level":79,
     "modTags":["minion"],
-    "statOrder":[9329],
+    "statOrder":[9346],
     "tradeHashes":{
       "2957407601":["Offering Skills have (46-55)% increased Duration"]
     },
@@ -30346,7 +30362,7 @@
     "group":"OnslaughtWhenHitChance",
     "level":63,
     "modTags":[],
-    "statOrder":[6806],
+    "statOrder":[6819],
     "tradeHashes":{
       "3049760680":["Gain Onslaught for 3 seconds when Hit"]
     },
@@ -30894,7 +30910,7 @@
     "group":"ReducedBleedDuration",
     "level":21,
     "modTags":["bleed","physical","ailment"],
-    "statOrder":[9778],
+    "statOrder":[9795],
     "tradeHashes":{
       "1692879867":["(36-40)% reduced Duration of Bleeding on You"]
     },
@@ -30908,7 +30924,7 @@
     "group":"ReducedBleedDuration",
     "level":37,
     "modTags":["bleed","physical","ailment"],
-    "statOrder":[9778],
+    "statOrder":[9795],
     "tradeHashes":{
       "1692879867":["(41-45)% reduced Duration of Bleeding on You"]
     },
@@ -30922,7 +30938,7 @@
     "group":"ReducedBleedDuration",
     "level":50,
     "modTags":["bleed","physical","ailment"],
-    "statOrder":[9778],
+    "statOrder":[9795],
     "tradeHashes":{
       "1692879867":["(46-50)% reduced Duration of Bleeding on You"]
     },
@@ -30936,7 +30952,7 @@
     "group":"ReducedBleedDuration",
     "level":64,
     "modTags":["bleed","physical","ailment"],
-    "statOrder":[9778],
+    "statOrder":[9795],
     "tradeHashes":{
       "1692879867":["(51-55)% reduced Duration of Bleeding on You"]
     },
@@ -30950,7 +30966,7 @@
     "group":"ReducedBleedDuration",
     "level":76,
     "modTags":["bleed","physical","ailment"],
-    "statOrder":[9778],
+    "statOrder":[9795],
     "tradeHashes":{
       "1692879867":["(56-60)% reduced Duration of Bleeding on You"]
     },
@@ -31510,7 +31526,7 @@
     "group":"ReflectDamageTaken",
     "level":63,
     "modTags":[],
-    "statOrder":[9688],
+    "statOrder":[9705],
     "tradeHashes":{
       "3577248251":["You and your Minions take 40% reduced Reflected Damage"]
     },
@@ -31524,7 +31540,7 @@
     "group":"RemnantGrantEffectTwiceChance",
     "level":24,
     "modTags":[],
-    "statOrder":[5794],
+    "statOrder":[5800],
     "tradeHashes":{
       "3422093970":["(4-6)% chance for Remnants you pick up to count as picking up an additional Remnant"]
     },
@@ -31538,7 +31554,7 @@
     "group":"RemnantGrantEffectTwiceChance",
     "level":37,
     "modTags":[],
-    "statOrder":[5794],
+    "statOrder":[5800],
     "tradeHashes":{
       "3422093970":["(7-9)% chance for Remnants you pick up to count as picking up an additional Remnant"]
     },
@@ -31552,7 +31568,7 @@
     "group":"RemnantGrantEffectTwiceChance",
     "level":49,
     "modTags":[],
-    "statOrder":[5794],
+    "statOrder":[5800],
     "tradeHashes":{
       "3422093970":["(10-12)% chance for Remnants you pick up to count as picking up an additional Remnant"]
     },
@@ -31566,7 +31582,7 @@
     "group":"RemnantGrantEffectTwiceChance",
     "level":61,
     "modTags":[],
-    "statOrder":[5794],
+    "statOrder":[5800],
     "tradeHashes":{
       "3422093970":["(13-14)% chance for Remnants you pick up to count as picking up an additional Remnant"]
     },
@@ -31580,7 +31596,7 @@
     "group":"RemnantGrantEffectTwiceChance",
     "level":73,
     "modTags":[],
-    "statOrder":[5794],
+    "statOrder":[5800],
     "tradeHashes":{
       "3422093970":["(15-16)% chance for Remnants you pick up to count as picking up an additional Remnant"]
     },
@@ -31594,7 +31610,7 @@
     "group":"RemnantPickupRadiusIncrease",
     "level":26,
     "modTags":[],
-    "statOrder":[9712],
+    "statOrder":[9729],
     "tradeHashes":{
       "3482326075":["Remnants can be collected from (12-19)% further away"]
     },
@@ -31608,7 +31624,7 @@
     "group":"RemnantPickupRadiusIncrease",
     "level":38,
     "modTags":[],
-    "statOrder":[9712],
+    "statOrder":[9729],
     "tradeHashes":{
       "3482326075":["Remnants can be collected from (20-27)% further away"]
     },
@@ -31622,7 +31638,7 @@
     "group":"RemnantPickupRadiusIncrease",
     "level":51,
     "modTags":[],
-    "statOrder":[9712],
+    "statOrder":[9729],
     "tradeHashes":{
       "3482326075":["Remnants can be collected from (28-35)% further away"]
     },
@@ -31636,7 +31652,7 @@
     "group":"RemnantPickupRadiusIncrease",
     "level":64,
     "modTags":[],
-    "statOrder":[9712],
+    "statOrder":[9729],
     "tradeHashes":{
       "3482326075":["Remnants can be collected from (36-43)% further away"]
     },
@@ -31650,7 +31666,7 @@
     "group":"RemnantPickupRadiusIncrease",
     "level":76,
     "modTags":[],
-    "statOrder":[9712],
+    "statOrder":[9729],
     "tradeHashes":{
       "3482326075":["Remnants can be collected from (44-51)% further away"]
     },
@@ -31846,7 +31862,7 @@
     "group":"ColdAndChaosDamageResistance",
     "level":65,
     "modTags":["chaos_resistance","cold_resistance","elemental_resistance","elemental","cold","chaos","resistance"],
-    "statOrder":[5664],
+    "statOrder":[5670],
     "tradeHashes":{
       "3393628375":["+(3-31)% to Cold and Chaos Resistances"]
     },
@@ -31874,7 +31890,7 @@
     "group":"FireAndChaosDamageResistance",
     "level":65,
     "modTags":["chaos_resistance","elemental_resistance","fire_resistance","elemental","fire","chaos","resistance"],
-    "statOrder":[6536],
+    "statOrder":[6549],
     "tradeHashes":{
       "378817135":["+(3-31)% to Fire and Chaos Resistances"]
     },
@@ -31946,7 +31962,7 @@
     "group":"LightningAndChaosDamageResistance",
     "level":65,
     "modTags":["chaos_resistance","elemental_resistance","lightning_resistance","elemental","lightning","chaos","resistance"],
-    "statOrder":[7519],
+    "statOrder":[7533],
     "tradeHashes":{
       "3465022881":["+(3-31)% to Lightning and Chaos Resistances"]
     },
@@ -32056,7 +32072,7 @@
     "group":"AilmentDurationOnYou",
     "level":65,
     "modTags":["bleed","poison","physical","elemental","fire","cold","lightning","chaos","ailment"],
-    "statOrder":[4636],
+    "statOrder":[4641],
     "tradeHashes":{
       "548070846":["(5-50)% reduced Duration of Ailments on You"]
     },
@@ -33020,7 +33036,7 @@
     "group":"SpellAreaOfEffectPercent",
     "level":23,
     "modTags":["caster"],
-    "statOrder":[9965],
+    "statOrder":[9982],
     "tradeHashes":{
       "1967040409":["Spell Skills have (6-8)% increased Area of Effect"]
     },
@@ -33034,7 +33050,7 @@
     "group":"SpellAreaOfEffectPercent",
     "level":48,
     "modTags":["caster"],
-    "statOrder":[9965],
+    "statOrder":[9982],
     "tradeHashes":{
       "1967040409":["Spell Skills have (9-11)% increased Area of Effect"]
     },
@@ -33048,7 +33064,7 @@
     "group":"SpellAreaOfEffectPercent",
     "level":69,
     "modTags":["caster"],
-    "statOrder":[9965],
+    "statOrder":[9982],
     "tradeHashes":{
       "1967040409":["Spell Skills have (12-14)% increased Area of Effect"]
     },
@@ -33062,7 +33078,7 @@
     "group":"SpellCooldownRecovery",
     "level":12,
     "modTags":["caster"],
-    "statOrder":[4739],
+    "statOrder":[4744],
     "tradeHashes":{
       "1493485657":["Spells have (2-4)% increased Cooldown Recovery Rate"]
     },
@@ -33076,7 +33092,7 @@
     "group":"SpellCooldownRecovery",
     "level":28,
     "modTags":["caster"],
-    "statOrder":[4739],
+    "statOrder":[4744],
     "tradeHashes":{
       "1493485657":["Spells have (6-10)% increased Cooldown Recovery Rate"]
     },
@@ -33090,7 +33106,7 @@
     "group":"SpellCooldownRecovery",
     "level":41,
     "modTags":["caster"],
-    "statOrder":[4739],
+    "statOrder":[4744],
     "tradeHashes":{
       "1493485657":["Spells have (11-15)% increased Cooldown Recovery Rate"]
     },
@@ -33104,7 +33120,7 @@
     "group":"SpellCooldownRecovery",
     "level":59,
     "modTags":["caster"],
-    "statOrder":[4739],
+    "statOrder":[4744],
     "tradeHashes":{
       "1493485657":["Spells have (16-20)% increased Cooldown Recovery Rate"]
     },
@@ -33118,7 +33134,7 @@
     "group":"SpellCooldownRecovery",
     "level":74,
     "modTags":["caster"],
-    "statOrder":[4739],
+    "statOrder":[4744],
     "tradeHashes":{
       "1493485657":["Spells have (21-25)% increased Cooldown Recovery Rate"]
     },
@@ -33132,7 +33148,7 @@
     "group":"SpellManaCostEfficiency",
     "level":12,
     "modTags":["resource","mana","caster"],
-    "statOrder":[4742],
+    "statOrder":[4747],
     "tradeHashes":{
       "2653231923":["(7-9)% increased Mana Cost Efficiency of Spells"]
     },
@@ -33146,7 +33162,7 @@
     "group":"SpellManaCostEfficiency",
     "level":29,
     "modTags":["resource","mana","caster"],
-    "statOrder":[4742],
+    "statOrder":[4747],
     "tradeHashes":{
       "2653231923":["(10-12)% increased Mana Cost Efficiency of Spells"]
     },
@@ -33160,7 +33176,7 @@
     "group":"SpellManaCostEfficiency",
     "level":42,
     "modTags":["resource","mana","caster"],
-    "statOrder":[4742],
+    "statOrder":[4747],
     "tradeHashes":{
       "2653231923":["(13-15)% increased Mana Cost Efficiency of Spells"]
     },
@@ -33174,7 +33190,7 @@
     "group":"SpellManaCostEfficiency",
     "level":53,
     "modTags":["resource","mana","caster"],
-    "statOrder":[4742],
+    "statOrder":[4747],
     "tradeHashes":{
       "2653231923":["(16-18)% increased Mana Cost Efficiency of Spells"]
     },
@@ -33188,7 +33204,7 @@
     "group":"SpellManaCostEfficiency",
     "level":64,
     "modTags":["resource","mana","caster"],
-    "statOrder":[4742],
+    "statOrder":[4747],
     "tradeHashes":{
       "2653231923":["(19-22)% increased Mana Cost Efficiency of Spells"]
     },
@@ -33202,7 +33218,7 @@
     "group":"SpellManaCostEfficiency",
     "level":77,
     "modTags":["resource","mana","caster"],
-    "statOrder":[4742],
+    "statOrder":[4747],
     "tradeHashes":{
       "2653231923":["(23-26)% increased Mana Cost Efficiency of Spells"]
     },
@@ -34028,7 +34044,7 @@
     "group":"SpellDamageDuringManaFlaskEffect",
     "level":12,
     "modTags":["caster_damage","damage","caster"],
-    "statOrder":[9973],
+    "statOrder":[9990],
     "tradeHashes":{
       "1014398896":["(20-25)% increased Spell Damage during any Flask Effect"]
     },
@@ -34042,7 +34058,7 @@
     "group":"SpellDamageDuringManaFlaskEffect",
     "level":26,
     "modTags":["caster_damage","damage","caster"],
-    "statOrder":[9973],
+    "statOrder":[9990],
     "tradeHashes":{
       "1014398896":["(26-31)% increased Spell Damage during any Flask Effect"]
     },
@@ -34056,7 +34072,7 @@
     "group":"SpellDamageDuringManaFlaskEffect",
     "level":39,
     "modTags":["caster_damage","damage","caster"],
-    "statOrder":[9973],
+    "statOrder":[9990],
     "tradeHashes":{
       "1014398896":["(32-37)% increased Spell Damage during any Flask Effect"]
     },
@@ -34070,7 +34086,7 @@
     "group":"SpellDamageDuringManaFlaskEffect",
     "level":53,
     "modTags":["caster_damage","damage","caster"],
-    "statOrder":[9973],
+    "statOrder":[9990],
     "tradeHashes":{
       "1014398896":["(38-43)% increased Spell Damage during any Flask Effect"]
     },
@@ -34084,7 +34100,7 @@
     "group":"SpellDamageDuringManaFlaskEffect",
     "level":67,
     "modTags":["caster_damage","damage","caster"],
-    "statOrder":[9973],
+    "statOrder":[9990],
     "tradeHashes":{
       "1014398896":["(44-49)% increased Spell Damage during any Flask Effect"]
     },
@@ -34098,7 +34114,7 @@
     "group":"SpellDamageDuringManaFlaskEffect",
     "level":80,
     "modTags":["caster_damage","damage","caster"],
-    "statOrder":[9973],
+    "statOrder":[9990],
     "tradeHashes":{
       "1014398896":["(50-55)% increased Spell Damage during any Flask Effect"]
     },
@@ -35583,7 +35599,7 @@
     "group":"ChargeChanceToNotConsume",
     "level":45,
     "modTags":[],
-    "statOrder":[5593],
+    "statOrder":[5599],
     "tradeHashes":{
       "2942439603":["Skills have (7-10)% chance to not remove Charges but still count as consuming them"]
     },
@@ -35597,7 +35613,7 @@
     "group":"ChargeChanceToNotConsume",
     "level":78,
     "modTags":[],
-    "statOrder":[5593],
+    "statOrder":[5599],
     "tradeHashes":{
       "2942439603":["Skills have (11-15)% chance to not remove Charges but still count as consuming them"]
     },
@@ -35611,7 +35627,7 @@
     "group":"GlobalCooldownRecovery",
     "level":45,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(12-17)% increased Cooldown Recovery Rate"]
     },
@@ -35625,7 +35641,7 @@
     "group":"GlobalCooldownRecovery",
     "level":55,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(18-23)% increased Cooldown Recovery Rate"]
     },
@@ -35639,7 +35655,7 @@
     "group":"GlobalCooldownRecovery",
     "level":78,
     "modTags":[],
-    "statOrder":[4669],
+    "statOrder":[4674],
     "tradeHashes":{
       "1004011302":["(24-30)% increased Cooldown Recovery Rate"]
     },
@@ -35653,7 +35669,7 @@
     "group":"DebuffTimePassed",
     "level":45,
     "modTags":[],
-    "statOrder":[6089],
+    "statOrder":[6095],
     "tradeHashes":{
       "1238227257":["Debuffs on you expire (50-69)% faster"]
     },
@@ -35667,7 +35683,7 @@
     "group":"DebuffTimePassed",
     "level":78,
     "modTags":[],
-    "statOrder":[6089],
+    "statOrder":[6095],
     "tradeHashes":{
       "1238227257":["Debuffs on you expire (70-89)% faster"]
     },
@@ -35681,7 +35697,7 @@
     "group":"DodgeRollDistance",
     "level":45,
     "modTags":[],
-    "statOrder":[6190],
+    "statOrder":[6196],
     "tradeHashes":{
       "258119672":["+(0.3-0.4) metres to Dodge Roll distance"]
     },
@@ -35695,7 +35711,7 @@
     "group":"DodgeRollDistance",
     "level":78,
     "modTags":[],
-    "statOrder":[6190],
+    "statOrder":[6196],
     "tradeHashes":{
       "258119672":["+(0.4-0.5) metres to Dodge Roll distance"]
     },
@@ -35751,7 +35767,7 @@
     "group":"MovementVelocitySlowPotencyHybrid",
     "level":65,
     "modTags":["speed"],
-    "statOrder":[836,4738],
+    "statOrder":[836,4743],
     "tradeHashes":{
       "924253255":["(10-15)% reduced Slowing Potency of Debuffs on You"],
       "2250533757":["(24-26)% increased Movement Speed"]
@@ -35767,7 +35783,7 @@
     "group":"MovementVelocitySlowPotencyHybrid",
     "level":70,
     "modTags":["speed"],
-    "statOrder":[836,4738],
+    "statOrder":[836,4743],
     "tradeHashes":{
       "924253255":["(16-20)% reduced Slowing Potency of Debuffs on You"],
       "2250533757":["(27-29)% increased Movement Speed"]
@@ -35783,7 +35799,7 @@
     "group":"MovementVelocitySlowPotencyHybrid",
     "level":78,
     "modTags":["speed"],
-    "statOrder":[836,4738],
+    "statOrder":[836,4743],
     "tradeHashes":{
       "924253255":["(21-25)% reduced Slowing Potency of Debuffs on You"],
       "2250533757":["(30-32)% increased Movement Speed"]
@@ -35799,7 +35815,7 @@
     "group":"MovementVelocityWhileSprinting",
     "level":45,
     "modTags":["speed"],
-    "statOrder":[10043],
+    "statOrder":[10060],
     "tradeHashes":{
       "3107707789":["(10-14)% increased Movement Speed while Sprinting"]
     },
@@ -35813,7 +35829,7 @@
     "group":"MovementVelocityWhileSprinting",
     "level":78,
     "modTags":["speed"],
-    "statOrder":[10043],
+    "statOrder":[10060],
     "tradeHashes":{
       "3107707789":["(17-23)% increased Movement Speed while Sprinting"]
     },

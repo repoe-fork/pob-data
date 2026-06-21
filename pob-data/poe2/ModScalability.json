@@ -3775,6 +3775,9 @@
   "#% chance to gain Onslaught for 3 seconds when Hit":[{
       "isScalable":true
     }],
+  "#% chance to gain Onslaught for 3 seconds when you kill an\n enemy affected by Abyssal Wasting":[{
+      "isScalable":true
+    }],
   "#% chance to gain Onslaught for 4 Seconds when Leech is\nremoved by Filling Unreserved Life":[{
       "isScalable":true
     }],
@@ -4133,6 +4136,9 @@
   "#% chance to inflict Withered for two seconds on Hit if there are 5 or fewer Withered Debuffs on Enemy":[{
       "isScalable":true
     }],
+  "#% chance to inflict Withered with Hits against targets affected by Abyssal Wasting":[{
+      "isScalable":true
+    }],
   "#% chance to inflict a Hex on you when Hit per 10 Levels":[{
       "isScalable":true
     }],
@@ -4242,6 +4248,9 @@
       "isScalable":true
     }],
   "#% chance to remove a random Charge from Enemy on Hit":[{
+      "isScalable":true
+    }],
+  "#% chance to revive one of your Persistent Minions when you kill an\n enemy affected by Abyssal Wasting":[{
       "isScalable":true
     }],
   "#% chance to spread Tar when Hit":[{
@@ -8209,6 +8218,9 @@
       "isScalable":true
     }],
   "#% increased Immobilisation buildup against Constructs":[{
+      "isScalable":true
+    }],
+  "#% increased Immobilisation buildup against targets affected by Abyssal Wasting":[{
       "isScalable":true
     }],
   "#% increased Immortal Call Duration":[{
@@ -21543,6 +21555,9 @@
   "Abyssal Wasting also applies #% to Lightning Resistance":[{
       "isScalable":true
     }],
+  "Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life as Physical Damage":[],
+  "Abyssal Wasting you inflict also prevents targets from dealing Critical Hits":[],
+  "Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments":[],
   "Abyssal Wasting you inflict has Infinite Duration":[],
   "Abysses are scattered throughout the Area":[],
   "Abysses in Area have #% increased chance to lead to an Abyssal Depths":[{
@@ -22114,6 +22129,9 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Ailith can create the Dreamer's Sight skill":[],
+  "Ailith can create the Otherworldly Nemesis skill":[],
+  "Ailith can create the Xesht's Fervour skill":[],
   "Alert Level increases by #% per second":[{
       "formats":["divide_by_one_hundred_2dp_if_required"],
       "isScalable":true
@@ -26553,6 +26571,13 @@
   "Delirium Encounters in Area have #% chance to generate an additional Reward":[{
       "isScalable":true
     }],
+  "Delirium Fog in Area applies #% increased Deliriousness to Players":[{
+      "isScalable":true
+    }],
+  "Delirium Fog in Area applies #% reduced Deliriousness to Players":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Delirium Fog in Area dissipates #% faster":[{
       "isScalable":true
     }],
@@ -26588,13 +26613,6 @@
   "Delirium Reward Type: #":[{
       "formats":["affliction_reward_type"],
       "isScalable":false
-    }],
-  "Delirium in Area increases #% faster with distance from the mirror":[{
-      "isScalable":true
-    }],
-  "Delirium in Area increases #% slower with distance from the mirror":[{
-      "formats":["negate"],
-      "isScalable":true
     }],
   "Demigod Footprints":[],
   "Demonflame has no maximum":[],
@@ -27662,6 +27680,9 @@
       "isScalable":true
     }],
   "Enemies you kill have a #% chance to explode, dealing a tenth of their maximum Life as Physical damage":[{
+      "isScalable":true
+    }],
+  "Enemies you kill while they are affected by Abyssal Wasting\n grant #% increased Flask Charges":[{
       "isScalable":true
     }],
   "Enemies you kill with Empowered Attacks have a #% chance to Explode, dealing a tenth of their maximum Life as Fire Damage":[{
@@ -28862,6 +28883,9 @@
   "Gain # Rage when you kill an enemy":[{
       "isScalable":true
     }],
+  "Gain # Rage when you kill an enemy affected by Abyssal Wasting":[{
+      "isScalable":true
+    }],
   "Gain # Rage when you use a Life Flask":[{
       "isScalable":true
     }],
@@ -28889,6 +28913,9 @@
       "isScalable":true
     }],
   "Gain # Volatility when an Allied Persistent Reviving Minion is Killed":[{
+      "isScalable":true
+    }],
+  "Gain # Volatility when you kill an enemy affected by Abyssal Wasting":[{
       "isScalable":true
     }],
   "Gain # fewer Lightning Surge from Triggering Elemental Surge":[{
@@ -39927,6 +39954,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Targets affected by Abyssal Wasting in your Presence have double Power":[],
+  "Targets affected by Abyssal Wasting you inflict are Blinded":[],
+  "Targets affected by Abyssal Wasting you inflict are Debilitated":[],
+  "Targets affected by Abyssal Wasting you inflict are Hindered":[],
   "Targets can be affected by # of your Poisons at the same time":[{
       "isScalable":true
     }],

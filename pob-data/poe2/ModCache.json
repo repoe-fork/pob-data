@@ -3257,25 +3257,6 @@
         "type":"BASE",
         "value":25
       }]," to be Poisoned 100% chance   "],
-  "+25% of Armour also applies to Elemental Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToFireDamageTaken",
-        "type":"BASE",
-        "value":25
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToColdDamageTaken",
-        "type":"BASE",
-        "value":25
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAppliesToLightningDamageTaken",
-        "type":"BASE",
-        "value":25
-      }]],
   "+25% to Block Chance while holding a Focus":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10146,6 +10127,16 @@
           "type":"StatThreshold"
         }
       }]],
+  "10% chance to inflict Withered with Hits against targets affected by Abyssal Wasting":[[]," to inflict Withered  against targets affected by Abyssal Wasting "],
+  "10% chance to inflict Withered with Hits against targets affected by Abyssal Wasting 40% increased Magnitude of Chill you inflict":[[{
+        "flags":0,
+        "keywordFlags":262144,
+        "name":"EnemyChillMagnitude",
+        "type":"BASE",
+        "value":10
+      }]," to inflict Withered  against targets affected by Abyssal Wasting 40% increased  "],
+  "10% chance to revive one of your Persistent Minions when you kill an":[[]," to revive one of your Persistent s when you kill an "],
+  "10% chance to revive one of your Persistent Minions when you kill an Gain 1 Volatility when you kill an enemy affected by Abyssal Wasting":[[]," to revive one of your Persistent s when you kill an Gain 1 Volatility  affected by Abyssal Wasting "],
   "10% chance when a Charm is used to use another Charm without consuming Charges":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12593,6 +12584,18 @@
         "name":"Damage",
         "type":"INC",
         "value":100
+      }]],
+  "100% increased Thorns damage if you've consumed an Endurance Charge Recently":[[{
+        "flags":32,
+        "keywordFlags":0,
+        "name":"Damage",
+        "type":"INC",
+        "value":100,
+        "1":{
+          "limit":1,
+          "type":"Multiplier",
+          "var":"RemovableEnduranceCharge"
+        }
       }]],
   "100% increased amount of Life Leeched":[[{
         "flags":0,
@@ -17227,6 +17230,20 @@
         "type":"BASE",
         "value":20
       }]],
+  "20% chance to gain Onslaught for 3 seconds when you kill an":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:Onslaught",
+        "type":"FLAG",
+        "value":true
+      }],"  when you kill an "],
+  "20% chance to gain Onslaught for 3 seconds when you kill an Abyssal Wasting you inflict also prevents targets from dealing Critical Hits":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:Onslaught",
+        "type":"FLAG",
+        "value":true
+      }],"  when you kill an Abyssal Wasting you inflict also prevents targets from dealing Critical Hits "],
   "20% chance to gain a Power Charge on Hit":[null,"a Power Charge on Hit "],
   "20% chance to gain a Power Charge on Hit Lose all Power Charges on reaching maximum Power Charges":[null,"a Power Charge on Hit Lose all Power Charges on reaching maximum Power Charges "],
   "20% chance to inflict Bleeding on Hit":[[{
@@ -23144,13 +23161,6 @@
           "type":"SkillType"
         }
       }]],
-  "30% increased Ignite Magnitude":[[{
-        "flags":0,
-        "keywordFlags":8388608,
-        "name":"AilmentMagnitude",
-        "type":"INC",
-        "value":30
-      }]],
   "30% increased Life Cost of Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23914,13 +23924,13 @@
         "type":"BASE",
         "value":30
       }],"  Leeched from targets affected by Abyssal Wasting is Instant "],
-  "30% of Mana Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Cold Resistance":[[{
+  "30% of Mana Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life as Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Mana",
+        "name":"ManaAsPhysical",
         "type":"BASE",
         "value":30
-      }],"  Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting also applies % to Cold Resistance "],
+      }],"  Leeched from targets affected by Abyssal Wasting is Instant Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life  "],
   "30% reduced Accuracy Rating while Surrounded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25147,13 +25157,13 @@
         "type":"INC",
         "value":40
       }],"  against Enemies affected by Abyssal Wasting "],
-  "40% increased Accuracy Rating against Enemies affected by Abyssal Wasting 30% of Mana Leeched from targets affected by Abyssal Wasting is Instant":[[{
+  "40% increased Accuracy Rating against Enemies affected by Abyssal Wasting Targets affected by Abyssal Wasting you inflict are Debilitated":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"Accuracy",
         "type":"INC",
         "value":40
-      }],"  against Enemies affected by Abyssal Wasting 30% of Mana Leeched from targets affected by Abyssal Wasting is Instant "],
+      }],"  against Enemies affected by Abyssal Wasting Targets affected by Abyssal Wasting you inflict are Debilitated "],
   "40% increased Ailment and Stun Threshold while Surrounded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25736,6 +25746,27 @@
           "type":"SkillType"
         }
       }]],
+  "40% increased Ignite Magnitude":[[{
+        "flags":0,
+        "keywordFlags":8388608,
+        "name":"AilmentMagnitude",
+        "type":"INC",
+        "value":40
+      }]],
+  "40% increased Immobilisation buildup against targets affected by Abyssal Wasting":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyImmobilisationBuildup",
+        "type":"INC",
+        "value":40
+      }],"  against targets affected by Abyssal Wasting "],
+  "40% increased Immobilisation buildup against targets affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyImmobilisationBuildup",
+        "type":"INC",
+        "value":40
+      }],"  against targets affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant "],
   "40% increased Jagged Ground Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -25853,6 +25884,20 @@
           "type":"ActorCondition",
           "var":"Pinned"
         }
+      }]],
+  "40% increased Magnitude of Chill you inflict":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyChillMagnitude",
+        "type":"INC",
+        "value":40
+      }]],
+  "40% increased Magnitude of Shock you inflict":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyShockMagnitude",
+        "type":"INC",
+        "value":40
       }]],
   "40% increased Magnitude of Shock you inflict with Critical Hits":[[{
         "flags":0,
@@ -26175,20 +26220,6 @@
         "type":"INC",
         "value":40
       }]],
-  "40% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AilmentChance",
-        "type":"INC",
-        "value":40
-      }],"  against Enemies affected by Abyssal Wasting "],
-  "40% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AilmentChance",
-        "type":"INC",
-        "value":40
-      }],"  against Enemies affected by Abyssal Wasting 30% of Life Leeched from targets affected by Abyssal Wasting is Instant "],
   "40% increased effect of Arcane Surge on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -28270,18 +28301,6 @@
         "type":"INC",
         "value":50
       }]],
-  "50% increased Thorns damage if you've consumed an Endurance Charge Recently":[[{
-        "flags":32,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":50,
-        "1":{
-          "limit":1,
-          "type":"Multiplier",
-          "var":"RemovableEnduranceCharge"
-        }
-      }]],
   "50% increased Totem Placement range":[[],"  Placement range "],
   "50% increased amount of Mana Leeched":[[{
         "flags":0,
@@ -28290,6 +28309,20 @@
         "type":"INC",
         "value":50
       }]],
+  "50% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":50
+      }],"  against Enemies affected by Abyssal Wasting "],
+  "50% increased chance to inflict Ailments against Enemies affected by Abyssal Wasting Targets affected by Abyssal Wasting you inflict are Blinded":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AilmentChance",
+        "type":"INC",
+        "value":50
+      }],"  against Enemies affected by Abyssal Wasting Targets affected by Abyssal Wasting you inflict are Blinded "],
   "50% increased effect of Incision":[[{
         "flags":0,
         "keywordFlags":0,
@@ -31551,13 +31584,19 @@
         "value":92
       }]],
   "Abyssal Wasting also applies % to Cold Resistance":[null,"Abyssal Wasting also applies % to Cold Resistance "],
-  "Abyssal Wasting also applies % to Cold Resistance 30% increased Magnitude of Chill you inflict":[null,"Abyssal Wasting also applies % to Cold Resistance 30% increased Magnitude of Chill you inflict "],
+  "Abyssal Wasting also applies % to Cold Resistance 10% chance to revive one of your Persistent Minions when you kill an":[null,"Abyssal Wasting also applies % to Cold Resistance 10% chance to revive one of your Persistent Minions when you kill an "],
   "Abyssal Wasting also applies % to Fire Resistance":[null,"Abyssal Wasting also applies % to Fire Resistance "],
   "Abyssal Wasting also applies % to Fire Resistance +30% of Armour also applies to Elemental Damage":[null,"Abyssal Wasting also applies % to Fire Resistance +30% of Armour also applies to Elemental Damage "],
   "Abyssal Wasting also applies % to Lightning Resistance":[null,"Abyssal Wasting also applies % to Lightning Resistance "],
   "Abyssal Wasting also applies % to Lightning Resistance Projectiles have 50% chance for an additional Projectile when Forking":[null,"Abyssal Wasting also applies % to Lightning Resistance Projectiles have 50% chance for an additional Projectile when Forking "],
+  "Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life as Physical Damage":[null,"Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life as Physical Damage "],
+  "Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life as Physical Damage Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments":[null,"Abyssal Wasting you inflict also gives targets 10% chance to explode on death, dealing a tenth of their life as Physical Damage Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments "],
+  "Abyssal Wasting you inflict also prevents targets from dealing Critical Hits":[null,"Abyssal Wasting you inflict also prevents targets from dealing Critical Hits "],
+  "Abyssal Wasting you inflict also prevents targets from dealing Critical Hits Gain 1 Rage when you kill an enemy affected by Abyssal Wasting":[null,"Abyssal Wasting you inflict also prevents targets from dealing Critical Hits Gain 1 Rage when you kill an enemy affected by Abyssal Wasting "],
+  "Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments":[null,"Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments "],
+  "Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments Abyssal Wasting also applies % to Cold Resistance":[null,"Abyssal Wasting you inflict also prevents targets from inflicting Elemental Ailments Abyssal Wasting also applies % to Cold Resistance "],
   "Abyssal Wasting you inflict has Infinite Duration":[null,"Abyssal Wasting you inflict has Infinite Duration "],
-  "Abyssal Wasting you inflict has Infinite Duration Abyssal Wasting also applies % to Fire Resistance":[null,"Abyssal Wasting you inflict has Infinite Duration Abyssal Wasting also applies % to Fire Resistance "],
+  "Abyssal Wasting you inflict has Infinite Duration 20% chance to gain Onslaught for 3 seconds when you kill an":[null,"Abyssal Wasting you inflict has Infinite Duration 20% chance to gain Onslaught for 3 seconds when you kill an "],
   "Accuracy Rating is Doubled":[[{
         "flags":0,
         "keywordFlags":0,
@@ -44417,6 +44456,7 @@
   "Debuffs you inflict have 10% increased Slow Magnitude Debuffs on you expire 20% faster":[null,"Debuffs you inflict have 10% increased Slow Magnitude Debuffs on you expire 20% faster "],
   "Debuffs you inflict have 20% increased Slow Magnitude":[null,"Debuffs you inflict have 20% increased Slow Magnitude "],
   "Debuffs you inflict have 20% increased Slow Magnitude 10% increased Spirit":[null,"Debuffs you inflict have 20% increased Slow Magnitude 10% increased Spirit "],
+  "Debuffs you inflict have 20% increased Slow Magnitude Gain 12% of Damage as Extra Fire Damage":[null,"Debuffs you inflict have 20% increased Slow Magnitude Gain 12% of Damage as Extra Fire Damage "],
   "Debuffs you inflict have 30% increased Slow Magnitude":[null,"Debuffs you inflict have 30% increased Slow Magnitude "],
   "Debuffs you inflict have 30% increased Slow Magnitude Cannot Immobilise enemies":[null,"Debuffs you inflict have 30% increased Slow Magnitude Cannot Immobilise enemies "],
   "Debuffs you inflict have 4% increased Slow Magnitude":[null,"Debuffs you inflict have 4% increased Slow Magnitude "],
@@ -46121,6 +46161,8 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Enemies you kill while they are affected by Abyssal Wasting":[null,"Enemies you kill while they are affected by Abyssal Wasting "],
+  "Enemies you kill while they are affected by Abyssal Wasting 40% increased Immobilisation buildup against targets affected by Abyssal Wasting":[null,"Enemies you kill while they are affected by Abyssal Wasting 40% increased Immobilisation buildup against targets affected by Abyssal Wasting "],
   "Enemies you kill with Empowered Attacks have a 10% chance to Explode, dealing a tenth of their maximum Life as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -46628,6 +46670,18 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Gain 1 Rage when you kill an enemy affected by Abyssal Wasting":[[]," Rage  affected by Abyssal Wasting "],
+  "Gain 1 Rage when you kill an enemy affected by Abyssal Wasting Abyssal Wasting also applies % to Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResist",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "type":"Condition",
+          "var":"KilledRecently"
+        }
+      }]," Rage  affected by Abyssal Wasting Abyssal Wasting also applies % to  "],
   "Gain 1 Rage when your Hit Ignites a target":[[]," Rage when your Hit Ignites a target "],
   "Gain 1 Runefather's Boast per Power of targets affected by Runefather's Challenge you kill":[[]," Runefather's Boast per Power of targets affected by Runefather's Challenge you kill "],
   "Gain 1 Runic Binding on Hit with Spells, no more than once every 0.5 seconds":[[]," Runic Binding , no more than once every 0.5 seconds "],
@@ -46640,6 +46694,8 @@
         "type":"BASE",
         "value":1
       }]," Volatility on inflicting an Elemental Ailment Take no  from Volatility "],
+  "Gain 1 Volatility when you kill an enemy affected by Abyssal Wasting":[[]," Volatility  affected by Abyssal Wasting "],
+  "Gain 1 Volatility when you kill an enemy affected by Abyssal Wasting 10% chance to inflict Withered with Hits against targets affected by Abyssal Wasting":[[]," Volatility  affected by Abyssal Wasting 10% chance to inflict Withered  against targets affected by Abyssal Wasting "],
   "Gain 1 fewer Lightning Surge from Triggering Elemental Surge":[[]," fewer Lightning Surge from Triggering"],
   "Gain 1% of Cold damage as Extra Fire damage per 1% Chill Magnitude on enemy":[[{
         "flags":0,
@@ -47752,6 +47808,21 @@
           }
         }
       }]," when a  Dies 40% increased  "],
+  "Gain Arcane Surge when a Minion Dies Gain Arcane Surge when a Minion Dies":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:ArcaneSurge",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      }]," when a  Dies Gain  when a Minion Dies "],
   "Gain Arcane Surge when a Minion Dies Recover 5% of your maximum Life when an Enemy dies in your Presence":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48013,7 +48084,7 @@
           }
         }
       }],"  when a  Dies +25 to   "],
-  "Gain Onslaught for 4 seconds when a Minion Dies 18% increased Area of Effect for Attacks":[[{
+  "Gain Onslaught for 4 seconds when a Minion Dies Gain Onslaught for 4 seconds when a Minion Dies":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"MinionModifier",
@@ -48027,7 +48098,22 @@
             "value":true
           }
         }
-      }],"  when a  Dies 18% increased  for Attacks "],
+      }],"  when a  Dies Gain   when a Minion Dies "],
+  "Gain Onslaught for 4 seconds when a Minion Dies Projectiles have 50% chance for an additional Projectile when Forking":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Onslaught",
+            "type":"FLAG",
+            "value":true
+          }
+        }
+      }],"  when a  Dies  have 50% chance for an additional Projectile when Forking "],
   "Gain Overencumbrance for 4 seconds when you Dodge Roll":[null,"Overencumbrance  when you Dodge Roll "],
   "Gain Overencumbrance for 4 seconds when you Dodge Roll Your speed is Unaffected by Slows while Sprinting":[null,"Overencumbrance  when you Dodge Roll Your speed is Unaffected by Slows  "],
   "Gain Owl Feathers 50% faster":[null,"Owl Feathers 50% faster "],
@@ -51308,8 +51394,8 @@
   "Infinite Parry Range":[null,"Infinite Parry Range "],
   "Infinite Parry Range 50% increased Parried Debuff Duration":[null,"Infinite Parry Range 50% increased Parried Debuff Duration "],
   "Inflict Abyssal Wasting on Hit":[null,"Inflict Abyssal Wasting on Hit "],
-  "Inflict Abyssal Wasting on Hit 100% increased Magnitude of Abyssal Wasting you inflict":[null,"Inflict Abyssal Wasting on Hit 100% increased Magnitude of Abyssal Wasting you inflict "],
   "Inflict Abyssal Wasting on Hit Projectiles have 16% chance to Chain an additional time from terrain":[null,"Inflict Abyssal Wasting on Hit Projectiles have 16% chance to Chain an additional time from terrain "],
+  "Inflict Abyssal Wasting on Hit Targets affected by Abyssal Wasting you inflict are Hindered":[null,"Inflict Abyssal Wasting on Hit Targets affected by Abyssal Wasting you inflict are Hindered "],
   "Inflict Cold Exposure on Igniting an Enemy":[null,"Inflict Cold Exposure on Igniting an Enemy "],
   "Inflict Cold Exposure on Igniting an Enemy Inflict Fire Exposure on Shocking an Enemy":[null,"Inflict Cold Exposure on Igniting an Enemy Inflict Fire Exposure on Shocking an Enemy "],
   "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of":[null,"Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of "],
@@ -55717,6 +55803,13 @@
         "type":"BASE",
         "value":50
       }]," for an additional  when Forking 25% increased Critical Damage Bonus "],
+  "Projectiles have 50% chance for an additional Projectile when Forking Gain 12% of Damage as Extra Lightning Damage":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":50
+      }]," for an additional  when Forking Gain 12% of Damage as Extra Lightning Damage "],
   "Projectiles have 6% chance to Chain an additional time from terrain":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -57187,6 +57280,12 @@
           }
         }
       }]],
+  "Targets affected by Abyssal Wasting you inflict are Blinded":[null,"Targets affected by Abyssal Wasting you inflict are Blinded "],
+  "Targets affected by Abyssal Wasting you inflict are Blinded Enemies you kill while they are affected by Abyssal Wasting":[null,"Targets affected by Abyssal Wasting you inflict are Blinded Enemies you kill while they are affected by Abyssal Wasting "],
+  "Targets affected by Abyssal Wasting you inflict are Debilitated":[null,"Targets affected by Abyssal Wasting you inflict are Debilitated "],
+  "Targets affected by Abyssal Wasting you inflict are Debilitated 30% of Mana Leeched from targets affected by Abyssal Wasting is Instant":[null,"Targets affected by Abyssal Wasting you inflict are Debilitated 30% of Mana Leeched from targets affected by Abyssal Wasting is Instant "],
+  "Targets affected by Abyssal Wasting you inflict are Hindered":[null,"Targets affected by Abyssal Wasting you inflict are Hindered "],
+  "Targets affected by Abyssal Wasting you inflict are Hindered 100% increased Magnitude of Abyssal Wasting you inflict":[null,"Targets affected by Abyssal Wasting you inflict are Hindered 100% increased Magnitude of Abyssal Wasting you inflict "],
   "Targets can be affected by +1 of your Poisons at the same time":[[{
         "flags":0,
         "keywordFlags":0,
