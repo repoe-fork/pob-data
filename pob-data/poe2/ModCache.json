@@ -12054,10 +12054,14 @@
   "10% reduced Movement Speed Penalty while Actively Blocking":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MovementSpeed",
+        "name":"MovementSpeedPenalty",
         "type":"INC",
-        "value":-10
-      }],"  Penalty ly Blocking "],
+        "value":-10,
+        "1":{
+          "skillType":262,
+          "type":"SkillType"
+        }
+      }]],
   "10% reduced Poison Duration on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27436,10 +27440,14 @@
   "5% reduced Movement Speed Penalty while Actively Blocking":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MovementSpeed",
+        "name":"MovementSpeedPenalty",
         "type":"INC",
-        "value":-5
-      }],"  Penalty ly Blocking "],
+        "value":-5,
+        "1":{
+          "skillType":262,
+          "type":"SkillType"
+        }
+      }]],
   "5% reduced Projectile Speed for Spell Skills":[[{
         "flags":2,
         "keywordFlags":0,
@@ -54318,8 +54326,8 @@
         "type":"MORE",
         "value":-100,
         "1":{
-          "skillName":"Raise Shield",
-          "type":"SkillName"
+          "skillType":262,
+          "type":"SkillType"
         }
       }]],
   "No Physical Damage":[[{
