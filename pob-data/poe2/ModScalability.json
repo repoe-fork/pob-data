@@ -12571,6 +12571,9 @@
   "#% of damage taken Recouped as Mana per 10 Tribute":[{
       "isScalable":true
     }],
+  "#% of damage taken from enemies with an Open Weakness Recouped as Life":[{
+      "isScalable":true
+    }],
   "#% of maximum Energy Shield Lost per minute":[{
       "formats":["negate"],
       "isScalable":true
@@ -21368,6 +21371,9 @@
       "isScalable":true
     }],
   "+1 Ring Slot":[],
+  "+1 Verisium Remnant with at least # Rune slots":[{
+      "isScalable":true
+    }],
   "+1 to Armour per Strength":[],
   "+1 to Level of Socketed Skill Gems per # Player Levels":[{
       "isScalable":true
@@ -21512,9 +21518,6 @@
   "A Monster in this Area will summon a Unique Monster from Beyond when Slain":[],
   "A Strongbox in this Area is Corrupted":[],
   "A Verisium Remnant in Area will contain a Power Rune":[],
-  "A Verisium Remnant in Area will have at least # Rune slots":[{
-      "isScalable":true
-    }],
   "A random Skill that requires Glory generates #% of its maximum Glory when your Marks Activate":[{
       "isScalable":true
     }],
@@ -22129,6 +22132,9 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Ailith can create the Dreamer's Gift skill":[],
+  "Ailith can create the Dreamer's Inspiration skill":[],
+  "Ailith can create the Dreamer's Might skill":[],
   "Ailith can create the Dreamer's Sight skill":[],
   "Ailith can create the Otherworldly Nemesis skill":[],
   "Ailith can create the Xesht's Fervour skill":[],
@@ -22187,6 +22193,9 @@
   "All Monster Damage from Hits always Ignites":[],
   "All Towers in range of your Empowering Towers deal Double Damage":[],
   "All Towers in range of your Empowering Towers have #% chance to deal Double Damage":[{
+      "isScalable":true
+    }],
+  "All Verisium Remnants have at least # Rune slots":[{
       "isScalable":true
     }],
   "All bonuses from Equipped Amulet apply to your Minions instead of you":[],
@@ -22621,6 +22630,12 @@
       "isScalable":true
     }],
   "Area contains # Rare Monsters with Inner Treasure":[{
+      "isScalable":true
+    }],
+  "Area contains # Remnant":[{
+      "isScalable":true
+    }],
+  "Area contains # Remnants":[{
       "isScalable":true
     }],
   "Area contains # Rogue Exiles":[{
@@ -26048,6 +26063,13 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Curse zones erupt after #% increased delay":[{
+      "isScalable":true
+    }],
+  "Curse zones erupt after #% reduced delay":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Cursed Enemies Killed by Allies in your Presence have a #% chance to Explode, dealing a quarter of their maximum Life as Physical Damage":[{
       "isScalable":true
     }],
@@ -26979,6 +27001,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Eat a Soul on Hitting an enemy with an Open Weakness":[],
   "Eat a Soul when you Hit a Unique Enemy, no more than once every # seconds":[{
       "formats":["milliseconds_to_seconds_2dp_if_required"],
       "isScalable":false
@@ -32981,6 +33004,9 @@
       "isScalable":true
     }],
   "Minions deal no Non-Cold Damage":[],
+  "Minions explode on death, dealing #% of their maximum\nlife as Physical Damage to enemies within 2 metres":[{
+      "isScalable":true
+    }],
   "Minions from this skill convert #% of Physical Damage to Fire Damage":[{
       "isScalable":true
     }],
@@ -37265,7 +37291,7 @@
   "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1 second":[],
   "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds":[],
   "Runebinder":[],
-  "Runic Monsters in your Maps are Duplicated":[],
+  "Runic Monsters are Duplicated":[],
   "Runic Ward Regeneration Rate is doubled":[],
   "Runic Ward recovery can can Overflow maximum Runic Ward":[],
   "Sacrifice # Life to not consume the last bolt when firing":[{
@@ -40902,9 +40928,6 @@
       "isScalable":true
     }],
   "Venom Gyre inflicts Withered for 2 seconds on Hit":[],
-  "Verisium Remnants have at least # Rune slots":[{
-      "isScalable":true
-    }],
   "Verisium Remnants in Area are Lucky":[],
   "Verisium Remnants in Area are rolled # times, keeping the rarest outcome":[{
       "isScalable":true

@@ -1,35 +1,46 @@
 {
   "active_skill_area_of_effect_radius":8,
-  "active_skill_base_area_of_effect_radius":5,
+  "active_skill_base_area_of_effect_radius":2,
   "active_skill_heavy_stun_decay_after_action_delay_ms":7,
+  "active_skill_maximum_physical_self_damage_to_take":5,
+  "active_skill_minimum_physical_self_damage_to_take":5,
   "base_cooldown_modifiable_repeat_interval_ms":3,
   "cooldown_recovery_modifiers_also_apply_to_repeat_interval":4,
-  "locust_dash_damage_+%_final_per_stack":2,
+  "locust_dash_damage_+%_final_per_stack":1,
   "locust_dash_self_hit_stun_multiplier_+%_final":6,
-  "maximum_locust_stacks":2,
+  "maximum_locust_stacks":5,
   "parent":"skill_stat_descriptions",
-  "secondary_maximum_base_physical_damage":1,
-  "secondary_minimum_base_physical_damage":1,
   "virtual_cooldown_modifiable_repeat_interval_ms":9,
   "1":{
-    "stats":["secondary_minimum_base_physical_damage","secondary_maximum_base_physical_damage"],
+    "stats":["locust_dash_damage_+%_final_per_stack"],
     "1":[{
-        "limit":[["#","#"],["#","#"]],
-        "text":"DNT Take {0} to {1} Physical Damage if Swarm Hits any target"
+        "limit":[["#","#"]],
+        "text":"Swarm deals {0}% more Damage per Swarm's Advance"
       }]
   },
   "2":{
-    "stats":["locust_dash_damage_+%_final_per_stack","maximum_locust_stacks"],
+    "stats":["active_skill_base_area_of_effect_radius"],
     "1":[{
-        "limit":[["#","#"],["#","#"]],
-        "text":"DNT Gain a stack of Swarm's Advance if Swarm Hits any Target, max {1} stacks\n{0}% More Damage to Enemies per stack of Swarm's Advance"
+        "limit":[["#","#"]],
+        "text":"Swarm radius is {0} metres",
+        "1":{
+          "k":"divide_by_ten_1dp_if_required",
+          "v":1
+        }
       }]
   },
   "3":{
     "stats":["base_cooldown_modifiable_repeat_interval_ms"],
     "1":[{
+        "limit":[[1000,1000]],
+        "text":"Swarm Hits all targets in area every {0} second",
+        "1":{
+          "k":"milliseconds_to_seconds_2dp_if_required",
+          "v":1
+        }
+      },{
         "limit":[["#","#"]],
-        "text":"DNT Swarm Hits all targets in area Every {0}s",
+        "text":"Swarm Hits all targets in area every {0} seconds",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
@@ -40,35 +51,28 @@
     "stats":["cooldown_recovery_modifiers_also_apply_to_repeat_interval"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"DNT Modifiers to Cooldown Recovery Rate also apply to\nHit frequency"
+        "text":"Modifiers to Cooldown Recovery Rate apply to Hit frequency"
       }]
   },
   "5":{
-    "stats":["active_skill_base_area_of_effect_radius"],
+    "stats":["active_skill_minimum_physical_self_damage_to_take","active_skill_maximum_physical_self_damage_to_take","maximum_locust_stacks"],
     "1":[{
-        "limit":[["#","#"]],
-        "text":"DNT Swarm radius is {0} metres",
-        "1":{
-          "k":"divide_by_ten_1dp_if_required",
-          "v":1
-        }
+        "limit":[["#","#"],["#","#"],["#","#"]],
+        "text":"If Swarm Hits any targets, you take {0} to {1} Physical Damage and gain 1 Swarm's Advance, to a maximum of {2}"
       }]
   },
   "6":{
     "stats":["locust_dash_self_hit_stun_multiplier_+%_final"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"DNT Damage taken from this Skill applies Stun Buildup as if dealing {0}% more damage"
+        "text":"Damage taken this way applies {0}% more Stun buildup to you"
       }]
   },
   "7":{
     "stats":["active_skill_heavy_stun_decay_after_action_delay_ms"],
     "1":[{
-        "limit":[[4000,4000]],
-        "text":"DNT Heavy Stun Buildup only Empties if you haven't sprinted Recently\nLose all stacks of Swarm's Advance if you haven't sprinted Recently"
-      },{
         "limit":[["#","#"]],
-        "text":"DNT Heavy Stun Buildup only Empties if you haven't sprinted in the last {0}s\nLose all stacks of Swarm's Advance if you haven't sprinted in the last {0}s",
+        "text":"Stun Buildup cannot empty while you have Swarm's Advance\nLose all Swarm's Advance {0} seconds after you finish sprinting",
         "1":{
           "k":"milliseconds_to_seconds_2dp_if_required",
           "v":1
