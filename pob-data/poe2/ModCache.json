@@ -12618,17 +12618,10 @@
   "100% increased effect of Socketed Augment Items":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"LocalEffect",
+        "name":"SocketedAugmentItemEffect",
         "type":"INC",
         "value":100
-      }],"  of Socketed Augment Items "],
-  "100% increased effect of Socketed Augment Items This item gains bonuses from Socketed Items as though it was a Body Armour":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LocalEffect",
-        "type":"INC",
-        "value":100
-      }],"  of Socketed Augment Items This item gains bonuses from Socketed Items as though it was a Body Armour "],
+      }]],
   "100% increased effect of Socketed Soul Cores":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13552,7 +13545,7 @@
         "type":"INC",
         "value":12,
         "1":{
-          "stat":"LifeCost",
+          "statList":["LifeCost","LifePerSecondCost"],
           "threshold":1,
           "type":"StatThreshold"
         }
@@ -26139,7 +26132,7 @@
         "type":"INC",
         "value":40,
         "1":{
-          "stat":"LifeCost",
+          "statList":["LifeCost","LifePerSecondCost"],
           "threshold":1,
           "type":"StatThreshold"
         }
@@ -29362,7 +29355,7 @@
         "type":"INC",
         "value":6,
         "1":{
-          "stat":"LifeCost",
+          "statList":["LifeCost","LifePerSecondCost"],
           "threshold":1,
           "type":"StatThreshold"
         }
@@ -30251,6 +30244,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"EnemyShockChance",
+        "type":"INC",
+        "value":75
+      }]],
+  "75% increased effect of Socketed Augment Items":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SocketedAugmentItemEffect",
         "type":"INC",
         "value":75
       }]],
@@ -57002,7 +57002,7 @@
         "type":"BASE",
         "value":100,
         "1":{
-          "stat":"LifeCost",
+          "statList":["LifeCost","LifePerSecondCost"],
           "threshold":1,
           "type":"StatThreshold"
         }
@@ -57014,7 +57014,7 @@
         "type":"BASE",
         "value":120,
         "1":{
-          "stat":"LifeCost",
+          "statList":["LifeCost","LifePerSecondCost"],
           "threshold":1,
           "type":"StatThreshold"
         }

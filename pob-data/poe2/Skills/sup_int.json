@@ -1918,6 +1918,32 @@
       }],
     "support":true
   },
+  "SupportAtzirisCommunionPlayer":{
+    "addSkillTypes":[],
+    "color":3,
+    "description":"Supports Persistent Skills, making them Reserve Life instead of Spirit. Cannot Support Skills which create Minions.",
+    "excludeSkillTypes":[77],
+    "flavourText":["The Red Communion was meant to transcend the limits","of the soul, to transfigure the flesh, to bestow immortality.","It accomplished all of these things... most horribly."],
+    "gemFamily":["AtziriCommunionLineage"],
+    "isLineage":true,
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Atziri's Communion",
+    "requireSkillTypes":[140],
+    "statSets":[{
+        "baseFlags":[],
+        "constantStats":[["skill_reserves_X_life_permyriad_per_spirit_instead_of_spirit",66]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Atziri's Communion",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"gem_stat_descriptions",
+        "stats":[]
+      }],
+    "support":true
+  },
   "SupportBhatairsVengeancePlayer":{
     "addSkillTypes":[9],
     "color":3,

@@ -7119,6 +7119,11 @@
         "effectName":"Overwhelming Presence",
         "effectType":"AuraDebuff",
         "type":"GlobalEffect"
+      },
+      "2":{
+        "limit":90,
+        "neg":true,
+        "type":"Limit"
       }
     }],
   "skill_overwhelming_pressure_aura_enemy_stun_threshold_+%":[{
@@ -7130,6 +7135,11 @@
         "effectName":"Overwhelming Presence",
         "effectType":"AuraDebuff",
         "type":"GlobalEffect"
+      },
+      "2":{
+        "limit":90,
+        "neg":true,
+        "type":"Limit"
       }
     }],
   "skill_physical_damage_%_to_convert_to_chaos":[{
@@ -7176,6 +7186,15 @@
         "value":true
       }
     }],
+  "skill_reserves_X_life_permyriad_per_spirit_instead_of_spirit":{
+    "div":100,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"LifeReservePercentPerSpirit",
+      "type":"BASE"
+    }
+  },
   "skill_specific_stat_description_mode":[],
   "skill_speed_+%":[{
       "flags":0,
@@ -8153,8 +8172,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":39,
-        "type":"SkillType"
+        "gemTag":"Aura",
+        "type":"GemTag"
       }
     }],
   "supported_chaos_skill_gem_level_+":[{
@@ -8167,8 +8186,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":42,
-        "type":"SkillType"
+        "gemTag":"Chaos",
+        "type":"GemTag"
       }
     }],
   "supported_cold_skill_gem_level_+":[{
@@ -8181,28 +8200,36 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":29,
-        "type":"SkillType"
+        "gemTag":"Cold",
+        "type":"GemTag"
       }
     }],
   "supported_curse_skill_gem_level_+":[{
       "flags":0,
-      "keywordFlags":2,
+      "keywordFlags":0,
       "name":"SupportedGemProperty",
       "type":"LIST",
       "value":{
         "key":"level",
         "keyword":"grants_active_skill"
+      },
+      "1":{
+        "gemTag":"Curse",
+        "type":"GemTag"
       }
     }],
   "supported_elemental_skill_gem_level_+":[{
       "flags":0,
-      "keywordFlags":224,
+      "keywordFlags":0,
       "name":"SupportedGemProperty",
       "type":"LIST",
       "value":{
         "key":"level",
         "keyword":"grants_active_skill"
+      },
+      "1":{
+        "gemTagList":["Lightning","Cold","Fire"],
+        "type":"GemTag"
       }
     }],
   "supported_fire_skill_gem_level_+":[{
@@ -8215,8 +8242,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":28,
-        "type":"SkillType"
+        "gemTag":"Fire",
+        "type":"GemTag"
       }
     }],
   "supported_lightning_skill_gem_level_+":[{
@@ -8229,8 +8256,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":30,
-        "type":"SkillType"
+        "gemTag":"Lightning",
+        "type":"GemTag"
       }
     }],
   "supported_minion_skill_gem_level_+":[{
@@ -8243,8 +8270,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":6,
-        "type":"SkillType"
+        "gemTag":"Minion",
+        "type":"GemTag"
       }
     }],
   "supported_physical_skill_gem_level_+":[{
@@ -8257,8 +8284,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":27,
-        "type":"SkillType"
+        "gemTag":"Physical",
+        "type":"GemTag"
       }
     }],
   "supported_skill_attack_speed_+%_per_5_rage":[{
@@ -8282,8 +8309,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":21,
-        "type":"SkillType"
+        "gemTag":"Strike",
+        "type":"GemTag"
       }
     }],
   "total_attack_time_+_ms":{

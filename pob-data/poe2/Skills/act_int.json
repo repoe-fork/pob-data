@@ -558,6 +558,16 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "statMap":{
+          "arc_chains_gained_from_infusion_consumption":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ChainCountMax",
+              "type":"BASE",
+              "1":{
+                "type":"Condition",
+                "var":"ArcLightningInfused"
+              }
+            }],
           "arc_damage_+%_final_for_each_remaining_chain":[{
               "flags":0,
               "keywordFlags":0,
@@ -566,6 +576,16 @@
               "1":{
                 "stat":"ChainRemaining",
                 "type":"PerStat"
+              }
+            }],
+          "arc_damage_+%_final_from_infusion_consumption":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "type":"Condition",
+                "var":"ArcLightningInfused"
               }
             }],
           "quality_display_arc_is_gem":[]
