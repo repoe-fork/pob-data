@@ -273,6 +273,85 @@
       "Bow":true
     }
   },
+  "BlackStriderMassMortar":{
+    "castTime":1,
+    "description":"Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.92,
+        "levelRequirement":0
+      }],
+    "name":"Mass Mortar",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["projectile_minimum_range",5],["number_of_projectiles_override",1]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Mass Mortar",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","base_deal_no_damage"]
+      }]
+  },
+  "BlackStriderWebProjectile":{
+    "castTime":1,
+    "description":"Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Web Projectile",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["projectile_minimum_range",15],["number_of_projectiles_override",1]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Web Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","base_deal_no_damage"]
+      }]
+  },
   "BloodMageBloodTendrils":{
     "castTime":1.67,
     "description":"Expel your own blood as Chaining blood tendrils in a cone in front of you. Enemies Hit by the tendrils take Physical damage and are inflicted with Bleeding.",
@@ -504,6 +583,46 @@
         "stats":["base_fire_damage_to_deal_per_minute","is_area_damage"]
       }]
   },
+  "CGEArenaBeastBossSulpurGas":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Sulphur Gas",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "72":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":22,
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-80],["base_skill_effect_duration",10000],["ground_sulphite_art_variation",1]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Sulphur Gas",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":8.3333335195979,
+            "2":8.3333335195979
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_lightning_damage_to_deal_per_minute","base_physical_damage_to_deal_per_minute"]
+      }]
+  },
   "CGEBloodPriestBoilingBlood":{
     "castTime":1,
     "hidden":true,
@@ -543,6 +662,126 @@
         "stats":["base_physical_damage_to_deal_per_minute"]
       }]
   },
+  "CGEMudBurrowerVomit":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Vomit Ground",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "72":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":15,
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_base_area_of_effect_radius",15],["base_skill_effect_duration",10000],["ground_caustic_art_variation",1000]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Vomit Ground",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3],
+            "1":16.666667039196
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_chaos_damage_to_deal_per_minute"]
+      }]
+  },
+  "CGEQuillCrabCausticGround":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Caustic Ground",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "72":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":10,
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-50],["base_skill_effect_duration",4000],["ground_caustic_art_variation",1000]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Caustic Ground",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3],
+            "1":16.666667039196
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_chaos_damage_to_deal_per_minute","is_area_damage"]
+      }]
+  },
+  "CGEQuillCrabFireGround":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cooldown":1,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Burning Ground",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "72":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":10,
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_area_of_effect_radius_+%_final",-40],["base_skill_effect_duration",4000]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Burning Ground",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3],
+            "1":16.666667039196
+          }],
+        "notMinionStat":["base_fire_damage_to_deal_per_minute"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_fire_damage_to_deal_per_minute","is_area_damage"]
+      }]
+  },
   "CGESanctifiedMonstrosityPusGround":{
     "castTime":1,
     "hidden":true,
@@ -580,6 +819,41 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["base_chaos_damage_to_deal_per_minute","is_area_damage"]
+      }]
+  },
+  "CGESanctumBlackStriderWeb":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Web Ground",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "31":true,
+      "72":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "duration":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["ground_web_art_variation",1000],["base_movement_velocity_+%",-30],["base_skill_effect_duration",6000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Web Ground",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
       }]
   },
   "CGEStarFishSpitCausticGround":{
@@ -796,6 +1070,61 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "DTTParasiteSwarmLeap":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Leap",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "34":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true
+        },
+        "constantStats":[["walk_emerge_extra_distance",20],["leap_slam_minimum_distance",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Leap Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
+  "DTTParasiteSwarmLeapAttach":{
+    "castTime":0.5,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Leap Attach",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "34":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Leap Attach",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
       }]
   },
   "DeathKnightSlamEAA":{
@@ -1156,6 +1485,433 @@
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","global_poison_on_hit","base_skill_can_be_avoided_by_dodge_roll","projectile_ballistic_angle_from_reference_event"]
       }]
   },
+  "GAArenaBeastBossBigSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.75,
+        "levelRequirement":0
+      }],
+    "name":"Big Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",30],["base_skill_area_of_effect_+%",15]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Big Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage"]
+      }]
+  },
+  "GAArenaBeastBossFissureDamage":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.65,
+        "levelRequirement":0
+      }],
+    "name":"Fissure",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Fissure",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage"]
+      }]
+  },
+  "GAArenaBeastBossFissureExplosion":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.65,
+        "levelRequirement":0
+      }],
+    "name":"Fissure Explosion",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Fissure Explosion",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage"]
+      }]
+  },
+  "GAArenaBeastBossPunchLeft":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Punch",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["base_skill_area_of_effect_+%",35],["active_skill_base_physical_damage_%_to_convert_to_lightning",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Punch",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_cannot_be_avoided_by_dodge_roll_or_blocked"]
+      }]
+  },
+  "GAArenaBeastBossPunchLeftEmpowered":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Empowered Punch",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Empowered Punch",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
+  "GAArenaBeastBossPunchRight":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Punch",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["base_skill_area_of_effect_+%",35],["active_skill_base_physical_damage_%_to_convert_to_lightning",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Punch",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_skill_cannot_be_avoided_by_dodge_roll_or_blocked"]
+      }]
+  },
+  "GAArenaBeastBossPunchRightEmpowered":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Empowered Punch",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Empowered Punch",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
+  "GAArenaBeastBossShockwave":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Shockwave",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Shockwave",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage"]
+      }]
+  },
+  "GAArenaBeastLeapSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Leap Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Leap Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GAArenaBeastLeapSlamEnraged":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Enraged Leap Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Enraged Leap Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GAArenaBeastLeapSlamEnragedKick":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Enraged Kick",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Enraged Kick",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GAArenaBeastSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.35,
+        "cooldown":6,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["base_skill_area_of_effect_+%",35],["active_skill_base_physical_damage_%_to_convert_to_lightning",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GAArenaBeastSlamEmpowered":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Empowered Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Empowered Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
+      }]
+  },
+  "GABlackStriderWebMortarImpact":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.45,
+        "levelRequirement":0
+      }],
+    "name":"Web Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "constantStats":[["base_skill_effect_duration",3000]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Web Impact",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_is_projectile","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
   "GACenobiteBloaterSlam":{
     "castTime":1,
     "hidden":true,
@@ -1348,6 +2104,127 @@
         "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
         "statDescriptionScope":"geometry_spell",
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GAGoblinArenaBeastGroundSlash":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.6,
+        "levelRequirement":0
+      }],
+    "name":"Ground Slash",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",25]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Ground Slash",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
+  "GAGoblinArenaBeastGroundSlashLightning":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.5,
+        "levelRequirement":0
+      }],
+    "name":"Lightning Ground Slash",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["active_skill_base_physical_damage_%_to_convert_to_lightning",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Lightning Ground Slash",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","base_skill_can_be_blocked","base_skill_can_be_avoided_by_dodge_roll"]
+      }]
+  },
+  "GAGoblinArenaBeastHeadbutt":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.2,
+        "levelRequirement":0
+      }],
+    "name":"Headbutt",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["hit_damage_stun_multiplier_+%",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Headbutt",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage"]
+      }]
+  },
+  "GAGoblinArenaBeastHeadbuttEmpowered":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.1,
+        "levelRequirement":0
+      }],
+    "name":"Empowered Headbutt",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Empowered Headbutt",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":[]
       }]
   },
   "GAGullGoliathSlam":{
@@ -1650,6 +2527,160 @@
         "stats":["is_area_damage"]
       }]
   },
+  "GAMudBurrowerBloodProj":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Blood Spit Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Blood Spit Impact",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_is_projectile"]
+      }]
+  },
+  "GAMudBurrowerDivePush":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Dive",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["knockback_distance_+%",20],["base_knockback_speed_+%",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Dive",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","base_skill_cannot_be_avoided_by_dodge_roll_or_evaded_or_blocked","base_cannot_be_blocked","global_always_hit","global_knockback","disable_visual_hit_effect"]
+      }]
+  },
+  "GAMudBurrowerGoopSmallImpact":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.35,
+        "levelRequirement":0
+      }],
+    "name":"Goop Ball Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Goop Ball Impact",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","global_poison_on_hit","base_is_projectile"]
+      }]
+  },
+  "GAMudBurrowerHeadSlam":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":4,
+        "cooldown":12,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Head Slam",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",80]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Slam",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","global_poison_on_hit","base_skill_cannot_be_avoided_by_dodge_roll_or_blocked"]
+      }]
+  },
+  "GAMudBurrowerSpraySmallImpact":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Blood Spray Impact",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "area":true,
+          "attack":true,
+          "triggerable":true
+        },
+        "constantStats":[["base_poison_duration_+%",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Blood Spray Impact",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length","global_poison_on_hit","base_is_projectile"]
+      }]
+  },
   "GAMutewindWomanSpearStab1":{
     "castTime":1,
     "hidden":true,
@@ -1930,6 +2961,102 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "GPAPorcupineAntSpikeNova":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Spike Nova",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["projectile_speed_variation_+%",30],["projectile_spread_radius",20],["base_skill_area_of_effect_+%",-60]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Spike Nova",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile"]
+      }]
+  },
+  "GPAPorcupineAntSpikeNovaSanctum":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Spike Nova",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["projectile_speed_variation_+%",30],["projectile_spread_radius",20],["base_skill_area_of_effect_+%",-60],["base_chance_to_poison_on_hit_%",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Spike Nova",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile"]
+      }]
+  },
+  "GPSCaveDwellerSuperProjectileSanctum":{
+    "castTime":2,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Sonic Projectile",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["spell_maximum_action_distance_+%",-50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Sonic Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","use_scaled_contact_offset","projectile_uses_contact_position","base_is_projectile","base_deal_no_damage","cannot_pierce"]
       }]
   },
   "GPSPaleWalkerWave":{
@@ -2283,6 +3410,119 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"geometry_spell",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
+      }]
+  },
+  "GSBeetleLightningNova":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "critChance":6,
+        "levelRequirement":0
+      }],
+    "name":"Lightning Nova",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":3,
+        "baseFlags":{
+          "area":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Lightning Nova",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.5,
+            "2":1.5
+          }],
+        "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
+      }]
+  },
+  "GSCaveDwellerSonicPulse":{
+    "castTime":2.266,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cooldown":12,
+        "critChance":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Sonic Pulse",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0.80000001192093,
+        "baseFlags":{
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["base_skill_effect_duration",3000]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Sonic Pulse",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
+      }]
+  },
+  "GSCaveDwellerSuperProjectile":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Sonic Projectile",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":6.25,
+        "baseFlags":{
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Sonic Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","always_ignite","base_is_projectile"]
       }]
   },
   "GSCenobiteBloaterOnDeath":{
@@ -2710,6 +3950,42 @@
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
       }]
   },
+  "GSPlagueNymphLaser":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Laser",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4.25,
+        "baseFlags":{
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Laser",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length","base_is_projectile"]
+      }]
+  },
   "GSProwlingShadeIceBeam":{
     "castTime":3.2,
     "hidden":true,
@@ -2866,6 +4142,44 @@
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "GSSerpentClanAcidSpit":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cooldown":1.5,
+        "critChance":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Acid Spit",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":1.75,
+        "baseFlags":{
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Acid Spit",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","global_poison_on_hit"]
+      }]
+  },
   "GSShrikeScreech":{
     "castTime":1,
     "hidden":true,
@@ -2939,6 +4253,42 @@
         "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
         "statDescriptionScope":"geometry_spell",
         "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","is_area_damage","base_is_projectile"]
+      }]
+  },
+  "GSTwilightOrderPlagueNymphLaser":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Laser",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "7":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4.25,
+        "baseFlags":{
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.013000000268221,
+        "incrementalEffectiveness":0.21999999880791,
+        "label":"Laser",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"geometry_spell",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length","base_is_projectile"]
       }]
   },
   "GSVaalConstructSkitterbotGrenadeExplode":{
@@ -3370,6 +4720,43 @@
         "stats":["base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","projectile_ballistic_angle_from_reference_event"]
       }]
   },
+  "HyenaCentaurSpearThrowCliff":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.5,
+        "levelRequirement":0
+      }],
+    "name":"Spear Throw",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1084],["spell_maximum_action_distance_+%",0],["projectile_spread_radius",10],["main_hand_local_maim_on_hit_%",30]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","projectile_uses_contact_position","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_target_distance"]
+      }]
+  },
   "JellyfishNettlerArc":{
     "castTime":2,
     "hidden":true,
@@ -3415,6 +4802,41 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","arc_enhanced_behaviour","disable_visual_hit_effect"]
+      }]
+  },
+  "MAASBaronEndgameBasic":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["maim_on_hit_%",30],["bleed_on_hit_with_attacks_%",50]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
   "MAASExpedition2ShakariBasicMelee":{
@@ -3738,6 +5160,84 @@
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
+  "MMAPorcupineAntSpikeball":{
+    "castTime":1.2,
+    "description":"Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Spike Mortar",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["number_of_projectiles_override",1],["melee_range_+",60],["projectile_spread_radius",5]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Mortar",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectiles_not_offset"]
+      }]
+  },
+  "MMAPorcupineAntSpikeballSanctum":{
+    "castTime":1.2,
+    "description":"Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Spike Mortar",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["number_of_projectiles_override",1],["melee_range_+",60],["projectile_spread_radius",5],["base_chance_to_poison_on_hit_%",100]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Spike Mortar",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectiles_not_offset"]
+      }]
+  },
   "MMSBaneSapling":{
     "castTime":1.77,
     "hidden":true,
@@ -3980,6 +5480,193 @@
     "weaponTypes":{
       "Crossbow":true
     }
+  },
+  "MPAMudBurrowerBloodProj":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.25,
+        "levelRequirement":0
+      },{
+        "baseMultiplier":1.25,
+        "levelRequirement":0
+      }],
+    "name":"Blood Spit",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1115],["projectile_ballistic_gravity_override",3000],["projectile_spread_radius",7],["attack_maximum_action_distance_+",11]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1
+          },{
+            "actorLevel":50,
+            "statInterpolation":[1],
+            "1":2
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["number_of_additional_projectiles","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_target_distance"]
+      }]
+  },
+  "MPAMudBurrowerGoopBigBall":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Large Goop Ball",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1117],["projectile_ballistic_gravity_override",0],["projectile_spread_radius",3]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_target_distance"]
+      }]
+  },
+  "MPAMudBurrowerGoopSmallBall":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Goop Ball",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1116],["projectile_ballistic_gravity_override",0],["projectile_spread_radius",10]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_target_distance","projectile_uses_contact_direction"]
+      }]
+  },
+  "MPAMudBurrowerSprayProj":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cooldown":16,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Blood Spray",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1118],["projectile_ballistic_gravity_override",0],["projectile_spread_radius",8]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_target_distance"]
+      }]
+  },
+  "MPAMudBurrowerVomitProj":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.8,
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Vomit",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1118]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","action_attack_or_cast_time_uses_animation_length","base_deal_no_damage","projectile_ballistic_angle_from_reference_event"]
+      }]
   },
   "MPAVaalHumanoidCannon":{
     "castTime":1,
@@ -5184,6 +6871,47 @@
         "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","disable_visual_hit_effect"]
       }]
   },
+  "MPSPlagueNymphRailGun":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/passives/MaceNotable2.dds",
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":0
+      }],
+    "name":"Rail Gun",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4.25,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1125],["active_skill_base_physical_damage_%_to_convert_to_lightning",60],["spell_maximum_action_distance_+%",-50],["monster_penalty_against_minions_damage_+%_final_vs_player_minions",-60]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","always_pierce"]
+      }]
+  },
   "MPSRaptorDefenderExplosiveShot":{
     "castTime":1,
     "hidden":true,
@@ -5431,6 +7159,49 @@
         "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","action_attack_or_cast_time_uses_animation_length"]
       }]
   },
+  "MPSTwilightOrderPlagueNymphRailGun":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/passives/MaceNotable2.dds",
+    "levels":[{
+        "cooldown":8,
+        "critChance":5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Rail Gun",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "57":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":4.25,
+        "baseFlags":{
+          "hit":true,
+          "projectile":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1125],["active_skill_base_physical_damage_%_to_convert_to_lightning",60],["spell_maximum_action_distance_+%",-50],["monster_penalty_against_minions_damage_+%_final_vs_player_minions",-60]],
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Projectile",
+        "levels":[{
+            "actorLevel":1,
+            "statInterpolation":[3,3],
+            "1":0.80000001192093,
+            "2":1.2000000476837
+          }],
+        "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","always_pierce"]
+      }]
+  },
   "MPSTwilightSorcerorFireball":{
     "castTime":1,
     "hidden":true,
@@ -5667,6 +7438,78 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length","maintain_projectile_direction_when_using_contact_position","check_for_targets_between_initiator_and_projectile_source","projectile_ballistic_angle_from_reference_event"]
+      }]
+  },
+  "MPWBlackStriderWebProjectile":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Web Projectile",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1150],["projectile_ballistic_gravity_override",1500]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Web Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_target_distance","projectile_uses_contact_direction","projectile_uses_contact_position","use_scaled_contact_offset","base_deal_no_damage"]
+      }]
+  },
+  "MPWBlackStriderWebProjectileSanctum":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "cooldown":6.5,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Web Projectile",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1151],["projectile_ballistic_gravity_override",1300],["number_of_additional_projectiles",3],["projectile_spread_radius",20]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Web Projectile",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_ballistic_angle_from_target_distance","projectile_uses_contact_direction","projectile_uses_contact_position","use_scaled_contact_offset","distribute_projectiles_over_contact_points"]
       }]
   },
   "MPWCleansedMonstrosityRailgun":{
@@ -6007,6 +7850,40 @@
         "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","global_poison_on_hit","projectiles_not_offset","projectile_ballistic_angle_from_reference_event"]
       }]
   },
+  "MeleeAtAnimationSpeed2":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Basic Attack",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Basic Attack",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
+      }]
+  },
   "MeleeAtAnimationSpeedBoss":{
     "castTime":1,
     "hidden":true,
@@ -6314,6 +8191,175 @@
         "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
       }]
   },
+  "MeleeMudBurrowerBite":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":1.4,
+        "levelRequirement":0
+      }],
+    "name":"Bite",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",80]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Bite",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "MeleeMudBurrowerLeftCleave":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":1.4,
+        "levelRequirement":0
+      }],
+    "name":"Left Cleave",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Left Cleave",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "MeleeMudBurrowerRightCleave":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
+    "levels":[{
+        "baseMultiplier":1.4,
+        "levelRequirement":0
+      }],
+    "name":"Right Cleave",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":0,
+        "baseFlags":{
+          "attack":true,
+          "melee":true
+        },
+        "constantStats":[["monster_penalty_against_minions_damage_+%_final_vs_player_minions",40]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Right Cleave",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["action_attack_or_cast_time_uses_animation_length"]
+      }]
+  },
+  "MudBurrowerGoopExplode":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":1.6,
+        "levelRequirement":0
+      }],
+    "name":"Goop Explosion",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseEffectiveness":8,
+        "baseFlags":{
+          "area":true,
+          "spell":true,
+          "triggerable":true
+        },
+        "damageIncrementalEffectiveness":0.017500000074506,
+        "incrementalEffectiveness":0.10000000149012,
+        "label":"Goop Explosion",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["is_area_damage","global_poison_on_hit","base_is_projectile"]
+      }]
+  },
+  "MudBurrowerMaggotSummon":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "levelRequirement":0
+      }],
+    "name":"Summon Maggots",
+    "qualityStats":[],
+    "skillTypes":{
+      "2":true,
+      "22":true,
+      "31":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "spell":true
+        },
+        "constantStats":[["number_of_monsters_to_summon",4],["alternate_minion",1003]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Summon Maggots",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["summoned_monsters_are_minions","summoned_monsters_no_drops_or_experience","minion_dies_when_parent_dies"]
+      }]
+  },
   "MutewindBanditWomanLeap":{
     "castTime":1,
     "hidden":true,
@@ -6455,6 +8501,78 @@
           }],
         "statDescriptionScope":"skill_stat_descriptions",
         "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","projectile_ballistic_angle_from_reference_event","projectiles_not_offset"]
+      }]
+  },
+  "QuillCrabSpikeShrapnel":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.2,
+        "levelRequirement":0
+      }],
+    "name":"Spike Shrapnel",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1003],["projectile_angle_variance",0],["monster_reverse_point_blank_damage_-%_at_minimum_range",20],["active_skill_base_physical_damage_%_to_convert_to_fire",40],["projectile_spread_radius",18]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Spike Shrapnel",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","projectiles_not_offset","projectile_ballistic_angle_from_reference_event"]
+      }]
+  },
+  "QuillCrabSpikeShrapnelPoison":{
+    "castTime":1,
+    "hidden":true,
+    "icon":"",
+    "levels":[{
+        "baseMultiplier":0.2,
+        "levelRequirement":0
+      }],
+    "name":"Spike Shrapnel",
+    "qualityStats":[],
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "7":true,
+      "31":true,
+      "41":true,
+      "57":true,
+      "58":true,
+      "83":true
+    },
+    "statSets":[{
+        "baseFlags":{
+          "attack":true,
+          "projectile":true,
+          "triggerable":true
+        },
+        "constantStats":[["monster_projectile_variation",1005],["projectile_angle_variance",0],["monster_reverse_point_blank_damage_-%_at_minimum_range",20],["projectile_spread_radius",0]],
+        "incrementalEffectiveness":0.054999999701977,
+        "label":"Spike Shrapnel",
+        "levels":[{
+            "actorLevel":1
+          }],
+        "statDescriptionScope":"skill_stat_descriptions",
+        "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","projectiles_not_offset","global_poison_on_hit","projectile_ballistic_angle_from_reference_event"]
       }]
   },
   "RisenArbalestBasicProjectile":{

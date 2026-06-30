@@ -34679,21 +34679,30 @@
         "keywordFlags":0,
         "name":"GrantedPassive",
         "type":"LIST",
-        "value":"2 sinister jewel sockets"
+        "value":{
+          "count":2,
+          "type":"SinisterJewelSockets"
+        }
       }]],
   "Allocates 3 Sinister Jewel sockets":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"GrantedPassive",
         "type":"LIST",
-        "value":"3 sinister jewel sockets"
+        "value":{
+          "count":3,
+          "type":"SinisterJewelSockets"
+        }
       }]],
   "Allocates 4 Sinister Jewel sockets":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"GrantedPassive",
         "type":"LIST",
-        "value":"4 sinister jewel sockets"
+        "value":{
+          "count":4,
+          "type":"SinisterJewelSockets"
+        }
       }]],
   "Allocates Abasement":[[{
         "flags":0,
@@ -55445,8 +55454,19 @@
           "var":"CriticalStrike"
         }
       }]],
-  "Physical damage from Hits Contributes to Chill Magnitude and Freeze Buildup":[null,"Physical damage from Hits Contributes to Chill Magnitude and Freeze Buildup "],
-  "Physical damage from Hits Contributes to Chill Magnitude and Freeze Buildup Enemies in your Presence are Blinded":[null,"Physical damage from Hits Contributes to Chill Magnitude and Freeze Buildup Enemies in your Presence are Blinded "],
+  "Physical damage from Hits Contributes to Chill Magnitude and Freeze Buildup":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalCanChill",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalCanFreeze",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Pin Enemies which are Primed for Pinning":[null,"Pin Enemies which are Primed for Pinning "],
   "Pin Enemies which are Primed for Pinning Require 4 fewer enemies to be Surrounded":[null,"Pin Enemies which are Primed for Pinning Require 4 fewer enemies to be Surrounded "],
   "Pinned Enemies cannot deal Critical Hits":[[{
@@ -56653,7 +56673,17 @@
       }]],
   "Skills from Corrupted Gems have 25% increased Cost Efficiency during any Flask Effect":[null,"Skills from Corrupted Gems have 25% increased Cost Efficiency during any Flask Effect "],
   "Skills from Corrupted Gems have 25% increased Cost Efficiency during any Flask Effect Corrupted Blood cannot be inflicted on you":[null,"Skills from Corrupted Gems have 25% increased Cost Efficiency during any Flask Effect Corrupted Blood cannot be inflicted on you "],
-  "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs":[null,"Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs "],
+  "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"HybridManaAndLifeCost_Life",
+        "type":"BASE",
+        "value":50,
+        "1":{
+          "type":"Condition",
+          "var":"GemCorrupted"
+        }
+      }]],
   "Skills gain 1 Glory every 2 seconds for each Rare or Unique monster in your Presence":[[]," Glory every 2 seconds for each Rare or Unique monster in your Presence "],
   "Skills gain 1% of Damage as Chaos Damage per 3 Life Cost":[[{
         "flags":0,
