@@ -167,6 +167,36 @@
         "var":"DualWielding"
       }
     }],
+  "active_skill_base_all_damage_%_to_gain_as_chaos":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsChaos",
+      "type":"BASE"
+    }],
+  "active_skill_base_all_damage_%_to_gain_as_cold":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsCold",
+      "type":"BASE"
+    }],
+  "active_skill_base_all_damage_%_to_gain_as_fire":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsFire",
+      "type":"BASE"
+    }],
+  "active_skill_base_all_damage_%_to_gain_as_lightning":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsLightning",
+      "type":"BASE"
+    }],
+  "active_skill_base_all_damage_%_to_gain_as_physical":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"DamageGainAsPhysical",
+      "type":"BASE"
+    }],
   "active_skill_base_area_of_effect_radius":[{
       "flags":0,
       "keywordFlags":0,
@@ -257,7 +287,13 @@
   "active_skill_base_physical_damage_%_to_gain_as_cold":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"SkillPhysicalDamageGainAsCold",
+      "name":"PhysicalDamageGainAsCold",
+      "type":"BASE"
+    }],
+  "active_skill_base_physical_damage_%_to_gain_as_fire":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"PhysicalDamageGainAsFire",
       "type":"BASE"
     }],
   "active_skill_base_radius_+":[{
@@ -379,6 +415,17 @@
         "actor":"enemy",
         "type":"ActorCondition",
         "var":"HeavyStunned"
+      }
+    }],
+  "active_skill_damage_+%_final_vs_burning_enemies":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Damage",
+      "type":"MORE",
+      "1":{
+        "actor":"enemy",
+        "type":"ActorCondition",
+        "var":"Burning"
       }
     }],
   "active_skill_damage_+%_final_vs_chilled_enemies":[{
@@ -2561,6 +2608,12 @@
       "name":"CooldownRecovery",
       "type":"INC"
     }],
+  "base_spirit_reservation_efficiency_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SpiritReservationEfficiency",
+      "type":"INC"
+    }],
   "base_stun_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3108,6 +3161,12 @@
       "name":"LuckyHitsChance",
       "type":"BASE"
     }],
+  "chance_for_extra_damage_roll_with_lightning_damage_%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"LightningLuckyHitsChance",
+      "type":"BASE"
+    }],
   "chance_to_be_frozen_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3363,6 +3422,17 @@
       "keywordFlags":0,
       "name":"ColdDotMultiplier",
       "type":"BASE"
+    }],
+  "companion_takes_%_damage_before_you_from_support":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"TakenFromCompanionBeforeYou",
+      "type":"BASE",
+      "1":{
+        "effectType":"Buff",
+        "type":"GlobalEffect",
+        "unscalable":true
+      }
     }],
   "companions_are_gigantic":[{
       "flags":0,
@@ -4393,6 +4463,12 @@
       "name":"EnemyFreezeBuildup",
       "type":"INC"
     }],
+  "hit_damage_immobilisation_multiplier_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyImmobilisationBuildup",
+      "type":"INC"
+    }],
   "hits_ignore_enemy_cold_resistance":[{
       "flags":0,
       "keywordFlags":0,
@@ -5412,6 +5488,20 @@
         }
       }
     }],
+  "minion_damage_taken_+%":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MinionModifier",
+      "type":"LIST",
+      "value":{
+        "mod":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"DamageTaken",
+          "type":"INC"
+        }
+      }
+    }],
   "minion_elemental_resistance_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5754,6 +5844,12 @@
       "keywordFlags":0,
       "name":"SkillMovementSpeed",
       "type":"MORE"
+    }],
+  "movement_speed_penalty_+%_while_performing_action":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"MovementSpeedPenalty",
+      "type":"INC"
     }],
   "never_chill":[{
       "flags":0,

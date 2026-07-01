@@ -1,5 +1,6 @@
 {
   "ArcPlayer":{
+    "altQualityStats":[["active_skill_projectile_damage_+%_final_for_each_remaining_chain",0.15,[]]],
     "baseTypeName":"Arc",
     "castTime":1.1,
     "color":3,
@@ -287,7 +288,7 @@
         "levelRequirement":90
       }],
     "name":"Arc",
-    "qualityStats":[["number_of_chains",0.1]],
+    "qualityStats":[["number_of_chains",0.1,[0]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -558,6 +559,16 @@
         "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
         "statDescriptionScope":"skill_stat_descriptions",
         "statMap":{
+          "active_skill_projectile_damage_+%_final_for_each_remaining_chain":[{
+              "flags":1028,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "stat":"ChainRemaining",
+                "type":"PerStat"
+              }
+            }],
           "arc_chains_gained_from_infusion_consumption":[{
               "flags":0,
               "keywordFlags":0,
@@ -566,16 +577,6 @@
               "1":{
                 "type":"Condition",
                 "var":"ArcLightningInfused"
-              }
-            }],
-          "arc_damage_+%_final_for_each_remaining_chain":[{
-              "flags":0,
-              "keywordFlags":0,
-              "name":"Damage",
-              "type":"MORE",
-              "1":{
-                "stat":"ChainRemaining",
-                "type":"PerStat"
               }
             }],
           "arc_damage_+%_final_from_infusion_consumption":[{
@@ -594,6 +595,7 @@
       }]
   },
   "ArchmagePlayer":{
+    "altQualityStats":[["archmage_all_damage_%_to_gain_as_lightning_to_grant_to_non_channelling_spells_per_100_max_mana",0.05,[]],["archmage_max_mana_permyriad_to_add_to_non_channelled_spell_mana_cost",10,[]]],
     "baseTypeName":"Archmage",
     "castTime":1,
     "color":3,
@@ -721,7 +723,7 @@
         "spiritReservationFlat":100
       }],
     "name":"Archmage",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -954,6 +956,7 @@
       }]
   },
   "ArcticArmourPlayer":{
+    "altQualityStats":[["arctic_armour_armour_granted_+%_per_stage",1,[]]],
     "baseTypeName":"Arctic Armour",
     "castTime":0,
     "color":3,
@@ -1201,7 +1204,7 @@
         "storedUses":1
       }],
     "name":"Arctic Armour",
-    "qualityStats":[["maximum_number_of_arctic_armour_stationary_stacks",0.05]],
+    "qualityStats":[["maximum_number_of_arctic_armour_stationary_stacks",0.05,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -1510,6 +1513,7 @@
       }]
   },
   "BallLightningPlayer":{
+    "altQualityStats":[["active_skill_projectile_speed_+%_final",-1.5,[0]]],
     "baseTypeName":"Ball Lightning",
     "castTime":1,
     "color":3,
@@ -1797,7 +1801,7 @@
         "levelRequirement":90
       }],
     "name":"Ball Lightning",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[0]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2720,6 +2724,7 @@
       }]
   },
   "BlasphemyPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Blasphemy",
     "castTime":0,
     "color":3,
@@ -2807,7 +2812,7 @@
         "levelRequirement":90
       }],
     "name":"Blasphemy",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5,[]]],
     "skillTypes":{
       "5":true,
       "8":true,
@@ -2925,6 +2930,7 @@
       }]
   },
   "BlinkPlayer":{
+    "altQualityStats":[["blink_travel_distance",1.25,[]]],
     "castTime":0.7,
     "description":"While active, replaces your dodge roll with a short-cooldown Spell that allows you to tunnel through space, instantly reappearing a medium distance away.",
     "hidden":true,
@@ -3211,7 +3217,7 @@
         "storedUses":1
       }],
     "name":"Blink",
-    "qualityStats":[["base_cooldown_speed_+%",0.5]],
+    "qualityStats":[["base_cooldown_speed_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "79":true,
@@ -3391,6 +3397,7 @@
       }]
   },
   "BlinkReservationPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Blink",
     "castTime":1,
     "color":3,
@@ -3620,6 +3627,7 @@
       }]
   },
   "BoneBlastPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Bone Blast",
     "castTime":0.75,
     "color":3,
@@ -3868,7 +3876,7 @@
         "levelRequirement":90
       }],
     "name":"Bone Blast",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -4099,6 +4107,7 @@
       }]
   },
   "BoneCagePlayer":{
+    "altQualityStats":[["active_skill_bleeding_effect_+%_final",2,[]]],
     "baseTypeName":"Bone Cage",
     "castTime":1,
     "color":3,
@@ -4346,7 +4355,7 @@
         "levelRequirement":90
       }],
     "name":"Bone Cage",
-    "qualityStats":[["active_skill_pins_as_though_dealt_damage_+%_final",2.5]],
+    "qualityStats":[["active_skill_pins_as_though_dealt_damage_+%_final",2.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -4579,6 +4588,7 @@
       }]
   },
   "BoneOfferingPlayer":{
+    "altQualityStats":[["active_skill_quality_duration_+%_final",1.5,[]]],
     "baseTypeName":"Bone Offering",
     "castTime":0.6,
     "color":3,
@@ -4792,7 +4802,7 @@
       "27":true
     },
     "name":"Bone Offering",
-    "qualityStats":[["bone_offering_damage_taken_+%_final_after_shield_loss",-1.5]],
+    "qualityStats":[["bone_offering_damage_taken_+%_final_after_shield_loss",-1.5,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -4982,6 +4992,7 @@
       }]
   },
   "BonestormPlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[]]],
     "baseTypeName":"Bonestorm",
     "castTime":0.125,
     "color":3,
@@ -5229,7 +5240,7 @@
         "levelRequirement":90
       }],
     "name":"Bonestorm",
-    "qualityStats":[["active_skill_cast_speed_+%_final",0.5]],
+    "qualityStats":[["active_skill_cast_speed_+%_final",0.5,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -5797,6 +5808,7 @@
       }]
   },
   "ChargeRegulationPlayer":{
+    "altQualityStats":[["charge_regulation_damage_per_charge_granted_+%",0.1,[]]],
     "baseTypeName":"Charge Regulation",
     "castTime":1,
     "color":3,
@@ -5924,7 +5936,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Charge Regulation",
-    "qualityStats":[["consume_frenzy_power_and_endurance_charge_every_x_ms",120]],
+    "qualityStats":[["consume_frenzy_power_and_endurance_charge_every_x_ms",120,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -6326,12 +6338,28 @@
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
+            }],
+          "charge_regulation_damage_per_charge_granted_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"INC",
+              "1":{
+                "type":"Multiplier",
+                "var":"TotalCharges"
+              },
+              "2":{
+                "effectName":"Charge Infusion",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
             }]
         },
         "stats":["charge_mastery_skill_speed_+%_with_frenzy_charges","charge_mastery_crit_chance_+%_final_with_power_charges","charge_mastery_armour_evasion_energy_shield_+%_final_with_endurance_charges","consume_frenzy_power_and_endurance_charge_every_x_ms","base_deal_no_damage"]
       }]
   },
   "ChargedStaffPlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[]]],
     "baseTypeName":"Charged Staff",
     "castTime":0.75,
     "color":3,
@@ -6539,7 +6567,7 @@
         "levelRequirement":90
       }],
     "name":"Charged Staff",
-    "qualityStats":[["skill_effect_duration_+%",1]],
+    "qualityStats":[["skill_effect_duration_+%",1,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -6823,6 +6851,7 @@
     }
   },
   "ChargedStaffShockwavePlayer":{
+    "altQualityStats":[],
     "castTime":0.75,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/MonkChargedStaff.dds",
@@ -7052,6 +7081,7 @@
     }
   },
   "CoilingBoltsPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Coiling Bolts",
     "castTime":1,
     "color":3,
@@ -7299,7 +7329,7 @@
         "levelRequirement":90
       }],
     "name":"Coiling Bolts",
-    "qualityStats":[["projectile_number_to_split",0.1]],
+    "qualityStats":[["projectile_number_to_split",0.1,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -7826,6 +7856,7 @@
       }]
   },
   "CometPlayer":{
+    "altQualityStats":[["damage_+%_vs_frozen_enemies",2,[]]],
     "baseTypeName":"Comet",
     "castTime":1,
     "color":3,
@@ -8073,7 +8104,7 @@
         "levelRequirement":90
       }],
     "name":"Comet",
-    "qualityStats":[["base_spell_%_chance_to_echo",0.5]],
+    "qualityStats":[["base_spell_%_chance_to_echo",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -8686,6 +8717,7 @@
       }]
   },
   "CommandMadFlightPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/Rolldodge.dds",
@@ -8988,6 +9020,7 @@
       }]
   },
   "ContagionPlayer":{
+    "altQualityStats":[["active_skill_area_of_effect_+%_final",2.5,[]]],
     "baseTypeName":"Contagion",
     "castTime":1,
     "color":3,
@@ -9195,7 +9228,7 @@
         "levelRequirement":90
       }],
     "name":"Contagion",
-    "qualityStats":[["contagion_number_of_additional_targets",0.1]],
+    "qualityStats":[["contagion_number_of_additional_targets",0.1,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -9410,6 +9443,7 @@
       }]
   },
   "ConvalescenceActivePlayer":{
+    "altQualityStats":[["base_cooldown_speed_+%",1.5,[]]],
     "castTime":0.5,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/ConvalescenceSkillIcon.dds",
@@ -9695,7 +9729,7 @@
         "storedUses":1
       }],
     "name":"Convalescence",
-    "qualityStats":[["base_skill_effect_duration",25]],
+    "qualityStats":[["base_skill_effect_duration",25,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -9878,6 +9912,7 @@
       }]
   },
   "ConvalescencePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Convalescence",
     "castTime":0,
     "color":3,
@@ -10104,6 +10139,7 @@
       }]
   },
   "CorpseCloudPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Decompose",
     "castTime":0.8,
     "color":3,
@@ -10312,7 +10348,7 @@
         "levelRequirement":90
       }],
     "name":"Decompose",
-    "qualityStats":[["base_skill_effect_duration",50],["base_secondary_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[0]],["base_secondary_skill_effect_duration",50,[0]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -10719,6 +10755,7 @@
       }]
   },
   "CracklingPalmPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Crackling Palm",
     "castTime":0,
     "color":4,
@@ -10807,7 +10844,7 @@
         "levelRequirement":90
       }],
     "name":"Crackling Palm",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1,[]]],
     "skillTypes":{
       "1":true,
       "5":true,
@@ -11206,6 +11243,7 @@
     }
   },
   "DarkEffigyPlayer":{
+    "altQualityStats":[["base_number_of_totems_allowed",0.05,[0]]],
     "baseTypeName":"Dark Effigy",
     "castTime":1,
     "color":3,
@@ -11413,7 +11451,7 @@
         "levelRequirement":90
       }],
     "name":"Dark Effigy",
-    "qualityStats":[["dummy_stat_display_nothing",0]],
+    "qualityStats":[["dummy_stat_display_nothing",0,[]]],
     "skillTotemId":24,
     "skillTypes":{
       "9":true,
@@ -11656,6 +11694,7 @@
       }]
   },
   "DarkEffigyProjectilePlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Fire a Projectile at every nearby enemy that is afflicted by a Chaos damage over time Debuff. Fires multiple Projectiles at enemies afflicted by multiple Debuffs, but Projectile count cannot be otherwise modified.",
     "hidden":true,
@@ -11782,7 +11821,7 @@
         "levelRequirement":0
       }],
     "name":"Vile Effusion",
-    "qualityStats":[["active_skill_base_secondary_area_of_effect_radius",0.1]],
+    "qualityStats":[["active_skill_base_secondary_area_of_effect_radius",0.1,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -12042,6 +12081,7 @@
       }]
   },
   "DespairPlayer":{
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "baseTypeName":"Despair",
     "castTime":0.7,
     "color":3,
@@ -12249,7 +12289,7 @@
         "levelRequirement":90
       }],
     "name":"Despair",
-    "qualityStats":[["curse_effect_+%",0.5]],
+    "qualityStats":[["curse_effect_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -12575,6 +12615,7 @@
       }]
   },
   "DetonateDeadPlayer":{
+    "altQualityStats":[["active_skill_base_physical_damage_%_to_convert_to_fire",3,[]]],
     "baseTypeName":"Detonate Dead",
     "castTime":0.8,
     "color":3,
@@ -12822,7 +12863,7 @@
         "levelRequirement":90
       }],
     "name":"Detonate Dead",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -13108,6 +13149,7 @@
       }]
   },
   "DisciplinePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Discipline",
     "castTime":0,
     "color":3,
@@ -13196,7 +13238,7 @@
         "levelRequirement":90
       }],
     "name":"Discipline",
-    "qualityStats":[["base_skill_buff_energy_shield_recharge_rate_+%_to_apply",1]],
+    "qualityStats":[["base_skill_buff_energy_shield_recharge_rate_+%_to_apply",1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -13389,6 +13431,7 @@
       }]
   },
   "ElementalConfluxPlayer":{
+    "altQualityStats":[["base_skill_effect_duration",200,[]]],
     "baseTypeName":"Elemental Conflux",
     "castTime":1,
     "color":3,
@@ -13516,7 +13559,7 @@
         "spiritReservationFlat":60
       }],
     "name":"Elemental Conflux",
-    "qualityStats":[["skill_elemental_conflux_active_element_damage_+%_final",0.5]],
+    "qualityStats":[["skill_elemental_conflux_active_element_damage_+%_final",0.5,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -13749,6 +13792,7 @@
       }]
   },
   "ElementalWeaknessPlayer":{
+    "altQualityStats":[["curse_delay_+%",-2.5,[]]],
     "baseTypeName":"Elemental Weakness",
     "castTime":0.7,
     "color":3,
@@ -13956,7 +14000,7 @@
         "levelRequirement":90
       }],
     "name":"Elemental Weakness",
-    "qualityStats":[["curse_effect_+%",0.5]],
+    "qualityStats":[["curse_effect_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -14283,6 +14327,7 @@
       }]
   },
   "EmberFusilladePlayer":{
+    "altQualityStats":[["skill_effect_duration_+%",-2,[0]],["active_skill_cast_speed_+%_final",-1,[0]]],
     "baseTypeName":"Ember Fusillade",
     "castTime":0.4,
     "color":3,
@@ -14530,7 +14575,7 @@
         "levelRequirement":90
       }],
     "name":"Ember Fusillade",
-    "qualityStats":[["ember_fusillade_damage_+%_final_per_ember_fired",0.1]],
+    "qualityStats":[["ember_fusillade_damage_+%_final_per_ember_fired",0.1,[1,2]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -15391,6 +15436,7 @@
       }]
   },
   "EnfeeblePlayer":{
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "baseTypeName":"Enfeeble",
     "castTime":0.7,
     "color":3,
@@ -15598,7 +15644,7 @@
         "levelRequirement":90
       }],
     "name":"Enfeeble",
-    "qualityStats":[["curse_effect_+%",0.5]],
+    "qualityStats":[["curse_effect_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -15943,6 +15989,7 @@
       }]
   },
   "EssenceDrainPlayer":{
+    "altQualityStats":[["number_of_chains",0.2,[0,1]]],
     "baseTypeName":"Essence Drain",
     "castTime":0.8,
     "color":3,
@@ -16190,7 +16237,7 @@
         "levelRequirement":90
       }],
     "name":"Essence Drain",
-    "qualityStats":[["base_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[1]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -16700,6 +16747,7 @@
       }]
   },
   "ExsanguinatePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Exsanguinate",
     "castTime":1,
     "color":3,
@@ -16948,7 +16996,7 @@
         "levelRequirement":90
       }],
     "name":"Exsanguinate",
-    "qualityStats":[["blood_tendrils_beam_count",0.05]],
+    "qualityStats":[["blood_tendrils_beam_count",0.05,[0]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -17397,6 +17445,7 @@
       }]
   },
   "EyeOfWinterPlayer":{
+    "altQualityStats":[["projectile_return_%_chance",2.5,[]]],
     "baseTypeName":"Eye of Winter",
     "castTime":1.4,
     "color":3,
@@ -17724,7 +17773,7 @@
         "storedUses":1
       }],
     "name":"Eye of Winter",
-    "qualityStats":[["base_projectile_speed_+%",1.5]],
+    "qualityStats":[["base_projectile_speed_+%",1.5,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -17987,6 +18036,7 @@
       }]
   },
   "FallingThunderPlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[1]]],
     "baseTypeName":"Falling Thunder",
     "castTime":1,
     "color":3,
@@ -18274,7 +18324,7 @@
         "levelRequirement":90
       }],
     "name":"Falling Thunder",
-    "qualityStats":[["lightning_strike_damage_+%_final_per_power_charge",1]],
+    "qualityStats":[["lightning_strike_damage_+%_final_per_power_charge",1,[1]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -18439,6 +18489,7 @@
     }
   },
   "FeastOfFleshPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Feast of Flesh",
     "castTime":1.3,
     "color":3,
@@ -18647,7 +18698,7 @@
         "levelRequirement":90
       }],
     "name":"Feast of Flesh",
-    "qualityStats":[["feast_of_flesh_number_of_corpses",0.15]],
+    "qualityStats":[["feast_of_flesh_number_of_corpses",0.15,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -18869,6 +18920,7 @@
       }]
   },
   "FireballPlayer":{
+    "altQualityStats":[["spell_skill_%_chance_to_fire_8_additional_projectiles_in_nova",0.5,[0]]],
     "baseTypeName":"Fireball",
     "castTime":1.2,
     "color":3,
@@ -19116,7 +19168,7 @@
         "levelRequirement":90
       }],
     "name":"Fireball",
-    "qualityStats":[["spell_skills_fire_2_additional_projectiles_final_chance_%",0.5]],
+    "qualityStats":[["spell_skills_fire_2_additional_projectiles_final_chance_%",0.5,[0]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -19860,6 +19912,7 @@
       }]
   },
   "FireboltPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Firebolt",
     "castTime":0.9,
     "color":3,
@@ -20108,7 +20161,7 @@
         "levelRequirement":90
       }],
     "name":"Firebolt",
-    "qualityStats":[["active_skill_ignite_chance_+%_final",1]],
+    "qualityStats":[["active_skill_ignite_chance_+%_final",1,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -20558,6 +20611,7 @@
       }]
   },
   "FirestormPlayer":{
+    "altQualityStats":[["chance_to_not_consume_infusion_%",1,[]]],
     "baseTypeName":"Firestorm",
     "castTime":1.4,
     "color":3,
@@ -20805,7 +20859,7 @@
         "levelRequirement":90
       }],
     "name":"Firestorm",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -21791,6 +21845,7 @@
       }]
   },
   "FlameWallPlayer":{
+    "altQualityStats":[["active_skill_fire_damage_+%_final",2,[0]]],
     "baseTypeName":"Flame Wall",
     "castTime":1,
     "color":3,
@@ -22038,7 +22093,7 @@
         "levelRequirement":90
       }],
     "name":"Flame Wall",
-    "qualityStats":[["active_skill_ignite_chance_+%_final",1]],
+    "qualityStats":[["active_skill_ignite_chance_+%_final",1,[0]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -22936,6 +22991,7 @@
       }]
   },
   "FlameblastPlayer":{
+    "altQualityStats":[["gem_quality_flameblast_damaging_ailment_effect_per_stage_+%_final",2,[]]],
     "baseTypeName":"Flameblast",
     "castTime":0.25,
     "color":3,
@@ -23263,7 +23319,7 @@
         "storedUses":1
       }],
     "name":"Flameblast",
-    "qualityStats":[["active_skill_cast_speed_+%_final",1]],
+    "qualityStats":[["active_skill_cast_speed_+%_final",1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -23508,6 +23564,16 @@
               "name":"Multiplier:FlameblastMaxStages",
               "type":"BASE"
             }],
+          "gem_quality_flameblast_damaging_ailment_effect_per_stage_+%_final":[{
+              "flags":0,
+              "keywordFlags":14680064,
+              "name":"AilmentMagnitude",
+              "type":"MORE",
+              "1":{
+                "type":"Multiplier",
+                "var":"FlameblastStage"
+              }
+            }],
           "vaal_flameblast_radius_+_per_stage":[{
               "flags":0,
               "keywordFlags":0,
@@ -23526,6 +23592,7 @@
       }]
   },
   "FlickerStrikePlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[]]],
     "baseTypeName":"Flicker Strike",
     "castTime":1,
     "color":3,
@@ -23853,7 +23920,7 @@
         "levelRequirement":90
       }],
     "name":"Flicker Strike",
-    "qualityStats":[["active_skill_critical_strike_chance_+%_final",1]],
+    "qualityStats":[["active_skill_critical_strike_chance_+%_final",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -23983,6 +24050,7 @@
     }
   },
   "FreezingMarkPlayer":{
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "baseTypeName":"Freezing Mark",
     "castTime":0.5,
     "color":3,
@@ -24270,7 +24338,7 @@
         "storedUses":1
       }],
     "name":"Freezing Mark",
-    "qualityStats":[["freezing_mark_hit_damage_freeze_multiplier_+%_final",1]],
+    "qualityStats":[["freezing_mark_hit_damage_freeze_multiplier_+%_final",1,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -24492,6 +24560,7 @@
       }]
   },
   "FreezingShardsPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Freezing Shards",
     "castTime":1.2,
     "color":3,
@@ -24740,7 +24809,7 @@
         "levelRequirement":90
       }],
     "name":"Freezing Shards",
-    "qualityStats":[["base_number_of_projectiles",0.05]],
+    "qualityStats":[["base_number_of_projectiles",0.05,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -24974,6 +25043,7 @@
       }]
   },
   "FrostBombPlayer":{
+    "altQualityStats":[["base_maximum_number_of_frost_bombs",0.15,[]]],
     "baseTypeName":"Frost Bomb",
     "castTime":0.8,
     "color":3,
@@ -25301,7 +25371,7 @@
         "storedUses":1
       }],
     "name":"Frost Bomb",
-    "qualityStats":[["active_skill_all_elemental_exposure_compounding_magnitude_cap",0.5]],
+    "qualityStats":[["active_skill_all_elemental_exposure_compounding_magnitude_cap",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -25622,6 +25692,7 @@
       }]
   },
   "FrostDartsPlayer":{
+    "altQualityStats":[["number_of_additional_forks_base",0.1,[0]]],
     "baseTypeName":"Frost Darts",
     "castTime":0.8,
     "color":3,
@@ -25869,7 +25940,7 @@
         "levelRequirement":90
       }],
     "name":"Frost Darts",
-    "qualityStats":[["spell_skills_fire_2_additional_projectiles_final_chance_%",0.5]],
+    "qualityStats":[["spell_skills_fire_2_additional_projectiles_final_chance_%",0.5,[0]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -26688,6 +26759,7 @@
       }]
   },
   "FrostWallPlayer":{
+    "altQualityStats":[["ice_crystal_maximum_life_+%",20,[]]],
     "baseTypeName":"Frost Wall",
     "castTime":0.8,
     "color":3,
@@ -27015,7 +27087,7 @@
         "storedUses":3
       }],
     "name":"Frost Wall",
-    "qualityStats":[["base_cooldown_speed_+%",1]],
+    "qualityStats":[["base_cooldown_speed_+%",1,[0]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -27748,6 +27820,7 @@
       }]
   },
   "FrostboltPlayer":{
+    "altQualityStats":[["active_skill_projectile_speed_+%_final",2,[0]]],
     "baseTypeName":"Frostbolt",
     "castTime":0.8,
     "color":3,
@@ -27995,7 +28068,7 @@
         "levelRequirement":90
       }],
     "name":"Frostbolt",
-    "qualityStats":[["active_skill_projectile_damage_+%_final_if_pierced_enemy",1]],
+    "qualityStats":[["active_skill_projectile_damage_+%_final_if_pierced_enemy",1,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -28605,6 +28678,7 @@
       }]
   },
   "FrozenLocusPlayer":{
+    "altQualityStats":[["base_number_of_frozen_locus_allowed",0.05,[]]],
     "baseTypeName":"Frozen Locus",
     "castTime":1,
     "color":3,
@@ -28852,7 +28926,7 @@
         "levelRequirement":90
       }],
     "name":"Frozen Locus",
-    "qualityStats":[["active_skill_chill_effect_+%_final",1]],
+    "qualityStats":[["active_skill_chill_effect_+%_final",1,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -29336,6 +29410,7 @@
     }
   },
   "FulminationPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Fulmination",
     "castTime":0,
     "color":3,
@@ -29424,7 +29499,7 @@
         "levelRequirement":90
       }],
     "name":"Fulmination",
-    "qualityStats":[["skill_wrath_aura_shared_damage_+%_to_other_shocked_enemies_in_presence",0.25]],
+    "qualityStats":[["skill_wrath_aura_shared_damage_+%_to_other_shocked_enemies_in_presence",0.25,[]]],
     "skillTypes":{
       "5":true,
       "7":true,
@@ -29607,6 +29682,7 @@
       }]
   },
   "GaleStrikePlayer":{
+    "altQualityStats":[["armour_break_physical_damage_%_dealt_as_armour_break",2,[]]],
     "baseTypeName":"Wind Blast",
     "castTime":1,
     "color":3,
@@ -29894,7 +29970,7 @@
         "levelRequirement":90
       }],
     "name":"Wind Blast",
-    "qualityStats":[["wind_blast_damage_+%_final_from_distance",1]],
+    "qualityStats":[["wind_blast_damage_+%_final_from_distance",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -29992,6 +30068,18 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"wind_blast",
+        "statMap":{
+          "wind_blast_damage_+%_final_from_distance":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "ramp":[[15,1],[40,0]],
+                "type":"DistanceRamp"
+              }
+            }]
+        },
         "stats":["global_knockback","visual_hit_effect_physical_is_wind","is_area_damage","can_perform_skill_while_moving","precise_cursor_targeting_uses_contact_point_height_offset"]
       }],
     "weaponTypes":{
@@ -29999,6 +30087,7 @@
     }
   },
   "GalvanicFieldBuffPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Galvanic Field",
     "castTime":0.65,
     "color":3,
@@ -30247,7 +30336,7 @@
         "levelRequirement":90
       }],
     "name":"Galvanic Field",
-    "qualityStats":[["number_of_chains",0.1]],
+    "qualityStats":[["number_of_chains",0.1,[1]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -30718,6 +30807,7 @@
       }]
   },
   "GatheringStormPlayer":{
+    "altQualityStats":[["chance_for_extra_damage_roll_with_lightning_damage_%",1.5,[]]],
     "baseTypeName":"Gathering Storm",
     "castTime":1,
     "color":3,
@@ -30965,7 +31055,7 @@
         "levelRequirement":90
       }],
     "name":"Gathering Storm",
-    "qualityStats":[["perfect_timing_window_ms_+%",1]],
+    "qualityStats":[["perfect_timing_window_ms_+%",1,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -31478,6 +31568,7 @@
     }
   },
   "GhostDancePlayer":{
+    "altQualityStats":[["ghost_dance_max_stacks",0.05,[]]],
     "baseTypeName":"Ghost Dance",
     "castTime":0,
     "color":3,
@@ -31605,7 +31696,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Ghost Dance",
-    "qualityStats":[["base_reservation_efficiency_+%",1]],
+    "qualityStats":[["base_reservation_efficiency_+%",1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -31786,6 +31877,7 @@
       }]
   },
   "GlacialCascadePlayer":{
+    "altQualityStats":[["active_skill_attack_speed_+%_final",1,[1]]],
     "baseTypeName":"Glacial Cascade",
     "castTime":1,
     "color":3,
@@ -32073,7 +32165,7 @@
         "levelRequirement":90
       }],
     "name":"Glacial Cascade",
-    "qualityStats":[["active_skill_base_physical_damage_%_to_gain_as_cold",0.75]],
+    "qualityStats":[["active_skill_base_physical_damage_%_to_gain_as_cold",0.75,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -32346,6 +32438,7 @@
     }
   },
   "GrimFeastPlayer":{
+    "altQualityStats":[["remnant_pickup_range_+%",2,[]]],
     "baseTypeName":"Grim Feast",
     "castTime":0,
     "color":3,
@@ -32472,7 +32565,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Grim Feast",
-    "qualityStats":[["grim_remnant_health_stored_in_globe_%",0.25]],
+    "qualityStats":[["grim_remnant_health_stored_in_globe_%",0.25,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -32657,6 +32750,7 @@
       }]
   },
   "GrimFeastResummonPlayer":{
+    "altQualityStats":[],
     "castTime":0.4,
     "description":"Consume stored Minion Life to Revive your Minions. Revives as many Minions as possible with total maximum Life equal to or less than the Life stored by Grim Feast, prioritising those with higher maximum Life.",
     "hidden":true,
@@ -33043,6 +33137,7 @@
       }]
   },
   "HandOfChayulaPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Hand of Chayula",
     "castTime":1,
     "color":3,
@@ -33438,6 +33533,7 @@
     }
   },
   "HeartOfIcePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Heart of Ice",
     "castTime":0,
     "color":3,
@@ -33566,7 +33662,7 @@
         "levelRequirement":90
       }],
     "name":"Heart of Ice",
-    "qualityStats":[["active_skill_chill_effect_+%_final",1]],
+    "qualityStats":[["active_skill_chill_effect_+%_final",1,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -33795,6 +33891,7 @@
       }]
   },
   "HeraldOfIcePlayer":{
+    "altQualityStats":[["herald_of_ice_cold_damage_+%",1,[]]],
     "baseTypeName":"Herald of Ice",
     "castTime":0,
     "color":3,
@@ -33922,7 +34019,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Herald of Ice",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[1]]],
     "skillTypes":{
       "1":true,
       "5":true,
@@ -34028,6 +34125,17 @@
               "name":"Condition:EnemiesExplode",
               "type":"FLAG",
               "value":true,
+              "1":{
+                "effectName":"Herald of Ice",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "herald_of_ice_cold_damage_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ColdDamage",
+              "type":"INC",
               "1":{
                 "effectName":"Herald of Ice",
                 "effectType":"Buff",
@@ -34186,6 +34294,7 @@
     }
   },
   "HexblastPlayer":{
+    "altQualityStats":[["active_skill_critical_strike_chance_+%_final",2,[]]],
     "baseTypeName":"Hexblast",
     "castTime":1,
     "color":3,
@@ -34433,7 +34542,7 @@
         "levelRequirement":90
       }],
     "name":"Hexblast",
-    "qualityStats":[["hexblast_damage_+%_final_per_second_remaining_curse_duration",0.5]],
+    "qualityStats":[["hexblast_damage_+%_final_per_second_remaining_curse_duration",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -34666,6 +34775,7 @@
       }]
   },
   "HisFoulEmergencePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"His Foul Emergence",
     "castTime":1,
     "color":3,
@@ -34994,7 +35104,7 @@
         "storedUses":1
       }],
     "name":"His Foul Emergence",
-    "qualityStats":[["base_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -35321,6 +35431,7 @@
       }]
   },
   "HisWinnowingFlamePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"His Winnowing Flame",
     "castTime":0.7,
     "color":3,
@@ -35569,7 +35680,7 @@
         "levelRequirement":90
       }],
     "name":"His Winnowing Flame",
-    "qualityStats":[["base_cast_speed_+%",0.5]],
+    "qualityStats":[["base_cast_speed_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -35800,6 +35911,7 @@
       }]
   },
   "IceNovaPlayer":{
+    "altQualityStats":[["chance_to_not_consume_infusion_%",2,[]]],
     "baseTypeName":"Ice Nova",
     "castTime":1,
     "color":3,
@@ -36047,7 +36159,7 @@
         "levelRequirement":90
       }],
     "name":"Ice Nova",
-    "qualityStats":[["active_skill_damage_+%_final_vs_chilled_enemies",1]],
+    "qualityStats":[["active_skill_damage_+%_final_vs_chilled_enemies",1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -36738,6 +36850,7 @@
       }]
   },
   "IceStrikePlayer":{
+    "altQualityStats":[["active_skill_critical_strike_chance_+%_final",1,[]]],
     "baseTypeName":"Ice Strike",
     "castTime":1,
     "color":3,
@@ -37025,7 +37138,7 @@
         "levelRequirement":90
       }],
     "name":"Ice Strike",
-    "qualityStats":[["attack_speed_+%",1]],
+    "qualityStats":[["attack_speed_+%",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -37265,6 +37378,7 @@
     }
   },
   "IcestormPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Icestorm",
     "castTime":1.2,
     "color":3,
@@ -37513,7 +37627,7 @@
         "levelRequirement":90
       }],
     "name":"Icestorm",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -38086,6 +38200,7 @@
       }]
   },
   "ImpurityPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Impurity",
     "castTime":0,
     "color":3,
@@ -38254,7 +38369,7 @@
         "reservationMultiplier":-100
       }],
     "name":"Impurity",
-    "qualityStats":[["base_skill_buff_chaos_damage_resistance_%_to_apply",0.3]],
+    "qualityStats":[["base_skill_buff_chaos_damage_resistance_%_to_apply",0.3,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -38452,6 +38567,7 @@
       }]
   },
   "IncineratePlayer":{
+    "altQualityStats":[["incinerate_maximum_fuel",100,[]]],
     "baseTypeName":"Incinerate",
     "castTime":0.25,
     "color":3,
@@ -38579,7 +38695,7 @@
         "levelRequirement":90
       }],
     "name":"Incinerate",
-    "qualityStats":[["active_skill_ignite_duration_+%_final",1]],
+    "qualityStats":[["active_skill_ignite_duration_+%_final",1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -39298,6 +39414,7 @@
       }]
   },
   "KillingPalmPlayer":{
+    "altQualityStats":[["recover_%_maximum_life_on_cull",0.5,[]]],
     "baseTypeName":"Killing Palm",
     "castTime":1,
     "color":3,
@@ -39585,7 +39702,7 @@
         "levelRequirement":90
       }],
     "name":"Killing Palm",
-    "qualityStats":[["recover_%_maximum_mana_on_cull",0.2]],
+    "qualityStats":[["recover_%_maximum_mana_on_cull",0.2,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -39693,6 +39810,7 @@
     }
   },
   "LightningBoltPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Lightning Bolt",
     "castTime":0.85,
     "color":3,
@@ -39941,7 +40059,7 @@
         "levelRequirement":90
       }],
     "name":"Lightning Bolt",
-    "qualityStats":[["active_skill_shock_chance_+%_final",2]],
+    "qualityStats":[["active_skill_shock_chance_+%_final",2,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -40174,6 +40292,7 @@
       }]
   },
   "LightningConduitPlayer":{
+    "altQualityStats":[["lightning_conduit_x_additional_strikes_if_consumed_a_shock",0.2,[]]],
     "baseTypeName":"Lightning Conduit",
     "castTime":1,
     "color":3,
@@ -40501,7 +40620,7 @@
         "storedUses":1
       }],
     "name":"Lightning Conduit",
-    "qualityStats":[["active_skill_lightning_damage_+%_final",1]],
+    "qualityStats":[["active_skill_lightning_damage_+%_final",1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -40785,6 +40904,7 @@
       }]
   },
   "LightningWarpPlayer":{
+    "altQualityStats":[["active_skill_cast_speed_+%_final",2,[]]],
     "baseTypeName":"Lightning Warp",
     "castTime":0.5,
     "color":3,
@@ -41032,7 +41152,7 @@
         "levelRequirement":90
       }],
     "name":"Lightning Warp",
-    "qualityStats":[["shock_effect_+%",0.5]],
+    "qualityStats":[["shock_effect_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -41271,6 +41391,7 @@
       }]
   },
   "LingeringIllusionPlayer":{
+    "altQualityStats":[["base_spirit_reservation_efficiency_+%",2,[]]],
     "baseTypeName":"Lingering Illusion",
     "castTime":0,
     "color":3,
@@ -41398,7 +41519,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Lingering Illusion",
-    "qualityStats":[["dummy_stat_display_nothing",0.001]],
+    "qualityStats":[["dummy_stat_display_nothing",0.001,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -41498,6 +41619,7 @@
       }]
   },
   "LingeringIllusionSpawnPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -41703,7 +41825,7 @@
         "levelRequirement":0
       }],
     "name":"",
-    "qualityStats":[["chance_%_to_create_additional_remnant",1]],
+    "qualityStats":[["chance_%_to_create_additional_remnant",1,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -41885,6 +42007,7 @@
       }]
   },
   "LivingBombPlayer":{
+    "altQualityStats":[["active_skill_fire_damage_+%_final",2.5,[]],["living_bomb_damage_threshold_%_of_ailment_threshold",10,[]]],
     "baseTypeName":"Living Bomb",
     "castTime":0.6,
     "color":3,
@@ -42133,7 +42256,7 @@
         "levelRequirement":90
       }],
     "name":"Living Bomb",
-    "qualityStats":[["active_skill_ignite_chance_+%_final",1]],
+    "qualityStats":[["active_skill_ignite_chance_+%_final",1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -42368,6 +42491,7 @@
       }]
   },
   "MalicePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Malice",
     "castTime":1,
     "color":3,
@@ -42456,7 +42580,7 @@
         "levelRequirement":90
       }],
     "name":"Malice",
-    "qualityStats":[["base_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -42649,6 +42773,7 @@
       }]
   },
   "ManaDrainPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Mana Drain",
     "castTime":0.85,
     "color":3,
@@ -42857,7 +42982,7 @@
         "levelRequirement":90
       }],
     "name":"Mana Drain",
-    "qualityStats":[["mana_drain_base_mana_leech_amount",4.5]],
+    "qualityStats":[["mana_drain_base_mana_leech_amount",4.5,[]]],
     "skillTypes":{
       "2":true,
       "14":true,
@@ -43036,6 +43161,7 @@
       }]
   },
   "ManaRemnantsPlayer":{
+    "altQualityStats":[["mana_remnants_global_mana_regeneration_rate_granted_+%",2,[]]],
     "baseTypeName":"Mana Remnants",
     "castTime":0,
     "color":3,
@@ -43163,7 +43289,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Mana Remnants",
-    "qualityStats":[["mana_remnants_mana_gain_per_globe",2]],
+    "qualityStats":[["mana_remnants_mana_gain_per_globe",2,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -43342,10 +43468,23 @@
             "1":738
           }],
         "statDescriptionScope":"mana_remnants",
+        "statMap":{
+          "mana_remnants_global_mana_regeneration_rate_granted_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"ManaRegen",
+              "type":"INC",
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["mana_remnants_mana_gain_per_globe","base_deal_no_damage"]
       }]
   },
   "ManaTempestPlayer":{
+    "altQualityStats":[["mana_tempest_mana_cost_%_to_add_to_cost_per_second",-0.4,[]]],
     "baseTypeName":"Mana Tempest",
     "castTime":0.6,
     "color":3,
@@ -43633,7 +43772,7 @@
         "storedUses":1
       }],
     "name":"Mana Tempest",
-    "qualityStats":[["mana_tempest_effects_linger_X_ms",100]],
+    "qualityStats":[["mana_tempest_effects_linger_X_ms",100,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -43873,6 +44012,7 @@
       }]
   },
   "MantraOfDestructionPlayer":{
+    "altQualityStats":[["base_secondary_skill_effect_duration",2.5,[]]],
     "baseTypeName":"Mantra of Destruction",
     "castTime":0.6,
     "color":3,
@@ -44080,7 +44220,7 @@
         "levelRequirement":90
       }],
     "name":"Mantra of Destruction",
-    "qualityStats":[["active_skill_required_number_of_combo_stacks",-0.05]],
+    "qualityStats":[["active_skill_required_number_of_combo_stacks",-0.05,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -44266,6 +44406,7 @@
     }
   },
   "MetaBarrierInvocationPlayer":{
+    "altQualityStats":[["triggered_skill_damage_+%",1,[]]],
     "baseTypeName":"Barrier Invocation",
     "castTime":0,
     "color":3,
@@ -44473,7 +44614,7 @@
         "storedUses":1
       }],
     "name":"Barrier Invocation",
-    "qualityStats":[["energy_generated_+%",0.75]],
+    "qualityStats":[["energy_generated_+%",0.75,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -44657,6 +44798,7 @@
       }]
   },
   "MetaCastCurseOnBlockPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Curse on Block",
     "castTime":0,
     "color":3,
@@ -44928,6 +45070,7 @@
       }]
   },
   "MetaCastOnCritPlayer":{
+    "altQualityStats":[["cast_on_crit_global_critical_hit_chance_granted_+%",1,[]]],
     "baseTypeName":"Cast on Critical",
     "castTime":0,
     "color":3,
@@ -45055,7 +45198,7 @@
         "spiritReservationFlat":100
       }],
     "name":"Cast on Critical",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -45233,10 +45376,23 @@
             "1":117
           }],
         "statDescriptionScope":"skill_stat_descriptions",
+        "statMap":{
+          "cast_on_crit_global_critical_hit_chance_granted_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"CritChance",
+              "type":"INC",
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["energy_generated_+%","generic_ongoing_trigger_triggers_at_maximum_energy","generic_ongoing_trigger_maximum_energy_is_total_of_socketed_skills","base_deal_no_damage"]
       }]
   },
   "MetaCastOnDodgePlayer":{
+    "altQualityStats":[["cast_on_dodge_dodge_roll_distance_granted_+",0.5,[]]],
     "baseTypeName":"Cast on Dodge",
     "castTime":0,
     "color":3,
@@ -45364,7 +45520,7 @@
         "spiritReservationFlat":100
       }],
     "name":"Cast on Dodge",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -45546,6 +45702,7 @@
       }]
   },
   "MetaCastOnElementalAilmentPlayer":{
+    "altQualityStats":[["base_reservation_efficiency_+%",2,[]]],
     "baseTypeName":"Cast on Elemental Ailment",
     "castTime":0,
     "color":3,
@@ -45673,7 +45830,7 @@
         "spiritReservationFlat":100
       }],
     "name":"Cast on Elemental Ailment",
-    "qualityStats":[["energy_generated_+%",0.75]],
+    "qualityStats":[["energy_generated_+%",0.75,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -45858,6 +46015,7 @@
       }]
   },
   "MetaCastOnMinionDeathPlayer":{
+    "altQualityStats":[["triggered_skill_damage_+%",1,[]]],
     "baseTypeName":"Cast on Minion Death",
     "castTime":0,
     "color":3,
@@ -45985,7 +46143,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Cast on Minion Death",
-    "qualityStats":[["energy_generated_+%",1]],
+    "qualityStats":[["energy_generated_+%",1,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -46169,6 +46327,7 @@
       }]
   },
   "MetaElementalInvocationPlayer":{
+    "altQualityStats":[["triggered_skill_damage_+%",1,[]]],
     "baseTypeName":"Elemental Invocation",
     "castTime":0,
     "color":3,
@@ -46376,7 +46535,7 @@
         "storedUses":1
       }],
     "name":"Elemental Invocation",
-    "qualityStats":[["generic_ongoing_trigger_maximum_energy",5]],
+    "qualityStats":[["generic_ongoing_trigger_maximum_energy",5,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -46564,6 +46723,7 @@
       }]
   },
   "MetaReapersInvocationPlayer":{
+    "altQualityStats":[["triggered_skill_damage_+%",1,[]]],
     "baseTypeName":"Reaper's Invocation",
     "castTime":0,
     "color":3,
@@ -46771,7 +46931,7 @@
         "storedUses":1
       }],
     "name":"Reaper's Invocation",
-    "qualityStats":[["energy_generated_+%",1]],
+    "qualityStats":[["energy_generated_+%",1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -46956,6 +47116,7 @@
       }]
   },
   "MetaSpellslingerPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Spellslinger",
     "castTime":0,
     "color":3,
@@ -47124,7 +47285,7 @@
         "storedUses":1
       }],
     "name":"Spellslinger",
-    "qualityStats":[["energy_generated_+%",0.75]],
+    "qualityStats":[["energy_generated_+%",0.75,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -47309,6 +47470,7 @@
       }]
   },
   "MirrorOfRefractionPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Mirror of Refraction",
     "castTime":1,
     "color":3,
@@ -47397,7 +47559,7 @@
         "levelRequirement":90
       }],
     "name":"Mirror of Refraction",
-    "qualityStats":[["base_number_of_projectiles",0.1]],
+    "qualityStats":[["base_number_of_projectiles",0.1,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -47580,6 +47742,7 @@
       }]
   },
   "OrbOfStormsPlayer":{
+    "altQualityStats":[["orb_of_storms_maximum_number_of_hits",0.3,[]]],
     "baseTypeName":"Orb of Storms",
     "castTime":0.8,
     "color":3,
@@ -47827,7 +47990,7 @@
         "levelRequirement":90
       }],
     "name":"Orb of Storms",
-    "qualityStats":[["number_of_chains",0.15]],
+    "qualityStats":[["number_of_chains",0.15,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -48105,6 +48268,7 @@
       }]
   },
   "PainOfferingPlayer":{
+    "altQualityStats":[["pain_offering_attack_and_cast_speed_+%",1,[]]],
     "baseTypeName":"Pain Offering",
     "castTime":0.6,
     "color":3,
@@ -48315,7 +48479,7 @@
       "39":true
     },
     "name":"Pain Offering",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",1.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",1.2,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -48579,6 +48743,7 @@
       }]
   },
   "PowerSiphonPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Power Siphon",
     "castTime":0.7,
     "color":3,
@@ -48827,7 +48992,7 @@
         "levelRequirement":90
       }],
     "name":"Power Siphon",
-    "qualityStats":[["chance_to_gain_1_more_charge_%",0.5]],
+    "qualityStats":[["chance_to_gain_1_more_charge_%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -49094,6 +49259,7 @@
       }]
   },
   "ProfaneRitualPlayer":{
+    "altQualityStats":[["active_skill_quality_duration_+%_final",5,[]]],
     "baseTypeName":"Profane Ritual",
     "castTime":1,
     "color":3,
@@ -49301,7 +49467,7 @@
         "levelRequirement":90
       }],
     "name":"Profane Ritual",
-    "qualityStats":[["base_chance_to_not_consume_corpse_%",0.5]],
+    "qualityStats":[["base_chance_to_not_consume_corpse_%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -49508,6 +49674,7 @@
       }]
   },
   "PurityOfFirePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Purity of Fire",
     "castTime":0,
     "color":3,
@@ -49676,7 +49843,7 @@
         "reservationMultiplier":-100
       }],
     "name":"Purity of Fire",
-    "qualityStats":[["base_skill_buff_fire_damage_resistance_%_to_apply",0.4]],
+    "qualityStats":[["base_skill_buff_fire_damage_resistance_%_to_apply",0.4,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -49874,6 +50041,7 @@
       }]
   },
   "PurityOfIcePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Purity of Ice",
     "castTime":0,
     "color":3,
@@ -50042,7 +50210,7 @@
         "reservationMultiplier":-100
       }],
     "name":"Purity of Ice",
-    "qualityStats":[["base_skill_buff_cold_damage_resistance_%_to_apply",0.4]],
+    "qualityStats":[["base_skill_buff_cold_damage_resistance_%_to_apply",0.4,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -50240,6 +50408,7 @@
       }]
   },
   "PurityOfLightningPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Purity of Lightning",
     "castTime":0,
     "color":3,
@@ -50408,7 +50577,7 @@
         "reservationMultiplier":-100
       }],
     "name":"Purity of Lightning",
-    "qualityStats":[["base_skill_buff_lightning_damage_resistance_%_to_apply",0.4]],
+    "qualityStats":[["base_skill_buff_lightning_damage_resistance_%_to_apply",0.4,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -50606,6 +50775,7 @@
       }]
   },
   "RagingSpiritsPlayer":{
+    "altQualityStats":[["active_skill_minion_damage_+%_final",2.5,[]]],
     "baseTypeName":"Raging Spirits",
     "castTime":1,
     "color":3,
@@ -50741,7 +50911,7 @@
       "28":true
     },
     "name":"Raging Spirits",
-    "qualityStats":[["base_number_of_raging_spirits_allowed",0.1]],
+    "qualityStats":[["base_number_of_raging_spirits_allowed",0.1,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -50848,6 +51018,7 @@
       }]
   },
   "RaiseZombiePlayer":{
+    "altQualityStats":[["base_number_of_zombies_allowed",0.2,[]]],
     "baseTypeName":"Raise Zombie",
     "castTime":0.6,
     "color":3,
@@ -51062,7 +51233,7 @@
       "21":true
     },
     "name":"Raise Zombie",
-    "qualityStats":[["raise_zombie_empowerment_effect_+%",1.25]],
+    "qualityStats":[["raise_zombie_empowerment_effect_+%",1.25,[]]],
     "skillTypes":{
       "6":true,
       "9":true,
@@ -51251,6 +51422,7 @@
       }]
   },
   "RavenousSwarmPlayer":{
+    "altQualityStats":[["base_cooldown_modifiable_repeat_interval_ms",-100,[]]],
     "baseTypeName":"Ravenous Swarm",
     "castTime":0,
     "color":3,
@@ -51385,7 +51557,7 @@
       "42":true
     },
     "name":"Ravenous Swarm",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.5]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.5,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -51575,6 +51747,7 @@
       }]
   },
   "ReapPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Reap",
     "castTime":1.2,
     "color":3,
@@ -51823,7 +51996,7 @@
         "levelRequirement":90
       }],
     "name":"Reap",
-    "qualityStats":[["base_skill_effect_duration",100]],
+    "qualityStats":[["base_skill_effect_duration",100,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -52094,6 +52267,7 @@
       }]
   },
   "SacrificePlayer":{
+    "altQualityStats":[["sacrifice_minion_life_granted_+%",2,[]]],
     "baseTypeName":"Sacrifice",
     "castTime":1,
     "color":3,
@@ -52221,7 +52395,7 @@
         "spiritReservationFlat":60
       }],
     "name":"Sacrifice",
-    "qualityStats":[["harvester_minion_resummon_speed_+%_final",0.25]],
+    "qualityStats":[["harvester_minion_resummon_speed_+%_final",0.25,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -52409,12 +52583,31 @@
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
+            }],
+          "sacrifice_minion_life_granted_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"MinionModifier",
+              "type":"LIST",
+              "value":{
+                "mod":{
+                  "flags":0,
+                  "keywordFlags":0,
+                  "name":"Life",
+                  "type":"INC"
+                }
+              },
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
             }]
         },
         "stats":["harvester_minion_resummon_speed_+%_final","base_deal_no_damage","display_skill_reserves_in_all_weapon_sets"]
       }]
   },
   "ScatteringCalamityPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"His Scattering Calamity",
     "castTime":0.4,
     "color":3,
@@ -52663,7 +52856,7 @@
         "levelRequirement":90
       }],
     "name":"His Scattering Calamity",
-    "qualityStats":[["ember_fusillade_damage_+%_final_per_ember_fired",0.1]],
+    "qualityStats":[["ember_fusillade_damage_+%_final_per_ember_fired",0.1,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -53268,6 +53461,7 @@
       }]
   },
   "ShatteringPalmExplosionPlayer":{
+    "altQualityStats":[["active_skill_area_of_effect_+%_final",1,[]]],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/MonkFreezingWord.dds",
@@ -53393,7 +53587,7 @@
         "levelRequirement":0
       }],
     "name":"Freezing Explosion",
-    "qualityStats":[["active_skill_critical_strike_chance_+%_final",1]],
+    "qualityStats":[["active_skill_critical_strike_chance_+%_final",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -53406,9 +53600,7 @@
     "statSets":[{
         "baseFlags":{
           "area":true,
-          "hit":true,
-          "nonWeaponAttack":true,
-          "unarmed":true
+          "attack":true
         },
         "constantStats":[["active_skill_base_area_of_effect_radius",16],["active_skill_base_physical_damage_%_to_convert_to_cold",100]],
         "incrementalEffectiveness":0.054999999701977,
@@ -53502,6 +53694,7 @@
     }
   },
   "ShatteringPalmPlayer":{
+    "altQualityStats":[["active_skill_area_of_effect_+%_final",1,[]]],
     "baseTypeName":"Shattering Palm",
     "castTime":1,
     "color":3,
@@ -53789,7 +53982,7 @@
         "levelRequirement":90
       }],
     "name":"Shattering Palm",
-    "qualityStats":[["active_skill_critical_strike_chance_+%_final",1]],
+    "qualityStats":[["active_skill_critical_strike_chance_+%_final",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -53975,6 +54168,7 @@
     }
   },
   "SigilOfPowerPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Sigil of Power",
     "castTime":0.6,
     "color":3,
@@ -54263,7 +54457,7 @@
         "storedUses":1
       }],
     "name":"Sigil of Power",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.4]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.4,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -54523,6 +54717,7 @@
       }]
   },
   "SiphonElementsPlayer":{
+    "altQualityStats":[["remnant_pickup_range_+%",1.5,[]]],
     "baseTypeName":"Siphon Elements",
     "castTime":0,
     "color":3,
@@ -54650,7 +54845,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Siphon Elements",
-    "qualityStats":[["infusion_remnants_%_chance_to_spawn_cold_infusion_on_freezing_an_enemy",0.1],["infusion_remnants_%_chance_to_spawn_fire_infusion_on_igniting_an_enemy",0.1],["infusion_remnants_%_chance_to_spawn_lightning_infusion_on_shocking_an_enemy",0.1]],
+    "qualityStats":[["infusion_remnants_%_chance_to_spawn_cold_infusion_on_freezing_an_enemy",0.1,[]],["infusion_remnants_%_chance_to_spawn_fire_infusion_on_igniting_an_enemy",0.1,[]],["infusion_remnants_%_chance_to_spawn_lightning_infusion_on_shocking_an_enemy",0.1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -54835,6 +55030,7 @@
       }]
   },
   "SiphoningStrikePlayer":{
+    "altQualityStats":[["chance_to_gain_1_more_charge_%",2.5,[]]],
     "baseTypeName":"Siphoning Strike",
     "castTime":1,
     "color":3,
@@ -55082,7 +55278,7 @@
         "levelRequirement":90
       }],
     "name":"Siphoning Strike",
-    "qualityStats":[["base_chance_to_daze_%",2.5]],
+    "qualityStats":[["base_chance_to_daze_%",2.5,[0,1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -55322,6 +55518,7 @@
     }
   },
   "SnapPlayer":{
+    "altQualityStats":[["base_cooldown_speed_+%",5,[]]],
     "baseTypeName":"Snap",
     "castTime":0.5,
     "color":3,
@@ -55649,7 +55846,7 @@
         "storedUses":1
       }],
     "name":"Snap",
-    "qualityStats":[["chance_%_to_spawn_another_infusion_remnant",0.5]],
+    "qualityStats":[["chance_%_to_spawn_another_infusion_remnant",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -56572,6 +56769,7 @@
       }]
   },
   "SolarOrbPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Solar Orb",
     "castTime":0.8,
     "color":3,
@@ -56819,7 +57017,7 @@
         "levelRequirement":90
       }],
     "name":"Solar Orb",
-    "qualityStats":[["active_skill_damage_+%_final_vs_burning_enemies",1]],
+    "qualityStats":[["active_skill_damage_+%_final_vs_burning_enemies",1,[0]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -57363,6 +57561,7 @@
       }]
   },
   "SoulOfferingPlayer":{
+    "altQualityStats":[["power_offering_buff_spell_damage_+%",1,[]]],
     "baseTypeName":"Soul Offering",
     "castTime":1,
     "color":3,
@@ -57570,7 +57769,7 @@
         "levelRequirement":90
       }],
     "name":"Soul Offering",
-    "qualityStats":[["base_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -57766,6 +57965,7 @@
       }]
   },
   "SoulrendPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Soulrend",
     "castTime":0.8,
     "color":3,
@@ -58014,7 +58214,7 @@
         "levelRequirement":90
       }],
     "name":"Soulrend",
-    "qualityStats":[["base_skill_effect_duration",5]],
+    "qualityStats":[["base_skill_effect_duration",5,[1]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -58523,6 +58723,7 @@
       }]
   },
   "SparkPlayer":{
+    "altQualityStats":[["base_number_of_projectiles",0.2,[]]],
     "baseTypeName":"Spark",
     "castTime":0.7,
     "color":3,
@@ -58770,7 +58971,7 @@
         "levelRequirement":90
       }],
     "name":"Spark",
-    "qualityStats":[["base_projectile_speed_+%",1.5]],
+    "qualityStats":[["base_projectile_speed_+%",1.5,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -59540,6 +59741,7 @@
       }]
   },
   "StaggeringPalmPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Staggering Palm",
     "castTime":1,
     "color":3,
@@ -59936,6 +60138,7 @@
     }
   },
   "StaggeringPalmProjectilePlayer":{
+    "altQualityStats":[["base_number_of_projectiles",0.1,[]]],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/MonkWindPalm.dds",
@@ -60061,7 +60264,7 @@
         "levelRequirement":0
       }],
     "name":"Projectile",
-    "qualityStats":[["attacks_chance_to_blind_on_hit_%",2]],
+    "qualityStats":[["attacks_chance_to_blind_on_hit_%",2,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -60168,6 +60371,7 @@
     }
   },
   "StormWavePlayer":{
+    "altQualityStats":[["active_skill_base_area_of_effect_radius",2,[]]],
     "baseTypeName":"Storm Wave",
     "castTime":1,
     "color":3,
@@ -60455,7 +60659,7 @@
         "levelRequirement":90
       }],
     "name":"Storm Wave",
-    "qualityStats":[["active_skill_base_secondary_area_of_effect_radius",0.5]],
+    "qualityStats":[["active_skill_base_secondary_area_of_effect_radius",0.5,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -60562,6 +60766,7 @@
     }
   },
   "SummonSkeletalArsonistsPlayer":{
+    "altQualityStats":[["base_number_of_projectiles",0.1,[]]],
     "baseTypeName":"Skeletal Arsonist Minion",
     "castTime":0,
     "color":3,
@@ -60691,7 +60896,7 @@
     "minionList":["RaisedSkeletonArsonist"],
     "minionSkillTypes":[true,null,true,null,null,null,null,true],
     "name":"Skeletal Arsonist Minion",
-    "qualityStats":[["dummy_stat_display_nothing",0.001]],
+    "qualityStats":[["dummy_stat_display_nothing",0.001,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -60800,6 +61005,7 @@
       }]
   },
   "SummonSkeletalBrutesPlayer":{
+    "altQualityStats":[["active_skill_minion_life_+%_final",1.5,[]]],
     "baseTypeName":"Skeletal Brute Minion",
     "castTime":0,
     "color":3,
@@ -60937,7 +61143,7 @@
       "63":true
     },
     "name":"Skeletal Brute Minion",
-    "qualityStats":[["active_skill_minion_hit_damage_stun_multiplier_+%_final",2]],
+    "qualityStats":[["active_skill_minion_hit_damage_stun_multiplier_+%_final",2,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -61045,6 +61251,7 @@
       }]
   },
   "SummonSkeletalClericsPlayer":{
+    "altQualityStats":[["minion_damage_taken_+%",-2,[]]],
     "baseTypeName":"Skeletal Cleric Minion",
     "castTime":0,
     "color":3,
@@ -61177,7 +61384,7 @@
       "91":true
     },
     "name":"Skeletal Cleric Minion",
-    "qualityStats":[["skeletal_cleric_revived_skeletons_immune_for_X_ms",150]],
+    "qualityStats":[["skeletal_cleric_revived_skeletons_immune_for_X_ms",150,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -61283,6 +61490,7 @@
       }]
   },
   "SummonSkeletalFrostMagesPlayer":{
+    "altQualityStats":[["base_spirit_reservation_efficiency_+%",1,[]]],
     "baseTypeName":"Skeletal Frost Mage Minion",
     "castTime":0,
     "color":3,
@@ -61421,7 +61629,7 @@
       "91":true
     },
     "name":"Skeletal Frost Mage Minion",
-    "qualityStats":[["active_skill_minion_damage_+%_final",1]],
+    "qualityStats":[["active_skill_minion_damage_+%_final",1,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -61529,6 +61737,7 @@
       }]
   },
   "SummonSkeletalReaversPlayer":{
+    "altQualityStats":[["armour_break_physical_damage_%_dealt_as_armour_break",1.5,[]]],
     "baseTypeName":"Skeletal Reaver Minion",
     "castTime":0,
     "color":3,
@@ -61663,7 +61872,7 @@
       "21":true
     },
     "name":"Skeletal Reaver Minion",
-    "qualityStats":[["minion_rage_effect_+%",1]],
+    "qualityStats":[["minion_rage_effect_+%",1,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -61772,6 +61981,7 @@
       }]
   },
   "SummonSkeletalSnipersPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Skeletal Sniper Minion",
     "castTime":0,
     "color":3,
@@ -61907,7 +62117,7 @@
       "167":true
     },
     "name":"Skeletal Sniper Minion",
-    "qualityStats":[["active_skill_minion_damage_+%_final",1]],
+    "qualityStats":[["active_skill_minion_damage_+%_final",1,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -62017,6 +62227,7 @@
       }]
   },
   "SummonSkeletalStormMagesPlayer":{
+    "altQualityStats":[["minion_cast_speed_+%",1.5,[]]],
     "baseTypeName":"Skeletal Storm Mage Minion",
     "castTime":0,
     "color":3,
@@ -62154,7 +62365,7 @@
       "167":true
     },
     "name":"Skeletal Storm Mage Minion",
-    "qualityStats":[["minion_maximum_life_%_to_gain_as_maximum_energy_shield",1]],
+    "qualityStats":[["minion_maximum_life_%_to_gain_as_maximum_energy_shield",1,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -62262,6 +62473,7 @@
       }]
   },
   "SummonSkeletalWarriorsPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Skeletal Warrior Minion",
     "castTime":0,
     "color":3,
@@ -62397,7 +62609,7 @@
       "21":true
     },
     "name":"Skeletal Warrior Minion",
-    "qualityStats":[["active_skill_minion_life_+%_final",1]],
+    "qualityStats":[["active_skill_minion_life_+%_final",1,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -62505,6 +62717,7 @@
       }]
   },
   "SummonSpectrePlayer":{
+    "altQualityStats":[["base_reservation_efficiency_+%",1,[]]],
     "baseTypeName":"Spectre: {0} ",
     "castTime":0.85,
     "color":3,
@@ -62654,7 +62867,7 @@
       "91":true
     },
     "name":"Spectre: {0} ",
-    "qualityStats":[["active_skill_minion_damage_+%_final",1]],
+    "qualityStats":[["active_skill_minion_damage_+%_final",1,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -62767,6 +62980,7 @@
       }]
   },
   "SummonSpiralingConspiracyPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Spiraling Conspiracy",
     "castTime":1,
     "color":3,
@@ -62870,7 +63084,7 @@
       "192":true
     },
     "name":"Spiraling Conspiracy",
-    "qualityStats":[["base_skill_area_of_effect_+%",1]],
+    "qualityStats":[["base_skill_area_of_effect_+%",1,[0]]],
     "skillTypes":{
       "6":true,
       "8":true,
@@ -63074,6 +63288,7 @@
   },
   "SupportBarrierInvocationPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "hidden":true,
     "isTrigger":true,
@@ -63254,6 +63469,7 @@
   },
   "SupportBlasphemyPlayer":{
     "addSkillTypes":[12,26,23,39,53,81,37],
+    "altQualityStats":[["curse_effect_+%",1,[]]],
     "excludeSkillTypes":[33,36,73,25,96,75,74,50],
     "hidden":true,
     "ignoreMinionTypes":true,
@@ -63340,7 +63556,7 @@
         "levelRequirement":0
       }],
     "name":"SupportBlasphemyPlayer",
-    "qualityStats":[["dummy_stat_display_nothing",0.001]],
+    "qualityStats":[["dummy_stat_display_nothing",0.001,[]]],
     "requireSkillTypes":[69],
     "statSets":[{
         "baseFlags":{
@@ -63573,6 +63789,7 @@
   },
   "SupportElementalInvocationPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "hidden":true,
     "isTrigger":true,
@@ -63753,6 +63970,7 @@
   },
   "SupportHandOfChayulaPlayer":{
     "addSkillTypes":[],
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "excludeSkillTypes":[],
     "hidden":true,
     "levels":[{
@@ -63837,7 +64055,7 @@
         "levelRequirement":0
       }],
     "name":"SupportHandOfChayulaPlayer",
-    "qualityStats":[["base_curse_duration_+%",1],["mark_effect_+%",0.5]],
+    "qualityStats":[["base_curse_duration_+%",1,[]],["mark_effect_+%",0.5,[]]],
     "requireSkillTypes":[69,99,73],
     "statSets":[{
         "baseFlags":[],
@@ -64051,6 +64269,7 @@
   },
   "SupportMetaCastCurseOnBlockPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "fromItem":true,
     "hidden":true,
@@ -64232,6 +64451,7 @@
   },
   "SupportMetaCastOnCritPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "hidden":true,
     "isTrigger":true,
@@ -64412,6 +64632,7 @@
   },
   "SupportMetaCastOnDodgePlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "hidden":true,
     "isTrigger":true,
@@ -64592,6 +64813,7 @@
   },
   "SupportMetaCastOnElementalAilmentPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "hidden":true,
     "isTrigger":true,
@@ -64772,6 +64994,7 @@
   },
   "SupportMetaCastOnMinionDeathPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[77,50],
     "hidden":true,
     "isTrigger":true,
@@ -64952,6 +65175,7 @@
   },
   "SupportReapersInvocationPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50],
     "hidden":true,
     "isTrigger":true,
@@ -65132,6 +65356,7 @@
   },
   "SupportSpellslingerPlayer":{
     "addSkillTypes":[37],
+    "altQualityStats":[],
     "excludeSkillTypes":[50,140,258],
     "fromItem":true,
     "hidden":true,
@@ -65313,6 +65538,7 @@
     "support":true
   },
   "TempestBellPlayer":{
+    "altQualityStats":[["bell_hit_limit",0.5,[0]]],
     "baseTypeName":"Tempest Bell",
     "castTime":1,
     "color":3,
@@ -65640,7 +65866,7 @@
         "storedUses":1
       }],
     "name":"Tempest Bell",
-    "qualityStats":[["tempest_bell_damage_+%_final_per_time_hit",0.15]],
+    "qualityStats":[["tempest_bell_damage_+%_final_per_time_hit",0.15,[2]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -66339,6 +66565,7 @@
     }
   },
   "TempestFlurryPlayer":{
+    "altQualityStats":[["final_strike_number_of_spirit_strikes",0.1,[2]]],
     "baseTypeName":"Tempest Flurry",
     "castTime":1,
     "color":3,
@@ -66625,7 +66852,7 @@
         "levelRequirement":90
       }],
     "name":"Tempest Flurry",
-    "qualityStats":[["melee_range_+",0.2]],
+    "qualityStats":[["melee_range_+",0.2,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -66994,6 +67221,7 @@
     }
   },
   "TemporalChainsPlayer":{
+    "altQualityStats":[["curse_delay_+%",-2.5,[]]],
     "baseTypeName":"Temporal Chains",
     "castTime":0.7,
     "color":3,
@@ -67201,7 +67429,7 @@
         "levelRequirement":90
       }],
     "name":"Temporal Chains",
-    "qualityStats":[["curse_effect_+%",0.5]],
+    "qualityStats":[["curse_effect_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -67575,6 +67803,7 @@
       }]
   },
   "TriggeredHisWinnowingFlamePillarPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Deal Fire Damage in an Area based on a percentage of the expected Damage of the Consumed Ignite.",
     "fromItem":true,
@@ -67886,6 +68115,7 @@
       }]
   },
   "TrinityPlayer":{
+    "altQualityStats":[["trinity_%_physical_damage_to_convert_to_random_element_granted",1,[]]],
     "baseTypeName":"Trinity",
     "castTime":0,
     "color":3,
@@ -68013,7 +68243,7 @@
         "spiritReservationFlat":100
       }],
     "name":"Trinity",
-    "qualityStats":[["trinity_skill_speed_+%_while_all_resonance_is_at_least_250_to_grant",0.75]],
+    "qualityStats":[["trinity_skill_speed_+%_while_all_resonance_is_at_least_250_to_grant",0.75,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -68236,6 +68466,17 @@
         "statDescriptionScope":"skill_stat_descriptions",
         "statMap":{
           "quality_display_trinity_is_gem":[],
+          "trinity_%_physical_damage_to_convert_to_random_element_granted":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"PhysicalDamageConvertToRandom",
+              "type":"BASE",
+              "1":{
+                "effectName":"Trinity",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
           "trinity_damage_+%_final_to_grant_per_50_resonance":[{
               "flags":0,
               "keywordFlags":0,
@@ -68304,6 +68545,7 @@
       }]
   },
   "UnearthPlayer":{
+    "altQualityStats":[["active_skill_minion_attack_speed_+%_final",2.5,[]]],
     "baseTypeName":"Unearth",
     "castTime":0.95,
     "color":3,
@@ -68558,7 +68800,7 @@
       "21":true
     },
     "name":"Unearth",
-    "qualityStats":[["base_skill_effect_duration",250],["minion_movement_speed_+%",2.5]],
+    "qualityStats":[["base_skill_effect_duration",250,[]],["minion_movement_speed_+%",2.5,[]]],
     "skillTypes":{
       "2":true,
       "6":true,
@@ -68873,6 +69115,7 @@
       }]
   },
   "UniqueBreachLightningBoltPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Lightning Bolt",
     "castTime":0.85,
     "color":3,
@@ -69437,6 +69680,7 @@
       }]
   },
   "UnleashPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Unleash",
     "castTime":0.75,
     "color":3,
@@ -69725,7 +69969,7 @@
         "storedUses":1
       }],
     "name":"Unleash",
-    "qualityStats":[["base_cooldown_speed_+%",0.5]],
+    "qualityStats":[["base_cooldown_speed_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -69917,6 +70161,7 @@
       }]
   },
   "VaultingImpactPlayer":{
+    "altQualityStats":[["active_skill_damage_+%_final_against_heavy_stunned_enemies",2.5,[]]],
     "baseTypeName":"Vaulting Impact",
     "castTime":1,
     "color":3,
@@ -70164,7 +70409,7 @@
         "levelRequirement":90
       }],
     "name":"Vaulting Impact",
-    "qualityStats":[["broken_stance_hit_limit",0.1]],
+    "qualityStats":[["broken_stance_hit_limit",0.1,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -70288,6 +70533,7 @@
     }
   },
   "VileDisruptionPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"His Vile Intrusion",
     "castTime":0.5,
     "color":3,
@@ -70536,7 +70782,7 @@
         "levelRequirement":90
       }],
     "name":"His Vile Intrusion",
-    "qualityStats":[["impale_magnitude_+%",0.5]],
+    "qualityStats":[["impale_magnitude_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -70822,6 +71068,7 @@
       }]
   },
   "VolatileDeadPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Volatile Dead",
     "castTime":0.8,
     "color":3,
@@ -71070,7 +71317,7 @@
         "levelRequirement":90
       }],
     "name":"Volatile Dead",
-    "qualityStats":[["base_chance_to_not_consume_corpse_%",0.5]],
+    "qualityStats":[["base_chance_to_not_consume_corpse_%",0.5,[0]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -71774,6 +72021,7 @@
       }]
   },
   "VulnerabilityPlayer":{
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "baseTypeName":"Vulnerability",
     "castTime":0.7,
     "color":3,
@@ -71981,7 +72229,7 @@
         "levelRequirement":90
       }],
     "name":"Vulnerability",
-    "qualityStats":[["curse_effect_+%",0.5]],
+    "qualityStats":[["curse_effect_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -72306,6 +72554,7 @@
       }]
   },
   "WaveOfFrostPlayer":{
+    "altQualityStats":[["frozen_monsters_take_increased_damage",2,[]]],
     "baseTypeName":"Wave of Frost",
     "castTime":1,
     "color":3,
@@ -72592,7 +72841,7 @@
         "levelRequirement":90
       }],
     "name":"Wave of Frost",
-    "qualityStats":[["base_reduce_enemy_cold_resistance_%",1]],
+    "qualityStats":[["base_reduce_enemy_cold_resistance_%",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -72814,6 +73063,22 @@
             "2":810
           }],
         "statDescriptionScope":"wave_of_frost",
+        "statMap":{
+          "frozen_monsters_take_increased_damage":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageTaken",
+              "type":"INC",
+              "1":{
+                "effectType":"Debuff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "type":"Condition",
+                "var":"Frozen"
+              }
+            }]
+        },
         "stats":["active_skill_hit_damage_freeze_multiplier_+%_final","active_skill_chill_effect_+%_final","is_area_damage","has_freeze_cull","active_skill_show_freeze_range"]
       }],
     "weaponTypes":{
@@ -72821,6 +73086,7 @@
     }
   },
   "WeaponGrantedChaosboltPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Chaos Bolt",
     "castTime":0.75,
     "color":3,
@@ -73069,7 +73335,7 @@
         "levelRequirement":90
       }],
     "name":"Chaos Bolt",
-    "qualityStats":[["base_projectile_speed_+%",2]],
+    "qualityStats":[["base_projectile_speed_+%",2,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -73342,6 +73608,7 @@
       }]
   },
   "WhirlingAssaultPlayer":{
+    "altQualityStats":[["active_skill_physical_damage_+%_final",1,[]]],
     "baseTypeName":"Whirling Assault",
     "castTime":1,
     "color":3,
@@ -73628,7 +73895,7 @@
         "levelRequirement":90
       }],
     "name":"Whirling Assault",
-    "qualityStats":[["attack_speed_+%",1]],
+    "qualityStats":[["attack_speed_+%",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -73821,6 +74088,7 @@
     }
   },
   "WitherPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Wither",
     "castTime":0.25,
     "color":3,
@@ -74222,6 +74490,7 @@
       }]
   },
   "WitheringPresencePlayer":{
+    "altQualityStats":[["skill_withering_presence_frequency_ms",-25,[]]],
     "baseTypeName":"Withering Presence",
     "castTime":1,
     "color":3,
@@ -74349,7 +74618,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Withering Presence",
-    "qualityStats":[["base_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[]]],
     "skillTypes":{
       "5":true,
       "9":true,

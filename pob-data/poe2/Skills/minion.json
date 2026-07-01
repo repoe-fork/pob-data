@@ -1,5 +1,6 @@
 {
   "ApplyTangmazuSwarmAuraPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"The Flock damages enemies around you.",
     "hidden":true,
@@ -141,6 +142,7 @@
       }]
   },
   "ArcSkeletonMageMinion":{
+    "altQualityStats":[],
     "castTime":1.25,
     "description":"An arc of Lightning stretches from the caster to a targeted enemy and Chains on to other nearby enemies. Shocked enemies Hit release damaging pulses.",
     "hidden":true,
@@ -208,6 +210,7 @@
       }]
   },
   "AzmerianSwarmAttack":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -243,6 +246,7 @@
       }]
   },
   "BoneshatterBruteMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"A Strike that causes a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shockwave, dealing a large amount of damage in an area.",
     "hidden":true,
@@ -295,6 +299,7 @@
       }]
   },
   "ChilledGroundBurstWaterDjinn":{
+    "altQualityStats":[],
     "castTime":1.2,
     "description":"Command Navira to fracture all nearby areas of Chilled Ground that have enemies standing on them, doing high Spell damage with extreme Freeze potential.",
     "hidden":true,
@@ -306,7 +311,7 @@
         "storedUses":1
       }],
     "name":"Navira's Fracturing",
-    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",2],["active_skill_chill_as_though_damage_+%_final",2]],
+    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",2,[]],["active_skill_chill_as_though_damage_+%_final",2,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -337,6 +342,7 @@
       }]
   },
   "ChilledGroundOasisConvertWaterDjinn":{
+    "altQualityStats":[],
     "castTime":1.8,
     "description":"Command Navira to turn nearby Chilled Ground into Navira's Oasis, a mirage which grants you and Allies standing in it Flask charges and damage Recouped as Life and Mana. Plants in the area become Overgrown.",
     "hidden":true,
@@ -351,7 +357,7 @@
         "storedUses":1
       }],
     "name":"Navira's Oasis",
-    "qualityStats":[["oasis_x_charges_for_life_and_mana_flasks_per_minute",0.6]],
+    "qualityStats":[["oasis_x_charges_for_life_and_mana_flasks_per_minute",0.6,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -383,6 +389,7 @@
       }]
   },
   "CompanionBearLeapImpact":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -413,6 +420,7 @@
       }]
   },
   "CompanionBearMaul":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/DruidBearMaul.dds",
@@ -444,6 +452,7 @@
       }]
   },
   "CompanionBearSlam":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -479,6 +488,7 @@
       }]
   },
   "CorpseBeetleExplode":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/SorceressSandDjinnCorpseBeetles.dds",
@@ -517,6 +527,7 @@
       }]
   },
   "DTTAnimateWeaponSpearDashStabImpact":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -550,6 +561,7 @@
       }]
   },
   "DeathFromAboveDaemonMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Fires a flare at a target location, attaching to an enemy if it lands on one, then launches a series of arrow volleys centred around the flare.",
     "hidden":true,
@@ -599,6 +611,7 @@
       }]
   },
   "DeathStormSkeletonStormMageMinion":{
+    "altQualityStats":[],
     "castTime":2,
     "description":"Lightning bolts strike all fallen Skeletons in the area, creating Shocked Ground around them.",
     "hidden":true,
@@ -641,6 +654,7 @@
       }]
   },
   "DestructiveLinkSkeletonBombadierMinion":{
+    "altQualityStats":[],
     "baseTypeName":"Explosive Demise",
     "castTime":1,
     "color":2,
@@ -848,7 +862,7 @@
         "storedUses":1
       }],
     "name":"Explosive Demise",
-    "qualityStats":[["arsonist_destructive_link_%_of_life_as_fire_damage",0.2]],
+    "qualityStats":[["arsonist_destructive_link_%_of_life_as_fire_damage",0.2,[]]],
     "skillTypes":{
       "1":true,
       "7":true,
@@ -1030,6 +1044,7 @@
       }]
   },
   "ESRechargeForceRestartWaterDjinn":{
+    "altQualityStats":[],
     "castTime":2.1,
     "description":"Command Navira to bolster your Energy Shield, causing it to begin Recharging immediately and granting you increased Energy Shield Recharge Rate for a duration.",
     "hidden":true,
@@ -1044,7 +1059,7 @@
         "storedUses":1
       }],
     "name":"Navira's Well",
-    "qualityStats":[["djinn_granted_energy_shield_recharge_rate_+%",1]],
+    "qualityStats":[["djinn_granted_energy_shield_recharge_rate_+%",1,[]]],
     "skillTypes":{
       "2":true,
       "83":true,
@@ -1071,6 +1086,7 @@
       }]
   },
   "EnrageSkeletonReaverMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Enrage all Skeletal Reavers, causing them to lose life over time and gain Rage on hit.",
     "hidden":true,
@@ -1099,6 +1115,7 @@
       }]
   },
   "ExplosiveTeleportSandDjinn":{
+    "altQualityStats":[],
     "castTime":0.8,
     "description":"Command Kelari to create a blast at the target location that deals Spell damage, and leave behind a clone that persists for a short duration. This skill can store multiple charges, and using it again while a clone from a previous use is still alive causes that clone to explode, dealing even more damage.",
     "hidden":true,
@@ -1110,7 +1127,7 @@
         "storedUses":3
       }],
     "name":"Kelari's Deception",
-    "qualityStats":[["djinn_damage_+%_final_per_teleport_in_sequence",0.5]],
+    "qualityStats":[["djinn_damage_+%_final_per_teleport_in_sequence",0.5,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -1161,6 +1178,7 @@
       }]
   },
   "FireBombSkeletonMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Attacks with a bouncing bomb that explodes on hit.",
     "hidden":true,
@@ -1215,6 +1233,7 @@
       }]
   },
   "FireRuneFireDjinn":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Command Ruzhan to hurl his greatsword, spreading hazardous runes on the ground where it lands. If an enemy steps on a rune, it erupts in a fiery tornado that deals Spell damage.",
     "hidden":true,
@@ -1230,7 +1249,7 @@
         "storedUses":1
       }],
     "name":"Ruzhan's Trap",
-    "qualityStats":[["base_skill_effect_duration",100]],
+    "qualityStats":[["base_skill_effect_duration",100,[1,2]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -1317,6 +1336,7 @@
       }]
   },
   "FlameSliceFireDjinn":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"When you use a damaging Skill, Ruzhan emerges to Strike enemies near your target with zealous fervour, inflicting Exposure.",
     "hidden":true,
@@ -1328,7 +1348,7 @@
         "storedUses":1
       }],
     "name":"Ruzhan's Zealotry",
-    "qualityStats":[["melee_range_+",0.2]],
+    "qualityStats":[["melee_range_+",0.2,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -1354,6 +1374,7 @@
       }]
   },
   "FrostBoltSkeletonMageMinion":{
+    "altQualityStats":[],
     "castTime":1.25,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/FreezingBolts.dds",
@@ -1416,6 +1437,7 @@
       }]
   },
   "GAAncestralJadeHulkLeapImpact":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -1445,6 +1467,7 @@
       }]
   },
   "GAAnimateWeaponMaceSlam":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -1481,6 +1504,7 @@
       }]
   },
   "GAAnimateWeaponQuarterstaffSweep":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -1518,6 +1542,7 @@
       }]
   },
   "GSWardboundMinionBlast":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -1555,6 +1580,7 @@
       }]
   },
   "GasShotSkeletonSniperMinion":{
+    "altQualityStats":[["active_skill_fire_damage_+%_final",2.5,[]]],
     "castTime":1,
     "description":"Rain an arrow down from above, creating a cloud of flammable poisonous gas where it lands. The cloud will detonate if hit by a Detonator skill or if an Ignited enemy touches it, creating a fiery explosion.",
     "hidden":true,
@@ -1567,7 +1593,7 @@
         "storedUses":1
       }],
     "name":"Gas Arrow",
-    "qualityStats":[["dummy_stat_display_nothing",0.001]],
+    "qualityStats":[["dummy_stat_display_nothing",0.001,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -1628,6 +1654,7 @@
       }]
   },
   "GreatHuntPackleaderMinion":{
+    "altQualityStats":[],
     "castTime":4,
     "description":"The Azmerian Wolf howls, reaching out to the spirits to begin an Eternal Hunt. While the Eternal Hunt persists, spirits manifest as spectral wolves to ambush foes, damaging and Maiming enemies they Hit before disappearing.",
     "hidden":true,
@@ -1665,6 +1692,7 @@
       }]
   },
   "HandSlamSandDjinn":{
+    "altQualityStats":[],
     "castTime":0.5,
     "description":"Channel and Command Kelari to Channel alongside you, creating blades that hang over the target location. The longer you Channel, the more blades Kelari will create. Upon release, his blades plunge into the ground and create shockwaves that deal Spell damage.",
     "hidden":true,
@@ -1676,7 +1704,7 @@
         "storedUses":1
       }],
     "name":"Kelari's Judgment",
-    "qualityStats":[["apply_X_stacks_of_critical_weakness_on_hit",0.1]],
+    "qualityStats":[["apply_X_stacks_of_critical_weakness_on_hit",0.1,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -1708,6 +1736,7 @@
       }]
   },
   "HealSkeletonClericMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"",
@@ -1893,6 +1922,7 @@
       }]
   },
   "HyenaCompanionMelee":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -1927,6 +1957,7 @@
       }]
   },
   "IceArmourSkeletonMageMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Command a Skeletal Frost Mage to target a location or Minion and apply Ice Armour to Minions in an area, reducing damage taken from Hits, causing damage to enemies that Hit them, and counting as Frozen for other effects.",
     "hidden":true,
@@ -2163,6 +2194,7 @@
       }]
   },
   "KnifeThrowSandDjinn":{
+    "altQualityStats":[],
     "castTime":0.8,
     "description":"Command Kelari to throw a volley of knives at the target location. The knives burrow into the ground, then erupt into the air after a short delay, dealing Spell damage.",
     "hidden":true,
@@ -2174,7 +2206,7 @@
         "storedUses":2
       }],
     "name":"Kelari's Brutality",
-    "qualityStats":[["djinn_knife_throw_number_of_knives_created",0.1]],
+    "qualityStats":[["djinn_knife_throw_number_of_knives_created",0.1,[0]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2229,6 +2261,7 @@
       }]
   },
   "LivingBombFireDjinn":{
+    "altQualityStats":[],
     "castTime":0.6,
     "description":"Command Ruzhan to place a fiery brand on an enemy. After a delay or when Detonated, the brand explodes, dealing Spell damage to enemies caught in the blast.",
     "hidden":true,
@@ -2238,7 +2271,7 @@
         "levelRequirement":0
       }],
     "name":"Ruzhan's Brand",
-    "qualityStats":[["active_skill_damage_+%_final_vs_burning_enemies",1]],
+    "qualityStats":[["active_skill_damage_+%_final_vs_burning_enemies",1,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -2269,6 +2302,7 @@
       }]
   },
   "LivingLightningZap":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Teleport to a target, dealing Lightning Attack Damage.",
     "hidden":true,
@@ -2330,6 +2364,7 @@
       }]
   },
   "MPSAncestralTotemSpiritSoulCasterProjectile":{
+    "altQualityStats":[],
     "castTime":1.5,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/passives/MaceNotable2.dds",
@@ -2367,6 +2402,7 @@
       }]
   },
   "MassFusilladeFireDjinn":{
+    "altQualityStats":[],
     "castTime":2.3,
     "description":"Command Ruzhan to conjure two volleys of flaming embers and fire them forward. The embers explode on impact, dealing Spell damage.",
     "hidden":true,
@@ -2378,7 +2414,7 @@
         "storedUses":1
       }],
     "name":"Ruzhan's Fury",
-    "qualityStats":[["base_number_of_projectiles",0.2]],
+    "qualityStats":[["base_number_of_projectiles",0.2,[]]],
     "skillTypes":{
       "2":true,
       "3":true,
@@ -2430,6 +2466,7 @@
       }]
   },
   "MeleeAtAnimationSpeed":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2464,6 +2501,7 @@
       }]
   },
   "MeleeAtAnimationSpeedWolfCompanion":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2498,6 +2536,7 @@
       }]
   },
   "MeleeAtAnimationSpeedWolfPackleader":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2534,6 +2573,7 @@
       }]
   },
   "MeteorFireDjinn":{
+    "altQualityStats":[],
     "castTime":2.3,
     "description":"Command Ruzhan to teleport to the target location. Upon arrival, the Djinn deals Spell damage to enemies around him then slams his blazing sword into the ground, creating a wave of lava that also deals Spell damage.",
     "hidden":true,
@@ -2545,7 +2585,7 @@
         "storedUses":1
       }],
     "name":"Ruzhan's Reckoning",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[]]],
     "skillTypes":{
       "2":true,
       "7":true,
@@ -2639,6 +2679,7 @@
       }]
   },
   "MinionMelee":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2672,6 +2713,7 @@
       }]
   },
   "MinionMeleeBow":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2706,6 +2748,7 @@
       }]
   },
   "MinionMeleeStep":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2740,6 +2783,7 @@
       }]
   },
   "PassiveTriggeredManaWaveWaterDjinn":{
+    "altQualityStats":[],
     "castTime":0,
     "description":"When you Command Navira to use a Skill, she also emits a restorative wave that grants you and any other Allies it touches increased Mana Regeneration for a short duration.",
     "hidden":true,
@@ -2750,7 +2794,7 @@
         "levelRequirement":0
       }],
     "name":"Navira's Calming",
-    "qualityStats":[["water_djinn_mana_wave_mana_regeneration_rate_+%",1]],
+    "qualityStats":[["water_djinn_mana_wave_mana_regeneration_rate_+%",1,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -2779,6 +2823,7 @@
       }]
   },
   "RavenousSwarmAttack":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -2966,6 +3011,7 @@
       }]
   },
   "ShatteringRoarSkeletalBruteMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Command a Skeletal Brute to use a Warcry, Intimidating nearby enemies and Consuming Freeze on enemies and allies to deal damage in an Area around them.",
     "hidden":true,
@@ -3209,6 +3255,7 @@
       }]
   },
   "TCAncestralLeagueKaruiHulk":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Charges at an enemy, bashing it with the character's shield and striking it. This knocks it back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled. Cannot be supported by Multistrike.",
     "hidden":true,
@@ -3254,6 +3301,7 @@
     }
   },
   "TangmazuMadFlightMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Command part of your flock to leave and crash through a set of illusory mirrors, Attacking enemies in the area between the mirrors with frequent Hits.",
     "hidden":true,
@@ -3289,6 +3337,7 @@
       }]
   },
   "WaterBubbleWaterDjinn":{
+    "altQualityStats":[],
     "castTime":2,
     "description":"Command Navira to create a bubble shield which absorbs a portion of the damage dealt by enemies standing outside the shield. The maximum amount of damage that can be absorbed is based on your maximum Mana. If the shield is destroyed by damage, it collapses into a patch of Chilled Ground.",
     "hidden":true,
@@ -3303,7 +3352,7 @@
         "storedUses":1
       }],
     "name":"Navira's Embrace",
-    "qualityStats":[["water_djinn_water_bubble_absorb_damage_%_enemy_outside_bubble",0.5]],
+    "qualityStats":[["water_djinn_water_bubble_absorb_damage_%_enemy_outside_bubble",0.5,[]]],
     "skillTypes":{
       "2":true,
       "8":true,
@@ -3334,6 +3383,7 @@
       }]
   },
   "WolfLeapAttackMinion":{
+    "altQualityStats":[],
     "castTime":1,
     "description":"Jump into the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way.",
     "hidden":true,
@@ -3383,6 +3433,7 @@
     }
   },
   "WolfPackleaderDashAttack":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -3421,6 +3472,7 @@
       }]
   },
   "WolfPackleaderLungeBite":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",

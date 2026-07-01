@@ -1,5 +1,6 @@
 {
   "AlchemistsBoonPlayer":{
+    "altQualityStats":[["alchemists_boon_attack_speed_granted_+%_during_life_flask",1,[]],["alchemists_boon_cast_speed_granted_+%_during_mana_flask",1,[]]],
     "baseTypeName":"Alchemist's Boon",
     "castTime":1,
     "color":2,
@@ -127,7 +128,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Alchemist's Boon",
-    "qualityStats":[["skill_alchemists_boon_generate_x_charges_for_any_flask_per_minute",0.1]],
+    "qualityStats":[["skill_alchemists_boon_generate_x_charges_for_any_flask_per_minute",0.1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -356,6 +357,36 @@
           }],
         "statDescriptionScope":"alchemists_boon",
         "statMap":{
+          "alchemists_boon_attack_speed_granted_+%_during_life_flask":[{
+              "flags":1,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"INC",
+              "1":{
+                "effectName":"Alchemists Boon",
+                "effectType":"Aura",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "type":"Condition",
+                "var":"UsingLifeFlask"
+              }
+            }],
+          "alchemists_boon_cast_speed_granted_+%_during_mana_flask":[{
+              "flags":16,
+              "keywordFlags":0,
+              "name":"Speed",
+              "type":"INC",
+              "1":{
+                "effectName":"Alchemists Boon",
+                "effectType":"Aura",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "type":"Condition",
+                "var":"UsingManaFlask"
+              }
+            }],
           "skill_alchemists_boon_generate_x_charges_for_any_flask_per_minute":{
             "div":60,
             "1":{
@@ -375,6 +406,7 @@
       }]
   },
   "BarragePlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[]]],
     "baseTypeName":"Barrage",
     "castTime":0.7,
     "color":2,
@@ -662,7 +694,7 @@
         "storedUses":1
       }],
     "name":"Barrage",
-    "qualityStats":[["empower_barrage_damage_-%_final_with_repeated_projectiles",-0.25]],
+    "qualityStats":[["empower_barrage_damage_-%_final_with_repeated_projectiles",-0.25,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -915,6 +947,7 @@
     }
   },
   "BloodHuntPlayer":{
+    "altQualityStats":[["blood_hunt_explosion_%_blood_loss_to_deal_as_life_loss",0.2,[1]]],
     "baseTypeName":"Blood Hunt",
     "castTime":1,
     "color":2,
@@ -1162,7 +1195,7 @@
         "levelRequirement":90
       }],
     "name":"Blood Hunt",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -1484,6 +1517,7 @@
     }
   },
   "BloodhoundsMarkExplosionPlayer":{
+    "altQualityStats":[["active_skill_physical_damage_+%_final",1,[]]],
     "castTime":1,
     "description":"A violent explosion of blood that deals Physical Attack damage which is not based on your Weapon's damage.",
     "hidden":true,
@@ -1769,7 +1803,7 @@
         "levelRequirement":0
       }],
     "name":"Blood Explosion",
-    "qualityStats":[["dummy_stat_display_nothing",0.001]],
+    "qualityStats":[["dummy_stat_display_nothing",0.001,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -1998,6 +2032,7 @@
       }]
   },
   "BloodhoundsMarkPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Bloodhound's Mark",
     "castTime":0.5,
     "color":2,
@@ -2285,7 +2320,7 @@
         "storedUses":1
       }],
     "name":"Bloodhound's Mark",
-    "qualityStats":[["hunters_mark_%_of_phys_damage_over_time_as_build_up",2.5]],
+    "qualityStats":[["hunters_mark_%_of_phys_damage_over_time_as_build_up",2.5,[]]],
     "skillTypes":{
       "9":true,
       "14":true,
@@ -2403,6 +2438,7 @@
       }]
   },
   "CombatFrenzyPlayer":{
+    "altQualityStats":[["skill_combat_frenzy_x_ms_cooldown",-50,[]]],
     "baseTypeName":"Combat Frenzy",
     "castTime":1,
     "color":2,
@@ -2530,7 +2566,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Combat Frenzy",
-    "qualityStats":[["chance_to_gain_1_more_charge_%",0.5]],
+    "qualityStats":[["chance_to_gain_1_more_charge_%",0.5,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -2727,6 +2763,7 @@
       }]
   },
   "CullTheWeakPlayer":{
+    "altQualityStats":[["chance_to_gain_1_more_random_charge_%",1,[]]],
     "baseTypeName":"Cull the Weak",
     "castTime":1,
     "color":2,
@@ -3014,7 +3051,7 @@
         "levelRequirement":90
       }],
     "name":"Cull the Weak",
-    "qualityStats":[["chance_to_gain_1_more_charge_%",1]],
+    "qualityStats":[["chance_to_gain_1_more_charge_%",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -3120,6 +3157,7 @@
     }
   },
   "DetonatingArrowPlayer":{
+    "altQualityStats":[["active_skill_ignite_effect_+%_final",2,[]]],
     "baseTypeName":"Detonating Arrow",
     "castTime":1,
     "color":2,
@@ -3407,7 +3445,7 @@
         "levelRequirement":90
       }],
     "name":"Detonating Arrow",
-    "qualityStats":[["detonating_arrow_max_number_of_stages",0.05]],
+    "qualityStats":[["detonating_arrow_max_number_of_stages",0.05,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -3561,6 +3599,7 @@
     }
   },
   "DisengagePlayer":{
+    "altQualityStats":[["melee_range_+",0.5,[0]]],
     "baseTypeName":"Disengage",
     "castTime":1,
     "color":2,
@@ -3888,7 +3927,7 @@
         "storedUses":1
       }],
     "name":"Disengage",
-    "qualityStats":[["disengage_%_chance_for_additional_shockwave",1]],
+    "qualityStats":[["disengage_%_chance_for_additional_shockwave",1,[0]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -4294,6 +4333,7 @@
     }
   },
   "ElectrocutingArrowPlayer":{
+    "altQualityStats":[["electrocuting_arrow_damage_taken_+%",1,[]]],
     "baseTypeName":"Electrocuting Arrow",
     "castTime":1,
     "color":2,
@@ -4581,7 +4621,7 @@
         "levelRequirement":90
       }],
     "name":"Electrocuting Arrow",
-    "qualityStats":[["electrocuting_arrow_%_damage_gained_as_extra_lightning_on_debuffed_target",0.5]],
+    "qualityStats":[["electrocuting_arrow_%_damage_gained_as_extra_lightning_on_debuffed_target",0.5,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -4690,6 +4730,26 @@
           }],
         "statDescriptionScope":"electrocuting_arrow",
         "statMap":{
+          "electrocuting_arrow_%_damage_gained_as_extra_lightning_on_debuffed_target":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageGainAsLightning",
+              "type":"BASE",
+              "1":{
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
+          "electrocuting_arrow_damage_taken_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"DamageTaken",
+              "type":"INC",
+              "1":{
+                "effectType":"Debuff",
+                "type":"GlobalEffect"
+              }
+            }],
           "quality_display_base_skill_effect_duration_is_gem":[]
         },
         "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","cannot_pierce","base_projectiles_cannot_chain","quality_display_base_skill_effect_duration_is_gem","precise_cursor_targeting_uses_contact_point_height_offset","should_use_additive_aiming_animation","can_perform_skill_while_moving"]
@@ -4699,6 +4759,7 @@
     }
   },
   "ElementalSunderingPlayer":{
+    "altQualityStats":[["active_skill_critical_strike_chance_+%_final",1,[0]]],
     "baseTypeName":"Elemental Sundering",
     "castTime":1,
     "color":2,
@@ -4946,7 +5007,7 @@
         "levelRequirement":90
       }],
     "name":"Elemental Sundering",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -5460,6 +5521,7 @@
     }
   },
   "EscapeShotIceFragmentPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -5773,6 +5835,7 @@
       }]
   },
   "EscapeShotPlayer":{
+    "altQualityStats":[["damage_+%_vs_frozen_enemies",2,[]]],
     "baseTypeName":"Escape Shot",
     "castTime":1,
     "color":2,
@@ -6020,7 +6083,7 @@
         "levelRequirement":90
       }],
     "name":"Escape Shot",
-    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",6]],
+    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",6,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -6254,6 +6317,7 @@
     }
   },
   "ExplosiveSpearPlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[]]],
     "baseTypeName":"Explosive Spear",
     "castTime":1,
     "color":2,
@@ -6541,7 +6605,7 @@
         "levelRequirement":90
       }],
     "name":"Explosive Spear",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[1,2]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -7206,6 +7270,7 @@
     }
   },
   "FangsOfFrostPlayer":{
+    "altQualityStats":[["melee_range_+",0.5,[]]],
     "baseTypeName":"Fangs of Frost",
     "castTime":1,
     "color":2,
@@ -7493,7 +7558,7 @@
         "levelRequirement":90
       }],
     "name":"Fangs of Frost",
-    "qualityStats":[["chance_to_not_consume_parried_%",0.75]],
+    "qualityStats":[["chance_to_not_consume_parried_%",0.75,[0]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -8056,6 +8121,7 @@
     }
   },
   "FreezingSalvoPlayer":{
+    "altQualityStats":[["base_maximum_seals_for_skill",0.2,[]]],
     "baseTypeName":"Freezing Salvo",
     "castTime":1,
     "color":2,
@@ -8303,7 +8369,7 @@
         "levelRequirement":90
       }],
     "name":"Freezing Salvo",
-    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",2]],
+    "qualityStats":[["active_skill_hit_damage_freeze_multiplier_+%_final",2,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -8580,6 +8646,7 @@
     }
   },
   "GasArrowPlayer":{
+    "altQualityStats":[["active_skill_fire_damage_+%_final",1,[2]]],
     "baseTypeName":"Gas Arrow",
     "castTime":1,
     "color":2,
@@ -8827,7 +8894,7 @@
         "levelRequirement":90
       }],
     "name":"Gas Arrow",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[0,1]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -9208,6 +9275,7 @@
     }
   },
   "GlacialLancePlayer":{
+    "altQualityStats":[["charge_skip_consume_chance_%",1,[]]],
     "baseTypeName":"Glacial Lance",
     "castTime":1,
     "color":2,
@@ -9495,7 +9563,7 @@
         "levelRequirement":90
       }],
     "name":"Glacial Lance",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -9985,6 +10053,7 @@
     }
   },
   "HeraldOfPlaguePlayer":{
+    "altQualityStats":[["active_skill_area_of_effect_+%_final",1.5,[]]],
     "baseTypeName":"Herald of Plague",
     "castTime":1,
     "color":2,
@@ -10112,7 +10181,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Herald of Plague",
-    "qualityStats":[["hinder_chance_%_on_spreading_poioson",1]],
+    "qualityStats":[["hinder_chance_%_on_spreading_poioson",1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -10361,6 +10430,7 @@
     }
   },
   "HeraldOfThunderPlayer":{
+    "altQualityStats":[["herald_of_thunder_lightning_damage_+%",1,[]]],
     "baseTypeName":"Herald of Thunder",
     "castTime":0,
     "color":2,
@@ -10488,7 +10558,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Herald of Thunder",
-    "qualityStats":[["herald_of_thunder_storm_max_hits",0.1]],
+    "qualityStats":[["herald_of_thunder_storm_max_hits",0.1,[0]]],
     "skillTypes":{
       "1":true,
       "5":true,
@@ -10668,6 +10738,17 @@
           }],
         "statDescriptionScope":"herald_of_thunder_statset_0",
         "statMap":{
+          "herald_of_thunder_lightning_damage_+%":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"LightningDamage",
+              "type":"INC",
+              "1":{
+                "effectName":"Herald of Thunder",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }],
           "herald_of_thunder_storm_max_hits":[{
               "flags":0,
               "keywordFlags":0,
@@ -10910,6 +10991,7 @@
     }
   },
   "IceShotPlayer":{
+    "altQualityStats":[["movement_speed_penalty_+%_while_performing_action",-2,[]]],
     "baseTypeName":"Ice Shot",
     "castTime":1,
     "color":2,
@@ -11197,7 +11279,7 @@
         "levelRequirement":90
       }],
     "name":"Ice Shot",
-    "qualityStats":[["active_skill_chill_effect_+%_final",1.5]],
+    "qualityStats":[["active_skill_chill_effect_+%_final",1.5,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -11481,6 +11563,7 @@
     }
   },
   "IceTippedArrowsIceFragmentPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/iconbasicattack.dds",
@@ -11795,6 +11878,7 @@
       }]
   },
   "IceTippedArrowsPlayer":{
+    "altQualityStats":[["shearing_bolts_number_of_empowered_attacks",0.1,[]]],
     "baseTypeName":"Ice-Tipped Arrows",
     "castTime":0.7,
     "color":2,
@@ -12082,7 +12166,7 @@
         "storedUses":1
       }],
     "name":"Ice-Tipped Arrows",
-    "qualityStats":[["base_cooldown_speed_+%",0.5]],
+    "qualityStats":[["base_cooldown_speed_+%",0.5,[]]],
     "skillTypes":{
       "2":true,
       "5":true,
@@ -12196,6 +12280,7 @@
     }
   },
   "LightningArrowPlayer":{
+    "altQualityStats":[["chance_for_extra_damage_roll_with_lightning_damage_%",1.5,[]]],
     "baseTypeName":"Lightning Arrow",
     "castTime":1,
     "color":2,
@@ -12483,7 +12568,7 @@
         "levelRequirement":90
       }],
     "name":"Lightning Arrow",
-    "qualityStats":[["active_skill_shock_chance_+%_final",2]],
+    "qualityStats":[["active_skill_shock_chance_+%_final",2,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -12852,6 +12937,7 @@
     }
   },
   "LightningRodPlayer":{
+    "altQualityStats":[["active_skill_attack_speed_+%_final",1,[]]],
     "baseTypeName":"Lightning Rod",
     "castTime":1,
     "color":2,
@@ -13138,7 +13224,7 @@
         "levelRequirement":90
       }],
     "name":"Lightning Rod",
-    "qualityStats":[["lightning_rod_%_chance_for_additional_burst_on_landing",1]],
+    "qualityStats":[["lightning_rod_%_chance_for_additional_burst_on_landing",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -13255,6 +13341,7 @@
     }
   },
   "LightningSpearPlayer":{
+    "altQualityStats":[["chance_%_to_double_effect_of_removing_charges",1,[]]],
     "baseTypeName":"Lightning Spear",
     "castTime":1,
     "color":2,
@@ -13542,7 +13629,7 @@
         "levelRequirement":90
       }],
     "name":"Lightning Spear",
-    "qualityStats":[["base_number_of_projectiles",0.1]],
+    "qualityStats":[["base_number_of_projectiles",0.1,[1]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -13807,6 +13894,7 @@
     }
   },
   "MagneticSalvoPlayer":{
+    "altQualityStats":[["active_skill_lightning_damage_+%_final",1,[]]],
     "baseTypeName":"Magnetic Salvo",
     "castTime":1,
     "color":2,
@@ -14094,7 +14182,7 @@
         "levelRequirement":90
       }],
     "name":"Magnetic Salvo",
-    "qualityStats":[["base_number_of_projectiles",0.2]],
+    "qualityStats":[["base_number_of_projectiles",0.2,[0]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -14336,6 +14424,7 @@
     }
   },
   "MetaMirageArcherPlayer":{
+    "altQualityStats":[["base_reservation_efficiency_+%",2,[]]],
     "baseTypeName":"Mirage Archer",
     "castTime":0,
     "color":2,
@@ -14463,7 +14552,7 @@
         "spiritReservationFlat":60
       }],
     "name":"Mirage Archer",
-    "qualityStats":[["dummy_stat_display_nothing",0]],
+    "qualityStats":[["dummy_stat_display_nothing",0,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -14567,6 +14656,7 @@
     }
   },
   "MirageArcherSpawnPlayer":{
+    "altQualityStats":[["base_reservation_efficiency_+%",2,[0]]],
     "castTime":0,
     "hidden":true,
     "icon":"",
@@ -14732,7 +14822,7 @@
         "storedUses":1
       }],
     "name":"",
-    "qualityStats":[["base_skill_effect_duration",50]],
+    "qualityStats":[["base_skill_effect_duration",50,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -14918,6 +15008,7 @@
     }
   },
   "PhantasmalArrowPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Phantasmal Arrow",
     "castTime":1,
     "color":4,
@@ -15206,7 +15297,7 @@
         "levelRequirement":90
       }],
     "name":"Phantasmal Arrow",
-    "qualityStats":[["active_skill_ignite_chance_+%_final",5]],
+    "qualityStats":[["active_skill_ignite_chance_+%_final",5,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -15530,6 +15621,7 @@
     }
   },
   "PlagueBearerNovaPlayer":{
+    "altQualityStats":[],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/RangerPlagueBearerSkill.dds",
@@ -15839,6 +15931,7 @@
       }]
   },
   "PlagueBearerPlayer":{
+    "altQualityStats":[["poison_effect_+%_vs_non_poisoned_enemies",2.5,[]]],
     "baseTypeName":"Plague Bearer",
     "castTime":0,
     "color":2,
@@ -15966,7 +16059,7 @@
         "spiritReservationFlat":30
       }],
     "name":"Plague Bearer",
-    "qualityStats":[["plague_bearer_gains_%_of_damage_from_inflicted_poisons",0.1]],
+    "qualityStats":[["plague_bearer_gains_%_of_damage_from_inflicted_poisons",0.1,[]]],
     "skillTypes":{
       "5":true,
       "12":true,
@@ -16152,12 +16245,31 @@
                 "effectType":"Buff",
                 "type":"GlobalEffect"
               }
+            }],
+          "poison_effect_+%_vs_non_poisoned_enemies":[{
+              "flags":0,
+              "keywordFlags":2097152,
+              "name":"AilmentMagnitude",
+              "type":"INC",
+              "1":{
+                "effectName":"Plague Bearer",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              },
+              "2":{
+                "actor":"enemy",
+                "threshold":1,
+                "type":"MultiplierThreshold",
+                "upper":true,
+                "var":"PoisonStacks"
+              }
             }]
         },
         "stats":["plague_bearer_maximum_stored_poison_damage","base_deal_no_damage"]
       }]
   },
   "PoisonBurstArrowPlayer":{
+    "altQualityStats":[["armour_break_for_%_of_poison_damage_over_poison_duration",1,[]]],
     "baseTypeName":"Poisonburst Arrow",
     "castTime":1,
     "color":2,
@@ -16405,7 +16517,7 @@
         "levelRequirement":90
       }],
     "name":"Poisonburst Arrow",
-    "qualityStats":[["active_skill_poison_effect_+%_final",0.5]],
+    "qualityStats":[["active_skill_poison_effect_+%_final",0.5,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -16509,6 +16621,20 @@
             "actorLevel":288.29998779297
           }],
         "statDescriptionScope":"poison_burst_arrow",
+        "statMap":{
+          "armour_break_for_%_of_poison_damage_over_poison_duration":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Condition:CanArmourBreak",
+              "type":"FLAG",
+              "value":true,
+              "1":{
+                "effectName":"ArmourBreak",
+                "effectType":"Buff",
+                "type":"GlobalEffect"
+              }
+            }]
+        },
         "stats":["base_is_projectile","projectile_uses_contact_position","projectile_uses_contact_direction","check_for_targets_between_initiator_and_projectile_source","skill_can_fire_arrows","has_modular_projectiles_enabled","can_perform_skill_while_moving","should_use_additive_aiming_animation","disable_visual_hit_effect","precise_cursor_targeting_uses_contact_point_height_offset"]
       },{
         "baseEffectiveness":3.5,
@@ -16690,6 +16816,7 @@
     }
   },
   "PrimalStrikesPlayer":{
+    "altQualityStats":[["active_skill_critical_strike_chance_+%_final",1,[]]],
     "baseTypeName":"Primal Strikes",
     "castTime":1,
     "color":2,
@@ -16977,7 +17104,7 @@
         "levelRequirement":90
       }],
     "name":"Primal Strikes",
-    "qualityStats":[["attack_speed_+%",1]],
+    "qualityStats":[["attack_speed_+%",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -17429,6 +17556,7 @@
     }
   },
   "RainOfArrowsPlayer":{
+    "altQualityStats":[["active_skill_damage_+%_final",1,[]]],
     "baseTypeName":"Rain of Arrows",
     "castTime":1,
     "color":2,
@@ -17716,7 +17844,7 @@
         "levelRequirement":90
       }],
     "name":"Rain of Arrows",
-    "qualityStats":[["rain_of_arrows_arrow_speed_+%",1]],
+    "qualityStats":[["rain_of_arrows_arrow_speed_+%",1,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -17955,6 +18083,7 @@
     }
   },
   "RakePlayer":{
+    "altQualityStats":[["base_aggravate_bleeding_on_attack_hit_chance_%",1,[]]],
     "baseTypeName":"Rake",
     "castTime":1,
     "color":2,
@@ -18202,7 +18331,7 @@
         "levelRequirement":90
       }],
     "name":"Rake",
-    "qualityStats":[["base_additional_damage_from_distance_+%_final",1.5]],
+    "qualityStats":[["base_additional_damage_from_distance_+%_final",1.5,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -18323,6 +18452,7 @@
     }
   },
   "RapidAssaultPlayer":{
+    "altQualityStats":[["active_skill_bleeding_effect_+%_final",2,[]]],
     "baseTypeName":"Rapid Assault",
     "castTime":1,
     "color":2,
@@ -18609,7 +18739,7 @@
         "levelRequirement":90
       }],
     "name":"Rapid Assault",
-    "qualityStats":[["rapid_assault_%_chance_to_attach_additional_spear",1]],
+    "qualityStats":[["rapid_assault_%_chance_to_attach_additional_spear",1,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -18980,6 +19110,7 @@
     }
   },
   "RhoaMountPlayer":{
+    "altQualityStats":[["base_reservation_efficiency_+%",1.5,[]]],
     "baseTypeName":"Rhoa Mount",
     "castTime":1,
     "color":2,
@@ -19114,7 +19245,7 @@
       "21":true
     },
     "name":"Rhoa Mount",
-    "qualityStats":[["active_skill_minion_life_+%_final",1]],
+    "qualityStats":[["active_skill_minion_life_+%_final",1,[]]],
     "skillTypes":{
       "5":true,
       "6":true,
@@ -19218,6 +19349,7 @@
       }]
   },
   "ShatteringSpitePlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Shattering Spite",
     "castTime":1,
     "color":4,
@@ -19466,7 +19598,7 @@
         "levelRequirement":90
       }],
     "name":"Shattering Spite",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.1,[]]],
     "skillTypes":{
       "1":true,
       "7":true,
@@ -19573,6 +19705,7 @@
     }
   },
   "ShockchainArrowPlayer":{
+    "altQualityStats":[["active_skill_attack_speed_+%_final",1,[]]],
     "baseTypeName":"Shockchain Arrow",
     "castTime":1,
     "color":2,
@@ -19859,7 +19992,7 @@
         "levelRequirement":90
       }],
     "name":"Shockchain Arrow",
-    "qualityStats":[["active_skill_lightning_damage_+%_final",1]],
+    "qualityStats":[["active_skill_lightning_damage_+%_final",1,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -20108,6 +20241,7 @@
     }
   },
   "SnipePlayer":{
+    "altQualityStats":[["active_skill_attack_speed_+%_final",1,[0]],["perfect_timing_window_ms_+%",1,[0]]],
     "baseTypeName":"Snipe",
     "castTime":1,
     "color":2,
@@ -20394,7 +20528,7 @@
         "levelRequirement":90
       }],
     "name":"Snipe",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[1,2,3]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -20864,6 +20998,7 @@
     }
   },
   "SnipersMarkPlayer":{
+    "altQualityStats":[["gem_quality_marked_enemy_damage_dealt_+%_final",-0.5,[]]],
     "baseTypeName":"Sniper's Mark",
     "castTime":0.5,
     "color":2,
@@ -21151,7 +21286,7 @@
         "storedUses":1
       }],
     "name":"Sniper's Mark",
-    "qualityStats":[["enemy_additional_critical_strike_multiplier_against_self",0.75]],
+    "qualityStats":[["enemy_additional_critical_strike_multiplier_against_self",0.75,[]]],
     "skillTypes":{
       "9":true,
       "14":true,
@@ -21356,12 +21491,23 @@
                 "effectType":"Curse",
                 "type":"GlobalEffect"
               }
+            }],
+          "gem_quality_marked_enemy_damage_dealt_+%_final":[{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE",
+              "1":{
+                "effectType":"Curse",
+                "type":"GlobalEffect"
+              }
             }]
         },
         "stats":["enemy_additional_critical_strike_multiplier_against_self","base_deal_no_damage","can_perform_skill_while_moving"]
       }]
   },
   "SpearOfSolarisPlayer":{
+    "altQualityStats":[["active_skill_fire_damage_+%_final",1,[]]],
     "baseTypeName":"Spear of Solaris",
     "castTime":1,
     "color":2,
@@ -21609,7 +21755,7 @@
         "levelRequirement":90
       }],
     "name":"Spear of Solaris",
-    "qualityStats":[["chance_to_retain_40%_of_glory_on_use_%",1.25]],
+    "qualityStats":[["chance_to_retain_40%_of_glory_on_use_%",1.25,[0]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -22009,6 +22155,7 @@
     }
   },
   "SpearfieldPlayer":{
+    "altQualityStats":[["active_skill_attack_speed_+%_final",1,[0]]],
     "baseTypeName":"Spearfield",
     "castTime":1,
     "color":2,
@@ -22256,7 +22403,7 @@
         "levelRequirement":90
       }],
     "name":"Spearfield",
-    "qualityStats":[["hazard_rearm_%_chance",0.5]],
+    "qualityStats":[["hazard_rearm_%_chance",0.5,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -22670,6 +22817,7 @@
     }
   },
   "SpiralVolleyPlayer":{
+    "altQualityStats":[["chance_%_to_double_effect_of_removing_charges",1.5,[]]],
     "baseTypeName":"Spiral Volley",
     "castTime":1,
     "color":2,
@@ -22917,7 +23065,7 @@
         "levelRequirement":90
       }],
     "name":"Spiral Volley",
-    "qualityStats":[["base_number_of_projectiles",0.2]],
+    "qualityStats":[["base_number_of_projectiles",0.2,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -23081,6 +23229,7 @@
     }
   },
   "StormLancePlayer":{
+    "altQualityStats":[["base_number_of_projectiles",0.1,[0]]],
     "baseTypeName":"Storm Lance",
     "castTime":1,
     "color":2,
@@ -23368,7 +23517,7 @@
         "levelRequirement":90
       }],
     "name":"Storm Lance",
-    "qualityStats":[["base_number_of_overcharged_spears_allowed",0.05]],
+    "qualityStats":[["base_number_of_overcharged_spears_allowed",0.05,[1,2]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -23989,6 +24138,7 @@
     }
   },
   "StormcallerArrowPlayer":{
+    "altQualityStats":[["base_number_of_projectiles",0.1,[0]]],
     "baseTypeName":"Stormcaller Arrow",
     "castTime":1,
     "color":2,
@@ -24276,7 +24426,7 @@
         "levelRequirement":90
       }],
     "name":"Stormcaller Arrow",
-    "qualityStats":[["shock_duration_+%",1.5]],
+    "qualityStats":[["shock_duration_+%",1.5,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -24639,6 +24789,7 @@
     }
   },
   "SummonBeastPlayer":{
+    "altQualityStats":[["active_skill_minion_attack_speed_+%_final",1,[]]],
     "baseTypeName":"Companion: {0}",
     "castTime":1,
     "color":2,
@@ -24748,7 +24899,7 @@
       "91":true
     },
     "name":"Companion: {0}",
-    "qualityStats":[["base_reservation_efficiency_+%",0.5]],
+    "qualityStats":[["base_reservation_efficiency_+%",0.5,[]]],
     "skillTypes":{
       "6":true,
       "12":true,
@@ -24943,6 +25094,7 @@
   },
   "SupportMirageArcherPlayer":{
     "addSkillTypes":[268,258,274],
+    "altQualityStats":[],
     "excludeSkillTypes":[194,20,122,37,140,258,274,75,74],
     "hidden":true,
     "ignoreMinionTypes":true,
@@ -25130,6 +25282,7 @@
     "support":true
   },
   "TameBeastPlayer":{
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "baseTypeName":"Tame Beast",
     "castTime":1,
     "color":2,
@@ -25337,7 +25490,7 @@
         "levelRequirement":90
       }],
     "name":"Tame Beast",
-    "qualityStats":[["base_skill_effect_duration",80]],
+    "qualityStats":[["base_skill_effect_duration",80,[]]],
     "skillTypes":{
       "6":true,
       "9":true,
@@ -25515,6 +25668,7 @@
       }]
   },
   "ThunderousLeapPlayer":{
+    "altQualityStats":[["slam_aftershock_chance_%",2,[]]],
     "baseTypeName":"Thunderous Leap",
     "castTime":1,
     "color":2,
@@ -25762,7 +25916,7 @@
         "levelRequirement":90
       }],
     "name":"Thunderous Leap",
-    "qualityStats":[["thunderous_leap_%_chance_for_shocked_ground_when_detonating",1.5]],
+    "qualityStats":[["thunderous_leap_%_chance_for_shocked_ground_when_detonating",1.5,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -25872,6 +26026,7 @@
     }
   },
   "TornadoShotPlayer":{
+    "altQualityStats":[["base_number_of_tornado_shots_allowed",0.1,[1]]],
     "baseTypeName":"Tornado Shot",
     "castTime":1,
     "color":2,
@@ -26159,7 +26314,7 @@
         "levelRequirement":90
       }],
     "name":"Tornado Shot",
-    "qualityStats":[["tornado_shot_projectile_damage_+%_final",0.75]],
+    "qualityStats":[["tornado_shot_projectile_damage_+%_final",0.75,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -26668,6 +26823,7 @@
     }
   },
   "ToxicDomainPlayer":{
+    "altQualityStats":[["toxic_domain_buff_linger_duration_ms",100,[0]]],
     "baseTypeName":"Toxic Domain",
     "castTime":1,
     "color":2,
@@ -26995,7 +27151,7 @@
         "storedUses":1
       }],
     "name":"Toxic Domain",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.15]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.15,[]]],
     "skillTypes":{
       "1":true,
       "5":true,
@@ -27676,6 +27832,7 @@
     }
   },
   "ToxicGrowthPlayer":{
+    "altQualityStats":[["base_poison_duration_+%",2,[]]],
     "baseTypeName":"Toxic Growth",
     "castTime":1,
     "color":2,
@@ -27923,7 +28080,7 @@
         "levelRequirement":90
       }],
     "name":"Toxic Growth",
-    "qualityStats":[["base_number_of_projectiles",0.05],["number_of_poisonbloom_arrow_bloom_allowed",0.05]],
+    "qualityStats":[["base_number_of_projectiles",0.05,[0]],["number_of_poisonbloom_arrow_bloom_allowed",0.05,[0]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -28569,6 +28726,7 @@
     }
   },
   "TrailOfCaltropsPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Trail of Caltrops",
     "castTime":0,
     "color":2,
@@ -28798,6 +28956,7 @@
       }]
   },
   "TriggeredTrailOfCaltropsPlayer":{
+    "altQualityStats":[["active_skill_physical_damage_+%_final",1,[]]],
     "castTime":0,
     "description":"Maims and deals Attack area damage when triggered by an Enemy. Caltrops are destroyed when triggered, and a maximum of 20 Caltrops can be active at once.",
     "hidden":true,
@@ -29083,7 +29242,7 @@
         "levelRequirement":0
       }],
     "name":"Caltrops",
-    "qualityStats":[["maximum_caltrops_allowed",0.25]],
+    "qualityStats":[["maximum_caltrops_allowed",0.25,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -29318,6 +29477,7 @@
       }]
   },
   "TriggeredWindDancerPlayer":{
+    "altQualityStats":[["wind_dancer_damage_+%_final_per_stage",2.5,[]]],
     "castTime":1,
     "hidden":true,
     "icon":"Art/2DArt/SkillIcons/InspiringCry.dds",
@@ -29643,7 +29803,7 @@
         "storedUses":1
       }],
     "name":"Gale Force",
-    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2]],
+    "qualityStats":[["active_skill_base_area_of_effect_radius",0.2,[]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -29801,6 +29961,7 @@
     }
   },
   "TwisterPlayer":{
+    "altQualityStats":[["active_skill_projectile_speed_+%_final",1,[]]],
     "baseTypeName":"Twister",
     "castTime":1,
     "color":2,
@@ -30088,7 +30249,7 @@
         "levelRequirement":90
       }],
     "name":"Twister",
-    "qualityStats":[["twister_%_chance_for_additional_twister",1]],
+    "qualityStats":[["twister_%_chance_for_additional_twister",1,[]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -30242,6 +30403,7 @@
     }
   },
   "VineArrowPlayer":{
+    "altQualityStats":[["active_skill_quality_duration_+%_final",2,[1]]],
     "baseTypeName":"Vine Arrow",
     "castTime":1,
     "color":2,
@@ -30488,7 +30650,7 @@
         "levelRequirement":90
       }],
     "name":"Vine Arrow",
-    "qualityStats":[["poison_vine_arrow_vine_stored_poison_damage_+%_final",0.5]],
+    "qualityStats":[["poison_vine_arrow_vine_stored_poison_damage_+%_final",0.5,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -30952,6 +31114,7 @@
     }
   },
   "VoltaicMarkPlayer":{
+    "altQualityStats":[["base_mana_cost_-%",2.5,[]]],
     "baseTypeName":"Voltaic Mark",
     "castTime":0.5,
     "color":2,
@@ -31239,7 +31402,7 @@
         "storedUses":1
       }],
     "name":"Voltaic Mark",
-    "qualityStats":[["thaumaturgist_mark_hit_damage_electrocute_multiplier_+%",1]],
+    "qualityStats":[["thaumaturgist_mark_hit_damage_electrocute_multiplier_+%",1,[]]],
     "skillTypes":{
       "5":true,
       "9":true,
@@ -31450,6 +31613,7 @@
       }]
   },
   "WhirlingSlashPlayer":{
+    "altQualityStats":[["active_skill_attack_speed_+%_final",0.5,[]]],
     "baseTypeName":"Whirling Slash",
     "castTime":1,
     "color":2,
@@ -31736,7 +31900,7 @@
         "levelRequirement":90
       }],
     "name":"Whirling Slash",
-    "qualityStats":[["sandstorm_swipe_storm_damage_+%_final_per_stage",2]],
+    "qualityStats":[["sandstorm_swipe_storm_damage_+%_final_per_stage",2,[1]]],
     "skillTypes":{
       "1":true,
       "8":true,
@@ -32005,6 +32169,7 @@
     }
   },
   "WhirlwindLancePlayer":{
+    "altQualityStats":[["windstorm_gain_all_damage_%_as_corresponding_element_if_empowered",2.5,[1]]],
     "baseTypeName":"Whirlwind Lance",
     "castTime":1,
     "color":2,
@@ -32292,7 +32457,7 @@
         "levelRequirement":90
       }],
     "name":"Whirlwind Lance",
-    "qualityStats":[["sandstorm_swipe_storm_damage_+%_final_per_stage",2]],
+    "qualityStats":[["sandstorm_swipe_storm_damage_+%_final_per_stage",2,[1]]],
     "skillTypes":{
       "1":true,
       "3":true,
@@ -32566,6 +32731,7 @@
     }
   },
   "WindDancerPlayer":{
+    "altQualityStats":[],
     "baseTypeName":"Wind Dancer",
     "castTime":1,
     "color":2,
@@ -32918,6 +33084,7 @@
     }
   },
   "WindSerpentsFuryPlayer":{
+    "altQualityStats":[["active_skill_base_all_damage_%_to_gain_as_chaos",1,[]]],
     "baseTypeName":"Wind Serpent's Fury",
     "castTime":1,
     "color":2,
@@ -33205,7 +33372,7 @@
         "levelRequirement":90
       }],
     "name":"Wind Serpent's Fury",
-    "qualityStats":[["active_skill_knockback_distance_+%_final",1.5]],
+    "qualityStats":[["active_skill_knockback_distance_+%_final",1.5,[0,1]]],
     "skillTypes":{
       "1":true,
       "8":true,
