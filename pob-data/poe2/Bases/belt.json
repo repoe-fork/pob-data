@@ -1,8 +1,8 @@
 {
   "Double Belt":{
     "charmLimit":0,
-    "implicit":"(20-30)% increased Charm Charges gained\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["charm"]],
+    "implicit":"Has (1-3) Charm Slot\n(20-30)% increased Charm Charges gained",
+    "implicitModTypes":[["charm"],["charm"]],
     "req":{
       "level":44
     },
@@ -16,8 +16,8 @@
   },
   "Fine Belt":{
     "charmLimit":0,
-    "implicit":"Flasks gain 0.17 charges per Second\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[]],
+    "implicit":"Has (1-3) Charm Slot\nFlasks gain 0.17 charges per Second",
+    "implicitModTypes":[["charm"],[]],
     "req":{
       "level":62
     },
@@ -31,8 +31,8 @@
   },
   "Forking Belt":{
     "charmLimit":0,
-    "implicit":"Has 1 Charm Slot\nAdds 1 to (20-30) Lightning damage to Attacks\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["charm"],["elemental_damage","damage","elemental","lightning","attack"]],
+    "implicit":"Adds 1 to (20-30) Lightning damage to Attacks\nHas 1 Charm Slot",
+    "implicitModTypes":[["elemental_damage","damage","elemental","lightning","attack"],["charm"]],
     "req":{
       "level":32
     },
@@ -46,8 +46,8 @@
   },
   "Golden Obi":{
     "charmLimit":0,
-    "implicit":"(20-30)% increased Rarity of Items found\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["drop"]],
+    "implicit":"(20-30)% increased Rarity of Items found\nHas (1-3) Charm Slot",
+    "implicitModTypes":[["drop"],["charm"]],
     "req":[],
     "tags":{
       "belt":true,
@@ -61,8 +61,8 @@
   },
   "Heavy Belt":{
     "charmLimit":0,
-    "implicit":"(20-30)% increased Stun Threshold\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[]],
+    "implicit":"(20-30)% increased Stun Threshold\nHas (1-3) Charm Slot",
+    "implicitModTypes":[[],["charm"]],
     "req":{
       "level":50
     },
@@ -76,8 +76,8 @@
   },
   "Invoking Belt":{
     "charmLimit":0,
-    "implicit":"Has 1 Charm Slot\n(8-12)% increased Cast Speed\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["charm"],["caster_speed","caster","speed"]],
+    "implicit":"(8-12)% increased Cast Speed\nHas 1 Charm Slot",
+    "implicitModTypes":[["caster_speed","caster","speed"],["charm"]],
     "req":{
       "level":32
     },
@@ -91,8 +91,8 @@
   },
   "Linen Belt":{
     "charmLimit":0,
-    "implicit":"(20-30)% increased Mana Recovery from Flasks\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["flask","resource","mana"]],
+    "implicit":"(20-30)% increased Mana Recovery from Flasks\nHas (1-3) Charm Slot",
+    "implicitModTypes":[["flask","resource","mana"],["charm"]],
     "req":[],
     "tags":{
       "belt":true,
@@ -104,8 +104,8 @@
   },
   "Long Belt":{
     "charmLimit":0,
-    "implicit":"(15-20)% increased Charm Effect Duration\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["charm"]],
+    "implicit":"(15-20)% increased Charm Effect Duration\nHas (1-3) Charm Slot",
+    "implicitModTypes":[["charm"],["charm"]],
     "req":{
       "level":20
     },
@@ -119,8 +119,8 @@
   },
   "Mail Belt":{
     "charmLimit":0,
-    "implicit":"(10-15)% reduced Flask Charges used\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["flask"]],
+    "implicit":"(10-15)% reduced Flask Charges used\nHas (1-3) Charm Slot",
+    "implicitModTypes":[["flask"],["charm"]],
     "req":{
       "level":40
     },
@@ -134,8 +134,8 @@
   },
   "Ornate Belt":{
     "charmLimit":0,
-    "implicit":"(10-15)% reduced Charm Charges used\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["charm"]],
+    "implicit":"Has (1-3) Charm Slot\n(10-15)% reduced Charm Charges used",
+    "implicitModTypes":[["charm"],["charm"]],
     "req":{
       "level":31
     },
@@ -149,8 +149,8 @@
   },
   "Plate Belt":{
     "charmLimit":0,
-    "implicit":"+(140-180) to Armour\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["defences","armour"]],
+    "implicit":"+(140-180) to Armour\nHas (1-3) Charm Slot",
+    "implicitModTypes":[["defences","armour"],["charm"]],
     "req":{
       "level":24
     },
@@ -164,8 +164,8 @@
   },
   "Rawhide Belt":{
     "charmLimit":0,
-    "implicit":"(20-30)% increased Life Recovery from Flasks\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["flask","resource","life"]],
+    "implicit":"(20-30)% increased Life Recovery from Flasks\nHas (1-3) Charm Slot",
+    "implicitModTypes":[["flask","resource","life"],["charm"]],
     "req":[],
     "tags":{
       "belt":true,
@@ -178,8 +178,8 @@
   "Runemastered Heavy Belt":{
     "charmLimit":0,
     "hidden":true,
-    "implicit":"(20-30)% increased Stun Threshold\nFlasks gain (0.5-1) charges per Second\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[],[]],
+    "implicit":"(20-30)% increased Stun Threshold\nHas (1-3) Charm Slot\nFlasks gain (0.5-1) charges per Second",
+    "implicitModTypes":[[],["charm"],[]],
     "req":{
       "level":50
     },
@@ -194,8 +194,8 @@
   },
   "Sinew Belt":{
     "charmLimit":0,
-    "implicit":"Has 1 Charm Slot\n+(15-20) to Strength\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["charm"],["attribute"]],
+    "implicit":"+(15-20) to Strength\nHas 1 Charm Slot",
+    "implicitModTypes":[["attribute"],["charm"]],
     "req":{
       "level":32
     },
@@ -209,7 +209,7 @@
   },
   "Stalking Belt":{
     "charmLimit":0,
-    "implicit":"Has 1 Charm Slot\nThis item gains bonuses from Socketed Items as though it was Boots\nHas (1-3) Charm Slots",
+    "implicit":"Has 1 Charm Slot\nThis item gains bonuses from Socketed Items as though it was Boots",
     "implicitModTypes":[["charm"],[]],
     "req":{
       "level":40
@@ -224,8 +224,8 @@
   },
   "Utility Belt":{
     "charmLimit":0,
-    "implicit":"20% of Flask Recovery applied Instantly\nHas (1-3) Charm Slots",
-    "implicitModTypes":[[]],
+    "implicit":"Has (1-3) Charm Slot\n20% of Flask Recovery applied Instantly",
+    "implicitModTypes":[["charm"],[]],
     "req":{
       "level":55
     },
@@ -239,8 +239,8 @@
   },
   "Wide Belt":{
     "charmLimit":0,
-    "implicit":"(20-30)% increased Flask Charges gained\nHas (1-3) Charm Slots",
-    "implicitModTypes":[["flask"]],
+    "implicit":"Has (1-3) Charm Slot\n(20-30)% increased Flask Charges gained",
+    "implicitModTypes":[["charm"],["flask"]],
     "req":{
       "level":14
     },

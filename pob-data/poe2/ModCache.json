@@ -12891,6 +12891,7 @@
         "type":"BASE",
         "value":12
       }]],
+  "12% chance when collecting an Elemental Infusion to gain an":[[]," when collecting an Elemental Infusion to gain an "],
   "12% faster start of Energy Shield Recharge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -28885,6 +28886,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ArmourAndEnergyShield",
+        "type":"INC",
+        "value":500
+      }]],
+  "500% increased effect of Socketed Soul Cores":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SocketedSoulCoreEffect",
         "type":"INC",
         "value":500
       }]],
@@ -48786,16 +48794,6 @@
           "skillId":"MetaDeadeyeMarksPlayer"
         }
       }]],
-  "Grants Skill: Cast on Block":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":1,
-          "skillId":"MetaCastOnBlockPlayer"
-        }
-      }]],
   "Grants Skill: Demon Form":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49018,6 +49016,26 @@
           "skillId":"HyenaCacklePlayer"
         }
       }]],
+  "Grants Skill: Level 11 Cast on Block":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":11,
+          "skillId":"MetaCastOnBlockPlayer"
+        }
+      }]],
+  "Grants Skill: Level 11 Cast on Charm Use":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":11,
+          "skillId":"MetaCastOnCharmUsePlayer"
+        }
+      }]],
   "Grants Skill: Level 11 Chaos Bolt":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49238,6 +49256,16 @@
           "skillId":"ImpurityPlayer"
         }
       }]],
+  "Grants Skill: Level 11 Life Remnants":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":11,
+          "skillId":"LifeRemnantsPlayer"
+        }
+      }]],
   "Grants Skill: Level 11 Lightning Bolt":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49246,16 +49274,6 @@
         "value":{
           "level":11,
           "skillId":"UniqueBreachLightningBoltPlayer"
-        }
-      }]],
-  "Grants Skill: Level 11 Living Bomb":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":11,
-          "skillId":"LivingBombPlayer"
         }
       }]],
   "Grants Skill: Level 11 Malice":[[{
@@ -49328,16 +49346,6 @@
           "skillId":"TriggeredMoltenShowerPlayer"
         }
       }]],
-  "Grants Skill: Level 11 Parry":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":11,
-          "skillId":"ParryPlayer"
-        }
-      }]],
   "Grants Skill: Level 11 Phantasmal Arrow":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49386,16 +49394,6 @@
         "value":{
           "level":11,
           "skillId":"PurityOfLightningPlayer"
-        }
-      }]],
-  "Grants Skill: Level 11 Raise Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":11,
-          "skillId":"ShieldBlockPlayer"
         }
       }]],
   "Grants Skill: Level 11 Righteous Descent":[[{
@@ -49578,16 +49576,6 @@
           "skillId":"WitheringPresencePlayer"
         }
       }]],
-  "Grants Skill: Level 14 Life Remnants":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":14,
-          "skillId":"LifeRemnantsPlayer"
-        }
-      }]],
   "Grants Skill: Level 20 Azmerian Swarms":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49656,6 +49644,26 @@
         "value":{
           "level":20,
           "skillId":"HyenaCacklePlayer"
+        }
+      }]],
+  "Grants Skill: Level 20 Cast on Block":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"MetaCastOnBlockPlayer"
+        }
+      }]],
+  "Grants Skill: Level 20 Cast on Charm Use":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"MetaCastOnCharmUsePlayer"
         }
       }]],
   "Grants Skill: Level 20 Chaos Bolt":[[{
@@ -49922,6 +49930,16 @@
           "skillId":"ImpurityPlayer"
         }
       }]],
+  "Grants Skill: Level 20 Life Remnants":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":20,
+          "skillId":"LifeRemnantsPlayer"
+        }
+      }]],
   "Grants Skill: Level 20 Lightning Bolt":[[{
         "flags":0,
         "keywordFlags":0,
@@ -49930,16 +49948,6 @@
         "value":{
           "level":20,
           "skillId":"UniqueBreachLightningBoltPlayer"
-        }
-      }]],
-  "Grants Skill: Level 20 Living Bomb":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"LivingBombPlayer"
         }
       }]],
   "Grants Skill: Level 20 Malice":[[{
@@ -50012,16 +50020,6 @@
           "skillId":"TriggeredMoltenShowerPlayer"
         }
       }]],
-  "Grants Skill: Level 20 Parry":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"ParryPlayer"
-        }
-      }]],
   "Grants Skill: Level 20 Phantasmal Arrow":[[{
         "flags":0,
         "keywordFlags":0,
@@ -50030,16 +50028,6 @@
         "value":{
           "level":20,
           "skillId":"PhantasmalArrowPlayer"
-        }
-      }]],
-  "Grants Skill: Level 20 Pinnacle of Power":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"PinnacleOfPowerPlayer"
         }
       }]],
   "Grants Skill: Level 20 Power Siphon":[[{
@@ -50080,16 +50068,6 @@
         "value":{
           "level":20,
           "skillId":"PurityOfLightningPlayer"
-        }
-      }]],
-  "Grants Skill: Level 20 Raise Shield":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":20,
-          "skillId":"ShieldBlockPlayer"
         }
       }]],
   "Grants Skill: Level 20 Righteous Descent":[[{
@@ -50343,6 +50321,16 @@
         "value":{
           "level":1,
           "skillId":"ParryPlayer"
+        }
+      }]],
+  "Grants Skill: Pinnacle of Power":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkill",
+        "type":"LIST",
+        "value":{
+          "level":1,
+          "skillId":"PinnacleOfPowerPlayer"
         }
       }]],
   "Grants Skill: Primal Bounty":[[{
@@ -50600,21 +50588,7 @@
         "type":"BASE",
         "value":2
       }]],
-  "Has 2 Charm Slots":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CharmLimit",
-        "type":"BASE",
-        "value":2
-      }]],
   "Has 3 Charm Slot":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CharmLimit",
-        "type":"BASE",
-        "value":3
-      }]],
-  "Has 3 Charm Slots":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"CharmLimit",
@@ -57432,24 +57406,15 @@
           "value":100
         }
       }]],
-  "This item gains bonuses from Socketed Items as though it was Boots":[null,"This item gains bonuses from Socketed Items as though it was Boots "],
-  "This item gains bonuses from Socketed Items as though it was Boots This item gains bonuses from Socketed Items as though it was Gloves":[null,"This item gains bonuses from Socketed Items as though it was Boots This item gains bonuses from Socketed Items as though it was Gloves "],
-  "This item gains bonuses from Socketed Items as though it was Gloves":[null,"This item gains bonuses from Socketed Items as though it was Gloves "],
-  "This item gains bonuses from Socketed Items as though it was Gloves This item gains bonuses from Socketed Items as though it was a Helmet":[null,"This item gains bonuses from Socketed Items as though it was Gloves This item gains bonuses from Socketed Items as though it was a Helmet "],
-  "This item gains bonuses from Socketed Items as though it was a Body Armour":[null,"This item gains bonuses from Socketed Items as though it was a Body Armour "],
-  "This item gains bonuses from Socketed Items as though it was a Body Armour Has 4 Augment Sockets":[null,"This item gains bonuses from Socketed Items as though it was a Body Armour Has 4 Augment Sockets "],
-  "This item gains bonuses from Socketed Items as though it was a Body Armour This item gains bonuses from Socketed Items as though it was Boots":[null,"This item gains bonuses from Socketed Items as though it was a Body Armour This item gains bonuses from Socketed Items as though it was Boots "],
-  "This item gains bonuses from Socketed Items as though it was a Helmet":[null,"This item gains bonuses from Socketed Items as though it was a Helmet "],
-  "This item gains bonuses from Socketed Items as though it was a Helmet This item gains bonuses from Socketed Items as though it was a Shield":[null,"This item gains bonuses from Socketed Items as though it was a Helmet This item gains bonuses from Socketed Items as though it was a Shield "],
-  "This item gains bonuses from Socketed Items as though it was a Shield":[null,"This item gains bonuses from Socketed Items as though it was a Shield "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also Boots":[null,"This item gains bonuses from Socketed Soul Cores as though it was also Boots "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also Boots This item gains bonuses from Socketed Soul Cores as though it was also Gloves":[null,"This item gains bonuses from Socketed Soul Cores as though it was also Boots This item gains bonuses from Socketed Soul Cores as though it was also Gloves "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also Gloves":[null,"This item gains bonuses from Socketed Soul Cores as though it was also Gloves "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also Gloves This item gains bonuses from Socketed Soul Cores as though it was also a Helmet":[null,"This item gains bonuses from Socketed Soul Cores as though it was also Gloves This item gains bonuses from Socketed Soul Cores as though it was also a Helmet "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Helmet "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet This item gains bonuses from Socketed Soul Cores as though it was also a Shield":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Helmet This item gains bonuses from Socketed Soul Cores as though it was also a Shield "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also a Shield":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Shield "],
-  "This item gains bonuses from Socketed Soul Cores as though it was also a Shield Has no Attribute Requirements":[null,"This item gains bonuses from Socketed Soul Cores as though it was also a Shield Has no Attribute Requirements "],
+  "This item gains bonuses from Socketed Items as though it was Boots":[[]],
+  "This item gains bonuses from Socketed Items as though it was Gloves":[[]],
+  "This item gains bonuses from Socketed Items as though it was a Body Armour":[[]],
+  "This item gains bonuses from Socketed Items as though it was a Helmet":[[]],
+  "This item gains bonuses from Socketed Items as though it was a Shield":[[]],
+  "This item gains bonuses from Socketed Soul Cores as though it was also Boots":[[]],
+  "This item gains bonuses from Socketed Soul Cores as though it was also Gloves":[[]],
+  "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet":[[]],
+  "This item gains bonuses from Socketed Soul Cores as though it was also a Shield":[[]],
   "Thorns Damage has 25% chance to ignore Enemy Armour":[[{
         "flags":32,
         "keywordFlags":0,
