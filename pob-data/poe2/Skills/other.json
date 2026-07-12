@@ -13004,6 +13004,21 @@
     },
     "statSets":[{
         "baseFlags":[],
+        "baseMods":[{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Condition:Shapeshifted",
+            "type":"FLAG",
+            "value":true,
+            "1":{
+              "effectType":"Buff",
+              "type":"GlobalEffect"
+            },
+            "2":{
+              "type":"Condition",
+              "var":"DemonForm"
+            }
+          }],
         "constantStats":[["demon_form_spell_damage_+%_final_per_stack",3]],
         "incrementalEffectiveness":0.054999999701977,
         "label":"Demon Form",
