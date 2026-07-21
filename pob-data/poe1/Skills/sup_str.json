@@ -815,6 +815,7 @@
     "color":1,
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
+    "flavourText":["Those citizens of Oriath touched by the","roving storms died most horrible deaths."],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -3793,6 +3794,7 @@
     "constantStats":[["support_bloodstained_banner_apply_corrupted_blood_every_x_ms",1000],["support_bloodstained_banner_apply_corrupted_blood_duration_ms",8000]],
     "description":"Supports banner skills. Cannot modify the skills of minions.",
     "excludeSkillTypes":[],
+    "flavourText":["\"The history of Wraeclast is marked by bloody conflicts. The rise","and fall of empires. Man slaughtered man, never suspecting the","madness lurking under the surface might not have been innate.\""],
     "ignoreMinionTypes":true,
     "incrementalEffectiveness":0.050000000745058,
     "levels":[{
@@ -4562,6 +4564,7 @@
     "constantStats":[["support_trigger_seize_the_flesh_on_warcry_chance_%",100]],
     "description":"Supports warcry skills you use yourself.",
     "excludeSkillTypes":[41,40,36,134,106],
+    "flavourText":["In its madness, Xesht desperately seeks communion."],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -7760,6 +7763,7 @@
     "color":1,
     "description":"Supports skills that create sentinel minions, causing those minions to be created with a beneficial templar aura.",
     "excludeSkillTypes":[],
+    "flavourText":["\"The world will never know our sacrifice, but","we will stand and fight for as long as it takes!\""],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":100,
@@ -9315,6 +9319,7 @@
     "constantStats":[["support_fissure_trigger_fissure_on_slam_skill_impact_chance_%",100]],
     "description":"Supports slam skills you use yourself, causing them to create fissures when impacting the ground.",
     "excludeSkillTypes":[41,40,36,134,106,30],
+    "flavourText":["\"Oh yes, K'Tash understands you. It has a keen swarm-mind","somewhere within its multitudes. It hears your pleas, but","ignores them... because it hates you with a burning fury.\""],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -10292,6 +10297,7 @@
     "constantStats":[["melee_attack_number_of_spirit_strikes",3]],
     "description":"Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
     "excludeSkillTypes":[60,41,42],
+    "flavourText":["\"I believe the Halls of the Dead are secretly a","training ground. One day, we will be called","forth to stand and fight against a great tide.\""],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -10384,6 +10390,7 @@
     "constantStats":[["base_melee_attack_repeat_count",3],["multistrike_damage_+%_final_on_first_repeat",22],["multistrike_damage_+%_final_on_second_repeat",44],["multistrike_damage_+%_final_on_third_repeat",66],["support_multiple_attack_damage_+%_final",-20],["repeat_target_selection_distance_from_initial_target_bias",3]],
     "description":"Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
     "excludeSkillTypes":[42,105,88,85,84],
+    "flavourText":["Zana watched in awe as her father spoke. With each word,","he seemed to grow larger and more frightening, drawing","increasingly fervorous responses from his rapt audience."],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":60,
@@ -15197,6 +15204,7 @@
     "color":1,
     "description":"Supports melee attack skills you use yourself. Cannot modify the skills of minions.",
     "excludeSkillTypes":[30,36,40,106],
+    "flavourText":["No walls can stand against its gaze. No fortress,","no cave, no mountain. Better to die fighting."],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -15569,6 +15577,7 @@
     "constantStats":[["support_call_the_pyre_chance_to_trigger_call_the_pyre_on_melee_hit_vs_ignited_enemies_%",50]],
     "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
     "excludeSkillTypes":[41,40,36,134,106],
+    "flavourText":["A vast pillar of hands embraces a charred sky.","Within burns a beam of purest heat."],
     "ignoreMinionTypes":true,
     "levels":[{
         "PvPDamageMultiplier":-20,
@@ -16768,6 +16777,7 @@
     "color":1,
     "description":"Supports non-blessing spells.",
     "excludeSkillTypes":[119],
+    "flavourText":["Let the eternal scream within","flow from your weeping blood."],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -17538,6 +17548,7 @@
     "color":1,
     "description":"Supports Vaal skills.",
     "excludeSkillTypes":[],
+    "flavourText":["\"If Chaos offers you a deal, challenger,","think deeply before you accept.\""],
     "levels":[{
         "levelRequirement":72,
         "statInterpolation":[1],
@@ -17627,6 +17638,7 @@
     "constantStats":[["support_blunt_chance_to_trigger_shockwave_on_hit_%",100]],
     "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
     "excludeSkillTypes":[41,88,30,106],
+    "flavourText":["The Elder's influence yet lingers","in the darkest corners of Wraeclast."],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -17979,6 +17991,7 @@
     "color":1,
     "constantStats":[["graft_skill_uulnet_bone_spires_max_spires_allowed",20],["base_skill_effect_duration",8000],["active_skill_base_area_of_effect_radius",45],["active_skill_base_secondary_area_of_effect_radius",24],["graft_skill_uulnetol_bone_spires_num_of_spires_to_create",6],["active_skill_bleeding_damage_+%_final",200]],
     "description":"Cause spires of bone to erupt from the earth around you. When you use a slam on them, these spires will explode to deal damage in an area and inflicting bleeding.",
+    "flavourText":["In its madness, Xesht desperately seeks communion."],
     "levels":[{
         "baseMultiplier":2.5,
         "cooldown":4,
@@ -18111,6 +18124,7 @@
     "color":1,
     "constantStats":[["skill_physical_damage_%_to_convert_to_fire",60],["volcanic_fissure_number_of_simultaneous_crack_count",3]],
     "description":"Creates multiple fissures that deal area damage while travelling outwards. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+    "flavourText":["\"Oh yes, K'Tash understands you. It has a keen swarm-mind","somewhere within its multitudes. It hears your pleas, but","ignores them... because it hates you with a burning fury.\""],
     "levels":[{
         "baseMultiplier":3.4,
         "cooldown":0.5,
@@ -18238,6 +18252,7 @@
     "color":1,
     "constantStats":[["cover_in_ash_on_hit_%",100],["active_skill_base_area_of_effect_radius",12],["skill_physical_damage_%_to_convert_to_fire",100]],
     "description":"Calls forth pillars of ashen flame. These pillars deal Fire damage in an area, and cover Enemies they hit in Ash. Requires a Melee Weapon or Unarmed.",
+    "flavourText":["A vast pillar of hands embraces a charred sky.","Within burns a beam of purest heat."],
     "levels":[{
         "baseMultiplier":2.2,
         "cooldown":1,
@@ -18399,6 +18414,7 @@
     "color":1,
     "constantStats":[["shockwave_support_art_variation",3],["shockwave_chained_damage_+%_final",-50]],
     "description":"Deals attack damage in an area. A number of enemies hit by the wave will release an additional wave.",
+    "flavourText":["The Elder's influence yet lingers","in the darkest corners of Wraeclast."],
     "levels":[{
         "baseMultiplier":4.4,
         "cooldown":0.5,

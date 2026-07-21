@@ -121,6 +121,40 @@
   "+(9-14)% to Cold Resistance":[null,"+(9-14)% to Cold Resistance "],
   "+(9-14)% to Fire Resistance":[null,"+(9-14)% to Fire Resistance "],
   "+(9-14)% to Lightning Resistance":[null,"+(9-14)% to Lightning Resistance "],
+  "+0 metres to Melee Strike Range":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0
+      }]],
+  "+0 metres to Melee Strike Range per White Socket":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
+      }]],
   "+0 metres to Melee Strike Range with Unarmed Attacks":[[{
         "flags":16777220,
         "keywordFlags":0,
@@ -134,107 +168,10 @@
         "type":"BASE",
         "value":0
       }]],
-  "+0 seconds to Avian's Flight Duration":[[{
+  "+0 metres to Weapon Range":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"SecondaryDuration",
-        "type":"BASE",
-        "value":0,
-        "1":{
-          "skillName":"Aspect of the Avian",
-          "type":"SkillName"
-        }
-      }]],
-  "+0 seconds to Avian's Might Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PrimaryDuration",
-        "type":"BASE",
-        "value":0,
-        "1":{
-          "skillName":"Aspect of the Avian",
-          "type":"SkillName"
-        }
-      }]],
-  "+0 to Level of all Spell Skill Gems":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyOfScaledMod":"value",
-          "keywordList":["spell","skill"],
-          "value":0
-        }
-      }]],
-  "+0 to Maximum Rage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MaximumRage",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0 to maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Life",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0 to maximum number of Eaten Souls":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SoulEaterMax",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to Chaos Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosResist",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to Cold Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdResist",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to Fire Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireResist",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to Lightning Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningResist",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to maximum Cold Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdResistMax",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to maximum Fire Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireResistMax",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0% to maximum Lightning Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningResistMax",
+        "name":"WeaponRangeMetre",
         "type":"BASE",
         "value":0
       }]],
@@ -297,27 +234,6 @@
         "type":"BASE",
         "value":0.2
       }]],
-  "+0.2 metres to Melee Strike Range per White Socket":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":0.2,
-        "1":{
-          "type":"Multiplier",
-          "var":"WhiteSocketIn{SlotName}"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":0.2,
-        "1":{
-          "type":"Multiplier",
-          "var":"WhiteSocketIn{SlotName}"
-        }
-      }]],
   "+0.2 metres to Melee Strike Range while Holding a Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -338,13 +254,6 @@
           "type":"Condition",
           "varList":["UsingShield"]
         }
-      }]],
-  "+0.2 metres to Weapon Range":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WeaponRangeMetre",
-        "type":"BASE",
-        "value":0.2
       }]],
   "+0.2% to Off Hand Critical Strike Chance per 10 Maximum Energy Shield on Shield":[[{
         "flags":0,
@@ -438,32 +347,6 @@
           "type":"MultiplierThreshold",
           "var":"NearbyEnemies"
         }
-      }]],
-  "+0.4 metres to Melee Strike Range with Unarmed Attacks":[[{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":0.4
-      },{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":0.4
-      }]],
-  "+0.7 metres to Melee Strike Range with Unarmed Attacks":[[{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":0.7
-      },{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":0.7
       }]],
   "+0.75% to Critical Strike Chance":[[{
         "flags":0,
@@ -5198,39 +5081,6 @@
           "type":"PerStat"
         }
       }]],
-  "+2 seconds to Avian's Flight Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SecondaryDuration",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "skillName":"Aspect of the Avian",
-          "type":"SkillName"
-        }
-      }]],
-  "+2 seconds to Avian's Might Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PrimaryDuration",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "skillName":"Aspect of the Avian",
-          "type":"SkillName"
-        }
-      }]],
-  "+2 seconds to Cat's Stealth Duration":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PrimaryDuration",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "skillName":"Aspect of the Cat",
-          "type":"SkillName"
-        }
-      }]],
   "+2 to Level of Socketed AoE Gems":[[{
         "flags":0,
         "keywordFlags":0,
@@ -5929,29 +5779,6 @@
           "var":"UsingFlask"
         }
       }]],
-  "+2% to Critical Strike Chance while affected by Hatred":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByHatred"
-        }
-      }]],
-  "+2% to Spell Critical Strike Chance if 4 Shaper Items are Equipped":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "threshold":4,
-          "type":"MultiplierThreshold",
-          "var":"ShaperItem"
-        }
-      }]],
   "+2% to all Elemental Resistances per 10 Devotion":[[{
         "flags":0,
         "keywordFlags":0,
@@ -6063,6 +5890,39 @@
         "name":"LightningResistMax",
         "type":"BASE",
         "value":2
+      }]],
+  "+2.00 seconds to Avian's Flight Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SecondaryDuration",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "skillName":"Aspect of the Avian",
+          "type":"SkillName"
+        }
+      }]],
+  "+2.00 seconds to Avian's Might Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PrimaryDuration",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "skillName":"Aspect of the Avian",
+          "type":"SkillName"
+        }
+      }]],
+  "+2.00 seconds to Cat's Stealth Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PrimaryDuration",
+        "type":"BASE",
+        "value":2,
+        "1":{
+          "skillName":"Aspect of the Cat",
+          "type":"SkillName"
+        }
       }]],
   "+20 to Accuracy Rating":[[{
         "flags":0,
@@ -18168,32 +18028,27 @@
         "type":"BASE",
         "value":-8
       }]],
+  "0 to Level of all Spell Skill Gems":[[]," to Level of all  Skill Gems "],
+  "0 to Maximum Rage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MaximumRage",
+        "type":"BASE",
+        "value":0
+      }]," to  "],
+  "0 to maximum Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Life",
+        "type":"BASE",
+        "value":0
+      }]," to  "],
+  "0 to maximum number of Eaten Souls":[[]," to maximum number of Eaten Souls "],
   "0% increased Mana Burn rate":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"TinctureManaBurnRate",
         "type":"INC",
-        "value":0
-      }]],
-  "0% of Attack Damage Leeched as Mana":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"DamageManaLeech",
-        "type":"BASE",
-        "value":0
-      }]],
-  "0% of Chaos Damage Leeched as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosDamageLifeLeech",
-        "type":"BASE",
-        "value":0
-      }]],
-  "0% of Physical Attack Damage Leeched as Life":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"PhysicalDamageLifeLeech",
-        "type":"BASE",
         "value":0
       }]],
   "0% reduced Area of Effect for Attacks":[[{
@@ -18252,6 +18107,69 @@
         "type":"INC",
         "value":0
       }]],
+  "0% to Chaos Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosResist",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0% to Cold Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdResist",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0% to Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResist",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0% to Lightning Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningResist",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0% to maximum Cold Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ColdResistMax",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0% to maximum Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResistMax",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0% to maximum Lightning Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningResistMax",
+        "type":"BASE",
+        "value":0
+      }],"% to  "],
+  "0.00 seconds to Avian's Flight Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"BASE",
+        "value":0
+      }],".00 seconds to Avian's Flight  "],
+  "0.00 seconds to Avian's Might Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Duration",
+        "type":"BASE",
+        "value":0
+      }],".00 seconds to Avian's Might  "],
   "0.2% of Attack Damage Leeched as Mana per Power Charge":[[{
         "flags":1,
         "keywordFlags":0,
@@ -21607,13 +21525,6 @@
         "type":"BASE",
         "value":1
       }]],
-  "1% of Chaos Damage Leeched as Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosDamageLifeLeech",
-        "type":"BASE",
-        "value":1
-      }]],
   "1% of Cold Damage Leeched as Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21741,17 +21652,6 @@
         "1":{
           "type":"Multiplier",
           "var":"PowerCharge"
-        }
-      }]],
-  "1% of Damage leeched as Life while affected by Vitality":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageLifeLeech",
-        "type":"BASE",
-        "value":1,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByVitality"
         }
       }]],
   "1% of Physical Attack Damage Leeched as Life":[[{
@@ -34007,17 +33907,6 @@
           "var":"Shocked"
         }
       }]],
-  "2% of Damage leeched as Life while affected by Vitality":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DamageLifeLeech",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByVitality"
-        }
-      }]],
   "2% of Fire Damage Leeched as Life while Ignited":[[{
         "flags":0,
         "keywordFlags":0,
@@ -34027,50 +33916,6 @@
         "1":{
           "type":"Condition",
           "var":"Ignited"
-        }
-      }]],
-  "2% of Fire Damage Leeched as Life while affected by Anger":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamageLifeLeech",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByAnger"
-        }
-      }]],
-  "2% of Life Regenerated per Second if you've dealt a Critical Strike in the past 8 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"CritInPast8Sec"
-        }
-      }]],
-  "2% of Lightning Damage is Leeched as Energy Shield while affected by Wrath":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningDamageEnergyShieldLeech",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByWrath"
-        }
-      }]],
-  "2% of Lightning Damage is Leeched as Mana while affected by Wrath":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningDamageManaLeech",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByWrath"
         }
       }]],
   "2% of Physical Attack Damage Leeched as Life":[[{
@@ -34121,12 +33966,12 @@
           "var":"Level"
         }
       }]],
-  "2.25% of Life Regenerated per Second if you've dealt a Critical Strike in the past 8 seconds":[[{
+  "2.3% of Life Regenerated per Second if you've dealt a Critical Strike in the past 8 seconds":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LifeRegenPercent",
         "type":"BASE",
-        "value":2.25,
+        "value":2.3,
         "1":{
           "type":"Condition",
           "var":"CritInPast8Sec"
@@ -42264,17 +42109,6 @@
           "var":"ShaperItem"
         }
       }]],
-  "3% of Life Regenerated per Second if you've dealt a Critical Strike in the past 8 seconds":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":3,
-        "1":{
-          "type":"Condition",
-          "var":"CritInPast8Sec"
-        }
-      }]],
   "3% of Physical Attack Damage Leeched as Life":[[{
         "flags":1,
         "keywordFlags":0,
@@ -42292,18 +42126,6 @@
           "threshold":2,
           "type":"MultiplierThreshold",
           "var":"ElderItem"
-        }
-      }]],
-  "3% of Physical Damage Prevented Recently is Regenerated as Energy Shield Per Second if 6 Crusader Items are Equipped":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamageMitigatedEnergyShieldPseudoRecoup",
-        "type":"BASE",
-        "value":12,
-        "1":{
-          "threshold":6,
-          "type":"MultiplierThreshold",
-          "var":"CrusaderItem"
         }
       }]],
   "3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second":[[{
@@ -42344,6 +42166,18 @@
         "name":"MovementSpeed",
         "type":"INC",
         "value":-3
+      }]],
+  "3.0% of Physical Damage Prevented Recently is Regenerated as Energy Shield Per Second if 6 Crusader Items are Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"PhysicalDamageMitigatedEnergyShieldPseudoRecoup",
+        "type":"BASE",
+        "value":12,
+        "1":{
+          "threshold":6,
+          "type":"MultiplierThreshold",
+          "var":"CrusaderItem"
+        }
       }]],
   "30% Chance to Block Spell Damage":[[{
         "flags":0,
@@ -45530,13 +45364,6 @@
         "name":"ArmourAndEnergyShield",
         "type":"INC",
         "value":333
-      }]],
-  "34% increased Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":34
       }]],
   "340% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
@@ -72704,18 +72531,6 @@
           "var":"ElderItem"
         }
       }]],
-  "Attacks have +2% to Critical Strike Chance if 4 Elder Items are Equipped":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "threshold":4,
-          "type":"MultiplierThreshold",
-          "var":"ElderItem"
-        }
-      }]],
   "Attacks have 10% chance to Ignite":[[{
         "flags":1,
         "keywordFlags":0,
@@ -80050,6 +79865,95 @@
           "type":"SkillId"
         }
       }]],
+  "Elemental Weakness has no Reservation if Cast as an Aura":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"manaReservationFlat",
+          "value":0
+        },
+        "1":{
+          "skillId":"ElementalWeakness",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"lifeReservationFlat",
+          "value":0
+        },
+        "1":{
+          "skillId":"ElementalWeakness",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"manaReservationPercent",
+          "value":0
+        },
+        "1":{
+          "skillId":"ElementalWeakness",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"lifeReservationPercent",
+          "value":0
+        },
+        "1":{
+          "skillId":"ElementalWeakness",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      }]],
   "Elusive also grants +40% to Critical Strike Multiplier for Skills Supported by Nightblade":[[{
         "flags":0,
         "keywordFlags":0,
@@ -82053,6 +81957,95 @@
           "type":"SkillId"
         }
       }]],
+  "Enfeeble has no Reservation if Cast as an Aura":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"manaReservationFlat",
+          "value":0
+        },
+        "1":{
+          "skillId":"Enfeeble",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"lifeReservationFlat",
+          "value":0
+        },
+        "1":{
+          "skillId":"Enfeeble",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"manaReservationPercent",
+          "value":0
+        },
+        "1":{
+          "skillId":"Enfeeble",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"lifeReservationPercent",
+          "value":0
+        },
+        "1":{
+          "skillId":"Enfeeble",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      }]],
   "Envy has no Reservation":[[{
         "flags":0,
         "keywordFlags":0,
@@ -83041,7 +83034,7 @@
           "var":"NearbyCorpse"
         }
       }]],
-  "For each nearby corpse, Regenerate 8 Life per second":[[{
+  "For each nearby corpse, Regenerate 8.00 Life per second":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LifeRegen",
@@ -83126,8 +83119,8 @@
         }
       }]],
   "Freezes you inflict spread to other Enemies within 1.2 metres":[null,"Freezes you inflict spread to other Enemies within 1.2 metres "],
-  "Freezes you inflict spread to other Enemies within 1.5 metres":[null,"Freezes you inflict spread to other Enemies within 1.5 metres "],
   "Freezes you inflict spread to other Enemies within 1.5 metres 60% increased Damage if you've Frozen an Enemy Recently":[null,"Freezes you inflict spread to other Enemies within 1.5 metres 60% increased Damage if you've Frozen an Enemy Recently "],
+  "Freezes you inflict spread to other Enemies within 2 metres":[null,"Freezes you inflict spread to other Enemies within 2 metres "],
   "Frenzy or Power Charge":[null,"or Power Charge "],
   "Frostbite can affect Hexproof Enemies":[[{
         "flags":0,
@@ -90156,12 +90149,12 @@
         "type":"INC",
         "value":8
       }]],
-  "Ignites you inflict during Effect spread to other Enemies within 1.5 metres":[null,"Ignites you inflict during Effect spread to other Enemies within 1.5 metres "],
   "Ignites you inflict during Effect spread to other Enemies within 1.5 metres Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect":[null,"Ignites you inflict during Effect spread to other Enemies within 1.5 metres Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect "],
-  "Ignites you inflict spread to other Enemies within 1.2 metres":[null,"Ignites you inflict spread to other Enemies within 1.2 metres "],
+  "Ignites you inflict during Effect spread to other Enemies within 2 metres":[null,"Ignites you inflict during Effect spread to other Enemies within 2 metres "],
+  "Ignites you inflict spread to other Enemies within 1 metres":[null,"Ignites you inflict spread to other Enemies within 1 metres "],
   "Ignites you inflict spread to other Enemies within 1.2 metres Ignites you inflict spread to other Enemies within 1.5 metres":[null,"Ignites you inflict spread to other Enemies within 1.2 metres Ignites you inflict spread to other Enemies within 1.5 metres "],
-  "Ignites you inflict spread to other Enemies within 1.5 metres":[null,"Ignites you inflict spread to other Enemies within 1.5 metres "],
   "Ignites you inflict spread to other Enemies within 1.5 metres Recover 60 Life when you Ignite an Enemy":[null,"Ignites you inflict spread to other Enemies within 1.5 metres Recover 60 Life when you Ignite an Enemy "],
+  "Ignites you inflict spread to other Enemies within 2 metres":[null,"Ignites you inflict spread to other Enemies within 2 metres "],
   "Ignites you inflict spread to other Enemies within a Radius of 1.5 metres":[null,"Ignites you inflict spread to other Enemies within a Radius of 1.5 metres "],
   "Ignites you inflict with Attacks deal Damage 20% faster":[[{
         "flags":1,
@@ -90177,8 +90170,8 @@
         "type":"INC",
         "value":35
       }]],
-  "Ignites you inflict with this weapon spread to other Enemies within 2.8 metres":[null,"Ignites you inflict with this weapon spread to other Enemies within 2.8 metres "],
   "Ignites you inflict with this weapon spread to other Enemies within 2.8 metres Unaffected by Ignite":[null,"Ignites you inflict with this weapon spread to other Enemies within 2.8 metres Unaffected by Ignite "],
+  "Ignites you inflict with this weapon spread to other Enemies within 3 metres":[null,"Ignites you inflict with this weapon spread to other Enemies within 3 metres "],
   "Ignore Attribute Requirements":[[{
         "flags":0,
         "keywordFlags":0,
@@ -93377,18 +93370,6 @@
         "type":"BASE",
         "value":100
       }]],
-  "Melee Attacks have +1% to Critical Strike Chance against Excommunicated Enemies":[[{
-        "flags":256,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":1,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Excommunicated"
-        }
-      }]],
   "Melee Attacks have +1.2% to Critical Strike Chance against Excommunicated Enemies":[[{
         "flags":256,
         "keywordFlags":0,
@@ -93407,18 +93388,6 @@
         "name":"CritChance",
         "type":"BASE",
         "value":1.6,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"Excommunicated"
-        }
-      }]],
-  "Melee Attacks have +2% to Critical Strike Chance against Excommunicated Enemies":[[{
-        "flags":256,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"BASE",
-        "value":2,
         "1":{
           "actor":"enemy",
           "type":"ActorCondition",
@@ -93890,21 +93859,6 @@
             "name":"LifeRegenPercent",
             "type":"BASE",
             "value":2.5
-          }
-        }
-      }]],
-  "Minions Regenerate 3% of Life per second":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"LifeRegenPercent",
-            "type":"BASE",
-            "value":3
           }
         }
       }]],
@@ -95254,21 +95208,6 @@
       }]],
   "Minions have (15-20)% increased maximum Life":[null,"(15-20)% increased maximum Life "],
   "Minions have (15-20)% increased maximum Life Minions deal (25-35)% increased Damage":[null,"(15-20)% increased maximum Life Minions deal (25-35)% increased Damage "],
-  "Minions have +0% to Chaos Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"ChaosResist",
-            "type":"BASE",
-            "value":0
-          }
-        }
-      }]],
   "Minions have +10% Chance to Block Attack Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -95832,6 +95771,21 @@
           }
         }
       }]],
+  "Minions have 0% to Chaos Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"ChaosResist",
+            "type":"BASE",
+            "value":0
+          }
+        }
+      }],"% to  "],
   "Minions have 1% chance to deal Double Damage per Fortification on you":[[{
         "flags":0,
         "keywordFlags":0,
@@ -101190,6 +101144,95 @@
           "type":"SkillId"
         }
       }]],
+  "Punishment has no Reservation if Cast as an Aura":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"manaReservationFlat",
+          "value":0
+        },
+        "1":{
+          "skillId":"Punishment",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"lifeReservationFlat",
+          "value":0
+        },
+        "1":{
+          "skillId":"Punishment",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"manaReservationPercent",
+          "value":0
+        },
+        "1":{
+          "skillId":"Punishment",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SkillData",
+        "type":"LIST",
+        "value":{
+          "key":"lifeReservationPercent",
+          "value":0
+        },
+        "1":{
+          "skillId":"Punishment",
+          "type":"SkillId"
+        },
+        "2":{
+          "skillType":43,
+          "type":"SkillType"
+        },
+        "3":{
+          "neg":true,
+          "skillType":119,
+          "type":"SkillType"
+        }
+      }]],
   "Purity of Elements has 100% increased Mana Reservation Efficiency":[[{
         "flags":0,
         "keywordFlags":0,
@@ -102207,7 +102250,7 @@
           "type":"SkillName"
         }
       }]],
-  "Raised Zombies take 23% of their Maximum Life per second as Fire Damage":[[{
+  "Raised Zombies take 22.5% of their Maximum Life per second as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"MinionModifier",
@@ -102220,7 +102263,7 @@
             "type":"BASE",
             "value":1,
             "1":{
-              "percent":23,
+              "percent":22.5,
               "stat":"Life",
               "type":"PercentStat"
             }
@@ -103265,17 +103308,6 @@
           "type":"PerStat"
         }
       }]],
-  "Regenerate 1% of Life per second per Endurance Charge":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":1,
-        "1":{
-          "type":"Multiplier",
-          "var":"EnduranceCharge"
-        }
-      }]],
   "Regenerate 1% of Life per second per Frenzy Charge":[[{
         "flags":0,
         "keywordFlags":0,
@@ -103285,17 +103317,6 @@
         "1":{
           "type":"Multiplier",
           "var":"FrenzyCharge"
-        }
-      }]],
-  "Regenerate 1% of Life per second per Power Charge":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":1,
-        "1":{
-          "type":"Multiplier",
-          "var":"PowerCharge"
         }
       }]],
   "Regenerate 1% of Life per second while on Low Life":[[{
@@ -103366,7 +103387,7 @@
           "var":"Channelling"
         }
       }]],
-  "Regenerate 1.5% of Life per second while affected by Vitality":[[{
+  "Regenerate 1.50% of Life per second while affected by Vitality":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LifeRegenPercent",
@@ -103586,13 +103607,6 @@
           "type":"Condition",
           "var":"Ignited"
         }
-      }]],
-  "Regenerate 13 Life per second":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegen",
-        "type":"BASE",
-        "value":13
       }]],
   "Regenerate 140 Life per Second while affected by Vitality":[[{
         "flags":0,
@@ -103921,17 +103935,6 @@
           "var":"OnChilledGround"
         }
       }]],
-  "Regenerate 2% of Life per second while affected by Vitality":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegenPercent",
-        "type":"BASE",
-        "value":2,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByVitality"
-        }
-      }]],
   "Regenerate 2% of Life per second while on Low Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -103977,17 +103980,6 @@
           "var":"ConsumedCorpseRecently"
         }
       }]],
-  "Regenerate 2.5% of Energy Shield per Second while affected by Discipline":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShieldRegenPercent",
-        "type":"BASE",
-        "value":2.5,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByDiscipline"
-        }
-      }]],
   "Regenerate 2.5% of Life per Second if you've Detonated a Mine Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -103997,6 +103989,17 @@
         "1":{
           "type":"Condition",
           "var":"DetonatedMinesRecently"
+        }
+      }]],
+  "Regenerate 2.50% of Energy Shield per Second while affected by Discipline":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldRegenPercent",
+        "type":"BASE",
+        "value":2.5,
+        "1":{
+          "type":"Condition",
+          "var":"AffectedByDiscipline"
         }
       }]],
   "Regenerate 20 Life per second":[[{
@@ -104134,17 +104137,6 @@
         "name":"ManaRegen",
         "type":"BASE",
         "value":3
-      }]],
-  "Regenerate 3% of Energy Shield per Second while affected by Discipline":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnergyShieldRegenPercent",
-        "type":"BASE",
-        "value":3,
-        "1":{
-          "type":"Condition",
-          "var":"AffectedByDiscipline"
-        }
       }]],
   "Regenerate 3% of Energy Shield per second":[[{
         "flags":0,
@@ -104523,13 +104515,6 @@
           "type":"Condition",
           "var":"CastLast1Seconds"
         }
-      }]],
-  "Regenerate 8 Life per second":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeRegen",
-        "type":"BASE",
-        "value":8
       }]],
   "Regenerate 8% of Energy Shield over 2 seconds when you Consume a corpse":[[{
         "flags":0,
@@ -114866,8 +114851,8 @@
         "type":"BASE",
         "value":1
       }]],
-  "Spells which have gained Intensity Recently gain 1 Intensity every 0.5 Seconds":[null,"Spells which have gained Intensity Recently gain 1 Intensity every 0.5 Seconds "],
-  "Spells which have gained Intensity Recently lose 1 Intensity every 0.5 Seconds":[null,"Spells which have gained Intensity Recently lose 1 Intensity every 0.5 Seconds "],
+  "Spells which have gained Intensity Recently gain 1 Intensity every 0.50 Seconds":[null,"Spells which have gained Intensity Recently gain 1 Intensity every 0.50 Seconds "],
+  "Spells which have gained Intensity Recently lose 1 Intensity every 0.50 Seconds":[null,"Spells which have gained Intensity Recently lose 1 Intensity every 0.50 Seconds "],
   "Spend Energy Shield before Mana for Costs of Socketed Skills":[null,"Spend Energy Shield before Mana for Costs of Socketed Skills "],
   "Spend Energy Shield before Mana for Costs of Socketed Skills +165 to maximum Energy Shield":[null,"Spend Energy Shield before Mana for Costs of Socketed Skills +165 to maximum Energy Shield "],
   "Spend Energy Shield before Mana for Skill Mana Costs":[[]],
@@ -116055,7 +116040,7 @@
           "type":"SkillName"
         }
       }]],
-  "Summoned Skeletons take 23% of their Maximum Life per second as Fire Damage":[[{
+  "Summoned Skeletons take 22.5% of their Maximum Life per second as Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"MinionModifier",
@@ -116068,7 +116053,7 @@
             "type":"BASE",
             "value":1,
             "1":{
-              "percent":23,
+              "percent":22.5,
               "stat":"Life",
               "type":"PercentStat"
             }
@@ -118289,6 +118274,13 @@
           "type":"GlobalEffect",
           "unscalable":true
         }
+      }]],
+  "Unaffected by Blind":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnaffectedByBlind",
+        "type":"FLAG",
+        "value":true
       }]],
   "Unaffected by Burning Ground":[null,"Unaffected by Burning Ground "],
   "Unaffected by Burning Ground while affected by Purity of Fire":[null,"Unaffected by Burning Ground while affected by Purity of Fire "],

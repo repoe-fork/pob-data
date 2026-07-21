@@ -4263,6 +4263,7 @@
     "constantStats":[["trigger_on_ward_break_%_chance",100],["cooldown_recovery_rate_+%_per_100_ward",5]],
     "description":"Each supported spell skill will be triggered when your Ward breaks. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
     "excludeSkillTypes":[36,40,30,43,60,134],
+    "flavourText":["\"Prove yourself! Are you a knave, or a knight?","I shall know by the strength of your blows!\""],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
@@ -6111,6 +6112,7 @@
     "constantStats":[["damage_removed_from_minions_before_life_or_es_%_if_only_one_minion",15]],
     "description":"Supports skills that create minions which can be damaged. Cannot support triggered skills.",
     "excludeSkillTypes":[128,41],
+    "flavourText":["The Black Sekhema was a formidable fighter","alongside her dekhara, but she was unstoppable","when she fought atop her trusted mount, Shiyo."],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -6443,6 +6445,7 @@
     "color":2,
     "description":"Supports any skill that hits enemies. If normal or magic enemies are left below a percentage of maximum life after being hit by these skills, they will be killed.",
     "excludeSkillTypes":[],
+    "flavourText":["\"Beidat is the lesser of three evils. The other two desire only","to consume us, but under him, there is a chance to survive...","a chance to serve... if you can prove yourself useful.\""],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -8077,6 +8080,7 @@
     "constantStats":[["number_of_chains",1],["support_chain_count_+%_final",50],["terrain_arrow_attachment_chance_reduction_+%",150]],
     "description":"Supports projectile skills, and any other skills that chain.",
     "excludeSkillTypes":[],
+    "flavourText":["\"We are all connected. Each of us burns with the same fire.","Queen Hyrri knew that... she chooses to battle still, somewhere","beyond Hinekora's sight. There must be a very good reason.\""],
     "levels":[{
         "PvPDamageMultiplier":-30,
         "levelRequirement":72,
@@ -8182,6 +8186,7 @@
     "constantStats":[["number_of_additional_forks_base",1],["terrain_arrow_attachment_chance_reduction_+%",150]],
     "description":"Supports projectile skills, making their projectiles fork into two projectiles the first two times they hit an enemy and don't pierce it.",
     "excludeSkillTypes":[],
+    "flavourText":["Lioneye earned his moniker by killing","three men with a single arrow."],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -9678,6 +9683,7 @@
     "color":2,
     "description":"Supports skills which throw Traps or Mines.",
     "excludeSkillTypes":[],
+    "flavourText":["\"The direct approach failed. So be it. In my crusade","to protect Wraeclast, I must take... a longer view.\""],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -10071,6 +10077,7 @@
     "constantStats":[["additional_poisons_+_to_apply_vs_non_poisoned_enemies",2]],
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
+    "flavourText":["\"They cast me into a pit of vipers, and","that is where I found my true self.\""],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
@@ -10410,6 +10417,7 @@
     "constantStats":[["skill_cost_+%_per_keystone",10]],
     "description":"Supports skills that hit enemies. Cannot modify the skills of minions.",
     "excludeSkillTypes":[],
+    "flavourText":["\"My master enjoys the strange, and the unexpected.","I'm sure you can think of a few ways to entertain them.\""],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -12538,6 +12546,7 @@
     "color":2,
     "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
+    "flavourText":["\"My people refused to take part in the ills of Wraeclast.","They were called primitives by some, and cowards by","others... but they are gone, and we still remain.\""],
     "levels":[{
         "levelRequirement":72,
         "statInterpolation":[1],
@@ -15380,6 +15389,7 @@
     "color":2,
     "description":"Supports skills that hit enemies, causing them to gain bonuses while you have unholy resonance of lightning, physical and chaos, and to grant unholy resonance of damage types other than the highest one in a hit. There is a maximum of 50 unholy resonance for each damage type. Cannot support triggered skills, instant skills, orb skills, brands, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
     "excludeSkillTypes":[36,40,30,74,15,41,60,75,111],
+    "flavourText":["It was a delicate balancing act for Malachai to ensure the loyalty","of his three students - each as ambitious as they were depraved."],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -16367,6 +16377,7 @@
     "color":2,
     "description":"Supports ranged attack skills that fire projectiles upwards. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
     "excludeSkillTypes":[41,40,36,134,30,106],
+    "flavourText":["\"Not even stopping to look behind, I dove through the shimmering window...","With not a minute to waste, I took a nearby tool and jammed it into the infernal","device, where it hummed, ominously entrenched in my laboratory floor.\""],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
@@ -17050,6 +17061,7 @@
     "color":2,
     "constantStats":[["windstorm_storm_maximum_stages",10],["base_skill_effect_duration",10000],["windstorm_storm_limit",3],["base_windstorm_storm_stage_gained_per_X_ms",200],["windstorm_storm_area_of_effect_+%_final_per_stage",15],["windstorm_storm_hit_damage_+%_final_on_detonation_per_stage",40],["active_skill_base_area_of_effect_radius",18]],
     "description":"Creates a voidstorm that blinds enemies within it. Entering the storm will cause it to explode, dealing attack damage in an area.",
+    "flavourText":["\"Not even stopping to look behind, I dove through the shimmering window...","With not a minute to waste, I took a nearby tool and jammed it into the infernal","device, where it hummed, ominously entrenched in my laboratory floor.\""],
     "levels":[{
         "baseMultiplier":1.4,
         "cooldown":0.5,
