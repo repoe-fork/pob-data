@@ -1,6 +1,7 @@
 {
   "Amethyst Ring":{
     "implicit":"+(17-23)% to Chaos Resistance",
+    "implicitIds":["ChaosResistImplicitRing1"],
     "implicitModTypes":[["chaos","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -23,6 +24,7 @@
   },
   "Bone Ring":{
     "implicit":"Minions have +(10-15)% to all Elemental Resistances",
+    "implicitIds":["MinionElementalResistanceImplicitRing1"],
     "implicitModTypes":[["elemental","resistance","minion"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -46,6 +48,7 @@
   },
   "Breach Ring":{
     "implicit":"Properties are doubled while in a Breach",
+    "implicitIds":["ItemStatsDoubledInBreachImplicit"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -67,6 +70,7 @@
   },
   "Cerulean Ring":{
     "implicit":"(8-10)% increased maximum Mana",
+    "implicitIds":["MaximumManaImplicitAtlasRing_"],
     "implicitModTypes":[["resource","mana"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -92,6 +96,7 @@
   },
   "Cogwork Ring":{
     "implicit":"-1 Prefix Modifier allowed\n+1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed\n25% increased Suffix Modifier magnitudes",
+    "implicitIds":["MaxPrefixMaxSuffixImplicitE1__"],
     "implicitModTypes":[[],[],[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -116,6 +121,7 @@
   },
   "Composite Ring":{
     "implicit":"+3 Prefix Modifiers allowed\n-3 Suffix Modifiers allowed\nImplicit Modifiers Cannot Be Changed",
+    "implicitIds":["MaxPrefixMaxSuffixImplicitE3"],
     "implicitModTypes":[[],[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -140,6 +146,7 @@
   },
   "Coral Ring":{
     "implicit":"+(20-30) to maximum Life",
+    "implicitIds":["IncreasedLifeImplicitRing1"],
     "implicitModTypes":[["resource","life"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -161,6 +168,7 @@
   "Cryonic Ring":{
     "flavourText":["We lie eternal, eyes open, yet still."],
     "implicit":"+2% to maximum Cold Resistance\nCannot roll Modifiers of Non-Cold Damage Types",
+    "implicitIds":["TulBreachRingImplicit"],
     "implicitModTypes":[["elemental","cold","resistance"],["elemental","cold","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -184,6 +192,7 @@
   },
   "Diamond Ring":{
     "implicit":"(20-30)% increased Global Critical Strike Chance",
+    "implicitIds":["CriticalStrikeChanceImplicitRing1"],
     "implicitModTypes":[["critical"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -206,6 +215,7 @@
   },
   "Dusk Ring":{
     "implicit":"Left ring slot: 15% reduced Skill Effect Duration\nRight ring slot: 15% increased Skill Effect Duration",
+    "implicitIds":["ReflectedDurationRingImplicitK1"],
     "implicitModTypes":[[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -230,6 +240,7 @@
   "Enthalpic Ring":{
     "flavourText":["The embers of the Red Pyre yet glow."],
     "implicit":"+2% to maximum Fire Resistance\nCannot roll Modifiers of Non-Fire Damage Types",
+    "implicitIds":["XophBreachRingImplicit"],
     "implicitModTypes":[["elemental","fire","resistance"],["elemental","fire","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -253,6 +264,7 @@
   },
   "Formless Ring":{
     "implicit":"(5-7)% increased Global Defences",
+    "implicitIds":["FormlessBreachRingImplicit"],
     "implicitModTypes":[["defences"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -277,6 +289,7 @@
   "Fugitive Ring":{
     "flavourText":["We will seize back our wayward Dream."],
     "implicit":"+2% to maximum Chaos Resistance\nCannot roll Modifiers of Non-Chaos Damage Types",
+    "implicitIds":["ChayulaBreachRingImplicit"],
     "implicitModTypes":[["chaos","resistance"],["chaos","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -300,6 +313,7 @@
   },
   "Geodesic Ring":{
     "implicit":"+1 Prefix Modifier allowed\n-1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed\n25% increased Prefix Modifier magnitudes",
+    "implicitIds":["MaxPrefixMaxSuffixImplicitE2_"],
     "implicitModTypes":[[],[],[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -324,6 +338,7 @@
   },
   "Gloam Ring":{
     "implicit":"Left ring slot: Minions take 15% reduced Damage\nRight ring slot: Minions take 15% increased Damage",
+    "implicitIds":["ReflectedMinionDamageTakenImplicitK3"],
     "implicitModTypes":[["minion"],["minion"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -348,6 +363,7 @@
   },
   "Gold Ring":{
     "implicit":"(6-15)% increased Rarity of Items found",
+    "implicitIds":["ItemFoundRarityIncreaseImplicitRing1"],
     "implicitModTypes":[["drop"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -370,6 +386,7 @@
   },
   "Golden Hoop":{
     "implicit":"+(8-12) to all Attributes",
+    "implicitIds":["AllAttributesImplicitDemigodRing1"],
     "implicitModTypes":[["attribute"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -394,6 +411,7 @@
   },
   "Helical Ring":{
     "implicit":"-2 Prefix Modifiers allowed\n+1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed\n50% increased Suffix Modifier magnitudes",
+    "implicitIds":["MaxPrefixMaxSuffixImplicitE6"],
     "implicitModTypes":[[],[],[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -418,6 +436,7 @@
   },
   "Iolite Ring":{
     "implicit":"(17-23)% increased Chaos Damage",
+    "implicitIds":["IncreasedChaosDamageImplicit1_"],
     "implicitModTypes":[["chaos_damage","damage","chaos"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -443,6 +462,7 @@
   },
   "Iron Ring":{
     "implicit":"Adds 1 to 4 Physical Damage to Attacks",
+    "implicitIds":["AddedPhysicalDamageImplicitRing1"],
     "implicitModTypes":[["physical_damage","damage","physical","attack"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -463,6 +483,7 @@
   },
   "Jet Ring":{
     "implicit":"(5-10)% increased Global Defences",
+    "implicitIds":["AllDefensesImplicitJetRing"],
     "implicitModTypes":[["defences"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -485,6 +506,7 @@
   },
   "Manifold Ring":{
     "implicit":"+1 Prefix Modifier allowed\n-2 Suffix Modifiers allowed\nImplicit Modifiers Cannot Be Changed\n50% increased Prefix Modifier magnitudes",
+    "implicitIds":["MaxPrefixMaxSuffixImplicitE4"],
     "implicitModTypes":[[],[],[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -509,6 +531,7 @@
   },
   "Moonstone Ring":{
     "implicit":"+(15-25) to maximum Energy Shield",
+    "implicitIds":["IncreasedEnergyShieldImplicitRing1"],
     "implicitModTypes":[["defences","energy_shield"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -531,6 +554,7 @@
   },
   "Nameless Ring":{
     "implicit":"50% increased Elemental Ailment Duration on you\n50% reduced Effect of Curses on you",
+    "implicitIds":["CurseEffectElementalAilmentDurationOnSelfR1"],
     "implicitModTypes":[["elemental"],["elemental"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -554,6 +578,7 @@
   },
   "Opal Ring":{
     "implicit":"(15-25)% increased Elemental Damage",
+    "implicitIds":["ElementalDamagePercentImplicitAtlasRing_"],
     "implicitModTypes":[["elemental_damage","damage","elemental"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -580,6 +605,7 @@
   "Organic Ring":{
     "flavourText":["Our flesh longs to move as one."],
     "implicit":"3% additional Physical Damage Reduction\nCannot roll Modifiers of Non-Physical Damage Types",
+    "implicitIds":["UulNetolBreachRingImplicit"],
     "implicitModTypes":[["physical"],["physical"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -603,6 +629,7 @@
   },
   "Paua Ring":{
     "implicit":"+(20-30) to maximum Mana",
+    "implicitIds":["IncreasedManaImplicitRing1"],
     "implicitModTypes":[["resource","mana"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -623,6 +650,7 @@
   },
   "Penumbra Ring":{
     "implicit":"Left ring slot: 30% reduced Effect of Curses on you\nRight ring slot: 30% increased Effect of Curses on you",
+    "implicitIds":["ReflectedCurseEffectOnSelfImplicitK2"],
     "implicitModTypes":[["curse"],["curse"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -646,6 +674,7 @@
   },
   "Prismatic Ring":{
     "implicit":"+(8-10)% to all Elemental Resistances",
+    "implicitIds":["AllResistancesImplicitRing1"],
     "implicitModTypes":[["elemental","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -668,6 +697,7 @@
   },
   "Ratcheting Ring":{
     "implicit":"-3 Prefix Modifiers allowed\n+3 Suffix Modifiers allowed\nImplicit Modifiers Cannot Be Changed",
+    "implicitIds":["MaxPrefixMaxSuffixImplicitE5"],
     "implicitModTypes":[[],[],[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -712,6 +742,7 @@
   },
   "Ruby Ring":{
     "implicit":"+(20-30)% to Fire Resistance",
+    "implicitIds":["FireResistImplicitRing1"],
     "implicitModTypes":[["elemental","fire","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -734,6 +765,7 @@
   },
   "Sapphire Ring":{
     "implicit":"+(20-30)% to Cold Resistance",
+    "implicitIds":["ColdResistImplicitRing1"],
     "implicitModTypes":[["elemental","cold","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -756,6 +788,7 @@
   },
   "Shadowed Ring":{
     "implicit":"Left ring slot: 25% of Lightning Damage from Hits taken as Cold Damage\nRight ring slot: 25% of Cold Damage from Hits taken as Lightning Damage",
+    "implicitIds":["ReflectedColdLightningDamageTakenConversionImplicitK5c"],
     "implicitModTypes":[["elemental","cold","lightning"],["elemental","cold","lightning"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -779,6 +812,7 @@
   },
   "Steel Ring":{
     "implicit":"Adds (3-4) to (10-14) Physical Damage to Attacks",
+    "implicitIds":["AddedPhysicalDamageImplicitRing2"],
     "implicitModTypes":[["physical_damage","damage","physical","attack"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -805,6 +839,7 @@
   "Synaptic Ring":{
     "flavourText":["Metallic thoughts whisper in the dark."],
     "implicit":"+2% to maximum Lightning Resistance\nCannot roll Modifiers of Non-Lightning Damage Types",
+    "implicitIds":["EshBreachRingImplicit"],
     "implicitModTypes":[["elemental","lightning","resistance"],["elemental","lightning","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -828,6 +863,7 @@
   },
   "Tenebrous Ring":{
     "implicit":"Left ring slot: 30% reduced Duration of Ailments on You\nRight ring slot: 30% increased Duration of Ailments on You",
+    "implicitIds":["ReflectedAilmentDurationOnSelfImplicitK4"],
     "implicitModTypes":[["ailment"],["ailment"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -851,6 +887,7 @@
   },
   "Topaz Ring":{
     "implicit":"+(20-30)% to Lightning Resistance",
+    "implicitIds":["LightningResistImplicitRing1"],
     "implicitModTypes":[["elemental","lightning","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -873,6 +910,7 @@
   },
   "Two-Stone Ring":{
     "implicit":"+(12-16)% to Fire and Cold Resistances",
+    "implicitIds":["FireAndColdResistImplicitRing1"],
     "implicitModTypes":[["elemental","fire","cold","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -896,6 +934,7 @@
   },
   "Two-Stone Ring (Cold/Lightning)":{
     "implicit":"+(12-16)% to Cold and Lightning Resistances",
+    "implicitIds":["ColdAndLightningResistImplicitRing1"],
     "implicitModTypes":[["elemental","cold","lightning","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -919,6 +958,7 @@
   },
   "Two-Stone Ring (Fire/Cold)":{
     "implicit":"+(12-16)% to Fire and Cold Resistances",
+    "implicitIds":["FireAndColdResistImplicitRing1"],
     "implicitModTypes":[["elemental","fire","cold","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -942,6 +982,7 @@
   },
   "Two-Stone Ring (Fire/Lightning)":{
     "implicit":"+(12-16)% to Fire and Lightning Resistances",
+    "implicitIds":["FireAndLightningResistImplicitRing1"],
     "implicitModTypes":[["elemental","fire","lightning","resistance"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -965,6 +1006,7 @@
   },
   "Unset Ring":{
     "implicit":"Has 1 Socket",
+    "implicitIds":["RingHasOneSocket"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",
@@ -988,6 +1030,7 @@
   },
   "Vermillion Ring":{
     "implicit":"(5-7)% increased maximum Life",
+    "implicitIds":["MaximumLifeImplicitAtlasRing"],
     "implicitModTypes":[["resource","life"]],
     "influenceTags":{
       "adjudicator":"ring_adjudicator",

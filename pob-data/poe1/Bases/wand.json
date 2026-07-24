@@ -1,6 +1,7 @@
 {
   "Accumulator Wand":{
     "implicit":"Gain 2 Endurance, Frenzy or Power Charges every 6 seconds",
+    "implicitIds":["GainRandomChargeEvery6SecondsImplicitE2"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -39,6 +40,7 @@
   },
   "Assembler Wand":{
     "implicit":"Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+    "implicitIds":["GainRandomChargeEvery6SecondsImplicitE1"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -77,6 +79,7 @@
   },
   "Blasting Wand":{
     "implicit":"Cannot roll Caster Modifiers",
+    "implicitIds":["KineticWandImplicit"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -112,6 +115,7 @@
   },
   "Calling Wand":{
     "implicit":"Minions deal (12-16)% increased Damage",
+    "implicitIds":["MinionDamageImplicitWand3"],
     "implicitModTypes":[["damage","minion"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -149,6 +153,7 @@
   },
   "Carved Wand":{
     "implicit":"(11-15)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand3"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -185,6 +190,7 @@
   },
   "Coiled Wand":{
     "implicit":"Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks",
+    "implicitIds":["AddedLightningDamageSpellsAndAttacksImplicit2"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","lightning","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -221,6 +227,7 @@
   },
   "Congregator Wand":{
     "implicit":"Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+    "implicitIds":["GainRandomChargeEvery6SecondsImplicitE1"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -259,6 +266,7 @@
   },
   "Convening Wand":{
     "implicit":"Minions deal (20-24)% increased Damage",
+    "implicitIds":["MinionDamageImplicitWand2"],
     "implicitModTypes":[["damage","minion"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -296,6 +304,7 @@
   },
   "Convoking Wand":{
     "implicit":"Minions deal (26-30)% increased Damage",
+    "implicitIds":["MinionDamageImplicitWand1"],
     "implicitModTypes":[["damage","minion"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -336,6 +345,7 @@
   },
   "Crystal Wand":{
     "implicit":"Adds (4-8) to (10-12) Cold Damage to Spells and Attacks",
+    "implicitIds":["AddedColdDamageSpellsAndAttacksImplicit2"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","cold","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -372,6 +382,7 @@
   },
   "Demon's Horn":{
     "implicit":"Adds (18-36) to (53-59) Fire Damage to Spells and Attacks",
+    "implicitIds":["AddedFireDamageSpellsAndAttacksImplicit3"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","fire","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -408,6 +419,7 @@
   },
   "Driftwood Wand":{
     "implicit":"(8-12)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand1"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -443,6 +455,7 @@
   },
   "Engraved Wand":{
     "implicit":"(22-26)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand9"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -479,6 +492,7 @@
   },
   "Faun's Horn":{
     "implicit":"Adds (5-10) to (11-13) Fire Damage to Spells and Attacks",
+    "implicitIds":["AddedFireDamageSpellsAndAttacksImplicit2"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","fire","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -515,6 +529,7 @@
   },
   "Goat's Horn":{
     "implicit":"Adds (1-2) to (3-4) Fire Damage to Spells and Attacks",
+    "implicitIds":["AddedFireDamageSpellsAndAttacksImplicit1"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","fire","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -551,6 +566,7 @@
   },
   "Heathen Wand":{
     "implicit":"10% increased Cast Speed",
+    "implicitIds":["IncreasedCastSpeedImplicitMarakethWand1"],
     "implicitModTypes":[["caster","speed"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -589,6 +605,7 @@
   },
   "Imbued Wand":{
     "implicit":"(33-37)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand15"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -625,6 +642,7 @@
   },
   "Kinetic Wand":{
     "implicit":"Cannot roll Caster Modifiers",
+    "implicitIds":["KineticWandImplicit"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -661,6 +679,7 @@
   },
   "Omen Wand":{
     "implicit":"(27-31)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand12"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -697,6 +716,7 @@
   },
   "Opal Wand":{
     "implicit":"Adds (14-29) to (42-47) Cold Damage to Spells and Attacks",
+    "implicitIds":["AddedColdDamageSpellsAndAttacksImplicit3"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","cold","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -734,6 +754,7 @@
   },
   "Pagan Wand":{
     "implicit":"10% increased Cast Speed",
+    "implicitIds":["IncreasedCastSpeedImplicitMarakethWand1"],
     "implicitModTypes":[["caster","speed"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -772,6 +793,7 @@
   },
   "Profane Wand":{
     "implicit":"14% increased Cast Speed",
+    "implicitIds":["IncreasedCastSpeedImplicitMarakethWand2"],
     "implicitModTypes":[["caster","speed"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -810,6 +832,7 @@
   },
   "Prophecy Wand":{
     "implicit":"(36-40)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand17"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -847,6 +870,7 @@
   },
   "Quartz Wand":{
     "implicit":"Adds (2-3) to (4-7) Cold Damage to Spells and Attacks",
+    "implicitIds":["AddedColdDamageSpellsAndAttacksImplicit1"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","cold","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -883,6 +907,7 @@
   },
   "Sage Wand":{
     "implicit":"(17-21)% increased Spell Damage",
+    "implicitIds":["SpellDamageOnWeaponImplicitWand6"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -919,6 +944,7 @@
   },
   "Somatic Wand":{
     "implicit":"Cannot roll Caster Modifiers",
+    "implicitIds":["KineticWandImplicit"],
     "implicitModTypes":[[]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -954,6 +980,7 @@
   },
   "Spiraled Wand":{
     "implicit":"Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks",
+    "implicitIds":["AddedLightningDamageSpellsAndAttacksImplicit1"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","lightning","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",
@@ -990,6 +1017,7 @@
   },
   "Tornado Wand":{
     "implicit":"Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks",
+    "implicitIds":["AddedLightningDamageSpellsAndAttacksImplicit3"],
     "implicitModTypes":[["elemental_damage","caster_damage","damage","elemental","lightning","attack","caster"]],
     "influenceTags":{
       "adjudicator":"wand_adjudicator",

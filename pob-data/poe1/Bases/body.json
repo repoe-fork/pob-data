@@ -69,6 +69,7 @@
       "EvasionBaseMin":737
     },
     "implicit":"3% increased Movement Speed",
+    "implicitIds":["MovementVelocityImplicitArmour1"],
     "implicitModTypes":[["speed"]],
     "influenceTags":{
       "adjudicator":"body_armour_adjudicator",
@@ -135,6 +136,7 @@
       "MovementPenalty":5
     },
     "implicit":"+(8-12)% to all Elemental Resistances",
+    "implicitIds":["AllResistancesImplicitArmour1"],
     "implicitModTypes":[["elemental","resistance"]],
     "influenceTags":{
       "adjudicator":"body_armour_adjudicator",
@@ -397,6 +399,7 @@
       "MovementPenalty":3
     },
     "implicit":"+(20-25) to maximum Mana",
+    "implicitIds":["IncreasedManaImplicitArmour1"],
     "implicitModTypes":[["resource","mana"]],
     "influenceTags":{
       "adjudicator":"body_armour_adjudicator",
@@ -1718,6 +1721,7 @@
     },
     "hidden":true,
     "implicit":"+(15-25)% to all Elemental Resistances",
+    "implicitIds":["AllResistancesDemigodsImplicit"],
     "implicitModTypes":[["elemental","resistance"]],
     "influenceTags":{
       "adjudicator":"body_armour_adjudicator",
@@ -2360,6 +2364,7 @@
       "MovementPenalty":3
     },
     "implicit":"(3-10)% increased Spell Damage",
+    "implicitIds":["SpellDamageImplicitArmour1"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
     "influenceTags":{
       "adjudicator":"body_armour_adjudicator",
@@ -2769,6 +2774,7 @@
       "MovementPenalty":3
     },
     "implicit":"+1 to Level of all Vaal Skill Gems",
+    "implicitIds":["GlobalVaalGemsLevelImplicit1_"],
     "implicitModTypes":[["gem"]],
     "influenceTags":{
       "adjudicator":"body_armour_adjudicator",
