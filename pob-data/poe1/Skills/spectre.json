@@ -23,8 +23,8 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "12":true,
-      "35":true
+      "9":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -76,8 +76,8 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "12":true,
-      "35":true
+      "9":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -166,8 +166,8 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "12":true,
-      "35":true
+      "9":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_damage_+%"]
@@ -203,8 +203,8 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "12":true,
-      "35":true
+      "9":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -257,11 +257,7 @@
         "storedUses":1
       }],
     "name":"Damage Immunity Buff",
-    "skillTypes":{
-      "2":true,
-      "5":true,
-      "12":true
-    },
+    "skillTypes":[null,true,null,null,true,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["action_attack_or_cast_time_uses_animation_length"]
   },
@@ -280,7 +276,7 @@
     "name":"Big Circle",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -300,7 +296,7 @@
     "name":"Rectangle",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -320,7 +316,7 @@
     "name":"Small Circle",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -351,8 +347,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","always_pierce","use_scaled_contact_offset","projectiles_nova"]
@@ -383,17 +379,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile"]
@@ -422,7 +418,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -454,15 +450,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -489,7 +485,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -518,8 +514,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -546,7 +542,7 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage"]
@@ -579,15 +575,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -616,11 +612,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","always_pierce"]
@@ -650,7 +646,7 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage"]
@@ -678,7 +674,7 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -712,15 +708,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -770,17 +766,17 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "86":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "30":true,
+      "32":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage"]
@@ -814,10 +810,10 @@
     "name":"Double Strike",
     "skillTypes":{
       "1":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "86":true
+      "28":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[],
@@ -856,20 +852,20 @@
     "name":"Enfeeble",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -936,20 +932,20 @@
     "name":"Temporal Chains",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -1021,15 +1017,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_direction","mortar_projectile_scale_animation_speed_instead_of_projectile_speed"]
@@ -1048,7 +1044,7 @@
     "name":"Dash thrust",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","always_freeze"]
@@ -1069,7 +1065,7 @@
     "name":"Double Strike",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -1097,7 +1093,7 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage"]
@@ -1137,17 +1133,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -1189,8 +1185,8 @@
       }],
     "name":"Tidal Wave",
     "skillTypes":{
-      "26":true,
-      "35":true
+      "22":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -1215,12 +1211,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -1246,15 +1242,15 @@
     "name":"Rain of Arrows",
     "skillTypes":{
       "1":true,
+      "8":true,
       "11":true,
       "14":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "35":true,
-      "47":true,
-      "68":true,
-      "100":true
+      "15":true,
+      "16":true,
+      "32":true,
+      "41":true,
+      "58":true,
+      "89":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","is_area_damage","action_attack_or_cast_time_uses_animation_length"],
@@ -1280,11 +1276,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","action_attack_or_cast_time_uses_animation_length"]
@@ -1342,18 +1338,18 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "80":true,
-      "82":true
+      "56":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -1395,7 +1391,7 @@
     "name":"Combo Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","visual_hit_effect_chaos_is_green"]
@@ -1417,7 +1413,7 @@
     "name":"Combo Thrust",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","visual_hit_effect_chaos_is_green"]
@@ -1439,7 +1435,7 @@
     "name":"Decapitate Thrust",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_maim_on_hit","visual_hit_effect_chaos_is_green"]
@@ -1461,7 +1457,7 @@
     "name":"Decapitate",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","visual_hit_effect_chaos_is_green"]
@@ -1484,11 +1480,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","always_pierce","visual_hit_effect_chaos_is_green"]
@@ -1509,7 +1505,7 @@
     "name":"Projectile Impact",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_bleed_on_hit","visual_hit_effect_chaos_is_green"]
@@ -1540,15 +1536,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","visual_hit_effect_chaos_is_green"]
@@ -1579,15 +1575,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","visual_hit_effect_chaos_is_green"]
@@ -1609,7 +1605,7 @@
     "name":"Wyvern Flight",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","always_pierce","projectile_uses_contact_position","visual_hit_effect_chaos_is_green","action_attack_or_cast_time_uses_animation_length"]
@@ -1631,7 +1627,7 @@
     "name":"Ground Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","visual_hit_effect_chaos_is_green"]
@@ -1658,7 +1654,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -1697,17 +1693,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -1756,7 +1752,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -1796,7 +1792,7 @@
       }],
     "name":"Lightning Beam",
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
-    "skillTypes":[null,true,true,null,null,null,null,null,null,true],
+    "skillTypes":[null,true,true,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","projectile_uses_contact_position","is_area_damage","skill_cannot_be_interrupted","skill_cannot_be_stunned","base_is_projectile"]
   },
@@ -1824,8 +1820,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -1870,17 +1866,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -1923,9 +1919,9 @@
     "name":"Cleave",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
-      "39":true
+      "8":true,
+      "20":true,
+      "35":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
@@ -1959,9 +1955,9 @@
     "name":"Cyclone",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
-      "37":true
+      "8":true,
+      "20":true,
+      "34":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"],
@@ -2020,19 +2016,19 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "63":true,
-      "74":true,
-      "82":true,
+      "23":true,
+      "28":true,
+      "39":true,
+      "53":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
       "86":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -2084,8 +2080,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","always_pierce"]
@@ -2107,10 +2103,10 @@
     "name":"Lacerate",
     "skillTypes":{
       "1":true,
-      "11":true,
+      "8":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "86":true
+      "28":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"],
@@ -2141,10 +2137,10 @@
     "skillTypes":{
       "1":true,
       "4":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "52":true
+      "44":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_double_hits_when_dual_wielding","action_attack_or_cast_time_uses_animation_length"],
@@ -2251,14 +2247,14 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
+      "8":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "32":true,
-      "47":true,
-      "93":true,
-      "102":true
+      "29":true,
+      "41":true,
+      "82":true,
+      "91":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"],
@@ -2303,17 +2299,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "82":true
+      "56":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -2371,16 +2367,16 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
+      "23":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "101":true
+      "39":true,
+      "64":true,
+      "72":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -2425,10 +2421,7 @@
         "1":100
       }],
     "name":"Slam",
-    "skillTypes":{
-      "1":true,
-      "11":true
-    },
+    "skillTypes":[true,null,null,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["voll_slam_damage_+%_final_at_centre","is_area_damage"]
   },
@@ -2459,14 +2452,14 @@
     "skillTypes":{
       "1":true,
       "5":true,
-      "10":true,
-      "11":true,
-      "12":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "34":true,
-      "43":true
+      "31":true,
+      "39":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -2538,9 +2531,9 @@
     "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_fire_damage_to_deal_per_minute","is_area_damage","disable_skill_repeats"]
@@ -2579,17 +2572,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -2639,11 +2632,11 @@
     "notMinionStat":["base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_fire_damage_to_deal_per_minute","is_area_damage","base_is_projectile"]
@@ -2670,11 +2663,11 @@
     "name":"Chaos Pillar",
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_chaos_damage_to_deal_per_minute","is_area_damage","base_is_projectile"]
@@ -2704,14 +2697,14 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_is_projectile","distribute_projectiles_over_contact_points"]
@@ -2732,7 +2725,7 @@
     "name":"Turn Attack",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -2757,12 +2750,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"],
@@ -2800,7 +2793,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","cannot_stun"]
@@ -2827,7 +2820,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile"]
@@ -2855,7 +2848,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","cannot_stun"]
@@ -2875,7 +2868,7 @@
     "name":"Unpowered Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
@@ -2899,19 +2892,19 @@
     "skillTypes":{
       "2":true,
       "5":true,
+      "9":true,
       "12":true,
       "15":true,
-      "18":true,
-      "20":true,
-      "27":true,
-      "33":true,
-      "74":true,
-      "77":true,
-      "78":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "17":true,
+      "23":true,
+      "30":true,
+      "64":true,
+      "67":true,
+      "68":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"buff_skill_stat_descriptions",
     "stats":[]
@@ -2957,16 +2950,16 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "33":true,
-      "35":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "101":true
+      "23":true,
+      "30":true,
+      "32":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -3019,17 +3012,17 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "86":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "30":true,
+      "32":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","upheaval_number_of_spikes","base_cast_speed_+%","active_skill_area_of_effect_radius_+%_final","is_area_damage"]
@@ -3052,11 +3045,11 @@
     "name":"Glacial Hammer",
     "skillTypes":{
       "1":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "33":true,
-      "52":true
+      "30":true,
+      "44":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["action_attack_or_cast_time_uses_animation_length"],
@@ -3086,8 +3079,8 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "47":true,
-      "68":true
+      "41":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","always_pierce"]
@@ -3111,13 +3104,13 @@
     "name":"Doom Arrow",
     "skillTypes":{
       "1":true,
+      "8":true,
       "11":true,
       "14":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "47":true,
-      "68":true
+      "15":true,
+      "16":true,
+      "41":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"]
@@ -3141,12 +3134,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "14":true,
+      "15":true,
+      "16":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"],
@@ -3182,18 +3175,18 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "33":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "30":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -3245,17 +3238,17 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "95":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "70":true,
+      "72":true,
+      "84":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
@@ -3285,16 +3278,16 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length"]
@@ -3325,19 +3318,19 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
       "34":true,
-      "35":true,
-      "37":true,
-      "80":true,
-      "82":true,
-      "90":true
+      "70":true,
+      "72":true,
+      "79":true
     },
     "statDescriptionScope":"variable_duration_skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","action_attack_or_cast_time_uses_animation_length"]
@@ -3377,18 +3370,18 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "34":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "31":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -3447,12 +3440,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final","skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length"]
@@ -3479,12 +3472,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length"]
@@ -3511,12 +3504,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length"]
@@ -3540,12 +3533,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -3582,10 +3575,10 @@
     "notMinionStat":["active_skill_physical_damage_+%_final"],
     "skillTypes":{
       "1":true,
-      "11":true,
+      "8":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "34":true
+      "31":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_physical_damage_+%_final","is_area_damage","cast_time_overrides_attack_duration"],
@@ -3628,17 +3621,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -3684,19 +3677,20 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
       "35":true,
-      "66":true,
-      "78":true,
-      "82":true,
-      "101":true
+      "56":true,
+      "68":true,
+      "72":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_cold_damage_to_deal_per_minute","active_skill_chill_effect_+%_final","base_chance_to_freeze_%","is_area_damage"]
@@ -3719,9 +3713,9 @@
     "skillTypes":{
       "1":true,
       "2":true,
-      "10":true,
-      "11":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_cannot_crit","action_attack_or_cast_time_uses_animation_length"]
@@ -3750,8 +3744,8 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_cast_speed_+%_final"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "35":true
+      "7":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_cast_speed_+%_final","action_attack_or_cast_time_uses_animation_length"]
@@ -3806,18 +3800,18 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "80":true,
-      "82":true
+      "56":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -3874,17 +3868,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -3928,7 +3922,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -3958,7 +3952,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -3991,12 +3985,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","global_knockback","determine_knockback_direction_from_melee_pattern"]
@@ -4020,9 +4014,9 @@
     "name":"Cyclone",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
-      "37":true
+      "8":true,
+      "20":true,
+      "34":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"],
@@ -4066,8 +4060,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "26":true,
-      "35":true
+      "22":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","summoned_monsters_are_minions","summoned_monsters_no_drops_or_experience","base_is_projectile"]
@@ -4090,7 +4084,7 @@
     "name":"Stampede",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -4147,11 +4141,11 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
+      "7":true,
+      "8":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "82":true
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -4207,16 +4201,16 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "34":true,
-      "35":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "101":true
+      "23":true,
+      "31":true,
+      "32":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -4257,7 +4251,7 @@
     "name":"Strafe Attack",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["global_bleed_on_hit"]
@@ -4292,17 +4286,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -4354,11 +4348,7 @@
         "storedUses":1
       }],
     "name":"Bite",
-    "skillTypes":{
-      "1":true,
-      "10":true,
-      "11":true
-    },
+    "skillTypes":[true,null,null,null,null,null,true,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_bleed_on_hit"]
   },
@@ -4377,11 +4367,7 @@
         "storedUses":1
       }],
     "name":"lacerate",
-    "skillTypes":{
-      "1":true,
-      "10":true,
-      "11":true
-    },
+    "skillTypes":[true,null,null,null,null,null,true,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_maim_on_hit"]
   },
@@ -4400,11 +4386,7 @@
         "storedUses":1
       }],
     "name":"Teleport Slam",
-    "skillTypes":{
-      "1":true,
-      "10":true,
-      "11":true
-    },
+    "skillTypes":[true,null,null,null,null,null,true,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","disable_attack_repeats"]
   },
@@ -4442,18 +4424,18 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
+      "23":true,
+      "28":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
       "86":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -4513,9 +4495,9 @@
     "name":"Cyclone",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
-      "37":true
+      "8":true,
+      "20":true,
+      "34":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["cyclone_places_ground_fire_damage_per_minute","is_area_damage"],
@@ -4594,11 +4576,11 @@
     "name":"Caustic Ground",
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_chaos_damage_to_deal_per_minute"]
@@ -4640,17 +4622,17 @@
     "name":"Blast Rain",
     "skillTypes":{
       "1":true,
+      "8":true,
       "11":true,
       "14":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "15":true,
+      "16":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "47":true,
-      "68":true,
-      "72":true,
-      "100":true
+      "41":true,
+      "58":true,
+      "62":true,
+      "89":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","is_area_damage","skill_can_fire_arrows"],
@@ -4708,17 +4690,17 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -4793,8 +4775,8 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "35":true,
-      "47":true
+      "32":true,
+      "41":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final","base_is_projectile","projectile_uses_contact_position"]
@@ -4818,14 +4800,14 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","projectile_uses_contact_position"]
@@ -4866,13 +4848,13 @@
     "name":"Earthquake",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "12":true,
-      "18":true,
+      "8":true,
+      "9":true,
+      "15":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "35":true,
-      "103":true
+      "32":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"],
@@ -4913,15 +4895,15 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "17":true,
-      "18":true,
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "19":true,
-      "23":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "80":true
+      "22":true,
+      "31":true,
+      "32":true,
+      "70":true
     },
     "statDescriptionScope":"beam_skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"]
@@ -4966,9 +4948,9 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "10":true,
-      "11":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -5044,10 +5026,10 @@
     "name":"Cleave",
     "skillTypes":{
       "1":true,
-      "11":true,
+      "8":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "52":true
+      "44":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -5104,8 +5086,8 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "35":true
+      "7":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","cannot_stun"]
@@ -5162,17 +5144,17 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "80":true,
-      "82":true
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -5204,8 +5186,8 @@
     "name":"Breach Team Warp",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "82":true
+      "8":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -5256,11 +5238,11 @@
     "name":"Caustic Ground",
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_chaos_damage_to_deal_per_minute","action_attack_or_cast_time_uses_animation_length","is_area_damage"]
@@ -5282,9 +5264,9 @@
     "name":"Cyclone",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
-      "37":true
+      "8":true,
+      "20":true,
+      "34":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cyclone_has_triggered_skill"],
@@ -5327,16 +5309,16 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile"]
@@ -5361,12 +5343,12 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
-      "15":true,
+      "8":true,
+      "12":true,
+      "35":true,
       "39":true,
-      "43":true,
-      "49":true,
-      "82":true
+      "42":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_chaos_damage_to_deal_per_minute"]
@@ -5425,18 +5407,18 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "80":true,
-      "82":true
+      "56":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -5480,12 +5462,12 @@
     "name":"Flicker Strike",
     "skillTypes":{
       "1":true,
-      "12":true,
+      "9":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "37":true,
-      "101":true
+      "34":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["ignores_proximity_shield"],
@@ -5526,7 +5508,7 @@
     "name":"Thunder Web",
     "skillTypes":{
       "2":true,
-      "37":true
+      "34":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -5669,10 +5651,7 @@
         "cost":[]
       }],
     "name":"On Death Explode",
-    "skillTypes":{
-      "10":true,
-      "11":true
-    },
+    "skillTypes":[null,null,null,null,null,null,true,true],
     "stats":[]
   },
   "DarkMarionetteExplodePerfect":{
@@ -5795,10 +5774,7 @@
         "cost":[]
       }],
     "name":"On Death Explode",
-    "skillTypes":{
-      "10":true,
-      "11":true
-    },
+    "skillTypes":[null,null,null,null,null,null,true,true],
     "stats":[]
   },
   "DeceleratingProjectileAzmeriCasterDemon":{
@@ -5827,7 +5803,7 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","cast_time_overrides_attack_duration"]
@@ -5855,7 +5831,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","always_shock"]
@@ -5882,10 +5858,10 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -5911,12 +5887,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_cold_damage_to_deal_per_minute","action_attack_or_cast_time_uses_animation_length"]
@@ -5944,12 +5920,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["physical_damage_%_to_add_as_cold","action_attack_or_cast_time_uses_animation_length","skill_can_fire_arrows","skill_can_fire_wand_projectiles"]
@@ -5999,20 +5975,20 @@
     "name":"Enfeeble",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -6102,12 +6078,12 @@
     "name":"Flicker Strike (Cold Hit)",
     "skillTypes":{
       "1":true,
-      "12":true,
+      "9":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "37":true,
-      "101":true
+      "34":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["ignores_proximity_shield","melee_defer_damage_prediction"],
@@ -6145,8 +6121,8 @@
     "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
-      "26":true,
-      "35":true
+      "22":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","is_area_damage"]
@@ -6168,8 +6144,8 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "47":true,
-      "93":true
+      "41":true,
+      "82":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"]
@@ -6191,8 +6167,8 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "47":true,
-      "93":true
+      "41":true,
+      "82":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","cannot_freeze_shock_ignite_on_critical"]
@@ -6231,19 +6207,73 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "18":true,
-      "26":true,
-      "27":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "86":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "15":true,
+      "22":true,
+      "23":true,
+      "28":true,
+      "32":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","skill_can_add_multiple_charges_per_action"]
+  },
+  "EDSHarvestMinerHammerSmoke":{
+    "baseEffectiveness":0.40000000596046,
+    "baseFlags":{
+      "area":true,
+      "hit":true,
+      "spell":true,
+      "triggerable":true
+    },
+    "castTime":1,
+    "color":4,
+    "hidden":true,
+    "incrementalEffectiveness":0.028999999165535,
+    "levels":[{
+        "levelRequirement":1,
+        "statInterpolation":[3,3],
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Hammer Smoke",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+    "skillTypes":{
+      "2":true,
+      "32":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
+  },
+  "EDSHeistScienceUnarmedGas":{
+    "baseEffectiveness":0.40000000596046,
+    "baseFlags":{
+      "area":true,
+      "hit":true,
+      "spell":true,
+      "triggerable":true
+    },
+    "castTime":1,
+    "color":4,
+    "hidden":true,
+    "incrementalEffectiveness":0.028999999165535,
+    "levels":[{
+        "levelRequirement":1,
+        "statInterpolation":[3,3],
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Gas",
+    "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
+    "skillTypes":{
+      "2":true,
+      "32":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","is_area_damage","visual_hit_effect_chaos_is_green"]
   },
   "ElderTentacleMinionProjectile":{
     "baseEffectiveness":3.75,
@@ -6268,8 +6298,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -6307,8 +6337,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -6463,21 +6493,21 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
+      "29":true,
+      "30":true,
+      "31":true,
       "32":true,
-      "33":true,
-      "34":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true,
-      "113":true
+      "41":true,
+      "57":true,
+      "58":true,
+      "102":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","is_area_damage"]
@@ -6507,21 +6537,21 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
+      "29":true,
+      "30":true,
+      "31":true,
       "32":true,
-      "33":true,
-      "34":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true,
-      "113":true
+      "41":true,
+      "57":true,
+      "58":true,
+      "102":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset","is_area_damage"]
@@ -6565,9 +6595,9 @@
     "name":"Empowering Howl",
     "skillTypes":{
       "5":true,
-      "11":true,
-      "12":true,
-      "73":true
+      "8":true,
+      "9":true,
+      "63":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -6664,9 +6694,9 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
-      "12":true,
-      "101":true
+      "8":true,
+      "9":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -6754,15 +6784,15 @@
     "notMinionStat":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "82":true
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage","corpse_explosion_monster_life_%","is_area_damage"]
@@ -6797,17 +6827,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
+      "8":true,
+      "12":true,
       "15":true,
-      "18":true,
-      "27":true,
-      "43":true,
-      "74":true,
-      "82":true,
-      "92":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "23":true,
+      "39":true,
+      "64":true,
+      "72":true,
+      "81":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"aura_skill_stat_descriptions",
     "statMap":{
@@ -6886,18 +6916,18 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "80":true,
-      "82":true
+      "56":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -6949,18 +6979,18 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "29":true,
       "32":true,
+      "34":true,
       "35":true,
-      "37":true,
-      "39":true,
-      "90":true,
-      "91":true,
-      "101":true
+      "79":true,
+      "80":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","is_area_damage"]
@@ -6987,9 +7017,9 @@
     "name":"Fire Roll",
     "skillTypes":{
       "1":true,
-      "24":true,
-      "37":true,
-      "90":true
+      "20":true,
+      "34":true,
+      "79":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -7039,17 +7069,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","base_is_projectile"]
@@ -7079,17 +7109,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile"]
@@ -7119,17 +7149,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile"]
@@ -7181,12 +7211,12 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "19":true,
-      "30":true,
-      "32":true,
-      "67":true
+      "7":true,
+      "14":true,
+      "16":true,
+      "26":true,
+      "29":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_maximum_action_distance_+%","base_is_projectile","always_pierce"]
@@ -7211,7 +7241,7 @@
     "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final","is_area_damage"]
@@ -7233,7 +7263,7 @@
     "name":"Claw Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -7253,7 +7283,7 @@
     "name":"Slash",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_knockback","determine_knockback_direction_from_melee_pattern"]
@@ -7273,7 +7303,7 @@
     "name":"Whirl",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_knockback"]
@@ -7293,7 +7323,7 @@
     "name":"Lacerate",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -7316,7 +7346,7 @@
     "name":"Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -7339,7 +7369,7 @@
     "name":"Cleave",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","action_attack_or_cast_time_uses_animation_length"]
@@ -7375,7 +7405,7 @@
     "notMinionStat":["active_skill_damage_+%_final"],
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final","is_area_damage"]
@@ -7437,10 +7467,33 @@
     "name":"Dash Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
+  },
+  "GAHarvestMinerHammerSlam":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "triggerable":true
+    },
+    "castTime":2.67,
+    "color":4,
+    "hidden":true,
+    "levels":[{
+        "baseMultiplier":2,
+        "cooldown":8,
+        "levelRequirement":1,
+        "storedUses":1
+      }],
+    "name":"Hammer Slam",
+    "skillTypes":{
+      "1":true,
+      "32":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["is_area_damage","cast_time_overrides_attack_duration"]
   },
   "GAHarvestRhexDashSlash":{
     "baseFlags":{
@@ -7499,7 +7552,27 @@
     "name":"Dash Slash",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["is_area_damage"]
+  },
+  "GAHeistCultistUnarmedLeapImpact":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "triggerable":true
+    },
+    "castTime":1.333,
+    "color":4,
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":1
+      }],
+    "name":"Whirling Blades Impact",
+    "skillTypes":{
+      "1":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -7525,7 +7598,7 @@
     "name":"Stomp",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["global_knockback","is_area_damage","always_stun"]
@@ -7550,7 +7623,7 @@
     "name":"Arrow Shotgun",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"]
@@ -7582,8 +7655,8 @@
     "name":"Ranged Shotgun",
     "skillTypes":{
       "1":true,
-      "35":true,
-      "57":true
+      "32":true,
+      "48":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"]
@@ -7611,7 +7684,7 @@
     "name":"Dash Slash",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -7632,7 +7705,7 @@
     "name":"Stab Attack",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -7654,10 +7727,41 @@
     "name":"Cleave",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
+  },
+  "GPSHellscapeFleshEliteSpikeBarrage":{
+    "baseEffectiveness":1.7999999523163,
+    "baseFlags":{
+      "hit":true,
+      "projectile":true,
+      "spell":true,
+      "triggerable":true
+    },
+    "castTime":2,
+    "color":4,
+    "constantStats":[["spell_maximum_action_distance_+%",-50]],
+    "hidden":true,
+    "incrementalEffectiveness":0.02449999935925,
+    "levels":[{
+        "cooldown":7,
+        "critChance":5,
+        "levelRequirement":1,
+        "statInterpolation":[3,3],
+        "storedUses":1,
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Spike Barrage",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+    "skillTypes":{
+      "2":true,
+      "32":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_position"]
   },
   "GSAncestralDruidFlaskExplode":{
     "baseEffectiveness":1.25,
@@ -7683,8 +7787,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","is_area_damage","visual_hit_effect_chaos_is_green"]
@@ -7711,7 +7815,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -7738,7 +7842,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -7765,7 +7869,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -7794,7 +7898,7 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage"]
@@ -7824,7 +7928,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -7851,7 +7955,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -7880,7 +7984,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -7911,7 +8015,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -7943,7 +8047,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -7971,7 +8075,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","always_shock","cannot_stun"]
@@ -7999,7 +8103,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -8028,7 +8132,7 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
@@ -8056,7 +8160,7 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
@@ -8086,7 +8190,7 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
@@ -8116,8 +8220,8 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "35":true,
-      "57":true
+      "32":true,
+      "48":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
@@ -8145,7 +8249,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","always_shock","cannot_stun"]
@@ -8174,7 +8278,7 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -8229,7 +8333,35 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
+  },
+  "GSHellscapeFleshEliteBloodOrbExplosion":{
+    "baseEffectiveness":5,
+    "baseFlags":{
+      "area":true,
+      "hit":true,
+      "spell":true,
+      "triggerable":true
+    },
+    "castTime":1,
+    "color":4,
+    "hidden":true,
+    "incrementalEffectiveness":0.033250000327826,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":1,
+        "statInterpolation":[3,3],
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Blood Orb Explosion",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+    "skillTypes":{
+      "2":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -8258,7 +8390,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -8299,7 +8431,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","active_skill_damage_+%_final","is_area_damage"]
@@ -8325,7 +8457,7 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","cannot_stun"]
@@ -8364,16 +8496,16 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "18":true,
-      "26":true,
-      "27":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "86":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "15":true,
+      "22":true,
+      "23":true,
+      "28":true,
+      "32":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","skill_can_add_multiple_charges_per_action"]
@@ -8400,13 +8532,13 @@
     "name":"Earthquake",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "12":true,
-      "18":true,
+      "8":true,
+      "9":true,
+      "15":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "35":true,
-      "103":true
+      "32":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"],
@@ -8456,18 +8588,18 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "19":true,
-      "23":true,
-      "26":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position"]
@@ -8820,17 +8952,17 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "18":true,
-      "31":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "15":true,
+      "27":true,
+      "28":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "74":true,
-      "82":true,
-      "86":true,
-      "101":true
+      "64":true,
+      "72":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","fire_shield_damage_threshold","base_physical_damage_reduction_rating","is_area_damage","always_ignite"]
@@ -8856,8 +8988,8 @@
     "name":"Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "35":true
+      "8":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -8885,10 +9017,7 @@
         "1":58.333334637185
       }],
     "name":"Slam",
-    "skillTypes":{
-      "1":true,
-      "11":true
-    },
+    "skillTypes":[true,null,null,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_cold_damage_to_deal_per_minute","is_area_damage"]
   },
@@ -8923,15 +9052,15 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "17":true,
-      "18":true,
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "19":true,
-      "23":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "80":true
+      "22":true,
+      "31":true,
+      "32":true,
+      "70":true
     },
     "statDescriptionScope":"beam_skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"]
@@ -8970,19 +9099,18 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
       "28":true,
-      "35":true,
-      "39":true,
-      "47":true,
-      "67":true,
-      "68":true,
-      "86":true
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["global_bleed_on_hit"],
@@ -9040,9 +9168,9 @@
     "name":"Slam Attack",
     "skillTypes":{
       "1":true,
-      "10":true,
-      "11":true,
-      "35":true
+      "7":true,
+      "8":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -9065,7 +9193,7 @@
     "name":"Screech",
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -9087,10 +9215,10 @@
     "name":"Frigid Roar",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statMap":{
       "frigid_roar_cold_damage_taken_+%":[{
@@ -9148,12 +9276,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -9186,10 +9314,10 @@
     "name":"Thunderous Roar",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statMap":{
       "thunderous_roar_lightning_damage_taken_+%":[{
@@ -9229,10 +9357,70 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
+  },
+  "HeistCultistUnarmedLeap":{
+    "baseFlags":{
+      "attack":true,
+      "melee":true,
+      "movement":true
+    },
+    "castTime":1.13,
+    "color":4,
+    "constantStats":[["skill_sound_variation",2]],
+    "description":"Dive through enemies, dealing weapon damage. If dual wielding attacks with both weapons, dealing the damage of both in one hit. Only works with Daggers, Claws, and One-Handed Swords.",
+    "hidden":true,
+    "levels":[{
+        "cooldown":9,
+        "levelRequirement":0,
+        "storedUses":1
+      }],
+    "name":"Whirling Blades",
+    "skillTypes":{
+      "1":true,
+      "20":true,
+      "34":true,
+      "79":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["ignores_proximity_shield","cast_time_overrides_attack_duration"],
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "One Handed Sword":true,
+      "Thrusting One Handed Sword":true
+    }
+  },
+  "HeistProjectUnarmedMelee1":{
+    "baseEffectiveness":0,
+    "baseFlags":{
+      "attack":true,
+      "melee":true,
+      "projectile":true
+    },
+    "castTime":1,
+    "color":4,
+    "description":"Strike your foes down with a powerful blow.",
+    "hidden":true,
+    "levels":[{
+        "levelRequirement":1
+      }],
+    "name":"Default Attack",
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "20":true,
+      "21":true,
+      "24":true,
+      "41":true,
+      "57":true,
+      "58":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles"]
   },
   "HeistThugRangedExplosiveArrow":{
     "baseEffectiveness":1.5,
@@ -9296,17 +9484,17 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -9368,7 +9556,7 @@
     "castTime":0.25,
     "color":1,
     "constantStats":[["base_skill_effect_duration",8000],["taunted_enemies_damage_+%_final_vs_non_taunt_target",-30],["active_skill_area_of_effect_radius_+%_final",-25]],
-    "description":"[DNT] Unused (replaced)",
+    "description":"DNT Unused (replaced)",
     "hidden":true,
     "levels":[{
         "cooldown":8,
@@ -9398,10 +9586,10 @@
     "name":"Rallying Cry",
     "skillTypes":{
       "5":true,
-      "11":true,
-      "12":true,
-      "73":true,
-      "101":true
+      "8":true,
+      "9":true,
+      "63":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["damage_+%","base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage"]
@@ -9430,15 +9618,15 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "17":true,
-      "18":true,
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "19":true,
-      "23":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "80":true
+      "22":true,
+      "31":true,
+      "32":true,
+      "70":true
     },
     "statDescriptionScope":"beam_skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","disable_visual_hit_effect"]
@@ -9474,17 +9662,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile"]
@@ -9507,13 +9695,13 @@
     "name":"Ice Crash",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
+      "8":true,
+      "15":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "33":true,
-      "35":true,
-      "103":true
+      "30":true,
+      "32":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"],
@@ -9549,11 +9737,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"]
@@ -9578,11 +9766,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"]
@@ -9630,8 +9818,8 @@
     "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "35":true
+      "7":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","active_skill_damage_+%_final","visual_hit_effect_chaos_is_green","base_is_projectile"]
@@ -9656,12 +9844,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -9701,9 +9889,9 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "32":true,
-      "35":true
+      "7":true,
+      "29":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -9731,7 +9919,7 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "67":true
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["attack_minimum_added_fire_damage","attack_maximum_added_fire_damage","attack_minimum_added_physical_damage","attack_maximum_added_physical_damage","base_is_projectile"]
@@ -9782,13 +9970,13 @@
     "notMinionStat":["base_fire_damage_to_deal_per_minute","base_active_skill_totem_level"],
     "skillTypes":{
       "2":true,
-      "12":true,
-      "18":true,
+      "9":true,
+      "15":true,
+      "25":true,
       "29":true,
-      "32":true,
-      "39":true,
-      "57":true,
-      "58":true
+      "35":true,
+      "48":true,
+      "49":true
     },
     "statDescriptionScope":"debuff_skill_stat_descriptions",
     "statMap":{
@@ -9849,14 +10037,14 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
+      "8":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "32":true,
-      "47":true,
-      "93":true,
-      "102":true
+      "29":true,
+      "41":true,
+      "82":true,
+      "91":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"],
@@ -9896,10 +10084,10 @@
     "name":"Cleave",
     "skillTypes":{
       "1":true,
-      "11":true,
+      "8":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "52":true
+      "44":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","skill_double_hits_when_dual_wielding"],
@@ -9933,12 +10121,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -10002,9 +10190,9 @@
     "name":"Whirling Blades",
     "skillTypes":{
       "1":true,
-      "24":true,
-      "37":true,
-      "90":true
+      "20":true,
+      "34":true,
+      "79":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["whirling_blades_base_ground_fire_damage_to_deal_per_minute","cast_time_overrides_attack_duration","ignores_proximity_shield"],
@@ -10047,14 +10235,14 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","is_area_damage"]
@@ -10092,17 +10280,17 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "80":true,
-      "82":true
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
@@ -10142,11 +10330,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","always_pierce","skill_can_fire_arrows"]
@@ -10185,7 +10373,7 @@
     "name":"Combo Attack",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final","is_area_damage"]
@@ -10225,12 +10413,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -10264,10 +10452,10 @@
     "name":"Proximity Shield",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -10299,17 +10487,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","visual_hit_effect_elemental_is_holy"]
@@ -10338,18 +10526,18 @@
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "66":true,
-      "80":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "56":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","visual_hit_effect_elemental_is_holy"]
@@ -10378,15 +10566,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","always_pierce"]
@@ -10415,15 +10603,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","always_pierce","mortar_projectile_scale_animation_speed_instead_of_projectile_speed"]
@@ -10452,15 +10640,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","always_pierce","mortar_projectile_scale_animation_speed_instead_of_projectile_speed"]
@@ -10490,15 +10678,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10528,15 +10716,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10569,15 +10757,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10627,15 +10815,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10685,15 +10873,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10723,15 +10911,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10759,8 +10947,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","action_attack_or_cast_time_uses_animation_length","check_for_targets_between_initiator_and_projectile_source","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","distribute_projectiles_over_contact_points"]
@@ -10789,8 +10977,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","visual_hit_effect_chaos_is_green"]
@@ -10818,11 +11006,41 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_position"]
+  },
+  "MPSHellscapeFleshEliteBasicProj":{
+    "baseEffectiveness":2.5,
+    "baseFlags":{
+      "projectile":true,
+      "spell":true,
+      "triggerable":true
+    },
+    "castTime":1.166,
+    "color":4,
+    "constantStats":[["monster_projectile_variation",207],["spell_maximum_action_distance_+%",-50]],
+    "hidden":true,
+    "incrementalEffectiveness":0.032000001519918,
+    "levels":[{
+        "critChance":5,
+        "levelRequirement":1,
+        "statInterpolation":[3,3],
+        "1":0.80000001192093,
+        "2":1.2000000476837
+      }],
+    "name":"Projectile",
+    "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
+    "skillTypes":{
+      "2":true,
+      "3":true,
+      "32":true,
+      "57":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","action_attack_or_cast_time_uses_animation_length"]
   },
   "MPWHeistThugRangedBurningArrow":{
     "baseFlags":{
@@ -10848,11 +11066,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position","always_ignite"]
@@ -10878,11 +11096,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","projectile_uses_contact_position","use_scaled_contact_offset","maintain_projectile_direction_when_using_contact_position"]
@@ -10904,8 +11122,8 @@
     "name":"Mass Frenzy",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "82":true
+      "8":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -10927,9 +11145,9 @@
     "name":"Mass Power",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "35":true,
-      "82":true
+      "8":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -10952,12 +11170,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -10981,12 +11199,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -11020,12 +11238,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -11059,12 +11277,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -11097,12 +11315,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","projectile_uses_contact_position","use_scaled_contact_offset"]
@@ -11136,12 +11354,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles"]
@@ -11175,12 +11393,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","use_scaled_contact_offset","projectile_uses_contact_position"]
@@ -11226,12 +11444,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","global_knockback","determine_knockback_direction_from_melee_pattern"]
@@ -11264,12 +11482,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles"]
@@ -11299,12 +11517,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows"]
@@ -11435,8 +11653,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_fire_damage_to_deal_per_minute","spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_skill_effect_duration","base_is_projectile","is_area_damage"]
@@ -11518,15 +11736,15 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "17":true,
-      "18":true,
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "19":true,
-      "23":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "80":true
+      "22":true,
+      "31":true,
+      "32":true,
+      "70":true
     },
     "statDescriptionScope":"beam_skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"]
@@ -11639,17 +11857,17 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "32":true,
       "35":true,
-      "39":true,
-      "47":true,
-      "49":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "42":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_chaos_damage_to_deal_per_minute","base_skill_effect_duration","projectile_damage_modifiers_apply_to_skill_dot","visual_hit_effect_chaos_is_green","skill_can_fire_arrows"],
@@ -11684,17 +11902,17 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "32":true,
       "35":true,
-      "39":true,
-      "47":true,
-      "49":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "42":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_chaos_damage_to_deal_per_minute","projectile_damage_modifiers_apply_to_skill_dot","visual_hit_effect_chaos_is_green","action_attack_or_cast_time_uses_animation_length","skill_can_fire_arrows"],
@@ -11774,14 +11992,14 @@
     "notMinionStat":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "19":true,
-      "36":true,
-      "39":true,
-      "49":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "9":true,
+      "16":true,
+      "33":true,
+      "35":true,
+      "42":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","base_chaos_damage_to_deal_per_minute","is_trap","is_area_damage","base_skill_is_trapped","ignores_trap_and_mine_cooldown_limit"]
@@ -11832,20 +12050,20 @@
     "name":"Temporal Chains",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -11936,17 +12154,17 @@
     "notMinionStat":["spell_minimum_base_lightning_damage_per_removable_power_charge","spell_maximum_base_lightning_damage_per_removable_power_charge","spell_minimum_base_fire_damage_per_removable_endurance_charge","spell_maximum_base_fire_damage_per_removable_endurance_charge","spell_minimum_base_cold_damage_per_removable_frenzy_charge","spell_maximum_base_cold_damage_per_removable_frenzy_charge"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "22":true,
+      "29":true,
+      "30":true,
+      "31":true,
       "32":true,
-      "33":true,
-      "34":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "95":true,
-      "101":true
+      "70":true,
+      "72":true,
+      "84":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage_per_removable_power_charge","spell_maximum_base_lightning_damage_per_removable_power_charge","spell_minimum_base_fire_damage_per_removable_endurance_charge","spell_maximum_base_fire_damage_per_removable_endurance_charge","spell_minimum_base_cold_damage_per_removable_frenzy_charge","spell_maximum_base_cold_damage_per_removable_frenzy_charge","is_area_damage","disable_skill_repeats"]
@@ -12103,10 +12321,10 @@
     "name":"Enduring Cry",
     "skillTypes":{
       "5":true,
-      "11":true,
-      "12":true,
-      "73":true,
-      "101":true
+      "8":true,
+      "9":true,
+      "63":true,
+      "90":true
     },
     "statDescriptionScope":"buff_skill_stat_descriptions",
     "stats":[]
@@ -12144,15 +12362,15 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "19":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "16":true,
+      "25":true,
       "29":true,
-      "32":true,
-      "36":true,
-      "39":true,
-      "82":true
+      "33":true,
+      "35":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_fire_damage_to_deal_per_minute","is_trap","is_area_damage","base_skill_is_trapped","ignores_trap_and_mine_cooldown_limit"]
@@ -12188,17 +12406,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","use_scaled_contact_offset","projectile_uses_contact_position","maintain_projectile_direction_when_using_contact_position"]
@@ -12228,13 +12446,13 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "19":true,
-      "30":true,
+      "7":true,
+      "14":true,
+      "16":true,
+      "26":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectile_uses_contact_position","always_pierce","use_scaled_contact_offset"]
@@ -12259,12 +12477,12 @@
     "name":"Flicker Strike",
     "skillTypes":{
       "1":true,
-      "12":true,
+      "9":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "37":true,
-      "101":true
+      "34":true,
+      "90":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["ignores_proximity_shield","melee_defer_damage_prediction"],
@@ -12310,15 +12528,15 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "33":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "30":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["physical_damage_+%","skill_can_fire_arrows","projectile_uses_contact_position","use_scaled_contact_offset"],
@@ -12346,12 +12564,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -12387,12 +12605,12 @@
     "name":"Leap Slam",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "18":true,
-      "24":true,
-      "37":true,
-      "90":true,
-      "103":true
+      "8":true,
+      "15":true,
+      "20":true,
+      "34":true,
+      "79":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","cast_time_overrides_attack_duration"],
@@ -12439,17 +12657,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile"]
@@ -12486,15 +12704,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile"]
@@ -12520,15 +12738,15 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "34":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "31":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"],
@@ -12556,9 +12774,9 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "12":true,
-      "34":true,
-      "35":true
+      "9":true,
+      "31":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -12594,17 +12812,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile"]
@@ -12641,15 +12859,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile"]
@@ -12693,16 +12911,16 @@
     "notMinionStat":["active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "79":true,
-      "80":true,
-      "96":true,
-      "97":true,
-      "109":true
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "69":true,
+      "70":true,
+      "85":true,
+      "86":true,
+      "98":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -12737,10 +12955,10 @@
     "name":"Proximity Shield",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "35":true,
-      "82":true
+      "8":true,
+      "9":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":[]
@@ -12784,19 +13002,18 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
       "28":true,
-      "35":true,
-      "39":true,
-      "47":true,
-      "67":true,
-      "68":true,
-      "86":true
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_bleeding_damage_+%_final","skill_can_fire_arrows","global_bleed_on_hit"],
@@ -12831,17 +13048,17 @@
     "skillTypes":{
       "2":true,
       "5":true,
-      "11":true,
-      "18":true,
+      "8":true,
+      "15":true,
+      "25":true,
       "29":true,
       "32":true,
       "35":true,
-      "39":true,
-      "74":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "101":true
+      "64":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "90":true
     },
     "statDescriptionScope":"buff_skill_stat_descriptions",
     "stats":["base_fire_damage_to_deal_per_minute"]
@@ -12875,17 +13092,17 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "80":true,
-      "82":true,
-      "95":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "70":true,
+      "72":true,
+      "84":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -12965,16 +13182,16 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile"]
@@ -13010,17 +13227,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","projectiles_fork","base_is_projectile"]
@@ -13057,15 +13274,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","projectiles_fork"]
@@ -13092,12 +13309,11 @@
     "name":"Viper Strike",
     "skillTypes":{
       "1":true,
-      "12":true,
+      "9":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "39":true,
-      "49":true
+      "42":true
     },
     "statDescriptionScope":"debuff_skill_stat_descriptions",
     "stats":["poison_duration_is_skill_duration","visual_hit_effect_chaos_is_green"],
@@ -13128,12 +13344,11 @@
     "name":"Viper Strike",
     "skillTypes":{
       "1":true,
-      "12":true,
+      "9":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "39":true,
-      "49":true
+      "42":true
     },
     "statDescriptionScope":"debuff_skill_stat_descriptions",
     "stats":["poison_duration_is_skill_duration","visual_hit_effect_chaos_is_green","action_attack_or_cast_time_uses_animation_length"],
@@ -13188,21 +13403,21 @@
     "name":"Vulnerability",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
       "86":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13250,16 +13465,16 @@
     "name":"Warlord's Mark",
     "skillTypes":{
       "2":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "79":true,
-      "80":true,
-      "96":true,
-      "97":true,
-      "109":true
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "69":true,
+      "70":true,
+      "85":true,
+      "86":true,
+      "98":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13333,18 +13548,18 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "19":true,
-      "23":true,
-      "26":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage","base_is_projectile"]
@@ -13381,15 +13596,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","ice_spear_second_form_damage_+%","base_is_projectile","projectile_uses_contact_position"]
@@ -13435,21 +13650,21 @@
     "name":"Conductivity",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13517,20 +13732,20 @@
     "name":"Elemental Weakness",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13568,20 +13783,20 @@
     "name":"Enfeeble",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13668,21 +13883,21 @@
     "name":"Flammability",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13750,21 +13965,21 @@
     "name":"Frostbite",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13830,16 +14045,16 @@
     "notMinionStat":["active_skill_area_of_effect_radius_+%_final"],
     "skillTypes":{
       "2":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "79":true,
-      "80":true,
-      "96":true,
-      "97":true,
-      "109":true
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "69":true,
+      "70":true,
+      "85":true,
+      "86":true,
+      "98":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13886,22 +14101,22 @@
       }],
     "minionSkillTypes":{
       "1":true,
-      "24":true,
-      "25":true,
-      "28":true
+      "20":true,
+      "21":true,
+      "24":true
     },
     "name":"Raise Zombie",
     "skillTypes":{
       "2":true,
-      "9":true,
-      "17":true,
+      "6":true,
+      "14":true,
+      "15":true,
+      "16":true,
       "18":true,
-      "19":true,
-      "21":true,
-      "26":true,
-      "35":true,
-      "80":true,
-      "88":true
+      "22":true,
+      "32":true,
+      "70":true,
+      "77":true
     },
     "statDescriptionScope":"minion_spell_skill_stat_descriptions",
     "stats":["base_number_of_zombies_allowed"]
@@ -13927,21 +14142,21 @@
     "name":"Vulnerability",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
       "86":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -13997,17 +14212,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","spell_minimum_base_chaos_damage","spell_maximum_base_chaos_damage","base_is_projectile"]
@@ -14043,17 +14258,17 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true
+      "57":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile"]
@@ -14103,10 +14318,10 @@
     "notMinionStat":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["secondary_minimum_base_fire_damage","secondary_maximum_base_fire_damage","grant_kill_to_target_when_exploding_self","is_area_damage"]
@@ -14134,8 +14349,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile"]
@@ -14163,8 +14378,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile"]
@@ -14234,7 +14449,7 @@
     "notMinionStat":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","is_area_damage"]
@@ -14272,15 +14487,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "33":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "30":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_cold_damage","spell_maximum_base_cold_damage","base_is_projectile","always_pierce"]
@@ -14306,21 +14521,21 @@
     "name":"Vulnerability",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
       "86":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -14367,13 +14582,13 @@
     "name":"Earthquake",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "12":true,
-      "18":true,
+      "8":true,
+      "9":true,
+      "15":true,
+      "20":true,
       "24":true,
-      "28":true,
-      "35":true,
-      "103":true
+      "32":true,
+      "92":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"],
@@ -14406,7 +14621,7 @@
     "name":"Multi Slash",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","skill_is_attack"]
@@ -14432,15 +14647,15 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "34":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "31":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"],
@@ -14481,17 +14696,18 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "82":true,
-      "86":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "57":true,
+      "70":true,
+      "72":true,
+      "133":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","always_pierce","projectile_uses_contact_position"]
@@ -14531,14 +14747,14 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile"]
@@ -14560,9 +14776,9 @@
     "name":"Bone Nova",
     "skillTypes":{
       "1":true,
-      "10":true,
-      "11":true,
-      "35":true
+      "7":true,
+      "8":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["projectiles_nova","base_is_projectile"]
@@ -14598,15 +14814,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectiles_not_offset"]
@@ -14635,11 +14851,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile","global_bleed_on_hit"]
@@ -14667,8 +14883,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -14701,13 +14917,13 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "14":true,
+      "15":true,
+      "16":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_damage_+%_final","base_is_projectile","skill_can_fire_arrows"],
@@ -14804,16 +15020,16 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile"]
@@ -14840,21 +15056,21 @@
     "name":"Vulnerability",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
       "86":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -14914,17 +15130,17 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "80":true,
-      "82":true
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -14946,11 +15162,11 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "10":true,
-      "35":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "7":true,
+      "32":true,
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"]
@@ -14979,16 +15195,16 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "34":true,
-      "35":true,
-      "67":true,
-      "80":true
+      "7":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "31":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","base_is_projectile","projectiles_not_offset"]
@@ -15028,7 +15244,7 @@
       }],
     "name":"Beam",
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
-    "skillTypes":[null,true,null,null,null,null,null,null,null,true],
+    "skillTypes":[null,true,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage","is_area_damage"]
   },
@@ -15058,15 +15274,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position","mortar_projectile_scale_animation_speed_instead_of_projectile_speed"]
@@ -15085,7 +15301,7 @@
     "name":"Volatile Slam",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -15114,7 +15330,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage"]
@@ -15142,7 +15358,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","is_area_damage","cannot_stun"]
@@ -15171,8 +15387,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -15199,8 +15415,8 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "35":true,
-      "67":true
+      "32":true,
+      "57":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -15224,8 +15440,8 @@
       }],
     "name":"Quicksand",
     "skillTypes":{
-      "11":true,
-      "35":true
+      "8":true,
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_physical_damage_to_deal_per_minute"]
@@ -15253,7 +15469,7 @@
     "notMinionStat":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"],
     "skillTypes":{
       "2":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_lightning_damage","spell_maximum_base_lightning_damage"]
@@ -15308,20 +15524,20 @@
     "name":"Temporal Chains",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -15414,21 +15630,21 @@
     "name":"Vulnerability",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
       "86":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -15505,20 +15721,20 @@
     "name":"Enfeeble",
     "skillTypes":{
       "2":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "66":true,
-      "79":true,
-      "80":true,
-      "82":true,
-      "96":true,
-      "97":true,
-      "108":true
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "56":true,
+      "69":true,
+      "70":true,
+      "72":true,
+      "85":true,
+      "86":true,
+      "97":true
     },
     "statDescriptionScope":"curse_skill_stat_descriptions",
     "statMap":{
@@ -15598,15 +15814,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","base_projectile_speed_+%","is_area_damage","base_is_projectile"]
@@ -15634,7 +15850,7 @@
     "name":"Cone Arrow",
     "skillTypes":{
       "1":true,
-      "35":true
+      "32":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage"]
@@ -15660,12 +15876,12 @@
     "skillTypes":{
       "1":true,
       "3":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "47":true,
-      "67":true,
-      "68":true
+      "41":true,
+      "57":true,
+      "58":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["skill_can_fire_arrows","skill_can_fire_wand_projectiles","action_attack_or_cast_time_uses_animation_length","use_scaled_contact_offset"]
@@ -15691,9 +15907,9 @@
     "name":"Whirling Blades",
     "skillTypes":{
       "1":true,
-      "24":true,
-      "37":true,
-      "90":true
+      "20":true,
+      "34":true,
+      "79":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["cast_time_overrides_attack_duration","ignores_proximity_shield"],
@@ -15757,18 +15973,18 @@
     "notMinionStat":["spell_minimum_base_fire_damage","spell_maximum_base_fire_damage"],
     "skillTypes":{
       "2":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "66":true,
-      "80":true,
-      "82":true
+      "56":true,
+      "70":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -15814,9 +16030,52 @@
       }],
     "name":"Physical Beam",
     "notMinionStat":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage"],
-    "skillTypes":[null,true,null,null,null,null,null,null,null,true],
+    "skillTypes":[null,true,null,null,null,null,true],
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage"]
+  },
+  "VaalOverseerHeavyStrike":{
+    "baseEffectiveness":0,
+    "baseFlags":{
+      "attack":true,
+      "melee":true
+    },
+    "castTime":1,
+    "color":4,
+    "constantStats":[["base_stun_threshold_reduction_+%",1],["skill_physical_damage_%_to_convert_to_fire",40]],
+    "description":"Attacks enemies with a forceful blow. Requires a Mace, Sceptre, Axe, Sword or Staff.",
+    "hidden":true,
+    "levels":[{
+        "baseMultiplier":1.26,
+        "cooldown":2,
+        "levelRequirement":1,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.26,
+        "cooldown":2,
+        "levelRequirement":68,
+        "storedUses":1
+      }],
+    "name":"Heavy Strike",
+    "skillTypes":{
+      "1":true,
+      "20":true,
+      "21":true,
+      "24":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["action_attack_or_cast_time_uses_animation_length","global_knockback"],
+    "weaponTypes":{
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Thrusting One Handed Sword":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
+    }
   },
   "VaalincursionMortar":{
     "baseEffectiveness":1.9550000429153,
@@ -15842,15 +16101,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "11":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "82":true
+      "7":true,
+      "8":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "32":true,
+      "57":true,
+      "72":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_is_projectile","projectile_uses_contact_position"]
@@ -15875,9 +16134,9 @@
     "name":"Double Slash",
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
-      "28":true
+      "8":true,
+      "20":true,
+      "24":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","disable_skill_repeats"],
@@ -15908,14 +16167,14 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
+      "8":true,
+      "20":true,
+      "21":true,
       "24":true,
-      "25":true,
-      "28":true,
-      "32":true,
-      "47":true,
-      "93":true,
-      "102":true
+      "29":true,
+      "41":true,
+      "82":true,
+      "91":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_is_projectile"],
@@ -15972,15 +16231,15 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
-      "17":true,
-      "18":true,
-      "19":true,
-      "26":true,
-      "35":true,
-      "67":true,
-      "80":true,
-      "86":true
+      "7":true,
+      "14":true,
+      "15":true,
+      "16":true,
+      "22":true,
+      "28":true,
+      "32":true,
+      "57":true,
+      "70":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","monster_penalty_against_minions_damage_+%_final_vs_player_minions","base_is_projectile"]

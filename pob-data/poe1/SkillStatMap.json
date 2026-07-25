@@ -894,7 +894,7 @@
       "name":"ActiveTotemLimit",
       "type":"BASE",
       "1":{
-        "skillType":125,
+        "skillType":114,
         "type":"SkillType"
       }
     }],
@@ -1436,7 +1436,7 @@
       "name":"RepeatCount",
       "type":"BASE",
       "1":{
-        "skillType":13,
+        "skillType":10,
         "type":"SkillType"
       }
     }],
@@ -1446,7 +1446,7 @@
       "name":"Duration",
       "type":"INC",
       "1":{
-        "skillType":88,
+        "skillType":77,
         "type":"SkillType"
       }
     }],
@@ -2148,7 +2148,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":24,
+        "skillType":20,
         "type":"SkillType"
       }
     }],
@@ -2161,7 +2161,7 @@
         "key":"triggeredByDamageTaken"
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2178,7 +2178,7 @@
         "key":"chanceToTriggerOnStun"
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2202,7 +2202,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2219,7 +2219,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2237,7 +2237,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2259,7 +2259,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2286,11 +2286,11 @@
         "key":"chanceToTriggerCurseOnCurse"
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
-        "skillType":108,
+        "skillType":97,
         "type":"SkillType"
       }
     }],
@@ -2361,7 +2361,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -2435,7 +2435,7 @@
       "name":"Damage",
       "type":"INC",
       "1":{
-        "skillType":57,
+        "skillType":48,
         "type":"SkillType"
       }
     }],
@@ -2567,6 +2567,8 @@
       "type":"INC",
       "1":{
         "div":100,
+        "limit":400,
+        "limitTotal":true,
         "stat":"Ward",
         "type":"PerStat"
       }
@@ -3332,15 +3334,15 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
-        "skillType":108,
+        "skillType":97,
         "type":"SkillType"
       },
       "3":{
-        "skillType":79,
+        "skillType":69,
         "type":"SkillType"
       }
     }],
@@ -3360,7 +3362,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       }
     }],
@@ -3582,7 +3584,7 @@
       "name":"CurseEffect",
       "type":"INC",
       "1":{
-        "skillType":109,
+        "skillType":98,
         "type":"SkillType"
       }
     }],
@@ -3655,7 +3657,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       }
     }],
@@ -3672,7 +3674,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       }
     }],
@@ -4394,7 +4396,7 @@
       "type":"INC",
       "1":{
         "neg":true,
-        "skillType":79,
+        "skillType":69,
         "type":"SkillType"
       }
     }],
@@ -5254,7 +5256,7 @@
         "value":true
       },
       "1":{
-        "skillType":68,
+        "skillType":58,
         "type":"SkillType"
       }
     }],
@@ -5325,7 +5327,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       }
     }],
@@ -5389,7 +5391,7 @@
       "name":"RepeatCount",
       "type":"BASE",
       "1":{
-        "skillType":26,
+        "skillType":22,
         "type":"SkillType"
       }
     }],
@@ -5403,7 +5405,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       }
     }],
@@ -5418,7 +5420,7 @@
         "key":"chanceToTriggerOnFocus"
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -5522,7 +5524,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -5834,7 +5836,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       }
     }],
@@ -5930,7 +5932,7 @@
         "value":true
       },
       "1":{
-        "skillTypeList":[2,47],
+        "skillTypeList":[2,41],
         "type":"SkillType"
       }
     }],
@@ -5947,7 +5949,7 @@
       "type":"BASE",
       "1":{
         "neg":true,
-        "skillType":74,
+        "skillType":64,
         "type":"SkillType"
       }
     }],
@@ -6005,7 +6007,7 @@
         "key":"triggeredByAutomation"
       },
       "1":{
-        "skillTypeList":[35,2,74],
+        "skillTypeList":[32,2,64],
         "type":"SkillType"
       }
     }],
@@ -6018,7 +6020,7 @@
         "key":"triggeredByAutoexertion"
       },
       "1":{
-        "skillType":73,
+        "skillType":63,
         "type":"SkillType"
       }
     }],
@@ -6065,7 +6067,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -6083,7 +6085,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -6164,7 +6166,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":43,
+        "skillType":39,
         "type":"SkillType"
       }
     }],
@@ -6178,7 +6180,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":49,
+        "skillType":42,
         "type":"SkillType"
       }
     }],
@@ -6192,7 +6194,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":33,
+        "skillType":30,
         "type":"SkillType"
       }
     }],
@@ -6226,7 +6228,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":32,
+        "skillType":29,
         "type":"SkillType"
       }
     }],
@@ -6240,7 +6242,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":34,
+        "skillType":31,
         "type":"SkillType"
       }
     }],
@@ -6254,7 +6256,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":9,
+        "skillType":6,
         "type":"SkillType"
       }
     }],
@@ -6268,7 +6270,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":86,
+        "skillType":28,
         "type":"SkillType"
       }
     }],
@@ -6282,7 +6284,7 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "skillType":25,
+        "skillType":21,
         "type":"SkillType"
       }
     }],
@@ -6417,11 +6419,11 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
-        "skillType":109,
+        "skillType":98,
         "type":"SkillType"
       }
     }],
@@ -6434,7 +6436,7 @@
         "key":"chanceToTriggerOnWardBreak"
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -6479,7 +6481,7 @@
         "value":true
       },
       "1":{
-        "skillType":24,
+        "skillType":20,
         "type":"SkillType"
       },
       "2":{
@@ -6493,7 +6495,7 @@
       "name":"TriggeredDamage",
       "type":"INC",
       "1":{
-        "skillType":41,
+        "skillType":37,
         "type":"SkillType"
       }
     }],
@@ -6506,7 +6508,7 @@
         "key":"triggeredWhenHexEnds"
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -6524,7 +6526,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -6532,7 +6534,7 @@
         "type":"SkillType"
       },
       "3":{
-        "skillType":33,
+        "skillType":30,
         "type":"SkillType"
       }
     },{
@@ -6545,7 +6547,7 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
@@ -6553,7 +6555,7 @@
         "type":"SkillType"
       },
       "3":{
-        "skillType":33,
+        "skillType":30,
         "type":"SkillType"
       }
     }],
@@ -6567,11 +6569,11 @@
         "value":true
       },
       "1":{
-        "skillType":35,
+        "skillType":32,
         "type":"SkillType"
       },
       "2":{
-        "skillType":34,
+        "skillType":31,
         "type":"SkillType"
       }
     }],

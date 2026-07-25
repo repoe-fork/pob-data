@@ -249,7 +249,7 @@
       }],
     "name":"Added Cold Damage",
     "qualityStats":[["cold_damage_+%",0.5]],
-    "requireSkillTypes":[1,10],
+    "requireSkillTypes":[1,7],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["global_minimum_added_cold_damage","global_maximum_added_cold_damage"],
     "support":true
@@ -463,7 +463,7 @@
       }],
     "name":"Additional Accuracy",
     "qualityStats":[["accuracy_rating_+%",1]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["accuracy_rating"],
     "support":true
@@ -757,18 +757,18 @@
       }],
     "name":"Advanced Traps",
     "qualityStats":[["trap_damage_+%",0.5]],
-    "requireSkillTypes":[36],
+    "requireSkillTypes":[33],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["placing_traps_cooldown_recovery_+%","trap_throwing_speed_+%"],
     "support":true
   },
   "SupportArrowNova":{
-    "addSkillTypes":[100],
+    "addSkillTypes":[89],
     "baseEffectiveness":0,
     "color":2,
     "constantStats":[["number_of_additional_projectiles",4]],
     "description":"Supports bow attack skills that fire arrows forwards as projectiles. These skills will instead fire a payload arrow into the air to land at a targeted location. The supported skills' arrows will then fire out in a circle from where it lands. Cannot support skills that already fire arrows into the air, channelled skills, or skills that create Minions.",
-    "excludeSkillTypes":[57,88,93,124],
+    "excludeSkillTypes":[48,77,82,113],
     "ignoreMinionTypes":true,
     "levels":[{
         "PvPDamageMultiplier":-25,
@@ -1013,7 +1013,7 @@
       }],
     "name":"Arrow Nova",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,83,47,55,83,84,67,84],
+    "requireSkillTypes":[3,45,73,41,47,73,74,57,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_rain_projectile_damage_+%_final":[{
@@ -1181,18 +1181,18 @@
     "name":"Awakened Added Cold Damage",
     "plusVersionOf":"SupportAddedColdDamage",
     "qualityStats":[["cold_damage_+%",0.5]],
-    "requireSkillTypes":[1,10],
+    "requireSkillTypes":[1,7],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["global_minimum_added_cold_damage","global_maximum_added_cold_damage","supported_cold_skill_gem_level_+"],
     "support":true
   },
   "SupportAwakenedArrowNova":{
-    "addSkillTypes":[100],
+    "addSkillTypes":[89],
     "baseEffectiveness":0,
     "color":2,
     "constantStats":[["number_of_additional_projectiles",5]],
     "description":"Supports bow attack skills that fire arrows forwards as projectiles. These skills will instead fire a payload arrow into the air to land at a targeted location. The supported skills' arrows will then fire out in a circle from where it lands. Cannot support skills that already fire arrows into the air, channelled skills, or skills that create Minions.",
-    "excludeSkillTypes":[57,88,93,124],
+    "excludeSkillTypes":[48,77,82,113],
     "ignoreMinionTypes":true,
     "legacy":true,
     "levels":[{
@@ -1319,7 +1319,7 @@
     "name":"Awakened Arrow Nova",
     "plusVersionOf":"SupportArrowNova",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,83,47,55,83,84,67,84],
+    "requireSkillTypes":[3,45,73,41,47,73,74,57,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_rain_projectile_damage_+%_final":[{
@@ -1340,7 +1340,7 @@
     "color":2,
     "constantStats":[["cast_linked_spells_on_attack_crit_%",100]],
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,134],
+    "excludeSkillTypes":[33,36,26,12,123],
     "ignoreMinionTypes":true,
     "legacy":true,
     "levels":[{
@@ -1546,7 +1546,7 @@
     "name":"Awakened Chain",
     "plusVersionOf":"SupportChain",
     "qualityStats":[["chaining_range_+%",0.5]],
-    "requireSkillTypes":[23,3,53,55,102],
+    "requireSkillTypes":[19,3,45,47,91],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_chain_hit_damage_+%_final":[{
@@ -1689,7 +1689,7 @@
     "name":"Awakened Cold Penetration",
     "plusVersionOf":"SupportColdPenetration",
     "qualityStats":[["cold_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_reduce_enemy_cold_resistance_%","base_inflict_cold_exposure_on_hit_%_chance"],
     "support":true
@@ -1805,7 +1805,7 @@
     "name":"Awakened Deadly Ailments",
     "plusVersionOf":"SupportDeadlyAilments",
     "qualityStats":[["damage_over_time_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_better_ailments_ailment_damage_+%_final":[{
@@ -1828,7 +1828,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any skill gem. Once this gem reaches level 2 or above, will raise the quality of supported gems. Cannot support skills that don't come from gems.",
-    "excludeSkillTypes":[126],
+    "excludeSkillTypes":[115],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":20,
@@ -2050,7 +2050,7 @@
     "name":"Awakened Fork",
     "plusVersionOf":"SupportFork",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55],
+    "requireSkillTypes":[3,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_fork_projectile_damage_+%_final":[{
@@ -2068,7 +2068,7 @@
     "color":2,
     "constantStats":[["number_of_additional_projectiles",5],["terrain_arrow_attachment_chance_reduction_+%",250]],
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[124],
+    "excludeSkillTypes":[113],
     "legacy":true,
     "levels":[{
         "PvPDamageMultiplier":-25,
@@ -2194,7 +2194,7 @@
     "name":"Awakened Greater Multiple Projectiles",
     "plusVersionOf":"SupportGreaterMultipleProjectiles",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55,72],
+    "requireSkillTypes":[3,45,47,62],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_multiple_projectile_damage_+%_final":[{
@@ -2318,7 +2318,7 @@
     "name":"Awakened Swift Affliction",
     "plusVersionOf":"SupportSwiftAffliction",
     "qualityStats":[["damage_over_time_+%",0.5]],
-    "requireSkillTypes":[12,54,10,1],
+    "requireSkillTypes":[9,46,7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_rapid_decay_damage_over_time_+%_final":[{
@@ -2482,7 +2482,7 @@
     "name":"Awakened Vicious Projectiles",
     "plusVersionOf":"SupportViciousProjectiles",
     "qualityStats":[["physical_damage_+%",0.5]],
-    "requireSkillTypes":[47,55],
+    "requireSkillTypes":[41,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_phys_chaos_projectile_chaos_damage_over_time_+%_final":[{
@@ -2643,7 +2643,7 @@
     "name":"Awakened Void Manipulation",
     "plusVersionOf":"SupportVoidManipulation",
     "qualityStats":[["chaos_damage_+%",0.5]],
-    "requireSkillTypes":[10,1,39],
+    "requireSkillTypes":[7,1,35],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_void_manipulation_chaos_damage_+%_final":[{
@@ -2660,254 +2660,254 @@
     "addSkillTypes":[],
     "baseEffectiveness":0,
     "color":2,
-    "constantStats":[["number_of_additional_projectiles",3],["support_barrage_attack_time_+%_per_projectile_fired",5],["support_barrage_trap_and_mine_throwing_time_+%_final_per_projectile_fired",5]],
+    "constantStats":[["number_of_additional_projectiles",4],["support_barrage_attack_time_+%_per_projectile_fired",10],["support_barrage_trap_and_mine_throwing_time_+%_final_per_projectile_fired",10]],
     "description":"Supports projectile attack skills that use bows or wands. Cannot support triggered skills, channelled skills, or skills that create Minions.",
-    "excludeSkillTypes":[57,88,41,60,70],
+    "excludeSkillTypes":[48,77,37,50,60],
     "ignoreMinionTypes":true,
     "levels":[{
         "PvPDamageMultiplier":-20,
         "levelRequirement":38,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-68
+        "1":-50
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":40,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-68
+        "1":-50
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":42,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-67
+        "1":-50
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":44,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-67
+        "1":-49
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":46,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-67
+        "1":-49
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":48,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-66
+        "1":-49
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":50,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-66
+        "1":-48
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":52,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-66
+        "1":-48
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":54,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-65
+        "1":-48
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":56,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-65
+        "1":-47
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":58,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-65
+        "1":-47
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":60,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-65
+        "1":-47
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":62,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-64
+        "1":-46
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":64,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-64
+        "1":-46
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":65,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-64
+        "1":-46
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":66,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-63
+        "1":-45
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":67,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-63
+        "1":-45
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":68,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-63
+        "1":-45
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":69,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-62
+        "1":-44
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":70,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-62
+        "1":-44
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":72,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-62
+        "1":-44
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":74,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-61
+        "1":-43
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":76,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-61
+        "1":-43
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":78,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-61
+        "1":-43
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":80,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-60
+        "1":-42
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":82,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-60
+        "1":-42
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":84,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-60
+        "1":-42
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":86,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-59
+        "1":-41
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":88,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-59
+        "1":-41
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":90,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-59
+        "1":-41
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":91,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-59
+        "1":-41
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":92,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-58
+        "1":-40
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":93,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-58
+        "1":-40
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":94,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-58
+        "1":-40
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":95,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-57
+        "1":-40
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":96,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-57
+        "1":-40
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":97,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-57
+        "1":-40
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":98,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-56
+        "1":-39
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":99,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-56
+        "1":-39
       },{
         "PvPDamageMultiplier":-20,
         "levelRequirement":100,
-        "manaMultiplier":50,
+        "manaMultiplier":100,
         "statInterpolation":[1],
-        "1":-56
+        "1":-39
       }],
     "name":"Barrage Support",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,83,72,83,47,55,83,84],
+    "requireSkillTypes":[3,45,73,62,73,41,47,73,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "number_of_additional_projectiles":[{
@@ -3159,13 +3159,13 @@
       }],
     "name":"Blind",
     "qualityStats":[["blind_effect_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["blind_duration_+%"],
     "support":true
   },
   "SupportBlockChanceReduction":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "color":2,
     "constantStats":[["support_overpowered_base_duration_ms",4000],["apply_overpowered_on_enemy_block_reduced_block_and_spell_block_%",5]],
     "description":"Supports any skill that hits enemies.",
@@ -3333,7 +3333,7 @@
       }],
     "name":"Block Chance Reduction",
     "qualityStats":[["global_reduce_enemy_block_%",0.25]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "global_reduce_enemy_block_%":[{
@@ -3353,10 +3353,10 @@
     "support":true
   },
   "SupportCastOnCritTriggered":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":2,
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,60,134],
+    "excludeSkillTypes":[33,36,26,12,50,123],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -3603,7 +3603,7 @@
         "manaMultiplier":20,
         "statInterpolation":[1],
         "storedUses":1,
-        "1":-3
+        "1":-4
       },{
         "cooldown":0.15,
         "levelRequirement":96,
@@ -3642,7 +3642,7 @@
       }],
     "name":"Cast On Critical Strike",
     "qualityStats":[["spell_critical_strike_chance_+%",1]],
-    "requireSkillTypes":[2,35,84],
+    "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_cast_on_crit_spell_damage_+%_final":[{
@@ -3656,10 +3656,10 @@
     "support":true
   },
   "SupportCastOnCritTriggeredPlus":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":2,
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,60,134],
+    "excludeSkillTypes":[33,36,26,12,50,123],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -3826,7 +3826,7 @@
     "name":"Awakened Cast On Critical Strike",
     "plusVersionOf":"SupportCastOnCritTriggered",
     "qualityStats":[["spell_critical_strike_chance_+%",1]],
-    "requireSkillTypes":[2,35,84],
+    "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_cast_on_crit_spell_damage_+%_final":[{
@@ -3844,7 +3844,7 @@
     "color":2,
     "constantStats":[["cast_linked_spells_on_attack_crit_%",100]],
     "description":"Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,134],
+    "excludeSkillTypes":[33,36,26,12,123],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -3978,7 +3978,7 @@
     "support":true
   },
   "SupportCastOnDeath":{
-    "addSkillTypes":[41],
+    "addSkillTypes":[37],
     "baseMods":[{
         "flags":0,
         "keywordFlags":0,
@@ -3992,7 +3992,7 @@
     "color":2,
     "constantStats":[["cast_on_death_%",100]],
     "description":"Each supported spell skill will be triggered when you die. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[9,36,40,30,43,60,134],
+    "excludeSkillTypes":[6,33,36,26,39,50,123],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-85,
@@ -4237,7 +4237,7 @@
       }],
     "name":"Cast on Death",
     "qualityStats":[["area_of_effect_+%_while_dead",3]],
-    "requireSkillTypes":[2,35,84],
+    "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "area_of_effect_+%_while_dead":[{
@@ -4258,11 +4258,11 @@
     "support":true
   },
   "SupportCastOnWardBreak":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":2,
     "constantStats":[["trigger_on_ward_break_%_chance",100],["cooldown_recovery_rate_+%_per_100_ward",5]],
     "description":"Each supported spell skill will be triggered when your Ward breaks. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,43,60,134],
+    "excludeSkillTypes":[33,36,26,39,50,123],
     "flavourText":["\"Prove yourself! Are you a knave, or a knight?","I shall know by the strength of your blows!\""],
     "isTrigger":true,
     "levels":[{
@@ -4388,7 +4388,7 @@
       }],
     "name":"Cast on Ward Break",
     "qualityStats":[["spell_damage_+%",0.5]],
-    "requireSkillTypes":[2,35,84],
+    "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "cast_on_ward_break_damage_+%_final":[{
@@ -4650,7 +4650,7 @@
       }],
     "name":"Chain",
     "qualityStats":[["chaining_range_+%",0.5]],
-    "requireSkillTypes":[23,3,53,55,102],
+    "requireSkillTypes":[19,3,45,47,91],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_chain_hit_damage_+%_final":[{
@@ -4831,7 +4831,7 @@
       }],
     "name":"Chance to Flee",
     "qualityStats":[["global_hit_causes_monster_flee_%",1]],
-    "requireSkillTypes":[1,10],
+    "requireSkillTypes":[1,7],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["global_hit_causes_monster_flee_%"],
     "support":true
@@ -5087,7 +5087,7 @@
       }],
     "name":"Chance to Poison",
     "qualityStats":[["base_poison_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["global_minimum_added_chaos_damage","global_maximum_added_chaos_damage"],
     "support":true
@@ -5341,7 +5341,7 @@
       }],
     "name":"Charged Traps",
     "qualityStats":[["trap_damage_+%",0.5]],
-    "requireSkillTypes":[36],
+    "requireSkillTypes":[33],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "trap_trigger_radius_":[{
@@ -5359,7 +5359,7 @@
     "support":true
   },
   "SupportCloseCombat":{
-    "addSkillTypes":[12,5],
+    "addSkillTypes":[9,5],
     "baseMods":[{
         "flags":0,
         "keywordFlags":0,
@@ -5370,7 +5370,7 @@
     "color":2,
     "constantStats":[["support_slashing_buff_base_duration_ms",2000],["support_slashing_buff_attack_speed_+%_final_to_grant",20]],
     "description":"Supports melee attack skills. Cannot support skills which create minions.",
-    "excludeSkillTypes":[88],
+    "excludeSkillTypes":[77],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":18,
@@ -5575,7 +5575,7 @@
       }],
     "name":"Close Combat",
     "qualityStats":[["close_combat_damage_to_close_range_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "close_combat_damage_to_close_range_+%":[{
@@ -5605,7 +5605,7 @@
             "var":"SupportedByCloseCombat"
           },
           "3":{
-            "skillType":90,
+            "skillType":79,
             "type":"SkillType"
           }
         }],
@@ -5880,7 +5880,7 @@
       }],
     "name":"Cluster Traps",
     "qualityStats":[["trap_trigger_radius_+%",1]],
-    "requireSkillTypes":[36],
+    "requireSkillTypes":[33],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_clustertrap_damage_+%_final":[{
@@ -6101,7 +6101,7 @@
       }],
     "name":"Cold Penetration",
     "qualityStats":[["cold_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_reduce_enemy_cold_resistance_%"],
     "support":true
@@ -6111,87 +6111,87 @@
     "color":2,
     "constantStats":[["damage_removed_from_minions_before_life_or_es_%_if_only_one_minion",15]],
     "description":"Supports skills that create minions which can be damaged. Cannot support triggered skills.",
-    "excludeSkillTypes":[128,41],
+    "excludeSkillTypes":[117,37],
     "flavourText":["The Black Sekhema was a formidable fighter","alongside her dekhara, but she was unstoppable","when she fought atop her trusted mount, Shiyo."],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":40
+        "1":-24
       },{
         "levelRequirement":74,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":50
+        "1":-26
       },{
         "levelRequirement":76,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":60
+        "1":-28
       },{
         "levelRequirement":78,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":70
+        "1":-30
       },{
         "levelRequirement":80,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":75
+        "1":-31
       },{
         "levelRequirement":82,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":80
+        "1":-32
       },{
         "levelRequirement":84,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":85
+        "1":-33
       },{
         "levelRequirement":86,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":90
+        "1":-34
       },{
         "levelRequirement":88,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":95
+        "1":-35
       },{
         "levelRequirement":90,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":100
+        "1":-36
       },{
         "levelRequirement":91,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":105
+        "1":-37
       },{
         "levelRequirement":92,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":110
+        "1":-38
       },{
         "levelRequirement":93,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":115
+        "1":-39
       },{
         "levelRequirement":94,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":120
+        "1":-40
       },{
         "levelRequirement":95,
         "manaMultiplier":40,
         "statInterpolation":[1],
-        "1":125
+        "1":-41
       }],
     "name":"Companionship",
     "qualityStats":[["minion_maximum_life_+%",1]],
-    "requireSkillTypes":[88],
+    "requireSkillTypes":[77],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "damage_removed_from_minions_before_life_or_es_%_if_only_one_minion":[{
@@ -6209,7 +6209,7 @@
             "var":"OnlyMinion"
           }
         }],
-      "support_companionship_minion_maximum_life_+%_final_if_at_most_one_minion":[{
+      "support_companionship_minion_damage_taken_+%_final_if_at_most_one_minion":[{
           "flags":0,
           "keywordFlags":0,
           "name":"MinionModifier",
@@ -6218,7 +6218,7 @@
             "mod":{
               "flags":0,
               "keywordFlags":0,
-              "name":"Life",
+              "name":"DamageTaken",
               "type":"MORE"
             }
           },
@@ -6228,7 +6228,7 @@
           }
         }]
     },
-    "stats":["support_companionship_minion_maximum_life_+%_final_if_at_most_one_minion"],
+    "stats":["support_companionship_minion_damage_taken_+%_final_if_at_most_one_minion"],
     "support":true
   },
   "SupportCriticalStrikeAffliction":{
@@ -6439,7 +6439,7 @@
       }],
     "name":"Critical Strike Affliction",
     "qualityStats":[["critical_ailment_dot_multiplier_+",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["critical_ailment_dot_multiplier_+"],
     "support":true
@@ -6529,7 +6529,7 @@
     "name":"Cull the Weak",
     "plusVersionOf":"SupportCullingStrike",
     "qualityStats":[["recover_%_maximum_life_on_cull",0.1]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["kill_normal_or_magic_enemy_on_hit_if_under_x%_life"],
     "support":true
@@ -6742,7 +6742,7 @@
       }],
     "name":"Culling Strike",
     "qualityStats":[["recover_%_maximum_life_on_cull",0.1]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["damage_+%","kill_enemy_on_hit_if_under_10%_life"],
     "support":true
@@ -6956,7 +6956,7 @@
       }],
     "name":"Deadly Ailments",
     "qualityStats":[["damage_over_time_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_better_ailments_ailment_damage_+%_final":[{
@@ -6979,7 +6979,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports any skill gem. Once this gem reaches level 2 or above, will raise the quality of supported gems. Cannot support skills that don't come from gems.",
-    "excludeSkillTypes":[126],
+    "excludeSkillTypes":[115],
     "levels":[{
         "levelRequirement":1,
         "manaMultiplier":20,
@@ -7248,7 +7248,7 @@
       }],
     "name":"Faster Attacks",
     "qualityStats":[["attack_speed_+%",0.5]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["attack_speed_+%"],
     "support":true
@@ -7258,7 +7258,7 @@
     "baseEffectiveness":0,
     "color":2,
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[50],
+    "excludeSkillTypes":[43],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":20,
@@ -7502,7 +7502,7 @@
       }],
     "name":"Faster Projectiles",
     "qualityStats":[["base_projectile_speed_+%",0.5]],
-    "requireSkillTypes":[3,14,53,55],
+    "requireSkillTypes":[3,11,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_projectile_speed_+%","projectile_damage_+%"],
     "support":true
@@ -7837,7 +7837,7 @@
     "name":"Focused Ballista",
     "notMinionStat":["support_focused_ballista_totem_attack_speed_+%_final","support_focused_ballista_totem_damage_+%_final"],
     "qualityStats":[["totem_damage_+%",0.5]],
-    "requireSkillTypes":[125,30,84],
+    "requireSkillTypes":[114,26,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_focused_ballista_totem_attack_speed_+%_final":[{
@@ -8065,7 +8065,7 @@
       }],
     "name":"Fork",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55],
+    "requireSkillTypes":[3,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_fork_projectile_damage_+%_final":[{
@@ -8179,7 +8179,7 @@
     "name":"Greater Chain",
     "plusVersionOf":"SupportChain",
     "qualityStats":[["chaining_range_+%",0.5]],
-    "requireSkillTypes":[23,3,53,55,102],
+    "requireSkillTypes":[19,3,45,47,91],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["chaining_range_+%"],
     "support":true
@@ -8270,7 +8270,7 @@
     "name":"Greater Fork",
     "plusVersionOf":"SupportFork",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55],
+    "requireSkillTypes":[3,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["chance_to_fork_extra_projectile_%","projectiles_fork"],
     "support":true
@@ -8281,7 +8281,7 @@
     "color":2,
     "constantStats":[["number_of_additional_projectiles",4],["terrain_arrow_attachment_chance_reduction_+%",200]],
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[124],
+    "excludeSkillTypes":[113],
     "levels":[{
         "PvPDamageMultiplier":-25,
         "levelRequirement":38,
@@ -8526,7 +8526,7 @@
     "name":"Greater Multiple Projectiles",
     "plusVersionOf":"SupportLesserMultipleProjectiles",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55,72],
+    "requireSkillTypes":[3,45,47,62],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_multiple_projectile_damage_+%_final":[{
@@ -8544,7 +8544,7 @@
     "color":2,
     "constantStats":[["support_parallel_projectile_number_of_points_per_side",4],["greater_volley_additional_projectiles_fire_parallel_x_dist",80],["number_of_additional_projectiles",4]],
     "description":"Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects. Does not support skills that fire projectiles in a spiral.",
-    "excludeSkillTypes":[69,70,93,124,131],
+    "excludeSkillTypes":[59,60,82,113,120],
     "levels":[{
         "PvPDamageMultiplier":-25,
         "levelRequirement":38,
@@ -8789,7 +8789,7 @@
     "name":"Greater Volley",
     "plusVersionOf":"SupportVolley",
     "qualityStats":[["projectile_damage_+%",1]],
-    "requireSkillTypes":[67],
+    "requireSkillTypes":[57],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_greater_volley_projectile_damage_+%_final":[{
@@ -9051,7 +9051,7 @@
       }],
     "name":"Hypothermia",
     "qualityStats":[["additional_chance_to_freeze_chilled_enemies_%",1]],
-    "requireSkillTypes":[10,1,39],
+    "requireSkillTypes":[7,1,35],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_hypothermia_cold_damage_over_time_+%_final":[{
@@ -9081,7 +9081,7 @@
     "color":2,
     "constantStats":[["base_chance_to_freeze_%",15]],
     "description":"Supports any skill you use to hit enemies yourself. Cannot support skills used by totems, traps, or mines.",
-    "excludeSkillTypes":[36,40,30],
+    "excludeSkillTypes":[33,36,26],
     "incrementalEffectiveness":0.03770000115037,
     "levels":[{
         "levelRequirement":31,
@@ -9446,7 +9446,7 @@
       }],
     "name":"Ice Bite",
     "qualityStats":[["damage_+%_per_frenzy_charge",0.1]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["minimum_added_cold_damage_per_frenzy_charge","maximum_added_cold_damage_per_frenzy_charge","global_minimum_added_cold_damage","global_maximum_added_cold_damage","chance_to_gain_frenzy_charge_on_killing_frozen_enemy_%"],
     "support":true
@@ -9781,7 +9781,7 @@
       }],
     "name":"Invention",
     "qualityStats":[["trap_duration_+%",1],["mine_duration_+%",1]],
-    "requireSkillTypes":[36,40],
+    "requireSkillTypes":[33,36],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_invention_trap_and_mine_damage_+%_final_per_second_placed_up_to_100":[{
@@ -9818,7 +9818,7 @@
     "color":2,
     "constantStats":[["number_of_additional_projectiles",2],["terrain_arrow_attachment_chance_reduction_+%",100]],
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[124],
+    "excludeSkillTypes":[113],
     "levels":[{
         "PvPDamageMultiplier":-15,
         "levelRequirement":8,
@@ -10062,7 +10062,7 @@
       }],
     "name":"Multiple Projectiles",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55,72],
+    "requireSkillTypes":[3,45,47,62],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_lesser_multiple_projectile_damage_+%_final":[{
@@ -10160,7 +10160,7 @@
       }],
     "name":"Lethal Dose",
     "qualityStats":[["base_poison_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "additional_poisons_+_to_apply_vs_non_poisoned_enemies":[{
@@ -10187,11 +10187,11 @@
     "addFlags":{
       "mine":true
     },
-    "addSkillTypes":[40,15],
+    "addSkillTypes":[36,12],
     "color":2,
     "constantStats":[["number_of_additional_mines_to_place",2],["support_locus_mine_base_mine_duration",5000],["support_locus_mine_cannot_detonate_mines_within_X_units",30],["support_remote_mine_2_base_mine_detonation_time_ms",250],["support_makes_skill_mine_pvp_damage_+%_final",-60],["number_of_projectiles_+%_final_from_locus_mine_support",-30]],
     "description":"Supports attack skills that use bows or wands and fire projectiles ahead. Instead of using that skill, you will throw mines that will use the skill for you when you detonate them, targeting your location. Mines cannot use channelling skills.",
-    "excludeSkillTypes":[100,93,60,41,15,16,85,84,40,85,84],
+    "excludeSkillTypes":[89,82,50,37,12,13,75,74,36,75,74],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":8,
@@ -10396,7 +10396,7 @@
       }],
     "name":"Locus Mine",
     "qualityStats":[["mine_laying_speed_+%",0.5]],
-    "requireSkillTypes":[3,53,83,47,55,83,84,19,84],
+    "requireSkillTypes":[3,45,73,41,47,73,74,16,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "number_of_projectiles_+%_final_from_locus_mine_support":[{
@@ -10502,7 +10502,7 @@
     "name":"Machinations",
     "notMinionStat":["physical_damage_%_to_add_as_chaos_per_keystone"],
     "qualityStats":[["chaos_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "physical_damage_%_to_add_as_chaos_per_keystone":[{
@@ -10704,11 +10704,11 @@
     "support":true
   },
   "SupportManaforgedArrows":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":2,
     "constantStats":[["triggered_by_manaforged_arrows_support_%_chance",100],["support_manaforged_arrows_damage_+%_final_per_mana_spent",1],["support_manaforged_arrows_mana_cost_%_threshold",300]],
     "description":"Supports bow attack skills, causing them to trigger when you've spent enough mana in total on other bow attacks. Cannot modify the skills of minions. Cannot support totems, traps, mines, Vaal skills, or channelling skills",
-    "excludeSkillTypes":[36,40,30,15,134,60],
+    "excludeSkillTypes":[33,36,26,12,123,50],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -10994,7 +10994,7 @@
       }],
     "name":"Manaforged Arrows",
     "qualityStats":[["base_cooldown_speed_+%",0.5]],
-    "requireSkillTypes":[35,1,84],
+    "requireSkillTypes":[32,1,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_manaforged_arrows_damage_+%_final":[{
@@ -11025,7 +11025,7 @@
             "value":true
           },
           "1":{
-            "skillType":35,
+            "skillType":32,
             "type":"SkillType"
           }
         },
@@ -11047,10 +11047,10 @@
     }
   },
   "SupportMarkOnHit":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":2,
     "description":"Supports mark curse skills.",
-    "excludeSkillTypes":[36,40,30,15,60,134],
+    "excludeSkillTypes":[33,36,26,12,50,123],
     "isTrigger":true,
     "levels":[{
         "cooldown":4,
@@ -11335,17 +11335,17 @@
       }],
     "name":"Mark On Hit",
     "qualityStats":[["mark_skills_curse_effect_+%",0.25]],
-    "requireSkillTypes":[79,109,84,35,84],
+    "requireSkillTypes":[69,98,74,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["mark_skills_curse_effect_+%","trigger_on_attack_hit_against_rare_or_unique"],
     "support":true
   },
   "SupportMirageArcher":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "color":2,
     "constantStats":[["support_mirage_archer_base_duration",4000],["support_mirage_archer_attack_speed_+%_final",-60],["mirage_archer_projectile_additional_height_offset",-138]],
     "description":"Supports attack skills that can be used with bows. Supported skills can only be used with bows. Cannot support Vaal skills, minion skills, movement skills, or skills used by totems, traps, or mines.",
-    "excludeSkillTypes":[42,30,36,40,9],
+    "excludeSkillTypes":[38,26,33,36,6],
     "ignoreMinionTypes":true,
     "levels":[{
         "PvPDamageMultiplier":-35,
@@ -11590,7 +11590,7 @@
       }],
     "name":"Mirage Archer",
     "qualityStats":[["attack_damage_+%",0.5]],
-    "requireSkillTypes":[68],
+    "requireSkillTypes":[58],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "summon_mirage_archer_on_hit":[{
@@ -11626,7 +11626,7 @@
     "support":true
   },
   "SupportMomentum":{
-    "addSkillTypes":[12,5],
+    "addSkillTypes":[9,5],
     "baseMods":[{
         "flags":0,
         "keywordFlags":0,
@@ -11637,7 +11637,7 @@
     "color":2,
     "constantStats":[["support_momentum_base_buff_duration_ms",1500],["count_as_momentum_+_if_not_channelled",1],["support_momentum_movement_speed_+%_per_stack_removed",15]],
     "description":"Supports attack skills that aren't triggered.",
-    "excludeSkillTypes":[41],
+    "excludeSkillTypes":[37],
     "levels":[{
         "levelRequirement":1,
         "manaMultiplier":10,
@@ -12213,7 +12213,7 @@
       }],
     "name":"Multiple Traps",
     "qualityStats":[["trap_trigger_radius_+%",1]],
-    "requireSkillTypes":[36],
+    "requireSkillTypes":[33],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_multithrow_damage_+%_final":[{
@@ -12248,7 +12248,7 @@
     "color":2,
     "constantStats":[["gain_elusive_on_crit_%_chance",100]],
     "description":"Supports attack skills. Cannot support skills which create minions.",
-    "excludeSkillTypes":[88],
+    "excludeSkillTypes":[77],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":18,
@@ -12868,7 +12868,7 @@
       }],
     "name":"Pierce",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,53,55],
+    "requireSkillTypes":[3,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_pierce_projectile_damage_+%_final":[{
@@ -13089,7 +13089,7 @@
       }],
     "name":"Point Blank",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[47,55],
+    "requireSkillTypes":[41,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "keystone_point_blank":[{
@@ -13113,7 +13113,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[135],
+    "excludeSkillTypes":[124],
     "levels":[{
         "levelRequirement":38,
         "manaMultiplier":50,
@@ -13317,7 +13317,7 @@
       }],
     "name":"Returning Projectiles",
     "qualityStats":[["base_projectile_speed_+%",0.5]],
-    "requireSkillTypes":[3,53,55],
+    "requireSkillTypes":[3,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["support_return_returning_projectiles_damage_+%_final","projectiles_return","returning_projectiles_always_pierce"],
     "support":true
@@ -13531,7 +13531,7 @@
       }],
     "name":"Rupture",
     "qualityStats":[["critical_strike_chance_+%",1]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "critical_strikes_that_inflict_bleeding_also_rupture":[{
@@ -13829,7 +13829,7 @@
       }],
     "name":"Sadism",
     "qualityStats":[["damage_over_time_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_faster_ailments_ailment_duration_+%_final":[{
@@ -13847,7 +13847,7 @@
     "color":2,
     "constantStats":[["support_added_cooldown_count_if_not_instant",1]],
     "description":"Supports skills with cooldowns.\nCannot support triggered skills.",
-    "excludeSkillTypes":[41],
+    "excludeSkillTypes":[37],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":100,
@@ -14052,7 +14052,7 @@
     "name":"Second Wind",
     "notMinionStat":["base_cooldown_speed_+%"],
     "qualityStats":[["base_cooldown_speed_+%",0.25]],
-    "requireSkillTypes":[101],
+    "requireSkillTypes":[90],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_cooldown_speed_+%"],
     "support":true
@@ -14061,7 +14061,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports projectile skills.",
-    "excludeSkillTypes":[50],
+    "excludeSkillTypes":[43],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":20,
@@ -14305,7 +14305,7 @@
       }],
     "name":"Slower Projectiles",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[3,14,53,55],
+    "requireSkillTypes":[3,11,45,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_slower_projectiles_damage_+%_final":[{
@@ -14533,7 +14533,7 @@
       }],
     "name":"Swift Affliction",
     "qualityStats":[["damage_over_time_+%",0.5]],
-    "requireSkillTypes":[12,54,10,1],
+    "requireSkillTypes":[9,46,7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_rapid_decay_damage_over_time_+%_final":[{
@@ -14835,7 +14835,7 @@
       }],
     "name":"Swift Assembly",
     "qualityStats":[["mine_laying_speed_+%",0.25],["trap_throwing_speed_+%",0.25]],
-    "requireSkillTypes":[36,40],
+    "requireSkillTypes":[33,36],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["support_additional_trap_mine_%_chance_for_1_additional_trap_mine","support_additional_trap_mine_%_chance_for_2_additional_trap_mine","support_additional_trap_mine_%_chance_for_3_additional_trap_mine"],
     "support":true
@@ -14844,12 +14844,12 @@
     "addFlags":{
       "trap":true
     },
-    "addSkillTypes":[36,16],
+    "addSkillTypes":[33,13],
     "baseEffectiveness":0,
     "color":2,
     "constantStats":[["base_trap_duration",4000],["support_makes_skill_trap_pvp_damage_+%_final",-60]],
     "description":"Supports spells, or attacks that use bows or wands. Instead of using that skill, you will throw a trap that will use the skill for you when an enemy walks near it. Traps cannot use channelling skills.",
-    "excludeSkillTypes":[60,15,40,85,84,16,85,84],
+    "excludeSkillTypes":[50,12,36,75,74,13,75,74],
     "levels":[{
         "PvPDamageMultiplier":-10,
         "levelRequirement":8,
@@ -15133,7 +15133,7 @@
       }],
     "name":"Trap",
     "qualityStats":[["trap_damage_+%",0.5]],
-    "requireSkillTypes":[17],
+    "requireSkillTypes":[14],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "base_skill_show_average_damage_instead_of_dps":[{
@@ -15146,7 +15146,7 @@
             "value":true
           },
           "1":{
-            "skillType":17,
+            "skillType":14,
             "type":"SkillType"
           }
         }]
@@ -15363,7 +15363,7 @@
       }],
     "name":"Trap and Mine Damage",
     "qualityStats":[["damage_+%",0.5]],
-    "requireSkillTypes":[36,40],
+    "requireSkillTypes":[33,36],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_trap_and_mine_damage_+%_final":[{
@@ -15392,7 +15392,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports skills that hit enemies, causing them to gain bonuses while you have unholy resonance of lightning, physical and chaos, and to grant unholy resonance of damage types other than the highest one in a hit. There is a maximum of 50 unholy resonance for each damage type. Cannot support triggered skills, instant skills, orb skills, brands, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[36,40,30,74,15,41,60,75,111],
+    "excludeSkillTypes":[33,36,26,64,12,37,50,65,100],
     "flavourText":["It was a delicate balancing act for Malachai to ensure the loyalty","of his three students - each as ambitious as they were depraved."],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -15505,7 +15505,7 @@
     "notMinionStat":["damage_+%_final_per_10_lowest_unholy_resonance","hits_ignore_enemy_monster_physical_damage_reduction_%_chance_while_all_unholy_resonance_is_25","hits_ignore_enemy_monster_lightning_and_chaos_resistance_%_chance_while_all_unholy_resonance_is_25"],
     "plusVersionOf":"SupportTrinity",
     "qualityStats":[["damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "damage_+%_final_per_10_lowest_unholy_resonance":[{
@@ -15844,7 +15844,7 @@
       }],
     "name":"Vicious Projectiles",
     "qualityStats":[["physical_damage_+%",0.5]],
-    "requireSkillTypes":[47,55],
+    "requireSkillTypes":[41,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_phys_chaos_projectile_chaos_damage_over_time_+%_final":[{
@@ -16124,7 +16124,7 @@
       }],
     "name":"Vile Toxins",
     "qualityStats":[["base_poison_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_debilitate_hit_damage_+%_final_per_poison_stack":[{
@@ -16363,7 +16363,7 @@
       }],
     "name":"Void Manipulation",
     "qualityStats":[["chaos_damage_+%",0.5]],
-    "requireSkillTypes":[10,1,39],
+    "requireSkillTypes":[7,1,35],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_void_manipulation_chaos_damage_+%_final":[{
@@ -16380,7 +16380,7 @@
     "addSkillTypes":[],
     "color":2,
     "description":"Supports ranged attack skills that fire projectiles upwards. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
-    "excludeSkillTypes":[41,40,36,134,30,106],
+    "excludeSkillTypes":[37,36,33,123,26,95],
     "flavourText":["\"Not even stopping to look behind, I dove through the shimmering window...","With not a minute to waste, I took a nearby tool and jammed it into the infernal","device, where it hummed, ominously entrenched in my laboratory floor.\""],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -16431,7 +16431,7 @@
       }],
     "name":"Voidstorm",
     "qualityStats":[["area_damage_+%",0.5]],
-    "requireSkillTypes":[100],
+    "requireSkillTypes":[89],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_voidstorm_trigger_voidstorm_on_rain_skill_impact":[]
@@ -16448,7 +16448,7 @@
     "color":2,
     "constantStats":[["support_parallel_projectile_number_of_points_per_side",2],["volley_additional_projectiles_fire_parallel_x_dist",80],["number_of_additional_projectiles",2]],
     "description":"Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects. Does not support skills that fire projectiles in a spiral.",
-    "excludeSkillTypes":[69,70,93,124,131],
+    "excludeSkillTypes":[59,60,82,113,120],
     "levels":[{
         "PvPDamageMultiplier":-10,
         "levelRequirement":4,
@@ -16692,7 +16692,7 @@
       }],
     "name":"Volley",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[67],
+    "requireSkillTypes":[57],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_parallel_projectiles_damage_+%_final":[{
@@ -16710,7 +16710,7 @@
     "color":2,
     "constantStats":[["support_trigger_tornados_on_attack_hit_after_moving_X_metres",10]],
     "description":"Supports Attack Skills, causing them to trigger Windburst on hit after you've travelled a certain distance. Cannot support triggered skills or skills used by things other than you. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[30,36,40,134,41,106],
+    "excludeSkillTypes":[26,33,36,123,37,95],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":31,
@@ -16841,7 +16841,7 @@
     "support":true
   },
   "SupportWitheringTouch":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "color":2,
     "constantStats":[["support_withered_base_duration_ms",2000],["withered_on_hit_chance_%",25]],
     "description":"Supports attack skills.",
@@ -17161,15 +17161,15 @@
     "qualityStats":[["area_damage_+%",0.5]],
     "skillTypes":{
       "1":true,
-      "10":true,
-      "11":true,
-      "12":true,
-      "35":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "37":true,
       "41":true,
-      "47":true,
-      "101":true,
-      "124":true,
-      "126":true
+      "90":true,
+      "113":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{
@@ -17480,14 +17480,14 @@
     "skillTypes":{
       "1":true,
       "3":true,
-      "11":true,
-      "12":true,
-      "35":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "37":true,
       "41":true,
-      "47":true,
-      "60":true,
-      "67":true,
-      "126":true
+      "50":true,
+      "57":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_number_of_projectiles","base_is_projectile","triggered_by_support_movement","quality_display_base_number_of_projectiles_is_gem","always_pierce","quality_display_active_skill_area_damage_is_gem"]

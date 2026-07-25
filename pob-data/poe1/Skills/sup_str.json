@@ -336,18 +336,18 @@
     "skillTypes":{
       "2":true,
       "3":true,
-      "10":true,
+      "7":true,
+      "8":true,
       "11":true,
-      "14":true,
-      "30":true,
+      "26":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "41":true,
-      "60":true,
+      "37":true,
+      "50":true,
+      "62":true,
       "72":true,
-      "82":true,
-      "101":true,
-      "126":true
+      "90":true,
+      "115":true
     },
     "statDescriptionScope":"debuff_skill_stat_descriptions",
     "statMap":{
@@ -582,7 +582,7 @@
       }],
     "name":"Added Fire Damage",
     "qualityStats":[["fire_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["physical_damage_%_to_add_as_fire"],
     "support":true
@@ -592,7 +592,7 @@
     "color":1,
     "constantStats":[["melee_attack_number_of_spirit_strikes",2]],
     "description":"Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
-    "excludeSkillTypes":[60,41,42],
+    "excludeSkillTypes":[50,37,38],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":4,
@@ -797,7 +797,7 @@
       }],
     "name":"Ancestral Call",
     "qualityStats":[["extra_target_targeting_distance_+%",0.75]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_spirit_strike_damage_+%_final":[{
@@ -894,7 +894,7 @@
       }],
     "name":"Annihilation",
     "qualityStats":[["explode_enemies_for_10%_life_as_random_element_on_killing_blow_chance_%",0.25]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["explode_enemies_for_10%_life_as_random_element_on_killing_blow_chance_%"],
     "support":true
@@ -903,7 +903,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any non-blessing skill with a reservation.",
-    "excludeSkillTypes":[119],
+    "excludeSkillTypes":[108],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":120,
@@ -1107,7 +1107,7 @@
       }],
     "name":"Arrogance",
     "qualityStats":[["aura_effect_+%",0.25]],
-    "requireSkillTypes":[15],
+    "requireSkillTypes":[12],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["aura_effect_+%","base_skill_reserve_life_instead_of_mana"],
     "support":true
@@ -1242,7 +1242,7 @@
     "name":"Awakened Added Fire Damage",
     "plusVersionOf":"SupportAddedFireDamage",
     "qualityStats":[["fire_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["physical_damage_%_to_add_as_fire","supported_physical_skill_gem_level_+"],
     "support":true
@@ -1252,7 +1252,7 @@
     "color":1,
     "constantStats":[["melee_attack_number_of_spirit_strikes",3]],
     "description":"Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
-    "excludeSkillTypes":[60,41,42],
+    "excludeSkillTypes":[50,37,38],
     "ignoreMinionTypes":true,
     "legacy":true,
     "levels":[{
@@ -1359,7 +1359,7 @@
     "name":"Awakened Ancestral Call",
     "plusVersionOf":"SupportAncestralCall",
     "qualityStats":[["extra_target_targeting_distance_+%",0.75]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_spirit_strike_damage_+%_final":[{
@@ -1502,7 +1502,7 @@
     "name":"Awakened Brutality",
     "plusVersionOf":"SupportBrutality",
     "qualityStats":[["physical_damage_+%",0.5]],
-    "requireSkillTypes":[10,1,39],
+    "requireSkillTypes":[7,1,35],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_brutality_physical_damage_+%_final":[{
@@ -1645,7 +1645,7 @@
     "name":"Awakened Burning Damage",
     "plusVersionOf":"SupportBurningDamage",
     "qualityStats":[["burn_damage_+%",0.5]],
-    "requireSkillTypes":[10,1,29],
+    "requireSkillTypes":[7,1,25],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_burning_damage_+%_final":[{
@@ -1788,7 +1788,7 @@
     "name":"Awakened Elemental Damage with Attacks",
     "plusVersionOf":"SupportElementalDamageWithAttacks",
     "qualityStats":[["elemental_damage_with_attack_skills_+%",0.5]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_attack_skills_elemental_damage_+%_final":[{
@@ -1805,7 +1805,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any skill gem. Once this gem reaches level 2 or above, will raise the level of supported gems. Cannot support skills that don't come from gems.",
-    "excludeSkillTypes":[126],
+    "excludeSkillTypes":[115],
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -2046,7 +2046,7 @@
     "name":"Awakened Fire Penetration",
     "plusVersionOf":"SupportFirePenetration",
     "qualityStats":[["fire_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_reduce_enemy_fire_resistance_%","base_inflict_fire_exposure_on_hit_%_chance"],
     "support":true
@@ -2055,7 +2055,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[30,79,63],
+    "excludeSkillTypes":[26,69,53],
     "ignoreMinionTypes":true,
     "legacy":true,
     "levels":[{
@@ -2162,7 +2162,7 @@
     "name":"Awakened Generosity",
     "plusVersionOf":"SupportGenerosity",
     "qualityStats":[["base_aura_area_of_effect_+%",2]],
-    "requireSkillTypes":[43],
+    "requireSkillTypes":[39],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "aura_cannot_affect_self":[{
@@ -2330,7 +2330,7 @@
     "name":"Awakened Melee Physical Damage",
     "plusVersionOf":"SupportMeleePhysicalDamage",
     "qualityStats":[["melee_physical_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_melee_physical_damage_+%_final":[{
@@ -2356,7 +2356,7 @@
     "support":true
   },
   "SupportAwakenedMeleeSplash":{
-    "addSkillTypes":[11],
+    "addSkillTypes":[8],
     "color":1,
     "description":"Supports melee strike skills, causing their melee strike to deal splash damage around each target hit.",
     "excludeSkillTypes":[],
@@ -2505,17 +2505,17 @@
     "name":"Awakened Melee Splash",
     "plusVersionOf":"SupportMeleeSplash",
     "qualityStats":[["base_skill_area_of_effect_+%",0.5]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["support_melee_splash_damage_+%_final_for_splash","melee_splash_area_of_effect_+%_final","supported_strike_skill_gem_level_+","melee_splash","quality_display_melee_splash_is_gem"],
     "support":true
   },
   "SupportAwakenedMultistrike":{
-    "addSkillTypes":[133],
+    "addSkillTypes":[122],
     "color":1,
     "constantStats":[["base_melee_attack_repeat_count",3],["multistrike_damage_+%_final_on_first_repeat",22],["multistrike_damage_+%_final_on_second_repeat",44],["multistrike_damage_+%_final_on_third_repeat",66],["support_multiple_attack_damage_+%_final",-20],["repeat_target_selection_distance_from_initial_target_bias",3]],
     "description":"Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
-    "excludeSkillTypes":[42,105,88,85,84],
+    "excludeSkillTypes":[38,94,77,75,74],
     "legacy":true,
     "levels":[{
         "levelRequirement":72,
@@ -2621,7 +2621,7 @@
     "name":"Awakened Multistrike",
     "plusVersionOf":"SupportMultistrike",
     "qualityStats":[["melee_damage_+%",0.5]],
-    "requireSkillTypes":[28],
+    "requireSkillTypes":[24],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "multistrike_damage_+%_final_on_first_repeat":[{
@@ -2643,7 +2643,7 @@
           "name":"RepeatOneDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           },
           "2":{
@@ -2666,7 +2666,7 @@
           "name":"RepeatTwoDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }],
@@ -2685,7 +2685,7 @@
           "name":"RepeatThreeDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }],
@@ -2710,7 +2710,7 @@
           "name":"Speed",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }]
@@ -2723,257 +2723,257 @@
       "ballista":true,
       "totem":true
     },
-    "addSkillTypes":[17,19,30,16,125],
+    "addSkillTypes":[14,16,26,13,114],
     "color":1,
     "constantStats":[["base_totem_duration",8000],["base_totem_range",60],["support_attack_totem_attack_speed_+%_final",-50],["attack_skills_additional_ballista_totems_allowed",2],["terrain_arrow_attachment_chance_reduction_+%",200]],
     "description":"Supports any bow or wand attack skill, causing it to summon a ballista totem that uses the skill for you.",
-    "excludeSkillTypes":[60],
+    "excludeSkillTypes":[50],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":8,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-32,
+        "1":-36,
         "2":8
       },{
         "levelRequirement":10,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-32,
+        "1":-36,
         "2":10
       },{
         "levelRequirement":13,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-31,
+        "1":-35,
         "2":13
       },{
         "levelRequirement":17,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-31,
+        "1":-35,
         "2":17
       },{
         "levelRequirement":21,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-30,
+        "1":-35,
         "2":21
       },{
         "levelRequirement":25,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-30,
+        "1":-34,
         "2":25
       },{
         "levelRequirement":29,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-29,
+        "1":-34,
         "2":29
       },{
         "levelRequirement":33,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-29,
+        "1":-34,
         "2":33
       },{
         "levelRequirement":37,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-29,
+        "1":-33,
         "2":37
       },{
         "levelRequirement":40,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-28,
+        "1":-33,
         "2":40
       },{
         "levelRequirement":43,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-28,
+        "1":-33,
         "2":43
       },{
         "levelRequirement":46,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-27,
+        "1":-32,
         "2":46
       },{
         "levelRequirement":49,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-27,
+        "1":-32,
         "2":49
       },{
         "levelRequirement":52,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-27,
+        "1":-32,
         "2":52
       },{
         "levelRequirement":55,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-26,
+        "1":-31,
         "2":55
       },{
         "levelRequirement":58,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-26,
+        "1":-31,
         "2":58
       },{
         "levelRequirement":61,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-25,
+        "1":-31,
         "2":61
       },{
         "levelRequirement":64,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-25,
+        "1":-30,
         "2":64
       },{
         "levelRequirement":67,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-24,
+        "1":-30,
         "2":67
       },{
         "levelRequirement":70,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-24,
+        "1":-30,
         "2":70
       },{
         "levelRequirement":72,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-24,
+        "1":-29,
         "2":72
       },{
         "levelRequirement":74,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-23,
+        "1":-29,
         "2":74
       },{
         "levelRequirement":76,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-23,
+        "1":-29,
         "2":76
       },{
         "levelRequirement":78,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-22,
+        "1":-28,
         "2":78
       },{
         "levelRequirement":80,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-22,
+        "1":-28,
         "2":80
       },{
         "levelRequirement":82,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-21,
+        "1":-28,
         "2":82
       },{
         "levelRequirement":84,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-21,
+        "1":-27,
         "2":84
       },{
         "levelRequirement":86,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-21,
+        "1":-27,
         "2":86
       },{
         "levelRequirement":88,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-20,
+        "1":-27,
         "2":88
       },{
         "levelRequirement":90,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-20,
+        "1":-26,
         "2":90
       },{
         "levelRequirement":91,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-20,
+        "1":-26,
         "2":91
       },{
         "levelRequirement":92,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-19,
+        "1":-26,
         "2":92
       },{
         "levelRequirement":93,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-19,
+        "1":-26,
         "2":93
       },{
         "levelRequirement":94,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-19,
+        "1":-26,
         "2":94
       },{
         "levelRequirement":95,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-19,
+        "1":-26,
         "2":95
       },{
         "levelRequirement":96,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-19,
+        "1":-25,
         "2":96
       },{
         "levelRequirement":97,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-18,
+        "1":-25,
         "2":97
       },{
         "levelRequirement":98,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-18,
+        "1":-25,
         "2":98
       },{
         "levelRequirement":99,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-18,
+        "1":-25,
         "2":99
       },{
         "levelRequirement":100,
         "manaMultiplier":20,
         "statInterpolation":[1,1],
-        "1":-18,
+        "1":-25,
         "2":100
       }],
     "name":"Ballista Totem",
     "notMinionStat":["totem_support_gem_level"],
     "qualityStats":[["summon_totem_cast_speed_+%",0.5]],
-    "requireSkillTypes":[47,18,84],
+    "requireSkillTypes":[41,15,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_attack_totem_attack_speed_+%_final":[{
@@ -3245,7 +3245,7 @@
       }],
     "name":"Behead",
     "qualityStats":[["damage_vs_enemies_on_low_life_+%",1]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_executioner_damage_vs_enemies_on_low_life_+%_final":[{
@@ -3264,11 +3264,11 @@
     "support":true
   },
   "SupportBlessedCall":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "color":1,
     "constantStats":[["warcry_cooldown_speed_+%",-20]],
     "description":"Supports Warcries that are not triggered. Supported Warcries create Consecrated Ground, but have lowered area of effect and cooldown recovery.",
-    "excludeSkillTypes":[41],
+    "excludeSkillTypes":[37],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":15,
@@ -3512,7 +3512,7 @@
       }],
     "name":"Blessed Call",
     "qualityStats":[["warcry_speed_+%",0.5]],
-    "requireSkillTypes":[73],
+    "requireSkillTypes":[63],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "consecrated_cry_warcry_area_of_effect_+%_final":[{
@@ -3733,7 +3733,7 @@
       }],
     "name":"Bloodlust",
     "qualityStats":[["melee_damage_vs_bleeding_enemies_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_bloodlust_melee_physical_damage_+%_final_vs_bleeding_enemies":[{
@@ -3752,7 +3752,7 @@
     "support":true
   },
   "SupportBloodsoakedBanner":{
-    "addSkillTypes":[39,12],
+    "addSkillTypes":[35,9],
     "baseEffectiveness":0.079999998211861,
     "baseMods":[{
         "flags":0,
@@ -3876,7 +3876,7 @@
     "name":"Bloodsoaked Banner",
     "notMinionStat":["support_bloodstained_banner_corrupted_blood_base_physical_damage_to_deal_per_minute_per_valour"],
     "qualityStats":[["base_skill_area_of_effect_+%",0.5]],
-    "requireSkillTypes":[99],
+    "requireSkillTypes":[88],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_bloodstained_banner_apply_corrupted_blood_duration_ms":{
@@ -3917,7 +3917,7 @@
     "color":1,
     "constantStats":[["blood_price_gain_%_maximum_life_as_added_physical_damage_with_weapons_while_on_low_life",2]],
     "description":"Supports attack skills. Cannot support triggered skills, skills which create minions, or skills used by totems, traps or mines.",
-    "excludeSkillTypes":[30,36,40,41,60,88],
+    "excludeSkillTypes":[26,33,36,37,50,77],
     "ignoreMinionTypes":true,
     "incrementalEffectiveness":0.028000000864267,
     "levels":[{
@@ -4541,13 +4541,13 @@
     "qualityStats":[["melee_damage_+%",0.5]],
     "skillTypes":{
       "1":true,
-      "10":true,
-      "11":true,
-      "24":true,
-      "35":true,
-      "41":true,
-      "101":true,
-      "126":true
+      "7":true,
+      "8":true,
+      "20":true,
+      "32":true,
+      "37":true,
+      "90":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["active_skill_base_area_of_effect_radius","base_cooldown_speed_+%","is_area_damage","triggered_by_shockwave_support"],
@@ -4563,7 +4563,7 @@
     "color":1,
     "constantStats":[["support_trigger_seize_the_flesh_on_warcry_chance_%",100]],
     "description":"Supports warcry skills you use yourself.",
-    "excludeSkillTypes":[41,40,36,134,106],
+    "excludeSkillTypes":[37,36,33,123,95],
     "flavourText":["In its madness, Xesht desperately seeks communion."],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -4613,7 +4613,7 @@
         "manaMultiplier":30
       }],
     "name":"Bonespire",
-    "requireSkillTypes":[73],
+    "requireSkillTypes":[63],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_trigger_seize_the_flesh_on_warcry_chance_%":[]
@@ -4829,7 +4829,7 @@
       }],
     "name":"Brutality",
     "qualityStats":[["physical_damage_+%",0.5]],
-    "requireSkillTypes":[10,1,39],
+    "requireSkillTypes":[7,1,35],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_brutality_physical_damage_+%_final":[{
@@ -5050,7 +5050,7 @@
       }],
     "name":"Burning Damage",
     "qualityStats":[["burn_damage_+%",0.5]],
-    "requireSkillTypes":[10,1,29],
+    "requireSkillTypes":[7,1,25],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_burning_damage_+%_final":[{
@@ -5068,7 +5068,7 @@
     "color":1,
     "constantStats":[["cast_linked_spells_on_melee_kill_%",100]],
     "description":"Must support both a melee attack skill and a spell skill to work. The attack skill will trigger a spell when it kills an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,134],
+    "excludeSkillTypes":[33,36,26,12,123],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -5193,7 +5193,7 @@
       }],
     "name":"Cast on Melee Kill",
     "qualityStats":[["attack_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_cast_on_melee_kill_spell_damage_+%_final":[]
@@ -5202,10 +5202,10 @@
     "support":true
   },
   "SupportCastOnMeleeKillTriggered":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":1,
     "description":"Must support both a melee attack skill and a spell skill to work. The attack skill will trigger a spell when it kills an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,15,60,134],
+    "excludeSkillTypes":[33,36,26,12,50,123],
     "ignoreMinionTypes":true,
     "isTrigger":true,
     "levels":[{
@@ -5491,7 +5491,7 @@
       }],
     "name":"Cast on Melee Kill",
     "qualityStats":[["spell_damage_+%",0.5]],
-    "requireSkillTypes":[2,35,84],
+    "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_cast_on_melee_kill_spell_damage_+%_final":[{
@@ -5505,11 +5505,11 @@
     "support":true
   },
   "SupportCastWhenDamageTaken":{
-    "addSkillTypes":[41,101],
+    "addSkillTypes":[37,90],
     "color":1,
     "constantStats":[["cast_on_damage_taken_%",100]],
     "description":"Each supported spell skill will track damage you take, and be triggered when the total damage taken reaches a threshold. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
-    "excludeSkillTypes":[36,40,30,43,60,134],
+    "excludeSkillTypes":[33,36,26,39,50,123],
     "isTrigger":true,
     "levels":[{
         "PvPDamageMultiplier":-80,
@@ -5915,7 +5915,7 @@
     "name":"Cast when Damage Taken",
     "notMinionStat":["cast_on_damage_taken_threshold"],
     "qualityStats":[["cast_when_damage_taken_trigger_threshold_+%",-0.5]],
-    "requireSkillTypes":[2,35,84],
+    "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "cast_on_damage_taken_damage_+%_final":[{
@@ -6143,7 +6143,7 @@
       }],
     "name":"Chance to Bleed",
     "qualityStats":[["bleeding_damage_+%",0.5]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_chance_to_bleed_bleeding_damage_+%_final":[{
@@ -6366,7 +6366,7 @@
       }],
     "name":"Cold to Fire",
     "qualityStats":[["cold_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["cold_damage_%_to_add_as_fire"],
     "support":true
@@ -6739,7 +6739,7 @@
       }],
     "name":"Controlled Blaze",
     "qualityStats":[["base_chance_to_ignite_%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_recent_ignites_damage_per_recent_ignite_+%_final":[{
@@ -6783,7 +6783,7 @@
     "support":true
   },
   "SupportCorruptingCry":{
-    "addSkillTypes":[39,12],
+    "addSkillTypes":[35,9],
     "baseEffectiveness":0.64999997615814,
     "baseMods":[{
         "flags":0,
@@ -7106,7 +7106,7 @@
       }],
     "name":"Corrupting Cry",
     "qualityStats":[["base_skill_area_of_effect_+%",0.5]],
-    "requireSkillTypes":[73],
+    "requireSkillTypes":[63],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_corrupting_cry_area_of_effect_+%_final":[{
@@ -7156,7 +7156,7 @@
     "support":true
   },
   "SupportCruelty":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "baseMods":[{
         "flags":0,
         "keywordFlags":0,
@@ -7412,7 +7412,7 @@
       }],
     "name":"Cruelty",
     "qualityStats":[["cruelty_effect_+%",0.25]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "hits_grant_cruelty":[{
@@ -7435,6 +7435,84 @@
     },
     "stats":["cruelty_effect_+%","support_cruelty_hit_damage_+%_final","hits_grant_cruelty","supported_by_cruelty"],
     "support":true
+  },
+  "SupportCrystalfall":{
+    "addSkillTypes":[],
+    "color":1,
+    "constantStats":[["support_crystalfall_chance_to_trigger_crystalfall_on_hit_%",100]],
+    "description":"Supports Slam skills. Cannot support triggered skills or skills used by things other than you.",
+    "excludeSkillTypes":[37,95,123,26,77],
+    "flavourText":["The ancient golem of bone climbs ever upward.","Its body is an engine. Its eyes are fuel."],
+    "ignoreMinionTypes":true,
+    "levels":[{
+        "levelRequirement":72,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":74,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":76,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":78,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":80,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":82,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":84,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":86,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":88,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":90,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":91,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":92,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":93,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":94,
+        "manaMultiplier":50
+      },{
+        "levelRequirement":95,
+        "manaMultiplier":50
+      }],
+    "name":"Crystalfall",
+    "qualityStats":[["melee_damage_+%",0.5]],
+    "requireSkillTypes":[92],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_crystalfall_chance_to_trigger_crystalfall_on_hit_%":[]
+    },
+    "stats":[],
+    "support":true,
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "None":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Thrusting One Handed Sword":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
+    }
   },
   "SupportDamageOnFullLife":{
     "addSkillTypes":[],
@@ -7842,7 +7920,7 @@
       }],
     "name":"Divine Sentinel",
     "qualityStats":[["minion_maximum_life_+%",0.5]],
-    "requireSkillTypes":[88,140],
+    "requireSkillTypes":[77,129],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "summoned_sentinels_have_random_templar_aura":[]
@@ -8059,7 +8137,7 @@
       }],
     "name":"Elemental Damage with Attacks",
     "qualityStats":[["elemental_damage_with_attack_skills_+%",0.5]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_attack_skills_elemental_damage_+%_final":[{
@@ -8076,7 +8154,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports any skill gem. Once this gem reaches level 2 or above, will raise the level of supported gems. Cannot support skills that don't come from gems.",
-    "excludeSkillTypes":[126],
+    "excludeSkillTypes":[115],
     "levels":[{
         "levelRequirement":1,
         "manaMultiplier":30,
@@ -8345,7 +8423,7 @@
       }],
     "name":"Endurance Charge on Melee Stun",
     "qualityStats":[["base_stun_duration_+%",1]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "endurance_charge_on_melee_stun_damage_+%_final_per_endurance_charge":[{
@@ -8363,7 +8441,7 @@
     "support":true
   },
   "SupportEternalBlessing":{
-    "addSkillTypes":[119],
+    "addSkillTypes":[108],
     "baseMods":[{
         "flags":0,
         "keywordFlags":0,
@@ -8403,7 +8481,7 @@
       }],
     "color":1,
     "description":"Supports aura skills that reserve life or mana to create auras around you.",
-    "excludeSkillTypes":[30,98,120],
+    "excludeSkillTypes":[26,87,109],
     "levels":[{
         "levelRequirement":38,
         "statInterpolation":[1],
@@ -8567,7 +8645,7 @@
       }],
     "name":"Eternal Blessing",
     "qualityStats":[["aura_effect_+%",0.25]],
-    "requireSkillTypes":[43,15,84],
+    "requireSkillTypes":[39,12,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "base_skill_no_reservation":[]
@@ -8576,7 +8654,7 @@
     "support":true
   },
   "SupportExcommunicate":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "color":1,
     "constantStats":[["support_excommunicate_on_melee_attack_hit_for_X_ms",3000]],
     "description":"Supports melee attacks. Does not modify skills used by minions.",
@@ -8825,7 +8903,7 @@
       }],
     "name":"Excommunicate",
     "qualityStats":[["physical_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_excommunicate_on_melee_attack_hit_for_X_ms":[{
@@ -9087,7 +9165,7 @@
       }],
     "name":"Expert Retaliation",
     "qualityStats":[["support_expert_retaliation_cooldown_speed_+%_final",0.5]],
-    "requireSkillTypes":[132],
+    "requireSkillTypes":[121],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_expert_retaliation_cooldown_speed_+%_final":[{
@@ -9308,7 +9386,7 @@
       }],
     "name":"Fire Penetration",
     "qualityStats":[["fire_damage_+%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_reduce_enemy_fire_resistance_%"],
     "support":true
@@ -9318,7 +9396,7 @@
     "color":1,
     "constantStats":[["support_fissure_trigger_fissure_on_slam_skill_impact_chance_%",100]],
     "description":"Supports slam skills you use yourself, causing them to create fissures when impacting the ground.",
-    "excludeSkillTypes":[41,40,36,134,106,30],
+    "excludeSkillTypes":[37,36,33,123,95,26],
     "flavourText":["\"Oh yes, K'Tash understands you. It has a keen swarm-mind","somewhere within its multitudes. It hears your pleas, but","ignores them... because it hates you with a burning fury.\""],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -9368,7 +9446,7 @@
         "manaMultiplier":40
       }],
     "name":"Fissure",
-    "requireSkillTypes":[103],
+    "requireSkillTypes":[92],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_fissure_trigger_fissure_on_slam_skill_impact_chance_%":[]
@@ -9381,7 +9459,7 @@
     "color":1,
     "constantStats":[["support_ancestral_slam_big_hit_max_count",1]],
     "description":"Supports slam skills, providing a powerful boost when they're used, with a delay before they can be boosted again. Cannot support Vaal skills or triggered skills. Cannot modify the skills of minions. Only skills you use yourself can receive the boost.",
-    "excludeSkillTypes":[30,36,40,106,42],
+    "excludeSkillTypes":[26,33,36,95,38],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -9666,7 +9744,7 @@
       }],
     "name":"Fist of War",
     "qualityStats":[["base_skill_area_of_effect_+%",0.5]],
-    "requireSkillTypes":[103],
+    "requireSkillTypes":[92],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "ancestral_slam_interval_duration":{
@@ -9698,7 +9776,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports skills which summon totems. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[134],
+    "excludeSkillTypes":[123],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":8,
@@ -9823,7 +9901,7 @@
       }],
     "name":"Flamewood",
     "qualityStats":[["totem_life_+%",0.5]],
-    "requireSkillTypes":[30],
+    "requireSkillTypes":[26],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_flamewood_totems_trigger_infernal_bolt_when_hit":[]
@@ -9836,7 +9914,7 @@
     "color":1,
     "constantStats":[["chance_to_fortify_on_melee_hit_+%",100]],
     "description":"Supports melee attack skills that are not triggered.",
-    "excludeSkillTypes":[41],
+    "excludeSkillTypes":[37],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":30,
@@ -10080,7 +10158,7 @@
       }],
     "name":"Fortify",
     "qualityStats":[["fortify_duration_+%",1]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "fortify_effect_+%":[{
@@ -10109,7 +10187,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[30,79,63],
+    "excludeSkillTypes":[26,69,53],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":31,
@@ -10274,7 +10352,7 @@
       }],
     "name":"Generosity",
     "qualityStats":[["base_aura_area_of_effect_+%",2]],
-    "requireSkillTypes":[43],
+    "requireSkillTypes":[39],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "aura_cannot_affect_self":[{
@@ -10296,7 +10374,7 @@
     "color":1,
     "constantStats":[["melee_attack_number_of_spirit_strikes",3]],
     "description":"Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
-    "excludeSkillTypes":[60,41,42],
+    "excludeSkillTypes":[50,37,38],
     "flavourText":["\"I believe the Halls of the Dead are secretly a","training ground. One day, we will be called","forth to stand and fight against a great tide.\""],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -10379,17 +10457,17 @@
     "notMinionStat":["extra_target_targeting_distance_+%"],
     "plusVersionOf":"SupportAncestralCall",
     "qualityStats":[["melee_damage_+%",0.5]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["extra_target_targeting_distance_+%"],
     "support":true
   },
   "SupportGreaterMultistrike":{
-    "addSkillTypes":[133],
+    "addSkillTypes":[122],
     "color":1,
     "constantStats":[["base_melee_attack_repeat_count",3],["multistrike_damage_+%_final_on_first_repeat",22],["multistrike_damage_+%_final_on_second_repeat",44],["multistrike_damage_+%_final_on_third_repeat",66],["support_multiple_attack_damage_+%_final",-20],["repeat_target_selection_distance_from_initial_target_bias",3]],
     "description":"Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
-    "excludeSkillTypes":[42,105,88,85,84],
+    "excludeSkillTypes":[38,94,77,75,74],
     "flavourText":["Zana watched in awe as her father spoke. With each word,","he seemed to grow larger and more frightening, drawing","increasingly fervorous responses from his rapt audience."],
     "levels":[{
         "levelRequirement":72,
@@ -10470,7 +10548,7 @@
     "name":"Greater Multistrike",
     "plusVersionOf":"SupportMultistrike",
     "qualityStats":[["melee_damage_+%",0.5]],
-    "requireSkillTypes":[28],
+    "requireSkillTypes":[24],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "multistrike_damage_+%_final_on_first_repeat":[{
@@ -10492,7 +10570,7 @@
           "name":"RepeatOneDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           },
           "2":{
@@ -10515,7 +10593,7 @@
           "name":"RepeatTwoDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }],
@@ -10534,7 +10612,7 @@
           "name":"RepeatThreeDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }],
@@ -10559,7 +10637,7 @@
           "name":"Speed",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }]
@@ -10568,7 +10646,7 @@
     "support":true
   },
   "SupportGuardiansBlessing":{
-    "addSkillTypes":[119],
+    "addSkillTypes":[108],
     "baseMods":[{
         "flags":0,
         "keywordFlags":0,
@@ -10579,7 +10657,7 @@
           "value":0
         },
         "1":{
-          "skillType":43,
+          "skillType":39,
           "type":"SkillType"
         }
       },{
@@ -10592,7 +10670,7 @@
           "value":0
         },
         "1":{
-          "skillType":43,
+          "skillType":39,
           "type":"SkillType"
         }
       },{
@@ -10605,7 +10683,7 @@
           "value":0
         },
         "1":{
-          "skillType":43,
+          "skillType":39,
           "type":"SkillType"
         }
       },{
@@ -10618,13 +10696,13 @@
           "value":0
         },
         "1":{
-          "skillType":43,
+          "skillType":39,
           "type":"SkillType"
         }
       }],
     "color":1,
     "description":"Must support both a skill that creates minions which can be damaged, and\n an aura skill that creates permanent auras around you.\nCannot support triggered skills, banner skills or stance skills.",
-    "excludeSkillTypes":[30,60,98,120,41],
+    "excludeSkillTypes":[26,50,87,109,37],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":100,
@@ -10828,7 +10906,7 @@
       }],
     "name":"Guardian's Blessing",
     "qualityStats":[["aura_effect_+%",0.25]],
-    "requireSkillTypes":[92],
+    "requireSkillTypes":[81],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "aura_skill_no_reservation":[],
@@ -10841,7 +10919,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Must support both a skill that creates minions which can be damaged, and\n an aura skill that creates permanent auras around you.\nCannot support triggered skills, banner skills or stance skills.",
-    "excludeSkillTypes":[128,41],
+    "excludeSkillTypes":[117,37],
     "levels":[{
         "levelRequirement":31,
         "manaMultiplier":100,
@@ -11044,7 +11122,7 @@
         "1":1160
       }],
     "name":"Guardian's Blessing",
-    "requireSkillTypes":[88],
+    "requireSkillTypes":[77],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_guardians_blessing_minion_physical_damage_%_of_maximum_life_and_ES_taken_per_minute":{
@@ -11097,7 +11175,7 @@
     "color":1,
     "constantStats":[["hallowing_flame_duration_ms",6000]],
     "description":"Supports melee attacks you use yourself. Does not modify skills used by minions.",
-    "excludeSkillTypes":[30,40,106,36],
+    "excludeSkillTypes":[26,36,95,33],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":1,
@@ -11302,7 +11380,7 @@
       }],
     "name":"Hallow",
     "qualityStats":[["hallowing_flame_magnitude_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "hallowing_flame_magnitude_+%":[{
@@ -11898,7 +11976,7 @@
       }],
     "name":"Iron Grip",
     "qualityStats":[["projectile_damage_+%",0.5]],
-    "requireSkillTypes":[47,55],
+    "requireSkillTypes":[41,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["projectile_damage_+%","keystone_strong_bowman"],
     "support":true
@@ -12111,7 +12189,7 @@
       }],
     "name":"Iron Will",
     "qualityStats":[["spell_damage_+%",0.5]],
-    "requireSkillTypes":[58,65,2,10,84],
+    "requireSkillTypes":[49,55,2,7,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["spell_damage_+%","strong_casting"],
     "support":true
@@ -12286,7 +12364,7 @@
       }],
     "name":"Item Quantity",
     "qualityStats":[["base_killed_monster_dropped_item_quantity_+%",0.35]],
-    "requireSkillTypes":[10,1,39,112],
+    "requireSkillTypes":[7,1,35,101],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_killed_monster_dropped_item_quantity_+%"],
     "support":true
@@ -12461,7 +12539,7 @@
       }],
     "name":"Knockback",
     "qualityStats":[["base_global_chance_to_knockback_%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_global_chance_to_knockback_%"],
     "support":true
@@ -12714,7 +12792,7 @@
       }],
     "name":"Less Duration",
     "qualityStats":[["support_reduced_duration_skill_effect_duration_+%_final",-0.5]],
-    "requireSkillTypes":[12,54],
+    "requireSkillTypes":[9,46],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_reduced_duration_damage_+%_final":[{
@@ -12942,7 +13020,7 @@
       }],
     "name":"Life Gain on Hit",
     "qualityStats":[["base_life_gain_per_target",0.5]],
-    "requireSkillTypes":[1,55],
+    "requireSkillTypes":[1,47],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_life_gain_per_target"],
     "support":true
@@ -13156,17 +13234,17 @@
       }],
     "name":"Life Leech",
     "qualityStats":[["damage_+%_while_life_leeching",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["life_leech_from_any_damage_permyriad"],
     "support":true
   },
   "SupportLifetap":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "color":1,
     "constantStats":[["support_base_lifetap_buff_duration",4000]],
     "description":"Supports any non-blessing skill. Minions cannot gain the Lifetap buff.",
-    "excludeSkillTypes":[119],
+    "excludeSkillTypes":[108],
     "levels":[{
         "levelRequirement":8,
         "manaMultiplier":200,
@@ -13637,7 +13715,7 @@
       }],
     "name":"Maim",
     "qualityStats":[["maim_effect_+%",1]],
-    "requireSkillTypes":[1,87],
+    "requireSkillTypes":[1,76],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_maim_chance_physical_damage_+%_final":[{
@@ -13915,7 +13993,7 @@
       }],
     "name":"Melee Physical Damage",
     "qualityStats":[["melee_physical_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_melee_physical_damage_+%_final":[{
@@ -13941,7 +14019,7 @@
     "support":true
   },
   "SupportMeleeSplash":{
-    "addSkillTypes":[11],
+    "addSkillTypes":[8],
     "color":1,
     "constantStats":[["support_melee_splash_damage_+%_final_for_splash",-40]],
     "description":"Supports melee strike skills, causing their melee strike to deal splash damage around each target hit.",
@@ -14149,7 +14227,7 @@
       }],
     "name":"Melee Splash",
     "qualityStats":[["base_skill_area_of_effect_+%",0.5]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["melee_splash_area_of_effect_+%_final","melee_splash","quality_display_melee_splash_is_gem"],
     "support":true
@@ -14363,7 +14441,7 @@
       }],
     "name":"More Duration",
     "qualityStats":[["support_more_duration_skill_effect_duration_+%_final",0.5]],
-    "requireSkillTypes":[12,54],
+    "requireSkillTypes":[9,46],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_more_duration_skill_effect_duration_+%_final":[{
@@ -14585,7 +14663,7 @@
       }],
     "name":"Multiple Totems",
     "qualityStats":[["summon_totem_cast_speed_+%",0.5]],
-    "requireSkillTypes":[30],
+    "requireSkillTypes":[26],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_additional_totem_damage_+%_final":[{
@@ -14599,11 +14677,11 @@
     "support":true
   },
   "SupportMultistrike":{
-    "addSkillTypes":[133],
+    "addSkillTypes":[122],
     "color":1,
     "constantStats":[["base_melee_attack_repeat_count",2],["multistrike_damage_+%_final_on_first_repeat",22],["multistrike_damage_+%_final_on_second_repeat",44],["repeat_target_selection_distance_from_initial_target_bias",3]],
     "description":"Supports melee attack skills, making them repeat twice when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
-    "excludeSkillTypes":[42,105,88,85,84],
+    "excludeSkillTypes":[38,94,77,75,74],
     "levels":[{
         "levelRequirement":38,
         "manaMultiplier":50,
@@ -14847,7 +14925,7 @@
       }],
     "name":"Multistrike",
     "qualityStats":[["melee_damage_+%",0.5]],
-    "requireSkillTypes":[28],
+    "requireSkillTypes":[24],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "multistrike_damage_+%_final_on_first_repeat":[{
@@ -14869,7 +14947,7 @@
           "name":"RepeatOneDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           },
           "2":{
@@ -14892,7 +14970,7 @@
           "name":"RepeatTwoDamage",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }],
@@ -14917,7 +14995,7 @@
           "name":"Speed",
           "type":"MORE",
           "1":{
-            "skillType":13,
+            "skillType":10,
             "type":"SkillType"
           }
         }]
@@ -14929,7 +15007,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports melee attack skills which can be exerted. Cannot modify the skills of minions. Vaal skills and channelling skills cannot be exerted.",
-    "excludeSkillTypes":[57,133,41],
+    "excludeSkillTypes":[48,122,37],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -15174,7 +15252,7 @@
       }],
     "name":"Overexertion",
     "qualityStats":[["empowered_attack_damage_+%",1]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "empowered_attack_damage_+%":[{
@@ -15203,7 +15281,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports melee attack skills you use yourself. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[30,36,40,106],
+    "excludeSkillTypes":[26,33,36,95],
     "flavourText":["No walls can stand against its gaze. No fortress,","no cave, no mountain. Better to die fighting."],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -15285,7 +15363,7 @@
     "name":"Overheat",
     "notMinionStat":["support_overheat_ailment_damage_+%_final_per_3_fortification_consumed"],
     "qualityStats":[["base_all_ailment_duration_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_overheat_ailment_damage_+%_final_per_3_fortification_consumed":[{
@@ -15552,7 +15630,7 @@
       }],
     "name":"Pulverise",
     "qualityStats":[["base_skill_area_of_effect_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_pulverise_attack_speed_+%_final":[{
@@ -15576,7 +15654,7 @@
     "color":1,
     "constantStats":[["support_call_the_pyre_chance_to_trigger_call_the_pyre_on_melee_hit_vs_ignited_enemies_%",50]],
     "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
-    "excludeSkillTypes":[41,40,36,134,106],
+    "excludeSkillTypes":[37,36,33,123,95],
     "flavourText":["A vast pillar of hands embraces a charred sky.","Within burns a beam of purest heat."],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -15641,7 +15719,7 @@
         "manaMultiplier":30
       }],
     "name":"Pyre",
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_call_the_pyre_chance_to_trigger_call_the_pyre_on_melee_hit_vs_ignited_enemies_%":[{
@@ -15653,7 +15731,7 @@
             "key":"chanceToTriggerCallThePyreOnHit"
           },
           "1":{
-            "skillType":24,
+            "skillType":20,
             "type":"SkillType"
           },
           "2":{
@@ -15876,7 +15954,7 @@
       }],
     "name":"Rage",
     "qualityStats":[["attack_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "attack_speed_+%_with_at_least_10_rage":[{
@@ -15899,7 +15977,7 @@
     "color":1,
     "constantStats":[["support_ruthless_big_hit_max_count",3],["support_ruthless_big_hit_stun_base_duration_override_ms",800]],
     "description":"Supports melee strike or slam skills. Every third time you use a supported attack, that use of the skill will be more powerful.",
-    "excludeSkillTypes":[57,64],
+    "excludeSkillTypes":[48,54],
     "levels":[{
         "levelRequirement":1,
         "manaMultiplier":20,
@@ -16143,7 +16221,7 @@
       }],
     "name":"Ruthless",
     "qualityStats":[["attack_damage_+%",0.5]],
-    "requireSkillTypes":[25,103],
+    "requireSkillTypes":[21,92],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_ruthless_big_hit_damage_+%_final":[{
@@ -16185,7 +16263,7 @@
     "color":1,
     "constantStats":[["support_blunt_chance_to_trigger_shockwave_on_hit_%",100]],
     "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
-    "excludeSkillTypes":[41,88,30,106],
+    "excludeSkillTypes":[37,77,26,95],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":18,
@@ -16310,7 +16388,7 @@
       }],
     "name":"Shockwave",
     "qualityStats":[["melee_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_blunt_chance_to_trigger_shockwave_on_hit_%":[],
@@ -16329,257 +16407,257 @@
     "addFlags":{
       "totem":true
     },
-    "addSkillTypes":[17,19,30,16],
+    "addSkillTypes":[14,16,26,13,132],
     "color":1,
     "constantStats":[["base_totem_duration",8000],["base_totem_range",60],["support_spell_totem_cast_speed_+%_final",-40]],
     "description":"Supports spell skills that are not triggered. Instead of casting that spell, you will summon a totem that casts the spell for you.",
-    "excludeSkillTypes":[60],
+    "excludeSkillTypes":[50,131],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":8,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-49,
+        "1":-55,
         "2":8
       },{
         "levelRequirement":10,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-49,
+        "1":-55,
         "2":10
       },{
         "levelRequirement":13,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-48,
+        "1":-55,
         "2":13
       },{
         "levelRequirement":17,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-48,
+        "1":-54,
         "2":17
       },{
         "levelRequirement":21,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-47,
+        "1":-54,
         "2":21
       },{
         "levelRequirement":25,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-47,
+        "1":-54,
         "2":25
       },{
         "levelRequirement":29,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-46,
+        "1":-54,
         "2":29
       },{
         "levelRequirement":33,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-46,
+        "1":-53,
         "2":33
       },{
         "levelRequirement":37,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-45,
+        "1":-53,
         "2":37
       },{
         "levelRequirement":40,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-45,
+        "1":-53,
         "2":40
       },{
         "levelRequirement":43,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-44,
+        "1":-53,
         "2":43
       },{
         "levelRequirement":46,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-44,
+        "1":-52,
         "2":46
       },{
         "levelRequirement":49,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-43,
+        "1":-52,
         "2":49
       },{
         "levelRequirement":52,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-43,
+        "1":-52,
         "2":52
       },{
         "levelRequirement":55,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-42,
+        "1":-52,
         "2":55
       },{
         "levelRequirement":58,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-42,
+        "1":-51,
         "2":58
       },{
         "levelRequirement":61,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-41,
+        "1":-51,
         "2":61
       },{
         "levelRequirement":64,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-41,
+        "1":-51,
         "2":64
       },{
         "levelRequirement":67,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-40,
+        "1":-51,
         "2":67
       },{
         "levelRequirement":70,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-40,
+        "1":-50,
         "2":70
       },{
         "levelRequirement":72,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-39,
+        "1":-50,
         "2":72
       },{
         "levelRequirement":74,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-39,
+        "1":-50,
         "2":74
       },{
         "levelRequirement":76,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-38,
+        "1":-50,
         "2":76
       },{
         "levelRequirement":78,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-38,
+        "1":-49,
         "2":78
       },{
         "levelRequirement":80,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-37,
+        "1":-49,
         "2":80
       },{
         "levelRequirement":82,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-37,
+        "1":-49,
         "2":82
       },{
         "levelRequirement":84,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-36,
+        "1":-49,
         "2":84
       },{
         "levelRequirement":86,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-36,
+        "1":-48,
         "2":86
       },{
         "levelRequirement":88,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-35,
+        "1":-48,
         "2":88
       },{
         "levelRequirement":90,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-35,
+        "1":-48,
         "2":90
       },{
         "levelRequirement":91,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-34,
+        "1":-48,
         "2":91
       },{
         "levelRequirement":92,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-34,
+        "1":-48,
         "2":92
       },{
         "levelRequirement":93,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-33,
+        "1":-48,
         "2":93
       },{
         "levelRequirement":94,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-33,
+        "1":-47,
         "2":94
       },{
         "levelRequirement":95,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-32,
+        "1":-47,
         "2":95
       },{
         "levelRequirement":96,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-32,
+        "1":-47,
         "2":96
       },{
         "levelRequirement":97,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-31,
+        "1":-47,
         "2":97
       },{
         "levelRequirement":98,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-31,
+        "1":-47,
         "2":98
       },{
         "levelRequirement":99,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-30,
+        "1":-47,
         "2":99
       },{
         "levelRequirement":100,
         "manaMultiplier":100,
         "statInterpolation":[1,1],
-        "1":-30,
+        "1":-47,
         "2":100
       }],
     "name":"Spell Totem",
     "notMinionStat":["totem_support_gem_level"],
     "qualityStats":[["summon_totem_cast_speed_+%",0.5]],
-    "requireSkillTypes":[2,18,84],
+    "requireSkillTypes":[2,15,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_spell_totem_cast_speed_+%_final":[{
@@ -16767,7 +16845,7 @@
       }],
     "name":"Stun",
     "qualityStats":[["chance_to_double_stun_duration_%",0.5]],
-    "requireSkillTypes":[10,1],
+    "requireSkillTypes":[7,1],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["base_stun_threshold_reduction_+%"],
     "support":true
@@ -16776,7 +16854,7 @@
     "addSkillTypes":[],
     "color":1,
     "description":"Supports non-blessing spells.",
-    "excludeSkillTypes":[119],
+    "excludeSkillTypes":[108],
     "flavourText":["Let the eternal scream within","flow from your weeping blood."],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -16897,7 +16975,7 @@
     "support":true
   },
   "SupportTrauma":{
-    "addSkillTypes":[12],
+    "addSkillTypes":[9],
     "baseEffectiveness":0.079999998211861,
     "baseMods":[{
         "flags":0,
@@ -16908,7 +16986,7 @@
       }],
     "color":1,
     "description":"Supports melee strike skills that do not inherently apply Trauma. Cannot support triggered skills, Vaal skills, or skills used by things other than you. Cannot modify the skills of minions.",
-    "excludeSkillTypes":[42,41,30,106,129],
+    "excludeSkillTypes":[38,37,26,95,118],
     "ignoreMinionTypes":true,
     "incrementalEffectiveness":0.061999998986721,
     "levels":[{
@@ -17275,7 +17353,7 @@
     "name":"Trauma",
     "notMinionStat":["trauma_strike_self_damage_per_trauma","attack_minimum_added_physical_damage_with_weapons_per_trauma","attack_maximum_added_physical_damage_with_weapons_per_trauma","support_trauma_stun_duration_+%_per_trauma","support_trauma_base_duration_ms"],
     "qualityStats":[["base_stun_threshold_reduction_+%",0.5]],
-    "requireSkillTypes":[25],
+    "requireSkillTypes":[21],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "attack_maximum_added_physical_damage_with_weapons_per_trauma":[{
@@ -17538,7 +17616,7 @@
       }],
     "name":"Urgent Orders",
     "qualityStats":[["warcry_speed_+%",0.5]],
-    "requireSkillTypes":[73],
+    "requireSkillTypes":[63],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["warcry_speed_+%"],
     "support":true
@@ -17612,7 +17690,7 @@
       }],
     "name":"Vaal Temptation",
     "qualityStats":[["damage_+%",0.5]],
-    "requireSkillTypes":[42],
+    "requireSkillTypes":[38],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_vaal_temptation_physical_damage_taken_per_minute_instead_of_soul_gain_prevention":{
@@ -17637,7 +17715,7 @@
     "color":1,
     "constantStats":[["support_blunt_chance_to_trigger_shockwave_on_hit_%",100]],
     "description":"Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
-    "excludeSkillTypes":[41,88,30,106],
+    "excludeSkillTypes":[37,77,26,95],
     "flavourText":["The Elder's influence yet lingers","in the darkest corners of Wraeclast."],
     "ignoreMinionTypes":true,
     "levels":[{
@@ -17689,7 +17767,7 @@
     "name":"Void Shockwave",
     "plusVersionOf":"SupportShockwave",
     "qualityStats":[["melee_damage_+%",0.5]],
-    "requireSkillTypes":[24],
+    "requireSkillTypes":[20],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
       "support_blunt_chance_to_trigger_shockwave_on_hit_%":[],
@@ -18087,17 +18165,179 @@
     "qualityStats":[["graft_skill_uulnetol_bone_spires_num_of_spires_to_create",0.1]],
     "skillTypes":{
       "1":true,
-      "11":true,
-      "35":true,
-      "41":true,
-      "60":true,
-      "73":true,
-      "86":true,
-      "101":true,
-      "126":true
+      "8":true,
+      "28":true,
+      "32":true,
+      "37":true,
+      "50":true,
+      "63":true,
+      "90":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["is_area_damage","global_bleed_on_hit","triggered_by_bonespire_support"],
+    "weaponTypes":{
+      "Claw":true,
+      "Dagger":true,
+      "None":true,
+      "One Handed Axe":true,
+      "One Handed Mace":true,
+      "One Handed Sword":true,
+      "Sceptre":true,
+      "Staff":true,
+      "Thrusting One Handed Sword":true,
+      "Two Handed Axe":true,
+      "Two Handed Mace":true,
+      "Two Handed Sword":true
+    }
+  },
+  "TriggeredSupportCrystalfall":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "melee":true
+    },
+    "baseTypeName":"Falling Crystal",
+    "castTime":1,
+    "color":1,
+    "description":"A giant crystal of abyssal soulstone is called from above, falling to slam down at the targeted location.",
+    "flavourText":["The ancient golem of bone climbs ever upward.","Its body is an engine. Its eyes are fuel."],
+    "levels":[{
+        "baseMultiplier":6.16,
+        "cooldown":1,
+        "damageEffectiveness":6.16,
+        "levelRequirement":72,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":23
+      },{
+        "baseMultiplier":6.26,
+        "cooldown":1,
+        "damageEffectiveness":6.26,
+        "levelRequirement":74,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":24
+      },{
+        "baseMultiplier":6.37,
+        "cooldown":1,
+        "damageEffectiveness":6.37,
+        "levelRequirement":76,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":25
+      },{
+        "baseMultiplier":6.47,
+        "cooldown":1,
+        "damageEffectiveness":6.47,
+        "levelRequirement":78,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":26
+      },{
+        "baseMultiplier":6.57,
+        "cooldown":1,
+        "damageEffectiveness":6.57,
+        "levelRequirement":80,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":26
+      },{
+        "baseMultiplier":6.68,
+        "cooldown":1,
+        "damageEffectiveness":6.68,
+        "levelRequirement":82,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":27
+      },{
+        "baseMultiplier":6.78,
+        "cooldown":1,
+        "damageEffectiveness":6.78,
+        "levelRequirement":84,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":27
+      },{
+        "baseMultiplier":6.88,
+        "cooldown":1,
+        "damageEffectiveness":6.88,
+        "levelRequirement":86,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":28
+      },{
+        "baseMultiplier":6.98,
+        "cooldown":1,
+        "damageEffectiveness":6.98,
+        "levelRequirement":88,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":28
+      },{
+        "baseMultiplier":7.09,
+        "cooldown":1,
+        "damageEffectiveness":7.09,
+        "levelRequirement":90,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":29
+      },{
+        "baseMultiplier":7.19,
+        "cooldown":1,
+        "damageEffectiveness":7.19,
+        "levelRequirement":91,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":29
+      },{
+        "baseMultiplier":7.24,
+        "cooldown":1,
+        "damageEffectiveness":7.24,
+        "levelRequirement":92,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":30
+      },{
+        "baseMultiplier":7.3,
+        "cooldown":1,
+        "damageEffectiveness":7.3,
+        "levelRequirement":93,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":30
+      },{
+        "baseMultiplier":7.35,
+        "cooldown":1,
+        "damageEffectiveness":7.35,
+        "levelRequirement":94,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":31
+      },{
+        "baseMultiplier":7.4,
+        "cooldown":1,
+        "damageEffectiveness":7.4,
+        "levelRequirement":95,
+        "statInterpolation":[1],
+        "storedUses":3,
+        "1":31
+      }],
+    "name":"Falling Crystal",
+    "qualityStats":[["melee_damage_+%",0.5]],
+    "skillTypes":{
+      "1":true,
+      "7":true,
+      "8":true,
+      "20":true,
+      "32":true,
+      "37":true,
+      "90":true,
+      "92":true,
+      "115":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["active_skill_base_area_of_effect_radius","is_area_damage","triggered_by_crystalfall_support"],
     "weaponTypes":{
       "Claw":true,
       "Dagger":true,
@@ -18220,15 +18460,15 @@
     "qualityStats":[["volcanic_fissure_number_of_simultaneous_crack_count",0.05]],
     "skillTypes":{
       "1":true,
-      "11":true,
-      "24":true,
+      "8":true,
+      "20":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "41":true,
-      "60":true,
-      "101":true,
-      "103":true,
-      "126":true
+      "37":true,
+      "50":true,
+      "90":true,
+      "92":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["triggered_by_fissure_support","is_area_damage"],
@@ -18378,13 +18618,13 @@
     "qualityStats":[["graft_skill_xoph_flame_pillars_number_of_pillars",0.05]],
     "skillTypes":{
       "1":true,
-      "11":true,
+      "8":true,
+      "29":true,
       "32":true,
-      "35":true,
-      "41":true,
-      "60":true,
-      "101":true,
-      "126":true
+      "37":true,
+      "50":true,
+      "90":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["graft_skill_xoph_flame_pillars_number_of_pillars","is_area_damage","triggered_by_pyre_support"],
@@ -18576,13 +18816,13 @@
     "qualityStats":[["melee_damage_+%",0.5]],
     "skillTypes":{
       "1":true,
-      "10":true,
-      "11":true,
-      "24":true,
-      "35":true,
-      "41":true,
-      "101":true,
-      "126":true
+      "7":true,
+      "8":true,
+      "20":true,
+      "32":true,
+      "37":true,
+      "90":true,
+      "115":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "statMap":{

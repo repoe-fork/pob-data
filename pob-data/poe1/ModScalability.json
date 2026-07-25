@@ -733,11 +733,6 @@
     },{
       "isScalable":true
     }],
-  "# to # Spell Lightning Damage per 10 Intelligence":[{
-      "isScalable":true
-    },{
-      "isScalable":true
-    }],
   "# to # added Fire Damage against Burning Enemies":[{
       "isScalable":true
     },{
@@ -980,6 +975,9 @@
       "isScalable":true
     }],
   "# to Level of Socketed Non-Vaal Gems":[{
+      "isScalable":true
+    }],
+  "# to Level of Socketed Physical Gems":[{
       "isScalable":true
     }],
   "# to Level of Socketed Projectile Gems":[{
@@ -1717,10 +1715,6 @@
       "formats":["divide_by_one_hundred"],
       "isScalable":true
     }],
-  "#% Critical Strike Chance per Power Charge":[{
-      "formats":["divide_by_one_hundred"],
-      "isScalable":true
-    }],
   "#% Critical Strike Chance while at maximum Power Charges":[{
       "formats":["divide_by_one_hundred"],
       "isScalable":true
@@ -2186,6 +2180,9 @@
   "#% chance in Heists for Items to drop with an additional Socket":[{
       "isScalable":true
     }],
+  "#% chance in Heists for Jeweller's Orbs to drop as Chromatic Orbs instead":[{
+      "isScalable":true
+    }],
   "#% chance in Heists for Jeweller's Orbs to drop as Orbs of Fusing instead":[{
       "isScalable":true
     }],
@@ -2214,6 +2211,9 @@
       "isScalable":true
     }],
   "#% chance in Heists for Orbs of Augmentation to drop as Regal Orbs instead":[{
+      "isScalable":true
+    }],
+  "#% chance in Heists for Orbs of Fusing to drop as Chromatic Orbs instead":[{
       "isScalable":true
     }],
   "#% chance in Heists for Orbs of Regret to drop as Orbs of Annulment instead":[{
@@ -2309,9 +2309,6 @@
   "#% chance to Aggravate Bleeding on targets you Stun with Attacks Hits":[{
       "isScalable":true
     }],
-  "#% chance to Avoid All Damage from Hits":[{
-      "isScalable":true
-    }],
   "#% chance to Avoid Bleeding":[{
       "isScalable":true
     }],
@@ -2322,6 +2319,18 @@
       "isScalable":true
     }],
   "#% chance to Avoid Cold Damage from Hits":[{
+      "isScalable":true
+    }],
+  "#% chance to Avoid Damage of each Element from Hits during Soul Gain Prevention":[{
+      "isScalable":true
+    }],
+  "#% chance to Avoid Damage of each Element from Hits per Frenzy Charge":[{
+      "isScalable":true
+    }],
+  "#% chance to Avoid Damage of each Element from Hits while Phasing":[{
+      "isScalable":true
+    }],
+  "#% chance to Avoid Damage of each Type from Hits":[{
       "isScalable":true
     }],
   "#% chance to Avoid Elemental Ailments":[{
@@ -2346,15 +2355,6 @@
       "isScalable":true
     }],
   "#% chance to Avoid Elemental Ailments while you have Elusive":[{
-      "isScalable":true
-    }],
-  "#% chance to Avoid Elemental Damage from Hits during Soul Gain Prevention":[{
-      "isScalable":true
-    }],
-  "#% chance to Avoid Elemental Damage from Hits per Frenzy Charge":[{
-      "isScalable":true
-    }],
-  "#% chance to Avoid Elemental Damage from Hits while Phasing":[{
       "isScalable":true
     }],
   "#% chance to Avoid Fire Damage from Hits":[{
@@ -3032,6 +3032,9 @@
     }],
   "#% chance to Trigger Edict of the Tempest on Hit":[{
       "isScalable":false
+    }],
+  "#% chance to Trigger Explosive Toad when you kill an Enemy":[{
+      "isScalable":true
     }],
   "#% chance to Trigger Level 1 Blood Rage when you Kill an Enemy":[{
       "isScalable":false
@@ -3911,6 +3914,10 @@
       "formats":["divide_by_ten_1dp_if_required"],
       "isScalable":true
     }],
+  "#% chance to drop an additional Trarthan Scarab":[{
+      "formats":["divide_by_ten_1dp_if_required"],
+      "isScalable":true
+    }],
   "#% chance to drop an additional Ultimatum Scarab":[{
       "formats":["divide_by_ten_1dp_if_required"],
       "isScalable":true
@@ -4015,6 +4022,9 @@
   "#% chance to gain Phasing for 4 seconds on Kill":[{
       "isScalable":true
     }],
+  "#% chance to gain Phasing on Hit with this weapon":[{
+      "isScalable":true
+    }],
   "#% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike":[{
       "isScalable":true
     }],
@@ -4037,6 +4047,9 @@
       "isScalable":true
     }],
   "#% chance to gain a Blitz Charge on Critical Strike":[{
+      "isScalable":true
+    }],
+  "#% chance to gain a Brine Charge instead of an Endurance Charge":[{
       "isScalable":true
     }],
   "#% chance to gain a Challenger Charge when you Hit a Rare or Unique Enemy while in Blood Stance":[{
@@ -4529,9 +4542,6 @@
   "#% faster start of Energy Shield Recharge while affected by Discipline":[{
       "isScalable":true
     }],
-  "#% improved Rewards":[{
-      "isScalable":false
-    }],
   "#% increased Absolution Cast Speed":[{
       "isScalable":true
     }],
@@ -4563,6 +4573,9 @@
       "isScalable":true
     }],
   "#% increased Accuracy Rating while you have Onslaught":[{
+      "isScalable":true
+    }],
+  "#% increased Accuracy Rating while you have at least 1 nearby Ally":[{
       "isScalable":true
     }],
   "#% increased Accuracy Rating with Axes":[{
@@ -4740,6 +4753,9 @@
   "#% increased Area of Effect per Endurance Charge":[{
       "isScalable":true
     }],
+  "#% increased Area of Effect per Enemy killed recently, up to 25%":[{
+      "isScalable":true
+    }],
   "#% increased Area of Effect per Enemy killed recently, up to 50%":[{
       "isScalable":true
     }],
@@ -4747,6 +4763,9 @@
       "isScalable":true
     }],
   "#% increased Area of Effect per Power Charge, up to a maximum of 50%":[{
+      "isScalable":true
+    }],
+  "#% increased Area of Effect per Red Socket":[{
       "isScalable":true
     }],
   "#% increased Area of Effect per second you've been stationary, up to a maximum of 50%":[{
@@ -4803,6 +4822,9 @@
   "#% increased Armour and Evasion Rating if you've killed a Taunted Enemy Recently":[{
       "isScalable":true
     }],
+  "#% increased Armour and Evasion Rating if your Main Hand Weapon\nhas a Red and Green Socket":[{
+      "isScalable":true
+    }],
   "#% increased Armour and Evasion Rating when on Low Life":[{
       "isScalable":true
     }],
@@ -4838,6 +4860,9 @@
     }],
   "#% increased Armour if you haven't been Hit Recently":[{
       "isScalable":true
+    }],
+  "#% increased Armour per 100 Reserved Mana":[{
+      "isScalable":false
     }],
   "#% increased Armour per 50 Reserved Mana":[{
       "isScalable":false
@@ -4884,10 +4909,19 @@
   "#% increased Aspect of the Avian Buff Effect":[{
       "isScalable":true
     }],
+  "#% increased Aspect of the Cat Buff Effect":[{
+      "isScalable":true
+    }],
+  "#% increased Aspect of the Crab Buff Effect":[{
+      "isScalable":true
+    }],
   "#% increased Aspect of the Spider Area of Effect":[{
       "isScalable":true
     }],
   "#% increased Aspect of the Spider Debuff Duration":[{
+      "isScalable":true
+    }],
+  "#% increased Aspect of the Spider Debuff Effect":[{
       "isScalable":true
     }],
   "#% increased Assassin's Mark Curse Effect":[{
@@ -5077,6 +5111,9 @@
       "isScalable":true
     }],
   "#% increased Attack Speed per Reave stack":[{
+      "isScalable":true
+    }],
+  "#% increased Attack Speed per socketed Searching Eye Jewel":[{
       "isScalable":true
     }],
   "#% increased Attack Speed when on Full Life":[{
@@ -5822,6 +5859,21 @@
   "#% increased Corrupting Fever Duration":[{
       "isScalable":true
     }],
+  "#% increased Cost Efficiency":[{
+      "isScalable":true
+    }],
+  "#% increased Cost Efficiency of Attacks":[{
+      "isScalable":true
+    }],
+  "#% increased Cost Efficiency of Retaliation Skills":[{
+      "isScalable":true
+    }],
+  "#% increased Cost Efficiency of Spells":[{
+      "isScalable":true
+    }],
+  "#% increased Cost Efficiency of Spells you Cast yourself":[{
+      "isScalable":true
+    }],
   "#% increased Cost of Arc and Crackling Lance":[{
       "isScalable":true
     }],
@@ -5993,6 +6045,9 @@
   "#% increased Critical Strike Chance per Power Charge":[{
       "isScalable":true
     }],
+  "#% increased Critical Strike Chance per socketed Hypnotic Eye Jewel":[{
+      "isScalable":true
+    }],
   "#% increased Critical Strike Chance while Channelling":[{
       "isScalable":true
     }],
@@ -6006,6 +6061,9 @@
       "isScalable":true
     }],
   "#% increased Critical Strike Chance while holding a Shield":[{
+      "isScalable":true
+    }],
+  "#% increased Critical Strike Chance while wielding a Staff":[{
       "isScalable":true
     }],
   "#% increased Critical Strike Chance while you have Avatar of Fire":[{
@@ -6275,6 +6333,9 @@
       "isScalable":true
     }],
   "#% increased Damage per Linked target":[{
+      "isScalable":true
+    }],
+  "#% increased Damage per Moon Rite completed":[{
       "isScalable":true
     }],
   "#% increased Damage per Power Charge":[{
@@ -6721,13 +6782,13 @@
   "#% increased Damage with Wands if you've dealt a Critical Strike Recently":[{
       "isScalable":true
     }],
-  "#% increased Dark Pact Area of Effect":[{
+  "#% increased Dark Bargain Area of Effect":[{
       "isScalable":true
     }],
-  "#% increased Dark Pact Cast Speed":[{
+  "#% increased Dark Bargain Cast Speed":[{
       "isScalable":true
     }],
-  "#% increased Dark Pact Damage":[{
+  "#% increased Dark Bargain Damage":[{
       "isScalable":true
     }],
   "#% increased Decoy Totem Area of Effect":[{
@@ -7126,6 +7187,9 @@
   "#% increased Effect of Shrine Buffs on you":[{
       "isScalable":true
     }],
+  "#% increased Effect of Shrine Buffs on you for each 5% of Life Reserved":[{
+      "isScalable":false
+    }],
   "#% increased Effect of Socketed Abyss Jewels":[{
       "isScalable":true
     }],
@@ -7196,6 +7260,9 @@
       "isScalable":true
     }],
   "#% increased Effect of your Marks":[{
+      "isScalable":true
+    }],
+  "#% increased Effect of your Marks per maximum Power Charge":[{
       "isScalable":true
     }],
   "#% increased Effect of your Marks while Elusive":[{
@@ -7361,6 +7428,9 @@
     }],
   "#% increased Empowerment":[{
       "isScalable":true
+    }],
+  "#% increased Enchantment Modifier magnitudes":[{
+      "isScalable":false
     }],
   "#% increased Endurance Charge Duration":[{
       "isScalable":true
@@ -7939,9 +8009,6 @@
   "#% increased Global Accuracy Rating":[{
       "isScalable":true
     }],
-  "#% increased Global Accuracy Rating while you have at least 1 nearby Ally":[{
-      "isScalable":true
-    }],
   "#% increased Global Armour while you have no Energy Shield":[{
       "isScalable":true
     }],
@@ -7957,6 +8024,9 @@
   "#% increased Global Critical Strike Chance if Corrupted":[{
       "isScalable":true
     }],
+  "#% increased Global Critical Strike Chance per Blue Socket":[{
+      "isScalable":true
+    }],
   "#% increased Global Critical Strike Chance per Level":[{
       "isScalable":true
     }],
@@ -7966,9 +8036,6 @@
   "#% increased Global Critical Strike Chance while wielding a Bow":[{
       "isScalable":true
     }],
-  "#% increased Global Critical Strike Chance while wielding a Staff":[{
-      "isScalable":true
-    }],
   "#% increased Global Damage":[{
       "isScalable":true
     }],
@@ -7976,6 +8043,9 @@
       "isScalable":true
     }],
   "#% increased Global Defences if there are no Defence Modifiers on other Equipped Items":[{
+      "isScalable":true
+    }],
+  "#% increased Global Defences per Empty Socket":[{
       "isScalable":true
     }],
   "#% increased Global Defences per White Socket":[{
@@ -7990,10 +8060,10 @@
   "#% increased Global Physical Damage":[{
       "isScalable":true
     }],
-  "#% increased Global Physical Damage while Frozen":[{
+  "#% increased Global Physical Damage per Red Socket":[{
       "isScalable":true
     }],
-  "#% increased Global Physical Damage with Weapons per Red Socket":[{
+  "#% increased Global Physical Damage while Frozen":[{
       "isScalable":true
     }],
   "#% increased Global maximum Energy Shield and reduced Lightning Resistance":[{
@@ -8182,6 +8252,9 @@
   "#% increased Leap Slam Damage":[{
       "isScalable":true
     }],
+  "#% increased Life Cost Efficiency":[{
+      "isScalable":true
+    }],
   "#% increased Life Cost of Skills":[{
       "isScalable":true
     }],
@@ -8336,6 +8409,45 @@
       "isScalable":true
     }],
   "#% increased Main Hand Critical Strike Chance per\nMurderous Eye Jewel affecting you, up to a maximum of 200%":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency for 2 seconds after Spending a total of 800 Mana":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Curse Skills":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Link Skills":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Mark Skills":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Minion Skills":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Retaliation Skills":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Skills which throw Traps or Mines":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Spells":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency of Spells you Cast yourself":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency per 10 Devotion":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency per Endurance Charge":[{
+      "isScalable":true
+    }],
+  "#% increased Mana Cost Efficiency while on Low Mana":[{
       "isScalable":true
     }],
   "#% increased Mana Cost of Attacks":[{
@@ -8814,6 +8926,9 @@
   "#% increased Movement Speed per 10 Dexterity on Unallocated Passives in Radius":[{
       "isScalable":true
     }],
+  "#% increased Movement Speed per 1800 Evasion Rating, up to 25%":[{
+      "isScalable":true
+    }],
   "#% increased Movement Speed per 5 Rage":[{
       "isScalable":true
     }],
@@ -8954,6 +9069,9 @@
     }],
   "#% increased Physical Damage per Endurance Charge":[{
       "isScalable":false
+    }],
+  "#% increased Physical Damage per socketed Murderous Eye Jewel":[{
+      "isScalable":true
     }],
   "#% increased Physical Damage taken":[{
       "isScalable":true
@@ -9096,6 +9214,9 @@
   "#% increased Projectile Attack Damage per 200 Accuracy Rating":[{
       "isScalable":true
     }],
+  "#% increased Projectile Attack Damage per 400 Accuracy Rating":[{
+      "isScalable":true
+    }],
   "#% increased Projectile Attack Damage while you have at least 200 Dexterity":[{
       "isScalable":true
     }],
@@ -9234,6 +9355,9 @@
   "#% increased Radius of Consecrated Ground created by this Flask":[{
       "isScalable":true
     }],
+  "#% increased Rage Cost Efficiency":[{
+      "isScalable":true
+    }],
   "#% increased Rage Cost of Skills":[{
       "isScalable":true
     }],
@@ -9269,6 +9393,9 @@
     }],
   "#% increased Rarity of Fish Caught":[{
       "isScalable":true
+    }],
+  "#% increased Rarity of Fish Caught per held Dead Fish":[{
+      "isScalable":false
     }],
   "#% increased Rarity of Items Dropped":[{
       "isScalable":true
@@ -9437,6 +9564,9 @@
     }],
   "#% increased Reservation of Stance Skills":[{
       "isScalable":true
+    }],
+  "#% increased Reward progress from Monster Kills":[{
+      "isScalable":false
     }],
   "#% increased Righteous Fire Area of Effect":[{
       "isScalable":true
@@ -10279,6 +10409,9 @@
   "#% increased maximum Life":[{
       "isScalable":true
     }],
+  "#% increased maximum Life and Mana if your equipped Staff has a Red and Blue Socket":[{
+      "isScalable":true
+    }],
   "#% increased maximum Life and reduced Fire Resistance":[{
       "isScalable":true
     }],
@@ -10386,6 +10519,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% less Accuracy Rating while at maximum Frenzy Charges":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% less Accuracy Rating while wielding a Sword":[{
       "formats":["negate"],
       "isScalable":true
@@ -10467,6 +10604,10 @@
       "isScalable":true
     }],
   "#% less Cold Damage taken from Hits":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% less Cost of Link Skills":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -10778,6 +10919,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% less Melee Damage while Burning":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% less Mine Damage":[{
       "formats":["negate"],
       "isScalable":true
@@ -10843,6 +10988,10 @@
       "isScalable":true
     }],
   "#% less Skill Effect Duration":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% less Spell Critical Strike Chance":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -10972,6 +11121,9 @@
   "#% more Accuracy Rating per Frenzy Charge":[{
       "isScalable":true
     }],
+  "#% more Accuracy Rating while at maximum Frenzy Charges":[{
+      "isScalable":true
+    }],
   "#% more Accuracy Rating while wielding a Sword":[{
       "isScalable":true
     }],
@@ -11039,6 +11191,9 @@
       "isScalable":true
     }],
   "#% more Cold Damage taken from Hits":[{
+      "isScalable":true
+    }],
+  "#% more Cost of Link Skills":[{
       "isScalable":true
     }],
   "#% more Critical Strike Chance":[{
@@ -11170,6 +11325,12 @@
   "#% more Damage with Ignites you inflict with Hits for which the highest Damage Type is Fire":[{
       "isScalable":true
     }],
+  "#% more Damage with Mines if one of your Traps has Triggered Recently":[{
+      "isScalable":true
+    }],
+  "#% more Damage with Traps if you have Detonated a Mine Recently":[{
+      "isScalable":true
+    }],
   "#% more Damage with Triggered Spells":[{
       "isScalable":true
     }],
@@ -11284,6 +11445,9 @@
   "#% more Maximum Physical Attack Damage with Daggers":[{
       "isScalable":true
     }],
+  "#% more Melee Damage while Burning":[{
+      "isScalable":true
+    }],
   "#% more Melee Physical Damage during effect":[{
       "isScalable":true
     }],
@@ -11354,6 +11518,9 @@
       "isScalable":true
     }],
   "#% more Skill Effect Duration":[{
+      "isScalable":true
+    }],
+  "#% more Spell Critical Strike Chance":[{
       "isScalable":true
     }],
   "#% more Spell Damage":[{
@@ -11435,6 +11602,9 @@
       "isScalable":true
     }],
   "#% of Armour also applies to Chaos Damage taken from Hits":[{
+      "isScalable":true
+    }],
+  "#% of Armour also applies to Lightning Damage taken from Hits":[{
       "isScalable":true
     }],
   "#% of Armour applies to Fire, Cold and Lightning Damage taken from Hits":[{
@@ -11578,10 +11748,6 @@
   "#% of Cold Damage from Hits taken as Lightning Damage":[{
       "isScalable":true
     }],
-  "#% of Cold Damage from your Hits cannot be Reflected while affected by Purity of Ice":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% of Cold Damage taken Recouped as Life":[{
       "isScalable":true
     }],
@@ -11589,6 +11755,9 @@
       "isScalable":true
     }],
   "#% of Cold Damage taken as Lightning Damage":[{
+      "isScalable":true
+    }],
+  "#% of Cold and Lightning Damage from Hits taken as Fire Damage":[{
       "isScalable":true
     }],
   "#% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire":[{
@@ -11717,13 +11886,6 @@
   "#% of Damage from Hits is taken from your nearest Totem's Life before you":[{
       "isScalable":true
     }],
-  "#% of Damage from your Hits cannot be Reflected":[{
-      "isScalable":true
-    }],
-  "#% of Damage from your Hits cannot be Reflected during Effect":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% of Damage is taken from Mana before Life":[{
       "isScalable":true
     }],
@@ -11805,17 +11967,7 @@
   "#% of Elemental Damage from Hits taken as Physical Damage":[{
       "isScalable":true
     }],
-  "#% of Elemental Damage from your Hits cannot be Reflected":[{
-      "isScalable":true
-    }],
-  "#% of Elemental Damage from your Hits cannot be Reflected while\naffected by Purity of Elements":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped":[{
-      "isScalable":true
-    }],
-  "#% of Elemental Hit Damage from you and your Minions cannot be Reflected":[{
       "isScalable":true
     }],
   "#% of Energy Shield Lost per minute":[{
@@ -11873,10 +12025,6 @@
   "#% of Fire Damage from Hits taken as Physical Damage":[{
       "isScalable":true
     }],
-  "#% of Fire Damage from your Hits cannot be Reflected while affected by Purity of Fire":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% of Fire Damage taken Recouped as Life":[{
       "isScalable":true
     }],
@@ -11913,13 +12061,6 @@
   "#% of Hexblast and Doom Blast Overkill Damage is Leeched as Life":[{
       "isScalable":true
     }],
-  "#% of Hit Damage from you and your Minions cannot be Reflected":[{
-      "isScalable":true
-    }],
-  "#% of Hit Damage from your Minions cannot be Reflected":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% of Ice Crash Physical Damage gained as Extra Cold Damage":[{
       "isScalable":true
     }],
@@ -11930,6 +12071,9 @@
       "isScalable":true
     }],
   "#% of Leech is Instant":[{
+      "isScalable":true
+    }],
+  "#% of Leech is Instant per maximum Power Charge":[{
       "isScalable":true
     }],
   "#% of Leech is Instant while wielding a Claw":[{
@@ -12005,10 +12149,6 @@
       "isScalable":true
     }],
   "#% of Lightning Damage from Hits taken as Fire Damage":[{
-      "isScalable":true
-    }],
-  "#% of Lightning Damage from your Hits cannot be Reflected while\naffected by Purity of Lightning":[{
-      "formats":["negate"],
       "isScalable":true
     }],
   "#% of Lightning Damage is Leeched as Energy Shield while affected by Wrath":[{
@@ -12253,13 +12393,6 @@
   "#% of Physical Damage from Hits with this Weapon is Converted to a random Element":[{
       "isScalable":true
     }],
-  "#% of Physical Damage from your Hits cannot be Reflected":[{
-      "isScalable":true
-    }],
-  "#% of Physical Damage from your Hits cannot be Reflected while affected by Determination":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% of Physical Damage gained as Extra Chaos Damage against\nBleeding Enemies":[{
       "isScalable":true
     }],
@@ -12287,9 +12420,6 @@
     }],
   "#% of Physical Damage taken bypasses Energy Shield":[{
       "isScalable":false
-    }],
-  "#% of Physical Hit Damage from you and your Minions cannot be Reflected":[{
-      "isScalable":true
     }],
   "#% of Recovery applied Instantly":[{
       "isScalable":true
@@ -12385,6 +12515,10 @@
       "isScalable":true
     }],
   "#% reduced Accuracy Rating while you have Onslaught":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Accuracy Rating while you have at least 1 nearby Ally":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -12679,6 +12813,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Armour and Evasion Rating if your Main Hand Weapon\nhas a Red and Green Socket":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Armour and Evasion Rating when on Low Life":[{
       "formats":["negate"],
       "isScalable":true
@@ -12771,11 +12909,23 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Aspect of the Cat Buff Effect":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Aspect of the Crab Buff Effect":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Aspect of the Spider Area of Effect":[{
       "formats":["negate"],
       "isScalable":true
     }],
   "#% reduced Aspect of the Spider Debuff Duration":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Aspect of the Spider Debuff Effect":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -13914,6 +14064,26 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Cost Efficiency":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Cost Efficiency of Attacks":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Cost Efficiency of Retaliation Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Cost Efficiency of Spells":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Cost Efficiency of Spells you Cast yourself":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Cost of Arc and Crackling Lance":[{
       "formats":["negate"],
       "isScalable":true
@@ -14135,6 +14305,10 @@
       "isScalable":true
     }],
   "#% reduced Critical Strike Chance while holding a Shield":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Critical Strike Chance while wielding a Staff":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -14426,6 +14600,10 @@
       "isScalable":true
     }],
   "#% reduced Damage per Linked target":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Damage per Moon Rite completed":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -15009,15 +15187,15 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Dark Pact Area of Effect":[{
+  "#% reduced Dark Bargain Area of Effect":[{
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Dark Pact Cast Speed":[{
+  "#% reduced Dark Bargain Cast Speed":[{
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Dark Pact Damage":[{
+  "#% reduced Dark Bargain Damage":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -15520,6 +15698,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Effect of Shrine Buffs on you for each 5% of Life Reserved":[{
+      "formats":["negate"],
+      "isScalable":false
+    }],
   "#% reduced Effect of Socketed Abyss Jewels":[{
       "formats":["negate"],
       "isScalable":true
@@ -15613,6 +15795,10 @@
       "isScalable":true
     }],
   "#% reduced Effect of your Marks":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Effect of your Marks per maximum Power Charge":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -15813,6 +15999,10 @@
   "#% reduced Empowerment":[{
       "formats":["negate"],
       "isScalable":true
+    }],
+  "#% reduced Enchantment Modifier magnitudes":[{
+      "formats":["negate"],
+      "isScalable":false
     }],
   "#% reduced Endurance Charge Duration":[{
       "formats":["negate"],
@@ -16542,10 +16732,6 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Global Accuracy Rating while you have at least 1 nearby Ally":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% reduced Global Armour while you have no Energy Shield":[{
       "formats":["negate"],
       "isScalable":true
@@ -16570,15 +16756,15 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "#% reduced Global Critical Strike Chance while wielding a Staff":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "#% reduced Global Damage":[{
       "formats":["negate"],
       "isScalable":true
     }],
   "#% reduced Global Defences":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Global Defences per Empty Socket":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -16831,6 +17017,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Life Cost Efficiency":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Life Cost of Skills":[{
       "formats":["negate"],
       "isScalable":true
@@ -17016,6 +17206,58 @@
     }],
   "#% reduced Mana Cost":[{
       "isScalable":false
+    }],
+  "#% reduced Mana Cost Efficiency":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency for 2 seconds after Spending a total of 800 Mana":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Curse Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Link Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Mark Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Minion Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Retaliation Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Skills which throw Traps or Mines":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Spells":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency of Spells you Cast yourself":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency per 10 Devotion":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency per Endurance Charge":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "#% reduced Mana Cost Efficiency while on Low Mana":[{
+      "formats":["negate"],
+      "isScalable":true
     }],
   "#% reduced Mana Cost of Attacks":[{
       "formats":["negate"],
@@ -17930,6 +18172,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Projectile Attack Damage per 400 Accuracy Rating":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Projectile Attack Damage while you have at least 200 Dexterity":[{
       "formats":["negate"],
       "isScalable":true
@@ -18072,6 +18318,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced Rage Cost Efficiency":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced Rage Cost of Skills":[{
       "formats":["negate"],
       "isScalable":true
@@ -18119,6 +18369,9 @@
   "#% reduced Rarity of Fish Caught":[{
       "formats":["negate"],
       "isScalable":true
+    }],
+  "#% reduced Rarity of Fish Caught per held Dead Fish":[{
+      "isScalable":false
     }],
   "#% reduced Rarity of Items Dropped":[{
       "formats":["negate"],
@@ -19339,6 +19592,10 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% reduced maximum Life and Mana if your equipped Staff has a Red and Blue Socket":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "#% reduced maximum Life and increased Fire Resistance":[{
       "formats":["negate"],
       "isScalable":true
@@ -19498,6 +19755,15 @@
   "#% to Chaos Resistance during any Flask Effect":[{
       "isScalable":true
     }],
+  "#% to Chaos Resistance per 1% Cold Resistance":[{
+      "isScalable":false
+    }],
+  "#% to Chaos Resistance per 1% Fire Resistance":[{
+      "isScalable":false
+    }],
+  "#% to Chaos Resistance per 1% Lightning Resistance":[{
+      "isScalable":false
+    }],
   "#% to Chaos Resistance per Endurance Charge":[{
       "isScalable":true
     }],
@@ -19560,6 +19826,10 @@
       "isScalable":true
     }],
   "#% to Critical Strike Chance per Poison affecting Enemy, up to +2.0%":[{
+      "formats":["divide_by_one_hundred"],
+      "isScalable":true
+    }],
+  "#% to Critical Strike Chance per Power Charge":[{
       "formats":["divide_by_one_hundred"],
       "isScalable":true
     }],
@@ -19686,6 +19956,9 @@
       "isScalable":true
     }],
   "#% to Critical Strike Multiplier while affected by Precision":[{
+      "isScalable":true
+    }],
+  "#% to Critical Strike Multiplier while wielding a Staff":[{
       "isScalable":true
     }],
   "#% to Critical Strike Multiplier with Axes":[{
@@ -19866,9 +20139,6 @@
       "isScalable":true
     }],
   "#% to Global Critical Strike Multiplier while wielding a Bow":[{
-      "isScalable":true
-    }],
-  "#% to Global Critical Strike Multiplier while wielding a Staff":[{
       "isScalable":true
     }],
   "#% to Ice Golem Elemental Resistances":[{
@@ -20564,22 +20834,29 @@
     }],
   "35% chance to avoid being Stunned for each Herald Buff affecting you":[],
   "40% chance to Summon an additional Skeleton with Summon Skeletons":[],
+  "40% increased Critical Strike Chance if you've Summoned a Totem Recently":[],
+  "40% increased Critical Strike Chance if you've Summoned a Totem in the past # seconds":[{
+      "formats":["milliseconds_to_seconds"],
+      "isScalable":true
+    }],
   "40% increased Global Critical Strike Chance":[],
   "50% chance to cause Bleeding on Critical Strike":[],
   "50% chance to cause Bleeding on Hit":[],
   "50% increased Global Critical Strike Chance":[],
   "50% more Global Accuracy Rating":[],
   "60% chance to Summon an additional Skeleton with Summon Skeletons":[],
-  "60% increased Global Critical Strike Chance if you've Summoned a Totem Recently":[],
-  "60% increased Global Critical Strike Chance if you've Summoned a Totem in the past # seconds":[{
-      "formats":["milliseconds_to_seconds"],
-      "isScalable":true
-    }],
   "80% chance to Summon an additional Skeleton with Summon Skeletons":[],
   "A Beyond Unique drops when the first Unique Monster from Beyond is slain":[],
   "A Monster in this Area will summon Abaxoth when Slain":[],
   "A Monster in this Area will summon a Unique Monster from Beyond when Slain":[],
   "A Strongbox in this Area is Corrupted":[],
+  "Abyss Chasms in Area spawn #% increased Monsters per fed soul":[{
+      "isScalable":true
+    }],
+  "Abyss Chasms in Area spawn #% reduced Monsters per fed soul":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Abyss Jewels found are Corrupted and have 5 or 6 random Modifiers":[],
   "Abyss Jewels found have #% chance to be Corrupted and have 5 or 6 random Modifiers":[{
       "isScalable":true
@@ -21107,6 +21384,11 @@
     },{
       "isScalable":true
     }],
+  "Adds # to # Lightning Damage to Spells per 10 Intelligence":[{
+      "isScalable":true
+    },{
+      "isScalable":true
+    }],
   "Adds # to # Lightning Damage to Spells per Power Charge":[{
       "isScalable":true
     },{
@@ -21283,6 +21565,8 @@
   "All Damage can inflict all Elemental Ailments while Unbound":[],
   "All Damage from Blast Rain and Artillery Ballista Hits can Poison":[],
   "All Damage from Cold Snap and Creeping Frost can Sap":[],
+  "All Damage from Critical Strikes can apply Cold Ailments during effect":[],
+  "All Damage from Critical Strikes can apply Lightning Ailments during effect":[],
   "All Damage from Hits can Poison":[],
   "All Damage from Hits can cause Elemental Ailments you are suffering":[],
   "All Damage from Hits will cause Elemental Ailments you are suffering":[],
@@ -21309,6 +21593,7 @@
   "All Damage with Maces and Sceptres inflicts Chill":[],
   "All Damage with Triggered Spells can Poison":[],
   "All Elemental Damage Converted to Chaos Damage":[],
+  "All Equipment Items on Mercenaries found in Area are Unique":[],
   "All Hits with your next Non-Channelling Attack within # second of taking a Critical Strike will be Critical Strikes":[{
       "formats":["milliseconds_to_seconds_2dp_if_required"],
       "isScalable":true
@@ -21340,6 +21625,7 @@
   "All bonuses from an Equipped Shield apply to your Minions instead of you":[],
   "All hits are Critical Strikes":[],
   "All hits are Critical Strikes while holding a Fishing Rod":[],
+  "All other Summoned Totems die when you Summon a Totem":[],
   "Allies' Aura Buffs do not affect you":[],
   "Allocated Notable Passive Skills in Radius grant nothing":[],
   "Allocated Small Passive Skills in Radius grant nothing":[],
@@ -21362,6 +21648,7 @@
   "Always Freeze, Shock and Ignite":[],
   "Always Freeze, Shock and Ignite during any Flask Effect":[],
   "Always Freezes Enemies on Hit":[],
+  "Always Hits Burning Enemies":[],
   "Always Ignite":[],
   "Always Ignite when in Main Hand":[],
   "Always Ignite while Ignited":[],
@@ -21380,6 +21667,7 @@
   "Always inflict Brittle":[],
   "Always inflict Brittle while affected by Hatred":[],
   "Always inflict Scorch, Brittle and Sapped with Elemental Hit and Wild Strike Hits":[],
+  "An Abyss Pit in Area will spawn an Abyssal Consort":[],
   "An Enemy Writhing Worm spawns every 2 seconds":[],
   "An Enemy Writhing Worms escape the Flask when used\nWrithing Worms are destroyed when Hit":[],
   "An additional Basic Currency Item drops when the first Invasion Boss is slain":[],
@@ -21546,11 +21834,17 @@
   "Arcane Surge also grants #% increased Life Regeneration Rate to you":[{
       "isScalable":true
     }],
+  "Arcane Surge also grants #% increased Mana Cost Efficiency to you":[{
+      "isScalable":true
+    }],
   "Arcane Surge also grants #% less Spell Damage to you":[{
       "formats":["negate"],
       "isScalable":true
     }],
   "Arcane Surge also grants #% more Spell Damage to you":[{
+      "isScalable":true
+    }],
+  "Arcane Surge also grants #% of Damage taken Recouped as Mana to you":[{
       "isScalable":true
     }],
   "Arcanist Brand has #% increased Cast Speed":[{
@@ -22182,6 +22476,7 @@
   "Area is inhabited by Solaris fanatics":[],
   "Area is inhabited by Spiders":[],
   "Area is inhabited by Undead":[],
+  "Area is inhabited by a Mercenary":[],
   "Area is inhabited by an additional Invasion Boss":[],
   "Area is inhabited by an additional Rogue Exile":[],
   "Area is inhabited by ranged monsters":[],
@@ -22192,11 +22487,11 @@
   "Area's inhabitants are lying in ambush":[],
   "Areas Have the Same Layout for all Players":[],
   "Areas are Breached\nAreas contain additional Large Breach Hands\nBreach Bosses have a chance to drop a Breachstone":[],
-  "Areas can contain Abysses":[],
   "Areas can contain Imprisoned Monsters":[],
   "Areas contain # additional Shrines guarded by Pantheon Monsters":[{
       "isScalable":true
     }],
+  "Areas contain Abysses":[],
   "Areas contain Beasts to hunt":[],
   "Areas contain Einhar\nAreas can contain capturable Harvest Beasts":[],
   "Areas contain Memory Fragments":[],
@@ -22241,6 +22536,9 @@
   "Armour also applies to Lightning Damage taken from Hits":[],
   "Armour from Equipped Body Armour is doubled":[],
   "Armour from Equipped Shield is doubled":[],
+  "Armour is increased by #% of Overcapped Fire Resistance":[{
+      "isScalable":true
+    }],
   "Armour is increased by Overcapped Fire Resistance":[],
   "Arrow Dancing":[],
   "Arrows Chain # times":[{
@@ -22464,6 +22762,9 @@
     }],
   "Attacks fire an additional Projectile":[],
   "Attacks fire an additional Projectile when in Off Hand":[],
+  "Attacks have #% Arcane Might while wielding a Wand":[{
+      "isScalable":true
+    }],
   "Attacks have #% chance to Ignite":[{
       "isScalable":true
     }],
@@ -22491,6 +22792,8 @@
       "formats":["divide_by_one_hundred"],
       "isScalable":true
     }],
+  "Attacks have 100% Arcane Might":[],
+  "Attacks have 150% Arcane Might":[],
   "Attacks have 25% chance to inflict Bleeding when Hitting Cursed Enemies":[],
   "Attacks inflict Unnerve on Critical Strike for 4 seconds":[],
   "Attacks that Fire Projectiles Consume up to # additional Steel Shard":[{
@@ -22710,10 +23013,10 @@
     }],
   "Auras from your Skills which affect Allies also affect Enemies":[],
   "Avatar of Fire":[],
-  "Avoid All Damage from Hits":[],
   "Avoid Chaos Damage from Hits":[],
   "Avoid Cold Damage from Hits":[],
-  "Avoid Elemental Damage from Hits while you have Frenzy Charges":[],
+  "Avoid Damage of each Element from Hits while you have Frenzy Charges":[],
+  "Avoid Damage of each Type from Hits":[],
   "Avoid Fire Damage from Hits":[],
   "Avoid Lightning Damage from Hits":[],
   "Avoid Physical Damage from Hits":[],
@@ -22924,6 +23227,9 @@
     }],
   "Beyond Portals in your Maps cannot spawn Unique Bosses\nBeyond Portals in your Maps have 50% less Merging Radius":[],
   "Beyond Portals spawn an additional Beyond Demon":[],
+  "Binding # souls to phylacteries to sustain Zorath\nPassives affected are Conquered by the Abyssal":[{
+      "isScalable":true
+    }],
   "Birthed Armour has a random amount of Quality":[],
   "Birthed Armour rolls Sockets and Links # times, keeping the best outcome":[{
       "isScalable":true
@@ -23086,6 +23392,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Bitter Frost":[],
   "Black Scythe Training":[],
   "Blade Blast deals #% increased Damage":[{
       "isScalable":true
@@ -23559,10 +23866,12 @@
     }],
   "Call to Arms":[],
   "Can Scout nearby Enemy Patrols and Elite Patrols during Heists":[],
+  "Can be Allflame Crafted as if Rare\nCannot gain Intangibility":[],
   "Can be Anointed":[],
   "Can be Enchanted by a Kalguuran Runesmith":[],
   "Can be Runesmithed as though it were all One Handed Melee Weapon Types":[],
   "Can be modified while Corrupted":[],
+  "Can catch Abyssal Fish":[],
   "Can have # additional Crafted Modifier":[{
       "isScalable":true
     }],
@@ -23730,6 +24039,7 @@
   "Cannot gain Mana during effect":[],
   "Cannot gain Power Charges":[],
   "Cannot have a Boss in the final Round":[],
+  "Cannot have non-Abyssal sockets":[],
   "Cannot inflict Curses":[],
   "Cannot inflict Elemental Ailments":[],
   "Cannot inflict Freeze":[],
@@ -24054,7 +24364,11 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Cleave has +0.1 metres to radius per Nearby Enemy, up to a maximum of +1 metre":[],
+  "Cleave has # metres to radius per Nearby Enemy, up to a maximum of +1 metre":[{
+      "formats":["locations_to_metres"],
+      "isScalable":false
+    }],
+  "Cleave has +1 metre to radius per Nearby Enemy, up to a maximum of +1 metre":[],
   "Cobra Lash Chains # additional times":[{
       "isScalable":true
     }],
@@ -24484,6 +24798,7 @@
   "Culling Strike against Frozen Enemies":[],
   "Culling Strike against Marked Enemy":[],
   "Culling Strike during Effect":[],
+  "Curse Aura Skills reserve Life instead of Mana":[],
   "Curse Auras from Socketed Skills also affect you":[],
   "Curse Enemies which Hit you with a random Hex, ignoring Curse Limit":[],
   "Curse Enemies with Conductivity on Hit":[],
@@ -24502,6 +24817,7 @@
   "Curse Enemies with Vulnerability on Block":[],
   "Curse Enemies with Vulnerability on Hit":[],
   "Curse Non-Cursed Enemies with Enfeeble on Hit":[],
+  "Curse Skills cost Life instead of Mana":[],
   "Curse Skills have #% increased Cast Speed":[{
       "isScalable":true
     }],
@@ -24551,6 +24867,177 @@
   "Curses you inflict are reflected back to you":[],
   "Curses you with Punishment on Kill":[],
   "Curses you with Silence when Hit":[],
+  "DNT # to all Attributes for each Keystone affecting you":[{
+      "isScalable":true
+    }],
+  "DNT #% Chance to Block Spell Damage per Minion":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Area of Effect per 10 Rage":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Attribute Requirements of equipped Armour":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Attribute Requirements of equipped Weapons":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Chance to Block Attack and Spell Damage for every 100 Life Spent Recently":[{
+      "isScalable":true
+    }],
+  "DNT #% increased Explicit Modifier Magnitudes per socketed Abyss Jewel":[{
+      "isScalable":false
+    }],
+  "DNT #% reduced Attribute Requirements of equipped Armour":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT #% reduced Attribute Requirements of equipped Weapons":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT #% reduced Chance to Block Attack and Spell Damage for every 100 Life Spent Recently":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT #% to All Resistances per Minion":[{
+      "isScalable":true
+    }],
+  "DNT #% to Critical Strike Multiplier with Unarmed Attack":[{
+      "isScalable":true
+    }],
+  "DNT #% to Global Defenses per Minion":[{
+      "isScalable":true
+    }],
+  "DNT Adds # maximum Lightning Damage\nLose one maximum Lightning Damage per level":[{
+      "isScalable":true
+    }],
+  "DNT Area contains # additional Common Chest Marker":[{
+      "isScalable":true
+    }],
+  "DNT Area contains # additional Common Chest Markers":[{
+      "isScalable":true
+    }],
+  "DNT Area contains # additional Epic Chest Marker":[{
+      "isScalable":true
+    }],
+  "DNT Area contains # additional Epic Chest Markers":[{
+      "isScalable":true
+    }],
+  "DNT Area contains # additional Uncommon Chest Marker":[{
+      "isScalable":true
+    }],
+  "DNT Area contains # additional Uncommon Chest Markers":[{
+      "isScalable":true
+    }],
+  "DNT Areas contain additional Betrayal Targets\nBetrayal Targets ambush players":[],
+  "DNT Areas contain additional Essences\nEssences contain multiple Rare Monsters with Essences":[],
+  "DNT Areas contain additional Rogue Exiles\nRogues Exiles are equipped Unique Items\nRogue Exiles drop their equipped Unique Items":[],
+  "DNT Areas contain additional packs of Beasts instead of other Monsters":[],
+  "DNT Attacks with this Weapon gain 1% of Physical Damage as Extra Fire per #% life reserved":[{
+      "isScalable":false
+    }],
+  "DNT Auras from your Allies have #% increased Effect on you":[{
+      "isScalable":true
+    }],
+  "DNT Auras from your Allies have #% reduced Effect on you":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT Bow Attacks Sacrifice #% of your Life to fire an additional Arrow for every 100 Life Sacrificed":[{
+      "isScalable":true
+    }],
+  "DNT Dropped items have #% chance to be Fractured":[{
+      "isScalable":true
+    }],
+  "DNT Energy Shield Recharge instead applies to Mana":[],
+  "DNT Every 4 seconds, Remove Elemental Ailments from you":[],
+  "DNT Every 4 seconds, remove all Curses":[],
+  "DNT Every 6 seconds:\n#% Chance to Block Attack Damage for 3 seconds\n#% Chance to Block Spell Damage for 3 seconds":[{
+      "isScalable":false
+    },{
+      "isScalable":false
+    }],
+  "DNT For each nearby Ally you and nearby Allies deal #% less Damage per nearby Ally, up to 15%":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT For each nearby Ally you and nearby Allies deal #% more Damage, up to 15%":[{
+      "isScalable":true
+    }],
+  "DNT Grants Level # Unleash Power":[{
+      "isScalable":false
+    }],
+  "DNT Hits with this Weapon deal Triple Damage if you have spent at least # seconds on a single attack recently":[{
+      "formats":["milliseconds_to_seconds"],
+      "isScalable":true
+    }],
+  "DNT Impaled Enemies Cannot be Impaled":[],
+  "DNT Impales you inflict have #% increased Effect per Impale on you":[{
+      "isScalable":true
+    }],
+  "DNT Impales you inflict have #% reduced Effect per Impale on you":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT Inflict Fire Exposure on Nearby Enemies when you reach Maximum Rage":[],
+  "DNT Killing a Burning Enemy creates a Ghostflame Soul":[],
+  "DNT Killing a Burning Enemy has a #% chance to create a Ghostflame Soul":[{
+      "isScalable":true
+    }],
+  "DNT Link Skills Cost Life instead of Mana":[],
+  "DNT Minions are Aggressive if you've Blocked Recently":[],
+  "DNT Monsters spawn Volatile Cores on death":[],
+  "DNT Nearby Allies have Onslaught":[],
+  "DNT Nearby Non-Player Allies are Shocked, taking #% increased damage\nGain a Power, Frenzy and Endurance Charge when a nearby Non-Player Ally dies":[{
+      "isScalable":true
+    }],
+  "DNT Players can be touched by Tormented Spirits":[],
+  "DNT Projectiles from your Spells have infinite speed":[],
+  "DNT Projectiles you create move at your speed":[],
+  "DNT Sirus' Meteors rain down in Area":[],
+  "DNT Socketed Gems are Supported by Level # Crustaceous Grasp":[{
+      "isScalable":false
+    }],
+  "DNT Socketed Gems are Supported by Level # Rings of Light":[{
+      "isScalable":false
+    }],
+  "DNT Trigger Ghost Furnace when you Ignite an Enemy":[],
+  "DNT Triggers Level # Violent Path when Equipped":[{
+      "isScalable":false
+    }],
+  "DNT Unarmed Attacks deal # to # added Chaos Damage for each Poison on the target, up to 100":[{
+      "isScalable":true
+    },{
+      "isScalable":true
+    }],
+  "DNT Unarmed Non-Vaal Strike Skills target # additional nearby Enemies":[{
+      "isScalable":true
+    }],
+  "DNT Unarmed Non-Vaal Strike Skills target # additional nearby Enemy":[{
+      "isScalable":true
+    }],
+  "DNT You have Feeding Frenzy if you've Blocked Recently":[],
+  "DNT You have Onslaught during Effect of any Life Flask":[],
+  "DNT Your Guard Skill Buffs take Damage for Linked Targets as well as you":[],
+  "DNT Your Minions cannot cast Spells":[],
+  "DNT Your Minions cannot use Attacks":[],
+  "DNT Your Minions have #% increased Cooldown Recovery Rate with Attacks":[{
+      "isScalable":true
+    }],
+  "DNT Your Minions have #% increased Cooldown Recovery Rate with Spells":[{
+      "isScalable":true
+    }],
+  "DNT Your Minions have #% reduced Cooldown Recovery Rate with Attacks":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT Your Minions have #% reduced Cooldown Recovery Rate with Spells":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "DNT Your minions gain your chance to Suppress Spell Damage":[],
+  "DNT Your minions have no Armour or Maximum Energy Shield":[],
   "Dagger Attacks deal #% increased Damage with Ailments":[{
       "isScalable":true
     }],
@@ -25117,6 +25604,10 @@
   "Drop # Forbidden Tomes on Map Completion":[{
       "isScalable":true
     }],
+  "Drop Brine Ground while moving, lasting # seconds":[{
+      "formats":["milliseconds_to_seconds"],
+      "isScalable":false
+    }],
   "Drop a Forbidden Tome on Map Completion":[],
   "Drop an Atlas Memory on Map Completion":[],
   "Dropped Armour has #% chance to be converted to a Blessed Orb":[{
@@ -25426,6 +25917,7 @@
     }],
   "Elemental Hit's Added Damage cannot be replaced this way":[],
   "Elemental Overload":[],
+  "Elemental Purist":[],
   "Elemental Resistances are Zero":[],
   "Elemental Resistances are capped by your highest Maximum Elemental Resistance instead":[],
   "Elemental Resistances cannot be Penetrated":[],
@@ -26361,6 +26853,7 @@
       "formats":["milliseconds_to_seconds_1dp"],
       "isScalable":true
     }],
+  "Fires Projectiles every second":[],
   "First Stage deals #% less Damage":[{
       "formats":["negate"],
       "isScalable":true
@@ -26595,7 +27088,7 @@
   "For each nearby corpse, you and nearby Allies deal #% more Damage, up to a maximum of 10%":[{
       "isScalable":true
     }],
-  "Forbidden Rite and Dark Pact gains Added Chaos Damage equal to #% of Mana Cost, if Mana Cost is not higher than the maximum you could spend":[{
+  "Forbidden Rite and Dark Bargain gains Added Chaos Damage equal to #% of Mana Cost, if Mana Cost is not higher than the maximum you could spend":[{
       "isScalable":true
     }],
   "Forbidden Rite fires # additional Projectiles":[{
@@ -27388,6 +27881,7 @@
   "Gain Arcane Surge when you use a Movement Skill":[],
   "Gain Arcane Surge when your Mine is Detonated targeting an Enemy":[],
   "Gain Arcane Surge when your Trap is Triggered by an Enemy":[],
+  "Gain Brine Charges instead of Endurance Charges":[],
   "Gain Brutal Charges instead of Endurance Charges":[],
   "Gain Chaotic Might for 10 seconds on Kill":[],
   "Gain Chaotic Might for 4 seconds on Critical Strike":[],
@@ -27404,7 +27898,7 @@
   "Gain Elusive on Kill":[],
   "Gain Elusive on reaching Low Life":[],
   "Gain Exposed to Corruption stacks twice as frequently\nLose 1 stack of Exposed to Corruption every 5 seconds":[],
-  "Gain Fanaticism for 4 seconds on reaching Maximum Fanatic Charges":[],
+  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges":[],
   "Gain Flaming, Icy or Crackling Runesurge at random for # second every 10 seconds":[{
       "formats":["milliseconds_to_seconds_2dp_if_required"],
       "isScalable":true
@@ -27428,6 +27922,9 @@
     }],
   "Gain Maddening Presence for 10 seconds when you Kill a Rare or Unique Enemy":[],
   "Gain Maximum Life instead of Maximum Energy Shield from Equipped Armour Items":[],
+  "Gain Maximum Life instead of Maximum Energy Shield from Equipped Armour Items\nat #% of the value":[{
+      "isScalable":true
+    }],
   "Gain Onslaught after Spending a total of 200 Mana":[],
   "Gain Onslaught for # second per Frenzy Charge consumed on use":[{
       "isScalable":true
@@ -27466,6 +27963,7 @@
     }],
   "Gain Phasing for 3 seconds when your Trap is triggered by an Enemy":[],
   "Gain Phasing for 4 seconds on Kill":[],
+  "Gain Phasing on Hit with this weapon":[],
   "Gain Rampage while at Maximum Endurance Charges":[],
   "Gain Sacrificial Zeal when you use a Skill, dealing you #% of the Skill's Mana Cost as Physical Damage per Second":[{
       "formats":["per_minute_to_per_second"],
@@ -27482,6 +27980,11 @@
       "isScalable":true
     }],
   "Gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike":[],
+  "Gain Spirit Infusion every # seconds while Channelling a Spell":[{
+      "formats":["milliseconds_to_seconds"],
+      "isScalable":true
+    }],
+  "Gain Spirit Infusion every second while Channelling a Spell":[],
   "Gain Unholy Might for # second on Rampage":[{
       "formats":["milliseconds_to_seconds"],
       "isScalable":true
@@ -27582,6 +28085,11 @@
       "isScalable":false
     }],
   "Gain a Void Charge every second":[],
+  "Gain a random Blood Shrine buff every # seconds":[{
+      "formats":["milliseconds_to_seconds"],
+      "isScalable":false
+    }],
+  "Gain a random Blood Shrine buff every 1 second":[],
   "Gain a random Shrine Buff for # seconds when you Kill a Rare or Unique Enemy":[{
       "formats":["divide_by_one_hundred"],
       "isScalable":true
@@ -27674,6 +28182,7 @@
   "Galvanic Field has #% increased Cast Speed":[{
       "isScalable":true
     }],
+  "Gems Socketed always have the Quality bonus from Socket Colour":[],
   "Gems Socketed in Blue Sockets gain #% increased Experience":[{
       "isScalable":true
     }],
@@ -27683,7 +28192,6 @@
   "Gems Socketed in Red Sockets have # to Level":[{
       "isScalable":true
     }],
-  "Gems can be Socketed in this Item ignoring Socket Colour":[],
   "General's Cry has # to maximum number of Mirage Warriors":[{
       "isScalable":true
     }],
@@ -27921,7 +28429,19 @@
   "Grants Level # Approaching Flames Skill":[{
       "isScalable":false
     }],
+  "Grants Level # Aspect of Arakaali Skill":[{
+      "isScalable":false
+    }],
+  "Grants Level # Aspect of Lunaris Skill":[{
+      "isScalable":false
+    }],
+  "Grants Level # Aspect of Solaris Skill":[{
+      "isScalable":false
+    }],
   "Grants Level # Aspect of the Avian Skill":[{
+      "isScalable":false
+    }],
+  "Grants Level # Aspect of the Brine King Skill":[{
       "isScalable":false
     }],
   "Grants Level # Aspect of the Cat Skill":[{
@@ -28108,6 +28628,9 @@
       "isScalable":false
     }],
   "Grants Level # Ravenous Skill":[{
+      "isScalable":false
+    }],
+  "Grants Level # Savage Barnacle":[{
       "isScalable":false
     }],
   "Grants Level # Scorching Ray Skill":[{
@@ -29010,6 +29533,13 @@
       "isScalable":true
     }],
   "If you've used a Skill Recently, you and nearby Allies have Tailwind":[],
+  "If your Linked Mercenary dies, the Link owner does not also die":[],
+  "If your Mercenary's Life is higher than your own, #% of Damage from Hits is\ntaken from your Mercenary's Life before you":[{
+      "isScalable":true
+    }],
+  "If your Mercenary's Life is lower than your own, #% of Damage they take is Recouped as Life":[{
+      "isScalable":true
+    }],
   "Ignited Enemies Burn #% slower":[{
       "isScalable":true
     }],
@@ -29199,6 +29729,7 @@
   "In Heists Chaos Orbs drop as Exalted Orbs instead":[],
   "In Heists Chromatic Orbs drop as Jeweller's Orbs instead":[],
   "In Heists Chromatic Orbs drop as Orbs of Fusing instead":[],
+  "In Heists Jeweller's Orbs drop as Chromatic Orbs instead":[],
   "In Heists Jeweller's Orbs drop as Orbs of Fusing instead":[],
   "In Heists Orbs of Alchemy drop as Blessed Orbs instead":[],
   "In Heists Orbs of Alchemy drop as Divine Orbs instead":[],
@@ -29209,6 +29740,7 @@
   "In Heists Orbs of Augmentation drop as Chaos Orbs instead":[],
   "In Heists Orbs of Augmentation drop as Orbs of Alchemy instead":[],
   "In Heists Orbs of Augmentation drop as Regal Orbs instead":[],
+  "In Heists Orbs of Fusing drop as Chromatic Orbs instead":[],
   "In Heists Orbs of Regret drop as Orbs of Annulment instead":[],
   "In Heists Orbs of Scouring drop as Orbs of Annulment instead":[],
   "In Heists Orbs of Scouring drop as Orbs of Regret instead":[],
@@ -29270,6 +29802,7 @@
       "isScalable":true
     }],
   "Increases and Reductions to Light Radius also apply to Damage":[],
+  "Increases and Reductions to Light Radius also apply to Effect\nof your Link Skill Buffs on your Mercenary":[],
   "Increases and Reductions to Lightning Damage also apply to Effect of\nAuras from Lightning Skills at #% of their value, up to a maximum of 150%":[{
       "isScalable":false
     }],
@@ -29287,17 +29820,11 @@
     }],
   "Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage":[],
   "Increases and Reductions to Projectile Speed also apply to Damage with Bows":[],
-  "Increases and Reductions to Spell Damage also apply to Attack Damage with Retaliation Skills":[],
-  "Increases and Reductions to Spell Damage also apply to Attack Damage with Retaliation Skills at #% of their value":[{
-      "isScalable":true
-    }],
-  "Increases and Reductions to Spell Damage also apply to Attacks":[],
-  "Increases and Reductions to Spell Damage also apply to Attacks at #% of their value while wielding a Wand":[{
-      "isScalable":true
-    }],
-  "Increases and Reductions to Spell Damage also apply to Attacks at 150% of their value":[],
-  "Increases and Reductions to Spell Damage also apply to Attacks while wielding a Wand":[],
   "Increases and Reductions to other Damage Types in Radius are Transformed to apply to Fire Damage":[],
+  "Increases and Reductions to your Evasion Rating also apply to your Spell Damage":[],
+  "Increases and Reductions to your Evasion Rating also apply to your Spell Damage at #% of their value":[{
+      "isScalable":true
+    }],
   "Increases and reductions to Maximum Mana also apply to Shock Effect at 30% of their value":[],
   "Increases to Cast Speed from Arcane Surge also applies to Movement Speed":[],
   "Incursion Architects are Possessed by a Tormented Spirit":[],
@@ -29344,6 +29871,7 @@
   "Inflict # additional Poisons on the same Target\nwhen you inflict Poison with this weapon":[{
       "isScalable":false
     }],
+  "Inflict Barnacles on nearby Enemies every second":[],
   "Inflict Brittle on Enemies when you Block their Damage":[],
   "Inflict Cold Exposure on Hit":[],
   "Inflict Cold Exposure on Hit if you have at least 150 Devotion":[],
@@ -29750,6 +30278,7 @@
   "Knocks Enemies Back when Hit by a Bow":[],
   "Knocks Enemies Back when Hit by a Staff":[],
   "Knocks Enemies Back when Hit by a Wand":[],
+  "Kulemak's Corpsebait":[],
   "Labyrinth Monsters deal #% increased Damage":[{
       "isScalable":true
     }],
@@ -29853,10 +30382,6 @@
   "Left ring slot: #% of Cold Damage from Hits taken as Fire Damage":[{
       "isScalable":true
     }],
-  "Left ring slot: #% of Elemental Hit Damage from you and\nyour Minions cannot be Reflected":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "Left ring slot: #% of Fire Damage from Hits taken as Lightning Damage":[{
       "isScalable":true
     }],
@@ -29892,6 +30417,10 @@
       "isScalable":true
     }],
   "Left ring slot: You cannot Recharge or Regenerate Energy Shield":[],
+  "Left ring slot: you and your Minions prevent #% of Reflected Elemental Damage":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Leftmost # Magic Utility Flask constantly applies its Flask Effect to you":[{
       "isScalable":true
     }],
@@ -30127,6 +30656,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Link Skills have infinite Attachment Duration":[],
   "Linked Targets Cannot Die for # seconds after you Die":[{
       "isScalable":true
     }],
@@ -30229,7 +30759,7 @@
       "isScalable":true
     }],
   "Lose # Life per second":[{
-      "formats":["per_minute_to_per_second"],
+      "formats":["deciseconds_to_seconds"],
       "isScalable":true
     }],
   "Lose # Life when you Block":[{
@@ -30449,6 +30979,12 @@
     }],
   "Magic Utility Flasks cannot be Used":[],
   "Maim on Hit":[],
+  "Maim you inflict causes Hits against the target to have #% less Critical Strike Chance":[{
+      "isScalable":true
+    }],
+  "Maim you inflict causes Hits against the target to have #% more Critical Strike Chance":[{
+      "isScalable":true
+    }],
   "Malevolence has #% increased Aura Effect":[{
       "isScalable":true
     }],
@@ -30734,6 +31270,7 @@
     }],
   "Melee Strike Skills deal Splash Damage to surrounding targets":[],
   "Melee Strike Skills deal Splash Damage to surrounding targets while wielding a Mace":[],
+  "Melee Strikes Curse Enemies with Flammability on Hit, ignoring Curse Limit":[],
   "Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers":[],
   "Memories at this location do not collapse":[],
   "Memories placed on this location are # Level Higher":[{
@@ -30747,6 +31284,8 @@
       "isScalable":true
     }],
   "Memories placed on this location can be run an additional time before Decaying":[],
+  "Mercenaries found in Area are Infamous":[],
+  "Mercenaries found in Area are accompanied by two Wild Mercenaries":[],
   "Mercury Footprints":[],
   "Metamorph Boss Organs found in Area always have at least # rewards":[{
       "isScalable":true
@@ -30889,6 +31428,9 @@
   "Minions convert #% of Physical Damage to Chaos Damage":[{
       "isScalable":true
     }],
+  "Minions convert #% of Physical Damage to Chaos Damage per Empty Socket":[{
+      "isScalable":true
+    }],
   "Minions convert #% of Physical Damage to Chaos Damage per White Socket":[{
       "isScalable":true
     }],
@@ -30898,16 +31440,25 @@
   "Minions convert #% of Physical Damage to Cold Damage per Green Socket":[{
       "isScalable":true
     }],
+  "Minions convert #% of Physical Damage to Cold Damage per Socketed Green Gem":[{
+      "isScalable":true
+    }],
   "Minions convert #% of Physical Damage to Fire Damage":[{
       "isScalable":true
     }],
   "Minions convert #% of Physical Damage to Fire Damage per Red Socket":[{
       "isScalable":true
     }],
+  "Minions convert #% of Physical Damage to Fire Damage per Socketed Red Gem":[{
+      "isScalable":true
+    }],
   "Minions convert #% of Physical Damage to Lightning Damage":[{
       "isScalable":true
     }],
   "Minions convert #% of Physical Damage to Lightning Damage per Blue Socket":[{
+      "isScalable":true
+    }],
+  "Minions convert #% of Physical Damage to Lightning Damage per Socketed Blue Gem":[{
       "isScalable":true
     }],
   "Minions count as having the same number of\nEndurance, Frenzy and Power Charges as you":[],
@@ -31105,6 +31656,9 @@
       "isScalable":true
     }],
   "Minions have #% chance to Ignite":[{
+      "isScalable":true
+    }],
+  "Minions have #% chance to Impale on Attack Hit per socketed Ghastly Eye Jewel":[{
       "isScalable":true
     }],
   "Minions have #% chance to Intimidate Enemies for 4 seconds on Hit":[{
@@ -31339,6 +31893,9 @@
   "Minions have #% to Critical Strike Multiplier per Withered Debuff on Enemy":[{
       "isScalable":true
     }],
+  "Minions have #% to Damage over Time Multiplier":[{
+      "isScalable":true
+    }],
   "Minions have #% to Damage over Time Multiplier per\nGhastly Eye Jewel affecting you, up to a maximum of +30%":[{
       "isScalable":true
     }],
@@ -31358,6 +31915,10 @@
     }],
   "Minions have the same maximum number of Endurance, Frenzy and Power Charges as you":[],
   "Minions never deal Critical Strikes":[],
+  "Minions prevent #% of Reflected Damage they would take":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Minions recover # Life when they Block":[{
       "isScalable":true
     }],
@@ -31447,6 +32008,7 @@
     }],
   "Minions' Accuracy Rating is equal to yours":[],
   "Minions' Base Attack Critical Strike Chance is equal to the Critical\nStrike Chance of your Main Hand Weapon":[],
+  "Minions' Base Attack time is equal to the Attack time of your Main Hand Weapon":[],
   "Minions' Hits can only Kill Ignited Enemies":[],
   "Minions' Hits can't be Evaded":[],
   "Mirage Archers are not attached to you":[],
@@ -31580,7 +32142,7 @@
   "Monsters Overwhelm #% of Physical Damage Reduction for each time they have been Revived":[{
       "isScalable":true
     }],
-  "Monsters Penetrate #% of Enemy Resistances for each time they have been Revived":[{
+  "Monsters Penetrate #% of Enemy Elemental Resistances for each time they have been Revived":[{
       "isScalable":true
     }],
   "Monsters Poison on Hit":[],
@@ -31713,6 +32275,9 @@
   "Monsters gain #% of Maximum Life as Extra Maximum Energy Shield":[{
       "isScalable":true
     }],
+  "Monsters gain #% of Physical Damage as Extra Chaos Damage for each time they have been Revived":[{
+      "isScalable":true
+    }],
   "Monsters gain #% of their Physical Damage as Extra Chaos Damage":[{
       "isScalable":true
     }],
@@ -31838,11 +32403,17 @@
   "Monsters have #% increased Accuracy Rating":[{
       "isScalable":true
     }],
+  "Monsters have #% increased Accuracy Rating for each time they have been Revived":[{
+      "isScalable":true
+    }],
   "Monsters have #% increased Action Speed":[{
       "formats":["negate"],
       "isScalable":true
     }],
   "Monsters have #% increased Area of Effect":[{
+      "isScalable":true
+    }],
+  "Monsters have #% increased Area of Effect for each time they have been Revived":[{
       "isScalable":true
     }],
   "Monsters have #% increased Attack, Cast and Movement Speed":[{
@@ -31864,6 +32435,9 @@
       "isScalable":true
     }],
   "Monsters have #% increased Poison Duration":[{
+      "isScalable":true
+    }],
+  "Monsters have #% increased Toughness for each time they have been Revived":[{
       "isScalable":true
     }],
   "Monsters have #% increased chance of having Rewards":[{
@@ -32392,6 +32966,7 @@
   "Non-Projectile Chaining Lightning Skills Chain # times":[{
       "isScalable":true
     }],
+  "Non-Spectre Minions' Base Attack time is equal to\nthe Attack time of your Main Hand Weapon":[],
   "Non-Travel Attack Skills Repeat # additional Times":[{
       "isScalable":true
     }],
@@ -32528,6 +33103,21 @@
   "Pack spawns a Meteor on Death":[],
   "Pack spawns a Strongbox on Death":[],
   "Pack spawns a Tormented Spirit on Death":[],
+  "Pact Skills grant Boons instead of Afflictions":[],
+  "Pact Skills have #% increased Cast Speed":[{
+      "isScalable":true
+    }],
+  "Pact Skills have #% increased Cooldown Recovery Rate":[{
+      "isScalable":true
+    }],
+  "Pact Skills have #% reduced Cast Speed":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Pact Skills have #% reduced Cooldown Recovery Rate":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Pain Attunement":[],
   "Passive Skills in Radius also grant # to all Attributes":[{
       "isScalable":false
@@ -32803,6 +33393,7 @@
   "Physical Attack Damage is increased by 1% per # Strength from Allocated Passives in Radius":[{
       "isScalable":true
     }],
+  "Physical Damage Reduction is zero":[],
   "Physical Damage is increased by 1% per # Intelligence from Allocated Passives in Radius":[{
       "isScalable":true
     }],
@@ -33480,6 +34071,39 @@
   "Precision has no Reservation":[],
   "Prefix Modifiers have no effect":[],
   "Prefixes Cannot Be Changed":[],
+  "Prevent #% of Reflected Cold Damage you would take while affected by Purity of Ice":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Damage":[{
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Damage during Effect":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Elemental Damage":[{
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Elemental Damage you would take while\naffected by Purity of Elements":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Fire Damage you would take while affected by Purity of Fire":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Lightning Damage you would take while\naffected by Purity of Lightning":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Physical Damage":[{
+      "isScalable":true
+    }],
+  "Prevent #% of Reflected Physical Damage you would take while affected by Determination":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Prevent #% of Suppressed Spell Damage":[{
       "isScalable":true
     }],
@@ -33847,6 +34471,7 @@
     }],
   "Rage grants Cast Speed instead of Attack Speed":[],
   "Rage grants Spell Damage instead of Attack Damage":[],
+  "Rage grants Spell Damage instead of Attack Damage at 50% of the value":[],
   "Rain of Arrows and Toxic Rain deal #% less Damage with Bleeding":[{
       "formats":["negate"],
       "isScalable":true
@@ -34046,8 +34671,14 @@
   "Rare Monsters have #% chance to spawn a Duplicate of Map Boss on Death":[{
       "isScalable":true
     }],
+  "Rare Monsters have Elemental Thorns reflecting # Elemental Damage":[{
+      "isScalable":true
+    }],
   "Rare Monsters have Essence effects":[],
   "Rare Monsters have Inner Treasure in addition to their other Modifiers":[],
+  "Rare Monsters have Physical Thorns reflecting # Physical Damage":[{
+      "isScalable":true
+    }],
   "Rare Monsters have Volatile Cores":[],
   "Rare Monsters have a quarter chance to be Possessed by up to # Tormented Spirit":[{
       "isScalable":true
@@ -34854,7 +35485,7 @@
       "formats":["per_minute_to_per_second"],
       "isScalable":true
     }],
-  "Regenerate #% of Life per second per 500 Maximum Energy Shield":[{
+  "Regenerate #% of Life per second per 500 Player Maximum Energy Shield":[{
       "formats":["per_minute_to_per_second"],
       "isScalable":true
     }],
@@ -35132,6 +35763,9 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Retaliation Skills have #% Arcane Might":[{
+      "isScalable":true
+    }],
   "Retaliation Skills have #% chance to Knockback":[{
       "isScalable":true
     }],
@@ -35235,10 +35869,6 @@
   "Right ring slot: #% of Lightning Damage from Hits taken as Fire Damage":[{
       "isScalable":true
     }],
-  "Right ring slot: #% of Physical Hit Damage from you and\nyour Minions cannot be Reflected":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
   "Right ring slot: #% reduced Duration of Ailments on You":[{
       "formats":["negate"],
       "isScalable":true
@@ -35270,6 +35900,10 @@
       "isScalable":true
     }],
   "Right ring slot: You cannot Regenerate Mana":[],
+  "Right ring slot: you and your Minions prevent #% of Reflected Physical Damage":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Righteous Fire\nEnemies in the Righteous Fire have -10% to maximum Fire Resistance":[],
   "Righteous Fire grants #% increased Spell Damage":[{
       "isScalable":true
@@ -35337,6 +35971,7 @@
   "Rogue Perks have #% more effect":[{
       "isScalable":true
     }],
+  "Roiling Tempest":[],
   "Rolling Magma Chains an additional # times":[{
       "isScalable":true
     }],
@@ -35366,7 +36001,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1 second":[],
+  "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 0.5 seconds":[],
   "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds":[],
   "Runebinder":[],
   "Runic Monsters deal #% less Damage":[{
@@ -35819,6 +36454,24 @@
     }],
   "Skills Repeat an additional Time":[],
   "Skills Reserve Life instead of Mana":[],
+  "Skills Socketed in your Boots are Supported by level # #":[{
+      "isScalable":false
+    },{
+      "formats":["display_indexable_non_active_support"],
+      "isScalable":false
+    }],
+  "Skills Socketed in your Gloves are Supported by level # #":[{
+      "isScalable":false
+    },{
+      "formats":["display_indexable_non_active_support"],
+      "isScalable":false
+    }],
+  "Skills Socketed in your Helmet are Supported by level # #":[{
+      "isScalable":false
+    },{
+      "formats":["display_indexable_non_active_support"],
+      "isScalable":false
+    }],
   "Skills Supported by Nightblade have #% increased Effect of Elusive":[{
       "isScalable":true
     }],
@@ -35910,6 +36563,12 @@
   "Skills gain a Base Life Cost equal to #% of Base Mana Cost":[{
       "isScalable":true
     }],
+  "Skills granted by your Passive Tree are Supported by level # #":[{
+      "isScalable":false
+    },{
+      "formats":["display_indexable_non_active_support"],
+      "isScalable":false
+    }],
   "Skills have #% to Critical Strike Chance for each Warcry Exerting them":[{
       "formats":["divide_by_one_hundred"],
       "isScalable":true
@@ -35955,7 +36614,26 @@
   "Skills used by Spectral Totems deal #% more Damage":[{
       "isScalable":true
     }],
+  "Skills used by Totems deal #% less Damage per maximum number of Summoned Totems":[{
+      "isScalable":true
+    }],
+  "Skills used by Totems deal #% more Damage per maximum number of Summoned Totems":[{
+      "isScalable":true
+    }],
+  "Skills used by Totems have #% less Area of Effect per maximum number of Summoned Totems":[{
+      "isScalable":true
+    }],
+  "Skills used by Totems have #% more Area of Effect per maximum number of Summoned Totems":[{
+      "isScalable":true
+    }],
   "Skills used by Totems have a #% chance to Taunt on Hit":[{
+      "isScalable":true
+    }],
+  "Skills used by Traps and Mines have #% increased Area of Effect":[{
+      "isScalable":true
+    }],
+  "Skills used by Traps and Mines have #% reduced Area of Effect":[{
+      "formats":["negate"],
       "isScalable":true
     }],
   "Skills used by Traps have #% increased Area of Effect":[{
@@ -36317,6 +36995,9 @@
   "Socketed Gems are Supported by Level # Combustion":[{
       "isScalable":false
     }],
+  "Socketed Gems are Supported by Level # Communion":[{
+      "isScalable":false
+    }],
   "Socketed Gems are Supported by Level # Companionship":[{
       "isScalable":false
     }],
@@ -36342,6 +37023,9 @@
       "isScalable":false
     }],
   "Socketed Gems are Supported by Level # Cruelty":[{
+      "isScalable":false
+    }],
+  "Socketed Gems are Supported by Level # Crystalfall":[{
       "isScalable":false
     }],
   "Socketed Gems are Supported by Level # Cull the Weak":[{
@@ -36656,9 +37340,6 @@
   "Socketed Gems are Supported by Level # Minion Life":[{
       "isScalable":false
     }],
-  "Socketed Gems are Supported by Level # Minion Pact":[{
-      "isScalable":false
-    }],
   "Socketed Gems are Supported by Level # Minion Speed":[{
       "isScalable":false
     }],
@@ -36937,10 +37618,6 @@
   "Socketed Gems have #% increased Effect of Exposure inflicted by Elemental Equilibrium":[{
       "isScalable":false
     }],
-  "Socketed Gems have #% increased Mana Cost":[{
-      "formats":["negate"],
-      "isScalable":false
-    }],
   "Socketed Gems have #% increased Reservation Efficiency":[{
       "formats":["negate"],
       "isScalable":false
@@ -36948,14 +37625,18 @@
   "Socketed Gems have #% increased Skill Effect Duration":[{
       "isScalable":false
     }],
+  "Socketed Gems have #% less Mana Cost":[{
+      "isScalable":false
+    }],
   "Socketed Gems have #% more Attack and Cast Speed":[{
+      "isScalable":false
+    }],
+  "Socketed Gems have #% more Mana Cost":[{
+      "formats":["negate"],
       "isScalable":false
     }],
   "Socketed Gems have #% reduced Effect of Exposure inflicted by Elemental Equilibrium":[{
       "formats":["negate"],
-      "isScalable":false
-    }],
-  "Socketed Gems have #% reduced Mana Cost":[{
       "isScalable":false
     }],
   "Socketed Gems have #% reduced Reservation Efficiency":[{
@@ -37024,6 +37705,7 @@
   "Socketed Projectile Spells have #% more Skill Effect Duration":[{
       "isScalable":false
     }],
+  "Socketed Rare Abyssal Jewels will be Consumed\nOne modifier from Consumed Jewels will be retained":[],
   "Socketed Red Gems get #% Physical Damage as Extra Fire Damage":[{
       "isScalable":false
     }],
@@ -37062,6 +37744,9 @@
       "isScalable":false
     }],
   "Socketed Slam Gems are Supported by Level 25 Earthbreaker":[],
+  "Socketed Spells are Supported by level # Crab Totem":[{
+      "isScalable":false
+    }],
   "Socketed Spells have #% increased Mana Cost":[{
       "isScalable":false
     }],
@@ -37202,6 +37887,7 @@
   "Spectral Throw has #% chance on Hit to give a Vaal soul to Vaal Spectral Throw":[{
       "isScalable":true
     }],
+  "Spell Critical Strike Chance Bifurcates":[],
   "Spell Hits Hinder you":[],
   "Spell Hits against you to inflict Poison":[],
   "Spell Hits have #% chance to Hinder you":[{
@@ -37213,7 +37899,14 @@
   "Spell Skills have #% increased Area of Effect":[{
       "isScalable":true
     }],
+  "Spell Skills have #% increased Critical Strike Chance on Final Repeat":[{
+      "isScalable":true
+    }],
   "Spell Skills have #% reduced Area of Effect":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Spell Skills have #% reduced Critical Strike Chance on Final Repeat":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -37243,7 +37936,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Spells cause you to gain Energy Shield equal to their Upfront\nCost every fifth time you Pay it":[],
+  "Spells cause you to gain Energy Shield equal to their Upfront\nCost every third time you Pay it":[],
   "Spells cause you to gain Mana equal to their Upfront Cost every fifth time you Pay it":[],
   "Spells deal added Chaos Damage equal to #% of your maximum Life":[{
       "isScalable":true
@@ -37539,6 +38232,18 @@
   "Stun Threshold is increased by Overcapped Fire Resistance":[],
   "Stun nearby Enemies when you Revive":[],
   "Stuns from Critical Strikes have #% increased Duration":[{
+      "isScalable":true
+    }],
+  "Subjugating # souls in the thrall of Amanamu\nPassives affected are Conquered by the Abyssal":[{
+      "isScalable":true
+    }],
+  "Subjugating # souls in the thrall of Kurgal\nPassives affected are Conquered by the Abyssal":[{
+      "isScalable":true
+    }],
+  "Subjugating # souls in the thrall of Tecrod\nPassives affected are Conquered by the Abyssal":[{
+      "isScalable":true
+    }],
+  "Subjugating # souls in the thrall of Ulaman\nPassives affected are Conquered by the Abyssal":[{
       "isScalable":true
     }],
   "Suffix Modifiers have no effect":[],
@@ -38199,6 +38904,7 @@
   "Talismans found in this Area are 1 Tier higher":[],
   "Talismans found in this Area are Rare":[],
   "Targeted by a Meteor when you use a Flask":[],
+  "Targets affected by Maim you inflict cannot deal Critical Strikes":[],
   "Targets are Unaffected by your Hexes":[],
   "Taunt Enemies on Hit with Attacks":[],
   "Taunt on Hit":[],
@@ -38229,7 +38935,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Teleport to the detonated Rune if you have not detonated Runes in the past 1 second":[],
+  "Teleport to the detonated Rune if you have not detonated Runes in the past 0.5 seconds":[],
   "Tempest Effects have #% increased Area of Effect":[{
       "isScalable":true
     }],
@@ -38277,6 +38983,7 @@
   "The Blood Crucible can transform Unique Equipment":[],
   "The Divine Font may bless belts":[],
   "The Effect of Chill on you is reversed":[],
+  "The Effect of Chill on you is reversed while on Chilled ground":[],
   "The First 3 Possessed Monsters drop an additional Gilded Scarab":[],
   "The First 3 Possessed Monsters drop an additional Map":[],
   "The First 3 Possessed Monsters drop an additional Polished Scarab":[],
@@ -38529,6 +39236,15 @@
   "Totems have #% increased Cast Speed per Summoned Totem":[{
       "isScalable":true
     }],
+  "Totems have #% increased Movement Speed":[{
+      "isScalable":true
+    }],
+  "Totems have #% less Life per maximum number of Summoned Totems":[{
+      "isScalable":true
+    }],
+  "Totems have #% more Life per maximum number of Summoned Totems":[{
+      "isScalable":true
+    }],
   "Totems have #% of your Armour":[{
       "isScalable":true
     }],
@@ -38537,6 +39253,10 @@
       "isScalable":true
     }],
   "Totems have #% reduced Cast Speed per Summoned Totem":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Totems have #% reduced Movement Speed":[{
       "formats":["negate"],
       "isScalable":true
     }],
@@ -38741,6 +39461,9 @@
   "Trigger Level # Lightning Warp on Hit with this Weapon":[{
       "isScalable":false
     }],
+  "Trigger Level # Molten Burst on Melee Hit":[{
+      "isScalable":false
+    }],
   "Trigger Level # Poacher's Mark when you Hit a Rare or Unique Enemy and have no Mark":[{
       "isScalable":false
     }],
@@ -38824,6 +39547,7 @@
   "Trigger Level 20 Starfall on Melee Critical Strike":[],
   "Trigger Level 20 Summon Spectral Wolf on Critical Strike":[],
   "Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave":[],
+  "Trigger Level 20 Surging Torrent when you cast an Elemental Spell":[],
   "Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot":[],
   "Trigger Level 20 Twister when you gain Avian's Might or Avian's Flight":[],
   "Trigger Level 25 Summon Spectral Wolf on Critical Strike with this Weapon":[],
@@ -38883,6 +39607,9 @@
   "Trigger level # Ceaseless Flesh once every second":[{
       "isScalable":false
     }],
+  "Trigger level # Ghostly Artillery when you Attack with this Weapon":[{
+      "isScalable":false
+    }],
   "Trigger level # Summon Spirit of Ahuana Skill when you Suppress\nSpell Damage from a Unique Enemy":[{
       "isScalable":false
     }],
@@ -38913,6 +39640,9 @@
   "Trigger level # Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy":[{
       "isScalable":false
     }],
+  "Trigger level # Suspend in Time on Casting a Spell":[{
+      "isScalable":false
+    }],
   "Trigger level 20 Suspend in Time on Casting a Spell":[],
   "Triggered Spells Poison on Hit":[],
   "Triggered Spells deal #% increased Spell Damage":[{
@@ -38922,6 +39652,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Triggers Drowning Domain when Allocated":[],
   "Triggers Level # Abberath's Fury when Equipped":[{
       "isScalable":false
     }],
@@ -38976,7 +39707,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Ultimatum Boss drops a full stack of a random Catalyst":[],
+  "Ultimatum Boss drops 10 of a random Catalyst":[],
   "Ultimatum Encounters in Area grant rewards as though you completed # additional Rounds":[{
       "isScalable":true
     }],
@@ -39229,6 +39960,12 @@
     }],
   "Unholy Might":[],
   "Unholy Might during Effect":[],
+  "Unholy Might you grant also applies #% Increased Effect of Withered":[{
+      "isScalable":true
+    }],
+  "Unholy Might you grant also causes target's Damage to Penetrate #% Chaos Resistance":[{
+      "isScalable":true
+    }],
   "Unique Boss deals #% increased Damage":[{
       "isScalable":true
     }],
@@ -39693,6 +40430,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Voracious Flame":[],
   "Vortex has #% increased Area of Effect when Cast on Frostbolt":[{
       "isScalable":true
     }],
@@ -39707,6 +40445,7 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "Voyage Modifier will be revealed once Charted":[],
   "Vulnerability can affect Hexproof Enemies":[],
   "Vulnerability has #% increased Reservation if Cast as an Aura":[{
       "isScalable":true
@@ -39953,6 +40692,15 @@
       "isScalable":true
     }],
   "While there is at most one Rare or Unique Enemy nearby, you take no Extra Damage from Critical Strikes":[],
+  "While you have at least # Ghastly Eye Jewels socketed:":[{
+      "isScalable":true
+    }],
+  "While you have at least # Hypnotic Eye Jewels socketed:":[{
+      "isScalable":true
+    }],
+  "While you have at least # Searching Eye Jewels socketed:":[{
+      "isScalable":true
+    }],
   "While your Passive Skill Tree connects to a class' starting location, you gain:\nMarauder: #% of Life Regenerated per second\nDuelist: # metres to Melee Strike Range\nRanger: #% increased Flask Charges gained\nShadow: #% increased Attack and Cast Speed\nWitch: #% increased Skill Effect Duration\nTemplar: #% Chance to Block Attack and Spell Damage\nScion: #% increased Damage":[{
       "formats":["per_minute_to_per_second"],
       "isScalable":true
@@ -40036,7 +40784,12 @@
       "isScalable":true
     }],
   "Wicked Ward":[],
+  "Wild Mercenaries have increased Difficulty for each Wild Mercenary in Area":[],
   "Wild Rogue Exiles appear in Pairs":[],
+  "Wild Rogue Exiles in Area are accompanied by a Wild Mercenary":[],
+  "Wild Rogue Exiles in Area have #% chance to be accompanied by a Wild Mercenary":[{
+      "isScalable":true
+    }],
   "Wild Strike's Beam Chains an additional # times":[{
       "isScalable":true
     }],
@@ -40534,6 +41287,9 @@
       "formats":["per_minute_to_per_second"],
       "isScalable":true
     }],
+  "You and Allies near your Banner have #% to Damage over Time Multiplier per\n2 Valour consumed for that Banner":[{
+      "isScalable":true
+    }],
   "You and Enemies in your Presence count as moving while affected by Elemental Ailments":[],
   "You and Nearby Allies have # to # added Chaos Damage per White Socket":[{
       "isScalable":true
@@ -40638,6 +41394,15 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "You and your Minions prevent #% of Reflected Damage":[{
+      "isScalable":true
+    }],
+  "You and your Minions prevent #% of Reflected Elemental Damage":[{
+      "isScalable":true
+    }],
+  "You and your Minions prevent #% of Reflected Physical Damage":[{
+      "isScalable":true
+    }],
   "You and your Minions take #% increased Reflected Damage":[{
       "isScalable":true
     }],
@@ -40733,6 +41498,7 @@
   "You can have an additional Tincture active":[],
   "You can have two Offerings of different types":[],
   "You can have two different Banners at the same time":[],
+  "You can hire a Mercenary permanently":[],
   "You can inflict # Hallowing Flame on Enemies":[{
       "isScalable":true
     }],
@@ -40841,7 +41607,7 @@
       "isScalable":true
     }],
   "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes":[],
-  "You gain Added Lighting Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[],
+  "You gain Added Lightning Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes":[],
   "You gain Adrenaline for # second on using a Vaal Skill":[{
       "formats":["milliseconds_to_seconds"],
       "isScalable":true
@@ -41491,6 +42257,45 @@
       "isScalable":false
     }],
   "Your Melee Hits can't be Evaded while wielding a Sword":[],
+  "Your Mercenary Taunts on Hit":[],
+  "Your Mercenary and their Minions deal #% increased Damage":[{
+      "isScalable":true
+    }],
+  "Your Mercenary and their Minions deal #% less Damage for\neach Unique item they have equipped":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Your Mercenary and their Minions deal #% more Damage for\neach Unique item they have equipped":[{
+      "isScalable":true
+    }],
+  "Your Mercenary and their Minions deal #% reduced Damage":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Your Mercenary and their Minions have #% increased maximum Life":[{
+      "isScalable":true
+    }],
+  "Your Mercenary and their Minions have #% reduced maximum Life":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Your Mercenary can equip Unique Amulets":[],
+  "Your Mercenary can equip Unique Belts":[],
+  "Your Mercenary can equip Unique Boots":[],
+  "Your Mercenary can equip Unique Gloves":[],
+  "Your Mercenary can equip Unique Helmets":[],
+  "Your Mercenary can equip Unique Rings":[],
+  "Your Mercenary can equip Unique Weapons, Shields and Quivers":[],
+  "Your Mercenary has #% chance to Taunt on Hit":[{
+      "isScalable":true
+    }],
+  "Your Mercenary has #% increased effect of Non-Curse Auras from Skills":[{
+      "isScalable":true
+    }],
+  "Your Mercenary has #% reduced effect of Non-Curse Auras from Skills":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
   "Your Meteor Towers always Stun":[],
   "Your Meteor Towers create Burning Ground for # seconds on Hit":[{
       "formats":["milliseconds_to_seconds"],
@@ -41805,162 +42610,5 @@
       "formats":["negate"],
       "isScalable":true
     }],
-  "Zealotry has no Reservation":[],
-  "[DNT] # to all Attributes for each Keystone affecting you":[{
-      "isScalable":true
-    }],
-  "[DNT] #% Chance to Block Spell Damage per Minion":[{
-      "isScalable":true
-    }],
-  "[DNT] #% increased Area of Effect per 10 Rage":[{
-      "isScalable":true
-    }],
-  "[DNT] #% increased Attribute Requirements of equipped Armour":[{
-      "isScalable":true
-    }],
-  "[DNT] #% increased Attribute Requirements of equipped Weapons":[{
-      "isScalable":true
-    }],
-  "[DNT] #% increased Chance to Block Attack and Spell Damage for every 100 Life Spent Recently":[{
-      "isScalable":true
-    }],
-  "[DNT] #% reduced Attribute Requirements of equipped Armour":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] #% reduced Attribute Requirements of equipped Weapons":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] #% reduced Chance to Block Attack and Spell Damage for every 100 Life Spent Recently":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] #% to All Resistances per Minion":[{
-      "isScalable":true
-    }],
-  "[DNT] #% to Critical Strike Multiplier with Unarmed Attack":[{
-      "isScalable":true
-    }],
-  "[DNT] #% to Global Defenses per Minion":[{
-      "isScalable":true
-    }],
-  "[DNT] Adds # maximum Lightning Damage\nLose one maximum Lightning Damage per level":[{
-      "isScalable":true
-    }],
-  "[DNT] Area contains # additional Common Chest Marker":[{
-      "isScalable":true
-    }],
-  "[DNT] Area contains # additional Common Chest Markers":[{
-      "isScalable":true
-    }],
-  "[DNT] Area contains # additional Epic Chest Marker":[{
-      "isScalable":true
-    }],
-  "[DNT] Area contains # additional Epic Chest Markers":[{
-      "isScalable":true
-    }],
-  "[DNT] Area contains # additional Uncommon Chest Marker":[{
-      "isScalable":true
-    }],
-  "[DNT] Area contains # additional Uncommon Chest Markers":[{
-      "isScalable":true
-    }],
-  "[DNT] Areas contain additional Betrayal Targets\nBetrayal Targets ambush players":[],
-  "[DNT] Areas contain additional Essences\nEssences contain multiple Rare Monsters with Essences":[],
-  "[DNT] Areas contain additional Rogue Exiles\nRogues Exiles are equipped Unique Items\nRogue Exiles drop their equipped Unique Items":[],
-  "[DNT] Areas contain additional packs of Beasts instead of other Monsters":[],
-  "[DNT] Auras from your Allies have #% increased Effect on you":[{
-      "isScalable":true
-    }],
-  "[DNT] Auras from your Allies have #% reduced Effect on you":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] Bow Attacks Sacrifice #% of your Life to fire an additional Arrow for every 100 Life Sacrificed":[{
-      "isScalable":true
-    }],
-  "[DNT] Dropped items have #% chance to be Fractured":[{
-      "isScalable":true
-    }],
-  "[DNT] Energy Shield Recharge instead applies to Mana":[],
-  "[DNT] Every 4 seconds, Remove Elemental Ailments from you":[],
-  "[DNT] Every 4 seconds, remove all Curses":[],
-  "[DNT] Every 6 seconds:\n#% Chance to Block Attack Damage for 3 seconds\n#% Chance to Block Spell Damage for 3 seconds":[{
-      "isScalable":false
-    },{
-      "isScalable":false
-    }],
-  "[DNT] For each nearby Ally you and nearby Allies deal #% less Damage per nearby Ally, up to 15%":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] For each nearby Ally you and nearby Allies deal #% more Damage, up to 15%":[{
-      "isScalable":true
-    }],
-  "[DNT] Grants Level # Unleash Power":[{
-      "isScalable":false
-    }],
-  "[DNT] Hits with this Weapon deal Triple Damage if you have spent at least # seconds on a single attack recently":[{
-      "formats":["milliseconds_to_seconds"],
-      "isScalable":true
-    }],
-  "[DNT] Impaled Enemies Cannot be Impaled":[],
-  "[DNT] Impales you inflict have #% increased Effect per Impale on you":[{
-      "isScalable":true
-    }],
-  "[DNT] Impales you inflict have #% reduced Effect per Impale on you":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] Inflict Fire Exposure on Nearby Enemies when you reach Maximum Rage":[],
-  "[DNT] Link Skills Cost Life instead of Mana":[],
-  "[DNT] Minions are Aggressive if you've Blocked Recently":[],
-  "[DNT] Monsters spawn Volatile Cores on death":[],
-  "[DNT] Nearby Allies have Onslaught":[],
-  "[DNT] Nearby Non-Player Allies are Shocked, taking #% increased damage\nGain a Power, Frenzy and Endurance Charge when a nearby Non-Player Ally dies":[{
-      "isScalable":true
-    }],
-  "[DNT] Players can be touched by Tormented Spirits":[],
-  "[DNT] Projectiles from your Spells have infinite speed":[],
-  "[DNT] Projectiles you create move at your speed":[],
-  "[DNT] Sirus' Meteors rain down in Area":[],
-  "[DNT] Socketed Gems are Supported by Level # Rings of Light":[{
-      "isScalable":false
-    }],
-  "[DNT] Triggers Level # Violent Path when Equipped":[{
-      "isScalable":false
-    }],
-  "[DNT] Unarmed Attacks deal # to # added Chaos Damage for each Poison on the target, up to 100":[{
-      "isScalable":true
-    },{
-      "isScalable":true
-    }],
-  "[DNT] Unarmed Non-Vaal Strike Skills target # additional nearby Enemies":[{
-      "isScalable":true
-    }],
-  "[DNT] Unarmed Non-Vaal Strike Skills target # additional nearby Enemy":[{
-      "isScalable":true
-    }],
-  "[DNT] You have Feeding Frenzy if you've Blocked Recently":[],
-  "[DNT] You have Onslaught during Effect of any Life Flask":[],
-  "[DNT] Your Guard Skill Buffs take Damage for Linked Targets as well as you":[],
-  "[DNT] Your Minions cannot cast Spells":[],
-  "[DNT] Your Minions cannot use Attacks":[],
-  "[DNT] Your Minions have #% increased Cooldown Recovery Rate with Attacks":[{
-      "isScalable":true
-    }],
-  "[DNT] Your Minions have #% increased Cooldown Recovery Rate with Spells":[{
-      "isScalable":true
-    }],
-  "[DNT] Your Minions have #% reduced Cooldown Recovery Rate with Attacks":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] Your Minions have #% reduced Cooldown Recovery Rate with Spells":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "[DNT] Your minions gain your chance to Suppress Spell Damage":[],
-  "[DNT] Your minions have no Armour or Maximum Energy Shield":[]
+  "Zealotry has no Reservation":[]
 }

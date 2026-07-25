@@ -667,7 +667,7 @@
       }],
     "monsterTags":["animal_claw_weapon","beast","extra_small_height","fast_movement","has_one_hand_mace","has_one_handed_melee","light_armour","melee","not_int","not_str","physical_affinity","red_blood","ursine_beast"],
     "name":"Summoned Ursa",
-    "skillList":["MeleeAtAnimationSpeedUnique","DropBearSummonedGroundSlam","DropBearSummonedRallyingCry"],
+    "skillList":["Melee","DropBearSummonedGroundSlam","DropBearSummonedRallyingCry"],
     "weaponType1":"One Handed Mace"
   },
   "GuardianRelicAll":{
@@ -798,7 +798,7 @@
   "Hiveborn":{
     "accuracy":1,
     "attackRange":11,
-    "attackTime":1,
+    "attackTime":1.07,
     "chaosResist":20,
     "coldResist":40,
     "damage":3,
@@ -811,7 +811,7 @@
     "modList":[],
     "monsterTags":["demon","fast_movement","insect","melee","not_int","not_str","red_blood"],
     "name":"It That Crawls",
-    "skillList":["MeleeAtAnimationSpeedComboCold"]
+    "skillList":["MeleeComboCold"]
   },
   "HolyLivingRelic":{
     "accuracy":1,
@@ -1125,12 +1125,12 @@
       }],
     "monsterTags":["animal_claw_weapon","avian_beast","beast","fast_movement","has_claw","has_one_handed_melee","large_model","light_armour","lightning_affinity","medium_height","melee","not_dex","not_int","physical_affinity","red_blood"],
     "name":"Summoned Rhoa",
-    "skillList":["MeleeAtAnimationSpeedUnique","SummonedRhoaShieldCharge"]
+    "skillList":["SummonedRhoaShieldCharge","Melee"]
   },
   "ShamblingUndead":{
     "accuracy":3.4,
     "attackRange":11,
-    "attackTime":1.17,
+    "attackTime":1.25,
     "chaosResist":20,
     "coldResist":40,
     "damage":2.1,
@@ -1154,7 +1154,7 @@
       }],
     "monsterTags":["animal_claw_weapon","flesh_armour","is_unarmed","melee","physical_affinity","red_blood","undead","very_slow_movement"],
     "name":"Ceaseless Flesh",
-    "skillList":["MeleeAtAnimationSpeedChaos","ZombieSlam","GAZombieCorpseGroundImpact"]
+    "skillList":["MeleePartialChaos"]
   },
   "SkitterbotCold":{
     "accuracy":1,
@@ -1648,7 +1648,7 @@
     "accuracy":3.4,
     "armour":0.5,
     "attackRange":13,
-    "attackTime":1.5,
+    "attackTime":1.67,
     "chaosResist":20,
     "coldResist":40,
     "damage":2.4,
@@ -1668,7 +1668,7 @@
   "SummonedSpectralTiger":{
     "accuracy":3.4,
     "attackRange":11,
-    "attackTime":1.5,
+    "attackTime":0.8,
     "chaosResist":20,
     "coldResist":40,
     "damage":26.25,
@@ -1683,16 +1683,10 @@
         "name":"PhysicalDamageLifeLeech",
         "type":"BASE",
         "value":100
-      },{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":20
       }],
     "monsterTags":["animal_claw_weapon","beast","fast_movement","feline_beast","ghost","has_dagger","has_one_handed_melee","light_armour","mammal_beast","melee","physical_affinity","red_blood","undead"],
     "name":"Spectral Tiger Companion",
-    "skillList":["MeleeAtAnimationSpeed"],
+    "skillList":["Melee"],
     "weaponType1":"Dagger"
   },
   "SummonedSpectralWolf":{
@@ -1716,7 +1710,7 @@
       }],
     "monsterTags":["animal_claw_weapon","beast","canine_beast","fast_movement","ghost","has_dagger","has_one_handed_melee","light_armour","mammal_beast","melee","physical_affinity","red_blood","undead"],
     "name":"Spectral Wolf Companion",
-    "skillList":["MeleeAtAnimationSpeed"],
+    "skillList":["Melee"],
     "weaponType1":"Dagger"
   },
   "SummonedStoneGolem":{

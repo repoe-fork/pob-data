@@ -2165,10 +2165,10 @@
     "variantId":"CycloneAltX"
   },
   "Metadata/Items/Gems/SkillGemDarkPact":{
-    "baseTypeName":"Dark Pact",
+    "baseTypeName":"Dark Bargain",
     "gameId":"Metadata/Items/Gems/SkillGemDarkPact",
     "grantedEffectId":"DarkPact",
-    "name":"Dark Pact",
+    "name":"Dark Bargain",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":100,
@@ -2187,10 +2187,10 @@
     "variantId":"DarkPact"
   },
   "Metadata/Items/Gems/SkillGemDarkPactAltX":{
-    "baseTypeName":"Dark Pact of Trarthus",
+    "baseTypeName":"Dark Bargain of Trarthus",
     "gameId":"Metadata/Items/Gems/SkillGemDarkPact",
     "grantedEffectId":"DarkPactAltX",
-    "name":"Dark Pact of Trarthus",
+    "name":"Dark Bargain of Trarthus",
     "naturalMaxLevel":20,
     "reqDex":0,
     "reqInt":100,
@@ -2506,6 +2506,28 @@
       "strength":true
     },
     "variantId":"DivineBlast"
+  },
+  "Metadata/Items/Gems/SkillGemDivineBlastAltX":{
+    "baseTypeName":"Divine Blast of Radiance",
+    "gameId":"Metadata/Items/Gems/SkillGemDivineBlast",
+    "grantedEffectId":"DivineBlastAltX",
+    "name":"Divine Blast of Radiance",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"AoE, Attack, Physical, Duration, Fire, Orb",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "orb":true,
+      "physical":true,
+      "strength":true
+    },
+    "variantId":"DivineBlastAltX"
   },
   "Metadata/Items/Gems/SkillGemDivineIre":{
     "baseTypeName":"Divine Ire",
@@ -4806,6 +4828,27 @@
     },
     "variantId":"HolyHammers"
   },
+  "Metadata/Items/Gems/SkillGemHolyHammersAltX":{
+    "baseTypeName":"Holy Hammers of Spirals",
+    "gameId":"Metadata/Items/Gems/SkillGemHolyHammers",
+    "grantedEffectId":"HolyHammersAltX",
+    "name":"Holy Hammers of Spirals",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Attack, Slam, Melee, AoE, Lightning",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "slam":true,
+      "strength":true
+    },
+    "variantId":"HolyHammersAltX"
+  },
   "Metadata/Items/Gems/SkillGemHolyStrike":{
     "baseTypeName":"Holy Strike",
     "gameId":"Metadata/Items/Gems/SkillGemHolyStrike",
@@ -5959,6 +6002,27 @@
     },
     "variantId":"Malevolence"
   },
+  "Metadata/Items/Gems/SkillGemManaInfusedStaff":{
+    "baseTypeName":"Mana-Infused Staff",
+    "gameId":"Metadata/Items/Gems/SkillGemManaInfusedStaff",
+    "grantedEffectId":"ManaInfusedStaff",
+    "name":"Mana-Infused Staff",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":60,
+    "reqStr":40,
+    "tagString":"Arcane, Spell, AoE, Duration, Lightning",
+    "tags":{
+      "arcane":true,
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "spell":true
+    },
+    "variantId":"ManaInfusedStaff"
+  },
   "Metadata/Items/Gems/SkillGemManabond":{
     "baseTypeName":"Manabond",
     "gameId":"Metadata/Items/Gems/SkillGemManabond",
@@ -6153,6 +6217,92 @@
       "spell":true
     },
     "variantId":"OrbOfStormsAltX"
+  },
+  "Metadata/Items/Gems/SkillGemPactOfBeidat":{
+    "baseTypeName":"Pact of Beidat",
+    "gameId":"Metadata/Items/Gems/SkillGemPactOfBeidat",
+    "grantedEffectId":"PactOfBeidat",
+    "name":"Pact of Beidat",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Projectile, Chaining, AoE, Spell, Pact",
+    "tags":{
+      "area":true,
+      "chaining":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "pact":true,
+      "projectile":true,
+      "spell":true
+    },
+    "variantId":"PactOfBeidat"
+  },
+  "Metadata/Items/Gems/SkillGemPactOfGhorr":{
+    "baseTypeName":"Pact of Ghorr",
+    "gameId":"Metadata/Items/Gems/SkillGemPactOfGhorr",
+    "grantedEffectId":"PactOfGhorr",
+    "name":"Pact of Ghorr",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredBloodrend",
+    "tagString":"Exceptional, Spell, Pact, AoE, Duration, Projectile, Physical, Trigger",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "pact":true,
+      "physical":true,
+      "projectile":true,
+      "spell":true,
+      "trigger":true
+    },
+    "variantId":"PactOfGhorr"
+  },
+  "Metadata/Items/Gems/SkillGemPactOfKtash":{
+    "baseTypeName":"Pact of K'Tash",
+    "gameId":"Metadata/Items/Gems/SkillGemPactOfKtash",
+    "grantedEffectId":"PactOfKtash",
+    "name":"Pact of K'Tash",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "tagString":"Exceptional, Spell, Pact",
+    "tags":{
+      "exceptional":true,
+      "grants_active_skill":true,
+      "pact":true,
+      "spell":true
+    },
+    "variantId":"PactOfKtash"
+  },
+  "Metadata/Items/Gems/SkillGemPactOfLycia":{
+    "baseTypeName":"Pact of Lycia",
+    "gameId":"Metadata/Items/Gems/SkillGemPactOfLycia",
+    "grantedEffectId":"PactOfLycia",
+    "name":"Pact of Lycia",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":0,
+    "secondaryGrantedEffectId":"TriggeredHeavensScourge",
+    "tagString":"Exceptional, Channelling, Spell, Pact, Lightning, AoE, Trigger",
+    "tags":{
+      "area":true,
+      "channelling":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "pact":true,
+      "spell":true,
+      "trigger":true
+    },
+    "variantId":"PactOfLycia"
   },
   "Metadata/Items/Gems/SkillGemPenanceBrand":{
     "baseTypeName":"Penance Brand",
@@ -7031,6 +7181,26 @@
       "strength":true
     },
     "variantId":"Reap"
+  },
+  "Metadata/Items/Gems/SkillGemReapAltX":{
+    "baseTypeName":"Reap of Butchery",
+    "gameId":"Metadata/Items/Gems/SkillGemBloodreap",
+    "grantedEffectId":"ReapAltX",
+    "name":"Reap of Butchery",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Spell, Physical, AoE, Duration",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "physical":true,
+      "spell":true,
+      "strength":true
+    },
+    "variantId":"ReapAltX"
   },
   "Metadata/Items/Gems/SkillGemReave":{
     "baseTypeName":"Reave",
@@ -10762,6 +10932,46 @@
     },
     "variantId":"SupportCruelty"
   },
+  "Metadata/Items/Gems/SkillGemSupportCrustaceousGrasp":{
+    "gameId":"Metadata/Items/Gems/SupportGemCrustaceousGrasp",
+    "grantedEffectId":"SupportCrustaceousGrasp",
+    "name":"Coursing Current",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Exceptional, Support",
+    "tags":{
+      "exceptional":true,
+      "intelligence":true,
+      "low_max_level":true,
+      "support":true
+    },
+    "variantId":"SupportCrustaceousGrasp"
+  },
+  "Metadata/Items/Gems/SkillGemSupportCrystalfall":{
+    "gameId":"Metadata/Items/Gems/SupportGemCrystalfall",
+    "grantedEffectId":"SupportCrystalfall",
+    "name":"Crystalfall",
+    "naturalMaxLevel":3,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "secondaryGrantedEffectId":"TriggeredSupportCrystalfall",
+    "tagString":"Exceptional, Attack, Support, Slam, AoE, Melee",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "exceptional":true,
+      "grants_active_skill":true,
+      "low_max_level":true,
+      "melee":true,
+      "slam":true,
+      "strength":true,
+      "support":true
+    },
+    "variantId":"SupportCrystalfall"
+  },
   "Metadata/Items/Gems/SkillGemSupportCullTheWeak":{
     "gameId":"Metadata/Items/Gems/SupportGemCullTheWeak",
     "grantedEffectId":"SupportCullTheWeak",
@@ -12621,7 +12831,7 @@
   "Metadata/Items/Gems/SkillGemSupportMinionPact":{
     "gameId":"Metadata/Items/Gems/SupportGemMinionPact",
     "grantedEffectId":"SupportMinionPact",
-    "name":"Minion Pact",
+    "name":"Communion",
     "naturalMaxLevel":3,
     "reqDex":0,
     "reqInt":100,
@@ -13748,6 +13958,27 @@
       "strength":true
     },
     "variantId":"Sweep"
+  },
+  "Metadata/Items/Gems/SkillGemSweepAltX":{
+    "baseTypeName":"Holy Sweep of Hammerfalls",
+    "gameId":"Metadata/Items/Gems/SkillGemSweep",
+    "grantedEffectId":"SweepAltX",
+    "name":"Holy Sweep of Hammerfalls",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":40,
+    "reqStr":60,
+    "tagString":"Attack, AoE, Melee, Lightning, Duration",
+    "tags":{
+      "area":true,
+      "attack":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "lightning":true,
+      "melee":true,
+      "strength":true
+    },
+    "variantId":"SweepAltX"
   },
   "Metadata/Items/Gems/SkillGemSwordstorm":{
     "baseTypeName":"Swordstorm",

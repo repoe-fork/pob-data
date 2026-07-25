@@ -45,8 +45,33 @@
     },
     "type":"Amulet"
   },
+  "Ape Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+1 to Minimum Endurance, Frenzy and Power Charges",
+    "enchantModTypes":[["endurance_charge","power_charge","frenzy_charge"]],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Ashscale Talisman":{
-    "flavourText":["The fire of the hearth is a docile dog,","leashed and tamed.","The fire of the First Ones is a ravening wolf,","wild and free.","- The Wolven King"],
+    "flavourText":["\"This land was always harsh and brutal,","ever seeking ways to kill and maim us.","We had to grow and change to survive,","but each clan had its own ideas how...\""],
     "implicit":"(20-30)% increased Fire Damage",
     "implicitIds":["TalismanIncreasedFireDamage"],
     "implicitModTypes":[["elemental_damage","damage","elemental","fire"]],
@@ -95,7 +120,7 @@
     "type":"Amulet"
   },
   "Avian Twins Talisman":{
-    "flavourText":["The first ones live where they can, where they must.","They embrace the frost, the storm, the drought.","Waxing and waning, breaking and mending,","living with time and happenstance, as must we.","- The Wolven King"],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
     "implicit":"50% of Lightning Damage from Hits taken as Fire Damage",
     "implicitIds":["TalismanLightningTakenAsFire"],
     "implicitModTypes":[["elemental","fire","lightning"]],
@@ -119,7 +144,7 @@
     "type":"Amulet"
   },
   "Avian Twins Talisman (Cold-To-Fire)":{
-    "flavourText":["The first ones live where they can, where they must.","They embrace the frost, the storm, the drought.","Waxing and waning, breaking and mending,","living with time and happenstance, as must we.","- The Wolven King"],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
     "implicit":"50% of Cold Damage from Hits taken as Lightning Damage",
     "implicitIds":["TalismanColdTakenAsLightning"],
     "implicitModTypes":[["elemental","cold","lightning"]],
@@ -143,7 +168,7 @@
     "type":"Amulet"
   },
   "Avian Twins Talisman (Cold-To-Lightning)":{
-    "flavourText":["The first ones live where they can, where they must.","They embrace the frost, the storm, the drought.","Waxing and waning, breaking and mending,","living with time and happenstance, as must we.","- The Wolven King"],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
     "implicit":"50% of Cold Damage from Hits taken as Fire Damage",
     "implicitIds":["TalismanColdTakenAsFire"],
     "implicitModTypes":[["elemental","fire","cold"]],
@@ -167,7 +192,7 @@
     "type":"Amulet"
   },
   "Avian Twins Talisman (Fire-To-Cold)":{
-    "flavourText":["The first ones live where they can, where they must.","They embrace the frost, the storm, the drought.","Waxing and waning, breaking and mending,","living with time and happenstance, as must we.","- The Wolven King"],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
     "implicit":"50% of Fire Damage from Hits taken as Cold Damage",
     "implicitIds":["TalismanFireTakenAsCold"],
     "implicitModTypes":[["elemental","fire","cold"]],
@@ -191,7 +216,7 @@
     "type":"Amulet"
   },
   "Avian Twins Talisman (Fire-To-Lightning)":{
-    "flavourText":["The first ones live where they can, where they must.","They embrace the frost, the storm, the drought.","Waxing and waning, breaking and mending,","living with time and happenstance, as must we.","- The Wolven King"],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
     "implicit":"50% of Fire Damage from Hits taken as Lightning Damage",
     "implicitIds":["TalismanFireTakenAsLightning"],
     "implicitModTypes":[["elemental","fire","lightning"]],
@@ -215,7 +240,7 @@
     "type":"Amulet"
   },
   "Avian Twins Talisman (Lightning-To-Cold)":{
-    "flavourText":["The first ones live where they can, where they must.","They embrace the frost, the storm, the drought.","Waxing and waning, breaking and mending,","living with time and happenstance, as must we.","- The Wolven King"],
+    "flavourText":["\"The Druids emerged from the forests to greet","and warn the new settlers. This was an ancient","land full of mysteries and dangers. Lysanda sent","her best men to study and learn with them.\""],
     "implicit":"50% of Lightning Damage from Hits taken as Cold Damage",
     "implicitIds":["TalismanLightningTakenAsCold"],
     "implicitModTypes":[["elemental","cold","lightning"]],
@@ -239,10 +264,61 @@
     "type":"Amulet"
   },
   "Black Maw Talisman":{
-    "flavourText":["The First Ones stalk with us","upon this lifelong hunt,","and cast their contempt","upon those that would make us their prey.","- The Wolven King"],
-    "implicit":"Has 1 Socket",
-    "implicitIds":["TalismanHasOneSocket_"],
-    "implicitModTypes":[[]],
+    "cannotBeAnointed":true,
+    "enchant":"Has 1 Socket",
+    "enchantModTypes":[[]],
+    "flavourText":["\"There are some stories that may never","be known, never be heard. But to history,","I say, let it be known the the Ezomytes","of Myr persevered... and built a home.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Black Widow Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Utility Flasks gain 2 Charges every 3 seconds",
+    "enchantModTypes":[[]],
+    "flavourText":["\"The Royal Wedding of Lysanda of Myr","lasted for a full month. The hunts were","vigorous, and the meat and drink flowed","freely for all. There was much rejoicing.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Blood Viper Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"20% increased Cooldown Recovery Rate",
+    "enchantModTypes":[[]],
+    "flavourText":["\"Those that departed sought the way of","cities and roads. Theirs would be a path","fraught with danger and hardship, as they","set out to find and build a new home.\""],
+    "implicitModTypes":[],
     "influenceTags":{
       "adjudicator":"amulet_adjudicator",
       "basilisk":"amulet_basilisk",
@@ -289,7 +365,7 @@
     "type":"Amulet"
   },
   "Bonespire Talisman":{
-    "flavourText":["The civilised man must wrestle","with the demands of heart and mind.","The First Ones share no such struggle.","For their Spirit is swift and deadly certain.","- The Wolven King"],
+    "flavourText":["\"We held our trust in the First Ones long","before we learned runes. Long before we","were shown the ways of cities and roads.\""],
     "implicit":"(20-30)% increased maximum Mana",
     "implicitIds":["TalismanIncreasedMana"],
     "implicitModTypes":[["resource","mana"]],
@@ -313,7 +389,7 @@
     "type":"Amulet"
   },
   "Breakrib Talisman":{
-    "flavourText":["I stood among the stones","And called out to the First Ones;","That with tooth and mighty claw,","They should tear our enemies asunder.","- The Wolven King"],
+    "flavourText":["\"When they set out to find and build","Ezomyr, they encountered creatures of","deadly variety and intent. Many died,","for none yet knew how to fight back.\""],
     "implicit":"(20-30)% increased Global Physical Damage",
     "implicitIds":["TalismanIncreasedPhysicalDamage"],
     "implicitModTypes":[["physical_damage","damage","physical"]],
@@ -336,8 +412,83 @@
     },
     "type":"Amulet"
   },
+  "Carrion Queen Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+1 to maximum number of Spectres",
+    "enchantModTypes":[["minion"]],
+    "flavourText":["\"Romance never interested Queen Lysanda,","but her advisors insisted heirs were needed.","To spite them, she took the Hag's only son as","her Consort - a quiet, pale, and strange man.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Chieftain Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"16% increased Area of Effect",
+    "enchantModTypes":[[]],
+    "flavourText":["\"I know where we found our belief in","the First Ones. I see it every time I walk","the untouched forests and hills. The","primordial world is still here. With us.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Chimeral Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"30% increased Projectile Speed",
+    "enchantModTypes":[["speed"]],
+    "flavourText":["\"When they set out to find and build","Ezomyr, they encountered creatures of","deadly variety and intent. Many died,","for none yet knew how to fight back.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Chrysalis Talisman":{
-    "flavourText":["The world of the First Ones is harsh;","We struggle on our bellies to survive.","But that which imprisons us also changes us","And soon we will emerge anew.","- The Wolven King"],
+    "flavourText":["\"A great headless monstrosity with arms like","teeth stalked the lands they hoped to settle.","No other weapon would find purchase. They","surrounded it with fire, burning it for days.\""],
     "implicit":"(20-30)% increased Spell Damage",
     "implicitIds":["TalismanSpellDamage"],
     "implicitModTypes":[["caster_damage","damage","caster"]],
@@ -384,10 +535,35 @@
     "type":"Amulet"
   },
   "Clutching Talisman":{
-    "flavourText":["Fear the children of the First Ones.","Let fear shield your back.","And let the dullard speak of bravery","when the First Ones come for him.","- The Wolven King"],
+    "flavourText":["\"The night refused to end, and the Winter Curse","howled. The people wailed, and Lysanda raged.","It was then that the sky tore open, unleashing","a saviour fury... at the behest of the Druids.\""],
     "implicit":"(15-25)% increased Global Defences",
     "implicitIds":["TalismanGlobalDefensesPercent"],
     "implicitModTypes":[["defences"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Cobra Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+1 to Maximum Frenzy Charges",
+    "enchantModTypes":[["frenzy_charge"]],
+    "flavourText":["\"Each new valley, each new grove, held new","dangers. Many Knights paid the price. Lysanda","had never been known for her beauty, but she","bore a new scar each season, earned gladly.\""],
+    "implicitModTypes":[],
     "influenceTags":{
       "adjudicator":"amulet_adjudicator",
       "basilisk":"amulet_basilisk",
@@ -428,8 +604,58 @@
     },
     "type":"Amulet"
   },
+  "Craicic Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"100% increased Aspect of the Crab Buff Effect",
+    "enchantModTypes":[[]],
+    "flavourText":["\"The sea calmed, and contact was","renewed with the Isles of Skothe.","It was said that Craiceann had","given a blessing to the people.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Croaker Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+1 to Level of all Skill Gems",
+    "enchantModTypes":[["gem"]],
+    "flavourText":["\"Ezomyr grew on a foundation of","choice. Its climate was chosen. Its","animals were chosen. For once,","Wraeclast was not harsh, but kind.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Deadhand Talisman":{
-    "flavourText":["The Empire poisons our blood with sweet wine.","Poisons our flesh with silk.","Poisons our minds with civil lies.","Poisons our children with servitude.","- The Wolven King"],
+    "flavourText":["\"Lysanda of Myr was but a girl on that exodus.","Ezomyr almost met its end before it began...","but she could not hear that deadly lure. She","took the Siren's head with her bare hands.\""],
     "implicit":"(19-31)% increased Chaos Damage",
     "implicitIds":["TalismanIncreasedChaosDamage"],
     "implicitModTypes":[["chaos_damage","damage","chaos"]],
@@ -453,7 +679,7 @@
     "type":"Amulet"
   },
   "Deep One Talisman":{
-    "flavourText":["We have basked in the cloying warmth of servitude.","Now the First Ones harden us","against the numbing chill of despair","so that freedom will not slip through our trembling fingers.","- The Wolven King"],
+    "flavourText":["\"Those that departed sought the way of","cities and roads. Theirs would be a path","fraught with danger and hardship, as they","set out to find and build a new home.\""],
     "implicit":"(20-30)% increased Cold Damage",
     "implicitIds":["TalismanIncreasedColdDamage"],
     "implicitModTypes":[["elemental_damage","damage","elemental","cold"]],
@@ -476,11 +702,111 @@
     },
     "type":"Amulet"
   },
+  "Devourer Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Damage Penetrates 15% Fire Resistance",
+    "enchantModTypes":[["elemental_damage","damage","elemental","fire"]],
+    "flavourText":["\"A great headless monstrosity with arms like","teeth stalked the lands they hoped to settle.","No other weapon would find purchase. They","surrounded it with fire, burning it for days.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Fangjaw Talisman":{
-    "flavourText":["The First Ones are the forever ones.","There is no dust of the hourglass in their blood.","No fissures of weariness in their faces.","To drink of their blood is to drink of time itself.","- The Wolven King"],
+    "flavourText":["\"As the Ezomytes of Myr prospered, they","needed more and spreading lands. Queen","Lysanda led the ongoing campaign to","slaughter every last creature of darkness.\""],
     "implicit":"(8-12)% increased maximum Life",
     "implicitIds":["TalismanIncreasedLife"],
     "implicitModTypes":[["resource","life"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Farric Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"100% increased Aspect of the Cat Buff Effect",
+    "enchantModTypes":[[]],
+    "flavourText":["\"Forty-six years into her reign, Lysanda","slew the last deadly creature. She smiled,","took a wineskin, and rode off into the forest.","One last hunt, it was said. Farrul would stalk","by her side, in this life... and the next.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Fenumal Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"100% increased Aspect of the Spider Debuff Effect",
+    "enchantModTypes":[[]],
+    "flavourText":["\"The Spiders that had been driven","back by the Blue Knight now sought","peace and cooperation. It was said","that Fenumus had commanded it.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Flame Hellion Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+4% to maximum Fire Resistance",
+    "enchantModTypes":[["elemental","fire","resistance"]],
+    "flavourText":["\"Against the Winter Curse, only the forges of","runesmiths could stand. The people huddled,","shoulder to shoulder, while those within were","pressed against the fires, screaming in agony.\""],
+    "implicitModTypes":[],
     "influenceTags":{
       "adjudicator":"amulet_adjudicator",
       "basilisk":"amulet_basilisk",
@@ -525,6 +851,81 @@
     },
     "type":"Amulet"
   },
+  "Frost Hellion Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+4% to maximum Cold Resistance",
+    "enchantModTypes":[["elemental","cold","resistance"]],
+    "flavourText":["\"And still the Winter Curse raged in through","every window and every door. The fathers","and mothers of those within let themselves","freeze solid, sealing the gaps with their lives.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Gargantuan Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"15% increased maximum Life",
+    "enchantModTypes":[["resource","life"]],
+    "flavourText":["\"We held our trust in the First Ones long","before we learned runes. Long before we","were shown the ways of cities and roads.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Goatman Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Hits ignore Enemy Physical Damage Reduction",
+    "enchantModTypes":[["physical"]],
+    "flavourText":["\"Lysanda and her Knights brought the","settling clans to what would become","Ezomyr... but there was one beast against","which even they could not stand.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Gold Amulet":{
     "implicit":"(12-20)% increased Rarity of Items found",
     "implicitIds":["ItemFoundRarityIncreaseImplicitAmulet1"],
@@ -548,7 +949,60 @@
     },
     "type":"Amulet"
   },
+  "Goliath Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Projectiles Pierce 3 additional Targets",
+    "enchantModTypes":[[]],
+    "flavourText":["\"This land was always harsh and brutal,","ever seeking ways to kill and maim us.","We had to grow and change to survive,","but each clan had its own ideas how...\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Great Maw Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"15% increased Attributes",
+    "enchantModTypes":[["attribute"]],
+    "flavourText":["\"Decades into Lysanda's reign, the","lands of the Ezomytes of Myr slowly","became known as Ezo De Myr, and","then simply Ezomyr. And so it was.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Greatwolf Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"44% increased Damage per Moon Rite completed",
+    "enchantModTypes":[[]],
     "flavourText":["The wolf greeted the king,","In the light of the harvest moon.","The wolf offered the strength of the wild,","And the king paid for it in blood."],
     "implicitModTypes":[],
     "influenceTags":{
@@ -565,12 +1019,13 @@
     "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
   "Hexclaw Talisman":{
-    "flavourText":["The Hunter faced the First One","and notched his final arrow.","The First One bared its fangs","and savoured its final breath.","- The Wolven King"],
+    "flavourText":["\"The clans had travelled to their new home","united, and they did love Lysanda, but some","men must go their own way. Those that braved","the inland sea settled the Isles of Skothe.\""],
     "implicit":"(40-50)% increased Global Critical Strike Chance",
     "implicitIds":["TalismanIncreasedCriticalChance"],
     "implicitModTypes":[["critical"]],
@@ -594,10 +1049,35 @@
     "type":"Amulet"
   },
   "Horned Talisman":{
-    "flavourText":["The Empire hides lies and falsehoods","Behind a mask of politeness and civility.","The First Ones teach us to look through the lies,","And that no beast can truly cover their tracks.","- The Wolven King"],
+    "flavourText":["\"Each new valley, each new grove, held new","dangers. Many Knights paid the price. Lysanda","had never been known for her beauty, but she","bore a new scar each season, earned gladly.\""],
     "implicit":"Projectiles Pierce 2 additional Targets",
     "implicitIds":["TalismanAdditionalPierce"],
     "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Hybrid Arachnid Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Minions have +30% to Damage over Time Multiplier",
+    "enchantModTypes":[["damage","minion"]],
+    "flavourText":["\"Twenty-two years into Lysanda's reign, the","Spiders swarmed from out of the dark. Her","Knights were ill-equipped for this foe, and","the people fled in droves, seeking safety.\""],
+    "implicitModTypes":[],
     "influenceTags":{
       "adjudicator":"amulet_adjudicator",
       "basilisk":"amulet_basilisk",
@@ -689,7 +1169,7 @@
     "type":"Amulet"
   },
   "Lone Antler Talisman":{
-    "flavourText":["The First Ones thundered over Ezomyr","upon hooves of grey and black.","The people felt their stamping rage","and cowered as the fury rained down.","- The Wolven King"],
+    "flavourText":["\"A great rift formed, between clans,","between families. Those that remained","resolved to endure times of struggle,","if it meant we could keep our ways.\""],
     "implicit":"(20-30)% increased Lightning Damage",
     "implicitIds":["TalismanIncreasedLightningDamage"],
     "implicitModTypes":[["elemental_damage","damage","elemental","lightning"]],
@@ -713,7 +1193,7 @@
     "type":"Amulet"
   },
   "Longtooth Talisman":{
-    "flavourText":["We grew contemptuous of our past.","Dismissed the first ones as ignorant and wild.","We were fools and naive children","to turn our backs on our inheritance.","- The Wolven King"],
+    "flavourText":["\"But there were some who could not forget","the horrors of the Winter Curse, and of the","Hag that had sent it. Alasdair dropped his","wine goblet, and fell to the ground, choking.\""],
     "implicit":"(4-6)% additional Physical Damage Reduction",
     "implicitIds":["TalismanReducedPhysicalDamageTaken_"],
     "implicitModTypes":[["physical"]],
@@ -736,8 +1216,58 @@
     },
     "type":"Amulet"
   },
+  "Lynx Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+4% to maximum Lightning Resistance",
+    "enchantModTypes":[["elemental","lightning","resistance"]],
+    "flavourText":["\"The night refused to end, and the Winter Curse","howled. The people wailed, and Lysanda raged.","It was then that the sky tore open, unleashing","a saviour fury... at the behest of the Druids.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Magma Hound Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Unaffected by Ignite",
+    "enchantModTypes":[[]],
+    "flavourText":["\"They bound the Hag of the Winter Curse","and set her alight, to no avail. Her cackle","was gleeful and wicked. Even if they slew","her, she boasted, she had many daughters...\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Mandible Talisman":{
-    "flavourText":["The First Ones hold us","between two sharpened blades.","That should we stray too far from the path,","we find ourselves severed.","- The Wolven King"],
+    "flavourText":["\"Lysanda and her Knights brought the","settling clans to what would become","Ezomyr... but there was one beast against","which even they could not stand.\""],
     "implicit":"(6-10)% increased Attack and Cast Speed",
     "implicitIds":["TalismanAttackAndCastSpeed"],
     "implicitModTypes":[["attack","caster","speed"]],
@@ -787,7 +1317,7 @@
     "type":"Amulet"
   },
   "Monkey Paw Talisman":{
-    "flavourText":["Look not upon me with fear, my men.","Though I seem strange, even monstrous,","were you to see with the eyes of your forebears,","your hearts would be filled with wonder.","- The Wolven King"],
+    "flavourText":["\"In the years that followed, Queen Lysanda","poured herself into the long and brutal task","of securing the lands of the Ezomytes of Myr.","Every fell beast, every creature, had to die.\""],
     "implicit":"10% chance to gain an Endurance Charge on Kill",
     "implicitIds":["TalismanEnduranceChargeOnKill_"],
     "implicitModTypes":[["endurance_charge"]],
@@ -811,7 +1341,7 @@
     "type":"Amulet"
   },
   "Monkey Paw Talisman (Frenzy)":{
-    "flavourText":["Look not upon me with fear, my men.","Though I seem strange, even monstrous,","were you to see with the eyes of your forebears,","your hearts would be filled with wonder.","- The Wolven King"],
+    "flavourText":["\"In the years that followed, Queen Lysanda","poured herself into the long and brutal task","of securing the lands of the Ezomytes of Myr.","Every fell beast, every creature, had to die.\""],
     "implicit":"10% chance to gain a Frenzy Charge on Kill",
     "implicitIds":["TalismanFrenzyChargeOnKill"],
     "implicitModTypes":[["frenzy_charge"]],
@@ -835,7 +1365,7 @@
     "type":"Amulet"
   },
   "Monkey Paw Talisman (Power)":{
-    "flavourText":["Look not upon me with fear, my men.","Though I seem strange, even monstrous,","were you to see with the eyes of your forebears,","your hearts would be filled with wonder.","- The Wolven King"],
+    "flavourText":["\"In the years that followed, Queen Lysanda","poured herself into the long and brutal task","of securing the lands of the Ezomytes of Myr.","Every fell beast, every creature, had to die.\""],
     "implicit":"10% chance to gain a Power Charge on Kill",
     "implicitIds":["TalismanPowerChargeOnKill"],
     "implicitModTypes":[["power_charge"]],
@@ -859,10 +1389,35 @@
     "type":"Amulet"
   },
   "Monkey Twins Talisman":{
-    "flavourText":["The first ones marked their hunting grounds","with blood and piss.","We have tried to paint our future in words.","Now we shall paint with inks of savagery.","- The Wolven King"],
+    "flavourText":["\"The Royal Wedding of Lysanda of Myr","lasted for a full month. The hunts were","vigorous, and the meat and drink flowed","freely for all. There was much rejoicing.\""],
     "implicit":"(5-8)% increased Area of Effect",
     "implicitIds":["TalismanIncreasedAreaOfEffect"],
     "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Octopus Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"20% chance to Freeze Enemies for 1 second when they Hit you",
+    "enchantModTypes":[[]],
+    "flavourText":["\"The Blue Knight stood against the swarm,","icy and unassailable. His identity was not","known, and he never removed his helmet.","Glimpses were caught of piercing blue eyes.\""],
+    "implicitModTypes":[],
     "influenceTags":{
       "adjudicator":"amulet_adjudicator",
       "basilisk":"amulet_basilisk",
@@ -926,8 +1481,82 @@
     },
     "type":"Amulet"
   },
+  "Pearlescent Amulet":{
+    "implicit":"+(8-10)% to all Elemental Resistances",
+    "implicitIds":["AllResistancesImplicitAmulet1"],
+    "implicitModTypes":[["elemental","resistance"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":{
+      "level":8
+    },
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Amulet"
+  },
+  "Pitbull Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Warcries Exert 1 additional Attack",
+    "enchantModTypes":[[]],
+    "flavourText":["\"Lysanda roared, and hacked the Hag apart","limb by limb, not stopping until the deed","was done. Her daughters, however, were","spared... and tasked with service and duty.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Plagued Arachnid Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"35% increased Effect of Withered",
+    "enchantModTypes":[["chaos"]],
+    "flavourText":["\"With the headless beast incinerated, the","settlers rejoiced, and began building homes.","They would soon find that this hostile land","had more insidious ways of rejecting them.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Primal Skull Talisman":{
-    "flavourText":["With the will of the first ones in our sinews","we shall tear down the walls of Sarn.","Yet as is the way of the wildlands,","Only the strong may grow stronger.","- The Wolven King"],
+    "flavourText":["\"The journey was over, the land was being","secured, and the foundations for the first city","had been laid. Winter hit them with horrible","fury, sent not by nature, but by a curse.\""],
     "implicit":"Regenerate 2% of Life per second",
     "implicitIds":["TalismanPercentLifeRegeneration"],
     "implicitModTypes":[["resource","life"]],
@@ -950,8 +1579,83 @@
     },
     "type":"Amulet"
   },
+  "Retch Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+1 to Maximum Power Charges",
+    "enchantModTypes":[["power_charge"]],
+    "flavourText":["\"As the Ezomytes of Myr prospered, they","needed more and spreading lands. Queen","Lysanda led the ongoing campaign to","slaughter every last creature of darkness.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Rhex Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"100% of Cold and Lightning Damage from Hits taken as Fire Damage",
+    "enchantModTypes":[["elemental","fire","cold","lightning"]],
+    "flavourText":["\"There began an eternal summer, as the","daughters of the Hag perfected their mastery","of the Tower. The forests became as gardens.","The hungry had only to pick a fruit and eat.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Rhoa Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Gain 15% of Maximum Life as Extra Armour",
+    "enchantModTypes":[["defences"]],
+    "flavourText":["\"A great rift formed, between clans,","between families. Those that remained","resolved to endure times of struggle,","if it meant we could keep our ways.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Rot Head Talisman":{
-    "flavourText":["To catch a big fish you need tempting bait.","And there is no fish bigger than the Empire,","and no bait as tempting as Ezomyr.","- The Wolven King"],
+    "flavourText":["\"Those that swore loyalty to Lysanda, that","forged ahead with her to clear the way.","became known as the first Knights...","armoured, battered, and courageous.\""],
     "implicit":"(30-40)% increased Fish Bite Sensitivity",
     "implicitIds":["TalismanFishBiteSensitivity"],
     "implicitModTypes":[["green_herring"]],
@@ -975,7 +1679,7 @@
     "type":"Amulet"
   },
   "Rotfeather Talisman":{
-    "flavourText":["Death met with the First Ones","and demanded they hunt with mercy.","For while pain might delight the mind,","it does not fill the belly.","- The Wolven King"],
+    "flavourText":["\"There followed a time of fear and fire.","None would speak against their fellows.","None would say who had poisoned him.","Lysanda's justice was swift and brutal.\""],
     "implicit":"(25-35)% increased Damage",
     "implicitIds":["TalismanIncreasedDamage"],
     "implicitModTypes":[["damage"]],
@@ -1020,6 +1724,131 @@
     },
     "type":"Amulet"
   },
+  "Sand Spitter Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"12% increased Movement Speed",
+    "enchantModTypes":[["speed"]],
+    "flavourText":["\"It turned out, Lysanda made for an excellent","vanguard - a light, evasive girl who could scout","and lead the way. The people came to see her","as their guide, their hope, and then... their leader.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Saqawine Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"100% increased Aspect of the Avian Buff Effect",
+    "enchantModTypes":[[]],
+    "flavourText":["\"The skies were clear and blue, yet","brought rains when needed. It was","said that the people had proven","themselves to Saqawal and his flocks.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Savage Crab Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Damage Penetrates 15% Cold Resistance",
+    "enchantModTypes":[["elemental_damage","damage","elemental","cold"]],
+    "flavourText":["\"The journey was over, the land was being","secured, and the foundations for the first city","had been laid. Winter hit them with horrible","fury, sent not by nature, but by a curse.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Scorpion Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+20% to Damage over Time Multiplier",
+    "enchantModTypes":[["dot_multi","damage"]],
+    "flavourText":["\"But there were some who could not forget","the horrors of the Winter Curse, and of the","Hag that had sent it. Alasdair dropped his","wine goblet, and fell to the ground, choking.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Scrabbler Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+2 to Level of all Herald Skill Gems",
+    "enchantModTypes":[["gem"]],
+    "flavourText":["\"Queen Lysanda's spiteful choice of Consort","spited only herself. Alasdair was unlike any","man she had ever met. It was not long before","the trumpets sounded for the Royal Wedding.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Seaglass Amulet":{
     "implicit":"(10-15)% faster start of Energy Shield Recharge",
     "implicitIds":["ReducedEnergyShieldDelayImplicit1_"],
@@ -1043,6 +1872,31 @@
       "atlas_base_type":true,
       "default":true,
       "not_for_sale":true
+    },
+    "type":"Amulet"
+  },
+  "Shield Crab Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"30% increased Global Defences",
+    "enchantModTypes":[["defences"]],
+    "flavourText":["\"Those that swore loyalty to Lysanda, that","forged ahead with her to clear the way.","became known as the first Knights...","armoured, battered, and courageous.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
@@ -1071,8 +1925,33 @@
     },
     "type":"Amulet"
   },
+  "Spider Crab Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+15% to Quality of all Skill Gems",
+    "enchantModTypes":[["gem"]],
+    "flavourText":["\"As deadly and dangerous creatures were","culled, the Queen chose to leave those","that were docile or beauteous. Tide pools","became known as places of wonder.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Spinefuse Talisman":{
-    "flavourText":["We Ezomytes are beasts of burden","bearing wealth of an empire on our backs,","growing lean and strong","while our masters grow fat and weak.","- The Wolven King"],
+    "flavourText":["\"Romance never interested Queen Lysanda,","but her advisors insisted heirs were needed.","To spite them, she took the Hag's only son as","her Consort - a quiet, pale, and strange man.\""],
     "implicit":"+(12-18)% to Damage over Time Multiplier",
     "implicitIds":["TalismanGlobalDamageOverTimeMultiplier"],
     "implicitModTypes":[["dot_multi","damage"]],
@@ -1096,7 +1975,7 @@
     "type":"Amulet"
   },
   "Splitnewt Talisman":{
-    "flavourText":["From flesh and ferocity,","the First Ones roamed","through the realm of Spirit,","and into the darkness beyond.","- The Wolven King"],
+    "flavourText":["\"And still the Winter Curse raged in through","every window and every door. The fathers","and mothers of those within let themselves","freeze solid, sealing the gaps with their lives.\""],
     "implicit":"(4-6)% chance to Freeze, Shock and Ignite",
     "implicitIds":["TalismanChanceToFreezeShockIgnite_"],
     "implicitModTypes":[["elemental","fire","cold","lightning","ailment"]],
@@ -1119,8 +1998,58 @@
     },
     "type":"Amulet"
   },
+  "Squid Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"30% increased maximum Mana",
+    "enchantModTypes":[["resource","mana"]],
+    "flavourText":["\"Lysanda of Myr was but a girl on that exodus.","Ezomyr almost met its end before it began...","but she could not hear that deadly lure. She","took the Siren's head with her bare hands.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Taurus Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+1 to Maximum Endurance Charges",
+    "enchantModTypes":[["endurance_charge"]],
+    "flavourText":["\"The first city was completed, and others sprouted.","The clans came together to declare Lysanda of Myr","the Queen. Henceforth, they became known as the","Ezomytes of Myr, and their numbers swelled.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Three Hands Talisman":{
-    "flavourText":["We breed thoughts of single mind,","fashion tools of single purpose.","While the First Ones bring to bear","anything that the wildlands provide.","- The Wolven King"],
+    "flavourText":["\"The Blue Knight stood against the swarm,","icy and unassailable. His identity was not","known, and he never removed his helmet.","Glimpses were caught of piercing blue eyes.\""],
     "implicit":"Gain (6-12)% of Physical Damage as Extra Damage of a random Element",
     "implicitIds":["TalismanDamageDealtAddedAsRandomElement"],
     "implicitModTypes":[["physical_damage","elemental_damage","damage","physical","elemental"]],
@@ -1144,10 +2073,35 @@
     "type":"Amulet"
   },
   "Three Rat Talisman":{
-    "flavourText":["When we free ourselves from the shackles","of civilised existence","we learn to feed and run and breathe","as the First Ones have always done.","- The Wolven King"],
+    "flavourText":["\"Queen Lysanda's spiteful choice of Consort","spited only herself. Alasdair was unlike any","man she had ever met. It was not long before","the trumpets sounded for the Royal Wedding.\""],
     "implicit":"(12-16)% increased Attributes",
     "implicitIds":["TalismanIncreasedAllAttributes"],
     "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Tiger Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"8% increased Action Speed",
+    "enchantModTypes":[["speed"]],
+    "flavourText":["\"There followed a time of fear and fire.","None would speak against their fellows.","None would say who had poisoned him.","Lysanda's justice was swift and brutal.\""],
+    "implicitModTypes":[],
     "influenceTags":{
       "adjudicator":"amulet_adjudicator",
       "basilisk":"amulet_basilisk",
@@ -1191,7 +2145,7 @@
     "type":"Amulet"
   },
   "Undying Flesh Talisman":{
-    "flavourText":["'Sleep when you are weary,' our mothers told us.","'Sleep when you are dead,' our fathers told us.","To the First Ones, the slumbering and the corpse","are one and the same.","- The Wolven King"],
+    "flavourText":["\"It turned out, Lysanda made for an excellent","vanguard - a light, evasive girl who could scout","and lead the way. The people came to see her","as their guide, their hope, and then... their leader.\""],
     "implicit":"+1 to maximum number of Raised Zombies",
     "implicitIds":["TalismanAdditionalZombie"],
     "implicitModTypes":[["minion"]],
@@ -1238,8 +2192,83 @@
     },
     "type":"Amulet"
   },
+  "Ursa Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"30% increased Effect of your Marks",
+    "enchantModTypes":[["caster","curse"]],
+    "flavourText":["\"With the Hag's daughters easing the climate,","an age of plenty and bounty began. Lysanda","revived the Phaaryl tradition of the hunt,","so the people never forgot their roots.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Vulture Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Skills fire an additional Projectile",
+    "enchantModTypes":[[]],
+    "flavourText":["\"In the years that followed, Queen Lysanda","poured herself into the long and brutal task","of securing the lands of the Ezomytes of Myr.","Every fell beast, every creature, had to die.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Watcher Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"Damage Penetrates 15% Lightning Resistance",
+    "enchantModTypes":[["elemental_damage","damage","elemental","lightning"]],
+    "flavourText":["\"The clans had travelled to their new home","united, and they did love Lysanda, but some","men must go their own way. Those that braved","the inland sea settled the Isles of Skothe.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Wereclaw Talisman":{
-    "flavourText":["It's said to be noble to stand one's ground.","To soak the earth in stalwart blood.","While the First Ones chose to laugh and run","and caper with untamed glee.","- The Wolven King"],
+    "flavourText":["\"Against the Winter Curse, only the forges of","runesmiths could stand. The people huddled,","shoulder to shoulder, while those within were","pressed against the fires, screaming in agony.\""],
     "implicit":"+(24-36)% to Global Critical Strike Multiplier",
     "implicitIds":["TalismanIncreasedCriticalStrikeMultiplier_"],
     "implicitModTypes":[["damage","critical"]],
@@ -1262,8 +2291,33 @@
     },
     "type":"Amulet"
   },
+  "Wolf Alpha Talisman":{
+    "cannotBeAnointed":true,
+    "enchant":"+40% to Global Critical Strike Multiplier",
+    "enchantModTypes":[["damage","critical"]],
+    "flavourText":["\"With the Winter Curse held at bay, Lysanda","and her Knights pursued the fell power that","had sent it... a Hag who made her lair in a","Tower that was ancient beyond ancient.\""],
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
   "Writhing Talisman":{
-    "flavourText":["For too long we have crawled in darkness,","scavenging through rotten scraps.","The First Ones teach us to scavenge until we can hunt,","and then never crawl again.","- The Wolven King"],
+    "flavourText":["\"With the headless beast incinerated, the","settlers rejoiced, and began building homes.","They would soon find that this hostile land","had more insidious ways of rejecting them.\""],
     "implicit":"(20-30)% increased Attack Damage",
     "implicitIds":["TalismanAttackDamage"],
     "implicitModTypes":[["damage","attack"]],
