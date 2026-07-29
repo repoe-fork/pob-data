@@ -73090,32 +73090,44 @@
       }]],
   "Arrows deal 30 to 50 Added Fire Damage for each time they've Pierced":[[{
         "flags":0,
-        "keywordFlags":2048,
+        "keywordFlags":0,
         "name":"FireMin",
         "type":"BASE",
         "value":30,
         "1":{
+          "keywordFlags":2048,
+          "type":"KeywordFlagAnd"
+        },
+        "2":{
           "stat":"PiercedCount",
           "type":"PerStat"
         }
       },{
         "flags":0,
-        "keywordFlags":2048,
+        "keywordFlags":0,
         "name":"FireMax",
         "type":"BASE",
         "value":50,
         "1":{
+          "keywordFlags":2048,
+          "type":"KeywordFlagAnd"
+        },
+        "2":{
           "stat":"PiercedCount",
           "type":"PerStat"
         }
       }]],
   "Arrows deal 50% increased Damage with Hits and Ailments to Targets they Pierce":[[{
         "flags":0,
-        "keywordFlags":788480,
+        "keywordFlags":786432,
         "name":"Damage",
         "type":"INC",
         "value":50,
         "1":{
+          "keywordFlags":2048,
+          "type":"KeywordFlagAnd"
+        },
+        "2":{
           "stat":"PierceCount",
           "threshold":1,
           "type":"StatThreshold"
@@ -81692,13 +81704,12 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ExplodeMod",
-        "source":"physical",
         "type":"LIST",
         "value":{
-          "amount":15,
+          "amount":10,
           "chance":0.15,
           "keyOfScaledMod":"chance",
-          "type":"Tenth"
+          "type":"Physical"
         }
       },{
         "flags":0,
@@ -87234,10 +87245,13 @@
           "var":"LowLife"
         }
       }]],
-  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges":[null,"Fanaticism  on reaching Maximum Fanatic Charges "],
-  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges Gain 1 Fanatic Charge every second if you've Attacked in the past second":[null,"Fanaticism  on reaching Maximum Fanatic Charges Gain 1 Fanatic Charge every second if you've Attacked in the past second "],
-  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges Gain 1 Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges":[null,"Fanaticism  on reaching Maximum Fanatic Charges Gain 1 Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges "],
-  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges Gain 1 Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges +3 to Maximum Fanatic Charges":[null,"Fanaticism  on reaching Maximum Fanatic Charges Gain 1 Fanatic Charge every second if you've Attacked in the past second Lose all Fanatic Charges on reaching Maximum Fanatic Charges +3 to Maximum Fanatic Charges "],
+  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanGainFanaticism",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Gain Her Blessing for 3 seconds when you Ignite an Enemy":[null,"Her Blessing  when you Ignite an Enemy "],
   "Gain Her Blessing for 3 seconds when you Ignite an Enemy 33% chance to Blind nearby Enemies when gaining Her Blessing":[null,"Her Blessing  when you Ignite an Enemy 33% chance to Blind nearby Enemies when gaining Her Blessing "],
   "Gain Her Embrace for 3 seconds when you Ignite an Enemy":[[{
@@ -115944,31 +115958,47 @@
       }]],
   "Spell Skills have +12% to Damage over Time Multiplier for Poison":[[{
         "flags":0,
-        "keywordFlags":1075970048,
+        "keywordFlags":1075838976,
         "name":"DotMultiplier",
         "type":"BASE",
-        "value":12
+        "value":12,
+        "1":{
+          "skillType":2,
+          "type":"SkillType"
+        }
       }]],
   "Spell Skills have +5% to Damage over Time Multiplier for Poison":[[{
         "flags":0,
-        "keywordFlags":1075970048,
+        "keywordFlags":1075838976,
         "name":"DotMultiplier",
         "type":"BASE",
-        "value":5
+        "value":5,
+        "1":{
+          "skillType":2,
+          "type":"SkillType"
+        }
       }]],
   "Spell Skills have 10% increased Area of Effect":[[{
         "flags":0,
-        "keywordFlags":131072,
+        "keywordFlags":0,
         "name":"AreaOfEffect",
         "type":"INC",
-        "value":10
+        "value":10,
+        "1":{
+          "skillType":2,
+          "type":"SkillType"
+        }
       }]],
   "Spell Skills have 20% increased Area of Effect":[[{
         "flags":0,
-        "keywordFlags":131072,
+        "keywordFlags":0,
         "name":"AreaOfEffect",
         "type":"INC",
-        "value":20
+        "value":20,
+        "1":{
+          "skillType":2,
+          "type":"SkillType"
+        }
       }]],
   "Spells Cast by Totems have 4% increased Cast Speed":[[{
         "flags":18,
@@ -120484,7 +120514,7 @@
       }]],
   "Warcries Cost +15% of Life":[[{
         "flags":0,
-        "keywordFlags":0,
+        "keywordFlags":4,
         "name":"LifeCostBase",
         "type":"BASE",
         "value":1,

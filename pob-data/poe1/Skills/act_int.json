@@ -60878,8 +60878,11 @@
       "skill_has_added_lightning_damage_equal_to_%_of_maximum_mana":[{
           "flags":0,
           "keywordFlags":0,
-          "name":"LightningMin",
-          "type":"BASE",
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"LightningMin"
+          },
           "1":{
             "percent":1,
             "stat":"Mana",
@@ -60888,8 +60891,11 @@
         },{
           "flags":0,
           "keywordFlags":0,
-          "name":"LightningMax",
-          "type":"BASE",
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"LightningMax"
+          },
           "1":{
             "percent":1,
             "stat":"Mana",
