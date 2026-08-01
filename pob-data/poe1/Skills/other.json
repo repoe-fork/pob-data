@@ -12249,6 +12249,42 @@
       "77":true
     },
     "statDescriptionScope":"minion_spell_skill_stat_descriptions",
+    "statMap":{
+      "phantasm_maximum_added_physical_damage_to_grant":[{
+          "flags":2,
+          "keywordFlags":0,
+          "name":"PhysicalMax",
+          "type":"BASE",
+          "1":{
+            "stat":"ActivePhantasmLimit",
+            "type":"PerStat"
+          },
+          "2":{
+            "allowTotemBuff":true,
+            "effectCond":"PhantasmalMight",
+            "effectName":"Phantasmal Might",
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }],
+      "phantasm_minimum_added_physical_damage_to_grant":[{
+          "flags":2,
+          "keywordFlags":0,
+          "name":"PhysicalMin",
+          "type":"BASE",
+          "1":{
+            "stat":"ActivePhantasmLimit",
+            "type":"PerStat"
+          },
+          "2":{
+            "allowTotemBuff":true,
+            "effectCond":"PhantasmalMight",
+            "effectName":"Phantasmal Might",
+            "effectType":"Buff",
+            "type":"GlobalEffect"
+          }
+        }]
+    },
     "stats":["skill_can_own_support_ghosts","skill_has_trigger_from_unique_item"]
   },
   "TriggeredSummonLesserShrine":{
