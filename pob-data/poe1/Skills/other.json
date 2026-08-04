@@ -904,6 +904,62 @@
     },
     "stats":["physical_attack_damage_taken_+_per_barkskin_stack","chance_to_evade_attacks_+%_final_per_missing_barkskin_stack"]
   },
+  "BarnacleSnap":{
+    "baseEffectiveness":1.3899999856949,
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "shieldAttack":true
+    },
+    "castTime":1,
+    "color":4,
+    "constantStats":[["base_skill_effect_duration",5000],["active_skill_base_area_of_effect_radius",18],["maximum_barnacle_count_allowed",3],["create_barnacle_on_killing_blow_with_offhand_%_chance",25],["create_barnacle_on_offhand_hit_vs_rare_unique_%_chance",25],["active_skill_area_of_effect_description_mode",10],["barnacle_snap_base_activate_rate_ms",800]],
+    "description":"Creates a giant barnacle that continually snaps at enemies, dealing off-hand area damage augmented by the defences of the shield. Increases and reductions to attack speed affect the rate at which damage occurs.",
+    "fromItem":true,
+    "hidden":true,
+    "incrementalEffectiveness":0.032999999821186,
+    "levels":{
+      "20":{
+        "attackTime":1000,
+        "cooldown":1,
+        "critChance":5,
+        "levelRequirement":0,
+        "statInterpolation":[3,3,1,1],
+        "storedUses":1,
+        "1":0.80000001192093,
+        "2":1.2000000476837,
+        "3":8,
+        "4":12
+      }
+    },
+    "name":"Savage Barnacle",
+    "notMinionStat":["off_hand_local_minimum_added_physical_damage","off_hand_local_maximum_added_physical_damage"],
+    "skillTypes":{
+      "1":true,
+      "7":true,
+      "8":true,
+      "9":true,
+      "32":true,
+      "37":true,
+      "90":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "barnacle_snap_base_activate_rate_ms":{
+        "div":1000,
+        "1":{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"SkillData",
+          "type":"LIST",
+          "value":{
+            "key":"hitTimeOverride"
+          }
+        }
+      }
+    },
+    "stats":["off_hand_local_minimum_added_physical_damage","off_hand_local_maximum_added_physical_damage","off_hand_minimum_added_physical_damage_per_15_shield_armour_and_evasion_rating","off_hand_maximum_added_physical_damage_per_15_shield_armour_and_evasion_rating","is_area_damage","this_skill_cannot_create_barnacles","skill_can_add_multiple_charges_per_action"]
+  },
   "BitingBraidNova":{
     "baseEffectiveness":2.2599999904633,
     "baseFlags":{
@@ -1203,6 +1259,37 @@
       }
     },
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","base_skill_show_average_damage_instead_of_dps"]
+  },
+  "BloodShrineUniqueTriggeredExplodingToad":{
+    "baseEffectiveness":3.5999999046326,
+    "baseFlags":{
+      "area":true,
+      "hit":true
+    },
+    "cannotBeSupported":true,
+    "castTime":1,
+    "color":4,
+    "constantStats":[["active_skill_base_area_of_effect_radius",15]],
+    "description":"A toad spawns from the corpse of the slain enemy, leaps towards enemies and explodes, dealing forty percent of the slain enemy's Life as Chaos Damage. This skill's damage is not affected by modifiers to spell damage and cannot be reflected.",
+    "fromItem":true,
+    "hidden":true,
+    "incrementalEffectiveness":0.045499999076128,
+    "levels":[{
+        "cooldown":0.15,
+        "damageEffectiveness":4,
+        "levelRequirement":72,
+        "storedUses":3
+      }],
+    "name":"Explosive Toad",
+    "skillTypes":{
+      "7":true,
+      "8":true,
+      "32":true,
+      "37":true,
+      "42":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["is_area_damage","triggered_hextoad"]
   },
   "BoneArmour":{
     "baseEffectiveness":10,
@@ -7784,6 +7871,38 @@
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["spell_minimum_base_physical_damage","spell_maximum_base_physical_damage","is_area_damage","spell_uncastable_if_triggerable"]
   },
+  "SummonAbyssalConstructs":{
+    "baseFlags":{
+      "minion":true
+    },
+    "castTime":0,
+    "color":3,
+    "constantStats":[["active_skill_base_area_of_effect_radius",44],["base_skill_effect_duration",8000]],
+    "description":"Summon two Bone Feeders which follow you around. Bone Feeders consume corpses they walk over, creating a temporary Aura after consuming 10 corpses. One Bone Feeder creates a Curse Aura of either Temporal Chains, Enfeeble or Punishment that ignores Curse Limits. The other Bone Feeder creates an Aura that causes Enemy Damage with Hits to be Unlucky.",
+    "fromTree":true,
+    "hidden":true,
+    "levels":{
+      "20":{
+        "cooldown":1,
+        "levelRequirement":1,
+        "storedUses":1
+      }
+    },
+    "minionList":["AbyssCurseBot","AbyssDebuffBot"],
+    "name":"Summon Bone Feeders",
+    "skillTypes":{
+      "2":true,
+      "5":true,
+      "6":true,
+      "32":true,
+      "37":true,
+      "50":true,
+      "77":true,
+      "117":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["cast_on_gain_skill"]
+  },
   "SummonArbalists":{
     "baseFlags":{
       "minion":true,
@@ -9188,6 +9307,47 @@
     "requireSkillTypes":[2,32,74],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["support_cast_on_mana_spent"],
+    "support":true
+  },
+  "SupportCrabTotem":{
+    "addFlags":{
+      "totem":true
+    },
+    "addSkillTypes":[14,16,26,13,131],
+    "color":1,
+    "constantStats":[["base_totem_duration",8000],["base_totem_range",60],["support_crab_totem_cast_speed_+%_final",-40],["totem_art_variation",12],["totem_placement_range_+%",-75]],
+    "excludeSkillTypes":[50,48,132],
+    "fromItem":true,
+    "hidden":true,
+    "ignoreMinionTypes":true,
+    "levels":{
+      "20":{
+        "levelRequirement":0,
+        "manaMultiplier":100,
+        "statInterpolation":[1,1],
+        "1":-50,
+        "2":70
+      }
+    },
+    "name":"Crab Totem",
+    "notMinionStat":["totem_support_gem_level"],
+    "requireSkillTypes":[2,15,74],
+    "statDescriptionScope":"gem_stat_descriptions",
+    "statMap":{
+      "support_crab_totem_cast_speed_+%_final":[{
+          "flags":16,
+          "keywordFlags":0,
+          "name":"Speed",
+          "type":"MORE"
+        }],
+      "support_crab_totem_damage_+%_final":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"Damage",
+          "type":"MORE"
+        }]
+    },
+    "stats":["support_crab_totem_damage_+%_final","totem_support_gem_level","base_skill_is_totemified","is_totem"],
     "support":true
   },
   "SupportCurseOnTrapTriggered":{

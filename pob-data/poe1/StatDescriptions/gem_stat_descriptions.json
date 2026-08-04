@@ -6314,14 +6314,22 @@
     "stats":["inflict_equivalent_chill_on_inflicting_shock_with_hits"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Chill enemies when they are Shocked by your Hits, reducing Action Speed by Shock Effect"
+        "text":"Chill enemies when they are Shocked by Hits from Supported Skills, reducing Action Speed by Shock Effect",
+        "1":{
+          "k":"reminderstring",
+          "v":"ReminderTextChill"
+        }
       }]
   },
   "424":{
     "stats":["inflict_equivalent_shock_on_inflicting_chill_with_hits"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Shock enemies when they are Chilled by your Hits, increasing Damage taken by Chill Effect"
+        "text":"Shock enemies when they are Chilled by Hits from Supported Skills, increasing Damage taken by Chill Effect",
+        "1":{
+          "k":"reminderstring",
+          "v":"ReminderTextShock"
+        }
       }]
   },
   "425":{

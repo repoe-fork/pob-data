@@ -44560,7 +44560,7 @@
       "72":true,
       "100":true
     },
-    "statDescriptionScope":"skill_stat_descriptions",
+    "statDescriptionScope":"debuff_skill_stat_descriptions",
     "statMap":{
       "hydro_sphere_base_pulse_frequency_ms":{
         "div":1000,
@@ -109412,10 +109412,10 @@
       }],
     "name":"Wintertide Brand",
     "parts":[{
+        "name":"Average Damage"
+      },{
         "name":"Manual Stages",
         "stages":true
-      },{
-        "name":"Average Damage"
       }],
     "qualityStats":[["immolation_brand_burn_damage_+%_final_per_stage",0.25]],
     "skillTypes":{
@@ -109449,7 +109449,7 @@
             "var":"WintertideBrandStage"
           },
           "2":{
-            "skillPart":1,
+            "skillPart":2,
             "type":"SkillPart"
           }
         },{

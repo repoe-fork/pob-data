@@ -7489,10 +7489,9 @@
   "SupportCrustaceousGrasp":{
     "addSkillTypes":[],
     "color":3,
-    "description":"Supports skills that hit enemies.",
+    "description":"Supports any skill that hits enemies.",
     "excludeSkillTypes":[],
     "flavourText":["Velka reached out her hand. One touch and she","folded, screaming, clawing desperately at her back","as the crustaceous gift burst itself from her spine."],
-    "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":72,
         "manaMultiplier":30,
@@ -7586,7 +7585,7 @@
       }],
     "name":"Coursing Current",
     "qualityStats":[["base_all_ailment_duration_+%",0.5]],
-    "requireSkillTypes":[7],
+    "requireSkillTypes":[1,7],
     "statDescriptionScope":"gem_stat_descriptions",
     "stats":["chill_effect_+%","shock_effect_+%","inflict_equivalent_shock_on_inflicting_chill_with_hits","inflict_equivalent_chill_on_inflicting_shock_with_hits"],
     "support":true

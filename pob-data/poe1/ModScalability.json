@@ -10723,6 +10723,9 @@
       "formats":["negate"],
       "isScalable":true
     }],
+  "#% less Damage taken while you have a Totem":[{
+      "isScalable":true
+    }],
   "#% less Damage when expending a Power Charge":[{
       "formats":["negate"],
       "isScalable":true
@@ -24145,6 +24148,11 @@
       "formats":["locations_to_metres"],
       "isScalable":true
     }],
+  "Chance for Chaos Orbs to drop as Divine Orbs instead":[],
+  "Chance for Jeweller's Orbs to drop as Chromatic Orbs instead":[],
+  "Chance for Orbs of Chance to drop as Ancient Orbs instead":[],
+  "Chance for Orbs of Scouring to drop as Orbs of Annulment instead":[],
+  "Chance for Orbs of Transmutation to drop as Chaos Orbs instead":[],
   "Chance to Block Attack Damage is Lucky":[],
   "Chance to Block Attack Damage is Unlucky":[],
   "Chance to Block Attack or Spell Damage is Lucky if you've Blocked Recently":[],
@@ -24217,6 +24225,7 @@
       "isScalable":true
     }],
   "Chaos Inoculation":[],
+  "Chaos Orbs drop as Divine Orbs instead":[],
   "Chaos Resistance is Zero":[],
   "Chaos Resistance is doubled":[],
   "Chaos Skills have #% chance to Ignite":[{
@@ -24867,177 +24876,6 @@
   "Curses you inflict are reflected back to you":[],
   "Curses you with Punishment on Kill":[],
   "Curses you with Silence when Hit":[],
-  "DNT # to all Attributes for each Keystone affecting you":[{
-      "isScalable":true
-    }],
-  "DNT #% Chance to Block Spell Damage per Minion":[{
-      "isScalable":true
-    }],
-  "DNT #% increased Area of Effect per 10 Rage":[{
-      "isScalable":true
-    }],
-  "DNT #% increased Attribute Requirements of equipped Armour":[{
-      "isScalable":true
-    }],
-  "DNT #% increased Attribute Requirements of equipped Weapons":[{
-      "isScalable":true
-    }],
-  "DNT #% increased Chance to Block Attack and Spell Damage for every 100 Life Spent Recently":[{
-      "isScalable":true
-    }],
-  "DNT #% increased Explicit Modifier Magnitudes per socketed Abyss Jewel":[{
-      "isScalable":false
-    }],
-  "DNT #% reduced Attribute Requirements of equipped Armour":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT #% reduced Attribute Requirements of equipped Weapons":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT #% reduced Chance to Block Attack and Spell Damage for every 100 Life Spent Recently":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT #% to All Resistances per Minion":[{
-      "isScalable":true
-    }],
-  "DNT #% to Critical Strike Multiplier with Unarmed Attack":[{
-      "isScalable":true
-    }],
-  "DNT #% to Global Defenses per Minion":[{
-      "isScalable":true
-    }],
-  "DNT Adds # maximum Lightning Damage\nLose one maximum Lightning Damage per level":[{
-      "isScalable":true
-    }],
-  "DNT Area contains # additional Common Chest Marker":[{
-      "isScalable":true
-    }],
-  "DNT Area contains # additional Common Chest Markers":[{
-      "isScalable":true
-    }],
-  "DNT Area contains # additional Epic Chest Marker":[{
-      "isScalable":true
-    }],
-  "DNT Area contains # additional Epic Chest Markers":[{
-      "isScalable":true
-    }],
-  "DNT Area contains # additional Uncommon Chest Marker":[{
-      "isScalable":true
-    }],
-  "DNT Area contains # additional Uncommon Chest Markers":[{
-      "isScalable":true
-    }],
-  "DNT Areas contain additional Betrayal Targets\nBetrayal Targets ambush players":[],
-  "DNT Areas contain additional Essences\nEssences contain multiple Rare Monsters with Essences":[],
-  "DNT Areas contain additional Rogue Exiles\nRogues Exiles are equipped Unique Items\nRogue Exiles drop their equipped Unique Items":[],
-  "DNT Areas contain additional packs of Beasts instead of other Monsters":[],
-  "DNT Attacks with this Weapon gain 1% of Physical Damage as Extra Fire per #% life reserved":[{
-      "isScalable":false
-    }],
-  "DNT Auras from your Allies have #% increased Effect on you":[{
-      "isScalable":true
-    }],
-  "DNT Auras from your Allies have #% reduced Effect on you":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT Bow Attacks Sacrifice #% of your Life to fire an additional Arrow for every 100 Life Sacrificed":[{
-      "isScalable":true
-    }],
-  "DNT Dropped items have #% chance to be Fractured":[{
-      "isScalable":true
-    }],
-  "DNT Energy Shield Recharge instead applies to Mana":[],
-  "DNT Every 4 seconds, Remove Elemental Ailments from you":[],
-  "DNT Every 4 seconds, remove all Curses":[],
-  "DNT Every 6 seconds:\n#% Chance to Block Attack Damage for 3 seconds\n#% Chance to Block Spell Damage for 3 seconds":[{
-      "isScalable":false
-    },{
-      "isScalable":false
-    }],
-  "DNT For each nearby Ally you and nearby Allies deal #% less Damage per nearby Ally, up to 15%":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT For each nearby Ally you and nearby Allies deal #% more Damage, up to 15%":[{
-      "isScalable":true
-    }],
-  "DNT Grants Level # Unleash Power":[{
-      "isScalable":false
-    }],
-  "DNT Hits with this Weapon deal Triple Damage if you have spent at least # seconds on a single attack recently":[{
-      "formats":["milliseconds_to_seconds"],
-      "isScalable":true
-    }],
-  "DNT Impaled Enemies Cannot be Impaled":[],
-  "DNT Impales you inflict have #% increased Effect per Impale on you":[{
-      "isScalable":true
-    }],
-  "DNT Impales you inflict have #% reduced Effect per Impale on you":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT Inflict Fire Exposure on Nearby Enemies when you reach Maximum Rage":[],
-  "DNT Killing a Burning Enemy creates a Ghostflame Soul":[],
-  "DNT Killing a Burning Enemy has a #% chance to create a Ghostflame Soul":[{
-      "isScalable":true
-    }],
-  "DNT Link Skills Cost Life instead of Mana":[],
-  "DNT Minions are Aggressive if you've Blocked Recently":[],
-  "DNT Monsters spawn Volatile Cores on death":[],
-  "DNT Nearby Allies have Onslaught":[],
-  "DNT Nearby Non-Player Allies are Shocked, taking #% increased damage\nGain a Power, Frenzy and Endurance Charge when a nearby Non-Player Ally dies":[{
-      "isScalable":true
-    }],
-  "DNT Players can be touched by Tormented Spirits":[],
-  "DNT Projectiles from your Spells have infinite speed":[],
-  "DNT Projectiles you create move at your speed":[],
-  "DNT Sirus' Meteors rain down in Area":[],
-  "DNT Socketed Gems are Supported by Level # Crustaceous Grasp":[{
-      "isScalable":false
-    }],
-  "DNT Socketed Gems are Supported by Level # Rings of Light":[{
-      "isScalable":false
-    }],
-  "DNT Trigger Ghost Furnace when you Ignite an Enemy":[],
-  "DNT Triggers Level # Violent Path when Equipped":[{
-      "isScalable":false
-    }],
-  "DNT Unarmed Attacks deal # to # added Chaos Damage for each Poison on the target, up to 100":[{
-      "isScalable":true
-    },{
-      "isScalable":true
-    }],
-  "DNT Unarmed Non-Vaal Strike Skills target # additional nearby Enemies":[{
-      "isScalable":true
-    }],
-  "DNT Unarmed Non-Vaal Strike Skills target # additional nearby Enemy":[{
-      "isScalable":true
-    }],
-  "DNT You have Feeding Frenzy if you've Blocked Recently":[],
-  "DNT You have Onslaught during Effect of any Life Flask":[],
-  "DNT Your Guard Skill Buffs take Damage for Linked Targets as well as you":[],
-  "DNT Your Minions cannot cast Spells":[],
-  "DNT Your Minions cannot use Attacks":[],
-  "DNT Your Minions have #% increased Cooldown Recovery Rate with Attacks":[{
-      "isScalable":true
-    }],
-  "DNT Your Minions have #% increased Cooldown Recovery Rate with Spells":[{
-      "isScalable":true
-    }],
-  "DNT Your Minions have #% reduced Cooldown Recovery Rate with Attacks":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT Your Minions have #% reduced Cooldown Recovery Rate with Spells":[{
-      "formats":["negate"],
-      "isScalable":true
-    }],
-  "DNT Your minions gain your chance to Suppress Spell Damage":[],
-  "DNT Your minions have no Armour or Maximum Energy Shield":[],
   "Dagger Attacks deal #% increased Damage with Ailments":[{
       "isScalable":true
     }],
@@ -25584,6 +25422,7 @@
   "Doubles bonuses to Rarity of Items Found in Memories placed on this location":[],
   "Doubles the values of Global Mods affecting Memories placed next to this Location":[],
   "Doubles the values of Memory Modifiers affecting Memories placed on this location":[],
+  "Draugurflames burn enemies around you for 8 seconds after you Ignite a target":[],
   "Dread Banner has #% increased Aura Effect":[{
       "isScalable":true
     }],
@@ -29983,6 +29822,16 @@
       "formats":["milliseconds_to_seconds_1dp"],
       "isScalable":true
     }],
+  "Intimidate you inflict applies an extra #% increased Attack Damage taken":[{
+      "isScalable":true
+    }],
+  "Intimidate you inflict causes targets to deal #% less Damage":[{
+      "formats":["negate"],
+      "isScalable":true
+    }],
+  "Intimidate you inflict causes targets to deal #% more Damage":[{
+      "isScalable":true
+    }],
   "Intimidating Cry has #% increased Area of Effect":[{
       "isScalable":true
     }],
@@ -30180,6 +30029,7 @@
     }],
   "Izaro will drop an additional Treasure Key on Death":[],
   "Izaro will drop an additional Unique Item on Death":[],
+  "Jeweller's Orbs drop as Chromatic Orbs instead":[],
   "Jewellery absorbs #% more Corruption":[{
       "isScalable":true
     }],
@@ -30202,6 +30052,10 @@
   "Killing Blows with Burning Arrow or Explosive Arrow Shatter Enemies as though Frozen":[],
   "Killing Blows with Earthquake and Earthshatter Shatter Enemies as though Frozen":[],
   "Killing Blows with Lightning Conduit and Galvanic Field Shatter Enemies as though Frozen":[],
+  "Killing a Burning Enemy creates an Allflame Soul":[],
+  "Killing a Burning Enemy has a #% chance to create an Allflame Soul":[{
+      "isScalable":true
+    }],
   "Killing a Rare Monster consumes # Petals if possible to convert dropped Items to be the same type":[{
       "isScalable":false
     }],
@@ -33093,6 +32947,9 @@
   "Orb of Storms has #% increased Cast Speed":[{
       "isScalable":true
     }],
+  "Orbs of Chance drop as Ancient Orbs instead":[],
+  "Orbs of Scouring drop as Orbs of Annulment instead":[],
+  "Orbs of Transmutation drop as Chaos Orbs instead":[],
   "Other Aegis Skills are Disabled":[],
   "Otherworldly Lure":[],
   "Overwhelm #% Physical Damage Reduction":[{
@@ -37019,6 +36876,9 @@
   "Socketed Gems are Supported by Level # Corrupting Cry":[{
       "isScalable":false
     }],
+  "Socketed Gems are Supported by Level # Coursing Current":[{
+      "isScalable":false
+    }],
   "Socketed Gems are Supported by Level # Critical Strike Affliction":[{
       "isScalable":false
     }],
@@ -39392,6 +39252,7 @@
   "Trigger Edict of Winter when Hit":[],
   "Trigger Edict of the Grave when your Skills or Minions Kill":[],
   "Trigger Edict of the Tempest on Hit":[],
+  "Trigger Ghost Furnace when you Ignite an Enemy":[],
   "Trigger Level # Assassin's Mark on Attack Critical Strike against\na Rare or Unique Enemy and you have no Mark":[{
       "isScalable":false
     }],
@@ -39690,6 +39551,9 @@
       "isScalable":false
     }],
   "Triggers Level # Summon Arbalists when Equipped":[{
+      "isScalable":false
+    }],
+  "Triggers Level # Summon Bone Feeders when Allocated":[{
       "isScalable":false
     }],
   "Triggers Level # Summon Triggerbots when Allocated":[{
@@ -40696,6 +40560,9 @@
       "isScalable":true
     }],
   "While you have at least # Hypnotic Eye Jewels socketed:":[{
+      "isScalable":true
+    }],
+  "While you have at least # Murderous Eye Jewels socketed:":[{
       "isScalable":true
     }],
   "While you have at least # Searching Eye Jewels socketed:":[{
