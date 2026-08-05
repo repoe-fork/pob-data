@@ -3468,21 +3468,6 @@
         "type":"BASE",
         "value":12
       }]],
-  "+12% to Quality of Socketed Support Gems":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"quality",
-          "keyword":"support",
-          "value":12
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
   "+12% to all Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8329,21 +8314,6 @@
         "value":{
           "key":"level",
           "keyword":"minion",
-          "value":3
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
-  "+3 to Level of Socketed Support Gems":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"GemProperty",
-        "type":"LIST",
-        "value":{
-          "key":"level",
-          "keyword":"support",
           "value":3
         },
         "1":{
@@ -13427,13 +13397,6 @@
         "type":"BASE",
         "value":350
       }]],
-  "+36% Chance to Block Attack Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BlockChance",
-        "type":"BASE",
-        "value":36
-      }]],
   "+36% Chance to Block Spell Damage while on Low Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14218,13 +14181,6 @@
           "var":"UsingFlask"
         }
       }]],
-  "+40% Chance to Block Spell Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"SpellBlockChance",
-        "type":"BASE",
-        "value":40
-      }]],
   "+40% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14675,18 +14631,6 @@
           "type":"SlotNumber"
         }
       }]],
-  "+45% Critical Strike Multiplier while there is a Rare or Unique Enemy Nearby":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritMultiplier",
-        "type":"BASE",
-        "value":45,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "varList":["NearbyRareOrUniqueEnemy","RareOrUnique"]
-        }
-      }]],
   "+45% to Chaos Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -14771,63 +14715,6 @@
         "name":"Accuracy",
         "type":"BASE",
         "value":460
-      }]],
-  "+47 to Dexterity and Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Dex",
-        "type":"BASE",
-        "value":47
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Int",
-        "type":"BASE",
-        "value":47
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DexInt",
-        "type":"BASE",
-        "value":47
-      }]],
-  "+47 to Strength and Dexterity":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
-        "type":"BASE",
-        "value":47
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Dex",
-        "type":"BASE",
-        "value":47
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"StrDex",
-        "type":"BASE",
-        "value":47
-      }]],
-  "+47 to Strength and Intelligence":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Str",
-        "type":"BASE",
-        "value":47
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Int",
-        "type":"BASE",
-        "value":47
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"StrInt",
-        "type":"BASE",
-        "value":47
       }]],
   "+47 to maximum Mana":[[{
         "flags":0,
@@ -15506,13 +15393,6 @@
         "type":"BASE",
         "value":50
       }]],
-  "+50% Chance to Block Attack Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BlockChance",
-        "type":"BASE",
-        "value":50
-      }]],
   "+50% Chance to Block Attack Damage during Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -15941,13 +15821,6 @@
           "var":"AffectedByHeraldofThunder"
         }
       }]],
-  "+579 to Accuracy Rating":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Accuracy",
-        "type":"BASE",
-        "value":579
-      }]],
   "+58 to Dexterity":[[{
         "flags":0,
         "keywordFlags":0,
@@ -16347,18 +16220,6 @@
         "value":60
       }]],
   "+60% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritMultiplier",
-        "type":"BASE",
-        "value":60,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "varList":["NearbyRareOrUniqueEnemy","RareOrUnique"]
-        }
-      }]],
-  "+60% Critical Strike Multiplier while there is a Rare or Unique Enemy Nearby":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"CritMultiplier",
@@ -17390,20 +17251,6 @@
           "var":"CriticalStrike"
         }
       }]],
-  "+80% to Fire Damage over Time Multiplier":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDotMultiplier",
-        "type":"BASE",
-        "value":80
-      }]],
-  "+80% to Physical Damage over Time Multiplier":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDotMultiplier",
-        "type":"BASE",
-        "value":80
-      }]],
   "+800 Armour if you've Blocked Recently":[[{
         "flags":0,
         "keywordFlags":0,
@@ -17738,18 +17585,6 @@
         "name":"Life",
         "type":"BASE",
         "value":99
-      }]],
-  "+99% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritMultiplier",
-        "type":"BASE",
-        "value":99,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "varList":["NearbyRareOrUniqueEnemy","RareOrUnique"]
-        }
       }]],
   "-1 Fire Damage taken from Hits per Mana Burn":[[{
         "flags":0,
@@ -22796,18 +22631,6 @@
           "triggered":true
         }
       }]],
-  "10% chance to Trigger Level 1 Blood Rage when you Kill an Enemy":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":1,
-          "skillId":"BloodRage",
-          "triggerChance":10,
-          "triggered":true
-        }
-      }]],
   "10% chance to Trigger Level 10 Summon Raging Spirit on Kill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -27388,13 +27211,6 @@
           "var":"SoulGainPrevention"
         }
       }]],
-  "12% chance to deal Double Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DoubleDamageChance",
-        "type":"BASE",
-        "value":12
-      }]],
   "12% chance to deal Double Damage while using Pride":[[{
         "flags":0,
         "keywordFlags":0,
@@ -29382,39 +29198,6 @@
           "var":"ConsumedCorpseRecently"
         }
       }]],
-  "14% increased Damage per Endurance Charge":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":14,
-        "1":{
-          "type":"Multiplier",
-          "var":"EnduranceCharge"
-        }
-      }]],
-  "14% increased Damage per Frenzy Charge":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":14,
-        "1":{
-          "type":"Multiplier",
-          "var":"FrenzyCharge"
-        }
-      }]],
-  "14% increased Damage per Power Charge":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":14,
-        "1":{
-          "type":"Multiplier",
-          "var":"PowerCharge"
-        }
-      }]],
   "14% increased Damage while wielding a Wand":[[{
         "flags":0,
         "keywordFlags":0,
@@ -29722,13 +29505,6 @@
         "name":"PhysicalDamage",
         "type":"INC",
         "value":146
-      }]],
-  "148% increased Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":148
       }]],
   "15 to 289 Added Lightning Damage with Wand Attacks":[[{
         "flags":8388612,
@@ -33824,13 +33600,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ChaosDamage",
-        "type":"INC",
-        "value":197
-      }]],
-  "197% increased Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
         "type":"INC",
         "value":197
       }]],
@@ -38709,31 +38478,12 @@
         "type":"BASE",
         "value":22
       }]],
-  "22% chance to deal Double Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DoubleDamageChance",
-        "type":"BASE",
-        "value":22
-      }]],
   "22% increased Attack Speed":[[{
         "flags":1,
         "keywordFlags":0,
         "name":"Speed",
         "type":"INC",
         "value":22
-      }]],
-  "22% increased Attack Speed while a Rare or Unique Enemy is Nearby":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":22,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "varList":["NearbyRareOrUniqueEnemy","RareOrUnique"]
-        }
       }]],
   "22% increased Cast Speed":[[{
         "flags":16,
@@ -38951,41 +38701,6 @@
         "name":"PhysicalDamage",
         "type":"INC",
         "value":225
-      }]],
-  "227% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamage",
-        "type":"INC",
-        "value":227
-      }]],
-  "229% increased Cold Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ColdDamage",
-        "type":"INC",
-        "value":229
-      }]],
-  "229% increased Fire Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FireDamage",
-        "type":"INC",
-        "value":229
-      }]],
-  "229% increased Lightning Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LightningDamage",
-        "type":"INC",
-        "value":229
-      }]],
-  "229% increased Spell Damage":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"Damage",
-        "type":"INC",
-        "value":229
       }]],
   "23% chance to Avoid Elemental Ailments":[[{
         "flags":0,
@@ -41951,17 +41666,6 @@
         "name":"EffectOfBonusesFromQuiver",
         "type":"INC",
         "value":250
-      }]],
-  "26% chance to gain Arcane Surge when you Kill an Enemy":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Condition:ArcaneSurge",
-        "type":"FLAG",
-        "value":true,
-        "1":{
-          "type":"Condition",
-          "var":"KilledRecently"
-        }
       }]],
   "26% increased Attack Speed":[[{
         "flags":1,
@@ -47189,17 +46893,6 @@
         "type":"INC",
         "value":350
       }]],
-  "36% chance to deal Double Damage while Focused":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DoubleDamageChance",
-        "type":"BASE",
-        "value":36,
-        "1":{
-          "type":"Condition",
-          "var":"Focused"
-        }
-      }]],
   "36% increased Attack Speed during any Flask Effect":[[{
         "flags":1,
         "keywordFlags":0,
@@ -48032,7 +47725,6 @@
         "type":"BASE",
         "value":40
       }]," for  to count as being 90% against Enemy Hits "],
-  "40% chance to Blind Enemies on hit":[[]," to Blind Enemies  "],
   "40% chance to Chill Attackers for 4 seconds on Block":[[]," to Chill Attackers  on Block "],
   "40% chance to Chill Attackers for 4 seconds on Block 40% chance to Shock Attackers for 4 seconds on Block":[[{
         "flags":0,
@@ -48055,20 +47747,6 @@
         "type":"BASE",
         "value":40
       }]],
-  "40% chance to Impale Enemies on Hit with Attacks":[[{
-        "flags":0,
-        "keywordFlags":65536,
-        "name":"ImpaleChance",
-        "type":"BASE",
-        "value":40
-      }]],
-  "40% chance to Poison on Hit":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PoisonChance",
-        "type":"BASE",
-        "value":40
-      }]],
   "40% chance to Shock":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48082,13 +47760,6 @@
         "name":"ShockBase",
         "type":"BASE",
         "value":15
-      }]],
-  "40% chance to cause Bleeding on Hit":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BleedChance",
-        "type":"BASE",
-        "value":40
       }]],
   "40% chance to deal Double Damage while Focused":[[{
         "flags":0,
@@ -52014,22 +51685,6 @@
         "value":50
       }]],
   "50% chance to Maim Enemies on Critical Strike with Attacks":[[]," to Maim Enemies  "],
-  "50% chance to Maim Enemies on Critical Strike with Attacks +45% Critical Strike Multiplier while there is a Rare or Unique Enemy Nearby":[[{
-        "flags":0,
-        "keywordFlags":65536,
-        "name":"CritMultiplier",
-        "type":"BASE",
-        "value":50,
-        "1":{
-          "type":"Condition",
-          "var":"CriticalStrike"
-        },
-        "2":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "varList":["NearbyRareOrUniqueEnemy","RareOrUnique"]
-        }
-      }]," to Maim Enemies  +45%   "],
   "50% chance to Sap Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52310,18 +51965,6 @@
           "var":"LowLife"
         }
       }]],
-  "50% increased Attack Speed while a Rare or Unique Enemy is Nearby":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":50,
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "varList":["NearbyRareOrUniqueEnemy","RareOrUnique"]
-        }
-      }]],
   "50% increased Block Recovery":[[{
         "flags":0,
         "keywordFlags":0,
@@ -52333,13 +51976,6 @@
         "flags":0,
         "keywordFlags":134217728,
         "name":"FireDamage",
-        "type":"INC",
-        "value":50
-      }]],
-  "50% increased Cast Speed":[[{
-        "flags":16,
-        "keywordFlags":0,
-        "name":"Speed",
         "type":"INC",
         "value":50
       }]],
@@ -54215,13 +53851,6 @@
         "name":"ManaRegen",
         "type":"INC",
         "value":51
-      }]],
-  "52% increased Critical Strike Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
-        "value":52
       }]],
   "52% increased Mana Regeneration Rate":[[{
         "flags":0,
@@ -56144,38 +55773,6 @@
         "type":"INC",
         "value":650
       }]],
-  "66% chance to Freeze":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyFreezeChance",
-        "type":"BASE",
-        "value":66
-      }]],
-  "66% chance to Ignite":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyIgniteChance",
-        "type":"BASE",
-        "value":66
-      }]],
-  "66% chance to Shock":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"EnemyShockChance",
-        "type":"BASE",
-        "value":66
-      }]],
-  "66% chance to deal Double Damage while Focused":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"DoubleDamageChance",
-        "type":"BASE",
-        "value":66,
-        "1":{
-          "type":"Condition",
-          "var":"Focused"
-        }
-      }]],
   "66% increased Critical Strike Chance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -56193,13 +55790,6 @@
           "skillType":52,
           "type":"SkillType"
         }
-      }]],
-  "66% increased Mana Regeneration Rate":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ManaRegen",
-        "type":"INC",
-        "value":66
       }]],
   "66% increased Mana Reservation Efficiency of Herald Skills":[[{
         "flags":0,
@@ -74619,21 +74209,6 @@
           "type":"SkillType"
         }
       }]],
-  "Attacks with this Weapon Penetrate 26% Elemental Resistances":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ElementalPenetration",
-        "type":"BASE",
-        "value":26,
-        "1":{
-          "type":"Condition",
-          "var":"{Hand}Attack"
-        },
-        "2":{
-          "skillType":1,
-          "type":"SkillType"
-        }
-      }]],
   "Attacks with this Weapon Penetrate 30% Elemental Resistances":[[{
         "flags":0,
         "keywordFlags":0,
@@ -78003,7 +77578,13 @@
           }
         }
       }],"Cannot have s other than Summoned Spectral Wolves   "],
-  "Cannot have non-Abyssal sockets":[null,"Cannot have non-Abyssal sockets "],
+  "Cannot have non-Abyssal sockets":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"NoSockets",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Cannot inflict Freeze or Chill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -83822,24 +83403,6 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Enemies you Kill have a 35% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExplodeMod",
-        "type":"LIST",
-        "value":{
-          "amount":25,
-          "chance":0.35,
-          "keyOfScaledMod":"chance",
-          "type":"Chaos"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"CanExplode",
-        "type":"FLAG",
-        "value":true
-      }]],
   "Enemies you Kill that are affected by Elemental Ailments":[null,"Enemies you Kill that are affected by Elemental Ailments "],
   "Enemies you Kill that are affected by Elemental Ailments grant 100% increased Flask Charges":[null,"Enemies you Kill that are affected by Elemental Ailments grant 100% increased Flask Charges "],
   "Enemies you Kill that are affected by Elemental Ailments grant 40% increased Flask Charges":[null,"Enemies you Kill that are affected by Elemental Ailments grant 40% increased Flask Charges "],
@@ -85997,13 +85560,6 @@
         "name":"LifeOnKill",
         "type":"BASE",
         "value":150
-      }]],
-  "Gain 17% of Non-Chaos Damage as extra Chaos Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"NonChaosDamageGainAsChaos",
-        "type":"BASE",
-        "value":17
       }]],
   "Gain 18 Energy Shield for each Enemy you Hit which is affected by a Spider's Web":[[{
         "flags":4,
@@ -88527,8 +88083,13 @@
   "Gains no Charges during Effect Taunts nearby Enemies on use":[null,"Gains no Charges during Effect Taunts nearby Enemies on use "],
   "Gains no Charges during Effect of any Overflowing Chalice Flask":[null,"Gains no Charges during Effect of any Overflowing Chalice Flask "],
   "Gains no Charges during Effect of any Soul Ripper Flask":[null,"Gains no Charges during Effect of any Soul Ripper Flask "],
-  "Gems Socketed always have the Quality bonus from Socket Colour":[null,"Gems Socketed always have the Quality bonus from Socket Colour "],
-  "Gems Socketed always have the Quality bonus from Socket Colour Has no Attribute Requirements":[null,"Gems Socketed always have the Quality bonus from Socket Colour Has no Attribute Requirements "],
+  "Gems Socketed always have the Quality bonus from Socket Colour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SocketAlwaysMatches",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Gems Socketed in Blue Sockets gain 100% increased Experience":[null,"Gems Socketed in Blue Sockets gain 100% increased Experience "],
   "Gems Socketed in Blue Sockets gain 100% increased Experience Gems Socketed always have the Quality bonus from Socket Colour":[null,"Gems Socketed in Blue Sockets gain 100% increased Experience Gems Socketed always have the Quality bonus from Socket Colour "],
   "Gems Socketed in Blue Sockets gain 25% increased Experience":[null,"Gems Socketed in Blue Sockets gain 25% increased Experience "],
@@ -97114,21 +96675,6 @@
           }
         }
       }]],
-  "Minions deal 96% increased Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"INC",
-            "value":96
-          }
-        }
-      }]],
   "Minions deal no Non-Cold Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -98647,6 +98193,21 @@
           }
         }
       }]],
+  "Minions have 23% increased Movement Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MinionModifier",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"MovementSpeed",
+            "type":"INC",
+            "value":23
+          }
+        }
+      }]],
   "Minions have 25% chance to gain Unholy Might for 4 seconds on Kill":[[{
         "flags":0,
         "keywordFlags":0,
@@ -98708,36 +98269,6 @@
             "name":"Life",
             "type":"INC",
             "value":25
-          }
-        }
-      }]],
-  "Minions have 28% increased Attack Speed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":1,
-            "keywordFlags":0,
-            "name":"Speed",
-            "type":"INC",
-            "value":28
-          }
-        }
-      }]],
-  "Minions have 28% increased Cast Speed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":16,
-            "keywordFlags":0,
-            "name":"Speed",
-            "type":"INC",
-            "value":28
           }
         }
       }]],
@@ -99248,36 +98779,6 @@
           }
         }
       }]],
-  "Minions have 63% increased Attack Speed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":1,
-            "keywordFlags":0,
-            "name":"Speed",
-            "type":"INC",
-            "value":63
-          }
-        }
-      }]],
-  "Minions have 63% increased Cast Speed":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":16,
-            "keywordFlags":0,
-            "name":"Speed",
-            "type":"INC",
-            "value":63
-          }
-        }
-      }]],
   "Minions have 65% increased Flask Effect Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -99543,21 +99044,6 @@
             "name":"MovementSpeed",
             "type":"INC",
             "value":90
-          }
-        }
-      }]],
-  "Minions have 96% increased maximum Life":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Life",
-            "type":"INC",
-            "value":96
           }
         }
       }]],
@@ -101346,6 +100832,14 @@
           "type":"SkillType"
         }
       }]],
+  "Non-Spectre Minions' Base Attack time is equal to":[null,"Non-Spectre Minions' Base Attack time is equal to "],
+  "Non-Spectre Minions' Base Attack time is equal to the Attack time of your Main Hand Weapon":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"NonSpectreMinionsUseParentMainHandAttackTime",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Non-Travel Attack Skills Repeat an additional Time":[[{
         "flags":0,
         "keywordFlags":65536,
@@ -101515,8 +101009,7 @@
           "type":"SkillType"
         }
       }]],
-  "One modifier from Consumed Jewels will be retained":[null,"One modifier from Consumed Jewels will be retained "],
-  "One modifier from Consumed Jewels will be retained Cannot have non-Abyssal sockets":[null,"One modifier from Consumed Jewels will be retained Cannot have non-Abyssal sockets "],
+  "One modifier from Consumed Jewels will be retained":[[]],
   "Only affects Passives in Large Ring":[[{
         "flags":0,
         "keywordFlags":0,
@@ -116710,8 +116203,7 @@
           "type":"SocketedIn"
         }
       }]],
-  "Socketed Rare Abyssal Jewels will be Consumed":[null,"Socketed Rare Abyssal Jewels will be Consumed "],
-  "Socketed Rare Abyssal Jewels will be Consumed One modifier from Consumed Jewels will be retained":[null,"Socketed Rare Abyssal Jewels will be Consumed One modifier from Consumed Jewels will be retained "],
+  "Socketed Rare Abyssal Jewels will be Consumed":[[]],
   "Socketed Red Gems get 10% Physical Damage as Extra Fire Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -117152,8 +116644,6 @@
           "type":"SkillType"
         }
       }]],
-  "Spells Triggered this way have 150% more Cost":[null,"Spells Triggered this way have 150% more Cost "],
-  "Spells Triggered this way have 150% more Cost +28% to Fire Damage over Time Multiplier":[[],"Spells Triggered this way have 150% more % to Fire Damage over Time Multiplier "],
   "Spells cast by Totems deal 25% increased Damage":[[{
         "flags":2,
         "keywordFlags":16384,
@@ -120629,34 +120119,6 @@
         "value":{
           "level":1,
           "skillId":"SupportUniqueVirulenceSpellsCastOnBlock"
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
-  "Trigger a Socketed Spell when you Use a Skill, with a 4 second Cooldown":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSupport",
-        "type":"LIST",
-        "value":{
-          "level":1,
-          "skillId":"SupportTriggerSpellOnSkillUse"
-        },
-        "1":{
-          "slotName":"{SlotName}",
-          "type":"SocketedIn"
-        }
-      }]],
-  "Trigger a Socketed Spell when you Use a Skill, with a 8 second Cooldown":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSupport",
-        "type":"LIST",
-        "value":{
-          "level":1,
-          "skillId":"SupportTriggerSpellOnSkillUse"
         },
         "1":{
           "slotName":"{SlotName}",
