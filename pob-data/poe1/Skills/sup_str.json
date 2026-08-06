@@ -9459,7 +9459,7 @@
     "color":1,
     "constantStats":[["support_ancestral_slam_big_hit_max_count",1]],
     "description":"Supports slam skills, providing a powerful boost when they're used, with a delay before they can be boosted again. Cannot support Vaal skills or triggered skills. Cannot modify the skills of minions. Only skills you use yourself can receive the boost.",
-    "excludeSkillTypes":[26,33,36,95,38],
+    "excludeSkillTypes":[26,33,36,95,38,37],
     "ignoreMinionTypes":true,
     "levels":[{
         "levelRequirement":38,
@@ -15977,7 +15977,7 @@
     "color":1,
     "constantStats":[["support_ruthless_big_hit_max_count",3],["support_ruthless_big_hit_stun_base_duration_override_ms",800]],
     "description":"Supports melee strike or slam skills. Every third time you use a supported attack, that use of the skill will be more powerful.",
-    "excludeSkillTypes":[48,54],
+    "excludeSkillTypes":[48,54,37],
     "levels":[{
         "levelRequirement":1,
         "manaMultiplier":20,

@@ -160,60 +160,6 @@
   "+(9-14)% to Cold Resistance":[null,"+(9-14)% to Cold Resistance "],
   "+(9-14)% to Fire Resistance":[null,"+(9-14)% to Fire Resistance "],
   "+(9-14)% to Lightning Resistance":[null,"+(9-14)% to Lightning Resistance "],
-  "+0 metres to Melee Strike Range":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":0
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0 metres to Melee Strike Range per White Socket":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":0,
-        "1":{
-          "type":"Multiplier",
-          "var":"WhiteSocketIn{SlotName}"
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":0,
-        "1":{
-          "type":"Multiplier",
-          "var":"WhiteSocketIn{SlotName}"
-        }
-      }]],
-  "+0 metres to Melee Strike Range with Unarmed Attacks":[[{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":0
-      },{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":0
-      }]],
-  "+0 metres to Weapon Range":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WeaponRangeMetre",
-        "type":"BASE",
-        "value":0
-      }]],
   "+0.1 metres to Melee Strike Range":[[{
         "flags":0,
         "keywordFlags":0,
@@ -273,6 +219,27 @@
         "type":"BASE",
         "value":0.2
       }]],
+  "+0.2 metres to Melee Strike Range per White Socket":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.2,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.2,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
+      }]],
   "+0.2 metres to Melee Strike Range while Holding a Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -293,6 +260,13 @@
           "type":"Condition",
           "varList":["UsingShield"]
         }
+      }]],
+  "+0.2 metres to Weapon Range":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WeaponRangeMetre",
+        "type":"BASE",
+        "value":0.2
       }]],
   "+0.2% to Off Hand Critical Strike Chance per 10 Maximum Energy Shield on Shield":[[{
         "flags":0,
@@ -326,6 +300,27 @@
         "name":"UnarmedRangeMetre",
         "type":"BASE",
         "value":0.3
+      }]],
+  "+0.3 metres to Melee Strike Range per White Socket":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.3,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.3,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
       }]],
   "+0.3 metres to Melee Strike Range with Swords":[[{
         "flags":4194308,
@@ -386,6 +381,32 @@
           "type":"MultiplierThreshold",
           "var":"NearbyEnemies"
         }
+      }]],
+  "+0.4 metres to Melee Strike Range with Unarmed Attacks":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.4
+      },{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.4
+      }]],
+  "+0.7 metres to Melee Strike Range with Unarmed Attacks":[[{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"MeleeWeaponRangeMetre",
+        "type":"BASE",
+        "value":0.7
+      },{
+        "flags":16777220,
+        "keywordFlags":0,
+        "name":"UnarmedRangeMetre",
+        "type":"BASE",
+        "value":0.7
       }]],
   "+0.75% to Critical Strike Chance":[[{
         "flags":0,
@@ -495,26 +516,6 @@
           "stat":"Str",
           "type":"PerStat"
         }
-      }]],
-  "+1 metres to Melee Strike Range with Unarmed Attacks":[[{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"MeleeWeaponRangeMetre",
-        "type":"BASE",
-        "value":1
-      },{
-        "flags":16777220,
-        "keywordFlags":0,
-        "name":"UnarmedRangeMetre",
-        "type":"BASE",
-        "value":1
-      }]],
-  "+1 metres to Weapon Range":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"WeaponRangeMetre",
-        "type":"BASE",
-        "value":1
       }]],
   "+1 second to Summon Skeleton Cooldown":[[]," second to Summon  Cooldown "],
   "+1 to Level of Socketed Aura Gems":[[{
@@ -1880,6 +1881,13 @@
           "type":"Condition",
           "var":"AffectedByHeraldofThunder"
         }
+      }]],
+  "+1.0 metres to Weapon Range":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WeaponRangeMetre",
+        "type":"BASE",
+        "value":1
       }]],
   "+1.5% to Spell Critical Strike Chance if 4 Shaper Items are Equipped":[[{
         "flags":2,
@@ -75970,8 +75978,8 @@
         "type":"BASE",
         "value":20,
         "1":{
-          "limit":40,
-          "limitTotal":true,
+          "globalLimit":40,
+          "globalLimitKey":"ChipAway",
           "type":"Multiplier",
           "var":"ActiveBrand"
         },
@@ -76040,8 +76048,8 @@
         "type":"INC",
         "value":4,
         "1":{
-          "limit":40,
-          "limitTotal":true,
+          "globalLimit":40,
+          "globalLimitKey":"ChipAway",
           "type":"Multiplier",
           "var":"ActiveBrand"
         },
@@ -76232,6 +76240,7 @@
   "Can Allocate Passives from the Witch's starting point":[[]],
   "Can Consume 4 Uncorrupted Support Gems":[null,"Can Consume 4 Uncorrupted Support Gems "],
   "Can Consume 4 Uncorrupted Support Gems Has not Consumed any Gems":[null,"Can Consume 4 Uncorrupted Support Gems Has not Consumed any Gems "],
+  "Can be Allflame Crafted as if Rare":[[]],
   "Can be Enchanted by a Kalguuran Runesmith":[null,"Can be Enchanted by a Kalguuran Runesmith "],
   "Can be Enchanted by a Kalguuran Runesmith Can have 2 additional Runesmithing Enchantments":[null,"Can be Enchanted by a Kalguuran Runesmith Can have 2 additional Runesmithing Enchantments "],
   "Can be Runesmithed as though it were all One Handed Melee Weapon Types":[null,"Can be Runesmithed as though it were all One Handed Melee Weapon Types "],
@@ -77035,6 +77044,7 @@
         "type":"FLAG",
         "value":true
       }]],
+  "Cannot gain Intangibility":[[]],
   "Cannot gain Life during effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -84652,8 +84662,8 @@
         }
       }]],
   "Freezes you inflict spread to other Enemies within 1.2 metres":[null,"Freezes you inflict spread to other Enemies within 1.2 metres "],
+  "Freezes you inflict spread to other Enemies within 1.5 metres":[null,"Freezes you inflict spread to other Enemies within 1.5 metres "],
   "Freezes you inflict spread to other Enemies within 1.5 metres 60% increased Damage if you've Frozen an Enemy Recently":[null,"Freezes you inflict spread to other Enemies within 1.5 metres 60% increased Damage if you've Frozen an Enemy Recently "],
-  "Freezes you inflict spread to other Enemies within 2 metres":[null,"Freezes you inflict spread to other Enemies within 2 metres "],
   "Frenzy or Power Charge":[null,"or Power Charge "],
   "Frostbite can affect Hexproof Enemies":[[{
         "flags":0,
@@ -91864,12 +91874,12 @@
         "type":"INC",
         "value":8
       }]],
+  "Ignites you inflict during Effect spread to other Enemies within 1.5 metres":[null,"Ignites you inflict during Effect spread to other Enemies within 1.5 metres "],
   "Ignites you inflict during Effect spread to other Enemies within 1.5 metres Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect":[null,"Ignites you inflict during Effect spread to other Enemies within 1.5 metres Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect "],
-  "Ignites you inflict during Effect spread to other Enemies within 2 metres":[null,"Ignites you inflict during Effect spread to other Enemies within 2 metres "],
-  "Ignites you inflict spread to other Enemies within 1 metres":[null,"Ignites you inflict spread to other Enemies within 1 metres "],
+  "Ignites you inflict spread to other Enemies within 1.2 metres":[null,"Ignites you inflict spread to other Enemies within 1.2 metres "],
   "Ignites you inflict spread to other Enemies within 1.2 metres Ignites you inflict spread to other Enemies within 1.5 metres":[null,"Ignites you inflict spread to other Enemies within 1.2 metres Ignites you inflict spread to other Enemies within 1.5 metres "],
+  "Ignites you inflict spread to other Enemies within 1.5 metres":[null,"Ignites you inflict spread to other Enemies within 1.5 metres "],
   "Ignites you inflict spread to other Enemies within 1.5 metres Recover 60 Life when you Ignite an Enemy":[null,"Ignites you inflict spread to other Enemies within 1.5 metres Recover 60 Life when you Ignite an Enemy "],
-  "Ignites you inflict spread to other Enemies within 2 metres":[null,"Ignites you inflict spread to other Enemies within 2 metres "],
   "Ignites you inflict spread to other Enemies within a Radius of 1.5 metres":[null,"Ignites you inflict spread to other Enemies within a Radius of 1.5 metres "],
   "Ignites you inflict with Attacks deal Damage 20% faster":[[{
         "flags":1,
@@ -91885,8 +91895,8 @@
         "type":"INC",
         "value":35
       }]],
+  "Ignites you inflict with this weapon spread to other Enemies within 2.8 metres":[null,"Ignites you inflict with this weapon spread to other Enemies within 2.8 metres "],
   "Ignites you inflict with this weapon spread to other Enemies within 2.8 metres Unaffected by Ignite":[null,"Ignites you inflict with this weapon spread to other Enemies within 2.8 metres Unaffected by Ignite "],
-  "Ignites you inflict with this weapon spread to other Enemies within 3 metres":[null,"Ignites you inflict with this weapon spread to other Enemies within 3 metres "],
   "Ignore Attribute Requirements":[[{
         "flags":0,
         "keywordFlags":0,
@@ -99282,8 +99292,8 @@
         }
       }]],
   "Monsters cannot Suppress your Spells":[null,"Monsters cannot Suppress your Spells "],
-  "Monsters cannot steal your Power, Frenzy or Endurance charges on Hit":[null,"Monsters cannot steal your Power, Frenzy or Endurance charges on Hit "],
-  "Monsters cannot steal your Power, Frenzy or Endurance charges on Hit Monsters cannot Suppress your Spells":[null,"Monsters cannot steal your Power, Frenzy or Endurance charges on Hit Monsters cannot Suppress your Spells "],
+  "Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit":[null,"Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit "],
+  "Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit Monsters cannot Suppress your Spells":[null,"Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit Monsters cannot Suppress your Spells "],
   "Movement Speed cannot be modified to below Base Value":[[{
         "flags":0,
         "keywordFlags":0,
@@ -107641,7 +107651,6 @@
       }]],
   "Shocks you cause are reflected back to you":[null,"Shocks you cause are reflected back to you "],
   "Shocks you cause are reflected back to you 60% increased Damage while Shocked":[null,"Shocks you cause are reflected back to you 60% increased Damage while Shocked "],
-  "Shocks you inflict during Effect spread to other Enemies within 2 metres":[null,"Shocks you inflict during Effect spread to other Enemies within 2 metres "],
   "Shocks you inflict during Effect spread to other Enemies within 2 metres Adds 35 to 130 Lightning Damage to Attacks during Effect":[[{
         "flags":0,
         "keywordFlags":65536,
@@ -107671,6 +107680,7 @@
           "var":"UsingFlask"
         }
       }],"Shocks you inflict  spread to other Enemies within 2 metres   "],
+  "Shocks you inflict during Effect spread to other Enemies within 2.0 metres":[null,"Shocks you inflict during Effect spread to other Enemies within 2.0 metres "],
   "Shocks you inflict spread to other Enemies within 1 metre":[null,"Shocks you inflict spread to other Enemies within 1 metre "],
   "Shocks you inflict spread to other Enemies within 1.5 metres":[null,"Shocks you inflict spread to other Enemies within 1.5 metres "],
   "Shocks you inflict spread to other Enemies within 1.5 metres Adds 1 to 10 Lightning Damage for each Shocked Enemy you've Killed Recently":[[{
@@ -120748,7 +120758,7 @@
         }
       }]],
   "Unaffected by Shocked Ground":[null,"Unaffected by Shocked Ground "],
-  "Unaffected by Shocked Ground Monsters cannot steal your Power, Frenzy or Endurance charges on Hit":[null,"Unaffected by Shocked Ground Monsters cannot steal your Power, Frenzy or Endurance charges on Hit "],
+  "Unaffected by Shocked Ground Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit":[null,"Unaffected by Shocked Ground Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit "],
   "Unaffected by Shocked Ground while affected by Purity of Lightning":[null,"Unaffected by Shocked Ground while affected by Purity of Lightning "],
   "Unaffected by Shocked Ground while affected by Purity of Lightning 1.5% of Damage leeched as Life while affected by Vitality":[null,"Unaffected by Shocked Ground while affected by Purity of Lightning 1.5% of Damage leeched as Life while affected by Vitality "],
   "Unaffected by Shocked Ground while affected by Purity of Lightning 2% of Damage leeched as Life while affected by Vitality":[null,"Unaffected by Shocked Ground while affected by Purity of Lightning 2% of Damage leeched as Life while affected by Vitality "],

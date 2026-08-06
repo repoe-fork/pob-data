@@ -2836,6 +2836,7 @@
     "baseFlags":{
       "area":true,
       "attack":true,
+      "forceSourceWeapon":true,
       "melee":true
     },
     "castTime":1,
@@ -3390,6 +3391,273 @@
     },
     "statDescriptionScope":"skill_stat_descriptions",
     "stats":["base_deal_no_damage"]
+  },
+  "GhostCannons":{
+    "baseFlags":{
+      "area":true,
+      "attack":true,
+      "forceSourceWeapon":true,
+      "projectile":true
+    },
+    "castTime":1,
+    "color":2,
+    "constantStats":[["skill_physical_damage_%_to_convert_to_fire",50],["active_skill_additional_projectiles_fire_parallel_x_dist",60],["base_number_of_projectiles",1],["active_skill_base_area_of_effect_radius",2],["triggered_ghost_cannons_base_number_of_cannons_to_fire",6]],
+    "description":"Manifest a row of Ghostly Cannons, each of which then fires after a short delay dealing the damage of the weapon that triggered it. For each additional projectile this skill would fire, create an additional Ghostly Cannon instead.",
+    "fromItem":true,
+    "hidden":true,
+    "levels":[{
+        "cooldown":0.15,
+        "levelRequirement":12,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.032,
+        "cooldown":0.15,
+        "damageEffectiveness":1.032,
+        "levelRequirement":15,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.063,
+        "cooldown":0.15,
+        "damageEffectiveness":1.063,
+        "levelRequirement":19,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.095,
+        "cooldown":0.15,
+        "damageEffectiveness":1.095,
+        "levelRequirement":23,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.126,
+        "cooldown":0.15,
+        "damageEffectiveness":1.126,
+        "levelRequirement":27,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.158,
+        "cooldown":0.15,
+        "damageEffectiveness":1.158,
+        "levelRequirement":31,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.189,
+        "cooldown":0.15,
+        "damageEffectiveness":1.189,
+        "levelRequirement":35,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.221,
+        "cooldown":0.15,
+        "damageEffectiveness":1.221,
+        "levelRequirement":38,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.253,
+        "cooldown":0.15,
+        "damageEffectiveness":1.253,
+        "levelRequirement":41,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.284,
+        "cooldown":0.15,
+        "damageEffectiveness":1.284,
+        "levelRequirement":44,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.316,
+        "cooldown":0.15,
+        "damageEffectiveness":1.316,
+        "levelRequirement":47,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.347,
+        "cooldown":0.15,
+        "damageEffectiveness":1.347,
+        "levelRequirement":50,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.379,
+        "cooldown":0.15,
+        "damageEffectiveness":1.379,
+        "levelRequirement":53,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.411,
+        "cooldown":0.15,
+        "damageEffectiveness":1.411,
+        "levelRequirement":56,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.442,
+        "cooldown":0.15,
+        "damageEffectiveness":1.442,
+        "levelRequirement":59,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.474,
+        "cooldown":0.15,
+        "damageEffectiveness":1.474,
+        "levelRequirement":62,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.505,
+        "cooldown":0.15,
+        "damageEffectiveness":1.505,
+        "levelRequirement":64,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.537,
+        "cooldown":0.15,
+        "damageEffectiveness":1.537,
+        "levelRequirement":66,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.568,
+        "cooldown":0.15,
+        "damageEffectiveness":1.568,
+        "levelRequirement":68,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.6,
+        "cooldown":0.15,
+        "damageEffectiveness":1.6,
+        "levelRequirement":70,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.632,
+        "cooldown":0.15,
+        "damageEffectiveness":1.632,
+        "levelRequirement":72,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.663,
+        "cooldown":0.15,
+        "damageEffectiveness":1.663,
+        "levelRequirement":74,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.695,
+        "cooldown":0.15,
+        "damageEffectiveness":1.695,
+        "levelRequirement":76,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.726,
+        "cooldown":0.15,
+        "damageEffectiveness":1.726,
+        "levelRequirement":78,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.758,
+        "cooldown":0.15,
+        "damageEffectiveness":1.758,
+        "levelRequirement":80,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.789,
+        "cooldown":0.15,
+        "damageEffectiveness":1.789,
+        "levelRequirement":82,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.821,
+        "cooldown":0.15,
+        "damageEffectiveness":1.821,
+        "levelRequirement":84,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.853,
+        "cooldown":0.15,
+        "damageEffectiveness":1.853,
+        "levelRequirement":86,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.884,
+        "cooldown":0.15,
+        "damageEffectiveness":1.884,
+        "levelRequirement":88,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.916,
+        "cooldown":0.15,
+        "damageEffectiveness":1.916,
+        "levelRequirement":90,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.932,
+        "cooldown":0.15,
+        "damageEffectiveness":1.932,
+        "levelRequirement":91,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.947,
+        "cooldown":0.15,
+        "damageEffectiveness":1.947,
+        "levelRequirement":92,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.963,
+        "cooldown":0.15,
+        "damageEffectiveness":1.963,
+        "levelRequirement":93,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.979,
+        "cooldown":0.15,
+        "damageEffectiveness":1.979,
+        "levelRequirement":94,
+        "storedUses":1
+      },{
+        "baseMultiplier":1.995,
+        "cooldown":0.15,
+        "damageEffectiveness":1.995,
+        "levelRequirement":95,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.011,
+        "cooldown":0.15,
+        "damageEffectiveness":2.011,
+        "levelRequirement":96,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.026,
+        "cooldown":0.15,
+        "damageEffectiveness":2.026,
+        "levelRequirement":97,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.042,
+        "cooldown":0.15,
+        "damageEffectiveness":2.042,
+        "levelRequirement":98,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.058,
+        "cooldown":0.15,
+        "damageEffectiveness":2.058,
+        "levelRequirement":99,
+        "storedUses":1
+      },{
+        "baseMultiplier":2.074,
+        "cooldown":0.15,
+        "damageEffectiveness":2.074,
+        "levelRequirement":100,
+        "storedUses":1
+      }],
+    "name":"Ghostly Artillery",
+    "skillTypes":{
+      "1":true,
+      "3":true,
+      "8":true,
+      "29":true,
+      "32":true,
+      "37":true,
+      "41":true,
+      "82":true,
+      "90":true
+    },
+    "statDescriptionScope":"skill_stat_descriptions",
+    "stats":["base_is_projectile","skill_has_trigger_from_unique_item","modifiers_to_number_of_projectiles_instead_apply_to_number_of_summoned_ghost_cannons","is_area_damage"]
   },
   "GluttonyOfElements":{
     "baseFlags":{
@@ -5062,7 +5330,10 @@
     "stats":["curse_pacifies_after_60%","base_deal_no_damage","display_skill_fixed_duration_buff"]
   },
   "PactOfBeidat":{
-    "baseFlags":[],
+    "baseFlags":{
+      "pact":true,
+      "spell":true
+    },
     "baseTypeName":"Pact of Beidat",
     "castTime":0.8,
     "color":4,
@@ -5562,10 +5833,54 @@
       "135":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "pact_skill_additional_beam_only_chains":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"BeidatAdditionalBeamChains",
+          "type":"BASE"
+        }],
+      "pact_skill_damage_+%_final_with_hits_and_ailments_to_grant":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"BeidatPactDamage",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":2,
+              "keywordFlags":786432,
+              "name":"Damage",
+              "type":"MORE"
+            }
+          }
+        }],
+      "pact_skill_grant_x_additional_projectiles_fired_in_nova":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"BeidatAdditionalProjectiles",
+          "type":"BASE"
+        }],
+      "pact_skill_grant_x_cascades_to_do_in_spiral":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"BeidatAdditionalCascades",
+          "type":"BASE"
+        }],
+      "skill_empowers_next_x_spells_cast":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"BeidatEmpoweredSpells",
+          "type":"BASE"
+        }]
+    },
     "stats":["pact_skill_additional_beam_only_chains","pact_skill_grant_x_additional_projectiles_fired_in_nova","pact_skill_grant_x_cascades_to_do_in_spiral","pact_skill_damage_+%_final_with_hits_and_ailments_to_grant","base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","cannot_cancel_skill_before_contact_point"]
   },
   "PactOfGhorr":{
-    "baseFlags":[],
+    "baseFlags":{
+      "duration":true,
+      "pact":true,
+      "spell":true
+    },
     "baseTypeName":"Pact of Ghorr",
     "castTime":0.8,
     "color":4,
@@ -5864,10 +6179,35 @@
       "135":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "pact_skill_grant_damage_over_time_+%_final_to_spells":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"GhorrPactDamage",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":8,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }
+          }
+        }],
+      "skill_empowers_next_x_spells_cast":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"GhorrEmpoweredSpells",
+          "type":"BASE"
+        }]
+    },
     "stats":["base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","cannot_cancel_skill_before_contact_point"]
   },
   "PactOfKtash":{
-    "baseFlags":[],
+    "baseFlags":{
+      "pact":true,
+      "spell":true
+    },
     "baseTypeName":"Pact of K'Tash",
     "castTime":0.8,
     "color":4,
@@ -6247,10 +6587,47 @@
       "135":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "active_skill_osm_vaal_skill_soul_gain_prevention_+%_final_to_grant":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"KtashPactSoulGainPrevention",
+          "type":"BASE"
+        }],
+      "active_skill_osm_vaal_skill_soul_refund_chance_%_to_grant":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"KtashPactSoulRefundChance",
+          "type":"BASE"
+        }],
+      "pact_skill_grant_damage_+%_final_to_exerted_skills":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"KtashPactDamage",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }
+          }
+        }],
+      "skill_empowers_next_x_spells_cast":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"KtashEmpoweredSpells",
+          "type":"BASE"
+        }]
+    },
     "stats":["pact_skill_grant_damage_+%_final_to_exerted_skills","base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","cannot_cancel_skill_before_contact_point"]
   },
   "PactOfLycia":{
-    "baseFlags":[],
+    "baseFlags":{
+      "pact":true,
+      "spell":true
+    },
     "baseTypeName":"Pact of Lycia",
     "castTime":0.8,
     "color":4,
@@ -6549,6 +6926,28 @@
       "135":true
     },
     "statDescriptionScope":"skill_stat_descriptions",
+    "statMap":{
+      "pact_skill_grant_damage_+%_final_to_exerted_skills":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"LyciaPactDamage",
+          "type":"LIST",
+          "value":{
+            "mod":{
+              "flags":0,
+              "keywordFlags":0,
+              "name":"Damage",
+              "type":"MORE"
+            }
+          }
+        }],
+      "skill_empowers_next_x_spells_cast":[{
+          "flags":0,
+          "keywordFlags":0,
+          "name":"LyciaEmpoweredSpells",
+          "type":"BASE"
+        }]
+    },
     "stats":["base_deal_no_attack_damage","base_deal_no_spell_damage","base_deal_no_secondary_damage","cannot_cancel_skill_before_contact_point"]
   },
   "PenanceMark":{
@@ -11710,7 +12109,11 @@
   },
   "TriggeredBloodrend":{
     "baseEffectiveness":5.4000000953674,
-    "baseFlags":[],
+    "baseFlags":{
+      "pact":true,
+      "projectile":true,
+      "spell":true
+    },
     "baseTypeName":"Fleshrend",
     "castTime":0,
     "color":4,
@@ -11931,7 +12334,11 @@
   },
   "TriggeredHeavensScourge":{
     "baseEffectiveness":2.2999999523163,
-    "baseFlags":[],
+    "baseFlags":{
+      "area":true,
+      "pact":true,
+      "spell":true
+    },
     "baseTypeName":"Heaven's Scourge",
     "castTime":1,
     "color":4,
