@@ -20362,17 +20362,19 @@
     "requireSkillTypes":[52],
     "statDescriptionScope":"gem_stat_descriptions",
     "statMap":{
-      "herald_no_buff_effect":[{
+      "herald_no_buff_effect":{
+        "value":-100,
+        "1":{
           "flags":0,
           "keywordFlags":0,
-          "name":"DisableBuff",
-          "type":"FLAG",
-          "value":true,
+          "name":"BuffEffect",
+          "type":"MORE",
           "1":{
             "skillType":52,
             "type":"SkillType"
           }
-        }]
+        }
+      }
     },
     "stats":["additional_base_critical_strike_chance","herald_no_buff_effect"],
     "support":true
