@@ -51,7 +51,7 @@ jobs:
         working-directory: RePoE
       - name: upload gh-pages artifact
         if: github.event_name != 'schedule' || steps.autocommit.outputs.changes_detected == 'true'
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v4.0.0
         with:
           path: RePoE/pob-data/
 
