@@ -1,10 +1,320 @@
 {
+  "AddedManaRegenerationDelve":{
+    "affix":"of the Underground",
+    "group":"AddedManaRegeneration",
+    "level":60,
+    "modTags":["resource","mana"],
+    "statOrder":[1609],
+    "tradeHashes":{
+      "4291461939":["Regenerate (3-5) Mana per second"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Regenerate (3-5) Mana per second"
+  },
+  "AddedManaRegenerationDelveInverted":{
+    "affix":"of the Underground",
+    "group":"ManaDegenerationGracePeriod",
+    "level":60,
+    "modTags":["resource","mana"],
+    "statOrder":[1610],
+    "tradeHashes":{
+      "838272676":["Lose (3-5) Mana per second"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Lose (3-5) Mana per second"
+  },
+  "AddedPhysicalSpellDamageDelve___":{
+    "affix":"Subterranean",
+    "group":"SpellAddedPhysicalDamage",
+    "level":60,
+    "modTags":["physical_damage","caster_damage","damage","physical","caster"],
+    "statOrder":[1431],
+    "tradeHashes":{
+      "2435536961":["Adds (11-22) to (34-46) Physical Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Adds (11-22) to (34-46) Physical Damage to Spells"
+  },
+  "AdditionalCurseOnEnemiesDelve":{
+    "affix":"Subterranean",
+    "group":"AdditionalCurseOnEnemies",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2195],
+    "tradeHashes":{
+      "30642521":["You can apply an additional Curse"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"You can apply an additional Curse"
+  },
+  "AuraEffectOnEnemiesDelve_____":{
+    "affix":"of the Underground",
+    "group":"AuraEffectOnEnemies",
+    "level":60,
+    "modTags":["aura"],
+    "statOrder":[3607],
+    "tradeHashes":{
+      "1636209393":["(12-18)% increased Effect of Non-Curse Auras from your Skills on Enemies"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(12-18)% increased Effect of Non-Curse Auras from your Skills on Enemies"
+  },
+  "BleedingDamageChanceDelve__":{
+    "affix":"of the Underground",
+    "group":"BleedingDamageChance",
+    "level":60,
+    "modTags":["physical_damage","bleed","damage","physical","attack","ailment"],
+    "statOrder":[2519,3208],
+    "tradeHashes":{
+      "1294118672":["(30-50)% increased Damage with Bleeding"],
+      "3204820200":["Attacks have 25% chance to cause Bleeding"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Attacks have 25% chance to cause Bleeding",
+    "2":"(30-50)% increased Damage with Bleeding"
+  },
+  "ChaosDamageLifeLeechDelve":{
+    "affix":"Subterranean",
+    "group":"ChaosDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":["resource","life","chaos"],
+    "statOrder":[1709],
+    "tradeHashes":{
+      "744082851":["0.4% of Chaos Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Chaos Damage Leeched as Life"
+  },
+  "ChaosDamageLifeLeechDelveInverted":{
+    "affix":"Subterranean",
+    "group":"EnemyChaosDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":[],
+    "statOrder":[1710],
+    "tradeHashes":{
+      "334180828":["0.4% of Chaos Damage Leeched by Enemy as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Chaos Damage Leeched by Enemy as Life"
+  },
+  "ChaosDamageTakenDelve":{
+    "affix":"Subterranean",
+    "group":"ChaosDamageTakenPercentage",
+    "level":60,
+    "modTags":["chaos"],
+    "statOrder":[2270],
+    "tradeHashes":{
+      "2960683632":["(4-6)% reduced Chaos Damage taken"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(4-6)% reduced Chaos Damage taken"
+  },
+  "ColdAilmentDurationDelve":{
+    "affix":"of the Underground",
+    "group":"ColdAilmentDuration",
+    "level":60,
+    "modTags":["elemental","cold","ailment"],
+    "statOrder":[5884],
+    "tradeHashes":{
+      "3571964448":["(15-25)% increased Duration of Cold Ailments"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-25)% increased Duration of Cold Ailments"
+  },
+  "ColdDamageLifeLeechDelve":{
+    "affix":"Subterranean",
+    "group":"ColdDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":["resource","life","elemental","cold"],
+    "statOrder":[1702],
+    "tradeHashes":{
+      "3999401129":["0.4% of Cold Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Cold Damage Leeched as Life"
+  },
+  "ColdDamageLifeLeechDelveInverted":{
+    "affix":"Subterranean",
+    "group":"EnemyColdDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":[],
+    "statOrder":[1703],
+    "tradeHashes":{
+      "3271464175":["0.4% of Cold Damage Leeched by Enemy as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Cold Damage Leeched by Enemy as Life"
+  },
+  "ColdDamageTakenDelve":{
+    "affix":"Subterranean",
+    "group":"ColdDamageTakenPercentage",
+    "level":60,
+    "modTags":["elemental","cold"],
+    "statOrder":[3429],
+    "tradeHashes":{
+      "3303114033":["(4-6)% reduced Cold Damage taken"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(4-6)% reduced Cold Damage taken"
+  },
+  "CorruptedBloodImmunityDelve":{
+    "affix":"of the Underground",
+    "group":"CorruptedBloodImmunity",
+    "level":60,
+    "modTags":["bleed","physical","ailment"],
+    "statOrder":[5489],
+    "tradeHashes":{
+      "1658498488":["Corrupted Blood cannot be inflicted on you"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Corrupted Blood cannot be inflicted on you"
+  },
+  "CurseAreaOfEffectDelve":{
+    "affix":"of the Underground",
+    "group":"CurseAreaOfEffect",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2252],
+    "tradeHashes":{
+      "153777645":["(25-40)% increased Area of Effect of Hex Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(25-40)% increased Area of Effect of Hex Skills"
+  },
+  "CurseDurationDelve":{
+    "affix":"of the Underground",
+    "group":"CurseDuration",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[6090],
+    "tradeHashes":{
+      "1435748744":["Curse Skills have (25-40)% increased Skill Effect Duration"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Curse Skills have (25-40)% increased Skill Effect Duration"
+  },
+  "CurseEffectivenessDelve":{
+    "affix":"of the Underground",
+    "group":"CurseEffectiveness",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2626],
+    "tradeHashes":{
+      "2353576063":["(10-15)% increased Effect of your Curses"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(10-15)% increased Effect of your Curses"
+  },
+  "CurseOnHitLevelConductivityDelve":{
+    "affix":"of the Underground",
+    "group":"ConductivityOnHitLevel",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2557],
+    "tradeHashes":{
+      "710372469":["Curse Enemies with Conductivity on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Curse Enemies with Conductivity on Hit"
+  },
+  "CurseOnHitLevelDespairDelve":{
+    "affix":"of the Underground",
+    "group":"CurseOnHitDespairMod",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2558],
+    "tradeHashes":{
+      "2764915899":["Curse Enemies with Despair on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Curse Enemies with Despair on Hit"
+  },
+  "CurseOnHitLevelFlammabilityDelve":{
+    "affix":"of the Underground",
+    "group":"FlammabilityOnHitLevel",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2560],
+    "tradeHashes":{
+      "338121249":["Curse Enemies with Flammability on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Curse Enemies with Flammability on Hit"
+  },
+  "CurseOnHitLevelFrostbiteDelve":{
+    "affix":"of the Underground",
+    "group":"FrostbiteOnHitLevel",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2561],
+    "tradeHashes":{
+      "426847518":["Curse Enemies with Frostbite on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Curse Enemies with Frostbite on Hit"
+  },
+  "CurseOnHitLevelVulnerabilityDelve":{
+    "affix":"of the Underground",
+    "group":"CurseOnHitLevelVulnerabilityMod",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2553],
+    "tradeHashes":{
+      "3967845372":["Curse Enemies with Vulnerability on Hit"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Curse Enemies with Vulnerability on Hit"
+  },
   "DelveAbyssJewelMinionDamage1":{
     "affix":"Subterranean",
     "group":"MinionDamage",
     "level":1,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (14-16)% increased Damage"]
     },
@@ -18,7 +328,7 @@
     "group":"AbyssJewelSocket",
     "level":1,
     "modTags":[],
-    "statOrder":[69],
+    "statOrder":[70],
     "tradeHashes":{
       "3527617737":["Has 1 Abyssal Socket"]
     },
@@ -32,7 +342,7 @@
     "group":"ManaRecoveryRate",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[1612],
+    "statOrder":[1613],
     "tradeHashes":{
       "3513180117":["(8-12)% increased Mana Recovery rate"]
     },
@@ -46,7 +356,7 @@
     "group":"CannotBeChilledOrFrozenWhileMoving",
     "level":1,
     "modTags":["elemental","cold","ailment"],
-    "statOrder":[5476],
+    "statOrder":[5477],
     "tradeHashes":{
       "628032624":["Cannot be Chilled or Frozen while moving"]
     },
@@ -60,7 +370,7 @@
     "group":"VaalSkillDuration",
     "level":1,
     "modTags":["vaal"],
-    "statOrder":[3142],
+    "statOrder":[3143],
     "tradeHashes":{
       "547412107":["Vaal Skills have (15-25)% increased Skill Effect Duration"]
     },
@@ -74,7 +384,7 @@
     "group":"LocalPhysicalDamageReductionRatingPercentSuffix",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[1567],
+    "statOrder":[1568],
     "tradeHashes":{
       "1062208444":["(25-50)% increased Armour"]
     },
@@ -88,7 +398,7 @@
     "group":"LocalArmourAndEnergyShieldSuffix",
     "level":1,
     "modTags":["defences","armour","energy_shield"],
-    "statOrder":[1577],
+    "statOrder":[1578],
     "tradeHashes":{
       "3321629045":["(25-50)% increased Armour and Energy Shield"]
     },
@@ -102,7 +412,7 @@
     "group":"LocalArmourAndEvasionSuffix",
     "level":1,
     "modTags":["defences","armour","evasion"],
-    "statOrder":[1578],
+    "statOrder":[1579],
     "tradeHashes":{
       "2451402625":["(25-50)% increased Armour and Evasion"]
     },
@@ -116,7 +426,7 @@
     "group":"BlockPercent",
     "level":1,
     "modTags":["block"],
-    "statOrder":[1165],
+    "statOrder":[1166],
     "tradeHashes":{
       "2530372417":["(3-4)% Chance to Block Attack Damage"]
     },
@@ -130,7 +440,7 @@
     "group":"ChanceToAvoidBleeding",
     "level":1,
     "modTags":["bleed","physical","attack","ailment"],
-    "statOrder":[4255],
+    "statOrder":[4256],
     "tradeHashes":{
       "1618589784":["50% chance to Avoid Bleeding"]
     },
@@ -144,7 +454,7 @@
     "group":"ChanceToAvoidPoison",
     "level":1,
     "modTags":["poison","chaos","ailment"],
-    "statOrder":[1875],
+    "statOrder":[1876],
     "tradeHashes":{
       "4053951709":["50% chance to Avoid being Poisoned"]
     },
@@ -158,7 +468,7 @@
     "group":"GlobalChanceToBlindOnHit",
     "level":1,
     "modTags":[],
-    "statOrder":[2995],
+    "statOrder":[2996],
     "tradeHashes":{
       "2221570601":["(4-6)% Global chance to Blind Enemies on hit"]
     },
@@ -172,7 +482,7 @@
     "group":"ChaosResistancePrefix",
     "level":1,
     "modTags":["chaos","resistance"],
-    "statOrder":[1667],
+    "statOrder":[1668],
     "tradeHashes":{
       "2923486259":["+(20-35)% to Chaos Resistance"]
     },
@@ -186,7 +496,7 @@
     "group":"ColdResistancePrefix",
     "level":1,
     "modTags":["elemental","cold","resistance"],
-    "statOrder":[1657],
+    "statOrder":[1658],
     "tradeHashes":{
       "4220027924":["+(20-35)% to Cold Resistance"]
     },
@@ -200,7 +510,7 @@
     "group":"LocalArmourAndEvasionAndEnergyShieldSuffix",
     "level":1,
     "modTags":["defences","armour","evasion","energy_shield"],
-    "statOrder":[1580],
+    "statOrder":[1581],
     "tradeHashes":{
       "3523867985":["(25-50)% increased Armour, Evasion and Energy Shield"]
     },
@@ -214,7 +524,7 @@
     "group":"ChanceToDodgeAndSpellDodge",
     "level":1,
     "modTags":[],
-    "statOrder":[1169],
+    "statOrder":[1170],
     "tradeHashes":{
       "223497523":[""],
       "492027537":["+(4-6)% chance to Suppress Spell Damage"]
@@ -229,7 +539,7 @@
     "group":"ChanceWhenHitForArmourToBeDoubled",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[5754],
+    "statOrder":[5755],
     "tradeHashes":{
       "327253797":["(10-20)% chance to Defend with 200% of Armour"]
     },
@@ -243,7 +553,7 @@
     "group":"SelfStatusAilmentDuration",
     "level":1,
     "modTags":["elemental","ailment"],
-    "statOrder":[1893],
+    "statOrder":[1894],
     "tradeHashes":{
       "1745952865":["(20-30)% reduced Elemental Ailment Duration on you"]
     },
@@ -257,7 +567,7 @@
     "group":"LocalEnergyShieldPercentSuffix",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[1585],
+    "statOrder":[1586],
     "tradeHashes":{
       "4015621042":["(25-50)% increased Energy Shield"]
     },
@@ -271,7 +581,7 @@
     "group":"EnergyShieldLeechPermyriad",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[1748],
+    "statOrder":[1749],
     "tradeHashes":{
       "11106713":["0.3% of Spell Damage Leeched as Energy Shield"]
     },
@@ -285,7 +595,7 @@
     "group":"EnergyShieldRegenerationPerMinute",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[2675],
+    "statOrder":[2676],
     "tradeHashes":{
       "3594640492":["Regenerate 1% of Energy Shield per second"]
     },
@@ -299,7 +609,7 @@
     "group":"LocalEvasionRatingIncreasePercentSuffix",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[1575],
+    "statOrder":[1576],
     "tradeHashes":{
       "124859000":["(25-50)% increased Evasion Rating"]
     },
@@ -313,7 +623,7 @@
     "group":"LocalEvasionAndEnergyShieldSuffix",
     "level":1,
     "modTags":["defences","evasion","energy_shield"],
-    "statOrder":[1579],
+    "statOrder":[1580],
     "tradeHashes":{
       "1999113824":["(25-50)% increased Evasion and Energy Shield"]
     },
@@ -327,7 +637,7 @@
     "group":"GlobalEvasionRatingPercentOnFullLife",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[6595],
+    "statOrder":[6596],
     "tradeHashes":{
       "88817332":["(25-50)% increased Global Evasion Rating when on Full Life"]
     },
@@ -341,7 +651,7 @@
     "group":"FireResistancePrefix",
     "level":1,
     "modTags":["elemental","fire","resistance"],
-    "statOrder":[1651],
+    "statOrder":[1652],
     "tradeHashes":{
       "3372524247":["+(20-35)% to Fire Resistance"]
     },
@@ -355,7 +665,7 @@
     "group":"FortifyEffect",
     "level":1,
     "modTags":[],
-    "statOrder":[9251],
+    "statOrder":[9253],
     "tradeHashes":{
       "335507772":["+(3-5) to maximum Fortification"]
     },
@@ -369,7 +679,7 @@
     "group":"LifeRegenerationRatePercentage",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[1970],
+    "statOrder":[1971],
     "tradeHashes":{
       "836936635":["Regenerate 1% of Life per second"]
     },
@@ -383,7 +693,7 @@
     "group":"LightningResistancePrefix",
     "level":1,
     "modTags":["elemental","lightning","resistance"],
-    "statOrder":[1662],
+    "statOrder":[1663],
     "tradeHashes":{
       "1671376347":["+(20-35)% to Lightning Resistance"]
     },
@@ -397,7 +707,7 @@
     "group":"SocketedAttacksManaCost",
     "level":1,
     "modTags":["skill","resource","mana","attack","gem"],
-    "statOrder":[562],
+    "statOrder":[563],
     "tradeHashes":{
       "2264586521":["Socketed Attacks have -15 to Total Mana Cost"]
     },
@@ -411,7 +721,7 @@
     "group":"MinionLife",
     "level":74,
     "modTags":["resource","life","minion"],
-    "statOrder":[1792],
+    "statOrder":[1793],
     "tradeHashes":{
       "770672621":["Minions have (20-30)% increased maximum Life"]
     },
@@ -425,7 +735,7 @@
     "group":"FlatPhysicalDamageTaken",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[2261],
+    "statOrder":[2262],
     "tradeHashes":{
       "321765853":["-(75-50) Physical Damage taken from Hits"]
     },
@@ -439,7 +749,7 @@
     "group":"FlatPhysicalDamageTaken",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[2261],
+    "statOrder":[2262],
     "tradeHashes":{
       "321765853":["-(34-20) Physical Damage taken from Hits"]
     },
@@ -453,7 +763,7 @@
     "group":"FlatPhysicalDamageTaken",
     "level":30,
     "modTags":["physical"],
-    "statOrder":[2261],
+    "statOrder":[2262],
     "tradeHashes":{
       "321765853":["-(49-35) Physical Damage taken from Hits"]
     },
@@ -467,7 +777,7 @@
     "group":"FlatPhysicalDamageTaken",
     "level":60,
     "modTags":["physical"],
-    "statOrder":[2261],
+    "statOrder":[2262],
     "tradeHashes":{
       "321765853":["-(75-50) Physical Damage taken from Hits"]
     },
@@ -481,7 +791,7 @@
     "group":"LocalItemQuality",
     "level":1,
     "modTags":[],
-    "statOrder":[8073],
+    "statOrder":[8074],
     "tradeHashes":{
       "2016708976":["+(10-20)% to Quality"]
     },
@@ -495,7 +805,7 @@
     "group":"SocketedSpellsManaCost",
     "level":1,
     "modTags":["skill","resource","mana","caster","gem"],
-    "statOrder":[581],
+    "statOrder":[582],
     "tradeHashes":{
       "1688834903":["Socketed Spells have 20% reduced Mana Cost"]
     },
@@ -509,7 +819,7 @@
     "group":"SpellBlockPercentage",
     "level":1,
     "modTags":["block"],
-    "statOrder":[1186],
+    "statOrder":[1187],
     "tradeHashes":{
       "561307714":["(3-4)% Chance to Block Spell Damage"]
     },
@@ -523,7 +833,7 @@
     "group":"AdditionalVaalSoulOnKill",
     "level":1,
     "modTags":["vaal"],
-    "statOrder":[3141],
+    "statOrder":[3142],
     "tradeHashes":{
       "1962922582":["(5-8)% chance to gain an additional Vaal Soul on Kill"]
     },
@@ -537,7 +847,7 @@
     "group":"ChanceToGainOnslaughtOnFlaskUse",
     "level":1,
     "modTags":["flask"],
-    "statOrder":[5776],
+    "statOrder":[5777],
     "tradeHashes":{
       "1324450398":["(15-20)% chance to gain Onslaught when you use a Flask"]
     },
@@ -551,7 +861,7 @@
     "group":"AuraEffect",
     "level":1,
     "modTags":["aura"],
-    "statOrder":[3605],
+    "statOrder":[3606],
     "tradeHashes":{
       "1880071428":["(20-25)% increased effect of Non-Curse Auras from your Skills"]
     },
@@ -565,7 +875,7 @@
     "group":"ColdDamageAvoidance",
     "level":1,
     "modTags":["elemental","cold"],
-    "statOrder":[3413],
+    "statOrder":[3414],
     "tradeHashes":{
       "3743375737":["(6-10)% chance to Avoid Cold Damage from Hits"]
     },
@@ -579,7 +889,7 @@
     "group":"FireDamageAvoidance",
     "level":1,
     "modTags":["elemental","fire"],
-    "statOrder":[3412],
+    "statOrder":[3413],
     "tradeHashes":{
       "42242677":["(8-10)% chance to Avoid Fire Damage from Hits"]
     },
@@ -593,7 +903,7 @@
     "group":"LightningDamageAvoidance",
     "level":1,
     "modTags":["elemental","lightning"],
-    "statOrder":[3414],
+    "statOrder":[3415],
     "tradeHashes":{
       "2889664727":["(6-10)% chance to Avoid Lightning Damage from Hits"]
     },
@@ -607,7 +917,7 @@
     "group":"ChaosResistanceAgainstDamageOverTime",
     "level":1,
     "modTags":["chaos","resistance"],
-    "statOrder":[5817],
+    "statOrder":[5818],
     "tradeHashes":{
       "2266636761":["+(30-40)% Chaos Resistance against Damage Over Time"]
     },
@@ -621,7 +931,7 @@
     "group":"LifeAndPercentLife",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[1594,1596],
+    "statOrder":[1595,1597],
     "tradeHashes":{
       "983749596":["(3-5)% increased maximum Life"],
       "3299347043":["+(25-40) to maximum Life"]
@@ -637,7 +947,7 @@
     "group":"SupportedByArcaneSurge",
     "level":1,
     "modTags":["support","gem"],
-    "statOrder":[237],
+    "statOrder":[238],
     "tradeHashes":{
       "2287264161":["Socketed Gems are Supported by Level 1 Arcane Surge"]
     },
@@ -651,7 +961,7 @@
     "group":"SupportedByMaim",
     "level":1,
     "modTags":["support","gem"],
-    "statOrder":[343],
+    "statOrder":[344],
     "tradeHashes":{
       "3826977109":["Socketed Gems are Supported by Level 1 Maim"]
     },
@@ -665,7 +975,7 @@
     "group":"DamageRemovedFromManaBeforeLife",
     "level":1,
     "modTags":["resource","life","mana"],
-    "statOrder":[2729],
+    "statOrder":[2730],
     "tradeHashes":{
       "458438597":["(5-10)% of Damage is taken from Mana before Life"]
     },
@@ -679,7 +989,7 @@
     "group":"DamageRemovedFromManaBeforeLife",
     "level":1,
     "modTags":["resource","life","mana"],
-    "statOrder":[2729],
+    "statOrder":[2730],
     "tradeHashes":{
       "458438597":["(5-10)% of Damage is taken from Mana before Life"]
     },
@@ -693,7 +1003,7 @@
     "group":"FrenzyChargeWhenHit",
     "level":1,
     "modTags":["frenzy_charge"],
-    "statOrder":[4579],
+    "statOrder":[4580],
     "tradeHashes":{
       "881914531":["(15-20)% chance to gain a Frenzy Charge when Hit"]
     },
@@ -707,7 +1017,7 @@
     "group":"MinionGlobalSkillLevel",
     "level":1,
     "modTags":["skill","minion","gem"],
-    "statOrder":[1642],
+    "statOrder":[1643],
     "tradeHashes":{
       "2120904498":[""],
       "2739830820":[""],
@@ -723,7 +1033,7 @@
     "group":"ManaRegenerationRateWhileMoving",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[8336],
+    "statOrder":[8337],
     "tradeHashes":{
       "1327522346":["(50-70)% increased Mana Regeneration Rate while moving"]
     },
@@ -737,7 +1047,7 @@
     "group":"MovementSpeedIfHitRecently",
     "level":1,
     "modTags":["speed"],
-    "statOrder":[9562],
+    "statOrder":[9564],
     "tradeHashes":{
       "3178542354":["(4-6)% increased Movement Speed if you've Hit an Enemy Recently"]
     },
@@ -751,7 +1061,7 @@
     "group":"AdditionalPhysicalDamageReductionWhileMoving",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[4632],
+    "statOrder":[4633],
     "tradeHashes":{
       "2713357573":["(3-5)% additional Physical Damage Reduction while moving"]
     },
@@ -765,7 +1075,7 @@
     "group":"LocalIncreaseSocketedChaosGemLevel",
     "level":1,
     "modTags":["chaos","gem"],
-    "statOrder":[178],
+    "statOrder":[179],
     "tradeHashes":{
       "2675603254":["+2 to Level of Socketed Chaos Gems"]
     },
@@ -779,7 +1089,7 @@
     "group":"LocalIncreaseSocketedColdGemLevel",
     "level":1,
     "modTags":["elemental","cold","gem"],
-    "statOrder":[175],
+    "statOrder":[176],
     "tradeHashes":{
       "1645459191":["+2 to Level of Socketed Cold Gems"]
     },
@@ -793,7 +1103,7 @@
     "group":"LocalIncreaseSocketedFireGemLevel",
     "level":1,
     "modTags":["elemental","fire","gem"],
-    "statOrder":[174],
+    "statOrder":[175],
     "tradeHashes":{
       "339179093":["+2 to Level of Socketed Fire Gems"]
     },
@@ -807,7 +1117,7 @@
     "group":"LocalIncreaseSocketedLightningGemLevel",
     "level":1,
     "modTags":["elemental","lightning","gem"],
-    "statOrder":[176],
+    "statOrder":[177],
     "tradeHashes":{
       "4043416969":["+2 to Level of Socketed Lightning Gems"]
     },
@@ -821,7 +1131,7 @@
     "group":"DelveDexterityGemLevel",
     "level":1,
     "modTags":["attribute","gem"],
-    "statOrder":[165],
+    "statOrder":[166],
     "tradeHashes":{
       "2718698372":["+1 to Level of Socketed Dexterity Gems"]
     },
@@ -835,7 +1145,7 @@
     "group":"AddedPhysicalDamageVsBleedingEnemies",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[2523],
+    "statOrder":[2524],
     "tradeHashes":{
       "1244003614":["Adds (7-11) to (12-18) Physical Damage against Bleeding Enemies"]
     },
@@ -849,7 +1159,7 @@
     "group":"AddedPhysicalDamageVsPoisonedEnemies",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[9392],
+    "statOrder":[9394],
     "tradeHashes":{
       "424026624":["Adds (7-11) to (12-18) Physical Damage against Poisoned Enemies"]
     },
@@ -863,7 +1173,7 @@
     "group":"AttackAndCastSpeedIfHitRecently",
     "level":1,
     "modTags":["attack","caster","speed"],
-    "statOrder":[4870],
+    "statOrder":[4871],
     "tradeHashes":{
       "1483753325":["(5-10)% increased Attack and Cast Speed if you've Hit an Enemy Recently"]
     },
@@ -877,7 +1187,7 @@
     "group":"GlobalAddedChaosDamage",
     "level":1,
     "modTags":["chaos_damage","damage","chaos"],
-    "statOrder":[1413],
+    "statOrder":[1414],
     "tradeHashes":{
       "3531280422":["Adds (15-20) to (21-30) Chaos Damage"]
     },
@@ -891,7 +1201,7 @@
     "group":"GlobalAddedColdDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[1395],
+    "statOrder":[1396],
     "tradeHashes":{
       "2387423236":["Adds (20-25) to (26-35) Cold Damage"]
     },
@@ -905,7 +1215,7 @@
     "group":"GlobalAddedFireDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[1386],
+    "statOrder":[1387],
     "tradeHashes":{
       "321077055":["Adds (20-25) to (26-35) Fire Damage"]
     },
@@ -919,7 +1229,7 @@
     "group":"GlobalAddedPhysicalDamage",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[1292],
+    "statOrder":[1293],
     "tradeHashes":{
       "960081730":["Adds (6-8) to (9-11) Physical Damage"]
     },
@@ -933,7 +1243,7 @@
     "group":"GlobalAddedLightningDamage",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[1406],
+    "statOrder":[1407],
     "tradeHashes":{
       "1334060246":["Adds 1 to (48-60) Lightning Damage"]
     },
@@ -947,7 +1257,7 @@
     "group":"SocketedSkillsAttackSpeed",
     "level":1,
     "modTags":["skill","attack","speed","gem"],
-    "statOrder":[574],
+    "statOrder":[575],
     "tradeHashes":{
       "2881124988":["Socketed Skills have 18% increased Attack Speed"]
     },
@@ -961,7 +1271,7 @@
     "group":"ManaGainPerTarget",
     "level":1,
     "modTags":["resource","mana","attack"],
-    "statOrder":[1770],
+    "statOrder":[1771],
     "tradeHashes":{
       "820939409":["Gain (2-4) Mana per Enemy Hit with Attacks"]
     },
@@ -975,7 +1285,7 @@
     "group":"MinionDamage",
     "level":1,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (20-30)% increased Damage"]
     },
@@ -989,7 +1299,7 @@
     "group":"SocketedSkillsCastSpeed",
     "level":1,
     "modTags":["skill","caster","speed","gem"],
-    "statOrder":[575],
+    "statOrder":[576],
     "tradeHashes":{
       "3425934849":["Socketed Skills have 18% increased Cast Speed"]
     },
@@ -1003,7 +1313,7 @@
     "group":"VaalSkillCriticalStrikeChance",
     "level":1,
     "modTags":["critical","vaal"],
-    "statOrder":[3144],
+    "statOrder":[3145],
     "tradeHashes":{
       "3165492062":["(80-120)% increased Vaal Skill Critical Strike Chance"]
     },
@@ -1017,7 +1327,7 @@
     "group":"BaseManaRegeneration",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[1607],
+    "statOrder":[1608],
     "tradeHashes":{
       "3188455409":["Regenerate 0.5% of Mana per second"]
     },
@@ -1031,7 +1341,7 @@
     "group":"IgnoreArmourMovementPenalties",
     "level":1,
     "modTags":["speed"],
-    "statOrder":[2207],
+    "statOrder":[2208],
     "tradeHashes":{
       "1311723478":["Ignore all Movement Penalties from Armour"]
     },
@@ -1045,7 +1355,7 @@
     "group":"NearbyEnemyChaosDamageResistance",
     "level":1,
     "modTags":["chaos_damage","damage","chaos","resistance"],
-    "statOrder":[8032],
+    "statOrder":[8033],
     "tradeHashes":{
       "1902595112":["Nearby Enemies have -9% to Chaos Resistance"],
       "2923486259":["-9% to Chaos Resistance"]
@@ -1060,7 +1370,7 @@
     "group":"NearbyEnemyColdDamageResistance",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold","resistance"],
-    "statOrder":[8033],
+    "statOrder":[8034],
     "tradeHashes":{
       "2674336304":["Nearby Enemies have -9% to Cold Resistance"],
       "4220027924":["-9% to Cold Resistance"]
@@ -1075,7 +1385,7 @@
     "group":"NearbyEnemyFireDamageResistance",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire","resistance"],
-    "statOrder":[8035],
+    "statOrder":[8036],
     "tradeHashes":{
       "3372524247":["-9% to Fire Resistance"],
       "3914021960":["Nearby Enemies have -9% to Fire Resistance"]
@@ -1090,7 +1400,7 @@
     "group":"NearbyEnemyLightningDamageResistance",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning","resistance"],
-    "statOrder":[8037],
+    "statOrder":[8038],
     "tradeHashes":{
       "1671376347":["-9% to Lightning Resistance"],
       "1849749435":["Nearby Enemies have -9% to Lightning Resistance"]
@@ -1105,7 +1415,7 @@
     "group":"NearbyEnemyPhysicalDamageTaken",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[8039],
+    "statOrder":[8040],
     "tradeHashes":{
       "415837237":["Nearby Enemies take 9% increased Physical Damage"],
       "3853018505":["9% increased Physical Damage taken"]
@@ -1120,7 +1430,7 @@
     "group":"ManaReservationEfficiency",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[2254],
+    "statOrder":[2255],
     "tradeHashes":{
       "4237190083":["10% increased Mana Reservation Efficiency of Skills"]
     },
@@ -1134,7 +1444,7 @@
     "group":"ReducedReservation",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[2258],
+    "statOrder":[2259],
     "tradeHashes":{
       "1269219558":["(8-10)% increased Mana Reservation Efficiency of Skills"]
     },
@@ -1148,7 +1458,7 @@
     "group":"DelveIntelligenceGemLevel",
     "level":1,
     "modTags":["attribute","gem"],
-    "statOrder":[166],
+    "statOrder":[167],
     "tradeHashes":{
       "1719423857":["+1 to Level of Socketed Intelligence Gems"]
     },
@@ -1162,7 +1472,7 @@
     "group":"AilmentDamage",
     "level":1,
     "modTags":["damage","ailment"],
-    "statOrder":[5039],
+    "statOrder":[5040],
     "tradeHashes":{
       "690707482":["(15-20)% increased Damage with Ailments"]
     },
@@ -1176,7 +1486,7 @@
     "group":"PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[9805],
+    "statOrder":[9807],
     "tradeHashes":{
       "2368149582":["+(250-300) to Armour if you've Hit an Enemy Recently"]
     },
@@ -1190,7 +1500,7 @@
     "group":"LifeLeechFromAttacksPermyriad",
     "level":1,
     "modTags":["resource","life","attack"],
-    "statOrder":[1690],
+    "statOrder":[1691],
     "tradeHashes":{
       "141810208":["0.3% of Attack Damage Leeched as Life"]
     },
@@ -1204,7 +1514,7 @@
     "group":"AvoidInterruptionWhileCasting",
     "level":1,
     "modTags":[],
-    "statOrder":[1924],
+    "statOrder":[1925],
     "tradeHashes":{
       "1916706958":["(15-20)% chance to Ignore Stuns while Casting"]
     },
@@ -1218,7 +1528,7 @@
     "group":"ChanceToGainOnslaughtOnFlaskUse",
     "level":1,
     "modTags":["flask"],
-    "statOrder":[5776],
+    "statOrder":[5777],
     "tradeHashes":{
       "1324450398":["(5-10)% chance to gain Onslaught when you use a Flask"]
     },
@@ -1232,7 +1542,7 @@
     "group":"IncreasedChaosDamage",
     "level":1,
     "modTags":["chaos_damage","damage","chaos"],
-    "statOrder":[1412],
+    "statOrder":[1413],
     "tradeHashes":{
       "736967255":["(13-19)% increased Chaos Damage"]
     },
@@ -1246,7 +1556,7 @@
     "group":"ColdResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[3020],
+    "statOrder":[3021],
     "tradeHashes":{
       "3417711605":["Damage Penetrates 1% Cold Resistance"]
     },
@@ -1260,7 +1570,7 @@
     "group":"PercentDamageGoesToMana",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[2483],
+    "statOrder":[2484],
     "tradeHashes":{
       "472520716":["(2-3)% of Damage taken Recouped as Mana"]
     },
@@ -1274,7 +1584,7 @@
     "group":"ElementalPenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[3017],
+    "statOrder":[3018],
     "tradeHashes":{
       "2101383955":["Damage Penetrates 1% Elemental Resistances"]
     },
@@ -1288,7 +1598,7 @@
     "group":"EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[6557],
+    "statOrder":[6558],
     "tradeHashes":{
       "588560583":["Regenerate 0.3% of Energy Shield per second if you've Hit an Enemy Recently"]
     },
@@ -1302,7 +1612,7 @@
     "group":"EvasionRatingIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[6588],
+    "statOrder":[6589],
     "tradeHashes":{
       "2935548106":["+(250-300) to Evasion Rating if Hit an Enemy Recently"]
     },
@@ -1316,7 +1626,7 @@
     "group":"FireResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[3018],
+    "statOrder":[3019],
     "tradeHashes":{
       "2653955271":["Damage Penetrates 1% Fire Resistance"]
     },
@@ -1330,7 +1640,7 @@
     "group":"AllDefences",
     "level":1,
     "modTags":["defences"],
-    "statOrder":[2870],
+    "statOrder":[2871],
     "tradeHashes":{
       "1389153006":["(4-6)% increased Global Defences"]
     },
@@ -1344,7 +1654,7 @@
     "group":"LifeRegenerationRatePercentage",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[1970],
+    "statOrder":[1971],
     "tradeHashes":{
       "836936635":["Regenerate 0.3% of Life per second"]
     },
@@ -1358,7 +1668,7 @@
     "group":"LightningResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[3021],
+    "statOrder":[3022],
     "tradeHashes":{
       "818778753":["Damage Penetrates 1% Lightning Resistance"]
     },
@@ -1372,7 +1682,7 @@
     "group":"MinionAttackAndCastSpeed",
     "level":1,
     "modTags":["attack","caster","speed","minion"],
-    "statOrder":[2944,2945],
+    "statOrder":[2945,2946],
     "tradeHashes":{
       "3375935924":["Minions have (4-6)% increased Attack Speed"],
       "4000101551":["Minions have (4-6)% increased Cast Speed"]
@@ -1388,7 +1698,7 @@
     "group":"PhysicalDamageOverTimeTaken",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[5112],
+    "statOrder":[5113],
     "tradeHashes":{
       "511024200":["(1-2)% reduced Physical Damage taken over time"]
     },
@@ -1402,7 +1712,7 @@
     "group":"AdditionalVaalSoulOnKill",
     "level":1,
     "modTags":["vaal"],
-    "statOrder":[3141],
+    "statOrder":[3142],
     "tradeHashes":{
       "1962922582":["(3-5)% chance to gain an additional Vaal Soul on Kill"]
     },
@@ -1416,7 +1726,7 @@
     "group":"AilmentDamage",
     "level":1,
     "modTags":["damage","ailment"],
-    "statOrder":[5039],
+    "statOrder":[5040],
     "tradeHashes":{
       "690707482":["(30-40)% increased Damage with Ailments"]
     },
@@ -1430,7 +1740,7 @@
     "group":"AdditionalChanceToEvade",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[5756],
+    "statOrder":[5757],
     "tradeHashes":{
       "2021058489":["+(1-2)% chance to Evade Attack Hits"]
     },
@@ -1444,7 +1754,7 @@
     "group":"ChanceWhenHitForArmourToBeDoubled",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[5754],
+    "statOrder":[5755],
     "tradeHashes":{
       "327253797":["20% chance to Defend with 200% of Armour"]
     },
@@ -1458,7 +1768,7 @@
     "group":"IncreasedChaosDamagePrefix",
     "level":1,
     "modTags":["chaos_damage","damage","chaos"],
-    "statOrder":[1412],
+    "statOrder":[1413],
     "tradeHashes":{
       "736967255":["(20-30)% increased Chaos Damage"]
     },
@@ -1472,7 +1782,7 @@
     "group":"ColdDamagePercentagePrefix",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[1393],
+    "statOrder":[1394],
     "tradeHashes":{
       "3291658075":["(20-30)% increased Cold Damage"]
     },
@@ -1486,7 +1796,7 @@
     "group":"ElementalPenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[3017],
+    "statOrder":[3018],
     "tradeHashes":{
       "2101383955":["Damage Penetrates (3-5)% Elemental Resistances"]
     },
@@ -1500,7 +1810,7 @@
     "group":"FireDamagePercentagePrefix",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[1384],
+    "statOrder":[1385],
     "tradeHashes":{
       "3962278098":["(20-30)% increased Fire Damage"]
     },
@@ -1514,7 +1824,7 @@
     "group":"GlobalFlaskLifeRecovery",
     "level":1,
     "modTags":["flask","resource","life"],
-    "statOrder":[2085],
+    "statOrder":[2086],
     "tradeHashes":{
       "821241191":["(20-30)% increased Life Recovery from Flasks"]
     },
@@ -1528,7 +1838,7 @@
     "group":"MaximumEnergyShieldFromBodyArmour",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[9267],
+    "statOrder":[9269],
     "tradeHashes":{
       "1195319608":["(20-30)% increased Energy Shield from Equipped Body Armour"]
     },
@@ -1542,7 +1852,7 @@
     "group":"LightningDamagePercentagePrefix",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[1404],
+    "statOrder":[1405],
     "tradeHashes":{
       "2231156303":["(20-30)% increased Lightning Damage"]
     },
@@ -1556,7 +1866,7 @@
     "group":"MinionRunSpeed",
     "level":74,
     "modTags":["speed","minion"],
-    "statOrder":[1795],
+    "statOrder":[1796],
     "tradeHashes":{
       "174664100":["Minions have (15-30)% increased Movement Speed"]
     },
@@ -1570,7 +1880,7 @@
     "group":"PhysicalDamagePercentPrefix",
     "level":1,
     "modTags":["physical_damage","damage","physical"],
-    "statOrder":[1257],
+    "statOrder":[1258],
     "tradeHashes":{
       "1310194496":["(20-30)% increased Global Physical Damage"]
     },
@@ -1584,7 +1894,7 @@
     "group":"VaalSkillDamage",
     "level":1,
     "modTags":["damage","vaal"],
-    "statOrder":[3132],
+    "statOrder":[3133],
     "tradeHashes":{
       "2257141320":["(20-40)% increased Damage with Vaal Skills"]
     },
@@ -1598,7 +1908,7 @@
     "group":"MapMonsterPacksVaalMapWorlds",
     "level":1,
     "modTags":[],
-    "statOrder":[8894,11005],
+    "statOrder":[8896,11007],
     "tradeHashes":{
       "57434274":[""],
       "728267040":["Found Items have 10% chance to drop Corrupted in Area"],
@@ -1617,7 +1927,7 @@
     "group":"LifeAndPercentLife",
     "level":1,
     "modTags":["resource","life"],
-    "statOrder":[1594,1596],
+    "statOrder":[1595,1597],
     "tradeHashes":{
       "983749596":["(2-3)% increased maximum Life"],
       "3299347043":["+(15-25) to maximum Life"]
@@ -1633,7 +1943,7 @@
     "group":"FrenzyChargeOnHittingRareOrUnique",
     "level":1,
     "modTags":["frenzy_charge"],
-    "statOrder":[6863],
+    "statOrder":[6864],
     "tradeHashes":{
       "4179663748":["(3-5)% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy"]
     },
@@ -1647,7 +1957,7 @@
     "group":"MaximumManaIncreasePercent",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[1606],
+    "statOrder":[1607],
     "tradeHashes":{
       "2748665614":["(20-30)% increased maximum Mana"]
     },
@@ -1661,7 +1971,7 @@
     "group":"CannotBeShockedOrIgnitedWhileMoving",
     "level":1,
     "modTags":["elemental","lightning","ailment"],
-    "statOrder":[5492],
+    "statOrder":[5493],
     "tradeHashes":{
       "3592330380":["Cannot be Shocked or Ignited while moving"]
     },
@@ -1675,7 +1985,7 @@
     "group":"ChaosDamageLifeLeechPermyriad",
     "level":1,
     "modTags":["resource","life","chaos"],
-    "statOrder":[1708],
+    "statOrder":[1709],
     "tradeHashes":{
       "744082851":["0.2% of Chaos Damage Leeched as Life"]
     },
@@ -1689,7 +1999,7 @@
     "group":"ColdDamageLifeLeechPermyriad",
     "level":1,
     "modTags":["resource","life","elemental","cold"],
-    "statOrder":[1701],
+    "statOrder":[1702],
     "tradeHashes":{
       "3999401129":["0.2% of Cold Damage Leeched as Life"]
     },
@@ -1703,7 +2013,7 @@
     "group":"ElementalDamagePercent",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(25-30)% increased Elemental Damage"]
     },
@@ -1717,7 +2027,7 @@
     "group":"FireDamageLifeLeechPermyriad",
     "level":1,
     "modTags":["resource","life","elemental","fire"],
-    "statOrder":[1696],
+    "statOrder":[1697],
     "tradeHashes":{
       "3848282610":["0.2% of Fire Damage Leeched as Life"]
     },
@@ -1731,7 +2041,7 @@
     "group":"LightningDamageLifeLeechPermyriad",
     "level":1,
     "modTags":["resource","life","elemental","lightning"],
-    "statOrder":[1705],
+    "statOrder":[1706],
     "tradeHashes":{
       "80079005":["0.2% of Lightning Damage Leeched as Life"]
     },
@@ -1745,7 +2055,7 @@
     "group":"ManaCostReduction",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[1909],
+    "statOrder":[1910],
     "tradeHashes":{
       "474294393":["(4-6)% reduced Mana Cost of Skills"]
     },
@@ -1759,7 +2069,7 @@
     "group":"PhysicalDamageLifeLeechPermyriad",
     "level":1,
     "modTags":["resource","life","physical"],
-    "statOrder":[1692],
+    "statOrder":[1693],
     "tradeHashes":{
       "3764265320":["0.2% of Physical Damage Leeched as Life"]
     },
@@ -1773,7 +2083,7 @@
     "group":"ReducedPhysicalDamageTaken",
     "level":1,
     "modTags":["physical"],
-    "statOrder":[2299],
+    "statOrder":[2300],
     "tradeHashes":{
       "3771516363":["(3-5)% additional Physical Damage Reduction"]
     },
@@ -1787,7 +2097,7 @@
     "group":"DelveStrengthGemLevel",
     "level":1,
     "modTags":["attribute","gem"],
-    "statOrder":[163],
+    "statOrder":[164],
     "tradeHashes":{
       "916797432":["+1 to Level of Socketed Strength Gems"]
     },
@@ -1801,7 +2111,7 @@
     "group":"PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[9805],
+    "statOrder":[9807],
     "tradeHashes":{
       "2368149582":["+500 to Armour if you've Hit an Enemy Recently"]
     },
@@ -1815,7 +2125,7 @@
     "group":"PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","armour"],
-    "statOrder":[9805],
+    "statOrder":[9807],
     "tradeHashes":{
       "2368149582":["+1000 to Armour if you've Hit an Enemy Recently"]
     },
@@ -1829,7 +2139,7 @@
     "group":"ChanceToGainOnslaughtOnKill",
     "level":1,
     "modTags":[],
-    "statOrder":[3030],
+    "statOrder":[3031],
     "tradeHashes":{
       "2988593550":["10% chance to gain Onslaught for 4 seconds on Kill"]
     },
@@ -1843,7 +2153,7 @@
     "group":"ChanceToGainOnslaughtOnKill",
     "level":1,
     "modTags":[],
-    "statOrder":[3030],
+    "statOrder":[3031],
     "tradeHashes":{
       "2988593550":["20% chance to gain Onslaught for 4 seconds on Kill"]
     },
@@ -1857,7 +2167,7 @@
     "group":"ColdResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[3020],
+    "statOrder":[3021],
     "tradeHashes":{
       "3417711605":["Damage Penetrates (5-7)% Cold Resistance"]
     },
@@ -1871,7 +2181,7 @@
     "group":"ColdResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","cold"],
-    "statOrder":[3020],
+    "statOrder":[3021],
     "tradeHashes":{
       "3417711605":["Damage Penetrates (12-15)% Cold Resistance"]
     },
@@ -1885,7 +2195,7 @@
     "group":"DamageOnFullLife",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[6165],
+    "statOrder":[6166],
     "tradeHashes":{
       "592020238":["(50-60)% increased Damage when on Full Life"]
     },
@@ -1899,7 +2209,7 @@
     "group":"DamageOnFullLife",
     "level":1,
     "modTags":["damage"],
-    "statOrder":[6165],
+    "statOrder":[6166],
     "tradeHashes":{
       "592020238":["(100-120)% increased Damage when on Full Life"]
     },
@@ -1913,7 +2223,7 @@
     "group":"CurseOnHitDespair",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[2557],
+    "statOrder":[2558],
     "tradeHashes":{
       "2764915899":["Curse Enemies with Despair on Hit"]
     },
@@ -1927,7 +2237,7 @@
     "group":"CurseOnHitDespair",
     "level":1,
     "modTags":["caster","curse"],
-    "statOrder":[2557],
+    "statOrder":[2558],
     "tradeHashes":{
       "2764915899":["Curse Enemies with Despair on Hit"]
     },
@@ -1941,7 +2251,7 @@
     "group":"ElementalDamagePercent",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(40-60)% increased Elemental Damage"]
     },
@@ -1955,7 +2265,7 @@
     "group":"ElementalDamagePercent",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(80-120)% increased Elemental Damage"]
     },
@@ -1969,7 +2279,7 @@
     "group":"ElementalDamagePercent",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(19-25)% increased Elemental Damage"]
     },
@@ -1983,7 +2293,7 @@
     "group":"ElementalDamagePercent",
     "level":25,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(26-32)% increased Elemental Damage"]
     },
@@ -1997,7 +2307,7 @@
     "group":"ElementalDamagePercent",
     "level":50,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(33-39)% increased Elemental Damage"]
     },
@@ -2011,7 +2321,7 @@
     "group":"ElementalDamagePercent",
     "level":75,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(40-49)% increased Elemental Damage"]
     },
@@ -2025,7 +2335,7 @@
     "group":"ElementalDamagePercent",
     "level":1,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(37-50)% increased Elemental Damage"]
     },
@@ -2039,7 +2349,7 @@
     "group":"ElementalDamagePercent",
     "level":25,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(51-65)% increased Elemental Damage"]
     },
@@ -2053,7 +2363,7 @@
     "group":"ElementalDamagePercent",
     "level":50,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(66-79)% increased Elemental Damage"]
     },
@@ -2067,7 +2377,7 @@
     "group":"ElementalDamagePercent",
     "level":75,
     "modTags":["elemental_damage","damage","elemental"],
-    "statOrder":[2006],
+    "statOrder":[2007],
     "tradeHashes":{
       "3141070085":["(80-94)% increased Elemental Damage"]
     },
@@ -2081,7 +2391,7 @@
     "group":"EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[6557],
+    "statOrder":[6558],
     "tradeHashes":{
       "588560583":["Regenerate 0.5% of Energy Shield per second if you've Hit an Enemy Recently"]
     },
@@ -2095,7 +2405,7 @@
     "group":"EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","energy_shield"],
-    "statOrder":[6557],
+    "statOrder":[6558],
     "tradeHashes":{
       "588560583":["Regenerate 1% of Energy Shield per second if you've Hit an Enemy Recently"]
     },
@@ -2109,7 +2419,7 @@
     "group":"EvasionRatingIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[6588],
+    "statOrder":[6589],
     "tradeHashes":{
       "2935548106":["+500 to Evasion Rating if Hit an Enemy Recently"]
     },
@@ -2123,7 +2433,7 @@
     "group":"EvasionRatingIfYouHaveHitAnEnemyRecently",
     "level":1,
     "modTags":["defences","evasion"],
-    "statOrder":[6588],
+    "statOrder":[6589],
     "tradeHashes":{
       "2935548106":["+1000 to Evasion Rating if Hit an Enemy Recently"]
     },
@@ -2137,7 +2447,7 @@
     "group":"FireResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[3018],
+    "statOrder":[3019],
     "tradeHashes":{
       "2653955271":["Damage Penetrates (5-7)% Fire Resistance"]
     },
@@ -2151,7 +2461,7 @@
     "group":"FireResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","fire"],
-    "statOrder":[3018],
+    "statOrder":[3019],
     "tradeHashes":{
       "2653955271":["Damage Penetrates (12-15)% Fire Resistance"]
     },
@@ -2165,7 +2475,7 @@
     "group":"IncreasedDamageFromAuras",
     "level":1,
     "modTags":["damage","aura"],
-    "statOrder":[3497],
+    "statOrder":[3498],
     "tradeHashes":{
       "3729445224":["Auras from your Skills grant 2% increased Damage to you and Allies"]
     },
@@ -2179,7 +2489,7 @@
     "group":"IncreasedDamageFromAuras",
     "level":1,
     "modTags":["damage","aura"],
-    "statOrder":[3497],
+    "statOrder":[3498],
     "tradeHashes":{
       "3729445224":["Auras from your Skills grant 4% increased Damage to you and Allies"]
     },
@@ -2193,7 +2503,7 @@
     "group":"LocalChanceToIntimidateOnHit",
     "level":1,
     "modTags":["attack"],
-    "statOrder":[7994],
+    "statOrder":[7995],
     "tradeHashes":{
       "2089652545":["15% chance to Intimidate Enemies for 4 seconds on Hit"]
     },
@@ -2207,7 +2517,7 @@
     "group":"LightningResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[3021],
+    "statOrder":[3022],
     "tradeHashes":{
       "818778753":["Damage Penetrates (5-7)% Lightning Resistance"]
     },
@@ -2221,7 +2531,7 @@
     "group":"LightningResistancePenetration",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","lightning"],
-    "statOrder":[3021],
+    "statOrder":[3022],
     "tradeHashes":{
       "818778753":["Damage Penetrates (12-15)% Lightning Resistance"]
     },
@@ -2235,7 +2545,7 @@
     "group":"LocalAttackReduceEnemyElementalResistance",
     "level":1,
     "modTags":["elemental_damage","damage","elemental","attack"],
-    "statOrder":[3800],
+    "statOrder":[3801],
     "tradeHashes":{
       "4064396395":["Attacks with this Weapon Penetrate (9-12)% Elemental Resistances"]
     },
@@ -2249,7 +2559,7 @@
     "group":"LocalChanceForBleedingDamage100FinalInflictedWithThisWeapon",
     "level":1,
     "modTags":["physical_damage","bleed","damage","physical","attack","ailment"],
-    "statOrder":[7989],
+    "statOrder":[7990],
     "tradeHashes":{
       "1560880986":["60% chance for Bleeding inflicted with this Weapon to deal 100% more Damage"]
     },
@@ -2263,7 +2573,7 @@
     "group":"LocalChanceForPoisonDamage100FinalInflictedWithThisWeapon",
     "level":1,
     "modTags":["chaos_damage","poison","damage","chaos","attack","ailment"],
-    "statOrder":[7990],
+    "statOrder":[7991],
     "tradeHashes":{
       "2523146878":["60% chance for Poisons inflicted with this Weapon to deal 100% more Damage"]
     },
@@ -2277,7 +2587,7 @@
     "group":"ManaRegeneratedIfYouveHitRecently",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[8324],
+    "statOrder":[8325],
     "tradeHashes":{
       "2602865453":["Regenerate 0.4% of Mana per second if you've Hit an Enemy Recently"]
     },
@@ -2291,7 +2601,7 @@
     "group":"ManaRegeneratedIfYouveHitRecently",
     "level":1,
     "modTags":["resource","mana"],
-    "statOrder":[8324],
+    "statOrder":[8325],
     "tradeHashes":{
       "2602865453":["Regenerate 0.8% of Mana per second if you've Hit an Enemy Recently"]
     },
@@ -2305,7 +2615,7 @@
     "group":"MinionDamageOnWeapon",
     "level":1,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (30-44)% increased Damage"]
     },
@@ -2319,7 +2629,7 @@
     "group":"MinionDamageOnWeapon",
     "level":25,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (45-59)% increased Damage"]
     },
@@ -2333,7 +2643,7 @@
     "group":"MinionDamageOnWeapon",
     "level":50,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (60-74)% increased Damage"]
     },
@@ -2347,7 +2657,7 @@
     "group":"MinionDamageOnWeapon",
     "level":75,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (75-80)% increased Damage"]
     },
@@ -2361,7 +2671,7 @@
     "group":"MinionDamageOnWeapon",
     "level":1,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (51-70)% increased Damage"]
     },
@@ -2375,7 +2685,7 @@
     "group":"MinionDamageOnWeapon",
     "level":25,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (71-90)% increased Damage"]
     },
@@ -2389,7 +2699,7 @@
     "group":"MinionDamageOnWeapon",
     "level":50,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (91-110)% increased Damage"]
     },
@@ -2403,7 +2713,7 @@
     "group":"MinionDamageOnWeapon",
     "level":75,
     "modTags":["damage","minion"],
-    "statOrder":[1999],
+    "statOrder":[2000],
     "tradeHashes":{
       "1589917703":["Minions deal (111-130)% increased Damage"]
     },
@@ -2417,7 +2727,7 @@
     "group":"SocketedAttacksDamageFinal",
     "level":1,
     "modTags":["skill","damage","attack","gem"],
-    "statOrder":[559],
+    "statOrder":[560],
     "tags":["has_attack_mod"],
     "tradeHashes":{
       "1970781345":["Socketed Skills deal 40% more Attack Damage"]
@@ -2434,7 +2744,7 @@
     "group":"SocketedAttacksDamageFinal",
     "level":1,
     "modTags":["skill","damage","attack","gem"],
-    "statOrder":[559],
+    "statOrder":[560],
     "tags":["has_attack_mod"],
     "tradeHashes":{
       "1970781345":["Socketed Skills deal 20% more Attack Damage"]
@@ -2451,7 +2761,7 @@
     "group":"SocketedSpellsDamageFinal",
     "level":1,
     "modTags":["skill","caster_damage","damage","caster","gem"],
-    "statOrder":[578],
+    "statOrder":[579],
     "tradeHashes":{
       "2964800094":["Socketed Skills deal 40% more Spell Damage"]
     },
@@ -2465,7 +2775,7 @@
     "group":"SocketedSpellsDamageFinal",
     "level":1,
     "modTags":["skill","caster_damage","damage","caster","gem"],
-    "statOrder":[578],
+    "statOrder":[579],
     "tradeHashes":{
       "2964800094":["Socketed Skills deal 20% more Spell Damage"]
     },
@@ -2479,7 +2789,7 @@
     "group":"VaalSoulCost",
     "level":1,
     "modTags":["vaal"],
-    "statOrder":[9631],
+    "statOrder":[9633],
     "tradeHashes":{
       "3533432197":["Non-Aura Vaal Skills require 20% reduced Souls Per Use"]
     },
@@ -2493,7 +2803,7 @@
     "group":"VaalSoulCost",
     "level":1,
     "modTags":["vaal"],
-    "statOrder":[9631],
+    "statOrder":[9633],
     "tradeHashes":{
       "3533432197":["Non-Aura Vaal Skills require 40% reduced Souls Per Use"]
     },
@@ -2502,12 +2812,40 @@
     "weightVal":[0,0,2000,0],
     "1":"Non-Aura Vaal Skills require 40% reduced Souls Per Use"
   },
+  "DoomGainRateDelve":{
+    "affix":"Subterranean",
+    "group":"HitAndAilmentDamageCursedEnemies",
+    "level":60,
+    "modTags":["damage","curse"],
+    "statOrder":[7263],
+    "tradeHashes":{
+      "539970476":["(40-60)% increased Damage with Hits and Ailments against Cursed Enemies"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(40-60)% increased Damage with Hits and Ailments against Cursed Enemies"
+  },
+  "DoubleDamageChanceDelve":{
+    "affix":"of the Underground",
+    "group":"DoubleDamageChance",
+    "level":60,
+    "modTags":["damage"],
+    "statOrder":[5743],
+    "tradeHashes":{
+      "1172810729":["10% chance to deal Double Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% chance to deal Double Damage"
+  },
   "DoubleModSellPrice1":{
     "affix":"",
     "group":"DoubleModSellPrice1",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2521,7 +2859,7 @@
     "group":"DoubleModSellPrice2",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2535,7 +2873,7 @@
     "group":"DoubleModSellPrice3",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2549,7 +2887,7 @@
     "group":"DoubleModSellPrice4",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2563,7 +2901,7 @@
     "group":"DoubleModSellPrice5",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2577,7 +2915,7 @@
     "group":"DoubleModSellPrice6",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2591,7 +2929,7 @@
     "group":"DoubleModSellPrice7",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2605,7 +2943,7 @@
     "group":"DoubleModSellPrice8",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2619,7 +2957,7 @@
     "group":"DoubleModSellPrice9",
     "level":1,
     "modTags":[],
-    "statOrder":[8074],
+    "statOrder":[8075],
     "tradeHashes":{
       "3513534186":["Item sells for much more to vendors"]
     },
@@ -2627,5 +2965,963 @@
     "weightKey":["default"],
     "weightVal":[1000],
     "1":"Item sells for much more to vendors"
+  },
+  "FasterBleedDelve":{
+    "affix":"of the Underground",
+    "group":"FasterBleedDamage",
+    "level":60,
+    "modTags":["physical_damage","bleed","damage","physical","attack","ailment"],
+    "statOrder":[6644],
+    "tradeHashes":{
+      "3828375170":["Bleeding you inflict deals Damage (5-10)% faster"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Bleeding you inflict deals Damage (5-10)% faster"
+  },
+  "FasterIgniteDelve_":{
+    "affix":"of the Underground",
+    "group":"FasterIgniteDamage",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","fire","ailment"],
+    "statOrder":[2594],
+    "tradeHashes":{
+      "2443492284":["Ignites you inflict deal Damage (5-10)% faster"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Ignites you inflict deal Damage (5-10)% faster"
+  },
+  "FasterPoisonDelve_":{
+    "affix":"of the Underground",
+    "group":"FasterPoisonDamage",
+    "level":60,
+    "modTags":["chaos_damage","poison","damage","chaos","ailment"],
+    "statOrder":[6645],
+    "tradeHashes":{
+      "2907156609":["Poisons you inflict deal Damage (5-10)% faster"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Poisons you inflict deal Damage (5-10)% faster"
+  },
+  "FireDamageLifeLeechDelve":{
+    "affix":"Subterranean",
+    "group":"FireDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":["resource","life","elemental","fire"],
+    "statOrder":[1697],
+    "tradeHashes":{
+      "3848282610":["0.4% of Fire Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Fire Damage Leeched as Life"
+  },
+  "FireDamageLifeLeechDelveInverted":{
+    "affix":"Subterranean",
+    "group":"EnemyFireDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":[],
+    "statOrder":[1698],
+    "tradeHashes":{
+      "45548764":["0.4% of Fire Damage Leeched by Enemy as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Fire Damage Leeched by Enemy as Life"
+  },
+  "FireDamageTakenDelve":{
+    "affix":"Subterranean",
+    "group":"FireDamageTaken",
+    "level":60,
+    "modTags":["elemental","fire"],
+    "statOrder":[2269],
+    "tradeHashes":{
+      "3743301799":["(4-6)% reduced Fire Damage taken"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(4-6)% reduced Fire Damage taken"
+  },
+  "ImpaleChanceDelve__":{
+    "affix":"Subterranean",
+    "group":"AttackImpaleChance",
+    "level":60,
+    "modTags":["physical","attack"],
+    "statOrder":[4974],
+    "tradeHashes":{
+      "3739863694":["(5-10)% chance to Impale Enemies on Hit with Attacks"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(5-10)% chance to Impale Enemies on Hit with Attacks"
+  },
+  "IncreaseSocketedCurseGemLevelDelve_":{
+    "affix":"Subterranean",
+    "group":"IncreaseSocketedCurseGemLevel",
+    "level":60,
+    "modTags":["caster","gem","curse"],
+    "statOrder":[193],
+    "tradeHashes":{
+      "3691695237":["+2 to Level of Socketed Curse Gems"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+2 to Level of Socketed Curse Gems"
+  },
+  "IncreasedDamagePerCurseDelve":{
+    "affix":"Subterranean",
+    "group":"IncreasedDamagePerCurse",
+    "level":60,
+    "modTags":["damage"],
+    "statOrder":[3053],
+    "tradeHashes":{
+      "1818773442":["(8-10)% increased Damage with Hits and Ailments per Curse on Enemy"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(8-10)% increased Damage with Hits and Ailments per Curse on Enemy"
+  },
+  "LifeReservationEfficiencyDelve":{
+    "affix":"Subterranean",
+    "group":"LifeReservationEfficiency",
+    "level":60,
+    "modTags":["resource","life"],
+    "statOrder":[2253],
+    "tradeHashes":{
+      "635485889":["10% increased Life Reservation Efficiency of Skills"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% increased Life Reservation Efficiency of Skills"
+  },
+  "LightningAilmentEffectDelve":{
+    "affix":"of the Underground",
+    "group":"LightningAilmentEffect",
+    "level":60,
+    "modTags":["elemental","lightning","ailment"],
+    "statOrder":[7547],
+    "tradeHashes":{
+      "3081816887":["(15-25)% increased Effect of Lightning Ailments"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-25)% increased Effect of Lightning Ailments"
+  },
+  "LightningDamageLifeLeechDelveInverted":{
+    "affix":"Subterranean",
+    "group":"EnemyLightningDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":[],
+    "statOrder":[1707],
+    "tradeHashes":{
+      "3925004212":["0.4% of Lightning Damage Leeched by Enemy as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Lightning Damage Leeched by Enemy as Life"
+  },
+  "LightningDamageLifeLeechDelve__":{
+    "affix":"Subterranean",
+    "group":"LightningDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":["resource","life","elemental","lightning"],
+    "statOrder":[1706],
+    "tradeHashes":{
+      "80079005":["0.4% of Lightning Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Lightning Damage Leeched as Life"
+  },
+  "LightningDamageTakenDelve":{
+    "affix":"Subterranean",
+    "group":"LightningDamageTaken",
+    "level":60,
+    "modTags":["elemental","lightning"],
+    "statOrder":[3428],
+    "tradeHashes":{
+      "1276918229":["(4-6)% reduced Lightning Damage taken"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(4-6)% reduced Lightning Damage taken"
+  },
+  "LocalChaosDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"LocalChaosDamageHybrid",
+    "level":60,
+    "modTags":["chaos_damage","damage","chaos","attack"],
+    "statOrder":[1413,1418],
+    "tradeHashes":{
+      "736967255":["(15-30)% increased Chaos Damage"],
+      "2223678961":["Adds (18-28) to (39-49) Chaos Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-30)% increased Chaos Damage",
+    "2":"Adds (18-28) to (39-49) Chaos Damage"
+  },
+  "LocalChaosDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"LocalChaosDamageHybrid",
+    "level":60,
+    "modTags":["chaos_damage","damage","chaos","attack"],
+    "statOrder":[1413,1418],
+    "tradeHashes":{
+      "736967255":["(15-30)% increased Chaos Damage"],
+      "2223678961":["Adds (32-50) to (68-86) Chaos Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-30)% increased Chaos Damage",
+    "2":"Adds (32-50) to (68-86) Chaos Damage"
+  },
+  "LocalColdDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"LocalColdDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","cold","attack"],
+    "statOrder":[1394,1399],
+    "tradeHashes":{
+      "1037193709":["Adds (15-20) to (30-35) Cold Damage"],
+      "3291658075":["(20-40)% increased Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Cold Damage",
+    "2":"Adds (15-20) to (30-35) Cold Damage"
+  },
+  "LocalColdDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"LocalColdDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","cold","attack"],
+    "statOrder":[1394,1399],
+    "tradeHashes":{
+      "1037193709":["Adds (26-35) to (52-60) Cold Damage"],
+      "3291658075":["(20-40)% increased Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Cold Damage",
+    "2":"Adds (26-35) to (52-60) Cold Damage"
+  },
+  "LocalFireDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"LocalFireDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","fire","attack"],
+    "statOrder":[1385,1390],
+    "tradeHashes":{
+      "709508406":["Adds (18-24) to (36-42) Fire Damage"],
+      "3962278098":["(20-40)% increased Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Fire Damage",
+    "2":"Adds (18-24) to (36-42) Fire Damage"
+  },
+  "LocalFireDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"LocalFireDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","fire","attack"],
+    "statOrder":[1385,1390],
+    "tradeHashes":{
+      "709508406":["Adds (31-42) to (64-74) Fire Damage"],
+      "3962278098":["(20-40)% increased Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Fire Damage",
+    "2":"Adds (31-42) to (64-74) Fire Damage"
+  },
+  "LocalIncreaseSocketedAuraLevelDelve":{
+    "affix":"of the Underground",
+    "group":"LocalIncreaseSocketedAuraLevel",
+    "level":60,
+    "modTags":["aura","gem"],
+    "statOrder":[190],
+    "tradeHashes":{
+      "2452998583":["+2 to Level of Socketed Aura Gems"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+2 to Level of Socketed Aura Gems"
+  },
+  "LocalIncreaseSocketedMinionGemLevelDelve":{
+    "affix":"Subterranean",
+    "group":"LocalIncreaseSocketedMinionGemLevel",
+    "level":60,
+    "modTags":["minion","gem"],
+    "statOrder":[189],
+    "tradeHashes":{
+      "3604946673":["+2 to Level of Socketed Minion Gems"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+2 to Level of Socketed Minion Gems"
+  },
+  "LocalLightningDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"LocalLightningDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","lightning","attack"],
+    "statOrder":[1405,1410],
+    "tradeHashes":{
+      "2231156303":["(20-40)% increased Lightning Damage"],
+      "3336890334":["Adds (2-5) to (63-66) Lightning Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Lightning Damage",
+    "2":"Adds (2-5) to (63-66) Lightning Damage"
+  },
+  "LocalLightningDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"LocalLightningDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","damage","elemental","lightning","attack"],
+    "statOrder":[1405,1410],
+    "tradeHashes":{
+      "2231156303":["(20-40)% increased Lightning Damage"],
+      "3336890334":["Adds (2-9) to (110-116) Lightning Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Lightning Damage",
+    "2":"Adds (2-9) to (110-116) Lightning Damage"
+  },
+  "ManaRegenerationDelve":{
+    "affix":"of the Underground",
+    "group":"ManaRegeneration",
+    "level":60,
+    "modTags":["resource","mana"],
+    "statOrder":[1611],
+    "tradeHashes":{
+      "789117908":["(30-50)% increased Mana Regeneration Rate"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(30-50)% increased Mana Regeneration Rate"
+  },
+  "MarkEffectDelve":{
+    "affix":"of the Underground",
+    "group":"MarkEffect",
+    "level":60,
+    "modTags":["caster","curse"],
+    "statOrder":[2628],
+    "tradeHashes":{
+      "803185500":["(15-25)% increased Effect of your Marks"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-25)% increased Effect of your Marks"
+  },
+  "MaximumChaosResistDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumChaosResistance",
+    "level":60,
+    "modTags":["chaos","resistance"],
+    "statOrder":[1667],
+    "tradeHashes":{
+      "1301765461":["+3% to maximum Chaos Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+3% to maximum Chaos Resistance"
+  },
+  "MaximumColdResistDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumColdResist",
+    "level":60,
+    "modTags":["elemental","cold","resistance"],
+    "statOrder":[1656],
+    "tradeHashes":{
+      "3676141501":["+3% to maximum Cold Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+3% to maximum Cold Resistance"
+  },
+  "MaximumFireResistDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumFireResist",
+    "level":60,
+    "modTags":["elemental","fire","resistance"],
+    "statOrder":[1650],
+    "tradeHashes":{
+      "4095671657":["+3% to maximum Fire Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+3% to maximum Fire Resistance"
+  },
+  "MaximumLightningResistDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumLightningResistance",
+    "level":60,
+    "modTags":["elemental","lightning","resistance"],
+    "statOrder":[1661],
+    "tradeHashes":{
+      "1011760251":["+3% to maximum Lightning Resistance"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+3% to maximum Lightning Resistance"
+  },
+  "MaximumManaIncreasePercentDelve_":{
+    "affix":"Subterranean",
+    "group":"MaximumManaIncreasePercent",
+    "level":60,
+    "modTags":["resource","mana"],
+    "statOrder":[1607],
+    "tradeHashes":{
+      "2748665614":["(10-15)% increased maximum Mana"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(10-15)% increased maximum Mana"
+  },
+  "MaximumMinionCountAmuletSkeletonDelve__":{
+    "affix":"Subterranean",
+    "group":"MaximumMinionCount",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[2189],
+    "tradeHashes":{
+      "125218179":[""],
+      "1652515349":[""],
+      "2428829184":["+1 to maximum number of Skeletons"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+1 to maximum number of Skeletons"
+  },
+  "MaximumMinionCountAmuletZombieDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumMinionCount",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[2187],
+    "tradeHashes":{
+      "125218179":[""],
+      "1652515349":["+1 to maximum number of Raised Zombies"],
+      "2428829184":[""]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+1 to maximum number of Raised Zombies"
+  },
+  "MaximumMinionCountSkeletonDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumMinionCount",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[2189],
+    "tradeHashes":{
+      "125218179":[""],
+      "1652515349":[""],
+      "2428829184":["+1 to maximum number of Skeletons"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+1 to maximum number of Skeletons"
+  },
+  "MaximumMinionCountSpectreDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumMinionCount",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[2188],
+    "tradeHashes":{
+      "125218179":["+1 to maximum number of Spectres"],
+      "1652515349":[""],
+      "2428829184":[""]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+1 to maximum number of Spectres"
+  },
+  "MaximumMinionCountZombieDelve":{
+    "affix":"Subterranean",
+    "group":"MaximumMinionCount",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[2187],
+    "tradeHashes":{
+      "125218179":[""],
+      "1652515349":["+1 to maximum number of Raised Zombies"],
+      "2428829184":[""]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"+1 to maximum number of Raised Zombies"
+  },
+  "MinionAreaOfEffectDelve":{
+    "affix":"Subterranean",
+    "group":"MinionAreaOfEffect",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[3062],
+    "tradeHashes":{
+      "3811191316":["Minions have (20-30)% increased Area of Effect"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Minions have (20-30)% increased Area of Effect"
+  },
+  "MinionCriticalStrikeMultiplierDelve":{
+    "affix":"of the Underground",
+    "group":"MinionCriticalStrikeMultiplier",
+    "level":60,
+    "modTags":["damage","minion","critical"],
+    "statOrder":[9435],
+    "tradeHashes":{
+      "1854213750":["Minions have +(30-38)% to Critical Strike Multiplier"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Minions have +(30-38)% to Critical Strike Multiplier"
+  },
+  "MinionDamageDelve":{
+    "affix":"of the Underground",
+    "group":"MinionDamage",
+    "level":60,
+    "modTags":["damage","minion"],
+    "statOrder":[2000],
+    "tradeHashes":{
+      "1589917703":["Minions deal (25-35)% increased Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Minions deal (25-35)% increased Damage"
+  },
+  "MinionLargerAggroRadiusDelve":{
+    "affix":"of the Underground",
+    "group":"MinionLargerAggroRadius",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[10936],
+    "tradeHashes":{
+      "128585622":["Minions are Aggressive"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Minions are Aggressive"
+  },
+  "MinionLeechDelve___":{
+    "affix":"Subterranean",
+    "group":"MinionLifeLeech",
+    "level":60,
+    "modTags":["resource","life","minion"],
+    "statOrder":[2948],
+    "tradeHashes":{
+      "2770782267":["Minions Leech 1% of Damage as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Minions Leech 1% of Damage as Life"
+  },
+  "PercentDamageGoesToManaDelve":{
+    "affix":"of the Underground",
+    "group":"PercentDamageGoesToMana",
+    "level":60,
+    "modTags":["resource","mana"],
+    "statOrder":[2484],
+    "tradeHashes":{
+      "472520716":["(5-8)% of Damage taken Recouped as Mana"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(5-8)% of Damage taken Recouped as Mana"
+  },
+  "PhysicalDamageConvertedToColdDelve":{
+    "affix":"Subterranean",
+    "group":"ConvertPhysicalToCold",
+    "level":60,
+    "modTags":["physical_damage","elemental_damage","damage","physical","elemental","cold"],
+    "statOrder":[1984],
+    "tradeHashes":{
+      "2133341901":["10% of Physical Damage Converted to Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage Converted to Cold Damage"
+  },
+  "PhysicalDamageConvertedToFireDelve":{
+    "affix":"Subterranean",
+    "group":"ConvertPhysicalToFire",
+    "level":60,
+    "modTags":["physical_damage","elemental_damage","damage","physical","elemental","fire"],
+    "statOrder":[1982],
+    "tradeHashes":{
+      "1533563525":["10% of Physical Damage Converted to Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage Converted to Fire Damage"
+  },
+  "PhysicalDamageConvertedToLightningDelve":{
+    "affix":"Subterranean",
+    "group":"ConvertPhysicalToLightning",
+    "level":60,
+    "modTags":["physical_damage","elemental_damage","damage","physical","elemental","lightning"],
+    "statOrder":[1986],
+    "tradeHashes":{
+      "3240769289":["10% of Physical Damage Converted to Lightning Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage Converted to Lightning Damage"
+  },
+  "PhysicalDamageLifeLeechDelve":{
+    "affix":"Subterranean",
+    "group":"PhysicalDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":["resource","life","physical"],
+    "statOrder":[1693],
+    "tradeHashes":{
+      "3764265320":["0.4% of Physical Damage Leeched as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Physical Damage Leeched as Life"
+  },
+  "PhysicalDamageLifeLeechDelveInverted":{
+    "affix":"Subterranean",
+    "group":"EnemyPhysicalDamageLifeLeechPermyriad",
+    "level":60,
+    "modTags":[],
+    "statOrder":[1694],
+    "tradeHashes":{
+      "3423022686":["0.4% of Physical Damage Leeched by Enemy as Life"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"0.4% of Physical Damage Leeched by Enemy as Life"
+  },
+  "PhysicalDamageTakenAsChaosDelve":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageTakenAsChaosUber",
+    "level":60,
+    "modTags":["physical","chaos"],
+    "statOrder":[2480],
+    "tradeHashes":{
+      "4129825612":["10% of Physical Damage from Hits taken as Chaos Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage from Hits taken as Chaos Damage"
+  },
+  "PhysicalDamageTakenAsColdDelve":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageTakenAsColdUber",
+    "level":60,
+    "modTags":["physical","elemental","cold"],
+    "statOrder":[2477],
+    "tradeHashes":{
+      "1871056256":["10% of Physical Damage from Hits taken as Cold Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage from Hits taken as Cold Damage"
+  },
+  "PhysicalDamageTakenAsFireDelve":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageTakenAsFireUber",
+    "level":60,
+    "modTags":["physical","elemental","fire"],
+    "statOrder":[2476],
+    "tradeHashes":{
+      "3342989455":["10% of Physical Damage from Hits taken as Fire Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage from Hits taken as Fire Damage"
+  },
+  "PhysicalDamageTakenAsLightningDelve_":{
+    "affix":"of the Underground",
+    "group":"PhysicalDamageTakenAsLightningUber",
+    "level":60,
+    "modTags":["physical","elemental","lightning"],
+    "statOrder":[2478],
+    "tradeHashes":{
+      "425242359":["10% of Physical Damage from Hits taken as Lightning Damage"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% of Physical Damage from Hits taken as Lightning Damage"
+  },
+  "ReducedManaReservationsCostDelve_":{
+    "affix":"of the Underground",
+    "group":"ReducedReservation",
+    "level":60,
+    "modTags":["resource","mana"],
+    "statOrder":[2259],
+    "tradeHashes":{
+      "1269219558":["10% increased Mana Reservation Efficiency of Skills"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"10% increased Mana Reservation Efficiency of Skills"
+  },
+  "ReducedPhysicalDamageTakenDelve":{
+    "affix":"of the Underground",
+    "group":"ReducedPhysicalDamageTaken",
+    "level":60,
+    "modTags":["physical"],
+    "statOrder":[2300],
+    "tradeHashes":{
+      "3771516363":["(3-5)% additional Physical Damage Reduction"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(3-5)% additional Physical Damage Reduction"
+  },
+  "SpellAddedChaosDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedChaosDamageHybrid",
+    "level":60,
+    "modTags":["caster_damage","chaos_damage","damage","chaos","caster"],
+    "statOrder":[1413,1435],
+    "tradeHashes":{
+      "736967255":["(15-30)% increased Chaos Damage"],
+      "2300399854":["Adds (14-19) to (29-33) Chaos Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-30)% increased Chaos Damage",
+    "2":"Adds (14-19) to (29-33) Chaos Damage to Spells"
+  },
+  "SpellAddedChaosDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedChaosDamageHybrid",
+    "level":60,
+    "modTags":["caster_damage","chaos_damage","damage","chaos","caster"],
+    "statOrder":[1413,1435],
+    "tradeHashes":{
+      "736967255":["(15-30)% increased Chaos Damage"],
+      "2300399854":["Adds (23-30) to (45-53) Chaos Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(15-30)% increased Chaos Damage",
+    "2":"Adds (23-30) to (45-53) Chaos Damage to Spells"
+  },
+  "SpellAddedColdDamageHybridDelve_":{
+    "affix":"Subterranean",
+    "group":"SpellAddedColdDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","caster_damage","damage","elemental","cold","caster"],
+    "statOrder":[1394,1433],
+    "tradeHashes":{
+      "2469416729":["Adds (15-20) to (30-35) Cold Damage to Spells"],
+      "3291658075":["(20-40)% increased Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Cold Damage",
+    "2":"Adds (15-20) to (30-35) Cold Damage to Spells"
+  },
+  "SpellAddedColdDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedColdDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","caster_damage","damage","elemental","cold","caster"],
+    "statOrder":[1394,1433],
+    "tradeHashes":{
+      "2469416729":["Adds (27-36) to (54-63) Cold Damage to Spells"],
+      "3291658075":["(20-40)% increased Cold Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Cold Damage",
+    "2":"Adds (27-36) to (54-63) Cold Damage to Spells"
+  },
+  "SpellAddedFireDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedFireDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","caster_damage","damage","elemental","fire","caster"],
+    "statOrder":[1385,1432],
+    "tradeHashes":{
+      "1133016593":["Adds (18-25) to (36-43) Fire Damage to Spells"],
+      "3962278098":["(20-40)% increased Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Fire Damage",
+    "2":"Adds (18-25) to (36-43) Fire Damage to Spells"
+  },
+  "SpellAddedFireDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedFireDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","caster_damage","damage","elemental","fire","caster"],
+    "statOrder":[1385,1432],
+    "tradeHashes":{
+      "1133016593":["Adds (30-39) to (59-69) Fire Damage to Spells"],
+      "3962278098":["(20-40)% increased Fire Damage"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Fire Damage",
+    "2":"Adds (30-39) to (59-69) Fire Damage to Spells"
+  },
+  "SpellAddedLightningDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedLightningDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","caster_damage","damage","elemental","lightning","caster"],
+    "statOrder":[1405,1434],
+    "tradeHashes":{
+      "2231156303":["(20-40)% increased Lightning Damage"],
+      "2831165374":["Adds (1-5) to (63-66) Lightning Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Lightning Damage",
+    "2":"Adds (1-5) to (63-66) Lightning Damage to Spells"
+  },
+  "SpellAddedLightningDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedLightningDamageHybrid",
+    "level":60,
+    "modTags":["elemental_damage","caster_damage","damage","elemental","lightning","caster"],
+    "statOrder":[1405,1434],
+    "tradeHashes":{
+      "2231156303":["(20-40)% increased Lightning Damage"],
+      "2831165374":["Adds (3-9) to (114-120) Lightning Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Lightning Damage",
+    "2":"Adds (3-9) to (114-120) Lightning Damage to Spells"
+  },
+  "SpellAddedPhysicalDamageHybridDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedPhysicalDamageHybrid",
+    "level":60,
+    "modTags":["physical_damage","caster_damage","damage","physical","caster"],
+    "statOrder":[1258,1431],
+    "tradeHashes":{
+      "1310194496":["(20-40)% increased Global Physical Damage"],
+      "2435536961":["Adds (14-19) to (29-33) Physical Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Global Physical Damage",
+    "2":"Adds (14-19) to (29-33) Physical Damage to Spells"
+  },
+  "SpellAddedPhysicalDamageHybridTwoHandDelve":{
+    "affix":"Subterranean",
+    "group":"SpellAddedPhysicalDamageHybrid",
+    "level":60,
+    "modTags":["physical_damage","caster_damage","damage","physical","caster"],
+    "statOrder":[1258,1431],
+    "tradeHashes":{
+      "1310194496":["(20-40)% increased Global Physical Damage"],
+      "2435536961":["Adds (23-30) to (45-53) Physical Damage to Spells"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"(20-40)% increased Global Physical Damage",
+    "2":"Adds (23-30) to (45-53) Physical Damage to Spells"
+  },
+  "SpiritAndPhantasmRefreshOnUniqueDelve":{
+    "affix":"Subterranean",
+    "group":"SpiritAndPhantasmRefreshOnUnique",
+    "level":60,
+    "modTags":["minion"],
+    "statOrder":[9769,9958],
+    "tradeHashes":{
+      "7847395":["Summoned Phantasms have 5% chance to refresh their Duration when they Hit a Rare or Unique Enemy"],
+      "4070754804":["Summoned Raging Spirits have 5% chance to refresh their Duration when they Hit a Rare or Unique Enemy"]
+    },
+    "type":"Prefix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Summoned Phantasms have 5% chance to refresh their Duration when they Hit a Rare or Unique Enemy",
+    "2":"Summoned Raging Spirits have 5% chance to refresh their Duration when they Hit a Rare or Unique Enemy"
+  },
+  "ZeroChaosResistanceDelve":{
+    "affix":"of the Underground",
+    "group":"ZeroChaosResistanceDelve",
+    "level":60,
+    "modTags":["chaos","resistance"],
+    "statOrder":[10901],
+    "tradeHashes":{
+      "2439129490":["Chaos Resistance is Zero"]
+    },
+    "type":"Suffix",
+    "weightKey":["default"],
+    "weightVal":[0],
+    "1":"Chaos Resistance is Zero"
   }
 }
