@@ -50336,6 +50336,7 @@
           "skillId":"PrimalBountyPlayer"
         }
       }]],
+  "Grants Skill: Queen's Procession":[],
   "Grants Skill: Raise Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -51504,6 +51505,24 @@
             "value":30
           }
         }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyFireExposure",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyColdExposure",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyLightningExposure",
+        "type":"FLAG",
+        "value":true
       }]],
   "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 55%":[[{
         "flags":0,
@@ -51547,6 +51566,24 @@
             "value":55
           }
         }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyFireExposure",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyColdExposure",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyLightningExposure",
+        "type":"FLAG",
+        "value":true
       }]],
   "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by 60%":[[{
         "flags":0,
@@ -51590,6 +51627,24 @@
             "value":60
           }
         }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyFireExposure",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyColdExposure",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:CanApplyLightningExposure",
+        "type":"FLAG",
+        "value":true
       }]],
   "Inflict Elemental Exposure to Enemies 3 metres in front of you":[null,"Inflict Elemental Exposure to Enemies 3 metres in front of you "],
   "Inflict Elemental Exposure to Enemies 3 metres in front of you for 4 seconds, every 0.25 seconds while raised":[null,"Inflict Elemental Exposure to Enemies 3 metres in front of you for 4 seconds, every 0.25 seconds while raised "],
@@ -57568,7 +57623,6 @@
           "var":"LeechingMana"
         }
       }]],
-  "Unaffected by Elemental Weakness":[null,"Unaffected by Elemental Weakness "],
   "Unarmed Attacks that would use an Equipped One Hand Mace's damage use this Item's damage":[[{
         "flags":0,
         "keywordFlags":0,

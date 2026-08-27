@@ -36074,23 +36074,10 @@
   "10% of Damage from Hits is taken from your Raised Spectres' Life before you":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"Damage",
-            "type":"BASE",
-            "value":10
-          }
-        },
-        "1":{
-          "includeTransfigured":true,
-          "skillName":"Raise Spectre",
-          "type":"SkillName"
-        }
-      }],"  from Hits is taken from your s' Life before you "],
+        "name":"takenFromSpectresBeforeYou",
+        "type":"BASE",
+        "value":10
+      }]],
   "10% of Damage is taken from Mana before Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -217019,8 +217006,8 @@
       }]],
   "Totems have 5% more Life per maximum number of Summoned Totems":[[{
         "flags":0,
-        "keywordFlags":16384,
-        "name":"Life",
+        "keywordFlags":0,
+        "name":"TotemLife",
         "type":"MORE",
         "value":5,
         "1":{
