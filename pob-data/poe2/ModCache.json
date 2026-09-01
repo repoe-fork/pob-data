@@ -1858,14 +1858,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":100
-      }]," maximum Runic  "],
-  "+100 to maximum Runic Ward 150% increased Armour":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"BASE",
-        "value":100
-      }]," maximum Runic  150% increased Armour "],
+      }]],
   "+100% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -2379,7 +2372,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":125
-      }]," maximum Runic  "],
+      }]],
   "+125% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8729,7 +8722,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":300
-      }]," maximum Runic  "],
+      }]],
   "+308 to maximum Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -8820,7 +8813,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":35
-      }]," maximum Runic  "],
+      }]],
   "+35% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9482,14 +9475,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":40
-      }]," maximum Runic  "],
-  "+40 to maximum Runic Ward 50% increased Critical Hit Chance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"BASE",
-        "value":40
-      }]," maximum Runic  50% increased Critical Hit Chance "],
+      }]],
   "+40% of Armour also applies to Elemental Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10119,14 +10105,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":50
-      }]," maximum Runic  "],
-  "+50 to maximum Runic Ward 300% increased Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Ward",
-        "type":"BASE",
-        "value":50
-      }]," maximum Runic  300% increased Physical Damage "],
+      }]],
   "+50% Global Critical Damage Bonus while you have no Frenzy Charges":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10904,7 +10883,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":70
-      }]," maximum Runic  "],
+      }]],
   "+70% to Critical Damage Bonus":[[{
         "flags":0,
         "keywordFlags":0,
@@ -10978,7 +10957,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":75
-      }]," maximum Runic  "],
+      }]],
   "+75% to Cold Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11404,7 +11383,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":85
-      }]," maximum Runic  "],
+      }]],
   "+86 to maximum Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -11425,7 +11404,7 @@
         "name":"Ward",
         "type":"BASE",
         "value":875
-      }]," maximum Runic  "],
+      }]],
   "+88 to Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -12572,31 +12551,9 @@
           "var":"FragileRegrowthCount"
         }
       }]],
-  "1 Boots socket":[[]," Boots socket "],
-  "1 Gloves socket":[[]," Gloves socket "],
-  "1 Gloves socket 1 Boots socket":[[]," Gloves socket 1 Boots socket "],
-  "1 Helmet socket":[[]," Helmet socket "],
-  "1 Helmet socket 2 Body Armour sockets":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":1
-      }]," Helmet socket 2 Body  sockets "],
-  "1 Helmet socket 2 Body Armour sockets 1 Gloves socket":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":1
-      }]," Helmet socket 2 Body  sockets 1 Gloves socket "],
-  "1 Helmet socket 2 Body Armour sockets 1 Gloves socket 1 Boots socket":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":1
-      }]," Helmet socket 2 Body  sockets 1 Gloves socket 1 Boots socket "],
+  "1 Boots socket":[[]],
+  "1 Gloves socket":[[]],
+  "1 Helmet socket":[[]],
   "1 Rage Regenerated for every 25 Mana Regeneration per Second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -13970,14 +13927,46 @@
   "10% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":10
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":10
       }]],
   "10% increased Armour, Evasion and Energy Shield while your Companion is in your Presence":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":10,
         "1":{
@@ -14805,7 +14794,33 @@
   "10% increased Global Armour, Evasion and Energy Shield per Socket filled":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"RunesSocketedIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":10,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"RunesSocketedIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":10,
         "1":{
@@ -16216,14 +16231,54 @@
   "100% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":100
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":100
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":100
       }]],
   "100% increased Armour, Evasion and Energy Shield from Equipped Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":100,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":100,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":100,
         "1":{
@@ -17230,7 +17285,33 @@
   "11% increased Global Armour, Evasion and Energy Shield per Socket filled":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":11,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"RunesSocketedIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":11,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"RunesSocketedIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":11,
         "1":{
@@ -17952,7 +18033,33 @@
   "12% increased Global Armour, Evasion and Energy Shield per Socket filled":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":12,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"RunesSocketedIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":12,
+        "1":{
+          "type":"Global"
+        },
+        "2":{
+          "type":"Multiplier",
+          "var":"RunesSocketedIn{SlotName}"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":12,
         "1":{
@@ -18386,7 +18493,19 @@
   "120% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":120
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":120
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":120
       }]],
@@ -19843,7 +19962,35 @@
   "15% increased Armour, Evasion and Energy Shield from Equipped Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":15,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":15,
         "1":{
@@ -21636,7 +21783,19 @@
   "15% less Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"MORE",
+        "value":-15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"MORE",
+        "value":-15
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"MORE",
         "value":-15
       }]],
@@ -22101,7 +22260,19 @@
   "150% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":150
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":150
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":150
       }]],
@@ -22888,7 +23059,19 @@
   "175% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":175
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":175
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":175
       }]],
@@ -23024,7 +23207,19 @@
   "18% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":18
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":18
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":18
       }]],
@@ -23403,7 +23598,7 @@
         "name":"Ward",
         "type":"INC",
         "value":18
-      }]," maximum Runic  "],
+      }]],
   "18% more Global Evasion Rating and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23512,27 +23707,7 @@
         "type":"INC",
         "value":195
       }]],
-  "2 Body Armour sockets":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":2
-      }]," Body  sockets "],
-  "2 Body Armour sockets 1 Gloves socket":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":2
-      }]," Body  sockets 1 Gloves socket "],
-  "2 Body Armour sockets 1 Gloves socket 1 Boots socket":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"Armour",
-        "type":"BASE",
-        "value":2
-      }]," Body  sockets 1 Gloves socket 1 Boots socket "],
+  "2 Body Armour sockets":[[]],
   "2 Enemy Writhing Worms escape the Flask when used Writhing Worms are destroyed when Hit":[[]," Enemy Writhing Worms escape the Flask when used Writhing Worms are destroyed when Hit "],
   "2 Life Regeneration per second":[[{
         "flags":0,
@@ -24357,10 +24532,10 @@
   "20% Life Recovery from Flasks also applies to Runic Ward":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"FlaskLifeRecovery",
+        "name":"LifeFlaskRecoveryAppliesToWard",
         "type":"BASE",
         "value":20
-      }],"%  also applies to Runic Ward "],
+      }]],
   "20% chance for Attack Hits to apply Incision":[[{
         "flags":0,
         "keywordFlags":0,
@@ -24865,14 +25040,54 @@
   "20% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":20
       }]],
   "20% increased Armour, Evasion and Energy Shield from Equipped Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":20,
         "1":{
@@ -24887,7 +25102,27 @@
   "20% increased Armour, Evasion and Energy Shield while your Companion is in your Presence":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Condition",
+          "var":"CompanionInPresence"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":20,
         "1":{
@@ -25729,7 +25964,25 @@
   "20% increased Global Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Global"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "type":"Global"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":20,
         "1":{
@@ -26673,7 +26926,19 @@
   "20% less Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"MORE",
+        "value":-20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"MORE",
+        "value":-20
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"MORE",
         "value":-20
       }]],
@@ -27291,7 +27556,19 @@
   "200% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":200
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":200
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":200
       }]],
@@ -27518,7 +27795,19 @@
   "225% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":225
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":225
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":225
       }]],
@@ -27801,7 +28090,19 @@
   "24% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":24
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":24
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":24
       }]],
@@ -28229,7 +28530,35 @@
   "25% increased Armour, Evasion and Energy Shield from Equipped Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":25,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":25,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":25,
         "1":{
@@ -30055,7 +30384,19 @@
   "25% reduced Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":-25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":-25
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":-25
       }]],
@@ -30402,7 +30743,19 @@
   "250% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":250
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":250
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":250
       }]],
@@ -30736,7 +31089,47 @@
   "3% increased Armour, Evasion and Energy Shield from Equipped Shield per 10 Devotion":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        },
+        "3":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Devotion",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        },
+        "3":{
+          "actor":"parent",
+          "div":10,
+          "stat":"Devotion",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":3,
         "1":{
@@ -31870,14 +32263,46 @@
   "30% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":30
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":30
       }]],
   "30% increased Armour, Evasion and Energy Shield while wielding a Quarterstaff":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UsingStaff"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":30,
+        "1":{
+          "type":"Condition",
+          "var":"UsingStaff"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":30,
         "1":{
@@ -33047,10 +33472,10 @@
   "30% increased Runic Ward Regeneration Rate":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Ward",
+        "name":"WardRegen",
         "type":"INC",
         "value":30
-      }]," Runic  Regeneration Rate "],
+      }]],
   "30% increased Shock Chance against Electrocuted Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -33713,7 +34138,25 @@
   "30% reduced Global Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":-30,
+        "1":{
+          "type":"Global"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":-30,
+        "1":{
+          "type":"Global"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":-30,
         "1":{
@@ -33879,7 +34322,19 @@
   "300% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":300
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":300
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":300
       }]],
@@ -33907,7 +34362,19 @@
   "305% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":305
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":305
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":305
       }]],
@@ -34345,7 +34812,19 @@
   "35% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":35
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":35
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":35
       }]],
@@ -34723,10 +35202,10 @@
   "35% increased Runic Ward Regeneration Rate":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Ward",
+        "name":"WardRegen",
         "type":"INC",
         "value":35
-      }]," Runic  Regeneration Rate "],
+      }]],
   "35% increased Spell Area Damage":[[{
         "flags":514,
         "keywordFlags":0,
@@ -34945,7 +35424,19 @@
   "350% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":350
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":350
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":350
       }]],
@@ -34959,7 +35450,19 @@
   "36% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":36
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":36
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":36
       }]],
@@ -35099,10 +35602,10 @@
   "38% increased Runic Ward Regeneration Rate":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Ward",
+        "name":"WardRegen",
         "type":"INC",
         "value":38
-      }]," Runic  Regeneration Rate "],
+      }]],
   "38% of Spell Mana Cost Converted to Life Cost":[[{
         "flags":0,
         "keywordFlags":0,
@@ -35255,7 +35758,27 @@
   "4% increased Armour, Evasion and Energy Shield while Channelling":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "type":"Condition",
+          "var":"Channelling"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "type":"Condition",
+          "var":"Channelling"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":4,
         "1":{
@@ -37387,7 +37910,19 @@
   "400% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":400
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":400
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":400
       }]],
@@ -38084,7 +38619,47 @@
   "5% increased Armour, Evasion and Energy Shield from Equipped Shield per 25 Tribute":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        },
+        "3":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        },
+        "3":{
+          "actor":"parent",
+          "div":25,
+          "stat":"Tribute",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":5,
         "1":{
@@ -38421,7 +38996,25 @@
   "5% increased Global Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "type":"Global"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":5,
+        "1":{
+          "type":"Global"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":5,
         "1":{
@@ -39283,7 +39876,35 @@
   "50% increased Armour, Evasion and Energy Shield from Equipped Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":50,
+        "1":{
+          "slotName":"Weapon 2",
+          "type":"SlotName"
+        },
+        "2":{
+          "type":"Condition",
+          "var":"UsingShield"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":50,
         "1":{
@@ -42058,7 +42679,19 @@
   "60% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":60
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":60
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":60
       }]],
@@ -42494,7 +43127,19 @@
   "62% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":62
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":62
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":62
       }]],
@@ -43275,7 +43920,19 @@
   "74% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":74
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":74
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":74
       }]],
@@ -43771,7 +44428,27 @@
   "8% increased Armour, Evasion and Energy Shield while Channelling":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":8,
+        "1":{
+          "type":"Condition",
+          "var":"Channelling"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":8,
+        "1":{
+          "type":"Condition",
+          "var":"Channelling"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":8,
         "1":{
@@ -44829,7 +45506,19 @@
   "80% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":80
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":80
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":80
       }]],
@@ -45225,7 +45914,19 @@
   "86% increased Armour, Evasion and Energy Shield":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Defences",
+        "name":"Armour",
+        "type":"INC",
+        "value":86
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Evasion",
+        "type":"INC",
+        "value":86
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
         "type":"INC",
         "value":86
       }]],
@@ -59348,12 +60049,13 @@
   "Can only use a Normal Body Armour":[null,"Can only use a Normal Body Armour "],
   "Can only use a Normal Body Armour +200 to Armour for each Connected Notable Passive Skill Allocated":[null,"Can only use a Normal Body Armour +200 to Armour for each Connected Notable Passive Skill Allocated "],
   "Can roll Ring Modifiers":[null,"Can roll Ring Modifiers "],
-  "Can tattoo Runes onto your body, gaining":[null,"Can tattoo Runes onto your body, gaining "],
-  "Can tattoo Runes onto your body, gaining additional Rune-only sockets:":[null,"Can tattoo Runes onto your body, gaining additional Rune-only sockets: "],
-  "Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket":[null,"Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket "],
-  "Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets":[null,"Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets "],
-  "Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket":[null,"Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket "],
-  "Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket 1 Boots socket":[null,"Can tattoo Runes onto your body, gaining additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket 1 Boots socket "],
+  "Can tattoo Runes onto your body, gaining":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"SocketRunesOnCharacter",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Can't use Body Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -68280,7 +68982,7 @@
   "Gain the benefits of Bonded modifiers on Runes and Idols":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"Condition:CanUseBondedModifiers",
+        "name":"CanUseBonded",
         "type":"FLAG",
         "value":true
       }]],
@@ -73713,24 +74415,13 @@
         "value":5,
         "1":{
           "type":"Condition",
-          "var":"UsingFlask"
-        }
-      }]," while you have no Runic   "],
-  "Lose 5% Life per second while you have no Runic Ward during Effect Mana Recovery from Flasks can Overflow maximum Mana during Effect":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"LifeDegenPercent",
-        "type":"BASE",
-        "value":5,
-        "1":{
-          "type":"Condition",
-          "var":"UsingFlask"
+          "var":"NoRunicWard"
         },
         "2":{
           "type":"Condition",
           "var":"UsingFlask"
         }
-      }]," while you have no Runic   Mana Recovery from Flasks can Overflow maximum Mana  "],
+      }]],
   "Lose 5% of Energy Shield per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -76469,7 +77160,47 @@
           "mod":{
             "flags":0,
             "keywordFlags":0,
-            "name":"Defences",
+            "name":"Armour",
+            "type":"INC",
+            "value":5
+          },
+          "onlyAllies":true
+        },
+        "1":{
+          "div":100,
+          "stat":"Str",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"Evasion",
+            "type":"INC",
+            "value":5
+          },
+          "onlyAllies":true
+        },
+        "1":{
+          "div":100,
+          "stat":"Str",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"EnergyShield",
             "type":"INC",
             "value":5
           },
@@ -78931,7 +79662,13 @@
         "value":20
       }]],
   "Recover 20 Mana when Used":[null,"Recover 20 Mana when Used "],
-  "Recover 20 Runic Ward when you Block":[null,"Recover 20 Runic Ward when you Block "],
+  "Recover 20 Runic Ward when you Block":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardOnBlock",
+        "type":"BASE",
+        "value":20
+      }]],
   "Recover 20% of Missing Life before being Hit by an Enemy":[null,"Recover 20% of Missing Life before being Hit by an Enemy "],
   "Recover 20% of Missing Life before being Hit by an Enemy Recover 30% of Missing Life before being Hit by an Enemy":[null,"Recover 20% of Missing Life before being Hit by an Enemy Recover 30% of Missing Life before being Hit by an Enemy "],
   "Recover 20% of maximum Life on Rampage":[null,"Recover 20% of maximum Life on Rampage "],
@@ -79654,7 +80391,17 @@
           "var":"LowLife"
         }
       }]],
-  "Regenerate 3.8% of maximum Runic Ward per second during Effect":[[],"  "],
+  "Regenerate 3.8% of maximum Runic Ward per second during Effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardRegenPercent",
+        "type":"BASE",
+        "value":3.8,
+        "1":{
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "Regenerate 35 Mana per second if all Equipped Items are Corrupted":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80336,8 +81083,13 @@
         "keywordFlags":0,
         "name":"DamageGainAsLightning",
         "type":"BASE",
-        "value":5
-      }],"   per 50 Runic Ward Cost "],
+        "value":5,
+        "1":{
+          "div":50,
+          "stat":"WardCost",
+          "type":"PerStat"
+        }
+      }]],
   "Skills Gain 50% of Mana Cost as Extra Life Cost":[[{
         "flags":0,
         "keywordFlags":0,
@@ -83936,11 +84688,7 @@
         }
       }]],
   "additional Elemental Infusion of the same type":[null,"additional Elemental Infusion of the same type "],
-  "additional Rune-only sockets:":[null,"additional Rune-only sockets: "],
-  "additional Rune-only sockets: 1 Helmet socket":[null,"additional Rune-only sockets: 1 Helmet socket "],
-  "additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets":[null,"additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets "],
-  "additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket":[null,"additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket "],
-  "additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket 1 Boots socket":[null,"additional Rune-only sockets: 1 Helmet socket 2 Body Armour sockets 1 Gloves socket 1 Boots socket "],
+  "additional Rune-only sockets:":[[]],
   "as being boosted by Chilled Ground":[null,"as being boosted by Chilled Ground "],
   "as being boosted by Ignited Ground":[null,"as being boosted by Ignited Ground "],
   "as being boosted by Ignited, Shocked, and Chilled Ground":[null,"as being boosted by Ignited, Shocked, and Chilled Ground "],
