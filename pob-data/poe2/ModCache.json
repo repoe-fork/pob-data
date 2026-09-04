@@ -61796,8 +61796,29 @@
   "Consumes Frenzy Charges on use":[null,"Consumes Frenzy Charges on use "],
   "Consumes a Void Charge to Trigger Level 20 Void Shot when you fire Arrows with a Non-Triggered Skill":[[]],
   "Consuming Glory grants you 3% increased Attack damage per Glory consumed for 6 seconds, up to 60%":[null,"Consuming Glory grants you 3% increased Attack damage per Glory consumed for 6 seconds, up to 60% "],
-  "Convert 1% of maximum Life to twice as much Armour per 1% Chaos Resistance above 0%":[null,"Convert 1% of maximum Life to twice as much Armour per 1% Chaos Resistance above 0% "],
-  "Convert 1% of maximum Life to twice as much Armour per 1% Chaos Resistance above 0% Defend with 200% of Armour while you have Energy Shield":[null,"Convert 1% of maximum Life to twice as much Armour per 1% Chaos Resistance above 0% Defend with 200% of Armour while you have Energy Shield "],
+  "Convert 1% of maximum Life to twice as much Armour per 1% Chaos Resistance above 0%":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeConvertToArmour",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "div":1,
+          "stat":"ChaosResist",
+          "type":"PerStat"
+        }
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LifeGainAsArmour",
+        "type":"BASE",
+        "value":1,
+        "1":{
+          "div":1,
+          "stat":"ChaosResist",
+          "type":"PerStat"
+        }
+      }]],
   "Convert 100% of Fire Damage with Mace Skills to Cold Damage":[null,"Convert 100% of Fire Damage with Mace Skills to Cold Damage "],
   "Convert 100% of maximum Energy Shield to maximum Divinity":[null,"Convert 100% of maximum Energy Shield to maximum Divinity "],
   "Convert 100% of maximum Energy Shield to maximum Divinity 100% increased maximum Divinity":[null,"Convert 100% of maximum Energy Shield to maximum Divinity 100% increased maximum Divinity "],
@@ -63000,7 +63021,17 @@
         }
       }]],
   "Defend with 150% of Armour against Hits from Enemies that are further than 6m away":[null,"Defend with 150% of Armour against Hits from Enemies that are further than 6m away "],
-  "Defend with 175% of Armour while you have Energy Shield":[null,"Defend with 175% of Armour while you have Energy Shield "],
+  "Defend with 175% of Armour while you have Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourDefense",
+        "type":"MAX",
+        "value":75,
+        "1":{
+          "type":"Condition",
+          "var":"HaveEnergyShield"
+        }
+      }]],
   "Defend with 200% of Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -63017,8 +63048,17 @@
         "type":"MAX",
         "value":100
       }]],
-  "Defend with 200% of Armour while you have Energy Shield":[null,"Defend with 200% of Armour while you have Energy Shield "],
-  "Defend with 200% of Armour while you have Energy Shield Damage over Time cannot bypass your Energy Shield":[null,"Defend with 200% of Armour while you have Energy Shield Damage over Time cannot bypass your Energy Shield "],
+  "Defend with 200% of Armour while you have Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourDefense",
+        "type":"MAX",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"HaveEnergyShield"
+        }
+      }]],
   "Deflected Hits cannot inflict Bleeding on you":[null,"Deflected Hits cannot inflict Bleeding on you "],
   "Deflected Hits cannot inflict Maim on you":[null,"Deflected Hits cannot inflict Maim on you "],
   "Deflected Hits cannot inflict Maim on you Deflected Hits cannot inflict Bleeding on you":[null,"Deflected Hits cannot inflict Maim on you Deflected Hits cannot inflict Bleeding on you "],
