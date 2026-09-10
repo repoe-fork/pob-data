@@ -1911,6 +1911,13 @@
         "type":"BASE",
         "value":100
       }]],
+  "+100% to Fire Resistance":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FireResist",
+        "type":"BASE",
+        "value":100
+      }]],
   "+100% to Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -21586,6 +21593,13 @@
           "var":"ManaSpentRecently"
         }
       }]],
+  "15% increased Spirit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Spirit",
+        "type":"INC",
+        "value":15
+      }]],
   "15% increased Strength":[[{
         "flags":0,
         "keywordFlags":0,
@@ -23651,10 +23665,24 @@
         "type":"INC",
         "value":-18
       }]],
+  "180% increased Armour and Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourAndEnergyShield",
+        "type":"INC",
+        "value":180
+      }]],
   "180% increased Armour and Evasion":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"ArmourAndEvasion",
+        "type":"INC",
+        "value":180
+      }]],
+  "180% increased Evasion and Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EvasionAndEnergyShield",
         "type":"INC",
         "value":180
       }]],
@@ -34338,6 +34366,13 @@
         "type":"INC",
         "value":300
       }]],
+  "300% increased Energy Shield":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"INC",
+        "value":300
+      }]],
   "300% increased Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -42916,6 +42951,13 @@
           "type":"SkillType"
         }
       }]],
+  "60% increased Mana Regeneration Rate":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ManaRegen",
+        "type":"INC",
+        "value":60
+      }]],
   "60% increased Mana Regeneration Rate while Surrounded":[[{
         "flags":0,
         "keywordFlags":0,
@@ -46785,6 +46827,19 @@
         "type":"BASE",
         "value":113
       }]],
+  "Adds 1 to 115 Lightning Damage":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningMin",
+        "type":"BASE",
+        "value":1
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LightningMax",
+        "type":"BASE",
+        "value":115
+      }]],
   "Adds 1 to 120 Lightning Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -48328,19 +48383,6 @@
         "name":"PhysicalMax",
         "type":"BASE",
         "value":37
-      }]],
-  "Adds 22 to 28 Physical Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMin",
-        "type":"BASE",
-        "value":22
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalMax",
-        "type":"BASE",
-        "value":28
       }]],
   "Adds 22 to 33 Cold Damage":[[{
         "flags":0,
@@ -62292,6 +62334,7 @@
       }]],
   "Curses you inflict spread to enemies within 3 metres when Cursed enemy dies":[null,"Curses you inflict spread to enemies within 3 metres when Cursed enemy dies "],
   "Curses you inflict spread to enemies within 3 metres when Cursed enemy dies Gain 1 Dark Whisper every second there is a Cursed Enemy in your Presence":[null,"Curses you inflict spread to enemies within 3 metres when Cursed enemy dies Gain 1 Dark Whisper every second there is a Cursed Enemy in your Presence "],
+  "DNT Obliterated #233763":[null,"DNT Obliterated #233763 "],
   "DNT-UNUSED 20% chance when hitting a Rare Monster to disable one of its Modifiers":[null,"DNT-UNUSED 20% chance when hitting a Rare Monster to disable one of its Modifiers "],
   "DNT-UNUSED Blasphemy has no Reservation":[null,"DNT-UNUSED Blasphemy has no Reservation "],
   "DNT-UNUSED Bleeding you inflict on Shocked enemies is Aggravated":[null,"DNT-UNUSED Bleeding you inflict on Shocked enemies is Aggravated "],
@@ -64305,13 +64348,13 @@
             "keywordFlags":0,
             "name":"FireExposure",
             "type":"BASE",
-            "value":20
+            "value":20,
+            "1":{
+              "actor":"enemy",
+              "type":"ActorCondition",
+              "var":"EnemyInPresence"
+            }
           }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"EnemyInPresence"
         }
       },{
         "flags":0,
@@ -64324,13 +64367,13 @@
             "keywordFlags":0,
             "name":"ColdExposure",
             "type":"BASE",
-            "value":20
+            "value":20,
+            "1":{
+              "actor":"enemy",
+              "type":"ActorCondition",
+              "var":"EnemyInPresence"
+            }
           }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"EnemyInPresence"
         }
       },{
         "flags":0,
@@ -64343,13 +64386,13 @@
             "keywordFlags":0,
             "name":"LightningExposure",
             "type":"BASE",
-            "value":20
+            "value":20,
+            "1":{
+              "actor":"enemy",
+              "type":"ActorCondition",
+              "var":"EnemyInPresence"
+            }
           }
-        },
-        "1":{
-          "actor":"enemy",
-          "type":"ActorCondition",
-          "var":"EnemyInPresence"
         }
       }]],
   "Enemies in your Presence have Lightning Resistance equal to yours":[[{
@@ -68416,6 +68459,7 @@
   "Gain Guard equal to 20% of missing Energy Shield for 4 seconds when you Dodge Roll":[null,"Guard equal to 20% of missing Energy Shield  when you Dodge Roll "],
   "Gain Guard equal to 20% of missing Energy Shield for 4 seconds when you Dodge Roll Maximum amount of Guard is based on maximum Energy Shield instead":[null,"Guard equal to 20% of missing Energy Shield  when you Dodge Roll Maximum amount of Guard is based on maximum Energy Shield instead "],
   "Gain Guard equal to Current Runic Ward for 10 seconds when Effect ends":[null,"Guard equal to Current Runic Ward  when Effect ends "],
+  "Gain Guard equal to Current Runic Ward for 10 seconds when Effect ends Excess Life Recovery added as Guard for 10 seconds":[null,"Guard equal to Current Runic Ward  when Effect ends Excess Life Recovery added as Guard  "],
   "Gain Immunity to Physical Damage for 1.5 seconds on Rampage":[null,"Immunity to Physical Damage for 1.5 seconds on"],
   "Gain Infernal Flame instead of spending Mana for Skill costs":[null,"Infernal Flame instead of spending Mana for Skill costs "],
   "Gain Infernal Flame instead of spending Mana for Skill costs Take maximum Life and Energy Shield as Fire Damage when Infernal Flame reaches maximum":[null,"Infernal Flame instead of spending Mana for Skill costs Take maximum Life and Energy Shield as Fire Damage when Infernal Flame reaches maximum "],
@@ -71431,16 +71475,7 @@
           "skillId":"SorceryWardPlayer"
         }
       }]],
-  "Grants Skill: Spear Throw":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ExtraSkill",
-        "type":"LIST",
-        "value":{
-          "level":1,
-          "skillId":"SpearThrowPlayer"
-        }
-      }]],
+  "Grants Skill: Spear Throw":[[]],
   "Grants Skill: Summon Infernal Hound":[[{
         "flags":0,
         "keywordFlags":0,
@@ -73359,6 +73394,7 @@
         }
       }]],
   "Intimidate Enemies on Block for 8 seconds":[null,"Intimidate Enemies on Block for 8 seconds "],
+  "Intimidate Enemies on Block for 8 seconds Permanently Intimidate enemies on Block":[null,"Intimidate Enemies on Block for 8 seconds Permanently Intimidate enemies on Block "],
   "Invocated Spells deal 15% increased Damage":[[{
         "flags":0,
         "keywordFlags":131072,
@@ -77459,6 +77495,23 @@
       }]],
   "Non-Channelling Attacks cost an additional 6% of your maximum Mana":[null,"Non-Channelling Attacks cost an additional 6% of your maximum Mana "],
   "Non-Channelling Attacks have Added Lightning Damage equal to 3% of maximum Mana":[null,"Non-Channelling Attacks have Added Lightning Damage equal to 3% of maximum Mana "],
+  "Non-Channelling Skills have 3% increased Spell Critical Hit Chance per 100 maximum Mana":[[{
+        "flags":2,
+        "keywordFlags":0,
+        "name":"CritChance",
+        "type":"INC",
+        "value":3,
+        "1":{
+          "neg":true,
+          "skillType":48,
+          "type":"SkillType"
+        },
+        "2":{
+          "div":100,
+          "stat":"Mana",
+          "type":"PerStat"
+        }
+      }]],
   "Non-Channelling Spells cost an additional 6% of your maximum Life":[[{
         "flags":0,
         "keywordFlags":131072,
@@ -77554,23 +77607,6 @@
         "2":{
           "div":100,
           "stat":"Life",
-          "type":"PerStat"
-        }
-      }]],
-  "Non-Channelling Spells have 3% increased Critical Hit Chance per 100 maximum Mana":[[{
-        "flags":2,
-        "keywordFlags":0,
-        "name":"CritChance",
-        "type":"INC",
-        "value":3,
-        "1":{
-          "neg":true,
-          "skillType":48,
-          "type":"SkillType"
-        },
-        "2":{
-          "div":100,
-          "stat":"Mana",
           "type":"PerStat"
         }
       }]],
@@ -80524,6 +80560,17 @@
           "var":"Surrounded"
         }
       }]],
+  "Regenerate 5.0% of maximum Runic Ward per second during Effect":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"WardRegenPercent",
+        "type":"BASE",
+        "value":5,
+        "1":{
+          "type":"Condition",
+          "var":"UsingFlask"
+        }
+      }]],
   "Regenerate 6% of your maximum Rage per second":[[{
         "flags":0,
         "keywordFlags":0,
@@ -80833,7 +80880,7 @@
   "Rogue Equipment cannot be found":[null,"Rogue Equipment cannot be found "],
   "Rogue Perks are doubled":[[],"Rogue Perks are d "],
   "Rolls only the minimum or maximum Damage value for each Damage Type":[null,"Rolls only the minimum or maximum Damage value for each Damage Type "],
-  "Runic Ward recovery can can Overflow maximum Runic Ward":[null,"Runic Ward recovery can can Overflow maximum Runic Ward "],
+  "Runic Ward recovery can Overflow maximum Runic Ward":[null,"Runic Ward recovery can Overflow maximum Runic Ward "],
   "Sacrifice 10% of maximum Life to gain that much Energy Shield when you Cast a Spell":[[{
         "flags":2,
         "keywordFlags":0,
