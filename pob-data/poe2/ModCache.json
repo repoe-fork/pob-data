@@ -1963,6 +1963,13 @@
         "type":"BASE",
         "value":1000
       }]],
+  "+1000 to maximum Runic Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"BASE",
+        "value":1000
+      }]],
   "+102 to Evasion Rating":[[{
         "flags":0,
         "keywordFlags":0,
@@ -3124,6 +3131,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Mana",
+        "type":"BASE",
+        "value":150
+      }]],
+  "+150 to maximum Runic Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
         "type":"BASE",
         "value":150
       }]],
@@ -21117,15 +21131,12 @@
         "keywordFlags":0,
         "name":"ManaCostEfficiency",
         "type":"INC",
-        "value":15
-      }],"  of Command Skills "],
-  "15% increased Mana Cost Efficiency of Command Skills +1 maximum stacks of Puppet Master":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ManaCostEfficiency",
-        "type":"INC",
-        "value":15
-      }],"  of Command Skills +1 maximum stacks of Puppet Master "],
+        "value":15,
+        "1":{
+          "type":"Condition",
+          "var":"CommandableSkill"
+        }
+      }]],
   "15% increased Mana Cost of Skills":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26944,6 +26955,13 @@
         "type":"INC",
         "value":20
       }]],
+  "20% increased maximum Runic Ward":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Ward",
+        "type":"INC",
+        "value":20
+      }]],
   "20% increased speed of Recoup Effects":[[{
         "flags":0,
         "keywordFlags":0,
@@ -30215,6 +30233,13 @@
           "var":"OffHandIsEmpty"
         }
       }]],
+  "25% of Damage is taken from Mana before Life":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"DamageTakenFromManaBeforeLife",
+        "type":"BASE",
+        "value":25
+      }]],
   "25% of Damage is taken from Mana before Life while not on Low Mana":[[{
         "flags":0,
         "keywordFlags":0,
@@ -32219,6 +32244,13 @@
         "type":"INC",
         "value":30
       }]],
+  "30% increased Area of Effect for Attacks":[[{
+        "flags":1,
+        "keywordFlags":0,
+        "name":"AreaOfEffect",
+        "type":"INC",
+        "value":30
+      }]],
   "30% increased Area of Effect of Ancestrally Boosted Attacks":[[{
         "flags":1,
         "keywordFlags":0,
@@ -32435,6 +32467,13 @@
           "type":"Condition",
           "var":"HaveIronReflexes"
         }
+      }]],
+  "30% increased Bleeding Duration":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyBleedDuration",
+        "type":"INC",
+        "value":30
       }]],
   "30% increased Block chance":[[{
         "flags":0,
@@ -35402,22 +35441,22 @@
   "35% reduced Effect of Non-Damaging Ailments on you":[[{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyShockMagnitude",
+        "name":"SelfChillEffect",
         "type":"INC",
         "value":-35
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyChillMagnitude",
+        "name":"SelfFreezeEffect",
         "type":"INC",
         "value":-35
       },{
         "flags":0,
         "keywordFlags":0,
-        "name":"EnemyFreezeBuildup",
+        "name":"SelfShockEffect",
         "type":"INC",
         "value":-35
-      }],"  on you "],
+      }]],
   "35% reduced Flask Effect Duration":[[{
         "flags":0,
         "keywordFlags":0,
@@ -36034,6 +36073,17 @@
         "name":"Speed",
         "type":"INC",
         "value":4
+      }]],
+  "4% increased Chaos Damage for each Corrupted Item Equipped":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ChaosDamage",
+        "type":"INC",
+        "value":4,
+        "1":{
+          "type":"Multiplier",
+          "var":"CorruptedItem"
+        }
       }]],
   "4% increased Cooldown Recovery Rate":[[{
         "flags":0,
@@ -37657,6 +37707,13 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ArcaneSurgeEffect",
+        "type":"INC",
+        "value":40
+      }]],
+  "40% increased effect of Fully Broken Armour":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FullyBrokenArmourEffect",
         "type":"INC",
         "value":40
       }]],
@@ -61871,7 +61928,13 @@
         "type":"BASE",
         "value":100
       }]],
-  "Convert All Armour to Evasion Rating":[null,"Convert All Armour to Evasion Rating "],
+  "Convert All Armour to Evasion Rating":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArmourConvertToEvasion",
+        "type":"BASE",
+        "value":100
+      }]],
   "Converts all Evasion Rating to Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -64237,6 +64300,7 @@
       }]],
   "Enemies in your Presence count as having double Power":[[],"count as having  Power "],
   "Enemies in your Presence gain 1 Gruelling Madness each second":[[]," Gruelling Madness each second "],
+  "Enemies in your Presence gain 1 Gruelling Madness each second Raven-Touched":[[]," Gruelling Madness each second Raven-Touched "],
   "Enemies in your Presence have +1% to Fire Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -65859,6 +65923,8 @@
         }
       }]],
   "Every 5 seconds, gain a Verisium Infusion":[null,"Every 5 seconds, gain a Verisium Infusion "],
+  "Every 5 seconds, gain a Verisium Infusion 130% increased Armour and Energy Shield":[null,"Every 5 seconds, gain a Verisium Infusion 130% increased Armour and Energy Shield "],
+  "Every 5 seconds, gain a Verisium Infusion 150% increased Armour and Energy Shield":[null,"Every 5 seconds, gain a Verisium Infusion 150% increased Armour and Energy Shield "],
   "Every Rage also grants 1% increased Armour":[[{
         "flags":0,
         "keywordFlags":0,
@@ -66079,7 +66145,17 @@
           "type":"SkillType"
         }
       }]],
-  "Fissure Skills have +1 to Limit":[null,"Fissure Skills have +1 to Limit "],
+  "Fissure Skills have +1 to Limit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AdditionalCooldownUses",
+        "type":"BASE",
+        "value":"1",
+        "1":{
+          "skillType":164,
+          "type":"SkillType"
+        }
+      }]],
   "Flammability Magnitude is doubled":[[{
         "flags":0,
         "keywordFlags":0,
@@ -66220,6 +66296,13 @@
         "name":"FlaskChargesGenerated",
         "type":"BASE",
         "value":0.75
+      }]],
+  "Flasks gain 1 charges per Second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"FlaskChargesGenerated",
+        "type":"BASE",
+        "value":1
       }]],
   "Flasks you Use apply to your Raised Zombies and Spectres":[[{
         "flags":0,
@@ -66397,6 +66480,7 @@
   "Gain 1 Explosive Rhythm every 3 times you use a Grenade Skill  Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour for 10 Seconds":[[]," Explosive Rhythm every 3 times you use a  Skill  Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour  "],
   "Gain 1 Explosive Rhythm every 3 times you use a Grenade Skill Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour for 10 Seconds":[[]," Explosive Rhythm every 3 times you use a  Skill Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour  "],
   "Gain 1 Fear Incarnate when you Cull a target":[[]," Fear Incarnate when you Cull a target "],
+  "Gain 1 Fear Incarnate when you Cull a target Raven-Touched":[[]," Fear Incarnate when you Cull a target Raven-Touched "],
   "Gain 1 Fear Overwhelming when you Cull a target":[[]," Fear Overwhelming when you Cull a target "],
   "Gain 1 Fragile Regrowth each second":[[]," Fragile Regrowth each second "],
   "Gain 1 Life Flask Charge per 2% Life spent":[[{
@@ -74679,8 +74763,13 @@
         "type":"MAX",
         "value":50
       }]],
-  "Maximum Energy Shield cannot be Converted":[null,"Maximum Energy Shield cannot be Converted "],
-  "Maximum Energy Shield cannot be Converted Regenerate 2 Life per second for every 10 Intelligence":[null,"Maximum Energy Shield cannot be Converted Regenerate 2 Life per second for every 10 Intelligence "],
+  "Maximum Energy Shield cannot be Converted":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShieldCannotBeConverted",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Maximum Life is 1":[[{
         "flags":0,
         "keywordFlags":0,
@@ -77940,7 +78029,17 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Orb Skills have +1 to Limit":[null,"Orb Skills have +1 to Limit "],
+  "Orb Skills have +1 to Limit":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AdditionalCooldownUses",
+        "type":"BASE",
+        "value":"1",
+        "1":{
+          "skillType":101,
+          "type":"SkillType"
+        }
+      }]],
   "Other Modifiers to Movement Speed except for Sprinting do not apply":[null,"Other Modifiers to Movement Speed except for Sprinting do not apply "],
   "Other Modifiers to Movement Speed except for Sprinting do not apply Increases Movement Speed by 25%, plus 1% per 600 Evasion Rating, up to a maximum of 75%":[null,"Other Modifiers to Movement Speed except for Sprinting do not apply Increases Movement Speed by 25%, plus 1% per 600 Evasion Rating, up to a maximum of 75% "],
   "Other Modifiers to Movement Speed except for Sprinting do not apply Increases Movement Speed by 25%, plus 1% per 800 Evasion Rating, up to a maximum of 75%":[null,"Other Modifiers to Movement Speed except for Sprinting do not apply Increases Movement Speed by 25%, plus 1% per 800 Evasion Rating, up to a maximum of 75% "],
@@ -79406,6 +79505,13 @@
         "type":"BASE",
         "value":50
       }]," for an additional  when Forking "],
+  "Projectiles have 50% chance for an additional Projectile when Forking 100% increased Attack Speed":[[{
+        "flags":1024,
+        "keywordFlags":0,
+        "name":"ProjectileCount",
+        "type":"BASE",
+        "value":50
+      }]," for an additional  when Forking 100% increased Attack Speed "],
   "Projectiles have 50% chance for an additional Projectile when Forking 25% increased Critical Damage Bonus":[[{
         "flags":1024,
         "keywordFlags":0,
@@ -79641,7 +79747,7 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Raven-Touched":[null,"Raven-Touched "],
+  "Raven-Touched":[[]],
   "Recoup 5% of damage taken by your Totems as Life":[null,"Recoup 5% of damage taken by your Totems as Life "],
   "Recoup 5% of damage taken by your Totems as Life Each Totem applies 2% increased Damage taken to Enemies in their Presence":[null,"Recoup 5% of damage taken by your Totems as Life Each Totem applies 2% increased Damage taken to Enemies in their Presence "],
   "Recover 0.75% of maximum Life per Poison affecting Enemies you Kill":[null,"Recover 0.75% of maximum Life per Poison affecting Enemies you Kill "],
@@ -82167,7 +82273,9 @@
       }]],
   "Strike Skills you use yourself with Maces have 10% chance to deal Splash Damage":[null,"Strike Skills you use yourself with Maces have 10% chance to deal Splash Damage "],
   "Strikes deal Splash Damage":[null,"Strikes deal Splash Damage "],
+  "Strikes deal Splash Damage 150% increased Physical Damage":[null,"Strikes deal Splash Damage 150% increased Physical Damage "],
   "Strikes deal Splash Damage 172% increased Physical Damage":[null,"Strikes deal Splash Damage 172% increased Physical Damage "],
+  "Strikes deal Splash Damage 30% increased Bleeding Duration":[null,"Strikes deal Splash Damage 30% increased Bleeding Duration "],
   "Strikes deal Splash Damage Adds 35 to 50 Physical Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -84735,9 +84843,30 @@
         "type":"OVERRIDE",
         "value":10
       }]],
-  "Your maximum Energy Shield is equal to 250% of your Strength":[null,"Your maximum Energy Shield is equal to 250% of your Strength "],
-  "Your maximum Energy Shield is equal to 300% of your Strength":[null,"Your maximum Energy Shield is equal to 300% of your Strength "],
-  "Your maximum Energy Shield is equal to 300% of your Strength Maximum Energy Shield cannot be Converted":[null,"Your maximum Energy Shield is equal to 300% of your Strength Maximum Energy Shield cannot be Converted "],
+  "Your maximum Energy Shield is equal to 250% of your Strength":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"OVERRIDE",
+        "value":1,
+        "1":{
+          "percent":250,
+          "stat":"Str",
+          "type":"PercentStat"
+        }
+      }]],
+  "Your maximum Energy Shield is equal to 300% of your Strength":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnergyShield",
+        "type":"OVERRIDE",
+        "value":1,
+        "1":{
+          "percent":300,
+          "stat":"Str",
+          "type":"PercentStat"
+        }
+      }]],
   "Your other Modifiers to Rarity of Items found do not apply":[null,"Your other Modifiers to Rarity of Items found do not apply "],
   "Your other Modifiers to Rarity of Items found do not apply +15% to Cold Resistance":[null,"Your other Modifiers to Rarity of Items found do not apply +15% to Cold Resistance "],
   "Your speed is Unaffected by Slows while Sprinting":[null,"Your speed is Unaffected by Slows while Sprinting "],
