@@ -1,7 +1,5 @@
 {
   "":[null," "],
-  " Wolf Alpha Talisman":[null," Wolf Alpha Talisman "],
-  " Wolf Alpha Talisman League: Talisman Standard":[null," Wolf Alpha Talisman League: Talisman Standard "],
   "(10-15)% increased Energy Shield Recharge Rate":[null,"(10-15)% increased Energy Shield Recharge Rate "],
   "(10-20)% increased Effect of Cold Ailments":[null,"(10-20)% increased Effect of Cold Ailments "],
   "(10-20)% increased Effect of Lightning Ailments":[null,"(10-20)% increased Effect of Lightning Ailments "],
@@ -7722,7 +7720,7 @@
         "value":{
           "key":"level",
           "keyOfScaledMod":"value",
-          "keyword":"cold",
+          "keywordList":["cold","grants_active_skill"],
           "value":2
         },
         "1":{
@@ -7819,7 +7817,7 @@
         "value":{
           "key":"level",
           "keyOfScaledMod":"value",
-          "keyword":"lightning",
+          "keywordList":["lightning","grants_active_skill"],
           "value":2
         },
         "1":{
@@ -36727,7 +36725,17 @@
           "type":"Condition",
           "var":"UsedFireSkillRecently"
         }
-      }],"  or Frozen  "],
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"AvoidFreeze",
+        "type":"BASE",
+        "value":100,
+        "1":{
+          "type":"Condition",
+          "var":"UsedFireSkillRecently"
+        }
+      }]],
   "100% chance to Avoid being Ignited while on Low Life":[[{
         "flags":0,
         "keywordFlags":0,
@@ -96971,7 +96979,17 @@
         "type":"INC",
         "value":60
       }]],
-  "60% increased Item Rarity per White Socket":[[]," Item Rarity  "],
+  "60% increased Item Rarity per White Socket":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"LootRarity",
+        "type":"INC",
+        "value":60,
+        "1":{
+          "type":"Multiplier",
+          "var":"WhiteSocketIn{SlotName}"
+        }
+      }]],
   "60% increased Life Recovery from Flasks while affected by Vitality":[[{
         "flags":0,
         "keywordFlags":0,
@@ -140432,8 +140450,25 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Critical Strikes do not inherently inflict non-Damaging Ailments":[null,"Critical Strikes do not inherently inflict non-Damaging Ailments "],
-  "Critical Strikes do not inherently inflict non-Damaging Ailments Inflict non-Damaging Ailments as though dealing 200% more Damage":[null,"Critical Strikes do not inherently inflict non-Damaging Ailments Inflict non-Damaging Ailments as though dealing 200% more Damage "],
+  "Critical Strikes do not inherently inflict non-Damaging Ailments":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritsDontAlwaysChill",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritsDontAlwaysFreeze",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CritsDontAlwaysShock",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Critical Strikes have 15% chance to Blind Enemies while you have Cat's Stealth":[null,"Critical Strikes have 15% chance to Blind Enemies while you have Cat's Stealth "],
   "Critical Strikes have 20% chance to Blind Enemies while you have Cat's Stealth":[null,"Critical Strikes have 20% chance to Blind Enemies while you have Cat's Stealth "],
   "Critical Strikes have 20% chance to Blind Enemies while you have Cat's Stealth 50% increased Damage with Hits and Ailments against Blinded Enemies":[null,"Critical Strikes have 20% chance to Blind Enemies while you have Cat's Stealth 50% increased Damage with Hits and Ailments against Blinded Enemies "],
@@ -144400,8 +144435,25 @@
         "type":"FLAG",
         "value":true
       }]],
-  "Elemental Resistances cannot be Penetrated":[null,"Elemental Resistances cannot be Penetrated "],
-  "Elemental Resistances cannot be Penetrated Unaffected by Burning Ground":[null,"Elemental Resistances cannot be Penetrated Unaffected by Burning Ground "],
+  "Elemental Resistances cannot be Penetrated":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyCannotPenFireResistance",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyCannotPenColdResistance",
+        "type":"FLAG",
+        "value":true
+      },{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyCannotPenLightningResistance",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Elemental Weakness can affect Hexproof Enemies":[[{
         "flags":0,
         "keywordFlags":0,
@@ -160091,8 +160143,29 @@
           "type":"SkillType"
         }
       }]],
-  "Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction":[null,"Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction "],
-  "Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction Hits from Socketed Vaal Skills ignore Enemy Monster Resistances":[null,"Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction Hits from Socketed Vaal Skills ignore Enemy Monster Resistances "],
+  "Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraSkillMod",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"IgnoreEnemyPhysicalDamageReduction",
+            "type":"FLAG",
+            "value":true
+          }
+        },
+        "1":{
+          "slotName":"{SlotName}",
+          "type":"SocketedIn"
+        },
+        "2":{
+          "skillType":38,
+          "type":"SkillType"
+        }
+      }]],
   "Hits have +10% additional Critical Strike Chance against you":[null,"Hits have +10% additional Critical Strike Chance  "],
   "Hits have 10% chance to ignore Enemy Physical Damage Reduction":[[{
         "flags":0,
@@ -162267,7 +162340,13 @@
         "type":"MAX",
         "value":30
       }]],
-  "Increases to Cast Speed from Arcane Surge also applies to Movement Speed":[null,"Increases to Cast Speed from Arcane Surge also applies to Movement Speed "],
+  "Increases to Cast Speed from Arcane Surge also applies to Movement Speed":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ArcaneSurgeCastSpeedToMovementSpeed",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Infernal Cry has 16% increased Area of Effect":[[{
         "flags":0,
         "keywordFlags":0,
@@ -175301,8 +175380,22 @@
           "type":"PerStat"
         }
       }]],
-  "Nearby Allies have 30% increased Item Rarity":[[]," Item Rarity "],
-  "Nearby Allies have 30% increased Item Rarity Nearby Allies have Culling Strike":[[]," Item Rarity Nearby Allies have Culling Strike "],
+  "Nearby Allies have 30% increased Item Rarity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LootRarity",
+            "type":"INC",
+            "value":30
+          },
+          "onlyAllies":true
+        }
+      }]],
   "Nearby Allies have 4% increased Cast Speed per 100 Intelligence you have":[[{
         "flags":0,
         "keywordFlags":0,
@@ -179731,16 +179824,22 @@
         }
       }]],
   "Projectiles deal 20% increased Damage with Hits and Ailments for each remaining Chain, up to a maximum of 100%":[[{
-        "flags":1024,
+        "flags":0,
         "keywordFlags":786432,
         "name":"Damage",
         "type":"INC",
         "value":20,
         "1":{
+          "globalLimit":100,
+          "globalLimitKey":"FollowThrough",
           "stat":"ChainRemaining",
           "type":"PerStat"
+        },
+        "2":{
+          "skillType":3,
+          "type":"SkillType"
         }
-      }],"   , up to a maximum of 100% "],
+      }]],
   "Projectiles deal 20% increased Damage with Hits and Ailments for each time they have Chained":[[{
         "flags":0,
         "keywordFlags":786432,
@@ -219597,7 +219696,13 @@
         }
       }]],
   "When Hit, gain a random Movement Speed modifier from 20% reduced to 50% increased, until Hit again":[null,"a random Movement Speed modifier from 20% reduced to 50% increased, until Hit again "],
-  "When Hit, gain a random Movement Speed modifier from 40% reduced to 100% increased, until Hit again":[null,"a random Movement Speed modifier from 40% reduced to 100% increased, until Hit again "],
+  "When Hit, gain a random Movement Speed modifier from 40% reduced to 100% increased, until Hit again":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Condition:HaveGamblesprint",
+        "type":"FLAG",
+        "value":true
+      }]],
   "When Hit, lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating":[null,"lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating "],
   "When Hit, lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating Limited to 1 Keystone Tattoo":[null,"lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating Limited to 1 Keystone Tattoo "],
   "When a nearby Minion dies, gain Rotten Bulwark equal to 8% of its maximum Life":[null,"When a nearby Minion dies, gain Rotten Bulwark equal to 8% of its maximum Life "],
@@ -221042,7 +221147,21 @@
           "var":"BlueSocketIn{SlotName}"
         }
       }]],
-  "You and Nearby Allies have 30% increased Item Rarity":[[]," Item Rarity "],
+  "You and Nearby Allies have 30% increased Item Rarity":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"ExtraAura",
+        "type":"LIST",
+        "value":{
+          "mod":{
+            "flags":0,
+            "keywordFlags":0,
+            "name":"LootRarity",
+            "type":"INC",
+            "value":30
+          }
+        }
+      }]],
   "You and Nearby Allies have 47 to 61 added Chaos Damage per White Socket":[[{
         "flags":0,
         "keywordFlags":0,
@@ -225782,7 +225901,6 @@
   "be inflicted on a nearby Minion instead Limited to 1 Runegraft of Loyalty":[null,"be inflicted on a nearby Minion instead Limited to 1 Runegraft of Loyalty "],
   "each Herald affecting you, up to a maximum of 40%":[null,"each Herald affecting you, up to a maximum of 40% "],
   "each Unique item they have equipped":[null,"each Unique item they have equipped "],
-  "each remaining Chain, up to a maximum of 100%":[null,"each remaining Chain, up to a maximum of 100% "],
   "grant 100% increased Flask Charges":[null,"grant 100% increased Flask Charges "],
   "has a 20% increased angle":[null,"has a 20% increased angle "],
   "has a 20% increased angle With at least 40 Strength in Radius, Ground Slam":[null,"has a 20% increased angle With at least 40 Strength in Radius, Ground Slam "],
