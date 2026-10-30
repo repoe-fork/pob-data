@@ -8645,17 +8645,6 @@
           "var":"DualWielding"
         }
       }]],
-  "+20% Chance to Block Attack Damage while wielding a Staff":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"BlockChance",
-        "type":"BASE",
-        "value":20,
-        "1":{
-          "type":"Condition",
-          "var":"UsingStaff"
-        }
-      }]],
   "+20% Chance to Block Spell Damage":[[{
         "flags":0,
         "keywordFlags":0,
@@ -9510,13 +9499,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"ChaosDotMultiplier",
-        "type":"BASE",
-        "value":22
-      }]],
-  "+22% to Chaos Resistance":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ChaosResist",
         "type":"BASE",
         "value":22
       }]],
@@ -25110,6 +25092,13 @@
         "type":"BASE",
         "value":-15
       }]],
+  "-15 to Intelligence":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"Int",
+        "type":"BASE",
+        "value":-15
+      }]],
   "-15% additional Physical Damage Reduction":[[{
         "flags":0,
         "keywordFlags":0,
@@ -26062,13 +26051,6 @@
         "type":"BASE",
         "value":-60
       }],"  from Hits "],
-  "-60 Physical Damage taken from Attack Hits":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"PhysicalDamageTakenFromAttacks",
-        "type":"BASE",
-        "value":-60
-      }]],
   "-60% to Lightning Resistance":[[{
         "flags":0,
         "keywordFlags":0,
@@ -32566,13 +32548,17 @@
         "type":"BASE",
         "value":10
       }]," for  Recharge to start when you use a Skill "],
-  "10% chance for Energy Shield Recharge to start when you use a Skill +15% to Fire and Chaos Resistances":[[{
+  "10% chance for Energy Shield Recharge to start when you use a Skill 32% increased Evasion Rating while Focused":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"EnergyShield",
         "type":"BASE",
-        "value":10
-      }]," for  Recharge to start when you use a Skill +15% to Fire and Chaos Resistances "],
+        "value":10,
+        "1":{
+          "type":"Condition",
+          "var":"Focused"
+        }
+      }]," for  Recharge to start when you use a Skill 32% increased Evasion Rating  "],
   "10% chance on Hitting an Enemy for all Impales on that Enemy to last for an additional Hit":[[{
         "flags":0,
         "keywordFlags":0,
@@ -56725,6 +56711,13 @@
         "type":"BASE",
         "value":20
       }],"  Enemies for 1 second when they Hit you "],
+  "20% chance to Freeze Enemies for 1 second when they Hit you +2 to Level of all Herald Skill Gems":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"EnemyFreezeChance",
+        "type":"BASE",
+        "value":20
+      }],"  Enemies for 1 second when they Hit you +2 to Level of all Herald Skill Gems "],
   "20% chance to Hinder Enemies on Hit with Spells":[[]," to Hinder Enemies  "],
   "20% chance to Ignite":[[{
         "flags":0,
@@ -59808,13 +59801,13 @@
         "type":"MORE",
         "value":-20
       }],"  of Curses from Socketed Hex Skills "],
-  "20% less Effect of Curses from Socketed Hex Skills +40 to Intelligence":[[{
+  "20% less Effect of Curses from Socketed Hex Skills Grants Level 20 Summon Doedre's Effigy Skill":[[{
         "flags":0,
         "keywordFlags":0,
         "name":"LocalEffect",
         "type":"MORE",
         "value":-20
-      }],"  of Curses from Socketed Hex Skills +40 to Intelligence "],
+      }],"  of Curses from Socketed Hex Skills Grants Level 20 Summon Doedre's Effigy Skill "],
   "20% less Effect of your Curses":[[{
         "flags":0,
         "keywordFlags":0,
@@ -62434,13 +62427,6 @@
         "flags":0,
         "keywordFlags":0,
         "name":"Evasion",
-        "type":"INC",
-        "value":220
-      }]],
-  "220% increased Evasion Rating and Armour":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"ArmourAndEvasion",
         "type":"INC",
         "value":220
       }]],
@@ -65567,17 +65553,6 @@
         "1":{
           "type":"Condition",
           "var":"KilledRecently"
-        }
-      }]],
-  "25% increased Attack Speed if you've changed Stance Recently":[[{
-        "flags":1,
-        "keywordFlags":0,
-        "name":"Speed",
-        "type":"INC",
-        "value":25,
-        "1":{
-          "type":"Condition",
-          "var":"ChangedStanceRecently"
         }
       }]],
   "25% increased Attack Speed when on Low Life":[[{
@@ -81176,13 +81151,14 @@
           "var":"KilledRecently"
         }
       }]],
-  "4% chance to gain a Endurance Charge on Kill":[null,"a Endurance Charge  "],
   "4% chance to gain a Frenzy Charge on Hit":[null,"a Frenzy Charge on Hit "],
   "4% chance to gain a Frenzy Charge on Kill":[null,"a Frenzy Charge  "],
-  "4% chance to gain a Frenzy Charge on Kill 4% chance to gain a Power Charge on Kill":[null,"a Frenzy Charge  4% chance to gain a Power Charge  "],
+  "4% chance to gain a Frenzy Charge on Kill +1 to Minimum Power Charges":[null,"a Frenzy Charge  +1 to Minimum Power Charges "],
   "4% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy":[null,"a Frenzy Charge when you Hit a Rare or Unique Enemy "],
   "4% chance to gain a Power Charge on Kill":[null,"a Power Charge  "],
   "4% chance to gain a Power Charge on Kill Regenerate 15 Life per second for each Uncorrupted Item Equipped":[null,"a Power Charge  Regenerate 15 Life per second  "],
+  "4% chance to gain an Endurance Charge on Kill":[null,"an Endurance Charge  "],
+  "4% chance to gain an Endurance Charge on Kill +1 to Minimum Frenzy Charges":[null,"an Endurance Charge  +1 to Minimum Frenzy Charges "],
   "4% chance to gain an additional Vaal Soul on Kill":[null,"an additional Vaal Soul  "],
   "4% increased Action Speed":[[{
         "flags":0,
@@ -136017,6 +135993,7 @@
         "value":true
       }]],
   "Avoid Projectiles that have Chained":[null,"Avoid Projectiles that have Chained "],
+  "Avoid Projectiles that have Chained Damage cannot be Reflected":[null,"Avoid Projectiles that have Chained Damage cannot be Reflected "],
   "Axe Attacks deal 10% increased Damage with Hits and Ailments":[[{
         "flags":65536,
         "keywordFlags":786432,
@@ -144795,6 +144772,7 @@
         }
       }]],
   "Enemies Cannot Leech Life From you":[null,"Enemies Cannot Leech Life From you "],
+  "Enemies Cannot Leech Life From you Avoid Projectiles that have Chained":[null,"Enemies Cannot Leech Life From you Avoid Projectiles that have Chained "],
   "Enemies Cannot Leech Mana From you":[null,"Enemies Cannot Leech Mana From you "],
   "Enemies Cannot Leech Mana From you 10% of Damage taken Recouped as Mana":[null,"Enemies Cannot Leech Mana From you 10% of Damage taken Recouped as Mana "],
   "Enemies Chilled by your Hits can be Shattered as though Frozen":[null,"your Hits can be Shattered as though Frozen "],
@@ -160461,7 +160439,13 @@
           "var":"Ignited"
         }
       }]],
-  "Hits ignore Enemy Physical Damage Reduction":[null,"Hits ignore Enemy Physical Damage Reduction "],
+  "Hits ignore Enemy Physical Damage Reduction":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"IgnoreEnemyPhysicalDamageReduction",
+        "type":"FLAG",
+        "value":true
+      }]],
   "Hits ignore Enemy Physical Damage Reduction if you've Blocked in the past 20 seconds":[null,"Hits ignore Enemy Physical Damage Reduction if you've Blocked in the past 20 seconds "],
   "Hits that Stun Enemies have Culling Strike":[[{
         "flags":0,
@@ -164723,7 +164707,7 @@
   "LevelReq: 45":[null,"LevelReq: 45 "],
   "LevelReq: 45 Implicits: 3":[null,"LevelReq: 45 Implicits: 3 "],
   "LevelReq: 64":[null,"LevelReq: 64 "],
-  "LevelReq: 64 Implicits: 2":[null,"LevelReq: 64 Implicits: 2 "],
+  "LevelReq: 64 Implicits: 3":[null,"LevelReq: 64 Implicits: 3 "],
   "LevelReq: 70":[null,"LevelReq: 70 "],
   "LevelReq: 70 Implicits: 2":[null,"LevelReq: 70 Implicits: 2 "],
   "Life Flask Effects are not removed when Unreserved Life is Filled":[[{
@@ -169563,35 +169547,6 @@
             "name":"ColdMax",
             "type":"BASE",
             "value":58
-          }
-        }
-      }]],
-  "Minions deal 30 to 63 additional Cold Damage":[[{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"ColdMin",
-            "type":"BASE",
-            "value":30
-          }
-        }
-      },{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"MinionModifier",
-        "type":"LIST",
-        "value":{
-          "mod":{
-            "flags":0,
-            "keywordFlags":0,
-            "name":"ColdMax",
-            "type":"BASE",
-            "value":63
           }
         }
       }]],
@@ -176919,6 +176874,30 @@
           "type":"SkillType"
         }
       }]],
+  "Non-Aura Hexes expire upon reaching 220% of base Effect":[null,"Non-Aura Hexes expire upon reaching 220% of base Effect "],
+  "Non-Aura Hexes expire upon reaching 220% of base Effect Non-Aura Hexes gain 20% increased Effect per second":[[{
+        "flags":0,
+        "keywordFlags":0,
+        "name":"CurseEffect",
+        "type":"INC",
+        "value":20,
+        "1":{
+          "actor":"enemy",
+          "limit":220,
+          "limitTotal":true,
+          "type":"Multiplier",
+          "var":"CurseDurationExpired"
+        },
+        "2":{
+          "neg":true,
+          "skillType":39,
+          "type":"SkillType"
+        },
+        "3":{
+          "skillType":97,
+          "type":"SkillType"
+        }
+      }]],
   "Non-Aura Hexes gain 20% increased Effect per second":[null,"Non-Aura Hexes gain 20% increased Effect per second "],
   "Non-Aura Vaal Skills require 20% reduced Souls Per Use":[[{
         "flags":0,
@@ -177733,7 +177712,7 @@
         "value":true
       }]],
   "Passage":[null,"Passage "],
-  "Passage Only affects Passives in Medium Ring":[null,"Passage Only affects Passives in Medium Ring "],
+  "Passage -10% to all Elemental Resistances":[null,"Passage -10% to all Elemental Resistances "],
   "Passive Skills in Radius can be Allocated without being connected to your tree":[[{
         "flags":0,
         "keywordFlags":0,
@@ -218836,7 +218815,7 @@
         }
       }]],
   "Unaffected by Shocked Ground":[null,"Unaffected by Shocked Ground "],
-  "Unaffected by Shocked Ground Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit":[null,"Unaffected by Shocked Ground Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit "],
+  "Unaffected by Shocked Ground Monsters cannot Block your Attacks":[null,"Unaffected by Shocked Ground Monsters cannot Block your Attacks "],
   "Unaffected by Shocked Ground while affected by Purity of Lightning":[null,"Unaffected by Shocked Ground while affected by Purity of Lightning "],
   "Unaffected by Shocked Ground while affected by Purity of Lightning 1.5% of Damage leeched as Life while affected by Vitality":[null,"Unaffected by Shocked Ground while affected by Purity of Lightning 1.5% of Damage leeched as Life while affected by Vitality "],
   "Unaffected by Shocked Ground while affected by Purity of Lightning 2% of Damage leeched as Life while affected by Vitality":[null,"Unaffected by Shocked Ground while affected by Purity of Lightning 2% of Damage leeched as Life while affected by Vitality "],
