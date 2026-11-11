@@ -1,65 +1,60 @@
 {
-  "Arcane Dirk":{
-    "implicitModTypes":[],
-    "quality":20,
+  "Ambusher":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
     "req":{
-      "dex":55,
-      "int":55,
-      "level":56
+      "dex":113,
+      "int":113,
+      "level":60
     },
     "socketLimit":3,
     "tags":{
+      "attack_dagger":true,
       "dagger":true,
       "default":true,
       "one_hand_weapon":true,
       "onehand":true,
-      "weapon":true
-    },
-    "type":"Dagger",
-    "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":52,
-      "PhysicalMin":22,
-      "Range":10
-    }
-  },
-  "Bloodletting Dagger":{
-    "implicit":"25% of Spell Mana Cost Converted to Life Cost",
-    "implicitModTypes":[["resource","life","caster"]],
-    "quality":20,
-    "req":{
-      "dex":39,
-      "int":39,
-      "level":39
-    },
-    "socketLimit":3,
-    "tags":{
-      "dagger":true,
-      "default":true,
-      "one_hand_weapon":true,
-      "onehand":true,
-      "vaal_basetype":true,
       "weapon":true
     },
     "type":"Dagger",
     "weapon":{
       "AttackRateBase":1.5,
-      "CritChanceBase":15,
-      "PhysicalMax":42,
-      "PhysicalMin":18,
+      "CritChanceBase":7.8,
+      "PhysicalMax":74,
+      "PhysicalMin":19,
       "Range":10
     }
   },
-  "Cinquedea":{
-    "implicitModTypes":[],
-    "quality":20,
+  "Boot Blade":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
     "req":{
       "dex":63,
-      "int":63,
-      "level":65
+      "int":90,
+      "level":44
     },
     "socketLimit":3,
+    "subType":"Rune",
     "tags":{
       "dagger":true,
       "default":true,
@@ -69,72 +64,214 @@
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":62,
-      "PhysicalMin":21,
+      "AttackRateBase":1.4,
+      "CritChanceBase":8,
+      "PhysicalMax":59,
+      "PhysicalMin":15,
       "Range":10
     }
   },
-  "Crone Knife":{
-    "implicit":"Leeches 4% of Physical Damage as Mana",
-    "implicitModTypes":[["resource","mana","physical","attack"]],
-    "quality":20,
+  "Boot Knife":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
     "req":{
-      "dex":9,
-      "int":9,
-      "level":6
+      "dex":31,
+      "int":45,
+      "level":20
     },
     "socketLimit":3,
+    "subType":"Rune",
     "tags":{
       "dagger":true,
       "default":true,
-      "ezomyte_basetype":true,
       "one_hand_weapon":true,
       "onehand":true,
       "weapon":true
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":15,
-      "PhysicalMin":4,
-      "Range":10
-    }
-  },
-  "Engraved Knife":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":29,
-      "int":29,
-      "level":27
-    },
-    "socketLimit":3,
-    "tags":{
-      "dagger":true,
-      "default":true,
-      "maraketh_basetype":true,
-      "one_hand_weapon":true,
-      "onehand":true,
-      "weapon":true
-    },
-    "type":"Dagger",
-    "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":13.5,
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
       "PhysicalMax":34,
-      "PhysicalMin":11,
+      "PhysicalMin":8,
+      "Range":10
+    }
+  },
+  "Butcher Knife":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":55,
+      "int":79,
+      "level":38
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":8,
+      "PhysicalMax":62,
+      "PhysicalMin":7,
+      "Range":10
+    }
+  },
+  "Carving Knife":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":18,
+      "int":26,
+      "level":10
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
+      "PhysicalMax":26,
+      "PhysicalMin":3,
+      "Range":10
+    }
+  },
+  "Copper Kris":{
+    "implicit":"50% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":28,
+      "int":60,
+      "level":24
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.3,
+      "CritChanceBase":8.5,
+      "PhysicalMax":41,
+      "PhysicalMin":10,
+      "Range":10
+    }
+  },
+  "Demon Dagger":{
+    "implicit":"40% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":76,
+      "int":149,
+      "level":68
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "top_tier_base_item_type":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":8.5,
+      "PhysicalMax":97,
+      "PhysicalMin":24,
       "Range":10
     }
   },
   "Ethereal Blade":{
+    "hidden":true,
     "implicitModTypes":[],
-    "quality":20,
-    "req":[],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":9,
+      "int":6
+    },
     "socketLimit":3,
     "tags":{
+      "attack_dagger":true,
       "dagger":true,
       "default":true,
       "not_for_sale":true,
@@ -145,70 +282,217 @@
     "type":"Dagger",
     "weapon":{
       "AttackRateBase":1.5,
-      "CritChanceBase":6,
-      "PhysicalMax":10,
-      "PhysicalMin":5,
+      "CritChanceBase":7.5,
+      "PhysicalMax":8,
+      "PhysicalMin":4,
+      "Range":10
+    }
+  },
+  "Ezomyte Dagger":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":95,
+      "int":131,
+      "level":62
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "top_tier_base_item_type":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":8,
+      "PhysicalMax":79,
+      "PhysicalMin":20,
+      "Range":10
+    }
+  },
+  "Fiend Dagger":{
+    "implicit":"40% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":58,
+      "int":123,
+      "level":53
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":8.5,
+      "PhysicalMax":87,
+      "PhysicalMin":22,
+      "Range":10
+    }
+  },
+  "Flashfire Blade":{
+    "implicit":"Trigger Level 20 Flame Dash when you use a Socketed Skill\n20% increased Cooldown Recovery Rate of Travel Skills",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":86,
+      "int":86,
+      "level":50
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
+      "PhysicalMax":73,
+      "PhysicalMin":18,
+      "Range":10
+    }
+  },
+  "Flaying Knife":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":64,
+      "int":44,
+      "level":30
+    },
+    "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":7.5,
+      "PhysicalMax":45,
+      "PhysicalMin":11,
+      "Range":10
+    }
+  },
+  "Flickerflame Blade":{
+    "implicit":"Trigger Level 10 Flame Dash when you use a Socketed Skill",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":54,
+      "int":54,
+      "level":30
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
+      "PhysicalMax":47,
+      "PhysicalMin":12,
       "Range":10
     }
   },
   "Glass Shank":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "tags":{
-      "dagger":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "one_hand_weapon":true,
-      "onehand":true,
-      "weapon":true
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
     },
-    "type":"Dagger",
-    "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":10,
-      "PhysicalMin":3,
-      "Range":10
-    }
-  },
-  "Kris Knife":{
-    "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "dex":49,
-      "int":49,
-      "level":49
+      "dex":9,
+      "int":6
     },
     "socketLimit":3,
     "tags":{
-      "dagger":true,
-      "default":true,
-      "one_hand_weapon":true,
-      "onehand":true,
-      "weapon":true
-    },
-    "type":"Dagger",
-    "weapon":{
-      "AttackRateBase":1.65,
-      "CritChanceBase":15,
-      "PhysicalMax":48,
-      "PhysicalMin":16,
-      "Range":10
-    }
-  },
-  "Mail Breaker":{
-    "implicit":"Breaks (400-500) Armour on Critical Hit",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "dex":45,
-      "int":45,
-      "level":45
-    },
-    "socketLimit":3,
-    "tags":{
+      "attack_dagger":true,
       "dagger":true,
       "default":true,
       "one_hand_weapon":true,
@@ -218,73 +502,440 @@
     "type":"Dagger",
     "weapon":{
       "AttackRateBase":1.5,
-      "CritChanceBase":15,
-      "PhysicalMax":44,
+      "CritChanceBase":7.5,
+      "PhysicalMax":10,
+      "PhysicalMin":6,
+      "Range":10
+    }
+  },
+  "Golden Kris":{
+    "implicit":"50% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":51,
+      "int":110,
+      "level":47
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":8.5,
+      "PhysicalMax":75,
       "PhysicalMin":19,
       "Range":10
     }
   },
-  "Moon Dagger":{
-    "implicitModTypes":[],
-    "quality":20,
+  "Gutting Knife":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
     "req":{
-      "dex":22,
-      "int":22,
-      "level":20
+      "dex":113,
+      "int":78,
+      "level":56
     },
     "socketLimit":3,
     "tags":{
+      "attack_dagger":true,
       "dagger":true,
       "default":true,
-      "maraketh_basetype":true,
       "one_hand_weapon":true,
       "onehand":true,
       "weapon":true
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.55,
-      "ColdMax":26,
-      "ColdMin":11,
-      "CritChanceBase":15,
+      "AttackRateBase":1.4,
+      "CritChanceBase":8.5,
+      "PhysicalMax":76,
+      "PhysicalMin":19,
       "Range":10
     }
   },
-  "Obsidian Dagger":{
-    "implicitModTypes":[],
-    "quality":20,
+  "Hollowpoint Dagger":{
+    "implicit":"All Damage from Hits with This Weapon can Poison",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
     "req":{
-      "dex":34,
-      "int":34,
-      "level":33
+      "dex":54,
+      "int":54,
+      "level":30
     },
     "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":8.3,
+      "PhysicalMax":46,
+      "PhysicalMin":12,
+      "Range":10
+    }
+  },
+  "Imp Dagger":{
+    "implicit":"40% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":36,
+      "int":78,
+      "level":32
+    },
+    "socketLimit":3,
+    "subType":"Rune",
     "tags":{
       "dagger":true,
       "default":true,
       "one_hand_weapon":true,
       "onehand":true,
-      "vaal_basetype":true,
       "weapon":true
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":39,
+      "AttackRateBase":1.2,
+      "CritChanceBase":8.5,
+      "PhysicalMax":59,
+      "PhysicalMin":15,
+      "Range":10
+    }
+  },
+  "Imperial Skean":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":95,
+      "int":131,
+      "level":66
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "top_tier_base_item_type":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":8,
+      "PhysicalMax":73,
+      "PhysicalMin":18,
+      "Range":10
+    }
+  },
+  "Infernal Blade":{
+    "implicit":"Trigger Level 30 Flame Dash when you use a Socketed Skill\n40% increased Cooldown Recovery Rate of Travel Skills",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":121,
+      "int":121,
+      "level":70
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
+      "PhysicalMax":85,
+      "PhysicalMin":21,
+      "Range":10
+    }
+  },
+  "Platinum Kris":{
+    "implicit":"50% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":76,
+      "int":149,
+      "level":64
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "top_tier_base_item_type":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":8.5,
+      "PhysicalMax":95,
+      "PhysicalMin":24,
+      "Range":10
+    }
+  },
+  "Pneumatic Dagger":{
+    "implicit":"All Damage from Hits with This Weapon can Poison",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":121,
+      "int":121,
+      "level":70
+    },
+    "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":8.3,
+      "PhysicalMax":79,
+      "PhysicalMin":20,
+      "Range":10
+    }
+  },
+  "Poignard":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":72,
+      "int":72,
+      "level":41
+    },
+    "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":7.8,
+      "PhysicalMax":52,
       "PhysicalMin":13,
       "Range":10
     }
   },
-  "Parrying Dagger":{
-    "implicitModTypes":[],
-    "quality":20,
+  "Pressurised Dagger":{
+    "implicit":"All Damage from Hits with This Weapon can Poison",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
     "req":{
-      "dex":51,
-      "int":51,
-      "level":52
+      "dex":86,
+      "int":86,
+      "level":50
     },
     "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":8.3,
+      "PhysicalMax":71,
+      "PhysicalMin":18,
+      "Range":10
+    }
+  },
+  "Prong Dagger":{
+    "implicit":"4% Chance to Block Attack Damage",
+    "implicitModTypes":[["block"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":55,
+      "int":77,
+      "level":36
+    },
+    "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "maraketh":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.35,
+      "CritChanceBase":8,
+      "PhysicalMax":54,
+      "PhysicalMin":14,
+      "Range":10
+    }
+  },
+  "Royal Skean":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":71,
+      "int":102,
+      "level":50
+    },
+    "socketLimit":3,
+    "subType":"Rune",
     "tags":{
       "dagger":true,
       "default":true,
@@ -294,62 +945,230 @@
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":55,
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
+      "PhysicalMax":64,
       "PhysicalMin":16,
       "Range":10
     }
   },
-  "Simple Dagger":{
-    "implicitModTypes":[],
-    "quality":20,
+  "Sai":{
+    "implicit":"6% Chance to Block Attack Damage",
+    "implicitModTypes":[["block"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
     "req":{
-      "dex":15,
-      "int":15,
-      "level":12
+      "dex":121,
+      "int":121,
+      "level":70
     },
     "socketLimit":3,
     "tags":{
+      "attack_dagger":true,
       "dagger":true,
       "default":true,
-      "ezomyte_basetype":true,
+      "maraketh":true,
+      "not_for_sale":true,
       "one_hand_weapon":true,
       "onehand":true,
       "weapon":true
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.55,
-      "CritChanceBase":15,
-      "PhysicalMax":19,
-      "PhysicalMin":8,
+      "AttackRateBase":1.35,
+      "CritChanceBase":8,
+      "PhysicalMax":88,
+      "PhysicalMin":22,
+      "Range":10
+    }
+  },
+  "Skean":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":42,
+      "int":60,
+      "level":28
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":8,
+      "PhysicalMax":43,
+      "PhysicalMin":11,
       "Range":10
     }
   },
   "Skinning Knife":{
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
     "req":{
-      "dex":19,
-      "int":19,
-      "level":16
+      "dex":16,
+      "int":11,
+      "level":5
     },
     "socketLimit":3,
     "tags":{
+      "attack_dagger":true,
       "dagger":true,
       "default":true,
-      "maraketh_basetype":true,
       "one_hand_weapon":true,
       "onehand":true,
       "weapon":true
     },
     "type":"Dagger",
     "weapon":{
-      "AttackRateBase":1.65,
-      "CritChanceBase":13.5,
-      "PhysicalMax":22,
-      "PhysicalMin":8,
+      "AttackRateBase":1.45,
+      "CritChanceBase":7.5,
+      "PhysicalMax":17,
+      "PhysicalMin":4,
+      "Range":10
+    }
+  },
+  "Slaughter Knife":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"rune_dagger_adjudicator",
+      "basilisk":"rune_dagger_basilisk",
+      "cleansing":"rune_dagger_cleansing",
+      "crusader":"rune_dagger_crusader",
+      "elder":"rune_dagger_elder",
+      "eyrie":"rune_dagger_eyrie",
+      "shaper":"rune_dagger_shaper",
+      "tangle":"rune_dagger_tangle"
+    },
+    "req":{
+      "dex":81,
+      "int":117,
+      "level":58
+    },
+    "socketLimit":3,
+    "subType":"Rune",
+    "tags":{
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":8,
+      "PhysicalMax":86,
+      "PhysicalMin":10,
+      "Range":10
+    }
+  },
+  "Stiletto":{
+    "implicit":"30% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":30,
+      "int":30,
+      "level":15
+    },
+    "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":7.8,
+      "PhysicalMax":27,
+      "PhysicalMin":7,
+      "Range":10
+    }
+  },
+  "Trisula":{
+    "implicit":"4% Chance to Block Attack Damage",
+    "implicitModTypes":[["block"]],
+    "influenceTags":{
+      "adjudicator":"dagger_adjudicator",
+      "basilisk":"dagger_basilisk",
+      "cleansing":"dagger_cleansing",
+      "crusader":"dagger_crusader",
+      "elder":"dagger_elder",
+      "eyrie":"dagger_eyrie",
+      "shaper":"dagger_shaper",
+      "tangle":"dagger_tangle"
+    },
+    "req":{
+      "dex":83,
+      "int":99,
+      "level":51
+    },
+    "socketLimit":3,
+    "tags":{
+      "attack_dagger":true,
+      "dagger":true,
+      "default":true,
+      "maraketh":true,
+      "not_for_sale":true,
+      "one_hand_weapon":true,
+      "onehand":true,
+      "weapon":true
+    },
+    "type":"Dagger",
+    "weapon":{
+      "AttackRateBase":1.35,
+      "CritChanceBase":8.5,
+      "PhysicalMax":74,
+      "PhysicalMin":19,
       "Range":10
     }
   }

@@ -1,22 +1,4 @@
 {
-  "%_chance_to_apply_hounded_by_wisps_on_hit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanInflictFaerieFire",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"FaerieFire",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    }],
-  "accuracy_range_penalty_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AccuracyPenalty",
-      "type":"INC"
-    }],
   "accuracy_rating":[{
       "flags":0,
       "keywordFlags":0,
@@ -75,34 +57,6 @@
       "name":"Damage",
       "type":"MORE"
     }],
-  "active_skill_all_elemental_exposure_magnitude":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    }],
   "active_skill_area_damage_+%_final":[{
       "flags":512,
       "keywordFlags":0,
@@ -157,46 +111,6 @@
       "name":"Speed",
       "type":"MORE"
     }],
-  "active_skill_attack_speed_+%_final_while_dual_wielding":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"Speed",
-      "type":"MORE",
-      "1":{
-        "type":"Condition",
-        "var":"DualWielding"
-      }
-    }],
-  "active_skill_base_all_damage_%_to_gain_as_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "active_skill_base_all_damage_%_to_gain_as_cold":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsCold",
-      "type":"BASE"
-    }],
-  "active_skill_base_all_damage_%_to_gain_as_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsFire",
-      "type":"BASE"
-    }],
-  "active_skill_base_all_damage_%_to_gain_as_lightning":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsLightning",
-      "type":"BASE"
-    }],
-  "active_skill_base_all_damage_%_to_gain_as_physical":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsPhysical",
-      "type":"BASE"
-    }],
   "active_skill_base_area_of_effect_radius":[{
       "flags":0,
       "keywordFlags":0,
@@ -205,96 +119,6 @@
       "value":{
         "key":"radius"
       }
-    }],
-  "active_skill_base_cold_damage_%_to_convert_to_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillColdDamageConvertToChaos",
-      "type":"BASE"
-    }],
-  "active_skill_base_cold_damage_%_to_convert_to_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillColdDamageConvertToFire",
-      "type":"BASE"
-    }],
-  "active_skill_base_cold_damage_%_to_convert_to_lightning":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillColdDamageConvertToLightning",
-      "type":"BASE"
-    }],
-  "active_skill_base_fire_damage_%_to_convert_to_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillFireDamageConvertToChaos",
-      "type":"BASE"
-    }],
-  "active_skill_base_fire_damage_%_to_convert_to_cold":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillFireDamageConvertToCold",
-      "type":"BASE"
-    }],
-  "active_skill_base_fire_damage_%_to_convert_to_lightning":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillFireDamageConvertToLightning",
-      "type":"BASE"
-    }],
-  "active_skill_base_lightning_damage_%_to_convert_to_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillLightningDamageConvertToChaos",
-      "type":"BASE"
-    }],
-  "active_skill_base_lightning_damage_%_to_convert_to_cold":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillLightningDamageConvertToCold",
-      "type":"BASE"
-    }],
-  "active_skill_base_lightning_damage_%_to_convert_to_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillLightningDamageConvertToFire",
-      "type":"BASE"
-    }],
-  "active_skill_base_physical_damage_%_to_convert_to_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillPhysicalDamageConvertToChaos",
-      "type":"BASE"
-    }],
-  "active_skill_base_physical_damage_%_to_convert_to_cold":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillPhysicalDamageConvertToCold",
-      "type":"BASE"
-    }],
-  "active_skill_base_physical_damage_%_to_convert_to_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillPhysicalDamageConvertToFire",
-      "type":"BASE"
-    }],
-  "active_skill_base_physical_damage_%_to_convert_to_lightning":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillPhysicalDamageConvertToLightning",
-      "type":"BASE"
-    }],
-  "active_skill_base_physical_damage_%_to_gain_as_cold":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalDamageGainAsCold",
-      "type":"BASE"
-    }],
-  "active_skill_base_physical_damage_%_to_gain_as_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalDamageGainAsFire",
-      "type":"BASE"
     }],
   "active_skill_base_radius_+":[{
       "flags":0,
@@ -352,12 +176,6 @@
         "var":"BloodStance"
       }
     }],
-  "active_skill_bleeding_effect_+%_final":[{
-      "flags":0,
-      "keywordFlags":4194304,
-      "name":"AilmentMagnitude",
-      "type":"MORE"
-    }],
   "active_skill_brands_allowed_on_enemy_+":[{
       "flags":0,
       "keywordFlags":0,
@@ -370,12 +188,6 @@
       "name":"Speed",
       "type":"MORE"
     }],
-  "active_skill_chaos_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChaosDamage",
-      "type":"MORE"
-    }],
   "active_skill_chill_as_though_damage_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -385,19 +197,7 @@
   "active_skill_chill_effect_+%_final":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyChillMagnitude",
-      "type":"MORE"
-    }],
-  "active_skill_cold_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdDamage",
-      "type":"MORE"
-    }],
-  "active_skill_critical_strike_chance_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CritChance",
+      "name":"EnemyChillEffect",
       "type":"MORE"
     }],
   "active_skill_damage_+%_final":[{
@@ -405,50 +205,6 @@
       "keywordFlags":0,
       "name":"Damage",
       "type":"MORE"
-    }],
-  "active_skill_damage_+%_final_against_heavy_stunned_enemies":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"HeavyStunned"
-      }
-    }],
-  "active_skill_damage_+%_final_vs_burning_enemies":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Burning"
-      }
-    }],
-  "active_skill_damage_+%_final_vs_chilled_enemies":[{
-      "flags":4,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Chilled"
-      }
-    }],
-  "active_skill_damage_+%_final_vs_immobilised_enemies":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Immobilised"
-      }
     }],
   "active_skill_damage_+%_final_when_cast_on_frostbolt":[{
       "flags":0,
@@ -460,95 +216,16 @@
         "var":"CastOnFrostbolt"
       }
     }],
-  "active_skill_damage_+%_final_while_dual_wielding":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "type":"Condition",
-        "var":"DualWielding"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"doubleHitsWhenDualWielding",
-        "value":true
-      }
-    }],
-  "active_skill_electrocutes_as_though_dealt_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyElectrocuteBuildup",
-      "type":"MORE"
-    }],
-  "active_skill_fire_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireDamage",
-      "type":"MORE"
-    }],
   "active_skill_freeze_duration_+%_final":[{
       "flags":0,
       "keywordFlags":0,
       "name":"EnemyFreezeDuration",
       "type":"MORE"
     }],
-  "active_skill_has_%_standard_scaling_attack_damage":{
-    "div":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"baseMultiplier"
-      }
-    }
-  },
-  "active_skill_hit_damage_freeze_multiplier_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyFreezeBuildup",
-      "type":"MORE"
-    }],
-  "active_skill_hit_damage_stun_multiplier_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyHeavyStunBuildup",
-      "type":"MORE"
-    }],
-  "active_skill_ignite_chance_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyIgniteChance",
-      "type":"MORE"
-    }],
   "active_skill_ignite_damage_+%_final":[{
       "flags":0,
       "keywordFlags":8388608,
-      "name":"AilmentMagnitude",
-      "type":"MORE"
-    }],
-  "active_skill_ignite_duration_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyIgniteDuration",
-      "type":"MORE"
-    }],
-  "active_skill_ignite_effect_+%_final":[{
-      "flags":0,
-      "keywordFlags":8388608,
-      "name":"AilmentMagnitude",
-      "type":"MORE"
-    }],
-  "active_skill_lightning_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningDamage",
+      "name":"Damage",
       "type":"MORE"
     }],
   "active_skill_main_hand_weapon_damage_+%_final":[{
@@ -559,6 +236,16 @@
       "1":{
         "type":"Condition",
         "var":"MainHandAttack"
+      }
+    }],
+  "active_skill_merged_damage_+%_final_while_dual_wielding":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"Damage",
+      "type":"MORE",
+      "1":{
+        "type":"Condition",
+        "var":"DualWielding"
       }
     }],
   "active_skill_minion_added_damage_+%_final":[{
@@ -626,20 +313,6 @@
         }
       }
     }],
-  "active_skill_minion_hit_damage_stun_multiplier_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"EnemyHeavyStunBuildup",
-          "type":"MORE"
-        }
-      }
-    }],
   "active_skill_minion_life_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -682,47 +355,10 @@
         }
       }
     }],
-  "active_skill_never_freeze_shock_ignite":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotFreeze",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotShock",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotIgnite",
-      "type":"FLAG",
-      "value":true
-    }],
-  "active_skill_physical_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalDamage",
-      "type":"MORE"
-    }],
-  "active_skill_pins_as_though_dealt_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyPinBuildup",
-      "type":"MORE"
-    }],
   "active_skill_poison_duration_+%_final":[{
       "flags":0,
       "keywordFlags":0,
       "name":"EnemyPoisonDuration",
-      "type":"MORE"
-    }],
-  "active_skill_poison_effect_+%_final":[{
-      "flags":0,
-      "keywordFlags":2097152,
-      "name":"AilmentMagnitude",
       "type":"MORE"
     }],
   "active_skill_projectile_damage_+%_final":[{
@@ -743,12 +379,6 @@
       "name":"Duration",
       "type":"MORE"
     }],
-  "active_skill_reload_speed_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ReloadSpeed",
-      "type":"MORE"
-    }],
   "active_skill_returning_projectile_damage_+%_final":[{
       "flags":0,
       "keywordFlags":0,
@@ -765,16 +395,10 @@
       "name":"ShockAsThoughDealing",
       "type":"MORE"
     }],
-  "active_skill_shock_chance_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyShockChance",
-      "type":"MORE"
-    }],
   "active_skill_shock_effect_+%_final":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyShockMagnitude",
+      "name":"EnemyShockEffect",
       "type":"MORE"
     }],
   "active_skill_trap_throwing_speed_+%_final":[{
@@ -857,12 +481,6 @@
       }
     }
   },
-  "additional_maximum_block_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BlockChanceMax",
-      "type":"BASE"
-    }],
   "additional_weapon_base_attack_time_ms":{
     "div":1000,
     "1":{
@@ -892,13 +510,6 @@
         "key":"mineDurationAppliesToSkill",
         "value":true
       }
-    }],
-  "additive_thorns_damage_modifiers_apply_to_attack_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ThornsDamageApplyToAttackDamage",
-      "type":"FLAG",
-      "value":true
     }],
   "ailment_damage_+%_per_frenzy_charge":[{
       "flags":0,
@@ -1058,55 +669,6 @@
       "type":"FLAG",
       "value":true
     }],
-  "all_exposure_on_hit_for_duration_ms":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ExposureDuration",
-      "type":"BASE"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"InflictExposure",
-      "type":"FLAG",
-      "value":true
-    }],
-  "all_exposure_on_hit_magnitude":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    }],
-  "always_crit":{
-    "value":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CritChance",
-      "type":"OVERRIDE"
-    }
-  },
   "always_freeze":{
     "value":100,
     "1":{
@@ -1141,72 +703,6 @@
       "type":"BASE"
     }
   },
-  "ancestral_call_spirit_strike_interval_ms":[{
-      "div":1000,
-      "1":{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"AncestralCallCooldown",
-        "type":"BASE"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:AncestrallyBoosted",
-      "type":"FLAG",
-      "value":true
-    }],
-  "ancestral_slam_interval_duration":[{
-      "div":1000,
-      "1":{
-        "flags":0,
-        "keywordFlags":0,
-        "name":"FistOfWarCooldown",
-        "type":"BASE"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:AncestrallyBoosted",
-      "type":"FLAG",
-      "value":true
-    }],
-  "apply_X_armour_break_on_hit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanArmourBreak",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"ArmourBreak",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ArmourBreakPerHit",
-      "type":"BASE"
-    }],
-  "apply_X_incision_on_hit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanInflictIncision",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"Incision",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    }],
-  "apply_x_wither_on_hit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanWither",
-      "type":"FLAG",
-      "value":true
-    }],
   "area_damage_+%":[{
       "flags":512,
       "keywordFlags":0,
@@ -1248,33 +744,9 @@
         "var":"DualWielding"
       }
     }],
-  "armour_break_fire_damage_%_dealt_as_armour_break":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanArmourBreak",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"ArmourBreak",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    }],
-  "armour_break_physical_damage_%_dealt_as_armour_break":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanArmourBreak",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"ArmourBreak",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    }],
   "arrow_base_number_of_targets_to_pierce":[{
-      "flags":0,
-      "keywordFlags":2048,
+      "flags":1,
+      "keywordFlags":0,
       "name":"PierceCount",
       "type":"BASE"
     }],
@@ -1316,17 +788,6 @@
         "div":450,
         "stat":"Armour",
         "type":"PerStat"
-      }
-    }],
-  "attack_damage_is_lucky_if_surrounded":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LuckyHits",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "type":"Condition",
-        "var":"Surrounded"
       }
     }],
   "attack_maximum_added_chaos_damage":[{
@@ -1416,7 +877,7 @@
       "name":"ActiveTotemLimit",
       "type":"BASE",
       "1":{
-        "skillType":114,
+        "skillType":125,
         "type":"SkillType"
       }
     }],
@@ -1468,48 +929,17 @@
         "var":"Rage"
       }
     }],
-  "attack_speed_modifiers_apply_to_over_time_cost":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AttackSpeedScalesCost",
-      "type":"FLAG",
-      "value":true
-    }],
   "attacks_impale_on_hit_%_chance":[{
       "flags":0,
       "keywordFlags":65536,
       "name":"ImpaleChance",
       "type":"BASE"
     }],
-  "attacks_inflict_bleeding_on_hit":{
-    "value":100,
-    "1":{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"BleedChance",
-      "type":"BASE"
-    }
-  },
-  "attacks_roll_crits_twice":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BifurcateCrit",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "skillType":1,
-        "type":"SkillType"
-      }
-    }],
   "aura_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"Magnitude",
-      "type":"INC",
-      "1":{
-        "skillType":39,
-        "type":"SkillType"
-      }
+      "name":"AuraEffect",
+      "type":"INC"
     }],
   "avoid_interruption_while_using_this_skill_%":[{
       "flags":0,
@@ -1517,7 +947,21 @@
       "name":"AvoidInterruptStun",
       "type":"BASE"
     }],
-  "banner_aura_magnitude_+%_final_per_resource":[{
+  "banner_area_of_effect_+%_final_per_resource":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"AreaOfEffect",
+      "type":"MORE",
+      "1":{
+        "type":"Multiplier",
+        "var":"BannerValour"
+      },
+      "2":{
+        "type":"Condition",
+        "var":"BannerPlanted"
+      }
+    }],
+  "banner_buff_effect_+%_final_per_resource":[{
       "flags":0,
       "keywordFlags":0,
       "name":"AuraEffect",
@@ -1558,16 +1002,9 @@
       "name":"EnemyAilmentDuration",
       "type":"INC"
     }],
-  "base_all_damage_can_pin":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CanPin",
-      "type":"FLAG",
-      "value":true
-    }],
   "base_arrow_speed_+%":[{
       "flags":0,
-      "keywordFlags":2048,
+      "keywordFlags":0,
       "name":"ProjectileSpeed",
       "type":"INC"
     }],
@@ -1599,6 +1036,18 @@
       "name":"EnemyBleedDuration",
       "type":"INC"
     }],
+  "base_bleed_on_hit_still_%_of_physical_damage_to_deal_per_minute":{
+    "div":60,
+    "1":{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"bleedBasePercent"
+      }
+    }
+  },
   "base_block_%_damage_taken":[{
       "flags":0,
       "keywordFlags":0,
@@ -1610,20 +1059,6 @@
       "keywordFlags":0,
       "name":"Condition:CannotBeDamaged",
       "type":"FLAG"
-    }],
-  "base_cannot_be_frozen":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FreezeImmune",
-      "type":"FLAG",
-      "value":true
-    }],
-  "base_cannot_be_stunned":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"StunImmune",
-      "type":"FLAG",
-      "value":true
     }],
   "base_cast_speed_+%":[{
       "flags":16,
@@ -1661,21 +1096,6 @@
       "name":"EnemyIgniteChance",
       "type":"BASE"
     }],
-  "base_chance_to_inflict_bleeding_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BleedChance",
-      "type":"BASE"
-    }],
-  "base_chance_to_pierce_%":{
-    "div":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PierceCount",
-      "type":"BASE"
-    }
-  },
   "base_chance_to_poison_on_hit_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -1687,20 +1107,6 @@
       "keywordFlags":0,
       "name":"EnemyShockChance",
       "type":"BASE"
-    }],
-  "base_chaos_damage_can_ignite":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChaosCanIgnite",
-      "type":"FLAG",
-      "value":true
-    }],
-  "base_chaos_damage_does_not_damage_energy_shield_extra_hard":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChaosNotDoubleESDamage",
-      "type":"FLAG",
-      "value":true
     }],
   "base_chaos_damage_resistance_%":[{
       "flags":0,
@@ -1738,15 +1144,6 @@
       }
     }
   },
-  "base_cooldown_modifiable_repeat_interval_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CooldownRecovery",
-      "type":"BASE"
-    }
-  },
   "base_cooldown_modifier_ms":{
     "div":1000,
     "1":{
@@ -1762,23 +1159,11 @@
       "name":"CooldownRecovery",
       "type":"INC"
     }],
-  "base_cooldown_speed_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CooldownRecovery",
-      "type":"MORE"
-    }],
   "base_critical_strike_multiplier_+":[{
       "flags":0,
       "keywordFlags":0,
       "name":"CritMultiplier",
-      "type":"INC"
-    }],
-  "base_curse_delay_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CurseDelay",
-      "type":"INC"
+      "type":"BASE"
     }],
   "base_curse_duration_+%":[{
       "flags":0,
@@ -1837,12 +1222,6 @@
       "keywordFlags":0,
       "name":"EnemyKnockbackChance",
       "type":"BASE"
-    }],
-  "base_ignite_effect_+%":[{
-      "flags":0,
-      "keywordFlags":8388608,
-      "name":"AilmentMagnitude",
-      "type":"INC"
     }],
   "base_inflict_cold_exposure_on_hit_%_chance":[{
       "flags":0,
@@ -1904,15 +1283,6 @@
       "type":"BASE"
     }
   },
-  "base_life_leech_from_physical_attack_damage_permyriad":{
-    "div":100,
-    "1":{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"PhysicalDamageLifeLeech",
-      "type":"BASE"
-    }
-  },
   "base_life_regeneration_rate_per_minute":{
     "div":60,
     "1":{
@@ -1934,23 +1304,10 @@
       "name":"LifeReservationEfficiency",
       "type":"INC"
     }],
-  "base_lightning_damage_can_electrocute":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningCanElectrocute",
-      "type":"FLAG",
-      "value":true
-    }],
   "base_lightning_damage_resistance_%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"LightningResist",
-      "type":"BASE"
-    }],
-  "base_limit_+":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AdditionalCooldownUses",
       "type":"BASE"
     }],
   "base_mana_cost_+":[{
@@ -1968,27 +1325,12 @@
       "type":"INC"
     }
   },
-  "base_mana_cost_efficiency_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ManaCostEfficiency",
-      "type":"INC"
-    }],
   "base_mana_leech_from_elemental_damage_permyriad":{
     "div":100,
     "1":{
       "flags":0,
       "keywordFlags":0,
       "name":"ElementalDamageManaLeech",
-      "type":"BASE"
-    }
-  },
-  "base_mana_leech_from_physical_attack_damage_permyriad":{
-    "div":100,
-    "1":{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"PhysicalDamageManaLeech",
       "type":"BASE"
     }
   },
@@ -2031,22 +1373,10 @@
       "name":"FireResistMax",
       "type":"BASE"
     }],
-  "base_maximum_life_is_one":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Life",
-      "type":"OVERRIDE"
-    }],
   "base_maximum_lightning_damage_resistance_%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"LightningResistMax",
-      "type":"BASE"
-    }],
-  "base_maximum_seals_for_skill":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SealCount",
       "type":"BASE"
     }],
   "base_melee_attack_repeat_count":[{
@@ -2055,48 +1385,19 @@
       "name":"RepeatCount",
       "type":"BASE",
       "1":{
-        "modFlags":16777216,
-        "type":"ModFlagOr"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RepeatCount",
-      "type":"BASE",
-      "1":{
-        "skillType":10,
+        "skillType":28,
         "type":"SkillType"
       }
     }],
-  "base_minimum_channel_time_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"minChannelTime",
-        "value":true
-      }
-    }
-  },
   "base_minion_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"Duration",
       "type":"INC",
       "1":{
-        "skillType":77,
+        "skillType":88,
         "type":"SkillType"
       }
-    }],
-  "base_modifiers_to_projectile_count_do_not_apply":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"NoAdditionalProjectiles",
-      "type":"FLAG",
-      "value":true
     }],
   "base_movement_velocity_+%":[{
       "flags":0,
@@ -2132,12 +1433,6 @@
       }
     }
   },
-  "base_number_of_animated_weapons_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ActiveAnimatedWeaponLimit",
-      "type":"BASE"
-    }],
   "base_number_of_arbalists":[{
       "flags":0,
       "keywordFlags":0,
@@ -2148,7 +1443,7 @@
     "base":-1,
     "1":{
       "flags":0,
-      "keywordFlags":2048,
+      "keywordFlags":0,
       "name":"ProjectileCount",
       "type":"BASE"
     }
@@ -2159,22 +1454,10 @@
       "name":"ActiveSentinelOfPurityLimit",
       "type":"BASE"
     }],
-  "base_number_of_crossbow_bolts":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CrossbowBoltCount",
-      "type":"BASE"
-    }],
   "base_number_of_golems_allowed":[{
       "flags":0,
       "keywordFlags":0,
       "name":"ActiveGolemLimit",
-      "type":"BASE"
-    }],
-  "base_number_of_living_lightning_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ActiveLivingLightningLimit",
       "type":"BASE"
     }],
   "base_number_of_projectiles":{
@@ -2198,12 +1481,6 @@
       "name":"BrandsAttachedLimit",
       "type":"BASE"
     }],
-  "base_number_of_skeletal_constructs_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ActiveUnearthBoneConstructLimit",
-      "type":"BASE"
-    }],
   "base_number_of_skeletons_allowed":[{
       "flags":0,
       "keywordFlags":0,
@@ -2216,22 +1493,10 @@
       "name":"ActiveSpectreLimit",
       "type":"BASE"
     }],
-  "base_number_of_support_ghosts_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ActivePhantasmLimit",
-      "type":"BASE"
-    }],
   "base_number_of_totems_allowed":[{
       "flags":0,
       "keywordFlags":0,
       "name":"ActiveTotemLimit",
-      "type":"BASE"
-    }],
-  "base_number_of_wardbound_minions_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"WardboundLimit",
       "type":"BASE"
     }],
   "base_number_of_zombies_allowed":[{
@@ -2240,48 +1505,6 @@
       "name":"ActiveZombieLimit",
       "type":"BASE"
     }],
-  "base_parry_buff_damage_taken_+%_final_to_apply":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"DamageTaken",
-      "type":"MORE",
-      "1":{
-        "effectCond":"ParryActive",
-        "effectName":"Parry Debuff",
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      },
-      "2":{
-        "type":"Condition",
-        "var":"Effective"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"parryDebuffBaseMagnitude"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CanParry",
-      "type":"FLAG",
-      "value":true
-    }],
-  "base_parry_duration_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"parryDebuffDuration"
-      }
-    }
-  },
   "base_penetrate_elemental_resistances_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -2376,24 +1599,11 @@
       "name":"EnemyPoisonDuration",
       "type":"INC"
     }],
-  "base_poison_effect_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AilmentEffect",
-      "type":"INC"
-    }],
   "base_projectile_speed_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"ProjectileSpeed",
       "type":"INC"
-    }],
-  "base_projectiles_cannot_chain":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotChain",
-      "type":"FLAG",
-      "value":true
     }],
   "base_reduce_enemy_cold_resistance_%":[{
       "flags":0,
@@ -2497,12 +1707,6 @@
       "name":"AreaOfEffect",
       "type":"INC"
     }],
-  "base_skill_buff_energy_shield_recharge_rate_+%_to_apply":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnergyShieldRecharge",
-      "type":"INC"
-    }],
   "base_skill_cost_life_instead_of_mana":[{
       "flags":0,
       "keywordFlags":0,
@@ -2516,15 +1720,6 @@
       "name":"HybridManaAndLifeCost_Life",
       "type":"BASE"
     }],
-  "base_skill_detonation_time":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DetonationTime",
-      "type":"BASE"
-    }
-  },
   "base_skill_effect_duration":{
     "div":1000,
     "1":{
@@ -2537,20 +1732,6 @@
       }
     }
   },
-  "base_skill_is_ballistified":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:BallistaSkill",
-      "type":"FLAG",
-      "value":true
-    }],
-  "base_skill_is_sealed_skill":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"HasSeals",
-      "type":"FLAG",
-      "value":true
-    }],
   "base_skill_reserve_life_instead_of_mana":[{
       "flags":0,
       "keywordFlags":0,
@@ -2568,28 +1749,12 @@
         "value":true
       }
     }],
-  "base_skill_sources_hollow_palm_physical_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"UseHollowPalmDamage",
-      "type":"FLAG",
-      "value":true
-    }],
   "base_spell_block_%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"SpellBlockChance",
       "type":"BASE"
     }],
-  "base_spell_cast_time_ms":{
-    "div":1000,
-    "1":{
-      "flags":16,
-      "keywordFlags":0,
-      "name":"Speed",
-      "type":"BASE"
-    }
-  },
   "base_spell_cast_time_ms_override":{
     "div":1000,
     "1":{
@@ -2608,11 +1773,15 @@
       "name":"CooldownRecovery",
       "type":"INC"
     }],
-  "base_spirit_reservation_efficiency_+%":[{
+  "base_spell_repeat_count":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"SpiritReservationEfficiency",
-      "type":"INC"
+      "name":"RepeatCount",
+      "type":"BASE",
+      "1":{
+        "skillType":26,
+        "type":"SkillType"
+      }
     }],
   "base_stun_duration_+%":[{
       "flags":0,
@@ -2656,17 +1825,6 @@
       "type":"BASE"
     }
   },
-  "bleed_chance_+%_vs_full_life_enemy":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BleedChance",
-      "type":"INC",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"FullLife"
-      }
-    }],
   "bleed_duration_is_skill_duration":[{
       "flags":0,
       "keywordFlags":0,
@@ -2707,6 +1865,7 @@
       "name":"BlindEffect",
       "type":"INC",
       "1":{
+        "effectName":"Vaal Blade Flurry",
         "effectType":"Debuff",
         "type":"GlobalEffect"
       }
@@ -2724,24 +1883,6 @@
       "name":"Condition:CannotRecallBrand",
       "type":"FLAG",
       "value":true
-    }],
-  "breach_flame_chaos_addition_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BreachFlameChaosGain",
-      "type":"BASE"
-    }],
-  "breach_flame_life_leech_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BreachFlameLifeLeech",
-      "type":"BASE"
-    }],
-  "breach_flame_mana_leech_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BreachFlameManaLeech",
-      "type":"BASE"
     }],
   "buff_effect_duration_+%_per_removable_endurance_charge":[{
       "flags":0,
@@ -2779,20 +1920,6 @@
       "name":"FireDamage",
       "type":"INC"
     }],
-  "can_perform_skill_while_moving":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CanPerformSkillWhileMoving",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_be_knocked_back":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"KnockbackImmune",
-      "type":"FLAG",
-      "value":true
-    }],
   "cannot_be_stunned_while_leeching":[{
       "flags":{
         "type":"Condition",
@@ -2803,62 +1930,10 @@
       "type":"BASE",
       "value":100
     }],
-  "cannot_break_armour":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotArmourBreak",
-      "type":"FLAG",
-      "value":true
-    }],
   "cannot_cause_bleeding":[{
       "flags":0,
       "keywordFlags":0,
       "name":"CannotBleed",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_consume_infusions":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CannotConsumeInfusion",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_consume_power_frenzy_endurance_charges":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CannotConsumeCharges",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_inflict_elemental_ailments":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotShock",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotChill",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotFreeze",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotIgnite",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotElectrocute",
       "type":"FLAG",
       "value":true
     }],
@@ -2886,6 +1961,24 @@
       "name":"CannotIgnite",
       "type":"FLAG",
       "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotScorch",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotBrittle",
+      "type":"FLAG",
+      "value":true
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"CannotSap",
+      "type":"FLAG",
+      "value":true
     }],
   "cannot_pierce":[{
       "flags":0,
@@ -2894,44 +1987,10 @@
       "type":"FLAG",
       "value":true
     }],
-  "cannot_pin":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotPin",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_poison":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotPoison",
-      "type":"FLAG",
-      "value":true
-    }],
   "cannot_poison_poisoned_enemies":[{
       "flags":0,
       "keywordFlags":0,
       "name":"Condition:SinglePoison",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_recharge_energy_shield":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"NoEnergyShieldRecharge",
-      "type":"FLAG",
-      "value":true
-    }],
-  "cannot_stun":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotHeavyStun",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotStun",
       "type":"FLAG",
       "value":true
     }],
@@ -2961,7 +2020,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":20,
+        "skillType":24,
         "type":"SkillType"
       }
     }],
@@ -2974,7 +2033,7 @@
         "key":"triggeredByDamageTaken"
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -2991,7 +2050,7 @@
         "key":"chanceToTriggerOnStun"
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -3005,29 +2064,6 @@
       "name":"Speed",
       "type":"INC"
     }],
-  "cast_speed_+%_per_num_unique_spells_cast_in_last_8_seconds":[{
-      "flags":16,
-      "keywordFlags":0,
-      "name":"Speed",
-      "type":"INC",
-      "1":{
-        "type":"Multiplier",
-        "var":"NonInstantSpellCastRecently"
-      }
-    }],
-  "cast_speed_additive_modifiers_also_apply_to_projectile_speed_at_%_value":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CastSpeedAppliesToProjectileSpeed",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ImprovedCastSpeedAppliesToProjectileSpeed",
-      "type":"MAX"
-    }],
-  "cast_speed_modifiers_apply_to_over_time_cost":[],
   "cast_spell_on_linked_attack_crit":[{
       "flags":0,
       "keywordFlags":0,
@@ -3038,7 +2074,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -3055,7 +2091,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -3073,7 +2109,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -3095,7 +2131,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -3122,49 +2158,18 @@
         "key":"chanceToTriggerCurseOnCurse"
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
-        "skillType":98,
+        "skillType":108,
         "type":"SkillType"
       }
-    }],
-  "chains_hit_X_more_times":{
-    "mult":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChainCountMax",
-      "type":"MORE"
-    }
-  },
-  "chance_%_to_double_effect_of_removing_charges":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Multiplier:ConsumedEnduranceChargeEffect",
-      "type":"BASE"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Multiplier:ConsumedFrenzyChargeEffect",
-      "type":"BASE"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Multiplier:ConsumedPowerChargeEffect",
-      "type":"BASE"
     }],
   "chance_for_extra_damage_roll_%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"LuckyHitsChance",
-      "type":"BASE"
-    }],
-  "chance_for_extra_damage_roll_with_lightning_damage_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningLuckyHitsChance",
       "type":"BASE"
     }],
   "chance_to_be_frozen_%":[{
@@ -3257,69 +2262,20 @@
       "name":"EnemyIgniteChance",
       "type":"BASE"
     }],
-  "chance_to_gain_1_more_charge_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AdditionalChargeChance",
-      "type":"BASE"
-    }],
-  "chance_to_pierce_ignited_enemy_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PierceAllTargets",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Ignited"
-      }
-    }],
   "chance_to_scorch_%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"EnemyScorchChance",
       "type":"BASE"
     }],
-  "channel_end_duration_as_%_of_attack_time":{
-    "div":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"channelPercentOfAttackTime"
-      }
-    }
-  },
   "channelled_skill_damage_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"Damage",
       "type":"INC",
       "1":{
-        "skillType":48,
+        "skillType":57,
         "type":"SkillType"
-      }
-    }],
-  "channelled_skill_do_not_go_on_cooldown_on_finishing_channel":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CooldownDoesNotLimitSkillSpeed",
-      "type":"FLAG",
-      "value":true
-    }],
-  "chaos_damage_%_dealt_as_armour_break":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanArmourBreak",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"ArmourBreak",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
       }
     }],
   "chaos_damage_+%":[{
@@ -3327,20 +2283,6 @@
       "keywordFlags":0,
       "name":"ChaosDamage",
       "type":"INC"
-    }],
-  "chaos_damage_can_freeze":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChaosCanFreeze",
-      "type":"FLAG",
-      "value":true
-    }],
-  "chaos_damage_can_shock":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChaosCanShock",
-      "type":"FLAG",
-      "value":true
     }],
   "chaos_damage_taken_+%":[{
       "flags":0,
@@ -3374,7 +2316,7 @@
   "chill_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyChillMagnitude",
+      "name":"EnemyChillEffect",
       "type":"INC"
     }],
   "cold_ailment_duration_+%":[{
@@ -3387,16 +2329,26 @@
       "keywordFlags":0,
       "name":"EnemyFreezeDuration",
       "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyBrittleDuration",
+      "type":"INC"
     }],
   "cold_ailment_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyChillMagnitude",
+      "name":"EnemyChillEffect",
       "type":"INC"
     },{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyFreezeBuildup",
+      "name":"EnemyFreezeEffect",
+      "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyBrittleEffect",
       "type":"INC"
     }],
   "cold_damage_%_to_add_as_fire":[{
@@ -3422,32 +2374,6 @@
       "keywordFlags":0,
       "name":"ColdDotMultiplier",
       "type":"BASE"
-    }],
-  "companion_takes_%_damage_before_you_from_support":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TakenFromCompanionBeforeYou",
-      "type":"BASE",
-      "1":{
-        "effectType":"Buff",
-        "type":"GlobalEffect",
-        "unscalable":true
-      }
-    }],
-  "companions_are_gigantic":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Gigantic",
-          "type":"FLAG",
-          "value":true
-        }
-      }
     }],
   "consecrated_ground_effect_+%":[{
       "flags":0,
@@ -3485,7 +2411,7 @@
       }
     }
   },
-  "corpse_explosion_monster_life_permillage_physical":{
+  "corpse_explosion_monster_life_permillage_fire":{
     "div":1000,
     "1":{
       "flags":0,
@@ -3534,17 +2460,6 @@
       "name":"CritChance",
       "type":"INC"
     }],
-  "critical_strike_chance_+%_per_5_rage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CritChance",
-      "type":"INC",
-      "1":{
-        "div":5,
-        "stat":"Rage",
-        "type":"PerStat"
-      }
-    }],
   "critical_strike_chance_+%_per_power_charge":[{
       "flags":0,
       "keywordFlags":0,
@@ -3575,17 +2490,6 @@
         "actor":"enemy",
         "type":"ActorCondition",
         "var":"Blinded"
-      }
-    }],
-  "critical_strike_chance_+%_vs_immobilised_enemies":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CritChance",
-      "type":"INC",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Immobilised"
       }
     }],
   "critical_strike_chance_+%_vs_shocked_enemies":[{
@@ -3633,33 +2537,6 @@
         "var":"PowerCharge"
       }
     }],
-  "crossbow_barrage_attack_time_ratio_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BarrageAttackTimePenalty",
-      "type":"BASE",
-      "1":{
-        "skillType":116,
-        "type":"SkillType"
-      }
-    }],
-  "crushed_target_%_physical_damage_taken_as_armour_break":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanArmourBreak",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"ArmourBreak",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      },
-      "2":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Crushed"
-      }
-    }],
   "curse_area_of_effect_+%":[{
       "flags":0,
       "keywordFlags":2,
@@ -3672,18 +2549,6 @@
       "name":"Speed",
       "type":"INC"
     }],
-  "curse_delay_duration_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"curseDelay"
-      }
-    }
-  },
   "curse_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -3695,13 +2560,6 @@
       "keywordFlags":0,
       "name":"CurseEffectAgainstPlayer",
       "type":"INC"
-    }],
-  "curse_ignores_curse_limit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CursesIgnoreCurseLimit",
-      "type":"FLAG",
-      "value":true
     }],
   "curse_maximum_doom":[{
       "flags":0,
@@ -3889,7 +2747,7 @@
     },{
       "flags":0,
       "keywordFlags":0,
-      "name":"IgniteFaster",
+      "name":"IgniteBurnFaster",
       "type":"INC"
     }],
   "deal_chaos_damage_per_second_for_10_seconds_on_hit":[{
@@ -3927,13 +2785,6 @@
       "name":"DamageTakenOverTime",
       "type":"INC"
     }],
-  "disable_skill_repeats":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotRepeat",
-      "type":"FLAG",
-      "value":true
-    }],
   "discharge_damage_+%_if_3_charge_types_removed":[{
       "flags":0,
       "keywordFlags":0,
@@ -3953,43 +2804,6 @@
         "limit":1,
         "type":"Multiplier",
         "var":"RemovablePowerCharge"
-      }
-    }],
-  "display_fake_attack_hit_bleed":{
-    "value":100,
-    "1":{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"BleedChance",
-      "type":"BASE"
-    }
-  },
-  "display_fake_attack_hit_ignite":{
-    "value":100,
-    "1":{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"EnemyIgniteChance",
-      "type":"BASE"
-    }
-  },
-  "display_fake_attack_hit_poison":{
-    "value":100,
-    "1":{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"PoisonChance",
-      "type":"BASE"
-    }
-  },
-  "display_minion_level_from_triggering_skill_level":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"minionLevelIsTriggeredSkillLevel",
-        "value":true
       }
     }],
   "display_mirage_warriors_no_spirit_strikes":[{
@@ -4028,21 +2842,6 @@
       "keywordFlags":0,
       "name":"DotMultiplier",
       "type":"BASE"
-    }],
-  "double_ancestral_boost_effect":{
-    "value":1,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Multiplier:AncestralBoostEffect",
-      "type":"BASE"
-    }
-  },
-  "echoed_spell_area_of_effect_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RepeatAreaOfEffect",
-      "type":"INC"
     }],
   "elemental_damage_+%":[{
       "flags":0,
@@ -4098,20 +2897,10 @@
       "type":"BASE"
     }
   },
-  "exposure_effect_+%":[{
+  "energy_shield_recharge_rate_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"FireExposureEffect",
-      "type":"INC"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdExposureEffect",
-      "type":"INC"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningExposureEffect",
+      "name":"EnergyShieldRecharge",
       "type":"INC"
     }],
   "faster_bleed_%":[{
@@ -4123,7 +2912,7 @@
   "faster_burn_%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"IgniteFaster",
+      "name":"IgniteBurnFaster",
       "type":"INC"
     }],
   "faster_poison_%":[{
@@ -4131,27 +2920,6 @@
       "keywordFlags":0,
       "name":"PoisonFaster",
       "type":"INC"
-    }],
-  "final_strike_is_ancestrally_boosted":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:AncestrallyBoosted",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "type":"Condition",
-        "var":"FinalStrike"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MaxBoostedUptimeRatio",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "type":"Condition",
-        "var":"FinalStrike"
-      }
     }],
   "fire_damage_%_to_add_as_chaos":[{
       "flags":0,
@@ -4175,12 +2943,6 @@
       "flags":0,
       "keywordFlags":0,
       "name":"FireDotMultiplier",
-      "type":"BASE"
-    }],
-  "first_X_minions_have_0_base_spirit_reservation":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionFreeSpiritCount",
       "type":"BASE"
     }],
   "flask_effect_+%":[{
@@ -4213,35 +2975,6 @@
       "name":"EnemyFreezeDuration",
       "type":"INC"
     }],
-  "frost_wall_maximum_life":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"IceCrystalLifeBase",
-      "type":"BASE"
-    }],
-  "gain_energy_shield_cost_equal_to_intelligence":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ESCostNoMult",
-      "type":"BASE",
-      "1":{
-        "percent":100,
-        "stat":"Int",
-        "type":"PercentStat"
-      }
-    }],
-  "gain_x%_of_maximum_rage_on_melee_hit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanGainRage",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"Rage",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    }],
   "gain_x_rage_on_attack_hit":[{
       "flags":0,
       "keywordFlags":0,
@@ -4253,25 +2986,6 @@
         "effectType":"Buff",
         "type":"GlobalEffect"
       }
-    }],
-  "gain_x_rage_on_melee_hit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanGainRage",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"Rage",
-        "effectType":"Buff",
-        "type":"GlobalEffect"
-      }
-    }],
-  "generic_ongoing_triggerer_is_invocation_skill":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:InvocationSkill",
-      "type":"FLAG",
-      "value":true
     }],
   "global_always_hit":[{
       "flags":0,
@@ -4292,25 +3006,6 @@
       "type":"BASE"
     }
   },
-  "global_cannot_crit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"NeverCrit",
-      "type":"FLAG",
-      "value":true
-    }],
-  "global_chance_to_blind_on_hit_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BlindChance",
-      "type":"BASE"
-    }],
-  "global_chance_to_daze_on_hit_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DazeChance",
-      "type":"BASE"
-    }],
   "global_knockback":{
     "value":100,
     "1":{
@@ -4429,81 +3124,11 @@
         }
       }
     }],
-  "grenade_skill_%_chance_to_explode_twice":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"GrenadeActivateTwice",
-      "type":"BASE"
-    }],
-  "grenade_skill_cooldown_speed_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CooldownRecovery",
-      "type":"INC"
-    }],
-  "hazard_rearm_%_chance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"HazardRearmChance",
-      "type":"BASE",
-      "1":{
-        "skillType":203,
-        "type":"SkillType"
-      }
-    }],
   "hit_damage_+%":[{
       "flags":4,
       "keywordFlags":0,
       "name":"Damage",
       "type":"INC"
-    }],
-  "hit_damage_freeze_multiplier_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyFreezeBuildup",
-      "type":"INC"
-    }],
-  "hit_damage_immobilisation_multiplier_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyImmobilisationBuildup",
-      "type":"INC"
-    }],
-  "hits_ignore_enemy_cold_resistance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"IgnoreColdResistance",
-      "type":"FLAG",
-      "value":true
-    }],
-  "hits_ignore_enemy_fire_resistance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"IgnoreFireResistance",
-      "type":"FLAG",
-      "value":true
-    }],
-  "hits_ignore_enemy_lightning_resistance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"IgnoreLightningResistance",
-      "type":"FLAG",
-      "value":true
-    }],
-  "hits_ignore_enemy_monster_physical_damage_reduction":{
-    "base":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChanceToIgnoreEnemyPhysicalDamageReduction",
-      "type":"BASE"
-    }
-  },
-  "hits_ignore_enemy_monster_physical_damage_reduction_%_chance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ChanceToIgnoreEnemyPhysicalDamageReduction",
-      "type":"BASE"
     }],
   "holy_relic_trigger_on_parent_attack_%":[{
       "flags":0,
@@ -4515,34 +3140,15 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       }
-    }],
-  "ice_crystal_maximum_life_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"IceCrystalLife",
-      "type":"INC"
-    }],
-  "ignite_chance_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyIgniteChance",
-      "type":"INC"
     }],
   "ignite_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"EnemyIgniteDuration",
       "type":"INC"
-    }],
-  "immune_to_curses":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CurseImmune",
-      "type":"FLAG",
-      "value":true
     }],
   "impale_debuff_effect_+%":[{
       "flags":0,
@@ -4565,155 +3171,22 @@
       "type":"BASE"
     }
   },
-  "inflict_all_exposure_on_hit":[{
+  "keystone_strong_bowman":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"InflictExposure",
+      "name":"IronGrip",
       "type":"FLAG",
       "value":true
     }],
-  "inflict_exposure_for_x_ms_on_cold_crit":[{
+  "kill_enemy_on_hit_if_under_10%_life":{
+    "value":10,
+    "1":{
       "flags":0,
       "keywordFlags":0,
-      "name":"ExposureDuration",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"CritInPast8Sec"
-      },
-      "2":{
-        "type":"Condition",
-        "var":"ColdHasDamage"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"InflictExposure",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "type":"Condition",
-        "var":"CritInPast8Sec"
-      },
-      "2":{
-        "type":"Condition",
-        "var":"ColdHasDamage"
-      }
-    }],
-  "inflict_exposure_for_x_ms_on_ignite":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ExposureDuration",
-      "type":"BASE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Ignited"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"InflictExposure",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Ignited"
-      }
-    }],
-  "inflict_exposure_for_x_ms_on_shock":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ExposureDuration",
-      "type":"BASE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Shocked"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"InflictExposure",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Shocked"
-      }
-    }],
-  "inflict_exposure_on_hit_%_chance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningExposureChance",
-      "type":"BASE"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdExposureChance",
-      "type":"BASE"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireExposureChance",
-      "type":"BASE"
-    }],
-  "inflict_lightning_exposure_for_x_ms_on_shock":[{
-      "flags":4,
-      "keywordFlags":0,
-      "name":"LightningExposureChance",
-      "type":"BASE",
-      "value":100,
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Shocked"
-      }
-    }],
-  "is_commandable_skill":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CommandableSkill",
-      "type":"FLAG",
-      "value":true
-    }],
-  "is_final_strike":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:FinalStrike",
-      "type":"FLAG",
-      "value":true
-    }],
-  "is_hazard":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CanCreateHazards",
-      "type":"FLAG",
-      "value":true
-    }],
-  "is_hidden_monster":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"HiddenMonster",
-      "type":"FLAG",
-      "value":true
-    }],
-  "is_resummoning_minion":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RevivingMinion",
-      "type":"FLAG",
-      "value":true
-    }],
-  "kill_enemy_on_hit_if_under_10%_life":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CanCull",
-      "type":"FLAG",
-      "value":true
-    }],
+      "name":"CullPercent",
+      "type":"MAX"
+    }
+  },
   "knockback_distance_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -4748,6 +3221,15 @@
       "type":"BASE"
     }
   },
+  "life_leech_from_physical_attack_damage_permyriad":{
+    "div":100,
+    "1":{
+      "flags":1,
+      "keywordFlags":0,
+      "name":"PhysicalDamageLifeLeech",
+      "type":"BASE"
+    }
+  },
   "life_leech_on_any_damage_when_hit_permyriad":[{
       "flags":0,
       "keywordFlags":0,
@@ -4763,12 +3245,6 @@
       "type":"BASE"
     }
   },
-  "life_remnants_gain_per_globe":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LifeGainPerRemnant",
-      "type":"BASE"
-    }],
   "lightning_ailment_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -4783,7 +3259,12 @@
   "lightning_ailment_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyShockMagnitude",
+      "name":"EnemyShockEffect",
+      "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemySapEffect",
       "type":"INC"
     }],
   "lightning_damage_%_to_add_as_chaos":[{
@@ -4816,75 +3297,6 @@
       "keywordFlags":0,
       "name":"LinkEffectOnSelf",
       "type":"INC"
-    }],
-  "main_hand_base_physical_damage_from_%_dex":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMin",
-      "type":"BASE",
-      "1":{
-        "percent":1,
-        "stat":"Dex",
-        "type":"PercentStat"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMax",
-      "type":"BASE",
-      "1":{
-        "percent":1,
-        "stat":"Dex",
-        "type":"PercentStat"
-      }
-    }],
-  "main_hand_weapon_maximum_cold_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"ColdMax",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_maximum_fire_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"FireMax",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_maximum_lightning_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"LightningMax",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_maximum_physical_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"PhysicalMax",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_minimum_cold_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"ColdMin",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_minimum_fire_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"FireMin",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_minimum_lightning_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"LightningMin",
-      "type":"BASE"
-    }],
-  "main_hand_weapon_minimum_physical_damage":[{
-      "flags":0,
-      "keywordFlags":65536,
-      "name":"PhysicalMin",
-      "type":"BASE"
     }],
   "mana_gain_per_target":[{
       "flags":0,
@@ -4919,37 +3331,15 @@
       "name":"SelfDamageManaLeech",
       "type":"BASE"
     }],
-  "mana_remnants_mana_gain_per_globe":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ManaGainPerRemnant",
-      "type":"BASE"
-    }],
-  "mark_effect_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CurseEffect",
-      "type":"INC",
-      "1":{
-        "skillType":99,
-        "type":"SkillType"
-      }
-    }],
   "mark_skills_curse_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"CurseEffect",
       "type":"INC",
       "1":{
-        "skillType":99,
+        "skillType":109,
         "type":"SkillType"
       }
-    }],
-  "max_azmerian_swarms":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AzmerianSwarmLimit",
-      "type":"BASE"
     }],
   "maximum_added_cold_damage_per_frenzy_charge":[{
       "flags":0,
@@ -4983,23 +3373,11 @@
         "var":"Ignited"
       }
     }],
-  "maximum_corpse_beetles_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BeetleLimit",
-      "type":"BASE"
-    }],
   "maximum_energy_shield_leech_amount_per_leech_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"MaxEnergyShieldLeechRate",
       "type":"INC"
-    }],
-  "maximum_hatching_elementals_allowed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ActiveSkitteringStoneLimit",
-      "type":"BASE"
     }],
   "maximum_life_+%_for_corpses_you_create":[{
       "flags":0,
@@ -5032,7 +3410,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       }
     }],
@@ -5049,7 +3427,7 @@
         "type":"SkillType"
       },
       "2":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       }
     }],
@@ -5173,20 +3551,6 @@
         "var":"Ignited"
       }
     }],
-  "minion_accuracy_rating_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Accuracy",
-          "type":"INC"
-        }
-      }
-    }],
   "minion_additional_physical_damage_reduction_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5246,43 +3610,6 @@
         }
       }
     }],
-  "minion_base_physical_damage_%_to_convert_to_lightning":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"PhysicalDamageConvertToLightning",
-          "type":"BASE"
-        }
-      }
-    }],
-  "minion_base_resummon_time_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"BaseReviveTime",
-      "type":"OVERRIDE"
-    }
-  },
-  "minion_block_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"BlockChance",
-          "type":"BASE"
-        }
-      }
-    }],
   "minion_cast_speed_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5308,24 +3635,6 @@
           "keywordFlags":0,
           "name":"DoubleDamageChance",
           "type":"BASE"
-        }
-      }
-    }],
-  "minion_command_skill_cooldown_speed_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"CooldownRecovery",
-          "type":"INC",
-          "1":{
-            "type":"Condition",
-            "var":"CommandableSkill"
-          }
         }
       }
     }],
@@ -5385,97 +3694,6 @@
         }
       }
     }],
-  "minion_damage_+%_final_per_different_elemental_ailment_on_target":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE",
-          "1":{
-            "actor":"enemy",
-            "type":"ActorCondition",
-            "var":"Electrocuted"
-          }
-        }
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE",
-          "1":{
-            "actor":"enemy",
-            "type":"ActorCondition",
-            "var":"Frozen"
-          }
-        }
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE",
-          "1":{
-            "actor":"enemy",
-            "type":"ActorCondition",
-            "var":"Chilled"
-          }
-        }
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE",
-          "1":{
-            "actor":"enemy",
-            "type":"ActorCondition",
-            "var":"Ignited"
-          }
-        }
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE",
-          "1":{
-            "actor":"enemy",
-            "type":"ActorCondition",
-            "var":"Shocked"
-          }
-        }
-      }
-    }],
   "minion_damage_+%_on_full_life":[{
       "flags":0,
       "keywordFlags":0,
@@ -5494,20 +3712,6 @@
         }
       }
     }],
-  "minion_damage_taken_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"DamageTaken",
-          "type":"INC"
-        }
-      }
-    }],
   "minion_elemental_resistance_%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5518,20 +3722,6 @@
           "flags":0,
           "keywordFlags":0,
           "name":"ElementalResist",
-          "type":"BASE"
-        }
-      }
-    }],
-  "minion_fire_damage_resistance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"FireResist",
           "type":"BASE"
         }
       }
@@ -5612,25 +3802,6 @@
         }
       }
     }],
-  "minion_maximum_life_%_to_gain_as_maximum_energy_shield":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"EnergyShield",
-          "type":"BASE",
-          "1":{
-            "percent":1,
-            "stat":"Life",
-            "type":"PercentStat"
-          }
-        }
-      }
-    }],
   "minion_maximum_life_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -5687,52 +3858,6 @@
         }
       }
     }],
-  "minion_skill_physical_damage_%_to_convert_to_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"SkillPhysicalDamageConvertToFire",
-          "type":"BASE"
-        }
-      }
-    }],
-  "minions_are_gigantic":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Gigantic",
-          "type":"FLAG",
-          "value":true
-        }
-      }
-    }],
-  "minions_cannot_be_damaged":{
-    "value":-100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"DamageTaken",
-          "type":"MORE"
-        }
-      }
-    }
-  },
   "minions_deal_%_of_physical_damage_as_additional_chaos_damage":[{
       "flags":0,
       "keywordFlags":0,
@@ -5747,23 +3872,6 @@
         }
       }
     }],
-  "minions_deal_no_damage":{
-    "value":-100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE"
-        }
-      }
-    }
-  },
   "minions_have_%_chance_to_inflict_wither_on_hit":[{
       "flags":0,
       "keywordFlags":0,
@@ -5832,30 +3940,11 @@
         "value":true
       }
     }],
-  "modifiers_to_warcry_damage_also_apply_to_this":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"WarcryDamageAppliesToSkill",
-      "type":"FLAG",
-      "value":true
-    }],
   "monster_base_block_%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"BlockChance",
       "type":"BASE"
-    }],
-  "movement_speed_+%_final_while_performing_action":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillMovementSpeed",
-      "type":"MORE"
-    }],
-  "movement_speed_penalty_+%_while_performing_action":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MovementSpeedPenalty",
-      "type":"INC"
     }],
   "never_chill":[{
       "flags":0,
@@ -5868,19 +3957,6 @@
       "flags":0,
       "keywordFlags":0,
       "name":"CannotFreeze",
-      "type":"FLAG",
-      "value":true
-    }],
-  "never_freeze_or_chill":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotFreeze",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotChill",
       "type":"FLAG",
       "value":true
     }],
@@ -5913,15 +3989,6 @@
         "varList":["UsingSword","UsingAxe","UsingMace"]
       }
     }],
-  "no_cost":{
-    "value":-100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Cost",
-      "type":"MORE"
-    }
-  },
   "no_critical_strike_multiplier":[{
       "flags":0,
       "keywordFlags":0,
@@ -5945,119 +4012,44 @@
       "type":"INC",
       "1":{
         "neg":true,
-        "skillType":69,
+        "skillType":79,
         "type":"SkillType"
       }
     }],
   "non_damaging_ailment_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyChillMagnitude",
+      "name":"EnemyChillEffect",
       "type":"INC"
     },{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyShockMagnitude",
+      "name":"EnemyShockEffect",
       "type":"INC"
     },{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyFreezeBuildup",
+      "name":"EnemyFreezeEffect",
+      "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyScorchEffect",
+      "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemyBrittleEffect",
+      "type":"INC"
+    },{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"EnemySapEffect",
       "type":"INC"
     }],
-  "non_modifiable_totem_limit":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ActiveTotemLimit",
-      "type":"OVERRIDE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_chaos_with_attacks":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"DamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_cold":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsCold",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_cold_with_attacks":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"DamageGainAsCold",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_fire":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsFire",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_fire_with_attacks":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"DamageGainAsFire",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_fire_with_attacks_vs_burning_enemies":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsFire",
-      "type":"BASE",
-      "1":{
-        "actor":"enemy",
-        "type":"ActorCondition",
-        "var":"Burning"
-      }
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_lightning":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsLightning",
-      "type":"BASE"
-    }],
-  "non_skill_base_all_damage_%_to_gain_as_lightning_with_attacks":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"DamageGainAsLightning",
-      "type":"BASE"
-    }],
-  "non_skill_base_cold_damage_%_to_gain_as_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdDamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "non_skill_base_fire_damage_%_to_gain_as_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireDamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "non_skill_base_lightning_damage_%_to_gain_as_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningDamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "non_skill_base_physical_damage_%_to_gain_as_chaos":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalDamageGainAsChaos",
-      "type":"BASE"
-    }],
-  "nova_skills_cast_at_target_location":[],
   "number_of_additional_arrows":[{
       "flags":0,
-      "keywordFlags":2048,
+      "keywordFlags":0,
       "name":"ProjectileCount",
       "type":"BASE"
     }],
@@ -6139,13 +4131,6 @@
       "name":"MinionPerCastCount",
       "type":"BASE"
     }],
-  "number_of_projectiles_cannot_be_modified":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"NoAdditionalProjectiles",
-      "type":"FLAG",
-      "value":true
-    }],
   "number_of_spider_minions_allowed":[{
       "flags":0,
       "keywordFlags":0,
@@ -6165,6 +4150,60 @@
       "type":"LIST",
       "value":{
         "key":"setOffHandAttackTime"
+      }
+    }],
+  "off_hand_local_maximum_added_cold_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"setOffHandColdMax"
+      }
+    }],
+  "off_hand_local_maximum_added_fire_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"setOffHandFireMax"
+      }
+    }],
+  "off_hand_local_maximum_added_physical_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"setOffHandPhysicalMax"
+      }
+    }],
+  "off_hand_local_minimum_added_cold_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"setOffHandColdMin"
+      }
+    }],
+  "off_hand_local_minimum_added_fire_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"setOffHandFireMin"
+      }
+    }],
+  "off_hand_local_minimum_added_physical_damage":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"SkillData",
+      "type":"LIST",
+      "value":{
+        "key":"setOffHandPhysicalMin"
       }
     }],
   "off_hand_maximum_added_cold_damage_per_15_shield_evasion":[{
@@ -6197,36 +4236,6 @@
         "type":"PerStat"
       }
     }],
-  "off_hand_maximum_added_fire_damage_per_15_shield_evasion":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireMax",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":15,
-        "stat":"EvasionOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
-  "off_hand_maximum_added_physical_damage_per_15_shield_armour":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMax",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":15,
-        "stat":"ArmourOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
   "off_hand_maximum_added_physical_damage_per_15_shield_armour_and_evasion_rating":[{
       "flags":0,
       "keywordFlags":0,
@@ -6239,36 +4248,6 @@
       "2":{
         "div":15,
         "statList":["ArmourOnWeapon 2","EvasionOnWeapon 2"],
-        "type":"PerStat"
-      }
-    }],
-  "off_hand_maximum_added_physical_damage_per_5_shield_armour":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMax",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":5,
-        "stat":"ArmourOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
-  "off_hand_maximum_added_physical_damage_per_5_shield_evasion_rating":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMax",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":5,
-        "stat":"EvasionOnWeapon 2",
         "type":"PerStat"
       }
     }],
@@ -6302,36 +4281,6 @@
         "type":"PerStat"
       }
     }],
-  "off_hand_minimum_added_fire_damage_per_15_shield_evasion":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireMin",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":15,
-        "stat":"EvasionOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
-  "off_hand_minimum_added_physical_damage_per_15_shield_armour":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMin",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":15,
-        "stat":"ArmourOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
   "off_hand_minimum_added_physical_damage_per_15_shield_armour_and_evasion_rating":[{
       "flags":0,
       "keywordFlags":0,
@@ -6345,90 +4294,6 @@
         "div":15,
         "statList":["ArmourOnWeapon 2","EvasionOnWeapon 2"],
         "type":"PerStat"
-      }
-    }],
-  "off_hand_minimum_added_physical_damage_per_5_shield_armour":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMin",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":5,
-        "stat":"ArmourOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
-  "off_hand_minimum_added_physical_damage_per_5_shield_evasion_rating":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalMin",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"OffHandAttack"
-      },
-      "2":{
-        "div":5,
-        "stat":"EvasionOnWeapon 2",
-        "type":"PerStat"
-      }
-    }],
-  "off_hand_weapon_maximum_cold_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"setOffHandColdMax"
-      }
-    }],
-  "off_hand_weapon_maximum_fire_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"setOffHandFireMax"
-      }
-    }],
-  "off_hand_weapon_maximum_physical_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"setOffHandPhysicalMax"
-      }
-    }],
-  "off_hand_weapon_minimum_cold_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"setOffHandColdMin"
-      }
-    }],
-  "off_hand_weapon_minimum_fire_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"setOffHandFireMin"
-      }
-    }],
-  "off_hand_weapon_minimum_physical_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"setOffHandPhysicalMin"
       }
     }],
   "offering_skill_effect_duration_per_corpse":{
@@ -6463,28 +4328,6 @@
       }
     }
   },
-  "perfect_strike_timing_window_base_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PerfectTimingBase",
-      "type":"BASE"
-    }
-  },
-  "perfect_timing_window_ms_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PerfectTiming",
-      "type":"INC"
-    }],
-  "perfectly_timed":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:PerfectTiming",
-      "type":"FLAG",
-      "value":true
-    }],
   "physical_damage_%_to_add_as_chaos":[{
       "flags":0,
       "keywordFlags":0,
@@ -6524,13 +4367,6 @@
         "type":"Multiplier",
         "var":"FrenzyCharge"
       }
-    }],
-  "physical_damage_can_freeze":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalCanFreeze",
-      "type":"FLAG",
-      "value":true
     }],
   "physical_damage_reduction_rating_+%":[{
       "flags":0,
@@ -6595,12 +4431,6 @@
       "name":"CannotSplit",
       "type":"FLAG",
       "value":true
-    }],
-  "projectile_chance_to_chain_1_extra_time_from_terrain_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TerrainChainChance",
-      "type":"BASE"
     }],
   "projectile_damage_+%":[{
       "flags":1024,
@@ -6671,13 +4501,6 @@
       "name":"SplitCount",
       "type":"BASE"
     }],
-  "projectile_speed_additive_modifiers_also_apply_to_projectile_damage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ProjectileSpeedAppliesToProjectileDamage",
-      "type":"FLAG",
-      "value":true
-    }],
   "projectiles_always_pierce_you":[{
       "flags":0,
       "keywordFlags":0,
@@ -6685,31 +4508,10 @@
       "type":"FLAG",
       "value":true
     }],
-  "projectiles_barrage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SequentialProjectiles",
-      "type":"FLAG",
-      "value":true
-    }],
-  "projectiles_cannot_fork":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotFork",
-      "type":"FLAG",
-      "value":true
-    }],
   "projectiles_cannot_split":[{
       "flags":0,
       "keywordFlags":0,
       "name":"CannotSplit",
-      "type":"FLAG",
-      "value":true
-    }],
-  "projectiles_crossbow_barrage":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SequentialProjectiles",
       "type":"FLAG",
       "value":true
     }],
@@ -6726,45 +4528,20 @@
       "type":"BASE"
     }],
   "quality_display_active_skill_area_damage_is_gem":[],
-  "quality_display_active_skill_base_area_of_effect_radius_is_gem":[],
-  "quality_display_active_skill_base_secondary_area_of_effect_radius_is_gem":[],
   "quality_display_active_skill_bleed_damage_final_is_gem":[],
-  "quality_display_active_skill_damage_+%_final_vs_immobilised_enemies_is_gem":[],
-  "quality_display_active_skill_pins_as_though_dealt_damage_+%_final_is_gem":[],
   "quality_display_animate_weapon_is_gem":[],
-  "quality_display_banner_buff_effect_+%_final_per_resource_is_gem":[],
   "quality_display_base_additional_arrows_is_gem":[],
   "quality_display_base_duration_is_quality":[],
-  "quality_display_base_number_of_crossbow_bolts_is_gem":[],
   "quality_display_base_number_of_projectiles_is_gem":[],
-  "quality_display_base_skill_effect_duration_is_gem":[],
-  "quality_display_base_totem_duration_is_gem":[],
-  "quality_display_freezing_mark_is_gem":[],
-  "quality_display_lightning_arrow_is_gem":[],
-  "quality_display_mana_tempest_is_gem":[],
-  "quality_display_sandstorm_swipe_is_gem":[],
   "quality_display_shock_chance_from_skill_is_gem":[],
-  "quality_display_siege_cascade_damage_+%_final_vs_immobilised_enemies_is_gem":[],
   "quality_display_sigil_attached_target_damage_is_gem":[],
   "quality_display_spell_damage_to_attack_damage_is_gem":[],
-  "quality_display_supercharged_slam_is_gem":[],
   "quality_display_trap_duration_is_gem":[],
   "receive_bleeding_chance_%_when_hit_by_attack":[{
       "flags":0,
       "keywordFlags":0,
       "name":"SelfBleedChance",
       "type":"BASE"
-    }],
-  "recover_%_maximum_life_on_cull":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LifeOnKill",
-      "type":"BASE",
-      "1":{
-        "percent":1,
-        "stat":"Life",
-        "type":"PercentStat"
-      }
     }],
   "reduce_enemy_chaos_resistance_%":[{
       "flags":0,
@@ -6777,18 +4554,6 @@
       "keywordFlags":0,
       "name":"ElementalPenetration",
       "type":"BASE"
-    }],
-  "reload_speed_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ReloadSpeed",
-      "type":"INC"
-    }],
-  "remnant_effect_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RemnantEffect",
-      "type":"INC"
     }],
   "remote_mined_by_support":[{
       "flags":0,
@@ -6911,54 +4676,6 @@
       "name":"SecondaryDuration",
       "type":"INC"
     }],
-  "set_base_cannot_be_damaged":{
-    "value":-100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageTaken",
-      "type":"MORE"
-    }
-  },
-  "set_base_damage_taken_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageTaken",
-      "type":"INC"
-    }],
-  "set_base_heavy_stun_duration_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"StunDuration",
-      "type":"OVERRIDE"
-    }
-  },
-  "set_base_maximum_life_is_one":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Life",
-      "type":"OVERRIDE"
-    }],
-  "set_max_endurance_charges":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnduranceChargesMax",
-      "type":"OVERRIDE"
-    }],
-  "set_max_frenzy_charges":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FrenzyChargesMax",
-      "type":"OVERRIDE"
-    }],
-  "set_max_power_charges":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PowerChargesMax",
-      "type":"OVERRIDE"
-    }],
   "shield_charge_damage_+%_maximum":[{
       "flags":4,
       "keywordFlags":0,
@@ -6969,12 +4686,6 @@
         "type":"DistanceRamp"
       }
     }],
-  "shock_chance_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyShockChance",
-      "type":"INC"
-    }],
   "shock_duration_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -6984,7 +4695,7 @@
   "shock_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"EnemyShockMagnitude",
+      "name":"EnemyShockEffect",
       "type":"INC"
     }],
   "shock_maximum_magnitude_+":[{
@@ -7026,12 +4737,6 @@
       "name":"BrandActivationFrequency",
       "type":"INC"
     }],
-  "skeletal_graft_buff_effect_magnitude":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"UmbralWellBuffValue",
-      "type":"BASE"
-    }],
   "skill_area_of_effect_+%_final_in_sand_stance":[{
       "flags":0,
       "keywordFlags":0,
@@ -7042,43 +4747,12 @@
         "var":"SandStance"
       }
     }],
-  "skill_base_oil_exposure_-_to_total_elemental_resistance":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"FireExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"ColdExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LightningExposure",
-      "type":"BASE",
-      "1":{
-        "effectType":"Debuff",
-        "type":"GlobalEffect"
-      }
-    }],
   "skill_buff_effect_+%":[{
       "flags":0,
       "keywordFlags":0,
       "name":"BuffEffect",
       "type":"INC"
     }],
-  "skill_can_fire_arrows":{
-    "skillFlag":"arrow"
-  },
   "skill_can_own_mirage_archers":[{
       "flags":0,
       "keywordFlags":0,
@@ -7089,7 +4763,7 @@
         "value":true
       },
       "1":{
-        "skillType":58,
+        "skillType":68,
         "type":"SkillType"
       }
     }],
@@ -7112,27 +4786,11 @@
       "name":"SkillColdDamageConvertToFire",
       "type":"BASE"
     }],
-  "skill_combines_hits_when_dual_wielding":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"combinesHitsWhenDualWielding",
-        "value":true
-      }
-    }],
   "skill_convert_%_physical_damage_to_random_element":[{
       "flags":0,
       "keywordFlags":0,
       "name":"PhysicalDamageConvertToRandom",
       "type":"BASE"
-    }],
-  "skill_detonation_time_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DetonationTime",
-      "type":"INC"
     }],
   "skill_double_hits_when_dual_wielding":[{
       "flags":0,
@@ -7176,15 +4834,9 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       }
-    }],
-  "skill_hyena_cackle_size":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"HyenaLimit",
-      "type":"BASE"
     }],
   "skill_lightning_damage_%_to_convert_to_chaos":[{
       "flags":0,
@@ -7204,12 +4856,6 @@
       "name":"SkillLightningDamageConvertToFire",
       "type":"BASE"
     }],
-  "skill_maximum_number_of_combo_stacks":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Multiplier:ComboStacksMax",
-      "type":"BASE"
-    }],
   "skill_minion_explosion_life_%":{
     "div":100,
     "1":{
@@ -7222,38 +4868,6 @@
       }
     }
   },
-  "skill_overwhelming_pressure_aura_enemy_ailment_threshold_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyAilmentThreshold",
-      "type":"INC",
-      "1":{
-        "effectName":"Overwhelming Presence",
-        "effectType":"AuraDebuff",
-        "type":"GlobalEffect"
-      },
-      "2":{
-        "limit":90,
-        "neg":true,
-        "type":"Limit"
-      }
-    }],
-  "skill_overwhelming_pressure_aura_enemy_stun_threshold_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyStunThreshold",
-      "type":"INC",
-      "1":{
-        "effectName":"Overwhelming Presence",
-        "effectType":"AuraDebuff",
-        "type":"GlobalEffect"
-      },
-      "2":{
-        "limit":90,
-        "neg":true,
-        "type":"Limit"
-      }
-    }],
   "skill_physical_damage_%_to_convert_to_chaos":[{
       "flags":0,
       "keywordFlags":0,
@@ -7278,52 +4892,6 @@
       "name":"SkillPhysicalDamageConvertToLightning",
       "type":"BASE"
     }],
-  "skill_repeat_count":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RepeatCount",
-      "type":"BASE",
-      "1":{
-        "skillType":22,
-        "type":"SkillType"
-      }
-    }],
-  "skill_requires_X_ultimate_charge":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SkillData",
-      "type":"LIST",
-      "value":{
-        "key":"showAverage",
-        "value":true
-      }
-    }],
-  "skill_reserves_X_life_permyriad_per_spirit_instead_of_spirit":{
-    "div":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"LifeReservePercentPerSpirit",
-      "type":"BASE"
-    }
-  },
-  "skill_specific_stat_description_mode":[],
-  "skill_speed_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Speed",
-      "type":"INC"
-    },{
-      "flags":0,
-      "keywordFlags":4,
-      "name":"WarcrySpeed",
-      "type":"INC"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TotemPlacementSpeed",
-      "type":"INC"
-    }],
   "skill_triggered_by_snipe":[{
       "flags":0,
       "keywordFlags":0,
@@ -7334,16 +4902,9 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       }
-    }],
-  "skill_triggered_manually_by_other_skill":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:Empowered",
-      "type":"FLAG",
-      "value":true
     }],
   "skill_triggered_when_you_focus_chance_%":{
     "div":100,
@@ -7356,7 +4917,7 @@
         "key":"chanceToTriggerOnFocus"
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -7365,12 +4926,6 @@
       }
     }
   },
-  "slam_aftershock_chance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AftershockChance",
-      "type":"BASE"
-    }],
   "snipe_triggered_skill_ailment_damage_+%_final_per_stage":[{
       "flags":0,
       "keywordFlags":0,
@@ -7466,7 +5021,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -7740,12 +5295,6 @@
         "key":"PhysicalMin"
       }
     }],
-  "spell_skills_fire_2_additional_projectiles_final_chance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TwoAdditionalProjectilesChance",
-      "type":"BASE"
-    }],
   "spell_uncastable_if_triggerable":[{
       "flags":0,
       "keywordFlags":0,
@@ -7756,22 +5305,22 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       }
-    }],
-  "spells_have_culling_strike":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CanCull",
-      "type":"FLAG",
-      "value":true
     }],
   "spells_impale_on_hit_%_chance":[{
       "flags":0,
       "keywordFlags":131072,
       "name":"ImpaleChance",
       "type":"BASE"
+    }],
+  "strong_casting":[{
+      "flags":0,
+      "keywordFlags":0,
+      "name":"IronWill",
+      "type":"FLAG",
+      "value":true
     }],
   "stun_duration_+%_vs_enemies_that_are_on_full_life":[{
       "flags":0,
@@ -7783,12 +5332,6 @@
         "type":"ActorCondition",
         "var":"FullLife"
       }
-    }],
-  "stun_duration_on_self_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"StunDuration",
-      "type":"INC"
     }],
   "stun_threshold_+%":[{
       "flags":0,
@@ -7848,7 +5391,7 @@
         "value":true
       },
       "1":{
-        "skillTypeList":[2,41],
+        "skillTypeList":[2,47],
         "type":"SkillType"
       }
     }],
@@ -7858,18 +5401,6 @@
       "name":"TotemPlacementSpeed",
       "type":"INC"
     }],
-  "supplementary_stat_container_attack_speed_+%_final":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"Speed",
-      "type":"MORE"
-    }],
-  "support_%_of_total_cast_time_as_base_skill_seal_gain_interval":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SealGainFrequency",
-      "type":"BASE"
-    }],
   "support_added_cooldown_count_if_not_instant":[{
       "flags":0,
       "keywordFlags":0,
@@ -7877,7 +5408,7 @@
       "type":"BASE",
       "1":{
         "neg":true,
-        "skillType":64,
+        "skillType":74,
         "type":"SkillType"
       }
     }],
@@ -7926,27 +5457,6 @@
       "type":"BASE"
     }
   },
-  "support_anticipation_rapid_fire_count":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SealCount",
-      "type":"BASE"
-    }],
-  "support_apply_daze_on_warcry":{
-    "value":100,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyDazeChance",
-      "type":"BASE"
-    }
-  },
-  "support_area_of_effect_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AreaOfEffect",
-      "type":"MORE"
-    }],
   "support_autocast_instant_spells":[{
       "flags":0,
       "keywordFlags":0,
@@ -7956,7 +5466,7 @@
         "key":"triggeredByAutomation"
       },
       "1":{
-        "skillTypeList":[31,2,64],
+        "skillTypeList":[35,2,74],
         "type":"SkillType"
       }
     }],
@@ -7969,11 +5479,11 @@
         "key":"triggeredByAutoCry"
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
-        "skillType":63,
+        "skillType":73,
         "type":"SkillType"
       }
     }],
@@ -8010,12 +5520,6 @@
         "type":"PerStat"
       }
     }],
-  "support_brink_hit_damage_stun_multiplier_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyHeavyStunBuildup",
-      "type":"MORE"
-    }],
   "support_cast_on_mana_spent":[{
       "flags":0,
       "keywordFlags":0,
@@ -8026,67 +5530,13 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
         "skillType":2,
         "type":"SkillType"
       }
-    }],
-  "support_command_skill_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MinionModifier",
-      "type":"LIST",
-      "value":{
-        "mod":{
-          "flags":0,
-          "keywordFlags":0,
-          "name":"Damage",
-          "type":"MORE",
-          "1":{
-            "type":"Condition",
-            "var":"CommandableSkill"
-          }
-        }
-      }
-    }],
-  "support_cooldown_reduction_cooldown_recovery_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CooldownRecovery",
-      "type":"INC"
-    }],
-  "support_culmination_damage_+%_final_per_combo_stack":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "limitVar":"ComboStacksMax",
-        "type":"Multiplier",
-        "var":"ComboStacks"
-      }
-    }],
-  "support_deliberation_movement_speed_penalty_+%_final_while_performing_action":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MovementSpeedPenalty",
-      "type":"MORE"
-    }],
-  "support_grenade_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE"
-    }],
-  "support_hourglass_display_cooldown_time_ms":[],
-  "support_hypothermia_hit_damage_freeze_multiplier_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyFreezeBuildup",
-      "type":"MORE"
     }],
   "support_makes_skill_mine_pvp_damage_+%_final":[{
       "flags":0,
@@ -8108,144 +5558,10 @@
         }
       }
     }],
-  "support_mobility_movement_speed_penalty_+%_final_while_performing_action":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"MovementSpeedPenalty",
-      "type":"MORE"
-    }],
-  "support_no_fear_damage_+%_final_per_second_up_to_30%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "type":"Condition",
-        "var":"UsingStoicism"
-      },
-      "2":{
-        "neg":true,
-        "type":"Condition",
-        "var":"DodgeRolledRecently"
-      },
-      "3":{
-        "neg":true,
-        "type":"Condition",
-        "var":"UsedTravelSkillRecently"
-      },
-      "4":{
-        "limitTotal":true,
-        "limitVar":"StoicismCap",
-        "type":"Multiplier",
-        "var":"StoicismSeconds"
-      }
-    }],
-  "support_pierce_projectile_damage_+%_final_if_pierced_enemy":[{
-      "flags":1024,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "stat":"PiercedCount",
-        "threshold":1,
-        "type":"StatThreshold"
-      }
-    }],
-  "support_pin_buildup_pin_instead_of_stun":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PinBuildupInsteadOfHeavyStunBuildup",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotStun",
-      "type":"FLAG",
-      "value":true
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"CannotHeavyStun",
-      "type":"FLAG",
-      "value":true
-    }],
-  "support_pin_physical_damage_can_pin":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"PhysicalCanPin",
-      "type":"FLAG",
-      "value":true
-    }],
-  "support_pin_pin_buildup_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyPinBuildup",
-      "type":"MORE"
-    }],
-  "support_pure_shock_shock_duration_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"EnemyShockDuration",
-      "type":"MORE"
-    }],
-  "support_rapid_decay_damage_over_time_+%_final":[{
-      "flags":8,
-      "keywordFlags":0,
-      "name":"Damage",
-      "type":"MORE"
-    }],
-  "support_spell_damage_+%_final_while_above_90%_maximum_mana":[{
-      "flags":0,
-      "keywordFlags":131072,
-      "name":"Damage",
-      "type":"MORE",
-      "1":{
-        "type":"Condition",
-        "var":"FullMana"
-      }
-    }],
-  "support_spell_echo_area_of_effect_+%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RepeatAreaOfEffect",
-      "type":"INC"
-    }],
-  "support_spell_echo_number_of_echo_cascades":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"RepeatCount",
-      "type":"BASE",
-      "1":{
-        "skillType":56,
-        "type":"SkillType"
-      }
-    }],
-  "support_spell_rapid_fire_repeat_use_damage_+%_final":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SealRepeatPenalty",
-      "type":"MORE"
-    }],
-  "support_storm_skill_limit_+":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"AdditionalCooldownUses",
-      "type":"BASE",
-      "1":{
-        "skillType":254,
-        "type":"SkillType"
-      }
-    }],
   "support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final":[{
       "flags":0,
       "keywordFlags":0,
-      "name":"Duration",
-      "type":"MORE"
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamagingAilmentDuration",
+      "name":"SkillAndDamagingAilmentDuration",
       "type":"MORE"
     }],
   "support_trap_damage_+%_final":[{
@@ -8264,16 +5580,6 @@
         "keyword":"grants_active_skill"
       }
     }],
-  "supported_active_skill_gem_quality_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SupportedGemProperty",
-      "type":"LIST",
-      "value":{
-        "key":"quality",
-        "keyword":"grants_active_skill"
-      }
-    }],
   "supported_aura_skill_gem_level_+":[{
       "flags":0,
       "keywordFlags":0,
@@ -8284,8 +5590,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Aura",
-        "type":"GemTag"
+        "skillType":43,
+        "type":"SkillType"
       }
     }],
   "supported_chaos_skill_gem_level_+":[{
@@ -8298,8 +5604,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Chaos",
-        "type":"GemTag"
+        "skillType":49,
+        "type":"SkillType"
       }
     }],
   "supported_cold_skill_gem_level_+":[{
@@ -8312,36 +5618,28 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Cold",
-        "type":"GemTag"
+        "skillType":33,
+        "type":"SkillType"
       }
     }],
   "supported_curse_skill_gem_level_+":[{
       "flags":0,
-      "keywordFlags":0,
+      "keywordFlags":2,
       "name":"SupportedGemProperty",
       "type":"LIST",
       "value":{
         "key":"level",
         "keyword":"grants_active_skill"
-      },
-      "1":{
-        "gemTag":"Curse",
-        "type":"GemTag"
       }
     }],
   "supported_elemental_skill_gem_level_+":[{
       "flags":0,
-      "keywordFlags":0,
+      "keywordFlags":224,
       "name":"SupportedGemProperty",
       "type":"LIST",
       "value":{
         "key":"level",
         "keyword":"grants_active_skill"
-      },
-      "1":{
-        "gemTagList":["Lightning","Cold","Fire"],
-        "type":"GemTag"
       }
     }],
   "supported_fire_skill_gem_level_+":[{
@@ -8354,8 +5652,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Fire",
-        "type":"GemTag"
+        "skillType":32,
+        "type":"SkillType"
       }
     }],
   "supported_lightning_skill_gem_level_+":[{
@@ -8368,8 +5666,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Lightning",
-        "type":"GemTag"
+        "skillType":34,
+        "type":"SkillType"
       }
     }],
   "supported_minion_skill_gem_level_+":[{
@@ -8382,8 +5680,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Minion",
-        "type":"GemTag"
+        "skillType":9,
+        "type":"SkillType"
       }
     }],
   "supported_physical_skill_gem_level_+":[{
@@ -8396,19 +5694,8 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Physical",
-        "type":"GemTag"
-      }
-    }],
-  "supported_skill_attack_speed_+%_per_5_rage":[{
-      "flags":1,
-      "keywordFlags":0,
-      "name":"Speed",
-      "type":"INC",
-      "1":{
-        "div":5,
-        "stat":"Rage",
-        "type":"PerStat"
+        "skillType":86,
+        "type":"SkillType"
       }
     }],
   "supported_strike_skill_gem_level_+":[{
@@ -8421,33 +5708,9 @@
         "keyword":"grants_active_skill"
       },
       "1":{
-        "gemTag":"Strike",
-        "type":"GemTag"
+        "skillType":25,
+        "type":"SkillType"
       }
-    }],
-  "total_attack_time_+_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TotalAttackTime",
-      "type":"BASE"
-    }
-  },
-  "total_cast_time_+_ms":{
-    "div":1000,
-    "1":{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TotalCastTime",
-      "type":"BASE"
-    }
-  },
-  "totem_chaos_resistance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TotemChaosResist",
-      "type":"BASE"
     }],
   "totem_damage_+%":[{
       "flags":0,
@@ -8461,12 +5724,6 @@
       "name":"TotemDuration",
       "type":"INC"
     }],
-  "totem_elemental_resistance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TotemElementalResist",
-      "type":"BASE"
-    }],
   "totem_life_+%":[{
       "flags":0,
       "keywordFlags":0,
@@ -8478,24 +5735,6 @@
       "keywordFlags":0,
       "name":"TotemLife",
       "type":"MORE"
-    }],
-  "totem_maximum_all_elemental_resistances_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"TotemElementalResistMax",
-      "type":"BASE"
-    }],
-  "totem_skill_attack_speed_+%":[{
-      "flags":1,
-      "keywordFlags":16384,
-      "name":"Speed",
-      "type":"INC"
-    }],
-  "totem_skill_cast_speed_+%":[{
-      "flags":16,
-      "keywordFlags":16384,
-      "name":"Speed",
-      "type":"INC"
     }],
   "totem_support_gem_level":[{
       "flags":0,
@@ -8578,11 +5817,11 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
-        "skillType":99,
+        "skillType":109,
         "type":"SkillType"
       }
     }],
@@ -8596,7 +5835,7 @@
         "value":true
       },
       "1":{
-        "skillType":20,
+        "skillType":24,
         "type":"SkillType"
       },
       "2":{
@@ -8610,7 +5849,7 @@
       "name":"TriggeredDamage",
       "type":"INC",
       "1":{
-        "skillType":37,
+        "skillType":41,
         "type":"SkillType"
       }
     }],
@@ -8623,7 +5862,7 @@
         "key":"triggeredWhenHexEnds"
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -8641,7 +5880,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -8649,7 +5888,7 @@
         "type":"SkillType"
       },
       "3":{
-        "skillType":29,
+        "skillType":33,
         "type":"SkillType"
       }
     },{
@@ -8662,7 +5901,7 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
@@ -8670,7 +5909,7 @@
         "type":"SkillType"
       },
       "3":{
-        "skillType":29,
+        "skillType":33,
         "type":"SkillType"
       }
     }],
@@ -8684,19 +5923,13 @@
         "value":true
       },
       "1":{
-        "skillType":31,
+        "skillType":35,
         "type":"SkillType"
       },
       "2":{
-        "skillType":30,
+        "skillType":34,
         "type":"SkillType"
       }
-    }],
-  "unleash_support_seal_gain_frequency_as_%_of_total_cast_time":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"SealGainFrequency",
-      "type":"BASE"
     }],
   "warcry_count_power_from_enemies":[{
       "flags":0,
@@ -8705,30 +5938,6 @@
       "type":"FLAG",
       "value":true,
       "1":{
-        "effectType":"Warcry",
-        "type":"GlobalEffect"
-      }
-    }],
-  "warcry_empowers_per_X_monster_power":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"WarcryPowerPer",
-      "type":"BASE"
-    }],
-  "warcry_empowers_per_X_monster_power_mp_cap":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"WarcryPowerCap",
-      "type":"BASE"
-    }],
-  "warcry_grant_X_rage_per_5_power":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanGainRage",
-      "type":"FLAG",
-      "value":true,
-      "1":{
-        "effectName":"Rage",
         "effectType":"Buff",
         "type":"GlobalEffect"
       }
@@ -8745,56 +5954,7 @@
       "name":"WarcrySpeed",
       "type":"INC"
     }],
-  "windstorm_gain_all_damage_%_as_corresponding_element_if_empowered":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsFire",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"WhirlwindBuffFire"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsCold",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"WhirlwindBuffCold"
-      }
-    },{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"DamageGainAsLightning",
-      "type":"BASE",
-      "1":{
-        "type":"Condition",
-        "var":"WhirlwindBuffLightning"
-      }
-    }],
-  "wither_on_hit_chance_rollovercapped":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanWither",
-      "type":"FLAG",
-      "value":true
-    }],
-  "withered_on_chaos_damage_hit_chance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanWither",
-      "type":"FLAG",
-      "value":true
-    }],
   "withered_on_hit_chance_%":[{
-      "flags":0,
-      "keywordFlags":0,
-      "name":"Condition:CanWither",
-      "type":"FLAG",
-      "value":true
-    }],
-  "withered_on_hit_chance_%_for_every_100%_target_ailment_threshold_dealt_as_chaos_damage":[{
       "flags":0,
       "keywordFlags":0,
       "name":"Condition:CanWither",

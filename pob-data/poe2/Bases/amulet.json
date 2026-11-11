@@ -1,23 +1,41 @@
 {
-  "Absent Amulet":{
-    "grantedSkillsHaveNoReservation":true,
-    "implicit":"-1 Prefix Modifier allowed\n-1 Suffix Modifier allowed\n{variant:1}Grants Skill: Level (1-20) Cast on Elemental Ailment\n{variant:2}Grants Skill: Level (1-20) Cast on Critical\n{variant:3}Grants Skill: Level (1-20) Cast on Dodge\n{variant:4}Grants Skill: Level (1-20) Rhoa Mount\n{variant:5}Grants Skill: Level (1-20) Archmage\n{variant:6}Grants Skill: Level (1-20) Trinity\n{variant:7}Grants Skill: Level (1-20) Eternal Rage",
-    "implicitModTypes":[[],[]],
+  "Agate Amulet":{
+    "implicit":"+(16-24) to Strength and Intelligence",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":50
+      "level":16
     },
     "tags":{
       "amulet":true,
       "default":true
     },
-    "type":"Amulet",
-    "variantList":["Cast on Elemental Ailment","Cast on Critical","Cast on Dodge","Rhoa Mount","Archmage","Trinity","Eternal Rage"]
+    "type":"Amulet"
   },
   "Amber Amulet":{
-    "implicit":"+(10-15) to Strength",
+    "implicit":"+(20-30) to Strength",
     "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":8
+      "level":5
     },
     "tags":{
       "amulet":true,
@@ -25,21 +43,312 @@
     },
     "type":"Amulet"
   },
-  "Azure Amulet":{
-    "implicit":"(20-30)% increased Mana Regeneration Rate",
+  "Ashscale Talisman":{
+    "implicit":"(20-30)% increased Fire Damage",
+    "implicitModTypes":[["elemental_damage","damage","elemental","fire"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Astrolabe Amulet":{
+    "implicit":"Implicit Modifiers Cannot Be Changed\nHas Elder, Shaper and all Conqueror Influences",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":{
+      "level":69
+    },
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true
+    },
+    "type":"Amulet"
+  },
+  "Avian Twins Talisman":{
+    "implicit":"50% of Lightning Damage from Hits taken as Fire Damage",
+    "implicitModTypes":[["elemental","fire","lightning"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Avian Twins Talisman (Cold-To-Fire)":{
+    "implicit":"50% of Cold Damage from Hits taken as Lightning Damage",
+    "implicitModTypes":[["elemental","cold","lightning"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Avian Twins Talisman (Cold-To-Lightning)":{
+    "implicit":"50% of Cold Damage from Hits taken as Fire Damage",
+    "implicitModTypes":[["elemental","fire","cold"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Avian Twins Talisman (Fire-To-Cold)":{
+    "implicit":"50% of Fire Damage from Hits taken as Cold Damage",
+    "implicitModTypes":[["elemental","fire","cold"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Avian Twins Talisman (Fire-To-Lightning)":{
+    "implicit":"50% of Fire Damage from Hits taken as Lightning Damage",
+    "implicitModTypes":[["elemental","fire","lightning"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Avian Twins Talisman (Lightning-To-Cold)":{
+    "implicit":"50% of Lightning Damage from Hits taken as Cold Damage",
+    "implicitModTypes":[["elemental","cold","lightning"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Black Maw Talisman":{
+    "implicit":"Has 1 Socket",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Blue Pearl Amulet":{
+    "implicit":"(48-56)% increased Mana Regeneration Rate",
     "implicitModTypes":[["resource","mana"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":{
+      "level":77
+    },
+    "tags":{
+      "amulet":true,
+      "amuletatlas1":true,
+      "atlas_base_type":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Amulet"
+  },
+  "Bonespire Talisman":{
+    "implicit":"(20-30)% increased maximum Mana",
+    "implicitModTypes":[["resource","mana"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
-  "Bloodstone Amulet":{
-    "implicit":"+(30-40) to maximum Life",
-    "implicitModTypes":[["resource","life"]],
+  "Breakrib Talisman":{
+    "implicit":"(20-30)% increased Global Physical Damage",
+    "implicitModTypes":[["physical_damage","damage","physical"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Chrysalis Talisman":{
+    "implicit":"(20-30)% increased Spell Damage",
+    "implicitModTypes":[["caster_damage","damage","caster"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Citrine Amulet":{
+    "implicit":"+(16-24) to Strength and Dexterity",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":18
+      "level":16
     },
     "tags":{
       "amulet":true,
@@ -47,21 +356,41 @@
     },
     "type":"Amulet"
   },
-  "Corona Amulet":{
-    "implicit":"This item gains bonuses from Socketed Items as though it was a Helmet",
-    "implicitModTypes":[[]],
-    "req":{
-      "level":40
+  "Clutching Talisman":{
+    "implicit":"(15-25)% increased Global Defences",
+    "implicitModTypes":[["defences"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
     },
+    "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
-  "Crimson Amulet":{
-    "implicit":"(2-4) Life Regeneration per second",
+  "Coral Amulet":{
+    "implicit":"Regenerate (2-4) Life per second",
     "implicitModTypes":[["flat_life_regen","resource","life"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
     "tags":{
       "amulet":true,
@@ -69,53 +398,197 @@
     },
     "type":"Amulet"
   },
-  "Distorted Amulet":{
-    "implicit":"-1 Suffix Modifier allowed",
-    "implicitModTypes":[[]],
+  "Deadhand Talisman":{
+    "implicit":"(19-31)% increased Chaos Damage",
+    "implicitModTypes":[["chaos_damage","damage","chaos"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
-  "Dusk Amulet":{
-    "implicit":"+1 Prefix Modifier allowed\n-1 Suffix Modifier allowed",
-    "implicitModTypes":[[],[]],
+  "Deep One Talisman":{
+    "implicit":"(20-30)% increased Cold Damage",
+    "implicitModTypes":[["elemental_damage","damage","elemental","cold"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
-  "Gloam Amulet":{
-    "implicit":"-1 Prefix Modifier allowed\n+1 Suffix Modifier allowed",
-    "implicitModTypes":[[],[]],
+  "Fangjaw Talisman":{
+    "implicit":"(8-12)% increased maximum Life",
+    "implicitModTypes":[["resource","life"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Focused Amulet":{
+    "implicit":"-1 Prefix Modifier allowed\n-2 Suffix Modifiers allowed\nImplicit Modifiers Cannot Be Changed\n100% increased Explicit Modifier magnitudes",
+    "implicitModTypes":[[],[],[],[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":{
+      "level":24
+    },
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true
     },
     "type":"Amulet"
   },
   "Gold Amulet":{
     "implicit":"(12-20)% increased Rarity of Items found",
     "implicitModTypes":[["drop"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":35
+      "level":8
     },
     "tags":{
       "amulet":true,
       "default":true
+    },
+    "type":"Amulet"
+  },
+  "Greatwolf Talisman":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true
+    },
+    "type":"Amulet"
+  },
+  "Hexclaw Talisman":{
+    "implicit":"(40-50)% increased Global Critical Strike Chance",
+    "implicitModTypes":[["critical"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Horned Talisman":{
+    "implicit":"Projectiles Pierce 2 additional Targets",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
   "Jade Amulet":{
-    "implicit":"+(10-15) to Dexterity",
+    "implicit":"+(20-30) to Dexterity",
     "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":8
+      "level":5
     },
     "tags":{
       "amulet":true,
@@ -123,25 +596,46 @@
     },
     "type":"Amulet"
   },
-  "Lament Amulet":{
-    "grantedSkillsHaveNoReservation":true,
-    "implicit":"-1 Prefix Modifier allowed\n{variant:1}Grants Skill: Level (1-20) Arctic Armour\n{variant:2}Grants Skill: Level (1-20) Herald of Ash\n{variant:3}Grants Skill: Level (1-20) Herald of Ice\n{variant:4}Grants Skill: Level (1-20) Herald of Thunder\n{variant:5}Grants Skill: Level (1-20) Plague Bearer\n{variant:6}Grants Skill: Level (1-20) Barrier Invocation\n{variant:7}Grants Skill: Level (1-20) Lingering Illusion\n{variant:8}Grants Skill: Level (1-20) Ghost Dance\n{variant:9}Grants Skill: Level (1-20) Mana Remnants\n{variant:10}Grants Skill: Level (1-20) Magma Barrier\n{variant:11}Grants Skill: Level (1-20) Raging Spirits\n{variant:12}Grants Skill: Level (1-20) Wind Dancer\n{variant:13}Grants Skill: Level (1-20) Cast on Minion Death\n{variant:14}Grants Skill: Level (1-20) Scavenged Plating\n{variant:15}Grants Skill: Level (1-20) War Banner\n{variant:16}Grants Skill: Level (1-20) Defiance Banner\n{variant:17}Grants Skill: Level (1-20) Dread Banner\n{variant:18}Grants Skill: Level (1-20) Time of Need\n{variant:19}Grants Skill: Level (1-20) Attrition\n{variant:20}Grants Skill: Level (1-20) Charge Regulation\n{variant:21}Grants Skill: Level (1-20) Shard Scavenger\n{variant:22}Grants Skill: Level (1-20) Overwhelming Presence\n{variant:23}Grants Skill: Level (1-20) Alchemist's Boon\n{variant:24}Grants Skill: Level (1-20) Reaper's Invocation\n{variant:25}Grants Skill: Level (1-20) Berserk\n{variant:26}Grants Skill: Level (1-20) Herald of Plague\n{variant:27}Grants Skill: Level (1-20) Herald of Blood\n{variant:28}Grants Skill: Level (1-20) Withering Presence\n{variant:29}Grants Skill: Level (1-20) Ravenous Swarm\n{variant:30}Grants Skill: Level (1-20) Combat Frenzy\n{variant:31}Grants Skill: Level (1-20) Trail of Caltrops\n{variant:32}Grants Skill: Level (1-20) Convalescence\n{variant:33}Grants Skill: Level (1-20) Iron Ward\n{variant:34}Grants Skill: Level (1-20) Siphon Elements\n{variant:35}Grants Skill: Level (1-20) Briarpatch\n{variant:36}Grants Skill: Level (1-20) Savage Fury\n{variant:37}Grants Skill: Level (1-20) Barkskin",
-    "implicitModTypes":[[]],
+  "Jet Amulet":{
+    "hidden":true,
+    "implicit":"+(8-12)% to all Elemental Resistances",
+    "implicitModTypes":[["elemental","resistance"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":42
+      "level":12
     },
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "demigods":true,
+      "not_for_sale":true
     },
-    "type":"Amulet",
-    "variantList":["Arctic Armour","Herald of Ash","Herald of Ice","Herald of Thunder","Plague Bearer","Barrier Invocation","Lingering Illusion","Ghost Dance","Mana Remnants","Magma Barrier","Raging Spirits","Wind Dancer","Cast on Minion Death","Scavenged Plating","War Banner","Defiance Banner","Dread Banner","Time of Need","Attrition","Charge Regulation","Shard Scavenger","Overwhelming Presence","Alchemist's Boon","Reaper's Invocation","Berserk","Herald of Plague","Herald of Blood","Withering Presence","Ravenous Swarm","Combat Frenzy","Trail of Caltrops","Convalescence","Iron Ward","Siphon Elements","Briarpatch","Savage Fury","Barkskin"]
+    "type":"Amulet"
   },
   "Lapis Amulet":{
-    "implicit":"+(10-15) to Intelligence",
+    "implicit":"+(20-30) to Intelligence",
     "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":8
+      "level":5
     },
     "tags":{
       "amulet":true,
@@ -149,11 +643,200 @@
     },
     "type":"Amulet"
   },
-  "Lunar Amulet":{
-    "implicit":"+(20-30) to maximum Energy Shield",
-    "implicitModTypes":[["defences","energy_shield"]],
+  "Lone Antler Talisman":{
+    "implicit":"(20-30)% increased Lightning Damage",
+    "implicitModTypes":[["elemental_damage","damage","elemental","lightning"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Longtooth Talisman":{
+    "implicit":"(4-6)% additional Physical Damage Reduction",
+    "implicitModTypes":[["physical"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Mandible Talisman":{
+    "implicit":"(6-10)% increased Attack and Cast Speed",
+    "implicitModTypes":[["attack","caster","speed"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Marble Amulet":{
+    "implicit":"Regenerate (1.2-1.6)% of Life per second",
+    "implicitModTypes":[["resource","life"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":14
+      "level":74
+    },
+    "tags":{
+      "amulet":true,
+      "amuletatlas2":true,
+      "atlas_base_type":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Amulet"
+  },
+  "Monkey Paw Talisman":{
+    "implicit":"10% chance to gain an Endurance Charge on Kill",
+    "implicitModTypes":[["endurance_charge"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Monkey Paw Talisman (Frenzy)":{
+    "implicit":"10% chance to gain a Frenzy Charge on Kill",
+    "implicitModTypes":[["frenzy_charge"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Monkey Paw Talisman (Power)":{
+    "implicit":"10% chance to gain a Power Charge on Kill",
+    "implicitModTypes":[["power_charge"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Monkey Twins Talisman":{
+    "implicit":"(5-8)% increased Area of Effect",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Onyx Amulet":{
+    "implicit":"+(10-16) to all Attributes",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":{
+      "level":20
     },
     "tags":{
       "amulet":true,
@@ -161,21 +844,19 @@
     },
     "type":"Amulet"
   },
-  "Pearlescent Amulet":{
-    "implicit":"+(7-10)% to all Elemental Resistances",
-    "implicitModTypes":[["cold_resistance","elemental_resistance","fire_resistance","lightning_resistance","elemental","fire","cold","lightning","resistance"]],
-    "req":{
-      "level":30
+  "Paua Amulet":{
+    "implicit":"(20-30)% increased Mana Regeneration Rate",
+    "implicitModTypes":[["resource","mana"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
     },
-    "tags":{
-      "amulet":true,
-      "default":true
-    },
-    "type":"Amulet"
-  },
-  "Penumbra Amulet":{
-    "implicit":"+2 Prefix Modifiers allowed\n-2 Suffix Modifiers allowed",
-    "implicitModTypes":[[],[]],
     "req":[],
     "tags":{
       "amulet":true,
@@ -183,86 +864,338 @@
     },
     "type":"Amulet"
   },
-  "Portent Amulet":{
-    "grantedSkillsHaveNoReservation":true,
-    "implicit":"-1 Suffix Modifier allowed\n{variant:1}Grants Skill: Level (1-20) Wolf Pack\n{variant:2}Grants Skill: Level (1-20) Blink\n{variant:3}Grants Skill: Level (1-20) Elemental Invocation\n{variant:4}Grants Skill: Level (1-20) Elemental Conflux\n{variant:5}Grants Skill: Level (1-20) Sacrifice\n{variant:6}Grants Skill: Level (1-20) Mirage Archer\n{variant:7}Grants Skill: Level (1-20) Feral Invocation",
-    "implicitModTypes":[[]],
-    "req":{
-      "level":42
+  "Primal Skull Talisman":{
+    "implicit":"Regenerate 2% of Life per second",
+    "implicitModTypes":[["resource","life"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
     },
+    "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
-    "type":"Amulet",
-    "variantList":["Wolf Pack","Blink","Elemental Invocation","Elemental Conflux","Sacrifice","Mirage Archer","Feral Invocation"]
+    "type":"Amulet"
   },
-  "Runemastered Veridical Chain":{
-    "hidden":true,
-    "implicit":"(15-20)% increased maximum Runic Ward",
-    "implicitModTypes":[["runic_ward"]],
+  "Rot Head Talisman":{
+    "implicit":"(30-40)% increased Fish Bite Sensitivity",
+    "implicitModTypes":[["green_herring"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Rotfeather Talisman":{
+    "implicit":"(25-35)% increased Damage",
+    "implicitModTypes":[["damage"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Ruby Amulet":{
+    "implicit":"+(20-30)% to Fire Resistance",
+    "implicitModTypes":[["elemental","fire","resistance"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
     "tags":{
       "amulet":true,
       "default":true,
-      "runeforged":true
+      "not_for_sale":true
     },
     "type":"Amulet"
   },
-  "Solar Amulet":{
-    "implicit":"+(10-15) to Spirit",
-    "implicitModTypes":[[]],
+  "Seaglass Amulet":{
+    "implicit":"(10-15)% faster start of Energy Shield Recharge",
+    "implicitModTypes":[["defences","energy_shield"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":30
+      "level":74
     },
     "tags":{
       "amulet":true,
-      "default":true
+      "amuletatlas3":true,
+      "atlas_base_type":true,
+      "default":true,
+      "not_for_sale":true
     },
     "type":"Amulet"
   },
-  "Stellar Amulet":{
-    "implicit":"+(5-7) to all Attributes",
-    "implicitModTypes":[["attribute"]],
+  "Simplex Amulet":{
+    "implicit":"-2 Prefix Modifiers allowed\n-1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed\n100% increased Explicit Modifier magnitudes",
+    "implicitModTypes":[[],[],[],[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
       "level":24
     },
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true
     },
     "type":"Amulet"
   },
-  "Tenebrous Amulet":{
-    "implicit":"-2 Prefix Modifiers allowed\n+2 Suffix Modifiers allowed",
-    "implicitModTypes":[[],[]],
+  "Spinefuse Talisman":{
+    "implicit":"+(12-18)% to Damage over Time Multiplier",
+    "implicitModTypes":[["dot_multi","damage"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
-  "Twisted Amulet":{
-    "implicit":"-1 Prefix Modifier allowed",
-    "implicitModTypes":[[]],
+  "Splitnewt Talisman":{
+    "implicit":"(4-6)% chance to Freeze, Shock and Ignite",
+    "implicitModTypes":[["elemental","fire","cold","lightning","ailment"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":[],
+    "subType":"Talisman",
     "tags":{
       "amulet":true,
-      "default":true
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   },
-  "Veridical Chain":{
-    "hidden":true,
-    "implicit":"+(30-40) to maximum Runic Ward",
-    "implicitModTypes":[["runic_ward"]],
+  "Three Hands Talisman":{
+    "implicit":"Gain (6-12)% of Physical Damage as Extra Damage of a random Element",
+    "implicitModTypes":[["physical_damage","elemental_damage","damage","physical","elemental"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Three Rat Talisman":{
+    "implicit":"(12-16)% increased Attributes",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Turquoise Amulet":{
+    "implicit":"+(16-24) to Dexterity and Intelligence",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
     "req":{
-      "level":18
+      "level":16
     },
     "tags":{
       "amulet":true,
       "default":true
+    },
+    "type":"Amulet"
+  },
+  "Undying Flesh Talisman":{
+    "implicit":"+1 to maximum number of Raised Zombies",
+    "implicitModTypes":[["minion"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Unset Amulet":{
+    "implicit":"Has 1 Socket",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":{
+      "level":5
+    },
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Amulet"
+  },
+  "Wereclaw Talisman":{
+    "implicit":"+(24-36)% to Global Critical Strike Multiplier",
+    "implicitModTypes":[["damage","critical"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
+    },
+    "type":"Amulet"
+  },
+  "Writhing Talisman":{
+    "implicit":"(20-30)% increased Attack Damage",
+    "implicitModTypes":[["damage","attack"]],
+    "influenceTags":{
+      "adjudicator":"amulet_adjudicator",
+      "basilisk":"amulet_basilisk",
+      "cleansing":"amulet_cleansing",
+      "crusader":"amulet_crusader",
+      "elder":"amulet_elder",
+      "eyrie":"amulet_eyrie",
+      "shaper":"amulet_shaper",
+      "tangle":"amulet_tangle"
+    },
+    "req":[],
+    "subType":"Talisman",
+    "tags":{
+      "amulet":true,
+      "default":true,
+      "talisman":true
     },
     "type":"Amulet"
   }

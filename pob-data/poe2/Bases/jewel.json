@@ -1,5 +1,115 @@
 {
-  "Diamond":{
+  "Cobalt Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "intjewel":true,
+      "jewel":true,
+      "not_dex":true,
+      "not_for_sale":true,
+      "not_str":true
+    },
+    "type":"Jewel"
+  },
+  "Corvine Charm":{
+    "hidden":true,
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Charm",
+    "tags":{
+      "animal_charm":true,
+      "default":true,
+      "int_animal_charm":true
+    },
+    "type":"Jewel"
+  },
+  "Crimson Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "jewel":true,
+      "not_dex":true,
+      "not_for_sale":true,
+      "not_int":true,
+      "strjewel":true
+    },
+    "type":"Jewel"
+  },
+  "Ghastly Eye Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Abyss",
+    "tags":{
+      "abyss_jewel":true,
+      "abyss_jewel_summoner":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Jewel"
+  },
+  "Hypnotic Eye Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Abyss",
+    "tags":{
+      "abyss_jewel":true,
+      "abyss_jewel_caster":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Jewel"
+  },
+  "Large Cluster Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Cluster",
+    "tags":{
+      "default":true,
+      "expansion_jewel_large":true,
+      "jewel":true,
+      "not_for_sale":true
+    },
+    "type":"Jewel"
+  },
+  "Lupine Charm":{
+    "hidden":true,
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Charm",
+    "tags":{
+      "animal_charm":true,
+      "default":true,
+      "dex_animal_charm":true
+    },
+    "type":"Jewel"
+  },
+  "Medium Cluster Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Cluster",
+    "tags":{
+      "default":true,
+      "expansion_jewel_medium":true,
+      "jewel":true,
+      "not_for_sale":true
+    },
+    "type":"Jewel"
+  },
+  "Murderous Eye Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Abyss",
+    "tags":{
+      "abyss_jewel":true,
+      "abyss_jewel_melee":true,
+      "default":true,
+      "not_for_sale":true
+    },
+    "type":"Jewel"
+  },
+  "Prismatic Jewel":{
     "implicitModTypes":[],
     "req":[],
     "tags":{
@@ -12,92 +122,31 @@
     },
     "type":"Jewel"
   },
-  "Emerald":{
+  "Searching Eye Jewel":{
     "implicitModTypes":[],
     "req":[],
+    "subType":"Abyss",
     "tags":{
+      "abyss_jewel":true,
+      "abyss_jewel_ranged":true,
       "default":true,
-      "dexjewel":true,
-      "jewel":true
+      "not_for_sale":true
     },
     "type":"Jewel"
   },
-  "Ruby":{
+  "Small Cluster Jewel":{
     "implicitModTypes":[],
     "req":[],
+    "subType":"Cluster",
     "tags":{
       "default":true,
+      "expansion_jewel_small":true,
       "jewel":true,
-      "strjewel":true
-    },
-    "type":"Jewel"
-  },
-  "Sapphire":{
-    "implicitModTypes":[],
-    "req":[],
-    "tags":{
-      "default":true,
-      "intjewel":true,
-      "jewel":true
-    },
-    "type":"Jewel"
-  },
-  "Time-Lost Diamond":{
-    "implicitModTypes":[],
-    "req":[],
-    "subType":"Radius",
-    "tags":{
-      "default":true,
-      "dex_radius_jewel":true,
-      "int_radius_jewel":true,
-      "jewel":true,
-      "not_for_sale":true,
-      "radius_jewel":true,
-      "str_radius_jewel":true
-    },
-    "type":"Jewel"
-  },
-  "Time-Lost Emerald":{
-    "implicitModTypes":[],
-    "req":[],
-    "subType":"Radius",
-    "tags":{
-      "default":true,
-      "dex_radius_jewel":true,
-      "jewel":true,
-      "not_for_sale":true,
-      "radius_jewel":true
-    },
-    "type":"Jewel"
-  },
-  "Time-Lost Ruby":{
-    "implicitModTypes":[],
-    "req":[],
-    "subType":"Radius",
-    "tags":{
-      "default":true,
-      "jewel":true,
-      "not_for_sale":true,
-      "radius_jewel":true,
-      "str_radius_jewel":true
-    },
-    "type":"Jewel"
-  },
-  "Time-Lost Sapphire":{
-    "implicitModTypes":[],
-    "req":[],
-    "subType":"Radius",
-    "tags":{
-      "default":true,
-      "int_radius_jewel":true,
-      "jewel":true,
-      "not_for_sale":true,
-      "radius_jewel":true
+      "not_for_sale":true
     },
     "type":"Jewel"
   },
   "Timeless Jewel":{
-    "hidden":true,
     "implicitModTypes":[],
     "req":[],
     "subType":"Timeless",
@@ -108,6 +157,31 @@
       "jewel":true,
       "not_for_sale":true,
       "strjewel":true
+    },
+    "type":"Jewel"
+  },
+  "Ursine Charm":{
+    "hidden":true,
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Charm",
+    "tags":{
+      "animal_charm":true,
+      "default":true,
+      "str_animal_charm":true
+    },
+    "type":"Jewel"
+  },
+  "Viridian Jewel":{
+    "implicitModTypes":[],
+    "req":[],
+    "tags":{
+      "default":true,
+      "dexjewel":true,
+      "jewel":true,
+      "not_for_sale":true,
+      "not_int":true,
+      "not_str":true
     },
     "type":"Jewel"
   }

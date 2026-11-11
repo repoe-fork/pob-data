@@ -1,44 +1,60 @@
 {
-  "Adherent Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":104,
-      "level":59
+  "Assassin Bow":{
+    "implicit":"+(15-25)% to Global Critical Strike Multiplier",
+    "implicitModTypes":[["damage","critical"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":212,
+      "level":62
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
       "ranged":true,
+      "top_tier_base_item_type":true,
       "two_hand_weapon":true,
       "twohand":true,
       "weapon":true
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.2,
-      "ChaosMax":32,
-      "ChaosMin":14,
-      "CritChanceBase":5,
-      "PhysicalMax":59,
-      "PhysicalMin":35,
+      "AttackRateBase":1.25,
+      "CritChanceBase":6.7,
+      "PhysicalMax":130,
+      "PhysicalMin":43,
       "Range":120
     }
   },
-  "Artillery Bow":{
-    "implicit":"50% reduced Projectile Range",
-    "implicitModTypes":[[]],
-    "quality":20,
+  "Bone Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
     "req":{
       "dex":80,
-      "level":45
+      "level":23
     },
-    "socketLimit":4,
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
-      "karui_basetype":true,
       "ranged":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -46,21 +62,30 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.1,
-      "CritChanceBase":5,
-      "PhysicalMax":72,
-      "PhysicalMin":39,
+      "AttackRateBase":1.4,
+      "CritChanceBase":6.5,
+      "PhysicalMax":45,
+      "PhysicalMin":15,
       "Range":120
     }
   },
-  "Cavalry Bow":{
+  "Citadel Bow":{
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":149,
-      "level":72
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":185,
+      "level":58
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
@@ -71,25 +96,33 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":82,
-      "PhysicalMin":49,
+      "AttackRateBase":1.25,
+      "CritChanceBase":6,
+      "PhysicalMax":144,
+      "PhysicalMin":36,
       "Range":120
     }
   },
   "Composite Bow":{
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":41,
-      "level":22
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":53,
+      "level":14
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
-      "maraketh_basetype":true,
       "ranged":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -97,550 +130,67 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":31,
-      "PhysicalMin":19,
+      "AttackRateBase":1.3,
+      "CritChanceBase":6,
+      "PhysicalMax":34,
+      "PhysicalMin":16,
+      "Range":120
+    }
+  },
+  "Compound Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":134,
+      "level":41
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.3,
+      "CritChanceBase":6,
+      "PhysicalMax":76,
+      "PhysicalMin":37,
       "Range":120
     }
   },
   "Crude Bow":{
     "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":9,
-      "PhysicalMin":6,
-      "Range":120
-    }
-  },
-  "Cultist Bow":{
-    "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "dex":60,
-      "level":33
+      "dex":14
     },
-    "socketLimit":4,
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
       "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "vaal_basetype":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "ChaosMax":19,
-      "ChaosMin":7,
-      "CritChanceBase":5,
-      "PhysicalMax":36,
-      "PhysicalMin":22,
-      "Range":120
-    }
-  },
-  "Double Limb Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":99,
-      "level":56
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":63,
-      "PhysicalMin":42,
-      "Range":120
-    }
-  },
-  "Dualstring Bow":{
-    "implicit":"+50% Surpassing chance to fire an additional Arrow",
-    "implicitModTypes":[["attack"]],
-    "quality":20,
-    "req":{
-      "dex":52,
-      "level":28
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "maraketh_basetype":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":5,
-      "PhysicalMax":35,
-      "PhysicalMin":19,
-      "Range":120
-    }
-  },
-  "Fanatic Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":163,
-      "level":79
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "ChaosMax":64,
-      "ChaosMin":28,
-      "CritChanceBase":5,
-      "PhysicalMax":79,
-      "PhysicalMin":47,
-      "Range":120
-    }
-  },
-  "Gemini Bow":{
-    "implicit":"+50% Surpassing chance to fire an additional Arrow",
-    "implicitModTypes":[["attack"]],
-    "quality":20,
-    "req":{
-      "dex":163,
-      "level":78
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":5,
-      "PhysicalMax":72,
-      "PhysicalMin":39,
-      "Range":120
-    }
-  },
-  "Greatbow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":92,
-      "level":52,
-      "str":92
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":6.5,
-      "PhysicalMax":82,
-      "PhysicalMin":40,
-      "Range":120
-    }
-  },
-  "Guardian Bow":{
-    "implicit":"(25-35)% chance to Chain an additional time",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "dex":163,
-      "level":77
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":5,
-      "PhysicalMax":88,
-      "PhysicalMin":53,
-      "Range":120
-    }
-  },
-  "Heartwood Shortbow":{
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":134,
-      "level":67
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.25,
-      "CritChanceBase":5,
-      "PhysicalMax":76,
-      "PhysicalMin":41,
-      "Range":120
-    }
-  },
-  "Heavy Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":114,
-      "level":65
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":75,
-      "PhysicalMin":45,
-      "Range":120
-    }
-  },
-  "Ironwood Shortbow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":134,
-      "level":67
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.25,
-      "CritChanceBase":5,
-      "PhysicalMax":76,
-      "PhysicalMin":41,
-      "Range":120
-    }
-  },
-  "Militant Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":109,
-      "level":62
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":69,
-      "PhysicalMin":46,
-      "Range":120
-    }
-  },
-  "Obliterator Bow":{
-    "implicit":"50% reduced Projectile Range",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "dex":163,
-      "level":78
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "karui_basetype":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.1,
-      "CritChanceBase":5,
-      "PhysicalMax":115,
-      "PhysicalMin":62,
-      "Range":120
-    }
-  },
-  "Protector Bow":{
-    "implicit":"(25-35)% chance to Chain an additional time",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "dex":86,
-      "level":48
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":5,
-      "PhysicalMax":53,
-      "PhysicalMin":35,
-      "Range":120
-    }
-  },
-  "Recurve Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "level":16
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "maraketh_basetype":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.1,
-      "CritChanceBase":5,
-      "PhysicalMax":31,
-      "PhysicalMin":15,
-      "Range":120
-    }
-  },
-  "Rider Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":91,
-      "level":51
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":61,
-      "PhysicalMin":36,
-      "Range":120
-    }
-  },
-  "Runeforged Composite Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":97,
-      "level":55
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "maraketh_basetype":true,
-      "ranged":true,
-      "runeforged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":88,
-      "PhysicalMin":53,
-      "Range":120
-    }
-  },
-  "Runeforged Crude Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":97,
-      "level":55
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "ranged":true,
-      "runeforged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "ChaosMax":62,
-      "ChaosMin":42,
-      "CritChanceBase":5,
-      "Range":120
-    }
-  },
-  "Runeforged Dualstring Bow":{
-    "implicit":"+50% Surpassing chance to fire an additional Arrow",
-    "implicitModTypes":[["attack"]],
-    "quality":20,
-    "req":{
-      "dex":97,
-      "level":55
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "maraketh_basetype":true,
-      "ranged":true,
-      "runeforged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":6.5,
-      "PhysicalMax":83,
-      "PhysicalMin":45,
-      "Range":120
-    }
-  },
-  "Runeforged Recurve Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":72,
-      "level":40
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "maraketh_basetype":true,
-      "ranged":true,
-      "runeforged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.1,
-      "CritChanceBase":5,
-      "PhysicalMax":84,
-      "PhysicalMin":41,
-      "Range":120
-    }
-  },
-  "Runeforged Shortbow":{
-    "implicit":"Projectiles have 50% chance for an additional Projectile when Forking",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "dex":97,
-      "level":55
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "ranged":true,
-      "runeforged":true,
       "two_hand_weapon":true,
       "twohand":true,
       "weapon":true
@@ -649,52 +199,101 @@
     "weapon":{
       "AttackRateBase":1.4,
       "CritChanceBase":5,
-      "PhysicalMax":81,
-      "PhysicalMin":44,
+      "PhysicalMax":13,
+      "PhysicalMin":5,
       "Range":120
     }
   },
-  "Runeforged Zealot Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":97,
-      "level":55
+  "Death Bow":{
+    "implicit":"(30-50)% increased Critical Strike Chance",
+    "implicitModTypes":[["attack","critical"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":107,
+      "level":32
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
       "ranged":true,
-      "runeforged":true,
       "two_hand_weapon":true,
       "twohand":true,
-      "vaal_basetype":true,
       "weapon":true
     },
     "type":"Bow",
     "weapon":{
       "AttackRateBase":1.2,
-      "ChaosMax":19,
-      "ChaosMin":7,
-      "CritChanceBase":10,
-      "PhysicalMax":67,
+      "CritChanceBase":5,
+      "PhysicalMax":73,
+      "PhysicalMin":28,
+      "Range":120
+    }
+  },
+  "Decimation Bow":{
+    "implicit":"(30-50)% increased Critical Strike Chance",
+    "implicitModTypes":[["attack","critical"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":170,
+      "level":53
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":5,
+      "PhysicalMax":116,
       "PhysicalMin":44,
       "Range":120
     }
   },
-  "Shortbow":{
+  "Decurve Bow":{
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":12,
-      "level":5
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":125,
+      "level":38
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
-      "ezomyte_basetype":true,
       "ranged":true,
       "two_hand_weapon":true,
       "twohand":true,
@@ -703,20 +302,101 @@
     "type":"Bow",
     "weapon":{
       "AttackRateBase":1.25,
-      "CritChanceBase":5,
-      "PhysicalMax":14,
-      "PhysicalMin":7,
+      "CritChanceBase":6,
+      "PhysicalMax":96,
+      "PhysicalMin":24,
       "Range":120
     }
   },
-  "Snakewood Shortbow":{
+  "Ethereal Bow":{
+    "hidden":true,
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":80,
-      "level":45
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":14
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":6,
+      "PhysicalMax":9,
+      "PhysicalMin":5,
+      "Range":120
+    }
+  },
+  "Foundry Bow":{
+    "implicit":"Adds (80-97) to (126-144) Fire Damage",
+    "implicitModTypes":[["elemental_damage","damage","elemental","fire","attack"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":161,
+      "level":50
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.3,
+      "CritChanceBase":5.5,
+      "PhysicalMax":20,
+      "PhysicalMin":13,
+      "Range":120
+    }
+  },
+  "Grove Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":116,
+      "level":35
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
@@ -727,48 +407,174 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.25,
+      "AttackRateBase":1.5,
       "CritChanceBase":5,
-      "PhysicalMax":54,
+      "PhysicalMax":61,
+      "PhysicalMin":20,
+      "Range":120
+    }
+  },
+  "Harbinger Bow":{
+    "implicit":"(30-50)% increased Critical Strike Chance",
+    "implicitModTypes":[["attack","critical"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":212,
+      "level":68
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "top_tier_base_item_type":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.2,
+      "CritChanceBase":5,
+      "PhysicalMax":133,
+      "PhysicalMin":50,
+      "Range":120
+    }
+  },
+  "Hedron Bow":{
+    "implicit":"Adds (46-55) to (69-83) Fire Damage",
+    "implicitModTypes":[["elemental_damage","damage","elemental","fire","attack"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":101,
+      "level":30
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.3,
+      "CritChanceBase":5.5,
+      "PhysicalMax":13,
+      "PhysicalMin":9,
+      "Range":120
+    }
+  },
+  "Highborn Bow":{
+    "implicit":"(20-24)% increased Elemental Damage with Attack Skills",
+    "implicitModTypes":[["elemental_damage","damage","elemental","attack"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":161,
+      "level":50
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":5,
+      "PhysicalMax":94,
+      "PhysicalMin":24,
+      "Range":120
+    }
+  },
+  "Imperial Bow":{
+    "implicit":"(20-24)% increased Elemental Damage with Attack Skills",
+    "implicitModTypes":[["elemental_damage","damage","elemental","attack"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":212,
+      "level":66
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "top_tier_base_item_type":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.45,
+      "CritChanceBase":5,
+      "PhysicalMax":117,
       "PhysicalMin":29,
       "Range":120
     }
   },
-  "Tribal Bow":{
+  "Ivory Bow":{
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
     "req":{
-      "dex":89,
-      "level":50
+      "dex":152,
+      "level":47
     },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "karui_basetype":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":57,
-      "PhysicalMin":38,
-      "Range":120
-    }
-  },
-  "Twin Bow":{
-    "implicit":"+50% Surpassing chance to fire an additional Arrow",
-    "implicitModTypes":[["attack"]],
-    "quality":20,
-    "req":{
-      "dex":96,
-      "level":54
-    },
-    "socketLimit":4,
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
@@ -779,48 +585,30 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":5,
-      "PhysicalMax":60,
-      "PhysicalMin":32,
+      "AttackRateBase":1.4,
+      "CritChanceBase":6.5,
+      "PhysicalMax":86,
+      "PhysicalMin":29,
       "Range":120
     }
   },
-  "Warden Bow":{
-    "implicit":"(25-35)% chance to Chain an additional time",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "dex":23,
-      "level":11
-    },
-    "socketLimit":4,
-    "tags":{
-      "bow":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "ranged":true,
-      "two_hand_weapon":true,
-      "twohand":true,
-      "weapon":true
-    },
-    "type":"Bow",
-    "weapon":{
-      "AttackRateBase":1.15,
-      "CritChanceBase":5,
-      "PhysicalMax":20,
-      "PhysicalMin":12,
-      "Range":120
-    }
-  },
-  "Warmonger Bow":{
+  "Long Bow":{
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":163,
-      "level":77
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":38,
+      "level":9
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
@@ -831,36 +619,400 @@
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.2,
-      "CritChanceBase":5,
-      "PhysicalMax":84,
+      "AttackRateBase":1.3,
+      "CritChanceBase":6,
+      "PhysicalMax":33,
+      "PhysicalMin":8,
+      "Range":120
+    }
+  },
+  "Maraketh Bow":{
+    "implicit":"10% increased Movement Speed",
+    "implicitModTypes":[["speed"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":222,
+      "level":71
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "maraketh":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":5.5,
+      "PhysicalMax":92,
+      "PhysicalMin":61,
+      "Range":120
+    }
+  },
+  "Ranger Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":212,
+      "level":60
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.3,
+      "CritChanceBase":6,
+      "PhysicalMax":117,
       "PhysicalMin":56,
       "Range":120
     }
   },
-  "Zealot Bow":{
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":70,
-      "level":39
+  "Recurve Bow":{
+    "implicit":"+(15-25)% to Global Critical Strike Multiplier",
+    "implicitModTypes":[["damage","critical"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
     },
-    "socketLimit":4,
+    "req":{
+      "dex":65,
+      "level":18
+    },
+    "socketLimit":6,
     "tags":{
       "bow":true,
       "default":true,
       "ranged":true,
       "two_hand_weapon":true,
       "twohand":true,
-      "vaal_basetype":true,
       "weapon":true
     },
     "type":"Bow",
     "weapon":{
-      "AttackRateBase":1.2,
+      "AttackRateBase":1.25,
+      "CritChanceBase":6.7,
+      "PhysicalMax":45,
+      "PhysicalMin":15,
+      "Range":120
+    }
+  },
+  "Reflex Bow":{
+    "implicit":"6% increased Movement Speed",
+    "implicitModTypes":[["speed"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":124,
+      "level":36
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "maraketh":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":5.5,
+      "PhysicalMax":56,
+      "PhysicalMin":37,
+      "Range":120
+    }
+  },
+  "Royal Bow":{
+    "implicit":"(20-24)% increased Elemental Damage with Attack Skills",
+    "implicitModTypes":[["elemental_damage","damage","elemental","attack"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":95,
+      "level":28
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.45,
       "CritChanceBase":5,
-      "PhysicalMax":47,
-      "PhysicalMin":31,
+      "PhysicalMax":56,
+      "PhysicalMin":14,
+      "Range":120
+    }
+  },
+  "Short Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":26,
+      "level":5
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":5,
+      "PhysicalMax":16,
+      "PhysicalMin":6,
+      "Range":120
+    }
+  },
+  "Sniper Bow":{
+    "implicit":"+(15-25)% to Global Critical Strike Multiplier",
+    "implicitModTypes":[["damage","critical"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":143,
+      "level":44
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.25,
+      "CritChanceBase":6.7,
+      "PhysicalMax":96,
+      "PhysicalMin":32,
+      "Range":120
+    }
+  },
+  "Solarine Bow":{
+    "implicit":"Adds (121-133) to (184-197) Fire Damage",
+    "implicitModTypes":[["elemental_damage","damage","elemental","fire","attack"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":212,
+      "level":70
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "experimental_base":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.3,
+      "CritChanceBase":5.5,
+      "PhysicalMax":24,
+      "PhysicalMin":16,
+      "Range":120
+    }
+  },
+  "Spine Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":212,
+      "level":64
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "top_tier_base_item_type":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":6.5,
+      "PhysicalMax":115,
+      "PhysicalMin":38,
+      "Range":120
+    }
+  },
+  "Steelwood Bow":{
+    "implicit":"6% increased Movement Speed",
+    "implicitModTypes":[["speed"]],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":190,
+      "level":57
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "maraketh":true,
+      "not_for_sale":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.4,
+      "CritChanceBase":5.5,
+      "PhysicalMax":86,
+      "PhysicalMin":58,
+      "Range":120
+    }
+  },
+  "Thicket Bow":{
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"bow_adjudicator",
+      "basilisk":"bow_basilisk",
+      "cleansing":"bow_cleansing",
+      "crusader":"bow_crusader",
+      "elder":"bow_elder",
+      "eyrie":"bow_eyrie",
+      "shaper":"bow_shaper",
+      "tangle":"bow_tangle"
+    },
+    "req":{
+      "dex":179,
+      "level":56
+    },
+    "socketLimit":6,
+    "tags":{
+      "bow":true,
+      "default":true,
+      "ranged":true,
+      "two_hand_weapon":true,
+      "twohand":true,
+      "weapon":true
+    },
+    "type":"Bow",
+    "weapon":{
+      "AttackRateBase":1.5,
+      "CritChanceBase":5,
+      "PhysicalMax":96,
+      "PhysicalMin":32,
       "Range":120
     }
   }

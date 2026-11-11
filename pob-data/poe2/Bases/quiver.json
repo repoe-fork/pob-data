@@ -1,9 +1,44 @@
 {
-  "Blunt Quiver":{
-    "implicit":"(25-40)% increased Stun Buildup",
-    "implicitModTypes":[[]],
+  "Artillery Quiver":{
+    "implicit":"(20-30)% increased Totem Placement speed",
+    "implicitModTypes":[["speed"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
     "req":{
-      "level":32
+      "level":74
+    },
+    "tags":{
+      "atlas_base_type":true,
+      "default":true,
+      "not_for_sale":true,
+      "quiver":true,
+      "quiveratlas1":true
+    },
+    "type":"Quiver"
+  },
+  "Blazing Arrow Quiver":{
+    "implicit":"Adds (12-15) to (24-27) Fire Damage to Attacks",
+    "implicitModTypes":[["elemental_damage","damage","elemental","fire","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":45
     },
     "tags":{
       "default":true,
@@ -11,9 +46,64 @@
     },
     "type":"Quiver"
   },
-  "Broadhead Quiver":{
-    "implicit":"Adds 1 to 3 Physical Damage to Attacks",
+  "Blunt Arrow Quiver":{
+    "implicit":"Adds (7-9) to (13-16) Physical Damage to Attacks",
     "implicitModTypes":[["physical_damage","damage","physical","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":31
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Broadhead Arrow Quiver":{
+    "implicit":"(8-10)% increased Attack Speed",
+    "implicitModTypes":[["attack","speed"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":49
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Conductive Quiver":{
+    "hidden":true,
+    "implicit":"Adds 1 to 5 Lightning Damage to Attacks",
+    "implicitModTypes":[["elemental_damage","damage","elemental","lightning","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
     "req":[],
     "tags":{
       "default":true,
@@ -21,11 +111,42 @@
     },
     "type":"Quiver"
   },
-  "Fire Quiver":{
-    "implicit":"Adds 3 to 5 Fire damage to Attacks",
+  "Cured Quiver":{
+    "hidden":true,
+    "implicit":"Adds 2 to 4 Fire Damage to Attacks",
     "implicitModTypes":[["elemental_damage","damage","elemental","fire","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":[],
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Feathered Arrow Quiver":{
+    "implicit":"(20-30)% increased Projectile Speed",
+    "implicitModTypes":[["speed"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
     "req":{
-      "level":8
+      "level":20
     },
     "tags":{
       "default":true,
@@ -33,95 +154,287 @@
     },
     "type":"Quiver"
   },
-  "Penetrating Quiver":{
-    "implicit":"100% chance to Pierce an Enemy",
+  "Fire Arrow Quiver":{
+    "implicit":"Adds 3 to 5 Fire Damage to Attacks",
+    "implicitModTypes":[["elemental_damage","damage","elemental","fire","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":9
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Heavy Arrow Quiver":{
+    "implicit":"Adds (12-15) to (24-27) Physical Damage to Attacks",
+    "implicitModTypes":[["physical_damage","damage","physical","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":61
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Heavy Quiver":{
+    "hidden":true,
+    "implicit":"Adds 1 to 4 Physical Damage to Attacks",
+    "implicitModTypes":[["physical_damage","damage","physical","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":5
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Light Quiver":{
+    "hidden":true,
+    "implicit":"+(30-40) to Dexterity",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":12
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Ornate Quiver":{
+    "implicit":"Has 1 Socket",
     "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":45
+    },
+    "tags":{
+      "default":true,
+      "not_for_sale":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Penetrating Arrow Quiver":{
+    "implicit":"Arrows Pierce an additional Target",
+    "implicitModTypes":[["attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":25
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Primal Arrow Quiver":{
+    "implicit":"(20-30)% increased Elemental Damage with Attack Skills",
+    "implicitModTypes":[["elemental_damage","damage","elemental","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":66
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Rugged Quiver":{
+    "hidden":true,
+    "implicit":"Adds 2 to 3 Cold Damage to Attacks",
+    "implicitModTypes":[["elemental_damage","damage","elemental","cold","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":[],
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Serrated Arrow Quiver":{
+    "implicit":"Adds 1 to 4 Physical Damage to Attacks",
+    "implicitModTypes":[["physical_damage","damage","physical","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":4
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Sharktooth Arrow Quiver":{
+    "implicit":"Gain (6-8) Life per Enemy Hit with Attacks",
+    "implicitModTypes":[["resource","life","attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":14
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Spike-Point Arrow Quiver":{
+    "implicit":"(20-30)% increased Critical Strike Chance with Bows",
+    "implicitModTypes":[["attack","critical"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":40
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Two-Point Arrow Quiver":{
+    "implicit":"(20-30)% increased Global Accuracy Rating",
+    "implicitModTypes":[["attack"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
+    "req":{
+      "level":36
+    },
+    "tags":{
+      "default":true,
+      "quiver":true
+    },
+    "type":"Quiver"
+  },
+  "Vile Arrow Quiver":{
+    "implicit":"Gain (10-15)% of Physical Damage as Extra Chaos Damage",
+    "implicitModTypes":[["physical_damage","chaos_damage","damage","physical","chaos"]],
+    "influenceTags":{
+      "adjudicator":"quiver_adjudicator",
+      "basilisk":"quiver_basilisk",
+      "cleansing":"quiver_cleansing",
+      "crusader":"quiver_crusader",
+      "elder":"quiver_elder",
+      "eyrie":"quiver_eyrie",
+      "shaper":"quiver_shaper",
+      "tangle":"quiver_tangle"
+    },
     "req":{
       "level":55
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Primed Quiver":{
-    "implicit":"(7-10)% increased Attack Speed",
-    "implicitModTypes":[["attack","speed"]],
-    "req":{
-      "level":51
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Sacral Quiver":{
-    "implicit":"Gain (2-3) Life per Enemy Hit with Attacks",
-    "implicitModTypes":[["resource","life","attack"]],
-    "req":{
-      "level":16
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Serrated Quiver":{
-    "implicit":"Attacks have (20-30)% chance to cause Bleeding",
-    "implicitModTypes":[["bleed","physical","attack","ailment"]],
-    "req":{
-      "level":44
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Toxic Quiver":{
-    "implicit":"(20-30)% chance to Poison on Hit with Attacks",
-    "implicitModTypes":[["poison","chaos","attack","ailment"]],
-    "req":{
-      "level":39
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Two-Point Quiver":{
-    "implicit":"(20-30)% increased Accuracy Rating",
-    "implicitModTypes":[["attack"]],
-    "req":{
-      "level":24
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Visceral Quiver":{
-    "implicit":"(20-30)% increased Critical Hit Chance for Attacks",
-    "implicitModTypes":[["attack","critical"]],
-    "req":{
-      "level":64
-    },
-    "tags":{
-      "default":true,
-      "quiver":true
-    },
-    "type":"Quiver"
-  },
-  "Volant Quiver":{
-    "implicit":"(20-30)% increased Arrow Speed",
-    "implicitModTypes":[["attack","speed"]],
-    "req":{
-      "level":60
     },
     "tags":{
       "default":true,

@@ -1,8 +1,10 @@
 {
   "Fishing Rod":{
     "implicitModTypes":[],
-    "quality":20,
-    "req":[],
+    "req":{
+      "dex":8,
+      "str":8
+    },
     "socketLimit":4,
     "tags":{
       "default":true,
@@ -14,8 +16,8 @@
     "weapon":{
       "AttackRateBase":1.2,
       "CritChanceBase":5,
-      "PhysicalMax":18,
-      "PhysicalMin":10,
+      "PhysicalMax":15,
+      "PhysicalMin":8,
       "Range":13
     }
   }

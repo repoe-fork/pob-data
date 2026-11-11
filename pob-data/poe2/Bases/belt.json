@@ -1,254 +1,291 @@
 {
-  "Double Belt":{
-    "charmLimit":0,
-    "implicit":"Has (1-3) Charm Slot\n(20-30)% increased Charm Charges gained",
-    "implicitModTypes":[["charm"],["charm"]],
-    "req":{
-      "level":44
+  "Chain Belt":{
+    "implicit":"+(9-20) to maximum Energy Shield",
+    "implicitModTypes":[["defences","energy_shield"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
     },
+    "req":[],
     "tags":{
       "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "default":true
     },
     "type":"Belt"
   },
-  "Fine Belt":{
-    "charmLimit":0,
-    "implicit":"Has (1-3) Charm Slot\nFlasks gain 0.17 charges per Second",
-    "implicitModTypes":[["charm"],[]],
+  "Cloth Belt":{
+    "implicit":"(15-25)% increased Stun and Block Recovery",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":{
-      "level":62
+      "level":16
     },
     "tags":{
       "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "default":true
     },
     "type":"Belt"
   },
-  "Forking Belt":{
-    "charmLimit":0,
-    "implicit":"Adds 1 to (20-30) Lightning damage to Attacks\nHas 1 Charm Slot",
-    "implicitModTypes":[["elemental_damage","damage","elemental","lightning","attack"],["charm"]],
+  "Crystal Belt":{
+    "implicit":"+(60-80) to maximum Energy Shield",
+    "implicitModTypes":[["defences","energy_shield"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":{
-      "level":32
+      "level":79
     },
     "tags":{
+      "atlas_base_type":true,
       "belt":true,
+      "beltatlas2":true,
       "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "not_for_sale":true
     },
     "type":"Belt"
   },
   "Golden Obi":{
-    "charmLimit":0,
-    "implicit":"(20-30)% increased Rarity of Items found\nHas (1-3) Charm Slot",
-    "implicitModTypes":[["drop"],["charm"]],
+    "implicit":"(20-30)% increased Rarity of Items found",
+    "implicitModTypes":[["drop"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":[],
     "tags":{
       "belt":true,
       "default":true,
       "demigods":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true,
       "not_for_sale":true
     },
     "type":"Belt"
   },
   "Heavy Belt":{
-    "charmLimit":0,
-    "implicit":"(20-30)% increased Stun Threshold\nHas (1-3) Charm Slot",
-    "implicitModTypes":[[],["charm"]],
+    "implicit":"+(25-35) to Strength",
+    "implicitModTypes":[["attribute"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":{
-      "level":50
+      "level":8
     },
     "tags":{
       "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "default":true
     },
     "type":"Belt"
   },
-  "Invoking Belt":{
-    "charmLimit":0,
-    "implicit":"(8-12)% increased Cast Speed\nHas 1 Charm Slot",
-    "implicitModTypes":[["caster_speed","caster","speed"],["charm"]],
+  "Leather Belt":{
+    "implicit":"+(25-40) to maximum Life",
+    "implicitModTypes":[["resource","life"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":{
-      "level":32
+      "level":8
     },
     "tags":{
       "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "default":true
     },
     "type":"Belt"
   },
-  "Linen Belt":{
-    "charmLimit":0,
-    "implicit":"(20-30)% increased Mana Recovery from Flasks\nHas (1-3) Charm Slot",
-    "implicitModTypes":[["flask","resource","mana"],["charm"]],
-    "req":[],
-    "tags":{
-      "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+  "Mechalarm Belt":{
+    "implicit":"Trigger Level 20 Summon Taunting Contraption when you use a Flask",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
     },
-    "type":"Belt"
-  },
-  "Long Belt":{
-    "charmLimit":0,
-    "implicit":"(15-20)% increased Charm Effect Duration\nHas (1-3) Charm Slot",
-    "implicitModTypes":[["charm"],["charm"]],
     "req":{
-      "level":20
+      "level":56
     },
     "tags":{
       "belt":true,
       "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "experimental_base":true
     },
     "type":"Belt"
   },
-  "Mail Belt":{
-    "charmLimit":0,
-    "implicit":"(10-15)% reduced Flask Charges used\nHas (1-3) Charm Slot",
-    "implicitModTypes":[["flask"],["charm"]],
+  "Mechanical Belt":{
+    "implicit":"Has 1 Socket",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":{
-      "level":40
+      "level":56
     },
     "tags":{
       "belt":true,
       "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "experimental_base":true
     },
     "type":"Belt"
   },
-  "Ornate Belt":{
-    "charmLimit":0,
-    "implicit":"Has (1-3) Charm Slot\n(10-15)% reduced Charm Charges used",
-    "implicitModTypes":[["charm"],["charm"]],
-    "req":{
-      "level":31
+  "Micro-Distillery Belt":{
+    "implicit":"Flasks applied to you have 30% increased Effect\nCan't use Flask in Fifth Slot",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
     },
-    "tags":{
-      "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
-    },
-    "type":"Belt"
-  },
-  "Plate Belt":{
-    "charmLimit":0,
-    "implicit":"+(140-180) to Armour\nHas (1-3) Charm Slot",
-    "implicitModTypes":[["defences","armour"],["charm"]],
     "req":{
       "level":24
     },
     "tags":{
       "belt":true,
       "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "experimental_base":true
     },
     "type":"Belt"
   },
-  "Rawhide Belt":{
-    "charmLimit":0,
-    "implicit":"(20-30)% increased Life Recovery from Flasks\nHas (1-3) Charm Slot",
-    "implicitModTypes":[["flask","resource","life"],["charm"]],
+  "Rustic Sash":{
+    "implicit":"(12-24)% increased Global Physical Damage",
+    "implicitModTypes":[["physical_damage","damage","physical"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
+    "req":[],
+    "tags":{
+      "belt":true,
+      "default":true
+    },
+    "type":"Belt"
+  },
+  "Studded Belt":{
+    "implicit":"(20-30)% increased Stun Duration on Enemies",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
+    "req":{
+      "level":16
+    },
+    "tags":{
+      "belt":true,
+      "default":true
+    },
+    "type":"Belt"
+  },
+  "Stygian Vise":{
+    "implicit":"Has 1 Abyssal Socket",
+    "implicitModTypes":[[]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":[],
     "tags":{
       "belt":true,
       "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "not_for_sale":true
     },
     "type":"Belt"
   },
-  "Runemastered Heavy Belt":{
-    "charmLimit":0,
-    "hidden":true,
-    "implicit":"(20-30)% increased Stun Threshold\nHas (1-3) Charm Slot\nFlasks gain (0.5-1) charges per Second",
-    "implicitModTypes":[[],["charm"],[]],
+  "Vanguard Belt":{
+    "implicit":"+(260-320) to Armour and Evasion Rating",
+    "implicitModTypes":[["defences","armour","evasion"]],
+    "influenceTags":{
+      "adjudicator":"belt_adjudicator",
+      "basilisk":"belt_basilisk",
+      "cleansing":"belt_cleansing",
+      "crusader":"belt_crusader",
+      "elder":"belt_elder",
+      "eyrie":"belt_eyrie",
+      "shaper":"belt_shaper",
+      "tangle":"belt_tangle"
+    },
     "req":{
-      "level":50
+      "level":78
     },
     "tags":{
+      "atlas_base_type":true,
       "belt":true,
+      "beltatlas1":true,
       "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true,
-      "runeforged":true
-    },
-    "type":"Belt"
-  },
-  "Sinew Belt":{
-    "charmLimit":0,
-    "implicit":"+(15-20) to Strength\nHas 1 Charm Slot",
-    "implicitModTypes":[["attribute"],["charm"]],
-    "req":{
-      "level":32
-    },
-    "tags":{
-      "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
-    },
-    "type":"Belt"
-  },
-  "Stalking Belt":{
-    "charmLimit":0,
-    "implicit":"Has 1 Charm Slot\nThis item gains bonuses from Socketed Items as though it was Boots",
-    "implicitModTypes":[["charm"],[]],
-    "req":{
-      "level":40
-    },
-    "tags":{
-      "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
-    },
-    "type":"Belt"
-  },
-  "Utility Belt":{
-    "charmLimit":0,
-    "implicit":"Has (1-3) Charm Slot\n20% of Flask Recovery applied Instantly",
-    "implicitModTypes":[["charm"],[]],
-    "req":{
-      "level":55
-    },
-    "tags":{
-      "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
-    },
-    "type":"Belt"
-  },
-  "Wide Belt":{
-    "charmLimit":0,
-    "implicit":"Has (1-3) Charm Slot\n(20-30)% increased Flask Charges gained",
-    "implicitModTypes":[["charm"],["flask"]],
-    "req":{
-      "level":14
-    },
-    "tags":{
-      "belt":true,
-      "default":true,
-      "genesis_tree_caster":true,
-      "genesis_tree_minion":true
+      "not_for_sale":true
     },
     "type":"Belt"
   }

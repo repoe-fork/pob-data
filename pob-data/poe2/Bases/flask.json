@@ -1,73 +1,110 @@
 {
-  "Amethyst Charm":{
-    "charm":{
-      "buff":["+18% to Chaos Resistance"],
-      "chargesMax":40,
-      "chargesUsed":30,
-      "duration":4
+  "Amethyst Flask":{
+    "flask":{
+      "buff":["+35% to Chaos Resistance"],
+      "chargesMax":65,
+      "chargesUsed":35,
+      "duration":6.5
     },
-    "implicit":"Used when you take Chaos damage from a Hit",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
+    "req":{
+      "level":18
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Aquamarine Flask":{
+    "flask":{
+      "buff":["60% reduced Effect of Freeze on you"],
+      "chargesMax":50,
+      "chargesUsed":20,
+      "duration":8
+    },
+    "implicit":"Creates Chilled Ground on Use",
+    "implicitModTypes":[["flask"]],
+    "req":{
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Basalt Flask":{
+    "flask":{
+      "buff":["20% more Armour"],
+      "chargesMax":60,
+      "chargesUsed":40,
+      "duration":8
+    },
+    "implicit":"Taunts nearby Enemies on use",
+    "implicitModTypes":[["flask"]],
+    "req":{
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Bismuth Flask":{
+    "flask":{
+      "buff":["+35% to all Elemental Resistances"],
+      "chargesMax":40,
+      "chargesUsed":15,
+      "duration":8.5
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":8
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Colossal Hybrid Flask":{
+    "flask":{
+      "chargesMax":40,
+      "chargesUsed":20,
+      "duration":5,
+      "life":690,
+      "mana":200
+    },
+    "implicitModTypes":[],
     "req":{
       "level":40
     },
+    "subType":"Hybrid",
     "tags":{
       "default":true,
       "flask":true,
-      "utility_flask":true
+      "hybrid_flask":true
     },
-    "type":"Charm"
-  },
-  "Antidote Charm":{
-    "charm":{
-      "buff":["Immune to Poison"],
-      "chargesMax":40,
-      "chargesUsed":20,
-      "duration":3
-    },
-    "implicit":"Used when you become Poisoned",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "level":24
-    },
-    "tags":{
-      "default":true,
-      "flask":true,
-      "utility_flask":true
-    },
-    "type":"Charm"
-  },
-  "Cleansing Charm":{
-    "charm":{
-      "buff":[""],
-      "chargesMax":40,
-      "chargesUsed":20,
-      "duration":3
-    },
-    "implicit":"Used when you become Cursed",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "level":40
-    },
-    "tags":{
-      "default":true,
-      "flask":true,
-      "utility_flask":true
-    },
-    "type":"Charm"
+    "type":"Flask"
   },
   "Colossal Life Flask":{
     "flask":{
-      "chargesMax":75,
+      "chargesMax":32,
       "chargesUsed":10,
-      "duration":4,
-      "life":450
+      "duration":3.5,
+      "life":1000
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
       "level":30
     },
@@ -81,13 +118,12 @@
   },
   "Colossal Mana Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":2.5,
-      "mana":165
+      "chargesMax":38,
+      "chargesUsed":8,
+      "duration":5,
+      "mana":350
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
       "level":30
     },
@@ -99,77 +135,134 @@
     },
     "type":"Flask"
   },
-  "Dousing Charm":{
-    "charm":{
-      "buff":["Immune to Ignite"],
-      "chargesMax":40,
-      "chargesUsed":30,
-      "duration":3
+  "Corundum Flask":{
+    "flask":{
+      "buff":["30% increased Stun Threshold","Cannot be Stunned if you've been Stunned during Effect"],
+      "chargesMax":50,
+      "chargesUsed":20,
+      "duration":7.5
     },
-    "implicit":"Used when you become Ignited",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
-      "level":32
+      "level":27
     },
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
       "utility_flask":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
-  "Gargantuan Life Flask":{
+  "Diamond Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":5,
-      "life":710
+      "buff":["100% increased Global Critical Strike Chance"],
+      "chargesMax":40,
+      "chargesUsed":20,
+      "duration":6
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":40
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Divine Life Flask":{
+    "flask":{
+      "chargesMax":45,
+      "chargesUsed":15,
+      "duration":3.5,
+      "life":2400
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":60
     },
     "subType":"Life",
     "tags":{
       "default":true,
       "flask":true,
-      "life_flask":true
+      "life_flask":true,
+      "not_for_sale":true
     },
     "type":"Flask"
   },
-  "Gargantuan Mana Flask":{
+  "Divine Mana Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":2,
-      "mana":185
+      "chargesMax":42,
+      "chargesUsed":8,
+      "duration":5,
+      "mana":1400
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":40
+      "level":60
     },
     "subType":"Mana",
     "tags":{
       "default":true,
       "flask":true,
-      "mana_flask":true
+      "mana_flask":true,
+      "not_for_sale":true
+    },
+    "type":"Flask"
+  },
+  "Eternal Life Flask":{
+    "flask":{
+      "chargesMax":45,
+      "chargesUsed":15,
+      "duration":2,
+      "life":2080
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "subType":"Life",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "life_flask":true,
+      "not_for_sale":true
+    },
+    "type":"Flask"
+  },
+  "Eternal Mana Flask":{
+    "flask":{
+      "chargesMax":42,
+      "chargesUsed":8,
+      "duration":7,
+      "mana":1800
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":65
+    },
+    "subType":"Mana",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "mana_flask":true,
+      "not_for_sale":true
     },
     "type":"Flask"
   },
   "Giant Life Flask":{
     "flask":{
-      "chargesMax":75,
+      "chargesMax":30,
       "chargesUsed":10,
       "duration":4,
-      "life":340
+      "life":830
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":23
+      "level":24
     },
     "subType":"Life",
     "tags":{
@@ -181,15 +274,14 @@
   },
   "Giant Mana Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":3.5,
-      "mana":165
+      "chargesMax":36,
+      "chargesUsed":8,
+      "duration":5,
+      "mana":250
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":23
+      "level":24
     },
     "subType":"Mana",
     "tags":{
@@ -199,37 +291,35 @@
     },
     "type":"Flask"
   },
-  "Golden Charm":{
-    "charm":{
-      "buff":["15% increased Rarity of Items found"],
+  "Gold Flask":{
+    "flask":{
+      "buff":["30% increased Rarity of Items found"],
       "chargesMax":80,
-      "chargesUsed":80,
-      "duration":1
+      "chargesUsed":60,
+      "duration":5
     },
-    "implicit":"Used when you kill a Rare or Unique enemy",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
-      "level":50
+      "level":27
     },
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
       "utility_flask":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
   "Grand Life Flask":{
     "flask":{
-      "chargesMax":75,
+      "chargesMax":25,
       "chargesUsed":10,
-      "duration":5,
-      "life":260
+      "duration":3,
+      "life":640
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":16
+      "level":18
     },
     "subType":"Life",
     "tags":{
@@ -241,15 +331,14 @@
   },
   "Grand Mana Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":2.5,
-      "mana":110
+      "chargesMax":30,
+      "chargesUsed":7,
+      "duration":4.5,
+      "mana":170
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":16
+      "level":18
     },
     "subType":"Mana",
     "tags":{
@@ -259,17 +348,35 @@
     },
     "type":"Flask"
   },
-  "Greater Life Flask":{
+  "Granite Flask":{
     "flask":{
-      "chargesMax":70,
-      "chargesUsed":10,
-      "duration":4,
-      "life":150
+      "buff":["+1500 to Armour"],
+      "chargesMax":60,
+      "chargesUsed":30,
+      "duration":6
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":10
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Greater Life Flask":{
+    "flask":{
+      "chargesMax":32,
+      "chargesUsed":10,
+      "duration":3.5,
+      "life":360
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":12
     },
     "subType":"Life",
     "tags":{
@@ -281,15 +388,14 @@
   },
   "Greater Mana Flask":{
     "flask":{
-      "chargesMax":70,
-      "chargesUsed":10,
-      "duration":2.5,
-      "mana":90
+      "chargesMax":36,
+      "chargesUsed":9,
+      "duration":4,
+      "mana":120
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":10
+      "level":12
     },
     "subType":"Mana",
     "tags":{
@@ -299,36 +405,38 @@
     },
     "type":"Flask"
   },
-  "Grounding Charm":{
-    "charm":{
-      "buff":["Immune to Shock"],
+  "Hallowed Hybrid Flask":{
+    "flask":{
       "chargesMax":40,
-      "chargesUsed":30,
-      "duration":3
+      "chargesUsed":20,
+      "duration":5,
+      "life":1740,
+      "mana":480
     },
-    "implicit":"Used when you become Shocked",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
-      "level":32
+      "level":60
     },
+    "subType":"Hybrid",
     "tags":{
       "default":true,
       "flask":true,
-      "utility_flask":true
+      "hybrid_flask":true,
+      "not_for_sale":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
-  "Lesser Life Flask":{
+  "Hallowed Life Flask":{
     "flask":{
-      "chargesMax":60,
+      "chargesMax":30,
       "chargesUsed":10,
-      "duration":3,
-      "life":50
+      "duration":4,
+      "life":1990
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":[],
+    "req":{
+      "level":42
+    },
     "subType":"Life",
     "tags":{
       "default":true,
@@ -337,16 +445,17 @@
     },
     "type":"Flask"
   },
-  "Lesser Mana Flask":{
+  "Hallowed Mana Flask":{
     "flask":{
-      "chargesMax":60,
-      "chargesUsed":10,
-      "duration":2,
-      "mana":50
+      "chargesMax":30,
+      "chargesUsed":6,
+      "duration":6,
+      "mana":700
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":[],
+    "req":{
+      "level":42
+    },
     "subType":"Mana",
     "tags":{
       "default":true,
@@ -355,17 +464,135 @@
     },
     "type":"Flask"
   },
-  "Medium Life Flask":{
+  "Iron Flask":{
     "flask":{
-      "chargesMax":65,
-      "chargesUsed":10,
-      "duration":5,
-      "life":90
+      "buff":["+200 to Ward"],
+      "chargesMax":60,
+      "chargesUsed":40,
+      "duration":4
+    },
+    "implicit":"Restores Ward on use",
+    "implicitModTypes":[["flask"]],
+    "req":{
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "expedition_flask":true,
+      "flask":true,
+      "not_for_sale":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Jade Flask":{
+    "flask":{
+      "buff":["+1500 to Evasion Rating"],
+      "chargesMax":60,
+      "chargesUsed":30,
+      "duration":6
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":4
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Large Hybrid Flask":{
+    "flask":{
+      "chargesMax":40,
+      "chargesUsed":20,
+      "duration":5,
+      "life":510,
+      "mana":140
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":30
+    },
+    "subType":"Hybrid",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "hybrid_flask":true
+    },
+    "type":"Flask"
+  },
+  "Large Life Flask":{
+    "flask":{
+      "chargesMax":30,
+      "chargesUsed":9,
+      "duration":3.5,
+      "life":250
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":6
+    },
+    "subType":"Life",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "life_flask":true
+    },
+    "type":"Flask"
+  },
+  "Large Mana Flask":{
+    "flask":{
+      "chargesMax":35,
+      "chargesUsed":8,
+      "duration":4,
+      "mana":90
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":6
+    },
+    "subType":"Mana",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "mana_flask":true
+    },
+    "type":"Flask"
+  },
+  "Medium Hybrid Flask":{
+    "flask":{
+      "chargesMax":40,
+      "chargesUsed":20,
+      "duration":5,
+      "life":230,
+      "mana":100
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":20
+    },
+    "subType":"Hybrid",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "hybrid_flask":true
+    },
+    "type":"Flask"
+  },
+  "Medium Life Flask":{
+    "flask":{
+      "chargesMax":28,
+      "chargesUsed":8,
+      "duration":3.5,
+      "life":150
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":3
     },
     "subType":"Life",
     "tags":{
@@ -377,241 +604,324 @@
   },
   "Medium Mana Flask":{
     "flask":{
-      "chargesMax":65,
-      "chargesUsed":10,
-      "duration":3,
+      "chargesMax":30,
+      "chargesUsed":7,
+      "duration":3.5,
       "mana":70
     },
     "implicitModTypes":[],
-    "quality":20,
+    "req":{
+      "level":3
+    },
+    "subType":"Mana",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "mana_flask":true
+    },
+    "type":"Flask"
+  },
+  "Quartz Flask":{
+    "flask":{
+      "buff":["+10% chance to Suppress Spell Damage","Phasing"],
+      "chargesMax":60,
+      "chargesUsed":30,
+      "duration":6
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":27
+    },
+    "subType":"Utility",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "utility_flask":true
+    },
+    "type":"Flask"
+  },
+  "Quicksilver Flask":{
+    "flask":{
+      "buff":["40% increased Movement Speed"],
+      "chargesMax":60,
+      "chargesUsed":30,
+      "duration":6
+    },
+    "implicitModTypes":[],
     "req":{
       "level":4
     },
-    "subType":"Mana",
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
-      "mana_flask":true
+      "utility_flask":true
     },
     "type":"Flask"
   },
-  "Ruby Charm":{
-    "charm":{
-      "buff":["+25% to Fire Resistance"],
-      "chargesMax":40,
+  "Ruby Flask":{
+    "flask":{
+      "buff":["+5% to maximum Fire Resistance","+40% to Fire Resistance"],
+      "chargesMax":50,
       "chargesUsed":20,
-      "duration":4
+      "duration":8
     },
-    "implicit":"Used when you take Fire damage from a Hit",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "level":5
-    },
-    "tags":{
-      "default":true,
-      "flask":true,
-      "utility_flask":true
-    },
-    "type":"Charm"
-  },
-  "Sapphire Charm":{
-    "charm":{
-      "buff":["+25% to Cold Resistance"],
-      "chargesMax":40,
-      "chargesUsed":20,
-      "duration":4
-    },
-    "implicit":"Used when you take Cold damage from a Hit",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "level":5
-    },
-    "tags":{
-      "default":true,
-      "flask":true,
-      "utility_flask":true
-    },
-    "type":"Charm"
-  },
-  "Silver Charm":{
-    "charm":{
-      "buff":["Your speed is unaffected by Slows"],
-      "chargesMax":40,
-      "chargesUsed":20,
-      "duration":3
-    },
-    "implicit":"Used when you are affected by a Slow",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "level":10
-    },
-    "tags":{
-      "default":true,
-      "flask":true,
-      "utility_flask":true
-    },
-    "type":"Charm"
-  },
-  "Staunching Charm":{
-    "charm":{
-      "buff":["You are Immune to Bleeding"],
-      "chargesMax":40,
-      "chargesUsed":30,
-      "duration":3
-    },
-    "implicit":"Used when you start Bleeding",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
       "level":18
     },
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
       "utility_flask":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
-  "Stone Charm":{
-    "charm":{
-      "buff":["Cannot be Stunned"],
+  "Sacred Hybrid Flask":{
+    "flask":{
       "chargesMax":40,
       "chargesUsed":20,
-      "duration":3
+      "duration":5,
+      "life":1440,
+      "mana":400
     },
-    "implicit":"Used when you become Stunned",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
-      "level":8
+      "level":50
     },
+    "subType":"Hybrid",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "hybrid_flask":true
+    },
+    "type":"Flask"
+  },
+  "Sacred Life Flask":{
+    "flask":{
+      "chargesMax":25,
+      "chargesUsed":10,
+      "duration":3,
+      "life":1200
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":36
+    },
+    "subType":"Life",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "life_flask":true
+    },
+    "type":"Flask"
+  },
+  "Sacred Mana Flask":{
+    "flask":{
+      "chargesMax":35,
+      "chargesUsed":7,
+      "duration":5.5,
+      "mana":480
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":36
+    },
+    "subType":"Mana",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "mana_flask":true
+    },
+    "type":"Flask"
+  },
+  "Sanctified Life Flask":{
+    "flask":{
+      "chargesMax":30,
+      "chargesUsed":15,
+      "duration":1.5,
+      "life":1460
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":50
+    },
+    "subType":"Life",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "life_flask":true
+    },
+    "type":"Flask"
+  },
+  "Sanctified Mana Flask":{
+    "flask":{
+      "chargesMax":35,
+      "chargesUsed":7,
+      "duration":6.5,
+      "mana":1100
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":50
+    },
+    "subType":"Mana",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "mana_flask":true
+    },
+    "type":"Flask"
+  },
+  "Sapphire Flask":{
+    "flask":{
+      "buff":["+5% to maximum Cold Resistance","+40% to Cold Resistance"],
+      "chargesMax":50,
+      "chargesUsed":20,
+      "duration":8
+    },
+    "implicitModTypes":[],
+    "req":{
+      "level":18
+    },
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
       "utility_flask":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
-  "Thawing Charm":{
-    "charm":{
-      "buff":["Immune to Freeze"],
-      "chargesMax":40,
+  "Silver Flask":{
+    "flask":{
+      "buff":["Onslaught"],
+      "chargesMax":60,
       "chargesUsed":40,
-      "duration":3
+      "duration":6
     },
-    "implicit":"Used when you become Frozen",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
-      "level":12
+      "level":27
     },
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
       "utility_flask":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
-  "Topaz Charm":{
-    "charm":{
-      "buff":["+25% to Lightning Resistance"],
+  "Small Hybrid Flask":{
+    "flask":{
       "chargesMax":40,
       "chargesUsed":20,
-      "duration":4
+      "duration":5,
+      "life":100,
+      "mana":70
     },
-    "implicit":"Used when you take Lightning damage from a Hit",
-    "implicitModTypes":[[]],
-    "quality":20,
+    "implicitModTypes":[],
     "req":{
-      "level":5
+      "level":10
     },
+    "subType":"Hybrid",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "hybrid_flask":true
+    },
+    "type":"Flask"
+  },
+  "Small Life Flask":{
+    "flask":{
+      "chargesMax":21,
+      "chargesUsed":7,
+      "duration":3,
+      "life":70
+    },
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Life",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "life_flask":true
+    },
+    "type":"Flask"
+  },
+  "Small Mana Flask":{
+    "flask":{
+      "chargesMax":24,
+      "chargesUsed":6,
+      "duration":3,
+      "mana":50
+    },
+    "implicitModTypes":[],
+    "req":[],
+    "subType":"Mana",
+    "tags":{
+      "default":true,
+      "flask":true,
+      "mana_flask":true
+    },
+    "type":"Flask"
+  },
+  "Stibnite Flask":{
+    "flask":{
+      "buff":["20% more Evasion Rating"],
+      "chargesMax":60,
+      "chargesUsed":40,
+      "duration":8
+    },
+    "implicit":"Creates a Smoke Cloud on Use",
+    "implicitModTypes":[["flask"]],
+    "req":{
+      "level":27
+    },
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
       "utility_flask":true
     },
-    "type":"Charm"
+    "type":"Flask"
   },
-  "Transcendent Life Flask":{
+  "Sulphur Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":4,
-      "life":840
+      "buff":["40% increased Damage"],
+      "chargesMax":60,
+      "chargesUsed":40,
+      "duration":8
     },
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"Creates Consecrated Ground on Use",
+    "implicitModTypes":[["flask"]],
     "req":{
-      "level":50
+      "level":27
     },
-    "subType":"Life",
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
-      "life_flask":true
+      "utility_flask":true
     },
     "type":"Flask"
   },
-  "Transcendent Mana Flask":{
+  "Topaz Flask":{
     "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":3.5,
-      "mana":285
+      "buff":["+5% to maximum Lightning Resistance","+40% to Lightning Resistance"],
+      "chargesMax":50,
+      "chargesUsed":20,
+      "duration":8
     },
     "implicitModTypes":[],
-    "quality":20,
     "req":{
-      "level":50
+      "level":18
     },
-    "subType":"Mana",
+    "subType":"Utility",
     "tags":{
       "default":true,
       "flask":true,
-      "mana_flask":true
-    },
-    "type":"Flask"
-  },
-  "Ultimate Life Flask":{
-    "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":3,
-      "life":920
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":60
-    },
-    "subType":"Life",
-    "tags":{
-      "default":true,
-      "flask":true,
-      "life_flask":true
-    },
-    "type":"Flask"
-  },
-  "Ultimate Mana Flask":{
-    "flask":{
-      "chargesMax":75,
-      "chargesUsed":10,
-      "duration":3,
-      "mana":310
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":60
-    },
-    "subType":"Mana",
-    "tags":{
-      "default":true,
-      "flask":true,
-      "mana_flask":true
+      "utility_flask":true
     },
     "type":"Flask"
   }

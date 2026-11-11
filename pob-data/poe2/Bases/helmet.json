@@ -1,233 +1,195 @@
 {
-  "Ancestral Tiara":{
+  "Ancient Mask":{
     "armour":{
-      "EnergyShield":109
+      "EnergyShieldBaseMax":71,
+      "EnergyShieldBaseMin":62,
+      "EvasionBaseMax":355,
+      "EvasionBaseMin":308
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":115,
-      "level":80
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
+    "req":{
+      "dex":116,
+      "int":116,
+      "level":78
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
+      "dex_int_armour":true,
       "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Ancient Visor":{
+  "Archdemon Crown":{
     "armour":{
-      "Armour":179,
-      "Evasion":163
+      "ArmourBaseMax":212,
+      "ArmourBaseMin":185,
+      "EnergyShieldBaseMax":43,
+      "EnergyShieldBaseMin":38
     },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"-2 to Level of Socketed Support Gems\n+2 to Level of Socketed Skill Gems",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":59,
-      "level":65,
-      "str":59
+      "int":79,
+      "level":75,
+      "str":79
     },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Archon Crown":{
-    "armour":{
-      "Armour":179,
-      "EnergyShield":50
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
+      "not_for_sale":true,
       "str_int_armour":true
     },
     "type":"Helmet"
   },
-  "Armoured Cap":{
+  "Atonement Mask":{
     "armour":{
-      "Evasion":296
+      "ArmourBaseMax":140,
+      "ArmourBaseMin":122,
+      "EvasionBaseMax":140,
+      "EvasionBaseMin":122
     },
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"+3% to maximum Chaos Resistance\n-15% additional Physical Damage Reduction\nYou are Crushed",
+    "implicitModTypes":[[],[],[]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":91,
-      "level":65
+      "dex":51,
+      "level":45,
+      "str":51
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Avian Mask":{
-    "armour":{
-      "EnergyShield":46,
-      "Evasion":149
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":46,
-      "int":46,
-      "level":59
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Avian Tiara":{
-    "armour":{
-      "EnergyShield":71
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":69,
-      "level":48
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Bandit Mask":{
-    "armour":{
-      "EnergyShield":39,
-      "Evasion":122
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":38,
-      "int":38,
-      "level":48
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Beaded Circlet":{
-    "armour":{
-      "EnergyShield":35
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":25,
-      "level":16
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "maraketh_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Brigand Mask":{
-    "armour":{
-      "EnergyShield":50,
-      "Evasion":163
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "int":50,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Brimmed Helm":{
-    "armour":{
-      "Armour":26,
-      "Evasion":20
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":7,
-      "level":5,
-      "str":7
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
-      "ezomyte_basetype":true,
       "helmet":true,
+      "not_for_sale":true,
       "str_dex_armour":true
     },
     "type":"Helmet"
   },
-  "Cabalist Helm":{
+  "Aventail Helmet":{
     "armour":{
-      "Armour":151,
-      "Evasion":137
+      "ArmourBaseMax":119,
+      "ArmourBaseMin":101,
+      "EnergyShieldBaseMax":25,
+      "EnergyShieldBaseMin":21
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":42,
-      "level":54,
+      "int":42,
+      "level":37,
       "str":42
     },
-    "socketLimit":3,
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Barbute Helmet":{
+    "armour":{
+      "ArmourBaseMax":115,
+      "ArmourBaseMin":92
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":18,
+      "str":42
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Battered Helm":{
+    "armour":{
+      "ArmourBaseMax":18,
+      "ArmourBaseMin":13,
+      "EvasionBaseMax":18,
+      "EvasionBaseMin":13
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":8,
+      "str":8
+    },
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -237,280 +199,132 @@
     },
     "type":"Helmet"
   },
-  "Cassis Helm":{
+  "Blizzard Crown":{
     "armour":{
-      "Armour":163,
-      "Evasion":149
+      "EnergyShieldBaseMax":43,
+      "EnergyShieldBaseMin":38,
+      "EvasionBaseMax":212,
+      "EvasionBaseMin":185
     },
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"Adds (75-85) to (115-128) Cold Damage\nYour Hits treat Cold Resistance as 10% higher than actual value",
+    "implicitModTypes":[["elemental_damage","damage","elemental","cold"],["elemental_damage","damage","elemental","cold"]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":46,
-      "level":59,
-      "str":46
+      "dex":79,
+      "int":79,
+      "level":75
     },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
+      "dex_int_armour":true,
       "helmet":true,
-      "str_dex_armour":true
+      "not_for_sale":true
     },
     "type":"Helmet"
   },
-  "Chain Tiara":{
+  "Bone Circlet":{
     "armour":{
-      "EnergyShield":47
+      "EnergyShieldBaseMax":40,
+      "EnergyShieldBaseMin":36
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":38,
-      "level":26
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "int":73,
+      "level":34
+    },
+    "socketLimit":4,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "int_armour":true,
-      "maraketh_basetype":true
+      "int_armour":true
     },
     "type":"Helmet"
   },
-  "Champion Helm":{
+  "Bone Helmet":{
     "armour":{
-      "Armour":197,
-      "Evasion":179
+      "ArmourBaseMax":227,
+      "ArmourBaseMin":197,
+      "EnergyShieldBaseMax":46,
+      "EnergyShieldBaseMin":40
     },
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"Minions deal (15-20)% increased Damage",
+    "implicitModTypes":[["damage","minion"]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":59,
-      "level":75,
-      "str":59
+      "int":76,
+      "level":73,
+      "str":76
     },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
+      "atlas_base_type":true,
       "default":true,
       "helmet":true,
-      "str_dex_armour":true
+      "helmetatlas1":true,
+      "not_for_sale":true,
+      "str_int_armour":true
     },
     "type":"Helmet"
   },
-  "Closed Helm":{
+  "Callous Mask":{
     "armour":{
-      "Armour":128,
-      "Evasion":115
+      "EnergyShieldBaseMax":28,
+      "EnergyShieldBaseMin":25,
+      "EvasionBaseMax":137,
+      "EvasionBaseMin":122
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":36,
-      "level":45,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Commander Greathelm":{
-    "armour":{
-      "Armour":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":45,
-      "str":64
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Corroded Greathelm":{
-    "armour":{
-      "Armour":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":45,
-      "str":64
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Corsair Cap":{
-    "armour":{
-      "Evasion":210
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":64,
+      "dex":51,
+      "int":51,
       "level":45
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Covert Hood":{
-    "armour":{
-      "Evasion":257
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":79,
-      "level":56
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Cowled Helm":{
-    "armour":{
-      "Armour":80,
-      "Evasion":70
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":22,
-      "level":26,
-      "str":22
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Cryptic Crown":{
-    "armour":{
-      "Armour":206,
-      "EnergyShield":57
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":63,
-      "level":80,
-      "str":63
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Cryptic Helm":{
-    "armour":{
-      "Armour":188,
-      "Evasion":171
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":70,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Cultist Crown":{
-    "armour":{
-      "Armour":54,
-      "EnergyShield":19
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":15,
-      "level":16,
-      "str":15
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Death Mask":{
-    "armour":{
-      "EnergyShield":50,
-      "Evasion":163
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "int":50,
-      "level":65
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -520,401 +334,422 @@
     },
     "type":"Helmet"
   },
-  "Decorated Helm":{
+  "Close Helmet":{
     "armour":{
-      "Armour":146,
-      "Evasion":132
+      "ArmourBaseMax":150,
+      "ArmourBaseMin":130
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":41,
-      "level":52,
-      "str":41
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "level":26,
+      "str":58
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Cone Helmet":{
+    "armour":{
+      "ArmourBaseMax":50,
+      "ArmourBaseMin":38
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":7,
+      "str":21
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Conqueror's Helmet":{
+    "armour":{
+      "ArmourBaseMax":576,
+      "ArmourBaseMin":501
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":78,
+      "str":194
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Conquest Helmet":{
+    "armour":{
+      "ArmourBaseMax":355,
+      "ArmourBaseMin":308,
+      "EvasionBaseMax":355,
+      "EvasionBaseMin":308
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":116,
+      "level":78,
+      "str":116
+    },
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "str_dex_armour":true
+      "not_for_sale":true,
+      "str_dex_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Deerstalker Hood":{
+  "Crusader Helmet":{
     "armour":{
-      "Evasion":270
+      "ArmourBaseMax":95,
+      "ArmourBaseMin":85,
+      "EnergyShieldBaseMax":20,
+      "EnergyShieldBaseMin":18
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":83,
-      "level":59
+      "int":36,
+      "level":31,
+      "str":36
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Desert Cap":{
-    "armour":{
-      "Evasion":311
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":99,
-      "level":70
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Desert Circlet":{
-    "armour":{
-      "EnergyShield":75
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":73,
-      "level":51
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "int_armour":true
+      "str_int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Deicide Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":54,
+      "EnergyShieldBaseMin":47,
+      "EvasionBaseMax":219,
+      "EvasionBaseMin":190
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":73,
+      "int":88,
+      "level":67
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Demon Crown":{
+    "armour":{
+      "ArmourBaseMax":140,
+      "ArmourBaseMin":122,
+      "EnergyShieldBaseMax":29,
+      "EnergyShieldBaseMin":25
+    },
+    "implicit":"-1 to Level of Socketed Support Gems\n+1 to Level of Socketed Skill Gems",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":51,
+      "level":45,
+      "str":51
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Dire Pelt":{
+    "armour":{
+      "EvasionBaseMax":496,
+      "EvasionBaseMin":431
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":170,
+      "level":73
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
   "Divine Crown":{
     "armour":{
-      "Armour":197,
-      "EnergyShield":55
+      "ArmourBaseMax":409,
+      "ArmourBaseMin":355,
+      "EnergyShieldBaseMax":82,
+      "EnergyShieldBaseMin":71
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":59,
-      "level":75,
-      "str":59
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "int":132,
+      "level":84,
+      "str":132
+    },
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "str_int_armour":true
+      "not_for_sale":true,
+      "str_int_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Domed Helm":{
+  "Eternal Burgonet":{
     "armour":{
-      "Armour":128,
-      "Evasion":115
+      "ArmourBaseMax":429,
+      "ArmourBaseMin":373
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":36,
-      "level":45,
-      "str":36
+      "level":69,
+      "str":138
     },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Druidic Circlet":{
-    "armour":{
-      "EnergyShield":68
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":64,
-      "level":45
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Druidic Crown":{
-    "armour":{
-      "Armour":179,
-      "EnergyShield":50
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Elegant Greathelm":{
-    "armour":{
-      "Armour":274
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":54,
-      "str":77
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Elite Greathelm":{
-    "armour":{
-      "Armour":177
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":33,
-      "str":48
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
       "str_armour":true,
-      "vaal_basetype":true
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Engraved Helm":{
+  "Ezomyte Burgonet":{
     "armour":{
-      "Armour":136,
-      "Evasion":122
+      "ArmourBaseMax":381,
+      "ArmourBaseMin":346
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":38,
-      "level":48,
-      "str":38
+      "level":60,
+      "str":138
     },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Face Mask":{
-    "armour":{
-      "EnergyShield":16,
-      "Evasion":32
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":10,
-      "int":10,
-      "level":10
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Faridun Mask":{
-    "armour":{
-      "EnergyShield":52,
-      "Evasion":171
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "int":54,
-      "level":70
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Feathered Tiara":{
-    "armour":{
-      "EnergyShield":54
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":48,
-      "level":33
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Felt Cap":{
-    "armour":{
-      "Evasion":58
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":17,
-      "level":10
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Fierce Greathelm":{
-    "armour":{
-      "Armour":260
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":51,
-      "str":73
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "karui_basetype":true,
       "str_armour":true
     },
     "type":"Helmet"
   },
-  "Forest Crown":{
+  "Faithful Helmet":{
     "armour":{
-      "Armour":136,
-      "EnergyShield":39
+      "ArmourBaseMax":308,
+      "ArmourBaseMin":268,
+      "EnergyShieldBaseMax":62,
+      "EnergyShieldBaseMin":54
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":38,
-      "level":48,
-      "str":38
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "int":101,
+      "level":73,
+      "str":101
+    },
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "str_int_armour":true
+      "not_for_sale":true,
+      "str_int_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Freebooter Cap":{
+  "Fencer Helm":{
     "armour":{
-      "Evasion":340
+      "ArmourBaseMax":134,
+      "ArmourBaseMin":117,
+      "EvasionBaseMax":134,
+      "EvasionBaseMin":117
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":115,
-      "level":80
+      "dex":49,
+      "level":43,
+      "str":49
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Gallant Helm":{
-    "armour":{
-      "Armour":179,
-      "Evasion":163
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
@@ -924,65 +759,264 @@
     },
     "type":"Helmet"
   },
-  "Gladiatorial Helm":{
+  "Festival Mask":{
     "armour":{
-      "Armour":206,
-      "Evasion":187
+      "EnergyShieldBaseMax":19,
+      "EnergyShieldBaseMin":17,
+      "EvasionBaseMax":88,
+      "EvasionBaseMin":77
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":63,
-      "level":80,
-      "str":63
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":33,
+      "int":33,
+      "level":28
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Fluted Bascinet":{
+    "armour":{
+      "ArmourBaseMax":189,
+      "ArmourBaseMin":160,
+      "EvasionBaseMax":189,
+      "EvasionBaseMin":160
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":64,
+      "level":58,
+      "str":64
+    },
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "karui_basetype":true,
       "str_dex_armour":true
     },
     "type":"Helmet"
   },
-  "Gold Circlet":{
+  "Gale Crown":{
     "armour":{
-      "EnergyShield":62
+      "EnergyShieldBaseMax":12,
+      "EnergyShieldBaseMin":10,
+      "EvasionBaseMax":49,
+      "EvasionBaseMin":42
     },
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"Adds (3-4) to (5-6) Cold Damage\nYour Hits treat Cold Resistance as 10% higher than actual value",
+    "implicitModTypes":[["elemental_damage","damage","elemental","cold"],["elemental_damage","damage","elemental","cold"]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "int":58,
-      "level":40
+      "dex":20,
+      "int":20,
+      "level":15
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Golden Visage":{
-    "armour":[],
-    "implicit":"+(8-16)% to all Elemental Resistances",
-    "implicitModTypes":[["cold_resistance","elemental_resistance","fire_resistance","lightning_resistance","elemental","fire","cold","lightning","resistance"]],
-    "quality":20,
-    "req":{
-      "level":12
-    },
-    "socketLimit":3,
-    "tags":{
-      "armour":true,
-      "default":true,
-      "demigods":true,
+      "dex_int_armour":true,
       "helmet":true,
       "not_for_sale":true
+    },
+    "type":"Helmet"
+  },
+  "General's Helmet":{
+    "armour":{
+      "ArmourBaseMax":496,
+      "ArmourBaseMin":431
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":73,
+      "str":170
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Giantslayer Helmet":{
+    "armour":{
+      "ArmourBaseMax":669,
+      "ArmourBaseMin":582
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":84,
+      "str":224
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Gilded Sallet":{
+    "armour":{
+      "ArmourBaseMax":97,
+      "ArmourBaseMin":90,
+      "EvasionBaseMax":97,
+      "EvasionBaseMin":90
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":38,
+      "level":33,
+      "str":38
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_dex_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Gladiator Helmet":{
+    "armour":{
+      "ArmourBaseMax":195,
+      "ArmourBaseMin":174
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":35,
+      "str":75
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Golden Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":22,
+      "EnergyShieldBaseMin":20,
+      "EvasionBaseMax":103,
+      "EvasionBaseMin":96
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":40,
+      "int":40,
+      "level":35
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true
     },
     "type":"Helmet"
   },
@@ -990,11 +1024,20 @@
     "armour":[],
     "implicit":"+(16-24) to all Attributes",
     "implicitModTypes":[["attribute"]],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
       "level":12
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "tags":{
       "armour":true,
       "default":true,
@@ -1004,129 +1047,30 @@
     },
     "type":"Helmet"
   },
-  "Goliath Greathelm":{
+  "Great Crown":{
     "armour":{
-      "Armour":288
+      "ArmourBaseMax":161,
+      "ArmourBaseMin":143,
+      "EnergyShieldBaseMax":33,
+      "EnergyShieldBaseMin":29
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "level":57,
-      "str":81
+      "int":59,
+      "level":53,
+      "str":59
     },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Grand Visage":{
-    "armour":{
-      "Armour":119,
-      "EnergyShield":33,
-      "Evasion":109
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "int":36,
-      "level":65,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Grinning Mask":{
-    "armour":{
-      "EnergyShield":57,
-      "Evasion":187
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":63,
-      "int":63,
-      "level":80
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Guarded Helm":{
-    "armour":{
-      "Armour":42,
-      "Evasion":34
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":11,
-      "level":11,
-      "str":11
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Guardian Greathelm":{
-    "armour":{
-      "Armour":325
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":65,
-      "str":91
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Hallowed Crown":{
-    "armour":{
-      "Armour":151,
-      "EnergyShield":43
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":42,
-      "level":54,
-      "str":42
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
@@ -1136,466 +1080,256 @@
     },
     "type":"Helmet"
   },
-  "Heavy Crown":{
+  "Great Helmet":{
     "armour":{
-      "Armour":97,
-      "EnergyShield":30
+      "ArmourBaseMax":76,
+      "ArmourBaseMin":61,
+      "EnergyShieldBaseMax":17,
+      "EnergyShieldBaseMin":14
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
       "int":27,
-      "level":33,
+      "level":22,
       "str":27
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "str_int_armour":true,
-      "vaal_basetype":true
+      "str_int_armour":true
     },
     "type":"Helmet"
   },
-  "Hewn Mask":{
+  "Grizzly Pelt":{
     "armour":{
-      "EnergyShield":13,
-      "Evasion":20
+      "EvasionBaseMax":576,
+      "EvasionBaseMin":501
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":7,
-      "int":7,
-      "level":5
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":194,
+      "level":78
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Harlequin Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":38,
+      "EnergyShieldBaseMin":32,
+      "EvasionBaseMax":185,
+      "EvasionBaseMin":157
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":64,
+      "int":64,
+      "level":57
+    },
+    "socketLimit":4,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "dex_int_armour":true,
-      "ezomyte_basetype":true,
       "helmet":true
     },
     "type":"Helmet"
   },
-  "Homeguard Greathelm":{
+  "Haunted Bascinet":{
     "armour":{
-      "Armour":260
+      "ArmourBaseMax":409,
+      "ArmourBaseMin":355,
+      "EvasionBaseMax":409,
+      "EvasionBaseMin":355
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":51,
-      "str":73
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Armour",
+    "req":{
+      "dex":132,
+      "level":84,
+      "str":132
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "str_armour":true
+      "not_for_sale":true,
+      "str_dex_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Hooded Mask":{
+  "Hubris Circlet":{
     "armour":{
-      "EnergyShield":19,
-      "Evasion":46
+      "EnergyShieldBaseMax":92,
+      "EnergyShieldBaseMin":80
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":15,
-      "int":15,
-      "level":16
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
+    "req":{
+      "int":154,
+      "level":69
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
-      "dex_int_armour":true,
       "helmet":true,
-      "maraketh_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Horned Crown":{
-    "armour":{
-      "Armour":39,
-      "EnergyShield":16
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":10,
-      "level":10,
-      "str":10
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "str_int_armour":true
+      "int_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
   "Hunter Hood":{
     "armour":{
-      "Evasion":158
+      "EvasionBaseMax":227,
+      "EvasionBaseMin":203
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":48,
-      "level":33
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":87,
+      "level":41
+    },
+    "socketLimit":4,
     "subType":"Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "dex_armour":true,
-      "helmet":true,
-      "vaal_basetype":true
+      "helmet":true
     },
     "type":"Helmet"
   },
-  "Imperial Greathelm":{
+  "Imp Crown":{
     "armour":{
-      "Armour":374
+      "ArmourBaseMax":49,
+      "ArmourBaseMin":42,
+      "EnergyShieldBaseMax":12,
+      "EnergyShieldBaseMin":10
     },
-    "implicitModTypes":[],
-    "quality":20,
+    "implicit":"-1 to Level of Socketed Support Gems\n+1 to Level of Socketed Skill Gems",
+    "implicitModTypes":[[],[]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "level":80,
-      "str":115
+      "int":20,
+      "level":15,
+      "str":20
     },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Inquisitor Crown":{
-    "armour":{
-      "Armour":163,
-      "EnergyShield":46
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":46,
-      "level":59,
-      "str":46
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
+      "not_for_sale":true,
       "str_int_armour":true
     },
     "type":"Helmet"
   },
-  "Iron Crown":{
+  "Iron Circlet":{
     "armour":{
-      "Armour":26,
-      "EnergyShield":13
+      "EnergyShieldBaseMax":15,
+      "EnergyShieldBaseMin":12
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":7,
-      "level":5,
-      "str":7
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Jade Tiara":{
-    "armour":{
-      "EnergyShield":73
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":71,
-      "level":50
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Jungle Tiara":{
-    "armour":{
-      "EnergyShield":84
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":83,
-      "level":59
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Kamasan Tiara":{
-    "armour":{
-      "EnergyShield":103
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":107,
-      "level":75
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Lace Hood":{
-    "armour":{
-      "Evasion":84
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":25,
-      "level":16
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Lavish Crown":{
-    "armour":{
-      "Armour":146,
-      "EnergyShield":42
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":41,
-      "level":52,
-      "str":41
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Leatherbound Hood":{
-    "armour":{
-      "Evasion":231
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":71,
-      "level":50
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Magus Tiara":{
-    "armour":{
-      "EnergyShield":90
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Mailed Crown":{
-    "armour":{
-      "Armour":128,
-      "EnergyShield":37
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":36,
-      "level":45,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Martyr Crown":{
-    "armour":{
-      "Armour":85,
-      "EnergyShield":27
-    },
-    "implicitModTypes":[],
-    "quality":20,
     "req":{
       "int":23,
-      "level":28,
-      "str":23
+      "level":8
     },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Masked Greathelm":{
-    "armour":{
-      "Armour":341
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":70,
-      "str":99
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Mercenary Greathelm":{
-    "armour":{
-      "Armour":246
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":48,
-      "str":69
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Narrow Hood":{
-    "armour":{
-      "Evasion":235
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":73,
-      "level":51
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Noble Circlet":{
-    "armour":{
-      "EnergyShield":76
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":74,
-      "level":52
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
@@ -1605,17 +1339,26 @@
     },
     "type":"Helmet"
   },
-  "Noble Greathelm":{
+  "Iron Hat":{
     "armour":{
-      "Armour":297
+      "ArmourBaseMax":13,
+      "ArmourBaseMin":9
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":59,
-      "str":83
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "str":9
+    },
+    "socketLimit":4,
     "subType":"Armour",
     "tags":{
       "armour":true,
@@ -1625,19 +1368,30 @@
     },
     "type":"Helmet"
   },
-  "Oak Mask":{
+  "Iron Mask":{
     "armour":{
-      "EnergyShield":37,
-      "Evasion":115
+      "EnergyShieldBaseMax":14,
+      "EnergyShieldBaseMin":11,
+      "EvasionBaseMax":60,
+      "EvasionBaseMin":48
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "int":36,
-      "level":45
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":21,
+      "int":21,
+      "level":17
+    },
+    "socketLimit":4,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
@@ -1647,59 +1401,129 @@
     },
     "type":"Helmet"
   },
-  "Paragon Greathelm":{
+  "Jester Mask":{
     "armour":{
-      "Armour":357
+      "EnergyShieldBaseMax":62,
+      "EnergyShieldBaseMin":54,
+      "EvasionBaseMax":308,
+      "EvasionBaseMin":268
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "level":75,
-      "str":107
+      "dex":101,
+      "int":101,
+      "level":73
     },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Pariah Mask":{
-    "armour":{
-      "EnergyShield":43,
-      "Evasion":137
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":42,
-      "int":42,
-      "level":54
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "dex_int_armour":true,
-      "helmet":true
+      "helmet":true,
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Rotted Hood":{
+  "Knight Helm":{
     "armour":{
-      "Evasion":210
+      "ArmourBaseMax":308,
+      "ArmourBaseMin":268,
+      "EvasionBaseMax":308,
+      "EvasionBaseMin":268
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":64,
-      "level":45
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":101,
+      "level":73,
+      "str":101
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_dex_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Lacquered Helmet":{
+    "armour":{
+      "ArmourBaseMax":155,
+      "ArmourBaseMin":138,
+      "EvasionBaseMax":155,
+      "EvasionBaseMin":138
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":57,
+      "level":51,
+      "str":57
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_dex_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Leather Cap":{
+    "armour":{
+      "EvasionBaseMax":27,
+      "EvasionBaseMin":19
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":13
+    },
+    "socketLimit":4,
     "subType":"Evasion",
     "tags":{
       "armour":true,
@@ -1709,4093 +1533,1534 @@
     },
     "type":"Helmet"
   },
-  "Runeforged Ancestral Tiara":{
+  "Leather Hood":{
     "armour":{
-      "EnergyShield":47,
-      "Ward":240
+      "EvasionBaseMax":127,
+      "EvasionBaseMin":101
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":115,
-      "level":80
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Archon Crown":{
-    "armour":{
-      "Ward":282
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Armoured Cap":{
-    "armour":{
-      "Ward":282
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Avian Mask":{
-    "armour":{
-      "EnergyShield":39,
-      "Evasion":125,
-      "Ward":91
-    },
-    "implicitModTypes":[],
-    "quality":20,
     "req":{
       "dex":46,
-      "int":46,
-      "level":59
+      "level":20
     },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
+    "socketLimit":4,
+    "subType":"Evasion",
     "tags":{
       "armour":true,
       "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
+      "dex_armour":true,
+      "helmet":true
     },
     "type":"Helmet"
   },
-  "Runeforged Beaded Circlet":{
+  "Lich's Circlet":{
     "armour":{
-      "EnergyShield":35,
-      "Ward":35
+      "EnergyShieldBaseMax":134,
+      "EnergyShieldBaseMin":117
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":25,
-      "level":16
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "int":224,
+      "level":84
+    },
+    "socketLimit":4,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
       "int_armour":true,
-      "maraketh_basetype":true,
-      "runeforged":true
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Runeforged Brigand Mask":{
+  "Lion Pelt":{
     "armour":{
-      "EnergyShield":49,
-      "Evasion":160,
-      "Ward":42
+      "EvasionBaseMax":437,
+      "EvasionBaseMin":380
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":50,
-      "int":50,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Brimmed Helm":{
-    "armour":{
-      "Armour":26,
-      "Evasion":20,
-      "Ward":26
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":7,
-      "level":5,
-      "str":7
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Cabalist Helm":{
-    "armour":{
-      "Armour":121,
-      "Evasion":109,
-      "Ward":96
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":42,
-      "level":54,
-      "str":42
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Chain Tiara":{
-    "armour":{
-      "EnergyShield":47,
-      "Ward":48
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":38,
-      "level":26
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Champion Helm":{
-    "armour":{
-      "Armour":186,
-      "Evasion":169,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":59,
-      "level":75,
-      "str":59
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Closed Helm":{
-    "armour":{
-      "Armour":128,
-      "Evasion":115,
-      "Ward":52
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "level":45,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Commander Greathelm":{
-    "armour":{
-      "Armour":233,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":45,
-      "str":64
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Corsair Cap":{
-    "armour":{
-      "Evasion":210,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":64,
-      "level":45
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Covert Hood":{
-    "armour":{
-      "Ward":248
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":79,
-      "level":56
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Cowled Helm":{
-    "armour":{
-      "Armour":80,
-      "Evasion":70,
-      "Ward":41
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":22,
-      "level":26,
-      "str":22
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Cryptic Crown":{
-    "armour":{
-      "Armour":86,
-      "EnergyShield":24,
-      "Ward":254
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":63,
-      "level":80,
-      "str":63
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Cryptic Helm":{
-    "armour":{
-      "Armour":154,
-      "Evasion":140,
-      "Ward":85
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":70,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Cultist Crown":{
-    "armour":{
-      "Armour":54,
-      "EnergyShield":19,
-      "Ward":35
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":15,
-      "level":16,
-      "str":15
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Death Mask":{
-    "armour":{
-      "Ward":282
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "int":50,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Decorated Helm":{
-    "armour":{
-      "Ward":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":41,
-      "level":52,
-      "str":41
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Deerstalker Hood":{
-    "armour":{
-      "Evasion":227,
-      "Ward":91
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":83,
-      "level":59
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Desert Cap":{
-    "armour":{
-      "Evasion":243,
-      "Ward":99
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":99,
+      "dex":150,
       "level":70
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "dex_armour":true,
       "helmet":true,
-      "runeforged":true
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Runeforged Divine Crown":{
+  "Lunaris Circlet":{
     "armour":{
-      "Armour":186,
-      "EnergyShield":52,
-      "Ward":56
+      "EnergyShieldBaseMax":48,
+      "EnergyShieldBaseMin":41
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":59,
-      "level":75,
-      "str":59
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Druidic Crown":{
-    "armour":{
-      "Armour":168,
-      "EnergyShield":47,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Elegant Greathelm":{
-    "armour":{
-      "Armour":252,
-      "Ward":60
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":54,
-      "str":77
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Elite Greathelm":{
-    "armour":{
-      "Armour":177,
-      "Ward":49
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":33,
-      "str":48
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Face Mask":{
-    "armour":{
-      "EnergyShield":16,
-      "Evasion":32,
-      "Ward":30
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":10,
-      "int":10,
-      "level":10
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Faridun Mask":{
-    "armour":{
-      "EnergyShield":41,
-      "Evasion":133,
-      "Ward":99
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "int":54,
-      "level":70
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Feathered Tiara":{
-    "armour":{
-      "EnergyShield":54,
-      "Ward":49
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":48,
-      "level":33
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Felt Cap":{
-    "armour":{
-      "Evasion":58,
-      "Ward":27
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":17,
-      "level":10
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Fierce Greathelm":{
-    "armour":{
-      "Armour":260,
-      "Ward":57
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":51,
-      "str":73
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Freebooter Cap":{
-    "armour":{
-      "Evasion":154,
-      "Ward":240
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":115,
-      "level":80
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Gallant Helm":{
-    "armour":{
-      "Ward":282
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Gladiatorial Helm":{
-    "armour":{
-      "Armour":86,
-      "Evasion":78,
-      "Ward":254
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":63,
-      "level":80,
-      "str":63
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Gold Circlet":{
-    "armour":{
-      "EnergyShield":62,
-      "Ward":55
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":58,
-      "level":40
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Goliath Greathelm":{
-    "armour":{
-      "Ward":252
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":57,
-      "str":81
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Grand Visage":{
-    "armour":{
-      "Armour":113,
-      "EnergyShield":31,
-      "Evasion":103,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "int":36,
-      "level":65,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Grinning Mask":{
-    "armour":{
-      "EnergyShield":24,
-      "Evasion":78,
-      "Ward":254
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":63,
-      "int":63,
-      "level":80
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Guarded Helm":{
-    "armour":{
-      "Armour":42,
-      "Evasion":34,
-      "Ward":32
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":11,
-      "level":11,
-      "str":11
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Guardian Greathelm":{
-    "armour":{
-      "Ward":282
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":65,
-      "str":91
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Hallowed Crown":{
-    "armour":{
-      "Armour":127,
-      "EnergyShield":36,
-      "Ward":84
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":42,
-      "level":54,
-      "str":42
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Heavy Crown":{
-    "armour":{
-      "Armour":97,
-      "EnergyShield":30,
-      "Ward":44
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":27,
-      "level":33,
-      "str":27
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Hewn Mask":{
-    "armour":{
-      "EnergyShield":13,
-      "Evasion":20,
-      "Ward":26
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":7,
-      "int":7,
-      "level":5
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Hooded Mask":{
-    "armour":{
-      "EnergyShield":19,
-      "Evasion":46,
-      "Ward":35
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":15,
-      "int":15,
-      "level":16
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Horned Crown":{
-    "armour":{
-      "Armour":39,
-      "EnergyShield":16,
-      "Ward":30
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":10,
-      "level":10,
-      "str":10
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Hunter Hood":{
-    "armour":{
-      "Evasion":158,
-      "Ward":49
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":48,
-      "level":33
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Imperial Greathelm":{
-    "armour":{
-      "Armour":169,
-      "Ward":240
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":80,
-      "str":115
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Inquisitor Crown":{
-    "armour":{
-      "Armour":157,
-      "EnergyShield":44,
-      "Ward":52
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":46,
-      "level":59,
-      "str":46
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Iron Crown":{
-    "armour":{
-      "Armour":26,
-      "EnergyShield":13,
-      "Ward":26
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":7,
-      "level":5,
-      "str":7
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Jade Tiara":{
-    "armour":{
-      "EnergyShield":73,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":71,
-      "level":50
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Jungle Tiara":{
-    "armour":{
-      "EnergyShield":67,
-      "Ward":104
-    },
-    "implicitModTypes":[],
-    "quality":20,
     "req":{
       "int":83,
-      "level":59
+      "level":39
     },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "int_armour":true,
-      "runeforged":true
+      "int_armour":true
     },
     "type":"Helmet"
   },
-  "Runeforged Kamasan Tiara":{
+  "Magistrate Crown":{
     "armour":{
-      "EnergyShield":97,
-      "Ward":42
+      "ArmourBaseMax":189,
+      "ArmourBaseMin":160,
+      "EnergyShieldBaseMax":39,
+      "EnergyShieldBaseMin":33
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":107,
-      "level":75
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Lace Hood":{
-    "armour":{
-      "Evasion":90,
-      "Ward":72
-    },
-    "hidden":true,
-    "implicit":"(30-50)% increased Ignite Magnitude",
-    "implicitModTypes":[["elemental_damage","damage","elemental","fire","ailment"]],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Lavish Crown":{
-    "armour":{
-      "Ward":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":41,
-      "level":52,
-      "str":41
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Leatherbound Hood":{
-    "armour":{
-      "Evasion":231,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":71,
-      "level":50
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Magus Tiara":{
-    "armour":{
-      "Ward":282
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Martyr Crown":{
-    "armour":{
-      "Armour":85,
-      "EnergyShield":27,
-      "Ward":43
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":23,
-      "level":28,
-      "str":23
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Masked Greathelm":{
-    "armour":{
-      "Armour":279,
-      "Ward":85
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":70,
-      "str":99
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Noble Circlet":{
-    "armour":{
-      "Ward":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":74,
-      "level":52
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Noble Greathelm":{
-    "armour":{
-      "Armour":238,
-      "Ward":104
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":59,
-      "str":83
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Paragon Greathelm":{
-    "armour":{
-      "Armour":351,
-      "Ward":42
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":75,
-      "str":107
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Pariah Mask":{
-    "armour":{
-      "EnergyShield":39,
-      "Evasion":126,
-      "Ward":60
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":42,
-      "int":42,
-      "level":54
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Rusted Greathelm":{
-    "armour":{
-      "Armour":29,
-      "Ward":19
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Saintly Crown":{
-    "armour":{
-      "Armour":139,
-      "EnergyShield":39,
-      "Ward":113
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":54,
-      "level":70,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Sandsworn Tiara":{
-    "armour":{
-      "EnergyShield":75,
-      "Ward":48
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":77,
-      "level":54
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Sentinel Greathelm":{
-    "armour":{
-      "Ward":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":52,
-      "str":74
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Shabby Hood":{
-    "armour":{
-      "Evasion":19,
-      "Ward":19
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Shaded Mask":{
-    "armour":{
-      "Ward":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":41,
-      "int":41,
-      "level":52
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Shielded Helm":{
-    "armour":{
-      "Armour":97,
-      "Evasion":87,
-      "Ward":44
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":27,
-      "level":33,
-      "str":27
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Skycrown Tiara":{
-    "armour":{
-      "EnergyShield":85,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Soaring Mask":{
-    "armour":{
-      "EnergyShield":52,
-      "Evasion":169,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":59,
-      "int":59,
-      "level":75
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Soldier Greathelm":{
-    "armour":{
-      "Armour":80,
-      "Ward":29
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":12,
-      "str":19
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Solid Mask":{
-    "armour":{
-      "EnergyShield":37,
-      "Evasion":115,
-      "Ward":52
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "int":36,
-      "level":45
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Sorcerous Tiara":{
-    "armour":{
-      "EnergyShield":70,
-      "Ward":113
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":99,
-      "level":70
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Spired Greathelm":{
-    "armour":{
-      "Armour":149,
-      "Ward":49
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":27,
-      "str":40
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Spiritbone Crown":{
-    "armour":{
-      "Armour":128,
-      "EnergyShield":37,
-      "Ward":52
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":36,
-      "level":45,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Swathed Cap":{
-    "armour":{
-      "Evasion":127,
-      "Ward":48
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":38,
-      "level":26
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Trapper Hood":{
-    "armour":{
-      "Evasion":320,
-      "Ward":42
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":107,
-      "level":75
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Tribal Mask":{
-    "armour":{
-      "EnergyShield":30,
-      "Evasion":87,
-      "Ward":44
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":27,
-      "int":27,
-      "level":33
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Twig Circlet":{
-    "armour":{
-      "EnergyShield":19,
-      "Ward":19
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Twilight Tiara":{
-    "armour":{
-      "Ward":256
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":82,
-      "level":58
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Veiled Mask":{
-    "armour":{
-      "EnergyShield":27,
-      "Evasion":75,
-      "Ward":43
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":23,
-      "int":23,
-      "level":28
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Velvet Cap":{
-    "armour":{
-      "Ward":233
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":74,
-      "level":52
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Vermeil Circlet":{
-    "armour":{
-      "EnergyShield":68,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
     "req":{
       "int":64,
-      "level":45
+      "level":58,
+      "str":64
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true,
-      "runeforged":true
+      "str_int_armour":true
     },
     "type":"Helmet"
   },
-  "Runeforged Viper Cap":{
+  "Majestic Pelt":{
     "armour":{
-      "Evasion":179,
-      "Ward":52
+      "EvasionBaseMax":669,
+      "EvasionBaseMin":582
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":38
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":224,
+      "level":84
+    },
+    "socketLimit":4,
     "subType":"Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "dex_armour":true,
       "helmet":true,
-      "runeforged":true,
-      "vaal_basetype":true
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Runeforged Visored Helm":{
+  "Mind Cage":{
     "armour":{
-      "Armour":54,
-      "Evasion":46,
-      "Ward":35
+      "EnergyShieldBaseMax":84,
+      "EnergyShieldBaseMin":73
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":15,
-      "level":16,
-      "str":15
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Warded Helm":{
-    "armour":{
-      "Armour":172,
-      "Evasion":156,
-      "Ward":48
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Warmonger Greathelm":{
-    "armour":{
-      "Armour":305,
-      "Ward":56
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":65,
-      "str":91
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Warrior Greathelm":{
-    "armour":{
-      "Armour":191,
-      "Ward":50
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":36,
-      "str":52
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Wicker Tiara":{
-    "armour":{
-      "EnergyShield":29,
-      "Ward":27
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":17,
-      "level":10
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Woven Cap":{
-    "armour":{
-      "Evasion":290,
-      "Ward":42
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":91,
+      "int":138,
       "level":65
     },
-    "socketLimit":3,
-    "subType":"Evasion",
+    "socketLimit":4,
+    "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
-      "dex_armour":true,
       "helmet":true,
-      "runeforged":true
+      "int_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Runeforged Wrapped Cap":{
+  "Moonlit Circlet":{
     "armour":{
-      "Evasion":219,
-      "Ward":72
+      "EnergyShieldBaseMax":100,
+      "EnergyShieldBaseMin":87
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":77,
+      "int":170,
+      "level":73
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true,
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Necromancer Circlet":{
+    "armour":{
+      "EnergyShieldBaseMax":64,
+      "EnergyShieldBaseMin":55
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":112,
       "level":54
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runeforged Wrapped Greathelm":{
-    "armour":{
-      "Armour":99,
-      "Ward":35
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":16,
-      "str":25
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Ancient Visor":{
-    "armour":{
-      "Armour":168,
-      "Evasion":153,
-      "Ward":59
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":59,
-      "level":65,
-      "str":59
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Armoured Cap":{
-    "armour":{
-      "Evasion":178,
-      "Ward":113
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Beaded Circlet":{
-    "armour":{
-      "EnergyShield":24,
-      "Ward":72
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":54,
-      "level":38
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "int_armour":true,
-      "maraketh_basetype":true,
-      "runeforged":true
+      "int_armour":true
     },
     "type":"Helmet"
   },
-  "Runemastered Brimmed Helm":{
+  "Nightmare Bascinet":{
     "armour":{
-      "Armour":44,
-      "Evasion":39,
-      "Ward":109
+      "ArmourBaseMax":187,
+      "ArmourBaseMin":162,
+      "EvasionBaseMax":268,
+      "EvasionBaseMin":233
     },
-    "hidden":true,
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "level":38,
-      "str":31
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
+    "req":{
+      "dex":85,
+      "level":67,
+      "str":62
+    },
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
-      "ezomyte_basetype":true,
       "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
+      "str_dex_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Runemastered Chain Tiara":{
+  "Noble Tricorne":{
     "armour":{
-      "EnergyShield":62
+      "EvasionBaseMax":266,
+      "EvasionBaseMin":232
     },
-    "hidden":true,
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "int":58,
-      "level":40
+      "dex":99,
+      "level":47
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Corsair Cap":{
-    "armour":{
-      "Evasion":202,
-      "Ward":37
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":78,
-      "level":55
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
+      "helmet":true
     },
     "type":"Helmet"
   },
-  "Runemastered Covert Hood":{
+  "Paladin Crown":{
     "armour":{
-      "Evasion":129,
-      "Ward":124
+      "ArmourBaseMax":355,
+      "ArmourBaseMin":308,
+      "EnergyShieldBaseMax":71,
+      "EnergyShieldBaseMin":62
     },
-    "hidden":true,
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":116,
+      "level":78,
+      "str":116
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_int_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Penitent Mask":{
+    "armour":{
+      "ArmourBaseMax":212,
+      "ArmourBaseMin":185,
+      "EvasionBaseMax":212,
+      "EvasionBaseMin":185
+    },
+    "implicit":"+4% to maximum Chaos Resistance\n-15% additional Physical Damage Reduction\nYou are Crushed",
+    "implicitModTypes":[[],[],[]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
       "dex":79,
-      "level":56
+      "level":75,
+      "str":79
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Cowled Helm":{
-    "armour":{
-      "Armour":104,
-      "Evasion":93,
-      "Ward":19
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":32,
-      "level":40,
-      "str":32
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
+      "not_for_sale":true,
       "str_dex_armour":true
     },
     "type":"Helmet"
   },
-  "Runemastered Cultist Crown":{
+  "Pig-Faced Bascinet":{
     "armour":{
-      "Armour":165,
-      "EnergyShield":50,
-      "Ward":49
+      "ArmourBaseMax":263,
+      "ArmourBaseMin":229,
+      "EvasionBaseMax":183,
+      "EvasionBaseMin":159
     },
-    "hidden":true,
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "int":31,
-      "level":38,
-      "str":31
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Death Mask":{
-    "armour":{
-      "EnergyShield":40,
-      "Evasion":130,
-      "Ward":70
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "int":50,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Decorated Helm":{
-    "armour":{
-      "Armour":161,
-      "Evasion":146,
-      "Ward":70
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Elite Greathelm":{
-    "armour":{
-      "Armour":209,
-      "Ward":61
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":55,
-      "str":78
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Face Mask":{
-    "armour":{
-      "EnergyShield":40,
-      "Evasion":118,
-      "Ward":18
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "int":31,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Feathered Tiara":{
-    "armour":{
-      "EnergyShield":32,
-      "Ward":98
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":78,
-      "level":55
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Felt Cap":{
-    "armour":{
-      "Evasion":134,
-      "Ward":54
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Fierce Greathelm":{
-    "armour":{
-      "Armour":334,
-      "Ward":24
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":55,
-      "str":78
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Gold Circlet":{
-    "armour":{
-      "EnergyShield":16,
-      "Ward":196
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":78,
-      "level":55
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Grand Visage":{
-    "armour":{
-      "Armour":77,
-      "EnergyShield":22,
-      "Evasion":71,
-      "Ward":99
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "int":36,
-      "level":65,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Guarded Helm":{
-    "armour":{
-      "Armour":275,
-      "Evasion":247,
-      "Ward":36
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "level":38,
-      "str":31
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Heavy Crown":{
-    "armour":{
-      "Armour":77,
-      "EnergyShield":22,
-      "Ward":122
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":43,
-      "level":55,
-      "str":43
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Hewn Mask":{
-    "armour":{
-      "EnergyShield":10,
-      "Evasion":30,
-      "Ward":54
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "int":31,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Hooded Mask":{
-    "armour":{
-      "EnergyShield":23,
-      "Evasion":69,
-      "Ward":54
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "int":31,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Horned Crown":{
-    "armour":{
-      "Armour":83,
-      "EnergyShield":25,
-      "Ward":54
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":31,
-      "level":38,
-      "str":31
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Hunter Hood":{
-    "armour":{
-      "Evasion":73,
-      "Ward":75
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":58,
-      "level":40
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Iron Crown":{
-    "armour":{
-      "Armour":72,
-      "EnergyShield":21,
-      "Ward":72
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":31,
-      "level":38,
-      "str":31
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Jade Tiara":{
-    "armour":{
-      "EnergyShield":45,
-      "Ward":141
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Leatherbound Hood":{
-    "armour":{
-      "Evasion":266,
-      "Ward":28
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Magus Tiara":{
-    "armour":{
-      "EnergyShield":68,
-      "Ward":70
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Martyr Crown":{
-    "armour":{
-      "Armour":66,
-      "EnergyShield":20,
-      "Ward":81
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":32,
-      "level":40,
-      "str":32
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Rusted Greathelm":{
-    "armour":{
-      "Armour":360,
-      "Ward":36
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":38,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Shabby Hood":{
-    "armour":{
-      "Ward":201
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Shielded Helm":{
-    "armour":{
-      "Armour":107,
-      "Evasion":97,
-      "Ward":122
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":43,
-      "level":55,
-      "str":43
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_dex_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Soldier Greathelm":{
-    "armour":{
-      "Armour":140,
-      "Ward":54
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":38,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Solid Mask":{
-    "armour":{
-      "EnergyShield":39,
-      "Evasion":125,
-      "Ward":37
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":43,
-      "int":43,
-      "level":55
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Spired Greathelm":{
-    "armour":{
-      "Armour":115,
-      "Ward":85
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":40,
-      "str":58
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Spiritbone Crown":{
-    "armour":{
-      "Armour":116,
-      "EnergyShield":32,
-      "Ward":113
-    },
-    "hidden":true,
-    "implicit":"Every 5 seconds, gain a Verisium Infusion",
-    "implicitModTypes":[[]],
-    "quality":20,
-    "req":{
-      "int":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Tenebrous Crown":{
-    "armour":{
-      "Armour":143,
-      "EnergyShield":40,
-      "Ward":56
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":59,
-      "level":65,
-      "str":59
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Tribal Mask":{
-    "armour":{
-      "EnergyShield":33,
-      "Evasion":105,
-      "Ward":47
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":41,
-      "int":41,
-      "level":52
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Twig Circlet":{
-    "armour":{
-      "EnergyShield":48,
-      "Ward":36
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":54,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Twilight Tiara":{
-    "armour":{
-      "EnergyShield":72,
-      "Ward":56
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Veiled Mask":{
-    "armour":{
-      "EnergyShield":26,
-      "Evasion":78,
-      "Ward":57
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":32,
-      "int":32,
-      "level":40
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Velvet Cap":{
-    "armour":{
-      "Evasion":222,
-      "Ward":70
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Vermeil Circlet":{
-    "armour":{
-      "EnergyShield":67,
-      "Ward":37
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":78,
-      "level":55
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Viper Cap":{
-    "armour":{
-      "Evasion":139,
-      "Ward":110
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":78,
-      "level":55
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "runeforged":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Visored Helm":{
-    "armour":{
-      "Armour":77,
-      "Evasion":69,
-      "Ward":54
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":31,
-      "level":38,
-      "str":31
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Warrior Greathelm":{
-    "armour":{
-      "Armour":111,
-      "Ward":147
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":55,
-      "str":78
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "runeforged":true,
-      "str_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Wicker Tiara":{
-    "armour":{
-      "EnergyShield":45,
-      "Ward":45
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":54,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "int_armour":true,
-      "runeforged":true
-    },
-    "type":"Helmet"
-  },
-  "Runemastered Wrapped Greathelm":{
-    "armour":{
-      "Armour":170,
-      "Ward":27
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":38,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "runeforged":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Rusted Greathelm":{
-    "armour":{
-      "Armour":29
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Saintly Crown":{
-    "armour":{
-      "Armour":188,
-      "EnergyShield":52
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":54,
-      "level":70,
-      "str":54
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Sandsworn Tiara":{
-    "armour":{
-      "EnergyShield":78
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":77,
-      "level":54
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Sentinel Greathelm":{
-    "armour":{
-      "Armour":265
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":52,
-      "str":74
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Shabby Hood":{
-    "armour":{
-      "Evasion":19
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "ezomyte_basetype":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Shaded Mask":{
-    "armour":{
-      "EnergyShield":42,
-      "Evasion":132
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":41,
-      "int":41,
-      "level":52
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Shielded Helm":{
-    "armour":{
-      "Armour":97,
-      "Evasion":87
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":27,
-      "level":33,
-      "str":27
-    },
-    "socketLimit":3,
+      "dex":62,
+      "level":63,
+      "str":85
+    },
+    "socketLimit":4,
     "subType":"Armour/Evasion",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
       "str_dex_armour":true,
-      "vaal_basetype":true
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Skulking Mask":{
+  "Plague Mask":{
     "armour":{
-      "EnergyShield":41,
-      "Evasion":129
+      "EnergyShieldBaseMax":10,
+      "EnergyShieldBaseMin":7,
+      "EvasionBaseMax":38,
+      "EvasionBaseMin":29
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":40,
-      "int":40,
-      "level":51
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Skycrown Tiara":{
-    "armour":{
-      "EnergyShield":90
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":91,
-      "level":65
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Soaring Mask":{
-    "armour":{
-      "EnergyShield":55,
-      "Evasion":179
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":59,
-      "int":59,
-      "level":75
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Soldier Greathelm":{
-    "armour":{
-      "Armour":80
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":12,
-      "str":19
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Soldier Helm":{
-    "armour":{
-      "Armour":143,
-      "Evasion":129
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":40,
-      "level":51,
-      "str":40
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Solid Mask":{
-    "armour":{
-      "EnergyShield":37,
-      "Evasion":115
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":36,
-      "int":36,
-      "level":45
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Sorcerous Tiara":{
-    "armour":{
-      "EnergyShield":97
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":99,
-      "level":70
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Spired Greathelm":{
-    "armour":{
-      "Armour":149
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":27,
-      "str":40
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Spiritbone Crown":{
-    "armour":{
-      "Armour":128,
-      "EnergyShield":37
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":36,
-      "level":45,
-      "str":36
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "karui_basetype":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Swathed Cap":{
-    "armour":{
-      "Evasion":127
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":38,
-      "level":26
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Tenebrous Crown":{
-    "armour":{
-      "Armour":179,
-      "EnergyShield":50
-    },
-    "hidden":true,
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":59,
-      "level":65,
-      "str":59
-    },
-    "socketLimit":3,
-    "subType":"Armour/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Trapper Hood":{
-    "armour":{
-      "Evasion":326
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":107,
-      "level":75
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Tribal Mask":{
-    "armour":{
-      "EnergyShield":30,
-      "Evasion":87
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":27,
-      "int":27,
-      "level":33
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Twig Circlet":{
-    "armour":{
-      "EnergyShield":19
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":[],
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "ezomyte_basetype":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Twilight Tiara":{
-    "armour":{
-      "EnergyShield":82
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":82,
-      "level":58
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Veiled Mask":{
-    "armour":{
-      "EnergyShield":27,
-      "Evasion":75
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":23,
-      "int":23,
-      "level":28
-    },
-    "socketLimit":3,
-    "subType":"Evasion/Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_int_armour":true,
-      "helmet":true,
-      "maraketh_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Velvet Cap":{
-    "armour":{
-      "Evasion":240
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":74,
-      "level":52
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Vermeil Circlet":{
-    "armour":{
-      "EnergyShield":68
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":64,
-      "level":45
-    },
-    "socketLimit":3,
-    "subType":"Energy Shield",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "int_armour":true,
-      "karui_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Viper Cap":{
-    "armour":{
-      "Evasion":179
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":54,
-      "level":38
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Visored Helm":{
-    "armour":{
-      "Armour":54,
-      "Evasion":46
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":15,
-      "level":16,
-      "str":15
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "maraketh_basetype":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Warded Helm":{
-    "armour":{
-      "Armour":179,
-      "Evasion":163
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":50,
-      "level":65,
-      "str":50
-    },
-    "socketLimit":3,
-    "subType":"Armour/Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_dex_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Warmonger Greathelm":{
-    "armour":{
-      "Armour":325
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":65,
-      "str":91
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true
-    },
-    "type":"Helmet"
-  },
-  "Warrior Greathelm":{
-    "armour":{
-      "Armour":191
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":36,
-      "str":52
-    },
-    "socketLimit":3,
-    "subType":"Armour",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "helmet":true,
-      "str_armour":true,
-      "vaal_basetype":true
-    },
-    "type":"Helmet"
-  },
-  "Wicker Tiara":{
-    "armour":{
-      "EnergyShield":29
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "int":17,
+      "dex":14,
+      "int":14,
       "level":10
     },
-    "socketLimit":3,
-    "subType":"Energy Shield",
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
-      "ezomyte_basetype":true,
+      "dex_int_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Praetor Crown":{
+    "armour":{
+      "ArmourBaseMax":185,
+      "ArmourBaseMin":161,
+      "EnergyShieldBaseMax":58,
+      "EnergyShieldBaseMin":51
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":91,
+      "level":68,
+      "str":62
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
       "helmet":true,
-      "int_armour":true
+      "str_int_armour":true,
+      "top_tier_base_item_type":true
     },
     "type":"Helmet"
   },
-  "Wool Cap":{
+  "Prophet Crown":{
     "armour":{
-      "Evasion":222
+      "ArmourBaseMax":258,
+      "ArmourBaseMin":224,
+      "EnergyShieldBaseMax":37,
+      "EnergyShieldBaseMin":32
     },
     "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":69,
-      "level":48
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
     },
-    "socketLimit":3,
-    "subType":"Evasion",
+    "req":{
+      "int":62,
+      "level":63,
+      "str":85
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
       "default":true,
-      "dex_armour":true,
+      "helmet":true,
+      "str_int_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Raven Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":25,
+      "EnergyShieldBaseMin":22,
+      "EvasionBaseMax":119,
+      "EvasionBaseMin":104
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":44,
+      "int":44,
+      "level":38
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
       "helmet":true
     },
     "type":"Helmet"
   },
-  "Woven Cap":{
+  "Reaver Helmet":{
     "armour":{
-      "Evasion":296
+      "ArmourBaseMax":233,
+      "ArmourBaseMin":198
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
-      "dex":91,
-      "level":65
+      "level":40,
+      "str":85
     },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Wrapped Cap":{
-    "armour":{
-      "Evasion":248
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "dex":77,
-      "level":54
-    },
-    "socketLimit":3,
-    "subType":"Evasion",
-    "tags":{
-      "armour":true,
-      "default":true,
-      "dex_armour":true,
-      "helmet":true
-    },
-    "type":"Helmet"
-  },
-  "Wrapped Greathelm":{
-    "armour":{
-      "Armour":99
-    },
-    "implicitModTypes":[],
-    "quality":20,
-    "req":{
-      "level":16,
-      "str":25
-    },
-    "socketLimit":3,
+    "socketLimit":4,
     "subType":"Armour",
     "tags":{
       "armour":true,
       "default":true,
       "helmet":true,
-      "maraketh_basetype":true,
       "str_armour":true
     },
     "type":"Helmet"
   },
-  "Zealot Crown":{
+  "Regicide Mask":{
     "armour":{
-      "Armour":143,
-      "EnergyShield":41
+      "EnergyShieldBaseMax":32,
+      "EnergyShieldBaseMin":29,
+      "EvasionBaseMax":158,
+      "EvasionBaseMin":141
     },
     "implicitModTypes":[],
-    "quality":20,
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":58,
+      "int":58,
+      "level":52
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Royal Burgonet":{
+    "armour":{
+      "ArmourBaseMax":434,
+      "ArmourBaseMin":377
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":65,
+      "str":148
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Runic Crest":{
+    "armour":{
+      "WardBaseMax":112,
+      "WardBaseMin":97
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":55,
+      "int":55,
+      "level":49,
+      "str":55
+    },
+    "socketLimit":4,
+    "subType":"Ward",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "ward_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Runic Crown":{
+    "armour":{
+      "WardBaseMax":189,
+      "WardBaseMin":164
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":66,
+      "int":66,
+      "level":68,
+      "str":66
+    },
+    "socketLimit":4,
+    "subType":"Ward",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "ward_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Runic Helm":{
+    "armour":{
+      "WardBaseMax":47,
+      "WardBaseMin":41
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":30,
+      "int":30,
+      "level":25,
+      "str":30
+    },
+    "socketLimit":4,
+    "subType":"Ward",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "ward_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Rusted Coif":{
+    "armour":{
+      "ArmourBaseMax":22,
+      "ArmourBaseMin":16,
+      "EnergyShieldBaseMax":7,
+      "EnergyShieldBaseMin":5
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":9,
+      "level":5,
+      "str":9
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Sallet":{
+    "armour":{
+      "ArmourBaseMax":48,
+      "ArmourBaseMin":37,
+      "EvasionBaseMax":48,
+      "EvasionBaseMin":37
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":18,
+      "level":13,
+      "str":18
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_dex_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Samnite Helmet":{
+    "armour":{
+      "ArmourBaseMax":325,
+      "ArmourBaseMin":276
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":55,
+      "str":114
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Scare Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":6,
+      "EnergyShieldBaseMin":4,
+      "EvasionBaseMax":18,
+      "EvasionBaseMin":13
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":8,
+      "int":8
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Secutor Helm":{
+    "armour":{
+      "ArmourBaseMax":116,
+      "ArmourBaseMin":98,
+      "EvasionBaseMax":116,
+      "EvasionBaseMin":98
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":42,
+      "level":36,
+      "str":42
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_dex_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Siege Helmet":{
+    "armour":{
+      "ArmourBaseMax":272,
+      "ArmourBaseMin":237
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "level":48,
+      "str":101
+    },
+    "socketLimit":4,
+    "subType":"Armour",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Silken Hood":{
+    "armour":{
+      "EvasionBaseMax":381,
+      "EvasionBaseMin":346
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":138,
+      "level":60
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Sinner Tricorne":{
+    "armour":{
+      "EvasionBaseMax":425,
+      "EvasionBaseMin":369
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":138,
+      "level":64
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Solaris Circlet":{
+    "armour":{
+      "EnergyShieldBaseMax":68,
+      "EnergyShieldBaseMin":60
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":122,
+      "level":59
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Soldier Helmet":{
+    "armour":{
+      "ArmourBaseMax":45,
+      "ArmourBaseMin":34,
+      "EnergyShieldBaseMax":11,
+      "EnergyShieldBaseMin":8
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":16,
+      "level":12,
+      "str":16
+    },
+    "socketLimit":4,
+    "subType":"Armour/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Sorrow Mask":{
+    "armour":{
+      "ArmourBaseMax":49,
+      "ArmourBaseMin":42,
+      "EvasionBaseMax":49,
+      "EvasionBaseMin":42
+    },
+    "implicit":"+2% to maximum Chaos Resistance\n-15% additional Physical Damage Reduction\nYou are Crushed",
+    "implicitModTypes":[[],[],[]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":20,
+      "level":15,
+      "str":20
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "str_dex_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Steel Circlet":{
+    "armour":{
+      "EnergyShieldBaseMax":55,
+      "EnergyShieldBaseMin":49
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":101,
+      "level":48
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Sunfire Circlet":{
+    "armour":{
+      "EnergyShieldBaseMax":116,
+      "EnergyShieldBaseMin":101
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":194,
+      "level":78
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true,
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Torture Cage":{
+    "armour":{
+      "EnergyShieldBaseMax":25,
+      "EnergyShieldBaseMin":20
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
     "req":{
       "int":40,
-      "level":51,
-      "str":40
+      "level":17
     },
-    "socketLimit":3,
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Torturer's Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":82,
+      "EnergyShieldBaseMin":71,
+      "EvasionBaseMax":409,
+      "EvasionBaseMin":355
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":132,
+      "int":132,
+      "level":84
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true,
+      "not_for_sale":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Tribal Circlet":{
+    "armour":{
+      "EnergyShieldBaseMax":33,
+      "EnergyShieldBaseMin":28
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":58,
+      "level":26
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Tricorne":{
+    "armour":{
+      "EvasionBaseMax":69,
+      "EvasionBaseMin":53
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":27,
+      "level":10
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Ursine Pelt":{
+    "armour":{
+      "EvasionBaseMax":325,
+      "EvasionBaseMin":276
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":114,
+      "level":55
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Vaal Mask":{
+    "armour":{
+      "EnergyShieldBaseMax":43,
+      "EnergyShieldBaseMin":37,
+      "EvasionBaseMax":239,
+      "EvasionBaseMin":207
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":79,
+      "int":72,
+      "level":62
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true,
+      "top_tier_base_item_type":true
+    },
+    "type":"Helmet"
+  },
+  "Vine Circlet":{
+    "armour":{
+      "EnergyShieldBaseMax":10,
+      "EnergyShieldBaseMin":7
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":13
+    },
+    "socketLimit":4,
+    "subType":"Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "int_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Visored Sallet":{
+    "armour":{
+      "ArmourBaseMax":80,
+      "ArmourBaseMin":64,
+      "EvasionBaseMax":80,
+      "EvasionBaseMin":64
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":28,
+      "level":23,
+      "str":28
+    },
+    "socketLimit":4,
+    "subType":"Armour/Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "helmet":true,
+      "str_dex_armour":true
+    },
+    "type":"Helmet"
+  },
+  "Winter Crown":{
+    "armour":{
+      "EnergyShieldBaseMax":29,
+      "EnergyShieldBaseMin":25,
+      "EvasionBaseMax":140,
+      "EvasionBaseMin":122
+    },
+    "implicit":"Adds (15-20) to (28-35) Cold Damage\nYour Hits treat Cold Resistance as 10% higher than actual value",
+    "implicitModTypes":[["elemental_damage","damage","elemental","cold"],["elemental_damage","damage","elemental","cold"]],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":51,
+      "int":51,
+      "level":45
+    },
+    "socketLimit":4,
+    "subType":"Evasion/Energy Shield",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_int_armour":true,
+      "helmet":true,
+      "not_for_sale":true
+    },
+    "type":"Helmet"
+  },
+  "Wolf Pelt":{
+    "armour":{
+      "EvasionBaseMax":172,
+      "EvasionBaseMin":150
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "dex":66,
+      "level":30
+    },
+    "socketLimit":4,
+    "subType":"Evasion",
+    "tags":{
+      "armour":true,
+      "default":true,
+      "dex_armour":true,
+      "helmet":true
+    },
+    "type":"Helmet"
+  },
+  "Zealot Helmet":{
+    "armour":{
+      "ArmourBaseMax":137,
+      "ArmourBaseMin":119,
+      "EnergyShieldBaseMax":29,
+      "EnergyShieldBaseMin":25
+    },
+    "implicitModTypes":[],
+    "influenceTags":{
+      "adjudicator":"helmet_adjudicator",
+      "basilisk":"helmet_basilisk",
+      "cleansing":"helmet_cleansing",
+      "crusader":"helmet_crusader",
+      "elder":"helmet_elder",
+      "eyrie":"helmet_eyrie",
+      "shaper":"helmet_shaper",
+      "tangle":"helmet_tangle"
+    },
+    "req":{
+      "int":50,
+      "level":44,
+      "str":50
+    },
+    "socketLimit":4,
     "subType":"Armour/Energy Shield",
     "tags":{
       "armour":true,
