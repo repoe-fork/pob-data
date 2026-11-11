@@ -17,59 +17,97 @@ jobs:
 
     steps:
       - run: yum install -y git tree
+
       - name: checkout
         uses: actions/checkout@v4.2.2
         with:
           path: RePoE
+
       - name: checkout pob
         uses: actions/checkout@v4.2.2
         with:
           repository: PathOfBuildingCommunity/PathOfBuilding
           path: PathOfBuilding
+
       - name: checkout pob2
         uses: actions/checkout@v4.2.2
         with:
           repository: PathOfBuildingCommunity/PathOfBuilding-PoE2
           path: PathOfBuilding2
+
+      - name: get latest matching tags
+        id: pob_versions
+        shell: bash
+        run: |
+          set -e
+
+          get_latest_tag() {
+            local repo_path="$1"
+            local tag
+
+            git -C "$repo_path" fetch --tags --force
+
+            tag=$(git -C "$repo_path" tag --list \
+              | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' \
+              | sort -V \
+              | tail -n 1)
+
+            if [[ -z "$tag" ]]; then
+              echo "No version tag matching vX.Y.Z found in $repo_path" >&2
+              exit 1
+            fi
+
+            git -C "$repo_path" checkout "$tag"
+            echo "$tag"
+          }
+
+          poe1_tag="$(get_latest_tag PathOfBuilding)"
+          poe2_tag="$(get_latest_tag PathOfBuilding2)"
+
+          echo "poe1=${poe1_tag#v}" >> "$GITHUB_OUTPUT"
+          echo "poe2=${poe2_tag#v}" >> "$GITHUB_OUTPUT"
+
       - name: install json
         run: luarocks install dkjson
+
       - name: create poe1 dirs
-        run: find PathOfBuilding/src/Data/ -type d | sed 's|PathOfBuilding/src/Data|RePoE/pob-data/poe1/|g' | while read DIR; do mkdir -p $DIR; done
+        run: find PathOfBuilding/src/Data/ -type d | sed 's|PathOfBuilding/src/Data|RePoE/pob-data/poe1/|g' | while read DIR; do mkdir -p "$DIR"; done
+
       - name: run poe1 lua
         run: find PathOfBuilding/src/Data/ -name '*.lua' -exec luajit RePoE/lua/Generate.lua '{}' RePoE/pob-data/poe1/ \;
+
       - name: create poe2 dirs
-        run: find PathOfBuilding2/src/Data/ -type d | sed 's|PathOfBuilding2/src/Data|RePoE/pob-data/poe2/|g' | while read DIR; do mkdir -p $DIR; done
+        run: find PathOfBuilding2/src/Data/ -type d | sed 's|PathOfBuilding2/src/Data|RePoE/pob-data/poe2/|g' | while read DIR; do mkdir -p "$DIR"; done
+
       - name: run poe2 lua
         run: find PathOfBuilding2/src/Data/ -name '*.lua' -exec luajit RePoE/lua/Generate.lua '{}' RePoE/pob-data/poe2/ \;
+
       - name: commit changes
         id: autocommit
         uses: stefanzweifel/git-auto-commit-action@v5.2.0
         with:
           repository: RePoE
-      - name: generate index.html
-        run: find pob-data -type d -print -exec tree {} -H '.' -L 1 -F -T "PoB data export" -I 'index.html' --dirsfirst --noreport --charset utf-8 -o {}/index.html \;
+
+      - name: generate poe1 index
         working-directory: RePoE
+        shell: bash
+        run: |
+          find pob-data/poe1 -type d -print -exec \
+            tree {} -H '.' -L 1 -F \
+            -T "PoB data export - Path of Building v${{ steps.pob_versions.outputs.poe1 }}" \
+            -I 'index.html' --dirsfirst --noreport --charset utf-8 -o {}/index.html \;
+
+      - name: generate poe2 index
+        working-directory: RePoE
+        shell: bash
+        run: |
+          find pob-data/poe2 -type d -print -exec \
+            tree {} -H '.' -L 1 -F \
+            -T "PoB data export - Path of Building PoE 2 v${{ steps.pob_versions.outputs.poe2 }}" \
+            -I 'index.html' --dirsfirst --noreport --charset utf-8 -o {}/index.html \;
+
       - name: upload gh-pages artifact
         if: github.event_name != 'schedule' || steps.autocommit.outputs.changes_detected == 'true'
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: RePoE/pob-data/
-
-  deploy:
-    runs-on: ubuntu-latest
-
-    needs: build
-    if: github.event_name != 'schedule' || needs.build.outputs.changes_detected == 'true'
-
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: deploy gh-pages
-        id: deployment
-        uses: actions/deploy-pages@v4.0.5
