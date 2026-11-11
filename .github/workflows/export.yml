@@ -108,6 +108,10 @@ jobs:
 
       - name: upload gh-pages artifact
         if: github.event_name != 'schedule' || steps.autocommit.outputs.changes_detected == 'true'
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: RePoE/pob-data/
+      - name: deploy gh-pages artifact
+        if: github.event_name != 'schedule' || steps.autocommit.outputs.changes_detected == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
