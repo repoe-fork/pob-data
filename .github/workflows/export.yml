@@ -47,11 +47,12 @@ jobs:
 
           get_latest_tag() {
             local repo_path="$1"
+            local base_commit="$2"
             local tag
 
             git -C "$repo_path" fetch --tags --force
 
-            tag=$(git -C "$repo_path" tag --list \
+            tag=$(git -C "$repo_path" tag --list --contains "$base_commit" \
               | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' \
               | sort -V \
               | tail -n 1)
@@ -65,8 +66,8 @@ jobs:
             echo "$tag"
           }
 
-          poe1_tag="$(get_latest_tag PathOfBuilding)"
-          poe2_tag="$(get_latest_tag PathOfBuilding2)"
+          poe1_tag="$(get_latest_tag PathOfBuilding 46f9810)"
+          poe2_tag="$(get_latest_tag PathOfBuilding2 fb1a829)"
 
           echo "poe1=${poe1_tag#v}" >> "$GITHUB_OUTPUT"
           echo "poe2=${poe2_tag#v}" >> "$GITHUB_OUTPUT"
