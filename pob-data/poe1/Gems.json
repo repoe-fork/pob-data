@@ -299,6 +299,27 @@
     },
     "variantId":"ArcaneCloak"
   },
+  "Metadata/Items/Gems/SkillGemArcaneLink":{
+    "baseTypeName":"Arcane Link",
+    "gameId":"Metadata/Items/Gems/SkillGemArcaneLink",
+    "grantedEffectId":"ArcaneLink",
+    "name":"Arcane Link",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Spell, Duration, Link, Lightning, Arcane",
+    "tags":{
+      "arcane":true,
+      "duration":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "lightning":true,
+      "link":true,
+      "spell":true
+    },
+    "variantId":"ArcaneLink"
+  },
   "Metadata/Items/Gems/SkillGemArcticArmour":{
     "baseTypeName":"Arctic Armour",
     "gameId":"Metadata/Items/Gems/SkillGemNewArcticArmour",
@@ -1551,6 +1572,24 @@
       "strength":true
     },
     "variantId":"ChainHook"
+  },
+  "Metadata/Items/Gems/SkillGemChainHookAltX":{
+    "baseTypeName":"Chain Hook of Angling",
+    "gameId":"Metadata/Items/Gems/SkillGemChainHook",
+    "grantedEffectId":"ChainHookAltX",
+    "name":"Chain Hook of Angling",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":0,
+    "reqStr":100,
+    "tagString":"Attack, Melee",
+    "tags":{
+      "attack":true,
+      "grants_active_skill":true,
+      "melee":true,
+      "strength":true
+    },
+    "variantId":"ChainHookAltX"
   },
   "Metadata/Items/Gems/SkillGemChainHookAltY":{
     "baseTypeName":"Chain Hook of Trarthus",
@@ -3454,6 +3493,27 @@
       "spell":true
     },
     "variantId":"Fireball"
+  },
+  "Metadata/Items/Gems/SkillGemFireballAltX":{
+    "baseTypeName":"Fireball of Radiation",
+    "gameId":"Metadata/Items/Gems/SkillGemFireball",
+    "grantedEffectId":"FireballAltX",
+    "name":"Fireball of Radiation",
+    "naturalMaxLevel":20,
+    "reqDex":0,
+    "reqInt":100,
+    "reqStr":0,
+    "tagString":"Projectile, Spell, AoE, Duration, Fire",
+    "tags":{
+      "area":true,
+      "duration":true,
+      "fire":true,
+      "grants_active_skill":true,
+      "intelligence":true,
+      "projectile":true,
+      "spell":true
+    },
+    "variantId":"FireballAltX"
   },
   "Metadata/Items/Gems/SkillGemFirestorm":{
     "baseTypeName":"Firestorm",

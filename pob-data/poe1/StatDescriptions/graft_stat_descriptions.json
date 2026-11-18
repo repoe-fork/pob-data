@@ -461,14 +461,10 @@
     "stats":["graft_skill_damaging_ailments_deal_damage_+%_faster"],
     "1":[{
         "limit":[["#","#"]],
-        "text":"Damaging Ailments inflicted by Skills used by this Graft deal damage {0}% faster",
+        "text":"Damaging Ailments inflicted by Skills used by this Graft deal Damage {0}% Faster",
         "1":{
           "k":"reminderstring",
           "v":"ReminderTextDamagingAilments"
-        },
-        "2":{
-          "k":"reminderstring",
-          "v":"ReminderTextDealsDamageFaster"
         }
       }]
   },
@@ -764,18 +760,10 @@
     "stats":["graft_skill_minions_%_chance_to_blind_on_hit"],
     "1":[{
         "limit":[[1,99]],
-        "text":"Minions summoned by this Graft have {0}% chance to Blind on Hit",
-        "1":{
-          "k":"reminderstring",
-          "v":"ReminderTextBlind"
-        }
+        "text":"Minions summoned by this Graft have {0}% chance to Blind on Hit"
       },{
         "limit":[[100,"#"]],
-        "text":"Minions summoned by this Graft Blind on Hit",
-        "1":{
-          "k":"reminderstring",
-          "v":"ReminderTextBlind"
-        }
+        "text":"Minions summoned by this Graft Blind on Hit"
       }]
   },
   "52":{
@@ -1248,15 +1236,8 @@
   "95":{
     "stats":["item_found_rarity_+%_from_brequel_monsters"],
     "1":[{
-        "limit":[[1,"#"]],
-        "text":"{0}% increased Rarity of Items found from Hiveborn Monsters"
-      },{
-        "limit":[["#",-1]],
-        "text":"{0}% reduced Rarity of Items found from Hiveborn Monsters",
-        "1":{
-          "k":"negate",
-          "v":1
-        }
+        "limit":[["#","#"]],
+        "text":"{0:+d}% to Item Rarity from Hiveborn Monsters"
       }]
   },
   "96":{

@@ -123,11 +123,7 @@
     "stats":["chance_to_blind_on_hit_%_with_tinctured_weapons"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"{0}% chance to Blind Enemies on Hit with Melee Weapons",
-        "1":{
-          "k":"reminderstring",
-          "v":"ReminderTextBlind"
-        }
+        "text":"{0}% chance to Blind Enemies on Hit with Melee Weapons"
       }]
   },
   "4":{
@@ -158,8 +154,8 @@
   "6":{
     "stats":["item_rarity_+%_per_toxicity_up_to_100%_from_tincture"],
     "1":[{
-        "limit":[[1,"#"]],
-        "text":"{0}% increased Rarity of Items found per Mana Burn, up to a maximum of 100%"
+        "limit":[["#","#"]],
+        "text":"{0:+d}% to Item Rarity per Mana Burn, up to a maximum of 100%"
       }]
   },
   "7":{
@@ -227,15 +223,8 @@
   "13":{
     "stats":["base_killed_monster_from_tinctured_weapon_attack_dropped_item_rarity_+%"],
     "1":[{
-        "limit":[[1,"#"]],
-        "text":"{0}% increased Rarity of Items Dropped by Enemies killed by Melee Weapon Attacks"
-      },{
-        "limit":[["#",-1]],
-        "text":"{0}% reduced Rarity of Items Dropped by Enemies killed by Melee Weapon Attacks",
-        "1":{
-          "k":"negate",
-          "v":1
-        }
+        "limit":[["#","#"]],
+        "text":"{0:+d}% to Rarity of Items Dropped from Enemies killed by Melee Weapon Attacks"
       }]
   },
   "14":{
@@ -264,21 +253,13 @@
     "stats":["blind_effect_+%_with_tinctured_weapons"],
     "1":[{
         "limit":[[1,"#"]],
-        "text":"{0}% increased Effect of Blind from Melee Weapons",
-        "1":{
-          "k":"reminderstring",
-          "v":"ReminderTextBlindNoDuration"
-        }
+        "text":"{0}% increased Effect of Blind from Melee Weapons"
       },{
         "limit":[["#",-1]],
         "text":"{0}% reduced Effect of Blind from Melee Weapons",
         "1":{
           "k":"negate",
           "v":1
-        },
-        "2":{
-          "k":"reminderstring",
-          "v":"ReminderTextBlindNoDuration"
         }
       }]
   },
@@ -1172,18 +1153,10 @@
     "stats":["tinctured_weapon_kill_chance_to_gain_onslaught_on_kill_for_10_seconds_%"],
     "1":[{
         "limit":[[1,99]],
-        "text":"{0}% chance to gain Onslaught for 10 seconds on Killing Blow with Melee Weapons",
-        "1":{
-          "k":"reminderstring",
-          "v":"ReminderTextOnslaught"
-        }
+        "text":"{0}% chance to gain Onslaught for 10 seconds on Killing Blow with Melee Weapons"
       },{
         "limit":[[100,"#"]],
-        "text":"Gain Onslaught for 10 seconds on Killing Blow with Melee Weapons",
-        "1":{
-          "k":"reminderstring",
-          "v":"ReminderTextOnslaught"
-        }
+        "text":"Gain Onslaught for 10 seconds on Killing Blow with Melee Weapons"
       }]
   },
   "84":{
